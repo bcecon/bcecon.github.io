@@ -10,7 +10,6 @@ output:
     number_sections: false
 ---
 
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 library(tidyverse)
@@ -58,37 +57,36 @@ blank_year_when_repeated <- function(cv_entry_tibble){
 }
 ```
 
-
 <br>
 
-:::: {style="display: flex;"}
+::: {style="display: flex;"}
+<div>
 
-::: {}
 I view myself as an **applied economist** with interest in the field of **environmental economics** and a particular focus on **climate change policy**. Methodologically, I make use of **econometric/machine learning methods and data science tools** to conduct empirical analysis. I also use computational methods to solve **integrated assessment models (IAM) of climate change** as well as theoretical economic models, such as **dynamic contracts**.
-
 
 My **research** focuses on how to improve **effectiveness of climate policy** at both micro and macro levels. In particular, I am interested in building relevant climate-economy models that analyze **the interaction between economies and the climate under risks arising from (1) climate change and (2) a transition to carbon-neutral economies**.
 
-
-As **a teacher in economics and data science**, my goal is to equip students with the essential tools of machine learning, econometrics, and data science to **think critically about business and socioeconomic real-world issues**. As an instructor, I let students use those analytical tools to deal with important **business strategies, social issues, and individual decision-making**. 
-
+As **a teacher in economics and data science**, my goal is to equip students with the essential tools of machine learning, econometrics, and data science to **think critically about business and socioeconomic real-world issues**. As an instructor, I let students use those analytical tools to deal with important **business strategies, social issues, and individual decision-making**.
 
 Here is my [curriculum vitae](choe_cv.pdf) `r fa("fas fa-file-pdf", fill = "red")`.
 
-<div style="text-align: right"> Last updated: `r Sys.Date()` </div>
+::: {style="text-align: right"}
+Last updated: `r Sys.Date()`
 :::
 
+</div>
 
-::: {}
-![](bchoe20201027.jpg){width=75%}
+<div>
+
+![](bchoe20201027.jpg){width="75%"}
+
+</div>
 :::
-
-::::
-
 
 <br>
 
 # Current Position
+
 ```{r}
 cv_entries %>% 
   filter(type == 'current_positions', is.na(exclude)) %>%
@@ -104,6 +102,7 @@ cv_entries %>%
 <br>
 
 # Education
+
 ```{r}
 cv_entries %>% 
   filter(type == 'education') %>% 
@@ -123,7 +122,9 @@ cv_entries %>%
 <br>
 
 # Research
+
 ## Working papers
+
 ```{r}
 cv_entries %>% 
   filter(type == 'wp') %>% 
@@ -137,6 +138,7 @@ cv_entries %>%
 <br>
 
 ## Work in progress
+
 ```{r}
 cv_entries %>% 
   filter(type == 'wp-progress') %>% 
@@ -147,10 +149,10 @@ cv_entries %>%
   kable_styling( bootstrap_options = c("hover", "condensed")) 
 ```
 
-
 <br>
 
 # Teaching
+
 ```{r}
 cv_entries %>% 
   filter(type == 'teaching') %>% 
@@ -167,7 +169,9 @@ cv_entries %>%
 <br>
 
 # Professional activities
+
 ## Presentations
+
 ```{r}
 cv_entries %>% 
   filter(type == 'presentation') %>% 
@@ -181,6 +185,7 @@ cv_entries %>%
 <br>
 
 ## Memberships
+
 ```{r}
 cv_entries %>% 
   filter(type == 'membership', is.na(exclude)) %>%
@@ -195,6 +200,7 @@ cv_entries %>%
 <br>
 
 # Hornors & Awards
+
 ```{r}
 cv_entries %>% 
   filter(type == 'awards') %>%
@@ -210,10 +216,11 @@ cv_entries %>%
   kable_styling( bootstrap_options = c("hover", "condensed"))   %>% 
   column_spec(1, width = "17%")
 ```
- 
+
 <br>
 
 # Grants and funding
+
 ```{r}
 cv_entries %>% 
   filter(type == 'minor_grants' | type == 'major_grants',
@@ -234,6 +241,7 @@ cv_entries %>%
 <br>
 
 # Service
+
 ```{r}
 cv_entries %>% 
   filter(type == 'service') %>% 
@@ -256,6 +264,7 @@ cv_entries %>%
 <br>
 
 # Miscelaneous
+
 ```{r}
 cv_entries %>% 
   filter(type == 'technical') %>% 
@@ -267,10 +276,10 @@ cv_entries %>%
   column_spec(1, width = "17%")  
 ```
 
-
 <br>
 
 # Non-Academic Experience
+
 ```{r}
 cv_entries %>% 
   filter(type == 'non-academic', is.na(website)) %>% 
@@ -282,5 +291,3 @@ cv_entries %>%
   kable_styling( bootstrap_options = c("hover", "condensed"))   %>% 
   column_spec(1, width = "17%")
 ```
-
-
