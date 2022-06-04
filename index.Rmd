@@ -1,5 +1,5 @@
 ---
-title: " "
+title: "B.H. Choe"
 menu: main
 output: 
   html_document:
@@ -68,9 +68,9 @@ My **research** focuses on how to improve **effectiveness of climate policy** at
 
 As **a teacher in economics and data science**, my goal is to equip students with the essential tools of machine learning, econometrics, and data science to **think critically about business and socioeconomic real-world issues**. As an instructor, I let students use those analytical tools to deal with important **business strategies, social issues, and individual decision-making**.
 
-Here is my [curriculum vitae](choe_cv.pdf) `r fa("fas fa-file-pdf", fill = "red")`. 
+Here is my [curriculum vitae `r fa("fas fa-file-pdf", fill = "red")`](choe_cv.pdf){target="_blank"}. 
 
-Here is my [teaching website](https://bcdanl.github.io).
+Here is my [teaching website <i class="fa fa-external-link" aria-hidden="true"></i>](https://bcdanl.github.io){target="_blank"}.
 
 ::: {style="text-align: right"}
 Last updated: `r Sys.Date()`
