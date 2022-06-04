@@ -1,0 +1,21 @@
+---
+name: "bcecon-website"
+title: "byeong-hak choe"
+output_dir: "."
+theme: style.css
+navbar:
+  title: "B.H. Choe"
+  logo:
+    image: logo.png
+    href: https://bcecon.github.io
+  right:
+    - text: "about"
+      href: index.html
+    - text: "teaching"
+      href: https://bcdanl.github.io
+output:
+  html_document:
+    theme: journal
+    css: style.css
+  
+---
