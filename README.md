@@ -1,2 +1,2 @@
 # B.H. Choe
-https://bcecon.github.io
+See https://bcecon.github.io
