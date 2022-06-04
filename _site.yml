@@ -8,11 +8,27 @@ navbar:
   logo:
     image: logo.png
     href: https://bcecon.github.io
-  right:
+  left:
+    - text: "   "
+      href: 
+    - text: "   "
+      href: 
+    - text: "   "
+      href: 
+    - text: "   "
+      href: 
     - text: "about"
       href: index.html
     - text: "teaching"
       href: https://bcdanl.github.io
+  
+  right:
+    - icon: fa-github
+      href: https://github.com/bcecon
+    - icon: fa-linkedin
+      href: https://www.linkedin.com/in/byeong-hak-choe-28471172/
+    - icon: fa-twitter
+      href: https://twitter.com/climate_econ
 output:
   html_document:
     theme: journal
