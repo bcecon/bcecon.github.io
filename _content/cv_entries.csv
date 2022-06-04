@@ -1,6 +1,6 @@
 type,exclude,date,date_end,what,what_translation,institution,department,where,additional_info,additional_info2,url,slides,video,short_cv,order,academic,professional_2_page,website,one_column_paged,brief_no_pubs,humanities,humanities_description
 current_positions,NA,2021-09-01,present,Lecturer in Data Analytics,NA,NA,NA,"School of Business, SUNY Geneseo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-education,NA,2016-08-26,2021-08-13,Ph.D. in Economics,NA,NA,NA,University of Wyoming,Supervisors: [Chuck Mason](http://www.uwyo.edu/economics/faculty-staff/charles-mason/) and [Thorsten Janus](http://www.uwyo.edu/economics/faculty-staff/thorsten-janus/),Dissertaion: Essays in Political Economy of Climate Change,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
+education,NA,2016-08-26,2021-08-13,Ph.D. in Economics,NA,NA,NA,University of Wyoming,Supervisors: [Chuck Mason](http://www.uwyo.edu/economics/faculty-staff/charles-mason/) and [Thorsten Janus](http://www.uwyo.edu/economics/faculty-staff/thorsten-janus/)<br>Mentors: [Stephen Newbold](http://www.uwyo.edu/economics/faculty-staff/stephen-newbold/index.html) and [Jay Shogren](http://www.uwyo.edu/economics/faculty-staff/jason-shogren/index.html),Dissertaion: Essays in Political Economy of Climate Change,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 education,NA,2014-08-21,2015-12-10,M.Sc. in Economics,NA,NA,NA,Arizona State University,Mentor: [Nick Kuminoff](https://www.public.asu.edu/~nkuminof/),NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 education,NA,2012-08-24,2014-05-22,M.A. in Economics,NA,NA,NA,SUNY Stony Brook,Mentor: [Sandro Brusco](https://www.stonybrook.edu/commcms/economics/people/_bios/BRUSCO.php),NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 education,NA,2006-02-27,2012-02-21,B.Sc. in Applied Mathematics ,NA,NA,NA,"Hanyang University at Ansan, South Korea",NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
@@ -17,7 +17,7 @@ awards,NA,2006-06-21,2011-08-25,Merit-based Scholarships,NA,NA,NA,"Hanyang Unive
 minor_grants,NA,2020-05-15,NA,Summer Augmentation Scholarship for Ph.D. Dissertation Research,NA,NA,NA,University of Wyoming,Conducted online due to the corona pandemic,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 minor_grants,NA,2018-07-02,2019-01-02,Graduate Student Conference Travel Funding,NA,NA,NA,University of Wyoming,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 service,NA,2021-08-11,present,Data Analytics Curriculumn Meetings,NA,NA,NA,"School of Business, SUNY Geneseo",NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
-presentation,NA,2022-06-21,NA,Workshop on Data Science,NA,NA,NA,"Brigham Young University, Provo, Utah",NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
+presentation,NA,2022-06-21,NA,Math Workshop on Data Science,NA,NA,NA,"Brigham Young University, Provo, Utah",NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 presentation,NA,2021-06-01,NA,Online Seminar,NA,NA,NA,"Department of Environmental and Business Economics, University of Southern Denmark",NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 presentation,NA,2019-04-01,NA,University of Wyoming & Colorado State University Economics Graduate Student Symposium,NA,NA,NA,"Laramie, Wyoming",NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 presentation,NA,2019-01-02,NA,"American Economic Association Annual Meeting (poster session),",NA,NA,NA,"Atlanta, Georgia",NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
