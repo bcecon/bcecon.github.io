@@ -57,27 +57,40 @@ img {
 }
 
 
-.p1 {
-  font-family: 'Radio Canada', Verdana, Helvetica, sans-serif;
-}
-
-.p2 {
-  font-family: 'Radio Canada', Verdana, Helvetica, sans-serif;
-}
-
-.p3 {
-  font-family: 'Radio Canada', Verdana, Helvetica, sans-serif;
-}
-
-
 
 .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
     z-index: 2;
     color: #fff;
-    background-color: #337ab7;
-    border-color: #337ab7;
+    background-color: #003896;
+    border-color: #003896;
 }
+
+/* unvisited link */
+a:link {
+  color: #003896;
+}
+
+/* visited link */
+a:visited {
+  color: #003896;
+}
+
+/* mouse over link */
+a:hover {
+  color: #003896;
+}
+
+/* selected link */
+a:active {
+  color: #003896;
+}
+
 
 .author,.title{
     display: none;
+}
+
+.a
+{
+target:tab;
 }

@@ -15,13 +15,11 @@ navbar:
       href: 
     - text: "   "
       href: 
-    - text: "   "
-      href: 
     - text: "about"
       href: index.html
     - text: "teaching"
-      icon: fa-external-link
       href: https://bcdanl.github.io
+      newTab: true
   
   right:
     - icon: fa-github

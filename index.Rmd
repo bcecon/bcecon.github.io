@@ -68,7 +68,7 @@ My **research** focuses on how to improve **effectiveness of climate policy** at
 
 As **a teacher in economics and data science**, my goal is to equip students with the essential tools of machine learning, econometrics, and data science to **think critically about business and socioeconomic real-world issues**. As an instructor, I let students use those analytical tools to deal with important **business strategies, social issues, and individual decision-making**.
 
-Here is my [curriculum vitae `r fa("fas fa-file-pdf", fill = "red")`](choe_cv.pdf){target="_blank"}. 
+Here is my [curriculum vitae `r fa("fas fa-file-pdf", fill = "#003896")`](choe_cv.pdf){target="_blank"}. 
 
 Here is my [teaching website <i class="fa fa-external-link" aria-hidden="true"></i>](https://bcdanl.github.io){target="_blank"}.
 
@@ -130,7 +130,7 @@ cv_entries %>%
 ```{r}
 cv_entries %>% 
   filter(type == 'wp') %>% 
-  mutate(what = str_c("<span class='cv-entry-title'> <u>", what, "</u>&nbsp;</span>  <br> ", additional_info)) %>% 
+  mutate(what = str_c("<span class='cv-entry-title'>", what, "</span>  <br> ", additional_info)) %>% 
   select(type, what) %>% 
   mutate(type = "") %>% 
   kbl(padding = 0, col.names = NULL, escape=FALSE) %>%
@@ -159,7 +159,7 @@ cv_entries %>%
 cv_entries %>% 
   filter(type == 'teaching') %>% 
   mutate(what = ifelse(!is.na(additional_info), 
-    str_c("<span class='cv-entry-title'> <u>", what, "</u>&nbsp; </span><br class='work-break'>", where, "<br>", additional_info),
+    str_c("<span class='cv-entry-title'> <i>", what, "</i>&nbsp; </span><br class='work-break'>", where, "<br>", additional_info),
     str_c("<span class='cv-entry-title'>", what, "</span><br class='work-break'>", where))) %>% 
   select(year, what) %>% 
   kbl(padding = 0, col.names = NULL, escape = FALSE) %>%
