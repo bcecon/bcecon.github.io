@@ -20,6 +20,7 @@ navbar:
     - text: "about"
       href: index.html
     - text: "teaching"
+      icon: fa-external-link
       href: https://bcdanl.github.io
   
   right:

@@ -130,7 +130,7 @@ cv_entries %>%
 ```{r}
 cv_entries %>% 
   filter(type == 'wp') %>% 
-  mutate(what = str_c("<span class='cv-entry-title'> <u>", what, "</u>&nbsp;</span><br> ", additional_info)) %>% 
+  mutate(what = str_c("<span class='cv-entry-title'> <u>", what, "</u>&nbsp;</span>  <br> ", additional_info)) %>% 
   select(type, what) %>% 
   mutate(type = "") %>% 
   kbl(padding = 0, col.names = NULL, escape=FALSE) %>%
@@ -159,7 +159,7 @@ cv_entries %>%
 cv_entries %>% 
   filter(type == 'teaching') %>% 
   mutate(what = ifelse(!is.na(additional_info), 
-    str_c("<span class='cv-entry-title'>", what, "</span><br class='work-break'>", where, "<br>", additional_info),
+    str_c("<span class='cv-entry-title'> <u>", what, "</u>&nbsp; </span><br class='work-break'>", where, "<br>", additional_info),
     str_c("<span class='cv-entry-title'>", what, "</span><br class='work-break'>", where))) %>% 
   select(year, what) %>% 
   kbl(padding = 0, col.names = NULL, escape = FALSE) %>%
