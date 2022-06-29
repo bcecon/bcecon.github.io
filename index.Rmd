@@ -72,7 +72,7 @@ Here is my [curriculum vitae `r fa("fas fa-file-pdf", fill = "#003896")`](choe_c
 
 Here is my [teaching website <i class="fa fa-external-link" aria-hidden="true"></i>](https://bcdanl.github.io){target="_blank"}.
 
-::: {style="text-align: right"}
+::: {style="text-align: right"} 
 Last updated: `r Sys.Date()`
 :::
 
