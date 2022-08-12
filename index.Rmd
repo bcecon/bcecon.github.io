@@ -62,11 +62,11 @@ blank_year_when_repeated <- function(cv_entry_tibble){
 ::: {style="display: flex;"}
 <div>
 
-I view myself as an **applied economist** with interest in the field of **environmental economics** and a particular focus on **climate change policy**. Methodologically, I make use of **econometric/machine learning methods and data science tools** to conduct empirical analysis. I also use computational methods to solve **integrated assessment models (IAM) of climate change** as well as theoretical economic models, such as **dynamic contracts**.
+I view myself as an **applied economist** with interest in **environmental economics** and a particular focus on **climate change**. Methodologically, I make use of **econometric/machine learning methods and data science tools** to conduct empirical analysis. I also use computational methods to solve **integrated assessment models (IAM) of climate change** and theoretical economic models, such as **dynamic contracts**.
 
 My **research** focuses on how to improve **effectiveness of climate policy** at both micro and macro levels. In particular, I am interested in building relevant climate-economy models that analyze **the interaction between economies and the climate under risks arising from (1) climate change and (2) a transition to carbon-neutral economies**.
 
-As **a teacher in economics and data science**, my goal is to equip students with the essential tools of machine learning, econometrics, and data science to **think critically about business and socioeconomic real-world issues**. As an instructor, I let students use those analytical tools to deal with important **business strategies, social issues, and individual decision-making**.
+As **an economics and data science teacher**, my goal is to equip students with the essential tools of machine learning, econometrics, and data science to **think critically about business and real-world socioeconomic issues**. As an instructor, I let students use those tools to deal with important **business strategies, social issues, and individual decision-making**.
 
 Here is my [curriculum vitae `r fa("fas fa-file-pdf", fill = "#003896")`](choe_cv.pdf){target="_blank"}. 
 
