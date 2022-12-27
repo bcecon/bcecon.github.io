@@ -1,0 +1,36 @@
+---
+name: "bcecon-website"
+title: "byeong-hak choe"
+output_dir: "."
+theme: style.css
+navbar:
+  title: "B.H. Choe"
+  logo:
+    image: logo.png
+    href: https://bcecon.github.io
+  left:
+    - text: "   "
+      href: 
+    - text: "   "
+      href: 
+    - text: "   "
+      href: 
+    - text: "about"
+      href: index.html
+    - text: "teaching"
+      href: https://bcdanl.github.io
+      newTab: true
+  
+  right:
+    - icon: fa-github
+      href: https://github.com/bcecon
+    - icon: fa-linkedin
+      href: https://www.linkedin.com/in/byeonghakchoe/
+    - icon: fa-twitter
+      href: https://twitter.com/climate_econ
+output:
+  html_document:
+    theme: journal
+    css: style.css
+  
+---
