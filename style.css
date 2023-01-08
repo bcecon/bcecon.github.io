@@ -34,6 +34,8 @@ td {
 }
 
 
+
+
 .logo img {
     height: 27px;
     width: auto;
@@ -93,26 +95,12 @@ target:tab;
 
 
 
-.col2 {
-    columns: 2 200px;         /* number of columns and width in pixels*/
-    -webkit-columns: 2 200px; /* chrome, safari */
-    -moz-columns: 2 200px;    /* firefox */
-  }
-.col3 {
-    columns: 3 100px;
-    -webkit-columns: 3 100px;
-    -moz-columns: 3 100px;
-  }
-  
-
-
-
 .image-cropper {
-  width: 67%;
+  width: 80%;
   height: auto;
   position: relative;
   overflow: hidden;
-  border-radius: 50%;
+  border-radius: 0px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -140,4 +128,65 @@ img {
   float: right;
   width: 65%;
   text-align: left;
+}
+
+.vl {
+  border-left: 2px solid #F2F2F2;
+  height: 80%;
+  position: relative;
+  left: 35.3%;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0;
+}
+
+.verticalLine {
+        border-left: 4px solid #F2F2F2;
+        height: 500px;
+        position: relative;
+        left: 50%;
+        margin-left: -3px;
+        top: 0;
+      }
+.hLine {
+        border: 2px solid #003896;
+        height: 1px;
+        width: 80%;
+        position: relative;
+        top: 0;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+      }
+
+.h1 {
+  font-size: 40px;
+}
+
+.h2 {
+  font-size: 30px;
+}
+
+.p {
+  font-size: 14px;
+}
+
+
+.navbar-custom {
+    background-color: #ADD8E6;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: black;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: black;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: red;
 }

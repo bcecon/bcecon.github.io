@@ -19,19 +19,33 @@ library(fontawesome)
   <img src="img/bchoe2020.png"  />
 </div>
 
-<br>
+
 **Byeong-Hak Choe**
-<hr size="8" width=100% color="red" />  
+
+<div class="hLine"></div>
+
 **Economics Ph.D.**<br>
 **Lecturer in Data Analytics**<br>
 **School of Business**<br>
 **SUNY Geneseo** 
 
+<h2>
+[`r fa("fas fa-envelope", fill = "#003896")`](mailto: bchoe@geneseo.edu){target="_blank"} [`r fa("github", fill = "#003896")`](https://github.com/bcecon){target="_blank"} [`r fa("linkedin", fill = "#003896")`](https://www.linkedin.com/in/byeong-hak-choe-28471172){target="_blank"} [`r fa("twitter", fill = "#003896")`](https://twitter.com/climate_econ){target="_blank"}
+</h2>
+
 </div>
+
+
 
 <div class="column-center">
 
+
+<div class="verticalLine"></div>
+
 </div>
+
+
+
 
 
 <div class="column-right">
@@ -41,6 +55,6 @@ My **research** focuses on how to improve **effectiveness of climate policy** at
 
 As **an economics and data science teacher**, my goal is to equip students with the essential tools of machine learning, econometrics, and data science to **think critically about business and real-world socioeconomic issues**. As an instructor, I let students use those tools to deal with important **business strategies, socioeconomic issues, and individual decision-making**. 
 
-Here is my [curriculum vitae `r fa("fas fa-file-pdf", fill = "#003896")`](choe_cv.pdf){target="_blank"}. 
+Here is my [**curriculum vitae** `r fa("fas fa-file-pdf", fill = "red")` ](choe_cv.pdf){target="_blank"}. 
 </div>
 
