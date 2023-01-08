@@ -173,20 +173,30 @@ img {
 }
 
 
-.navbar-custom {
+/*.navbar-custom {
     background-color: #ADD8E6;
+}*/
+
+
+.navbar-custom .navbar-text {
+    color: #003896;
 }
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-    color: black;
+    color: #003896;
+}
+/* change the collapse and text color */
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-text {
+    color: #003896;
 }
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
-    color: black;
+    color: #003896;
 }
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-    color: red;
+    color: #003896;
 }
