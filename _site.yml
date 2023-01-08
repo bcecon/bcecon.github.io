@@ -9,17 +9,10 @@ navbar:
     image: logo.png
     href: https://bcecon.github.io
   left:
-    - text: "   "
-      href: 
-    - text: "   "
-      href: 
-    - text: "   "
-      href: 
     - text: "about"
       href: index.html
-    - text: "teaching"
-      href: https://bcdanl.github.io
-      newTab: true
+    - text: "cv"
+      href: cv.html
   
   right:
     - icon: fa-github

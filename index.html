@@ -11,9 +11,9 @@
 
 
 
-<title>B.H. Choe</title>
+<title>Data Analytics School of Business, SUNY Geneseo</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
@@ -29,16 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
-<script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
-<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
-<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
@@ -188,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -197,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -236,69 +222,6 @@ $(document).ready(function () {
 
 
 
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-
 
 </head>
 
@@ -306,16 +229,6 @@ div.tocify {
 
 
 <div class="container-fluid main-container">
-
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -334,9 +247,11 @@ div.tocify {
       <ul class="nav navbar-nav">
         <li> <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </br> </li>
         <li><a href="index.html">about</a></li>
+        <li><a href="cv.html">cv</a></li>
         <li><a href="https://bcdanl.github.io" target="_blank">teaching <i class="fas fa-chalkboard-teacher" aria-hidden="true"></i></a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
+        <li><a href="mailto: bchoe@geneseo.edu" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
         <li><a href="https://github.com/bcecon" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
         <li><a href="https://www.linkedin.com/in/byeong-hak-choe-28471172" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
         <li><a href="https://twitter.com/climate_econ" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -349,14 +264,27 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">B.H. Choe</h1>
+<h1 class="title toc-ignore">Data Analytics<br>School of Business, SUNY
+Geneseo</h1>
 
 </div>
 
 
-<p><br></p>
-<div style="display: flex;">
-<div>
+<p><br><br></p>
+<div class="column-left">
+<div class="image-cropper">
+<p><img src="img/bchoe2020.png"  /></p>
+</div>
+<br> <strong>Byeong-Hak Choe</strong>
+<hr size="8" width=100% color="red" />
+<p><strong>Economics Ph.D.</strong><br> <strong>Lecturer in Data
+Analytics</strong><br> <strong>School of Business</strong><br>
+<strong>SUNY Geneseo</strong></p>
+</div>
+<div class="column-center">
+
+</div>
+<div class="column-right">
 <p>I view myself as an <strong>applied economist</strong> with interest
 in <strong>environmental economics</strong> and a particular focus on
 <strong>climate change</strong>. Methodologically, I make use of
@@ -376,548 +304,14 @@ to equip students with the essential tools of machine learning,
 econometrics, and data science to <strong>think critically about
 business and real-world socioeconomic issues</strong>. As an instructor,
 I let students use those tools to deal with important <strong>business
-strategies, social issues, and individual decision-making</strong>.</p>
+strategies, socioeconomic issues, and individual
+decision-making</strong>.</p>
 <p>Here is my <a href="choe_cv.pdf" target="_blank">curriculum vitae
 <svg aria-hidden="true" role="img" viewBox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#003896;overflow:visible;position:relative;"><path d="M88 304H80V256H88C101.3 256 112 266.7 112 280C112 293.3 101.3 304 88 304zM192 256H200C208.8 256 216 263.2 216 272V336C216 344.8 208.8 352 200 352H192V256zM224 0V128C224 145.7 238.3 160 256 160H384V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V64C0 28.65 28.65 0 64 0H224zM64 224C55.16 224 48 231.2 48 240V368C48 376.8 55.16 384 64 384C72.84 384 80 376.8 80 368V336H88C118.9 336 144 310.9 144 280C144 249.1 118.9 224 88 224H64zM160 368C160 376.8 167.2 384 176 384H200C226.5 384 248 362.5 248 336V272C248 245.5 226.5 224 200 224H176C167.2 224 160 231.2 160 240V368zM288 224C279.2 224 272 231.2 272 240V368C272 376.8 279.2 384 288 384C296.8 384 304 376.8 304 368V320H336C344.8 320 352 312.8 352 304C352 295.2 344.8 288 336 288H304V256H336C344.8 256 352 248.8 352 240C352 231.2 344.8 224 336 224H288zM256 0L384 128H256V0z"/></svg></a>.</p>
-<p>Here is my <a href="https://bcdanl.github.io"
-target="_blank">teaching website
-<i class="fa fa-external-link" aria-hidden="true"></i></a>.</p>
-<div style="text-align: right">
-<p>Last updated: 2022-12-17</p>
-</div>
-</div>
-<div>
-<p><img src="bchoe20201027.jpg" style="width:75.0%" /></p>
-</div>
-</div>
-<p><br></p>
-<div id="current-position" class="section level1">
-<h1>Current Position</h1>
-<table class="table table-hover" style="margin-left: auto; margin-right: auto;">
-<tbody>
-<tr>
-<td style="text-align:left;width: 17%; ">
-2021 — present
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title">Lecturer in Data Analytics</span><br>School
-of Business, SUNY Geneseo
-</td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-</div>
-<div id="education" class="section level1">
-<h1>Education</h1>
-<table class="table table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
-<tbody>
-<tr>
-<td style="text-align:left;width: 17%; ">
-2016 — 2021
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title">Ph.D. in Economics</span>, University of
-Wyoming<br>Supervisors: <a
-href="http://www.uwyo.edu/economics/faculty-staff/charles-mason/"
-target="_blank">Chuck Mason</a> and <a
-href="http://www.uwyo.edu/economics/faculty-staff/thorsten-janus/"
-target="_blank">Thorsten Janus</a><br>Mentors: <a
-href="http://www.uwyo.edu/economics/faculty-staff/stephen-newbold/index.html"
-target="_blank">Stephen Newbold</a> and <a
-href="http://www.uwyo.edu/economics/faculty-staff/jason-shogren/index.html"
-target="_blank">Jay Shogren</a><br>Dissertaion: Essays in Political
-Economy of Climate Change
-</td>
-</tr>
-<tr>
-<td style="text-align:left;width: 17%; ">
-2014 — 2015
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title">M.Sc. in Economics</span>, Arizona State
-University<br><br>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;width: 17%; ">
-2012 — 2014
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title">M.A. in Economics</span>, SUNY Stony
-Brook<br><br>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;width: 17%; ">
-2006 — 2012
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title">B.Sc. in Applied Mathematics</span>,
-Hanyang University at Ansan, South Korea<br><br>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;width: 17%; ">
-2006 — 2012
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title">B.A. in Economics</span>, Hanyang
-University at Ansan, South Korea<br><br>
-</td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-</div>
-<div id="research" class="section level1">
-<h1>Research</h1>
-<div id="working-papers" class="section level2">
-<h2>Working papers</h2>
-<table class="table table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
-<tbody>
-<tr>
-<td style="text-align:left;">
-</td>
-<td style="text-align:left;">
-<span
-class="cv-entry-title"><a href="https://drive.google.com/file/d/1D06BOUWBS3Sblr95pnedXlrep0fzY86M/view?usp=sharing" target="_blank">
-Social Media Campaigns, Lobbying and Legislation: Evidence from
-#climatechange/#globalwarming and Energy Lobbies
-<i class="fa fa-file-pdf" aria-hidden="true"></i> </a></span> <br>
-<strong>Abstract</strong>: To what extent do social media campaigns
-compete with fossil fuel lobbying on climate change legislation? In this
-article, I estimate the effect of social media campaigns on a
-congressperson’s legislative activities against climate change actions
-during the U.S. Congresses (January 2013-January 2019). I find that (1)
-a 1% increase in the per-capita level of activities of climate change
-campaigns using Twitter decreases Democrats’ tendency to support
-climate-unfriendly legislation by 0.9%, while it increases Republicans’
-one by 0.2%; and (2) a 1% increase in the fossil fuel industry’s
-lobbying expenditure relative to the rest of industries’ lobbying
-expenditure increases Republicans’ tendency to support
-climate-unfriendly legislation by 1.1%. I also find that negative
-sentiment in social media campaigns contributes to affecting
-congresspersons’ support for climate-unfriendly legislation.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-</td>
-<td style="text-align:left;">
-<span
-class="cv-entry-title"><a href="https://drive.google.com/file/d/1vtWRrVDkYSJvUwhNDfgngnxBOUtIM5wK/view?usp=sharing" target="_blank">
-Climate Finance under Conflicts and Renegotiations: A Dynamic Contract
-Approach <i class="fa fa-file-pdf" aria-hidden="true"></i></a>  
-<a href="https://drive.google.com/file/d/1DC7mB4s_yM7ckt_H2K2g_KaO_EFbkQLC/view?usp=sharing" target="_blank">
-(AEA 2019 poster)
-<i class="fa fa-file-pdf" aria-hidden="true"></i></a></span> <br>
-<strong>Abstract</strong>: Considering climate funds (e.g. the Green
-Climate Fund) as the financial mechanism to provide funding to
-developing countries, this paper examines a long-term climate funding
-relationship between two agents—the rich country and the poor country.
-Conflicts between the rich and poor countries arise when determining 1)
-the size of climate funding that the rich country contributes to the
-poor country, and 2) the funding allocation between climate adaptation
-and mitigation projects in the poor country. In addition, the rich
-country cannot be forced to commit contractual contributions to the poor
-country, and the climate funding relationship can be repeatedly
-renegotiated. This paper derives the following results: (1) climate
-funds converge to the first-best in the long-run, in terms of the size
-of climate funding and its balance between adaptation and mitigation
-projects, if and only if climate damage becomes sufficiently severe. (2)
-funding allocation between adaptation and mitigation projects becomes
-more favorable to the poor country if marginal climate costs in the poor
-country grow faster than in the rich country. (3) fewer conflicts and
-fewer renegotiations between the rich and poor countries make climate
-funding contracts more efficient, remedying inequality between the poor
-and rich countries.
-</td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-</div>
-<div id="work-in-progress" class="section level2">
-<h2>Work in progress</h2>
-<table class="table table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
-<tbody>
-<tr>
-<td style="text-align:left;">
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title"> <u>Hiding Behind a Small Cake’ in an
-Online Dictator Game: The Way You Hide Matters!, (with Tabare Capitan
-(1st author) , Jason Shogren, and Benjamin White)</u> </span><br>
-<strong>Abstract</strong>: Using an online dictator game in which
-receivers have incomplete information of the size of the endowment (big
-or small), the article, ‘’Hiding behind a small cake’ in a newspaper
-dictator game (Ockenfels and Werner (2012))’’ shows that a few givers
-who received the big endowment use their giving to signal they received
-the small endowment (i.e., to lie). In other words, even though a giver
-will never meet the corresponding receiver, he cares enough about how he
-could be perceived by others to lie (i.e., second-order beliefs enters
-his utility function). In our experiment we provide givers with the
-opportunity to lie about the size of the endowment without using their
-giving. Similar to Ockenfels and Werner (2012) we find that (i) few take
-the opportunity to lie—but those who do give less when their giving is
-not constrained by its role as a signal—and (ii) givers are more likely
-to lie when the lie is private. However, using a second stage in the
-experimental design, we show that liars are the most responsive group of
-givers to a simple message stating the expectation of the receiver.
-</td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-</div>
-</div>
-<div id="teaching" class="section level1">
-<h1>Teaching</h1>
-<table class="table table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
-<tbody>
-<tr>
-<td style="text-align:left;width: 17%; ">
-2022
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title"> <i>Instructor, DANL 399: Data Analytics
-Capstone</i>  </span><br class="work-break">SUNY Geneseo<br>Advised
-students’ research project that integrates the technical data analytic
-skills and critical analysis on a business/economics topic
-</td>
-</tr>
-<tr>
-<td style="text-align:left;width: 17%; ">
-2022
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title"> <i>Instructor, DANL 310: Data
-Visualization and Presentation</i>  </span><br class="work-break">SUNY
-Geneseo<br>Taught for data visualization and reproducible paper writing
-on the web.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;width: 17%; ">
-2021
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title"> <i>Instructor, DANL 300: Advanced Data
-Analytics</i>  </span><br class="work-break">SUNY Geneseo<br>Taught for
-machine learning methods (classification, regularized regression, random
-forest, clustering, association rules) using business and economics
-applications
-</td>
-</tr>
-<tr>
-<td style="text-align:left;width: 17%; ">
-2021 — 2022
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title"> <i>Instructor, DANL 210: Data Preparation
-and Management</i>  </span><br class="work-break">SUNY Geneseo<br>Taught
-the tidyverse R package, Python Selenium, Web API, and Google Clouds
-</td>
-</tr>
-<tr>
-<td style="text-align:left;width: 17%; ">
-2021 — 2022
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title"> <i>Instructor, DANL 200: Introduction to
-Data Analytics</i>  </span><br class="work-break">SUNY Geneseo<br>Taught
-for basices in machine learning methods using business and economics
-applications
-</td>
-</tr>
-<tr>
-<td style="text-align:left;width: 17%; ">
-2018
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title"> <i>Instructor, ECON 3010: Intermediate
-Macroeconomics</i>  </span><br class="work-break">University of
-Wyoming<br>Taught (1) the concept of GDP, (2) the causes of economic
-growth and inequality, (3) how goods, labor, and credit markets work,
-(4) the role of the Fed and the monetary system, (5) the theory and
-policymaking for short-run economic fluctuations, (6) the influence of
-international trade and international finance on the domestic economy
-</td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-</div>
-<div id="professional-activities" class="section level1">
-<h1>Professional activities</h1>
-<div id="presentations" class="section level2">
-<h2>Presentations</h2>
-<table class="table table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
-<tbody>
-<tr>
-<td style="text-align:left;width: 17%; ">
-2022
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title">Interdisciplinary Data Science
-Workshop</span>, Brigham Young University, Provo, Utah
-</td>
-</tr>
-<tr>
-<td style="text-align:left;width: 17%; ">
-2021
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title">Online Seminar</span>, Department of
-Environmental and Business Economics, University of Southern Denmark
-</td>
-</tr>
-<tr>
-<td style="text-align:left;width: 17%; ">
-2019
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title">University of Wyoming &amp; Colorado State
-University Economics Graduate Student Symposium</span>, Laramie, Wyoming
-</td>
-</tr>
-<tr>
-<td style="text-align:left;width: 17%; ">
-2019
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title">American Economic Association Annual
-Meeting (poster session),</span>, Atlanta, Georgia
-</td>
-</tr>
-<tr>
-<td style="text-align:left;width: 17%; ">
-2018
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title">The 29th International Conference on Game
-Theory</span>, Stony Brook, New York
-</td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-</div>
-<div id="memberships" class="section level2">
-<h2>Memberships</h2>
-<table class="table table-hover" style="margin-left: auto; margin-right: auto;">
-<tbody>
-<tr>
-<td style="text-align:left;width: 17%; ">
-2018 — present
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title">Association of Environmental and Resource
-Economists</span>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;width: 17%; ">
-2017 — present
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title">American Economic Association</span>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;width: 17%; ">
-2017 — 2019
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title">Econometric Society</span>
-</td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-</div>
-</div>
-<div id="hornors-awards" class="section level1">
-<h1>Hornors &amp; Awards</h1>
-<table class="table table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
-<tbody>
-<tr>
-<td style="text-align:left;width: 17%; ">
-2022
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title">Honorable Mention, Advising the SUNY
-Geneseo team for the Business Analytics Competition</span>, Manhattan
-College
-</td>
-</tr>
-<tr>
-<td style="text-align:left;width: 17%; ">
-2019
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title">H. A. True Chair in Petroleum and Economics
-Scholarship</span>, University of Wyoming
-</td>
-</tr>
-<tr>
-<td style="text-align:left;width: 17%; ">
-<span class="repeated-year">2019</span>
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title">John S. Bugas Economics Scholarship</span>,
-University of Wyoming
-</td>
-</tr>
-<tr>
-<td style="text-align:left;width: 17%; ">
-2018
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title">Ralph d’Arge Scholarship in Natural
-Resource Economics and Finance</span>, University of Wyoming
-</td>
-</tr>
-<tr>
-<td style="text-align:left;width: 17%; ">
-<span class="repeated-year">2018</span>
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title">McMurry Excellence Fund</span>, University
-of Wyoming
-</td>
-</tr>
-<tr>
-<td style="text-align:left;width: 17%; ">
-<span class="repeated-year">2018</span>
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title">Joseph C. and Katherine A. Drew
-Scholarship</span>, University of Wyoming
-</td>
-</tr>
-<tr>
-<td style="text-align:left;width: 17%; ">
-2012
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title">Highest Grade Point Average in Economics
-Class of 2012</span>, Hanyang University at Ansan, South Korea
-</td>
-</tr>
-<tr>
-<td style="text-align:left;width: 17%; ">
-2010
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title">University Tutor of the Excellent Tutoring
-Team</span>, Hanyang University at Ansan, South Korea
-</td>
-</tr>
-<tr>
-<td style="text-align:left;width: 17%; ">
-2006
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title">Merit-based Scholarships</span>, Hanyang
-University at Ansan, South Korea
-</td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-</div>
-<div id="grants-and-funding" class="section level1">
-<h1>Grants and funding</h1>
-<table class="table table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
-<tbody>
-<tr>
-<td style="text-align:left;width: 17%; ">
-2020
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title">Summer Augmentation Scholarship for
-Ph.D. Dissertation Research</span>, University of Wyoming<br>Conducted
-online due to the corona pandemic
-</td>
-</tr>
-<tr>
-<td style="text-align:left;width: 17%; ">
-2018 — 2019
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title">Graduate Student Conference Travel
-Funding</span>, University of Wyoming
-</td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-</div>
-<div id="service" class="section level1">
-<h1>Service</h1>
-<table class="table table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
-<tbody>
-<tr>
-<td style="text-align:left;width: 17%; ">
-2021 — present
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title">Data Analytics Curriculumn
-Meetings</span><br class="work-break">School of Business, SUNY Geneseo
-</td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-</div>
-<div id="miscelaneous" class="section level1">
-<h1>Miscelaneous</h1>
-<table class="table table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
-<tbody>
-<tr>
-<td style="text-align:left;width: 17%; ">
-<span class="cv-entry-title">Computing Skills </span>
-</td>
-<td style="text-align:left;">
-Python, R, Stata, MATLAB, Git, LaTeX, R Markdown
-</td>
-</tr>
-<tr>
-<td style="text-align:left;width: 17%; ">
-<span class="cv-entry-title">Language </span>
-</td>
-<td style="text-align:left;">
-English, Korean (native)
-</td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-</div>
-<div id="non-academic-experience" class="section level1">
-<h1>Non-Academic Experience</h1>
-<table class="table table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
-<tbody>
-<tr>
-<td style="text-align:left;width: 17%; ">
-2007 — 2009
-</td>
-<td style="text-align:left;">
-<span class="cv-entry-title">Completion of Military
-Obligation</span><br class="work-break">Republic of Korea Army, South
-Korea<br>Attained the Rank of Sergeant
-</td>
-</tr>
-</tbody>
-</table>
 </div>
 
 
 
-</div>
-</div>
 
 </div>
 
@@ -950,35 +344,6 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
-<script>
-$(document).ready(function ()  {
-
-    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
-    $('.unlisted.unnumbered').addClass('toc-ignore')
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

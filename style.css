@@ -27,11 +27,6 @@ td {
   text-align: justify;
 }
 
-img {
-  width: 85%;
-  display: block;
-  margin: 0 auto;
-}
 
 .nav-dropbtn { 
   letter-spacing: 2px;
@@ -96,3 +91,53 @@ a:active {
 target:tab;
 }
 
+
+
+.col2 {
+    columns: 2 200px;         /* number of columns and width in pixels*/
+    -webkit-columns: 2 200px; /* chrome, safari */
+    -moz-columns: 2 200px;    /* firefox */
+  }
+.col3 {
+    columns: 3 100px;
+    -webkit-columns: 3 100px;
+    -moz-columns: 3 100px;
+  }
+  
+
+
+
+.image-cropper {
+  width: 175px;
+  height: 175px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+
+.column-left{
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+.column-center{
+  display: inline-block;
+  width: 10%;
+  text-align: center;
+}
+.column-right{
+  float: right;
+  width: 65%;
+  text-align: left;
+}
