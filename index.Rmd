@@ -50,10 +50,14 @@ library(fontawesome)
 
 Welcome to my website!
 
+<br>
 
 I'm an **applied economist** and a **data analytics lecturer** at State University of New York at Geneseo.
 
-I'm interested in **causal inference** with **machine learning**, **climate change**, and **the environment**. 
+My research interest lies in **causal inference** with **machine learning**, **climate change**, and **the environment**. 
+
+My teaching interests are in **economics and data science**. My students use machine learning, econometrics, and data science tools to address important **business strategies**, **public policy**, and **individual decision-making**.
+
 
 <br>
 <br>
