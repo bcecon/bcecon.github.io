@@ -108,8 +108,8 @@ target:tab;
 
 
 .image-cropper {
-  width: 175px;
-  height: 175px;
+  width: 67%;
+  height: auto;
   position: relative;
   overflow: hidden;
   border-radius: 50%;
@@ -120,8 +120,8 @@ target:tab;
 img {
   display: inline;
   margin: 0 auto;
-  height: 100%;
-  width: auto;
+  height: auto%;
+  width: 100%;
 }
 
 
