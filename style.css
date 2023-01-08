@@ -190,3 +190,10 @@ img {
 .navbar-custom .nav.navbar-nav li a {
    color: #003896;
  }
+
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #003896;
+}
