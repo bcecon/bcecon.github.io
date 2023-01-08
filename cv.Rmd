@@ -58,6 +58,19 @@ blank_year_when_repeated <- function(cv_entry_tibble){
 
 <br>
 
+<div>
+I view myself as an **applied economist** with interest in **environmental economics** and a particular focus on **climate change**. Methodologically, I make use of **causal inference/econometrics/machine learning methods**, and **data science tools** to conduct empirical analysis. I also use computational methods to solve **integrated assessment models of climate change** and theoretical economic models, such as **dynamic contracts**.
+
+My **research** focuses on how to improve **effectiveness of climate policy** at both micro and macro levels. In particular, I am interested in building relevant climate-economy models that analyze **the interaction between economies and the climate under risks arising from (1) climate change and (2) a transition to carbon-neutral economies**. 
+
+As **an economics and data science teacher**, my goal is to equip students with the essential tools of machine learning, econometrics, and data science to **think critically about business and real-world socioeconomic issues**. In this regard, I teach students to use those tools to address important **business strategies, socioeconomic issues, and individual decision-making**. 
+
+Here is my [**curriculum vitae** `r fa("fas fa-file-pdf", fill = "red")` ](choe_cv.pdf){target="_blank"}. 
+
+</div>
+
+<br>
+
 
 # Current Position
 

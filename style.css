@@ -14,12 +14,16 @@ body {
   font-variant: normal; 
   line-height: 26.399999618530273px;
   text-align: justify;
-  text-justify: inter-word; } 
+  text-justify: inter-word; 
+  background-image: linear-gradient(to right, #ffffff, #dfe3ee);
+
+} 
   
 div {
   text-align: justify;
   text-justify: inter-word;
   line-height: 1.28;
+  
 }
 
 
@@ -59,28 +63,28 @@ td {
 .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
     z-index: 2;
     color: #fff;
-    background-color: #003896;
-    border-color: #003896;
+    background-color: #3b5998;
+    border-color: #3b5998;
 }
 
 /* unvisited link */
 a:link {
-  color: #003896;
+  color: #3b5998;
 }
 
 /* visited link */
 a:visited {
-  color: #003896;
+  color: #3b5998;
 }
 
 /* mouse over link */
 a:hover {
-  color: #003896;
+  color: #3b5998;
 }
 
 /* selected link */
 a:active {
-  color: #003896;
+  color: #3b5998;
 }
 
 
@@ -128,6 +132,10 @@ img {
   float: right;
   width: 65%;
   text-align: left;
+  font-size: 21px; 
+  line-height: 1.67;
+  font-family: 'Nunito', Verdana, Helvetica, sans-serif;
+
 }
 
 .vl {
@@ -149,7 +157,7 @@ img {
         top: 0;
       }
 .hLine {
-        border: 2px solid #003896;
+        border: 2px solid #3b5998;
         height: 1px;
         width: 80%;
         position: relative;
@@ -158,6 +166,15 @@ img {
   margin-bottom: 5%;
   margin-left: auto;
   margin-right: auto;
+      }
+.hLine2 {
+        border: 2px solid #F2F2F2;
+        height: 1px;
+        width: 50%;
+        position: relative;
+        top: 0;
+  margin-top: 5%;
+  margin-bottom: 5%;
       }
 
 .h1 {
@@ -173,27 +190,29 @@ img {
 }
 
 
-/*.navbar-custom {
-    background-color: #ADD8E6;
-}*/
+.navbar-custom {
+      background-image: linear-gradient(to right, #dfe3ee , #8b9dc3);
+
+}
 
 
 .navbar-custom .navbar-text {
-    color: #003896;
+    color: #3b5998;
 }
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-    color: #003896;
+    color: #3b5998;
 }
 /* change the collapse and text color */
 .navbar-custom .nav.navbar-nav li a {
-   color: #003896;
+   color: #3b5998;
  }
 
 
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-    color: #003896;
+    color: #3b5998;
 }
+/* #003896 */

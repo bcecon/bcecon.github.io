@@ -13,6 +13,8 @@ navbar:
       href: index.html
     - text: "cv"
       href: cv.html
+    - text: "teaching"
+      href: https://bcdanl.github.io
   
   right:
     - icon: fa-github
