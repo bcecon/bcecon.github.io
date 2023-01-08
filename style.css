@@ -15,7 +15,7 @@ body {
   line-height: 26.399999618530273px;
   text-align: justify;
   text-justify: inter-word; 
-  background-image: linear-gradient(to right, #ffffff, #dfe3ee);
+  background-image: linear-gradient(to right, #dfe3ee, #ffffff);
 
 } 
   
@@ -190,8 +190,22 @@ img {
 }
 
 
+
+.br2 {
+        border: 0px solid #3b5998;
+        height: 0px;
+        width: 80%;
+        position: relative;
+        top: 0;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+      }
+
+
 .navbar-custom {
-      background-image: linear-gradient(to right, #dfe3ee , #8b9dc3);
+      background-image: linear-gradient(to right, #3b5998, #dfe3ee);
 
 }
 
@@ -202,17 +216,17 @@ img {
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-    color: #3b5998;
+    color: #f7f7f7;
 }
 /* change the collapse and text color */
 .navbar-custom .nav.navbar-nav li a {
-   color: #3b5998;
+   color: #0b111e;
  }
 
 
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-    color: #3b5998;
+    color: #17233c;
 }
 /* #003896 */
