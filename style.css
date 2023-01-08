@@ -139,7 +139,7 @@ img {
 }
 
 .vl {
-  border-left: 2px solid #F2F2F2;
+  border-left: 2px solid #3b5998;
   height: 80%;
   position: relative;
   left: 35.3%;
@@ -149,7 +149,7 @@ img {
 }
 
 .verticalLine {
-        border-left: 4px solid #F2F2F2;
+        border-left: 4px solid #dfe3ee;
         height: 500px;
         position: relative;
         left: 50%;
