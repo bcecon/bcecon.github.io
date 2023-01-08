@@ -25,7 +25,7 @@ library(fontawesome)
 **Economics Ph.D.**<br>
 **Lecturer in Data Analytics**<br>
 **School of Business**<br>
-**SUNY Geneseo** 
+**SUNY Geneseo**
 
 </div>
 
