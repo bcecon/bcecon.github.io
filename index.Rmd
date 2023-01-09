@@ -51,7 +51,7 @@ Welcome to my website!
 
 <div class="br2"></div>
 
-I'm an **applied economist** and a **data analytics lecturer** at State University of New York at Geneseo.
+I'm an **applied economist** and a **data analytics teacher** at State University of New York at Geneseo.
 
 <!-- <div class="br2"></div> -->
 
