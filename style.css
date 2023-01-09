@@ -28,10 +28,21 @@
 
 
 /* change the color of active or hovered links */
-.navbar-custom .nav-item.active .nav-link,
+/*.navbar-custom .nav.navbar-nav li active {
+   color: black;
+ }*/
+ 
+/*.navbar-custom .nav.navbar-nav li active { 
+    background-color: black ; 
+}*/
+/*.navbar-custom .nav.navbar-nav.active { 
+    background-color: black ; 
+}*/
+ 
+/*.navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
     color: #3b5998;
-}
+}*/
 /* #003896 */
 
 body { 
@@ -132,7 +143,7 @@ target:tab;
   height: auto;
   position: relative;
   overflow: hidden;
-  border-radius: 0px;
+  border-radius: 3px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -161,7 +172,7 @@ img {
   width: 65%;
   text-align: left;
   font-size: 18px; 
-  line-height: 1.5;
+  line-height: 1.367;
 }
 
 .column-left2{
