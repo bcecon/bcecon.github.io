@@ -77,7 +77,7 @@ Here is my [**curriculum vitae** `r fa("fas fa-file-pdf", fill = "red")` ](choe_
 ```{r}
 cv_entries %>% 
   filter(type == 'current_positions', is.na(exclude)) %>%
-  mutate(what = str_c("<span class='cv-entry-title'>", what, "</span><br>", 
+  mutate(what = str_c("<span class='cv-entry-title' style = 'font-weight:bold'>", what, "</span><br>", 
                       where)) %>% 
   select(year, what) %>% 
   kbl(padding = 0, col.names = NULL, escape = FALSE) %>%
@@ -93,7 +93,7 @@ cv_entries %>%
 ```{r}
 cv_entries %>% 
   filter(type == 'education') %>% 
-  mutate(what = str_c( "<span class='cv-entry-title'>", 
+  mutate(what = str_c( "<span class='cv-entry-title' style = 'font-weight:bold'>", 
                               what, "</span>, ", where,
                               "<br>", 
                        ifelse(is.na(additional_info), "", additional_info) 
@@ -115,7 +115,7 @@ cv_entries %>%
 ```{r}
 cv_entries %>% 
   filter(type == 'wp') %>% 
-  mutate(what = str_c("<span class='cv-entry-title'>", what, "</span>  <br> ", additional_info)) %>% 
+  mutate(what = str_c("<span class='cv-entry-title' style = 'font-weight:bold'>", what, "</span>  <br> ", additional_info)) %>% 
   select(type, what) %>% 
   mutate(type = "") %>% 
   kbl(padding = 0, col.names = NULL, escape=FALSE) %>%
@@ -129,7 +129,7 @@ cv_entries %>%
 ```{r}
 cv_entries %>% 
   filter(type == 'wp-progress') %>% 
-  mutate(what = str_c("<span class='cv-entry-title'> <u>", what, "</u>&nbsp;</span><br> ", additional_info)) %>% 
+  mutate(what = str_c("<span class='cv-entry-title' style = 'font-weight:bold'> <u>", what, "</u>&nbsp;</span><br> ", additional_info)) %>% 
   select(type, what) %>% 
   mutate(type = "") %>% 
   kbl(padding = 0, col.names = NULL, escape=FALSE) %>%
@@ -144,8 +144,8 @@ cv_entries %>%
 cv_entries %>% 
   filter(type == 'teaching') %>% 
   mutate(what = ifelse(!is.na(additional_info), 
-    str_c("<span class='cv-entry-title'> <i>", what, "</i>&nbsp; </span><br class='work-break'>", where, "<br>", additional_info),
-    str_c("<span class='cv-entry-title'>", what, "</span><br class='work-break'>", where))) %>% 
+    str_c("<span class='cv-entry-title' style = 'font-weight:bold'> <i>", what, "</i>&nbsp; </span><br class='work-break'>", where, "<br>", additional_info),
+    str_c("<span class='cv-entry-title' style = 'font-weight:bold'>", what, "</span><br class='work-break'>", where))) %>% 
   select(year, what) %>% 
   kbl(padding = 0, col.names = NULL, escape = FALSE) %>%
   kable_styling( bootstrap_options = c("hover", "condensed"))  %>% 
@@ -162,7 +162,7 @@ cv_entries %>%
 ```{r}
 cv_entries %>% 
   filter(type == 'presentation') %>% 
-  mutate(what = str_c("<span class='cv-entry-title'>", what, "</span>, ", where)) %>% 
+  mutate(what = str_c("<span class='cv-entry-title' style = 'font-weight:bold'>", what, "</span>, ", where)) %>% 
   select(year_begin, what) %>% 
   kbl(padding = 0, col.names = NULL, align = c("l", "l"), escape = FALSE) %>%
   kable_styling( bootstrap_options = c("hover", "condensed")) %>% 
@@ -176,7 +176,7 @@ cv_entries %>%
 ```{r}
 cv_entries %>% 
   filter(type == 'membership', is.na(exclude)) %>%
-  mutate(what = str_c("<span class='cv-entry-title'>", what, "</span>")) %>% 
+  mutate(what = str_c("<span class='cv-entry-title' style = 'font-weight:bold'>", what, "</span>")) %>% 
   select(year, what) %>% 
   kbl(padding = 0, col.names = NULL, escape = FALSE) %>%
   kable_styling( bootstrap_options = c("hover"))  %>% 
@@ -194,8 +194,8 @@ cv_entries %>%
   filter(!(website == "n") | is.na(website)) %>% 
   mutate(what = if_else(
     !is.na(where),
-    str_c("<span class='cv-entry-title'>", what, "</span>, ", where),
-    str_c("<span class='cv-entry-title'>", what, "</span>"))
+    str_c("<span class='cv-entry-title' style = 'font-weight:bold'>", what, "</span>, ", where),
+    str_c("<span class='cv-entry-title' style = 'font-weight:bold'>", what, "</span>"))
   ) %>% 
   blank_year_when_repeated() %>% 
   select(year_begin, what) %>% 
@@ -215,8 +215,8 @@ cv_entries %>%
   filter(!(website == "n") | is.na(website)) %>% 
   mutate(what = if_else(
     !is.na(additional_info),
-    str_c("<span class='cv-entry-title'>", what, "</span>, ", where, "<br>", additional_info),
-    str_c("<span class='cv-entry-title'>", what, "</span>, ", where))
+    str_c("<span class='cv-entry-title' style = 'font-weight:bold'>", what, "</span>, ", where, "<br>", additional_info),
+    str_c("<span class='cv-entry-title' style = 'font-weight:bold'>", what, "</span>, ", where))
   ) %>% 
   blank_year_when_repeated() %>% 
   select(year, what) %>% 
@@ -234,10 +234,10 @@ cv_entries %>%
   filter(type == 'service') %>% 
   mutate(where = ifelse(!is.na(url), str_c("[", where, "](", url, ")"), where)) %>% 
   mutate(what = ifelse(!is.na(additional_info),
-                       str_c("<span class='cv-entry-title'>", what,
+                       str_c("<span class='cv-entry-title' style = 'font-weight:bold'>", what,
                       "</span><br class='work-break'>", 
                       where),
-                      str_c("<span class='cv-entry-title'>", what,
+                      str_c("<span class='cv-entry-title' style = 'font-weight:bold'>", what,
                       "</span><br class='work-break'>", 
                       where))) %>% 
   arrange(desc(date_end), desc(date)) %>% 
@@ -255,7 +255,8 @@ cv_entries %>%
 ```{r}
 cv_entries %>% 
   filter(type == 'technical') %>% 
-  mutate(what = str_c("<span class='cv-entry-title'>", what, "&nbsp;</span> ")) %>% 
+  mutate(what = str_c(where, "&nbsp;")) %>% 
+  mutate(additional_info = str_c("<span class='cv-entry-title' style = 'font-weight:bold'>", additional_info, "</span><br class='work-break'>")) %>% 
   select(year, what, additional_info) %>% 
   mutate(year = what) %>% select(-what) %>% 
   kbl(padding = 0, col.names = NULL, escape=FALSE) %>%
@@ -271,7 +272,7 @@ cv_entries %>%
 cv_entries %>% 
   filter(type == 'non-academic', is.na(website)) %>% 
   mutate(additional_info = replace_na(additional_info, "")) %>% 
-  mutate(what = str_c("<span class='cv-entry-title'>", what, "</span><br class='work-break'>", where, "<br>", additional_info)) %>% 
+  mutate(what = str_c("<span class='cv-entry-title' style = 'font-weight:bold'>", what, "</span><br class='work-break'>", where, "<br>", additional_info)) %>% 
   arrange(desc(date)) %>% 
   select(year, what) %>% 
   kbl(padding = 0, col.names = NULL, escape = FALSE) %>%

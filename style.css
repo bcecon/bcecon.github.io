@@ -65,6 +65,13 @@ div {
   
 }
 
+.cv-entry-title { 
+  font-family: 'Nunito', Verdana, Helvetica, sans-serif;
+  font-size: 16px; 
+  color: #3b5998;
+  font-style: normal; 
+  font-variant: bold;
+} 
 
 td {
   text-align: justify;

@@ -25,8 +25,8 @@ membership,NA,2022-10-01,present,Southern Economic Association,NA,NA,NA,NA,NA,NA
 membership,NA,2018-01-01,present,Association of Environmental and Resource Economists,NA,NA,NA,NA,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 membership,NA,2017-04-01,present,American Economic Association,NA,NA,NA,NA,NA,NA,NA,NA,NA,y,NA,NA,y,NA,NA,y,NA,NA
 membership,NA,2017-02-01,2019-12-31,Econometric Society,NA,NA,NA,NA,NA,NA,NA,NA,NA,y,NA,NA,y,NA,NA,y,NA,NA
-technical,NA,NA,NA,Computing Skills,NA,NA,NA,NA,"Python, R, Stata, MATLAB, Git, SQL, LaTeX, R Markdown",NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
-technical,NA,NA,NA,Language,NA,NA,NA,NA,"English, Korean (native)",NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
+technical,NA,NA,NA,NA,NA,NA,NA,Computing Skills,"Python, R, Stata, MATLAB, Git, SQL, LaTeX, R Markdown",NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
+technical,NA,NA,NA,NA,NA,NA,NA,Language,"English, Korean (native)",NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 teaching,NA,2022-01-22,2023-05-21,"Advisor, Business Analytics Competition",NA,NA,NA,Manhattan College,"Honorable Mention in 2022, Advising the SUNY Geneseo team (Jason Rappazzo and James Jordan)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 teaching,NA,2022-01-22,2023-05-21,"Instructor, DANL 399: Data Analytics Capstone",NA,NA,NA,SUNY Geneseo,Advised students' research project that integrates the technical data analytic skills and critical analysis on a business/economics topic,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 teaching,NA,2022-01-22,2023-05-21,"Instructor, DANL 310: Data Visualization and Presentation",NA,NA,NA,SUNY Geneseo,Taught for data visualization and reproducible writing of research papers on the web.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
