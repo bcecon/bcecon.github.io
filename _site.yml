@@ -6,7 +6,7 @@ theme: style.css
 navbar:
   title: "B.H. Choe"
   logo:
-    image: logo.png
+    image: img/logo.png
     href: https://bcecon.github.io
   left:
     - text: "about"
