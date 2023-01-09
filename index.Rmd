@@ -66,10 +66,8 @@ My teaching interests are in **economics and data science**. My students use mac
 <div class="column-left2">
 ### Research Interests
 `r fa("fas fa-tag", fill = "#3b5998")` Climate Change Policy<br>
-`r fa("fas fa-tag", fill = "#3b5998")` Environmental Economics<br>
-`r fa("fas fa-tag", fill = "#3b5998")` Energy Economics<br>
-`r fa("fas fa-tag", fill = "#3b5998")` Causal Inference<br>
-`r fa("fas fa-tag", fill = "#3b5998")` Machine Learning
+`r fa("fas fa-tag", fill = "#3b5998")` Environmental and Energy Economics<br>
+`r fa("fas fa-tag", fill = "#3b5998")` Causal Inference with Machine Learning
 </div>
 
 <div class="column-center2">
