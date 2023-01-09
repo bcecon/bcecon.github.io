@@ -5,7 +5,6 @@ education,NA,2014-08-21,2015-12-10,M.Sc. in Economics,NA,NA,NA,Arizona State Uni
 education,NA,2012-08-24,2014-05-22,M.A. in Economics,NA,NA,NA,SUNY Stony Brook,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 education,NA,2006-02-27,2012-02-21,B.Sc. in Applied Mathematics ,NA,NA,NA,"Hanyang University at Ansan, South Korea",NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 education,NA,2006-02-27,2012-02-21,B.A. in Economics,NA,NA,NA,"Hanyang University at Ansan, South Korea",NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
-awards,NA,2022-04-22,NA,"Honorable Mention, Advising the SUNY Geneseo team for the Business Analytics Competition",NA,NA,NA,Manhattan College,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 awards,NA,2019-09-01,NA,H. A. True Chair in Petroleum and Economics Scholarship,NA,NA,NA,University of Wyoming,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 awards,NA,2019-09-01,NA,John S. Bugas Economics Scholarship,NA,NA,NA,University of Wyoming,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 awards,NA,2018-09-01,NA,Ralph d'Arge Scholarship in Natural Resource Economics and Finance,NA,NA,NA,University of Wyoming,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
@@ -22,11 +21,13 @@ presentation,NA,2021-06-01,NA,Online Seminar,NA,NA,NA,"Department of Environment
 presentation,NA,2019-04-01,NA,University of Wyoming & Colorado State University Economics Graduate Student Symposium,NA,NA,NA,"Laramie, Wyoming",NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 presentation,NA,2019-01-02,NA,American Economic Association Annual Meeting (poster session),NA,NA,NA,"Atlanta, Georgia",NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 presentation,NA,2018-10-23,NA,The 29th International Conference on Game Theory,NA,NA,NA,"Stony Brook, New York",NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
+membership,NA,2022-10-01,present,Southern Economic Association,NA,NA,NA,NA,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 membership,NA,2018-01-01,present,Association of Environmental and Resource Economists,NA,NA,NA,NA,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 membership,NA,2017-04-01,present,American Economic Association,NA,NA,NA,NA,NA,NA,NA,NA,NA,y,NA,NA,y,NA,NA,y,NA,NA
 membership,NA,2017-02-01,2019-12-31,Econometric Society,NA,NA,NA,NA,NA,NA,NA,NA,NA,y,NA,NA,y,NA,NA,y,NA,NA
 technical,NA,NA,NA,Computing Skills,NA,NA,NA,NA,"Python, R, Stata, MATLAB, Git, SQL, LaTeX, R Markdown",NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 technical,NA,NA,NA,Language,NA,NA,NA,NA,"English, Korean (native)",NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
+teaching,NA,2022-01-22,2023-05-21,"Advisor, Business Analytics Competition",NA,NA,NA,Manhattan College,"Honorable Mention, Advising the SUNY Geneseo team for the Business Analytics Competition in 2022",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 teaching,NA,2022-01-22,2023-05-21,"Instructor, DANL 399: Data Analytics Capstone",NA,NA,NA,SUNY Geneseo,Advised students' research project that integrates the technical data analytic skills and critical analysis on a business/economics topic,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 teaching,NA,2022-01-22,2023-05-21,"Instructor, DANL 310: Data Visualization and Presentation",NA,NA,NA,SUNY Geneseo,Taught for data visualization and reproducible writing of research papers on the web.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 teaching,NA,2021-09-01,2023-05-21,"Instructor, DANL 210: Data Preparation and Management",NA,NA,NA,SUNY Geneseo,"Taught the tidyverse R package, Python Pandas, Selenium, Web API, SQL Database and Google Clouds",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
