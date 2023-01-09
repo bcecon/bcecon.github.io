@@ -9,7 +9,7 @@
 
 .navbar-custom {
    /*   background-image: linear-gradient(to right, #3b5998, #7d8daf); */
-      background-image: linear-gradient(to right, #e5e8f1, #f7f7f7);
+      background-image: linear-gradient(to right, #e2e5ef, #ffffff);
 }
 
 
@@ -54,7 +54,7 @@ body {
   line-height: 26.399999618530273px;
   text-align: justify;
   text-justify: inter-word; 
-  background-image: linear-gradient(to right, #e5e8f1, #f7f7f7);
+  background-image: linear-gradient(to right, #e2e5ef, #ffffff);
 
 } 
   

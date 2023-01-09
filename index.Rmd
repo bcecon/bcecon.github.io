@@ -47,9 +47,10 @@ library(fontawesome)
 <div class="column-right">
 
 
-Welcome to my website!
+### Bio
 
 <div class="br2"></div>
+
 
 I'm an **applied economist** and a **data analytics teacher** at State University of New York at Geneseo.
 
