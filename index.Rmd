@@ -1,5 +1,5 @@
 ---
-title: "Byeong-Hak Choe<br>Economics Ph.D."
+title: "Byeong-Hak Choe, Economics Ph.D."
 output:
   html_document:
     css: "style.css"
@@ -24,7 +24,6 @@ library(fontawesome)
 
 <div class="hLine"></div>
 
-**Economics Ph.D.**<br>
 **Lecturer in Data Analytics**<br>
 **School of Business**<br>
 **SUNY Geneseo** 
@@ -54,19 +53,36 @@ Welcome to my website!
 
 I'm an **applied economist** and a **data analytics lecturer** at State University of New York at Geneseo.
 
-<div class="br2"></div>
+<!-- <div class="br2"></div> -->
 
-My research interest lies in **causal inference** with **machine learning**, **climate change**, and **the environment**. 
+<!-- My research interest lies in **causal inference** with **machine learning**, **climate change**, and **the environment**.  -->
 
 <div class="br2"></div>
 
 My teaching interests are in **economics and data science**. My students use machine learning, econometrics, and data science tools to address important **business strategies**, **public policy**, and **individual decision-making**.
 
-
-<br>
-<br>
-<br>
 <br>
 
+<div class="column-left2">
+### Research Interests
+`r fa("fas fa-tag", fill = "#3b5998")` Climate Change Policy<br>
+`r fa("fas fa-tag", fill = "#3b5998")` Environmental Economics<br>
+`r fa("fas fa-tag", fill = "#3b5998")` Energy Economics<br>
+`r fa("fas fa-tag", fill = "#3b5998")` Causal Inference<br>
+`r fa("fas fa-tag", fill = "#3b5998")` Machine Learning
+</div>
+
+<div class="column-center2">
+</div>
+
+<div class="column-right2">
+### Education
+`r fa("fas fa-user-graduate", fill = "#3b5998")` University of Wyoming, 2021<br>
+  - Ph.D. in Economics<br>
+`r fa("fas fa-user-graduate", fill = "#3b5998")` Arizona State University, 2015<br>
+  - M.S. in Economics<br>
+`r fa("fas fa-user-graduate", fill = "#3b5998")` Stony Brook University, 2014<br>
+  - M.A. in Economics
+</div>
 </div>
 
