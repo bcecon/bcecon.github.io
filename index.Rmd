@@ -81,7 +81,10 @@ My teaching interests are in **economics and data science**. My students use mac
 `r fa("fas fa-user-graduate", fill = "#3b5998")` Arizona State University, 2015<br>
   - M.S. in Economics<br> 
 `r fa("fas fa-user-graduate", fill = "#3b5998")` Stony Brook University, 2014<br>
-  - M.A. in Economics
+  - M.A. in Economics<br>
+`r fa("fas fa-user-graduate", fill = "#3b5998")` Hanyang University at Ansan, 2012<br>
+  - B.A. in Economics<br>
+  - B.S. in Applied Mathematics
 </div>
 </div>
 
