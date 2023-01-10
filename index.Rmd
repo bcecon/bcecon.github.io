@@ -60,7 +60,7 @@ I'm an **applied economist** and a **data analytics teacher** at State Universit
 
 <div class="br2"></div>
 
-My teaching interests are in **economics and data science**. My students use machine learning, econometrics, and data science tools to address **business strategies**, **public policy**, and **individual decision-making**.
+My teaching interests are in **economics and data science**. My students uses machine learning, econometrics, and visualization to address **business strategies**, **public policy**, and **individual decision-making**.
 
 <br>
 

@@ -58,8 +58,9 @@ blank_year_when_repeated <- function(cv_entry_tibble){
 
 <br>
 
+# Bio
 <div>
-I view myself as an **applied economist** with interest in **environmental economics** and a particular focus on **climate change**. Methodologically, I make use of **causal inference/econometrics/machine learning methods**, and **data science tools** to conduct empirical analysis. I also use computational methods to solve **integrated assessment models of climate change** and theoretical economic models, such as **dynamic contracts**.
+I view myself as an **applied economist** with interest in **environmental economics** and a particular focus on **climate change**. Methodologically, I make use of **causal inference/econometrics/machine learning methods**, and other **data science tools** to conduct empirical analysis. I also use computational methods to solve **integrated assessment models of climate change** and theoretical economic models, such as **dynamic contracts**.
 
 My **research** focuses on how to improve **effectiveness of climate policy** at both micro and macro levels. In particular, I am interested in building relevant climate-economy models that analyze **the interaction between economies and the climate under risks arising from (1) climate change and (2) a transition to carbon-neutral economies**. 
 
@@ -129,7 +130,7 @@ cv_entries %>%
 ```{r}
 cv_entries %>% 
   filter(type == 'wp-progress') %>% 
-  mutate(what = str_c("<span class='cv-entry-title' style = 'font-weight:bold'> <u>", what, "</u>&nbsp;</span><br> ", additional_info)) %>% 
+  mutate(what = str_c("<span class='cv-entry-title' style = 'font-weight:bold'>", what, "&nbsp;</span><br> ", additional_info)) %>% 
   select(type, what) %>% 
   mutate(type = "") %>% 
   kbl(padding = 0, col.names = NULL, escape=FALSE) %>%
