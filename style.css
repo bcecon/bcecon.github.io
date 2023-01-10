@@ -70,6 +70,10 @@ td {
 }
 
 
+a {
+    color: #4e69a2;
+    font-weight: bold; 
+}
 
 .nav-dropbtn { 
   letter-spacing: 2px;
@@ -102,7 +106,7 @@ td {
 .cv-entry-title { 
   font-family: 'Nunito', Verdana, Helvetica, sans-serif;
   font-size: 16px; 
-  color: #3b5998;
+  color: black;
   font-style: normal; 
   font-variant: normal;
 } 
