@@ -198,7 +198,7 @@ cv_entries %>%
     str_c("<span class='cv-entry-title' style = 'font-weight:bold'>", what, "</span>"))
   ) %>% 
   blank_year_when_repeated() %>% 
-  select(year_begin, what) %>% 
+  select(year, what) %>% 
   kbl(padding = 0, col.names = NULL, align = c("l", "l"), escape = FALSE) %>%
   kable_styling( bootstrap_options = c("hover", "condensed"))   %>% 
   column_spec(1, width = "17%")
