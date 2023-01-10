@@ -124,7 +124,7 @@ td {
 
 
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
-  background-image: linear-gradient(to bottom, #e2e5ef, #ffffff);
+  background-image: linear-gradient(to bottom, #e2e5ef, #f7f7f7);
 }
 
 /* unvisited link */
