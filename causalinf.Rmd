@@ -1,0 +1,123 @@
+---
+title: "Causal Inference"
+subtitle: "" 
+author: 
+  - "Byeong-Hak Choe<br>"
+# date: "`r Sys.Date()`<br><br>"
+output: 
+  html_document:
+    df_print: paged
+    toc: true
+    toc_depth: 2
+    toc_float: true
+    number_sections: false
+    highlight: espresso
+---
+```{r klippy, echo=FALSE, include=TRUE}
+htmltools::tagList(
+  xaringanExtra::use_clipboard(
+    button_text = "<i class=\"fa fa-clipboard\"></i>",
+    success_text = "<i class=\"fa fa-check\" style=\"color: #90BE6D\"></i>",
+  ),
+  rmarkdown::html_dependency_font_awesome()
+)
+
+```
+
+
+
+## Causal Inference with Machine Learning
+<div class="br2"></div>
+
+- MIT 14.388: Inference on Causal and Structural Parameters Using ML and AI in the Department of Economics at MIT taught by Professor Victor Chernozukhov
+  - [R Website](https://d2cml-ai.github.io/14.388_r/intro.html){target="_blank"}
+  - [Python Website](https://d2cml-ai.github.io/14.388_py/intro.html){target="_blank"}
+  - [Julia Website](https://d2cml-ai.github.io/14.388_jl/intro.html){target="_blank"}
+<div class="br2"></div>
+
+- MGTECON 634: ML-based Causal Inference at Stanford taught by Professor Susan Athey
+  - [Website](https://d2cml-ai.github.io/mgtecon634_py/md/intro.html){target="_blank"}
+<div class="br2"></div>
+
+- Causal Inference and Machine Learning in Practice with EconML and CausalML: Industrial Use Cases at Microsoft, TripAdvisor, Uber
+  - [Tutorial](https://causal-machine-learning.github.io/kdd2021-tutorial/){target="_blank"}
+<div class="br2"></div>
+
+- Machine Learning & Causal Inference: A Short Course, taught by Susan Athey and Stefan Wager
+  - [Website](https://gsbdbi.github.io/ml_tutorial/){target="_blank"}
+  - [YouTube](https://www.youtube.com/playlist?list=PLxq_lXOUlvQAoWZEqhRqHNezS30lI49G-){target="_blank"}
+<div class="br2"></div>
+
+- Machine Learning for Economists (ml4econ)
+  - [Website](https://ml4econ.github.io/course-spring2019/index.html)
+<div class="br2"></div>
+
+- EconML: A Python Package for ML-based Heterogeneous Treatment Effects Estimation developed by Microsoft
+  - [GitHub Repository](https://github.com/Microsoft/EconML){target="_blank"}
+<div class="br2"></div>
+
+- CausalML: A Python Package for ML-based Causal Inference developed by Uber
+  - [GitHub Repository](https://github.com/uber/causalml){target="_blank"}
+
+
+<br>
+
+## Causal Inference
+
+<div class="br2"></div>
+
+- Causal Inference: The Mixtape
+  - [Book Website](https://mixtape.scunning.com){target="_blank"}
+<div class="br2"></div>
+
+- Causal Inference for the Brave and True
+  - [Book Website](https://matheusfacure.github.io/python-causality-handbook/landing-page.html){target="_blank"}
+<div class="br2"></div>
+
+- Causal Inference and Its Applications in Online Industry
+  - [Book Website](https://alexdeng.github.io/causal/){target="_blank"}
+<div class="br2"></div>
+
+- Applied Empirical Methods taught by Paul Goldsmith-Pinkham at Yale SOM
+  - [GitHub](https://github.com/paulgp/applied-methods-phd){target="_blank"}
+  - [YouTube](https://www.youtube.com/playlist?list=PLWWcL1M3lLlojLTSVf2gGYQ_9TlPyPbiJ){target="_blank"}
+<div class="br2"></div>
+
+- Causal Inference with Panel Data, taught by Yiqing Xu at Stanford
+  - [YouTube](https://www.youtube.com/playlist?list=PLo0lw6BstMGZQqx_r1GnOETkFYihCgve9){target="_blank"}
+<div class="br2"></div>
+
+- Causal Inference: What If
+  - [Book Website](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/){target="_blank"}
+<div class="br2"></div>
+
+- Recent Developments in Difference-in-Difference Literature
+  - [Website](https://asjadnaqvi.github.io/DiD/){target="_blank"}
+
+<div class="br2"></div>
+
+- Difference-in-Differences Blog
+  - [Website](https://diff.healthpolicydatascience.org){target="_blank"}
+
+<div class="br2"></div>
+
+
+- Harvard Gov 2003: Causal Inference taught by Matthew Blackwell
+  - [Gov 2003: Causal Inference](https://mattblackwell.github.io/gov2003-f21-site/){target="_blank"}
+
+
+<br>
+
+## Researchers in ML-based CI
+<div class="br2"></div>
+
+- [Susan Athey](https://www.gsb.stanford.edu/faculty-research/faculty/susan-athey){target="_blank"}
+- [Alexandre Belloni](https://people.duke.edu/~abn5/belloni-index.html){target="_blank"}
+- [Victor Chernozhukov](https://www.mit.edu/~vchern/){target="_blank"}
+- [Carlos Cinelli](https://carloscinelli.com){target="_blank"}
+- [Christian Hansen](https://voices.uchicago.edu/christianhansen/){target="_blank"}
+- [Guido Imbens](https://www.gsb.stanford.edu/faculty-research/faculty/guido-w-imbens){target="_blank"}
+- [Jann Spiess](https://scholar.harvard.edu/spiess){target="_blank"}
+- [Stefan Wager](https://web.stanford.edu/~swager/index.html)
+
+
