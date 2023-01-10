@@ -26,7 +26,7 @@ htmltools::tagList(
 
 
 
-## Causal Inference with Machine Learning
+## Causal Machine Learning
 <div class="br2"></div>
 
 - [Dive into Causal Machine Learning](https://d2cml-ai.github.io/d2cml.ai/){target="_blank"}
@@ -100,7 +100,7 @@ htmltools::tagList(
 
 <br>
 
-## Researchers in ML-based Causal Inference
+## Researchers in Causal Machine Learning
 <div class="br2"></div>
 
 - [Susan Athey](https://www.gsb.stanford.edu/faculty-research/faculty/susan-athey){target="_blank"}
