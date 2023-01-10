@@ -29,7 +29,7 @@ htmltools::tagList(
 ## Causal Machine Learning
 <div class="br2"></div>
 
-- [Dive into Causal Machine Learning](https://d2cml-ai.github.io/d2cml.ai/){target="_blank"}
+- [Dive into Causal Machine Learning](https://d2cml-ai.github.io/d2cml.ai/){target="_blank"}, The World Bank and Pontificia Universidad Católica del Perú, Alexander Quispe et. al.
 <div class="br2"></div>
 
 - [MIT 14.388: Inference on Causal and Structural Parameters Using ML and AI](https://d2cml-ai.github.io/14.388_r/intro.html){target="_blank"}, Department of Economics, MIT, Victor Chernozukhov
@@ -38,9 +38,6 @@ htmltools::tagList(
 <div class="br2"></div>
 
 - [MGTECON 634: ML-based Causal Inference](https://d2cml-ai.github.io/mgtecon634_py/md/intro.html){target="_blank"}, Stanford, Susan Athey
-<div class="br2"></div>
-
-- [Causal Inference and Machine Learning in Practice with EconML and CausalML: Industrial Use Cases at Microsoft, TripAdvisor, Uber](https://causal-machine-learning.github.io/kdd2021-tutorial/){target="_blank"}
 <div class="br2"></div>
 
 - [Machine Learning & Causal Inference: A Short Course](https://gsbdbi.github.io/ml_tutorial/){target="_blank"}, Stanford, Susan Athey and Stefan Wager
@@ -52,6 +49,10 @@ htmltools::tagList(
 
 
 - [Machine Learning for Economists (ml4econ)](https://ml4econ.github.io/course-spring2019/index.html){target="_blank"}, Bank of Israel, Itamar Caspi and Ariel Mansura
+<div class="br2"></div>
+
+
+- [Causal Inference and Machine Learning in Practice with EconML and CausalML: Industrial Use Cases at Microsoft, TripAdvisor, Uber](https://causal-machine-learning.github.io/kdd2021-tutorial/){target="_blank"}
 <div class="br2"></div>
 
 - [EconML: A Python Package for ML-based Heterogeneous Treatment Effects Estimation](https://github.com/Microsoft/EconML){target="_blank"}, Microsoft
