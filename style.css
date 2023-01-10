@@ -116,9 +116,9 @@ td {
 
 .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
     z-index: 2;
-    color: #fff;
-    background-color: #8b9dc3;
-    border-color: #8b9dc3;
+    color: #f7f7f7;
+    background-color: #96a6c9;
+    border-color: #96a6c9;
     font-weight: bold; 
 }
 
