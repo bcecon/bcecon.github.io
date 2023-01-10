@@ -13,7 +13,9 @@ awards,NA,2018-09-01,NA,Joseph C. and Katherine A. Drew Scholarship,NA,NA,NA,Uni
 awards,NA,2012-02-21,NA,Highest Grade Point Average in Economics Class of 2012,NA,NA,NA,"Hanyang University at Ansan, South Korea",NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 awards,NA,2010-12-15,2011-12-15,University Tutor of the Excellent Tutoring Team,NA,NA,NA,"Hanyang University at Ansan, South Korea",NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 awards,NA,2006-06-21,2011-08-25,Merit-based Scholarships,NA,NA,NA,"Hanyang University at Ansan, South Korea",NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
-minor_grants,NA,2020-05-15,NA,Summer Augmentation Scholarship for Ph.D. Dissertation Research,NA,NA,NA,University of Wyoming,Conducted online due to the corona pandemic,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
+minor_grants,NA,2022-11-15,NA,Conference Travel Funding,NA,NA,NA,SUNY Geneseo,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
+minor_grants,NA,2022-06-15,NA,Workshop Travel Funding,NA,NA,NA,"Brigham Young University, Provo, Utah",NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
+minor_grants,NA,2020-05-15,NA,Summer Augmentation Scholarship for Ph.D. Dissertation Research,NA,NA,NA,University of Wyoming,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 minor_grants,NA,2018-07-02,2019-01-02,Graduate Student Conference Travel Funding,NA,NA,NA,University of Wyoming,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 service,NA,2021-08-11,present,Data Analytics Curriculum Meetings,NA,NA,NA,"School of Business, SUNY Geneseo",NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 presentation,NA,2022-06-21,NA,Interdisciplinary Data Science Workshop,NA,NA,NA,"Brigham Young University, Provo, Utah",NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
@@ -27,7 +29,7 @@ membership,NA,2017-04-01,present,American Economic Association,NA,NA,NA,NA,NA,NA
 membership,NA,2017-02-01,2019-12-31,Econometric Society,NA,NA,NA,NA,NA,NA,NA,NA,NA,y,NA,NA,y,NA,NA,y,NA,NA
 technical,NA,NA,NA,NA,NA,NA,NA,Computing Skills,"Python, R, Stata, MATLAB, Git, SQL, LaTeX, R Markdown",NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 technical,NA,NA,NA,NA,NA,NA,NA,Language,"English, Korean (native)",NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
-teaching,NA,2022-01-22,2023-05-21,"Advisor, Business Analytics Competition",NA,NA,NA,Manhattan College,"Honorable Mention in 2022, Advising the SUNY Geneseo team (Jason Rappazzo and James Jordan)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+teaching,NA,2022-01-22,2023-05-21,"Advisor, Business Analytics Competition",NA,NA,NA,Manhattan College,"Honorable Mention in the 2022 event, Advising the SUNY Geneseo team (Jason Rappazzo and James Jordan)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 teaching,NA,2022-01-22,2023-05-21,"Instructor, DANL 399: Data Analytics Capstone",NA,NA,NA,SUNY Geneseo,Advised students' research project that integrates the technical data analytic skills and critical analysis on a business/economics topic,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 teaching,NA,2022-01-22,2023-05-21,"Instructor, DANL 310: Data Visualization and Presentation",NA,NA,NA,SUNY Geneseo,Taught for data visualization and reproducible writing of research papers on the web.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 teaching,NA,2021-09-01,2023-05-21,"Instructor, DANL 210: Data Preparation and Management",NA,NA,NA,SUNY Geneseo,"Taught the tidyverse R package, Python Pandas, Selenium, Web API, SQL Database and Google Clouds",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
