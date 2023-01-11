@@ -105,12 +105,19 @@ htmltools::tagList(
 <div class="br2"></div>
 
 - [Susan Athey](https://www.gsb.stanford.edu/faculty-research/faculty/susan-athey){target="_blank"}
+<div class="br2"></div>
 - [Alexandre Belloni](https://people.duke.edu/~abn5/belloni-index.html){target="_blank"}
+<div class="br2"></div>
 - [Victor Chernozhukov](https://www.mit.edu/~vchern/){target="_blank"}
+<div class="br2"></div>
 - [Carlos Cinelli](https://carloscinelli.com){target="_blank"}
+<div class="br2"></div>
 - [Christian Hansen](https://voices.uchicago.edu/christianhansen/){target="_blank"}
-- [Guido Imbens](https://www.gsb.stanford.edu/faculty-research/faculty/guido-w-imbens){target="_blank"}
+<div class="br2"></div>
+- [Guido Imbens](https://www.gsb.stanford.edu/faculty-research/faculty/guido-w-imbens){
+target="_blank"}<div class="br2"></div>
 - [Jann Spiess](https://scholar.harvard.edu/spiess){target="_blank"}
+<div class="br2"></div>
 - [Stefan Wager](https://web.stanford.edu/~swager/index.html)
 
 
