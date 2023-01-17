@@ -32,6 +32,8 @@ library(fontawesome)
 [`r fa("fas fa-envelope", fill = "#3b5998")`](mailto: bchoe@geneseo.edu){target="_blank"} [`r fa("github", fill = "#3b5998")`](https://github.com/bcecon){target="_blank"} [`r fa("linkedin", fill = "#3b5998")`](https://www.linkedin.com/in/byeong-hak-choe-28471172){target="_blank"} [`r fa("twitter", fill = "#3b5998")`](https://twitter.com/climate_econ){target="_blank"} [**CV**](choe_cv.pdf){target="_blank"}
 </h2>
 
+<br>
+
 </div>
 
 
@@ -83,5 +85,6 @@ My teaching interests are in **economics and data science**. My students uses ma
 `r fa("fas fa-user-graduate", fill = "#3b5998")` Stony Brook University, 2014<br>
   - M.A. in Economics<br> 
 </div>
+
 </div>
 
