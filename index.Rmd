@@ -68,8 +68,9 @@ My teaching interests are in **economics and data science**. My students uses ma
 
 <div class="column-left2">
 ### Research Interests
-`r fa("fas fa-tag", fill = "#3b5998")` Climate Change Policy<br>
+`r fa("fas fa-tag", fill = "#3b5998")` Economics of Climate Change<br>
 `r fa("fas fa-tag", fill = "#3b5998")` Environmental and Energy Economics<br>
+`r fa("fas fa-tag", fill = "#3b5998")` Applied Economics<br>
 `r fa("fas fa-tag", fill = "#3b5998")` Causal Inference with Machine Learning
 </div>
 
@@ -80,6 +81,7 @@ My teaching interests are in **economics and data science**. My students uses ma
 ### Education
 `r fa("fas fa-user-graduate", fill = "#3b5998")` University of Wyoming, 2021<br>
   - Ph.D. in Economics<br>
+  - Essays on the Political Economy of Climate Change<br>
 `r fa("fas fa-user-graduate", fill = "#3b5998")` Arizona State University, 2015<br>
   - M.S. in Economics<br> 
 `r fa("fas fa-user-graduate", fill = "#3b5998")` Stony Brook University, 2014<br>
