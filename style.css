@@ -127,6 +127,20 @@ a {
 }
 
 
+.list-group-item {
+  background-color: #e5e8f1;
+  border: 0 none;
+  border-top: 10px solid #0091b5;
+  border-top-color: #fff;
+  border-left-color: #fff;
+  border-right-color: #fff;
+}
+
+.list-group-item:hover {
+  background-color: #8b9dc3;
+}
+
+
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
   background-image: linear-gradient(to bottom, #e2e5ef, #f7f7f7);
 }
