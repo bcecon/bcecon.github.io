@@ -27,7 +27,7 @@ navbar:
       href: https://twitter.com/climate_econ
 output:
   html_document:
-    theme: journal
+    theme: sandstone
     css: style.css
   
       # “default”, “bootstrap”, “cerulean”, “cosmo”, “darkly”, “flatly”, 
