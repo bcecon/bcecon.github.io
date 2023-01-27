@@ -138,7 +138,7 @@ a {
 }
 
 .list-group-item:hover {
-  background-color: #8b9dc3;
+  background-color: #e5e8f1;
 }
 
 
@@ -151,9 +151,8 @@ a {
     font-weight: bold; 
 }
 
-
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
-  background-image: linear-gradient(to bottom, #b9c4db, #b9c4db);
+  background-image: linear-gradient(to bottom, #e5e8f1, #e5e8f1);
 }
 
 
