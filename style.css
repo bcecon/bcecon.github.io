@@ -145,7 +145,7 @@ a {
 
 .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
     z-index: 2;
-    color: #3b5998;
+    color: #293e6a;
     background-color: #e5e8f1;
     border-color: #e5e8f1;
     font-weight: bold; 
