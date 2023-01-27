@@ -9,7 +9,7 @@
 
 .navbar-custom {
    /*   background-image: linear-gradient(to right, #3b5998, #7d8daf); */
-      background-image: linear-gradient(to right, #e2e5ef, #ffffff);
+      background-image: linear-gradient(to right, #e2e5ef, #f7f7f7);*/
 }
 
 
@@ -17,8 +17,7 @@
     color: #3b5998;
 }
 /* change the brand and text color */
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-text {
+.navbar-custom .navbar-brand {
     color: #3b5998;
 }
 /* change the collapse and text color */
@@ -51,10 +50,11 @@ body {
   color: black;
   font-style: normal; 
   font-variant: normal; 
-  line-height: 26.399999618530273px;
+  line-height: 26.40px;
   text-align: justify;
   text-justify: inter-word; 
-  background-image: linear-gradient(to right, #e2e5ef, #ffffff);
+  background-image: linear-gradient(to right, #e2e5ef, #f7f7f7);
+/*  background-color: #e5e8f1; */
 
 } 
   
@@ -112,22 +112,21 @@ a {
 } 
 
 
-.list-group-item {
-    z-index: 2;
-    font-weight: bold; 
-}
 
-
-.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
-    z-index: 2;
-    color: #f7f7f7;
-    background-color: #4e69a2;
-    border-color: #4e69a2;
-    font-weight: bold; 
+.tocify{
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-left-color: #3b5998;
+  border-radius: 0px;
+  border-width: 4px;
 }
 
 
 .list-group-item {
+    z-index: 2;
+    font-weight: bold; 
+    color: #9c9ea6;
   background-color: #e5e8f1;
   border: 0 none;
   border-top: 10px solid #0091b5;
@@ -141,9 +140,20 @@ a {
 }
 
 
-.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
-  background-image: linear-gradient(to bottom, #e2e5ef, #f7f7f7);
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #3b5998;
+    background-color: #e5e8f1;
+    border-color: #e5e8f1;
+    font-weight: bold; 
 }
+
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-image: linear-gradient(to bottom, #e2e5ef, #e2e5ef);
+}
+
 
 /* unvisited link */
 a:link {
@@ -289,3 +299,8 @@ img {
   margin-right: auto;
       }
 
+
+/* to fix the width of body and navbar with invisible scrollbar */
+::-webkit-scrollbar {
+    width: 0px;
+}
