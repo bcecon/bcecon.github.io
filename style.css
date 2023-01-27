@@ -126,7 +126,8 @@ a {
 .list-group-item {
     z-index: 2;
     font-weight: bold; 
-    color: #9c9ea6;
+    text-align: left;
+    color: #a2b0cf;
   background-color: #e5e8f1;
   border: 0 none;
   border-top: 10px solid #0091b5;
