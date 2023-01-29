@@ -52,11 +52,11 @@ I'm an **applied economist** and a **data analytics teacher** at State Universit
 
 <!-- <div class="br2"></div> -->
 
-My research interest lies in **environmental and resource economics** and **climate change policy**.
+My research interests lie in **environmental and resource economics** and **climate change policy**.
 
 <div class="br2"></div>
 
-My teaching interest is in **economics and data science**. My students use the tools of machine learning, econometrics, and data visualization to address **business strategies**, **public policy**, and **individual decision-making**.
+My teaching interests are in **economics and data science**. My students use the tools of machine learning, econometrics, and data visualization to address **business strategies**, **public policy**, and **individual decision-making**.
 
 <br>
 
