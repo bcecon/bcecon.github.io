@@ -8,41 +8,48 @@
 
 
 .navbar-custom {
-   /*   background-image: linear-gradient(to right, #3b5998, #7d8daf); */
-      background-image: linear-gradient(to right, #e2e5ef, #f7f7f7);*/
+      background-image: linear-gradient(to right, #e2e5ef, #f7f7f7);
+      font-family: Roboto, Verdana, Helvetica, sans-serif;
 }
 
 
-.navbar-custom .navbar-text {
-    color: #3b5998;
-}
-/* change the brand and text color */
+/* change the brand font */
 .navbar-custom .navbar-brand {
     color: #3b5998;
+    font-size: 18px;
 }
-/* change the collapse and text color */
+
+
+/* change the brand font hover */
+.navbar-custom .navbar-brand:hover {
+    color: black;
+    font-size: 18px;
+}
+
+
+/* change the nav menu text */
 .navbar-custom .nav.navbar-nav li a {
    color: #3b5998;
+   font-size: 16px;
  }
 
+/* change the color of active nav menu active */
+.navbar-custom .nav.navbar-nav li.active a{
+   background-color: #e2e5ef;
+}
 
-/* change the color of active or hovered links */
-/*.navbar-custom .nav.navbar-nav li active {
-   color: black;
- }*/
+/* change the color of active nav menu active hover */
+.navbar-custom .nav.navbar-nav li.active a:hover{
+   color: #3b5998;
+}
  
-/*.navbar-custom .nav.navbar-nav li active { 
-    background-color: black ; 
-}*/
-/*.navbar-custom .nav.navbar-nav.active { 
-    background-color: black ; 
-}*/
- 
-/*.navbar-custom .nav-item.active .nav-link,
-.navbar-custom .nav-item:hover .nav-link {
-    color: #3b5998;
-}*/
-/* #003896 */
+
+/* change the color of nav dropdown menu active */
+.navbar-custom .nav.navbar-nav .dropdown.open a:focus {
+  color:#3b5998;
+  background-color: #e2e5ef;
+}
+
 
 body { 
   font-family: sans-serif, Verdana, Helvetica, sans-serif;
@@ -54,7 +61,6 @@ body {
   text-align: justify;
   text-justify: inter-word; 
   background-image: linear-gradient(to right, #e2e5ef, #f7f7f7);
-/*  background-color: #e5e8f1; */
 
 } 
   
@@ -145,7 +151,7 @@ a {
 
 .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
     z-index: 2;
-    color: #293e6a;
+    color: #2f4779;
     background-color: #e5e8f1;
     border-color: #e5e8f1;
     font-weight: bold; 

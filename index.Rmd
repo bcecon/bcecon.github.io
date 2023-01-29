@@ -11,9 +11,6 @@ knitr::opts_chunk$set(cache = TRUE)
 library(fontawesome)
 ```
 
-
-<br><br>
-
 <div class="column-left">
 
 <div class="image-cropper">
@@ -25,9 +22,9 @@ library(fontawesome)
 
 <div class="hLine"></div>
 
-**Lecturer in Data Analytics**<br>
-**School of Business**<br>
-**SUNY Geneseo** 
+Lecturer in Data Analytics<br>
+School of Business<br>
+SUNY Geneseo 
 
 <h2>
 [`r fa("fas fa-envelope", fill = "#3b5998")`](mailto: bchoe@geneseo.edu){target="_blank"} [`r fa("github", fill = "#3b5998")`](https://github.com/bcecon){target="_blank"} [`r fa("linkedin", fill = "#3b5998")`](https://www.linkedin.com/in/byeong-hak-choe-28471172){target="_blank"} [`r fa("twitter", fill = "#3b5998")`](https://twitter.com/climate_econ){target="_blank"} [**CV**](choe_cv.pdf){target="_blank"}
@@ -59,20 +56,21 @@ I'm an **applied economist** and a **data analytics teacher** at State Universit
 
 <!-- <div class="br2"></div> -->
 
-<!-- My research interest lies in **causal inference** with **machine learning**, **climate change**, and **the environment**.  -->
+My research interest lies in **environmental and resource economics** and **climate change policy**.
 
 <div class="br2"></div>
 
-My teaching interests are in **economics and data science**. My students uses machine learning, econometrics, and visualization to address **business strategies**, **public policy**, and **individual decision-making**.
+My teaching interest is in **economics and data science**. My students use the tools of machine learning, econometrics, and data visualization to address **business strategies**, **public policy**, and **individual decision-making**.
 
 <br>
 
 <div class="column-left2"> 
 ### Research Interests
+`r fa("fas fa-tag", fill = "#3b5998")` Environmental and Resource Economics<br>
 `r fa("fas fa-tag", fill = "#3b5998")` Climate Change Policy<br>
-`r fa("fas fa-tag", fill = "#3b5998")` Environmental and Energy Economics<br>
-`r fa("fas fa-tag", fill = "#3b5998")` Applied Economics<br>
-`r fa("fas fa-tag", fill = "#3b5998")` Causal Inference with Machine Learning
+`r fa("fas fa-tag", fill = "#3b5998")` Energy Economics<br>
+`r fa("fas fa-tag", fill = "#3b5998")` Public Economics<br>
+`r fa("fas fa-wrench", fill = "#3b5998")` Causal Inference, Machine Learning, Text Analysis, Economic Theory
 </div>
 
 <div class="column-center2">
