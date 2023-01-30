@@ -64,6 +64,11 @@ My research interests lie in **environmental and resource economics** and **clim
 
 My teaching interests are in **economics and data science**. My students use the tools of machine learning, econometrics, and data visualization to address **business strategies**, **public policy**, and **individual decision-making**.
 
+<div class="br2"></div>
+
+Here is my [curriculum vitae `r fa("fas fa-file-pdf", fill = "#003896")`](choe_cv.pdf){target="_blank"}. 
+
+
 <br>
 
 <div class="column-left2"> 
