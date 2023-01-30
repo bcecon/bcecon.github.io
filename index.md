@@ -7,6 +7,8 @@ output:
 ---
 
 
+<br>
+
 <div class="column-left">
 
 <div class="image-cropper">

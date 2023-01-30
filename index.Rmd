@@ -11,6 +11,8 @@ knitr::opts_chunk$set(cache = TRUE)
 library(fontawesome)
 ```
 
+<br>
+
 <div class="column-left">
 
 <div class="image-cropper">
