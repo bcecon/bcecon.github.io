@@ -2,7 +2,6 @@
 title: "Byeong-Hak Choe, Economics Ph.D."
 output:
   html_document:
-    keep_md: yes
     css: "style.css"
 ---
 ```{r setup, include=FALSE}
