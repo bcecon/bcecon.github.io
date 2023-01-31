@@ -52,7 +52,7 @@
 
 
 body { 
-  font-family: sans-serif, Verdana, Helvetica, sans-serif;
+  font-family: sans-serif, Verdana, Helvetica;
   font-size: 16px; 
   color: black;
   font-style: normal; 
@@ -111,9 +111,10 @@ a {
 
 
 .cv-entry-title { 
-  font-family: sans-serif, Verdana, Helvetica, sans-serif;
+  font-family: sans-serif, Verdana, Helvetica;
   font-size: 18px; 
   color: black;
+  font-weight: bold;
   font-style: normal; 
   font-variant: normal;
 } 
