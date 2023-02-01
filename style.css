@@ -252,9 +252,9 @@ img {
   line-height: 1.67;
 }
 
-.verticalLine {
+.vline {
         border-left: 4px solid #dfe3ee;
-        height: 550px;
+        height: 625px;
         position: relative;
         left: 50%;
         margin-left: -3px;

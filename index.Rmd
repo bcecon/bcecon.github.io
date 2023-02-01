@@ -40,7 +40,7 @@ SUNY Geneseo
 <div class="column-center">
 
 
-<div class="verticalLine"></div>
+<div class="vline"></div>
 
 </div>
 
