@@ -39,20 +39,18 @@ htmltools::tagList(
   - [Julia Website](https://d2cml-ai.github.io/14.388_jl/intro.html){target="_blank"}
 <div class="br2"></div>
 
-
 - [MGTECON 634: ML-based Causal Inference](https://d2cml-ai.github.io/mgtecon634_py/md/intro.html){target="_blank"}, Stanford, Susan Athey
 <div class="br2"></div>
 
-- [Machine Learning & Causal Inference: A Short Course](https://gsbdbi.github.io/ml_tutorial/){target="_blank"}, Stanford, Susan Athey and Stefan Wager
+- [Machine Learning & Causal Inference: A Short Course](https://www.gsb.stanford.edu/faculty-research/centers-initiatives/sil/research/methods/ai-machine-learning/short-course){target="_blank"}, Stanford, Susan Athey, Jan Spiess, and Stefan Wager
+  - [Tutorial](https://gsbdbi.github.io/ml_tutorial/)
   - [YouTube](https://www.youtube.com/playlist?list=PLxq_lXOUlvQAoWZEqhRqHNezS30lI49G-){target="_blank"}
 <div class="br2"></div>
+
 
 - [2018 American Economic Association Continuing Education: Machine Learning and Econometrics](https://www.aeaweb.org/conference/cont-ed/2018-webcasts){target="_blank"}, Susan Athey and Guido Imbens
 <div class="br2"></div>
 
-
-- [Machine Learning for Economists (ml4econ)](https://ml4econ.github.io/course-spring2019/index.html){target="_blank"}, Bank of Israel, Itamar Caspi and Ariel Mansura
-<div class="br2"></div>
 
 
 - [Causal Inference and Machine Learning in Practice with EconML and CausalML: Industrial Use Cases at Microsoft, TripAdvisor, Uber](https://causal-machine-learning.github.io/kdd2021-tutorial/){target="_blank"}
@@ -67,6 +65,19 @@ htmltools::tagList(
 
 - [CausalML: A Python Package for ML-based Causal Inference](https://github.com/uber/causalml){target="_blank"}, Uber
 
+
+
+<br>
+
+## Machine Learning and Big Data
+<div class="br2"></div>
+
+
+- [2023 American Economic Association Continuing Education: Machine Learning and Big Data](https://www.aeaweb.org/conference/cont-ed/2023-webcasts){target="_blank"}, Melissa Dell and Matthew Harding
+<div class="br2"></div>
+
+- [Machine Learning for Economists (ml4econ)](https://ml4econ.github.io/course-spring2019/index.html){target="_blank"}, Bank of Israel, Itamar Caspi and Ariel Mansura
+<div class="br2"></div>
 
 
 <br>
