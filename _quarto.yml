@@ -11,7 +11,7 @@ website:
     left:
       - text: curriculum vitae
         href: cv.qmd
-      - text: econ & ml bookmarks
+      - text: causal & ml bookmarks
         href: econml.qmd
       - text: teaching
         menu:
@@ -25,6 +25,7 @@ format:
     theme:
       light: flatly
       dark: [darkly, theme-dark.scss]
-    css: custom.css
+    # mainfont: Georgia, serif;
+    mainfont: Gill Sans, sans-serif;
     toc: true
     include-after-body: target_blank.html

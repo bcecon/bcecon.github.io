@@ -153,7 +153,7 @@ cv_entries %>%
 
 <br>
 
-# Professional activities
+# Professional Activities
 
 ## Presentations
 
@@ -204,7 +204,7 @@ cv_entries %>%
 
 <br>
 
-# Grants and funding
+# Grants and Funding
 
 ```{r}
 cv_entries %>% 
