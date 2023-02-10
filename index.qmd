@@ -1,0 +1,41 @@
+---
+title: "Byeong-Hak Choe"
+about:
+  template: solana
+  image: img/bchoe2020.png
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/bcecon
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/byeonghakchoe/
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/climate_econ
+    - icon: envelope
+      text: Email
+      href: mailto:bchoe@geneseo.edu
+---
+
+
+I am an **applied economist** and a **data analytics teacher** at State University of New York at Geneseo.
+
+My research interests lie in **environmental and resource economics**, **energy economics**, and **climate change policy**.
+
+My teaching interests are in **economics and data analytics**. My students use the tools of machine learning, econometrics, and data visualization to address **business strategies**, **public policy**, and **individual decision-making**.
+
+Here is my [**curriculum vitae**](choe_cv.pdf){target="_blank"}. 
+
+## Education
+
+**University of Wyoming**, 2021<br>
+- Ph.D. in Economics<br>
+- Essays on the Political Economy of Climate Change
+
+**Arizona State University**, 2015<br>
+- M.S. in Economics
+
+**Stony Brook University**, 2014<br>
+- M.A. in Economics
+

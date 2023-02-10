@@ -1,10 +1,10 @@
 fnames <- list.files(path=".", 
-                     pattern=".Rmd", 
+                     pattern=".qmd", 
                      all.files=TRUE,
                      full.names=TRUE)
 
 f_render <- function(fname) {
-  rmarkdown::render_site( paste(fname) )
+  quarto::quarto_render( paste(fname) )
 }
 
 for (fname in fnames) {

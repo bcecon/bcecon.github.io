@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Byeong-Hak Choe",
+    "section": "",
+    "text": "I am an applied economist and a data analytics teacher at State University of New York at Geneseo.\nMy research interests lie in environmental and resource economics, energy economics, and climate change policy.\nMy teaching interests are in economics and data analytics. My students use the tools of machine learning, econometrics, and data visualization to address business strategies, public policy, and individual decision-making.\nHere is my curriculum vitae."
+  },
+  {
+    "objectID": "causalinf.html#causal-machine-learning",
+    "href": "causalinf.html#causal-machine-learning",
+    "title": "Causal Inference",
+    "section": "Causal Machine Learning",
+    "text": "Causal Machine Learning\n\n\n\n\nDive into Causal Machine Learning, The World Bank and Pontificia Universidad Católica del Perú, Alexander Quispe et. al.\n\n\n\nMIT 14.388: Inference on Causal and Structural Parameters Using ML and AI, Department of Economics, MIT, Victor Chernozukhov\n\nPython Website\nJulia Website\n\n\n\n\nMGTECON 634: ML-based Causal Inference, Stanford, Susan Athey\n\n\n\nMachine Learning & Causal Inference: A Short Course, Stanford, Susan Athey and Stefan Wager\n\nYouTube\n\n\n\n\n2018 American Economic Association Continuing Education: Machine Learning and Econometrics, Susan Athey and Guido Imbens\n\n\n\nMachine Learning for Economists (ml4econ), Bank of Israel, Itamar Caspi and Ariel Mansura\n\n\n\nCausal Inference and Machine Learning in Practice with EconML and CausalML: Industrial Use Cases at Microsoft, TripAdvisor, Uber\n\n\n\nDoubleML: Python and R Packages for the Double/Debiased Machine Learning Framework, P. Bach, V. Chernozhukov, M. S. Kurz, and M. Spindler\n\n\n\nEconML: A Python Package for ML-based Heterogeneous Treatment Effects Estimation, Microsoft\n\n\n\n\n\nCausalML: A Python Package for ML-based Causal Inference, Uber"
+  },
+  {
+    "objectID": "causalinf.html#causal-inference",
+    "href": "causalinf.html#causal-inference",
+    "title": "Causal Inference",
+    "section": "Causal Inference",
+    "text": "Causal Inference\n\n\n\n\nCausal Inference: The Mixtape, Scott Cunningham\n\n\n\nCausal Inference for the Brave and True, Matheus Facure\n\n\n\nCausal Inference and Its Applications in Online Industry, Alex Deng\n\n\n\nApplied Empirical Methods, Yale SOM, Paul Goldsmith-Pinkham\n\nYouTube\n\n\n\n\nCausal Inference with Panel Data, Department of Political Science, Stanford, Yiqing Xu\n\nYouTube\n\n\n\n\nCausal Inference: What If, Miguel A. Hernán and James M. Robins\n\n\n\nRecent Developments in Difference-in-Differences, Vienna University of Economics and Business, Asjad Naqvi\n\n\n\nDifference-in-Differences Blog\n\n\n\nGov 2003: Causal Inference, Department of Government, Harvard, Matthew Blackwell"
+  },
+  {
+    "objectID": "causalinf.html#researchers-in-causal-machine-learning",
+    "href": "causalinf.html#researchers-in-causal-machine-learning",
+    "title": "Causal Inference",
+    "section": "Researchers in Causal Machine Learning",
+    "text": "Researchers in Causal Machine Learning\n\n\n\n\nSusan Athey\n\n\n\nAlexandre Belloni\n\n\n\nVictor Chernozhukov\n\n\n\nCarlos Cinelli\n\n\n\nChristian Hansen\n\n\n\nGuido Imbens\n\n\n\nJann Spiess\n\n\n\nStefan Wager"
+  },
+  {
+    "objectID": "cv.html#working-papers",
+    "href": "cv.html#working-papers",
+    "title": "B.H. Choe",
+    "section": "Working papers",
+    "text": "Working papers\n\n\n\n\n\n  \n     \n    Social Media Campaigns, Lobbying and Legislation: Evidence from #climatechange/#globalwarming and Energy Lobbies   *Abstract*: To what extent do social media campaigns compete with fossil fuel lobbying on climate change legislation? In this article, I estimate the effect of social media campaigns on a congressperson's legislative activities against climate change actions during the U.S. Congresses (January 2013-January 2019). I find that (1) a 1% increase in the per-capita level of activities of climate change campaigns using Twitter decreases Democrats' tendency to support climate-unfriendly legislation by 0.9%, while it increases Republicans' one by 0.2%; and (2) a 1% increase in the fossil fuel industry's lobbying expenditure relative to the rest of industries' lobbying expenditure increases Republicans' tendency to support climate-unfriendly legislation by 1.1%. I also find that negative sentiment in social media campaigns contributes to affecting congresspersons' support for climate-unfriendly legislation. \n  \n  \n     \n    Climate Finance under Conflicts and Renegotiations: A Dynamic Contract Approach  (AEA 2019 poster)    *Abstract*: Considering climate funds (e.g. the Green Climate Fund) as the financial mechanism to provide funding to developing countries, this paper examines a long-term climate funding relationship between two agents---the rich country and the poor country. Conflicts between the rich and poor countries arise when determining 1) the size of climate funding that the rich country contributes to the poor country, and 2) the funding allocation between climate adaptation and mitigation projects in the poor country. In addition, the rich country cannot be forced to commit contractual contributions to the poor country, and the climate funding relationship can be repeatedly renegotiated. This paper derives the following results: (1) climate funds converge to the first-best in the long-run, in terms of the size of climate funding and its balance between adaptation and mitigation projects, if and only if climate damage becomes sufficiently severe. (2) funding allocation between adaptation and mitigation projects becomes more favorable to the poor country if marginal climate costs in the poor country grow faster than in the rich country. (3) fewer conflicts and fewer renegotiations between the rich and poor countries make climate funding contracts more efficient, remedying inequality between the poor and rich countries."
+  },
+  {
+    "objectID": "cv.html#work-in-progress",
+    "href": "cv.html#work-in-progress",
+    "title": "B.H. Choe",
+    "section": "Work in progress",
+    "text": "Work in progress\n\n\n\n\n\n  \n     \n    Hiding Behind a Small Cake' in an Online Dictator Game: The Way You Hide Matters!, (with Tabare Capitan (1st author) , Jason Shogren, and Benjamin White)  *Abstract*: Using an online dictator game in which receivers have incomplete information of the size of the endowment (big or small), the article, ''Hiding behind a small cake' in a newspaper dictator game (Ockenfels and Werner (2012))'' shows that a few givers who received the big endowment use their giving to signal they received the small endowment (i.e., to lie). In other words, even though a giver will never meet the corresponding receiver, he cares enough about how he could be perceived by others to lie (i.e., second-order beliefs enters his utility function). In our experiment we provide givers with the opportunity to lie about the size of the endowment without using their giving. Similar to Ockenfels and Werner (2012) we find that (i) few take the opportunity to lie---but those who do give less when their giving is not constrained by its role as a signal---and (ii) givers are more likely to lie when the lie is private. However, using a second stage in the experimental design, we show that liars are the most responsive group of givers to a simple message stating the expectation of the receiver."
+  },
+  {
+    "objectID": "cv.html#presentations",
+    "href": "cv.html#presentations",
+    "title": "B.H. Choe",
+    "section": "Presentations",
+    "text": "Presentations\n\n\n\n\n\n  \n    2022 \n    Interdisciplinary Data Science Workshop, Brigham Young University, Provo, Utah \n  \n  \n    2021 \n    Online Seminar, Department of Environmental and Business Economics, University of Southern Denmark \n  \n  \n    2019 \n    University of Wyoming & Colorado State University Economics Graduate Student Symposium, Laramie, Wyoming \n  \n  \n    2019 \n    American Economic Association Annual Meeting (poster session), Atlanta, Georgia \n  \n  \n    2018 \n    The 29th International Conference on Game Theory, Stony Brook, New York"
+  },
+  {
+    "objectID": "cv.html#memberships",
+    "href": "cv.html#memberships",
+    "title": "B.H. Choe",
+    "section": "Memberships",
+    "text": "Memberships\n\n\n\n\n\n  \n    2022 --- present \n    Southern Economic Association \n  \n  \n    2018 --- present \n    Association of Environmental and Resource Economists \n  \n  \n    2017 --- present \n    American Economic Association \n  \n  \n    2017 --- 2019 \n    Econometric Society"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Byeong-Hak Choe",
+    "section": "Education",
+    "text": "Education\nUniversity of Wyoming, 2021 - Ph.D. in Economics - Essays on the Political Economy of Climate Change\nArizona State University, 2015 - M.S. in Economics\nStony Brook University, 2014 - M.A. in Economics"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Byeong-Hak Choe",
+    "section": "Experience",
+    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
+  },
+  {
+    "objectID": "econml.html#causal-machine-learning",
+    "href": "econml.html#causal-machine-learning",
+    "title": "byeong-hak choe",
+    "section": "Causal Machine Learning",
+    "text": "Causal Machine Learning\n\nDive into Causal Machine Learning, The World Bank and Pontificia Universidad Católica del Perú, Alexander Quispe et. al. \nMIT 14.388: Inference on Causal and Structural Parameters Using ML and AI, Department of Economics, MIT, Victor Chernozukhov\n\nPython Website\nJulia Website \n\nMGTECON 634: ML-based Causal Inference, Stanford, Susan Athey \nMachine Learning & Causal Inference: A Short Course, Stanford, Susan Athey, Jan Spiess, and Stefan Wager\n\nTutorial\nYouTube \n\n2018 American Economic Association Continuing Education: Machine Learning and Econometrics, Susan Athey and Guido Imbens \nCausal Inference and Machine Learning in Practice with EconML and CausalML: Industrial Use Cases at Microsoft, TripAdvisor, Uber \nDoubleML: Python and R Packages for the Double/Debiased Machine Learning Framework, P. Bach, V. Chernozhukov, M. S. Kurz, and M. Spindler \nEconML: A Python Package for ML-based Heterogeneous Treatment Effects Estimation, Microsoft\n\n\n\nCausalML: A Python Package for ML-based Causal Inference, Uber"
+  },
+  {
+    "objectID": "econml.html#machine-learning-and-big-data",
+    "href": "econml.html#machine-learning-and-big-data",
+    "title": "byeong-hak choe",
+    "section": "Machine Learning and Big Data",
+    "text": "Machine Learning and Big Data\n\n2023 American Economic Association Continuing Education: Machine Learning and Big Data, Melissa Dell and Matthew Harding \nMachine Learning for Economists (ml4econ), Bank of Israel, Itamar Caspi and Ariel Mansura"
+  },
+  {
+    "objectID": "econml.html#causal-inference",
+    "href": "econml.html#causal-inference",
+    "title": "byeong-hak choe",
+    "section": "Causal Inference",
+    "text": "Causal Inference\n\n\nCausal Inference: The Mixtape, Scott Cunningham \nCausal Inference for the Brave and True, Matheus Facure \nCausal Inference and Its Applications in Online Industry, Alex Deng \nApplied Empirical Methods, Yale SOM, Paul Goldsmith-Pinkham\n\nYouTube \n\nCausal Inference with Panel Data, Department of Political Science, Stanford, Yiqing Xu\n\nYouTube \n\nCausal Inference: What If, Miguel A. Hernán and James M. Robins \nRecent Developments in Difference-in-Differences, Vienna University of Economics and Business, Asjad Naqvi \nDifference-in-Differences Blog \nGov 2003: Causal Inference, Department of Government, Harvard, Matthew Blackwell"
+  },
+  {
+    "objectID": "econml.html#researchers-in-causal-machine-learning",
+    "href": "econml.html#researchers-in-causal-machine-learning",
+    "title": "byeong-hak choe",
+    "section": "Researchers in Causal Machine Learning",
+    "text": "Researchers in Causal Machine Learning\n\nSusan Athey \nAlexandre Belloni \nVictor Chernozhukov \nCarlos Cinelli \nChristian Hansen \nGuido Imbens\nJann Spiess \nStefan Wager"
+  }
+]

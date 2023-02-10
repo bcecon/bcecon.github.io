@@ -1,0 +1,26 @@
+project:
+  type: website
+
+website:
+  title: "byeong-hak choe"
+  navbar:
+    left:
+      - text: curriculum vitae
+        href: cv.qmd
+      - text: econ & ml bookmarks
+        href: econml.qmd
+      - text: teaching
+        menu:
+          - text: spring 2023
+            href: https://bcdanl.github.io
+          - text: teaching portfolio
+            href: https://bc-teaching-portfolio.netlify.app
+
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: [darkly, theme-dark.scss]
+    toc: true
+    include-after-body: target_blank.html
