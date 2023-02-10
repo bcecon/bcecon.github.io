@@ -25,7 +25,7 @@ My research interests lie in **environmental and resource economics**, **energy 
 
 My teaching interests are in **economics and data analytics**. My students use the tools of machine learning, econometrics, and data visualization to address **business strategies**, **public policy**, and **individual decision-making**.
 
-Here is my [**curriculum vitae**](choe_cv.pdf){target="_blank"}. 
+Here is my [**curriculum vitae**](choe-cv.pdf){target="_blank"}. 
 
 ## Education
 
