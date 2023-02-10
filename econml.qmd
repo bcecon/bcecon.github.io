@@ -23,7 +23,7 @@ htmltools::tagList(
 
 ## Causal Machine Learning
 
-- [Dive into Causal Machine Learning](https://d2cml-ai.github.io/d2cml.ai/){target="_blank"}, The World Bank and Pontificia Universidad Católica del Perú, Alexander Quispe et. al. 
+- [Dive into Causal Machine Learning](https://d2cml-ai.github.io/d2cml.ai/){target="_blank"}, The World Bank and Pontificia Universidad Católica del Perú, Alexander Quispe et. al.
 <br>
 
 - [MIT 14.388: Inference on Causal and Structural Parameters Using ML and AI](https://d2cml-ai.github.io/14.388_r/intro.html){target="_blank"}, Department of Economics, MIT, Victor Chernozukhov
