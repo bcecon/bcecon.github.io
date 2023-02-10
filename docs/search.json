@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Byeong-Hak Choe",
     "section": "",
-    "text": "I am an applied economist and a data analytics teacher at State University of New York at Geneseo.\nMy research interests lie in environmental and resource economics, energy economics, and climate change policy.\nMy teaching interests are in economics and data science. My students use the tools of machine learning, econometrics, and data visualization to address business strategies, public policy, and individual decision-making.\nHere is my curriculum vitae."
+    "text": "I am an applied economist and a data analytics teacher at State University of New York at Geneseo.\nMy research interests lie in environmental and resource economics, energy economics, and climate change policy.\nMy teaching interests are in economics and data science. My students use the tools of machine learning, econometrics, and data visualization to address business strategies, public policy, and individual decision-making."
   },
   {
     "objectID": "index.html#education",
@@ -18,7 +18,7 @@
     "href": "econml.html#causal-machine-learning",
     "title": "byeong-hak choe",
     "section": "Causal Machine Learning",
-    "text": "Causal Machine Learning\n\nDive into Causal Machine Learning, The World Bank and Pontificia Universidad Católica del Perú, Alexander Quispe et. al. \nMIT 14.388: Inference on Causal and Structural Parameters Using ML and AI, Department of Economics, MIT, Victor Chernozukhov\n\nPython Website\nJulia Website \n\nMGTECON 634: ML-based Causal Inference, Stanford, Susan Athey \nMachine Learning & Causal Inference: A Short Course, Stanford, Susan Athey, Jan Spiess, and Stefan Wager\n\nTutorial\nYouTube \n\n2018 American Economic Association Continuing Education: Machine Learning and Econometrics, Susan Athey and Guido Imbens \nCausal Inference and Machine Learning in Practice with EconML and CausalML: Industrial Use Cases at Microsoft, TripAdvisor, Uber \nDoubleML: Python and R Packages for the Double/Debiased Machine Learning Framework, P. Bach, V. Chernozhukov, M. S. Kurz, and M. Spindler \nEconML: A Python Package for ML-based Heterogeneous Treatment Effects Estimation, Microsoft\n\n\n\nCausalML: A Python Package for ML-based Causal Inference, Uber"
+    "text": "Causal Machine Learning\n\nDive into Causal Machine Learning, The World Bank and Pontificia Universidad Católica del Perú, Alexander Quispe et. al. \nMIT 14.388: Inference on Causal and Structural Parameters Using ML and AI, Department of Economics, MIT, Victor Chernozukhov\n\nPython Website\nJulia Website \n\nMGTECON 634: ML-based Causal Inference, Stanford, Susan Athey \nMachine Learning & Causal Inference: A Short Course, Stanford, Susan Athey, Jan Spiess, and Stefan Wager\n\nTutorial\nYouTube \n\n2018 American Economic Association Continuing Education: Machine Learning and Econometrics, Susan Athey and Guido Imbens \nCausal Inference and Machine Learning in Practice with EconML and CausalML: Industrial Use Cases at Microsoft, TripAdvisor, Uber \nDoubleML: Python and R Packages for the Double/Debiased Machine Learning Framework, P. Bach, V. Chernozhukov, M. S. Kurz, and M. Spindler \nEconML: A Python Package for ML-based Heterogeneous Treatment Effects Estimation, Microsoft \nCausalML: A Python Package for ML-based Causal Inference, Uber"
   },
   {
     "objectID": "econml.html#machine-learning-and-big-data",
@@ -32,7 +32,7 @@
     "href": "econml.html#causal-inference",
     "title": "byeong-hak choe",
     "section": "Causal Inference",
-    "text": "Causal Inference\n\n\nCausal Inference: The Mixtape, Scott Cunningham \nCausal Inference for the Brave and True, Matheus Facure \nCausal Inference and Its Applications in Online Industry, Alex Deng \nApplied Empirical Methods, Yale SOM, Paul Goldsmith-Pinkham\n\nYouTube \n\nCausal Inference with Panel Data, Department of Political Science, Stanford, Yiqing Xu\n\nYouTube \n\nCausal Inference: What If, Miguel A. Hernán and James M. Robins \nRecent Developments in Difference-in-Differences, Vienna University of Economics and Business, Asjad Naqvi \nDifference-in-Differences Blog \nGov 2003: Causal Inference, Department of Government, Harvard, Matthew Blackwell"
+    "text": "Causal Inference\n\nCausal Inference: The Mixtape, Scott Cunningham \nCausal Inference for the Brave and True, Matheus Facure \nCausal Inference and Its Applications in Online Industry, Alex Deng \nApplied Empirical Methods, Yale SOM, Paul Goldsmith-Pinkham\n\nYouTube \n\nCausal Inference with Panel Data, Department of Political Science, Stanford, Yiqing Xu\n\nYouTube \n\nCausal Inference: What If, Miguel A. Hernán and James M. Robins \nRecent Developments in Difference-in-Differences, Vienna University of Economics and Business, Asjad Naqvi \nDifference-in-Differences Blog \nGov 2003: Causal Inference, Department of Government, Harvard, Matthew Blackwell"
   },
   {
     "objectID": "econml.html#researchers-in-causal-machine-learning",

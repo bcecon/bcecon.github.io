@@ -5,17 +5,15 @@ about:
   image: img/bchoe2020.png
   links:
     - icon: github
-      text: Github
       href: https://github.com/bcecon
     - icon: linkedin
-      text: LinkedIn
       href: https://www.linkedin.com/in/byeonghakchoe/
     - icon: twitter
-      text: Twitter
       href: https://twitter.com/climate_econ
     - icon: envelope
-      text: Email
       href: mailto:bchoe@geneseo.edu
+    - text: CV
+      href: https://bcecon.github.io/choe-cv.pdf
 ---
 
 
@@ -25,7 +23,7 @@ My research interests lie in **environmental and resource economics**, **energy 
 
 My teaching interests are in **economics and data science**. My students use the tools of machine learning, econometrics, and data visualization to address **business strategies**, **public policy**, and **individual decision-making**.
 
-Here is my [**curriculum vitae**](choe-cv.pdf){target="_blank"}. 
+
 
 ## Education
 

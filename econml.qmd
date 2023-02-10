@@ -52,7 +52,6 @@ htmltools::tagList(
 <br>
 
 - [EconML: A Python Package for ML-based Heterogeneous Treatment Effects Estimation](https://github.com/Microsoft/EconML){target="_blank"}, Microsoft
-
 <br>
 
 - [CausalML: A Python Package for ML-based Causal Inference](https://github.com/uber/causalml){target="_blank"}, Uber
@@ -74,8 +73,6 @@ htmltools::tagList(
 <br>
 
 ## Causal Inference
-
-<br>
 
 - [Causal Inference: The Mixtape](https://mixtape.scunning.com){target="_blank"}, Scott Cunningham
 <br>
@@ -113,16 +110,22 @@ htmltools::tagList(
 
 - [Susan Athey](https://www.gsb.stanford.edu/faculty-research/faculty/susan-athey){target="_blank"}
 <br>
+
 - [Alexandre Belloni](https://people.duke.edu/~abn5/belloni-index.html){target="_blank"}
 <br>
+
 - [Victor Chernozhukov](https://www.mit.edu/~vchern/){target="_blank"}
 <br>
+
 - [Carlos Cinelli](https://carloscinelli.com){target="_blank"}
 <br>
+
 - [Christian Hansen](https://voices.uchicago.edu/christianhansen/){target="_blank"}
 <br>
+
 - [Guido Imbens](https://www.gsb.stanford.edu/faculty-research/faculty/guido-w-imbens){
 target="_blank"}<br>
+
 - [Jann Spiess](https://scholar.harvard.edu/spiess){target="_blank"}
 <br>
 - [Stefan Wager](https://web.stanford.edu/~swager/index.html)
