@@ -5,6 +5,7 @@ project:
 website:
   title: "byeong-hak choe"
   navbar:
+    pinned: true
     left:
       - text: curriculum vitae
         href: cv.qmd
