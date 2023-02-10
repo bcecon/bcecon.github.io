@@ -18,7 +18,6 @@ website:
           - text: teaching portfolio
             href: https://bc-teaching-portfolio.netlify.app
 
-
 format:
   html:
     theme:
