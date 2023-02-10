@@ -56,8 +56,6 @@ blank_year_when_repeated <- function(cv_entry_tibble){
 }
 ```
 
-<br>
-
 # Bio
 <div>
 I view myself as an **applied economist** with interest in **environmental economics** and a particular focus on **climate change**. Methodologically, I make use of **causal inference/econometrics/machine learning methods**, and other **data science tools** to conduct empirical analysis. I also use computational methods to solve **integrated assessment models of climate change** and theoretical economic models, such as **dynamic contracts**.
