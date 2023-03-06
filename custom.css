@@ -1,3 +1,8 @@
 .nav-title{
   font-family: fantasy
 }
+
+/* to fix the width of body and navbar with invisible scrollbar */
+::-webkit-scrollbar {
+    width: 0px;
+}
