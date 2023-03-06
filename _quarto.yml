@@ -25,7 +25,7 @@ format:
     theme:
       light: flatly
       dark: [darkly, theme-dark.scss]
-    mainfont: Georgia, serif;
-    # mainfont: Gill Sans, sans-serif;
+    # mainfont: Georgia, serif;
+    mainfont: Gill Sans, sans-serif;
     toc: true
     include-after-body: target_blank.html
