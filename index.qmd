@@ -17,7 +17,7 @@ about:
 ---
 
 
-I am an **applied economist** and a **data analytics teacher** at SUNY Geneseo Business School.
+I am an **applied economist** and a **data analytics teacher** at SUNY Geneseo Business School. 
 
 My research interests lie in **environmental economics**, **energy economics**, and **climate change policy**.
 
