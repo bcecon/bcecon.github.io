@@ -17,9 +17,9 @@ about:
 ---
 
 
-I am an **applied economist** and a **data analytics teacher** at State University of New York at Geneseo.
+I am an **applied economist** and a **data analytics teacher** at SUNY Geneseo Business School.
 
-My research interests lie in **environmental and resource economics**, **energy economics**, and **climate change policy**.
+My research interests lie in **environmental economics**, **energy economics**, and **climate change policy**.
 
 My teaching interests are in **economics and data science**. My students use the tools of machine learning, econometrics, and data visualization to address **business strategies**, **public policy**, and **individual decision-making**.
 
