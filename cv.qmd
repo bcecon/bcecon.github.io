@@ -38,7 +38,7 @@ cv_entries <- read_csv("_content/cv_entries.csv") %>%
   )) %>%
   mutate(year = ifelse((is.na(year_end) | year_begin == year_end),
                       year_begin,
-                      str_c(year_begin, " --- ", year_end)))
+                      str_c(year_begin, "—", year_end)))
 
 
 blank_year_when_repeated <- function(cv_entry_tibble){
@@ -75,6 +75,23 @@ As **an economics and data science teacher**, my goal is to equip students with 
 ```{r}
 cv_entries %>% 
   filter(type == 'current_positions', is.na(exclude)) %>%
+  mutate(what = str_c("<span class='cv-entry-title' style = 'font-weight:bold'>", what, "</span><br>", 
+                      where)) %>% 
+  select(year, what) %>% 
+  kbl(padding = 0, col.names = NULL, escape = FALSE) %>%
+  kable_styling( bootstrap_options = c("hover"))  %>% 
+  column_spec(1, width = "17%")
+
+```
+
+<br>
+
+
+# Previous Employment
+
+```{r}
+cv_entries %>% 
+  filter(type == 'previous_employment', is.na(exclude)) %>%
   mutate(what = str_c("<span class='cv-entry-title' style = 'font-weight:bold'>", what, "</span><br>", 
                       where)) %>% 
   select(year, what) %>% 

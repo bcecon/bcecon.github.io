@@ -1,5 +1,6 @@
 type,exclude,date,date_end,what,what_translation,institution,department,where,additional_info,additional_info2,url,slides,video,short_cv,order,academic,professional_2_page,website,one_column_paged,brief_no_pubs,humanities,humanities_description
-current_positions,NA,2021-09-01,present,Lecturer in Data Analytics,NA,NA,NA,"School of Business, SUNY Geneseo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+current_positions,NA,2023-09-01,present,Assistant Professor of Data Analytics and Economics,NA,NA,NA,"School of Business, SUNY Geneseo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+previous_employment,NA,2021-09-01,2023-08-31,Lecturer in Data Analytics,NA,NA,NA,"School of Business, SUNY Geneseo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 education,NA,2016-08-26,2021-08-13,Ph.D. in Economics,NA,NA,NA,University of Wyoming,"Supervisors: <a href=""http://www.uwyo.edu/economics/faculty-staff/charles-mason/"" target=""_blank"">Chuck Mason</a> and <a href=""http://www.uwyo.edu/economics/faculty-staff/thorsten-janus/"" target=""_blank"">Thorsten Janus</a> <br>Mentors: <a href=""http://www.uwyo.edu/economics/faculty-staff/stephen-newbold/"" target=""_blank"">Stephen Newbold</a> and <a href=""http://www.uwyo.edu/economics/faculty-staff/jason-shogren/"" target=""_blank"">Jay Shogren</a>",Dissertaion: Essays in Political Economy of Climate Change,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 education,NA,2014-08-21,2015-12-10,M.Sc. in Economics,NA,NA,NA,Arizona State University,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 education,NA,2012-08-24,2014-05-22,M.A. in Economics,NA,NA,NA,SUNY Stony Brook,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
@@ -14,7 +15,7 @@ awards,NA,2012-02-21,NA,Highest Grade Point Average in Economics Class of 2012,N
 awards,NA,2010-12-15,2011-12-15,University Tutor of the Excellent Tutoring Team,NA,NA,NA,"Hanyang University at Ansan, South Korea",NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 awards,NA,2006-06-21,2011-08-25,Merit-based Scholarships,NA,NA,NA,"Hanyang University at Ansan, South Korea",NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 minor_grants,NA,2022-11-15,NA,Conference Travel Funding,NA,NA,NA,SUNY Geneseo,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
-minor_grants,NA,2022-06-15,NA,Workshop Travel Funding,NA,NA,NA,"Brigham Young University, Provo, Utah",NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
+minor_grants,NA,2022-06-15,NA,Interdisciplinary Data Science Workshop Travel Funding,NA,NA,NA,"Brigham Young University, Provo, Utah",NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 minor_grants,NA,2020-05-15,NA,Summer Augmentation Scholarship for Ph.D. Dissertation Research,NA,NA,NA,University of Wyoming,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 minor_grants,NA,2018-07-02,2019-01-02,Graduate Student Conference Travel Funding,NA,NA,NA,University of Wyoming,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 service,NA,2021-08-11,present,Data Analytics Curriculum Meetings,NA,NA,NA,"School of Business, SUNY Geneseo",NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
@@ -27,7 +28,7 @@ membership,NA,2022-10-01,present,Southern Economic Association,NA,NA,NA,NA,NA,NA
 membership,NA,2018-01-01,present,Association of Environmental and Resource Economists,NA,NA,NA,NA,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 membership,NA,2017-04-01,present,American Economic Association,NA,NA,NA,NA,NA,NA,NA,NA,NA,y,NA,NA,y,NA,NA,y,NA,NA
 membership,NA,2017-02-01,2019-12-31,Econometric Society,NA,NA,NA,NA,NA,NA,NA,NA,NA,y,NA,NA,y,NA,NA,y,NA,NA
-technical,NA,NA,NA,NA,NA,NA,NA,Computing Skills,"Python, R, Stata, MATLAB, Git, SQL, LaTeX, R Markdown",NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
+technical,NA,NA,NA,NA,NA,NA,NA,Computing Skills,"Python, R, Stata, MATLAB, Git, SQL, LaTeX, Quarto, R Markdown",NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 technical,NA,NA,NA,NA,NA,NA,NA,Language,"English, Korean (native)",NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 teaching,NA,2022-01-22,2023-05-21,"Advisor, Business Analytics Competition",NA,NA,NA,Manhattan College,"Honorable Mention in the 2022 event, Advising the SUNY Geneseo team (Jason Rappazzo and James Jordan)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 teaching,NA,2022-01-22,2023-05-21,"Instructor, DANL 399: Data Analytics Capstone",NA,NA,NA,SUNY Geneseo,Advised students' research project that integrates the technical data analytic skills and critical analysis on a business/economics topic,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
