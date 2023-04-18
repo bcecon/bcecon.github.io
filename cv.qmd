@@ -62,7 +62,7 @@ I view myself as an **applied economist** with interest in **environmental econo
 
 My **research** focuses on how to improve **effectiveness of climate policy** at both micro and macro levels. In particular, I am interested in building relevant climate-economy models that analyze **the interaction between economies and the climate under risks arising from (1) climate change and (2) a transition to carbon-neutral economies**. 
 
-As **an economics and data science teacher**, my goal is to equip students with the essential tools of machine learning, econometrics, and data science to **think critically about business and real-world socioeconomic issues**. In this regard, I teach students to use those tools to address important **business strategies, socioeconomic issues, and individual decision-making**. 
+As **an economics and data science teacher**, my goal is to equip students with the essential tools of machine learning, econometrics, and data science to **think critically about business and real-world socioeconomic issues**. In this regard, I teach students to use those tools to address important **business strategies, socioeconomic issues, and individual decision-making**.
 
 
 </div>
