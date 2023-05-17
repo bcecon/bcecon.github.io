@@ -15,6 +15,10 @@ website:
         href: econml.qmd
       - text: teaching
         menu:
+          - text: dropdown - WB CCKP Historical Temperature
+            href: dropdown_history.html
+          - text: dropdown - WB CCKP Projected Temperature
+            href: dropdown_projection.html
           - text: spring 2023
             href: https://bcdanl.github.io
           - text: teaching portfolio
@@ -28,4 +32,4 @@ format:
     # mainfont: Georgia, serif;
     mainfont: Gill Sans, sans-serif;
     toc: true
-    include-after-body: target_blank.html
+    # include-after-body: target_blank.html
