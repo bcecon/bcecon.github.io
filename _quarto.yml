@@ -17,8 +17,10 @@ website:
         menu:
           - text: dropdown - WB CCKP Historical Temperature
             href: dropdown_history.html
-          - text: dropdown - WB CCKP Projected Temperature
-            href: dropdown_projection.html
+          - text: dropdown - WB CCKP Temperature Projecttion under SSP1-1.9
+            href: dropdown_projection19.html
+          - text: dropdown - WB CCKP Temperature Projecttion under SSP1-2.6
+            href: dropdown_projection26.html
           - text: spring 2023
             href: https://bcdanl.github.io
           - text: teaching portfolio
