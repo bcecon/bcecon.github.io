@@ -2,7 +2,7 @@
 title: "Byeong-Hak Choe" 
 about:
   template: solana
-  image: img/bchoe2020.png
+  image: img/bchoe20230614.jpg
   links:
     - icon: github
       href: https://github.com/bcecon
