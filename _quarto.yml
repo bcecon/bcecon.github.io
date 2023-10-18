@@ -15,7 +15,7 @@ website:
         href: econml.qmd
       - text: teaching
         menu:
-          - text: spring 2023
+          - text: fall 2023
             href: https://bcdanl.github.io
           - text: teaching portfolio
             href: https://bc-teaching-portfolio.netlify.app
@@ -23,8 +23,8 @@ website:
 format:
   html:
     theme:
-      light: flatly
-      dark: [darkly, theme-dark.scss]
+      light: flatly 
+      dark: darkly # [, theme-dark.scss]
     # mainfont: Georgia, serif;
     mainfont: Gill Sans, sans-serif;
     toc: true
