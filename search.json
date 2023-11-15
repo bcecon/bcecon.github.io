@@ -1,5 +1,40 @@
 [
   {
+    "objectID": "colab-welcome.html",
+    "href": "colab-welcome.html",
+    "title": "byeong-hak choe",
+    "section": "",
+    "text": "If you’re already familiar with Colab, check out this video to learn about interactive tables, the executed code history view, and the command palette.\nColab, or “Colaboratory”, allows you to write and execute Python in your browser, with - Zero configuration required - Access to GPUs free of charge - Easy sharing\nWhether you’re a student, a data scientist or an AI researcher, Colab can make your work easier. Watch Introduction to Colab to learn more, or just get started below!\nThe document you are reading is not a static web page, but an interactive environment called a Colab notebook that lets you write and execute code.\nFor example, here is a code cell with a short Python script that computes a value, stores it in a variable, and prints the result:\nTo execute the code in the above cell, select it with a click and then either press the play button to the left of the code, or use the keyboard shortcut “Command/Ctrl+Enter”. To edit the code, just click the cell and start editing.\nVariables that you define in one cell can later be used in other cells:\nColab notebooks allow you to combine executable code and rich text in a single document, along with images, HTML, LaTeX and more. When you create your own Colab notebooks, they are stored in your Google Drive account. You can easily share your Colab notebooks with co-workers or friends, allowing them to comment on your notebooks or even edit them. To learn more, see Overview of Colab. To create a new Colab notebook you can use the File menu above, or use the following link: create a new Colab notebook.\nColab notebooks are Jupyter notebooks that are hosted by Colab. To learn more about the Jupyter project, see jupyter.org.\nWith Colab you can harness the full power of popular Python libraries to analyze and visualize data. The code cell below uses numpy to generate some random data, and uses matplotlib to visualize it. To edit the code, just click the cell and start editing.\nYou can import your own data into Colab notebooks from your Google Drive account, including from spreadsheets, as well as from Github and many other sources. To learn more about importing data, and how Colab can be used for data science, see the links below under Working with Data.\nWith Colab you can import an image dataset, train an image classifier on it, and evaluate the model, all in just a few lines of code. Colab notebooks execute code on Google’s cloud servers, meaning you can leverage the power of Google hardware, including GPUs and TPUs, regardless of the power of your machine. All you need is a browser.\nColab is used extensively in the machine learning community with applications including: - Getting started with TensorFlow - Developing and training neural networks - Experimenting with TPUs - Disseminating AI research - Creating tutorials\nTo see sample Colab notebooks that demonstrate machine learning applications, see the machine learning examples below."
+  },
+  {
+    "objectID": "colab-welcome.html#getting-started",
+    "href": "colab-welcome.html#getting-started",
+    "title": "byeong-hak choe",
+    "section": "Getting started",
+    "text": "Getting started"
+  },
+  {
+    "objectID": "colab-welcome.html#data-science",
+    "href": "colab-welcome.html#data-science",
+    "title": "byeong-hak choe",
+    "section": "Data science",
+    "text": "Data science"
+  },
+  {
+    "objectID": "colab-welcome.html#machine-learning",
+    "href": "colab-welcome.html#machine-learning",
+    "title": "byeong-hak choe",
+    "section": "Machine learning",
+    "text": "Machine learning"
+  },
+  {
+    "objectID": "colab-welcome.html#more-resources",
+    "href": "colab-welcome.html#more-resources",
+    "title": "byeong-hak choe",
+    "section": "More Resources",
+    "text": "More Resources\n\nWorking with Notebooks in Colab"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Byeong-Hak Choe",

@@ -13,12 +13,16 @@ website:
         href: cv.qmd
       - text: causal & ml bookmarks
         href: econml.qmd
-      - text: teaching
+      # - text: teaching
+      #   menu:
+      #     - text: fall 2023
+      #       href: https://bcdanl.github.io
+      #     - text: teaching portfolio
+      #       href: https://bc-teaching-portfolio.netlify.app
+      - text: blog
         menu:
-          - text: fall 2023
-            href: https://bcdanl.github.io
-          - text: teaching portfolio
-            href: https://bc-teaching-portfolio.netlify.app
+          - text: colab
+            href: colab-welcome.ipynb
 
 format:
   html:
