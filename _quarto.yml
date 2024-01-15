@@ -11,7 +11,7 @@ website:
     left:
       - text: curriculum vitae
         href: https://bcecon.github.io/choe-cv.pdf
-        target: _blank
+        target: _bl
       - text: causal & ml bookmarks
         href: econml.qmd
       # - text: teaching
