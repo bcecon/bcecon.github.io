@@ -14,12 +14,14 @@ website:
         target: _bl
       - text: causal & ml bookmarks
         href: econml.qmd
-      # - text: teaching
-      #   menu:
-      #     - text: fall 2023
-      #       href: https://bcdanl.github.io
-      #     - text: teaching portfolio
-      #       href: https://bc-teaching-portfolio.netlify.app
+      - text: teaching
+        menu:
+          - text: spring 2024
+            href: https://bcdanl.github.io/
+            target: _blank
+          - text: fall 2023
+            href: https://bcdanl.github.io/fall2023
+            target: _blank
 
 format:
   html:
