@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.475">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -56,7 +56,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -77,35 +78,24 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">byeong-hak choe</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./cv.html" aria-current="page">
+    <a class="nav-link" href="https://bcecon.github.io/choe-cv.pdf" rel="" target="_blank">
  <span class="menu-text">curriculum vitae</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./econml.html">
+    <a class="nav-link" href="./econml.html" rel="" target="">
  <span class="menu-text">causal &amp; ml bookmarks</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-blog" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">blog</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-blog">    
-        <li>
-    <a class="dropdown-item" href="./colab-welcome.html">
- <span class="dropdown-text">colab</span></a>
-  </li>  
-    </ul>
-  </li>
 </ul>
-              <div class="quarto-toggle-container">
-                  <a href="" class="quarto-color-scheme-toggle nav-link" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-              </div>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools ms-auto">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -160,15 +150,20 @@ ul.task-list li input[type="checkbox"] {
 <h1>Current Position</h1>
 <div class="cell">
 <div class="cell-output-display">
-
-<table class="table table-hover" style="margin-left: auto; margin-right: auto;">
+<table class="table table-hover table-sm table-striped small" data-quarto-postprocess="true">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <tbody>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2023—present </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Assistant Professor of Data Analytics and Economics (August 2023)</span><br>School of Business, SUNY Geneseo </td>
-  </tr>
+<tr class="odd">
+<td style="text-align: left; width: 17%;">2023—present</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Assistant Professor of Data Analytics and Economics (August 2023)</span><br>
+School of Business, SUNY Geneseo</td>
+</tr>
 </tbody>
 </table>
+
 
 </div>
 </div>
@@ -178,15 +173,20 @@ ul.task-list li input[type="checkbox"] {
 <h1>Previous Employment</h1>
 <div class="cell">
 <div class="cell-output-display">
-
-<table class="table table-hover" style="margin-left: auto; margin-right: auto;">
+<table class="table table-hover table-sm table-striped small" data-quarto-postprocess="true">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <tbody>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2021—2023 </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Lecturer in Data Analytics</span><br>School of Business, SUNY Geneseo </td>
-  </tr>
+<tr class="odd">
+<td style="text-align: left; width: 17%;">2021—2023</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Lecturer in Data Analytics</span><br>
+School of Business, SUNY Geneseo</td>
+</tr>
 </tbody>
 </table>
+
 
 </div>
 </div>
@@ -196,31 +196,46 @@ ul.task-list li input[type="checkbox"] {
 <h1>Education</h1>
 <div class="cell">
 <div class="cell-output-display">
-
-<table class="table table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
+<table class="table table-hover table-condensed table-sm table-striped small" data-quarto-postprocess="true">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <tbody>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2016—2021 </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Ph.D. in Economics</span>, University of Wyoming<br>Supervisors: <a href="http://www.uwyo.edu/economics/faculty-staff/charles-mason/" target="_blank">Chuck Mason</a> and <a href="http://www.uwyo.edu/economics/faculty-staff/thorsten-janus/" target="_blank">Thorsten Janus</a> <br>Mentors: <a href="http://www.uwyo.edu/economics/faculty-staff/stephen-newbold/" target="_blank">Stephen Newbold</a> and <a href="http://www.uwyo.edu/economics/faculty-staff/jason-shogren/" target="_blank">Jay Shogren</a><br>Dissertaion: Essays in Political Economy of Climate Change </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2014—2015 </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">M.Sc. in Economics</span>, Arizona State University<br><br> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2012—2014 </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">M.A. in Economics</span>, SUNY Stony Brook<br><br> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2006—2012 </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">B.Sc. in Applied Mathematics</span>, Hanyang University at Ansan, South Korea<br><br> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2006—2012 </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">B.A. in Economics</span>, Hanyang University at Ansan, South Korea<br><br> </td>
-  </tr>
+<tr class="odd">
+<td style="text-align: left; width: 17%;">2016—2021</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Ph.D. in Economics</span>, University of Wyoming<br>
+Supervisors: <a href="http://www.uwyo.edu/economics/faculty-staff/charles-mason/" target="_blank">Chuck Mason</a> and <a href="http://www.uwyo.edu/economics/faculty-staff/thorsten-janus/" target="_blank">Thorsten Janus</a><br>
+Mentors: <a href="http://www.uwyo.edu/economics/faculty-staff/stephen-newbold/" target="_blank">Stephen Newbold</a> and <a href="http://www.uwyo.edu/economics/faculty-staff/jason-shogren/" target="_blank">Jay Shogren</a><br>
+Dissertaion: Essays in Political Economy of Climate Change</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 17%;">2014—2015</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">M.Sc. in Economics</span>, Arizona State University<br>
+<br>
+</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; width: 17%;">2012—2014</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">M.A. in Economics</span>, SUNY Stony Brook<br>
+<br>
+</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 17%;">2006—2012</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">B.Sc. in Applied Mathematics</span>, Hanyang University at Ansan, South Korea<br>
+<br>
+</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; width: 17%;">2006—2012</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">B.A. in Economics</span>, Hanyang University at Ansan, South Korea<br>
+<br>
+</td>
+</tr>
 </tbody>
 </table>
+
 
 </div>
 </div>
@@ -232,19 +247,25 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="working-papers">Working papers</h2>
 <div class="cell">
 <div class="cell-output-display">
-
-<table class="table table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
+<table class="table table-hover table-condensed table-sm table-striped small" data-quarto-postprocess="true">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <tbody>
-  <tr>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Social Media Campaigns, Lobbying and Legislation: Evidence from #climatechange/#globalwarming and Energy Lobbies</span>  <br> <span class="cv-entry-title" style="font-weight:bold"> Abstract </span>: To what extent do social media campaigns compete with fossil fuel lobbying on climate change legislation? In this article, I estimate the effect of social media campaigns on a congressperson's legislative activities against climate change actions during the U.S. Congresses (January 2013-January 2019). I find that (1) a 1% increase in the per-capita level of activities of climate change campaigns using Twitter decreases Democrats' tendency to support climate-unfriendly legislation by 0.9%, while it increases Republicans' one by 0.2%; and (2) a 1% increase in the fossil fuel industry's lobbying expenditure relative to the rest of industries' lobbying expenditure increases Republicans' tendency to support climate-unfriendly legislation by 1.1%. I also find that negative sentiment in social media campaigns contributes to affecting congresspersons' support for climate-unfriendly legislation. </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Climate Finance under Conflicts and Renegotiations: A Dynamic Contract Approach <a href="https://drive.google.com/file/d/1DC7mB4s_yM7ckt_H2K2g_KaO_EFbkQLC/view?usp=sharing" target="_blank"> (AEA 2019 poster) <i class="fa fa-file-pdf" aria-hidden="true"></i></a></span>  <br> <span class="cv-entry-title" style="font-weight:bold"> Abstract </span>: Considering climate funds (e.g. the Green Climate Fund) as the financial mechanism to provide funding to developing countries, this paper examines a long-term climate funding relationship between two agents---the rich country and the poor country. Conflicts between the rich and poor countries arise when determining 1) the size of climate funding that the rich country contributes to the poor country, and 2) the funding allocation between climate adaptation and mitigation projects in the poor country. In addition, the rich country cannot be forced to commit contractual contributions to the poor country, and the climate funding relationship can be repeatedly renegotiated. This paper derives the following results: (1) climate funds converge to the first-best in the long-run, in terms of the size of climate funding and its balance between adaptation and mitigation projects, if and only if climate damage becomes sufficiently severe. (2) funding allocation between adaptation and mitigation projects becomes more favorable to the poor country if marginal climate costs in the poor country grow faster than in the rich country. (3) fewer conflicts and fewer renegotiations between the rich and poor countries make climate funding contracts more efficient, remedying inequality between the poor and rich countries. </td>
-  </tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Social Media Campaigns, Lobbying and Legislation: Evidence from #climatechange/#globalwarming and Energy Lobbies</span><br>
+<span class="cv-entry-title" style="font-weight:bold"> Abstract </span>: To what extent do social media campaigns compete with fossil fuel lobbying on climate change legislation? In this article, I estimate the effect of social media campaigns on a congressperson's legislative activities against climate change actions during the U.S. Congresses (January 2013-January 2019). I find that (1) a 1% increase in the per-capita level of activities of climate change campaigns using Twitter decreases Democrats' tendency to support climate-unfriendly legislation by 0.9%, while it increases Republicans' one by 0.2%; and (2) a 1% increase in the fossil fuel industry's lobbying expenditure relative to the rest of industries' lobbying expenditure increases Republicans' tendency to support climate-unfriendly legislation by 1.1%. I also find that negative sentiment in social media campaigns contributes to affecting congresspersons' support for climate-unfriendly legislation.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Climate Finance under Conflicts and Renegotiations: A Dynamic Contract Approach <a href="https://drive.google.com/file/d/1DC7mB4s_yM7ckt_H2K2g_KaO_EFbkQLC/view?usp=sharing" target="_blank">(AEA 2019 poster) <em></em></a></span><br>
+<span class="cv-entry-title" style="font-weight:bold"> Abstract </span>: Considering climate funds (e.g. the Green Climate Fund) as the financial mechanism to provide funding to developing countries, this paper examines a long-term climate funding relationship between two agents---the rich country and the poor country. Conflicts between the rich and poor countries arise when determining 1) the size of climate funding that the rich country contributes to the poor country, and 2) the funding allocation between climate adaptation and mitigation projects in the poor country. In addition, the rich country cannot be forced to commit contractual contributions to the poor country, and the climate funding relationship can be repeatedly renegotiated. This paper derives the following results: (1) climate funds converge to the first-best in the long-run, in terms of the size of climate funding and its balance between adaptation and mitigation projects, if and only if climate damage becomes sufficiently severe. (2) funding allocation between adaptation and mitigation projects becomes more favorable to the poor country if marginal climate costs in the poor country grow faster than in the rich country. (3) fewer conflicts and fewer renegotiations between the rich and poor countries make climate funding contracts more efficient, remedying inequality between the poor and rich countries.</td>
+</tr>
 </tbody>
 </table>
+
 
 </div>
 </div>
@@ -254,19 +275,25 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="work-in-progress">Work in progress</h2>
 <div class="cell">
 <div class="cell-output-display">
-
-<table class="table table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
+<table class="table table-hover table-condensed table-sm table-striped small" data-quarto-postprocess="true">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <tbody>
-  <tr>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Governance and Climate Finance in the Developing World&nbsp;</span><br> <span class="cv-entry-title" style="font-weight:bold"> Abstract </span>: The goal of our research project is to investigate the relationship between governance and climate finance, particularly in the context of the energy transition in developing countries. Our research question is how do governance qualities in developing countries affect financial contributions from donor countries that aim to fund mitigation projects in the energy sector. We plan to employ various empirical methods, including panel data analysis, causal inference, and machine learning. Furthermore, our research aims to determine how climate finance contributes to the reduction of emissions in the short and medium term. This analysis accounts for the effectiveness and efficiency of governance, such as regulatory quality and the rule of law. Ultimately, this study will provide valuable insights into the dynamics between governance and climate finance in developing countries and inform policy decisions to support effective climate action in the energy sector. </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Hiding Behind a Small Cake' in an Online Dictator Game: The Way You Hide Matters!, (with Tabare Capitan (1st author) , Jason Shogren, and Benjamin White)&nbsp;</span><br> <span class="cv-entry-title" style="font-weight:bold"> Abstract </span>: Using an online dictator game in which receivers have incomplete information of the size of the endowment (big or small), the article, ''Hiding behind a small cake' in a newspaper dictator game (Ockenfels and Werner (2012))'' shows that a few givers who received the big endowment use their giving to signal they received the small endowment (i.e., to lie). In other words, even though a giver will never meet the corresponding receiver, he cares enough about how he could be perceived by others to lie (i.e., second-order beliefs enters his utility function). In our experiment we provide givers with the opportunity to lie about the size of the endowment without using their giving. Similar to Ockenfels and Werner (2012) we find that (i) few take the opportunity to lie---but those who do give less when their giving is not constrained by its role as a signal---and (ii) givers are more likely to lie when the lie is private. However, using a second stage in the experimental design, we show that liars are the most responsive group of givers to a simple message stating the expectation of the receiver. </td>
-  </tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Governance and Climate Finance in the Developing World&nbsp;</span><br>
+<span class="cv-entry-title" style="font-weight:bold"> Abstract </span>: The goal of our research project is to investigate the relationship between governance and climate finance, particularly in the context of the energy transition in developing countries. Our research question is how do governance qualities in developing countries affect financial contributions from donor countries that aim to fund mitigation projects in the energy sector. We plan to employ various empirical methods, including panel data analysis, causal inference, and machine learning. Furthermore, our research aims to determine how climate finance contributes to the reduction of emissions in the short and medium term. This analysis accounts for the effectiveness and efficiency of governance, such as regulatory quality and the rule of law. Ultimately, this study will provide valuable insights into the dynamics between governance and climate finance in developing countries and inform policy decisions to support effective climate action in the energy sector.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Hiding Behind a Small Cake' in an Online Dictator Game: The Way You Hide Matters!, (with Tabare Capitan (1st author) , Jason Shogren, and Benjamin White)&nbsp;</span><br>
+<span class="cv-entry-title" style="font-weight:bold"> Abstract </span>: Using an online dictator game in which receivers have incomplete information of the size of the endowment (big or small), the article, ''Hiding behind a small cake' in a newspaper dictator game (Ockenfels and Werner (2012))'' shows that a few givers who received the big endowment use their giving to signal they received the small endowment (i.e., to lie). In other words, even though a giver will never meet the corresponding receiver, he cares enough about how he could be perceived by others to lie (i.e., second-order beliefs enters his utility function). In our experiment we provide givers with the opportunity to lie about the size of the endowment without using their giving. Similar to Ockenfels and Werner (2012) we find that (i) few take the opportunity to lie---but those who do give less when their giving is not constrained by its role as a signal---and (ii) givers are more likely to lie when the lie is private. However, using a second stage in the experimental design, we show that liars are the most responsive group of givers to a simple message stating the expectation of the receiver.</td>
+</tr>
 </tbody>
 </table>
+
 
 </div>
 </div>
@@ -277,43 +304,63 @@ ul.task-list li input[type="checkbox"] {
 <h1>Teaching</h1>
 <div class="cell">
 <div class="cell-output-display">
-
-<table class="table table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
+<table class="table table-hover table-condensed table-sm table-striped small" data-quarto-postprocess="true">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <tbody>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2022—2023 </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Advisor, Business Analytics Competition&nbsp; </span><br class="work-break">Manhattan College<br>Honorable Mention in the 2022 event, Advising the SUNY Geneseo team (Jason Rappazzo and James Jordan) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2022—2023 </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Instructor, DANL 399: Data Analytics Capstone&nbsp; </span><br class="work-break">SUNY Geneseo<br>Advised students' research project that integrates the technical data analytic skills and critical analysis on a business/economics topic </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2022—2023 </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Instructor, DANL 310: Data Visualization and Presentation&nbsp; </span><br class="work-break">SUNY Geneseo<br>Taught for data visualization and reproducible writing of research papers on the web. </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2021—2023 </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Instructor, DANL 210: Data Preparation and Management&nbsp; </span><br class="work-break">SUNY Geneseo<br>Taught the tidyverse R package, Python Pandas, Selenium, Web API, SQL Database and Google Clouds </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2021—2023 </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Instructor, DANL 200: Introduction to Data Analytics&nbsp; </span><br class="work-break">SUNY Geneseo<br>Covered data cleaning and basics in machine learning methods using business and economics applications </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2022 </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Instructor, DANL 100: Programming for Data Analytics&nbsp; </span><br class="work-break">SUNY Geneseo<br>Covered basics in Python programming and exploratory data analysis using Python pandas/seaborn and R ggplot2 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2021 </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Instructor, DANL 300: Advanced Data Analytics&nbsp; </span><br class="work-break">SUNY Geneseo<br>Taught for machine learning methods (classification, regularized regression, random forest, clustering, association rules) using business and economics applications </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2018 </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Instructor, ECON 3010: Intermediate Macroeconomics&nbsp; </span><br class="work-break">University of Wyoming<br>Taught (1) the concept of GDP, (2) the causes of economic growth and inequality, (3) how goods, labor, and credit markets work, (4) the role of the Fed and the monetary system, (5) the theory and policymaking for short-run economic fluctuations, (6) the influence of international trade and international finance on the domestic economy </td>
-  </tr>
+<tr class="odd">
+<td style="text-align: left; width: 17%;">2022—2023</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Advisor, Business Analytics Competition&nbsp; </span><br>
+Manhattan College<br>
+Honorable Mention in the 2022 event, Advising the SUNY Geneseo team (Jason Rappazzo and James Jordan)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 17%;">2022—2023</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Instructor, DANL 399: Data Analytics Capstone&nbsp; </span><br>
+SUNY Geneseo<br>
+Advised students' research project that integrates the technical data analytic skills and critical analysis on a business/economics topic</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; width: 17%;">2022—2023</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Instructor, DANL 310: Data Visualization and Presentation&nbsp; </span><br>
+SUNY Geneseo<br>
+Taught for data visualization and reproducible writing of research papers on the web.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 17%;">2021—2023</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Instructor, DANL 210: Data Preparation and Management&nbsp; </span><br>
+SUNY Geneseo<br>
+Taught the tidyverse R package, Python Pandas, Selenium, Web API, SQL Database and Google Clouds</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; width: 17%;">2021—2023</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Instructor, DANL 200: Introduction to Data Analytics&nbsp; </span><br>
+SUNY Geneseo<br>
+Covered data cleaning and basics in machine learning methods using business and economics applications</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 17%;">2022</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Instructor, DANL 100: Programming for Data Analytics&nbsp; </span><br>
+SUNY Geneseo<br>
+Covered basics in Python programming and exploratory data analysis using Python pandas/seaborn and R ggplot2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; width: 17%;">2021</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Instructor, DANL 300: Advanced Data Analytics&nbsp; </span><br>
+SUNY Geneseo<br>
+Taught for machine learning methods (classification, regularized regression, random forest, clustering, association rules) using business and economics applications</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 17%;">2018</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Instructor, ECON 3010: Intermediate Macroeconomics&nbsp; </span><br>
+University of Wyoming<br>
+Taught (1) the concept of GDP, (2) the causes of economic growth and inequality, (3) how goods, labor, and credit markets work, (4) the role of the Fed and the monetary system, (5) the theory and policymaking for short-run economic fluctuations, (6) the influence of international trade and international finance on the domestic economy</td>
+</tr>
 </tbody>
 </table>
+
 
 </div>
 </div>
@@ -325,31 +372,31 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="presentations">Presentations</h2>
 <div class="cell">
 <div class="cell-output-display">
-
-<table class="table table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
+<table class="table table-hover table-condensed table-sm table-striped small" data-quarto-postprocess="true">
 <tbody>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2022 </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Interdisciplinary Data Science Workshop</span>, Brigham Young University, Provo, Utah </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2021 </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Online Seminar</span>, Department of Environmental and Business Economics, University of Southern Denmark </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2019 </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">University of Wyoming &amp; Colorado State University Economics Graduate Student Symposium</span>, Laramie, Wyoming </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2019 </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">American Economic Association Annual Meeting (poster session)</span>, Atlanta, Georgia </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2018 </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">The 29th International Conference on Game Theory</span>, Stony Brook, New York </td>
-  </tr>
+<tr class="odd">
+<td style="text-align: left; width: 17%;">2022</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Interdisciplinary Data Science Workshop</span>, Brigham Young University, Provo, Utah</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 17%;">2021</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Online Seminar</span>, Department of Environmental and Business Economics, University of Southern Denmark</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; width: 17%;">2019</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">University of Wyoming &amp; Colorado State University Economics Graduate Student Symposium</span>, Laramie, Wyoming</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 17%;">2019</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">American Economic Association Annual Meeting (poster session)</span>, Atlanta, Georgia</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; width: 17%;">2018</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">The 29th International Conference on Game Theory</span>, Stony Brook, New York</td>
+</tr>
 </tbody>
 </table>
+
 
 </div>
 </div>
@@ -359,27 +406,27 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="memberships">Memberships</h2>
 <div class="cell">
 <div class="cell-output-display">
-
-<table class="table table-hover" style="margin-left: auto; margin-right: auto;">
+<table class="table table-hover table-sm table-striped small" data-quarto-postprocess="true">
 <tbody>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2022—present </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Southern Economic Association</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2018—present </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Association of Environmental and Resource Economists</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2017—present </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">American Economic Association</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2017—2019 </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Econometric Society</span> </td>
-  </tr>
+<tr class="odd">
+<td style="text-align: left; width: 17%;">2022—present</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Southern Economic Association</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 17%;">2018—present</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Association of Environmental and Resource Economists</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; width: 17%;">2017—present</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">American Economic Association</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 17%;">2017—2019</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Econometric Society</span></td>
+</tr>
 </tbody>
 </table>
+
 
 </div>
 </div>
@@ -390,43 +437,43 @@ ul.task-list li input[type="checkbox"] {
 <h1>Hornors &amp; Awards</h1>
 <div class="cell">
 <div class="cell-output-display">
-
-<table class="table table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
+<table class="table table-hover table-condensed table-sm table-striped small" data-quarto-postprocess="true">
 <tbody>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2019 </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">H. A. True Chair in Petroleum and Economics Scholarship</span>, University of Wyoming </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;width: 17%; "> <span class="repeated-year">2019</span> </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">John S. Bugas Economics Scholarship</span>, University of Wyoming </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2018 </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Ralph d'Arge Scholarship in Natural Resource Economics and Finance</span>, University of Wyoming </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;width: 17%; "> <span class="repeated-year">2018</span> </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">McMurry Excellence Fund</span>, University of Wyoming </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;width: 17%; "> <span class="repeated-year">2018</span> </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Joseph C. and Katherine A. Drew Scholarship</span>, University of Wyoming </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2012 </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Highest Grade Point Average in Economics Class of 2012</span>, Hanyang University at Ansan, South Korea </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2010—2011 </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">University Tutor of the Excellent Tutoring Team</span>, Hanyang University at Ansan, South Korea </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2006—2011 </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Merit-based Scholarships</span>, Hanyang University at Ansan, South Korea </td>
-  </tr>
+<tr class="odd">
+<td style="text-align: left; width: 17%;">2019</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">H. A. True Chair in Petroleum and Economics Scholarship</span>, University of Wyoming</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 17%;"><span class="repeated-year">2019</span></td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">John S. Bugas Economics Scholarship</span>, University of Wyoming</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; width: 17%;">2018</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Ralph d'Arge Scholarship in Natural Resource Economics and Finance</span>, University of Wyoming</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 17%;"><span class="repeated-year">2018</span></td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">McMurry Excellence Fund</span>, University of Wyoming</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; width: 17%;"><span class="repeated-year">2018</span></td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Joseph C. and Katherine A. Drew Scholarship</span>, University of Wyoming</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 17%;">2012</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Highest Grade Point Average in Economics Class of 2012</span>, Hanyang University at Ansan, South Korea</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; width: 17%;">2010—2011</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">University Tutor of the Excellent Tutoring Team</span>, Hanyang University at Ansan, South Korea</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 17%;">2006—2011</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Merit-based Scholarships</span>, Hanyang University at Ansan, South Korea</td>
+</tr>
 </tbody>
 </table>
+
 
 </div>
 </div>
@@ -436,27 +483,27 @@ ul.task-list li input[type="checkbox"] {
 <h1>Grants and Funding</h1>
 <div class="cell">
 <div class="cell-output-display">
-
-<table class="table table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
+<table class="table table-hover table-condensed table-sm table-striped small" data-quarto-postprocess="true">
 <tbody>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2022 </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Conference Travel Funding</span>, SUNY Geneseo </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;width: 17%; "> <span class="repeated-year">2022</span> </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Interdisciplinary Data Science Workshop Travel Funding</span>, Brigham Young University, Provo, Utah </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2020 </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Summer Augmentation Scholarship for Ph.D. Dissertation Research</span>, University of Wyoming </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2018—2019 </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Graduate Student Conference Travel Funding</span>, University of Wyoming </td>
-  </tr>
+<tr class="odd">
+<td style="text-align: left; width: 17%;">2022</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Conference Travel Funding</span>, SUNY Geneseo</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 17%;"><span class="repeated-year">2022</span></td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Interdisciplinary Data Science Workshop Travel Funding</span>, Brigham Young University, Provo, Utah</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; width: 17%;">2020</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Summer Augmentation Scholarship for Ph.D. Dissertation Research</span>, University of Wyoming</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 17%;">2018—2019</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Graduate Student Conference Travel Funding</span>, University of Wyoming</td>
+</tr>
 </tbody>
 </table>
+
 
 </div>
 </div>
@@ -466,15 +513,20 @@ ul.task-list li input[type="checkbox"] {
 <h1>Service</h1>
 <div class="cell">
 <div class="cell-output-display">
-
-<table class="table table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
+<table class="table table-hover table-condensed table-sm table-striped small" data-quarto-postprocess="true">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <tbody>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2021—present </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Data Analytics Curriculum Meetings</span><br class="work-break">School of Business, SUNY Geneseo </td>
-  </tr>
+<tr class="odd">
+<td style="text-align: left; width: 17%;">2021—present</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Data Analytics Curriculum Meetings</span><br>
+School of Business, SUNY Geneseo</td>
+</tr>
 </tbody>
 </table>
+
 
 </div>
 </div>
@@ -484,19 +536,25 @@ ul.task-list li input[type="checkbox"] {
 <h1>Miscelaneous</h1>
 <div class="cell">
 <div class="cell-output-display">
-
-<table class="table table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
+<table class="table table-hover table-condensed table-sm table-striped small" data-quarto-postprocess="true">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <tbody>
-  <tr>
-   <td style="text-align:left;width: 17%; "> Computing Skills&nbsp; </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Python, R, Stata, MATLAB, Git, SQL, LaTeX, Quarto, R Markdown</span><br class="work-break"> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;width: 17%; "> Language&nbsp; </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">English, Korean (native)</span><br class="work-break"> </td>
-  </tr>
+<tr class="odd">
+<td style="text-align: left; width: 17%;">Computing Skills&nbsp;</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Python, R, Stata, MATLAB, Git, SQL, LaTeX, Quarto, R Markdown</span><br>
+</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 17%;">Language&nbsp;</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">English, Korean (native)</span><br>
+</td>
+</tr>
 </tbody>
 </table>
+
 
 </div>
 </div>
@@ -506,22 +564,28 @@ ul.task-list li input[type="checkbox"] {
 <h1>Non-Academic Experience</h1>
 <div class="cell">
 <div class="cell-output-display">
-
-<table class="table table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
+<table class="table table-hover table-condensed table-sm table-striped small" data-quarto-postprocess="true">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <tbody>
-  <tr>
-   <td style="text-align:left;width: 17%; "> 2007—2009 </td>
-   <td style="text-align:left;"> <span class="cv-entry-title" style="font-weight:bold">Completion of Military Obligation</span><br class="work-break">Republic of Korea Army, South Korea<br>Attained the Rank of Sergeant </td>
-  </tr>
+<tr class="odd">
+<td style="text-align: left; width: 17%;">2007—2009</td>
+<td style="text-align: left;"><span class="cv-entry-title" style="font-weight:bold">Completion of Military Obligation</span><br>
+Republic of Korea Army, South Korea<br>
+Attained the Rank of Sergeant</td>
+</tr>
 </tbody>
 </table>
+
 
 </div>
 </div>
 <div style="display: flex;">
 <div>
 <div style="text-align: right">
-<p>Last updated: 2023-11-15</p>
+<p>Last updated: 2024-01-15</p>
 </div>
 </div>
 <div>
@@ -675,9 +739,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -742,6 +820,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -784,7 +948,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-      <div class="nav-footer-center">Copyright 2023, Byeong-Hak Choe</div>
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">Copyright 2024, Byeong-Hak Choe</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
   </div>
 </footer>
 

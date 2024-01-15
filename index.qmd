@@ -16,6 +16,8 @@ about:
       href: mailto:bchoe@geneseo.edu
     - text: CV
       href: https://bcecon.github.io/choe-cv.pdf
+      
+toc: false
 ---
 
 

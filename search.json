@@ -1,38 +1,38 @@
 [
   {
-    "objectID": "colab-welcome.html",
-    "href": "colab-welcome.html",
-    "title": "byeong-hak choe",
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Bio",
     "section": "",
-    "text": "If you’re already familiar with Colab, check out this video to learn about interactive tables, the executed code history view, and the command palette.\nColab, or “Colaboratory”, allows you to write and execute Python in your browser, with - Zero configuration required - Access to GPUs free of charge - Easy sharing\nWhether you’re a student, a data scientist or an AI researcher, Colab can make your work easier. Watch Introduction to Colab to learn more, or just get started below!\nThe document you are reading is not a static web page, but an interactive environment called a Colab notebook that lets you write and execute code.\nFor example, here is a code cell with a short Python script that computes a value, stores it in a variable, and prints the result:\nTo execute the code in the above cell, select it with a click and then either press the play button to the left of the code, or use the keyboard shortcut “Command/Ctrl+Enter”. To edit the code, just click the cell and start editing.\nVariables that you define in one cell can later be used in other cells:\nColab notebooks allow you to combine executable code and rich text in a single document, along with images, HTML, LaTeX and more. When you create your own Colab notebooks, they are stored in your Google Drive account. You can easily share your Colab notebooks with co-workers or friends, allowing them to comment on your notebooks or even edit them. To learn more, see Overview of Colab. To create a new Colab notebook you can use the File menu above, or use the following link: create a new Colab notebook.\nColab notebooks are Jupyter notebooks that are hosted by Colab. To learn more about the Jupyter project, see jupyter.org.\nWith Colab you can harness the full power of popular Python libraries to analyze and visualize data. The code cell below uses numpy to generate some random data, and uses matplotlib to visualize it. To edit the code, just click the cell and start editing.\nYou can import your own data into Colab notebooks from your Google Drive account, including from spreadsheets, as well as from Github and many other sources. To learn more about importing data, and how Colab can be used for data science, see the links below under Working with Data.\nWith Colab you can import an image dataset, train an image classifier on it, and evaluate the model, all in just a few lines of code. Colab notebooks execute code on Google’s cloud servers, meaning you can leverage the power of Google hardware, including GPUs and TPUs, regardless of the power of your machine. All you need is a browser.\nColab is used extensively in the machine learning community with applications including: - Getting started with TensorFlow - Developing and training neural networks - Experimenting with TPUs - Disseminating AI research - Creating tutorials\nTo see sample Colab notebooks that demonstrate machine learning applications, see the machine learning examples below."
+    "text": "I view myself as an applied economist with interest in environmental economics and a particular focus on climate change. Methodologically, I make use of causal inference/econometrics/machine learning methods, and other data science tools to conduct empirical analysis. I also use computational methods to solve integrated assessment models of climate change and theoretical economic models, such as dynamic contracts.\nMy research focuses on how to improve effectiveness of climate policy at both micro and macro levels. In particular, I am interested in building relevant climate-economy models that analyze the interaction between economies and the climate under risks arising from (1) climate change and (2) a transition to carbon-neutral economies.\nAs an economics and data science teacher, my goal is to equip students with the essential tools of machine learning, econometrics, and data science to think critically about business and real-world socioeconomic issues. In this regard, I teach students to use those tools to address important business strategies, socioeconomic issues, and individual decision-making."
   },
   {
-    "objectID": "colab-welcome.html#getting-started",
-    "href": "colab-welcome.html#getting-started",
-    "title": "byeong-hak choe",
-    "section": "Getting started",
-    "text": "Getting started"
+    "objectID": "cv.html#working-papers",
+    "href": "cv.html#working-papers",
+    "title": "Bio",
+    "section": "Working papers",
+    "text": "Working papers\n\n\n\n\n\n\n\n\n\n\nSocial Media Campaigns, Lobbying and Legislation: Evidence from #climatechange/#globalwarming and Energy Lobbies\n Abstract : To what extent do social media campaigns compete with fossil fuel lobbying on climate change legislation? In this article, I estimate the effect of social media campaigns on a congressperson's legislative activities against climate change actions during the U.S. Congresses (January 2013-January 2019). I find that (1) a 1% increase in the per-capita level of activities of climate change campaigns using Twitter decreases Democrats' tendency to support climate-unfriendly legislation by 0.9%, while it increases Republicans' one by 0.2%; and (2) a 1% increase in the fossil fuel industry's lobbying expenditure relative to the rest of industries' lobbying expenditure increases Republicans' tendency to support climate-unfriendly legislation by 1.1%. I also find that negative sentiment in social media campaigns contributes to affecting congresspersons' support for climate-unfriendly legislation.\n\n\n\nClimate Finance under Conflicts and Renegotiations: A Dynamic Contract Approach (AEA 2019 poster) \n Abstract : Considering climate funds (e.g. the Green Climate Fund) as the financial mechanism to provide funding to developing countries, this paper examines a long-term climate funding relationship between two agents---the rich country and the poor country. Conflicts between the rich and poor countries arise when determining 1) the size of climate funding that the rich country contributes to the poor country, and 2) the funding allocation between climate adaptation and mitigation projects in the poor country. In addition, the rich country cannot be forced to commit contractual contributions to the poor country, and the climate funding relationship can be repeatedly renegotiated. This paper derives the following results: (1) climate funds converge to the first-best in the long-run, in terms of the size of climate funding and its balance between adaptation and mitigation projects, if and only if climate damage becomes sufficiently severe. (2) funding allocation between adaptation and mitigation projects becomes more favorable to the poor country if marginal climate costs in the poor country grow faster than in the rich country. (3) fewer conflicts and fewer renegotiations between the rich and poor countries make climate funding contracts more efficient, remedying inequality between the poor and rich countries."
   },
   {
-    "objectID": "colab-welcome.html#data-science",
-    "href": "colab-welcome.html#data-science",
-    "title": "byeong-hak choe",
-    "section": "Data science",
-    "text": "Data science"
+    "objectID": "cv.html#work-in-progress",
+    "href": "cv.html#work-in-progress",
+    "title": "Bio",
+    "section": "Work in progress",
+    "text": "Work in progress\n\n\n\n\n\n\n\n\n\n\nGovernance and Climate Finance in the Developing World \n Abstract : The goal of our research project is to investigate the relationship between governance and climate finance, particularly in the context of the energy transition in developing countries. Our research question is how do governance qualities in developing countries affect financial contributions from donor countries that aim to fund mitigation projects in the energy sector. We plan to employ various empirical methods, including panel data analysis, causal inference, and machine learning. Furthermore, our research aims to determine how climate finance contributes to the reduction of emissions in the short and medium term. This analysis accounts for the effectiveness and efficiency of governance, such as regulatory quality and the rule of law. Ultimately, this study will provide valuable insights into the dynamics between governance and climate finance in developing countries and inform policy decisions to support effective climate action in the energy sector.\n\n\n\nHiding Behind a Small Cake' in an Online Dictator Game: The Way You Hide Matters!, (with Tabare Capitan (1st author) , Jason Shogren, and Benjamin White) \n Abstract : Using an online dictator game in which receivers have incomplete information of the size of the endowment (big or small), the article, ''Hiding behind a small cake' in a newspaper dictator game (Ockenfels and Werner (2012))'' shows that a few givers who received the big endowment use their giving to signal they received the small endowment (i.e., to lie). In other words, even though a giver will never meet the corresponding receiver, he cares enough about how he could be perceived by others to lie (i.e., second-order beliefs enters his utility function). In our experiment we provide givers with the opportunity to lie about the size of the endowment without using their giving. Similar to Ockenfels and Werner (2012) we find that (i) few take the opportunity to lie---but those who do give less when their giving is not constrained by its role as a signal---and (ii) givers are more likely to lie when the lie is private. However, using a second stage in the experimental design, we show that liars are the most responsive group of givers to a simple message stating the expectation of the receiver."
   },
   {
-    "objectID": "colab-welcome.html#machine-learning",
-    "href": "colab-welcome.html#machine-learning",
-    "title": "byeong-hak choe",
-    "section": "Machine learning",
-    "text": "Machine learning"
+    "objectID": "cv.html#presentations",
+    "href": "cv.html#presentations",
+    "title": "Bio",
+    "section": "Presentations",
+    "text": "Presentations\n\n\n\n\n\n2022\nInterdisciplinary Data Science Workshop, Brigham Young University, Provo, Utah\n\n\n2021\nOnline Seminar, Department of Environmental and Business Economics, University of Southern Denmark\n\n\n2019\nUniversity of Wyoming & Colorado State University Economics Graduate Student Symposium, Laramie, Wyoming\n\n\n2019\nAmerican Economic Association Annual Meeting (poster session), Atlanta, Georgia\n\n\n2018\nThe 29th International Conference on Game Theory, Stony Brook, New York"
   },
   {
-    "objectID": "colab-welcome.html#more-resources",
-    "href": "colab-welcome.html#more-resources",
-    "title": "byeong-hak choe",
-    "section": "More Resources",
-    "text": "More Resources\n\nWorking with Notebooks in Colab"
+    "objectID": "cv.html#memberships",
+    "href": "cv.html#memberships",
+    "title": "Bio",
+    "section": "Memberships",
+    "text": "Memberships\n\n\n\n\n\n2022—present\nSouthern Economic Association\n\n\n2018—present\nAssociation of Environmental and Resource Economists\n\n\n2017—present\nAmerican Economic Association\n\n\n2017—2019\nEconometric Society"
   },
   {
     "objectID": "index.html",
@@ -47,6 +47,34 @@
     "title": "Byeong-Hak Choe",
     "section": "Education",
     "text": "Education\nUniversity of Wyoming, 2021 - Ph.D. in Economics - Essays on the Political Economy of Climate Change\nArizona State University, 2015 - M.S. in Economics\nStony Brook University, 2014 - M.A. in Economics"
+  },
+  {
+    "objectID": "colab-welcome.html",
+    "href": "colab-welcome.html",
+    "title": "Getting started",
+    "section": "",
+    "text": "If you’re already familiar with Colab, check out this video to learn about interactive tables, the executed code history view, and the command palette.\nColab, or “Colaboratory”, allows you to write and execute Python in your browser, with - Zero configuration required - Access to GPUs free of charge - Easy sharing\nWhether you’re a student, a data scientist or an AI researcher, Colab can make your work easier. Watch Introduction to Colab to learn more, or just get started below!\nThe document you are reading is not a static web page, but an interactive environment called a Colab notebook that lets you write and execute code.\nFor example, here is a code cell with a short Python script that computes a value, stores it in a variable, and prints the result:\nseconds_in_a_day = 24 * 60 * 60\nseconds_in_a_day\n\n86400\nTo execute the code in the above cell, select it with a click and then either press the play button to the left of the code, or use the keyboard shortcut “Command/Ctrl+Enter”. To edit the code, just click the cell and start editing.\nVariables that you define in one cell can later be used in other cells:\nseconds_in_a_week = 7 * seconds_in_a_day\nseconds_in_a_week\n\n604800\nColab notebooks allow you to combine executable code and rich text in a single document, along with images, HTML, LaTeX and more. When you create your own Colab notebooks, they are stored in your Google Drive account. You can easily share your Colab notebooks with co-workers or friends, allowing them to comment on your notebooks or even edit them. To learn more, see Overview of Colab. To create a new Colab notebook you can use the File menu above, or use the following link: create a new Colab notebook.\nColab notebooks are Jupyter notebooks that are hosted by Colab. To learn more about the Jupyter project, see jupyter.org.\nWith Colab you can harness the full power of popular Python libraries to analyze and visualize data. The code cell below uses numpy to generate some random data, and uses matplotlib to visualize it. To edit the code, just click the cell and start editing.\nimport numpy as np\nfrom matplotlib import pyplot as plt\n\nys = 200 + np.random.randn(100)\nx = [x for x in range(len(ys))]\n\nplt.plot(x, ys, '-')\nplt.fill_between(x, ys, 195, where=(ys &gt; 195), facecolor='g', alpha=0.6)\n\nplt.title(\"Sample Visualization\")\nplt.show()\nYou can import your own data into Colab notebooks from your Google Drive account, including from spreadsheets, as well as from Github and many other sources. To learn more about importing data, and how Colab can be used for data science, see the links below under Working with Data.\nWith Colab you can import an image dataset, train an image classifier on it, and evaluate the model, all in just a few lines of code. Colab notebooks execute code on Google’s cloud servers, meaning you can leverage the power of Google hardware, including GPUs and TPUs, regardless of the power of your machine. All you need is a browser.\nColab is used extensively in the machine learning community with applications including: - Getting started with TensorFlow - Developing and training neural networks - Experimenting with TPUs - Disseminating AI research - Creating tutorials\nTo see sample Colab notebooks that demonstrate machine learning applications, see the machine learning examples below."
+  },
+  {
+    "objectID": "colab-welcome.html#data-science",
+    "href": "colab-welcome.html#data-science",
+    "title": "Getting started",
+    "section": "Data science",
+    "text": "Data science"
+  },
+  {
+    "objectID": "colab-welcome.html#machine-learning",
+    "href": "colab-welcome.html#machine-learning",
+    "title": "Getting started",
+    "section": "Machine learning",
+    "text": "Machine learning"
+  },
+  {
+    "objectID": "colab-welcome.html#more-resources",
+    "href": "colab-welcome.html#more-resources",
+    "title": "Getting started",
+    "section": "More Resources",
+    "text": "More Resources\n\nWorking with Notebooks in Colab"
   },
   {
     "objectID": "econml.html#causal-machine-learning",
@@ -75,40 +103,5 @@
     "title": "byeong-hak choe",
     "section": "Researchers in Causal Machine Learning",
     "text": "Researchers in Causal Machine Learning\n\nSusan Athey \nAlexandre Belloni \nVictor Chernozhukov \nCarlos Cinelli \nChristian Hansen \nGuido Imbens\nJann Spiess \nStefan Wager"
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "byeong-hak choe",
-    "section": "",
-    "text": "I view myself as an applied economist with interest in environmental economics and a particular focus on climate change. Methodologically, I make use of causal inference/econometrics/machine learning methods, and other data science tools to conduct empirical analysis. I also use computational methods to solve integrated assessment models of climate change and theoretical economic models, such as dynamic contracts.\nMy research focuses on how to improve effectiveness of climate policy at both micro and macro levels. In particular, I am interested in building relevant climate-economy models that analyze the interaction between economies and the climate under risks arising from (1) climate change and (2) a transition to carbon-neutral economies.\nAs an economics and data science teacher, my goal is to equip students with the essential tools of machine learning, econometrics, and data science to think critically about business and real-world socioeconomic issues. In this regard, I teach students to use those tools to address important business strategies, socioeconomic issues, and individual decision-making."
-  },
-  {
-    "objectID": "cv.html#working-papers",
-    "href": "cv.html#working-papers",
-    "title": "byeong-hak choe",
-    "section": "Working papers",
-    "text": "Working papers\n\n\n\n\n\n  \n     \n    Social Media Campaigns, Lobbying and Legislation: Evidence from #climatechange/#globalwarming and Energy Lobbies    Abstract : To what extent do social media campaigns compete with fossil fuel lobbying on climate change legislation? In this article, I estimate the effect of social media campaigns on a congressperson's legislative activities against climate change actions during the U.S. Congresses (January 2013-January 2019). I find that (1) a 1% increase in the per-capita level of activities of climate change campaigns using Twitter decreases Democrats' tendency to support climate-unfriendly legislation by 0.9%, while it increases Republicans' one by 0.2%; and (2) a 1% increase in the fossil fuel industry's lobbying expenditure relative to the rest of industries' lobbying expenditure increases Republicans' tendency to support climate-unfriendly legislation by 1.1%. I also find that negative sentiment in social media campaigns contributes to affecting congresspersons' support for climate-unfriendly legislation. \n  \n  \n     \n    Climate Finance under Conflicts and Renegotiations: A Dynamic Contract Approach  (AEA 2019 poster)     Abstract : Considering climate funds (e.g. the Green Climate Fund) as the financial mechanism to provide funding to developing countries, this paper examines a long-term climate funding relationship between two agents---the rich country and the poor country. Conflicts between the rich and poor countries arise when determining 1) the size of climate funding that the rich country contributes to the poor country, and 2) the funding allocation between climate adaptation and mitigation projects in the poor country. In addition, the rich country cannot be forced to commit contractual contributions to the poor country, and the climate funding relationship can be repeatedly renegotiated. This paper derives the following results: (1) climate funds converge to the first-best in the long-run, in terms of the size of climate funding and its balance between adaptation and mitigation projects, if and only if climate damage becomes sufficiently severe. (2) funding allocation between adaptation and mitigation projects becomes more favorable to the poor country if marginal climate costs in the poor country grow faster than in the rich country. (3) fewer conflicts and fewer renegotiations between the rich and poor countries make climate funding contracts more efficient, remedying inequality between the poor and rich countries."
-  },
-  {
-    "objectID": "cv.html#work-in-progress",
-    "href": "cv.html#work-in-progress",
-    "title": "byeong-hak choe",
-    "section": "Work in progress",
-    "text": "Work in progress\n\n\n\n\n\n  \n     \n    Governance and Climate Finance in the Developing World   Abstract : The goal of our research project is to investigate the relationship between governance and climate finance, particularly in the context of the energy transition in developing countries. Our research question is how do governance qualities in developing countries affect financial contributions from donor countries that aim to fund mitigation projects in the energy sector. We plan to employ various empirical methods, including panel data analysis, causal inference, and machine learning. Furthermore, our research aims to determine how climate finance contributes to the reduction of emissions in the short and medium term. This analysis accounts for the effectiveness and efficiency of governance, such as regulatory quality and the rule of law. Ultimately, this study will provide valuable insights into the dynamics between governance and climate finance in developing countries and inform policy decisions to support effective climate action in the energy sector. \n  \n  \n     \n    Hiding Behind a Small Cake' in an Online Dictator Game: The Way You Hide Matters!, (with Tabare Capitan (1st author) , Jason Shogren, and Benjamin White)   Abstract : Using an online dictator game in which receivers have incomplete information of the size of the endowment (big or small), the article, ''Hiding behind a small cake' in a newspaper dictator game (Ockenfels and Werner (2012))'' shows that a few givers who received the big endowment use their giving to signal they received the small endowment (i.e., to lie). In other words, even though a giver will never meet the corresponding receiver, he cares enough about how he could be perceived by others to lie (i.e., second-order beliefs enters his utility function). In our experiment we provide givers with the opportunity to lie about the size of the endowment without using their giving. Similar to Ockenfels and Werner (2012) we find that (i) few take the opportunity to lie---but those who do give less when their giving is not constrained by its role as a signal---and (ii) givers are more likely to lie when the lie is private. However, using a second stage in the experimental design, we show that liars are the most responsive group of givers to a simple message stating the expectation of the receiver."
-  },
-  {
-    "objectID": "cv.html#presentations",
-    "href": "cv.html#presentations",
-    "title": "byeong-hak choe",
-    "section": "Presentations",
-    "text": "Presentations\n\n\n\n\n\n  \n    2022 \n    Interdisciplinary Data Science Workshop, Brigham Young University, Provo, Utah \n  \n  \n    2021 \n    Online Seminar, Department of Environmental and Business Economics, University of Southern Denmark \n  \n  \n    2019 \n    University of Wyoming & Colorado State University Economics Graduate Student Symposium, Laramie, Wyoming \n  \n  \n    2019 \n    American Economic Association Annual Meeting (poster session), Atlanta, Georgia \n  \n  \n    2018 \n    The 29th International Conference on Game Theory, Stony Brook, New York"
-  },
-  {
-    "objectID": "cv.html#memberships",
-    "href": "cv.html#memberships",
-    "title": "byeong-hak choe",
-    "section": "Memberships",
-    "text": "Memberships\n\n\n\n\n\n  \n    2022—present \n    Southern Economic Association \n  \n  \n    2018—present \n    Association of Environmental and Resource Economists \n  \n  \n    2017—present \n    American Economic Association \n  \n  \n    2017—2019 \n    Econometric Society"
   }
 ]
