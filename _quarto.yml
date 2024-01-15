@@ -3,7 +3,7 @@ project:
   output-dir: "."
   
 website:
-  title: "byeong-hak choe"
+  title: "byeong-hak choe" 
   page-footer: "Copyright 2024, Byeong-Hak Choe" 
   reader-mode: false
   navbar:
