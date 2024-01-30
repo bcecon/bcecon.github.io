@@ -1,0 +1,82 @@
+---
+title: Introduction to Python
+jupyter: python3
+---
+
+
+
+## What is Python?
+
+Python is a high-level, interpreted programming language. This is a simple Python code:
+
+```{python}
+print('Hello, World!')
+```
+
+## Variables and Data Types
+
+In Python, variables can store data of different types without explicitly declaring the type.
+
+For example:
+
+```{python}
+integer_variable = 10
+string_variable = 'Hello'
+float_variable = 10.5
+
+float_variable
+```
+
+## Control Structures
+
+Python supports the usual logical conditions from mathematics:
+
+```{python}
+# Equals: a == b
+# Not Equals: a != b
+# Less than: a < b
+# Less than or equal to: a <= b
+# Greater than: a > b
+# Greater than or equal to: a >= b
+```
+
+These conditions can be used in several ways, most commonly in 'if statements' and loops.
+
+```{python}
+# if statement:
+if 5 > 2:
+    print('Five is greater than two!')
+```
+
+## Functions
+
+A function is a block of code which only runs when it is called.
+
+You can pass data, known as parameters, into a function.
+
+A function can return data as a result.
+
+
+```{python}
+# Defining a function:
+def my_function():
+    print('Hello from a function')
+
+# Calling a function:
+my_function()
+```
+
+## Lists and Dictionaries
+
+A list is a collection which is ordered and changeable.
+
+A dictionary is a collection which is unordered, changeable and indexed.
+
+```{python}
+# List example:
+my_list = ['apple', 'banana', 'cherry']
+
+# Dictionary example:
+my_dict = {'name': 'John', 'age': 36}
+```
+

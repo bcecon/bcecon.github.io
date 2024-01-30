@@ -1,0 +1,10 @@
+---
+title: "My Project"
+jupyter: python3
+---
+
+This is a GitHub README that has content dynamically generated from Python:
+    
+```{python}
+1 + 1
+```

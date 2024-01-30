@@ -1,5 +1,138 @@
 [
   {
+    "objectID": "quarto-jupyter.html",
+    "href": "quarto-jupyter.html",
+    "title": "My Project",
+    "section": "",
+    "text": "This is a GitHub README that has content dynamically generated from Python:\n\n1 + 1\n\n2"
+  },
+  {
+    "objectID": "basic-python-intro2.html",
+    "href": "basic-python-intro2.html",
+    "title": "Introduction to Python",
+    "section": "",
+    "text": "Python is a high-level, interpreted programming language. This is a simple Python code:\n\nprint('Hello, World!')\n\nHello, World!"
+  },
+  {
+    "objectID": "basic-python-intro2.html#what-is-python",
+    "href": "basic-python-intro2.html#what-is-python",
+    "title": "Introduction to Python",
+    "section": "",
+    "text": "Python is a high-level, interpreted programming language. This is a simple Python code:\n\nprint('Hello, World!')\n\nHello, World!"
+  },
+  {
+    "objectID": "basic-python-intro2.html#variables-and-data-types",
+    "href": "basic-python-intro2.html#variables-and-data-types",
+    "title": "Introduction to Python",
+    "section": "Variables and Data Types",
+    "text": "Variables and Data Types\nIn Python, variables can store data of different types without explicitly declaring the type.\nFor example:\n\ninteger_variable = 10\nstring_variable = 'Hello'\nfloat_variable = 10.5\n\nfloat_variable\n\n10.5"
+  },
+  {
+    "objectID": "basic-python-intro2.html#control-structures",
+    "href": "basic-python-intro2.html#control-structures",
+    "title": "Introduction to Python",
+    "section": "Control Structures",
+    "text": "Control Structures\nPython supports the usual logical conditions from mathematics:\n\n# Equals: a == b\n# Not Equals: a != b\n# Less than: a &lt; b\n# Less than or equal to: a &lt;= b\n# Greater than: a &gt; b\n# Greater than or equal to: a &gt;= b\n\nThese conditions can be used in several ways, most commonly in ‘if statements’ and loops.\n\n# if statement:\nif 5 &gt; 2:\n    print('Five is greater than two!')\n\nFive is greater than two!"
+  },
+  {
+    "objectID": "basic-python-intro2.html#functions",
+    "href": "basic-python-intro2.html#functions",
+    "title": "Introduction to Python",
+    "section": "Functions",
+    "text": "Functions\nA function is a block of code which only runs when it is called.\nYou can pass data, known as parameters, into a function.\nA function can return data as a result.\n\n# Defining a function:\ndef my_function():\n    print('Hello from a function')\n\n# Calling a function:\nmy_function()\n\nHello from a function"
+  },
+  {
+    "objectID": "basic-python-intro2.html#lists-and-dictionaries",
+    "href": "basic-python-intro2.html#lists-and-dictionaries",
+    "title": "Introduction to Python",
+    "section": "Lists and Dictionaries",
+    "text": "Lists and Dictionaries\nA list is a collection which is ordered and changeable.\nA dictionary is a collection which is unordered, changeable and indexed.\n\n# List example:\nmy_list = ['apple', 'banana', 'cherry']\n\n# Dictionary example:\nmy_dict = {'name': 'John', 'age': 36}"
+  },
+  {
+    "objectID": "econml.html#causal-machine-learning",
+    "href": "econml.html#causal-machine-learning",
+    "title": "byeong-hak choe",
+    "section": "Causal Machine Learning",
+    "text": "Causal Machine Learning\n\nDive into Causal Machine Learning, The World Bank and Pontificia Universidad Católica del Perú, Alexander Quispe et. al. \nMIT 14.388: Inference on Causal and Structural Parameters Using ML and AI, Department of Economics, MIT, Victor Chernozukhov\n\nPython Website\nJulia Website \n\nMGTECON 634: ML-based Causal Inference, Stanford, Susan Athey \nMachine Learning & Causal Inference: A Short Course, Stanford, Susan Athey, Jan Spiess, and Stefan Wager\n\nTutorial\nYouTube \n\n2018 American Economic Association Continuing Education: Machine Learning and Econometrics, Susan Athey and Guido Imbens \nCausal Inference and Machine Learning in Practice with EconML and CausalML: Industrial Use Cases at Microsoft, TripAdvisor, Uber \nDoubleML: Python and R Packages for the Double/Debiased Machine Learning Framework, P. Bach, V. Chernozhukov, M. S. Kurz, and M. Spindler \nEconML: A Python Package for ML-based Heterogeneous Treatment Effects Estimation, Microsoft \nCausalML: A Python Package for ML-based Causal Inference, Uber"
+  },
+  {
+    "objectID": "econml.html#machine-learning-and-big-data",
+    "href": "econml.html#machine-learning-and-big-data",
+    "title": "byeong-hak choe",
+    "section": "Machine Learning and Big Data",
+    "text": "Machine Learning and Big Data\n\n2023 American Economic Association Continuing Education: Machine Learning and Big Data, Melissa Dell and Matthew Harding \nMachine Learning for Economists (ml4econ), Bank of Israel, Itamar Caspi and Ariel Mansura"
+  },
+  {
+    "objectID": "econml.html#causal-inference",
+    "href": "econml.html#causal-inference",
+    "title": "byeong-hak choe",
+    "section": "Causal Inference",
+    "text": "Causal Inference\n\nCausal Inference: The Mixtape, Scott Cunningham \nCausal Inference for the Brave and True, Matheus Facure \nCausal Inference and Its Applications in Online Industry, Alex Deng \nApplied Empirical Methods, Yale SOM, Paul Goldsmith-Pinkham\n\nYouTube \n\nCausal Inference with Panel Data, Department of Political Science, Stanford, Yiqing Xu\n\nYouTube \n\nCausal Inference: What If, Miguel A. Hernán and James M. Robins \nRecent Developments in Difference-in-Differences, Vienna University of Economics and Business, Asjad Naqvi \nDifference-in-Differences Blog \nGov 2003: Causal Inference, Department of Government, Harvard, Matthew Blackwell"
+  },
+  {
+    "objectID": "econml.html#researchers-in-causal-machine-learning",
+    "href": "econml.html#researchers-in-causal-machine-learning",
+    "title": "byeong-hak choe",
+    "section": "Researchers in Causal Machine Learning",
+    "text": "Researchers in Causal Machine Learning\n\nSusan Athey \nAlexandre Belloni \nVictor Chernozhukov \nCarlos Cinelli \nChristian Hansen \nGuido Imbens\nJann Spiess \nStefan Wager"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Byeong-Hak Choe",
+    "section": "",
+    "text": "I am an applied economist and a data analytics teacher at SUNY Geneseo Business School.\nMy research interests lie in environmental economics, energy economics, and climate change policy.\nMy teaching interests are in economics and data science. My students use the tools of machine learning, econometrics, and data visualization to address business strategies, public policy, and individual decision-making."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Byeong-Hak Choe",
+    "section": "Education",
+    "text": "Education\nUniversity of Wyoming, 2021 - Ph.D. in Economics - Essays on the Political Economy of Climate Change\nArizona State University, 2015 - M.S. in Economics\nStony Brook University, 2014 - M.A. in Economics"
+  },
+  {
+    "objectID": "beer_example2.html",
+    "href": "beer_example2.html",
+    "title": "byeong-hak choe",
+    "section": "",
+    "text": "import pandas as pd\n\n\nbeer = pd.read_csv(\"http://bcdanl.github.io/data/beer_markets.csv\")\n\n\nbeer\n\n\n\n\n\n\n\n\nhh\n_purchase_desc\nquantity\nbrand\ndollar_spent\nbeer_floz\nprice_per_floz\ncontainer\npromo\nmarket\n...\nage\nemployment\ndegree\ncow\nrace\nmicrowave\ndishwasher\ntvcable\nsinglefamilyhome\nnpeople\n\n\n\n\n0\n2000946\nBUD LT BR CN 12P\n1\nBUD LIGHT\n8.14\n144.0\n0.056528\nCAN\nFalse\nRURAL ILLINOIS\n...\n50+\nnone\nGrad\nnone/retired/student\nwhite\nTrue\nTrue\npremium\nFalse\n1\n\n\n1\n2003036\nBUD LT BR CN 24P\n1\nBUD LIGHT\n17.48\n288.0\n0.060694\nCAN\nFalse\nATLANTA\n...\n50+\nfull\nCollege\nclerical/sales/service\nwhite\nTrue\nTrue\nbasic\nTrue\n2\n\n\n2\n2003036\nBUD LT BR CN 24P\n2\nBUD LIGHT\n33.92\n576.0\n0.058889\nCAN\nFalse\nATLANTA\n...\n50+\nfull\nCollege\nclerical/sales/service\nwhite\nTrue\nTrue\nbasic\nTrue\n2\n\n\n3\n2003036\nBUD LT BR CN 30P\n2\nBUD LIGHT\n34.74\n720.0\n0.048250\nCAN\nFalse\nATLANTA\n...\n50+\nfull\nCollege\nclerical/sales/service\nwhite\nTrue\nTrue\nbasic\nTrue\n2\n\n\n4\n2003036\nBUD LT BR CN 36P\n2\nBUD LIGHT\n40.48\n864.0\n0.046852\nCAN\nFalse\nATLANTA\n...\n50+\nfull\nCollege\nclerical/sales/service\nwhite\nTrue\nTrue\nbasic\nTrue\n2\n\n\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n\n\n73110\n9158319\nNATURAL LT BR CN 24P\n1\nNATURAL LIGHT\n11.49\n288.0\n0.039896\nCAN\nTrue\nRURAL VIRGINIA\n...\n50+\nnone\nHS\nnone/retired/student\nblack\nTrue\nTrue\npremium\nTrue\n2\n\n\n73111\n9158319\nNATURAL LT BR CN 24P\n1\nNATURAL LIGHT\n9.97\n288.0\n0.034618\nCAN\nFalse\nRURAL VIRGINIA\n...\n50+\nnone\nHS\nnone/retired/student\nblack\nTrue\nTrue\npremium\nTrue\n2\n\n\n73112\n9158319\nNATURAL LT BR CN 24P\n1\nNATURAL LIGHT\n9.98\n288.0\n0.034653\nCAN\nFalse\nRURAL VIRGINIA\n...\n50+\nnone\nHS\nnone/retired/student\nblack\nTrue\nTrue\npremium\nTrue\n2\n\n\n73113\n9164033\nNATURAL LT BR CN 30P\n1\nNATURAL LIGHT\n12.98\n360.0\n0.036056\nCAN\nFalse\nSACRAMENTO\n...\n50+\nfull\nCollege\nprof\nhispanic\nTrue\nTrue\nbasic\nTrue\n5plus\n\n\n73114\n9164155\nNATURAL LT BR CN 24P\n1\nNATURAL LIGHT\n13.49\n288.0\n0.046840\nCAN\nFalse\nJACKSONVILLE\n...\n50+\nfull\nHS\nlabor/craft/military/farm\nwhite\nTrue\nTrue\nnone\nTrue\n2\n\n\n\n\n73115 rows × 24 columns\n\n\n\nThis is Byeong-Hak’s Data Preparation and Management Course."
+  },
+  {
+    "objectID": "colab-welcome.html",
+    "href": "colab-welcome.html",
+    "title": "Getting started",
+    "section": "",
+    "text": "If you’re already familiar with Colab, check out this video to learn about interactive tables, the executed code history view, and the command palette.\nColab, or “Colaboratory”, allows you to write and execute Python in your browser, with - Zero configuration required - Access to GPUs free of charge - Easy sharing\nWhether you’re a student, a data scientist or an AI researcher, Colab can make your work easier. Watch Introduction to Colab to learn more, or just get started below!\nThe document you are reading is not a static web page, but an interactive environment called a Colab notebook that lets you write and execute code.\nFor example, here is a code cell with a short Python script that computes a value, stores it in a variable, and prints the result:\nseconds_in_a_day = 24 * 60 * 60\nseconds_in_a_day\n\n86400\nTo execute the code in the above cell, select it with a click and then either press the play button to the left of the code, or use the keyboard shortcut “Command/Ctrl+Enter”. To edit the code, just click the cell and start editing.\nVariables that you define in one cell can later be used in other cells:\nseconds_in_a_week = 7 * seconds_in_a_day\nseconds_in_a_week\n\n604800\nColab notebooks allow you to combine executable code and rich text in a single document, along with images, HTML, LaTeX and more. When you create your own Colab notebooks, they are stored in your Google Drive account. You can easily share your Colab notebooks with co-workers or friends, allowing them to comment on your notebooks or even edit them. To learn more, see Overview of Colab. To create a new Colab notebook you can use the File menu above, or use the following link: create a new Colab notebook.\nColab notebooks are Jupyter notebooks that are hosted by Colab. To learn more about the Jupyter project, see jupyter.org.\nWith Colab you can harness the full power of popular Python libraries to analyze and visualize data. The code cell below uses numpy to generate some random data, and uses matplotlib to visualize it. To edit the code, just click the cell and start editing.\nimport numpy as np\nfrom matplotlib import pyplot as plt\n\nys = 200 + np.random.randn(100)\nx = [x for x in range(len(ys))]\n\nplt.plot(x, ys, '-')\nplt.fill_between(x, ys, 195, where=(ys &gt; 195), facecolor='g', alpha=0.6)\n\nplt.title(\"Sample Visualization\")\nplt.show()\nYou can import your own data into Colab notebooks from your Google Drive account, including from spreadsheets, as well as from Github and many other sources. To learn more about importing data, and how Colab can be used for data science, see the links below under Working with Data.\nWith Colab you can import an image dataset, train an image classifier on it, and evaluate the model, all in just a few lines of code. Colab notebooks execute code on Google’s cloud servers, meaning you can leverage the power of Google hardware, including GPUs and TPUs, regardless of the power of your machine. All you need is a browser.\nColab is used extensively in the machine learning community with applications including: - Getting started with TensorFlow - Developing and training neural networks - Experimenting with TPUs - Disseminating AI research - Creating tutorials\nTo see sample Colab notebooks that demonstrate machine learning applications, see the machine learning examples below."
+  },
+  {
+    "objectID": "colab-welcome.html#data-science",
+    "href": "colab-welcome.html#data-science",
+    "title": "Getting started",
+    "section": "Data science",
+    "text": "Data science"
+  },
+  {
+    "objectID": "colab-welcome.html#machine-learning",
+    "href": "colab-welcome.html#machine-learning",
+    "title": "Getting started",
+    "section": "Machine learning",
+    "text": "Machine learning"
+  },
+  {
+    "objectID": "colab-welcome.html#more-resources",
+    "href": "colab-welcome.html#more-resources",
+    "title": "Getting started",
+    "section": "More Resources",
+    "text": "More Resources\n\nWorking with Notebooks in Colab"
+  },
+  {
+    "objectID": "beer_example.html",
+    "href": "beer_example.html",
+    "title": "byeong-hak choe",
+    "section": "",
+    "text": "import pandas as pd\n\n\nbeer = pd.read_csv(\"http://bcdanl.github.io/data/beer_markets.csv\")\n\n\nbeer\n\n\n  \n    \n\n\n\n\n\n\nhh\n_purchase_desc\nquantity\nbrand\ndollar_spent\nbeer_floz\nprice_per_floz\ncontainer\npromo\nmarket\n...\nage\nemployment\ndegree\ncow\nrace\nmicrowave\ndishwasher\ntvcable\nsinglefamilyhome\nnpeople\n\n\n\n\n0\n2000946\nBUD LT BR CN 12P\n1\nBUD LIGHT\n8.14\n144.0\n0.056528\nCAN\nFalse\nRURAL ILLINOIS\n...\n50+\nnone\nGrad\nnone/retired/student\nwhite\nTrue\nTrue\npremium\nFalse\n1\n\n\n1\n2003036\nBUD LT BR CN 24P\n1\nBUD LIGHT\n17.48\n288.0\n0.060694\nCAN\nFalse\nATLANTA\n...\n50+\nfull\nCollege\nclerical/sales/service\nwhite\nTrue\nTrue\nbasic\nTrue\n2\n\n\n2\n2003036\nBUD LT BR CN 24P\n2\nBUD LIGHT\n33.92\n576.0\n0.058889\nCAN\nFalse\nATLANTA\n...\n50+\nfull\nCollege\nclerical/sales/service\nwhite\nTrue\nTrue\nbasic\nTrue\n2\n\n\n3\n2003036\nBUD LT BR CN 30P\n2\nBUD LIGHT\n34.74\n720.0\n0.048250\nCAN\nFalse\nATLANTA\n...\n50+\nfull\nCollege\nclerical/sales/service\nwhite\nTrue\nTrue\nbasic\nTrue\n2\n\n\n4\n2003036\nBUD LT BR CN 36P\n2\nBUD LIGHT\n40.48\n864.0\n0.046852\nCAN\nFalse\nATLANTA\n...\n50+\nfull\nCollege\nclerical/sales/service\nwhite\nTrue\nTrue\nbasic\nTrue\n2\n\n\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n\n\n73110\n9158319\nNATURAL LT BR CN 24P\n1\nNATURAL LIGHT\n11.49\n288.0\n0.039896\nCAN\nTrue\nRURAL VIRGINIA\n...\n50+\nnone\nHS\nnone/retired/student\nblack\nTrue\nTrue\npremium\nTrue\n2\n\n\n73111\n9158319\nNATURAL LT BR CN 24P\n1\nNATURAL LIGHT\n9.97\n288.0\n0.034618\nCAN\nFalse\nRURAL VIRGINIA\n...\n50+\nnone\nHS\nnone/retired/student\nblack\nTrue\nTrue\npremium\nTrue\n2\n\n\n73112\n9158319\nNATURAL LT BR CN 24P\n1\nNATURAL LIGHT\n9.98\n288.0\n0.034653\nCAN\nFalse\nRURAL VIRGINIA\n...\n50+\nnone\nHS\nnone/retired/student\nblack\nTrue\nTrue\npremium\nTrue\n2\n\n\n73113\n9164033\nNATURAL LT BR CN 30P\n1\nNATURAL LIGHT\n12.98\n360.0\n0.036056\nCAN\nFalse\nSACRAMENTO\n...\n50+\nfull\nCollege\nprof\nhispanic\nTrue\nTrue\nbasic\nTrue\n5plus\n\n\n73114\n9164155\nNATURAL LT BR CN 24P\n1\nNATURAL LIGHT\n13.49\n288.0\n0.046840\nCAN\nFalse\nJACKSONVILLE\n...\n50+\nfull\nHS\nlabor/craft/military/farm\nwhite\nTrue\nTrue\nnone\nTrue\n2\n\n\n\n\n\n73115 rows × 24 columns\n\n    \n\n  \n    \n\n  \n    \n  \n    \n\n  \n\n    \n  \n\n\n\n  \n\n\n    \n        \n    \n\n  \n\n\n\n  \n\n    \n  \n\n\nThis is Byeong-Hak’s Data Preparation and Management Course.\n\n!pip install selenium\n\nCollecting selenium\n  Downloading selenium-4.16.0-py3-none-any.whl (10.0 MB)\n     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.0/10.0 MB 16.7 MB/s eta 0:00:00\nRequirement already satisfied: urllib3[socks]&lt;3,&gt;=1.26 in /usr/local/lib/python3.10/dist-packages (from selenium) (2.0.7)\nCollecting trio~=0.17 (from selenium)\n  Downloading trio-0.24.0-py3-none-any.whl (460 kB)\n     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 460.2/460.2 kB 37.9 MB/s eta 0:00:00\nCollecting trio-websocket~=0.9 (from selenium)\n  Downloading trio_websocket-0.11.1-py3-none-any.whl (17 kB)\nRequirement already satisfied: certifi&gt;=2021.10.8 in /usr/local/lib/python3.10/dist-packages (from selenium) (2023.11.17)\nRequirement already satisfied: attrs&gt;=20.1.0 in /usr/local/lib/python3.10/dist-packages (from trio~=0.17-&gt;selenium) (23.2.0)\nRequirement already satisfied: sortedcontainers in /usr/local/lib/python3.10/dist-packages (from trio~=0.17-&gt;selenium) (2.4.0)\nRequirement already satisfied: idna in /usr/local/lib/python3.10/dist-packages (from trio~=0.17-&gt;selenium) (3.6)\nCollecting outcome (from trio~=0.17-&gt;selenium)\n  Downloading outcome-1.3.0.post0-py2.py3-none-any.whl (10 kB)\nRequirement already satisfied: sniffio&gt;=1.3.0 in /usr/local/lib/python3.10/dist-packages (from trio~=0.17-&gt;selenium) (1.3.0)\nRequirement already satisfied: exceptiongroup in /usr/local/lib/python3.10/dist-packages (from trio~=0.17-&gt;selenium) (1.2.0)\nCollecting wsproto&gt;=0.14 (from trio-websocket~=0.9-&gt;selenium)\n  Downloading wsproto-1.2.0-py3-none-any.whl (24 kB)\nRequirement already satisfied: pysocks!=1.5.7,&lt;2.0,&gt;=1.5.6 in /usr/local/lib/python3.10/dist-packages (from urllib3[socks]&lt;3,&gt;=1.26-&gt;selenium) (1.7.1)\nCollecting h11&lt;1,&gt;=0.9.0 (from wsproto&gt;=0.14-&gt;trio-websocket~=0.9-&gt;selenium)\n  Downloading h11-0.14.0-py3-none-any.whl (58 kB)\n     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.3/58.3 kB 6.0 MB/s eta 0:00:00\nInstalling collected packages: outcome, h11, wsproto, trio, trio-websocket, selenium\nSuccessfully installed h11-0.14.0 outcome-1.3.0.post0 selenium-4.16.0 trio-0.24.0 trio-websocket-0.11.1 wsproto-1.2.0\n\n\n\nfrom selenium import webdriver\n\n\nfrom google.colab import drive\ndrive.mount('/content/gdrive')\n\nMounted at /content/gdrive\n\n\n\ndf = pd.read_csv('gdrive/My Drive/wine_data.csv')\ndf\n\n\n  \n    \n\n\n\n\n\n\nacidity_fixed\nacidity_volatile\nacidity_citric\nresidual_sugar\nchlorides\nso2_free\nso2_tot\ndensity\npH\nso4_2\nalcohol\nquality\ncolor\n\n\n\n\n0\n7.4\n0.70\n0.00\n1.9\n0.076\n11.0\n34.0\n0.99780\n3.51\n0.56\n9.4\n5\nred\n\n\n1\n7.8\n0.88\n0.00\n2.6\n0.098\n25.0\n67.0\n0.99680\n3.20\n0.68\n9.8\n5\nred\n\n\n2\n7.8\n0.76\n0.04\n2.3\n0.092\n15.0\n54.0\n0.99700\n3.26\n0.65\n9.8\n5\nred\n\n\n3\n11.2\n0.28\n0.56\n1.9\n0.075\n17.0\n60.0\n0.99800\n3.16\n0.58\n9.8\n6\nred\n\n\n4\n7.4\n0.70\n0.00\n1.9\n0.076\n11.0\n34.0\n0.99780\n3.51\n0.56\n9.4\n5\nred\n\n\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n\n\n6492\n6.2\n0.21\n0.29\n1.6\n0.039\n24.0\n92.0\n0.99114\n3.27\n0.50\n11.2\n6\nwhite\n\n\n6493\n6.6\n0.32\n0.36\n8.0\n0.047\n57.0\n168.0\n0.99490\n3.15\n0.46\n9.6\n5\nwhite\n\n\n6494\n6.5\n0.24\n0.19\n1.2\n0.041\n30.0\n111.0\n0.99254\n2.99\n0.46\n9.4\n6\nwhite\n\n\n6495\n5.5\n0.29\n0.30\n1.1\n0.022\n20.0\n110.0\n0.98869\n3.34\n0.38\n12.8\n7\nwhite\n\n\n6496\n6.0\n0.21\n0.38\n0.8\n0.020\n22.0\n98.0\n0.98941\n3.26\n0.32\n11.8\n6\nwhite\n\n\n\n\n\n6497 rows × 13 columns"
+  },
+  {
     "objectID": "cv.html",
     "href": "cv.html",
     "title": "Bio",
@@ -35,73 +168,45 @@
     "text": "Memberships\n\n\n\n\n\n2022—present\nSouthern Economic Association\n\n\n2018—present\nAssociation of Environmental and Resource Economists\n\n\n2017—present\nAmerican Economic Association\n\n\n2017—2019\nEconometric Society"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Byeong-Hak Choe",
+    "objectID": "basic-python-intro.html",
+    "href": "basic-python-intro.html",
+    "title": "Introduction to Python",
     "section": "",
-    "text": "I am an applied economist and a data analytics teacher at SUNY Geneseo Business School.\nMy research interests lie in environmental economics, energy economics, and climate change policy.\nMy teaching interests are in economics and data science. My students use the tools of machine learning, econometrics, and data visualization to address business strategies, public policy, and individual decision-making."
+    "text": "Python is a high-level, interpreted programming language. This is a simple Python code:\n\nprint('Hello, World!')"
   },
   {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Byeong-Hak Choe",
-    "section": "Education",
-    "text": "Education\nUniversity of Wyoming, 2021 - Ph.D. in Economics - Essays on the Political Economy of Climate Change\nArizona State University, 2015 - M.S. in Economics\nStony Brook University, 2014 - M.A. in Economics"
-  },
-  {
-    "objectID": "colab-welcome.html",
-    "href": "colab-welcome.html",
-    "title": "Getting started",
+    "objectID": "basic-python-intro.html#what-is-python",
+    "href": "basic-python-intro.html#what-is-python",
+    "title": "Introduction to Python",
     "section": "",
-    "text": "If you’re already familiar with Colab, check out this video to learn about interactive tables, the executed code history view, and the command palette.\nColab, or “Colaboratory”, allows you to write and execute Python in your browser, with - Zero configuration required - Access to GPUs free of charge - Easy sharing\nWhether you’re a student, a data scientist or an AI researcher, Colab can make your work easier. Watch Introduction to Colab to learn more, or just get started below!\nThe document you are reading is not a static web page, but an interactive environment called a Colab notebook that lets you write and execute code.\nFor example, here is a code cell with a short Python script that computes a value, stores it in a variable, and prints the result:\nseconds_in_a_day = 24 * 60 * 60\nseconds_in_a_day\n\n86400\nTo execute the code in the above cell, select it with a click and then either press the play button to the left of the code, or use the keyboard shortcut “Command/Ctrl+Enter”. To edit the code, just click the cell and start editing.\nVariables that you define in one cell can later be used in other cells:\nseconds_in_a_week = 7 * seconds_in_a_day\nseconds_in_a_week\n\n604800\nColab notebooks allow you to combine executable code and rich text in a single document, along with images, HTML, LaTeX and more. When you create your own Colab notebooks, they are stored in your Google Drive account. You can easily share your Colab notebooks with co-workers or friends, allowing them to comment on your notebooks or even edit them. To learn more, see Overview of Colab. To create a new Colab notebook you can use the File menu above, or use the following link: create a new Colab notebook.\nColab notebooks are Jupyter notebooks that are hosted by Colab. To learn more about the Jupyter project, see jupyter.org.\nWith Colab you can harness the full power of popular Python libraries to analyze and visualize data. The code cell below uses numpy to generate some random data, and uses matplotlib to visualize it. To edit the code, just click the cell and start editing.\nimport numpy as np\nfrom matplotlib import pyplot as plt\n\nys = 200 + np.random.randn(100)\nx = [x for x in range(len(ys))]\n\nplt.plot(x, ys, '-')\nplt.fill_between(x, ys, 195, where=(ys &gt; 195), facecolor='g', alpha=0.6)\n\nplt.title(\"Sample Visualization\")\nplt.show()\nYou can import your own data into Colab notebooks from your Google Drive account, including from spreadsheets, as well as from Github and many other sources. To learn more about importing data, and how Colab can be used for data science, see the links below under Working with Data.\nWith Colab you can import an image dataset, train an image classifier on it, and evaluate the model, all in just a few lines of code. Colab notebooks execute code on Google’s cloud servers, meaning you can leverage the power of Google hardware, including GPUs and TPUs, regardless of the power of your machine. All you need is a browser.\nColab is used extensively in the machine learning community with applications including: - Getting started with TensorFlow - Developing and training neural networks - Experimenting with TPUs - Disseminating AI research - Creating tutorials\nTo see sample Colab notebooks that demonstrate machine learning applications, see the machine learning examples below."
+    "text": "Python is a high-level, interpreted programming language. This is a simple Python code:\n\nprint('Hello, World!')"
   },
   {
-    "objectID": "colab-welcome.html#data-science",
-    "href": "colab-welcome.html#data-science",
-    "title": "Getting started",
-    "section": "Data science",
-    "text": "Data science"
+    "objectID": "basic-python-intro.html#variables-and-data-types",
+    "href": "basic-python-intro.html#variables-and-data-types",
+    "title": "Introduction to Python",
+    "section": "Variables and Data Types",
+    "text": "Variables and Data Types\nIn Python, variables can store data of different types without explicitly declaring the type.\nFor example:\n\ninteger_variable = 10\nstring_variable = 'Hello'\nfloat_variable = 10.5\n\nfloat_variable\n\n10.5"
   },
   {
-    "objectID": "colab-welcome.html#machine-learning",
-    "href": "colab-welcome.html#machine-learning",
-    "title": "Getting started",
-    "section": "Machine learning",
-    "text": "Machine learning"
+    "objectID": "basic-python-intro.html#control-structures",
+    "href": "basic-python-intro.html#control-structures",
+    "title": "Introduction to Python",
+    "section": "Control Structures",
+    "text": "Control Structures\nPython supports the usual logical conditions from mathematics:\n\n# Equals: a == b\n# Not Equals: a != b\n# Less than: a &lt; b\n# Less than or equal to: a &lt;= b\n# Greater than: a &gt; b\n# Greater than or equal to: a &gt;= b\n\nThese conditions can be used in several ways, most commonly in ‘if statements’ and loops.\n\n# if statement:\nif 5 &gt; 2:\n    print('Five is greater than two!')"
   },
   {
-    "objectID": "colab-welcome.html#more-resources",
-    "href": "colab-welcome.html#more-resources",
-    "title": "Getting started",
-    "section": "More Resources",
-    "text": "More Resources\n\nWorking with Notebooks in Colab"
+    "objectID": "basic-python-intro.html#functions",
+    "href": "basic-python-intro.html#functions",
+    "title": "Introduction to Python",
+    "section": "Functions",
+    "text": "Functions\nA function is a block of code which only runs when it is called.\nYou can pass data, known as parameters, into a function.\nA function can return data as a result.\n\n# Defining a function:\ndef my_function():\n    print('Hello from a function')\n\n# Calling a function:\nmy_function()"
   },
   {
-    "objectID": "econml.html#causal-machine-learning",
-    "href": "econml.html#causal-machine-learning",
-    "title": "byeong-hak choe",
-    "section": "Causal Machine Learning",
-    "text": "Causal Machine Learning\n\nDive into Causal Machine Learning, The World Bank and Pontificia Universidad Católica del Perú, Alexander Quispe et. al. \nMIT 14.388: Inference on Causal and Structural Parameters Using ML and AI, Department of Economics, MIT, Victor Chernozukhov\n\nPython Website\nJulia Website \n\nMGTECON 634: ML-based Causal Inference, Stanford, Susan Athey \nMachine Learning & Causal Inference: A Short Course, Stanford, Susan Athey, Jan Spiess, and Stefan Wager\n\nTutorial\nYouTube \n\n2018 American Economic Association Continuing Education: Machine Learning and Econometrics, Susan Athey and Guido Imbens \nCausal Inference and Machine Learning in Practice with EconML and CausalML: Industrial Use Cases at Microsoft, TripAdvisor, Uber \nDoubleML: Python and R Packages for the Double/Debiased Machine Learning Framework, P. Bach, V. Chernozhukov, M. S. Kurz, and M. Spindler \nEconML: A Python Package for ML-based Heterogeneous Treatment Effects Estimation, Microsoft \nCausalML: A Python Package for ML-based Causal Inference, Uber"
-  },
-  {
-    "objectID": "econml.html#machine-learning-and-big-data",
-    "href": "econml.html#machine-learning-and-big-data",
-    "title": "byeong-hak choe",
-    "section": "Machine Learning and Big Data",
-    "text": "Machine Learning and Big Data\n\n2023 American Economic Association Continuing Education: Machine Learning and Big Data, Melissa Dell and Matthew Harding \nMachine Learning for Economists (ml4econ), Bank of Israel, Itamar Caspi and Ariel Mansura"
-  },
-  {
-    "objectID": "econml.html#causal-inference",
-    "href": "econml.html#causal-inference",
-    "title": "byeong-hak choe",
-    "section": "Causal Inference",
-    "text": "Causal Inference\n\nCausal Inference: The Mixtape, Scott Cunningham \nCausal Inference for the Brave and True, Matheus Facure \nCausal Inference and Its Applications in Online Industry, Alex Deng \nApplied Empirical Methods, Yale SOM, Paul Goldsmith-Pinkham\n\nYouTube \n\nCausal Inference with Panel Data, Department of Political Science, Stanford, Yiqing Xu\n\nYouTube \n\nCausal Inference: What If, Miguel A. Hernán and James M. Robins \nRecent Developments in Difference-in-Differences, Vienna University of Economics and Business, Asjad Naqvi \nDifference-in-Differences Blog \nGov 2003: Causal Inference, Department of Government, Harvard, Matthew Blackwell"
-  },
-  {
-    "objectID": "econml.html#researchers-in-causal-machine-learning",
-    "href": "econml.html#researchers-in-causal-machine-learning",
-    "title": "byeong-hak choe",
-    "section": "Researchers in Causal Machine Learning",
-    "text": "Researchers in Causal Machine Learning\n\nSusan Athey \nAlexandre Belloni \nVictor Chernozhukov \nCarlos Cinelli \nChristian Hansen \nGuido Imbens\nJann Spiess \nStefan Wager"
+    "objectID": "basic-python-intro.html#lists-and-dictionaries",
+    "href": "basic-python-intro.html#lists-and-dictionaries",
+    "title": "Introduction to Python",
+    "section": "Lists and Dictionaries",
+    "text": "Lists and Dictionaries\nA list is a collection which is ordered and changeable.\nA dictionary is a collection which is unordered, changeable and indexed.\n\n# List example:\nmy_list = ['apple', 'banana', 'cherry']\n\n# Dictionary example:\nmy_dict = {'name': 'John', 'age': 36}"
   }
 ]
