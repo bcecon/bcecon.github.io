@@ -1,25 +1,14 @@
 ---
-title: ""
-output: 
-  html_document:
-    df_print: paged
+title: "Causal Machine Learning Bookmarks"
+format: 
+  html:
     toc: true
     toc_depth: 2
     toc_float: true
     number_sections: false
+    
+comments: false
 ---
-```{r klippy, echo=FALSE, include=TRUE}
-htmltools::tagList(
-  xaringanExtra::use_clipboard(
-    button_text = "<i class=\"fa fa-clipboard\"></i>",
-    success_text = "<i class=\"fa fa-check\" style=\"color: #90BE6D\"></i>",
-  ),
-  rmarkdown::html_dependency_font_awesome()
-)
-
-```
-
-
 
 ## Causal Machine Learning
 

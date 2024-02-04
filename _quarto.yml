@@ -1,31 +1,45 @@
 project:
-  type: website
+  type: website 
   output-dir: "."
   
 website:
-  title: "byeong-hak choe"
-  page-footer: "Copyright 2024, Byeong-Hak Choe" 
+  title: "B.H. CHOE&nbsp;&nbsp;&nbsp;"
+  favicon: img/favicon.ico
+  description: 'A collection of data analytics course contents by Byeong-Hak Choe'
   reader-mode: false
+  back-to-top-navigation: true
+
   navbar:
+    background: "#1c4982"
+    logo: img/geneseo-logo-squared.png
     pinned: true
-    left:
-      - text: curriculum vitae
-        href: https://bcecon.github.io/choe-cv.pdf
-        target: _bl
-      - text: causal & ml bookmarks
+    right:
+      - text: causal ml
         href: econml.qmd
       - text: teaching
-        menu:
-          - text: spring 2024
-            href: https://bcdanl.github.io/
-            target: _blank
+        href: https://bcdanl.github.io
+        target: _blank
+      - text: blog
+        href: blog-listing.qmd
+    
 
+  page-footer: 
+    border: false
+    center: "powered with github, quarto, and rstudio<br>byeong-hak choe, 2024"
+    # foreground: dark
+    # background: '#9b4e55' 
+    
 format:
-  html:
+  html: 
+    grid:
+      margin-width: 400px
+      sidebar-width: 275px
+    link-external-newwindow: true
     theme:
-      light: flatly 
-      dark: darkly # [, theme-dark.scss]
-    # mainfont: Georgia, serif;
-    mainfont: Gill Sans, sans-serif;
+      light: [flatly]  # flatly litera sandstone 'assets/scss/light.scss'
+      dark: [darkly, theme-dark.scss] # darkly cyborg slate solra superhero
+    css: [styles.css, assets/css/font.css] # , font.css
+    highlight-style: atom-one # espresso   tango
+    mainfont:  sans-serif; serif; ui-sans-serif  # Gill Sans, sans-serif;
     toc: true
-    # include-after-body: target_blank.html
+    # include-after-body: [target-blank.html]

@@ -1,0 +1,1001 @@
+"","year","month","day","breed","gender","spayneuter","zipcode","age"
+"1",2018,1,1,NA,"U",FALSE,"11220",NA
+"2",2018,1,4,NA,"U",FALSE,NA,NA
+"3",2018,1,6,"pit bull","U",FALSE,"11224",NA
+"4",2018,1,8,"mixed","M",FALSE,"11231",4
+"5",2018,1,9,"pit bull","U",FALSE,"11224",NA
+"6",2018,1,3,"basenji","M",FALSE,"11231",4
+"7",2018,1,1,NA,"U",FALSE,NA,NA
+"8",2018,1,3,"pit bull","U",FALSE,"11233",NA
+"9",2018,1,4,"pit bull","M",FALSE,"11235",5
+"10",2018,1,10,"mixed","F",FALSE,"11208",3
+"11",2018,1,6,NA,"U",FALSE,"11215",NA
+"12",2018,1,7,"yorkshire terrier","M",TRUE,"11208",7
+"13",2018,1,6,"great dane","F",TRUE,NA,6
+"14",2018,1,1,"pit bull","U",FALSE,"11220",NA
+"15",2018,1,9,"labradoodle","F",TRUE,"11238",5
+"16",2018,1,1,"west high white terrier","M",FALSE,"11207",NA
+"17",2018,1,14,"pit bull","U",FALSE,"11205",NA
+"18",2018,1,7,NA,"U",FALSE,"11209",NA
+"19",2018,1,13,"mixed","M",FALSE,"11237",7
+"20",2018,1,10,"pit bull","U",FALSE,"11233",NA
+"21",2018,1,15,"poodle, miniature","M",TRUE,"11217",8
+"22",2018,1,13,"pit bull","F",TRUE,"11236",11
+"23",2018,1,13,NA,"U",FALSE,"11234",NA
+"24",2018,1,9,NA,"U",FALSE,"11220",NA
+"25",2018,1,1,NA,"U",FALSE,NA,NA
+"26",2018,1,18,"pekingese","M",TRUE,"11220",3
+"27",2018,1,8,"poodle","M",TRUE,"11215",13
+"28",2018,1,18,"labrador retriever","M",TRUE,"11214",11
+"29",2018,1,18,"pit bull","F",TRUE,"11230",2
+"30",2018,1,17,"dachshund smooth coat","M",FALSE,"11211",2
+"31",2018,1,20,"pit bull","U",FALSE,"11224",NA
+"32",2018,1,21,NA,"M",TRUE,"11231",2
+"33",2018,1,23,"mixed","F",FALSE,"11225",NA
+"34",2018,1,23,"mixed","F",FALSE,"11225",NA
+"35",2018,1,23,"chihuahua","M",FALSE,"11205",4
+"36",2018,1,15,"pit bull","U",FALSE,"11208",NA
+"37",2018,1,23,"yorkshire terrier","U",FALSE,"11210",NA
+"38",2018,1,24,"shih tzu","U",FALSE,"11233",NA
+"39",2018,1,28,"pug","M",TRUE,"11223",8
+"40",2018,1,27,"maltese","U",FALSE,"11224",NA
+"41",2018,1,28,"mixed","U",FALSE,"11214",NA
+"42",2018,1,29,"mixed","F",FALSE,"11232",7
+"43",2018,1,27,NA,"U",FALSE,"11226",NA
+"44",2018,1,28,"minature pinscher","M",FALSE,"11214",8
+"45",2018,2,1,"terrier","M",FALSE,"11233",4
+"46",2018,1,31,"shih tzu","U",FALSE,"11215",NA
+"47",2018,2,1,"dachshund, wirehaired, miniature","M",FALSE,NA,0.83
+"48",2018,1,29,"american staff","M",TRUE,"11201",3
+"49",2018,2,2,NA,"U",FALSE,"11212",NA
+"50",2018,2,5,"bichon frise","U",FALSE,"11212",NA
+"51",2018,2,5,"german shepherd","M",FALSE,"11236",1
+"52",2018,1,31,"pit bull","U",FALSE,NA,NA
+"53",2018,2,4,"pit bull","U",FALSE,"11201",NA
+"54",2018,2,4,"mixed","U",FALSE,"11211",NA
+"55",2018,1,29,"mixed","M",FALSE,"11236",5
+"56",2018,1,21,"pit bull","U",FALSE,"11207",NA
+"57",2018,1,21,"pit bull","U",FALSE,"11207",NA
+"58",2018,2,9,"chihuahua","M",FALSE,"11233",0.75
+"59",2018,2,7,"pit bull","M",FALSE,"11216",2
+"60",2018,2,13,"mixed","M",FALSE,"11231",NA
+"61",2018,2,5,"pit bull","M",FALSE,"11234",6
+"62",2018,2,12,"german shepherd","M",FALSE,"11235",3
+"63",2018,2,15,"mixed","U",FALSE,"11215",NA
+"64",2018,2,10,"labrador retriever","M",TRUE,"11239",5
+"65",2018,2,11,"rottweiler","U",FALSE,NA,NA
+"66",2018,2,16,"shih tzu","M",FALSE,"11236",9
+"67",2018,2,14,"pit bull","M",FALSE,"11216",10
+"68",2018,2,18,"pomeranian","M",FALSE,NA,0.67
+"69",2018,2,19,"norfolk terrier","U",FALSE,"11231",NA
+"70",2018,2,20,"border collie","F",FALSE,"11216",3
+"71",2018,2,16,"beagle","F",TRUE,"11209",4
+"72",2018,2,19,"pit bull","M",FALSE,"11212",2
+"73",2018,2,17,"poodle","M",TRUE,"11230",4
+"74",2018,2,11,NA,"U",FALSE,"11220",NA
+"75",2018,2,17,"mixed","F",TRUE,"11201",2
+"76",2018,2,21,NA,"U",FALSE,"11231",NA
+"77",2018,2,7,"labrador retriever","F",TRUE,"11219",4
+"78",2018,2,9,"chihuahua","M",TRUE,"11214",7
+"79",2018,2,22,"pit bull","F",FALSE,"11233",2
+"80",2018,2,24,"pit bull","F",TRUE,"11236",3
+"81",2018,2,25,"yorkshire terrier","F",FALSE,"11234",NA
+"82",2018,2,24,"rottweiler","U",FALSE,"11233",NA
+"83",2018,2,25,"pit bull","M",FALSE,"11218",3
+"84",2018,2,26,"mini pinscher/pomeranian","M",TRUE,"11214",8
+"85",2018,2,27,"pit bull","F",FALSE,"11208",3
+"86",2018,2,26,"poodle, standard","F",FALSE,"11220",5
+"87",2018,2,17,"pit bull","U",FALSE,"11233",NA
+"88",2018,2,26,"labradoodle","M",TRUE,"11201",8
+"89",2018,3,4,NA,"U",FALSE,"11206",NA
+"90",2018,3,3,"australian silky terrier","M",TRUE,"11208",6
+"91",2018,3,2,"cocker spaniel","M",FALSE,"11209",2
+"92",2018,3,4,"beagle","U",FALSE,"11215",NA
+"93",2018,3,4,"siberian husky","F",TRUE,"11234",5
+"94",2018,3,5,"mixed","M",FALSE,"11225",3
+"95",2018,3,4,"pit bull","M",TRUE,NA,4
+"96",2018,2,28,"shepherd/pointer","M",TRUE,"11209",1
+"97",2018,3,5,"boxer","U",FALSE,"11215",NA
+"98",2018,3,6,"shih tzu","U",FALSE,NA,NA
+"99",2018,3,6,"pit bull","U",FALSE,"11220",NA
+"100",2018,3,6,"mixed","M",TRUE,"11229",13
+"101",2018,3,3,"terrier","M",FALSE,"11234",5
+"102",2018,2,21,"german shepherd","U",FALSE,"11219",NA
+"103",2018,3,4,NA,"U",FALSE,"11236",NA
+"104",2018,2,22,NA,"U",FALSE,"11212",NA
+"105",2018,3,11,"pit bull","F",TRUE,"11234",2
+"106",2018,3,12,"siberian husky","M",FALSE,"11219",2
+"107",2018,3,11,"pit bull","F",FALSE,"11231",0.33
+"108",2018,3,9,"labrador retriever","M",FALSE,"11222",0.19
+"109",2018,3,15,"beagle","M",TRUE,"11220",7
+"110",2018,3,17,"jack russ","U",FALSE,"11229",NA
+"111",2018,3,17,"rottweiler","M",TRUE,"11206",4
+"112",2018,3,17,"labrador retriever","M",TRUE,"11223",2
+"113",2018,3,18,"pit bull","M",FALSE,"11216",3
+"114",2018,3,18,"mixed","F",FALSE,"11211",11
+"115",2018,3,18,"mixed","U",FALSE,"11208",9
+"116",2018,3,17,"mixed","F",FALSE,"11203",2
+"117",2018,3,11,"mixed","F",TRUE,"11206",6
+"118",2018,3,20,NA,"U",FALSE,"11209",NA
+"119",2018,3,22,NA,"U",FALSE,"11215",NA
+"120",2018,3,17,NA,"U",FALSE,"11238",NA
+"121",2018,3,21,"maltese","F",FALSE,"11216",0.62
+"122",2018,3,11,"lhasa apso","M",FALSE,"11226",1
+"123",2018,3,26,"corgi-chihuahua","M",TRUE,"11225",11
+"124",2018,3,22,"puggle","M",FALSE,"11204",9
+"125",2018,3,25,"english staffordshire terrier","M",TRUE,"11215",1
+"126",2018,3,23,"mixed","M",TRUE,"11218",8
+"127",2018,3,26,"pit bull","U",FALSE,"11207",NA
+"128",2018,3,27,NA,"U",FALSE,NA,NA
+"129",2018,3,23,"shih tzu","F",FALSE,"11209",13
+"130",2018,3,27,"bichon frise","U",FALSE,NA,NA
+"131",2018,3,26,"pit bull","U",FALSE,"11207",NA
+"132",2018,3,23,"pit bull","U",FALSE,NA,NA
+"133",2018,3,25,NA,"U",FALSE,NA,NA
+"134",2018,3,28,"pit bull","F",TRUE,"11221",4
+"135",2018,3,29,"shih tzu","F",FALSE,"11237",2
+"136",2018,3,30,"bichon / poodle","M",FALSE,"11226",11
+"137",2018,4,1,NA,"U",FALSE,NA,NA
+"138",2018,3,31,"maltese","M",TRUE,"11215",11
+"139",2018,4,4,"mixed","F",FALSE,"11208",4
+"140",2018,3,31,"maltese/ shih tzu","M",FALSE,"11234",3
+"141",2018,3,31,"siberian husky","M",FALSE,"11214",4
+"142",2018,4,4,"mixed","M",FALSE,"11207",10
+"143",2018,4,4,"mixed","M",FALSE,"11207",10
+"144",2018,4,3,"mixed","M",FALSE,"11237",3
+"145",2018,4,4,"mixed","M",FALSE,"11237",3
+"146",2018,3,29,"mixed","M",FALSE,"11216",4
+"147",2018,4,4,"mixed","M",FALSE,"11216",4
+"148",2018,4,8,"mixed","M",FALSE,"11249",2
+"149",2018,4,8,"mixed","M",FALSE,"11249",2
+"150",2018,4,7,"akita","M",FALSE,"11207",4
+"151",2018,4,8,"shih tzu","M",FALSE,NA,3
+"152",2018,4,8,"rat terrier","U",TRUE,"11211",1
+"153",2018,4,9,"boston terrier/chihuahua","F",TRUE,"11201",6
+"154",2018,4,9,"german shepherd","M",TRUE,"11221",3
+"155",2018,3,31,"pit bull","U",FALSE,"11218",NA
+"156",2018,4,7,"sheperd","U",FALSE,NA,NA
+"157",2018,4,8,"mixed","M",TRUE,"11238",3
+"158",2018,4,9,"siberian husky","M",TRUE,"11238",1
+"159",2018,4,10,"shih tzu","M",TRUE,NA,6
+"160",2018,4,10,"pit bull","U",FALSE,"11236",NA
+"161",2018,4,10,"maltese","F",TRUE,"11223",10
+"162",2018,4,2,"mixed","F",TRUE,"11218",6
+"163",2018,4,8,"yorkshire terrier","M",FALSE,"11221",6
+"164",2018,4,7,"border collie","M",FALSE,NA,NA
+"165",2018,4,7,"pit bull","M",FALSE,"11230",1
+"166",2018,4,14,"cane corso","F",FALSE,"11234",9
+"167",2018,4,16,"dachshund smooth coat","F",TRUE,"11249",12
+"168",2018,4,16,"rottweiler","M",TRUE,"11208",2
+"169",2018,4,15,"hound","U",FALSE,"11231",NA
+"170",2018,4,12,"pit bull","U",FALSE,"11217",NA
+"171",2018,4,10,"maltese/ shih tzu","M",TRUE,"11201",1
+"172",2018,4,18,"pit bull","U",FALSE,"11207",NA
+"173",2018,4,18,"pit bull","U",FALSE,"11236",NA
+"174",2018,4,18,"mixed","M",FALSE,"11236",2
+"175",2018,4,18,NA,"U",FALSE,NA,NA
+"176",2018,4,19,"pit bull","M",FALSE,"11206",5
+"177",2018,4,21,"pit bull","M",FALSE,"11231",3
+"178",2018,4,23,"shih tzu","M",FALSE,"11229",7
+"179",2018,4,19,"german shepherd","U",FALSE,"11233",NA
+"180",2018,4,23,"mixed","M",FALSE,"11208",8
+"181",2018,4,21,"pit bull","U",FALSE,"11220",NA
+"182",2018,4,21,NA,"U",FALSE,"11238",NA
+"183",2018,4,23,"german shepherd","M",TRUE,"11230",2
+"184",2018,4,24,"german shepherd","M",TRUE,"11226",8
+"185",2018,4,24,"pit bull","U",FALSE,"11209",NA
+"186",2018,4,18,NA,"U",FALSE,"11214",NA
+"187",2018,4,23,NA,"U",FALSE,NA,NA
+"188",2018,4,24,"pit bull","U",FALSE,"11206",NA
+"189",2018,4,24,"pit bull","U",FALSE,NA,NA
+"190",2018,4,18,"chihuahua","U",FALSE,"11221",NA
+"191",2018,4,25,"shih tzu","U",FALSE,"11233",NA
+"192",2018,4,26,"pit bull","U",FALSE,"11238",NA
+"193",2018,4,2,"lhasa apso/poodle","F",TRUE,"11210",5
+"194",2018,4,29,"pit bull","U",FALSE,"11233",NA
+"195",2018,4,27,"mixed","M",FALSE,"11203",5
+"196",2018,4,25,"asian sheperd","M",TRUE,"11204",2
+"197",2018,5,1,"german shepherd","M",TRUE,"11230",0.75
+"198",2018,4,29,"mixed","F",TRUE,"11232",2
+"199",2018,5,1,"mixed","U",FALSE,NA,NA
+"200",2018,4,14,"mixed","M",FALSE,NA,4
+"201",2018,5,1,"golden retriever","M",FALSE,"11230",1
+"202",2018,5,2,"pit bull","F",FALSE,"11220",4
+"203",2018,5,2,"pit bull","U",FALSE,"11213",NA
+"204",2018,5,2,"labrador retriever","M",TRUE,"11222",5
+"205",2018,4,27,"pit bull","U",FALSE,"11215",NA
+"206",2018,5,3,NA,"U",FALSE,"11234",NA
+"207",2018,5,7,"pit bull","M",FALSE,"11224",NA
+"208",2018,5,5,NA,"U",FALSE,"11204",NA
+"209",2018,5,5,NA,"M",FALSE,"11220",NA
+"210",2018,5,4,"yorkshire terrier","M",TRUE,"11214",15
+"211",2018,5,7,"pit bull","F",FALSE,"11203",8
+"212",2018,4,27,"shiba inu","M",FALSE,NA,NA
+"213",2018,5,7,"yorkshire terrier","F",FALSE,"11207",1
+"214",2018,5,9,"bull dog","U",FALSE,NA,NA
+"215",2018,5,7,"pit bull","U",FALSE,"11214",NA
+"216",2018,5,8,"rottweiler","M",TRUE,"11236",1
+"217",2018,5,1,"german shepherd","M",TRUE,"11238",15
+"218",2018,3,4,NA,"U",FALSE,"11206",NA
+"219",2018,5,10,"siberian husky","U",FALSE,"11205",NA
+"220",2018,5,7,NA,"U",FALSE,NA,NA
+"221",2018,5,9,"australian cattledog","F",TRUE,"11226",6
+"222",2018,5,10,"yorkshire terrier","F",FALSE,"11205",7
+"223",2018,5,12,"pit bull","F",FALSE,"11230",NA
+"224",2018,5,12,"pit bull","U",FALSE,"11221",NA
+"225",2018,5,14,"beagle","M",TRUE,"11225",4
+"226",2018,5,12,"bull dog","M",TRUE,"11235",2
+"227",2018,5,15,"mixed","M",FALSE,"11208",8
+"228",2018,5,9,NA,"U",FALSE,"11223",NA
+"229",2018,5,14,NA,"U",FALSE,"11210",NA
+"230",2018,5,14,"great dane","U",FALSE,"11213",NA
+"231",2018,5,13,"pit bull","U",FALSE,"11221",NA
+"232",2018,4,17,"cane corso","F",FALSE,"11236",1
+"233",2018,5,17,"labrador retriever","M",TRUE,"11201",3
+"234",2018,5,18,"pit bull","U",FALSE,"11213",NA
+"235",2018,5,20,"mixed","M",FALSE,"11236",1
+"236",2018,5,19,"spaniel","U",FALSE,"11218",NA
+"237",2018,5,19,"mixed","U",FALSE,"11226",NA
+"238",2018,5,20,"pit bull","F",FALSE,"11221",4
+"239",2018,5,18,"husky","U",FALSE,"11221",NA
+"240",2018,5,22,"pit bull","U",FALSE,"11213",NA
+"241",2018,5,22,"pit bull","U",FALSE,"11226",NA
+"242",2018,5,20,NA,"U",FALSE,"11212",NA
+"243",2018,5,23,"cocker spaniel","F",FALSE,"11224",6
+"244",2018,5,23,"pit bull","U",FALSE,"11208",NA
+"245",2018,5,24,"chow chow","F",TRUE,"11217",4
+"246",2018,5,24,"chow chow","F",TRUE,"11217",4
+"247",2018,5,28,NA,"F",FALSE,"11216",6
+"248",2018,5,20,"mixed","U",FALSE,"11220",NA
+"249",2018,5,28,"pit bull","U",FALSE,NA,NA
+"250",2018,5,26,"american bully","M",FALSE,"11208",1
+"251",2018,5,26,"shih tzu","U",FALSE,"11221",NA
+"252",2018,5,26,"mixed","F",FALSE,"11213",NA
+"253",2018,5,24,"mixed","M",FALSE,"11216",1
+"254",2018,5,27,"golden retriever","F",FALSE,NA,8
+"255",2018,5,26,NA,"U",FALSE,NA,NA
+"256",2018,5,24,"pit bull","M",TRUE,"11212",5
+"257",2018,6,1,"pit bull","F",FALSE,"11223",3
+"258",2018,6,2,NA,"U",FALSE,"11221",NA
+"259",2018,6,2,NA,"U",FALSE,NA,NA
+"260",2018,6,2,"pit bull","M",FALSE,"11233",3
+"261",2018,6,5,"mixed","U",FALSE,"11209",NA
+"262",2018,6,1,"zuchon","M",FALSE,"11217",4
+"263",2018,6,1,"hound","M",TRUE,NA,2
+"264",2018,6,2,NA,"U",FALSE,NA,NA
+"265",2018,6,2,"dachshund smooth coat","M",TRUE,"11236",11
+"266",2018,6,4,NA,"F",FALSE,"11208",8
+"267",2018,6,4,"pit bull","U",FALSE,"11222",NA
+"268",2018,6,1,"pit bull","U",FALSE,"11230",NA
+"269",2018,5,25,"beagle","U",FALSE,"11223",NA
+"270",2018,5,26,"bull dog","M",TRUE,"11220",6
+"271",2018,5,25,"mixed","U",FALSE,"11222",NA
+"272",2018,5,30,NA,"F",FALSE,"11208",5
+"273",2018,6,8,NA,"M",FALSE,"11208",3
+"274",2018,5,31,"boxer","U",FALSE,"11207",NA
+"275",2018,5,26,"shih tzu","M",FALSE,"11204",2
+"276",2018,5,21,"pit bull","U",FALSE,"11220",NA
+"277",2018,5,30,"shih tzu","U",FALSE,"11238",NA
+"278",2018,6,6,"yorkshire terrier","U",FALSE,"11234",NA
+"279",2018,6,12,"pit bull","M",FALSE,"11231",3
+"280",2018,6,6,"maltese bighon white","U",FALSE,NA,NA
+"281",2018,6,1,"border collie","M",TRUE,"11217",6
+"282",2018,6,10,"yorkshire terrier","U",FALSE,"11201",NA
+"283",2018,6,2,"pit bull","U",FALSE,"11225",NA
+"284",2018,6,14,"terrier/maltese","F",TRUE,"11205",4
+"285",2018,6,7,"poodle, standard","U",FALSE,"11207",NA
+"286",2018,5,31,"mixed","U",FALSE,"11201",NA
+"287",2018,6,9,"pit bull","U",FALSE,"11205",NA
+"288",2018,5,23,"german shepherd","M",FALSE,"11234",4
+"289",2018,5,30,"shih poo","F",FALSE,"11203",2
+"290",2018,6,14,"pit bull","U",FALSE,"11205",NA
+"291",2018,6,14,"pit bull","U",FALSE,"11205",NA
+"292",2018,6,7,NA,"U",FALSE,NA,NA
+"293",2018,6,9,"mixed","F",FALSE,"11238",5
+"294",2018,6,14,NA,"U",FALSE,"11205",NA
+"295",2018,6,10,NA,"U",FALSE,"11234",NA
+"296",2018,6,2,"maltese","F",FALSE,"11224",6
+"297",2018,6,16,"pit bull","U",FALSE,"11236",NA
+"298",2018,6,4,"pit bull","U",FALSE,"11224",NA
+"299",2018,6,12,"mixed","U",FALSE,"11220",NA
+"300",2018,6,10,"maltese","M",FALSE,"11206",NA
+"301",2018,6,19,NA,"M",FALSE,"11208",NA
+"302",2018,6,11,"shih tzu","U",FALSE,"11218",NA
+"303",2018,6,6,"shih tzu","U",FALSE,"11216",NA
+"304",2018,5,28,"boston terrier","U",FALSE,"11215",NA
+"305",2018,6,13,"pit bull","U",FALSE,"11203",NA
+"306",2018,6,11,"bernedoodle","U",FALSE,"11238",NA
+"307",2018,6,20,NA,"M",FALSE,"11212",2
+"308",2018,6,20,NA,"F",FALSE,NA,2
+"309",2018,6,18,"pit bull","U",FALSE,"11249",NA
+"310",2018,6,17,"pit bull","U",FALSE,"11236",NA
+"311",2018,6,13,"hound","U",FALSE,"11231",NA
+"312",2018,6,18,NA,"U",FALSE,"11221",NA
+"313",2018,6,16,"australian shepard - poodle","M",FALSE,NA,4
+"314",2018,6,16,NA,"U",FALSE,NA,NA
+"315",2018,6,19,"pit bull","U",FALSE,"11226",NA
+"316",2018,6,24,"maltese","F",TRUE,"11212",9
+"317",2018,6,18,NA,"M",TRUE,"11215",4
+"318",2018,5,28,"australian cattle dog","M",TRUE,"11238",6
+"319",2018,6,24,NA,"M",FALSE,"11210",1
+"320",2018,6,23,NA,"M",FALSE,"11212",1
+"321",2018,6,17,"pit bull","U",FALSE,NA,NA
+"322",2018,6,19,NA,"U",FALSE,NA,NA
+"323",2018,6,21,"shih tzu/maltese","M",TRUE,"11236",7
+"324",2018,6,23,"cocker spaniel","U",FALSE,NA,NA
+"325",2018,6,21,"boston terrier","M",TRUE,"11233",5
+"326",2018,6,21,"cane corso","M",FALSE,"11223",7
+"327",2018,6,24,"mixed","F",FALSE,"11219",1
+"328",2018,6,27,"chihuahua","M",FALSE,"11219",2
+"329",2018,6,22,NA,"U",FALSE,"11219",NA
+"330",2018,6,22,NA,"U",FALSE,"11205",NA
+"331",2018,6,25,"siberian husky","U",FALSE,"11229",NA
+"332",2018,6,16,"german shepherd","M",FALSE,"11224",4
+"333",2018,6,30,NA,"U",FALSE,"11220",NA
+"334",2018,6,22,"labrador retriever","M",TRUE,"11209",1
+"335",2018,6,27,"chorkie","U",FALSE,"11204",NA
+"336",2018,6,21,"shiba inu","F",TRUE,"11223",3
+"337",2018,6,22,"german shepherd","M",FALSE,"11220",5
+"338",2018,6,22,"german shepherd","M",FALSE,NA,5
+"339",2018,6,23,NA,"U",FALSE,"11237",NA
+"340",2018,6,23,"petite golden doodle","M",TRUE,"11201",4
+"341",2018,6,21,"pit bull","U",FALSE,"11226",NA
+"342",2018,6,23,"yorkshire terrier","M",FALSE,"11235",4
+"343",2018,6,23,NA,"U",FALSE,"112",NA
+"344",2018,6,22,"golden retriever","U",FALSE,"11215",NA
+"345",2018,6,16,NA,"U",FALSE,"11224",NA
+"346",2018,7,4,"yorkshire terrier","M",FALSE,"11236",8
+"347",2018,7,4,"pit bull","U",FALSE,"11233",NA
+"348",2018,7,4,"german shepherd","U",FALSE,"11216",NA
+"349",2018,7,3,"hound","M",TRUE,"11209",2
+"350",2018,7,5,"bull dog","M",TRUE,"11234",11
+"351",2018,7,4,"small dog","U",FALSE,"11236",NA
+"352",2018,7,6,NA,"M",FALSE,"11208",2
+"353",2018,7,6,NA,"F",TRUE,"11203",2
+"354",2018,6,22,"pit bull","U",FALSE,"11233",NA
+"355",2018,6,26,NA,"U",FALSE,"11234",NA
+"356",2018,6,24,"poodle, standard","U",FALSE,"11230",NA
+"357",2018,6,21,"sheperd","U",FALSE,"11229",NA
+"358",2018,6,25,NA,"M",FALSE,"11207",NA
+"359",2018,6,27,NA,"U",FALSE,"11237",NA
+"360",2018,6,25,"pit bull","U",FALSE,"11223",NA
+"361",2018,6,27,"labrador","U",FALSE,"11219",NA
+"362",2018,6,29,"dachshund smooth coat","F",TRUE,"11236",2
+"363",2018,7,9,NA,"M",FALSE,"11208",5
+"364",2018,6,28,NA,"U",FALSE,"11226",NA
+"365",2018,7,4,"pomeranian","M",FALSE,"11223",8
+"366",2018,7,5,"spaniel/poodle","M",TRUE,"11217",12
+"367",2018,7,3,"jack russ","U",FALSE,"11216",NA
+"368",2018,6,28,"jack russ","M",TRUE,"11234",1
+"369",2018,7,3,NA,"U",FALSE,"11210",NA
+"370",2018,5,21,"pit bull","U",FALSE,"11207",NA
+"371",2018,6,30,NA,"U",FALSE,"11220",NA
+"372",2018,7,7,"mixed","U",FALSE,"11215",NA
+"373",2018,6,11,"retreiver","U",FALSE,"11230",NA
+"374",2018,7,7,"pit bull","U",FALSE,"11203",NA
+"375",2018,7,5,"pit bull","U",FALSE,"11203",NA
+"376",2018,7,9,"pit bull","U",FALSE,"11214",NA
+"377",2018,7,14,"alaskan klee kai","M",TRUE,"11225",4
+"378",2018,7,10,"bull dog","M",TRUE,"11249",8
+"379",2018,7,12,"bull terrier","F",TRUE,"11234",8
+"380",2018,7,10,"pit bull","U",FALSE,NA,NA
+"381",2018,7,14,"cocker spaniel","U",FALSE,"11214",NA
+"382",2018,7,10,"small dog","U",FALSE,"11223",NA
+"383",2018,7,17,NA,"U",FALSE,"11223",NA
+"384",2018,7,1,"chow chow/golden retriever","F",FALSE,"11220",3
+"385",2018,7,4,"german shepherd","U",FALSE,"11209",NA
+"386",2018,7,17,"golden retriever","M",TRUE,"11209",3
+"387",2018,7,18,"shih tzu","M",TRUE,"11229",7
+"388",2018,7,15,"yorkshire terrier","U",FALSE,"11204",NA
+"389",2018,7,16,"pit bull","U",FALSE,NA,NA
+"390",2018,7,19,"australian terrier","M",FALSE,"11222",12
+"391",2018,6,23,"american staffordshire terrier","U",FALSE,"11221",NA
+"392",2018,7,17,"german shepherd/golden retriever","U",FALSE,NA,NA
+"393",2018,7,15,"corgi","U",FALSE,NA,NA
+"394",2018,7,19,"pit bull","U",FALSE,"11209",NA
+"395",2018,7,19,"shih tzu","M",TRUE,NA,10
+"396",2018,7,20,"german shepherd","M",FALSE,"11226",10
+"397",2018,7,7,NA,"U",FALSE,"11216",NA
+"398",2018,6,21,"pit bull","U",FALSE,"11212",NA
+"399",2018,7,22,"husky","U",FALSE,"11219",NA
+"400",2018,7,21,"labrador retriever","U",FALSE,"11234",NA
+"401",2018,7,13,"golden retriever","M",TRUE,"11232",1
+"402",2018,7,14,NA,"U",FALSE,"11204",NA
+"403",2018,7,25,"collie","M",TRUE,"11237",9
+"404",2018,7,24,"pit bull","U",FALSE,"11229",NA
+"405",2018,7,4,"rottweiler","M",TRUE,"11221",7
+"406",2018,7,22,"shih tzu","M",FALSE,"11216",4
+"407",2018,7,20,"golden doodle","F",TRUE,NA,5
+"408",2018,7,12,NA,"U",FALSE,NA,NA
+"409",2018,7,16,NA,"U",FALSE,"11218",NA
+"410",2018,7,28,"large terrier","M",FALSE,"11213",4
+"411",2018,7,28,"large terrier","M",FALSE,"11213",4
+"412",2018,7,27,NA,"U",FALSE,NA,NA
+"413",2018,7,26,NA,"U",FALSE,"11223",NA
+"414",2018,7,28,"morkie","U",FALSE,"11207",NA
+"415",2018,7,29,NA,"U",FALSE,"11235",NA
+"416",2018,7,28,NA,"U",FALSE,"11215",NA
+"417",2018,7,24,"borzoi","U",TRUE,"11235",NA
+"418",2018,7,24,"borzoi","U",FALSE,"11235",NA
+"419",2018,7,18,"labrador retriever","M",TRUE,"11220",3
+"420",2018,7,23,NA,"U",FALSE,"11226",NA
+"421",2018,7,31,"shih tzu","M",TRUE,"11223",10
+"422",2018,7,28,"pit bull","U",FALSE,"11207",NA
+"423",2018,7,21,"terrier","M",TRUE,"11210",4
+"424",2018,7,21,"chihuahua","U",FALSE,"11238",NA
+"425",2018,7,25,"shih tzu","U",FALSE,"11214",NA
+"426",2018,7,24,NA,"U",FALSE,"11210",NA
+"427",2018,7,24,NA,"U",FALSE,"11210",NA
+"428",2018,7,24,NA,"U",FALSE,"11210",NA
+"429",2018,7,23,NA,"U",FALSE,"11209",NA
+"430",2018,7,18,"pit bull","U",FALSE,"11214",NA
+"431",2018,7,28,NA,"U",FALSE,NA,NA
+"432",2018,7,20,"shar-pei","U",FALSE,"11226",NA
+"433",2018,7,26,"maltese","M",TRUE,"11236",4
+"434",2018,7,26,NA,"U",FALSE,"11205",NA
+"435",2018,7,27,"shih tzu","F",TRUE,"11209",7
+"436",2018,7,31,"pit bull","U",FALSE,"11209",NA
+"437",2018,8,4,"bichon frise","U",FALSE,"11234",NA
+"438",2018,8,6,"pit bull","U",FALSE,"11207",NA
+"439",2018,7,25,"shih tzu","U",FALSE,"11209",NA
+"440",2018,7,29,"hound","F",TRUE,"11208",2
+"441",2018,8,3,"poodle, standard","U",FALSE,"11220",NA
+"442",2018,8,3,"shih tzu","U",FALSE,"11236",NA
+"443",2018,7,26,"mixed","M",TRUE,"11238",0.92
+"444",2018,8,4,"greyhound","F",TRUE,"11209",9
+"445",2018,7,1,NA,"U",FALSE,NA,NA
+"446",2018,8,4,"beagle","U",FALSE,"11223",NA
+"447",2018,8,1,"pit bull","U",FALSE,"11207",NA
+"448",2018,8,10,"staffordshire bull terrier","M",FALSE,"11211",3
+"449",2018,8,5,"labrador / shepherd","F",TRUE,"11220",8
+"450",2018,8,13,"chihuahua","M",TRUE,"11220",6
+"451",2018,8,6,NA,"U",FALSE,"11215",NA
+"452",2018,8,3,"terrier","U",FALSE,"11209",NA
+"453",2018,8,15,"chihuahua","U",FALSE,"11233",NA
+"454",2018,8,10,NA,"U",FALSE,NA,NA
+"455",2018,8,11,"pit bull","U",FALSE,"11226",NA
+"456",2018,8,5,NA,"U",FALSE,NA,NA
+"457",2018,8,10,"pit bull","U",FALSE,"11231",NA
+"458",2018,8,10,"pit bull","U",FALSE,"11231",NA
+"459",2018,6,21,NA,"U",FALSE,"11211",NA
+"460",2018,7,30,"bull dog","F",FALSE,"11237",2
+"461",2018,7,28,"pit bull","U",FALSE,"11236",NA
+"462",2018,8,18,"beagle","M",TRUE,"11215",5
+"463",2018,8,16,NA,"U",FALSE,"11224",NA
+"464",2018,8,19,NA,"M",FALSE,"11206",7
+"465",2018,8,14,"chihuahua","U",FALSE,"11228",NA
+"466",2018,8,15,"miniature pinscher","U",FALSE,"11209",NA
+"467",2018,8,16,"english pointer","M",FALSE,"11207",5
+"468",2018,8,18,"shih tzu","U",FALSE,"11210",NA
+"469",2018,8,19,"pit bull","U",FALSE,"11226",NA
+"470",2018,8,17,"shih tzu","U",FALSE,"11204",NA
+"471",2018,7,28,"shar-pei, chinese","M",TRUE,"11216",4
+"472",2018,8,19,NA,"U",FALSE,"11216",2
+"473",2018,8,13,"shiba inu","M",FALSE,"11219",0.33
+"474",2018,8,21,"german shepherd","M",TRUE,"11204",5
+"475",2018,8,22,"sheperd","U",FALSE,"11249",NA
+"476",2018,8,17,NA,"U",FALSE,NA,NA
+"477",2018,8,18,NA,"U",FALSE,"11234",NA
+"478",2018,8,18,NA,"U",FALSE,"11229",NA
+"479",2018,8,23,"pit bull","M",FALSE,"11220",1
+"480",2018,8,23,NA,"U",FALSE,"11234",NA
+"481",2018,8,23,"golden retriever","U",FALSE,"11234",NA
+"482",2018,8,20,"mixed","F",TRUE,"11226",2
+"483",2018,8,18,"bull dog","U",FALSE,"11220",NA
+"484",2018,8,23,"pit bull","U",FALSE,"11212",NA
+"485",2018,8,28,"mixed","M",FALSE,"11230",NA
+"486",2018,8,25,"mixed","U",FALSE,"11201",NA
+"487",2018,7,15,NA,"U",FALSE,NA,NA
+"488",2018,8,15,"pit bull","F",FALSE,"11236",7
+"489",2018,7,29,NA,"U",FALSE,"11220",NA
+"490",2018,8,31,"pit bull","M",FALSE,"11222",2
+"491",2018,8,27,"pit bull","U",FALSE,NA,NA
+"492",2018,8,30,"german shepherd","F",TRUE,"11208",5
+"493",2018,8,29,"pit bull","M",TRUE,NA,3
+"494",2018,8,25,"bichon frise/cavalier king charles","M",TRUE,"11209",4
+"495",2018,9,2,"pit bull","U",FALSE,"11212",NA
+"496",2018,8,21,"pit bull","U",FALSE,"11213",NA
+"497",2018,8,31,"pit bull","F",FALSE,"11222",1
+"498",2018,8,18,"pit bull","U",FALSE,"11224",NA
+"499",2018,8,27,"pit bull","U",FALSE,"11232",NA
+"500",2018,8,29,"german shepherd","M",FALSE,"11235",8
+"501",2018,9,1,NA,"M",FALSE,"11230",2
+"502",2018,9,5,"collie, rough coat","M",FALSE,"11207",3
+"503",2018,8,25,"shih tzu","M",TRUE,"11215",5
+"504",2018,9,6,NA,"M",FALSE,"11208",3
+"505",2018,9,6,NA,"U",FALSE,"11222",NA
+"506",2018,8,29,"labrador / shepherd","M",TRUE,"11237",10
+"507",2018,8,6,"american bully","U",FALSE,"11224",NA
+"508",2018,8,30,"maltese","U",FALSE,"11201",NA
+"509",2018,9,7,"pit bull","U",FALSE,NA,NA
+"510",2018,9,3,"basenji","M",FALSE,"11239",10
+"511",2018,8,31,"mixed","F",TRUE,"11201",4
+"512",2018,9,11,"pit bull","M",FALSE,"11223",NA
+"513",2018,8,31,"yorkie/schnauzer","M",FALSE,"11230",7
+"514",2018,9,9,NA,"M",FALSE,"11234",0.58
+"515",2018,9,11,"pit bull","U",FALSE,"11228",NA
+"516",2018,9,10,NA,"M",FALSE,"11225",3
+"517",2018,9,7,NA,"U",FALSE,"11205",NA
+"518",2018,8,31,NA,"U",FALSE,NA,NA
+"519",2018,9,7,"corgi-dachshund","M",TRUE,"11231",4
+"520",2018,9,14,"pointer","M",TRUE,"11223",5
+"521",2018,9,9,"german shepherd","F",FALSE,"11220",12
+"522",2018,8,24,"shiba inu","M",FALSE,"11228",6
+"523",2018,9,11,"mixed","U",FALSE,NA,NA
+"524",2018,9,15,"mixed","F",FALSE,"11208",2
+"525",2018,9,17,NA,"F",FALSE,"11208",6
+"526",2018,9,6,"tibetan terrier","M",TRUE,"11231",14
+"527",2018,9,11,"german shepherd","M",TRUE,"11235",11
+"528",2018,9,14,"german shepherd","U",FALSE,NA,NA
+"529",2018,9,14,NA,"U",FALSE,NA,NA
+"530",2018,9,2,NA,"U",FALSE,"11218",NA
+"531",2018,8,31,"bull dog","U",FALSE,"11225",NA
+"532",2018,9,3,"jack russ","U",FALSE,"11214",NA
+"533",2018,9,11,NA,"U",FALSE,NA,NA
+"534",2018,9,14,"german shepherd","M",TRUE,"11229",NA
+"535",2018,7,23,"pit bull","U",FALSE,"11207",NA
+"536",2018,7,23,"pit bull","U",FALSE,"11207",NA
+"537",2018,9,18,"sheperd","U",FALSE,"11233",NA
+"538",2018,9,16,NA,"U",FALSE,NA,NA
+"539",2018,9,16,NA,"U",FALSE,NA,NA
+"540",2018,8,16,"siberian husky","M",FALSE,"11232",0.42
+"541",2018,9,11,NA,"U",FALSE,"11211",NA
+"542",2018,9,17,"wheaton terrier","M",FALSE,"11235",0.92
+"543",2018,9,18,"chihuahua","M",TRUE,"11208",1
+"544",2018,9,23,NA,"U",FALSE,"11212",NA
+"545",2018,9,22,"german shepherd","M",FALSE,"11218",3
+"546",2018,9,25,NA,"U",FALSE,NA,NA
+"547",2018,9,25,"pit bull","U",FALSE,"11207",NA
+"548",2018,9,26,"cane corso","U",FALSE,"11223",NA
+"549",2018,9,27,"pit bull","M",FALSE,"11225",6
+"550",2018,9,27,NA,"U",FALSE,NA,NA
+"551",2018,9,30,"german shepherd","M",TRUE,NA,4
+"552",2018,9,17,"doberman pinscher","M",TRUE,"11234",8
+"553",2018,10,1,"pit bull","U",FALSE,"11223",NA
+"554",2018,9,17,"maltese","F",FALSE,"11230",8
+"555",2018,9,29,NA,"F",FALSE,"11234",2
+"556",2018,9,14,"bull dog","U",FALSE,"11209",NA
+"557",2018,9,20,NA,"U",FALSE,"11226",NA
+"558",2018,9,24,NA,"U",FALSE,"11215",NA
+"559",2018,9,26,"pit bull","F",FALSE,"11207",7
+"560",2018,9,23,"boston terrier","M",TRUE,"11217",2
+"561",2018,9,30,"pit bull","U",FALSE,NA,NA
+"562",2018,9,20,NA,"U",FALSE,"11204",NA
+"563",2018,9,26,NA,"U",FALSE,"11238",NA
+"564",2018,10,4,NA,"M",FALSE,"11217",7
+"565",2018,10,6,"mixed","U",FALSE,"11231",NA
+"566",2018,10,3,"siberian husky","F",FALSE,"11214",2
+"567",2018,10,7,"pit bull","U",FALSE,"11225",NA
+"568",2018,10,6,"siberian husky","U",FALSE,"11226",NA
+"569",2018,9,24,NA,"U",FALSE,"11235",NA
+"570",2018,9,29,"mixed","F",TRUE,"11229",11
+"571",2018,9,26,"jack russell","M",TRUE,"11203",9
+"572",2018,9,29,"chihuahua","U",FALSE,"11207",NA
+"573",2018,9,29,"australian shepherd","U",FALSE,"11201",NA
+"574",2018,10,3,"pomerian/maltese","U",FALSE,"11236",NA
+"575",2018,10,5,NA,"U",FALSE,NA,NA
+"576",2018,10,12,"pit bull","M",FALSE,"11208",8
+"577",2018,10,13,NA,"M",FALSE,"11206",NA
+"578",2018,10,3,"pit bull","U",FALSE,"11222",NA
+"579",2018,10,14,"terrier","M",TRUE,NA,5
+"580",2018,10,14,NA,"U",FALSE,"11208",NA
+"581",2018,10,16,"pit bull","U",FALSE,"11203",NA
+"582",2018,10,16,NA,"M",FALSE,"11208",6
+"583",2018,10,10,NA,"M",FALSE,"11224",6
+"584",2018,10,8,"pit bull","U",FALSE,"11221",NA
+"585",2018,10,16,"labrador retriever","M",TRUE,"11228",6
+"586",2018,10,7,NA,"U",FALSE,NA,NA
+"587",2018,10,22,"bull dog","M",FALSE,"11235",5
+"588",2018,10,23,"pit bull","U",FALSE,"11206",NA
+"589",2018,10,21,NA,"M",FALSE,"11208",2
+"590",2018,10,26,NA,"M",FALSE,"11208",4
+"591",2018,10,28,"pit bull","U",FALSE,NA,NA
+"592",2018,10,28,"beagle","U",FALSE,"11218",NA
+"593",2018,10,29,"labrador retriever","U",FALSE,"11221",NA
+"594",2018,10,24,NA,"U",FALSE,"11226",NA
+"595",2018,10,29,NA,"U",FALSE,"11237",NA
+"596",2018,10,16,"pit bull","U",FALSE,"11231",NA
+"597",2018,10,6,"terrier","U",FALSE,"11216",3
+"598",2018,10,30,"labrador retriever","U",FALSE,"11209",NA
+"599",2018,10,30,NA,"U",FALSE,"11235",NA
+"600",2018,10,8,"boxer","U",FALSE,"11207",NA
+"601",2018,10,10,"mixed","U",FALSE,"11214",NA
+"602",2018,10,30,NA,"U",FALSE,NA,NA
+"603",2018,10,10,"boxer","U",FALSE,NA,NA
+"604",2018,10,9,NA,"U",FALSE,NA,NA
+"605",2018,10,24,"maltese","U",FALSE,NA,NA
+"606",2018,8,17,NA,"U",FALSE,"11208",NA
+"607",2018,8,16,"mutt","U",FALSE,"11207",NA
+"608",2018,10,13,"pit bull","M",FALSE,"11223",3
+"609",2018,10,10,"pit bull","U",FALSE,"11234",NA
+"610",2018,10,10,NA,"U",FALSE,"11234",NA
+"611",2018,11,4,"pit bull","U",FALSE,"11208",NA
+"612",2018,10,17,NA,"U",FALSE,"11221",NA
+"613",2018,10,21,NA,"U",FALSE,NA,NA
+"614",2018,10,13,"beagle","U",FALSE,"11226",NA
+"615",2018,10,17,"samoyed","U",FALSE,NA,NA
+"616",2018,10,13,NA,"U",FALSE,NA,NA
+"617",2018,11,1,"australian shepherd","F",TRUE,"11222",3
+"618",2018,11,7,NA,"M",FALSE,"11213",3
+"619",2018,10,22,"pit bull","M",TRUE,"11237",3
+"620",2018,11,1,"pit bull","U",FALSE,NA,NA
+"621",2018,10,20,"chihuahua","U",FALSE,NA,NA
+"622",2018,10,31,"pit bull","U",FALSE,"11235",NA
+"623",2018,10,20,"american staff terrier","M",TRUE,"11235",9
+"624",2018,11,9,"shiba inu","F",TRUE,"11223",3
+"625",2018,10,29,"cotton de tulear","M",TRUE,"11223",10
+"626",2018,10,31,NA,"U",FALSE,"11234",NA
+"627",2018,10,28,"pit bull","M",TRUE,"11211",4
+"628",2018,11,12,"bull dog","F",TRUE,"11249",3
+"629",2018,11,13,NA,"M",FALSE,"11225",NA
+"630",2018,11,10,"maltese","U",FALSE,"11225",NA
+"631",2018,11,10,"maltese","U",FALSE,"11225",NA
+"632",2018,11,11,"pit bull","U",FALSE,"11207",NA
+"633",2018,10,25,"terrier","M",TRUE,"11206",8
+"634",2018,11,9,"pit bull","U",FALSE,NA,NA
+"635",2018,11,15,"cock-a-poo","M",TRUE,"11225",11
+"636",2018,11,18,NA,"U",FALSE,NA,NA
+"637",2018,11,7,NA,"U",FALSE,"11201",NA
+"638",2018,11,17,NA,"M",FALSE,"11204",5
+"639",2018,11,20,NA,"M",FALSE,"11235",3
+"640",2018,11,11,"pit bull","U",FALSE,"11221",NA
+"641",2018,11,12,NA,"U",FALSE,"11220",NA
+"642",2018,11,12,"pit bull","U",FALSE,NA,NA
+"643",2018,11,13,"pit bull","U",FALSE,"11237",NA
+"644",2018,11,10,"shih tzu","U",FALSE,"11209",NA
+"645",2018,11,21,"pit bull","U",FALSE,"11226",NA
+"646",2018,11,15,"german shepherd","U",FALSE,"11212",NA
+"647",2018,11,20,"retriever","U",TRUE,"11205",NA
+"648",2018,10,21,"maltipoo","M",FALSE,"11233",5
+"649",2018,11,22,NA,"U",FALSE,"11204",NA
+"650",2018,11,26,"mixed","F",FALSE,"11223",5
+"651",2018,11,24,"shih tzu","M",FALSE,"11208",6
+"652",2018,11,3,"pit bull","U",FALSE,"11221",NA
+"653",2018,11,4,"terrier","U",FALSE,"11223",NA
+"654",2018,11,25,"mixed","M",FALSE,"11231",1
+"655",2018,11,1,"maltese","U",FALSE,"11212",NA
+"656",2018,10,31,"pit bull","F",FALSE,"11225",NA
+"657",2018,11,30,NA,"F",FALSE,"11216",NA
+"658",2018,12,2,"mixed","U",FALSE,"11238",NA
+"659",2018,11,28,"american staff terrier","M",TRUE,"11217",4
+"660",2018,11,15,"rottweiler","U",FALSE,"11214",NA
+"661",2018,10,28,"pit bull","F",TRUE,"11207",3
+"662",2018,11,11,"german shepherd","U",FALSE,NA,NA
+"663",2018,12,2,"shih tzu","U",FALSE,"11220",NA
+"664",2018,11,13,"chihuahua","U",FALSE,NA,NA
+"665",2018,11,5,"cairn terrier","U",FALSE,"11215",NA
+"666",2018,12,5,"shih tzu","F",TRUE,"11239",5
+"667",2018,11,5,"staffordshire bull terrier","M",TRUE,"11231",3
+"668",2018,12,9,"pit bull","M",FALSE,"11236",2
+"669",2018,12,6,"poodle, miniature","U",FALSE,"11228",NA
+"670",2018,11,15,"havanese","U",FALSE,"11229",NA
+"671",2018,11,19,"pit bull","F",TRUE,"11234",1
+"672",2018,12,11,"pit bull","F",FALSE,"11204",1
+"673",2018,12,13,NA,"U",FALSE,"11235",NA
+"674",2018,11,19,"maltese","U",FALSE,"11234",NA
+"675",2018,12,17,"shih tzu","F",TRUE,"11220",2
+"676",2018,12,7,NA,"U",FALSE,"11219",NA
+"677",2018,12,8,"husky","U",FALSE,"11207",NA
+"678",2018,11,22,"labrador retriever","M",TRUE,"11209",3
+"679",2018,11,2,"labrador retriever","U",FALSE,NA,NA
+"680",2018,12,22,"pit bull","U",FALSE,"11236",NA
+"681",2018,12,17,"greyhound","U",FALSE,"11235",NA
+"682",2018,12,24,"pit bull","U",FALSE,"11213",NA
+"683",2018,12,17,"dachshund, wirehaired","F",FALSE,"11218",11
+"684",2018,12,2,"beagle","M",TRUE,"11219",2
+"685",2018,12,14,"bull dog","M",FALSE,"11208",1
+"686",2018,12,3,"cattle dog","F",FALSE,"11201",2
+"687",2019,1,3,"bichon frise","F",FALSE,"11218",2
+"688",2018,12,11,"lhasa apso","U",FALSE,"11217",NA
+"689",2018,12,8,NA,"U",FALSE,NA,NA
+"690",2018,12,21,NA,"U",FALSE,NA,NA
+"691",2018,12,13,"german shepherd","F",TRUE,"11231",14
+"692",2018,12,15,"pit bull","M",TRUE,"11217",3
+"693",2018,12,18,"pomeranian","F",FALSE,"11234",2
+"694",2018,11,29,"american staffordshire terrier","M",FALSE,NA,3
+"695",2018,12,31,"shih tzu","U",FALSE,NA,NA
+"696",2018,12,7,NA,"U",FALSE,"11220",NA
+"697",2018,12,15,"pit bull","M",TRUE,"11221",1
+"698",2019,1,8,"chow chow","M",FALSE,"11226",8
+"699",2019,1,4,NA,"U",FALSE,"11218",NA
+"700",2018,12,18,"pit bull","U",FALSE,"11212",NA
+"701",2018,8,26,"border collie","F",TRUE,"11201",6
+"702",2018,12,15,"bull dog","M",FALSE,"11238",6
+"703",2018,12,31,"shiba inu","U",FALSE,"11233",NA
+"704",2019,1,6,"mixed","U",FALSE,"11215",NA
+"705",2019,1,5,"golden retriever","M",TRUE,"11201",3
+"706",2018,12,18,"american staffordshire terrier","U",FALSE,"11212",NA
+"707",2019,1,13,NA,"U",FALSE,"11207",10
+"708",2019,1,10,"shiba inu","U",FALSE,"11238",NA
+"709",2019,1,3,"mixed","M",FALSE,"11208",0.83
+"710",2019,1,10,NA,"U",FALSE,"11207",NA
+"711",2018,12,9,"staffordshire bull terrier","M",TRUE,"11215",1
+"712",2018,12,21,NA,"U",FALSE,"11211",NA
+"713",2019,1,16,"havanese","M",FALSE,"11230",12
+"714",2018,12,24,"pit bull","U",FALSE,NA,NA
+"715",2018,12,25,"bull dog","M",TRUE,NA,3
+"716",2018,12,31,"poodle, toy","M",TRUE,"11231",3
+"717",2018,12,23,"pit bull","F",TRUE,"11207",1
+"718",2018,12,31,"american staffordshire terrier","U",FALSE,"11237",NA
+"719",2019,1,20,"chihuahua","U",FALSE,"11217",NA
+"720",2019,1,4,"pit bull","F",FALSE,"11208",5
+"721",2018,12,26,"pomeranian","M",FALSE,"11249",8
+"722",2019,1,2,"poodle, standard","U",FALSE,NA,NA
+"723",2019,1,6,"pit bull","U",FALSE,NA,NA
+"724",2019,1,7,NA,"M",FALSE,NA,4
+"725",2019,1,20,NA,"M",FALSE,NA,2
+"726",2019,1,16,"pit bull","U",FALSE,"11208",NA
+"727",2019,1,26,"husky","U",FALSE,"11234",NA
+"728",2019,1,14,"shih tzu","M",TRUE,"11209",2
+"729",2019,1,24,"german shepherd","M",TRUE,"11210",2
+"730",2018,12,30,NA,"U",FALSE,NA,NA
+"731",2018,12,31,NA,"U",FALSE,NA,NA
+"732",2019,1,27,NA,"M",FALSE,"11208",5
+"733",2018,12,27,"pit bull","M",FALSE,"11205",5
+"734",2019,1,9,"german shepherd","M",FALSE,"11220",NA
+"735",2019,1,27,"siberian husky","U",FALSE,"11221",NA
+"736",2019,1,22,"pit bull","M",TRUE,"11249",4
+"737",2019,1,11,"newfoundland","M",TRUE,"11215",2
+"738",2019,1,13,"pit bull","U",FALSE,"11220",NA
+"739",2019,2,1,NA,"M",FALSE,"11239",4
+"740",2019,2,1,"bull dog","M",TRUE,"11230",3
+"741",2019,2,6,"pit bull","U",FALSE,NA,NA
+"742",2019,2,3,"shih tzu","M",TRUE,"11214",2
+"743",2019,1,12,"rottweiler","U",FALSE,"11216",NA
+"744",2019,2,8,"poodle, miniature","M",TRUE,"11224",10
+"745",2019,2,9,"miniature pinscher","U",FALSE,"11220",NA
+"746",2019,1,10,"chihuahua","M",FALSE,"11220",2
+"747",2019,1,15,"rat terrier","M",FALSE,"11201",13
+"748",2019,1,15,"pit bull","F",TRUE,"11221",13
+"749",2019,1,13,"jack russ","F",TRUE,"11209",3
+"750",2019,1,13,"chihuahua","M",FALSE,"11215",11
+"751",2019,1,10,"shiba inu","U",FALSE,"11249",NA
+"752",2019,2,12,"labrador / shepherd","M",FALSE,"11226",1
+"753",2019,2,12,NA,"M",FALSE,"11226",1
+"754",2019,2,12,"shih tzu","M",TRUE,"11206",7
+"755",2019,1,30,"bernedoodle","M",TRUE,"11209",3
+"756",2019,1,28,"pit bull","U",FALSE,"11201",NA
+"757",2019,1,28,"pit bull","U",FALSE,"11205",NA
+"758",2019,1,30,"whippet","M",TRUE,"11249",3
+"759",2019,2,12,NA,"U",FALSE,"11230",NA
+"760",2019,1,27,NA,"U",FALSE,NA,NA
+"761",2019,1,26,"pit bull","U",FALSE,NA,NA
+"762",2019,1,17,"pit bull","U",FALSE,NA,NA
+"763",2019,1,14,"havanese","U",FALSE,"11220",NA
+"764",2019,2,2,NA,"U",FALSE,"11222",NA
+"765",2019,2,6,NA,"M",FALSE,"11214",1
+"766",2019,2,4,"mixed","M",FALSE,"11214",1
+"767",2019,2,16,"pit bull","U",FALSE,"11201",NA
+"768",2019,2,18,"mixed","M",FALSE,"11208",1
+"769",2019,2,1,"maltipoo","M",FALSE,NA,2
+"770",2019,2,2,"rottweiler","M",FALSE,"11208",3
+"771",2019,1,9,"pit bull","M",FALSE,"11233",0.42
+"772",2019,2,17,NA,"M",FALSE,"11209",12
+"773",2019,1,17,"pit bull","M",TRUE,"11230",8
+"774",2019,2,4,"pointer","M",TRUE,"11205",3
+"775",2019,1,11,NA,"U",FALSE,NA,NA
+"776",2019,1,24,"maltese","U",FALSE,NA,NA
+"777",2019,1,31,"terrier","M",FALSE,NA,6
+"778",2019,2,2,NA,"U",FALSE,"11223",NA
+"779",2019,2,4,NA,"U",FALSE,NA,NA
+"780",2019,2,15,NA,"F",FALSE,"11229",5
+"781",2019,2,17,NA,"M",FALSE,"11212",2
+"782",2019,2,23,NA,"U",FALSE,"11229",NA
+"783",2019,2,24,NA,"M",FALSE,"11228",3
+"784",2019,2,23,NA,"M",FALSE,"11216",3
+"785",2019,2,26,"mixed","U",FALSE,"11238",NA
+"786",2019,2,26,"yorkshire terrier","U",FALSE,"11235",NA
+"787",2019,2,8,"cane corso","U",FALSE,"11238",NA
+"788",2019,2,7,"maltese","U",FALSE,"11217",NA
+"789",2019,2,22,"beagle","F",TRUE,"11224",0.25
+"790",2019,2,19,"pit bull","U",FALSE,"11203",NA
+"791",2019,2,19,"british bulldog","M",FALSE,"11226",8
+"792",2019,1,18,"corgi","M",TRUE,"11228",3
+"793",2019,2,8,"french barbet","U",FALSE,"11215",NA
+"794",2018,7,27,"shiba inu","M",FALSE,"11219",4
+"795",2019,3,1,"akita","M",FALSE,"11235",3
+"796",2019,2,25,NA,"U",FALSE,NA,NA
+"797",2019,3,2,"husky","M",FALSE,"11223",0.33
+"798",2019,2,23,"basenji","M",TRUE,"11211",6
+"799",2019,2,26,"cane corso","U",FALSE,"11226",NA
+"800",2019,2,23,"mixed","U",FALSE,"11224",NA
+"801",2019,2,27,"cocker spaniel, american","M",TRUE,"11238",9
+"802",2019,2,17,"cocker spaniel","U",FALSE,"11229",NA
+"803",2019,2,19,"pit bull","U",FALSE,"11201",NA
+"804",2019,2,20,"pit bull","M",TRUE,"11220",2
+"805",2019,2,20,"pit bull","M",TRUE,"11220",2
+"806",2019,2,23,"hound","M",TRUE,NA,7
+"807",2019,2,25,"pit bull","F",FALSE,"11218",1
+"808",2019,2,22,"australian cattle dog","M",TRUE,"11229",8
+"809",2019,3,12,"shih tzu","M",TRUE,"11234",12
+"810",2019,3,13,NA,"M",FALSE,"11234",2
+"811",2019,3,2,NA,"M",FALSE,"11208",3
+"812",2019,3,6,"havanese","M",FALSE,"11249",12
+"813",2019,3,3,NA,"U",FALSE,"11209",NA
+"814",2019,2,17,"pit bull","U",FALSE,NA,NA
+"815",2019,3,13,"greyhound","M",TRUE,"11221",11
+"816",2019,2,28,"labrador retriever","M",TRUE,"11215",8
+"817",2019,3,11,"pit bull","M",FALSE,NA,2
+"818",2019,3,19,NA,"U",FALSE,"11208",3
+"819",2019,3,7,NA,"U",FALSE,"11234",NA
+"820",2019,2,27,"yorkshire terrier","M",FALSE,"11205",8
+"821",2019,3,6,"poodle, standard","M",FALSE,"11234",4
+"822",2019,3,7,NA,"U",FALSE,"11249",NA
+"823",2019,2,15,"morkie","F",TRUE,"11234",9
+"824",2019,2,16,"doberman pinscher","U",FALSE,"11214",NA
+"825",2019,3,12,"sheperd","U",FALSE,"11228",NA
+"826",2019,3,12,"poodle","F",TRUE,NA,3
+"827",2019,3,10,"pit bull","M",FALSE,NA,4
+"828",2019,3,14,"pit bull","U",FALSE,NA,NA
+"829",2019,3,12,NA,"U",FALSE,"11209",NA
+"830",2019,2,28,NA,"U",FALSE,"11236",NA
+"831",2019,3,15,"bull terrier","U",FALSE,"11223",NA
+"832",2019,3,14,"beagle","M",TRUE,"11215",8
+"833",2019,3,16,"golden retriever","F",TRUE,"11215",4
+"834",2019,3,12,"mixed","M",FALSE,"11213",3
+"835",2019,3,20,"pit bull","U",FALSE,"11231",NA
+"836",2019,3,12,"mixed","M",FALSE,"11208",7
+"837",2019,3,23,"pitbull/rotweiler","U",FALSE,"11234",NA
+"838",2019,3,24,NA,"U",FALSE,"11226",NA
+"839",2019,3,25,"labrador","U",FALSE,NA,NA
+"840",2019,3,22,NA,"U",FALSE,NA,NA
+"841",2019,3,28,NA,"U",FALSE,"11237",NA
+"842",2019,3,24,"bull dog","U",FALSE,NA,NA
+"843",2019,3,20,"chihuahua","U",FALSE,"11234",NA
+"844",2019,3,15,"german shepherd","F",TRUE,"11234",6
+"845",2019,3,18,"jack russ","M",TRUE,"11234",1
+"846",2019,4,3,NA,"M",FALSE,"11206",NA
+"847",2019,4,3,NA,"U",FALSE,"11237",NA
+"848",2019,4,3,NA,"M",FALSE,"11212",5
+"849",2019,4,4,"pit bull","U",FALSE,NA,NA
+"850",2019,3,18,NA,"U",FALSE,NA,NA
+"851",2019,3,31,"siberian husky","U",FALSE,"11228",NA
+"852",2019,3,29,"pit bull","U",FALSE,"11220",NA
+"853",2019,3,16,NA,"U",FALSE,"11226",NA
+"854",2019,4,3,"german shepherd/labrador","F",FALSE,"11213",4
+"855",2019,3,18,"pit bull","U",FALSE,"11212",NA
+"856",2019,3,20,"pocket bully","M",FALSE,"11220",1
+"857",2019,4,8,"mixed","M",FALSE,"11208",2
+"858",2019,3,19,"pit bull","U",FALSE,"11212",NA
+"859",2019,3,24,"pit bull","U",FALSE,"11228",NA
+"860",2019,3,13,"german shepherd","U",FALSE,NA,NA
+"861",2019,3,20,"mixed","U",FALSE,"11201",NA
+"862",2019,3,20,"beagle","U",FALSE,NA,NA
+"863",2019,4,6,"mixed","F",TRUE,"11204",10
+"864",2019,4,10,"pit bull","M",FALSE,"11236",1
+"865",2019,3,25,"boxer","M",TRUE,"11228",10
+"866",2019,4,7,"shih tzu","U",FALSE,"11212",NA
+"867",2019,4,1,"hound","M",TRUE,"11224",8
+"868",2019,4,6,"bull dog","U",FALSE,"11229",NA
+"869",2019,4,4,"pit bull","F",TRUE,"11230",3
+"870",2019,4,1,"golden retriever","U",FALSE,"11209",NA
+"871",2019,4,6,NA,"U",FALSE,"11207",NA
+"872",2019,4,6,NA,"U",FALSE,NA,NA
+"873",2019,4,6,"pit bull","U",FALSE,"11236",NA
+"874",2019,4,16,NA,"M",FALSE,"11212",0.75
+"875",2019,3,19,"pit bull","U",FALSE,"11211",NA
+"876",2019,4,8,"pit bull","U",FALSE,NA,NA
+"877",2019,4,3,"pit bull","U",FALSE,"11208",NA
+"878",2019,4,6,"collie, border","M",TRUE,"11218",8
+"879",2019,4,6,"collie, border","M",TRUE,"11218",8
+"880",2019,4,8,"pit bull","U",FALSE,"11237",NA
+"881",2019,4,16,NA,"M",FALSE,"11208",4
+"882",2019,4,14,"boxer","U",FALSE,"11205",NA
+"883",2019,4,8,"mixed","F",FALSE,"11215",4
+"884",2019,4,16,"yorkshire terrier","F",TRUE,"11209",2
+"885",2019,4,13,"poodle, standard","U",FALSE,NA,NA
+"886",2019,4,14,"pit bull","U",FALSE,"11225",NA
+"887",2019,4,13,"labrador retriever","M",TRUE,"11234",4
+"888",2019,4,19,"mini pincher","M",FALSE,"11203",4
+"889",2019,4,21,"pit bull","U",FALSE,"11210",NA
+"890",2019,4,23,"miniature pinscher","M",TRUE,"11249",NA
+"891",2019,4,13,"pit bull","M",TRUE,"11234",6
+"892",2019,4,12,"labrador retriever","M",FALSE,NA,3
+"893",2019,4,23,"dalmatian","F",FALSE,"11216",4
+"894",2019,4,13,"siberian husky","M",TRUE,"11235",6
+"895",2019,4,12,"chihuahua","M",TRUE,NA,NA
+"896",2019,4,13,"pit bull","M",FALSE,"11234",5
+"897",2019,4,20,NA,"U",FALSE,NA,NA
+"898",2019,4,21,"saint bernard","U",FALSE,NA,NA
+"899",2019,4,13,"pit bull","U",FALSE,"111208",NA
+"900",2019,4,26,"mixed","F",TRUE,"11217",13
+"901",2019,4,27,"shepherd/labrador retriever","M",TRUE,"11229",5
+"902",2019,4,7,"pit bull","U",FALSE,"11215",NA
+"903",2019,4,25,NA,"U",FALSE,"11230",NA
+"904",2019,4,26,"pit bull","U",FALSE,"11203",NA
+"905",2019,4,27,"mixed","M",FALSE,"11208",4
+"906",2019,4,23,NA,"U",FALSE,"11216",NA
+"907",2019,4,20,"chihuahua","U",FALSE,"11220",NA
+"908",2019,3,16,"pit bull","F",TRUE,"11234",4
+"909",2019,5,1,"pit bull","M",TRUE,"11229",0.75
+"910",2019,4,19,"german shepherd","M",TRUE,"11209",4
+"911",2019,4,30,"pit bull","M",TRUE,"11220",3
+"912",2019,4,23,NA,"U",FALSE,NA,NA
+"913",2019,4,25,"mastiff, bull","M",FALSE,NA,1
+"914",2019,4,21,"pit bull","U",FALSE,"11214",NA
+"915",2019,4,25,NA,"U",FALSE,NA,NA
+"916",2018,10,28,"shih tzu","U",FALSE,"11234",NA
+"917",2019,4,28,"pit bull","U",FALSE,"11222",NA
+"918",2019,5,2,"pit bull","U",FALSE,"11216",NA
+"919",2019,5,4,"yorkshire terrier","M",TRUE,"11215",5
+"920",2019,5,2,"pit bull","U",FALSE,"11236",NA
+"921",2019,4,30,"malti- poo","U",FALSE,"11234",NA
+"922",2019,5,4,"shih tzu","F",TRUE,"11218",3.5
+"923",2019,4,25,"bull dog","M",FALSE,"11204",3
+"924",2019,4,26,"maltese","M",FALSE,"11235",16
+"925",2019,4,27,"mixed","M",TRUE,"11223",8
+"926",2019,5,1,"shiba inu","M",FALSE,"11235",0.33
+"927",2019,5,6,"yorkshire terrier","U",FALSE,NA,NA
+"928",2019,5,8,"shih tzu","M",FALSE,"11221",5
+"929",2019,4,18,"pit bull","U",FALSE,"11223",NA
+"930",2019,4,29,"pit bull","U",FALSE,"11209",NA
+"931",2019,5,8,"havanese","M",FALSE,"11209",4
+"932",2019,5,8,NA,"U",FALSE,NA,NA
+"933",2019,5,3,"pit bull","U",FALSE,"11203",NA
+"934",2019,5,7,"pit bull","F",FALSE,"11210",9
+"935",2019,5,9,"shih tzu","U",FALSE,"11226",NA
+"936",2019,5,9,"chihuahua","U",FALSE,"11221",NA
+"937",2019,5,7,"siberian husky","U",FALSE,"11214",NA
+"938",2019,5,8,"rottweiler","U",FALSE,"11237",NA
+"939",2019,5,8,NA,"U",FALSE,NA,NA
+"940",2019,5,11,"cocker spaniel","M",FALSE,NA,5
+"941",2019,5,15,"mastiff","M",FALSE,"11232",6
+"942",2019,5,14,"bull dog","U",FALSE,"11232",NA
+"943",2019,5,15,NA,"F",FALSE,"11208",3
+"944",2019,5,15,NA,"F",FALSE,"11208",3
+"945",2019,5,11,"labrador retriever","M",TRUE,"11201",2
+"946",2019,5,10,"mixed","M",TRUE,"11249",7
+"947",2019,4,27,"pit bull","U",FALSE,"11230",NA
+"948",2019,5,15,"pit bull","M",TRUE,"11205",3
+"949",2019,5,12,NA,"U",FALSE,NA,NA
+"950",2019,5,13,NA,"U",FALSE,NA,NA
+"951",2019,5,5,"mixed","M",TRUE,"11205",6
+"952",2019,5,16,"chihuahua","U",FALSE,"11220",NA
+"953",2019,4,24,"rottweiler","U",FALSE,NA,NA
+"954",2019,4,23,"pit bull","U",FALSE,"11210",NA
+"955",2019,5,18,"pit bull","F",FALSE,"11223",2
+"956",2019,5,6,"bull terrier","M",TRUE,"11231",3
+"957",2019,5,14,"mixed","M",FALSE,"11213",3
+"958",2019,5,13,"mixed","M",FALSE,"11213",3
+"959",2019,5,20,"dachshund smooth coat miniature","M",FALSE,NA,0.67
+"960",2019,4,26,"sheperd","U",FALSE,"11207",NA
+"961",2019,5,15,"pit bull","U",FALSE,"11211",NA
+"962",2019,5,16,"yorkshire terrier","M",FALSE,"11225",7
+"963",2019,5,18,NA,"U",FALSE,"11221",NA
+"964",2019,5,20,"terrier","U",FALSE,"11228",NA
+"965",2019,5,22,"mixed","U",FALSE,"11208",NA
+"966",2019,5,21,NA,"U",FALSE,NA,NA
+"967",2019,5,20,"pit bull","U",FALSE,"11214",NA
+"968",2019,5,15,"german shepherd","U",FALSE,"11226",NA
+"969",2019,5,23,"mixed","M",FALSE,"11208",11
+"970",2019,5,17,NA,"U",FALSE,"11219",NA
+"971",2019,5,18,NA,"U",FALSE,"11209",NA
+"972",2019,5,27,"wheaton terrier","M",TRUE,"11234",6
+"973",2019,5,27,"husky","U",FALSE,"11221",NA
+"974",2019,5,27,"yorkshire terrier","M",FALSE,NA,2
+"975",2019,5,28,"american bully","M",FALSE,"11234",2
+"976",2019,5,24,NA,"U",FALSE,NA,NA
+"977",2019,5,20,"belgian sheperd","U",FALSE,"11225",NA
+"978",2019,5,19,"pit bull","U",FALSE,"11219",NA
+"979",2019,5,25,"pit bull","F",TRUE,"11209",4
+"980",2019,5,12,"chow chow/rottweiler","M",FALSE,NA,4
+"981",2019,5,20,"pit bull","U",FALSE,"11207",NA
+"982",2019,5,24,"bichon frise","U",FALSE,"11201",NA
+"983",2019,5,24,"shepherd","U",FALSE,"11222",NA
+"984",2019,5,22,"jack russ","U",FALSE,"11211",NA
+"985",2019,6,1,"mixed","U",FALSE,"11236",NA
+"986",2019,5,27,"pit bull","U",FALSE,"11205",NA
+"987",2019,6,1,"great dane","U",FALSE,"11221",NA
+"988",2019,5,24,"pit bull","U",FALSE,"11226",NA
+"989",2019,5,26,"maltese/yorkshire terrier","M",FALSE,"11234",0.5
+"990",2019,5,24,"golden retriever","U",FALSE,NA,NA
+"991",2019,5,27,NA,"U",FALSE,NA,NA
+"992",2019,5,29,"mixed","U",FALSE,"11209",NA
+"993",2019,5,27,"pit bull","F",FALSE,"11234",3
+"994",2019,6,1,"chihuahua","M",TRUE,NA,3
+"995",2019,6,3,"border collie","F",TRUE,"11217",1
+"996",2019,6,1,"corgi","M",TRUE,"11209",5
+"997",2019,5,31,"puggle","U",FALSE,"11226",NA
+"998",2019,5,31,NA,"U",FALSE,"11223",NA
+"999",2019,5,26,"german shepherd","M",FALSE,"11235",7
+"1000",2019,6,5,"cocker spaniel","U",FALSE,"11224",NA

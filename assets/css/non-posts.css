@@ -1,0 +1,7 @@
+@media (max-width: 515px) {
+  .navbar-brand > .navbar-title {
+    display: inline-block;
+    color: transparent;
+    width: 0;
+  }
+}

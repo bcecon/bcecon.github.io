@@ -1,0 +1,14 @@
+{
+  "hash": "e7e71515f24eabf1cfd77c36b6ab0617",
+  "result": {
+    "markdown": "---\ntitle: \"Post With Code\"\nauthor: \"YOUR NAME\"\ndate: \"2023-10-30\"\ncategories: [news, code, analysis]\nimage: \"image.jpg\"\n---\n\n\nThis is a post with executable code with no space in the folder name.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n\n\n![](image.jpg)",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

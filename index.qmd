@@ -1,43 +1,37 @@
 ---
-title: "Byeong-Hak Choe" 
+title: ""
+subtitle: <font size = "6">Byeong-Hak Choe</font>
+date-modified: ""
 about:
-  template: jolla 
-  image: img/bchoe20230614.jpg
-  image-shape: round
-  	
-  links:
-    - icon: github
-      href: https://github.com/bcecon
+  template: solana # jolla trestles solana marquee broadside
+  image: img/bchoe2017.png
+  links: 
     - icon: linkedin
       href: https://www.linkedin.com/in/byeonghakchoe/
     - icon: twitter
       href: https://twitter.com/climate_econ
-    - icon: envelope
-      href: mailto:bchoe@geneseo.edu
+    - icon: github
+      href: https://github.com
     - text: CV
       href: https://bcecon.github.io/choe-cv.pdf
-      
+    - icon: envelope
+      href: mailto:bchoe@geneseo.edu
 toc: false
+
+comments: false
+from: markdown+emoji
 ---
 
 
-I am an **applied economist** and a **data analytics teacher** at SUNY Geneseo Business School.
 
-My research interests lie in **environmental economics**, **energy economics**, and **climate change policy**.
+<font size = "4">Hello! 👋 </font>
+
+<div style="display:block; margin:15px;"></div>
+
+
+I am an **applied economist** and a **data analytics teacher** at School of Business at SUNY Geneseo.
+
+My research interests lie in **economics of the environment and climate change**.
 
 My teaching interests are in **economics and data science**. My students use the tools of machine learning, econometrics, and data visualization to address **business strategies**, **public policy**, and **individual decision-making**.
-
-
-
-## Education
-
-**University of Wyoming**, 2021<br>
-- Ph.D. in Economics<br>
-- Essays on the Political Economy of Climate Change
-
-**Arizona State University**, 2015<br>
-- M.S. in Economics
-
-**Stony Brook University**, 2014<br>
-- M.A. in Economics
 

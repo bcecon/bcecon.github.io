@@ -1,0 +1,25 @@
+﻿hr,holiday,temp,hum,windspeed,year,month,date,cnt,over_load,seasons,weather_cond,wkday,bizday,hour,mnth
+0,0,-1.334609187,0.947345243,-1.553843805,2011,1,1,16,FALSE,spring,Clear or Few Cloudy,saturday,weekend or holiday,0-4 am,Jan
+1,0,-1.43847501,0.895512928,-1.553843805,2011,1,1,40,FALSE,spring,Clear or Few Cloudy,saturday,weekend or holiday,0-4 am,Jan
+2,0,-1.43847501,0.895512928,-1.553843805,2011,1,1,32,FALSE,spring,Clear or Few Cloudy,saturday,weekend or holiday,0-4 am,Jan
+3,0,-1.334609187,0.636351351,-1.553843805,2011,1,1,13,FALSE,spring,Clear or Few Cloudy,saturday,weekend or holiday,0-4 am,Jan
+4,0,-1.334609187,0.636351351,-1.553843805,2011,1,1,1,FALSE,spring,Clear or Few Cloudy,saturday,weekend or holiday,4-8 am,Jan
+5,0,-1.334609187,0.636351351,-0.821460018,2011,1,1,1,FALSE,spring,Mist or Cloudy,saturday,weekend or holiday,4-8 am,Jan
+6,0,-1.43847501,0.895512928,-1.553843805,2011,1,1,2,FALSE,spring,Clear or Few Cloudy,saturday,weekend or holiday,4-8 am,Jan
+7,0,-1.542340833,1.20650682,-1.553843805,2011,1,1,3,FALSE,spring,Clear or Few Cloudy,saturday,weekend or holiday,4-8 am,Jan
+8,0,-1.334609187,0.636351351,-1.553843805,2011,1,1,8,FALSE,spring,Clear or Few Cloudy,saturday,weekend or holiday,8-12 pm,Jan
+9,0,-0.919145895,0.688183667,-1.553843805,2011,1,1,14,FALSE,spring,Clear or Few Cloudy,saturday,weekend or holiday,8-12 pm,Jan
+10,0,-0.607548426,0.688183667,0.519881272,2011,1,1,36,FALSE,spring,Clear or Few Cloudy,saturday,weekend or holiday,8-12 pm,Jan
+11,0,-0.711414249,0.947345243,0.764281666,2011,1,1,56,FALSE,spring,Clear or Few Cloudy,saturday,weekend or holiday,8-12 pm,Jan
+12,0,-0.39981678,0.740015982,0.764281666,2011,1,1,84,FALSE,spring,Clear or Few Cloudy,saturday,weekend or holiday,12-4 pm,Jan
+13,0,-0.192085134,0.480854405,0.886073166,2011,1,1,94,FALSE,spring,Mist or Cloudy,saturday,weekend or holiday,12-4 pm,Jan
+14,0,-0.192085134,0.480854405,0.764281666,2011,1,1,106,FALSE,spring,Mist or Cloudy,saturday,weekend or holiday,12-4 pm,Jan
+15,0,-0.295950957,0.740015982,0.886073166,2011,1,1,110,FALSE,spring,Mist or Cloudy,saturday,weekend or holiday,12-4 pm,Jan
+16,0,-0.39981678,0.999177559,0.886073166,2011,1,1,93,FALSE,spring,Mist or Cloudy,saturday,weekend or holiday,4-8 pm,Jan
+17,0,-0.295950957,0.999177559,0.764281666,2011,1,1,67,FALSE,spring,Mist or Cloudy,saturday,weekend or holiday,4-8 pm,Jan
+18,0,-0.39981678,1.310171451,0.519881272,2011,1,1,35,FALSE,spring,Light Snow or Light Rain,saturday,weekend or holiday,4-8 pm,Jan
+19,0,-0.39981678,1.310171451,0.519881272,2011,1,1,37,FALSE,spring,Light Snow or Light Rain,saturday,weekend or holiday,4-8 pm,Jan
+20,0,-0.503682603,1.258339135,0.519881272,2011,1,1,36,FALSE,spring,Mist or Cloudy,saturday,weekend or holiday,8-12 am,Jan
+21,0,-0.503682603,1.258339135,0.031897878,2011,1,1,34,FALSE,spring,Mist or Cloudy,saturday,weekend or holiday,8-12 am,Jan
+22,0,-0.503682603,1.621165343,0.276298272,2011,1,1,28,FALSE,spring,Mist or Cloudy,saturday,weekend or holiday,8-12 am,Jan
+23,0,-0.192085134,1.310171451,0.886073166,2011,1,1,39,FALSE,spring,Mist or Cloudy,saturday,weekend or holiday,8-12 am,Jan

@@ -1,0 +1,175 @@
+Variable,Description
+c02_055,Percent!!POVERTY RATE FOR THE POPULATION 25 YEARS AND OVER FOR WHOM POVERTY STATUS IS DETERMINED BY EDUCATIONAL ATTAINMENT LEVEL!!Less than high school graduate
+c02_056,Percent!!POVERTY RATE FOR THE POPULATION 25 YEARS AND OVER FOR WHOM POVERTY STATUS IS DETERMINED BY EDUCATIONAL ATTAINMENT LEVEL!!High school graduate (includes equivalency)
+c02_057,Percent!!POVERTY RATE FOR THE POPULATION 25 YEARS AND OVER FOR WHOM POVERTY STATUS IS DETERMINED BY EDUCATIONAL ATTAINMENT LEVEL!!Some college or associate's degree
+c02_058,Percent!!POVERTY RATE FOR THE POPULATION 25 YEARS AND OVER FOR WHOM POVERTY STATUS IS DETERMINED BY EDUCATIONAL ATTAINMENT LEVEL!!Bachelor's degree or higher
+c04_055,Percent Male!!POVERTY RATE FOR THE POPULATION 25 YEARS AND OVER FOR WHOM POVERTY STATUS IS DETERMINED BY EDUCATIONAL ATTAINMENT LEVEL!!Less than high school graduate
+c04_056,Percent Male!!POVERTY RATE FOR THE POPULATION 25 YEARS AND OVER FOR WHOM POVERTY STATUS IS DETERMINED BY EDUCATIONAL ATTAINMENT LEVEL!!High school graduate (includes equivalency)
+c04_057,Percent Male!!POVERTY RATE FOR THE POPULATION 25 YEARS AND OVER FOR WHOM POVERTY STATUS IS DETERMINED BY EDUCATIONAL ATTAINMENT LEVEL!!Some college or associate's degree
+c04_058,Percent Male!!POVERTY RATE FOR THE POPULATION 25 YEARS AND OVER FOR WHOM POVERTY STATUS IS DETERMINED BY EDUCATIONAL ATTAINMENT LEVEL!!Bachelor's degree or higher
+c06_055,Percent Female!!POVERTY RATE FOR THE POPULATION 25 YEARS AND OVER FOR WHOM POVERTY STATUS IS DETERMINED BY EDUCATIONAL ATTAINMENT LEVEL!!Less than high school graduate
+c06_056,Percent Female!!POVERTY RATE FOR THE POPULATION 25 YEARS AND OVER FOR WHOM POVERTY STATUS IS DETERMINED BY EDUCATIONAL ATTAINMENT LEVEL!!High school graduate (includes equivalency)
+c06_057,Percent Female!!POVERTY RATE FOR THE POPULATION 25 YEARS AND OVER FOR WHOM POVERTY STATUS IS DETERMINED BY EDUCATIONAL ATTAINMENT LEVEL!!Some college or associate's degree
+c06_058,Percent Female!!POVERTY RATE FOR THE POPULATION 25 YEARS AND OVER FOR WHOM POVERTY STATUS IS DETERMINED BY EDUCATIONAL ATTAINMENT LEVEL!!Bachelor's degree or higher
+c01_001,Total!!AGE BY EDUCATIONAL ATTAINMENT!!Population 18 to 24 years
+c01_002,Total!!AGE BY EDUCATIONAL ATTAINMENT!!Population 18 to 24 years!!Less than high school graduate
+c01_003,Total!!AGE BY EDUCATIONAL ATTAINMENT!!Population 18 to 24 years!!High school graduate (includes equivalency)
+c01_004,Total!!AGE BY EDUCATIONAL ATTAINMENT!!Population 18 to 24 years!!Some college or associate's degree
+c01_005,Total!!AGE BY EDUCATIONAL ATTAINMENT!!Population 18 to 24 years!!Bachelor's degree or higher
+c01_006,Total!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 years and over
+c01_007,Total!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Less than 9th grade
+c01_008,"Total!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 years and over!!9th to 12th grade, no diploma"
+c01_009,Total!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate (includes equivalency)
+c01_010,"Total!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Some college, no degree"
+c01_011,Total!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Associate's degree
+c01_012,Total!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree
+c01_013,Total!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Graduate or professional degree
+c01_014,Total!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate or higher
+c01_015,Total!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree or higher
+c01_016,Total!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 to 34 years
+c01_017,Total!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 to 34 years!!High school graduate or higher
+c01_018,Total!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 to 34 years!!Bachelor's degree or higher
+c01_019,Total!!AGE BY EDUCATIONAL ATTAINMENT!!Population 35 to 44 years
+c01_020,Total!!AGE BY EDUCATIONAL ATTAINMENT!!Population 35 to 44 years!!High school graduate or higher
+c01_021,Total!!AGE BY EDUCATIONAL ATTAINMENT!!Population 35 to 44 years!!Bachelor's degree or higher
+c01_022,Total!!AGE BY EDUCATIONAL ATTAINMENT!!Population 45 to 64 years
+c01_023,Total!!AGE BY EDUCATIONAL ATTAINMENT!!Population 45 to 64 years!!High school graduate or higher
+c01_024,Total!!AGE BY EDUCATIONAL ATTAINMENT!!Population 45 to 64 years!!Bachelor's degree or higher
+c01_025,Total!!AGE BY EDUCATIONAL ATTAINMENT!!Population 65 years and over
+c01_026,Total!!AGE BY EDUCATIONAL ATTAINMENT!!Population 65 years and over!!High school graduate or higher
+c01_027,Total!!AGE BY EDUCATIONAL ATTAINMENT!!Population 65 years and over!!Bachelor's degree or higher
+c01_028,Total!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!White alone
+c01_029,Total!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!White alone!!High school graduate or higher
+c01_030,Total!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!White alone!!Bachelor's degree or higher
+c01_031,"Total!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!White alone, not Hispanic or Latino"
+c01_032,"Total!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!White alone, not Hispanic or Latino!!High school graduate or higher"
+c01_033,"Total!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!White alone, not Hispanic or Latino!!Bachelor's degree or higher"
+c01_034,Total!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Black alone
+c01_035,Total!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Black alone!!High school graduate or higher
+c01_036,Total!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Black alone!!Bachelor's degree or higher
+c01_037,Total!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!American Indian or Alaska Native alone
+c01_038,Total!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!American Indian or Alaska Native alone!!High school graduate or higher
+c01_039,Total!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!American Indian or Alaska Native alone!!Bachelor's degree or higher
+c01_040,Total!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Asian alone
+c01_041,Total!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Asian alone!!High school graduate or higher
+c01_042,Total!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Asian alone!!Bachelor's degree or higher
+c01_043,Total!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Native Hawaiian and Other Pacific Islander alone
+c01_044,Total!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Native Hawaiian and Other Pacific Islander alone!!High school graduate or higher
+c01_045,Total!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Native Hawaiian and Other Pacific Islander alone!!Bachelor's degree or higher
+c01_046,Total!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Some other race alone
+c01_047,Total!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Some other race alone!!High school graduate or higher
+c01_048,Total!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Some other race alone!!Bachelor's degree or higher
+c01_049,Total!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Two or more races
+c01_050,Total!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Two or more races!!High school graduate or higher
+c01_051,Total!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Two or more races!!Bachelor's degree or higher
+c01_052,Total!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Hispanic or Latino Origin
+c01_053,Total!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Hispanic or Latino Origin!!High school graduate or higher
+c01_054,Total!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Hispanic or Latino Origin!!Bachelor's degree or higher
+c03_001,Male!!AGE BY EDUCATIONAL ATTAINMENT!!Population 18 to 24 years
+c03_002,Male!!AGE BY EDUCATIONAL ATTAINMENT!!Population 18 to 24 years!!Less than high school graduate
+c03_003,Male!!AGE BY EDUCATIONAL ATTAINMENT!!Population 18 to 24 years!!High school graduate (includes equivalency)
+c03_004,Male!!AGE BY EDUCATIONAL ATTAINMENT!!Population 18 to 24 years!!Some college or associate's degree
+c03_005,Male!!AGE BY EDUCATIONAL ATTAINMENT!!Population 18 to 24 years!!Bachelor's degree or higher
+c03_006,Male!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 years and over
+c03_007,Male!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Less than 9th grade
+c03_008,"Male!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 years and over!!9th to 12th grade, no diploma"
+c03_009,Male!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate (includes equivalency)
+c03_010,"Male!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Some college, no degree"
+c03_011,Male!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Associate's degree
+c03_012,Male!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree
+c03_013,Male!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Graduate or professional degree
+c03_014,Male!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate or higher
+c03_015,Male!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree or higher
+c03_016,Male!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 to 34 years
+c03_017,Male!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 to 34 years!!High school graduate or higher
+c03_018,Male!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 to 34 years!!Bachelor's degree or higher
+c03_019,Male!!AGE BY EDUCATIONAL ATTAINMENT!!Population 35 to 44 years
+c03_020,Male!!AGE BY EDUCATIONAL ATTAINMENT!!Population 35 to 44 years!!High school graduate or higher
+c03_021,Male!!AGE BY EDUCATIONAL ATTAINMENT!!Population 35 to 44 years!!Bachelor's degree or higher
+c03_022,Male!!AGE BY EDUCATIONAL ATTAINMENT!!Population 45 to 64 years
+c03_023,Male!!AGE BY EDUCATIONAL ATTAINMENT!!Population 45 to 64 years!!High school graduate or higher
+c03_024,Male!!AGE BY EDUCATIONAL ATTAINMENT!!Population 45 to 64 years!!Bachelor's degree or higher
+c03_025,Male!!AGE BY EDUCATIONAL ATTAINMENT!!Population 65 years and over
+c03_026,Male!!AGE BY EDUCATIONAL ATTAINMENT!!Population 65 years and over!!High school graduate or higher
+c03_027,Male!!AGE BY EDUCATIONAL ATTAINMENT!!Population 65 years and over!!Bachelor's degree or higher
+c03_028,Male!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!White alone
+c03_029,Male!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!White alone!!High school graduate or higher
+c03_030,Male!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!White alone!!Bachelor's degree or higher
+c03_031,"Male!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!White alone, not Hispanic or Latino"
+c03_032,"Male!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!White alone, not Hispanic or Latino!!High school graduate or higher"
+c03_033,"Male!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!White alone, not Hispanic or Latino!!Bachelor's degree or higher"
+c03_034,Male!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Black alone
+c03_035,Male!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Black alone!!High school graduate or higher
+c03_036,Male!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Black alone!!Bachelor's degree or higher
+c03_037,Male!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!American Indian or Alaska Native alone
+c03_038,Male!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!American Indian or Alaska Native alone!!High school graduate or higher
+c03_039,Male!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!American Indian or Alaska Native alone!!Bachelor's degree or higher
+c03_040,Male!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Asian alone
+c03_041,Male!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Asian alone!!High school graduate or higher
+c03_042,Male!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Asian alone!!Bachelor's degree or higher
+c03_043,Male!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Native Hawaiian and Other Pacific Islander alone
+c03_044,Male!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Native Hawaiian and Other Pacific Islander alone!!High school graduate or higher
+c03_045,Male!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Native Hawaiian and Other Pacific Islander alone!!Bachelor's degree or higher
+c03_046,Male!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Some other race alone
+c03_047,Male!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Some other race alone!!High school graduate or higher
+c03_048,Male!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Some other race alone!!Bachelor's degree or higher
+c03_049,Male!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Two or more races
+c03_050,Male!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Two or more races!!High school graduate or higher
+c03_051,Male!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Two or more races!!Bachelor's degree or higher
+c03_052,Male!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Hispanic or Latino Origin
+c03_053,Male!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Hispanic or Latino Origin!!High school graduate or higher
+c03_054,Male!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Hispanic or Latino Origin!!Bachelor's degree or higher
+c05_001,Female!!AGE BY EDUCATIONAL ATTAINMENT!!Population 18 to 24 years
+c05_002,Female!!AGE BY EDUCATIONAL ATTAINMENT!!Population 18 to 24 years!!Less than high school graduate
+c05_003,Female!!AGE BY EDUCATIONAL ATTAINMENT!!Population 18 to 24 years!!High school graduate (includes equivalency)
+c05_004,Female!!AGE BY EDUCATIONAL ATTAINMENT!!Population 18 to 24 years!!Some college or associate's degree
+c05_005,Female!!AGE BY EDUCATIONAL ATTAINMENT!!Population 18 to 24 years!!Bachelor's degree or higher
+c05_006,Female!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 years and over
+c05_007,Female!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Less than 9th grade
+c05_008,"Female!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 years and over!!9th to 12th grade, no diploma"
+c05_009,Female!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate (includes equivalency)
+c05_010,"Female!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Some college, no degree"
+c05_011,Female!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Associate's degree
+c05_012,Female!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree
+c05_013,Female!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Graduate or professional degree
+c05_014,Female!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate or higher
+c05_015,Female!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree or higher
+c05_016,Female!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 to 34 years
+c05_017,Female!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 to 34 years!!High school graduate or higher
+c05_018,Female!!AGE BY EDUCATIONAL ATTAINMENT!!Population 25 to 34 years!!Bachelor's degree or higher
+c05_019,Female!!AGE BY EDUCATIONAL ATTAINMENT!!Population 35 to 44 years
+c05_020,Female!!AGE BY EDUCATIONAL ATTAINMENT!!Population 35 to 44 years!!High school graduate or higher
+c05_021,Female!!AGE BY EDUCATIONAL ATTAINMENT!!Population 35 to 44 years!!Bachelor's degree or higher
+c05_022,Female!!AGE BY EDUCATIONAL ATTAINMENT!!Population 45 to 64 years
+c05_023,Female!!AGE BY EDUCATIONAL ATTAINMENT!!Population 45 to 64 years!!High school graduate or higher
+c05_024,Female!!AGE BY EDUCATIONAL ATTAINMENT!!Population 45 to 64 years!!Bachelor's degree or higher
+c05_025,Female!!AGE BY EDUCATIONAL ATTAINMENT!!Population 65 years and over
+c05_026,Female!!AGE BY EDUCATIONAL ATTAINMENT!!Population 65 years and over!!High school graduate or higher
+c05_027,Female!!AGE BY EDUCATIONAL ATTAINMENT!!Population 65 years and over!!Bachelor's degree or higher
+c05_028,Female!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!White alone
+c05_029,Female!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!White alone!!High school graduate or higher
+c05_030,Female!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!White alone!!Bachelor's degree or higher
+c05_031,"Female!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!White alone, not Hispanic or Latino"
+c05_032,"Female!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!White alone, not Hispanic or Latino!!High school graduate or higher"
+c05_033,"Female!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!White alone, not Hispanic or Latino!!Bachelor's degree or higher"
+c05_034,Female!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Black alone
+c05_035,Female!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Black alone!!High school graduate or higher
+c05_036,Female!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Black alone!!Bachelor's degree or higher
+c05_037,Female!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!American Indian or Alaska Native alone
+c05_038,Female!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!American Indian or Alaska Native alone!!High school graduate or higher
+c05_039,Female!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!American Indian or Alaska Native alone!!Bachelor's degree or higher
+c05_040,Female!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Asian alone
+c05_041,Female!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Asian alone!!High school graduate or higher
+c05_042,Female!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Asian alone!!Bachelor's degree or higher
+c05_043,Female!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Native Hawaiian and Other Pacific Islander alone
+c05_044,Female!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Native Hawaiian and Other Pacific Islander alone!!High school graduate or higher
+c05_045,Female!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Native Hawaiian and Other Pacific Islander alone!!Bachelor's degree or higher
+c05_046,Female!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Some other race alone
+c05_047,Female!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Some other race alone!!High school graduate or higher
+c05_048,Female!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Some other race alone!!Bachelor's degree or higher
+c05_049,Female!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Two or more races
+c05_050,Female!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Two or more races!!High school graduate or higher
+c05_051,Female!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Two or more races!!Bachelor's degree or higher
+c05_052,Female!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Hispanic or Latino Origin
+c05_053,Female!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Hispanic or Latino Origin!!High school graduate or higher
+c05_054,Female!!RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT!!Hispanic or Latino Origin!!Bachelor's degree or higher

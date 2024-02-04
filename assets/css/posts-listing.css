@@ -1,0 +1,93 @@
+/* Header */
+@media (max-width: 768px) {
+  .navbar-title-container .nav-link {
+    --bs-nav-link-padding-x: 0.5rem;
+  }
+}
+@media (max-width: 679.5px) {
+  .navbar-brand > .navbar-title {
+    display: inline-block;
+    color: transparent;
+    width: 0;
+  }
+}
+@media (max-width: 522px) {
+  .navbar-title-container {
+    font-size: 0;
+    width: 0;
+  }
+}
+/* Title */
+h1.title {
+  font-size: calc(1.5rem + 1.17vw);
+/*   padding-top: ; */
+}
+@media (min-width: 908.5px) {
+  /* cascade needs this to come after h1.title selector or be more specific */
+  h1.title {
+    font-size: 3rem;
+  }
+  p.subtitle {
+    margin-top: 0;
+  }
+  p.subtitle:nth-child(1) {
+    font-size: 1.5em;
+  }
+  p.subtitle:nth-child(2) {
+    font-size: 2em;
+  }
+  p.subtitle:nth-child(3) {
+    font-size: 2.5em;
+  }
+  p.subtitle:nth-child(4) {
+    font-size: 3em;
+  }
+  p.subtitle:nth-child(5) {
+    font-size: 3.5em;
+  }
+  p.subtitle:nth-child(6) {
+    font-size: 2.5em;
+    vertical-align: 0.75em;
+  }
+  p.subtitle:nth-child(7) {
+    font-size: 2.25em;
+    vertical-align: 1.5em;
+  }
+}
+@media (min-width: 993px) {
+  body .page-columns {
+    display: grid;
+    gap: 0;
+    grid-template-columns: [screen-start] 1.5rem [screen-start-inset] 5fr [page-start page-start-inset] 42px [body-start-outset] 42px [body-start] 1.5rem [body-content-start] minmax(500px, calc( 1150px - 3rem )) [body-content-end] 1.5rem [body-end] 42px [body-end-outset] minmax(90px, 174px) [page-end-inset] 42px [page-end] 5fr [screen-end-inset] 1.5rem [screen-end];
+  }
+}
+@media(max-width: 993px) {
+  body .page-columns {
+    display: grid;
+    gap: 0;
+    grid-template-columns: [screen-start] 1.5rem [screen-start-inset page-start page-start-inset body-start-outset] 5fr [body-start] 1.5rem [body-content-start] minmax(500px, calc( 1100px - 3rem )) [body-content-end] 1.5rem [body-end] 42px [body-end-outset] minmax(90px, 174px) [page-end-inset] 42px [page-end] 5fr [screen-end-inset] 1.5rem [screen-end];
+  }
+  #quarto-content .subtitle {
+    padding-top: 0px;
+  }
+}
+@media(max-width: 767.98px) {
+  body .page-columns {
+      display: grid;
+      gap: 0;
+      grid-template-columns: [screen-start] 1.5rem [screen-start-inset page-start page-start-inset body-start-outset body-start body-content-start] minmax(0px, 1fr) [body-content-end body-end body-end-outset page-end-inset page-end screen-end-inset] 1.5rem [screen-end];
+  }
+}
+/*-- Listing --*/
+.quarto-listing-cols-3 {
+  grid-template-columns: repeat(auto-fit, minmax(241.25px, 1fr));
+}
+.card-attribution .listing-date {
+  text-transform: none;
+}
+.card-attribution .listing-date:before {
+  content: "Published: ";
+}
+.card-file-modified p:before {
+  content: "Last Updated: ";
+}

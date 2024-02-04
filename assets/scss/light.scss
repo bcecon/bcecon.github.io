@@ -1,0 +1,118 @@
+/* https://github.com/quarto-dev/quarto-cli/blob/main/src/resources/formats/html/bootstrap/themes/flatly.scss */
+
+/*-- scss:defaults --*/
+$body-bg: #fdfbf7;
+$body-color: #505457;
+$primary: rgba(78, 115, 77);
+$link-color: #528672;
+$base-dropdown-link-hover-bg: #ecc187;
+$btn-active-border-color: $base-dropdown-link-hover-bg;
+$base-navbar-bg: #376550;
+$navbar-bg: rgba($primary, 0.95);
+$dropdown-bg: rgba($base-dropdown-link-hover-bg, 0.90);
+$dropdown-link-hover-bg: rgba($base-navbar-bg, 0.70);
+$card-border-color: $body-color;
+$card-bg: $body-bg;
+$source-code: #770505;
+
+/*-- scss:rules --*/
+:root {
+  --bs-btn-active-border-color: #{$btn-active-border-color};
+}
+a:hover, .nav-footer a:hover {
+  color: $source-code;
+}
+.nav-footer-left a {
+  color: $primary;
+}
+
+#quarto-header {
+  box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.5);
+}
+.quarto-title-banner {
+  box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.5);
+}
+/* Code Highlight Style */
+pre.sourceCode > .code-copy-button > .bi::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(127, 159, 127)" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/><path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/></svg>') !important;
+}
+pre.sourceCode:hover >.code-copy-button:hover > .bi::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(232 173 95)" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/><path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/></svg>') !important;
+}
+div.sourceCode {
+  border-color: $source-code;
+}
+div > details > summary {
+  color: $source-code;
+  border-color: $source-code;
+  background-color: rgba(219,219,219,.8);
+}
+/* Title Headers */
+h1, h2, h3, h4, h5, h6 {
+  color: $primary;
+}
+/* Posts */
+.card-footer {
+  color: darken($body-bg, 5%);
+  background-color: lighten($navbar-bg, 2%);
+}
+/* categories */
+.quarto-categories {
+  color: $base-navbar-bg;
+}
+.quarto-category {
+  box-shadow: 0.10rem 0.10rem .35rem $base-navbar-bg;
+}
+.quarto-category:hover {
+  background: $base-dropdown-link-hover-bg;
+}
+/* captions */
+figcaption {
+  color: #8f9498;
+}
+/* callouts */
+div.callout-note.callout-titled .callout-icon::before {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="fill: rgb(236,193,135);" class="bi bi-info-circle" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>');
+}
+div.callout-note.callout {
+  border-left-color: rgba($primary, 0.8);
+  border-left-width: 5px;
+  border-left-style: solid;
+}
+div.callout-note.callout-style-default > .callout-header {
+  background-color: rgba($primary, 0.95);
+}
+.callout-note .callout-header {
+  color: var(--bs-btn-active-border-color);
+}
+/* navbar */
+.navbar-title-container .nav-link:hover {
+  color: var(--bs-nav-link-color);
+}
+/* footer */
+.footer .fa-heart-pulse {
+  color: $primary;
+}
+/* buttons */
+.btn {
+  --bs-btn-color: #{$body-bg};
+}
+.btn:hover {
+  --bs-btn-hover-color: rgba(253, 254, 254, 0.8);
+}
+.btn:active, .btn.show, .btn.active {
+  --bs-btn-active-color: #{$body-bg};
+}
+.btn:focus-visible, .btn.active:focus-visible, .btn.show:focus-visible {
+  --bs-btn-hover-color: #{$body-bg};
+}
+/* code-tools */
+.code-tools-button {
+  color: var(--bs-btn-color);
+}
+.code-tools-button > .bi::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(253,253,253)" viewBox="0 0 16 16"><path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/></svg>');
+}
+.code-tools-button:hover > .bi::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgba(253, 254, 254, 0.8)" viewBox="0 0 16 16"><path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/></svg>');
+}

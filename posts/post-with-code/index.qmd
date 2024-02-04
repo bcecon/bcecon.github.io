@@ -1,0 +1,15 @@
+---
+title: "Post With Code"
+author: "YOUR NAME"
+date: "2023-10-30"
+categories: [news, code, analysis]
+image: "image.jpg"
+---
+
+This is a post with executable code with no space in the folder name.
+
+```{r}
+1 + 1
+```
+
+![](image.jpg)

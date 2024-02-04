@@ -1,0 +1,12 @@
+/* css styles */
+
+
+.dropdown-menu {
+  height: 200px;
+  max-height:700px;
+  overflow-y: scroll;
+}
+
+.tape {
+    pointer-events: none;
+}

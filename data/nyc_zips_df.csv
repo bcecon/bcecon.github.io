@@ -1,0 +1,263 @@
+objectid,zip_code,po_name,state,borough,st_fips,cty_fips,bld_gpostal_code,shape_leng,shape_area,x_id
+1,11372,Jackson Heights,NY,Queens,36,081,0,20624.6923165,20163283.8744,http://nyc.pediacities.com/Resource/PostalCode/11372
+2,11004,Glen Oaks,NY,Queens,36,081,0,23002.8160385,22606526.9139,http://nyc.pediacities.com/Resource/PostalCode/11004
+3,11040,New Hyde Park,NY,Queens,36,081,0,15749.1615105,6269333.41234,http://nyc.pediacities.com/Resource/PostalCode/11040
+4,11426,Bellerose,NY,Queens,36,081,0,35932.8106387,49418364.0577,http://nyc.pediacities.com/Resource/PostalCode/11426
+5,11365,Fresh Meadows,NY,Queens,36,081,0,38693.5656755,69385865.5943,http://nyc.pediacities.com/Resource/PostalCode/11365
+6,11373,Elmhurst,NY,Queens,36,081,0,33755.870988,42659399.8982,http://nyc.pediacities.com/Resource/PostalCode/11373
+7,11001,Floral Park,NY,Queens,36,081,0,13594.9245493,9155180.26263,http://nyc.pediacities.com/Resource/PostalCode/11001
+8,11375,Forest Hills,NY,Queens,36,081,0,36277.0768394,55587771.835,http://nyc.pediacities.com/Resource/PostalCode/11375
+9,11427,Queens Village,NY,Queens,36,081,0,31231.9685929,39568339.2748,http://nyc.pediacities.com/Resource/PostalCode/11427
+10,11374,Rego Park,NY,Queens,36,081,0,26323.9943926,25203458.8689,http://nyc.pediacities.com/Resource/PostalCode/11374
+11,11366,Fresh Meadows,NY,Queens,36,081,0,27282.7368361,20358592.7502,http://nyc.pediacities.com/Resource/PostalCode/11366
+12,11423,Hollis,NY,Queens,36,081,0,31339.8030169,45095032.1013,http://nyc.pediacities.com/Resource/PostalCode/11423
+13,11428,Queens Village,NY,Queens,36,081,0,22515.6935821,21985773.4995,http://nyc.pediacities.com/Resource/PostalCode/11428
+14,11432,Jamaica,NY,Queens,36,081,0,33123.9436723,60177575.638,http://nyc.pediacities.com/Resource/PostalCode/11432
+15,11379,Middle Village,NY,Queens,36,081,0,33527.9439425,57537331.4936,http://nyc.pediacities.com/Resource/PostalCode/11379
+16,11429,Queens Village,NY,Queens,36,081,0,26527.0760049,39559398.2844,http://nyc.pediacities.com/Resource/PostalCode/11429
+17,11435,Jamaica,NY,Queens,36,081,0,34403.7903626,42105899.157,http://nyc.pediacities.com/Resource/PostalCode/11435
+18,11415,Kew Gardens,NY,Queens,36,081,0,21074.6515709,16802279.5098,http://nyc.pediacities.com/Resource/PostalCode/11415
+19,11418,Richmond Hill,NY,Queens,36,081,0,31854.3775413,32025130.9227,http://nyc.pediacities.com/Resource/PostalCode/11418
+20,11433,Jamaica,NY,Queens,36,081,0,30603.7354116,47739432.5954,http://nyc.pediacities.com/Resource/PostalCode/11433
+21,11451,Jamaica,NY,Queens,36,081,0,2961.55419657,487599.726799,http://nyc.pediacities.com/Resource/PostalCode/11451
+22,11221,Brooklyn,NY,Brooklyn,36,047,0,30947.5369275,38580480.4348,http://nyc.pediacities.com/Resource/PostalCode/11221
+23,11421,Woodhaven,NY,Queens,36,081,0,22224.3558679,24314441.7637,http://nyc.pediacities.com/Resource/PostalCode/11421
+24,11419,South Richmond Hill,NY,Queens,36,081,0,23068.8355802,31278858.1025,http://nyc.pediacities.com/Resource/PostalCode/11419
+25,11434,Jamaica,NY,Queens,36,081,0,43829.8571706,87379704.1564,http://nyc.pediacities.com/Resource/PostalCode/11434
+26,11216,Brooklyn,NY,Brooklyn,36,047,0,26472.7710701,26478229.2634,http://nyc.pediacities.com/Resource/PostalCode/11216
+27,11416,Ozone Park,NY,Queens,36,081,0,21630.6754842,18854849.8011,http://nyc.pediacities.com/Resource/PostalCode/11416
+28,11233,Brooklyn,NY,Brooklyn,36,047,0,30234.1569135,37871693.6822,http://nyc.pediacities.com/Resource/PostalCode/11233
+29,11436,Jamaica,NY,Queens,36,081,0,20579.4168526,22699295.4596,http://nyc.pediacities.com/Resource/PostalCode/11436
+30,11213,Brooklyn,NY,Brooklyn,36,047,0,23899.4422903,29631004.4378,http://nyc.pediacities.com/Resource/PostalCode/11213
+31,11212,Brooklyn,NY,Brooklyn,36,047,0,26621.8415776,41972104.0712,http://nyc.pediacities.com/Resource/PostalCode/11212
+32,11225,Brooklyn,NY,Brooklyn,36,047,0,23346.0765361,23698630.1254,http://nyc.pediacities.com/Resource/PostalCode/11225
+33,11218,Brooklyn,NY,Brooklyn,36,047,0,30622.7657555,36868798.99,http://nyc.pediacities.com/Resource/PostalCode/11218
+34,11226,Brooklyn,NY,Brooklyn,36,047,0,28635.8075296,39408598.2793,http://nyc.pediacities.com/Resource/PostalCode/11226
+35,11219,Brooklyn,NY,Brooklyn,36,047,0,29464.1953052,42002738.4672,http://nyc.pediacities.com/Resource/PostalCode/11219
+36,11210,Brooklyn,NY,Brooklyn,36,047,0,29974.8725033,47887022.9918,http://nyc.pediacities.com/Resource/PostalCode/11210
+37,11230,Brooklyn,NY,Brooklyn,36,047,0,31794.6943738,49926703.3932,http://nyc.pediacities.com/Resource/PostalCode/11230
+38,11204,Brooklyn,NY,Brooklyn,36,047,0,30324.5674873,43555184.6142,http://nyc.pediacities.com/Resource/PostalCode/11204
+39,10471,Bronx,NY,Bronx,36,005,0,53208.9690252,89651407.0575,http://nyc.pediacities.com/Resource/PostalCode/10471
+40,10470,Bronx,NY,Bronx,36,005,0,32648.9043733,21543461.5815,http://nyc.pediacities.com/Resource/PostalCode/10470
+41,10466,Bronx,NY,Bronx,36,005,0,35358.3031387,55262490.6118,http://nyc.pediacities.com/Resource/PostalCode/10466
+42,10467,Bronx,NY,Bronx,36,005,0,43944.7506298,69336166.3722,http://nyc.pediacities.com/Resource/PostalCode/10467
+43,10463,Bronx,NY,Bronx,36,005,0,47484.9922985,36703381.5083,http://nyc.pediacities.com/Resource/PostalCode/10463
+44,10475,Bronx,NY,Bronx,36,005,0,45027.6551188,38633296.936,http://nyc.pediacities.com/Resource/PostalCode/10475
+45,10464,Bronx,NY,Bronx,36,005,0,95375.5460772,76257484.8965,http://nyc.pediacities.com/Resource/PostalCode/10464
+46,10469,Bronx,NY,Bronx,36,005,0,34900.7255644,68040887.07,http://nyc.pediacities.com/Resource/PostalCode/10469
+47,10468,Bronx,NY,Bronx,36,005,0,37082.7211777,34447604.6725,http://nyc.pediacities.com/Resource/PostalCode/10468
+48,10463,Bronx,NY,Manhattan,36,061,0,7791.51712739,3119701.91325,http://nyc.pediacities.com/Resource/PostalCode/10463
+49,10458,Bronx,NY,Bronx,36,005,0,29391.2816276,35968812.9034,http://nyc.pediacities.com/Resource/PostalCode/10458
+50,10034,New York,NY,Manhattan,36,061,0,28233.7535201,24503892.12,http://nyc.pediacities.com/Resource/PostalCode/10034
+51,10033,New York,NY,Manhattan,36,061,0,29415.6071226,16156054.1726,http://nyc.pediacities.com/Resource/PostalCode/10033
+52,10462,Bronx,NY,Bronx,36,005,0,49496.0723446,53022514.1123,http://nyc.pediacities.com/Resource/PostalCode/10462
+53,10040,New York,NY,Manhattan,36,061,0,24554.7844034,16340742.7954,http://nyc.pediacities.com/Resource/PostalCode/10040
+54,10453,Bronx,NY,Bronx,36,005,0,26398.7814832,25748509.2714,http://nyc.pediacities.com/Resource/PostalCode/10453
+55,10465,Bronx,NY,Bronx,36,005,0,96349.4735833,108423743.439,http://nyc.pediacities.com/Resource/PostalCode/10465
+56,10464,Bronx,NY,Bronx,36,005,0,14922.29258,4512530.57672,http://nyc.pediacities.com/Resource/PostalCode/10464
+57,10464,Bronx,NY,Bronx,36,005,0,26773.6344401,11587953.8276,http://nyc.pediacities.com/Resource/PostalCode/10464
+58,10461,Bronx,NY,Bronx,36,005,0,35943.3505557,62824057.5538,http://nyc.pediacities.com/Resource/PostalCode/10461
+59,10457,Bronx,NY,Bronx,36,005,0,29927.2751336,37640607.3796,http://nyc.pediacities.com/Resource/PostalCode/10457
+60,10460,Bronx,NY,Bronx,36,005,0,41386.4048976,35155666.6459,http://nyc.pediacities.com/Resource/PostalCode/10460
+61,10032,New York,NY,Manhattan,36,061,0,31657.9250475,23159566.0919,http://nyc.pediacities.com/Resource/PostalCode/10032
+62,10452,Bronx,NY,Bronx,36,005,0,24379.3715249,27550385.8534,http://nyc.pediacities.com/Resource/PostalCode/10452
+63,10456,Bronx,NY,Bronx,36,005,0,30925.0447978,29933452.4366,http://nyc.pediacities.com/Resource/PostalCode/10456
+64,10472,Bronx,NY,Bronx,36,005,0,27006.0424107,30963245.188,http://nyc.pediacities.com/Resource/PostalCode/10472
+65,10031,New York,NY,Manhattan,36,061,0,23227.6651254,16902152.3658,http://nyc.pediacities.com/Resource/PostalCode/10031
+66,10039,New York,NY,Manhattan,36,061,0,15005.37823,8419027.8845400009,http://nyc.pediacities.com/Resource/PostalCode/10039
+67,10459,Bronx,NY,Bronx,36,005,0,24993.6303403,22551940.5373,http://nyc.pediacities.com/Resource/PostalCode/10459
+68,10451,Bronx,NY,Bronx,36,005,0,32573.9144378,28944106.5181,http://nyc.pediacities.com/Resource/PostalCode/10451
+69,10473,Bronx,NY,Bronx,36,005,0,46333.3466971,59522354.5398,http://nyc.pediacities.com/Resource/PostalCode/10473
+70,10030,New York,NY,Manhattan,36,061,0,11274.1138302,7757661.45487,http://nyc.pediacities.com/Resource/PostalCode/10030
+71,10027,New York,NY,Manhattan,36,061,0,31598.1599675,24695278.5688,http://nyc.pediacities.com/Resource/PostalCode/10027
+72,10474,Bronx,NY,Bronx,36,005,0,30197.0033377,40614090.1894,http://nyc.pediacities.com/Resource/PostalCode/10474
+73,10455,Bronx,NY,Bronx,36,005,0,26037.9379591,19846918.841,http://nyc.pediacities.com/Resource/PostalCode/10455
+74,10037,New York,NY,Manhattan,36,061,0,12511.8967445,7188980.95327,http://nyc.pediacities.com/Resource/PostalCode/10037
+75,10024,New York,NY,Manhattan,36,061,0,40063.6709738,22877335.4506,http://nyc.pediacities.com/Resource/PostalCode/10024
+76,10454,Bronx,NY,Bronx,36,005,0,25984.0268411,31063613.3255,http://nyc.pediacities.com/Resource/PostalCode/10454
+77,10026,New York,NY,Manhattan,36,061,0,15644.9251484,11092681.4885,http://nyc.pediacities.com/Resource/PostalCode/10026
+78,10035,New York,NY,Manhattan,36,061,0,17087.4012693,15445657.3339,http://nyc.pediacities.com/Resource/PostalCode/10035
+79,10025,New York,NY,Manhattan,36,061,0,20734.09171,19631043.8226,http://nyc.pediacities.com/Resource/PostalCode/10025
+80,10035,New York,NY,Manhattan,36,061,0,25009.7552646,23494871.4627,http://nyc.pediacities.com/Resource/PostalCode/10035
+81,11357,Whitestone,NY,Queens,36,081,0,44132.6748581,77359110.6086,http://nyc.pediacities.com/Resource/PostalCode/11357
+82,10029,New York,NY,Manhattan,36,061,0,19646.7893818,22963435.6768,http://nyc.pediacities.com/Resource/PostalCode/10029
+83,83,Central Park,NY,Manhattan,36,061,0,32710.7728002,38300990.4037,http://nyc.pediacities.com/Resource/PostalCode/00083
+84,11356,College Point,NY,Queens,36,081,0,39905.9895523,43321159.2727,http://nyc.pediacities.com/Resource/PostalCode/11356
+85,11359,Bayside,NY,Queens,36,081,0,12841.6128954,6567982.08563,http://nyc.pediacities.com/Resource/PostalCode/11359
+86,11360,Bayside,NY,Queens,36,081,0,31490.8837328,38834824.1716,http://nyc.pediacities.com/Resource/PostalCode/11360
+87,11105,Astoria,NY,Queens,36,081,0,36787.57425,48795608.0803,http://nyc.pediacities.com/Resource/PostalCode/11105
+88,10128,New York,NY,Manhattan,36,061,0,15005.0963232,11011681.5568,http://nyc.pediacities.com/Resource/PostalCode/10128
+89,11371,Flushing,NY,Queens,36,081,0,33739.0625766,30558474.9085,http://nyc.pediacities.com/Resource/PostalCode/11371
+90,10023,New York,NY,Manhattan,36,061,0,22471.3859889,15212712.6783,http://nyc.pediacities.com/Resource/PostalCode/10023
+91,11363,Little Neck,NY,Queens,36,081,0,27323.2391659,24242790.0243,http://nyc.pediacities.com/Resource/PostalCode/11363
+92,10028,New York,NY,Manhattan,36,061,0,18177.3313408,9842046.47962,http://nyc.pediacities.com/Resource/PostalCode/10028
+93,11354,Flushing,NY,Queens,36,081,0,44428.747165,61985147.4503,http://nyc.pediacities.com/Resource/PostalCode/11354
+94,11102,Astoria,NY,Queens,36,081,0,21056.9500245,19116258.4366,http://nyc.pediacities.com/Resource/PostalCode/11102
+95,11370,East Elmhurst,NY,Queens,36,081,0,28831.1609615,23600231.4882,http://nyc.pediacities.com/Resource/PostalCode/11370
+96,10021,New York,NY,Manhattan,36,061,0,14364.1317459,10495132.7484,http://nyc.pediacities.com/Resource/PostalCode/10021
+97,11361,Bayside,NY,Queens,36,081,0,33141.1074855,50163518.2437,http://nyc.pediacities.com/Resource/PostalCode/11361
+98,11358,Flushing,NY,Queens,36,081,0,31560.3508509,54622541.0856,http://nyc.pediacities.com/Resource/PostalCode/11358
+99,11362,Little Neck,NY,Queens,36,081,0,34988.0679278,54680551.2195,http://nyc.pediacities.com/Resource/PostalCode/11362
+100,10044,New York,NY,Manhattan,36,061,0,21449.3706442,6296113.26978,http://nyc.pediacities.com/Resource/PostalCode/10044
+101,11369,East Elmhurst,NY,Queens,36,081,0,25542.2059303,30060493.2465,http://nyc.pediacities.com/Resource/PostalCode/11369
+102,11103,Astoria,NY,Queens,36,081,0,21848.9570436,20222394.6253,http://nyc.pediacities.com/Resource/PostalCode/11103
+103,11106,Astoria,NY,Queens,36,081,0,22168.7061249,23866112.7254,http://nyc.pediacities.com/Resource/PostalCode/11106
+104,11368,Corona,NY,Queens,36,081,0,51118.00128,72489663.2825,http://nyc.pediacities.com/Resource/PostalCode/11368
+105,11377,Woodside,NY,Queens,36,081,0,46886.7190868,71832387.4936,http://nyc.pediacities.com/Resource/PostalCode/11377
+106,10036,New York,NY,Manhattan,36,061,0,16418.6066682,11395110.5096,http://nyc.pediacities.com/Resource/PostalCode/10036
+107,11355,Flushing,NY,Queens,36,081,0,33070.1802389,49383079.0839,http://nyc.pediacities.com/Resource/PostalCode/11355
+108,11101,Long Island City,NY,Queens,36,081,0,55296.6832891,79311462.7741,http://nyc.pediacities.com/Resource/PostalCode/11101
+109,11364,Oakland Gardens,NY,Queens,36,081,0,37488.6771909,84259665.0533,http://nyc.pediacities.com/Resource/PostalCode/11364
+110,10018,New York,NY,Manhattan,36,061,0,19509.953857,10705796.4792,http://nyc.pediacities.com/Resource/PostalCode/10018
+111,10020,New York,NY,Manhattan,36,061,0,3612.20361135,697297.022409,http://nyc.pediacities.com/Resource/PostalCode/10020
+112,11005,Floral Park,NY,Queens,36,081,0,15261.3121561,9075527.40364,http://nyc.pediacities.com/Resource/PostalCode/11005
+113,10017,New York,NY,Manhattan,36,061,0,14308.6456258,9794383.24005,http://nyc.pediacities.com/Resource/PostalCode/10017
+114,10001,New York,NY,Manhattan,36,061,0,19254.4421288,17794940.7729,http://nyc.pediacities.com/Resource/PostalCode/10001
+115,10011,New York,NY,Manhattan,36,061,0,24714.1214421,18118416.8465,http://nyc.pediacities.com/Resource/PostalCode/10011
+116,10016,New York,NY,Manhattan,36,061,0,18193.3491803,15042403.038,http://nyc.pediacities.com/Resource/PostalCode/10016
+117,11104,Sunnyside,NY,Queens,36,081,0,21699.2899385,12084432.1157,http://nyc.pediacities.com/Resource/PostalCode/11104
+118,11109,Long Island City,NY,Queens,36,081,0,2452.95482076,231863.117494,http://nyc.pediacities.com/Resource/PostalCode/11109
+119,10010,New York,NY,Manhattan,36,061,0,23512.5934985,9768395.37543,http://nyc.pediacities.com/Resource/PostalCode/10010
+120,11367,Flushing,NY,Queens,36,081,0,33506.1266045,72810151.5885,http://nyc.pediacities.com/Resource/PostalCode/11367
+121,10014,New York,NY,Manhattan,36,061,0,20454.0722425,14151051.856,http://nyc.pediacities.com/Resource/PostalCode/10014
+122,10003,New York,NY,Manhattan,36,061,0,17396.13689,15538376.2738,http://nyc.pediacities.com/Resource/PostalCode/10003
+123,11222,Brooklyn,NY,Brooklyn,36,047,0,32221.1089787,42904553.7275,http://nyc.pediacities.com/Resource/PostalCode/11222
+124,10002,New York,NY,Manhattan,36,061,0,36484.4179654,26280128.5931,http://nyc.pediacities.com/Resource/PostalCode/10002
+125,11378,Maspeth,NY,Queens,36,081,0,42329.4034094,66342001.4603,http://nyc.pediacities.com/Resource/PostalCode/11378
+126,10009,New York,NY,Manhattan,36,061,0,16247.1242638,15903519.5061,http://nyc.pediacities.com/Resource/PostalCode/10009
+127,10012,New York,NY,Manhattan,36,061,0,12422.9886055,9193739.33105,http://nyc.pediacities.com/Resource/PostalCode/10012
+128,10013,New York,NY,Manhattan,36,061,0,19248.0155384,15580577.9879,http://nyc.pediacities.com/Resource/PostalCode/10013
+129,11211,Brooklyn,NY,Brooklyn,36,047,0,50606.6325671,58162525.353,http://nyc.pediacities.com/Resource/PostalCode/11211
+130,10007,New York,NY,Manhattan,36,061,0,13425.2417717,5328635.48537,http://nyc.pediacities.com/Resource/PostalCode/10007
+131,11237,Brooklyn,NY,Brooklyn,36,047,0,30772.6174254,27373778.4839,http://nyc.pediacities.com/Resource/PostalCode/11237
+132,11385,Ridgewood,NY,Queens,36,081,0,67618.8719677,125023075.272,http://nyc.pediacities.com/Resource/PostalCode/11385
+133,10038,New York,NY,Manhattan,36,061,0,12605.2624283,7022760.6429,http://nyc.pediacities.com/Resource/PostalCode/10038
+134,11206,Brooklyn,NY,Brooklyn,36,047,0,28571.3804909,40680014.9528,http://nyc.pediacities.com/Resource/PostalCode/11206
+135,10006,New York,NY,Manhattan,36,061,0,6794.87235683,1716640.90186,http://nyc.pediacities.com/Resource/PostalCode/10006
+136,11412,Saint Albans,NY,Queens,36,081,0,29899.340989,46687803.7023,http://nyc.pediacities.com/Resource/PostalCode/11412
+137,10005,New York,NY,Manhattan,36,061,0,6384.01227204,2082901.14074,http://nyc.pediacities.com/Resource/PostalCode/10005
+138,11251,Brooklyn,NY,Brooklyn,36,047,0,31556.1039597,10379321.962,http://nyc.pediacities.com/Resource/PostalCode/11251
+139,10004,New York,NY,Manhattan,36,061,0,13769.8785627,4001782.18505,http://nyc.pediacities.com/Resource/PostalCode/10004
+140,11411,Cambria Heights,NY,Queens,36,081,0,27774.8715266,35889597.3838,http://nyc.pediacities.com/Resource/PostalCode/11411
+141,11201,Brooklyn,NY,Brooklyn,36,047,0,41924.1901311,41094887.0403,http://nyc.pediacities.com/Resource/PostalCode/11201
+142,10004,New York,NY,Manhattan,36,061,0,6450.06945369,1202707.70742,http://nyc.pediacities.com/Resource/PostalCode/10004
+143,11205,Brooklyn,NY,Brooklyn,36,047,0,22054.3730317,23159720.6632,http://nyc.pediacities.com/Resource/PostalCode/11205
+144,11208,Brooklyn,NY,Brooklyn,36,047,0,49932.2412248,79294685.4617,http://nyc.pediacities.com/Resource/PostalCode/11208
+145,11207,Brooklyn,NY,Brooklyn,36,047,0,48841.6886408,73742269.4034,http://nyc.pediacities.com/Resource/PostalCode/11207
+146,10004,New York,NY,Manhattan,36,061,0,12620.3062568,7679615.51128,http://nyc.pediacities.com/Resource/PostalCode/10004
+147,10004,New York,NY,Manhattan,36,061,0,3246.23675494,670708.02007,http://nyc.pediacities.com/Resource/PostalCode/10004
+148,11413,Springfield Gardens,NY,Queens,36,081,0,54283.3416367,85392925.3608,http://nyc.pediacities.com/Resource/PostalCode/11413
+149,11217,Brooklyn,NY,Brooklyn,36,047,0,22010.9653659,21648157.7324,http://nyc.pediacities.com/Resource/PostalCode/11217
+150,11238,Brooklyn,NY,Brooklyn,36,047,0,26935.19478,29429423.4614,http://nyc.pediacities.com/Resource/PostalCode/11238
+151,11231,Brooklyn,NY,Brooklyn,36,047,0,45956.5306211,39379691.3731,http://nyc.pediacities.com/Resource/PostalCode/11231
+152,11422,Rosedale,NY,Queens,36,081,0,55579.1712169,60091178.9547,http://nyc.pediacities.com/Resource/PostalCode/11422
+153,11420,South Ozone Park,NY,Queens,36,081,0,33734.9612334,61879568.3726,http://nyc.pediacities.com/Resource/PostalCode/11420
+154,11417,Ozone Park,NY,Queens,36,081,0,26925.0068371,31099087.1084,http://nyc.pediacities.com/Resource/PostalCode/11417
+155,11215,Brooklyn,NY,Brooklyn,36,047,0,37186.6294,61922821.7464,http://nyc.pediacities.com/Resource/PostalCode/11215
+156,11414,Howard Beach,NY,Queens,36,081,0,62132.6365951,63974665.2952,http://nyc.pediacities.com/Resource/PostalCode/11414
+157,11231,Brooklyn,NY,Brooklyn,36,047,0,5642.3686318,701979.385187,http://nyc.pediacities.com/Resource/PostalCode/11231
+158,11232,Brooklyn,NY,Brooklyn,36,047,0,64230.9972726,55879065.1487,http://nyc.pediacities.com/Resource/PostalCode/11232
+159,11430,Jamaica,NY,Queens,36,081,0,103039.277381,199913664.291,http://nyc.pediacities.com/Resource/PostalCode/11430
+160,11203,Brooklyn,NY,Brooklyn,36,047,0,32799.7518021,60644835.4564,http://nyc.pediacities.com/Resource/PostalCode/11203
+161,11239,Brooklyn,NY,Brooklyn,36,047,0,36128.8685676,41794660.7681,http://nyc.pediacities.com/Resource/PostalCode/11239
+162,11236,Brooklyn,NY,Brooklyn,36,047,0,44836.9127912,96373991.6197,http://nyc.pediacities.com/Resource/PostalCode/11236
+163,11220,Brooklyn,NY,Brooklyn,36,047,0,39988.5319912,47453785.7906,http://nyc.pediacities.com/Resource/PostalCode/11220
+164,10301,Staten Island,NY,Staten Island,36,085,0,79638.6503533,105182712.649,http://nyc.pediacities.com/Resource/PostalCode/10301
+165,10310,Staten Island,NY,Staten Island,36,085,0,43885.6232403,53463275.0023,http://nyc.pediacities.com/Resource/PostalCode/10310
+166,10303,Staten Island,NY,Staten Island,36,085,0,54576.11136,81629773.5183,http://nyc.pediacities.com/Resource/PostalCode/10303
+167,11234,Brooklyn,NY,Brooklyn,36,047,0,115169.881803,206201040.079,http://nyc.pediacities.com/Resource/PostalCode/11234
+168,10302,Staten Island,NY,Staten Island,36,085,0,27432.5693758,29555323.0234,http://nyc.pediacities.com/Resource/PostalCode/10302
+169,11693,Far Rockaway,NY,Queens,36,081,0,87508.7065555,46471727.1611,http://nyc.pediacities.com/Resource/PostalCode/11693
+170,11209,Brooklyn,NY,Brooklyn,36,047,0,37123.3108295,57842313.9593,http://nyc.pediacities.com/Resource/PostalCode/11209
+171,10304,Staten Island,NY,Staten Island,36,085,0,85662.2596497,98226679.797,http://nyc.pediacities.com/Resource/PostalCode/10304
+172,10314,Staten Island,NY,Staten Island,36,085,0,126071.69007,473985727.133,http://nyc.pediacities.com/Resource/PostalCode/10314
+173,11693,Far Rockaway,NY,Brooklyn,36,047,0,9479.91727716,3497515.77978,http://nyc.pediacities.com/Resource/PostalCode/11693
+174,11228,Brooklyn,NY,Brooklyn,36,047,0,29618.4367787,43893024.7311,http://nyc.pediacities.com/Resource/PostalCode/11228
+175,11096,Inwood,NY,Queens,36,081,0,5205.04677988,1512446.30548,http://nyc.pediacities.com/Resource/PostalCode/11096
+176,10305,Staten Island,NY,Staten Island,36,085,0,55569.9529353,111441829.317,http://nyc.pediacities.com/Resource/PostalCode/10305
+177,11229,Brooklyn,NY,Brooklyn,36,047,0,43382.1533931,60119326.147,http://nyc.pediacities.com/Resource/PostalCode/11229
+178,11214,Brooklyn,NY,Brooklyn,36,047,0,52861.7542475,61096539.3863,http://nyc.pediacities.com/Resource/PostalCode/11214
+179,11691,Far Rockaway,NY,Queens,36,081,0,70127.6782783,83927815.1145,http://nyc.pediacities.com/Resource/PostalCode/11691
+180,11096,Inwood,NY,Queens,36,081,0,1455.2137774,111973.73397,http://nyc.pediacities.com/Resource/PostalCode/11096
+181,11223,Brooklyn,NY,Brooklyn,36,047,0,31423.8673602,58702923.4668,http://nyc.pediacities.com/Resource/PostalCode/11223
+182,11693,Far Rockaway,NY,Queens,36,081,0,6886.54889111,1527599.16438,http://nyc.pediacities.com/Resource/PostalCode/11693
+183,11692,Arverne,NY,Queens,36,081,0,31672.5770646,23992395.3816,http://nyc.pediacities.com/Resource/PostalCode/11692
+184,11235,Brooklyn,NY,Brooklyn,36,047,0,61354.7268723,69053803.0316,http://nyc.pediacities.com/Resource/PostalCode/11235
+185,11693,Far Rockaway,NY,Queens,36,081,0,19051.6443386,12270916.531,http://nyc.pediacities.com/Resource/PostalCode/11693
+186,10306,Staten Island,NY,Staten Island,36,085,0,83568.7847092,174102872.047,http://nyc.pediacities.com/Resource/PostalCode/10306
+187,11694,Rockaway Park,NY,Queens,36,081,0,46740.3833069,48101606.6125,http://nyc.pediacities.com/Resource/PostalCode/11694
+188,11224,Brooklyn,NY,Brooklyn,36,047,0,41729.9303513,46701983.7555,http://nyc.pediacities.com/Resource/PostalCode/11224
+189,10308,Staten Island,NY,Staten Island,36,085,0,41507.8474359,62751041.8152,http://nyc.pediacities.com/Resource/PostalCode/10308
+190,11697,Breezy Point,NY,Queens,36,081,0,48880.2672234,59789760.6207,http://nyc.pediacities.com/Resource/PostalCode/11697
+191,10312,Staten Island,NY,Staten Island,36,085,0,65791.9288692,169087432.912,http://nyc.pediacities.com/Resource/PostalCode/10312
+192,10309,Staten Island,NY,Staten Island,36,085,0,79038.5334731,215835793.513,http://nyc.pediacities.com/Resource/PostalCode/10309
+193,10307,Staten Island,NY,Staten Island,36,085,0,31375.3132189,46028382.6284,http://nyc.pediacities.com/Resource/PostalCode/10307
+194,10280,New York,NY,Manhattan,36,061,0,8192.12492629,2234113.99487,http://nyc.pediacities.com/Resource/PostalCode/10280
+195,10048,New York,NY,Manhattan,36,061,0,4033.60069883,972788.42696,http://nyc.pediacities.com/Resource/PostalCode/10048
+196,10279,New York,NY,Manhattan,36,061,1,680.943500465,28664.7058134,http://nyc.pediacities.com/Resource/PostalCode/10279
+197,10165,New York,NY,Manhattan,36,061,1,985.263293999,40779.8152022,http://nyc.pediacities.com/Resource/PostalCode/10165
+198,10168,New York,NY,Manhattan,36,061,1,742.127233302,27810.1220594,http://nyc.pediacities.com/Resource/PostalCode/10168
+199,10055,New York,NY,Manhattan,36,061,1,842.265584049,37223.5387892,http://nyc.pediacities.com/Resource/PostalCode/10055
+200,10105,New York,NY,Manhattan,36,061,1,769.015785846,35422.1567546,http://nyc.pediacities.com/Resource/PostalCode/10105
+201,10118,New York,NY,Manhattan,36,061,1,1392.54638041,91733.7153701,http://nyc.pediacities.com/Resource/PostalCode/10118
+202,10176,New York,NY,Manhattan,36,061,1,590.377332961,18289.0897346,http://nyc.pediacities.com/Resource/PostalCode/10176
+203,10162,New York,NY,Manhattan,36,061,1,624.792615306,21034.8869204,http://nyc.pediacities.com/Resource/PostalCode/10162
+204,10019,New York,NY,Manhattan,36,061,0,24983.4416282,18828383.1169,http://nyc.pediacities.com/Resource/PostalCode/10019
+205,10111,New York,NY,Manhattan,36,061,0,1311.83994069,103066.25326,http://nyc.pediacities.com/Resource/PostalCode/10111
+206,10170,New York,NY,Manhattan,36,061,1,999.928298243,61793.1751378,http://nyc.pediacities.com/Resource/PostalCode/10170
+207,10112,New York,NY,Manhattan,36,061,1,521.003076773,16700.7379806,http://nyc.pediacities.com/Resource/PostalCode/10112
+208,10122,New York,NY,Manhattan,36,061,1,705.234391855,23294.6381032,http://nyc.pediacities.com/Resource/PostalCode/10122
+209,10107,New York,NY,Manhattan,36,061,1,716.959417135,23030.1758969,http://nyc.pediacities.com/Resource/PostalCode/10107
+210,10103,New York,NY,Manhattan,36,061,1,1038.49399077,62713.2534062,http://nyc.pediacities.com/Resource/PostalCode/10103
+211,10153,New York,NY,Manhattan,36,061,1,1209.55793209,80339.6472271,http://nyc.pediacities.com/Resource/PostalCode/10153
+212,10174,New York,NY,Manhattan,36,061,1,841.826840295,44203.2255484,http://nyc.pediacities.com/Resource/PostalCode/10174
+213,10166,New York,NY,Manhattan,36,061,1,1363.60566379,110438.62317,http://nyc.pediacities.com/Resource/PostalCode/10166
+214,10169,New York,NY,Manhattan,36,061,1,1112.84879736,66246.3463652,http://nyc.pediacities.com/Resource/PostalCode/10169
+215,10167,New York,NY,Manhattan,36,061,1,1209.13569938,80926.1872511,http://nyc.pediacities.com/Resource/PostalCode/10167
+216,10177,New York,NY,Manhattan,36,061,1,645.753044366,24688.0511035,http://nyc.pediacities.com/Resource/PostalCode/10177
+217,10172,New York,NY,Manhattan,36,061,1,1202.12732775,79589.1001039,http://nyc.pediacities.com/Resource/PostalCode/10172
+218,10171,New York,NY,Manhattan,36,061,1,613.861640526,23525.085921,http://nyc.pediacities.com/Resource/PostalCode/10171
+219,10154,New York,NY,Manhattan,36,061,1,1201.2224447,79148.8023924,http://nyc.pediacities.com/Resource/PostalCode/10154
+220,10152,New York,NY,Manhattan,36,061,1,1004.59891608,59924.9982704,http://nyc.pediacities.com/Resource/PostalCode/10152
+221,10270,New York,NY,Manhattan,36,061,1,753.005571394,31255.8004282,http://nyc.pediacities.com/Resource/PostalCode/10270
+222,10104,New York,NY,Manhattan,36,061,1,1294.59643948,89721.8525423,http://nyc.pediacities.com/Resource/PostalCode/10104
+223,10271,New York,NY,Manhattan,36,061,1,939.597342522,49236.8772023,http://nyc.pediacities.com/Resource/PostalCode/10271
+224,10110,New York,NY,Manhattan,36,061,1,615.250307935,21249.0635162,http://nyc.pediacities.com/Resource/PostalCode/10110
+225,10175,New York,NY,Manhattan,36,061,1,573.87163626,18685.3945268,http://nyc.pediacities.com/Resource/PostalCode/10175
+226,10151,New York,NY,Manhattan,36,061,1,630.44726526,21380.2683788,http://nyc.pediacities.com/Resource/PostalCode/10151
+227,10173,New York,NY,Manhattan,36,061,1,1188.47810172,25689.4205868,http://nyc.pediacities.com/Resource/PostalCode/10173
+228,10178,New York,NY,Manhattan,36,061,1,943.808411779,51303.0376357,http://nyc.pediacities.com/Resource/PostalCode/10178
+229,10119,New York,NY,Manhattan,36,061,1,1679.33368634,126392.973553,http://nyc.pediacities.com/Resource/PostalCode/10119
+230,10121,New York,NY,Manhattan,36,061,1,1413.87037112,115104.799339,http://nyc.pediacities.com/Resource/PostalCode/10121
+231,10115,New York,NY,Manhattan,36,061,0,1074.60573658,71720.1250888,http://nyc.pediacities.com/Resource/PostalCode/10115
+232,10123,New York,NY,Manhattan,36,061,1,662.039084632,16138.5369623,http://nyc.pediacities.com/Resource/PostalCode/10123
+233,10106,New York,NY,Manhattan,36,061,1,863.486068222,31052.5527962,http://nyc.pediacities.com/Resource/PostalCode/10106
+234,10158,New York,NY,Manhattan,36,061,1,776.992636762,35395.7701438,http://nyc.pediacities.com/Resource/PostalCode/10158
+235,10041,New York,NY,Manhattan,36,061,1,1641.8246091,162236.646863,http://nyc.pediacities.com/Resource/PostalCode/10041
+236,10120,New York,NY,Manhattan,36,061,1,854.894397691,35179.27222,http://nyc.pediacities.com/Resource/PostalCode/10120
+237,10278,New York,NY,Manhattan,36,061,1,1889.28778604,206705.99517,http://nyc.pediacities.com/Resource/PostalCode/10278
+238,10155,New York,NY,Manhattan,36,061,1,838.808390777,24784.6885389,http://nyc.pediacities.com/Resource/PostalCode/10155
+239,10022,New York,NY,Manhattan,36,061,0,14672.45315,12728335.6232,http://nyc.pediacities.com/Resource/PostalCode/10022
+240,10043,New York,NY,Manhattan,36,061,1,788.626538246,38262.3648074,http://nyc.pediacities.com/Resource/PostalCode/10043
+241,10081,New York,NY,Manhattan,36,061,1,777.935098182,30240.5054524,http://nyc.pediacities.com/Resource/PostalCode/10081
+242,10096,New York,NY,Manhattan,36,061,1,850.992695768,42106.1146917,http://nyc.pediacities.com/Resource/PostalCode/10096
+243,10097,New York,NY,Manhattan,36,061,1,1169.90999345,65826.1779787,http://nyc.pediacities.com/Resource/PostalCode/10097
+244,10196,New York,NY,Manhattan,36,061,1,721.137291042,32502.4403307,http://nyc.pediacities.com/Resource/PostalCode/10196
+245,10196,New York,NY,Manhattan,36,061,1,289.273986047,3154.82497349,http://nyc.pediacities.com/Resource/PostalCode/10196
+246,10275,New York,NY,Manhattan,36,061,1,885.361027718,48280.4150043,http://nyc.pediacities.com/Resource/PostalCode/10275
+247,10265,New York,NY,Manhattan,36,061,1,528.531814926,17229.1549665,http://nyc.pediacities.com/Resource/PostalCode/10265
+248,10045,New York,NY,Manhattan,36,061,1,1050.93179817,47808.9854242,http://nyc.pediacities.com/Resource/PostalCode/10045
+249,10047,New York,NY,Manhattan,36,061,1,544.562515041,10149.7796831,http://nyc.pediacities.com/Resource/PostalCode/10047
+250,10047,New York,NY,Manhattan,36,061,1,544.562515041,10149.7796831,http://nyc.pediacities.com/Resource/PostalCode/10047
+251,10080,New York,NY,Manhattan,36,061,1,1312.78059796,77111.44771,http://nyc.pediacities.com/Resource/PostalCode/10080
+252,10203,New York,NY,Manhattan,36,061,1,909.93965936,37226.8835853,http://nyc.pediacities.com/Resource/PostalCode/10203
+253,10259,New York,NY,Manhattan,36,061,1,620.157860973,21064.3129523,http://nyc.pediacities.com/Resource/PostalCode/10259
+254,10260,New York,NY,Manhattan,36,061,1,980.356289437,52514.7350789,http://nyc.pediacities.com/Resource/PostalCode/10260
+255,10285,New York,NY,Manhattan,36,061,1,1067.98354189,67350.3889582,http://nyc.pediacities.com/Resource/PostalCode/10285
+256,10286,New York,NY,Manhattan,36,061,1,437.699280281,11264.4123791,http://nyc.pediacities.com/Resource/PostalCode/10286
+257,11370,Bronx,NY,Bronx,36,005,0,17837.7211487,18190205.187,http://nyc.pediacities.com/Resource/PostalCode/11370
+258,10065,New York,NY,Manhattan,36,061,0,15541.7433636,11442579.5473,http://nyc.pediacities.com/Resource/PostalCode/10065
+259,10075,New York,NY,Manhattan,36,061,0,13540.7653344,4809654.93064,http://nyc.pediacities.com/Resource/PostalCode/10075
+260,10069,New York,NY,Manhattan,36,061,0,7780.63213312,2372365.88899,http://nyc.pediacities.com/Resource/PostalCode/10069
+261,10281,New York,NY,Manhattan,36,061,0,4717.02526596,958087.21122,http://nyc.pediacities.com/Resource/PostalCode/10281
+262,10282,New York,NY,Manhattan,36,061,0,6083.86976116,1561954.68329,http://nyc.pediacities.com/Resource/PostalCode/10282
