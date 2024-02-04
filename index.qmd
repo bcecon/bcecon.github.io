@@ -29,7 +29,7 @@ from: markdown+emoji
 <div style="display:block; margin:15px;"></div>
 
 
-I am an **applied economist** and a **data analytics teacher** at School of Business at SUNY Geneseo.
+I am an **assistant professor of data analytics and economics** at School of Business at SUNY Geneseo.
 
 My research interests lie in **economics of the environment and climate change**.
 

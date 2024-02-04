@@ -2,7 +2,7 @@
 title: Insightful Analytics
 listing:
   contents: posts
-  type: default
+  type: grid
   sort:
     - "date desc"
     - "title desc"
@@ -12,5 +12,4 @@ listing:
   fields: [image, date, title, author, reading-time]
 
 comments: false
-page-layout: full
 ---
