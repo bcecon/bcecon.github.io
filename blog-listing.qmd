@@ -1,5 +1,5 @@
 ---
-title: Insightful Analytics
+title: DataEcon Explorer
 listing:
   contents: posts
   type: grid

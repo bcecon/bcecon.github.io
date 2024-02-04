@@ -29,7 +29,14 @@ website:
     center: "powered with github, quarto, and rstudio<br>byeong-hak choe, 2024"
     # foreground: dark
     # background: '#9b4e55' 
-    
+
+
+execute:
+  echo: true
+  eval: true
+  message: false
+  warning: false
+  
 format:
   html: 
     grid:
@@ -42,5 +49,7 @@ format:
     css: [styles.css, assets/css/font.css] # , font.css
     highlight-style: atom-one # espresso   tango
     mainfont:  sans-serif; serif; ui-sans-serif  # Gill Sans, sans-serif;
-    toc: true
+    cood-tools: true
+    code-fold: show
     # include-after-body: [target-blank.html]
+

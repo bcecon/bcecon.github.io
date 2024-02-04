@@ -2,16 +2,10 @@
 title: "Beer Markets"
 author: "Byeong-Hak Choe"
 date: "2023-11-02"
-categories: [beer, code, data analysis]
+categories: [beer, python, data-analysis]
 image: "image.png"
 
-execute: 
-  warning: false
-  message: false
-  code-tools: true
-  
-toc: true
-
+code-tools: true
 ---
 ```{r}
 #| include: false
@@ -26,7 +20,7 @@ library(DT)
 library(htmltools)
 
 # Provide the pahname of the anaconda3 directory:
-reticulate::use_condaenv("/Users/bchoe/anaconda3", required = TRUE)
+# reticulate::use_condaenv("/Users/bchoe/anaconda3", required = TRUE)
 
 theme_set(theme_ipsum()+
           theme(strip.background =element_rect(fill="lightgray"),
@@ -47,11 +41,6 @@ beer_data <- read_csv("https://bcdanl.github.io/data/beer_markets.csv")
 ```
 
 
-<!-- <div style="position: relative;"> -->
-<!--   <button onclick="scrollTable(-200)" style="position: absolute; z-index: 1000; top: 0; left: 70px;">←</button> -->
-<!--   <button onclick="scrollTable(200)" style="position: absolute; z-index: 1000; top: 0; left: 95px;">→</button> -->
-<!-- </div> -->
-
 <div style="position: relative;">
   <button onclick="scrollTable(-200)" style="position: absolute; z-index: 1000; top: 0; left: 70px; height: 40px; background-color: #f1f1f1; color: black; cursor: pointer;">←</button>
   <button onclick="scrollTable(200)" style="position: absolute; z-index: 1000; top: 0; left: 95px; height: 40px; background-color: #f1f1f1; color: black; cursor: pointer;">→</button>
@@ -70,22 +59,6 @@ function scrollTable(offset) {
   }, 'fast');
 }
 </script>
-
-
-<!-- <script> -->
-<!-- function scrollTable(offset) { -->
-<!--   // Ensure we're targeting the scroll body of the DataTable specifically -->
-<!--   var scrollBody = $('#exampleTable .dataTables_scrollBody'); -->
-
-<!--   // Check if the scrollBody is found -->
-<!--   console.log(scrollBody.length); // For debugging, should be 1 if found -->
-
-<!--   scrollBody.animate({ -->
-<!--     scrollLeft: '+=' + offset -->
-<!--   }, 'fast'); -->
-<!-- } -->
-<!-- </script> -->
-
 
 ```{r}
 #| echo: false

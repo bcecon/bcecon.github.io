@@ -2,7 +2,7 @@
 
 # freeze computational output
 # (see https://quarto.org/docs/projects/code-execution.html#freeze)
-freeze: true
+# freeze: true
 
 # Enable banner style title blocks
 # title-block-banner: true
@@ -32,10 +32,9 @@ comments:
     input-position: top
     theme: preferred_color_scheme
     language: en
+
 toc: true
-toc-depth: 6
-toc-expand: 3
-citation: false
+
 # appendix-cite-as: display
 # license:
   # text: © 2024 Byeong-Hak Choe | This post is licensed under <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>CC BY-NC-SA 4.0</a>.

@@ -6,7 +6,9 @@ format:
     toc_depth: 2
     toc_float: true
     number_sections: false
-    
+    code-tools: false
+    code-link: false
+
 comments: false
 ---
 
