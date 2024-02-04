@@ -1,0 +1,377 @@
+---
+title: "Beer Markets"
+author: "Byeong-Hak Choe"
+date: "2023-11-02"
+categories: [beer, code, data analysis]
+image: "image.png"
+
+execute: 
+  warning: false
+  message: false
+  code-tools: true
+  
+toc: true
+
+---
+```{r}
+#| include: false
+
+library(knitr)
+library(rmarkdown)
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+library(DT)
+library(htmltools)
+
+# Provide the pahname of the anaconda3 directory:
+reticulate::use_condaenv("/Users/bchoe/anaconda3", required = TRUE)
+
+theme_set(theme_ipsum()+
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x  = element_text(angle = 0,
+                                            size = rel(1.5),
+                                            margin = margin(10,0,0,0)),
+                axis.title.y  = element_text(angle = 0,
+                                            size = rel(1.5),
+                                            margin = margin(0,10,0,0))
+                )
+          )
+```
+
+Let's analyze the `beer_data` data:
+
+```{r}
+beer_data <- read_csv("https://bcdanl.github.io/data/beer_markets.csv")
+```
+
+
+<!-- <div style="position: relative;"> -->
+<!--   <button onclick="scrollTable(-200)" style="position: absolute; z-index: 1000; top: 0; left: 70px;">←</button> -->
+<!--   <button onclick="scrollTable(200)" style="position: absolute; z-index: 1000; top: 0; left: 95px;">→</button> -->
+<!-- </div> -->
+
+<div style="position: relative;">
+  <button onclick="scrollTable(-200)" style="position: absolute; z-index: 1000; top: 0; left: 70px; height: 40px; background-color: #f1f1f1; color: black; cursor: pointer;">←</button>
+  <button onclick="scrollTable(200)" style="position: absolute; z-index: 1000; top: 0; left: 95px; height: 40px; background-color: #f1f1f1; color: black; cursor: pointer;">→</button>
+</div>
+
+<script>
+function scrollTable(offset) {
+  // Ensure we're targeting the scroll body of the DataTable specifically
+  var scrollBody = $('#exampleTable .dataTables_scrollBody');
+  
+  // Check if the scrollBody is found
+  console.log(scrollBody.length); // For debugging, should be 1 if found
+  
+  scrollBody.animate({
+    scrollLeft: '+=' + offset
+  }, 'fast');
+}
+</script>
+
+
+<!-- <script> -->
+<!-- function scrollTable(offset) { -->
+<!--   // Ensure we're targeting the scroll body of the DataTable specifically -->
+<!--   var scrollBody = $('#exampleTable .dataTables_scrollBody'); -->
+
+<!--   // Check if the scrollBody is found -->
+<!--   console.log(scrollBody.length); // For debugging, should be 1 if found -->
+
+<!--   scrollBody.animate({ -->
+<!--     scrollLeft: '+=' + offset -->
+<!--   }, 'fast'); -->
+<!-- } -->
+<!-- </script> -->
+
+
+```{r}
+#| echo: false
+datatable(beer_data, 
+          extensions = c('Buttons','FixedColumns'),
+          options = list(
+            dom = 'Bfrtip',
+            buttons = c('csv'),
+            scrollX = TRUE,
+            fixedColumns = list(leftColumns = 2)
+            ), 
+          elementId = "exampleTable"
+          )
+```
+
+
+## Variable Description for `beer_data` data.frame
+
+The following describes the variables in the `beer_data` data.frame.
+
+
+- `hh`: Household identifier
+- `_purchase_desc`: Description of the purchase
+- `quantity`: The quantity of beer purchased
+- `brand`: The brand of beer
+- `dollar_spent`: The amount spent
+- `beer_floz`: Fluid ounces of beer
+- `price_per_floz`: Price per fluid ounce
+- `container`: Type of container
+- `promo`: Whether the purchase was on promotion
+- `market`: The market where the purchase was made
+- Demographics: `age`, `employment` status, `degree`, class of worker (`cow`), `race`, and household information like `microwave`, `dishwasher`, `tvcable`, `singlefamilyhome`, and `npeople` (number of people in the household)
+
+
+## Purchase Patterns
+
+We'll explore the purchase patterns in the dataset. This includes understanding the most popular brands, the average quantity purchased, and spending habits across different markets. Here are some specific analyses we can perform:
+
+- Calculate the total quantity and spending for each brand.
+
+- Find the average quantity purchased and average spending per purchase.
+
+- Compare the total spending across different markets.
+
+I'll begin with these analyses and create visualizations to help us understand the data better. Let's start by calculating the total quantity and spending for each brand.
+
+```{python}
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Reading the CSV file
+beer_data = pd.read_csv("https://bcdanl.github.io/data/beer_markets.csv")
+
+# Setting up the visualisation settings
+sns.set(style="whitegrid")
+
+# Calculate total quantity and spending for each brand
+brand_summary = beer_data.groupby('brand').agg({'quantity':'sum', 'dollar_spent':'sum'}).reset_index()
+
+# Sort by total quantity and spending
+brand_summary_sorted_quantity = brand_summary.sort_values('quantity', ascending=False)
+brand_summary_sorted_spent = brand_summary.sort_values('dollar_spent', ascending=False)
+
+```
+
+```{python}
+# Plotting total quantity for each brand
+plt.figure(figsize=(10, 8))
+sns.barplot(x='quantity', y='brand', data=brand_summary_sorted_quantity, palette='viridis')
+plt.title('Total Quantity of Beer Purchased by Brand')
+plt.xlabel('Total Quantity')
+plt.ylabel('Brand')
+plt.show()
+
+# Plotting total spending for each brand
+plt.figure(figsize=(10, 8))
+sns.barplot(x='dollar_spent', y='brand', data=brand_summary_sorted_spent, palette='viridis')
+plt.title('Total Spending on Beer by Brand')
+plt.xlabel('Total Spending')
+plt.ylabel('Brand')
+plt.show()
+```
+
+The bar charts above display the total quantity of beer purchased and the total spending by brand. From the looks of it, certain brands dominate in terms of quantity sold and total spending, indicating their popularity.
+
+
+Now, let's calculate the average quantity purchased and average spending per purchase. For this, we'll consider each row in the dataset as a separate purchase and compute the averages accordingly.
+
+```{python}
+# Calculate average quantity purchased and average spending per purchase
+average_purchase = beer_data.groupby('brand').agg({
+    'quantity': 'mean', 
+    'dollar_spent': 'mean'
+}).reset_index()
+
+# Sort by average quantity and average spending
+average_purchase_sorted_quantity = average_purchase.sort_values('quantity', ascending=False)
+average_purchase_sorted_spent = average_purchase.sort_values('dollar_spent', ascending=False)
+
+# Plotting average quantity for each brand
+plt.figure(figsize=(10, 8))
+sns.barplot(x='quantity', y='brand', data=average_purchase_sorted_quantity, palette='viridis')
+plt.title('Average Quantity of Beer Purchased by Brand')
+plt.xlabel('Average Quantity')
+plt.ylabel('Brand')
+plt.show()
+
+# Plotting average spending for each brand
+plt.figure(figsize=(10, 8))
+sns.barplot(x='dollar_spent', y='brand', data=average_purchase_sorted_spent, palette='viridis')
+plt.title('Average Spending on Beer by Brand')
+plt.xlabel('Average Spending')
+plt.ylabel('Brand')
+plt.show()
+
+```
+The visualizations above depict the average quantity of beer purchased per brand and the average spending per brand. This shows which brands tend to be bought in larger quantities on average and which brands tend to have higher spending per purchase, which could be indicative of their price point or the purchase of premium products.
+
+Next, we'll look at the total spending across different markets to see if there are any notable differences in spending habits geographically. To do this, we'll sum up the spending in each market and visualize it.
+
+```{python}
+#| fig-height: 16
+# Calculate total spending in each market
+market_spending_summary = beer_data.groupby('market').agg({'dollar_spent':'sum'}).reset_index()
+
+# Sort by total spending
+market_spending_summary_sorted = market_spending_summary.sort_values('dollar_spent', ascending=False)
+
+# Plotting total spending in each market
+plt.figure(figsize=(12, 10))
+sns.barplot(x='dollar_spent', y='market', data=market_spending_summary_sorted, palette='viridis')
+plt.title('Total Spending on Beer by Market')
+plt.xlabel('Total Spending')
+plt.ylabel('Market')
+plt.show()
+
+```
+
+The bar chart illustrates the total spending on beer by market, showcasing the differences in spending habits across various regions. Some markets have significantly higher spending, which could be due to a variety of factors including market size, consumer preferences, or economic factors.
+
+Now, let's move on to the second analysis:
+
+## Demographic Analysis
+
+We will examine which demographics are buying what kind of beer and whether spending habits vary by demographics such as age, employment, and race. For this, we could look at:
+
+- Spending by age group
+- Spending by employment status
+- Spending by race
+
+I'll start by analyzing spending by age group.
+
+```{python}
+# Calculate total spending by age group
+age_group_spending = beer_data.groupby('age').agg({'dollar_spent':'sum'}).reset_index()
+
+# Sort by total spending
+age_group_spending_sorted = age_group_spending.sort_values('dollar_spent', ascending=False)
+
+# Plotting total spending by age group
+plt.figure(figsize=(10, 6))
+sns.barplot(x='dollar_spent', y='age', data=age_group_spending_sorted, palette='viridis')
+plt.title('Total Spending on Beer by Age Group')
+plt.xlabel('Total Spending')
+plt.ylabel('Age Group')
+plt.show()
+
+```
+
+The bar chart demonstrates the total spending on beer segmented by age group, highlighting which age groups spend the most on beer. It appears that certain age groups are more dominant in beer spending, which may align with the purchasing power or preferences of those groups.
+
+Next, we will examine spending by employment status.
+
+```{python}
+# Calculate total spending by employment status
+employment_spending = beer_data.groupby('employment').agg({'dollar_spent':'sum'}).reset_index()
+
+# Sort by total spending
+employment_spending_sorted = employment_spending.sort_values('dollar_spent', ascending=False)
+
+# Plotting total spending by employment status
+plt.figure(figsize=(10, 6))
+sns.barplot(x='dollar_spent', y='employment', data=employment_spending_sorted, palette='viridis')
+plt.title('Total Spending on Beer by Employment Status')
+plt.xlabel('Total Spending')
+plt.ylabel('Employment Status')
+plt.show()
+
+```
+The visualization shows the total spending on beer by employment status. We can see that certain employment groups, such as full-time workers, are spending more on beer, which might be related to their disposable income.
+
+Finally, let's look at spending by race to complete the demographic analysis.
+```{python}
+# Calculate total spending by race
+race_spending = beer_data.groupby('race').agg({'dollar_spent':'sum'}).reset_index()
+
+# Sort by total spending
+race_spending_sorted = race_spending.sort_values('dollar_spent', ascending=False)
+
+# Plotting total spending by race
+plt.figure(figsize=(10, 6))
+sns.barplot(x='dollar_spent', y='race', data=race_spending_sorted, palette='viridis')
+plt.title('Total Spending on Beer by Race')
+plt.xlabel('Total Spending')
+plt.ylabel('Race')
+plt.show()
+
+```
+The bar chart above indicates the total spending on beer broken down by race, highlighting which racial groups account for the most beer spending within the dataset. This could reflect both the demographics of the regions where the data was collected and cultural preferences regarding beer.
+
+Now, let's proceed to the third analysis:
+
+## Price Sensitivity
+We'll look at the price per fluid ounce and see if there are any trends or correlations with the quantity purchased or the brand popularity. To do this, we'll calculate the average price per fluid ounce for each brand and then visualize how this relates to the average quantity purchased and the total quantity purchased by brand.
+
+First, let's calculate the average price per fluid ounce for each brand.
+```{python}
+# Calculate average price per fluid ounce for each brand
+brand_price_sensitivity = beer_data.groupby('brand').agg({
+    'price_per_floz': 'mean', 
+    'quantity': 'sum'
+}).reset_index()
+
+# Sort by price per fluid ounce
+brand_price_sensitivity_sorted = brand_price_sensitivity.sort_values('price_per_floz', ascending=True)
+
+# Plotting average price per fluid ounce for each brand and the total quantity purchased
+fig, ax1 = plt.subplots(figsize=(12, 10))
+
+color = 'tab:red'
+ax1.set_xlabel('Brand')
+ax1.set_ylabel('Average Price per Fluid Ounce', color=color)
+ax1.bar(brand_price_sensitivity_sorted['brand'], brand_price_sensitivity_sorted['price_per_floz'], color=color)
+ax1.tick_params(axis='y', labelcolor=color)
+ax1.set_xticklabels(brand_price_sensitivity_sorted['brand'], rotation=90)
+
+ax2 = ax1.twinx()  # instantiate a second axes that shares the same x-axis
+color = 'tab:blue'
+ax2.set_ylabel('Total Quantity Purchased', color=color)  # we already handled the x-label with ax1
+ax2.plot(brand_price_sensitivity_sorted['brand'], brand_price_sensitivity_sorted['quantity'], color=color)
+ax2.tick_params(axis='y', labelcolor=color)
+
+fig.tight_layout()  # otherwise the right y-label is slightly clipped
+plt.title('Average Price per Fluid Ounce & Total Quantity Purchased by Brand')
+plt.show()
+
+```
+In the visualization, we have a bar graph showing the average price per fluid ounce for each brand (in red) and a line graph showing the total quantity purchased for each brand (in blue). This gives us a sense of whether there's a relationship between the price and the quantity purchased. The x-axis labels are quite compressed due to the number of brands, but we can still observe trends such as whether lower-priced beers tend to be purchased in larger quantities.
+
+Lastly, let's move to the fourth analysis:
+
+## Promotional Impact
+
+We'll assess the impact of promotions on the quantity of beer purchased. For this analysis, we can calculate the average quantity purchased with and without promotions and visualize the difference. We'll do this for each brand to see which brands are most affected by promotions.
+
+Let's begin this analysis by looking at the average quantity purchased with and without promotions for each brand.
+
+```{python}
+# Calculate average quantity purchased with and without promotions for each brand
+promo_impact = beer_data.groupby(['brand', 'promo']).agg({'quantity':'mean'}).reset_index()
+
+# Pivot the data to have promo and non-promo side by side for each brand
+promo_impact_pivot = promo_impact.pivot(index='brand', columns='promo', values='quantity').reset_index()
+promo_impact_pivot.columns = ['brand', 'non_promo', 'promo']
+
+# Calculate the difference in average quantity purchased between promo and non-promo
+promo_impact_pivot['promo_impact'] = promo_impact_pivot['promo'] - promo_impact_pivot['non_promo']
+
+# Sort by the impact of promo
+promo_impact_pivot_sorted = promo_impact_pivot.sort_values('promo_impact', ascending=False)
+
+# Plotting the difference in average quantity purchased between promo and non-promo for each brand
+plt.figure(figsize=(12, 10))
+sns.barplot(x='promo_impact', y='brand', data=promo_impact_pivot_sorted, palette='viridis')
+plt.title('Impact of Promotions on Average Quantity Purchased by Brand')
+plt.xlabel('Difference in Average Quantity Purchased (Promo - Non-Promo)')
+plt.ylabel('Brand')
+plt.show()
+
+```
+The bar chart illustrates the impact of promotions on the average quantity of beer purchased by brand. A positive value indicates that, on average, more beer is purchased when there is a promotion compared to when there isn't. Some brands appear to be significantly more influenced by promotions, with customers buying more when the products are on sale or promotion.
+
+This comprehensive analysis has provided insights into purchase patterns, demographic preferences, price sensitivity, and the impact of promotions on beer purchases.
+
+
+
+
+

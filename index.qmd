@@ -4,7 +4,7 @@ subtitle: <font size = "6">Byeong-Hak Choe</font>
 date-modified: ""
 about:
   template: solana # jolla trestles solana marquee broadside
-  image: img/bchoe2017.png
+  # image: img/bchoe2017.png
   links: 
     - icon: linkedin
       href: https://www.linkedin.com/in/byeonghakchoe/
@@ -23,7 +23,6 @@ from: markdown+emoji
 ---
 
 
-
 <font size = "4">Hello! 👋 </font>
 
 <div style="display:block; margin:15px;"></div>
@@ -34,4 +33,14 @@ I am an **assistant professor of data analytics and economics** at School of Bus
 My research interests lie in **economics of the environment and climate change**.
 
 My teaching interests are in **economics and data science**. My students use the tools of machine learning, econometrics, and data visualization to address **business strategies**, **public policy**, and **individual decision-making**.
+
+<br>
+
+### Research
+
+#### Working Papers
+1. Social Media Campaign, Lobbying, and Legislation: Evidence from #cliamtechange and Energy Lobbies
+2. Climate Finance under Conflicts and Renegotiations: A Dynamic Contract Approach
+3. Governance and Climate Finance in the Developing World (with Tilsa Ore-Monago)
+
 
