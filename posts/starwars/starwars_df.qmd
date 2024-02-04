@@ -124,6 +124,12 @@ The gender role or gender identity of the character as determined by their perso
 Name of homeworld
 
 
+```{r}
+skim(starwars_data) |> 
+  select(-n_missing)
+```
+
+
 
 ## Unveiling Galactic Demographics: Species and Gender
 
