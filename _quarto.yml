@@ -3,16 +3,16 @@ project:
   output-dir: "."
   
 website:
-  title: "B.H. CHOE&nbsp;&nbsp;&nbsp;"
-  favicon: img/favicon.ico
-  description: 'A collection of data analytics course contents by Byeong-Hak Choe'
+  title: "B.H. CHOE"
+  # favicon: img/favicon.ico
+  description: 'A collection of data analytics and economics by Byeong-Hak Choe'
   reader-mode: false
   back-to-top-navigation: true
 
   navbar:
     background: "#1c4982"
     logo: img/geneseo-logo-squared.png
-    pinned: true
+    pinned: false
     right:
       - text: Causal ML
         href: econml.qmd

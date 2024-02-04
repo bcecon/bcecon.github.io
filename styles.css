@@ -11,6 +11,24 @@
     pointer-events: none;
 }
 
+.menu-text {
+    display: flex;
+    align-items: center; /* Vertically centers the content */
+    padding-top: 0px; /* Adds padding to the top of the text */
+    /* or */
+    margin-top: 7px; /* Adds margin to the top of the text */
+}
+
+
+.nav-item span {
+    display: flex;
+    align-items: center; /* Vertically centers the content */
+    padding-top: 0px; /* Adds padding to the top of the text */
+    /* or */
+    margin-top: 7px; /* Adds margin to the top of the text */
+}
+
+
 
 ul li {
   padding-bottom: 10px; /* Adds space below first-level items */
