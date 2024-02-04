@@ -1,6 +1,6 @@
 ---
 title: ""
-subtitle: <font size = "6">Byeong-Hak Choe</font>
+subtitle: <div style="display:block"><bh>Byeong-Hak Choe</bh></div> 
 date-modified: ""
 about:
   template: solana # jolla trestles solana marquee broadside
@@ -8,7 +8,7 @@ about:
   links: 
     - icon: linkedin
       href: https://www.linkedin.com/in/byeonghakchoe/
-    - icon: twitter
+    - text: "{{< fa brands x-twitter >}}"
       href: https://twitter.com/climate_econ
     - icon: github
       href: https://github.com/bcecon
