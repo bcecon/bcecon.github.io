@@ -28,6 +28,9 @@
     margin-top: 7px; /* Adds margin to the top of the text */
 }
 
+.nav-item i {
+  margin-left: 5px; /* Adds space between the icon and text */
+}
 
 
 ul li {
