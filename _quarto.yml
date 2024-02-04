@@ -12,7 +12,7 @@ website:
   navbar:
     background: "#1c4982"
     logo: img/geneseo-logo-squared.png
-    pinned: false
+    pinned: true
     right:
       - text: Causal ML
         href: econml.qmd
