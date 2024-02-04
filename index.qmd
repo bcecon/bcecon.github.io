@@ -11,7 +11,7 @@ about:
     - icon: twitter
       href: https://twitter.com/climate_econ
     - icon: github
-      href: https://github.com
+      href: https://github.com/bcecon
     - text: CV
       href: https://bcecon.github.io/choe-cv.pdf
     - icon: envelope
@@ -64,9 +64,13 @@ My teaching interests are in **economics and data science**. My students use the
 
 ### Research
 
-#### Working Papers
-1. Social Media Campaign, Lobbying, and Legislation: Evidence from #cliamtechange and Energy Lobbies
-2. Climate Finance under Conflicts and Renegotiations: A Dynamic Contract Approach
-3. Governance and Climate Finance in the Developing World (with Tilsa Ore-Monago)
+#### Working papers
+1. Social Media Campaign, Lobbying, and Legislation: Evidence from #cliamtechange and Energy Lobbies.
+2. Climate Finance under Conflicts and Renegotiations: A Dynamic Contract Approach.
+3. Governance and Climate Finance in the Developing World (with Tilsa Oré-Monago).\
+  -&nbsp;In Wu, F., Zhang, D., and Ji, Q. (Eds.), *Climate Finance: Supporting a Sustainable Energy Transition*, Chapter 7, Springer Nature (Forthcoming, 2024).
 
+
+#### Work in progress
+1. '*Hiding Behind a Small Cake*' in an Online Dictator Game: The Way You Hide Matters!, (with Tabaré Capitan (1st author) , Jason Shogren, and Benjamin White).
 

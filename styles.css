@@ -10,3 +10,13 @@
 .tape {
     pointer-events: none;
 }
+
+
+ul li {
+  padding-bottom: 10px; /* Adds space below first-level items */
+}
+
+/* Specifically targets second-level list items */
+ul li ul li{
+  padding-bottom: 5px; /* Less space for second-level items */
+}

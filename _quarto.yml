@@ -14,14 +14,16 @@ website:
     logo: img/geneseo-logo-squared.png
     pinned: true
     right:
-      - text: teaching
+      - text: Causal ML
+        href: econml.qmd
+      - text: Blog
+        href: blog-listing.qmd
+      - text: "Teaching {{< fa external-link >}}"
         href: https://bcdanl.github.io
         target: _blank
-      - text: causal ml
-        href: econml.qmd
-      - text: blog
-        href: blog-listing.qmd
-      - text: " "
+      # - icon: github
+      #   href: https://github.com/bcecon
+      #   target: _blank
     
 
   page-footer: 
