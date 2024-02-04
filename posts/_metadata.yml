@@ -34,7 +34,7 @@ comments:
     language: en
 
 toc: true
-code-fold: show
+code-fold: true
 
 # freeze computational output
 freeze: true

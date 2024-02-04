@@ -133,12 +133,15 @@ Our first foray into the galaxy's demographics involves understanding the distri
 
 
 ```{r}
+#| fig-height: 9
+
 # Species distribution
-starwars_data %>%
-  group_by(species) %>%
-  summarise(count = n()) %>%
+starwars_data |>
+  filter(!is.na(species)) |> 
+  group_by(species) |>
+  summarise(count = n()) |>
   ggplot(aes(x = reorder(species, count), y = count, fill = species)) +
-  geom_col() +
+  geom_col(show.legend = F) +
   coord_flip() +
   labs(title = "Species Distribution in Star Wars",
        x = "Species",
@@ -154,18 +157,24 @@ This visualization reveals the prevalence of humans in the Star Wars universe, f
 ### Gender Dynamics Across the Galaxy
 
 ```{r}
+#| fig-height: 9
+
 # Gender distribution by species
-starwars_data %>%
-  group_by(species, gender) %>%
-  summarise(count = n()) %>%
-  ggplot(aes(x = species, y = count, fill = gender)) +
-  geom_bar(stat = "identity", position = "dodge") +
+starwars_data |>
+  filter(!is.na(gender)) |> 
+  group_by(species, gender) |>
+  summarise(count = n()) |>
+  ggplot(aes(y = reorder(species, count), x = count, fill = gender)) +
+  geom_bar(stat = "identity", position = position_dodge2(preserve = "single")) +
+  guides(fill = guide_legend(label.position = "bottom",
+                             keywidth = 2,
+                             nrow = 1)) +
   theme_minimal() +
   labs(title = "Gender Distribution by Species",
        x = "Species",
-       y = "Count") +
-  coord_flip() +
-  scale_fill_manual(values = c("male" = "blue", "female" = "pink", "hermaphrodite" = "purple", "none" = "grey"))
+       y = "Count",
+       fill = "Gender") +
+  theme(legend.position = "top")
 
 ```
 
@@ -176,11 +185,12 @@ Moving from demographics, we explore physical characteristics, starting with cha
 
 
 ```{r}
+#| fig-height: 9
 # Height distribution
-starwars_data %>%
-  filter(!is.na(height)) %>%
+starwars_data |>
+  filter(!is.na(height)) |>
   ggplot(aes(x = height)) +
-  geom_histogram(aes(fill = ..count..), binwidth = 5) +
+  geom_histogram(aes(fill = ..count..), binwidth = 5, show.legend = F) +
   scale_fill_viridis_c() +
   labs(title = "Height Distribution of Star Wars Characters",
        x = "Height (cm)",
@@ -198,15 +208,18 @@ Another compelling aspect of the Star Wars saga is the clear delineation between
 
 
 ```{r}
+#| fig-height: 9
 # homeworld distribution
-starwars_data %>%
-  group_by(homeworld) %>%
-  summarise(count = n()) %>%
-  ggplot(aes(x = reorder(homeworld, count), y = count, fill = homeworld)) +
-  geom_col() +
+starwars_data |>
+  filter(!is.na(homeworld)) |> 
+  group_by(homeworld) |>
+  summarise(count = n()) |>
+  filter(count > 3) |> 
+  ggplot(aes(x = fct_reorder(homeworld, count), y = count, fill = homeworld)) +
+  geom_col(show.legend = F) +
   coord_flip() +
-  labs(title = "Character homeworld in Star Wars",
-       x = "homeworld",
+  labs(title = "Homeworlds in Star Wars",
+       x = "Homeworld",
        y = "Count") +
   theme_minimal() +
   scale_fill_brewer(palette = "Set3")
