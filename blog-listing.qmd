@@ -1,5 +1,5 @@
 ---
-title: EconoData Insights
+title: Big & [tiny]{style='font-size:1.25rem;vertical-align:middle;'} insights through data
 listing:
   contents: posts
   type: grid
