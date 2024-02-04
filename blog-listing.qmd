@@ -1,5 +1,5 @@
 ---
-title: DataEcon Explorer
+title: EconoData Insights
 listing:
   contents: posts
   type: grid
