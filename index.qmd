@@ -19,6 +19,7 @@ about:
 
 cood-tools: false
 comments: false
+toc: false
 from: markdown+emoji
 ---
 

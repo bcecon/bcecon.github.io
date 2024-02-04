@@ -4,8 +4,6 @@ author: "Byeong-Hak Choe"
 date: "2023-11-02"
 categories: [beer, python, data-analysis]
 image: "image.png"
-
-code-tools: true
 ---
 ```{r}
 #| include: false

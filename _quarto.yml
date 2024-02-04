@@ -51,7 +51,5 @@ format:
     css: [styles.css, assets/css/font.css] # , font.css
     highlight-style: atom-one # espresso   tango
     mainfont:  sans-serif; serif; ui-sans-serif  # Gill Sans, sans-serif;
-    cood-tools: true
-    code-fold: show
     # include-after-body: [target-blank.html]
 
