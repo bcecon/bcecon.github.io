@@ -23,7 +23,7 @@ toc: false
 from: markdown+emoji
 ---
 
-<div style="display:block; margin:-40px;"></div>
+<div style="display:block; margin:-15px;"></div>
 
 :::: {.quarto-about-trestles}
 
