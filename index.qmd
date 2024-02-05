@@ -23,28 +23,18 @@ toc: false
 from: markdown+emoji
 ---
 
-<div style="display:block; margin:10px;"></div>
+<div style="display:block; margin:-40px;"></div>
 
+:::: {.quarto-about-trestles}
 
-
-:::: {.columns}
-
-::: {.column width="5%"}
-
-:::
-
-::: {.column width="15%"}
+::: {.about-entity}
 
 <p style="display: flex; justify-content: center; align-items: center;">
-    <img src="img/bchoe2017.png"  style="border-radius: 20px; width: 175px; height: auto;">
+    <img src="img/bchoe2017.png"  style="border-radius: 20px; width: 250px; height: auto;">
 </p>
 :::
 
-::: {.column width="7.5%"}
-
-:::
-
-::: {.column width="72.5%"}
+::: {.about-contents}
 
 
 <font size = "4">Hello! 👋 </font>
@@ -60,6 +50,40 @@ My teaching interests are in **economics and data science**. My students use the
 :::
 
 ::::
+
+<!-- :::: {.columns} -->
+
+<!-- ::: {.column width="5%"} -->
+
+<!-- ::: -->
+
+<!-- ::: {.column width="15%"} -->
+
+<!-- <p style="display: flex; justify-content: center; align-items: center;"> -->
+<!--     <img src="img/bchoe2017.png"  style="border-radius: 20px; width: 175px; height: auto;"> -->
+<!-- </p> -->
+<!-- ::: -->
+
+<!-- ::: {.column width="7.5%"} -->
+
+<!-- ::: -->
+
+<!-- ::: {.column width="72.5%"} -->
+
+
+<!-- <font size = "4">Hello! 👋 </font> -->
+
+<!-- <div style="display:block; margin:15px;"></div> -->
+
+<!-- I am an **assistant professor of data analytics and economics** at School of Business at SUNY Geneseo. -->
+
+<!-- My research interests lie in **economics of the environment and climate change**. -->
+
+<!-- My teaching interests are in **economics and data science**. My students use the tools of machine learning, econometrics, and data visualization to address **business strategies**, **public policy**, and **individual decision-making**. -->
+
+<!-- ::: -->
+
+<!-- :::: -->
 
 <br>
 
