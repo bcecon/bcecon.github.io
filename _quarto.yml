@@ -18,6 +18,11 @@ website:
         href: econml.qmd
       - text: Blog
         href: blog-listing.qmd
+      # - text: Python Notebook
+      #   menu: 
+      #     - text: Beer Markets
+      #       href: beer-markets-adj.ipynb
+        
       - text: "Teaching {{< fa external-link >}}"
         href: https://bcdanl.github.io
         target: _blank

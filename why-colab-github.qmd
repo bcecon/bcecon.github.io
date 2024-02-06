@@ -1,0 +1,101 @@
+---
+title: "Why and How Do We Use Google Coalb and GitHub?"
+author: 
+  - name: Byeong-Hak Choe
+    affiliations: SUNY Geneseo
+format: html
+
+toc: false
+comments: false
+---
+
+# Google Colab
+
+{{< video https://www.youtube.com/watch?v=inN8seMm7UI >}}
+
+
+[Google Colab](http://colab.research.google.com/), short for Google Colaboratory, is an external tool that we integrate into our course to provide students with a dynamic and collaborative coding environment. It is a cloud-based platform developed by Google that offers a free, web-based Python programming environment. The purpose of using Google Colab is to enable learners to write, run, and collaborate on Python code without the need for complex local installations. It provides several advantages:
+
+1.  **Accessibility**: Google Colab is accessible from any device with an internet connection without setting up Python environment for data analysis on a local computer, making it convenient for learners to work on coding assignments from anywhere.
+
+2.  **Real-time Collaboration**: Multiple users can work on the same Colab notebook simultaneously, allowing for real-time collaboration on coding projects and assignments.
+
+3.  **Powerful Resources**: Google Colab provides access to powerful computing resources, including GPUs and TPUs, which can be useful for computationally intensive tasks like machine learning.
+
+4.  **Version Control**: It supports version control through integration with GitHub, making it easy to manage and track changes in code.
+
+
+<br><br>
+
+
+
+# GitHub
+
+{{< video https://www.youtube.com/watch?v=pBy1zgt0XPc >}}
+
+[GitHub](https://github.com) is another external tool used in our course, primarily for version control and collaborative features for software development and data science projects. In this course, GitHub will primarily be used as a repository for storing Jupyter Notebooks. Its integration with Google Colab allows students to access and work on their notebooks conveniently from anywhere with an internet connection. It can also serve as a version control tool, helping learners maintain a history of their work and develop good coding practices.
+
+1.  **Version Control**: GitHub allows us to track changes to code, making it easier to review, revert, or merge modifications. It ensures that code is organized and that the history of changes is preserved.
+
+2.  **Collaboration**: Students can collaborate on coding assignments by sharing repositories, working on branches, and resolving issues. It promotes teamwork and peer learning.
+
+3.  **Transparency**: GitHub provides transparency in code development. Instructors can review students' code, provide feedback, and monitor progress throughout the course.
+
+4.  **Integration**: GitHub seamlessly integrates with other tools, such as Google Colab, making it convenient for students to sync their code between platforms.
+
+By using Google Colab and GitHub, we aim to create a dynamic interactive learning environment that enhances students' coding skills, fosters teamwork, and simplifies code management, ultimately enriching the educational experience in our course.
+
+<br><br>
+
+# Using GitHub with Google Colab
+
+Google Colab has convenient GitHub integration. This will enable you to edit notebooks in Colab and then commit and push changes back to the repository without ever leaving Colab in your browser.
+
+
+## Setting up GitHub access from Colab
+
+
+```{r}
+#| echo: false
+#| eval: true
+#| fig-align: center
+
+knitr::include_graphics("https://bcdanl.github.io/lec_figs/git-new-repo-colab.gif")
+```
+
+In order to access GitHub repositories, you need to allow Colab to access the repositories. To set this up, please follow the steps below.
+
+1. Login on [GitHub](https://github.com).
+
+2. Go to the [page for creating a new repository](https://github.com/new). Then, click the + icon to create a new repository.
+
+3. Name the repository
+
+4. Go to the [main Google Colab page](https://colab.research.google.com/). You will get a splash page that looks like this.
+
+
+```{r}
+#| echo: false
+#| eval: true
+#| fig-align: center
+
+knitr::include_graphics("https://bcdanl.github.io/lec_figs/colab-github.png")
+```
+
+
+5. Click on the `+ New notebook` button, located at the bottom left.
+
+6. Save the Python Notebook on your GitHub repository. 
+  - From the menu bar, click `File` → `Save a copy in GitHub`.
+
+7. An authorization window from GitHub may pop up. (Make sure you are not blocking pop-up windows.) You should authorize Colab to access your GitHub repositories, as shown below YouTube video:
+
+{{< video https://www.youtube.com/watch?v=uBY06NpnLcs >}}
+
+8. After finishing the authorization, choose the repository you created, and type the file name..
+
+
+
+## Updating your notebook to the repository
+
+After you have made changes to your notebook, you can save the changes to the GitHub repository. To do so from within a Colab notebook, click `File` → `Save a copy in GitHub` in GitHub. You will be prompted to add a commit message, and after you click `OK`, the notebook will be pushed to your repository.

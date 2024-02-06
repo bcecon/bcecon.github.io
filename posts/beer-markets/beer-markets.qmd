@@ -18,7 +18,7 @@ library(DT)
 library(htmltools)
 
 # Provide the pahname of the anaconda3 directory:
-# reticulate::use_condaenv("/Users/bchoe/anaconda3", required = TRUE)
+reticulate::use_condaenv("/Users/bchoe/anaconda3", required = TRUE)
 
 theme_set(theme_ipsum()+
           theme(strip.background =element_rect(fill="lightgray"),
@@ -179,7 +179,6 @@ The visualizations above depict the average quantity of beer purchased per brand
 Next, we'll look at the total spending across different markets to see if there are any notable differences in spending habits geographically. To do this, we'll sum up the spending in each market and visualize it.
 
 ```{python}
-#| fig-height: 16
 # Calculate total spending in each market
 market_spending_summary = beer_data.groupby('market').agg({'dollar_spent':'sum'}).reset_index()
 
@@ -187,7 +186,7 @@ market_spending_summary = beer_data.groupby('market').agg({'dollar_spent':'sum'}
 market_spending_summary_sorted = market_spending_summary.sort_values('dollar_spent', ascending=False)
 
 # Plotting total spending in each market
-plt.figure(figsize=(12, 10))
+plt.figure(figsize=(12, 18))
 sns.barplot(x='dollar_spent', y='market', data=market_spending_summary_sorted, palette='viridis')
 plt.title('Total Spending on Beer by Market')
 plt.xlabel('Total Spending')
