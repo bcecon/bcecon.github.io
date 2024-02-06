@@ -8,12 +8,16 @@ about:
   links: 
     - icon: linkedin
       href: https://www.linkedin.com/in/byeonghakchoe/
+      target: _blank
     - text: "{{< fa brands x-twitter >}}"
       href: https://twitter.com/climate_econ
+      target: _blank
     - icon: github
       href: https://github.com/bcecon
+      target: _blank
     - text: CV
       href: https://bcecon.github.io/choe-cv.pdf
+      target: _blank
     - icon: envelope
       href: mailto:bchoe@geneseo.edu
 

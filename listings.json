@@ -2,8 +2,8 @@
   {
     "listing": "/blog-listing.html",
     "items": [
-      "/posts/beer-markets-ipynb/beer-markets.html",
       "/posts/starwars/starwars_df.html",
+      "/posts/beer-markets-ipynb/beer-markets.html",
       "/posts/beer-markets/beer-markets.html",
       "/posts/welcome/index.html"
     ]
