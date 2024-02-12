@@ -210,7 +210,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 <p>Diving into the complex world of what people like in their beer, the <code>beer_markets.csv</code> dataset comes across as a goldmine of data, showing us the detailed interactions between buyers and their favorite beers. This dataset covers everything from how much and at what price people are buying beer to how deals and brand loyalty influence their decisions, across different types of people and places. As we start digging into this dataset, we aim to uncover the patterns that show what really influences the modern beer drinker’s choices, offering up valuable insights for marketers, industry watchers, and beer lovers. By breaking down the data, our exploration will shine a light on the factors that drive consumer behavior in the beer market, giving us a full picture of the trends that shape this lively industry.</p>
-<div class="cell" data-outputid="b2847ad2-05b2-44c9-839a-5e621901721e" data-execution_count="2">
+<div class="cell">
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating an interactive table</span></span>
@@ -218,45 +218,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> itables <span class="im">import</span> init_notebook_mode</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> itables <span class="im">import</span> show</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
-<div class="cell-output cell-output-stdout">
-<pre><code>Collecting itables
-  Downloading itables-1.7.0-py3-none-any.whl (200 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 200.9/200.9 kB 5.0 MB/s eta 0:00:00
-Requirement already satisfied: IPython in /usr/local/lib/python3.10/dist-packages (from itables) (7.34.0)
-Requirement already satisfied: pandas in /usr/local/lib/python3.10/dist-packages (from itables) (1.5.3)
-Requirement already satisfied: numpy in /usr/local/lib/python3.10/dist-packages (from itables) (1.23.5)
-Requirement already satisfied: setuptools&gt;=18.5 in /usr/local/lib/python3.10/dist-packages (from IPython-&gt;itables) (67.7.2)
-Collecting jedi&gt;=0.16 (from IPython-&gt;itables)
-  Downloading jedi-0.19.1-py2.py3-none-any.whl (1.6 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 15.7 MB/s eta 0:00:00
-Requirement already satisfied: decorator in /usr/local/lib/python3.10/dist-packages (from IPython-&gt;itables) (4.4.2)
-Requirement already satisfied: pickleshare in /usr/local/lib/python3.10/dist-packages (from IPython-&gt;itables) (0.7.5)
-Requirement already satisfied: traitlets&gt;=4.2 in /usr/local/lib/python3.10/dist-packages (from IPython-&gt;itables) (5.7.1)
-Requirement already satisfied: prompt-toolkit!=3.0.0,!=3.0.1,&lt;3.1.0,&gt;=2.0.0 in /usr/local/lib/python3.10/dist-packages (from IPython-&gt;itables) (3.0.43)
-Requirement already satisfied: pygments in /usr/local/lib/python3.10/dist-packages (from IPython-&gt;itables) (2.16.1)
-Requirement already satisfied: backcall in /usr/local/lib/python3.10/dist-packages (from IPython-&gt;itables) (0.2.0)
-Requirement already satisfied: matplotlib-inline in /usr/local/lib/python3.10/dist-packages (from IPython-&gt;itables) (0.1.6)
-Requirement already satisfied: pexpect&gt;4.3 in /usr/local/lib/python3.10/dist-packages (from IPython-&gt;itables) (4.9.0)
-Requirement already satisfied: python-dateutil&gt;=2.8.1 in /usr/local/lib/python3.10/dist-packages (from pandas-&gt;itables) (2.8.2)
-Requirement already satisfied: pytz&gt;=2020.1 in /usr/local/lib/python3.10/dist-packages (from pandas-&gt;itables) (2023.4)
-Requirement already satisfied: parso&lt;0.9.0,&gt;=0.8.3 in /usr/local/lib/python3.10/dist-packages (from jedi&gt;=0.16-&gt;IPython-&gt;itables) (0.8.3)
-Requirement already satisfied: ptyprocess&gt;=0.5 in /usr/local/lib/python3.10/dist-packages (from pexpect&gt;4.3-&gt;IPython-&gt;itables) (0.7.0)
-Requirement already satisfied: wcwidth in /usr/local/lib/python3.10/dist-packages (from prompt-toolkit!=3.0.0,!=3.0.1,&lt;3.1.0,&gt;=2.0.0-&gt;IPython-&gt;itables) (0.2.13)
-Requirement already satisfied: six&gt;=1.5 in /usr/local/lib/python3.10/dist-packages (from python-dateutil&gt;=2.8.1-&gt;pandas-&gt;itables) (1.16.0)
-Installing collected packages: jedi, itables
-Successfully installed itables-1.7.0 jedi-0.19.1</code></pre>
-</div>
 </div>
 <div class="cell" data-outputid="e6bbdd75-c6db-47ec-e692-c111ee6352bf" data-execution_count="3">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Reading the CSV file</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>beer_data <span class="op">=</span> pd.read_csv(<span class="st">"https://bcdanl.github.io/data/beer_markets.csv"</span>)</span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>show(beer_data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Reading the CSV file</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>beer_data <span class="op">=</span> pd.read_csv(<span class="st">"https://bcdanl.github.io/data/beer_markets.csv"</span>)</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>show(beer_data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
 
@@ -344,27 +316,27 @@ Successfully installed itables-1.7.0 jedi-0.19.1</code></pre>
 <div class="cell">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Setting up the visualization settings</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>sns.<span class="bu">set</span>(style<span class="op">=</span><span class="st">"whitegrid"</span>)</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate total quantity and spending for each brand</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>brand_summary <span class="op">=</span> beer_data.groupby(<span class="st">'brand'</span>).agg({<span class="st">'quantity'</span>:<span class="st">'sum'</span>, <span class="st">'dollar_spent'</span>:<span class="st">'sum'</span>}).reset_index()</span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort by total quantity and spending</span></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>brand_summary_sorted_quantity <span class="op">=</span> brand_summary.sort_values(<span class="st">'quantity'</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>brand_summary_sorted_spent <span class="op">=</span> brand_summary.sort_values(<span class="st">'dollar_spent'</span>, ascending<span class="op">=</span><span class="va">False</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Setting up the visualization settings</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>sns.<span class="bu">set</span>(style<span class="op">=</span><span class="st">"whitegrid"</span>)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate total quantity and spending for each brand</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>brand_summary <span class="op">=</span> beer_data.groupby(<span class="st">'brand'</span>).agg({<span class="st">'quantity'</span>:<span class="st">'sum'</span>, <span class="st">'dollar_spent'</span>:<span class="st">'sum'</span>}).reset_index()</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort by total quantity and spending</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>brand_summary_sorted_quantity <span class="op">=</span> brand_summary.sort_values(<span class="st">'quantity'</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>brand_summary_sorted_spent <span class="op">=</span> brand_summary.sort_values(<span class="st">'dollar_spent'</span>, ascending<span class="op">=</span><span class="va">False</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 <div class="cell" data-outputid="d297a283-0d40-4043-be28-aadf6641c805">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting total quantity for each brand</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">8</span>))</span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>sns.barplot(x<span class="op">=</span><span class="st">'quantity'</span>, y<span class="op">=</span><span class="st">'brand'</span>, data<span class="op">=</span>brand_summary_sorted_quantity, palette<span class="op">=</span><span class="st">'viridis'</span>)</span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Total Quantity of Beer Purchased by Brand'</span>)</span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'Total Quantity'</span>)</span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Brand'</span>)</span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting total quantity for each brand</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">8</span>))</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>sns.barplot(x<span class="op">=</span><span class="st">'quantity'</span>, y<span class="op">=</span><span class="st">'brand'</span>, data<span class="op">=</span>brand_summary_sorted_quantity, palette<span class="op">=</span><span class="st">'viridis'</span>)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Total Quantity of Beer Purchased by Brand'</span>)</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'Total Quantity'</span>)</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Brand'</span>)</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
 <p><img src="beer-markets_files/figure-html/cell-5-output-1.png" class="img-fluid"></p>
@@ -378,23 +350,23 @@ Successfully installed itables-1.7.0 jedi-0.19.1</code></pre>
 <div class="cell" data-outputid="b65014b2-f4e4-452a-8825-790bcb97d49f">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate average quantity purchased and average spending per purchase</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>average_purchase <span class="op">=</span> beer_data.groupby(<span class="st">'brand'</span>).agg({</span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">'quantity'</span>: <span class="st">'mean'</span>,</span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">'dollar_spent'</span>: <span class="st">'mean'</span></span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>}).reset_index()</span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort by average quantity and average spending</span></span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>average_purchase_sorted_quantity <span class="op">=</span> average_purchase.sort_values(<span class="st">'quantity'</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
-<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>average_purchase_sorted_spent <span class="op">=</span> average_purchase.sort_values(<span class="st">'dollar_spent'</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting average quantity for each brand</span></span>
-<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">8</span>))</span>
-<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>sns.barplot(x<span class="op">=</span><span class="st">'quantity'</span>, y<span class="op">=</span><span class="st">'brand'</span>, data<span class="op">=</span>average_purchase_sorted_quantity, palette<span class="op">=</span><span class="st">'viridis'</span>)</span>
-<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Average Quantity of Beer Purchased by Brand'</span>)</span>
-<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'Average Quantity'</span>)</span>
-<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Brand'</span>)</span>
-<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate average quantity purchased and average spending per purchase</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>average_purchase <span class="op">=</span> beer_data.groupby(<span class="st">'brand'</span>).agg({</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">'quantity'</span>: <span class="st">'mean'</span>,</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">'dollar_spent'</span>: <span class="st">'mean'</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>}).reset_index()</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort by average quantity and average spending</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>average_purchase_sorted_quantity <span class="op">=</span> average_purchase.sort_values(<span class="st">'quantity'</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>average_purchase_sorted_spent <span class="op">=</span> average_purchase.sort_values(<span class="st">'dollar_spent'</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting average quantity for each brand</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">8</span>))</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>sns.barplot(x<span class="op">=</span><span class="st">'quantity'</span>, y<span class="op">=</span><span class="st">'brand'</span>, data<span class="op">=</span>average_purchase_sorted_quantity, palette<span class="op">=</span><span class="st">'viridis'</span>)</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Average Quantity of Beer Purchased by Brand'</span>)</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'Average Quantity'</span>)</span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Brand'</span>)</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
 <p><img src="beer-markets_files/figure-html/cell-6-output-1.png" class="img-fluid"></p>
@@ -408,19 +380,19 @@ Successfully installed itables-1.7.0 jedi-0.19.1</code></pre>
 <div class="cell" data-outputid="f4d0ad81-4c14-401d-f176-69ca73c2aaa0">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate total spending in each market</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>market_spending_summary <span class="op">=</span> beer_data.groupby(<span class="st">'market'</span>).agg({<span class="st">'dollar_spent'</span>:<span class="st">'sum'</span>}).reset_index()</span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort by total spending</span></span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>market_spending_summary_sorted <span class="op">=</span> market_spending_summary.sort_values(<span class="st">'dollar_spent'</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
-<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting total spending in each market</span></span>
-<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">18</span>))</span>
-<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>sns.barplot(x<span class="op">=</span><span class="st">'dollar_spent'</span>, y<span class="op">=</span><span class="st">'market'</span>, data<span class="op">=</span>market_spending_summary_sorted, palette<span class="op">=</span><span class="st">'viridis'</span>)</span>
-<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Total Spending on Beer by Market'</span>)</span>
-<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'Total Spending'</span>)</span>
-<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Market'</span>)</span>
-<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate total spending in each market</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>market_spending_summary <span class="op">=</span> beer_data.groupby(<span class="st">'market'</span>).agg({<span class="st">'dollar_spent'</span>:<span class="st">'sum'</span>}).reset_index()</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort by total spending</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>market_spending_summary_sorted <span class="op">=</span> market_spending_summary.sort_values(<span class="st">'dollar_spent'</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting total spending in each market</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">18</span>))</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>sns.barplot(x<span class="op">=</span><span class="st">'dollar_spent'</span>, y<span class="op">=</span><span class="st">'market'</span>, data<span class="op">=</span>market_spending_summary_sorted, palette<span class="op">=</span><span class="st">'viridis'</span>)</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Total Spending on Beer by Market'</span>)</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'Total Spending'</span>)</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Market'</span>)</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
 <p><img src="beer-markets_files/figure-html/cell-7-output-1.png" class="img-fluid"></p>
@@ -440,19 +412,19 @@ Successfully installed itables-1.7.0 jedi-0.19.1</code></pre>
 <div class="cell" data-outputid="1df3c765-94d1-421a-acca-2d7a9aaca6c8">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate total spending by age group</span></span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>age_group_spending <span class="op">=</span> beer_data.groupby(<span class="st">'age'</span>).agg({<span class="st">'dollar_spent'</span>:<span class="st">'sum'</span>}).reset_index()</span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort by total spending</span></span>
-<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>age_group_spending_sorted <span class="op">=</span> age_group_spending.sort_values(<span class="st">'dollar_spent'</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
-<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting total spending by age group</span></span>
-<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
-<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>sns.barplot(x<span class="op">=</span><span class="st">'dollar_spent'</span>, y<span class="op">=</span><span class="st">'age'</span>, data<span class="op">=</span>age_group_spending_sorted, palette<span class="op">=</span><span class="st">'viridis'</span>)</span>
-<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Total Spending on Beer by Age Group'</span>)</span>
-<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'Total Spending'</span>)</span>
-<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Age Group'</span>)</span>
-<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate total spending by age group</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>age_group_spending <span class="op">=</span> beer_data.groupby(<span class="st">'age'</span>).agg({<span class="st">'dollar_spent'</span>:<span class="st">'sum'</span>}).reset_index()</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort by total spending</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>age_group_spending_sorted <span class="op">=</span> age_group_spending.sort_values(<span class="st">'dollar_spent'</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting total spending by age group</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>sns.barplot(x<span class="op">=</span><span class="st">'dollar_spent'</span>, y<span class="op">=</span><span class="st">'age'</span>, data<span class="op">=</span>age_group_spending_sorted, palette<span class="op">=</span><span class="st">'viridis'</span>)</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Total Spending on Beer by Age Group'</span>)</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'Total Spending'</span>)</span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Age Group'</span>)</span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
 <p><img src="beer-markets_files/figure-html/cell-8-output-1.png" class="img-fluid"></p>
@@ -463,19 +435,19 @@ Successfully installed itables-1.7.0 jedi-0.19.1</code></pre>
 <div class="cell" data-outputid="3b1509df-b795-4af2-a5e3-70b716393706">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate total spending by employment status</span></span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>employment_spending <span class="op">=</span> beer_data.groupby(<span class="st">'employment'</span>).agg({<span class="st">'dollar_spent'</span>:<span class="st">'sum'</span>}).reset_index()</span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort by total spending</span></span>
-<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>employment_spending_sorted <span class="op">=</span> employment_spending.sort_values(<span class="st">'dollar_spent'</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
-<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting total spending by employment status</span></span>
-<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
-<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>sns.barplot(x<span class="op">=</span><span class="st">'dollar_spent'</span>, y<span class="op">=</span><span class="st">'employment'</span>, data<span class="op">=</span>employment_spending_sorted, palette<span class="op">=</span><span class="st">'viridis'</span>)</span>
-<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Total Spending on Beer by Employment Status'</span>)</span>
-<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'Total Spending'</span>)</span>
-<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Employment Status'</span>)</span>
-<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate total spending by employment status</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>employment_spending <span class="op">=</span> beer_data.groupby(<span class="st">'employment'</span>).agg({<span class="st">'dollar_spent'</span>:<span class="st">'sum'</span>}).reset_index()</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort by total spending</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>employment_spending_sorted <span class="op">=</span> employment_spending.sort_values(<span class="st">'dollar_spent'</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting total spending by employment status</span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>sns.barplot(x<span class="op">=</span><span class="st">'dollar_spent'</span>, y<span class="op">=</span><span class="st">'employment'</span>, data<span class="op">=</span>employment_spending_sorted, palette<span class="op">=</span><span class="st">'viridis'</span>)</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Total Spending on Beer by Employment Status'</span>)</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'Total Spending'</span>)</span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Employment Status'</span>)</span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
 <p><img src="beer-markets_files/figure-html/cell-9-output-1.png" class="img-fluid"></p>
@@ -486,19 +458,19 @@ Successfully installed itables-1.7.0 jedi-0.19.1</code></pre>
 <div class="cell" data-outputid="30c0e611-2ea6-4da9-f824-d53fc9c02466">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate total spending by race</span></span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>race_spending <span class="op">=</span> beer_data.groupby(<span class="st">'race'</span>).agg({<span class="st">'dollar_spent'</span>:<span class="st">'sum'</span>}).reset_index()</span>
-<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort by total spending</span></span>
-<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>race_spending_sorted <span class="op">=</span> race_spending.sort_values(<span class="st">'dollar_spent'</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
-<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting total spending by race</span></span>
-<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
-<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>sns.barplot(x<span class="op">=</span><span class="st">'dollar_spent'</span>, y<span class="op">=</span><span class="st">'race'</span>, data<span class="op">=</span>race_spending_sorted, palette<span class="op">=</span><span class="st">'viridis'</span>)</span>
-<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Total Spending on Beer by Race'</span>)</span>
-<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'Total Spending'</span>)</span>
-<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Race'</span>)</span>
-<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate total spending by race</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>race_spending <span class="op">=</span> beer_data.groupby(<span class="st">'race'</span>).agg({<span class="st">'dollar_spent'</span>:<span class="st">'sum'</span>}).reset_index()</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort by total spending</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>race_spending_sorted <span class="op">=</span> race_spending.sort_values(<span class="st">'dollar_spent'</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting total spending by race</span></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>sns.barplot(x<span class="op">=</span><span class="st">'dollar_spent'</span>, y<span class="op">=</span><span class="st">'race'</span>, data<span class="op">=</span>race_spending_sorted, palette<span class="op">=</span><span class="st">'viridis'</span>)</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Total Spending on Beer by Race'</span>)</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'Total Spending'</span>)</span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Race'</span>)</span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
 <p><img src="beer-markets_files/figure-html/cell-10-output-1.png" class="img-fluid"></p>
@@ -513,23 +485,23 @@ Successfully installed itables-1.7.0 jedi-0.19.1</code></pre>
 <div class="cell" data-outputid="fb8b1d97-0a8b-41fa-87a0-3ef8b42615c5">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Ensure there's no entries with 0 for 'price_per_floz' or 'quantity' to avoid log(0) issues</span></span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>filtered_data <span class="op">=</span> beer_data[(beer_data[<span class="st">'price_per_floz'</span>] <span class="op">&gt;</span> <span class="dv">0</span>) <span class="op">&amp;</span> (beer_data[<span class="st">'quantity'</span>] <span class="op">&gt;</span> <span class="dv">0</span>)]</span>
-<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate log values for both 'price_per_floz' and 'quantity'</span></span>
-<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>filtered_data[<span class="st">'log_price_per_floz'</span>] <span class="op">=</span> np.log(filtered_data[<span class="st">'price_per_floz'</span>])</span>
-<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>filtered_data[<span class="st">'log_quantity'</span>] <span class="op">=</span> np.log(filtered_data[<span class="st">'quantity'</span>])</span>
-<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Use seaborn to create a scatterplot with fitted lines, facetted by 'brand'</span></span>
-<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>g <span class="op">=</span> sns.lmplot(data<span class="op">=</span>filtered_data, x<span class="op">=</span><span class="st">'log_quantity'</span>, y<span class="op">=</span><span class="st">'log_price_per_floz'</span>, col<span class="op">=</span><span class="st">'brand'</span>, col_wrap<span class="op">=</span><span class="dv">4</span>, height<span class="op">=</span><span class="dv">3</span>, line_kws<span class="op">=</span>{<span class="st">'color'</span>: <span class="st">'red'</span>}, scatter_kws<span class="op">=</span>{<span class="st">'alpha'</span>:<span class="fl">0.5</span>}, aspect <span class="op">=</span> <span class="fl">.75</span>)</span>
-<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Adjusting plot aesthetics</span></span>
-<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>g.set_titles(<span class="st">"</span><span class="sc">{col_name}</span><span class="st">"</span>)</span>
-<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>g.set_axis_labels(<span class="st">"Log of Quantity"</span>, <span class="st">"Log of Price per Floz"</span>)</span>
-<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a>plt.subplots_adjust(top<span class="op">=</span><span class="fl">0.9</span>)</span>
-<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a>g.fig.suptitle(<span class="st">'Log of Price per Floz vs. Log of Quantity'</span>)</span>
-<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Ensure there's no entries with 0 for 'price_per_floz' or 'quantity' to avoid log(0) issues</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>filtered_data <span class="op">=</span> beer_data[(beer_data[<span class="st">'price_per_floz'</span>] <span class="op">&gt;</span> <span class="dv">0</span>) <span class="op">&amp;</span> (beer_data[<span class="st">'quantity'</span>] <span class="op">&gt;</span> <span class="dv">0</span>)]</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate log values for both 'price_per_floz' and 'quantity'</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>filtered_data[<span class="st">'log_price_per_floz'</span>] <span class="op">=</span> np.log(filtered_data[<span class="st">'price_per_floz'</span>])</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>filtered_data[<span class="st">'log_quantity'</span>] <span class="op">=</span> np.log(filtered_data[<span class="st">'quantity'</span>])</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Use seaborn to create a scatterplot with fitted lines, facetted by 'brand'</span></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>g <span class="op">=</span> sns.lmplot(data<span class="op">=</span>filtered_data, x<span class="op">=</span><span class="st">'log_quantity'</span>, y<span class="op">=</span><span class="st">'log_price_per_floz'</span>, col<span class="op">=</span><span class="st">'brand'</span>, col_wrap<span class="op">=</span><span class="dv">4</span>, height<span class="op">=</span><span class="dv">3</span>, line_kws<span class="op">=</span>{<span class="st">'color'</span>: <span class="st">'red'</span>}, scatter_kws<span class="op">=</span>{<span class="st">'alpha'</span>:<span class="fl">0.5</span>}, aspect <span class="op">=</span> <span class="fl">.75</span>)</span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Adjusting plot aesthetics</span></span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>g.set_titles(<span class="st">"</span><span class="sc">{col_name}</span><span class="st">"</span>)</span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>g.set_axis_labels(<span class="st">"Log of Quantity"</span>, <span class="st">"Log of Price per Floz"</span>)</span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>plt.subplots_adjust(top<span class="op">=</span><span class="fl">0.9</span>)</span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a>g.fig.suptitle(<span class="st">'Log of Price per Floz vs. Log of Quantity'</span>)</span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
 <p><img src="beer-markets_files/figure-html/cell-11-output-1.png" class="img-fluid"></p>
@@ -539,16 +511,16 @@ Successfully installed itables-1.7.0 jedi-0.19.1</code></pre>
 <div class="cell" data-outputid="57e3bcf2-3356-4b60-c804-e558a783365a">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Adjust the facetting to split rows by 'brand' and columns by 'promo' for a more detailed comparative analysis</span></span>
-<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>g <span class="op">=</span> sns.lmplot(data<span class="op">=</span>filtered_data, x<span class="op">=</span><span class="st">'log_quantity'</span>, y<span class="op">=</span><span class="st">'log_price_per_floz'</span>, row<span class="op">=</span><span class="st">'brand'</span>, col<span class="op">=</span><span class="st">'promo'</span>, height<span class="op">=</span><span class="dv">3</span>, aspect<span class="op">=</span><span class="fl">.75</span>, line_kws<span class="op">=</span>{<span class="st">'color'</span>: <span class="st">'red'</span>}, scatter_kws<span class="op">=</span>{<span class="st">'alpha'</span>:<span class="fl">0.5</span>})</span>
-<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Adjusting plot aesthetics</span></span>
-<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>g.set_titles(<span class="st">"Brand: </span><span class="sc">{row_name}</span><span class="ch">\n</span><span class="st"> Promo: </span><span class="sc">{col_name}</span><span class="st">"</span>)</span>
-<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>g.set_axis_labels(<span class="st">"Log of Quantity"</span>, <span class="st">"Log of Price per Floz"</span>)</span>
-<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>plt.subplots_adjust(top<span class="op">=</span><span class="fl">0.9</span>, wspace <span class="op">=</span> <span class="fl">.4</span>, hspace <span class="op">=</span> <span class="fl">.4</span>)</span>
-<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>g.fig.suptitle(<span class="st">'Log of Price per Floz vs. Log of Quantity'</span>)</span>
-<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Adjust the facetting to split rows by 'brand' and columns by 'promo' for a more detailed comparative analysis</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>g <span class="op">=</span> sns.lmplot(data<span class="op">=</span>filtered_data, x<span class="op">=</span><span class="st">'log_quantity'</span>, y<span class="op">=</span><span class="st">'log_price_per_floz'</span>, row<span class="op">=</span><span class="st">'brand'</span>, col<span class="op">=</span><span class="st">'promo'</span>, height<span class="op">=</span><span class="dv">3</span>, aspect<span class="op">=</span><span class="fl">.75</span>, line_kws<span class="op">=</span>{<span class="st">'color'</span>: <span class="st">'red'</span>}, scatter_kws<span class="op">=</span>{<span class="st">'alpha'</span>:<span class="fl">0.5</span>})</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Adjusting plot aesthetics</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>g.set_titles(<span class="st">"Brand: </span><span class="sc">{row_name}</span><span class="ch">\n</span><span class="st"> Promo: </span><span class="sc">{col_name}</span><span class="st">"</span>)</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>g.set_axis_labels(<span class="st">"Log of Quantity"</span>, <span class="st">"Log of Price per Floz"</span>)</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>plt.subplots_adjust(top<span class="op">=</span><span class="fl">0.9</span>, wspace <span class="op">=</span> <span class="fl">.4</span>, hspace <span class="op">=</span> <span class="fl">.4</span>)</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>g.fig.suptitle(<span class="st">'Log of Price per Floz vs. Log of Quantity'</span>)</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
 <p><img src="beer-markets_files/figure-html/cell-12-output-1.png" class="img-fluid"></p>
@@ -565,26 +537,26 @@ Successfully installed itables-1.7.0 jedi-0.19.1</code></pre>
 <div class="cell" data-outputid="23e10add-2ceb-4d77-a873-aea6a4f488e6">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate average quantity purchased with and without promotions for each brand</span></span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>promo_impact <span class="op">=</span> beer_data.groupby([<span class="st">'brand'</span>, <span class="st">'promo'</span>]).agg({<span class="st">'quantity'</span>:<span class="st">'mean'</span>}).reset_index()</span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Pivot the data to have promo and non-promo side by side for each brand</span></span>
-<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>promo_impact_pivot <span class="op">=</span> promo_impact.pivot(index<span class="op">=</span><span class="st">'brand'</span>, columns<span class="op">=</span><span class="st">'promo'</span>, values<span class="op">=</span><span class="st">'quantity'</span>).reset_index()</span>
-<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>promo_impact_pivot.columns <span class="op">=</span> [<span class="st">'brand'</span>, <span class="st">'non_promo'</span>, <span class="st">'promo'</span>]</span>
-<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate the difference in average quantity purchased between promo and non-promo</span></span>
-<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>promo_impact_pivot[<span class="st">'promo_impact'</span>] <span class="op">=</span> promo_impact_pivot[<span class="st">'promo'</span>] <span class="op">-</span> promo_impact_pivot[<span class="st">'non_promo'</span>]</span>
-<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort by the impact of promo</span></span>
-<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>promo_impact_pivot_sorted <span class="op">=</span> promo_impact_pivot.sort_values(<span class="st">'promo_impact'</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
-<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting the difference in average quantity purchased between promo and non-promo for each brand</span></span>
-<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">10</span>))</span>
-<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a>sns.barplot(x<span class="op">=</span><span class="st">'promo_impact'</span>, y<span class="op">=</span><span class="st">'brand'</span>, data<span class="op">=</span>promo_impact_pivot_sorted, palette<span class="op">=</span><span class="st">'viridis'</span>)</span>
-<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Impact of Promotions on Average Quantity Purchased by Brand'</span>)</span>
-<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'Difference in Average Quantity Purchased (Promo - Non-Promo)'</span>)</span>
-<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Brand'</span>)</span>
-<span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate average quantity purchased with and without promotions for each brand</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>promo_impact <span class="op">=</span> beer_data.groupby([<span class="st">'brand'</span>, <span class="st">'promo'</span>]).agg({<span class="st">'quantity'</span>:<span class="st">'mean'</span>}).reset_index()</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Pivot the data to have promo and non-promo side by side for each brand</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>promo_impact_pivot <span class="op">=</span> promo_impact.pivot(index<span class="op">=</span><span class="st">'brand'</span>, columns<span class="op">=</span><span class="st">'promo'</span>, values<span class="op">=</span><span class="st">'quantity'</span>).reset_index()</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>promo_impact_pivot.columns <span class="op">=</span> [<span class="st">'brand'</span>, <span class="st">'non_promo'</span>, <span class="st">'promo'</span>]</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate the difference in average quantity purchased between promo and non-promo</span></span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>promo_impact_pivot[<span class="st">'promo_impact'</span>] <span class="op">=</span> promo_impact_pivot[<span class="st">'promo'</span>] <span class="op">-</span> promo_impact_pivot[<span class="st">'non_promo'</span>]</span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort by the impact of promo</span></span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>promo_impact_pivot_sorted <span class="op">=</span> promo_impact_pivot.sort_values(<span class="st">'promo_impact'</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting the difference in average quantity purchased between promo and non-promo for each brand</span></span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">10</span>))</span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a>sns.barplot(x<span class="op">=</span><span class="st">'promo_impact'</span>, y<span class="op">=</span><span class="st">'brand'</span>, data<span class="op">=</span>promo_impact_pivot_sorted, palette<span class="op">=</span><span class="st">'viridis'</span>)</span>
+<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Impact of Promotions on Average Quantity Purchased by Brand'</span>)</span>
+<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'Difference in Average Quantity Purchased (Promo - Non-Promo)'</span>)</span>
+<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Brand'</span>)</span>
+<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
 <p><img src="beer-markets_files/figure-html/cell-13-output-1.png" class="img-fluid"></p>
