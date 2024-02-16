@@ -24,14 +24,14 @@ include-after-body:
     <script src='/assets/js/site.js'></script>
     <script src='/assets/js/posts.js'></script>
 comments:
-  utterances:
+  giscus:
     repo: bcecon/bcecon.github.io
     theme: preferred_color_scheme
-    # mapping: title
-    # reactions-enabled: true
+    mapping: title
+    reactions-enabled: true
     # loading: lazy
-    # input-position: top
-    # language: en
+    input-position: top
+    language: en
 
 toc: true
 code-fold: true
