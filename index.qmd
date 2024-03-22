@@ -27,14 +27,14 @@ toc: false
 from: markdown+emoji
 ---
 
-<div style="display:block; margin:-15px;"></div>
+<div style="display:block; margin:-10px;"></div>
 
 :::: {.quarto-about-trestles}
 
 ::: {.about-entity}
 
 <p style="display: flex; justify-content: center; align-items: center;">
-    <img src="img/bchoe2017.png"  style="border-radius: 20px; width: 250px; height: auto;">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/bchoe2017.png"  style="border-radius: 20px; width: 250px; height: auto;">
 </p>
 :::
 
