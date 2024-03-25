@@ -5,6 +5,7 @@ date-modified: ""
 about:
   template: trestles # jolla trestles solana marquee broadside
   image: img/bchoe-github.png
+  image-width: 12.5em
   links: 
     - icon: linkedin
       href: https://www.linkedin.com/in/byeonghakchoe/
