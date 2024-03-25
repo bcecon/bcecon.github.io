@@ -3,7 +3,7 @@ project:
   output-dir: "."
   
 website:
-  title: ""
+  title: Home
   # favicon: img/favicon.ico
   description: 'A collection of data analytics and economics by Byeong-Hak Choe'
   reader-mode: false
