@@ -26,6 +26,7 @@ cood-tools: false
 comments: false
 toc: false
 from: markdown+emoji
+# include-after-body: data-entry/data-entry-form.html
 ---
 
 
@@ -62,13 +63,10 @@ My research interests lie in **economics of the environment and climate change**
 <br>
 
 ```{=html}
-<style>iframe{height: 1200px; width: 800px}</style>
-
-<iframe height="100%" width="100%" frameborder="no"
+<iframe height="900px" width="100%" frameborder="no"
 src="data-entry/data-entry-form.html">
 </iframe>
-``` 
-
+```
 
 <!-- #### Test -->
 
