@@ -17,7 +17,7 @@ if (codeTools.length > 0) {
   // does something with #quarto-code-tools-source
 }
 document.querySelector('.navbar-brand-container').insertAdjacentHTML(
-  'afterend', '<div class="navbar-title-container me-auto" style="display: inline-block;"><ul class="navbar-nav navbar-nav-scroll"><li class="nav-item"><span><font color="#dbd9d8">'+title+'</font></span></li></ul></div>'
+  'beforeend', '<div class="navbar-title-container me-auto" style="display: inline-block;"><ul class="navbar-nav navbar-nav-scroll"><li class="nav-item"><span><font color="#dbd9d8">'+title+'</font></span></li></ul></div>'
 );
 reuseHTML = document.querySelector('#quarto-reuse > div').outerText
 document.querySelector('#quarto-reuse > div').outerHTML = reuseHTML
