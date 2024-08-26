@@ -1,0 +1,759 @@
+---
+title: Lecture 1
+subtitle: Syllabus, Course Outline, and Introduction
+format:
+  clean-revealjs:
+    self-contained: false
+    chalkboard: true
+    incremental: true
+    code-annotations: hover
+    scrollable: false
+
+    # logo: logo-title-slide.png
+author:
+  - name: Byeong-Hak Choe
+    email: bchoe@geneseo.edu
+    affiliations: SUNY Geneseo
+date: 2024-08-26
+execute: 
+  eval: true
+  echo: true
+callout-icon: false
+
+from: markdown+emoji
+include-after-body: target-hover.html # effect.html
+
+# bibliography: refs.bib
+---
+
+
+```{r setup}
+#| include: false
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+
+
+theme_set(theme_fivethirtyeight()+
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = 
+                  element_text(angle = 0,
+                               size = rel(1.5),
+                               margin = margin(10,0,0,0)),
+                axis.title.y = 
+                  element_text(angle = 0,
+                               size = rel(1.5),
+                               margin = margin(0,10,0,0)),
+                axis.text.x = element_text(size = rel(1.5)),
+                axis.text.y = element_text(size = rel(1.5)),
+                strip.text = element_text(size = rel(1.5)),
+                legend.position = "top",
+                legend.text = element_text(size = rel(1.5)),
+                legend.title = element_text(size = rel(1.5))
+                )
+          )
+```
+
+
+# Instructor {background-color="#1c4982"}
+
+## Instructor
+### Current Appointment & Education
+
+- Name: Byeong-Hak Choe.
+- Assistant Professor of Data Analytics and Economics, School of Business at SUNY Geneseo.
+
+
+- Ph.D. in Economics from University of Wyoming.
+- M.S. in Economics from Arizona State University.
+- M.A. in Economics from SUNY Stony Brook.
+- B.A. in Economics & B.S. in Applied Mathematics from Hanyang University at Ansan, South Korea.
+  - Minor in Business Administration.
+  - Concentration in Finance.
+  
+
+
+## Instructor
+### Economics and Data Science
+
+- Choe, B.H., 2021. "Social Media Campaigns, Lobbying and Legislation: Evidence from #climatechange and Energy Lobbies."
+
+- Question: To what extent do social media campaigns compete with fossil fuel lobbying on climate change legislation?
+
+- Data include:
+  - 5.0 million tweets with #climatechange/#globalwarming around the globe;
+  - 12.0 million retweets/likes to those tweets;
+  - 0.8 million Twitter users who wrote those tweets;
+  - 1.4 million Twitter users who retweeted or liked those tweets;
+  - 0.3 million US Twitter users with their location at a city level;
+  - Firm-level lobbying data (expenses, targeted bills, etc.). 
+
+
+
+## Instructor
+### Economics and Data Science
+
+- Choe, B.H. and Ore-Monago, T., 2024. "Governance and Climate Finance in the Developing World"
+
+- **Climate finance** refers to the financial resources allocated for mitigating and adapting to climate change, including support for initiatives that reduce greenhouse gas emissions and enhance resilience to climate impacts.
+  - We focus on transnational financing that rich countries provide poor countries with financial resources, in order to help them adapt to climate change and mitigate greenhouse gas (GHG) emissions.
+  - Since the GHG emissions in developing countries are rapidly growing, it is crucial to assess the effectiveness of climate finance.
+  - Poor governance can be significant barriers to emissions reductions within these countries.
+
+
+## Instructor
+### Economics and Data Science
+
+- Choe, B.H. and Ore-Monago, T., 2024. "Governance and Climate Finance in the Developing World"
+
+- Data include:
+  - Global climate finance data (e.g., donors, recipients, characteristics of climate change projects)
+  - World Bank Governance Indicators over the years (e.g., government effectiveness, voice and accountability, political stability and absence of violence/terrorism, regulatory quality, rule of law, control of corruption)
+  - Various economic indicators (e.g., trade pattern of low carbon technology products, macroeconomic risks, energy)
+
+
+## Instructor
+### Economics and Data Science
+
+- Choe, B.H., James, Alex and Newbold, Steve, 2025. "Estimating the Value of Statistical Life (VSL) through Big Data"
+
+- VSL is the monetary value associated with reducing the risk of death. 
+  - How much value would that be? How can we measure it?
+
+
+
+
+# Syllabus {background-color="#1c4982"}
+
+## Syllabus
+
+### Email, Class & Office Hours
+
+- Email: [bchoe@geneseo.edu](bchoe@geneseo.edu)
+
+
+- Class Homepage: 
+  i. [https://mylearning.suny.edu/d2l/home/1513939](https://mylearning.suny.edu/d2l/home/1513939){target="_blank"}
+  i. [http://bcecon.github.io/](http://bcecon.github.io/){target="_blank"}
+  
+  
+- Office: South Hall 301
+- Office Hours: 
+  - In-person: Mondays and Wednesdays 1:30 P.M.--3:00 P.M.
+  - Online: by appointment via email.
+
+
+## Syllabus
+
+### Course Description
+
+- This course examines the role of economic analysis in addressing challenges in natural resource management. 
+- We will begin by reviewing key economic concepts, for example, externalities and market failures, benefit-cost analysis, and non-market valuation techniques. 
+
+- We will then apply them to issues concerning various natural resources, such as forests and fisheries. 
+
+- Additionally, we will explore climate change topics, including energy policy, carbon pricing, and adaptation strategies. 
+
+- A major focus is on assessing the optimal role of public policy. 
+
+
+
+
+## Syllabus
+
+### Course Learning Outcomes
+
+- Grasp the fundamental concepts and theories of natural resource economics, including scarcity, allocation, externalities, sustainability, and ecosystem service and goods.
+- Analyze natural resource management issues using economic principles to evaluate trade-offs and policy options.
+- Understand and be able to use benefit-cost analysis.
+- Understand the economic drivers and implications of climate change, enabling clear articulation of its significance in resource management and policy discussions.
+- Understand the role of market and non-market mechanisms in natural resource allocation and management. 
+- Explore the economic aspects of renewable and non-renewable resource management, including energy, forest, and fisheries.
+
+
+## Syllabus
+
+### Required Materials
+
+- **Environmental and Natural Resource Economics** (12th Edition) by Tom Tietenberg and Lynne Lewis (Henthforth, TL)
+
+- Additional readings will be provided.
+
+
+## Syllabus
+
+### Course Requirements
+- **Homework**: There will be six homework assignments.
+- **Quiz**: There will be in-class quizzes.
+- **Class Participation**: You are encouraged to ask questions and discuss topics during the class time.
+- **Exam**: There will be two short midterm exams and one comprehensive final exam.
+- **Term paper**: There will be one term paper.
+  
+  
+  
+## Syllabus
+
+### Term paper
+
+- Your term paper should critically examine natural resource management issues by: 
+  1. Thoroughly explaining the central dilemma facing society, 
+  2. Identifying the key questions that must be addressed to develop solutions, while recognizing the trade-offs between different objectives, 
+  3. Presenting appropriate evidence to analyze the competing interests involved, and 
+  4. Formulating **policy recommendations** that logically follow from your analysis.
+
+- A list of suggested topics for the term paper will be provided. However, each team may also choose a topic of its own that is related to natural resource management issues.
+
+
+## Syllabus
+
+### Term paper
+- Each team for the term paper consists of one or two student(s). 
+- Each team must develop a research question for the term paper. 
+- The term paper can be either theoretical, empirical, or both. 
+- For empirical research, the data for the term paper must be approved by Byeong-Hak Choe. 
+- Term papers will be evaluated based on (1) the quality of research question, (2) the quality of oral presentation, (3) the quality of economic analysis, (4) the quality of modeling analysis, and (5) peer evaluation on other students' presentations. 
+- Changing a team member or a research topic must be approved by Byeong-Hak Choe.
+
+
+
+## Syllabus
+
+### Class Schedule
+
+- There will be tentatively 42 class sessions.
+  - **The midterm exam 1** is scheduled on **October 9, 2024, Wednesday**, during the class time.
+  - The due for the **term paper proposal** is **October 31, 2024, Thursday**, 11:59 P.M.
+  - **The midterm exam 2** is scheduled on **November 8, 2024, Friday**, during the class time.
+  - **The presentation for the term paper** is scheduled on **December 9, 2024, Monday**, during the class time.
+  - **The final exam** is scheduled on **December 13, 2024, Friday, 3:30 P.M.--5:30 P.M.**
+  - The due for **the term paper** is **December 17, 2024, Tuesday, 11:59 P.M.**
+
+
+
+
+## Syllabus
+### Course Contents
+
+```{r, out.width='100%', fig.align='center'}
+#| eval: true
+#| echo: false
+text_tbl <- data.frame(
+  Week = c("1", "2", "3", "4", "5", "6", "7"),
+  Contents = c("Course Outlines; Vision of the Future",
+"The Economic Approach: Property Rights, Externalities, and Environmental Problems",
+"Evaluating Trade-Offs: Benefit-Coast Analysis and Other Decision-Making Metrics",
+"Valuing the Environment: Methods",
+"Valuing the Environment: Methods",
+"Dynamic Efficiency and Sustainable Development", "Water Pollution: Managing Water Quality for Rivers, Lakes, and Oceans"),
+  `HW Exam` = c("", "", "HW 1", "", "", "HW 2", "Midterm I")
+  )
+
+
+# Create a DT datatable without search box and 'Show entries' dropdown
+DT::datatable(text_tbl, rownames = FALSE,
+              options = list(
+  dom = 't', # This sets the DOM layout without the search box ('f') and 'Show entries' dropdown ('l')
+  paging = FALSE, # Disable pagination
+  columnDefs = list(list(
+    targets = "_all", # Applies to all columns
+    orderable = FALSE # Disables sorting
+  ))
+), callback = htmlwidgets::JS("
+  // Change header background and text color
+  $('thead th').css('background-color', '#1c4982');
+  $('thead th').css('color', 'white');
+
+  // Loop through each row and alternate background color
+  $('tbody tr').each(function(index) {
+    if (index % 2 == 0) {
+      $(this).css('background-color', '#d1dae6'); // Light color for even rows
+    } else {
+      $(this).css('background-color', '#9fb2cb'); // Dark color for odd rows
+    }
+  });
+
+  // Set text color for all rows
+  $('tbody tr').css('color', 'black');
+
+  // Add hover effect
+  $('tbody tr').hover(
+    function() {
+      $(this).css('background-color', '#607fa7'); // Color when mouse hovers over a row
+    }, 
+    function() {
+      var index = $(this).index();
+      if (index % 2 == 0) {
+        $(this).css('background-color', '#d1dae6'); // Restore even row color
+      } else {
+        $(this).css('background-color', '#9fb2cb'); // Restore odd row color
+      }
+    }
+  );
+")
+)
+
+```
+
+
+
+
+## Syllabus
+### Course Contents
+
+```{r, out.width='100%', fig.align='center'}
+#| eval: true
+#| echo: false
+text_tbl <- data.frame(
+  Week = c("8", "9", "10", "11"),
+  Contents = c(
+"Climate Change I: The Nature of the Challenge",
+"Climate Change II: The Role of Energy Policy",
+"Climate Change III: Carbon Pricing",
+"Climate Change IV: Adaptation: Floods, Wildfires, and Water Scarcity"
+),
+  `HW Exam` = c("", "HW 3", "", "HW 4 & Midterm II")
+  )
+
+
+# Create a DT datatable without search box and 'Show entries' dropdown
+DT::datatable(text_tbl, rownames = FALSE,
+              options = list(
+  dom = 't', # This sets the DOM layout without the search box ('f') and 'Show entries' dropdown ('l')
+  paging = FALSE, # Disable pagination
+  columnDefs = list(list(
+    targets = "_all", # Applies to all columns
+    orderable = FALSE # Disables sorting
+  ))
+), callback = htmlwidgets::JS("
+  // Change header background and text color
+  $('thead th').css('background-color', '#1c4982');
+  $('thead th').css('color', 'white');
+
+  // Loop through each row and alternate background color
+  $('tbody tr').each(function(index) {
+    if (index % 2 == 0) {
+      $(this).css('background-color', '#d1dae6'); // Light color for even rows
+    } else {
+      $(this).css('background-color', '#9fb2cb'); // Dark color for odd rows
+    }
+  });
+
+  // Set text color for all rows
+  $('tbody tr').css('color', 'black');
+
+  // Add hover effect
+  $('tbody tr').hover(
+    function() {
+      $(this).css('background-color', '#607fa7'); // Color when mouse hovers over a row
+    }, 
+    function() {
+      var index = $(this).index();
+      if (index % 2 == 0) {
+        $(this).css('background-color', '#d1dae6'); // Restore even row color
+      } else {
+        $(this).css('background-color', '#9fb2cb'); // Restore odd row color
+      }
+    }
+  );
+")
+)
+
+```
+
+
+
+
+## Syllabus
+### Course Contents
+
+```{r, out.width='100%', fig.align='center'}
+#| eval: true
+#| echo: false
+text_tbl <- data.frame(
+  Week = c("12", "13", "14", "15", "16"),
+  Contents = c(
+"Ecosystem Services: Nature’s Threatened Bounty",
+"Common-Pool Resources: Commercially Valuable Fisheries",
+"Forests: Storable, Renewable Resources",
+"Land: A Locationally Fixed, Multipurpose Resource", "Term Paper Presentation"
+),
+  `HW Exam` = c("", "HW 5", "", "HW 6", "Final & Term Paper")
+  )
+
+
+# Create a DT datatable without search box and 'Show entries' dropdown
+DT::datatable(text_tbl, rownames = FALSE,
+              options = list(
+  dom = 't', # This sets the DOM layout without the search box ('f') and 'Show entries' dropdown ('l')
+  paging = FALSE, # Disable pagination
+  columnDefs = list(list(
+    targets = "_all", # Applies to all columns
+    orderable = FALSE # Disables sorting
+  ))
+), callback = htmlwidgets::JS("
+  // Change header background and text color
+  $('thead th').css('background-color', '#1c4982');
+  $('thead th').css('color', 'white');
+
+  // Loop through each row and alternate background color
+  $('tbody tr').each(function(index) {
+    if (index % 2 == 0) {
+      $(this).css('background-color', '#d1dae6'); // Light color for even rows
+    } else {
+      $(this).css('background-color', '#9fb2cb'); // Dark color for odd rows
+    }
+  });
+
+  // Set text color for all rows
+  $('tbody tr').css('color', 'black');
+
+  // Add hover effect
+  $('tbody tr').hover(
+    function() {
+      $(this).css('background-color', '#607fa7'); // Color when mouse hovers over a row
+    }, 
+    function() {
+      var index = $(this).index();
+      if (index % 2 == 0) {
+        $(this).css('background-color', '#d1dae6'); // Restore even row color
+      } else {
+        $(this).css('background-color', '#9fb2cb'); // Restore odd row color
+      }
+    }
+  );
+")
+)
+
+```
+
+
+
+## Syllabus
+### Grading
+
+$$
+\begin{align}
+(\text{Total Percentage Grade}) =&\;\, 0.05\times(\text{Total Attendance}) \notag\\
+&\,+\, 0.15\times(\text{Total Quiz & Class Participation})\notag\\ 
+& \,+\, 0.15\times(\text{Total Homework})\notag\\  
+&\,+\, 0.15\times(\text{Term Paper})\notag\\
+& \,+\, 0.50\times(\text{Total Exam}).\notag
+\end{align}
+$$
+
+
+
+## Syllabus
+### Grading
+
+
+
+- You are allowed up to 6 absences without penalty. 
+  - Send me an email if you have standard excused reasons (illness, family emergency, transportation problems, etc.).
+
+- For each absence beyond the initial six, there will be a deduction of 1% from the Total Percentage Grade.
+
+- The single lowest homework score will be dropped when calculating the total homework score. 
+  - Each homework except for the homework with the lowest score accounts for 20% of the total homework score.
+
+
+## Syllabus
+### Grading
+
+
+- The total exam score is the maximum between 
+  1. the simple average of the midterm exam score and the final exam score and
+  2. the weighted average of them with one-fourth weight on the midterm exam score and three-third weight on the final exam score:
+
+$$
+\begin{align}
+&(\text{Total Exam Score}) \\
+=\, &\text{max}\,\left\{0.50\times(\text{Midterm Exam Score}) \,+\, 0.50\times(\text{Final Exam Score})\right.,\notag\\ 
+&\qquad\;\,\left.0.25\times(\text{Midterm Exam Score}) \,+\, 0.75\times(\text{Final Exam Score})\right\}.\notag
+\end{align}
+$$
+
+
+
+## Syllabus
+### Make-up Policy
+
+-  Make-up exams will not be given unless you have either a medically verified excuse or an absence excused by the University.
+
+- If you cannot take exams because of religious obligations, notify me by email at least two weeks in advance so that an alternative exam time may be set.
+
+- A missed exam without an excused absence earns a grade of zero.
+
+- Late submissions for homework assignment will be accepted with a penalty. 
+
+- A zero will be recorded for a missed assignment.
+
+
+## Syllabus
+### Academic Integrity and Plagiarism
+
+-  All homework assignments and exams must be the original work by you. 
+
+- Examples of academic dishonesty include:
+  - *representing the work, thoughts, and ideas of another person as your own*
+  - *allowing others to represent your work, thoughts, or ideas as theirs*, and
+  - *being complicit in academic dishonesty by suspecting or knowing of it and not taking action*.
+
+
+- Geneseo’s Library offers frequent workshops to help you understand how to **paraphrase**, **quote**, and **cite** outside sources properly. 
+  - See [https://www.geneseo.edu/library/library-workshops](https://www.geneseo.edu/library/library-workshops){target="_blank"}.
+
+
+## Syllabus
+### Artificial Intelligence (AI) Policy
+
+- Unless AI tools are explicitly permitted for homework or in-class quizzes, you must complete your work independently. 
+
+- This means you should not use tools like ChatGPT for any aspect of our coursework. 
+
+- Such use is a form of academic dishonesty. Use of such tools is not only cheating, it will also cheat you of the opportunity to learn and develop your own skills. 
+
+- While AI will undoubtedly play important roles in our future society, you will be better able to utilize AI if you have developed your own critical thinking, writing, and analytical skills by doing your own work. 
+
+- If you have any questions about this, please ask.
+
+
+
+## Syllabus
+### Accessibility
+
+-  The Office of Accessibility will coordinate reasonable accommodations for persons with physical, emotional, or cognitive disabilities to ensure equal access to academic programs, activities, and services at Geneseo.
+
+- Please contact me and the Office of Accessibility Services for questions related to access and accommodations.
+
+
+
+## Syllabus
+### Career Design
+
+- To get information about career development, you can visit the Career Development Events Calendar ([https://www.geneseo.edu/career_development/events/calendar](https://www.geneseo.edu/career_development/events/calendar){target="_blank"}).
+
+- You can stop by South 112 to get assistance in completing your Handshake Profile [https://app.joinhandshake.com/login](https://app.joinhandshake.com/login){target="_blank"}.
+  - Handshake is ranked #1 by students as the best place to find full-time jobs.
+  - 50% of the 2018-2020 graduates received a job or internship offer on Handshake.
+  - Handshake is trusted by all 500 of the Fortune 500.
+
+
+# Visions of the Future {background-color="#1c4982"}
+
+
+
+## Introduction
+### Self-Extinction Premise
+
+
+- Edward Gibbon on Rome's Decline
+  - Gibbon describes the contrast between Rome's former glory and its ruin.
+  - Scene from *The History of the Decline and Fall of the Roman Empire* where Poggius ascends the Capitoline Hill.
+  - The grandeur of Rome, now overtaken by ruin and desolation.
+  - Gibbon suggests Rome's downfall was due to internal weaknesses, despite external pressures.
+
+
+- Malthusian Theory
+  - Thomas Malthus (1798) predicted population growth would exceed food supply, leading to starvation.
+  - Malthus believed rising death rates would result from environmental constraints rather than innovation.
+  - Historical examples support the idea that societies may contribute to their own destruction.
+
+
+
+
+## Introduction
+### A Tale of Two Cultures
+
+- **Mayan Civilization Collapse:**
+  - Vibrant society in Central America that experienced a collapse.
+  - Population growth exceeded the agricultural capacity of the land (maize was the main crop).
+  - Climate change led to a drying trend and prolonged droughts, causing food production to lag behind population growth.
+  - Resulted in high levels of infant and adolescent mortality, widespread malnutrition.
+  - The royal dynasty collapsed around AD 820-822.
+
+
+
+## Introduction
+### A Tale of Two Cultures
+
+- **Easter Island Collapse:**
+  - Known for its large statues and sparse vegetation.
+  - Rising population and heavy reliance on wood for housing, canoe building, and statue transportation led to deforestation.
+  - Deforestation caused soil erosion, declining soil productivity, and reduced food production.
+  - The social response to scarcity was conflict among factions and ultimately cannibalism.
+
+
+
+
+
+<!-- {{< video https://youtu.be/jq90vxPBpNM width="100%" height="100%" >}} -->
+
+
+
+## Future Environmental Challenges
+### The Climate Change Challenge
+
+- Sun drives Earth’s climate; greenhouse gases trap heat.
+- Natural greenhouse effect is essential for life, but excess gases cause overheating.
+
+- Global evidence shows the planet is warming, primarily due to human activities like fossil fuel burning.
+- Warming impacts:
+  - Increased heat affects human health.
+  - Rising sea levels and stronger storms damage coastal areas.
+  - Ecosystems struggle to adapt; some species may not survive.
+
+- These changes will worsen without action.
+- Addressing climate change requires global cooperation and strategic solutions; Economics offers tools for effective responses.
+
+
+## Future Environmental Challenges
+### The Water Accessibility Challenge
+
+- Rising demand vs. limited supply is a critical issue, especially for water.
+- 40% of the world’s population lives in areas with moderate-to-high water stress.
+
+
+- By 2025, two-thirds of the global population may face water stress.
+  - Groundwater in places like the U.S., Mexico, China, and India is being depleted faster than replenished.
+  - Rivers like the Colorado and Yellow often run dry before reaching the sea; lakes like the Aral Sea have drastically shrunk.
+  - Water contamination further limits safe water; nearly 1000 children die daily from preventable water-related diseases.
+
+
+## Future Environmental Challenges
+### Climate Change and Water Accessibility: The Linkage
+
+- Climate change will worsen droughts, increasing water demand and reducing supply.
+
+- Interdependence of climate change and water scarcity is crucial for effective policy design.
+  - Importing water or building reservoirs can cause conflict and face geological risks (e.g., earthquakes, landslides).
+  
+- Ignoring their interaction could lead to inefficient and ineffective solutions.
+
+
+## Future Environmental Challenges
+### Climate Change and Water Accessibility: The Linkage
+
+- Climate change will worsen water scarcity, creating significant economic and security challenges.
+- Water scarcity will spread to new regions and intensify in already affected areas.
+- Rainfall will become more variable and unpredictable, while warmer seas will lead to more severe floods and storm surges.
+- Water availability in cities could drop by up to two-thirds by 2050.
+- Adopting reforms and investments is challenging but necessary.
+- The cost of inaction is far greater than the cost of implementing reforms.
+- Proper policies can protect people and ecosystems from severe water-related shocks and adverse rainfall trends.
+
+
+## Future Environmental Challenges
+### The Just Transition Challenge
+
+- Can policies ensure that vulnerable groups don’t bear disproportionate burdens during transitions?
+- Climate impacts hit poor nations and people harder than wealthy ones.
+- Benefits of transition (e.g., reduced climate damage) are clear, but what about the costs?
+- Will the costs be fairly distributed or regressive?
+
+
+
+## Policy Context
+
+- Solving issues like poverty, climate change, and biodiversity loss requires international cooperation.
+- Policies must consider obligations to future generations.
+- International cooperation is challenging, as global problems affect countries differently.
+  - Low-lying countries face submersion, arid nations may experience desertification, while some may benefit from longer growing seasons.
+- Unilateral environmental actions risk making businesses less competitive globally.
+
+
+
+## Policy Context
+
+- Industrialized countries with strict environmental policies may see gains in clean energy sectors.
+- However, some industries may face higher costs and lose market share due to stringent regulations.
+- The market is resilient, encouraging wise resource use and innovation.
+- Yet, market incentives don’t always align with fair, sustainable outcomes.
+
+
+
+## How Will Societies Respond?
+
+- **Positive Feedback Loops:**
+  - Reinforce trends (e.g., capital accumulation, methane emissions).
+  - Methane emissions increase with temperature, worsening climate change.
+  - Human actions can deepen environmental problems.
+
+
+
+## How Will Societies Respond?
+
+- **Negative Feedback Loops:**
+  - Self-limiting processes (e.g., Gaia hypothesis suggests Earth has self-regulating systems).
+  - Economic and political institutions must either intensify or limit environmental issues, ensuring fair treatment.
+
+
+## The Use of Models
+
+- Models in economics simplify complex subjects, like the economy-environment relationship.
+- Simplification highlights key concepts and relationships but can lead to inaccurate conclusions.
+- Models are useful, but their results depend on their structure.
+- Changing the model structure can change the conclusions.
+
+## The Use of Models
+
+- People often rely on implicit models; in economics, models are explicit with clear assumptions.
+- Economic models are tested by how well they explain actual behavior.
+- *Econometrics* uses statistics to derive economic functions for testing policies or forecasting trends.
+
+
+## The Road Ahead
+
+- Are societies on a self-destructive path?
+- The answer depends on whether responses to scarcity create positive (worsening) or negative (improving) feedback loops.
+- Environmental economics helps understand and solve environmental problems, offering paths to align goals with outcomes.
+
+
+
+## The Road Ahead
+### Some Overarching Questions to Guide our Investigation
+
+- How does the economic system respond to scarcities? 
+  - Is the process mainly characterized by positive or negative feedback loops? 
+  - Do the responses intensify or ameliorate any initial scarcities? 
+  - Does the answer depend upon the decision context? 
+
+- To what extent can the market meet the challenges on its own? 
+  - To what extent are there sources of market failure that make the market an insufficient or even counterproductive force in meeting environmental challenges? 
+
+
+## The Road Ahead
+### Some Overarching Questions to Guide our Investigation
+
+- What is the role of the political system in correcting these sources of market failure? 
+  - In what circumstances is government intervention necessary? 
+  - What forms of government intervention would work best to meet the challenges? 
+  - Do these forms have enough political support to become enacted? 
+
+- What specific roles are appropriate for the executive, legislative, and judicial branches of government?
+
+- What are the appropriate roles for nongovernmental organizations? 
+
+
+## The Road Ahead
+### Some Overarching Questions to Guide our Investigation
+
+- Many environmental problems are characterized by uncertainty about the severity of the problem and the effectiveness of possible solutions. 
+  - Can our economic and political institutions respond to this uncertainty in reasonable ways or does uncertainty become a paralyzing force? 
+
+- Can the economic and political systems work together to respect our obligations to future generations while assuring that the transition involves fair treatment of the transitional generations as well? 
+  - Or do our obligations to future generations inevitably conflict with the desire to treat all people, especially the most vulnerable, with fairness? 
+
+
+## The Road Ahead
+### Some Overarching Questions to Guide our Investigation
+
+- Can short- and long-term goals be harmonized? 
+  - Is sustainable development feasible? 
+  - If so, how can it be achieved? 
+  - What does the need for sustainable outcomes imply about the future of economic activity in the industrialized nations? 
+  - And in the less-industrialized nations?
+
+
+

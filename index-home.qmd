@@ -1,0 +1,72 @@
+---
+title: Byeong-Hak Choe
+# subtitle: <div style="display:block"><bh>Byeong-Hak Choe</bh></div>
+date-modified: ""
+about:
+  template: trestles # jolla trestles solana marquee broadside
+  image: img/bchoe-github.png
+  image-width: 12.5em
+  links: 
+    - icon: linkedin
+      href: https://www.linkedin.com/in/byeonghakchoe/
+      target: _blank
+    - text: "{{< fa brands x-twitter >}}"
+      href: https://twitter.com/climate_econ
+      target: _blank
+    - icon: github
+      href: https://github.com/bcecon
+      target: _blank
+    - text: CV
+      href: https://bcecon.github.io/choe-cv.pdf
+      target: _blank
+    - icon: envelope
+      href: mailto:bchoe@geneseo.edu
+
+cood-tools: false
+comments: false
+toc: false
+from: markdown+emoji
+css: front.css
+# include-after-body: data-entry/data-entry-form.html
+---
+
+
+
+<font size = "4">Hello! 👋 </font>
+
+<div style="display:block; margin:15px;"></div>
+
+I am an **assistant professor of data analytics and economics** at School of Business at SUNY Geneseo.
+
+My research interests lie in **economics of the environment and climate change**.
+
+<!-- My teaching interests are in **economics and data science**. My students use the tools of machine learning, econometrics, and data visualization to address **business strategies**, **public policy**, and **individual decision-making**. -->
+
+## Research
+
+### Working papers
+
+1️⃣ Social Media Campaign, Lobbying, and Legislation: Evidence from #cliamtechange and Energy Lobbies\
+2️⃣ Climate Finance under Conflicts and Renegotiations: A Dynamic Contract Approach
+
+
+### Work in progress
+
+🌟 '*Hiding Behind a Small Cake*' in an Online Dictator Game: The Way You Hide Matters!, (with Tabaré Capitan (1st author) , Jason Shogren, and Benjamin White).\
+🌟 Estimating the Value of Statistical Life through Big Data, (with [Stephen Newbold](https://www.stevenewbold.com) and [Alexander James](https://www.alexandergjames.com)).
+
+
+
+### Book chapters
+
+💡 [Governance and Climate Finance in the Developing World](https://link.springer.com/chapter/10.1007/978-981-97-3308-8_7) (with [Tilsa Oré-Monago](https://tilsaore.github.io)).\
+  -&nbsp;In Wu, F., Zhang, D., and Ji, Q. (Eds.), *Climate Finance: Supporting a Sustainable Energy Transition*, Chapter 7, Springer Nature (July, 2024).
+  
+
+<br>
+
+<!-- ```{=html} -->
+<!-- <iframe height="900px" width="100%" frameborder="no" -->
+<!-- src="data-entry/data-entry-form.html"> -->
+<!-- </iframe> -->
+<!-- ``` -->

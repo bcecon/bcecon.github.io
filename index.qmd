@@ -1,69 +1,160 @@
 ---
-title: Byeong-Hak Choe
-#subtitle: <div style="display:block"><bh>Byeong-Hak Choe</bh></div> 
-date-modified: ""
-about:
-  template: trestles # jolla trestles solana marquee broadside
-  image: img/bchoe-github.png
-  image-width: 12.5em
-  links: 
-    - icon: linkedin
-      href: https://www.linkedin.com/in/byeonghakchoe/
-      target: _blank
-    - text: "{{< fa brands x-twitter >}}"
-      href: https://twitter.com/climate_econ
-      target: _blank
-    - icon: github
-      href: https://github.com/bcecon
-      target: _blank
-    - text: CV
-      href: https://bcecon.github.io/choe-cv.pdf
-      target: _blank
-    - icon: envelope
-      href: mailto:bchoe@geneseo.edu
+title: '<font style="font-family:Optima"><b>ECON 341-01: Natural Resource Economics, Fall 2024</b></font>'
+subtitle: '<div class=class="box-body buttons-text clearfix"><font size="5"><ul style="list-style-type: none;"><li><b>Instructor: Byeong-Hak Choe</b> &nbsp; <i class="fa fa-chevron-left" aria-hidden="true"></i><a href="mailto:bchoe@geneseo.edu" class="about-link" rel="" target=""><i class="bi bi-envelope"></i><span class="about-link-text"> <b>Email</b></span></a></span></a> | <a href="https://mylearning.suny.edu/d2l/home/1513939" class="about-link" rel="" target="_blank"><i class="bi bi-bootstrap"></i><span class="about-link-text"> <b>Brightspace</b></span></a> <i class="fa fa-chevron-right" aria-hidden="true"></i></li></ul></font></div>'
 
-cood-tools: false
-comments: false
+date-modified: ""
+page-layout: full
+
 toc: false
+toc-title: ""
+toc-location: right
+comments: false
+# css: front.css
 from: markdown+emoji
-# include-after-body: data-entry/data-entry-form.html
+fig-align: center
+
+listing: 
+  - id: econ-341-lec
+    contents: "econ-lec/econ-341*.qmd"
+    type: table
+    fields: [title, date]
+    sort: 
+      - "date desc"
+      - "title desc"
+    sort-ui: false
+    filter-ui: false
+    page-size: 36
+    table-striped: false
+  - id: econ-341-qa
+    contents: "econ-qa/econ-341*.qmd"
+    type: table
+    fields: [title, date]
+    sort: 
+      - "date desc"
+      - "title desc"
+    sort-ui: false
+    filter-ui: false
+    page-size: 36
+    table-striped: false
+  - id: econ-341-cw
+    contents: "econ-cw/econ-341*.qmd"
+    type: table
+    fields: [title, date]
+    sort: 
+      - "date desc"
+      - "title desc"
+    sort-ui: false
+    filter-ui: false
+    page-size: 36
+  - id: econ-341-hw
+    contents: "econ-hw/econ-341*.qmd"
+    type: table
+    fields: [title, date]
+    sort: 
+      - "date desc"
+      - "title desc"
+    sort-ui: false
+    filter-ui: false
+    page-size: 36
+    
+format: 
+  html:
+    include-in-header:
+     text: |
+        <style>
+        #toc-welcome {
+              font-size: 1.67em;
+        }
+        #toc-bullet-lecture {
+              font-size: 1.67em;
+        }
+        #toc-bullet-classwork {
+              font-size: 1.67em;
+        }
+        #toc-bullet-homework {
+              font-size: 1.67em;
+        }
+        a {
+        text-decoration: none; /* This removes the underline */
+        padding: 5px 10px; /* Top & Bottom, Left & Right Padding */
+        border-radius: 5px; /* Rounds the corners */
+        }
+        </style>
 ---
 
 
-<font size = "4">Hello! 👋 </font>
-
-<div style="display:block; margin:15px;"></div>
-
-I am an **assistant professor of data analytics and economics** at School of Business at SUNY Geneseo.
-
-My research interests lie in **economics of the environment and climate change**.
-
-<!-- My teaching interests are in **economics and data science**. My students use the tools of machine learning, econometrics, and data visualization to address **business strategies**, **public policy**, and **individual decision-making**. -->
-
-## Research
-
-### Working papers
-
-1️⃣ Social Media Campaign, Lobbying, and Legislation: Evidence from #cliamtechange and Energy Lobbies\
-2️⃣ Climate Finance under Conflicts and Renegotiations: A Dynamic Contract Approach
 
 
-### Work in progress
+<div style="display:block; margin:25px;"></div>
 
-🌟 '*Hiding Behind a Small Cake*' in an Online Dictator Game: The Way You Hide Matters!, (with Tabaré Capitan (1st author) , Jason Shogren, and Benjamin White).
+<font size = "5">Welcome! 👋 </font>
+
+<div style="display:block; margin:-10px;"></div>
+
+<font size = "5">$-$ Explore, Learn, and Grow with Economics! 🌟</font>
+
+<div style="display:block; margin:5px;"></div>
 
 
 
-### Book chapters
 
-🌟 [Governance and Climate Finance in the Developing World](https://link.springer.com/chapter/10.1007/978-981-97-3308-8_7) (with [Tilsa Oré-Monago](https://tilsaore.github.io)).\
-  -&nbsp;In Wu, F., Zhang, D., and Ji, Q. (Eds.), *Climate Finance: Supporting a Sustainable Energy Transition*, Chapter 7, Springer Nature (July, 2024).
-  
 
-<br>
 
-<!-- ```{=html} -->
-<!-- <iframe height="900px" width="100%" frameborder="no" -->
-<!-- src="data-entry/data-entry-form.html"> -->
-<!-- </iframe> -->
-<!-- ``` -->
+
+:::: {.columns}
+
+::: {.column width="45%"}
+## $\bullet\,$ Lecture Slides :rocket:
+
+:::{#econ-341-lec}
+:::
+
+:::
+
+::: {.column width="10%"}
+
+:::
+
+
+::: {.column width="45%"}
+## $\bullet\,$ Lecture Q & A :question:
+
+:::{#econ-341-qa}
+:::
+
+:::
+
+::::
+
+
+:::: {.columns}
+
+::: {.column width="45%"}
+## $\bullet\,$ Classwork  :keyboard:
+
+:::{#econ-341-cw}
+:::
+
+:::
+
+::: {.column width="10%"}
+
+:::
+
+
+::: {.column width="45%"}
+## $\bullet\,$ Homework  :computer:
+
+:::{#econ-341-hw}
+:::
+
+:::
+
+::::
+
+
+
+
+
+
+

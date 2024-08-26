@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Byeong-Hak Choe | Byeong-Hak Choe</title>
+<title>ECON 341-01: Natural Resource Economics, Fall 2024 | Byeong-Hak Choe</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,9 +29,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -61,17 +64,151 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-econ-341-lec .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-econ-341-lec'] = new List('listing-econ-341-lec', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-econ-341-qa .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-econ-341-qa'] = new List('listing-econ-341-qa', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-econ-341-cw .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-econ-341-cw'] = new List('listing-econ-341-cw', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-econ-341-hw .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-econ-341-hw'] = new List('listing-econ-341-hw', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<style>
+#toc-welcome {
+      font-size: 1.67em;
+}
+#toc-bullet-lecture {
+      font-size: 1.67em;
+}
+#toc-bullet-classwork {
+      font-size: 1.67em;
+}
+#toc-bullet-homework {
+      font-size: 1.67em;
+}
+a {
+text-decoration: none; /* This removes the underline */
+padding: 5px 10px; /* Top & Bottom, Left & Right Padding */
+border-radius: 5px; /* Rounds the corners */
+}
+</style>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="assets/css/font.css">
-<meta property="og:title" content="Byeong-Hak Choe | Byeong-Hak Choe">
-<meta property="og:description" content="">
+<meta property="og:title" content="ECON 341-01: Natural Resource Economics, Fall 2024 | Byeong-Hak Choe">
+<meta property="og:description" content="<div class=class=“box-body buttons-text clearfix”>">
 <meta property="og:image" content="/assets/img/posts.png">
 <meta property="og:site-name" content="Home">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -92,17 +229,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./econml.html" rel="" target="">
- <span class="menu-text">Causal ML</span></a>
+    <a class="nav-link" href="./index-home.html" rel="" target="">
+ <span class="menu-text">Research</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./blog-listing.html" rel="" target="">
- <span class="menu-text">Blog</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://bcdanl.github.io" rel="" target="_blank">
- <span class="menu-text">Teaching <i class="fa-solid fa-external-link" aria-label="external-link"></i></span></a>
-  </li>  
+  <li class="dropdown-header">
+ <span class="menu-text"> </span></li>
 </ul>
             <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
@@ -110,80 +241,240 @@ ul.task-list li input[type="checkbox"] {
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><font style="font-family:Optima"><b>ECON 341-01: Natural Resource Economics, Fall 2024</b></font></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="./index.html" class="sidebar-logo-link">
+      <img src="./img/geneseo-logo-squared.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+ <span class="menu-text"><a href="./index.html"><font size="6"><b>Welcome! </b></font><font size="5" color="#194493"> <i class="fa fa-sun" aria-hidden="true"></i></font></a></span>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./listing-econ-341-lec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><font size="5"><b>- Lecture </b></font><font size="5" color="#194493"><i class="fa-solid fa-laptop" aria-label="laptop"></i></font></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./listing-econ-341-qa.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><font size="5"><b>- Q &amp; A </b></font><font size="5" color="#194493"><i class="fa-solid fa-commenting" aria-label="commenting"></i></font></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./listing-econ-341-cw.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><font size="5"><b>- Classwork </b></font><font size="5" color="#194493"><i class="fa-solid fa-keyboard" aria-label="keyboard"></i></font></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./listing-econ-341-hw.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><font size="5"><b>- Homework </b></font><font size="5" color="#194493"><i class="fa-solid fa-level-up" aria-label="level-up"></i></font></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="img/bchoe-github.png" class="about-image
-  rounded " style="width: 12.5em;">
+<main class="content column-page-right" id="quarto-document-content">
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Byeong-Hak Choe</h1>
+<h1 class="title"><font style="font-family:Optima"><b>ECON 341-01: Natural Resource Economics, Fall 2024</b></font></h1>
+<p class="subtitle lead"></p><div class="class=&quot;box-body" buttons-text="" clearfix"=""><font size="5"><ul style="list-style-type: none;"><li><b>Instructor: Byeong-Hak Choe</b> &nbsp; <i class="fa fa-chevron-left" aria-hidden="true"></i><a href="mailto:bchoe@geneseo.edu" class="about-link" rel="" target=""><i class="bi bi-envelope"></i><span class="about-link-text"> <b>Email</b></span></a> | <a href="https://mylearning.suny.edu/d2l/home/1513939" class="about-link" rel="" target="_blank"><i class="bi bi-bootstrap"></i><span class="about-link-text"> <b>Brightspace</b></span></a> <i class="fa fa-chevron-right" aria-hidden="true"></i></li></ul></font></div><p></p>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
+  
+
 </header>
-    <div class="about-links">
-  <a href="https://www.linkedin.com/in/byeonghakchoe/" class="about-link" rel="" target="_blank">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://twitter.com/climate_econ" class="about-link" rel="" target="_blank">
-     <span class="about-link-text"><i class="fa-brands fa-x-twitter" aria-label="x-twitter"></i></span>
-  </a>
-  <a href="https://github.com/bcecon" class="about-link" rel="" target="_blank">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://bcecon.github.io/choe-cv.pdf" class="about-link" rel="" target="_blank">
-     <span class="about-link-text">CV</span>
-  </a>
-  <a href="mailto:bchoe@geneseo.edu" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text"></span>
-  </a>
+
+<div style="display:block; margin:25px;">
+
 </div>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-<p><font size="4">Hello! 👋 </font></p>
-<div style="display:block; margin:15px;">
+<p><font size="5">Welcome! 👋 </font></p>
+<div style="display:block; margin:-10px;">
+
 </div>
-<p>I am an <strong>assistant professor of data analytics and economics</strong> at School of Business at SUNY Geneseo.</p>
-<p>My research interests lie in <strong>economics of the environment and climate change</strong>.</p>
-<!-- My teaching interests are in **economics and data science**. My students use the tools of machine learning, econometrics, and data visualization to address **business strategies**, **public policy**, and **individual decision-making**. -->
-<section id="research" class="level2">
-<h2 data-anchor-id="research">Research</h2>
-<section id="working-papers" class="level3">
-<h3 data-anchor-id="working-papers">Working papers</h3>
-<p>1️⃣ Social Media Campaign, Lobbying, and Legislation: Evidence from #cliamtechange and Energy Lobbies<br>
-2️⃣ Climate Finance under Conflicts and Renegotiations: A Dynamic Contract Approach</p>
+<p><font size="5"><span class="math inline">\(-\)</span> Explore, Learn, and Grow with Economics! 🌟</font></p>
+<div style="display:block; margin:5px;">
+
+</div>
+<div class="columns">
+<div class="column" style="width:45%;">
+<section id="bullet-lecture-slides" class="level2">
+<h2 class="anchored" data-anchor-id="bullet-lecture-slides"><span class="math inline">\(\bullet\,\)</span> Lecture Slides <span class="emoji" data-emoji="rocket">🚀</span></h2>
+<div id="listing-econ-341-lec" class="quarto-listing quarto-listing-container-table">
+
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Title
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-date-sort="1724644800000" data-listing-file-modified-sort="1724648733557" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="22" data-listing-title-sort="Lecture 1" data-listing-filename-sort="econ-341-lec-01-2024-0826.qmd">
+<td>
+<a href="#" onclick="window.open('./econ-lec/econ-341-lec-01-2024-0826.html'); return false;" class="title listing-title">Lecture 1</a>
+</td>
+<td>
+<span class="listing-date">August 26, 2024</span>
+</td>
+</tr>
+</tbody>
+
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 </section>
-<section id="work-in-progress" class="level3">
-<h3 data-anchor-id="work-in-progress">Work in progress</h3>
-<p>🌟 ‘<em>Hiding Behind a Small Cake</em>’ in an Online Dictator Game: The Way You Hide Matters!, (with Tabaré Capitan (1st author) , Jason Shogren, and Benjamin White).</p>
+</div><div class="column" style="width:10%;">
+
+</div><div class="column" style="width:45%;">
+<section id="bullet-lecture-q-a" class="level2">
+<h2 class="anchored" data-anchor-id="bullet-lecture-q-a"><span class="math inline">\(\bullet\,\)</span> Lecture Q &amp; A <span class="emoji" data-emoji="question">❓</span></h2>
+<div id="listing-econ-341-qa" class="quarto-listing quarto-listing-container-table">
+
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Title
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-date-sort="1724650033000" data-listing-file-modified-sort="1724650033459" data-listing-date-modified-sort="1724650033000" data-listing-reading-time-sort="1" data-listing-filename-sort="econ-341-qa.qmd">
+<td>
+<span class="listing-title">undefined</span>
+</td>
+<td>
+<span class="listing-date">August 26, 2024</span>
+</td>
+</tr>
+</tbody>
+
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 </section>
-<section id="book-chapters" class="level3">
-<h3 data-anchor-id="book-chapters">Book chapters</h3>
-<p>🌟 <a href="https://link.springer.com/chapter/10.1007/978-981-97-3308-8_7">Governance and Climate Finance in the Developing World</a> (with <a href="https://tilsaore.github.io">Tilsa Oré-Monago</a>).<br>
--&nbsp;In Wu, F., Zhang, D., and Ji, Q. (Eds.), <em>Climate Finance: Supporting a Sustainable Energy Transition</em>, Chapter 7, Springer Nature (July, 2024).</p>
-<p><br></p>
-<!-- ```{=html} -->
-<!-- <iframe height="900px" width="100%" frameborder="no" -->
-<!-- src="data-entry/data-entry-form.html"> -->
-<!-- </iframe> -->
-<!-- ``` -->
+</div>
+</div>
+<div class="columns">
+<div class="column" style="width:45%;">
+<section id="bullet-classwork" class="level2">
+<h2 class="anchored" data-anchor-id="bullet-classwork"><span class="math inline">\(\bullet\,\)</span> Classwork <span class="emoji" data-emoji="keyboard">⌨️</span></h2>
+<div id="listing-econ-341-cw" class="quarto-listing quarto-listing-container-table">
+
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Title
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-date-sort="1724649988000" data-listing-file-modified-sort="1724649988311" data-listing-date-modified-sort="1724649988000" data-listing-reading-time-sort="1" data-listing-title-sort="Classwork 1" data-listing-filename-sort="econ-341-cw-01.qmd">
+<td>
+<a href="./econ-cw/econ-341-cw-01.html" class="title listing-title">Classwork 1</a>
+</td>
+<td>
+<span class="listing-date">August 26, 2024</span>
+</td>
+</tr>
+</tbody>
+
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+</div><div class="column" style="width:10%;">
+
+</div><div class="column" style="width:45%;">
+<section id="bullet-homework" class="level2">
+<h2 class="anchored" data-anchor-id="bullet-homework"><span class="math inline">\(\bullet\,\)</span> Homework <span class="emoji" data-emoji="computer">💻</span></h2>
+<div id="listing-econ-341-hw" class="quarto-listing quarto-listing-container-table">
+
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Title
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-date-sort="1724650002000" data-listing-file-modified-sort="1724650002226" data-listing-date-modified-sort="1724650002000" data-listing-reading-time-sort="1" data-listing-title-sort="Homework 1" data-listing-filename-sort="econ-341-hw-01.qmd">
+<td>
+<a href="./econ-hw/econ-341-hw-01.html" class="title listing-title">Homework 1</a>
+</td>
+<td>
+<span class="listing-date">August 26, 2024</span>
+</td>
+</tr>
+</tbody>
+
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+</div>
+</div>
 
 
-</section>
-</section>
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main></div>
-</div>
- <!-- /main -->
+<font size="5"><font size="5">
+
+</font></font><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main><font size="5"><font size="5"> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -319,6 +610,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   } else {
     toggleColorMode(false);
   }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -539,7 +837,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
 });
 </script>
-</div> <!-- /content -->
+</font></font></div><font size="5"><font size="5"> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
@@ -557,4 +855,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-</body></html>
+</font></font></body></html>

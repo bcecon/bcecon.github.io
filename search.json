@@ -1,108 +1,129 @@
 [
   {
-    "objectID": "cv/cv.html",
-    "href": "cv/cv.html",
-    "title": "Bio",
+    "objectID": "listing-econ-341-lec.html",
+    "href": "listing-econ-341-lec.html",
+    "title": "ECON 341 - Lecture",
     "section": "",
-    "text": "I view myself as an applied economist with interest in environmental economics and a particular focus on climate change. Methodologically, I make use of causal inference/econometrics/machine learning methods, and other data science tools to conduct empirical analysis. I also use computational methods to solve integrated assessment models of climate change and theoretical economic models, such as dynamic contracts.\nMy research focuses on how to improve effectiveness of climate policy at both micro and macro levels. In particular, I am interested in building relevant climate-economy models that analyze the interaction between economies and the climate under risks arising from (1) climate change and (2) a transition to carbon-neutral economies.\nAs an economics and data science teacher, my goal is to equip students with the essential tools of machine learning, econometrics, and data science to think critically about business and real-world socioeconomic issues. In this regard, I teach students to use those tools to address important business strategies, socioeconomic issues, and individual decision-making."
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\nLecture 1\n\n\nAugust 26, 2024\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
-    "objectID": "cv/cv.html#working-papers",
-    "href": "cv/cv.html#working-papers",
-    "title": "Bio",
-    "section": "Working papers",
-    "text": "Working papers\n\n\n\n\n\n\n\n\nGovernance and Climate Finance in the Developing World (with Tilsa Ore-Monago) (Forthcoming in Springer Nature)\n Abstract : We investigate the relationship between governance and climate finance, particularly in the context of the energy transition in developing countries. Our aim is to examine how governance qualities in developing countries impact financial contributions from contributor countries that intend to fund mitigation projects in the energy sector. We have compiled a dataset of yearly climate finance contributions at the project level spanning from 2011 to 2019. Our analysis, which utilizes random forests and LASSO estimations, reveals that climate finance contributions, particularly those for energy-related projects, are significantly linked to good governance, including a robust legal system, rule of law, and accountability. Ultimately, this study provides valuable insights into the dynamics between governance and climate finance in developing countries and informs policy decisions to support effective climate action in the energy sector. (One of the chapters in the book, \"Climate Finance: Supporting a Sustainable Energy Transition,\" Springer Nature. 2024).\n\n\nSocial Media Campaigns, Lobbying and Legislation: Evidence from #climatechange/#globalwarming and Energy Lobbies\n Abstract : To what extent do social media campaigns compete with fossil fuel lobbying on climate change legislation? In this article, I estimate the effect of social media campaigns on a congressperson's legislative activities against climate change actions during the U.S. Congresses (January 2013-January 2019). I find that (1) a 1% increase in the per-capita level of activities of climate change campaigns using Twitter decreases Democrats' tendency to support climate-unfriendly legislation by 0.9%, while it increases Republicans' one by 0.2%; and (2) a 1% increase in the fossil fuel industry's lobbying expenditure relative to the rest of industries' lobbying expenditure increases Republicans' tendency to support climate-unfriendly legislation by 1.1%. I also find that negative sentiment in social media campaigns contributes to affecting congresspersons' support for climate-unfriendly legislation.\n\n\nClimate Finance under Conflicts and Renegotiations: A Dynamic Contract Approach (AEA 2019 poster) \n Abstract : Considering climate funds (e.g. the Green Climate Fund) as the financial mechanism to provide funding to developing countries, this paper examines a long-term climate funding relationship between two agents---the rich country and the poor country. Conflicts between the rich and poor countries arise when determining 1) the size of climate funding that the rich country contributes to the poor country, and 2) the funding allocation between climate adaptation and mitigation projects in the poor country. In addition, the rich country cannot be forced to commit contractual contributions to the poor country, and the climate funding relationship can be repeatedly renegotiated. This paper derives the following results: (1) climate funds converge to the first-best in the long-run, in terms of the size of climate funding and its balance between adaptation and mitigation projects, if and only if climate damage becomes sufficiently severe. (2) funding allocation between adaptation and mitigation projects becomes more favorable to the poor country if marginal climate costs in the poor country grow faster than in the rich country. (3) fewer conflicts and fewer renegotiations between the rich and poor countries make climate funding contracts more efficient, remedying inequality between the poor and rich countries."
-  },
-  {
-    "objectID": "cv/cv.html#work-in-progress",
-    "href": "cv/cv.html#work-in-progress",
-    "title": "Bio",
-    "section": "Work in progress",
-    "text": "Work in progress\n\n\n\n\n\n\n\n\nHiding Behind a Small Cake' in an Online Dictator Game: The Way You Hide Matters!, (with Tabare Capitan (1st author) , Jason Shogren, and Benjamin White) \n Abstract : Using an online dictator game in which receivers have incomplete information of the size of the endowment (big or small), the article, ''Hiding behind a small cake' in a newspaper dictator game (Ockenfels and Werner (2012))'' shows that a few givers who received the big endowment use their giving to signal they received the small endowment (i.e., to lie). In other words, even though a giver will never meet the corresponding receiver, he cares enough about how he could be perceived by others to lie (i.e., second-order beliefs enters his utility function). In our experiment we provide givers with the opportunity to lie about the size of the endowment without using their giving. Similar to Ockenfels and Werner (2012) we find that (i) few take the opportunity to lie---but those who do give less when their giving is not constrained by its role as a signal---and (ii) givers are more likely to lie when the lie is private. However, using a second stage in the experimental design, we show that liars are the most responsive group of givers to a simple message stating the expectation of the receiver."
-  },
-  {
-    "objectID": "cv/cv.html#presentations",
-    "href": "cv/cv.html#presentations",
-    "title": "Bio",
-    "section": "Presentations",
-    "text": "Presentations\n\n\n\n\n\n2023\nSouthern Economic Association Annual Meeting, New Orleans, Louisiana\n\n\n2022\nInterdisciplinary Data Science Workshop, Brigham Young University, Provo, Utah\n\n\n2021\nOnline Seminar, Department of Environmental and Business Economics, University of Southern Denmark\n\n\n2019\nUniversity of Wyoming & Colorado State University Economics Graduate Student Symposium, Laramie, Wyoming\n\n\n2019\nAmerican Economic Association Annual Meeting (poster session), Atlanta, Georgia\n\n\n2018\nThe 29th International Conference on Game Theory, Stony Brook, New York"
-  },
-  {
-    "objectID": "cv/cv.html#memberships",
-    "href": "cv/cv.html#memberships",
-    "title": "Bio",
-    "section": "Memberships",
-    "text": "Memberships\n\n\n\n\n\n2022—present\nSouthern Economic Association\n\n\n2018—present\nAssociation of Environmental and Resource Economists\n\n\n2017—present\nAmerican Economic Association\n\n\n2017—2019\nEconometric Society"
-  },
-  {
-    "objectID": "blog-listing.html",
-    "href": "blog-listing.html",
-    "title": "Big & tiny insights through data",
+    "objectID": "econ-qa/econ-341-qa.html",
+    "href": "econ-qa/econ-341-qa.html",
+    "title": "Home",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nNBA\n\n\n3 min\n\n\n\nByeong-Hak Choe\n\n\nFebruary 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n\n1 min\n\n\n\nByeong-Hak Choe\n\n\nFebruary 7, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExploring the Galaxy: A Data-Driven Journey Through the Star Wars Universe\n\n\n8 min\n\n\n\nByeong-Hak Choe\n\n\nFebruary 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeer Markets\n\n\n5 min\n\n\n\nByeong-Hak Choe\n\n\nNovember 2, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n1 min\n\n\n\nByeong-Hak Choe\n\n\nOctober 27, 2023\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Welcome to our Discussion Board! 👋 \nThis space is designed for you to engage with your classmates about the materials.\nWhether you are looking to delve deeper into the slides, share insights, or have questions about the content, this is the perfect place for you.\nIf you have any specific questions for Byeong-Hak (@bcdanl) or need clarification on any points, don’t hesitate to ask here.\nLet’s collaborate and learn from each other!\n\n\n\n Back to top"
   },
   {
-    "objectID": "posts/starwars/starwars_df.html",
-    "href": "posts/starwars/starwars_df.html",
-    "title": "Exploring the Galaxy: A Data-Driven Journey Through the Star Wars Universe",
+    "objectID": "econml.html",
+    "href": "econml.html",
+    "title": "Causal Machine Learning Bookmarks",
     "section": "",
-    "text": "The Star Wars saga, spanning decades of films, series, and an expansive lore, has introduced us to an incredibly diverse array of characters, each contributing to the rich tapestry of its universe. But what can data tell us about these characters and their world? Leveraging the starwars.csv dataset, this blog post embarks on a data-driven exploration, uncovering insights and patterns through the lens of the R tidyverse."
+    "text": "Dive into Causal Machine Learning, The World Bank and Pontificia Universidad Católica del Perú, Alexander Quispe et. al. \nMIT 14.388: Inference on Causal and Structural Parameters Using ML and AI, Department of Economics, MIT, Victor Chernozukhov\n\nPython Website\nJulia Website \n\nMGTECON 634: ML-based Causal Inference, Stanford, Susan Athey \nMachine Learning & Causal Inference: A Short Course, Stanford, Susan Athey, Jan Spiess, and Stefan Wager\n\nTutorial\nYouTube \n\n2018 American Economic Association Continuing Education: Machine Learning and Econometrics, Susan Athey and Guido Imbens \nCausal Inference and Machine Learning in Practice with EconML and CausalML: Industrial Use Cases at Microsoft, TripAdvisor, Uber \nDoubleML: Python and R Packages for the Double/Debiased Machine Learning Framework, P. Bach, V. Chernozhukov, M. S. Kurz, and M. Spindler \nEconML: A Python Package for ML-based Heterogeneous Treatment Effects Estimation, Microsoft \nCausalML: A Python Package for ML-based Causal Inference, Uber"
   },
   {
-    "objectID": "posts/starwars/starwars_df.html#the-cast-of-the-galaxy-loading-and-inspecting-the-data",
-    "href": "posts/starwars/starwars_df.html#the-cast-of-the-galaxy-loading-and-inspecting-the-data",
-    "title": "Exploring the Galaxy: A Data-Driven Journey Through the Star Wars Universe",
-    "section": "The Cast of the Galaxy: Loading and Inspecting the Data",
-    "text": "The Cast of the Galaxy: Loading and Inspecting the Data\nOur journey begins with the basics—loading the dataset and getting a sense of its structure:\n\n\nCode\nlibrary(tidyverse)\n\n# Load the dataset\nstarwars_data &lt;- read_csv(\"https://bcdanl.github.io/data/starwars.csv\")\n\n\nWith the data loaded, we find that it encompasses various attributes of Star Wars characters, including but not limited to their names, species, heights, weights, and allegiances. The diversity in species and homeworld paves the way for intriguing analyses.\n\n← →\n\n\n\n\n\n\n\n\n\n\n\n\nVariable Description for starwars data.frame\nThe following describes the variables in the starwars data.frame.\n\nfilms List of films the character appeared in\nname Name of the character\nspecies Name of species\nheight Height (cm)\nmass Weight (kg)\nhair_color, skin_color, eye_color Hair, skin, and eye colors\nbirth_year Year born (BBY = Before Battle of Yavin)\nsex The biological sex of the character, namely male, female, hermaphroditic, or none (as in the case for Droids).\ngender The gender role or gender identity of the character as determined by their personality or the way they were programmed (as in the case for Droids).\nhomeworld Name of homeworld\n\n\n\nCode\nskim(starwars_data) |&gt; \n  select(-n_missing)\n\n\n\nData summary\n\n\nName\nstarwars_data\n\n\nNumber of rows\n173\n\n\nNumber of columns\n12\n\n\n_______________________\n\n\n\nColumn type frequency:\n\n\n\ncharacter\n9\n\n\nnumeric\n3\n\n\n________________________\n\n\n\nGroup variables\nNone\n\n\n\nVariable type: character\n\n\n\nskim_variable\ncomplete_rate\nmin\nmax\nempty\nn_unique\nwhitespace\n\n\n\n\nfilms\n1.00\n10\n23\n0\n7\n0\n\n\nname\n1.00\n3\n21\n0\n87\n0\n\n\nspecies\n0.97\n3\n14\n0\n37\n0\n\n\nhair_color\n0.90\n4\n13\n0\n12\n0\n\n\nskin_color\n1.00\n3\n19\n0\n31\n0\n\n\neye_color\n1.00\n3\n13\n0\n15\n0\n\n\nsex\n0.97\n4\n14\n0\n4\n0\n\n\ngender\n0.97\n8\n9\n0\n2\n0\n\n\nhomeworld\n0.91\n4\n14\n0\n48\n0\n\n\n\nVariable type: numeric\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\ncomplete_rate\nmean\nsd\np0\np25\np50\np75\np100\nhist\n\n\n\n\nheight\n0.97\n171.31\n35.58\n66\n167\n178\n188\n264\n▂▁▇▅▁\n\n\nmass\n0.79\n101.97\n190.62\n15\n55\n77\n84\n1358\n▇▁▁▁▁\n\n\nbirth_year\n0.66\n108.86\n193.59\n8\n33\n52\n82\n896\n▇▁▁▁▁"
-  },
-  {
-    "objectID": "posts/starwars/starwars_df.html#unveiling-galactic-demographics-species-and-gender",
-    "href": "posts/starwars/starwars_df.html#unveiling-galactic-demographics-species-and-gender",
-    "title": "Exploring the Galaxy: A Data-Driven Journey Through the Star Wars Universe",
-    "section": "Unveiling Galactic Demographics: Species and Gender",
-    "text": "Unveiling Galactic Demographics: Species and Gender\nOur first foray into the galaxy’s demographics involves understanding the distribution of species and gender among the characters.\n\nSpecies in the Spotlight\n\n\nCode\n# Species distribution\nstarwars_data |&gt;\n  filter(!is.na(species)) |&gt; \n  group_by(species) |&gt;\n  summarise(count = n()) |&gt;\n  ggplot(aes(x = reorder(species, count), y = count, fill = species)) +\n  geom_col(show.legend = F) +\n  coord_flip() +\n  labs(title = \"Species Distribution in Star Wars\",\n       x = \"Species\",\n       y = \"Count\") +\n  theme_minimal() +\n  scale_fill_viridis_d()\n\n\n\n\n\nThis visualization reveals the prevalence of humans in the Star Wars universe, followed by a fascinating variety of alien species. Each species brings its unique culture and story to the narrative, enriching the saga’s diversity.\n\n\nGender Dynamics Across the Galaxy\n\n\nCode\n# Gender distribution by species\nstarwars_data |&gt;\n  filter(!is.na(gender)) |&gt; \n  group_by(species, gender) |&gt;\n  summarise(count = n()) |&gt;\n  ggplot(aes(y = reorder(species, count), x = count, fill = gender)) +\n  geom_bar(stat = \"identity\", position = position_dodge2(preserve = \"single\")) +\n  guides(fill = guide_legend(label.position = \"bottom\",\n                             keywidth = 2,\n                             nrow = 1)) +\n  theme_minimal() +\n  labs(title = \"Gender Distribution by Species\",\n       x = \"Species\",\n       y = \"Count\",\n       fill = \"Gender\") +\n  theme(legend.position = \"top\")\n\n\n\n\n\n\n\nThe Height of Heroism: Analyzing Character Heights\nMoving from demographics, we explore physical characteristics, starting with character heights. This analysis could reveal whether heroes and villains differ significantly in stature.\n\n\nCode\n# Height distribution\nstarwars_data |&gt;\n  filter(!is.na(height)) |&gt;\n  ggplot(aes(x = height)) +\n  geom_histogram(aes(fill = ..count..), binwidth = 5, show.legend = F) +\n  scale_fill_viridis_c() +\n  labs(title = \"Height Distribution of Star Wars Characters\",\n       x = \"Height (cm)\",\n       y = \"Count\") +\n  theme_minimal()\n\n\n\n\n\nThe histogram of character heights may show a broad range, reflecting the diversity of the Star Wars universe, from towering Wookiees to diminutive droids.\n\n\nAllegiances and Homeworlds: The Galactic Divide\nAnother compelling aspect of the Star Wars saga is the clear delineation between factions, such as the Rebellion and the Empire. Analyzing characters’ homeworld provides a window into the narrative’s structure.\n\n\nCode\n# homeworld distribution\nstarwars_data |&gt;\n  filter(!is.na(homeworld)) |&gt; \n  group_by(homeworld) |&gt;\n  summarise(count = n()) |&gt;\n  filter(count &gt; 3) |&gt; \n  ggplot(aes(x = fct_reorder(homeworld, count), y = count, fill = homeworld)) +\n  geom_col(show.legend = F) +\n  coord_flip() +\n  labs(title = \"Homeworlds in Star Wars\",\n       x = \"Homeworld\",\n       y = \"Count\") +\n  theme_minimal() +\n  scale_fill_brewer(palette = \"Set3\")\n\n\n\n\n\nThis bar chart reveals not just the quantity of characters associated with major factions like the Rebel Alliance, the Galactic Empire, the Jedi Order, or the Sith, but also the lesser-known groups that play crucial roles in the galaxy’s balance of power. The visualization demonstrates the narrative’s rich backdrop, where allegiances define character motivations, actions, and, ultimately, their fates.\nSuch a distribution also prompts us to consider the narratives from a broader perspective—how do these allegiances influence the storyline? Do characters within the same faction share similar traits or destinies? This opens up a deeper analysis of themes like loyalty, betrayal, and redemption that run through the Star Wars saga."
-  },
-  {
-    "objectID": "posts/starwars/starwars_df.html#galactic-insights-conclusions-drawn-from-the-data",
-    "href": "posts/starwars/starwars_df.html#galactic-insights-conclusions-drawn-from-the-data",
-    "title": "Exploring the Galaxy: A Data-Driven Journey Through the Star Wars Universe",
-    "section": "Galactic Insights: Conclusions Drawn from the Data",
-    "text": "Galactic Insights: Conclusions Drawn from the Data\nOur journey through the Star Wars universe, guided by data, reveals not just the diversity and complexity of its characters but also the intricate web of relationships, conflicts, and themes that make the saga enduringly compelling. From the demographics of species and gender to the allegiances that define the galaxy’s political landscape, and the mystical underpinnings of the Force, our analysis has uncovered patterns and raised questions that deepen our appreciation of the Star Wars narrative.\nThis exploration also highlights the power of data visualization in uncovering insights and telling stories. Each chart and graph has provided a different lens through which to view the data, offering a new understanding of the Star Wars universe.\n\nThe Future of Galactic Analysis\nWhile we’ve only scratched the surface of what’s possible with the starwars.csv dataset, the potential for further analysis is vast. Future explorations could delve into relationships between characters, the impact of different directors and writers on the portrayal of characters, or how the Star Wars universe has evolved over time.\nAs we conclude this data-driven journey, we’re reminded of the depth and breadth of the Star Wars saga—a testament to its creators and the community that keeps it alive. Whether through data analysis, storytelling, or simply enjoying the saga, the exploration of this galaxy far, far away continues to offer endless possibilities for discovery and insight."
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "econml.html#causal-machine-learning",
+    "href": "econml.html#causal-machine-learning",
+    "title": "Causal Machine Learning Bookmarks",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\n\n\n\n Back to top"
+    "text": "Dive into Causal Machine Learning, The World Bank and Pontificia Universidad Católica del Perú, Alexander Quispe et. al. \nMIT 14.388: Inference on Causal and Structural Parameters Using ML and AI, Department of Economics, MIT, Victor Chernozukhov\n\nPython Website\nJulia Website \n\nMGTECON 634: ML-based Causal Inference, Stanford, Susan Athey \nMachine Learning & Causal Inference: A Short Course, Stanford, Susan Athey, Jan Spiess, and Stefan Wager\n\nTutorial\nYouTube \n\n2018 American Economic Association Continuing Education: Machine Learning and Econometrics, Susan Athey and Guido Imbens \nCausal Inference and Machine Learning in Practice with EconML and CausalML: Industrial Use Cases at Microsoft, TripAdvisor, Uber \nDoubleML: Python and R Packages for the Double/Debiased Machine Learning Framework, P. Bach, V. Chernozhukov, M. S. Kurz, and M. Spindler \nEconML: A Python Package for ML-based Heterogeneous Treatment Effects Estimation, Microsoft \nCausalML: A Python Package for ML-based Causal Inference, Uber"
   },
   {
-    "objectID": "posts/nba/nba.html#salary-distribution-among-teams",
-    "href": "posts/nba/nba.html#salary-distribution-among-teams",
-    "title": "NBA",
-    "section": "Salary Distribution Among Teams",
-    "text": "Salary Distribution Among Teams\nLet’s start with the salary distribution among teams using seaborn for visualization. ​​\n\n\nCode\n\n# Handle missing values in 'Salary' by replacing them with the median salary\nmedian_salary = nba['Salary'].median()\nnba['Salary'].fillna(median_salary, inplace=True)\n\n\n\n\nCode\n# Set the aesthetic style of the plots\nsns.set_style(\"whitegrid\")\n\n# Calculate total salary by team\nteam_salary = (\n    nba\n    .groupby('Team')['Salary']\n    .sum()\n    .reset_index()\n    .sort_values(by='Salary', ascending=False)\n)\n\n# Plot total salary by team\nplt.figure(figsize=(10, 8))\nsns.barplot(data = team_salary,\n            x = 'Salary', y = 'Team',\n            palette = 'coolwarm')\nplt.title('Total Salary Distribution Among NBA Teams')\nplt.xlabel('Total Salary')\nplt.ylabel('Team')\nplt.xticks(rotation=45)\nplt.show()\n\n\n\n\n\nThe visualization above displays the total salary distribution among NBA teams, with teams sorted by their total salary expenditure. This bar plot reveals which teams are the biggest spenders on player salaries and which are more conservative. The color gradient provides a visual cue to easily distinguish between the higher and lower spending teams."
+    "objectID": "econml.html#machine-learning-and-big-data",
+    "href": "econml.html#machine-learning-and-big-data",
+    "title": "Causal Machine Learning Bookmarks",
+    "section": "Machine Learning and Big Data",
+    "text": "Machine Learning and Big Data\n\n2023 American Economic Association Continuing Education: Machine Learning and Big Data, Melissa Dell and Matthew Harding \nMachine Learning for Economists (ml4econ), Bank of Israel, Itamar Caspi and Ariel Mansura"
   },
   {
-    "objectID": "posts/nba/nba.html#player-age-distribution",
-    "href": "posts/nba/nba.html#player-age-distribution",
-    "title": "NBA",
-    "section": "Player Age Distribution",
-    "text": "Player Age Distribution\nNext, let’s explore the Player Age Distribution across the NBA. We’ll create a histogram to visualize how player ages are distributed, which will help us understand if the league trends younger, older, or has a balanced age mix. ​​\n\n\nCode\n# Convert 'Birthday' column to datetime format\nfrom dateutil import parser\nnba['Birthday'] = nba['Birthday'].apply(lambda x: parser.parse(x))\n\n# Now, let's calculate the age of each player\nnba['Age'] = (datetime.now() - nba['Birthday']).dt.days // 365\n\n# Plot the age distribution of NBA players\nplt.figure(figsize=(10, 6))\nsns.histplot(nba['Age'],\n             bins = 15,\n             kde = True,\n             color = 'skyblue')\nplt.title('Age Distribution of NBA Players')\nplt.xlabel('Age')\nplt.ylabel('Count')\nplt.show()\n\n\n\n\n\n\nThe histogram above shows the age distribution of NBA players, with a kernel density estimate (KDE) overlay to indicate the distribution shape. The majority of players fall within a certain age range, illustrating the league’s age dynamics. The plot helps identify the common ages for NBA players and whether there are significant numbers of very young or older players."
+    "objectID": "econml.html#causal-inference",
+    "href": "econml.html#causal-inference",
+    "title": "Causal Machine Learning Bookmarks",
+    "section": "Causal Inference",
+    "text": "Causal Inference\n\nCausal Inference: The Mixtape, Scott Cunningham \nCausal Inference for the Brave and True, Matheus Facure \nCausal Inference and Its Applications in Online Industry, Alex Deng \nApplied Empirical Methods, Yale SOM, Paul Goldsmith-Pinkham\n\nYouTube \n\nCausal Inference with Panel Data, Department of Political Science, Stanford, Yiqing Xu\n\nYouTube \n\nCausal Inference: What If, Miguel A. Hernán and James M. Robins \nRecent Developments in Difference-in-Differences, Vienna University of Economics and Business, Asjad Naqvi \nDifference-in-Differences Blog \nGov 2003: Causal Inference, Department of Government, Harvard, Matthew Blackwell"
   },
   {
-    "objectID": "posts/nba/nba.html#position-wise-salary-insights",
-    "href": "posts/nba/nba.html#position-wise-salary-insights",
-    "title": "NBA",
-    "section": "Position-wise Salary Insights",
-    "text": "Position-wise Salary Insights\nMoving on to Position-wise Salary Insights, we’ll examine how average salaries differ across player positions. This analysis could reveal which positions are typically higher-paid, potentially reflecting their value on the basketball court. Let’s create a box plot to visualize the salary distribution for each position. ​​\n\n\nCode\n# Plot salary distribution by player position\nplt.figure(figsize=(10, 6))\nsns.boxplot(data = nba,\n            x = 'Position', y = 'Salary',\n            palette = 'Set2')\nplt.title('Salary Distribution by Position')\nplt.xlabel('Position')\nplt.ylabel('Salary')\nplt.show()\n\n\n\n\n\nThe box plot above illustrates the salary distribution by player position, showcasing the variation in salaries among different positions within the NBA. This visualization helps us understand which positions tend to have higher median salaries and the spread of salaries within each position, including outliers that represent exceptionally high or low salaries."
+    "objectID": "econml.html#researchers-in-causal-machine-learning",
+    "href": "econml.html#researchers-in-causal-machine-learning",
+    "title": "Causal Machine Learning Bookmarks",
+    "section": "Researchers in Causal Machine Learning",
+    "text": "Researchers in Causal Machine Learning\n\nSusan Athey \nAlexandre Belloni \nVictor Chernozhukov \nCarlos Cinelli \nChristian Hansen \nGuido Imbens\nJann Spiess \nStefan Wager"
   },
   {
-    "objectID": "posts/nba/nba.html#top-10-highest-paid-players",
-    "href": "posts/nba/nba.html#top-10-highest-paid-players",
-    "title": "NBA",
-    "section": "Top 10 Highest Paid Players",
-    "text": "Top 10 Highest Paid Players\nLastly, we’ll identify the Top 10 Highest Paid Players in the NBA. This analysis highlights the star earners of the league, providing insights into which players command the highest salaries and potentially why. Let’s extract and visualize this information. ​​\n\n\nCode\n# Identify the top 10 highest paid players\ntop_10_salaries = nba.sort_values(by='Salary', ascending=False).head(10)\n\n# Plot the top 10 highest paid players\nplt.figure(figsize=(12, 8))\nsns.barplot(data = top_10_salaries,\n            x = 'Salary', y = 'Name',\n            palette = 'viridis')\nplt.title('Top 10 Highest Paid NBA Players')\nplt.xlabel('Salary')\nplt.ylabel('Player')\nplt.show()\n\n\n\n\n\nThe bar plot above reveals the top 10 highest-paid NBA players, showcasing those who stand at the pinnacle of the league in terms of salary. This visualization not only highlights the star players who command the highest salaries but also may reflect their marketability, performance, and contribution to their respective teams."
+    "objectID": "econ-hw/econ-341-hw-01.html",
+    "href": "econ-hw/econ-341-hw-01.html",
+    "title": "Homework 1",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ECON 341-01: Natural Resource Economics, Fall 2024",
+    "section": "",
+    "text": "Welcome! 👋\n\\(-\\) Explore, Learn, and Grow with Economics! 🌟"
+  },
+  {
+    "objectID": "index.html#bullet-lecture-slides",
+    "href": "index.html#bullet-lecture-slides",
+    "title": "ECON 341-01: Natural Resource Economics, Fall 2024",
+    "section": "\\(\\bullet\\,\\) Lecture Slides 🚀",
+    "text": "\\(\\bullet\\,\\) Lecture Slides 🚀\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nLecture 1\n\n\nAugust 26, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#bullet-lecture-q-a",
+    "href": "index.html#bullet-lecture-q-a",
+    "title": "ECON 341-01: Natural Resource Economics, Fall 2024",
+    "section": "\\(\\bullet\\,\\) Lecture Q & A ❓",
+    "text": "\\(\\bullet\\,\\) Lecture Q & A ❓\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nundefined\n\n\nAugust 26, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#bullet-classwork",
+    "href": "index.html#bullet-classwork",
+    "title": "ECON 341-01: Natural Resource Economics, Fall 2024",
+    "section": "\\(\\bullet\\,\\) Classwork ⌨️",
+    "text": "\\(\\bullet\\,\\) Classwork ⌨️\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nClasswork 1\n\n\nAugust 26, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#bullet-homework",
+    "href": "index.html#bullet-homework",
+    "title": "ECON 341-01: Natural Resource Economics, Fall 2024",
+    "section": "\\(\\bullet\\,\\) Homework 💻",
+    "text": "\\(\\bullet\\,\\) Homework 💻\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\nAugust 26, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "listing-econ-341-qa.html",
+    "href": "listing-econ-341-qa.html",
+    "title": "ECON 341 - Discussion",
+    "section": "",
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\nundefined\n\n\nAugust 26, 2024\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "posts/beer-markets/beer-markets.html",
+    "href": "posts/beer-markets/beer-markets.html",
+    "title": "Beer Markets",
+    "section": "",
+    "text": "Diving into the complex world of what people like in their beer, the beer_markets.csv dataset comes across as a goldmine of data, showing us the detailed interactions between buyers and their favorite beers. This dataset covers everything from how much and at what price people are buying beer to how deals and brand loyalty influence their decisions, across different types of people and places. As we start digging into this dataset, we aim to uncover the patterns that show what really influences the modern beer drinker’s choices, offering up valuable insights for marketers, industry watchers, and beer lovers. By breaking down the data, our exploration will shine a light on the factors that drive consumer behavior in the beer market, giving us a full picture of the trends that shape this lively industry.\nCode\n# Creating an interactive table\n!pip install itables\nfrom itables import init_notebook_mode\nfrom itables import show\nCode\nimport pandas as pd\nimport numpy as np\nimport matplotlib.pyplot as plt\nimport seaborn as sns\n# Reading the CSV file\nbeer_data = pd.read_csv(\"https://bcdanl.github.io/data/beer_markets.csv\")\nshow(beer_data)\n\n\n\n\n\n\n\n    \n      \n      hh\n      _purchase_desc\n      quantity\n      brand\n      dollar_spent\n      beer_floz\n      price_per_floz\n      container\n      promo\n      market\n      buyertype\n      income\n      childrenUnder6\n      children6to17\n      age\n      employment\n      degree\n      cow\n      race\n      microwave\n      dishwasher\n      tvcable\n      singlefamilyhome\n      npeople\n    \n  Loading... (need help?)\nCode\n# Setting up the visualization settings\nsns.set(style=\"whitegrid\")\n\n# Calculate total quantity and spending for each brand\nbrand_summary = beer_data.groupby('brand').agg({'quantity':'sum', 'dollar_spent':'sum'}).reset_index()\n\n# Sort by total quantity and spending\nbrand_summary_sorted_quantity = brand_summary.sort_values('quantity', ascending=False)\nbrand_summary_sorted_spent = brand_summary.sort_values('dollar_spent', ascending=False)\nCode\n# Plotting total quantity for each brand\nplt.figure(figsize=(10, 8))\nsns.barplot(x='quantity', y='brand', data=brand_summary_sorted_quantity, palette='viridis')\nplt.title('Total Quantity of Beer Purchased by Brand')\nplt.xlabel('Total Quantity')\nplt.ylabel('Brand')\nplt.show()\nThe bar charts above display the total quantity of beer purchased and the total spending by brand. From the looks of it, certain brands dominate in terms of quantity sold and total spending, indicating their popularity.\nNow, let’s calculate the average quantity purchased and average spending per purchase. For this, we’ll consider each row in the dataset as a separate purchase and compute the averages accordingly.\nCode\n# Calculate average quantity purchased and average spending per purchase\naverage_purchase = beer_data.groupby('brand').agg({\n    'quantity': 'mean',\n    'dollar_spent': 'mean'\n}).reset_index()\n\n# Sort by average quantity and average spending\naverage_purchase_sorted_quantity = average_purchase.sort_values('quantity', ascending=False)\naverage_purchase_sorted_spent = average_purchase.sort_values('dollar_spent', ascending=False)\n\n# Plotting average quantity for each brand\nplt.figure(figsize=(10, 8))\nsns.barplot(x='quantity', y='brand', data=average_purchase_sorted_quantity, palette='viridis')\nplt.title('Average Quantity of Beer Purchased by Brand')\nplt.xlabel('Average Quantity')\nplt.ylabel('Brand')\nplt.show()\nThe visualizations above depict the average quantity of beer purchased per brand and the average spending per brand. This shows which brands tend to be bought in larger quantities on average and which brands tend to have higher spending per purchase, which could be indicative of their price point or the purchase of premium products.\nNext, we’ll look at the total spending across different markets to see if there are any notable differences in spending habits geographically. To do this, we’ll sum up the spending in each market and visualize it.\nCode\n# Calculate total spending in each market\nmarket_spending_summary = beer_data.groupby('market').agg({'dollar_spent':'sum'}).reset_index()\n\n# Sort by total spending\nmarket_spending_summary_sorted = market_spending_summary.sort_values('dollar_spent', ascending=False)\n\n# Plotting total spending in each market\nplt.figure(figsize=(12, 18))\nsns.barplot(x='dollar_spent', y='market', data=market_spending_summary_sorted, palette='viridis')\nplt.title('Total Spending on Beer by Market')\nplt.xlabel('Total Spending')\nplt.ylabel('Market')\nplt.show()\nThe bar chart illustrates the total spending on beer by market, showcasing the differences in spending habits across various regions. Some markets have significantly higher spending, which could be due to a variety of factors including market size, consumer preferences, or economic factors.\nNow, let’s move on to the second analysis:"
+  },
+  {
+    "objectID": "posts/beer-markets/beer-markets.html#demographic-analysis",
+    "href": "posts/beer-markets/beer-markets.html#demographic-analysis",
+    "title": "Beer Markets",
+    "section": "Demographic Analysis",
+    "text": "Demographic Analysis\nWe will examine which demographics are buying what kind of beer and whether spending habits vary by demographics such as age, employment, and race. For this, we could look at:\n\nSpending by age group\nSpending by employment status\nSpending by race\n\nI’ll start by analyzing spending by age group.\n\n\nCode\n# Calculate total spending by age group\nage_group_spending = beer_data.groupby('age').agg({'dollar_spent':'sum'}).reset_index()\n\n# Sort by total spending\nage_group_spending_sorted = age_group_spending.sort_values('dollar_spent', ascending=False)\n\n# Plotting total spending by age group\nplt.figure(figsize=(10, 6))\nsns.barplot(x='dollar_spent', y='age', data=age_group_spending_sorted, palette='viridis')\nplt.title('Total Spending on Beer by Age Group')\nplt.xlabel('Total Spending')\nplt.ylabel('Age Group')\nplt.show()\n\n\n\n\n\nThe bar chart demonstrates the total spending on beer segmented by age group, highlighting which age groups spend the most on beer. It appears that certain age groups are more dominant in beer spending, which may align with the purchasing power or preferences of those groups.\nNext, we will examine spending by employment status.\n\n\nCode\n# Calculate total spending by employment status\nemployment_spending = beer_data.groupby('employment').agg({'dollar_spent':'sum'}).reset_index()\n\n# Sort by total spending\nemployment_spending_sorted = employment_spending.sort_values('dollar_spent', ascending=False)\n\n# Plotting total spending by employment status\nplt.figure(figsize=(10, 6))\nsns.barplot(x='dollar_spent', y='employment', data=employment_spending_sorted, palette='viridis')\nplt.title('Total Spending on Beer by Employment Status')\nplt.xlabel('Total Spending')\nplt.ylabel('Employment Status')\nplt.show()\n\n\n\n\n\nThe visualization shows the total spending on beer by employment status. We can see that certain employment groups, such as full-time workers, are spending more on beer, which might be related to their disposable income.\nFinally, let’s look at spending by race to complete the demographic analysis.\n\n\nCode\n# Calculate total spending by race\nrace_spending = beer_data.groupby('race').agg({'dollar_spent':'sum'}).reset_index()\n\n# Sort by total spending\nrace_spending_sorted = race_spending.sort_values('dollar_spent', ascending=False)\n\n# Plotting total spending by race\nplt.figure(figsize=(10, 6))\nsns.barplot(x='dollar_spent', y='race', data=race_spending_sorted, palette='viridis')\nplt.title('Total Spending on Beer by Race')\nplt.xlabel('Total Spending')\nplt.ylabel('Race')\nplt.show()\n\n\n\n\n\nThe bar chart above indicates the total spending on beer broken down by race, highlighting which racial groups account for the most beer spending within the dataset. This could reflect both the demographics of the regions where the data was collected and cultural preferences regarding beer.\nNow, let’s proceed to the third analysis:"
+  },
+  {
+    "objectID": "posts/beer-markets/beer-markets.html#price-sensitivity",
+    "href": "posts/beer-markets/beer-markets.html#price-sensitivity",
+    "title": "Beer Markets",
+    "section": "Price Sensitivity",
+    "text": "Price Sensitivity\nWe’ll look at the price per fluid ounce and see if there are any trends or correlations with the quantity purchased or the brand popularity. To do this, we’ll visualize how the price is sensitive to the quantity purchased by brand.\n\n\nCode\n# Ensure there's no entries with 0 for 'price_per_floz' or 'quantity' to avoid log(0) issues\nfiltered_data = beer_data[(beer_data['price_per_floz'] &gt; 0) & (beer_data['quantity'] &gt; 0)]\n\n# Calculate log values for both 'price_per_floz' and 'quantity'\nfiltered_data['log_price_per_floz'] = np.log(filtered_data['price_per_floz'])\nfiltered_data['log_quantity'] = np.log(filtered_data['quantity'])\n\n# Use seaborn to create a scatterplot with fitted lines, facetted by 'brand'\ng = sns.lmplot(data=filtered_data, x='log_quantity', y='log_price_per_floz', col='brand', col_wrap=4, height=3, line_kws={'color': 'red'}, scatter_kws={'alpha':0.5}, aspect = .75)\n\n# Adjusting plot aesthetics\ng.set_titles(\"{col_name}\")\ng.set_axis_labels(\"Log of Quantity\", \"Log of Price per Floz\")\nplt.subplots_adjust(top=0.9)\ng.fig.suptitle('Log of Price per Floz vs. Log of Quantity')\n\nplt.show()\n\n\n\n\n\nHere’s the scatterplot with fitted straight lines for the log of price_per_floz versus the log of quantity, facetted by brands. Each subplot represents a different brand, showing the relationship between these two logarithmic variables along with a fitted line to illustrate the trend within each brand’s data.\n\n\nCode\n# Adjust the facetting to split rows by 'brand' and columns by 'promo' for a more detailed comparative analysis\ng = sns.lmplot(data=filtered_data, x='log_quantity', y='log_price_per_floz', row='brand', col='promo', height=3, aspect=.75, line_kws={'color': 'red'}, scatter_kws={'alpha':0.5})\n\n# Adjusting plot aesthetics\ng.set_titles(\"Brand: {row_name}\\n Promo: {col_name}\")\ng.set_axis_labels(\"Log of Quantity\", \"Log of Price per Floz\")\nplt.subplots_adjust(top=0.9, wspace = .4, hspace = .4)\ng.fig.suptitle('Log of Price per Floz vs. Log of Quantity')\n\nplt.show()\n\n\n\n\n\nThe scatterplot has been reorganized to split rows by brand and columns by promo status, offering a comprehensive view across different brands and their promotional status. Each subplot now provides a clear comparison of the log of price_per_floz versus the log of quantity for purchases made on promotion versus those that were not, across various beer brands.\nThis layout facilitates an easier comparison across brands and how promotion impacts the relationship between quantity and price per fluid ounce within each brand.\nLastly, let’s move to the fourth analysis:"
+  },
+  {
+    "objectID": "posts/beer-markets/beer-markets.html#promotional-impact-on-quantity-purchased",
+    "href": "posts/beer-markets/beer-markets.html#promotional-impact-on-quantity-purchased",
+    "title": "Beer Markets",
+    "section": "Promotional Impact on Quantity Purchased",
+    "text": "Promotional Impact on Quantity Purchased\nWe’ll assess the impact of promotions on the quantity of beer purchased. For this analysis, we can calculate the average quantity purchased with and without promotions and visualize the difference. We’ll do this for each brand to see which brands are most affected by promotions.\nLet’s begin this analysis by looking at the average quantity purchased with and without promotions for each brand.\n\n\nCode\n# Calculate average quantity purchased with and without promotions for each brand\npromo_impact = beer_data.groupby(['brand', 'promo']).agg({'quantity':'mean'}).reset_index()\n\n# Pivot the data to have promo and non-promo side by side for each brand\npromo_impact_pivot = promo_impact.pivot(index='brand', columns='promo', values='quantity').reset_index()\npromo_impact_pivot.columns = ['brand', 'non_promo', 'promo']\n\n# Calculate the difference in average quantity purchased between promo and non-promo\npromo_impact_pivot['promo_impact'] = promo_impact_pivot['promo'] - promo_impact_pivot['non_promo']\n\n# Sort by the impact of promo\npromo_impact_pivot_sorted = promo_impact_pivot.sort_values('promo_impact', ascending=False)\n\n# Plotting the difference in average quantity purchased between promo and non-promo for each brand\nplt.figure(figsize=(12, 10))\nsns.barplot(x='promo_impact', y='brand', data=promo_impact_pivot_sorted, palette='viridis')\nplt.title('Impact of Promotions on Average Quantity Purchased by Brand')\nplt.xlabel('Difference in Average Quantity Purchased (Promo - Non-Promo)')\nplt.ylabel('Brand')\nplt.show()\n\n\n\n\n\nThe bar chart illustrates the impact of promotions on the average quantity of beer purchased by brand. A positive value indicates that, on average, more beer is purchased when there is a promotion compared to when there isn’t. Some brands appear to be significantly more influenced by promotions, with customers buying more when the products are on sale or promotion.\nThis comprehensive analysis has provided insights into purchase patterns, demographic preferences, price sensitivity, and the impact of promotions on beer purchases."
   },
   {
     "objectID": "posts/py-basic/blog-python-basics.html",
@@ -147,80 +168,444 @@
     "text": "A list is a collection which is ordered and changeable.\nA dictionary is a collection which is unordered, changeable and indexed.\n\n\nCode\n# List example:\nmy_list = ['apple', 'banana', 'cherry']\n\n# Dictionary example:\nmy_dict = {'name': 'John', 'age': 36}"
   },
   {
-    "objectID": "posts/beer-markets/beer-markets.html",
-    "href": "posts/beer-markets/beer-markets.html",
-    "title": "Beer Markets",
+    "objectID": "posts/nba/nba.html#salary-distribution-among-teams",
+    "href": "posts/nba/nba.html#salary-distribution-among-teams",
+    "title": "NBA",
+    "section": "Salary Distribution Among Teams",
+    "text": "Salary Distribution Among Teams\nLet’s start with the salary distribution among teams using seaborn for visualization. ​​\n\n\nCode\n\n# Handle missing values in 'Salary' by replacing them with the median salary\nmedian_salary = nba['Salary'].median()\nnba['Salary'].fillna(median_salary, inplace=True)\n\n\n\n\nCode\n# Set the aesthetic style of the plots\nsns.set_style(\"whitegrid\")\n\n# Calculate total salary by team\nteam_salary = (\n    nba\n    .groupby('Team')['Salary']\n    .sum()\n    .reset_index()\n    .sort_values(by='Salary', ascending=False)\n)\n\n# Plot total salary by team\nplt.figure(figsize=(10, 8))\nsns.barplot(data = team_salary,\n            x = 'Salary', y = 'Team',\n            palette = 'coolwarm')\nplt.title('Total Salary Distribution Among NBA Teams')\nplt.xlabel('Total Salary')\nplt.ylabel('Team')\nplt.xticks(rotation=45)\nplt.show()\n\n\n\n\n\nThe visualization above displays the total salary distribution among NBA teams, with teams sorted by their total salary expenditure. This bar plot reveals which teams are the biggest spenders on player salaries and which are more conservative. The color gradient provides a visual cue to easily distinguish between the higher and lower spending teams."
+  },
+  {
+    "objectID": "posts/nba/nba.html#player-age-distribution",
+    "href": "posts/nba/nba.html#player-age-distribution",
+    "title": "NBA",
+    "section": "Player Age Distribution",
+    "text": "Player Age Distribution\nNext, let’s explore the Player Age Distribution across the NBA. We’ll create a histogram to visualize how player ages are distributed, which will help us understand if the league trends younger, older, or has a balanced age mix. ​​\n\n\nCode\n# Convert 'Birthday' column to datetime format\nfrom dateutil import parser\nnba['Birthday'] = nba['Birthday'].apply(lambda x: parser.parse(x))\n\n# Now, let's calculate the age of each player\nnba['Age'] = (datetime.now() - nba['Birthday']).dt.days // 365\n\n# Plot the age distribution of NBA players\nplt.figure(figsize=(10, 6))\nsns.histplot(nba['Age'],\n             bins = 15,\n             kde = True,\n             color = 'skyblue')\nplt.title('Age Distribution of NBA Players')\nplt.xlabel('Age')\nplt.ylabel('Count')\nplt.show()\n\n\n\n\n\n\nThe histogram above shows the age distribution of NBA players, with a kernel density estimate (KDE) overlay to indicate the distribution shape. The majority of players fall within a certain age range, illustrating the league’s age dynamics. The plot helps identify the common ages for NBA players and whether there are significant numbers of very young or older players."
+  },
+  {
+    "objectID": "posts/nba/nba.html#position-wise-salary-insights",
+    "href": "posts/nba/nba.html#position-wise-salary-insights",
+    "title": "NBA",
+    "section": "Position-wise Salary Insights",
+    "text": "Position-wise Salary Insights\nMoving on to Position-wise Salary Insights, we’ll examine how average salaries differ across player positions. This analysis could reveal which positions are typically higher-paid, potentially reflecting their value on the basketball court. Let’s create a box plot to visualize the salary distribution for each position. ​​\n\n\nCode\n# Plot salary distribution by player position\nplt.figure(figsize=(10, 6))\nsns.boxplot(data = nba,\n            x = 'Position', y = 'Salary',\n            palette = 'Set2')\nplt.title('Salary Distribution by Position')\nplt.xlabel('Position')\nplt.ylabel('Salary')\nplt.show()\n\n\n\n\n\nThe box plot above illustrates the salary distribution by player position, showcasing the variation in salaries among different positions within the NBA. This visualization helps us understand which positions tend to have higher median salaries and the spread of salaries within each position, including outliers that represent exceptionally high or low salaries."
+  },
+  {
+    "objectID": "posts/nba/nba.html#top-10-highest-paid-players",
+    "href": "posts/nba/nba.html#top-10-highest-paid-players",
+    "title": "NBA",
+    "section": "Top 10 Highest Paid Players",
+    "text": "Top 10 Highest Paid Players\nLastly, we’ll identify the Top 10 Highest Paid Players in the NBA. This analysis highlights the star earners of the league, providing insights into which players command the highest salaries and potentially why. Let’s extract and visualize this information. ​​\n\n\nCode\n# Identify the top 10 highest paid players\ntop_10_salaries = nba.sort_values(by='Salary', ascending=False).head(10)\n\n# Plot the top 10 highest paid players\nplt.figure(figsize=(12, 8))\nsns.barplot(data = top_10_salaries,\n            x = 'Salary', y = 'Name',\n            palette = 'viridis')\nplt.title('Top 10 Highest Paid NBA Players')\nplt.xlabel('Salary')\nplt.ylabel('Player')\nplt.show()\n\n\n\n\n\nThe bar plot above reveals the top 10 highest-paid NBA players, showcasing those who stand at the pinnacle of the league in terms of salary. This visualization not only highlights the star players who command the highest salaries but also may reflect their marketability, performance, and contribution to their respective teams."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
     "section": "",
-    "text": "Diving into the complex world of what people like in their beer, the beer_markets.csv dataset comes across as a goldmine of data, showing us the detailed interactions between buyers and their favorite beers. This dataset covers everything from how much and at what price people are buying beer to how deals and brand loyalty influence their decisions, across different types of people and places. As we start digging into this dataset, we aim to uncover the patterns that show what really influences the modern beer drinker’s choices, offering up valuable insights for marketers, industry watchers, and beer lovers. By breaking down the data, our exploration will shine a light on the factors that drive consumer behavior in the beer market, giving us a full picture of the trends that shape this lively industry.\nCode\n# Creating an interactive table\n!pip install itables\nfrom itables import init_notebook_mode\nfrom itables import show\nCode\nimport pandas as pd\nimport numpy as np\nimport matplotlib.pyplot as plt\nimport seaborn as sns\n# Reading the CSV file\nbeer_data = pd.read_csv(\"https://bcdanl.github.io/data/beer_markets.csv\")\nshow(beer_data)\n\n\n\n\n\n\n\n    \n      \n      hh\n      _purchase_desc\n      quantity\n      brand\n      dollar_spent\n      beer_floz\n      price_per_floz\n      container\n      promo\n      market\n      buyertype\n      income\n      childrenUnder6\n      children6to17\n      age\n      employment\n      degree\n      cow\n      race\n      microwave\n      dishwasher\n      tvcable\n      singlefamilyhome\n      npeople\n    \n  Loading... (need help?)\nCode\n# Setting up the visualization settings\nsns.set(style=\"whitegrid\")\n\n# Calculate total quantity and spending for each brand\nbrand_summary = beer_data.groupby('brand').agg({'quantity':'sum', 'dollar_spent':'sum'}).reset_index()\n\n# Sort by total quantity and spending\nbrand_summary_sorted_quantity = brand_summary.sort_values('quantity', ascending=False)\nbrand_summary_sorted_spent = brand_summary.sort_values('dollar_spent', ascending=False)\nCode\n# Plotting total quantity for each brand\nplt.figure(figsize=(10, 8))\nsns.barplot(x='quantity', y='brand', data=brand_summary_sorted_quantity, palette='viridis')\nplt.title('Total Quantity of Beer Purchased by Brand')\nplt.xlabel('Total Quantity')\nplt.ylabel('Brand')\nplt.show()\nThe bar charts above display the total quantity of beer purchased and the total spending by brand. From the looks of it, certain brands dominate in terms of quantity sold and total spending, indicating their popularity.\nNow, let’s calculate the average quantity purchased and average spending per purchase. For this, we’ll consider each row in the dataset as a separate purchase and compute the averages accordingly.\nCode\n# Calculate average quantity purchased and average spending per purchase\naverage_purchase = beer_data.groupby('brand').agg({\n    'quantity': 'mean',\n    'dollar_spent': 'mean'\n}).reset_index()\n\n# Sort by average quantity and average spending\naverage_purchase_sorted_quantity = average_purchase.sort_values('quantity', ascending=False)\naverage_purchase_sorted_spent = average_purchase.sort_values('dollar_spent', ascending=False)\n\n# Plotting average quantity for each brand\nplt.figure(figsize=(10, 8))\nsns.barplot(x='quantity', y='brand', data=average_purchase_sorted_quantity, palette='viridis')\nplt.title('Average Quantity of Beer Purchased by Brand')\nplt.xlabel('Average Quantity')\nplt.ylabel('Brand')\nplt.show()\nThe visualizations above depict the average quantity of beer purchased per brand and the average spending per brand. This shows which brands tend to be bought in larger quantities on average and which brands tend to have higher spending per purchase, which could be indicative of their price point or the purchase of premium products.\nNext, we’ll look at the total spending across different markets to see if there are any notable differences in spending habits geographically. To do this, we’ll sum up the spending in each market and visualize it.\nCode\n# Calculate total spending in each market\nmarket_spending_summary = beer_data.groupby('market').agg({'dollar_spent':'sum'}).reset_index()\n\n# Sort by total spending\nmarket_spending_summary_sorted = market_spending_summary.sort_values('dollar_spent', ascending=False)\n\n# Plotting total spending in each market\nplt.figure(figsize=(12, 18))\nsns.barplot(x='dollar_spent', y='market', data=market_spending_summary_sorted, palette='viridis')\nplt.title('Total Spending on Beer by Market')\nplt.xlabel('Total Spending')\nplt.ylabel('Market')\nplt.show()\nThe bar chart illustrates the total spending on beer by market, showcasing the differences in spending habits across various regions. Some markets have significantly higher spending, which could be due to a variety of factors including market size, consumer preferences, or economic factors.\nNow, let’s move on to the second analysis:"
+    "text": "This is the first post in a Quarto blog. Welcome!\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "posts/beer-markets/beer-markets.html#demographic-analysis",
-    "href": "posts/beer-markets/beer-markets.html#demographic-analysis",
-    "title": "Beer Markets",
-    "section": "Demographic Analysis",
-    "text": "Demographic Analysis\nWe will examine which demographics are buying what kind of beer and whether spending habits vary by demographics such as age, employment, and race. For this, we could look at:\n\nSpending by age group\nSpending by employment status\nSpending by race\n\nI’ll start by analyzing spending by age group.\n\n\nCode\n# Calculate total spending by age group\nage_group_spending = beer_data.groupby('age').agg({'dollar_spent':'sum'}).reset_index()\n\n# Sort by total spending\nage_group_spending_sorted = age_group_spending.sort_values('dollar_spent', ascending=False)\n\n# Plotting total spending by age group\nplt.figure(figsize=(10, 6))\nsns.barplot(x='dollar_spent', y='age', data=age_group_spending_sorted, palette='viridis')\nplt.title('Total Spending on Beer by Age Group')\nplt.xlabel('Total Spending')\nplt.ylabel('Age Group')\nplt.show()\n\n\n\n\n\nThe bar chart demonstrates the total spending on beer segmented by age group, highlighting which age groups spend the most on beer. It appears that certain age groups are more dominant in beer spending, which may align with the purchasing power or preferences of those groups.\nNext, we will examine spending by employment status.\n\n\nCode\n# Calculate total spending by employment status\nemployment_spending = beer_data.groupby('employment').agg({'dollar_spent':'sum'}).reset_index()\n\n# Sort by total spending\nemployment_spending_sorted = employment_spending.sort_values('dollar_spent', ascending=False)\n\n# Plotting total spending by employment status\nplt.figure(figsize=(10, 6))\nsns.barplot(x='dollar_spent', y='employment', data=employment_spending_sorted, palette='viridis')\nplt.title('Total Spending on Beer by Employment Status')\nplt.xlabel('Total Spending')\nplt.ylabel('Employment Status')\nplt.show()\n\n\n\n\n\nThe visualization shows the total spending on beer by employment status. We can see that certain employment groups, such as full-time workers, are spending more on beer, which might be related to their disposable income.\nFinally, let’s look at spending by race to complete the demographic analysis.\n\n\nCode\n# Calculate total spending by race\nrace_spending = beer_data.groupby('race').agg({'dollar_spent':'sum'}).reset_index()\n\n# Sort by total spending\nrace_spending_sorted = race_spending.sort_values('dollar_spent', ascending=False)\n\n# Plotting total spending by race\nplt.figure(figsize=(10, 6))\nsns.barplot(x='dollar_spent', y='race', data=race_spending_sorted, palette='viridis')\nplt.title('Total Spending on Beer by Race')\nplt.xlabel('Total Spending')\nplt.ylabel('Race')\nplt.show()\n\n\n\n\n\nThe bar chart above indicates the total spending on beer broken down by race, highlighting which racial groups account for the most beer spending within the dataset. This could reflect both the demographics of the regions where the data was collected and cultural preferences regarding beer.\nNow, let’s proceed to the third analysis:"
+    "objectID": "posts/starwars/starwars_df.html",
+    "href": "posts/starwars/starwars_df.html",
+    "title": "Exploring the Galaxy: A Data-Driven Journey Through the Star Wars Universe",
+    "section": "",
+    "text": "The Star Wars saga, spanning decades of films, series, and an expansive lore, has introduced us to an incredibly diverse array of characters, each contributing to the rich tapestry of its universe. But what can data tell us about these characters and their world? Leveraging the starwars.csv dataset, this blog post embarks on a data-driven exploration, uncovering insights and patterns through the lens of the R tidyverse."
   },
   {
-    "objectID": "posts/beer-markets/beer-markets.html#price-sensitivity",
-    "href": "posts/beer-markets/beer-markets.html#price-sensitivity",
-    "title": "Beer Markets",
-    "section": "Price Sensitivity",
-    "text": "Price Sensitivity\nWe’ll look at the price per fluid ounce and see if there are any trends or correlations with the quantity purchased or the brand popularity. To do this, we’ll visualize how the price is sensitive to the quantity purchased by brand.\n\n\nCode\n# Ensure there's no entries with 0 for 'price_per_floz' or 'quantity' to avoid log(0) issues\nfiltered_data = beer_data[(beer_data['price_per_floz'] &gt; 0) & (beer_data['quantity'] &gt; 0)]\n\n# Calculate log values for both 'price_per_floz' and 'quantity'\nfiltered_data['log_price_per_floz'] = np.log(filtered_data['price_per_floz'])\nfiltered_data['log_quantity'] = np.log(filtered_data['quantity'])\n\n# Use seaborn to create a scatterplot with fitted lines, facetted by 'brand'\ng = sns.lmplot(data=filtered_data, x='log_quantity', y='log_price_per_floz', col='brand', col_wrap=4, height=3, line_kws={'color': 'red'}, scatter_kws={'alpha':0.5}, aspect = .75)\n\n# Adjusting plot aesthetics\ng.set_titles(\"{col_name}\")\ng.set_axis_labels(\"Log of Quantity\", \"Log of Price per Floz\")\nplt.subplots_adjust(top=0.9)\ng.fig.suptitle('Log of Price per Floz vs. Log of Quantity')\n\nplt.show()\n\n\n\n\n\nHere’s the scatterplot with fitted straight lines for the log of price_per_floz versus the log of quantity, facetted by brands. Each subplot represents a different brand, showing the relationship between these two logarithmic variables along with a fitted line to illustrate the trend within each brand’s data.\n\n\nCode\n# Adjust the facetting to split rows by 'brand' and columns by 'promo' for a more detailed comparative analysis\ng = sns.lmplot(data=filtered_data, x='log_quantity', y='log_price_per_floz', row='brand', col='promo', height=3, aspect=.75, line_kws={'color': 'red'}, scatter_kws={'alpha':0.5})\n\n# Adjusting plot aesthetics\ng.set_titles(\"Brand: {row_name}\\n Promo: {col_name}\")\ng.set_axis_labels(\"Log of Quantity\", \"Log of Price per Floz\")\nplt.subplots_adjust(top=0.9, wspace = .4, hspace = .4)\ng.fig.suptitle('Log of Price per Floz vs. Log of Quantity')\n\nplt.show()\n\n\n\n\n\nThe scatterplot has been reorganized to split rows by brand and columns by promo status, offering a comprehensive view across different brands and their promotional status. Each subplot now provides a clear comparison of the log of price_per_floz versus the log of quantity for purchases made on promotion versus those that were not, across various beer brands.\nThis layout facilitates an easier comparison across brands and how promotion impacts the relationship between quantity and price per fluid ounce within each brand.\nLastly, let’s move to the fourth analysis:"
+    "objectID": "posts/starwars/starwars_df.html#the-cast-of-the-galaxy-loading-and-inspecting-the-data",
+    "href": "posts/starwars/starwars_df.html#the-cast-of-the-galaxy-loading-and-inspecting-the-data",
+    "title": "Exploring the Galaxy: A Data-Driven Journey Through the Star Wars Universe",
+    "section": "The Cast of the Galaxy: Loading and Inspecting the Data",
+    "text": "The Cast of the Galaxy: Loading and Inspecting the Data\nOur journey begins with the basics—loading the dataset and getting a sense of its structure:\n\n\nCode\nlibrary(tidyverse)\n\n# Load the dataset\nstarwars_data &lt;- read_csv(\"https://bcdanl.github.io/data/starwars.csv\")\n\n\nWith the data loaded, we find that it encompasses various attributes of Star Wars characters, including but not limited to their names, species, heights, weights, and allegiances. The diversity in species and homeworld paves the way for intriguing analyses.\n\n← →\n\n\n\n\n\n\n\n\n\n\n\n\nVariable Description for starwars data.frame\nThe following describes the variables in the starwars data.frame.\n\nfilms List of films the character appeared in\nname Name of the character\nspecies Name of species\nheight Height (cm)\nmass Weight (kg)\nhair_color, skin_color, eye_color Hair, skin, and eye colors\nbirth_year Year born (BBY = Before Battle of Yavin)\nsex The biological sex of the character, namely male, female, hermaphroditic, or none (as in the case for Droids).\ngender The gender role or gender identity of the character as determined by their personality or the way they were programmed (as in the case for Droids).\nhomeworld Name of homeworld\n\n\n\nCode\nskim(starwars_data) |&gt; \n  select(-n_missing)\n\n\n\nData summary\n\n\nName\nstarwars_data\n\n\nNumber of rows\n173\n\n\nNumber of columns\n12\n\n\n_______________________\n\n\n\nColumn type frequency:\n\n\n\ncharacter\n9\n\n\nnumeric\n3\n\n\n________________________\n\n\n\nGroup variables\nNone\n\n\n\nVariable type: character\n\n\n\nskim_variable\ncomplete_rate\nmin\nmax\nempty\nn_unique\nwhitespace\n\n\n\n\nfilms\n1.00\n10\n23\n0\n7\n0\n\n\nname\n1.00\n3\n21\n0\n87\n0\n\n\nspecies\n0.97\n3\n14\n0\n37\n0\n\n\nhair_color\n0.90\n4\n13\n0\n12\n0\n\n\nskin_color\n1.00\n3\n19\n0\n31\n0\n\n\neye_color\n1.00\n3\n13\n0\n15\n0\n\n\nsex\n0.97\n4\n14\n0\n4\n0\n\n\ngender\n0.97\n8\n9\n0\n2\n0\n\n\nhomeworld\n0.91\n4\n14\n0\n48\n0\n\n\n\nVariable type: numeric\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\ncomplete_rate\nmean\nsd\np0\np25\np50\np75\np100\nhist\n\n\n\n\nheight\n0.97\n171.31\n35.58\n66\n167\n178\n188\n264\n▂▁▇▅▁\n\n\nmass\n0.79\n101.97\n190.62\n15\n55\n77\n84\n1358\n▇▁▁▁▁\n\n\nbirth_year\n0.66\n108.86\n193.59\n8\n33\n52\n82\n896\n▇▁▁▁▁"
   },
   {
-    "objectID": "posts/beer-markets/beer-markets.html#promotional-impact-on-quantity-purchased",
-    "href": "posts/beer-markets/beer-markets.html#promotional-impact-on-quantity-purchased",
-    "title": "Beer Markets",
-    "section": "Promotional Impact on Quantity Purchased",
-    "text": "Promotional Impact on Quantity Purchased\nWe’ll assess the impact of promotions on the quantity of beer purchased. For this analysis, we can calculate the average quantity purchased with and without promotions and visualize the difference. We’ll do this for each brand to see which brands are most affected by promotions.\nLet’s begin this analysis by looking at the average quantity purchased with and without promotions for each brand.\n\n\nCode\n# Calculate average quantity purchased with and without promotions for each brand\npromo_impact = beer_data.groupby(['brand', 'promo']).agg({'quantity':'mean'}).reset_index()\n\n# Pivot the data to have promo and non-promo side by side for each brand\npromo_impact_pivot = promo_impact.pivot(index='brand', columns='promo', values='quantity').reset_index()\npromo_impact_pivot.columns = ['brand', 'non_promo', 'promo']\n\n# Calculate the difference in average quantity purchased between promo and non-promo\npromo_impact_pivot['promo_impact'] = promo_impact_pivot['promo'] - promo_impact_pivot['non_promo']\n\n# Sort by the impact of promo\npromo_impact_pivot_sorted = promo_impact_pivot.sort_values('promo_impact', ascending=False)\n\n# Plotting the difference in average quantity purchased between promo and non-promo for each brand\nplt.figure(figsize=(12, 10))\nsns.barplot(x='promo_impact', y='brand', data=promo_impact_pivot_sorted, palette='viridis')\nplt.title('Impact of Promotions on Average Quantity Purchased by Brand')\nplt.xlabel('Difference in Average Quantity Purchased (Promo - Non-Promo)')\nplt.ylabel('Brand')\nplt.show()\n\n\n\n\n\nThe bar chart illustrates the impact of promotions on the average quantity of beer purchased by brand. A positive value indicates that, on average, more beer is purchased when there is a promotion compared to when there isn’t. Some brands appear to be significantly more influenced by promotions, with customers buying more when the products are on sale or promotion.\nThis comprehensive analysis has provided insights into purchase patterns, demographic preferences, price sensitivity, and the impact of promotions on beer purchases."
+    "objectID": "posts/starwars/starwars_df.html#unveiling-galactic-demographics-species-and-gender",
+    "href": "posts/starwars/starwars_df.html#unveiling-galactic-demographics-species-and-gender",
+    "title": "Exploring the Galaxy: A Data-Driven Journey Through the Star Wars Universe",
+    "section": "Unveiling Galactic Demographics: Species and Gender",
+    "text": "Unveiling Galactic Demographics: Species and Gender\nOur first foray into the galaxy’s demographics involves understanding the distribution of species and gender among the characters.\n\nSpecies in the Spotlight\n\n\nCode\n# Species distribution\nstarwars_data |&gt;\n  filter(!is.na(species)) |&gt; \n  group_by(species) |&gt;\n  summarise(count = n()) |&gt;\n  ggplot(aes(x = reorder(species, count), y = count, fill = species)) +\n  geom_col(show.legend = F) +\n  coord_flip() +\n  labs(title = \"Species Distribution in Star Wars\",\n       x = \"Species\",\n       y = \"Count\") +\n  theme_minimal() +\n  scale_fill_viridis_d()\n\n\n\n\n\nThis visualization reveals the prevalence of humans in the Star Wars universe, followed by a fascinating variety of alien species. Each species brings its unique culture and story to the narrative, enriching the saga’s diversity.\n\n\nGender Dynamics Across the Galaxy\n\n\nCode\n# Gender distribution by species\nstarwars_data |&gt;\n  filter(!is.na(gender)) |&gt; \n  group_by(species, gender) |&gt;\n  summarise(count = n()) |&gt;\n  ggplot(aes(y = reorder(species, count), x = count, fill = gender)) +\n  geom_bar(stat = \"identity\", position = position_dodge2(preserve = \"single\")) +\n  guides(fill = guide_legend(label.position = \"bottom\",\n                             keywidth = 2,\n                             nrow = 1)) +\n  theme_minimal() +\n  labs(title = \"Gender Distribution by Species\",\n       x = \"Species\",\n       y = \"Count\",\n       fill = \"Gender\") +\n  theme(legend.position = \"top\")\n\n\n\n\n\n\n\nThe Height of Heroism: Analyzing Character Heights\nMoving from demographics, we explore physical characteristics, starting with character heights. This analysis could reveal whether heroes and villains differ significantly in stature.\n\n\nCode\n# Height distribution\nstarwars_data |&gt;\n  filter(!is.na(height)) |&gt;\n  ggplot(aes(x = height)) +\n  geom_histogram(aes(fill = ..count..), binwidth = 5, show.legend = F) +\n  scale_fill_viridis_c() +\n  labs(title = \"Height Distribution of Star Wars Characters\",\n       x = \"Height (cm)\",\n       y = \"Count\") +\n  theme_minimal()\n\n\n\n\n\nThe histogram of character heights may show a broad range, reflecting the diversity of the Star Wars universe, from towering Wookiees to diminutive droids.\n\n\nAllegiances and Homeworlds: The Galactic Divide\nAnother compelling aspect of the Star Wars saga is the clear delineation between factions, such as the Rebellion and the Empire. Analyzing characters’ homeworld provides a window into the narrative’s structure.\n\n\nCode\n# homeworld distribution\nstarwars_data |&gt;\n  filter(!is.na(homeworld)) |&gt; \n  group_by(homeworld) |&gt;\n  summarise(count = n()) |&gt;\n  filter(count &gt; 3) |&gt; \n  ggplot(aes(x = fct_reorder(homeworld, count), y = count, fill = homeworld)) +\n  geom_col(show.legend = F) +\n  coord_flip() +\n  labs(title = \"Homeworlds in Star Wars\",\n       x = \"Homeworld\",\n       y = \"Count\") +\n  theme_minimal() +\n  scale_fill_brewer(palette = \"Set3\")\n\n\n\n\n\nThis bar chart reveals not just the quantity of characters associated with major factions like the Rebel Alliance, the Galactic Empire, the Jedi Order, or the Sith, but also the lesser-known groups that play crucial roles in the galaxy’s balance of power. The visualization demonstrates the narrative’s rich backdrop, where allegiances define character motivations, actions, and, ultimately, their fates.\nSuch a distribution also prompts us to consider the narratives from a broader perspective—how do these allegiances influence the storyline? Do characters within the same faction share similar traits or destinies? This opens up a deeper analysis of themes like loyalty, betrayal, and redemption that run through the Star Wars saga."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "posts/starwars/starwars_df.html#galactic-insights-conclusions-drawn-from-the-data",
+    "href": "posts/starwars/starwars_df.html#galactic-insights-conclusions-drawn-from-the-data",
+    "title": "Exploring the Galaxy: A Data-Driven Journey Through the Star Wars Universe",
+    "section": "Galactic Insights: Conclusions Drawn from the Data",
+    "text": "Galactic Insights: Conclusions Drawn from the Data\nOur journey through the Star Wars universe, guided by data, reveals not just the diversity and complexity of its characters but also the intricate web of relationships, conflicts, and themes that make the saga enduringly compelling. From the demographics of species and gender to the allegiances that define the galaxy’s political landscape, and the mystical underpinnings of the Force, our analysis has uncovered patterns and raised questions that deepen our appreciation of the Star Wars narrative.\nThis exploration also highlights the power of data visualization in uncovering insights and telling stories. Each chart and graph has provided a different lens through which to view the data, offering a new understanding of the Star Wars universe.\n\nThe Future of Galactic Analysis\nWhile we’ve only scratched the surface of what’s possible with the starwars.csv dataset, the potential for further analysis is vast. Future explorations could delve into relationships between characters, the impact of different directors and writers on the portrayal of characters, or how the Star Wars universe has evolved over time.\nAs we conclude this data-driven journey, we’re reminded of the depth and breadth of the Star Wars saga—a testament to its creators and the community that keeps it alive. Whether through data analysis, storytelling, or simply enjoying the saga, the exploration of this galaxy far, far away continues to offer endless possibilities for discovery and insight."
+  },
+  {
+    "objectID": "listing-econ-341-cw.html",
+    "href": "listing-econ-341-cw.html",
+    "title": "ECON 341 - Classwork",
+    "section": "",
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 1\n\n\n\n\n\nAugust 26, 2024\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "listing-econ-341-hw.html",
+    "href": "listing-econ-341-hw.html",
+    "title": "ECON 341 - Homework",
+    "section": "",
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\n\n\n\nAugust 26, 2024\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "index-home.html",
+    "href": "index-home.html",
     "title": "Byeong-Hak Choe",
     "section": "",
     "text": "Hello! 👋\nI am an assistant professor of data analytics and economics at School of Business at SUNY Geneseo.\nMy research interests lie in economics of the environment and climate change."
   },
   {
-    "objectID": "econml.html",
-    "href": "econml.html",
-    "title": "Causal Machine Learning Bookmarks",
-    "section": "",
-    "text": "Dive into Causal Machine Learning, The World Bank and Pontificia Universidad Católica del Perú, Alexander Quispe et. al. \nMIT 14.388: Inference on Causal and Structural Parameters Using ML and AI, Department of Economics, MIT, Victor Chernozukhov\n\nPython Website\nJulia Website \n\nMGTECON 634: ML-based Causal Inference, Stanford, Susan Athey \nMachine Learning & Causal Inference: A Short Course, Stanford, Susan Athey, Jan Spiess, and Stefan Wager\n\nTutorial\nYouTube \n\n2018 American Economic Association Continuing Education: Machine Learning and Econometrics, Susan Athey and Guido Imbens \nCausal Inference and Machine Learning in Practice with EconML and CausalML: Industrial Use Cases at Microsoft, TripAdvisor, Uber \nDoubleML: Python and R Packages for the Double/Debiased Machine Learning Framework, P. Bach, V. Chernozhukov, M. S. Kurz, and M. Spindler \nEconML: A Python Package for ML-based Heterogeneous Treatment Effects Estimation, Microsoft \nCausalML: A Python Package for ML-based Causal Inference, Uber"
-  },
-  {
-    "objectID": "econml.html#causal-machine-learning",
-    "href": "econml.html#causal-machine-learning",
-    "title": "Causal Machine Learning Bookmarks",
-    "section": "",
-    "text": "Dive into Causal Machine Learning, The World Bank and Pontificia Universidad Católica del Perú, Alexander Quispe et. al. \nMIT 14.388: Inference on Causal and Structural Parameters Using ML and AI, Department of Economics, MIT, Victor Chernozukhov\n\nPython Website\nJulia Website \n\nMGTECON 634: ML-based Causal Inference, Stanford, Susan Athey \nMachine Learning & Causal Inference: A Short Course, Stanford, Susan Athey, Jan Spiess, and Stefan Wager\n\nTutorial\nYouTube \n\n2018 American Economic Association Continuing Education: Machine Learning and Econometrics, Susan Athey and Guido Imbens \nCausal Inference and Machine Learning in Practice with EconML and CausalML: Industrial Use Cases at Microsoft, TripAdvisor, Uber \nDoubleML: Python and R Packages for the Double/Debiased Machine Learning Framework, P. Bach, V. Chernozhukov, M. S. Kurz, and M. Spindler \nEconML: A Python Package for ML-based Heterogeneous Treatment Effects Estimation, Microsoft \nCausalML: A Python Package for ML-based Causal Inference, Uber"
-  },
-  {
-    "objectID": "econml.html#machine-learning-and-big-data",
-    "href": "econml.html#machine-learning-and-big-data",
-    "title": "Causal Machine Learning Bookmarks",
-    "section": "Machine Learning and Big Data",
-    "text": "Machine Learning and Big Data\n\n2023 American Economic Association Continuing Education: Machine Learning and Big Data, Melissa Dell and Matthew Harding \nMachine Learning for Economists (ml4econ), Bank of Israel, Itamar Caspi and Ariel Mansura"
-  },
-  {
-    "objectID": "econml.html#causal-inference",
-    "href": "econml.html#causal-inference",
-    "title": "Causal Machine Learning Bookmarks",
-    "section": "Causal Inference",
-    "text": "Causal Inference\n\nCausal Inference: The Mixtape, Scott Cunningham \nCausal Inference for the Brave and True, Matheus Facure \nCausal Inference and Its Applications in Online Industry, Alex Deng \nApplied Empirical Methods, Yale SOM, Paul Goldsmith-Pinkham\n\nYouTube \n\nCausal Inference with Panel Data, Department of Political Science, Stanford, Yiqing Xu\n\nYouTube \n\nCausal Inference: What If, Miguel A. Hernán and James M. Robins \nRecent Developments in Difference-in-Differences, Vienna University of Economics and Business, Asjad Naqvi \nDifference-in-Differences Blog \nGov 2003: Causal Inference, Department of Government, Harvard, Matthew Blackwell"
-  },
-  {
-    "objectID": "econml.html#researchers-in-causal-machine-learning",
-    "href": "econml.html#researchers-in-causal-machine-learning",
-    "title": "Causal Machine Learning Bookmarks",
-    "section": "Researchers in Causal Machine Learning",
-    "text": "Researchers in Causal Machine Learning\n\nSusan Athey \nAlexandre Belloni \nVictor Chernozhukov \nCarlos Cinelli \nChristian Hansen \nGuido Imbens\nJann Spiess \nStefan Wager"
-  },
-  {
-    "objectID": "index.html#research",
-    "href": "index.html#research",
+    "objectID": "index-home.html#research",
+    "href": "index-home.html#research",
     "title": "Byeong-Hak Choe",
     "section": "Research",
-    "text": "Research\n\nWorking papers\n1️⃣ Social Media Campaign, Lobbying, and Legislation: Evidence from #cliamtechange and Energy Lobbies\n2️⃣ Climate Finance under Conflicts and Renegotiations: A Dynamic Contract Approach\n\n\nWork in progress\n🌟 ‘Hiding Behind a Small Cake’ in an Online Dictator Game: The Way You Hide Matters!, (with Tabaré Capitan (1st author) , Jason Shogren, and Benjamin White).\n\n\nBook chapters\n🌟 Governance and Climate Finance in the Developing World (with Tilsa Oré-Monago).\n- In Wu, F., Zhang, D., and Ji, Q. (Eds.), Climate Finance: Supporting a Sustainable Energy Transition, Chapter 7, Springer Nature (July, 2024)."
+    "text": "Research\n\nWorking papers\n1️⃣ Social Media Campaign, Lobbying, and Legislation: Evidence from #cliamtechange and Energy Lobbies\n2️⃣ Climate Finance under Conflicts and Renegotiations: A Dynamic Contract Approach\n\n\nWork in progress\n🌟 ‘Hiding Behind a Small Cake’ in an Online Dictator Game: The Way You Hide Matters!, (with Tabaré Capitan (1st author) , Jason Shogren, and Benjamin White).\n🌟 Estimating the Value of Statistical Life through Big Data, (with Stephen Newbold and Alexander James).\n\n\nBook chapters\n💡 Governance and Climate Finance in the Developing World (with Tilsa Oré-Monago).\n- In Wu, F., Zhang, D., and Ji, Q. (Eds.), Climate Finance: Supporting a Sustainable Energy Transition, Chapter 7, Springer Nature (July, 2024)."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-01.html",
+    "href": "econ-cw/econ-341-cw-01.html",
+    "title": "Classwork 1",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "blog-listing.html",
+    "href": "blog-listing.html",
+    "title": "Big & tiny insights through data",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nNBA\n\n\n3 min\n\n\n\nByeong-Hak Choe\n\n\nFebruary 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n\n1 min\n\n\n\nByeong-Hak Choe\n\n\nFebruary 7, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExploring the Galaxy: A Data-Driven Journey Through the Star Wars Universe\n\n\n8 min\n\n\n\nByeong-Hak Choe\n\n\nFebruary 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeer Markets\n\n\n5 min\n\n\n\nByeong-Hak Choe\n\n\nNovember 2, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n1 min\n\n\n\nByeong-Hak Choe\n\n\nOctober 27, 2023\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#instructor-1",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#instructor-1",
+    "title": "Lecture 1",
+    "section": "Instructor",
+    "text": "Instructor\nCurrent Appointment & Education\n\nName: Byeong-Hak Choe.\nAssistant Professor of Data Analytics and Economics, School of Business at SUNY Geneseo.\nPh.D. in Economics from University of Wyoming.\nM.S. in Economics from Arizona State University.\nM.A. in Economics from SUNY Stony Brook.\nB.A. in Economics & B.S. in Applied Mathematics from Hanyang University at Ansan, South Korea.\n\nMinor in Business Administration.\nConcentration in Finance."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#instructor-2",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#instructor-2",
+    "title": "Lecture 1",
+    "section": "Instructor",
+    "text": "Instructor\nEconomics and Data Science\n\nChoe, B.H., 2021. “Social Media Campaigns, Lobbying and Legislation: Evidence from #climatechange and Energy Lobbies.”\nQuestion: To what extent do social media campaigns compete with fossil fuel lobbying on climate change legislation?\nData include:\n\n5.0 million tweets with #climatechange/#globalwarming around the globe;\n12.0 million retweets/likes to those tweets;\n0.8 million Twitter users who wrote those tweets;\n1.4 million Twitter users who retweeted or liked those tweets;\n0.3 million US Twitter users with their location at a city level;\nFirm-level lobbying data (expenses, targeted bills, etc.)."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#instructor-3",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#instructor-3",
+    "title": "Lecture 1",
+    "section": "Instructor",
+    "text": "Instructor\nEconomics and Data Science\n\nChoe, B.H. and Ore-Monago, T., 2024. “Governance and Climate Finance in the Developing World”\nClimate finance refers to the financial resources allocated for mitigating and adapting to climate change, including support for initiatives that reduce greenhouse gas emissions and enhance resilience to climate impacts.\n\nWe focus on transnational financing that rich countries provide poor countries with financial resources, in order to help them adapt to climate change and mitigate greenhouse gas (GHG) emissions.\nSince the GHG emissions in developing countries are rapidly growing, it is crucial to assess the effectiveness of climate finance.\nPoor governance can be significant barriers to emissions reductions within these countries."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#instructor-4",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#instructor-4",
+    "title": "Lecture 1",
+    "section": "Instructor",
+    "text": "Instructor\nEconomics and Data Science\n\nChoe, B.H. and Ore-Monago, T., 2024. “Governance and Climate Finance in the Developing World”\nData include:\n\nGlobal climate finance data (e.g., donors, recipients, characteristics of climate change projects)\nWorld Bank Governance Indicators over the years (e.g., government effectiveness, voice and accountability, political stability and absence of violence/terrorism, regulatory quality, rule of law, control of corruption)\nVarious economic indicators (e.g., trade pattern of low carbon technology products, macroeconomic risks, energy)"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#instructor-5",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#instructor-5",
+    "title": "Lecture 1",
+    "section": "Instructor",
+    "text": "Instructor\nEconomics and Data Science\n\nChoe, B.H., James, Alex and Newbold, Steve, 2025. “Estimating the Value of Statistical Life (VSL) through Big Data”\nVSL is the monetary value associated with reducing the risk of death.\n\nHow much value would that be? How can we measure it?"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-1",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-1",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nEmail, Class & Office Hours\n\nEmail: bchoe@geneseo.edu\nClass Homepage:\n\nhttps://mylearning.suny.edu/d2l/home/1513939\nhttp://bcecon.github.io/\n\nOffice: South Hall 301\nOffice Hours:\n\nIn-person: Mondays and Wednesdays 1:30 P.M.–3:00 P.M.\nOnline: by appointment via email."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-2",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-2",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nCourse Description\n\nThis course examines the role of economic analysis in addressing challenges in natural resource management.\nWe will begin by reviewing key economic concepts, for example, externalities and market failures, benefit-cost analysis, and non-market valuation techniques.\nWe will then apply them to issues concerning various natural resources, such as forests and fisheries.\nAdditionally, we will explore climate change topics, including energy policy, carbon pricing, and adaptation strategies.\nA major focus is on assessing the optimal role of public policy."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-3",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-3",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nCourse Learning Outcomes\n\nGrasp the fundamental concepts and theories of natural resource economics, including scarcity, allocation, externalities, sustainability, and ecosystem service and goods.\nAnalyze natural resource management issues using economic principles to evaluate trade-offs and policy options.\nUnderstand and be able to use benefit-cost analysis.\nUnderstand the economic drivers and implications of climate change, enabling clear articulation of its significance in resource management and policy discussions.\nUnderstand the role of market and non-market mechanisms in natural resource allocation and management.\nExplore the economic aspects of renewable and non-renewable resource management, including energy, forest, and fisheries."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-4",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-4",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nRequired Materials\n\nEnvironmental and Natural Resource Economics (12th Edition) by Tom Tietenberg and Lynne Lewis (Henthforth, TL)\nAdditional readings will be provided."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-5",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-5",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nCourse Requirements\n\nHomework: There will be six homework assignments.\nQuiz: There will be in-class quizzes.\nClass Participation: You are encouraged to ask questions and discuss topics during the class time.\nExam: There will be two short midterm exams and one comprehensive final exam.\nTerm paper: There will be one term paper."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-6",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-6",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nTerm paper\n\nYour term paper should critically examine natural resource management issues by:\n\nThoroughly explaining the central dilemma facing society,\nIdentifying the key questions that must be addressed to develop solutions, while recognizing the trade-offs between different objectives,\nPresenting appropriate evidence to analyze the competing interests involved, and\nFormulating policy recommendations that logically follow from your analysis.\n\nA list of suggested topics for the term paper will be provided. However, each team may also choose a topic of its own that is related to natural resource management issues."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-7",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-7",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nTerm paper\n\nEach team for the term paper consists of one or two student(s).\nEach team must develop a research question for the term paper.\nThe term paper can be either theoretical, empirical, or both.\nFor empirical research, the data for the term paper must be approved by Byeong-Hak Choe.\nTerm papers will be evaluated based on (1) the quality of research question, (2) the quality of oral presentation, (3) the quality of economic analysis, (4) the quality of modeling analysis, and (5) peer evaluation on other students’ presentations.\nChanging a team member or a research topic must be approved by Byeong-Hak Choe."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-8",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-8",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nClass Schedule\n\nThere will be tentatively 42 class sessions.\n\nThe midterm exam 1 is scheduled on October 9, 2024, Wednesday, during the class time.\nThe due for the term paper proposal is October 31, 2024, Thursday, 11:59 P.M.\nThe midterm exam 2 is scheduled on November 8, 2024, Friday, during the class time.\nThe presentation for the term paper is scheduled on December 9, 2024, Monday, during the class time.\nThe final exam is scheduled on December 13, 2024, Friday, 3:30 P.M.–5:30 P.M.\nThe due for the term paper is December 17, 2024, Tuesday, 11:59 P.M."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-9",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-9",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nCourse Contents"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-10",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-10",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nCourse Contents"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-11",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-11",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nCourse Contents"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-12",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-12",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nGrading\n\\[\n\\begin{align}\n(\\text{Total Percentage Grade}) =&\\;\\, 0.05\\times(\\text{Total Attendance}) \\notag\\\\\n&\\,+\\, 0.15\\times(\\text{Total Quiz & Class Participation})\\notag\\\\\n& \\,+\\, 0.15\\times(\\text{Total Homework})\\notag\\\\  \n&\\,+\\, 0.15\\times(\\text{Term Paper})\\notag\\\\\n& \\,+\\, 0.50\\times(\\text{Total Exam}).\\notag\n\\end{align}\n\\]"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-13",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-13",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nGrading\n\nYou are allowed up to 6 absences without penalty.\n\nSend me an email if you have standard excused reasons (illness, family emergency, transportation problems, etc.).\n\nFor each absence beyond the initial six, there will be a deduction of 1% from the Total Percentage Grade.\nThe single lowest homework score will be dropped when calculating the total homework score.\n\nEach homework except for the homework with the lowest score accounts for 20% of the total homework score."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-14",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-14",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nGrading\n\nThe total exam score is the maximum between\n\nthe simple average of the midterm exam score and the final exam score and\nthe weighted average of them with one-fourth weight on the midterm exam score and three-third weight on the final exam score:\n\n\n\\[\n\\begin{align}\n&(\\text{Total Exam Score}) \\\\\n=\\, &\\text{max}\\,\\left\\{0.50\\times(\\text{Midterm Exam Score}) \\,+\\, 0.50\\times(\\text{Final Exam Score})\\right.,\\notag\\\\\n&\\qquad\\;\\,\\left.0.25\\times(\\text{Midterm Exam Score}) \\,+\\, 0.75\\times(\\text{Final Exam Score})\\right\\}.\\notag\n\\end{align}\n\\]"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-15",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-15",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nMake-up Policy\n\nMake-up exams will not be given unless you have either a medically verified excuse or an absence excused by the University.\nIf you cannot take exams because of religious obligations, notify me by email at least two weeks in advance so that an alternative exam time may be set.\nA missed exam without an excused absence earns a grade of zero.\nLate submissions for homework assignment will be accepted with a penalty.\nA zero will be recorded for a missed assignment."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-16",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-16",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nAcademic Integrity and Plagiarism\n\nAll homework assignments and exams must be the original work by you.\nExamples of academic dishonesty include:\n\nrepresenting the work, thoughts, and ideas of another person as your own\nallowing others to represent your work, thoughts, or ideas as theirs, and\nbeing complicit in academic dishonesty by suspecting or knowing of it and not taking action.\n\nGeneseo’s Library offers frequent workshops to help you understand how to paraphrase, quote, and cite outside sources properly.\n\nSee https://www.geneseo.edu/library/library-workshops."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-17",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-17",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nArtificial Intelligence (AI) Policy\n\nUnless AI tools are explicitly permitted for homework or in-class quizzes, you must complete your work independently.\nThis means you should not use tools like ChatGPT for any aspect of our coursework.\nSuch use is a form of academic dishonesty. Use of such tools is not only cheating, it will also cheat you of the opportunity to learn and develop your own skills.\nWhile AI will undoubtedly play important roles in our future society, you will be better able to utilize AI if you have developed your own critical thinking, writing, and analytical skills by doing your own work.\nIf you have any questions about this, please ask."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-18",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-18",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nAccessibility\n\nThe Office of Accessibility will coordinate reasonable accommodations for persons with physical, emotional, or cognitive disabilities to ensure equal access to academic programs, activities, and services at Geneseo.\nPlease contact me and the Office of Accessibility Services for questions related to access and accommodations."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-19",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#syllabus-19",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nCareer Design\n\nTo get information about career development, you can visit the Career Development Events Calendar (https://www.geneseo.edu/career_development/events/calendar).\nYou can stop by South 112 to get assistance in completing your Handshake Profile https://app.joinhandshake.com/login.\n\nHandshake is ranked #1 by students as the best place to find full-time jobs.\n50% of the 2018-2020 graduates received a job or internship offer on Handshake.\nHandshake is trusted by all 500 of the Fortune 500."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#introduction",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#introduction",
+    "title": "Lecture 1",
+    "section": "Introduction",
+    "text": "Introduction\nSelf-Extinction Premise\n\nEdward Gibbon on Rome’s Decline\n\nGibbon describes the contrast between Rome’s former glory and its ruin.\nScene from The History of the Decline and Fall of the Roman Empire where Poggius ascends the Capitoline Hill.\nThe grandeur of Rome, now overtaken by ruin and desolation.\nGibbon suggests Rome’s downfall was due to internal weaknesses, despite external pressures.\n\nMalthusian Theory\n\nThomas Malthus (1798) predicted population growth would exceed food supply, leading to starvation.\nMalthus believed rising death rates would result from environmental constraints rather than innovation.\nHistorical examples support the idea that societies may contribute to their own destruction."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#introduction-1",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#introduction-1",
+    "title": "Lecture 1",
+    "section": "Introduction",
+    "text": "Introduction\nA Tale of Two Cultures\n\nMayan Civilization Collapse:\n\nVibrant society in Central America that experienced a collapse.\nPopulation growth exceeded the agricultural capacity of the land (maize was the main crop).\nClimate change led to a drying trend and prolonged droughts, causing food production to lag behind population growth.\nResulted in high levels of infant and adolescent mortality, widespread malnutrition.\nThe royal dynasty collapsed around AD 820-822."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#introduction-2",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#introduction-2",
+    "title": "Lecture 1",
+    "section": "Introduction",
+    "text": "Introduction\nA Tale of Two Cultures\n\nEaster Island Collapse:\n\nKnown for its large statues and sparse vegetation.\nRising population and heavy reliance on wood for housing, canoe building, and statue transportation led to deforestation.\nDeforestation caused soil erosion, declining soil productivity, and reduced food production.\nThe social response to scarcity was conflict among factions and ultimately cannibalism."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#future-environmental-challenges",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#future-environmental-challenges",
+    "title": "Lecture 1",
+    "section": "Future Environmental Challenges",
+    "text": "Future Environmental Challenges\nThe Climate Change Challenge\n\nSun drives Earth’s climate; greenhouse gases trap heat.\nNatural greenhouse effect is essential for life, but excess gases cause overheating.\nGlobal evidence shows the planet is warming, primarily due to human activities like fossil fuel burning.\nWarming impacts:\n\nIncreased heat affects human health.\nRising sea levels and stronger storms damage coastal areas.\nEcosystems struggle to adapt; some species may not survive.\n\nThese changes will worsen without action.\nAddressing climate change requires global cooperation and strategic solutions; Economics offers tools for effective responses."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#future-environmental-challenges-1",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#future-environmental-challenges-1",
+    "title": "Lecture 1",
+    "section": "Future Environmental Challenges",
+    "text": "Future Environmental Challenges\nThe Water Accessibility Challenge\n\nRising demand vs. limited supply is a critical issue, especially for water.\n40% of the world’s population lives in areas with moderate-to-high water stress.\nBy 2025, two-thirds of the global population may face water stress.\n\nGroundwater in places like the U.S., Mexico, China, and India is being depleted faster than replenished.\nRivers like the Colorado and Yellow often run dry before reaching the sea; lakes like the Aral Sea have drastically shrunk.\nWater contamination further limits safe water; nearly 1000 children die daily from preventable water-related diseases."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#future-environmental-challenges-2",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#future-environmental-challenges-2",
+    "title": "Lecture 1",
+    "section": "Future Environmental Challenges",
+    "text": "Future Environmental Challenges\nClimate Change and Water Accessibility: The Linkage\n\nClimate change will worsen droughts, increasing water demand and reducing supply.\nInterdependence of climate change and water scarcity is crucial for effective policy design.\n\nImporting water or building reservoirs can cause conflict and face geological risks (e.g., earthquakes, landslides).\n\nIgnoring their interaction could lead to inefficient and ineffective solutions."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#future-environmental-challenges-3",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#future-environmental-challenges-3",
+    "title": "Lecture 1",
+    "section": "Future Environmental Challenges",
+    "text": "Future Environmental Challenges\nClimate Change and Water Accessibility: The Linkage\n\nClimate change will worsen water scarcity, creating significant economic and security challenges.\nWater scarcity will spread to new regions and intensify in already affected areas.\nRainfall will become more variable and unpredictable, while warmer seas will lead to more severe floods and storm surges.\nWater availability in cities could drop by up to two-thirds by 2050.\nAdopting reforms and investments is challenging but necessary.\nThe cost of inaction is far greater than the cost of implementing reforms.\nProper policies can protect people and ecosystems from severe water-related shocks and adverse rainfall trends."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#future-environmental-challenges-4",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#future-environmental-challenges-4",
+    "title": "Lecture 1",
+    "section": "Future Environmental Challenges",
+    "text": "Future Environmental Challenges\nThe Just Transition Challenge\n\nCan policies ensure that vulnerable groups don’t bear disproportionate burdens during transitions?\nClimate impacts hit poor nations and people harder than wealthy ones.\nBenefits of transition (e.g., reduced climate damage) are clear, but what about the costs?\nWill the costs be fairly distributed or regressive?"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#policy-context",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#policy-context",
+    "title": "Lecture 1",
+    "section": "Policy Context",
+    "text": "Policy Context\n\nSolving issues like poverty, climate change, and biodiversity loss requires international cooperation.\nPolicies must consider obligations to future generations.\nInternational cooperation is challenging, as global problems affect countries differently.\n\nLow-lying countries face submersion, arid nations may experience desertification, while some may benefit from longer growing seasons.\n\nUnilateral environmental actions risk making businesses less competitive globally."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#policy-context-1",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#policy-context-1",
+    "title": "Lecture 1",
+    "section": "Policy Context",
+    "text": "Policy Context\n\nIndustrialized countries with strict environmental policies may see gains in clean energy sectors.\nHowever, some industries may face higher costs and lose market share due to stringent regulations.\nThe market is resilient, encouraging wise resource use and innovation.\nYet, market incentives don’t always align with fair, sustainable outcomes."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#how-will-societies-respond",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#how-will-societies-respond",
+    "title": "Lecture 1",
+    "section": "How Will Societies Respond?",
+    "text": "How Will Societies Respond?\n\nPositive Feedback Loops:\n\nReinforce trends (e.g., capital accumulation, methane emissions).\nMethane emissions increase with temperature, worsening climate change.\nHuman actions can deepen environmental problems."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#how-will-societies-respond-1",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#how-will-societies-respond-1",
+    "title": "Lecture 1",
+    "section": "How Will Societies Respond?",
+    "text": "How Will Societies Respond?\n\nNegative Feedback Loops:\n\nSelf-limiting processes (e.g., Gaia hypothesis suggests Earth has self-regulating systems).\nEconomic and political institutions must either intensify or limit environmental issues, ensuring fair treatment."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#the-use-of-models",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#the-use-of-models",
+    "title": "Lecture 1",
+    "section": "The Use of Models",
+    "text": "The Use of Models\n\nModels in economics simplify complex subjects, like the economy-environment relationship.\nSimplification highlights key concepts and relationships but can lead to inaccurate conclusions.\nModels are useful, but their results depend on their structure.\nChanging the model structure can change the conclusions."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#the-use-of-models-1",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#the-use-of-models-1",
+    "title": "Lecture 1",
+    "section": "The Use of Models",
+    "text": "The Use of Models\n\nPeople often rely on implicit models; in economics, models are explicit with clear assumptions.\nEconomic models are tested by how well they explain actual behavior.\nEconometrics uses statistics to derive economic functions for testing policies or forecasting trends."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#the-road-ahead",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#the-road-ahead",
+    "title": "Lecture 1",
+    "section": "The Road Ahead",
+    "text": "The Road Ahead\n\nAre societies on a self-destructive path?\nThe answer depends on whether responses to scarcity create positive (worsening) or negative (improving) feedback loops.\nEnvironmental economics helps understand and solve environmental problems, offering paths to align goals with outcomes."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#the-road-ahead-1",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#the-road-ahead-1",
+    "title": "Lecture 1",
+    "section": "The Road Ahead",
+    "text": "The Road Ahead\nSome Overarching Questions to Guide our Investigation\n\nHow does the economic system respond to scarcities?\n\nIs the process mainly characterized by positive or negative feedback loops?\nDo the responses intensify or ameliorate any initial scarcities?\nDoes the answer depend upon the decision context?\n\nTo what extent can the market meet the challenges on its own?\n\nTo what extent are there sources of market failure that make the market an insufficient or even counterproductive force in meeting environmental challenges?"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#the-road-ahead-2",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#the-road-ahead-2",
+    "title": "Lecture 1",
+    "section": "The Road Ahead",
+    "text": "The Road Ahead\nSome Overarching Questions to Guide our Investigation\n\nWhat is the role of the political system in correcting these sources of market failure?\n\nIn what circumstances is government intervention necessary?\nWhat forms of government intervention would work best to meet the challenges?\nDo these forms have enough political support to become enacted?\n\nWhat specific roles are appropriate for the executive, legislative, and judicial branches of government?\nWhat are the appropriate roles for nongovernmental organizations?"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#the-road-ahead-3",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#the-road-ahead-3",
+    "title": "Lecture 1",
+    "section": "The Road Ahead",
+    "text": "The Road Ahead\nSome Overarching Questions to Guide our Investigation\n\nMany environmental problems are characterized by uncertainty about the severity of the problem and the effectiveness of possible solutions.\n\nCan our economic and political institutions respond to this uncertainty in reasonable ways or does uncertainty become a paralyzing force?\n\nCan the economic and political systems work together to respect our obligations to future generations while assuring that the transition involves fair treatment of the transitional generations as well?\n\nOr do our obligations to future generations inevitably conflict with the desire to treat all people, especially the most vulnerable, with fairness?"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-01-2024-0826.html#the-road-ahead-4",
+    "href": "econ-lec/econ-341-lec-01-2024-0826.html#the-road-ahead-4",
+    "title": "Lecture 1",
+    "section": "The Road Ahead",
+    "text": "The Road Ahead\nSome Overarching Questions to Guide our Investigation\n\nCan short- and long-term goals be harmonized?\n\nIs sustainable development feasible?\nIf so, how can it be achieved?\nWhat does the need for sustainable outcomes imply about the future of economic activity in the industrialized nations?\nAnd in the less-industrialized nations?"
+  },
+  {
+    "objectID": "cv/cv.html",
+    "href": "cv/cv.html",
+    "title": "Bio",
+    "section": "",
+    "text": "I view myself as an applied economist with interest in environmental economics and a particular focus on climate change. Methodologically, I make use of causal inference/econometrics/machine learning methods, and other data science tools to conduct empirical analysis. I also use computational methods to solve integrated assessment models of climate change and theoretical economic models, such as dynamic contracts.\nMy research focuses on how to improve effectiveness of climate policy at both micro and macro levels. In particular, I am interested in building relevant climate-economy models that analyze the interaction between economies and the climate under risks arising from (1) climate change and (2) a transition to carbon-neutral economies.\nAs an economics and data science teacher, my goal is to equip students with the essential tools of machine learning, econometrics, and data science to think critically about business and real-world socioeconomic issues. In this regard, I teach students to use those tools to address important business strategies, socioeconomic issues, and individual decision-making."
+  },
+  {
+    "objectID": "cv/cv.html#working-papers",
+    "href": "cv/cv.html#working-papers",
+    "title": "Bio",
+    "section": "Working papers",
+    "text": "Working papers\n\n\n\n\n\n\n\n\nGovernance and Climate Finance in the Developing World (with Tilsa Ore-Monago) (Forthcoming in Springer Nature)\n Abstract : We investigate the relationship between governance and climate finance, particularly in the context of the energy transition in developing countries. Our aim is to examine how governance qualities in developing countries impact financial contributions from contributor countries that intend to fund mitigation projects in the energy sector. We have compiled a dataset of yearly climate finance contributions at the project level spanning from 2011 to 2019. Our analysis, which utilizes random forests and LASSO estimations, reveals that climate finance contributions, particularly those for energy-related projects, are significantly linked to good governance, including a robust legal system, rule of law, and accountability. Ultimately, this study provides valuable insights into the dynamics between governance and climate finance in developing countries and informs policy decisions to support effective climate action in the energy sector. (One of the chapters in the book, \"Climate Finance: Supporting a Sustainable Energy Transition,\" Springer Nature. 2024).\n\n\nSocial Media Campaigns, Lobbying and Legislation: Evidence from #climatechange/#globalwarming and Energy Lobbies\n Abstract : To what extent do social media campaigns compete with fossil fuel lobbying on climate change legislation? In this article, I estimate the effect of social media campaigns on a congressperson's legislative activities against climate change actions during the U.S. Congresses (January 2013-January 2019). I find that (1) a 1% increase in the per-capita level of activities of climate change campaigns using Twitter decreases Democrats' tendency to support climate-unfriendly legislation by 0.9%, while it increases Republicans' one by 0.2%; and (2) a 1% increase in the fossil fuel industry's lobbying expenditure relative to the rest of industries' lobbying expenditure increases Republicans' tendency to support climate-unfriendly legislation by 1.1%. I also find that negative sentiment in social media campaigns contributes to affecting congresspersons' support for climate-unfriendly legislation.\n\n\nClimate Finance under Conflicts and Renegotiations: A Dynamic Contract Approach (AEA 2019 poster) \n Abstract : Considering climate funds (e.g. the Green Climate Fund) as the financial mechanism to provide funding to developing countries, this paper examines a long-term climate funding relationship between two agents---the rich country and the poor country. Conflicts between the rich and poor countries arise when determining 1) the size of climate funding that the rich country contributes to the poor country, and 2) the funding allocation between climate adaptation and mitigation projects in the poor country. In addition, the rich country cannot be forced to commit contractual contributions to the poor country, and the climate funding relationship can be repeatedly renegotiated. This paper derives the following results: (1) climate funds converge to the first-best in the long-run, in terms of the size of climate funding and its balance between adaptation and mitigation projects, if and only if climate damage becomes sufficiently severe. (2) funding allocation between adaptation and mitigation projects becomes more favorable to the poor country if marginal climate costs in the poor country grow faster than in the rich country. (3) fewer conflicts and fewer renegotiations between the rich and poor countries make climate funding contracts more efficient, remedying inequality between the poor and rich countries."
+  },
+  {
+    "objectID": "cv/cv.html#work-in-progress",
+    "href": "cv/cv.html#work-in-progress",
+    "title": "Bio",
+    "section": "Work in progress",
+    "text": "Work in progress\n\n\n\n\n\n\n\n\nHiding Behind a Small Cake' in an Online Dictator Game: The Way You Hide Matters!, (with Tabare Capitan (1st author) , Jason Shogren, and Benjamin White) \n Abstract : Using an online dictator game in which receivers have incomplete information of the size of the endowment (big or small), the article, ''Hiding behind a small cake' in a newspaper dictator game (Ockenfels and Werner (2012))'' shows that a few givers who received the big endowment use their giving to signal they received the small endowment (i.e., to lie). In other words, even though a giver will never meet the corresponding receiver, he cares enough about how he could be perceived by others to lie (i.e., second-order beliefs enters his utility function). In our experiment we provide givers with the opportunity to lie about the size of the endowment without using their giving. Similar to Ockenfels and Werner (2012) we find that (i) few take the opportunity to lie---but those who do give less when their giving is not constrained by its role as a signal---and (ii) givers are more likely to lie when the lie is private. However, using a second stage in the experimental design, we show that liars are the most responsive group of givers to a simple message stating the expectation of the receiver."
+  },
+  {
+    "objectID": "cv/cv.html#presentations",
+    "href": "cv/cv.html#presentations",
+    "title": "Bio",
+    "section": "Presentations",
+    "text": "Presentations\n\n\n\n\n\n2023\nSouthern Economic Association Annual Meeting, New Orleans, Louisiana\n\n\n2022\nInterdisciplinary Data Science Workshop, Brigham Young University, Provo, Utah\n\n\n2021\nOnline Seminar, Department of Environmental and Business Economics, University of Southern Denmark\n\n\n2019\nUniversity of Wyoming & Colorado State University Economics Graduate Student Symposium, Laramie, Wyoming\n\n\n2019\nAmerican Economic Association Annual Meeting (poster session), Atlanta, Georgia\n\n\n2018\nThe 29th International Conference on Game Theory, Stony Brook, New York"
+  },
+  {
+    "objectID": "cv/cv.html#memberships",
+    "href": "cv/cv.html#memberships",
+    "title": "Bio",
+    "section": "Memberships",
+    "text": "Memberships\n\n\n\n\n\n2022—present\nSouthern Economic Association\n\n\n2018—present\nAssociation of Environmental and Resource Economists\n\n\n2017—present\nAmerican Economic Association\n\n\n2017—2019\nEconometric Society"
   }
 ]

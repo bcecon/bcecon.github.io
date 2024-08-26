@@ -1,0 +1,4 @@
+/* Second-level bullets */
+.reveal section ul ul li {
+    list-style-type: square !important; /* Change 'square' to your desired style */
+}

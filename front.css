@@ -1,15 +1,13 @@
-/* css styles */
-
-html, body {
-    height: 100%;
+#quarto-sidebar {
+    z-index: 1000;
+    position: fixed;
+    width: 15%; /* Sidebar takes 20% of the screen width */
+    max-width: 300px; /* Limit the maximum width */
+    min-width: 125px; /* Set a minimum width */
 }
 
-html {
-    display: table;
-    margin: auto;
-}
-
-body {
-    display: table-cell;
-    vertical-align: middle;
+#quarto-content {
+    z-index: 999;
+    margin-left: 0%; /* Ensure content starts after sidebar */
+    width: 85%; /* Adjust content width accordingly */
 }
