@@ -144,35 +144,6 @@ theme_set(theme_fivethirtyeight()+
 
 
 
-## Future Environmental Challenges
-### The Climate Change Challenge
-
-
-:::: {.columns}
-
-::: {.column width="50%"}
-
-<div style="display:block; margin:50px;"></div>
-
-<div style="text-align: center; width: 80%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/greenhouse-effect.jpeg" style="width: 100%; margin-bottom: -20px;">
-  <p style="font-style: bold;"></p>
-</div>
-:::
-
-
-::: {.column width="50%"}
-- Sun drives Earth’s climate; greenhouse gases trap heat.
-
-- Natural greenhouse effect is essential for life, but excess gases cause overheating.
-
-- Global evidence shows the planet is warming, primarily due to human activities like fossil fuel burning.
-
-:::
-
-::::
-
-
 
 
 ## Future Environmental Challenges
@@ -254,7 +225,7 @@ theme_set(theme_fivethirtyeight()+
 ## Future Environmental Challenges
 ### The Water Accessibility Challenge
 
-{{< video https://www.youtube.com/watch?v=Z9cJQN6lw3w&t=388s width="100%" height="100%" >}}
+{{< video https://www.youtube.com/watch?v=Z9cJQN6lw3w&t=388s width="100%" height="95%" >}}
 
 
 ## Future Environmental Challenges
