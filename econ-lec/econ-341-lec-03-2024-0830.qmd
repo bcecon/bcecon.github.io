@@ -63,8 +63,13 @@ theme_set(theme_fivethirtyeight()+
 
 ## Introduction
 
-This chapter introduces the general conceptual framework used in economics to approach environmental problems.
-
+- This chapter introduces the general conceptual framework used in economics to approach environmental problems.
+  - Static Efficiency
+  - Economic Surplus, Consumer Surplus, Producer Surplus
+  - Property Rights
+  - Scarcity Rents
+  - Externalities
+  - Public Goods
 
 
 
