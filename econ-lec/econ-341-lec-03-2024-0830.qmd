@@ -86,7 +86,7 @@ theme_set(theme_fivethirtyeight()+
 ### Economic Impacts of Reducing Hazardous Pollutant Emissions from Iron and Steel Foundries
 
 <div style="text-align: center; width: 80%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/iron-steel-polution.png" style="width: 75%; margin-bottom: -20px;">
+  <img src="https://bcdanl.github.io/lec_figs/iron-steel-polution.png" style="width: 70%; margin-bottom: -20px;">
   <p style="font-weight: bold;"></p>
 </div>
 
@@ -131,30 +131,58 @@ $$
 ### Consumer Surplus (CS)
 
 
-<div style="text-align: center; width: 80%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/tl-fig2-1.png" style="width: 85%; margin-bottom: -20px;">
+
+:::: {.columns}
+
+::: {.column width="60%"}
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig2-1.png" style="width: 100%; margin-bottom: -20px;">
   <p style="font-weight: bold;"></p>
 </div>
+
+:::
+
+::: {.column width="40%"}
 
 - CS is the value that consumers receive from an allocation minus what it costs them.
   
 - CS is measured as the area under the demand curve minus the consumer’s cost.
   - Why?
 
+:::
+::::
+
+
+
+
 
 ## Economic Efficiency
 ### Producer Surplus (PS)
 
 
-<div style="text-align: center; width: 80%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/tl-fig2-2.png" style="width: 85%; margin-bottom: -20px;">
+
+:::: {.columns}
+
+::: {.column width="60%"}
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig2-2.png" style="width: 100%; margin-bottom: -20px;">
   <p style="font-weight: bold;"></p>
 </div>
+
+:::
+
+::: {.column width="40%"}
 
 - PS is the difference between the amount that a seller receives minus what the seller would be willing to accept for the good
 
 - PS is the area under the price line that lies above the supply curve.
   - Why?
+
+:::
+::::
+
+
+
 
 
 ## Economic Efficiency
@@ -208,42 +236,83 @@ $$
 ### Efficient Property Right Structures
 
 
-<div style="text-align: center; width: 80%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/tl-fig2-3.png" style="width: 85%; margin-bottom: -20px;">
+:::: {.columns}
+
+::: {.column width="60%"}
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig2-3.png" style="width: 100%; margin-bottom: -20px;">
   <p style="font-weight: bold;"></p>
 </div>
 
+:::
+
+::: {.column width="40%"}
+
 - In a system with well-defined property rights and competitive markets in which to sell those rights, the actions of self-interested individuals will result in an efficient equilibrium.
+
+
+:::
+::::
+
+
 
 
 ## Property Rights
 ### Water Rights in Agriculture
 
-<div style="text-align: center; width: 80%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/water-property-right-ag.png" style="width: 55%; margin-bottom: -20px;">
+
+:::: {.columns}
+
+::: {.column width="50%"}
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/water-property-right-ag.png" style="width: 100%; margin-bottom: -20px;">
   <p style="font-weight: bold;"></p>
 </div>
+
+:::
+
+::: {.column width="50%"}
 
 - Consider a region where water is a *scarce* natural resource, and there are well-defined property rights for water usage, particularly among farmers in agricultural production. 
 - In this region, a competitive market exists where these water rights can be bought and sold.
 
+:::
+::::
 
-	<!-- •	Scenario: Consider a region where water is a scarce natural resource, and there are well-defined property rights for water usage, particularly among farmers in agricultural production. In this region, a competitive market exists where these water rights can be bought and sold. -->
+
+
+
 
 ## Property Rights
 ### Water Rights in Agriculture	
 
-- Producers
+:::: {.panel-tabset}
+
+## Producers
+
+::: {.nonincremental}
   - Farmers hold water rights and aim to maximize their surplus by using water efficiently to grow crops that yield the highest profit. 
   - If a particular farmer finds that selling a portion of their water rights in the market would yield a higher return than using that water for low-value crops, they may choose to sell.
-  
-- Consumers:
+
+:::
+
+## Consumers
+::: {.nonincremental}
+
   - Other farmers or industries in the region, needing water for higher-value crops or more profitable uses, are willing to buy water rights. 
   - They seek to maximize their surplus by obtaining water that enables them to produce more efficiently or profitably.
 
-- Market Outcome:
+:::
+
+## Market Outcome
+::: {.nonincremental}
+
   - The price of water rights reflects the supply and demand for water.
   - As self-interested farmers sell or buy water rights based on their own profit-maximizing decisions, water is allocated to its most valuable use.
+
+::: 
+
+::::
 
 ## Property Rights
 ### PS, Scarcity Rent, and Long-Run Competitive Equilibrium
@@ -301,14 +370,23 @@ $$
 ### Steel Mill and Hotel Resort by a River
 
 
-<div style="text-align: center; width: 80%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/steel-resort-externality.png" style="width: 75%; margin-bottom: -20px;">
+:::: {.columns}
+
+::: {.column width="50%"}
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/steel-resort-externality.png" style="width: 100%; margin-bottom: -20px;">
   <p style="font-weight: bold;"></p>
 </div>
 
+:::
+
+::: {.column width="50%"}
+
 - If these two facilities have different owners, an efficient use of the water is not likely to result.
   - Why?
-  
+
+:::
+::::
 
 
 ## Externalities as a Source of Market Failure
@@ -325,18 +403,33 @@ $$
 ## Externalities as a Source of Market Failure
 ### Steel Mill and Hotel Resort by a River
 
+:::: {.columns}
 
-<div style="text-align: center; width: 80%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/tl-fig2-4.png" style="width: 80%; margin-bottom: -20px;">
+::: {.column width="60%"}
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig2-4.png" style="width: 100%; margin-bottom: -20px;">
   <p style="font-weight: bold;"></p>
 </div>
 
+:::
 
-- Steel production produces pollution as well as steel. 
+::: {.column width="40%"}
+
+- Steel production produces *pollution* as well as steel. 
 
 - $MC_{p}$: the private marginal cost of producing the steel. 
 - $MC_{s}$: the social marginal cost
-  - Because society (including both the resort and the steel mill) considers both the cost of pollution and the cost of producing the steel, $MC_{s}$ includes both.
+  - Because society considers both the cost of pollution and the cost of producing the steel, $MC_{s}$ includes both.
+
+
+:::
+::::
+
+
+
+
+
+
 
 
 
@@ -345,10 +438,18 @@ $$
 ### Steel Mill and Hotel Resort by a River
 
 
-<div style="text-align: center; width: 80%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/tl-fig2-4.png" style="width: 80%; margin-bottom: -20px;">
+:::: {.columns}
+
+::: {.column width="60%"}
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig2-4.png" style="width: 100%; margin-bottom: -20px;">
   <p style="font-weight: bold;"></p>
 </div>
+
+
+:::
+
+::: {.column width="40%"}
 
 - How much would the steel mill produce in the competitive market?
 
@@ -357,13 +458,18 @@ $$
 - If $Q^{*} \neq Q_{m}$, what would be the loss in net benefits to the society? 
 
 
+:::
+::::
+
+
+
+
+
+
+
 ## Externalities as a Source of Market Failure
 ### Steel Mill and Hotel Resort by a River
 
-<div style="text-align: center; width: 80%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/tl-fig2-4.png" style="width: 67%; margin-bottom: -20px;">
-  <p style="font-weight: bold;"></p>
-</div>
 
 - The output of the commodity is too large.
 - Too much pollution is produced.
