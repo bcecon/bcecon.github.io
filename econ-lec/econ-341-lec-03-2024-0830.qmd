@@ -75,9 +75,9 @@ theme_set(theme_fivethirtyeight()+
 
 ## The Economic Approach
 
-- Positive Economics: Describing *what is, what was and what will be*.
+- **Positive Economics**: Describing *what is, what was and what will be*.
 
-- Normative Economics: Attempting to answer *what ought to be*.
+- **Normative Economics**: Attempting to answer *what ought to be*.
 
 - While these two types of analysis are conceptually distinct, they often inform each other. 
 
