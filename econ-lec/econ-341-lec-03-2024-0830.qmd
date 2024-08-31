@@ -344,7 +344,7 @@ $$
 - $\text{Rent}$: return to scarce inputs owned by the producer.
 - Under perfect competition, 
   - Long-run profits equal zero;
-  - Any $PS$ in natural resource industries in the long-run  equal rent.
+  - Any $PS$ in natural resource industries in the long-run equals rent.
 
 - This $PS$ in long-run equilibrium is called **scarcity rent**.
   - Cannot be eliminated by competition due to scarcity of natural resources.
