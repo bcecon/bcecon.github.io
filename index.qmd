@@ -117,7 +117,7 @@ format:
 
 
 ::: {.column width="45%"}
-## $\bullet\,$ Lecture Q & A :question:
+## $\bullet\,$ Course Discussion :question:
 
 :::{#econ-341-qa}
 :::

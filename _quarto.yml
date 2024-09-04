@@ -19,9 +19,9 @@ website:
       - text: Research
         href: index-home.qmd
       - text: " "
-      # - text: "Teaching {{< fa external-link >}}"
-      #   href: https://bcecon.github.io
-      #   target: _blank
+      - text: "DANL {{< fa external-link >}}"
+        href: https://bcdanl.github.io
+        target: _blank
       # - icon: github
       #   href: https://github.com/bcecon
       #   target: _blank

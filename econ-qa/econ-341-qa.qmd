@@ -1,5 +1,5 @@
 ---
-title: "Lecture 1"
+title: Type of Externalities
 date: last-modified
 execute: 
   echo: true
