@@ -158,7 +158,6 @@ theme_set(theme_fivethirtyeight()+
 ## Externalities as a Source of Market Failure
 ### Alternative Property Right Structures and the Incentives They Create
 
-
 :::: {.columns}
 
 ::: {.column width="50%"}
@@ -173,28 +172,42 @@ theme_set(theme_fivethirtyeight()+
 :::
 ::::
 
+
 - Bison are an example of “_open-access, common-pool_” resources. 
-  - **Common-pool resources** are *non-excludible* and *rivalrous*. 
-    - A good is **excludable** if the provider of the good can prevent people who have not paid for it from using or consuming it.
-    - A good is **rivalrous** if its consumption by one individual reduces its availability for consumption by others.
+
+- **Common-pool resources** are *non-excludible* and *rivalrous*. 
+  - A good is **excludable** if the provider of the good can prevent people who have not paid for it from using or consuming it.
+  - A good is **rivalrous** if its consumption by one individual reduces its availability for consumption by others.
 
 
-## Externalities as a Source of Market Failure 
-### Alternative Property Right Structures and the Incentives They Create
-
-<div style="text-align: center; width: 100%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/common-public-goods.png" style="width: 100%; margin-bottom: -20px;">
-  <p style="font-weight: bold;"></p>
-</div>
 
 
 ## Externalities as a Source of Market Failure
 ### Alternative Property Right Structures and the Incentives They Create
 
 
+
+
+:::: {.columns}
+
+::: {.column width="45%"}
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/bison1865.jpeg" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;">Northern and Southern Herd of Bison in 1865</p>
+</div>
+
+:::
+
+::: {.column width="55%"}
+
 - In the early history of the United States, bison were plentiful; in the absence of scarcity, efficiency was not threatened by open access.
   - Over time, the demand for bison increased and scarcity became a factor. 
   - As the number of hunters increased, eventually every additional unit of hunting activity increased the amount of additional time and effort required to produce an additional yield of bison.
+  
+:::
+::::
+
+
 
 
 
