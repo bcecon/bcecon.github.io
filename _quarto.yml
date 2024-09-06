@@ -18,7 +18,6 @@ website:
       #   href: econml.qmd
       - text: Research
         href: index-home.qmd
-      - text: " "
       - text: "DANL {{< fa external-link >}}"
         href: https://bcdanl.github.io
         target: _blank

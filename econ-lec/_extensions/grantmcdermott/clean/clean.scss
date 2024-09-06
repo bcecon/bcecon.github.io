@@ -307,3 +307,27 @@ $selection-bg: #26351c !default;
 .small-font {
   font-size: 20px;
 }
+
+.popup {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f9f9f9;
+  padding: 15px;
+  border: 1px solid #ccc;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  z-index: 1000;
+}
+
+.popup-trigger {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.popup.show {
+  display: block;
+}
