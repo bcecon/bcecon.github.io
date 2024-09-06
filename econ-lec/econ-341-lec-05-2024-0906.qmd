@@ -329,13 +329,6 @@ theme_set(theme_fivethirtyeight()+
 - The other key characteristic of public goods is that they are **non-rivalrous** 
   - A good is **rivalrous** if its consumption by one individual reduces its availability for consumption by others.
 
-## Externalities as a Source of Market Failure 
-### Public Goods
-
-<div style="text-align: center; width: 100%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/common-public-goods.png" style="width: 100%; margin-bottom: -20px;">
-  <p style="font-weight: bold;"></p>
-</div>
 
 
 ## Externalities as a Source of Market Failure 
