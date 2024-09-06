@@ -174,10 +174,18 @@ theme_set(theme_fivethirtyeight()+
 ::::
 
 - Bison are an example of “_open-access, common-pool_” resources. 
-  - **Common-pool resources** are shared resources characterized by *non-exclusivity* and *divisibility*. 
-    - **Non-exclusivity** implies that resources can be exploited by anyone.
-    - **Divisibility** means that the capture of part of the resource by one group makes that part unavailable to other groups.
+  - **Common-pool resources** are *non-excludible* and *rivalrous*. 
+    - A good is **excludable** if the provider of the good can prevent people who have not paid for it from using or consuming it.
+    - A good is **rivalrous** if its consumption by one individual reduces its availability for consumption by others.
 
+
+## Externalities as a Source of Market Failure 
+### Alternative Property Right Structures and the Incentives They Create
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/common-public-goods.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
 
 
 ## Externalities as a Source of Market Failure
