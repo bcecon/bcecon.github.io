@@ -185,8 +185,14 @@ theme_set(theme_fivethirtyeight()+
 ## Externalities as a Source of Market Failure
 ### Alternative Property Right Structures and the Incentives They Create
 
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/common-public-goods.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
 
 
+## Externalities as a Source of Market Failure
+### Alternative Property Right Structures and the Incentives They Create
 
 :::: {.columns}
 
