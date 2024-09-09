@@ -19,8 +19,8 @@ listing:
     type: table
     fields: [title, date]
     sort: 
-      - "date desc"
       - "title desc"
+      - "date desc"
     sort-ui: false
     filter-ui: false
     page-size: 36
@@ -30,8 +30,8 @@ listing:
     type: table
     fields: [title, date]
     sort: 
-      - "date desc"
       - "title desc"
+      - "date desc"
     sort-ui: false
     filter-ui: false
     page-size: 36
@@ -41,8 +41,8 @@ listing:
     type: table
     fields: [title, date]
     sort: 
-      - "date desc"
       - "title desc"
+      - "date desc"
     sort-ui: false
     filter-ui: false
     page-size: 36
@@ -51,8 +51,8 @@ listing:
     type: table
     fields: [title, date]
     sort: 
-      - "date desc"
       - "title desc"
+      - "date desc"
     sort-ui: false
     filter-ui: false
     page-size: 36

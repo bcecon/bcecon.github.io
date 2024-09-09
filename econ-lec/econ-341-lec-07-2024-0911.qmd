@@ -1,0 +1,242 @@
+---
+title: Lecture 7
+subtitle: Property Rights, Externalities, and Natural Resource Problems
+format:
+  clean-revealjs:
+    self-contained: false
+    chalkboard: true
+    incremental: true
+    code-annotations: hover
+    scrollable: false
+
+    # logo: logo-title-slide.png
+author:
+  - name: Byeong-Hak Choe
+    email: bchoe@geneseo.edu
+    affiliations: SUNY Geneseo
+date: 2024-09-11
+execute: 
+  eval: true
+  echo: true
+callout-icon: false
+
+from: markdown+emoji
+include-after-body: target-hover.html # effect.html
+
+# bibliography: refs.bib
+---
+
+
+```{r setup}
+#| include: false
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+
+
+theme_set(theme_fivethirtyeight()+
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = 
+                  element_text(angle = 0,
+                               size = rel(1.5),
+                               margin = margin(10,0,0,0)),
+                axis.title.y = 
+                  element_text(angle = 0,
+                               size = rel(1.5),
+                               margin = margin(0,10,0,0)),
+                axis.text.x = element_text(size = rel(1.5)),
+                axis.text.y = element_text(size = rel(1.5)),
+                strip.text = element_text(size = rel(1.5)),
+                legend.position = "top",
+                legend.text = element_text(size = rel(1.5)),
+                legend.title = element_text(size = rel(1.5))
+                )
+          )
+```
+
+
+
+
+# The Economic Approach: Property Rights, Externalities, and Natural Resource Problems {background-color="#1c4982"}
+
+
+## The Pursuit of Efficiency
+- Environmental and natural resource problems arise from:
+  - Ill-defined property rights
+  - Non-competitive exchange conditions for these rights
+
+- Governmental pathways for remedies:
+  1. Judicial remedies
+  2. Legislative and executive regulation
+  
+  
+
+## The Pursuit of Efficiency
+### Judicial Liability Rules
+- Impose liability for environmental damages
+- Examples: 
+  - Oil spills
+  - Accidental pollutant releases
+- Compensation awarded after the fact
+- Two main doctrines: 
+  - Strict liability and negligence
+- Strict liability applies to abnormally dangerous activities
+
+
+## The Pursuit of Efficiency
+### Judicial Liability Rules
+- Benefits of liability rules:
+  - Create incentives for prevention through precedents
+  - Can make accident prevention cheaper than dealing with damage
+  - Correct inefficiencies by internalizing externalities
+  - Align profit-maximizing decisions with efficiency
+
+
+## The Pursuit of Efficiency
+### Judicial Liability Rules
+- Limitations of judicial approach:
+  - Requires case-by-case determinations
+  - High **transaction costs** (court time, lawyers' fees, expert witnesses)
+  - Less efficient for large-scale or common disputes
+
+- Alternative to judicial approach:
+  - Statutes or regulations for large-scale or common issues
+
+
+
+## The Pursuit of Efficiency
+### Legislative and Executive Regulation
+
+- Forms of legislative and executive remedies:
+  - Setting pollution limits with fines for noncompliance
+  - Imposing jail sentences or large fines as deterrents
+  - Establishing zoning laws to separate incompatible land uses
+  - Banning specific toxic substances (e.g., lead in gasoline)
+  - Requiring safety equipment (e.g., seat belts in cars)
+  - Regulating outputs, inputs, production processes, emissions, and production locations
+
+- Other strategies available to victims:
+  - Promoting boycotts against problematic producers or products
+  - Employee strikes or labor resistance
+
+
+## The Pursuit of Efficiency
+### Legislative and Executive Regulation
+- Addressing asymmetric information:
+  - Mandating information disclosure for risky occupations
+  - Requiring licensing for specialized workers
+  - Providing safety information for potentially dangerous consumer products
+
+
+
+## The Pursuit of Efficiency
+### Legislative and Executive Regulation---Organic Foods Production Act
+- Driven by consumer willingness to pay premiums and need for market access
+- Organic Foods Production Act (OFPA) enacted in the 1990 Farm Bill
+- Objectives: 
+  - National standards
+  - Consumer assurance
+  - Facilitating interstate commerce
+
+
+## The Pursuit of Efficiency
+### Legislative and Executive Regulation---Organic Foods Production Act
+- USDA National Organic Program established for mandatory certification
+- National Organic Standards Board (NOSB) defines organic standards
+- Specific labeling requirements:
+  - "100 percent organic": only organic ingredients
+  - "Organic": at least 95% organic ingredients
+  - "Made with Organic Ingredients": at least 70% organic ingredients
+
+
+
+
+## The Pursuit of Efficiency
+### Can Eco-Certification Make a Difference? Organic Costa Rican Coffee
+:::: {.columns}
+
+::: {.column width="23%"}
+<div style="display:block; margin:25px;"></div>
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/costa-rica-coffee.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+
+::: {.column width="77%"}
+- Environmental regulation of agricultural production in developing countries is challenging due to:
+  - Numerous and dispersed producers
+  - Inadequately funded/staffed regulatory agencies
+
+- Eco-certification could potentially address these issues by:
+  - Allowing consumers to identify environmentally superior products
+  - Creating financial incentives for producers through price premiums
+
+
+:::
+
+::::
+
+
+
+## The Pursuit of Efficiency
+### Can Eco-Certification Make a Difference? Organic Costa Rican Coffee
+:::: {.columns}
+
+::: {.column width="23%"}
+<div style="display:block; margin:25px;"></div>
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/costa-rica-coffee.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+
+::: {.column width="77%"}
+
+- A study on certified organic coffee in Turrialba, Costa Rica, investigated the effectiveness of eco-certification:
+  - Costa Rican farmers face pressure to lower costs in non-certified markets
+  - Organic production typically involves higher labor costs and potential yield reduction
+  - Costs of certification and annual monitoring are significant
+
+:::
+
+::::
+
+
+
+
+## The Pursuit of Efficiency
+### Can Eco-Certification Make a Difference? Organic Costa Rican Coffee
+:::: {.columns}
+
+::: {.column width="23%"}
+<div style="display:block; margin:25px;"></div>
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/costa-rica-coffee.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+
+::: {.column width="77%"}
+
+- The study found that organic certification:
+  - Improved coffee growers' environmental performance
+  - Significantly reduced use of pesticides, chemical fertilizers, and herbicides
+  - Increased use of organic fertilizer
+
+- Key findings:
+  - Certification was more effective in preventing negative practices than encouraging positive ones
+  - Local inspectors tended to enforce prohibitions more vigorously than requirements for positive actions
+
+
+:::
+
+::::
+
+
+
