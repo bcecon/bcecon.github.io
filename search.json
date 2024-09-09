@@ -9,7 +9,7 @@
   {
     "objectID": "econ-qa/econ-341-qa.html",
     "href": "econ-qa/econ-341-qa.html",
-    "title": "Type of Externalities",
+    "title": "1. Type of Externalities",
     "section": "",
     "text": "Welcome to our Discussion Board! 👋 \nThis space is designed for you to engage with your classmates about the materials.\nWhether you are looking to delve deeper into the slides, share insights, or have questions about the content, this is the perfect place for you.\nIf you have any specific questions for Byeong-Hak (@bcdanl) or need clarification on any points, don’t hesitate to ask here.\nLet’s collaborate and learn from each other!\n\nPlease provide an example of a negative externality and an example of a positive externality.\nFor each example:\n\nExplain why it is considered a negative or positive externality.\nDescribe who generates the externality and who is affected by it.\n\n\n\n\n\n Back to top"
   },
@@ -326,7 +326,7 @@
     "href": "listing-econ-341-cw.html",
     "title": "ECON 341 - Classwork",
     "section": "",
-    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nPublic Goods\n\n\nClasswork 2\n\n\nSeptember 6, 2024\n\n\n\n\nExternalities\n\n\nClasswork 1\n\n\nSeptember 3, 2024\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\n3. Public Goods\n\n\n\n\n\nSeptember 9, 2024\n\n\n\n\n2. Utility Maximization\n\n\n\n\n\nSeptember 9, 2024\n\n\n\n\n1. Externalities\n\n\n\n\n\nSeptember 4, 2024\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "posts/starwars/starwars_df.html",
@@ -466,7 +466,7 @@
     "href": "listing-econ-341-qa.html",
     "title": "ECON 341 - Discussion",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\nType of Externalities\n\n\nSeptember 4, 2024\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n1. Type of Externalities\n\n\nSeptember 5, 2024\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "index.html",
@@ -487,14 +487,14 @@
     "href": "index.html#bullet-course-discussion",
     "title": "ECON 341-01: Natural Resource Economics, Fall 2024",
     "section": "\\(\\bullet\\,\\) Course Discussion ❓",
-    "text": "\\(\\bullet\\,\\) Course Discussion ❓\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nType of Externalities\n\n\nSeptember 4, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "\\(\\bullet\\,\\) Course Discussion ❓\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\n1. Type of Externalities\n\n\nSeptember 5, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#bullet-classwork",
     "href": "index.html#bullet-classwork",
     "title": "ECON 341-01: Natural Resource Economics, Fall 2024",
     "section": "\\(\\bullet\\,\\) Classwork ⌨️",
-    "text": "\\(\\bullet\\,\\) Classwork ⌨️\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nPublic Goods\n\n\nSeptember 6, 2024\n\n\n\n\nExternalities\n\n\nSeptember 3, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "\\(\\bullet\\,\\) Classwork ⌨️\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\n2. Utility Maximization\n\n\nSeptember 9, 2024\n\n\n\n\n3. Public Goods\n\n\nSeptember 9, 2024\n\n\n\n\n1. Externalities\n\n\nSeptember 4, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#bullet-homework",
@@ -1031,30 +1031,30 @@
   {
     "objectID": "econ-cw/econ-341-cw-02.html",
     "href": "econ-cw/econ-341-cw-02.html",
-    "title": "Public Goods",
+    "title": "2. Utility Maximization",
     "section": "",
-    "text": "The town of Geneseo has two residents: Ben and Tiana. The town currently funds its sustainability department solely from the individual contributions of Ben and Tiana.\nBen and Tiana have their own utility functions, \\(U_{B}\\) and \\(U_{T}\\) respectively, over private goods ( \\(X\\) ) and total sustainability workers ( \\(M\\) ) of the forms:\n\\[U_{B} = 3 × \\log(X_{B}) + 3 × \\log(M).\\] \\[U_{T} = 4 × \\log(X_{T}) + 2 × \\log(M).\\]\nThe total provision of sustainability workers hired, \\(M\\), is the sum of the number hired by each of the two persons:\n\\[M = M_{B} + M_{T}.\\]\nBen and Tiana both have income of \\(\\$100\\), and the price of both the private good and the sustainability worker is \\(\\$1\\). Therefore, they are limited to providing between 0 and 100 sustainability workers."
+    "text": "The Cobb-Douglas utility function is\n\\[\n\\begin{align}\nu(x_{1}, x_{2}) = x_{1}^{\\alpha}x_{2}^{\\beta}.\n\\end{align}\n\\] Since utility functions are only defined up to a monotonic transformation, it is convenient to take logs of this expression and work with:\n\\[\n\\begin{align}\n\\log u(x_{1}, x_{2}) = \\alpha \\log x_{1} + \\beta \\log x_{2}.\n\\end{align}\n\\]\n\nBy the way, a monotonic transformation is a way of transforming one set of numbers into another set of numbers in a way that the order of the numbers is preserved.\n\nTherefore, a monotonic transformation of a utility function preserves the order of the utility values.\nIf bundle \\(A\\) is preferred to bundle \\(B\\), then a monotonic transformation of the utility function will still show that \\(A\\) is preferred to \\(B\\).\n\n\nLet’s find the demand functions for \\(x_1\\) and \\(x_2\\) for the Cobb-Douglas utility function. The problem we want to solve is\n\\[\n\\begin{align}\n\\max_{x_{1}, x_{2}}&\\; \\log u(x_{1}, x_{2}) = \\alpha \\log x_{1} + \\beta \\log x_{2} \\tag{1}\\\\\n\\text{such that}&\\quad Y \\;\\geq\\; p_{1}x_{1} + p_{2}x_{2} \\tag{2}\n\\end{align}\n\\]\nThere are at least two ways to solve this problem.\n\n\nSince “the more, the better” holds for this consumer, the budget constraint holds with equality at the optimum. Using this fact, we can then substitute out \\(x_{2}\\) in problem (1) using the budget constraint (2) with equality.\n\\[\n\\begin{align}\n\\max_{x_{1}}&\\; \\log u(x_{1}) = \\alpha \\log x_{1} + \\beta \\log \\left(\\frac{Y - p_{1}x_{1}}{p_{2}}\\right) \\tag{3}\n\\end{align}\n\\] The first order condition for problem (3) is\n\\[\n\\begin{align}\n\\frac{\\alpha}{x_{1}} + \\frac{\\beta}{\\left(\\frac{Y - p_{1}x_{1}}{p_{2}}\\right)}\\left(-\\frac{p_{1}}{p_{2}}\\right) \\,=\\, 0.  \\tag{4}\n\\end{align}\n\\] Re-arranging the first-order condition (4) and the budget constraint (2) with equality gives the demand for \\(x_{1}\\) and \\(x_{2}\\):\n\\[\n\\begin{align}\nx_{1}^{*} = \\frac{\\alpha}{\\alpha + \\beta} \\frac{Y}{p_{1}},\\\\\nx_{2}^{*} = \\frac{\\beta}{\\alpha + \\beta} \\frac{Y}{p_{2}}.\n\\end{align}\n\\]\n\n\n\nNow for Lagrange’s method for the problem (1) with constraint (2). Set up the Lagrangian: \\[\n\\mathcal{L} = \\alpha\\log x_{1} + \\beta\\log x_{2} + \\lambda(Y - p_{1}x_{1} - p_{2}x_{2}). \\tag{5}\n\\] Differentiate (5) with respect to each of the choice variables, \\(x_{1}, x_{2}\\), and \\(\\lambda\\) to get the three first-order conditions:\n\\[\n\\begin{align}\n\\frac{\\partial\\mathcal{L}}{\\partial x_{1}} &= \\frac{\\alpha}{x_{1}} - \\lambda p_{1} = 0, \\tag{6}\\\\\n\\frac{\\partial\\mathcal{L}}{\\partial x_{2}} &= \\frac{\\beta}{x_{2}} - \\lambda p_{2} = 0, \\tag{7}\\\\\n\\frac{\\partial\\mathcal{L}}{\\partial x_{1}} &= Y - p_{1}x_{1} - p_{2}x_{2} = 0. \\tag{8}\\\\\n\\end{align}\n\\] Now we are to solve the system of equations—three unknowns (\\(x_{1}, x_{2}\\), and \\(\\lambda\\)), three equations (6), (7), and (8).\nRearranging (6) and (7) gives: \\[\n\\begin{align}\nx_{1} = \\frac{\\alpha}{\\lambda p_{1}},\\tag{8}\\\\\nx_{2} = \\frac{\\beta}{\\lambda p_{2}}.\\tag{9}\n\\end{align}\n\\]\nNow we need to find \\(\\lambda\\).\nRearranging (6) and (7) also gives: \\[\n\\begin{align}\n\\alpha  &= \\lambda p_{1}x_{1},\\\\\n\\beta  &= \\lambda p_{2}x_{2}.\n\\end{align}\n\\] Adding the equations above gives:\n\\[\n\\alpha + \\beta = \\lambda(p_{1}x_{1} + p_{2}x_{2}) = \\lambda Y,\n\\] which gives us\n\\[\n\\lambda = \\frac{\\alpha + \\beta}{Y}.\\tag{10}\n\\]\nSubstitute (10) back into (8) and (9) and solve for \\(x_{1}\\) and \\(x_{2}\\) to get\n\\[\n\\begin{align}\nx_{1}^{*} = \\frac{\\alpha}{\\alpha + \\beta} \\frac{Y}{p_{1}},\\\\\nx_{2}^{*} = \\frac{\\beta}{\\alpha + \\beta} \\frac{Y}{p_{2}},\n\\end{align}\n\\]\njust as before."
   },
   {
     "objectID": "econ-cw/econ-341-cw-02.html#q1",
     "href": "econ-cw/econ-341-cw-02.html#q1",
     "title": "Public Goods",
     "section": "Q1",
-    "text": "Q1\n\nHow many sustainability workers are hired if the Geneseo government does not intervene?\n\nHow many are paid for by Ben? By Tiana?\nDescribe the Ben’s and the Tiana’s decisions on provision of sustainability workers using a graph in the \\((M_{B}, M_{T})\\) space."
+    "text": "Q1\n\nHow many sustainability workers are hired if the Geneseo government does not intervene?\n\nHow many are paid for by Ben? By Tiana?\nDescribe the Ben’s and the Tiana’s decisions on provision of sustainability workers using a graph in the \\((M_{B}, M_{T})\\) space.\n\n\nHint: Solve each individual’s utility maximization problem under his or her own budget constraint. For example, the following is Ben’s utility maximization problem:\n\\[\n\\begin{align}\n\\max_{X_{B},\\, M_{B}}\\; U_{B} \\,=\\,& 3 × \\log(X_{B}) + 3 × \\log(M)\\tag{P-Ben}\\\\\n\\text{subject to}\\quad 100 \\,\\geq\\,& 1\\times X_{B} \\,+\\, 1 \\times M_{B}\\tag{Budget-Ben}\\\\\nM \\,=\\,& M_{B} \\,+\\, M_{T}\n\\end{align}\n\\] Note that (Budget-Ben) holds with equality at the optimal level of bundle \\((X_{B}^{*}, M_{B}^{*})\\) Ben would like to choose."
   },
   {
     "objectID": "econ-cw/econ-341-cw-02.html#q2",
     "href": "econ-cw/econ-341-cw-02.html#q2",
     "title": "Public Goods",
     "section": "Q2",
-    "text": "Q2\n\nWhat is the socially optimal number of sustainability workers if the Social planner appreciates each individual’s budget constraint?"
+    "text": "Q2\n\nWhat is the socially optimal number of sustainability workers?\n\nHint: Solve the social welfare maximization problem under each individual’s budget constraint. For example, the following is the social welfare maximization problem:\n\\[\n\\begin{align}\n\\max_{X_{B},\\, M_{B}, X_{T},\\, M_{T}}\\; SW \\,=\\,& U_{B} \\,+\\, U_{T}\\tag{P-SW}\\\\\n=\\,& 3 × \\log(X_{B}) \\,+\\, 4 × \\log(X_{T}) \\,+\\, 5 × \\log(M)\\\\\n\\text{subject to}\\quad 100 \\,\\geq\\,& 1\\times X_{B} \\,+\\, 1 \\times M_{B}\\tag{Budget-Ben}\\\\\n100 \\,\\geq\\,& 1\\times X_{T} \\,+\\, 1 \\times M_{T}\\tag{Budget-Tiana}\\\\\nM \\,=\\,& M_{B} \\,+\\, M_{T}\n\\end{align}\n\\] Note that both (Budget-Ben) and (Budget-Tiana) hold with equality at the socially optimal level of bundle \\((X_{B}^{o}, M_{B}^{o}, X_{T}^{o}, M_{T}^{o})\\) the Geneseo Government would like to choose."
   },
   {
     "objectID": "econ-cw/econ-341-cw-02.html#q3",
     "href": "econ-cw/econ-341-cw-02.html#q3",
     "title": "Public Goods",
     "section": "Q3",
-    "text": "Q3\n\nIf your answer in Q1b differs from Q1a, explain economically and intuitively why they are different."
+    "text": "Q3\n\nIf your answer in Q1 differs from Q2, explain economically and intuitively why they are different."
   },
   {
     "objectID": "econ-lec/econ-341-lec-05-2024-0906.html#externalities-as-a-source-of-market-failure-19",
@@ -1062,5 +1062,173 @@
     "title": "Lecture 5",
     "section": "Externalities as a Source of Market Failure",
     "text": "Externalities as a Source of Market Failure\nPublic Goods\n\n\n\n\n\n\n\n\n\nBecause biodiversity is non-rival in consumption and non-excludable, consumers receive the value of any biodiversity purchased by other people.\nThese properties of the public good diminishes incentives to contribute, so the public good will be under-supplied.\nThe privately supplied amount may not be zero, because some diversity is likely to be privately supplied.\n\nRelying solely on the private provision of public goods result in the preservation of a smaller-than-efficient amount of biological diversity."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-06-2024-0909.html#externalities-as-a-source-of-market-failure",
+    "href": "econ-lec/econ-341-lec-06-2024-0909.html#externalities-as-a-source-of-market-failure",
+    "title": "Lecture 6",
+    "section": "Externalities as a Source of Market Failure",
+    "text": "Externalities as a Source of Market Failure\nPublic Goods\n\nPublic goods are goods enjoyed in common (e.g. the warning service provided by a lighthouse)\nOne key characteristic of public goods is that they are non-excludable\n\nA good is excludable if the provider of the good can prevent people who have not paid for it from using or consuming it.\n\nThe other key characteristic of public goods is that they are non-rivalrous\n\nA good is rivalrous if its consumption by one individual reduces its availability for consumption by others."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-06-2024-0909.html#externalities-as-a-source-of-market-failure-1",
+    "href": "econ-lec/econ-341-lec-06-2024-0909.html#externalities-as-a-source-of-market-failure-1",
+    "title": "Lecture 6",
+    "section": "Externalities as a Source of Market Failure",
+    "text": "Externalities as a Source of Market Failure\nPublic Goods\n\n\n\n\n\n\n\n\n\nThe top two graphs show individual demand for preserving biodiversity among two people, \\(A\\) and \\(B\\).\nThe market demand curve is represented by the vertical summation of the two individual demand curves.\n\nIf everyone can simultaneously consume the same level of biological diversity, market demand is the vertical sum, not the horizontal sum, of individual demand curves.\n\nThe allocation that maximizes economic surplus is \\(Q^{*}\\), the allocation where the demand curve crosses the MC curve."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-06-2024-0909.html#externalities-as-a-source-of-market-failure-2",
+    "href": "econ-lec/econ-341-lec-06-2024-0909.html#externalities-as-a-source-of-market-failure-2",
+    "title": "Lecture 6",
+    "section": "Externalities as a Source of Market Failure",
+    "text": "Externalities as a Source of Market Failure\nPublic Goods\n\n\n\n\n\n\n\n\n\nThe two consumers have very different marginal willingness to pay from the efficient allocation of this good (\\(OA\\) versus \\(OB\\)).\n\nAn efficient pricing system would require charging a different price to each consumer.\n\nIn the absence of excludability, all consumers have an incentive to understate the strength of their preferences to try to shift more of the cost burden to the other consumers.\nTherefore, inefficiency results because each person can become a free rider on the other’s contribution."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-06-2024-0909.html#externalities-as-a-source-of-market-failure-3",
+    "href": "econ-lec/econ-341-lec-06-2024-0909.html#externalities-as-a-source-of-market-failure-3",
+    "title": "Lecture 6",
+    "section": "Externalities as a Source of Market Failure",
+    "text": "Externalities as a Source of Market Failure\nPublic Goods\n\n\n\n\n\n\n\n\n\nBecause biodiversity is non-rival in consumption and non-excludable, consumers receive the value of any biodiversity purchased by other people.\nThese properties of the public good diminishes incentives to contribute, so the public good will be under-supplied.\nThe privately supplied amount may not be zero, because some diversity is likely to be privately supplied.\n\nRelying solely on the private provision of public goods result in the preservation of a smaller-than-efficient amount of biological diversity."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-06-2024-0909.html#imperfect-market-structure",
+    "href": "econ-lec/econ-341-lec-06-2024-0909.html#imperfect-market-structure",
+    "title": "Lecture 6",
+    "section": "Imperfect Market Structure",
+    "text": "Imperfect Market Structure\nAsymmetric Information\n\nA situation where one or more parties have more information than the others.\nAsymmetric information creates problems for the market when it results in a decision-maker knowing too little to make an efficient choice."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-06-2024-0909.html#imperfect-market-structure-1",
+    "href": "econ-lec/econ-341-lec-06-2024-0909.html#imperfect-market-structure-1",
+    "title": "Lecture 6",
+    "section": "Imperfect Market Structure",
+    "text": "Imperfect Market Structure\nAsymmetric Information\n\nExample: Consumer preference for organic food\nProblem: Difficulty in distinguishing genuine organic produce\nCauses:\n\nEasy for producers to falsely claim organic status\nConsumers lack accurate information\n\nConsequences:\n\nConsumers unwilling to pay premium for “organic” produce\nReduced profits for genuine organic farmers\nInefficiently low output of organic produce"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-06-2024-0909.html#imperfect-market-structure-2",
+    "href": "econ-lec/econ-341-lec-06-2024-0909.html#imperfect-market-structure-2",
+    "title": "Lecture 6",
+    "section": "Imperfect Market Structure",
+    "text": "Imperfect Market Structure\nGovernment Failure\n\nGovernment failure, like market failure, can lead to inefficient outcomes in environmental resource allocation\nRoot cause: improper incentives in political processes\nRent seeking: special interest groups use lobbying to secure favorable legislation\nRent seeking often increases benefits for the group but lowers overall societal surplus\nReasons why losers don’t protect their interests:\n\nVoter ignorance (rational due to high information costs and low impact of single vote)\nDifficulty in organizing diffuse groups with small individual impacts\nFree-rider problem in opposing special interests"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency",
+    "href": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency",
+    "title": "Lecture 6",
+    "section": "The Pursuit of Efficiency",
+    "text": "The Pursuit of Efficiency\n\nEnvironmental problems arise from:\n\nIll-defined property rights\nNon-competitive exchange conditions\n\nGovernmental pathways for remedies:\n\nJudicial remedies\nLegislative and executive regulation"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-1",
+    "href": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-1",
+    "title": "Lecture 6",
+    "section": "The Pursuit of Efficiency",
+    "text": "The Pursuit of Efficiency\nJudicial Liability Rules\n\nImpose liability for environmental damages\nExamples:\n\nOil spills\nAccidental pollutant releases\n\nCompensation awarded after the fact\nTwo main doctrines:\n\nStrict liability and negligence\n\nStrict liability applies to abnormally dangerous activities"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-2",
+    "href": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-2",
+    "title": "Lecture 6",
+    "section": "The Pursuit of Efficiency",
+    "text": "The Pursuit of Efficiency\nJudicial Liability Rules\n\nBenefits of liability rules:\n\nCreate incentives for prevention through precedents\nCan make accident prevention cheaper than dealing with damage\nCorrect inefficiencies by internalizing externalities\nAlign profit-maximizing decisions with efficiency\n\nLimitations of judicial approach:\n\nRequires case-by-case determinations\nHigh transaction costs (court time, lawyers’ fees, expert witnesses)\nLess efficient for large-scale or common disputes\n\nAlternative to judicial approach:\n\nStatutes or regulations for large-scale or common issues"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-3",
+    "href": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-3",
+    "title": "Lecture 6",
+    "section": "The Pursuit of Efficiency",
+    "text": "The Pursuit of Efficiency\nLegislative and Executive Regulation\n\nForms of legislative and executive remedies:\n\nSetting pollution limits with fines for noncompliance\nImposing jail sentences or large fines as deterrents\nEstablishing zoning laws to separate incompatible land uses\nBanning specific toxic substances (e.g., lead in gasoline)\nRequiring safety equipment (e.g., seat belts in cars)\nRegulating outputs, inputs, production processes, emissions, and production locations\n\nOther strategies available to victims:\n\nPromoting boycotts against problematic producers or products\nEmployee strikes or labor resistance"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-4",
+    "href": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-4",
+    "title": "Lecture 6",
+    "section": "The Pursuit of Efficiency",
+    "text": "The Pursuit of Efficiency\nLegislative and Executive Regulation\n\nAddressing asymmetric information:\n\nMandating information disclosure for risky occupations\nRequiring licensing for specialized workers\nProviding safety information for potentially dangerous consumer products"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-06-2024-0909.html#imperfect-market-structure-3",
+    "href": "econ-lec/econ-341-lec-06-2024-0909.html#imperfect-market-structure-3",
+    "title": "Lecture 6",
+    "section": "Imperfect Market Structure",
+    "text": "Imperfect Market Structure\nGovernment Failure\n\nForms of rent seeking:\n\nSeeking tariffs or price floors\nPursuing regulations that disproportionately affect competitors\nObtaining subsidies to transfer costs to taxpayers\n\nOther sources of inefficient policy:\n\nGovernment acting without full information (e.g., chemical substance added to gasoline)"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-06-2024-0909.html#imperfect-market-structure-4",
+    "href": "econ-lec/econ-341-lec-06-2024-0909.html#imperfect-market-structure-4",
+    "title": "Lecture 6",
+    "section": "Imperfect Market Structure",
+    "text": "Imperfect Market Structure\nGovernment Failure\n\nKey takeaway:\n\nBlind faith in one institution or another is no substitute for rational choices that take the specific context into consideration\n\nEnvironmental problems arise from divergence between individual and collective objectives\nSolution:\n\nRe-align individual incentives with collective objectives"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-5",
+    "href": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-5",
+    "title": "Lecture 6",
+    "section": "The Pursuit of Efficiency",
+    "text": "The Pursuit of Efficiency\nLegislative and Executive Regulation—Organic Foods Production Act\n\nDriven by consumer willingness to pay premiums and need for market access\nOrganic Foods Production Act (OFPA) enacted in the 1990 Farm Bill\nObjectives:\n\nNational standards\nConsumer assurance\nFacilitating interstate commerce\n\nUSDA National Organic Program established for mandatory certification\nNational Organic Standards Board (NOSB) defines organic standards\nSpecific labeling requirements:\n\n“100 percent organic”: only organic ingredients\n“Organic”: at least 95% organic ingredients\n“Made with Organic Ingredients”: at least 70% organic ingredients"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-6",
+    "href": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-6",
+    "title": "Lecture 6",
+    "section": "The Pursuit of Efficiency",
+    "text": "The Pursuit of Efficiency\nCan Eco-Certification Make a Difference? Organic Costa Rican Coffee\n\n\n\n\n\n\n\n\n\n\n\n\nEnvironmental regulation of agricultural production in developing countries is challenging due to:\n\nNumerous and dispersed producers\nInadequately funded and staffed regulatory agencies\n\nEco-certification could potentially address these issues by:\n\nAllowing consumers to identify environmentally superior products\nCreating financial incentives for producers through price premiums"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-7",
+    "href": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-7",
+    "title": "Lecture 6",
+    "section": "The Pursuit of Efficiency",
+    "text": "The Pursuit of Efficiency\nCan Eco-Certification Make a Difference? Organic Costa Rican Coffee\n\n\n\n\n\n\n\n\n\n\n\n\nA study on certified organic coffee in Turrialba, Costa Rica, investigated the effectiveness of eco-certification:\n\nCosta Rican farmers face pressure to lower costs in non-certified markets\nOrganic production typically involves higher labor costs and potential yield reduction\nCertification and annual monitoring costs are significant"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-8",
+    "href": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-8",
+    "title": "Lecture 6",
+    "section": "The Pursuit of Efficiency",
+    "text": "The Pursuit of Efficiency\nCan Eco-Certification Make a Difference? Organic Costa Rican Coffee\n\n\n\n\n\n\n\n\n\n\n\n\nThe study found that organic certification:\n\nImproved coffee growers’ environmental performance\nSignificantly reduced use of pesticides, chemical fertilizers, and herbicides\nIncreased use of organic fertilizer\n\nKey findings:\n\nCertification was more effective in preventing negative practices than encouraging positive ones\nLocal inspectors tended to enforce prohibitions more vigorously than requirements for positive actions"
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-02.html#substituing-out-the-budget-contraint-in-the-maximization-problem",
+    "href": "econ-cw/econ-341-cw-02.html#substituing-out-the-budget-contraint-in-the-maximization-problem",
+    "title": "2. Utility Maximization",
+    "section": "",
+    "text": "Since “the more, the better” holds for this consumer, the budget constraint holds with equality at the optimum. Using this fact, we can then substitute out \\(x_{2}\\) in problem (1) using the budget constraint (2) with equality.\n\\[\n\\begin{align}\n\\max_{x_{1}}&\\; \\log u(x_{1}) = \\alpha \\log x_{1} + \\beta \\log \\left(\\frac{Y - p_{1}x_{1}}{p_{2}}\\right) \\tag{3}\n\\end{align}\n\\] The first order condition for problem (3) is\n\\[\n\\begin{align}\n\\frac{\\alpha}{x_{1}} + \\frac{\\beta}{\\left(\\frac{Y - p_{1}x_{1}}{p_{2}}\\right)}\\left(-\\frac{p_{1}}{p_{2}}\\right) \\,=\\, 0.  \\tag{4}\n\\end{align}\n\\] Re-arranging the first-order condition (4) and the budget constraint (2) with equality gives the demand for \\(x_{1}\\) and \\(x_{2}\\):\n\\[\n\\begin{align}\nx_{1}^{*} = \\frac{\\alpha}{\\alpha + \\beta} \\frac{Y}{p_{1}},\\\\\nx_{2}^{*} = \\frac{\\beta}{\\alpha + \\beta} \\frac{Y}{p_{2}}.\n\\end{align}\n\\]"
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-02.html#lagranges-method",
+    "href": "econ-cw/econ-341-cw-02.html#lagranges-method",
+    "title": "2. Utility Maximization",
+    "section": "",
+    "text": "Now for Lagrange’s method for the problem (1) with constraint (2). Set up the Lagrangian: \\[\n\\mathcal{L} = \\alpha\\log x_{1} + \\beta\\log x_{2} + \\lambda(Y - p_{1}x_{1} - p_{2}x_{2}). \\tag{5}\n\\] Differentiate (5) with respect to each of the choice variables, \\(x_{1}, x_{2}\\), and \\(\\lambda\\) to get the three first-order conditions:\n\\[\n\\begin{align}\n\\frac{\\partial\\mathcal{L}}{\\partial x_{1}} &= \\frac{\\alpha}{x_{1}} - \\lambda p_{1} = 0, \\tag{6}\\\\\n\\frac{\\partial\\mathcal{L}}{\\partial x_{2}} &= \\frac{\\beta}{x_{2}} - \\lambda p_{2} = 0, \\tag{7}\\\\\n\\frac{\\partial\\mathcal{L}}{\\partial x_{1}} &= Y - p_{1}x_{1} - p_{2}x_{2} = 0. \\tag{8}\\\\\n\\end{align}\n\\] Now we are to solve the system of equations—three unknowns (\\(x_{1}, x_{2}\\), and \\(\\lambda\\)), three equations (6), (7), and (8).\nRearranging (6) and (7) gives: \\[\n\\begin{align}\nx_{1} = \\frac{\\alpha}{\\lambda p_{1}},\\tag{8}\\\\\nx_{2} = \\frac{\\beta}{\\lambda p_{2}}.\\tag{9}\n\\end{align}\n\\]\nNow we need to find \\(\\lambda\\).\nRearranging (6) and (7) also gives: \\[\n\\begin{align}\n\\alpha  &= \\lambda p_{1}x_{1},\\\\\n\\beta  &= \\lambda p_{2}x_{2}.\n\\end{align}\n\\] Adding the equations above gives:\n\\[\n\\alpha + \\beta = \\lambda(p_{1}x_{1} + p_{2}x_{2}) = \\lambda Y,\n\\] which gives us\n\\[\n\\lambda = \\frac{\\alpha + \\beta}{Y}.\\tag{10}\n\\]\nSubstitute (10) back into (8) and (9) and solve for \\(x_{1}\\) and \\(x_{2}\\) to get\n\\[\n\\begin{align}\nx_{1}^{*} = \\frac{\\alpha}{\\alpha + \\beta} \\frac{Y}{p_{1}},\\\\\nx_{2}^{*} = \\frac{\\beta}{\\alpha + \\beta} \\frac{Y}{p_{2}},\n\\end{align}\n\\]\njust as before."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-03.html",
+    "href": "econ-cw/econ-341-cw-03.html",
+    "title": "Public Goods",
+    "section": "",
+    "text": "The town of Geneseo has two residents: Ben and Tiana. The town currently funds its sustainability department solely from the individual contributions of Ben and Tiana.\nBen and Tiana have their own utility functions, \\(U_{B}\\) and \\(U_{T}\\) respectively, over private goods ( \\(X\\) ) and total sustainability workers ( \\(M\\) ) of the forms:\n\\[U_{B} = 3 × \\log(X_{B}) + 3 × \\log(M).\\] \\[U_{T} = 4 × \\log(X_{T}) + 2 × \\log(M).\\]\nThe total provision of sustainability workers hired, \\(M\\), is the sum of the number hired by each of the two persons:\n\\[M = M_{B} + M_{T}.\\]\nBen and Tiana both have income of \\(\\$100\\), and the price of both the private good and the sustainability worker is \\(\\$1\\). Therefore, they are limited to providing between 0 and 100 sustainability workers."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-03.html#q1",
+    "href": "econ-cw/econ-341-cw-03.html#q1",
+    "title": "Public Goods",
+    "section": "Q1",
+    "text": "Q1\n\nHow many sustainability workers are hired if the Geneseo government does not intervene?\n\nHow many are paid for by Ben? By Tiana?\nDescribe the Ben’s and the Tiana’s decisions on provision of sustainability workers using a graph in the \\((M_{B}, M_{T})\\) space.\n\n\nHint: Solve each individual’s utility maximization problem under his or her own budget constraint. For example, the following is Ben’s utility maximization problem:\n\\[\n\\begin{align}\n\\max_{X_{B},\\, M_{B}}\\; U_{B} \\,=\\,& 3 × \\log(X_{B}) + 3 × \\log(M)\\tag{P-Ben}\\\\\n\\text{subject to}\\quad 100 \\,\\geq\\,& 1\\times X_{B} \\,+\\, 1 \\times M_{B}\\tag{Budget-Ben}\\\\\nM \\,=\\,& M_{B} \\,+\\, M_{T}\n\\end{align}\n\\] Note that (Budget-Ben) holds with equality at the optimal level of bundle \\((X_{B}^{*}, M_{B}^{*})\\) Ben would like to choose."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-03.html#q2",
+    "href": "econ-cw/econ-341-cw-03.html#q2",
+    "title": "Public Goods",
+    "section": "Q2",
+    "text": "Q2\n\nWhat is the socially optimal number of sustainability workers?\n\nHint: Solve the social welfare maximization problem under each individual’s budget constraint. For example, the following is the social welfare maximization problem:\n\\[\n\\begin{align}\n\\max_{X_{B},\\, M_{B}, X_{T},\\, M_{T}}\\; SW \\,=\\,& U_{B} \\,+\\, U_{T}\\tag{P-SW}\\\\\n=\\,& 3 × \\log(X_{B}) \\,+\\, 4 × \\log(X_{T}) \\,+\\, 5 × \\log(M)\\\\\n\\text{subject to}\\quad 100 \\,\\geq\\,& 1\\times X_{B} \\,+\\, 1 \\times M_{B}\\tag{Budget-Ben}\\\\\n100 \\,\\geq\\,& 1\\times X_{T} \\,+\\, 1 \\times M_{T}\\tag{Budget-Tiana}\\\\\nM \\,=\\,& M_{B} \\,+\\, M_{T}\n\\end{align}\n\\] Note that both (Budget-Ben) and (Budget-Tiana) hold with equality at the socially optimal level of bundle \\((X_{B}^{o}, M_{B}^{o}, X_{T}^{o}, M_{T}^{o})\\) the Geneseo Government would like to choose."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-03.html#q3",
+    "href": "econ-cw/econ-341-cw-03.html#q3",
+    "title": "Public Goods",
+    "section": "Q3",
+    "text": "Q3\n\nIf your answer in Q1 differs from Q2, explain economically and intuitively why they are different."
   }
 ]

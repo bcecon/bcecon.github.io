@@ -1,6 +1,6 @@
 ---
-title: Public Goods
-subtitle: Classwork 2
+title: 2. Utility Maximization
+subtitle: ""
 date: last-modified
 code-fold: true
 execute: 
@@ -9,53 +9,117 @@ execute:
   message: false
 from: markdown+emoji
 ---
-```{r}
-#| include: false
 
-library(knitr)
-library(rmarkdown)
-library(tidyverse)
-library(skimr)
-library(ggthemes)
-library(hrbrthemes)
+# Utility maximization with the Cobb-Douglas utility function
 
-theme_set(theme_ipsum() +
-          theme(strip.background =element_rect(fill="lightgray"),
-                axis.title.x = element_text(size = rel(1.5)),
-                axis.title.y = element_text(size = rel(1.5)),
-                legend.title = element_text(size=rel(1.25))
-                ))
-```
+The Cobb-Douglas utility function is
 
-The town of Geneseo has two residents: Ben and Tiana. The town currently funds its sustainability department solely from the individual contributions of Ben and Tiana. 
+$$
+\begin{align}
+u(x_{1}, x_{2}) = x_{1}^{\alpha}x_{2}^{\beta}.
+\end{align}
+$$
+Since utility functions are only defined up to a monotonic transformation, it is convenient to take logs of this expression and work with:
 
-Ben and Tiana have their own utility functions, $U_{B}$ and $U_{T}$ respectively, over private goods ( $X$ ) and total sustainability workers ( $M$ ) of the forms:
+$$
+\begin{align}
+\log u(x_{1}, x_{2}) = \alpha \log x_{1} + \beta \log x_{2}.
+\end{align}
+$$
 
-$$U_{B} = 3 × \log(X_{B}) + 3 × \log(M).$$ 
-$$U_{T} = 4 × \log(X_{T}) + 2 × \log(M).$$ 
+- By the way, a monotonic transformation is a way of transforming one set of numbers into another set of numbers in a way that the order of the numbers is preserved. 
 
-The total provision of sustainability workers hired, $M$, is the sum of the number hired by each of the two persons: 
+  - Therefore, a monotonic transformation of a utility function preserves the order of the utility values. 
 
-$$M = M_{B} + M_{T}.$$ 
+  - If bundle $A$ is preferred to bundle $B$, then a monotonic transformation of the utility function will still show that $A$ is preferred to $B$.
 
-Ben and Tiana both have income of $\$100$, and the price of both the private good and the sustainability worker is $\$1$. Therefore, they are limited to providing between 0 and 100 sustainability workers.
 
-<br>
+Let’s find the demand functions for $x_1$ and $x_2$ for the Cobb-Douglas utility function. The problem we want to solve is
 
-## Q1
-- How many sustainability workers are hired if the Geneseo government does not intervene? 
-  - How many are paid for by Ben? By Tiana?
-  - Describe the Ben's and the Tiana's decisions on provision of sustainability workers using a graph in the $(M_{B}, M_{T})$ space.
+$$
+\begin{align}
+\max_{x_{1}, x_{2}}&\; \log u(x_{1}, x_{2}) = \alpha \log x_{1} + \beta \log x_{2} \tag{1}\\
+\text{such that}&\quad Y \;\geq\; p_{1}x_{1} + p_{2}x_{2} \tag{2}
+\end{align}
+$$
 
-<br>
+There are at least two ways to solve this problem. 
 
-## Q2
-- What is the socially optimal number of sustainability workers if the Social planner appreciates each individual's budget constraint? 
+## 1. Substituing out the budget contraint in the maximization problem
+Since "the more, the better" holds for this consumer, the budget constraint holds with equality at the optimum. Using this fact, we can then substitute out $x_{2}$ in problem (1) using the budget constraint (2) with equality.
 
-<br>
+$$
+\begin{align}
+\max_{x_{1}}&\; \log u(x_{1}) = \alpha \log x_{1} + \beta \log \left(\frac{Y - p_{1}x_{1}}{p_{2}}\right) \tag{3}
+\end{align}
+$$
+The first order condition for problem (3) is
 
-## Q3
-- If your answer in Q1b differs from Q1a, explain economically and intuitively why they are different.
+$$
+\begin{align}
+\frac{\alpha}{x_{1}} + \frac{\beta}{\left(\frac{Y - p_{1}x_{1}}{p_{2}}\right)}\left(-\frac{p_{1}}{p_{2}}\right) \,=\, 0.  \tag{4}
+\end{align}
+$$
+Re-arranging the first-order condition (4) and the budget constraint (2) with equality gives the demand for $x_{1}$ and $x_{2}$:
 
-<br><br><br>
+$$
+\begin{align}
+x_{1}^{*} = \frac{\alpha}{\alpha + \beta} \frac{Y}{p_{1}},\\
+x_{2}^{*} = \frac{\beta}{\alpha + \beta} \frac{Y}{p_{2}}.
+\end{align}
+$$
 
+## 2. Lagrange's method
+Now for Lagrange’s method for the problem (1) with constraint (2). Set up the Lagrangian:
+$$
+\mathcal{L} = \alpha\log x_{1} + \beta\log x_{2} + \lambda(Y - p_{1}x_{1} - p_{2}x_{2}). \tag{5}
+$$
+Differentiate (5) with respect to each of the choice variables, $x_{1}, x_{2}$, and $\lambda$ to get the three first-order conditions:
+
+$$
+\begin{align}
+\frac{\partial\mathcal{L}}{\partial x_{1}} &= \frac{\alpha}{x_{1}} - \lambda p_{1} = 0, \tag{6}\\
+\frac{\partial\mathcal{L}}{\partial x_{2}} &= \frac{\beta}{x_{2}} - \lambda p_{2} = 0, \tag{7}\\
+\frac{\partial\mathcal{L}}{\partial x_{1}} &= Y - p_{1}x_{1} - p_{2}x_{2} = 0. \tag{8}\\
+\end{align}
+$$
+Now we are to solve the system of equations---three unknowns ($x_{1}, x_{2}$, and $\lambda$), three equations  (6), (7), and (8).
+
+Rearranging (6) and (7) gives:
+$$
+\begin{align}
+x_{1} = \frac{\alpha}{\lambda p_{1}},\tag{8}\\
+x_{2} = \frac{\beta}{\lambda p_{2}}.\tag{9}
+\end{align}
+$$
+
+Now we need to find $\lambda$.
+
+Rearranging (6) and (7) also gives:
+$$
+\begin{align}
+\alpha  &= \lambda p_{1}x_{1},\\
+\beta  &= \lambda p_{2}x_{2}.
+\end{align}
+$$
+Adding the equations above gives:
+
+$$
+\alpha + \beta = \lambda(p_{1}x_{1} + p_{2}x_{2}) = \lambda Y,
+$$
+which gives us
+
+$$
+\lambda = \frac{\alpha + \beta}{Y}.\tag{10}
+$$
+
+Substitute (10) back into (8) and (9) and solve for $x_{1}$ and $x_{2}$ to get
+
+$$
+\begin{align}
+x_{1}^{*} = \frac{\alpha}{\alpha + \beta} \frac{Y}{p_{1}},\\
+x_{2}^{*} = \frac{\beta}{\alpha + \beta} \frac{Y}{p_{2}},
+\end{align}
+$$
+
+just as before.

@@ -1,0 +1,86 @@
+---
+title: 3. Public Goods
+subtitle: ""
+date: last-modified
+code-fold: true
+execute: 
+  echo: true
+  warning: false
+  message: false
+from: markdown+emoji
+---
+```{r}
+#| include: false
+
+library(knitr)
+library(rmarkdown)
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+
+theme_set(theme_ipsum() +
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = element_text(size = rel(1.5)),
+                axis.title.y = element_text(size = rel(1.5)),
+                legend.title = element_text(size=rel(1.25))
+                ))
+```
+
+The town of Geneseo has two residents: Ben and Tiana. The town currently funds its sustainability department solely from the individual contributions of Ben and Tiana. 
+
+Ben and Tiana have their own utility functions, $U_{B}$ and $U_{T}$ respectively, over private goods ( $X$ ) and total sustainability workers ( $M$ ) of the forms:
+
+$$U_{B} = 3 × \log(X_{B}) + 3 × \log(M).$$ 
+$$U_{T} = 4 × \log(X_{T}) + 2 × \log(M).$$ 
+
+The total provision of sustainability workers hired, $M$, is the sum of the number hired by each of the two persons: 
+
+$$M = M_{B} + M_{T}.$$ 
+
+Ben and Tiana both have income of $\$100$, and the price of both the private good and the sustainability worker is $\$1$. Therefore, they are limited to providing between 0 and 100 sustainability workers.
+
+<br>
+
+## Q1
+- How many sustainability workers are hired if the Geneseo government does not intervene? 
+  - How many are paid for by Ben? By Tiana?
+  - Describe the Ben's and the Tiana's decisions on provision of sustainability workers using a graph in the $(M_{B}, M_{T})$ space.
+
+_Hint_: Solve each individual's utility maximization problem under his or her own budget constraint. For example, the following is Ben's utility maximization problem:
+
+$$
+\begin{align}
+\max_{X_{B},\, M_{B}}\; U_{B} \,=\,& 3 × \log(X_{B}) + 3 × \log(M)\tag{P-Ben}\\
+\text{subject to}\quad 100 \,\geq\,& 1\times X_{B} \,+\, 1 \times M_{B}\tag{Budget-Ben}\\
+M \,=\,& M_{B} \,+\, M_{T}
+\end{align}
+$$
+Note that (Budget-Ben) holds with equality at the optimal level of bundle $(X_{B}^{*}, M_{B}^{*})$ Ben would like to choose.
+
+
+<br>
+
+## Q2
+- What is the socially optimal number of sustainability workers?
+
+_Hint_: Solve the social welfare maximization problem under each individual's budget constraint. For example, the following is the social welfare maximization problem:
+
+$$
+\begin{align}
+\max_{X_{B},\, M_{B}, X_{T},\, M_{T}}\; SW \,=\,& U_{B} \,+\, U_{T}\tag{P-SW}\\
+=\,& 3 × \log(X_{B}) \,+\, 4 × \log(X_{T}) \,+\, 5 × \log(M)\\
+\text{subject to}\quad 100 \,\geq\,& 1\times X_{B} \,+\, 1 \times M_{B}\tag{Budget-Ben}\\
+ 100 \,\geq\,& 1\times X_{T} \,+\, 1 \times M_{T}\tag{Budget-Tiana}\\
+M \,=\,& M_{B} \,+\, M_{T}
+\end{align}
+$$
+Note that both (Budget-Ben) and (Budget-Tiana) hold with equality at the socially optimal level of bundle $(X_{B}^{o}, M_{B}^{o}, X_{T}^{o}, M_{T}^{o})$ the *Geneseo Government* would like to choose.
+
+<br>
+
+## Q3
+- If your answer in Q1 differs from Q2, explain economically and intuitively why they are different.
+
+<br><br><br>
+

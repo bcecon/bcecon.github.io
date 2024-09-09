@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Byeong-Hak Choe">
-<meta name="dcterms.date" content="2024-09-06">
+<meta name="dcterms.date" content="2024-09-09">
 
-<title>Public Goods | Byeong-Hak Choe</title>
+<title>2. Utility Maximization | Byeong-Hak Choe</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,8 +70,8 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="../styles.css">
 <link rel="stylesheet" href="../assets/css/font.css">
-<meta property="og:title" content="Public Goods | Byeong-Hak Choe">
-<meta property="og:description" content="Classwork 2">
+<meta property="og:title" content="2. Utility Maximization | Byeong-Hak Choe">
+<meta property="og:description" content="">
 <meta property="og:image" content="/assets/img/posts.png">
 <meta property="og:site-name" content="Home">
 </head>
@@ -116,7 +116,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Public Goods</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">2. Utility Maximization</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -170,9 +170,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#q1" id="toc-q1" class="nav-link active" data-scroll-target="#q1">Q1</a></li>
-  <li><a href="#q2" id="toc-q2" class="nav-link" data-scroll-target="#q2">Q2</a></li>
-  <li><a href="#q3" id="toc-q3" class="nav-link" data-scroll-target="#q3">Q3</a></li>
+  <li><a href="#utility-maximization-with-the-cobb-douglas-utility-function" id="toc-utility-maximization-with-the-cobb-douglas-utility-function" class="nav-link active" data-scroll-target="#utility-maximization-with-the-cobb-douglas-utility-function">Utility maximization with the Cobb-Douglas utility function</a>
+  <ul>
+  <li><a href="#substituing-out-the-budget-contraint-in-the-maximization-problem" id="toc-substituing-out-the-budget-contraint-in-the-maximization-problem" class="nav-link" data-scroll-target="#substituing-out-the-budget-contraint-in-the-maximization-problem">1. Substituing out the budget contraint in the maximization problem</a></li>
+  <li><a href="#lagranges-method" id="toc-lagranges-method" class="nav-link" data-scroll-target="#lagranges-method">2. Lagrange’s method</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -181,8 +183,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Public Goods</h1>
-<p class="subtitle lead">Classwork 2</p>
+<h1 class="title">2. Utility Maximization</h1>
 </div>
 
 
@@ -199,14 +200,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">September 6, 2024</p>
+      <p class="date">September 9, 2024</p>
     </div>
   </div>
   
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">September 6, 2024</p>
+      <p class="date-modified">September 9, 2024</p>
     </div>
   </div>
     
@@ -215,39 +216,96 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>The town of Geneseo has two residents: Ben and Tiana. The town currently funds its sustainability department solely from the individual contributions of Ben and Tiana.</p>
-<p>Ben and Tiana have their own utility functions, <span class="math inline">\(U_{B}\)</span> and <span class="math inline">\(U_{T}\)</span> respectively, over private goods ( <span class="math inline">\(X\)</span> ) and total sustainability workers ( <span class="math inline">\(M\)</span> ) of the forms:</p>
-<p><span class="math display">\[U_{B} = 3 × \log(X_{B}) + 3 × \log(M).\]</span> <span class="math display">\[U_{T} = 4 × \log(X_{T}) + 2 × \log(M).\]</span></p>
-<p>The total provision of sustainability workers hired, <span class="math inline">\(M\)</span>, is the sum of the number hired by each of the two persons:</p>
-<p><span class="math display">\[M = M_{B} + M_{T}.\]</span></p>
-<p>Ben and Tiana both have income of <span class="math inline">\(\$100\)</span>, and the price of both the private good and the sustainability worker is <span class="math inline">\(\$1\)</span>. Therefore, they are limited to providing between 0 and 100 sustainability workers.</p>
-<p><br></p>
-<section id="q1" class="level2">
-<h2 class="anchored" data-anchor-id="q1">Q1</h2>
+<section id="utility-maximization-with-the-cobb-douglas-utility-function" class="level1">
+<h1>Utility maximization with the Cobb-Douglas utility function</h1>
+<p>The Cobb-Douglas utility function is</p>
+<p><span class="math display">\[
+\begin{align}
+u(x_{1}, x_{2}) = x_{1}^{\alpha}x_{2}^{\beta}.
+\end{align}
+\]</span> Since utility functions are only defined up to a monotonic transformation, it is convenient to take logs of this expression and work with:</p>
+<p><span class="math display">\[
+\begin{align}
+\log u(x_{1}, x_{2}) = \alpha \log x_{1} + \beta \log x_{2}.
+\end{align}
+\]</span></p>
 <ul>
-<li>How many sustainability workers are hired if the Geneseo government does not intervene?
+<li><p>By the way, a monotonic transformation is a way of transforming one set of numbers into another set of numbers in a way that the order of the numbers is preserved.</p>
 <ul>
-<li>How many are paid for by Ben? By Tiana?</li>
-<li>Describe the Ben’s and the Tiana’s decisions on provision of sustainability workers using a graph in the <span class="math inline">\((M_{B}, M_{T})\)</span> space.</li>
+<li><p>Therefore, a monotonic transformation of a utility function preserves the order of the utility values.</p></li>
+<li><p>If bundle <span class="math inline">\(A\)</span> is preferred to bundle <span class="math inline">\(B\)</span>, then a monotonic transformation of the utility function will still show that <span class="math inline">\(A\)</span> is preferred to <span class="math inline">\(B\)</span>.</p></li>
 </ul></li>
 </ul>
-<p><br></p>
+<p>Let’s find the demand functions for <span class="math inline">\(x_1\)</span> and <span class="math inline">\(x_2\)</span> for the Cobb-Douglas utility function. The problem we want to solve is</p>
+<p><span class="math display">\[
+\begin{align}
+\max_{x_{1}, x_{2}}&amp;\; \log u(x_{1}, x_{2}) = \alpha \log x_{1} + \beta \log x_{2} \tag{1}\\
+\text{such that}&amp;\quad Y \;\geq\; p_{1}x_{1} + p_{2}x_{2} \tag{2}
+\end{align}
+\]</span></p>
+<p>There are at least two ways to solve this problem.</p>
+<section id="substituing-out-the-budget-contraint-in-the-maximization-problem" class="level2">
+<h2 class="anchored" data-anchor-id="substituing-out-the-budget-contraint-in-the-maximization-problem">1. Substituing out the budget contraint in the maximization problem</h2>
+<p>Since “the more, the better” holds for this consumer, the budget constraint holds with equality at the optimum. Using this fact, we can then substitute out <span class="math inline">\(x_{2}\)</span> in problem (1) using the budget constraint (2) with equality.</p>
+<p><span class="math display">\[
+\begin{align}
+\max_{x_{1}}&amp;\; \log u(x_{1}) = \alpha \log x_{1} + \beta \log \left(\frac{Y - p_{1}x_{1}}{p_{2}}\right) \tag{3}
+\end{align}
+\]</span> The first order condition for problem (3) is</p>
+<p><span class="math display">\[
+\begin{align}
+\frac{\alpha}{x_{1}} + \frac{\beta}{\left(\frac{Y - p_{1}x_{1}}{p_{2}}\right)}\left(-\frac{p_{1}}{p_{2}}\right) \,=\, 0.  \tag{4}
+\end{align}
+\]</span> Re-arranging the first-order condition (4) and the budget constraint (2) with equality gives the demand for <span class="math inline">\(x_{1}\)</span> and <span class="math inline">\(x_{2}\)</span>:</p>
+<p><span class="math display">\[
+\begin{align}
+x_{1}^{*} = \frac{\alpha}{\alpha + \beta} \frac{Y}{p_{1}},\\
+x_{2}^{*} = \frac{\beta}{\alpha + \beta} \frac{Y}{p_{2}}.
+\end{align}
+\]</span></p>
 </section>
-<section id="q2" class="level2">
-<h2 class="anchored" data-anchor-id="q2">Q2</h2>
-<ul>
-<li>What is the socially optimal number of sustainability workers if the Social planner appreciates each individual’s budget constraint?</li>
-</ul>
-<p><br></p>
-</section>
-<section id="q3" class="level2">
-<h2 class="anchored" data-anchor-id="q3">Q3</h2>
-<ul>
-<li>If your answer in Q1b differs from Q1a, explain economically and intuitively why they are different.</li>
-</ul>
-<p><br><br><br></p>
+<section id="lagranges-method" class="level2">
+<h2 class="anchored" data-anchor-id="lagranges-method">2. Lagrange’s method</h2>
+<p>Now for Lagrange’s method for the problem (1) with constraint (2). Set up the Lagrangian: <span class="math display">\[
+\mathcal{L} = \alpha\log x_{1} + \beta\log x_{2} + \lambda(Y - p_{1}x_{1} - p_{2}x_{2}). \tag{5}
+\]</span> Differentiate (5) with respect to each of the choice variables, <span class="math inline">\(x_{1}, x_{2}\)</span>, and <span class="math inline">\(\lambda\)</span> to get the three first-order conditions:</p>
+<p><span class="math display">\[
+\begin{align}
+\frac{\partial\mathcal{L}}{\partial x_{1}} &amp;= \frac{\alpha}{x_{1}} - \lambda p_{1} = 0, \tag{6}\\
+\frac{\partial\mathcal{L}}{\partial x_{2}} &amp;= \frac{\beta}{x_{2}} - \lambda p_{2} = 0, \tag{7}\\
+\frac{\partial\mathcal{L}}{\partial x_{1}} &amp;= Y - p_{1}x_{1} - p_{2}x_{2} = 0. \tag{8}\\
+\end{align}
+\]</span> Now we are to solve the system of equations—three unknowns (<span class="math inline">\(x_{1}, x_{2}\)</span>, and <span class="math inline">\(\lambda\)</span>), three equations (6), (7), and (8).</p>
+<p>Rearranging (6) and (7) gives: <span class="math display">\[
+\begin{align}
+x_{1} = \frac{\alpha}{\lambda p_{1}},\tag{8}\\
+x_{2} = \frac{\beta}{\lambda p_{2}}.\tag{9}
+\end{align}
+\]</span></p>
+<p>Now we need to find <span class="math inline">\(\lambda\)</span>.</p>
+<p>Rearranging (6) and (7) also gives: <span class="math display">\[
+\begin{align}
+\alpha  &amp;= \lambda p_{1}x_{1},\\
+\beta  &amp;= \lambda p_{2}x_{2}.
+\end{align}
+\]</span> Adding the equations above gives:</p>
+<p><span class="math display">\[
+\alpha + \beta = \lambda(p_{1}x_{1} + p_{2}x_{2}) = \lambda Y,
+\]</span> which gives us</p>
+<p><span class="math display">\[
+\lambda = \frac{\alpha + \beta}{Y}.\tag{10}
+\]</span></p>
+<p>Substitute (10) back into (8) and (9) and solve for <span class="math inline">\(x_{1}\)</span> and <span class="math inline">\(x_{2}\)</span> to get</p>
+<p><span class="math display">\[
+\begin{align}
+x_{1}^{*} = \frac{\alpha}{\alpha + \beta} \frac{Y}{p_{1}},\\
+x_{2}^{*} = \frac{\beta}{\alpha + \beta} \frac{Y}{p_{2}},
+\end{align}
+\]</span></p>
+<p>just as before.</p>
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
