@@ -282,21 +282,21 @@
   {
     "objectID": "econ-cw/econ-341-cw-01.html",
     "href": "econ-cw/econ-341-cw-01.html",
-    "title": "Externalities",
+    "title": "1. Externalities",
     "section": "",
     "text": "The demand curve for a product is given by \\(Q_{D} = 400-20P\\) and the supply curve for a product is given by \\(Q_{S} = 16P-32\\).\n\nIllustrate the demand curve and the supply curve on the same graph.\nFind the equilibrium price and quantity.\n\nFind numerical values for the consumer surplus and the producer surplus.\nIdentify consumer surplus and producer surplus on your graph.\nFind numerical values for the total willingness to pay for the equilibrium quantity and the total variable cost of supplying the equilibrium quantity. Identify these areas on your graph."
   },
   {
     "objectID": "econ-cw/econ-341-cw-01.html#question-1.-static-efficiency",
     "href": "econ-cw/econ-341-cw-01.html#question-1.-static-efficiency",
-    "title": "Externalities",
+    "title": "1. Externalities",
     "section": "",
     "text": "The demand curve for a product is given by \\(Q_{D} = 400-20P\\) and the supply curve for a product is given by \\(Q_{S} = 16P-32\\).\n\nIllustrate the demand curve and the supply curve on the same graph.\nFind the equilibrium price and quantity.\n\nFind numerical values for the consumer surplus and the producer surplus.\nIdentify consumer surplus and producer surplus on your graph.\nFind numerical values for the total willingness to pay for the equilibrium quantity and the total variable cost of supplying the equilibrium quantity. Identify these areas on your graph."
   },
   {
     "objectID": "econ-cw/econ-341-cw-01.html#question-2.-externalities",
     "href": "econ-cw/econ-341-cw-01.html#question-2.-externalities",
-    "title": "Externalities",
+    "title": "1. Externalities",
     "section": "Question 2. Externalities",
     "text": "Question 2. Externalities\nThe marginal benefit curve for a product is given by \\(MB = 100-20Q\\) and the marginal private cost curve for a product is given by \\(MC_{P} = 10 + 0.5Q\\).\n\nFind the equilibrium price and quantity and illustrate graphically.\nSuppose the marginal external cost (the marginal increase in damages from pollution) for producing one unit of a product is given by \\(MC_{E} = 0.5Q\\). Find the marginal social cost \\(MC_{S} = MC_{P} + MC_{E}\\). Illustrate this new cost curve on your graph.\nFind the socially optimal equilibrium price and quantity."
   },
@@ -1117,7 +1117,7 @@
     "href": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency",
     "title": "Lecture 6",
     "section": "The Pursuit of Efficiency",
-    "text": "The Pursuit of Efficiency\n\nEnvironmental problems arise from:\n\nIll-defined property rights\nNon-competitive exchange conditions\n\nGovernmental pathways for remedies:\n\nJudicial remedies\nLegislative and executive regulation"
+    "text": "The Pursuit of Efficiency\n\nEnvironmental and natural resource problems arise from:\n\nIll-defined property rights\nNon-competitive exchange conditions for these rights\n\nGovernmental pathways for remedies:\n\nJudicial remedies\nLegislative and executive regulation"
   },
   {
     "objectID": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-1",
@@ -1131,28 +1131,28 @@
     "href": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-2",
     "title": "Lecture 6",
     "section": "The Pursuit of Efficiency",
-    "text": "The Pursuit of Efficiency\nJudicial Liability Rules\n\nBenefits of liability rules:\n\nCreate incentives for prevention through precedents\nCan make accident prevention cheaper than dealing with damage\nCorrect inefficiencies by internalizing externalities\nAlign profit-maximizing decisions with efficiency\n\nLimitations of judicial approach:\n\nRequires case-by-case determinations\nHigh transaction costs (court time, lawyers’ fees, expert witnesses)\nLess efficient for large-scale or common disputes\n\nAlternative to judicial approach:\n\nStatutes or regulations for large-scale or common issues"
+    "text": "The Pursuit of Efficiency\nJudicial Liability Rules\n\nBenefits of liability rules:\n\nCreate incentives for prevention through precedents\nCan make accident prevention cheaper than dealing with damage\nCorrect inefficiencies by internalizing externalities\nAlign profit-maximizing decisions with efficiency"
   },
   {
     "objectID": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-3",
     "href": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-3",
     "title": "Lecture 6",
     "section": "The Pursuit of Efficiency",
-    "text": "The Pursuit of Efficiency\nLegislative and Executive Regulation\n\nForms of legislative and executive remedies:\n\nSetting pollution limits with fines for noncompliance\nImposing jail sentences or large fines as deterrents\nEstablishing zoning laws to separate incompatible land uses\nBanning specific toxic substances (e.g., lead in gasoline)\nRequiring safety equipment (e.g., seat belts in cars)\nRegulating outputs, inputs, production processes, emissions, and production locations\n\nOther strategies available to victims:\n\nPromoting boycotts against problematic producers or products\nEmployee strikes or labor resistance"
+    "text": "The Pursuit of Efficiency\nJudicial Liability Rules\n\nLimitations of judicial approach:\n\nRequires case-by-case determinations\nHigh transaction costs (court time, lawyers’ fees, expert witnesses)\nLess efficient for large-scale or common disputes\n\nAlternative to judicial approach:\n\nStatutes or regulations for large-scale or common issues"
   },
   {
     "objectID": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-4",
     "href": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-4",
     "title": "Lecture 6",
     "section": "The Pursuit of Efficiency",
-    "text": "The Pursuit of Efficiency\nLegislative and Executive Regulation\n\nAddressing asymmetric information:\n\nMandating information disclosure for risky occupations\nRequiring licensing for specialized workers\nProviding safety information for potentially dangerous consumer products"
+    "text": "The Pursuit of Efficiency\nLegislative and Executive Regulation\n\nForms of legislative and executive remedies:\n\nSetting pollution limits with fines for noncompliance\nImposing jail sentences or large fines as deterrents\nEstablishing zoning laws to separate incompatible land uses\nBanning specific toxic substances (e.g., lead in gasoline)\nRequiring safety equipment (e.g., seat belts in cars)\nRegulating outputs, inputs, production processes, emissions, and production locations\n\nOther strategies available to victims:\n\nPromoting boycotts against problematic producers or products\nEmployee strikes or labor resistance"
   },
   {
     "objectID": "econ-lec/econ-341-lec-06-2024-0909.html#imperfect-market-structure-3",
     "href": "econ-lec/econ-341-lec-06-2024-0909.html#imperfect-market-structure-3",
     "title": "Lecture 6",
     "section": "Imperfect Market Structure",
-    "text": "Imperfect Market Structure\nGovernment Failure\n\nForms of rent seeking:\n\nSeeking tariffs or price floors\nPursuing regulations that disproportionately affect competitors\nObtaining subsidies to transfer costs to taxpayers\n\nOther sources of inefficient policy:\n\nGovernment acting without full information (e.g., chemical substance added to gasoline)"
+    "text": "Imperfect Market Structure\nGovernment Failure\n\nForms of rent seeking:\n\nSeeking tariffs or price floors\nPursuing regulations that disproportionately affect competitors\nObtaining subsidies to transfer costs to taxpayers\n\nOther sources of inefficient policy:\n\nGovernment acting without full information\n\nE.g., US EPA required the addition of a chemical substance to gasoline to promote cleaner combustion. However, this resulted in unintended water pollution."
   },
   {
     "objectID": "econ-lec/econ-341-lec-06-2024-0909.html#imperfect-market-structure-4",
@@ -1166,28 +1166,28 @@
     "href": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-5",
     "title": "Lecture 6",
     "section": "The Pursuit of Efficiency",
-    "text": "The Pursuit of Efficiency\nLegislative and Executive Regulation—Organic Foods Production Act\n\nDriven by consumer willingness to pay premiums and need for market access\nOrganic Foods Production Act (OFPA) enacted in the 1990 Farm Bill\nObjectives:\n\nNational standards\nConsumer assurance\nFacilitating interstate commerce\n\nUSDA National Organic Program established for mandatory certification\nNational Organic Standards Board (NOSB) defines organic standards\nSpecific labeling requirements:\n\n“100 percent organic”: only organic ingredients\n“Organic”: at least 95% organic ingredients\n“Made with Organic Ingredients”: at least 70% organic ingredients"
+    "text": "The Pursuit of Efficiency\nLegislative and Executive Regulation\n\nAddressing asymmetric information:\n\nMandating information disclosure for risky occupations\nRequiring licensing for specialized workers\nProviding safety information for potentially dangerous consumer products"
   },
   {
     "objectID": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-6",
     "href": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-6",
     "title": "Lecture 6",
     "section": "The Pursuit of Efficiency",
-    "text": "The Pursuit of Efficiency\nCan Eco-Certification Make a Difference? Organic Costa Rican Coffee\n\n\n\n\n\n\n\n\n\n\n\n\nEnvironmental regulation of agricultural production in developing countries is challenging due to:\n\nNumerous and dispersed producers\nInadequately funded and staffed regulatory agencies\n\nEco-certification could potentially address these issues by:\n\nAllowing consumers to identify environmentally superior products\nCreating financial incentives for producers through price premiums"
+    "text": "The Pursuit of Efficiency\nLegislative and Executive Regulation—Organic Foods Production Act\n\nDriven by consumer willingness to pay premiums and need for market access\nOrganic Foods Production Act (OFPA) enacted in the 1990 Farm Bill\nObjectives:\n\nNational standards\nConsumer assurance\nFacilitating interstate commerce"
   },
   {
     "objectID": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-7",
     "href": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-7",
     "title": "Lecture 6",
     "section": "The Pursuit of Efficiency",
-    "text": "The Pursuit of Efficiency\nCan Eco-Certification Make a Difference? Organic Costa Rican Coffee\n\n\n\n\n\n\n\n\n\n\n\n\nA study on certified organic coffee in Turrialba, Costa Rica, investigated the effectiveness of eco-certification:\n\nCosta Rican farmers face pressure to lower costs in non-certified markets\nOrganic production typically involves higher labor costs and potential yield reduction\nCertification and annual monitoring costs are significant"
+    "text": "The Pursuit of Efficiency\nLegislative and Executive Regulation—Organic Foods Production Act\n\nUSDA National Organic Program established for mandatory certification\nNational Organic Standards Board (NOSB) defines organic standards\nSpecific labeling requirements:\n\n“100 percent organic”: only organic ingredients\n“Organic”: at least 95% organic ingredients\n“Made with Organic Ingredients”: at least 70% organic ingredients"
   },
   {
     "objectID": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-8",
     "href": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-8",
     "title": "Lecture 6",
     "section": "The Pursuit of Efficiency",
-    "text": "The Pursuit of Efficiency\nCan Eco-Certification Make a Difference? Organic Costa Rican Coffee\n\n\n\n\n\n\n\n\n\n\n\n\nThe study found that organic certification:\n\nImproved coffee growers’ environmental performance\nSignificantly reduced use of pesticides, chemical fertilizers, and herbicides\nIncreased use of organic fertilizer\n\nKey findings:\n\nCertification was more effective in preventing negative practices than encouraging positive ones\nLocal inspectors tended to enforce prohibitions more vigorously than requirements for positive actions"
+    "text": "The Pursuit of Efficiency\nCan Eco-Certification Make a Difference? Organic Costa Rican Coffee\n\n\n\n\n\n\n\n\n\n\n\n\nEnvironmental regulation of agricultural production in developing countries is challenging due to:\n\nNumerous and dispersed producers\nInadequately funded/staffed regulatory agencies\n\nEco-certification could potentially address these issues by:\n\nAllowing consumers to identify environmentally superior products\nCreating financial incentives for producers through price premiums"
   },
   {
     "objectID": "econ-cw/econ-341-cw-02.html#substituing-out-the-budget-contraint-in-the-maximization-problem",
@@ -1206,29 +1206,43 @@
   {
     "objectID": "econ-cw/econ-341-cw-03.html",
     "href": "econ-cw/econ-341-cw-03.html",
-    "title": "Public Goods",
+    "title": "3. Public Goods",
     "section": "",
     "text": "The town of Geneseo has two residents: Ben and Tiana. The town currently funds its sustainability department solely from the individual contributions of Ben and Tiana.\nBen and Tiana have their own utility functions, \\(U_{B}\\) and \\(U_{T}\\) respectively, over private goods ( \\(X\\) ) and total sustainability workers ( \\(M\\) ) of the forms:\n\\[U_{B} = 3 × \\log(X_{B}) + 3 × \\log(M).\\] \\[U_{T} = 4 × \\log(X_{T}) + 2 × \\log(M).\\]\nThe total provision of sustainability workers hired, \\(M\\), is the sum of the number hired by each of the two persons:\n\\[M = M_{B} + M_{T}.\\]\nBen and Tiana both have income of \\(\\$100\\), and the price of both the private good and the sustainability worker is \\(\\$1\\). Therefore, they are limited to providing between 0 and 100 sustainability workers."
   },
   {
     "objectID": "econ-cw/econ-341-cw-03.html#q1",
     "href": "econ-cw/econ-341-cw-03.html#q1",
-    "title": "Public Goods",
+    "title": "3. Public Goods",
     "section": "Q1",
     "text": "Q1\n\nHow many sustainability workers are hired if the Geneseo government does not intervene?\n\nHow many are paid for by Ben? By Tiana?\nDescribe the Ben’s and the Tiana’s decisions on provision of sustainability workers using a graph in the \\((M_{B}, M_{T})\\) space.\n\n\nHint: Solve each individual’s utility maximization problem under his or her own budget constraint. For example, the following is Ben’s utility maximization problem:\n\\[\n\\begin{align}\n\\max_{X_{B},\\, M_{B}}\\; U_{B} \\,=\\,& 3 × \\log(X_{B}) + 3 × \\log(M)\\tag{P-Ben}\\\\\n\\text{subject to}\\quad 100 \\,\\geq\\,& 1\\times X_{B} \\,+\\, 1 \\times M_{B}\\tag{Budget-Ben}\\\\\nM \\,=\\,& M_{B} \\,+\\, M_{T}\n\\end{align}\n\\] Note that (Budget-Ben) holds with equality at the optimal level of bundle \\((X_{B}^{*}, M_{B}^{*})\\) Ben would like to choose."
   },
   {
     "objectID": "econ-cw/econ-341-cw-03.html#q2",
     "href": "econ-cw/econ-341-cw-03.html#q2",
-    "title": "Public Goods",
+    "title": "3. Public Goods",
     "section": "Q2",
     "text": "Q2\n\nWhat is the socially optimal number of sustainability workers?\n\nHint: Solve the social welfare maximization problem under each individual’s budget constraint. For example, the following is the social welfare maximization problem:\n\\[\n\\begin{align}\n\\max_{X_{B},\\, M_{B}, X_{T},\\, M_{T}}\\; SW \\,=\\,& U_{B} \\,+\\, U_{T}\\tag{P-SW}\\\\\n=\\,& 3 × \\log(X_{B}) \\,+\\, 4 × \\log(X_{T}) \\,+\\, 5 × \\log(M)\\\\\n\\text{subject to}\\quad 100 \\,\\geq\\,& 1\\times X_{B} \\,+\\, 1 \\times M_{B}\\tag{Budget-Ben}\\\\\n100 \\,\\geq\\,& 1\\times X_{T} \\,+\\, 1 \\times M_{T}\\tag{Budget-Tiana}\\\\\nM \\,=\\,& M_{B} \\,+\\, M_{T}\n\\end{align}\n\\] Note that both (Budget-Ben) and (Budget-Tiana) hold with equality at the socially optimal level of bundle \\((X_{B}^{o}, M_{B}^{o}, X_{T}^{o}, M_{T}^{o})\\) the Geneseo Government would like to choose."
   },
   {
     "objectID": "econ-cw/econ-341-cw-03.html#q3",
     "href": "econ-cw/econ-341-cw-03.html#q3",
-    "title": "Public Goods",
+    "title": "3. Public Goods",
     "section": "Q3",
     "text": "Q3\n\nIf your answer in Q1 differs from Q2, explain economically and intuitively why they are different."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-9",
+    "href": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-9",
+    "title": "Lecture 6",
+    "section": "The Pursuit of Efficiency",
+    "text": "The Pursuit of Efficiency\nCan Eco-Certification Make a Difference? Organic Costa Rican Coffee\n\n\n\n\n\n\n\n\n\n\n\n\nA study on certified organic coffee in Turrialba, Costa Rica, investigated the effectiveness of eco-certification:\n\nCosta Rican farmers face pressure to lower costs in non-certified markets\nOrganic production typically involves higher labor costs and potential yield reduction\nCosts of certification and annual monitoring are significant"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-10",
+    "href": "econ-lec/econ-341-lec-06-2024-0909.html#the-pursuit-of-efficiency-10",
+    "title": "Lecture 6",
+    "section": "The Pursuit of Efficiency",
+    "text": "The Pursuit of Efficiency\nCan Eco-Certification Make a Difference? Organic Costa Rican Coffee\n\n\n\n\n\n\n\n\n\n\n\n\nThe study found that organic certification:\n\nImproved coffee growers’ environmental performance\nSignificantly reduced use of pesticides, chemical fertilizers, and herbicides\nIncreased use of organic fertilizer\n\nKey findings:\n\nCertification was more effective in preventing negative practices than encouraging positive ones\nLocal inspectors tended to enforce prohibitions more vigorously than requirements for positive actions"
   }
 ]

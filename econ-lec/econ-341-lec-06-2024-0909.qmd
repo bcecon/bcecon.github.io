@@ -203,7 +203,8 @@ theme_set(theme_fivethirtyeight()+
   - Obtaining subsidies to transfer costs to taxpayers
   
 - Other sources of inefficient policy:
-  - Government acting without full information (e.g., chemical substance added to gasoline)
+  - Government acting without full information 
+    - E.g., US EPA required the addition of a [chemical substance](https://archive.epa.gov/mtbe/web/html/gas.html) to gasoline to promote cleaner combustion. However, this resulted in unintended water pollution.
 
 
 ## Imperfect Market Structure
@@ -217,9 +218,9 @@ theme_set(theme_fivethirtyeight()+
 
 
 ## The Pursuit of Efficiency
-- Environmental problems arise from:
+- Environmental and natural resource problems arise from:
   - Ill-defined property rights
-  - Non-competitive exchange conditions
+  - Non-competitive exchange conditions for these rights
 
 - Governmental pathways for remedies:
   1. Judicial remedies
@@ -247,6 +248,9 @@ theme_set(theme_fivethirtyeight()+
   - Correct inefficiencies by internalizing externalities
   - Align profit-maximizing decisions with efficiency
 
+
+## The Pursuit of Efficiency
+### Judicial Liability Rules
 - Limitations of judicial approach:
   - Requires case-by-case determinations
   - High **transaction costs** (court time, lawyers' fees, expert witnesses)
@@ -290,7 +294,10 @@ theme_set(theme_fivethirtyeight()+
   - National standards
   - Consumer assurance
   - Facilitating interstate commerce
-  
+
+
+## The Pursuit of Efficiency
+### Legislative and Executive Regulation---Organic Foods Production Act
 - USDA National Organic Program established for mandatory certification
 - National Organic Standards Board (NOSB) defines organic standards
 - Specific labeling requirements:
@@ -318,7 +325,7 @@ theme_set(theme_fivethirtyeight()+
 ::: {.column width="77%"}
 - Environmental regulation of agricultural production in developing countries is challenging due to:
   - Numerous and dispersed producers
-  - Inadequately funded and staffed regulatory agencies
+  - Inadequately funded/staffed regulatory agencies
 
 - Eco-certification could potentially address these issues by:
   - Allowing consumers to identify environmentally superior products
@@ -349,7 +356,7 @@ theme_set(theme_fivethirtyeight()+
 - A study on certified organic coffee in Turrialba, Costa Rica, investigated the effectiveness of eco-certification:
   - Costa Rican farmers face pressure to lower costs in non-certified markets
   - Organic production typically involves higher labor costs and potential yield reduction
-  - Certification and annual monitoring costs are significant
+  - Costs of certification and annual monitoring are significant
 
 :::
 
