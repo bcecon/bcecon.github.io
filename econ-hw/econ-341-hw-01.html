@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Byeong-Hak Choe">
-<meta name="dcterms.date" content="2024-08-26">
+<meta name="dcterms.date" content="2024-09-10">
 
 <title>Homework 1 | Byeong-Hak Choe</title>
 <style>
@@ -65,6 +65,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../styles.css">
 <link rel="stylesheet" href="../assets/css/font.css">
@@ -164,7 +166,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="3">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#question-1.-externalities-and-economic-development" id="toc-question-1.-externalities-and-economic-development" class="nav-link active" data-scroll-target="#question-1.-externalities-and-economic-development">Question 1. Externalities and Economic Development</a></li>
+  <li><a href="#question-2.-provision-of-public-goods" id="toc-question-2.-provision-of-public-goods" class="nav-link" data-scroll-target="#question-2.-provision-of-public-goods">Question 2. Provision of Public Goods</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -188,14 +197,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 26, 2024</p>
+      <p class="date">September 10, 2024</p>
     </div>
   </div>
   
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">August 26, 2024</p>
+      <p class="date-modified">September 10, 2024</p>
     </div>
   </div>
     
@@ -204,8 +213,71 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="question-1.-externalities-and-economic-development" class="level1">
+<h1>Question 1. Externalities and Economic Development</h1>
+<p>The demand function for oil is <span class="math inline">\(q_d = 4 - p\)</span>, and the supply function is <span class="math inline">\(q_s = p - 2\)</span>, where <span class="math inline">\(p\)</span> is the price of oil per barrel, and <span class="math inline">\(q\)</span> is the quantity of oil in millions of barrels per day. Using this information, solve the following problems:</p>
+<ol type="a">
+<li><p>Graph the supply and demand functions on the same coordinate plane.</p></li>
+<li><p>Determine the market equilibrium price and quantity of oil.</p></li>
+<li><p>Calculate the consumer surplus and producer surplus at the market equilibrium.</p></li>
+<li><p>Oil consumption causes environmental damage. Suppose the marginal damage of oil pollution is given by <span class="math inline">\(MD = q + 1\)</span>. Calculate:</p>
+<ol type="1">
+<li>The socially optimal level of oil use</li>
+<li>The deadweight loss due to pollution at the market equilibrium</li>
+</ol></li>
+<li><p>Due to economic development, the future demand for oil increases, resulting in a new demand function <span class="math inline">\(q_d' = 8 - p\)</span>. Determine:</p>
+<ol type="1">
+<li>The new market equilibrium price and quantity</li>
+<li>The new socially optimal level of oil use</li>
+<li>The deadweight loss due to pollution at the market equilibrium in the future</li>
+</ol></li>
+<li><p>Propose and briefly explain two distinct public policies that could be implemented to mitigate the environmental damages and reduce the burden on future generations. Discuss the potential effectiveness and challenges of each policy.</p></li>
+<li><p>Suppose the government decides to impose a Pigouvian tax to internalize the external costs of oil pollution. Calculate the optimal tax rates in the present and in the future and explain how it would affect the market equilibrium and social welfare.</p></li>
+</ol>
+<p><br><br></p>
+</section>
+<section id="question-2.-provision-of-public-goods" class="level1">
+<h1>Question 2. Provision of Public Goods</h1>
+<p>A community lives near a forest. The forest provides wood, which the villagers can use for various purposes like heating, building, or selling. However, the forest also acts as a carbon sink, absorbing carbon dioxide and providing fresh air, and is home to various wildlife. If too many trees are cut down, the forest will degrade, leading to loss of these environmental benefits.</p>
+<p>There are <span class="math inline">\(N\)</span> number of identical villagers. Each villager is endowed with <span class="math inline">\(\$y\)</span>, and must decide how much of their endowment to invest in a communal fund for forest conservation and how much to keep for themselves. Let <span class="math inline">\(g_{i}\)</span> denote each villager’s contribution to the communal fund.</p>
+<p>The total amount of dollars in the communial fund is multiplied by some constant factor <span class="math inline">\(R\)</span>, where <span class="math inline">\(1 &lt; R &lt; N\)</span>. The multiplied amount is then equally distributed among all villagers, irrespective of their individual contributions.</p>
+<p>Each villager <span class="math inline">\(i\)</span>’s utility is as follows: <span class="math display">\[
+\begin{align}
+U_{i} &amp;= y - g_{i} + \frac{R}{N} \times G\\
+&amp;= y - g_{i} + \frac{R}{N} \times \left(\, g_{i} + G_{-i} \,\right),
+\end{align}
+\]</span> where <span class="math inline">\(G\)</span> is the total amount of dollars collected for the communial fund, and <span class="math inline">\(G_{-i} = G - g_{i}\)</span>.</p>
+<ol type="a">
+<li>Using calculus and graph, determine the equilibrium contribution (<span class="math inline">\(g_{i}^{*}\)</span>) for each villager.</li>
+<li>The forest manager, who is external to the community, aims to maximize the community’s social welfare (<span class="math inline">\(SW\)</span>). Note that the social welfare is the sum of the individual villager’s utility. Calculate the socially optimal level of <span class="math inline">\(g_i\)</span> that maximizes <span class="math inline">\(SW\)</span>. How does this differ from the equilibrium contribution?</li>
+</ol>
+<p><span class="math display">\[
+\begin{align}
+SW &amp;= U_{1} + U_{2} + \cdots + U_{N}\\
+&amp;= N \times U_{i}\qquad\text{ for any villager }\; i = 1, 2, \cdots, N\\
+&amp;= N \times \left(\,y - g_{i} + \frac{R}{N} \times G\,\right) \\
+&amp;= Ny +( R - 1 )\times G\\
+&amp;= Ny +( R - 1 )\times (G_{-i} + g_{i})\\
+&amp;= Ny +( R - 1 )\times (g_{1} + g_{2} + \cdots + g_{N})
+\end{align}
+\]</span></p>
+<ol start="3" type="a">
+<li>The forest manager decides to implement a matching grant program to encourage contributions to the forest conservation fund. For every dollar contributed by a villager, the program will contribute an additional <span class="math inline">\(m\)</span> dollars (where <span class="math inline">\(0 &lt; m &lt; 1\)</span>). The utility function for each villager <span class="math inline">\(i\)</span> now becomes: <span class="math display">\[
+\begin{align}
+U_{i}^{'} &amp;= y - g_{i} + \frac{R}{N} \times (1 + m) \times G\\
+&amp;= y - g_{i} + \frac{R}{N} \times (1 + m) \times \left(\, g_{i} + G_{-i} \,\right),
+\end{align}
+\]</span></li>
+</ol>
+<p>Determine the minimum value of <span class="math inline">\(m\)</span> that would induce villagers to contribute the socially optimal level of <span class="math inline">\(g_i\)</span> found in part (b). Show your work.</p>
+<ol start="4" type="a">
+<li><p>Using the minimum value of m found in part (c), calculate the total cost of implementing the matching grant program to the forest manager. Assume all villagers contribute the socially optimal amount.</p></li>
+<li><p>Calculate the change in social welfare (<span class="math inline">\(\Delta SW = SW^{'} - SW\)</span>) with the introduction of the matching grant program. Compare this change to the cost of the program calculated in part (d). Is the change in <span class="math inline">\(SW\)</span> greater than, equal to, or less than the cost of the program to the forest manager? Justify your answer analytically.</p></li>
+<li><p>Discuss the practical implications and potential challenges of implementing such a matching grant program in the context of community forest management.</p></li>
+</ol>
 
 
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

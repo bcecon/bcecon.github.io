@@ -89,7 +89,7 @@ theme_set(theme_fivethirtyeight()+
 - Benefits of liability rules:
   - Create incentives for prevention through precedents
   - Can make accident prevention cheaper than dealing with damage
-  - Correct inefficiencies by internalizing externalities
+  - Correct inefficiencies by **internalizing externalities**
   - Align profit-maximizing decisions with efficiency
 
 
@@ -238,5 +238,162 @@ theme_set(theme_fivethirtyeight()+
 
 ::::
 
+## The Pursuit of Efficiency
+### Private-Sector Remedies for Negative Externalities
+
+- Private-sector solutions to internalizing negative externalities involves the **Coase Theorem**:
+  - When there are *well-defined property rights* and *costless bargaining*, then negotiations between the party creating the externality and the party affected by the externality can bring about the socially optimal market quantity.
+  - While the market might be able to internalize some small-scale, localized externalities, it will not help with large-scale, global externalities.
+  
+- The government may, therefore, have a role to play in addressing larger externalities.
+
+## The Pursuit of Efficiency
+### Public-Sector Remedies for Negative Externalities
+
+- Public-sector solutions to internalizing negative externalities are
+  - Price instrument:
+    - Corrective taxation
+    - Corrective subsidy
+  - Quantity instrument:
+    - Tradable permits: They give the permit holder the right to pollute a certain amount.
 
 
+
+
+## The Pursuit of Efficiency
+### Corrective Taxation/Subsidy
+
+:::: {.columns}
+
+::: {.column width="47%"}
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/pigou-tax.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+- $PMC$, $PMB$: *Private* $MC$,$MB$
+- $SMC$, $SMB$: *Social* $MC$,$MB$
+- $t$: *Per-unit tax*
+
+:::
+
+::: {.column width="53%"}
+
+- Government can achieve the goal of internalizing the externality:
+  - By taxing the steel producer an amount $MD$ (for the marginal damage of the pollution) for each unit of steel produced.
+  - By subsidizing the steel producer for every unit by which she reduces the steel production below some level, for example, her optimal level without government intervention.
+
+
+:::
+::::
+
+
+
+<!-- ## The Pursuit of Efficiency -->
+<!-- ### Price vs. Quantity: Imperfect Regulation in an Uncertain World -->
+
+<!-- - The theory in incentive-based systems is based upon the assumption of perfect information -->
+<!--   - Regulators were assumed to know everything about both the benefits and costs of pollution control -->
+<!--   - In the real world practice of regulation, this assumption is far from the truth -->
+<!--   - Permits have the advantage of providing a more certain level of pollution control than do emission taxes.  -->
+<!--   - This is because taxes have to be adjusted if regulators find pollutant levels resulting from a given tax are lower or higher than expected. -->
+
+
+
+<!-- ## The Pursuit of Efficiency -->
+<!-- ### Price vs. Quantity  -->
+
+<!-- - With cap-and-trade, directly control the quantity of pollution emitted.  -->
+<!--   - Cap-and-trade is a **quantity** instrument -->
+
+
+<!-- - With pollution taxes, regulators only indirectly control the quantity of pollution, by guessing at industry response to a tax of a certain level.  -->
+<!--   - Pollution taxes is a **price** instrument -->
+
+
+
+<!-- ## The Pursuit of Efficiency -->
+<!-- ### Price vs. Quantity:  Martin Weitzman's seminal contribution -->
+
+<!-- - 1960s economic research focus: Economic systems. -->
+<!--   - Key debate: Planned vs. market-based economies and their impact on prosperity. -->
+
+
+<!-- - Marty's 1974 seminal work: "Prices versus Quantities". -->
+<!--   - Central question: Are prices or quantities better for resource allocation? -->
+
+
+<!-- - Investigation of the above question in the context of uncertainty. -->
+
+<!-- - With uncertainty in costs of reducing pollution, two policies are no longer equivalent. -->
+
+
+
+<!-- ## The Pursuit of Efficiency -->
+<!-- ### Price vs. Quantity: Case 1: Steep MB curve -->
+
+<!-- :::: {.columns} -->
+
+<!-- ::: {.column width="50%"} -->
+<!-- $MC_{1}$: Estimated $MC$ -->
+
+<!-- $MC_{2}$: True $MC$ -->
+
+
+<!-- $DWL_{1}$: DWL from Cap-and-Trade -->
+
+<!-- $DWL_{2}$: DWL from Pollution Taxes -->
+
+<!-- ::: -->
+
+<!-- ::: {.column width="50%"} -->
+
+<!-- <div style="text-align: center; width: 100%; margin: auto;"> -->
+<!--   <img src="https://bcdanl.github.io/lec_figs/pvq-mb-steep.jpg" style="width: 100%; margin-bottom: -20px;"> -->
+<!--   <p style="font-weight: bold;"></p> -->
+<!-- </div> -->
+
+<!-- ::: -->
+
+<!-- :::: -->
+
+
+<!-- ## The Pursuit of Efficiency -->
+<!-- ### Price vs. Quantity: Case 2: Flat MB curve -->
+
+<!-- :::: {.columns} -->
+
+<!-- ::: {.column width="50%"} -->
+<!-- $MC_{1}$: Estimated $MC$ -->
+
+<!-- $MC_{2}$: True $MC$ -->
+
+
+<!-- $DWL_{1}$: DWL from Cap-and-Trade -->
+
+<!-- $DWL_{2}$: DWL from Pollution Taxes -->
+
+<!-- ::: -->
+
+<!-- ::: {.column width="50%"} -->
+
+<!-- <div style="text-align: center; width: 100%; margin: auto;"> -->
+<!--   <img src="https://bcdanl.github.io/lec_figs/pvq-mb-flat.jpg" style="width: 100%; margin-bottom: -20px;"> -->
+<!--   <p style="font-weight: bold;"></p> -->
+<!-- </div> -->
+
+<!-- ::: -->
+
+<!-- :::: -->
+
+
+
+<!-- ## The Pursuit of Efficiency -->
+<!-- ### Price vs. Quantity -->
+
+<!-- - When the marginal benefit curve is steep, a marketable permit system is preferred to a pollution tax because of the costs of being wrong. -->
+
+<!-- - When the marginal benefit curve is flat, a pollution tax is preferred to a marketable permit system because of the costs of being wrong. -->
+
+<!-- - The instrument choice depends on whether the government wants to get the amount of pollution reduction right or whether it wants to minimize costs to firms. -->
+<!--   - Quantity regulations ensure environmental protection, but at a variable cost to firms, while price regulations ensure the cost to the firms, but at a variable level of environmental protection -->
