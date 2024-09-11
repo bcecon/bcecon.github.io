@@ -242,22 +242,22 @@ theme_set(theme_fivethirtyeight()+
 ### Private-Sector Remedies for Negative Externalities
 
 - Private-sector solutions to internalizing negative externalities involves the **Coase Theorem**:
-  - When there are *well-defined property rights* and *costless bargaining*, then negotiations between the party creating the externality and the party affected by the externality can bring about the socially optimal market quantity.
-  - While the market might be able to internalize some small-scale, localized externalities, it will not help with large-scale, global externalities.
+  - _When there are **well-defined property rights** and **costless bargaining**, then negotiations between the party creating the externality and the party affected by the externality can bring about the socially optimal market quantity._
   
-- The government may, therefore, have a role to play in addressing larger externalities.
+  
+- While the market might be able to internalize some small-scale, localized externalities, it will not help with large-scale, global externalities.
+  - The government may, therefore, have a role to play in addressing larger externalities.
 
 ## The Pursuit of Efficiency
 ### Public-Sector Remedies for Negative Externalities
 
-- Public-sector solutions to internalizing negative externalities are
+- Public-sector solutions to internalizing negative externalities are using market-based instruments:
   - Price instrument:
-    - Corrective taxation
-    - Corrective subsidy
+    - Corrective taxation or subsidy
   - Quantity instrument:
     - Tradable permits: They give the permit holder the right to pollute a certain amount.
 
-
+- These set of policies incorporate market principles into government policies, focusing on aggregate or market-level outcomes such as total pollution.
 
 
 ## The Pursuit of Efficiency
@@ -286,6 +286,37 @@ theme_set(theme_fivethirtyeight()+
 
 :::
 ::::
+
+
+
+## The Pursuit of Efficiency
+### Cap-and-Trade
+- Key features of cap and trade (allowance trading):
+  - Government sets a total allowable quantity of pollution (the cap)
+  - Applies to a specific group of emitters (e.g., electric power sector, industrial sources)
+  - Allocates allowances (tradable permits) to regulated entities
+  - Each allowance corresponds to one unit of pollution
+
+- Market mechanism:
+  - Firms with high abatement costs can buy allowances
+  - Firms with low abatement costs can sell allowances
+
+
+
+## The Pursuit of Efficiency
+### Cap-and-Trade
+- Key outcomes:
+  - Total pollution is fixed by regulation (the cap)
+  - Allocation of pollution among firms is determined by the market
+  - Individual firm abatement levels are not directly mandated
+
+- Real-world example:
+  - U.S. sulfur dioxide cap-and-trade program, which began in 1995
+  - Each allowance corresponded to 1 ton of SO$_2$
+  - Targeted 3,200 coal plants nationwide
+  - Created a market for SO2 emission allowances
+  - 43% reduction from 1990 levels by 2007, despite 26% increase in electricity generation from coal-fired plants (1990-2007)
+
 
 
 
