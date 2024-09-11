@@ -8,7 +8,7 @@ html_as_text <- readLines("index.html", warn = FALSE)
 system(paste("rm", shQuote("index.html")))
 # Sys.sleep(2)
 
-# Next lecture number & dates
+# Next lecture number & dates 
 lec_dates <- c('0826', '0828', '0830', '0904', '0906', '0909', '0911')
 lec_n <- length(lec_dates)
 
