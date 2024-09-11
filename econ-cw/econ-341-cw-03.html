@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Byeong-Hak Choe">
-<meta name="dcterms.date" content="2024-09-09">
+<meta name="dcterms.date" content="2024-09-11">
 
 <title>3. Public Goods | Byeong-Hak Choe</title>
 <style>
@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -170,9 +204,22 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#q1" id="toc-q1" class="nav-link active" data-scroll-target="#q1">Q1</a></li>
-  <li><a href="#q2" id="toc-q2" class="nav-link" data-scroll-target="#q2">Q2</a></li>
-  <li><a href="#q3" id="toc-q3" class="nav-link" data-scroll-target="#q3">Q3</a></li>
+  <li><a href="#q1" id="toc-q1" class="nav-link active" data-scroll-target="#q1">Q1</a>
+  <ul>
+  <li><a href="#answer-for-q1" id="toc-answer-for-q1" class="nav-link" data-scroll-target="#answer-for-q1">Answer for Q1</a></li>
+  </ul></li>
+  <li><a href="#q2" id="toc-q2" class="nav-link" data-scroll-target="#q2">Q2</a>
+  <ul>
+  <li><a href="#answer-for-q2" id="toc-answer-for-q2" class="nav-link" data-scroll-target="#answer-for-q2">Answer for Q2</a></li>
+  </ul></li>
+  <li><a href="#q3" id="toc-q3" class="nav-link" data-scroll-target="#q3">Q3</a>
+  <ul>
+  <li><a href="#answer-for-q3" id="toc-answer-for-q3" class="nav-link" data-scroll-target="#answer-for-q3">Answer for Q3</a>
+  <ul>
+  <li><a href="#key-concepts" id="toc-key-concepts" class="nav-link" data-scroll-target="#key-concepts">Key Concepts:</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion:</a></li>
+  </ul></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -198,14 +245,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">September 9, 2024</p>
+      <p class="date">September 11, 2024</p>
     </div>
   </div>
   
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">September 9, 2024</p>
+      <p class="date-modified">September 11, 2024</p>
     </div>
   </div>
     
@@ -239,6 +286,78 @@ M \,=\,&amp; M_{B} \,+\, M_{T}
 \end{align}
 \]</span> Note that (Budget-Ben) holds with equality at the optimal level of bundle <span class="math inline">\((X_{B}^{*}, M_{B}^{*})\)</span> Ben would like to choose.</p>
 <p><br></p>
+<section id="answer-for-q1" class="level3">
+<h3 class="anchored" data-anchor-id="answer-for-q1">Answer for Q1</h3>
+<p>Taking the Tiana’s action and the prices of the private good and the sustainability worker as given, Ben maximizes his utility:</p>
+<p><span class="math display">\[
+\begin{align}
+\max_{M_{B}}\; U_{B} &amp;= 3 × \log(100 -  M_{B}) + 3 × \log(M_{B} + M_{T}),\tag{UMax-B}
+\end{align}
+\]</span> where <span class="math inline">\(X_{B} = 100 - M_{B}\)</span>.</p>
+<p>The first-order condition for problem (Umax-B) is:</p>
+<p><span class="math display">\[
+\frac{d U_{B}}{dM_{B}} = -\frac{3}{100-M_{B}} + \frac{3}{M_{B} + M_{T}} = 0.\tag{FOC-B}
+\]</span> (FOC-B) simplifies to</p>
+<p><span class="math display">\[
+M_{B} = 50 - \frac{1}{2}M_{T}.\tag{Action-B}
+\]</span></p>
+<p>Taking the Ben’s action and the prices of the private good and the sustainability worker as given, Tiana maximizes his utility:</p>
+<p><span class="math display">\[
+\begin{align}
+\max_{M_{T}}\; U_{T} &amp;= 4 × \log(100 -  M_{T}) + 2 × \log(M_{B} + M_{T}),\tag{UMax-T}
+\end{align}
+\]</span> where <span class="math inline">\(X_{T} = 100 - M_{T}\)</span>.</p>
+<p>The first-order condition for problem (Umax-T) is:</p>
+<p><span class="math display">\[
+\frac{d U_{T}}{dM_{T}} = -\frac{4}{100-M_{T}} + \frac{2}{M_{T} + M_{T}} = 0.\tag{FOC-T}
+\]</span> (FOC-T) simplifies to</p>
+<p><span class="math display">\[
+M_{T} = \frac{1}{3}(100 - 2M_{B}).\tag{Action-T}
+\]</span></p>
+<p>Both Ben’s and Tiana’s optimal decisions on how many sustainability workers to hire are characterized by (Action-B) and (Action-T), respectively. Solving the two unknowns—<span class="math inline">\(M_{B}\)</span> and <span class="math inline">\(M_{T}\)</span>—in the two equations—(Action-B) and (Action-T)—gives us:</p>
+<p><span class="math display">\[
+(M_{B}^{*}, M_{T}^{*}) = (50, 0).
+\]</span> Therefore, the total provision of sustainability workers under no government intervention is <span class="math inline">\(M^{*} = M_{B}^{*} + M_{T}^{*} = 50\)</span>. <br></p>
+<p>The following describes Ben’s and Tiana’s reactions to the other individual’s choice on the number of sustainability workers to hire:</p>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">m_i =</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">150</span>, <span class="dv">5</span>),</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>                 <span class="at">Ben =</span> <span class="dv">50</span> <span class="sc">-</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">150</span>, <span class="dv">5</span>),</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>                 <span class="at">Tiana =</span> <span class="dv">50</span> <span class="sc">-</span> <span class="fl">1.5</span><span class="sc">*</span><span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">150</span>, <span class="dv">5</span>)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> df <span class="sc">%&gt;%</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="st">`</span><span class="at">Ben's Reaction to Tiana</span><span class="st">`</span> <span class="ot">=</span> Ben,</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>         <span class="st">`</span><span class="at">Tiana's Reaction to Ben</span><span class="st">`</span> <span class="ot">=</span> Tiana) <span class="sc">%&gt;%</span> </span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(<span class="st">`</span><span class="at">Ben's Reaction to Tiana</span><span class="st">`</span><span class="sc">:</span><span class="st">`</span><span class="at">Tiana's Reaction to Ben</span><span class="st">`</span>,</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>               <span class="at">names_to =</span> <span class="st">"Reaction"</span>,</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>               <span class="at">values_to =</span> <span class="st">"fn"</span>)</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df, <span class="fu">aes</span>(<span class="at">x =</span> m_i, <span class="at">y =</span> fn )) <span class="sc">+</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(<span class="at">xintercept =</span> <span class="dv">0</span>) <span class="sc">+</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="dv">0</span>) <span class="sc">+</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">color =</span> Reaction), <span class="at">size =</span> <span class="fl">1.5</span>) <span class="sc">+</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">data =</span> <span class="fu">data.frame</span>(<span class="at">x =</span> <span class="dv">0</span>, <span class="at">y =</span> <span class="dv">50</span>),</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>             <span class="fu">aes</span>(<span class="at">x =</span> x, <span class="at">y =</span> y), <span class="at">size =</span> <span class="fl">2.5</span>) <span class="sc">+</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Number of Tiana's Sustainability Workers"</span>,</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Number of Ben's Sustainability Workers"</span>,</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">0</span>,<span class="dv">150</span>,<span class="dv">5</span>)) <span class="sc">+</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">0</span>,<span class="dv">150</span>,<span class="dv">5</span>)) <span class="sc">+</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_cartesian</span>(<span class="at">xlim =</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">60</span>), </span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>                  <span class="at">ylim =</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">60</span>)) <span class="sc">+</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_ipsum</span>() <span class="sc">+</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.title.x =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="fu">rel</span>(<span class="fl">1.25</span>)),</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.title.y =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="fu">rel</span>(<span class="fl">1.25</span>)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<p><img src="econ-341-cw-03_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p><br></p>
+</section>
 </section>
 <section id="q2" class="level2">
 <h2 class="anchored" data-anchor-id="q2">Q2</h2>
@@ -256,15 +375,124 @@ M \,=\,&amp; M_{B} \,+\, M_{T}
 \end{align}
 \]</span> Note that both (Budget-Ben) and (Budget-Tiana) hold with equality at the socially optimal level of bundle <span class="math inline">\((X_{B}^{o}, M_{B}^{o}, X_{T}^{o}, M_{T}^{o})\)</span> the <em>Geneseo Government</em> would like to choose.</p>
 <p><br></p>
+<section id="answer-for-q2" class="level3">
+<h3 class="anchored" data-anchor-id="answer-for-q2">Answer for Q2</h3>
+<p>Taking both Ben’s and Tiana’s budget constraints as given, the Geneseo government wants to maximize the social welfare <span class="math inline">\(SW = U_{B} + U_{T}\)</span> by choosing an allocation of <span class="math inline">\(M_{B}\)</span> and <span class="math inline">\(M_{T}\)</span>: <span class="math display">\[
+\begin{align}
+\max_{M_{B}, M_{T}}\; SW &amp;= 3 × \log(100 -  M_{B}) + 4 × \log(100 -  M_{T}) + 5 × \log(M_{B} + M_{T}),\tag{SWMax}
+\end{align}
+\]</span></p>
+<p>First-order conditions for problem (SWMax) are:</p>
+<p><span class="math display">\[
+\begin{align}
+\frac{\partial SW}{\partial M_{B}} = -\frac{3}{100-M_{B}} + \frac{5}{M_{B}+M_{T}} = 0; \tag{FOC-SW-B}\\
+\frac{\partial SW}{\partial M_{B}} = -\frac{4}{100-M_{T}} + \frac{5}{M_{B}+M_{T}} = 0. \tag{FOC-SW-T}
+\end{align}
+\]</span> (FOC-SW-B) and (FOC-SW-T) simplify to</p>
+<p><span class="math display">\[
+\begin{align}
+M_{B} = \frac{1}{8}(500 - 3M_{T});\tag{Action-SW-B}\\
+M_{T} = \frac{1}{9}(100 - 4M_{B}).\tag{Action-SW-T}
+\end{align}
+\]</span></p>
+<p>The Geneseo Govenment’s allocation of the number of Ben’s and Tiana’s sustainability workers is characterized by (Action-SW-B) and (Action-SW-T). Solving the two unknowns—<span class="math inline">\(M_{B}\)</span> and <span class="math inline">\(M_{T}\)</span>—in the two equations—(Action-SW-B) and (Action-SW-T)—gives us:</p>
+<p><span class="math display">\[
+(M_{B}^{o}, M_{T}^{o}) = \left(50, \frac{100}{3}\right).
+\]</span> Therefore, the socially optimal level of sustainability workers is <span class="math inline">\(M^{o} = M_{B}^{o} + M_{T}^{o} = \frac{250}{3}\)</span>, which is greater than the one in Q1. The sustainability workers are underprovided in the private market.</p>
+<p><br></p>
+<p>The following plots (Action-SW-B) and (Action-SW-T), describing how the Social Planner allocates Ben’s and Tiana’s sustainability workers:</p>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">m_i =</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">180</span>, <span class="dv">5</span>),</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>                 <span class="at">Ben =</span> (<span class="dv">1</span><span class="sc">/</span><span class="dv">8</span>)<span class="sc">*</span>( <span class="dv">500</span> <span class="sc">-</span> <span class="dv">3</span><span class="sc">*</span><span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">180</span>, <span class="dv">5</span>) ),</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>                 <span class="at">Tiana =</span> (<span class="dv">1</span><span class="sc">/</span><span class="dv">4</span>)<span class="sc">*</span>( <span class="dv">500</span> <span class="sc">-</span> <span class="dv">9</span><span class="sc">*</span><span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">180</span>, <span class="dv">5</span>) )</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> df <span class="sc">%&gt;%</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="st">`</span><span class="at">Ben's Reaction to Tiana</span><span class="st">`</span> <span class="ot">=</span> Ben,</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>         <span class="st">`</span><span class="at">Tiana's Reaction to Ben</span><span class="st">`</span> <span class="ot">=</span> Tiana) <span class="sc">%&gt;%</span> </span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(<span class="st">`</span><span class="at">Ben's Reaction to Tiana</span><span class="st">`</span><span class="sc">:</span><span class="st">`</span><span class="at">Tiana's Reaction to Ben</span><span class="st">`</span>,</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>               <span class="at">names_to =</span> <span class="st">"Reaction"</span>,</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>               <span class="at">values_to =</span> <span class="st">"fn"</span>)</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df, <span class="fu">aes</span>(<span class="at">x =</span> m_i, <span class="at">y =</span> fn )) <span class="sc">+</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(<span class="at">xintercept =</span> <span class="dv">0</span>) <span class="sc">+</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="dv">0</span>) <span class="sc">+</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">color =</span> Reaction), <span class="at">size =</span> <span class="fl">1.5</span>) <span class="sc">+</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">data =</span> <span class="fu">data.frame</span>(<span class="at">x =</span> <span class="dv">100</span><span class="sc">/</span><span class="dv">3</span>, <span class="at">y =</span> <span class="dv">50</span>),</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>             <span class="fu">aes</span>(<span class="at">x =</span> x, <span class="at">y =</span> y), <span class="at">size =</span> <span class="fl">2.5</span>) <span class="sc">+</span></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_segment</span>(<span class="at">data =</span> <span class="fu">data.frame</span>(<span class="at">x1 =</span> <span class="dv">100</span><span class="sc">/</span><span class="dv">3</span>, <span class="at">y1 =</span> <span class="dv">50</span>,</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>                                 <span class="at">x2 =</span> <span class="dv">0</span>, <span class="at">y2 =</span> <span class="dv">50</span>),</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>               <span class="fu">aes</span>(<span class="at">x =</span> x1, <span class="at">y =</span> y1, <span class="at">xend =</span> x2, <span class="at">yend =</span> y2),</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>               <span class="at">linetype =</span> <span class="dv">3</span>) <span class="sc">+</span></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_segment</span>(<span class="at">data =</span> <span class="fu">data.frame</span>(<span class="at">x1 =</span> <span class="dv">100</span><span class="sc">/</span><span class="dv">3</span>, <span class="at">y1 =</span> <span class="dv">50</span>,</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>                                 <span class="at">x2 =</span> <span class="dv">100</span><span class="sc">/</span><span class="dv">3</span>, <span class="at">y2 =</span> <span class="dv">0</span>),</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>               <span class="fu">aes</span>(<span class="at">x =</span> x1, <span class="at">y =</span> y1, <span class="at">xend =</span> x2, <span class="at">yend =</span> y2),</span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>               <span class="at">linetype =</span> <span class="dv">3</span>) <span class="sc">+</span></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Number of Tiana's Sustainability Workers"</span>,</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Number of Ben's Sustainability Workers"</span>,</span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">0</span>,<span class="dv">180</span>,<span class="dv">10</span>)) <span class="sc">+</span></span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">0</span>,<span class="dv">180</span>,<span class="dv">10</span>)) <span class="sc">+</span></span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_cartesian</span>(<span class="at">xlim =</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">180</span>), </span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>                  <span class="at">ylim =</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">130</span>)) <span class="sc">+</span></span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_ipsum</span>() <span class="sc">+</span></span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.title.x =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="fu">rel</span>(<span class="fl">1.25</span>)),</span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.title.y =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="fu">rel</span>(<span class="fl">1.25</span>)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<p><img src="econ-341-cw-03_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<ul>
+<li>The welfare-maximizing allocation serves as a benchmark for environmental protection the Geneseo government aims to implement.</li>
+</ul>
+</section>
 </section>
 <section id="q3" class="level2">
 <h2 class="anchored" data-anchor-id="q3">Q3</h2>
 <ul>
 <li>If your answer in Q1 differs from Q2, explain economically and intuitively why they are different.</li>
 </ul>
+<section id="answer-for-q3" class="level3">
+<h3 class="anchored" data-anchor-id="answer-for-q3">Answer for Q3</h3>
+<section id="key-concepts" class="level4">
+<h4 class="anchored" data-anchor-id="key-concepts">Key Concepts:</h4>
+<ol type="1">
+<li><p><strong>Market Equilibrium and Marginal Utility</strong>:</p>
+<ul>
+<li>In a market equilibrium, each individual will make choices that equate their <strong>marginal utility</strong> (the additional satisfaction from consuming one more unit of a good) to the cost of that good. In this context, for the last sustainability worker hired, the <strong>marginal utility</strong> that each resident (Ben and Tiana) receives from the public good (sustainability workers) equals the marginal utility they get from consuming a private good. This is because, in equilibrium, people allocate their resources in a way that balances the benefits they get from different types of consumption.</li>
+</ul></li>
+</ol>
+<p><br> 2. <strong>Social vs.&nbsp;Individual Marginal Utility</strong>:</p>
+<ul>
+<li><p><strong>Social marginal utility</strong> refers to the total benefit society gets from an additional unit of a public good (in this case, a sustainability worker). The social marginal utility is the <strong>sum of the marginal utilities</strong> that each resident (Ben and Tiana) gets from the last sustainability worker.</p></li>
+<li><p><strong>Individual marginal utility</strong> is the benefit a single person (either Ben or Tiana) receives from the same worker. Since sustainability workers provide a public good that benefits everyone, the <strong>social marginal utility</strong> of an additional worker is greater than any individual’s marginal utility because it includes the benefits to both residents combined.</p>
+<ul>
+<li>It is a coincidence that Ben’s contribution to the public good in both Q1 and Q2 happens to be the same. If Ben’s preference were identical to Tiana’s one, they would have both underprovided sustainability workers.</li>
+</ul></li>
+</ul>
+<p><br> 3. <strong>Public Goods and Free-Riding</strong>: - A <strong>public good</strong> is something that benefits everyone, and one person’s use of it doesn’t reduce its availability for others. Because of this, people often have an incentive to <strong>free-ride</strong>, meaning they hope others will contribute to the public good (like hiring sustainability workers) while they enjoy the benefits without contributing themselves.</p>
+<ul>
+<li>In this example, Ben and Tiana individually do not fully appreciate the benefit of hiring more sustainability workers because they only consider their own marginal benefit, not the total benefit to society (the <strong>social marginal utility</strong>). This leads to an incentive for <strong>free-riding</strong>—each of them would prefer the other to contribute more while they contribute less.</li>
+</ul>
+<ol start="4" type="1">
+<li><strong>Government’s Role</strong>:</li>
+</ol>
+<ul>
+<li>The <strong>Geneseo government</strong> recognizes the full social benefit of sustainability workers, which is why it would hire <strong>more sustainability workers</strong> than Ben and Tiana would if they were acting alone. While individuals focus on their own marginal benefits, the government takes the broader social marginal utility into account, leading to a higher optimal level of investment in the public good (sustainability workers).</li>
+</ul>
+</section>
+<section id="conclusion" class="level4">
+<h4 class="anchored" data-anchor-id="conclusion">Conclusion:</h4>
+<p>In essence, this classwork explains that individuals tend to undervalue public goods (like sustainability workers), leading to underinvestment if left to private decision-making. However, the government, considering the social benefit, would like step in to correct this by hiring more sustainability workers than individuals like Ben and Tiana would on their own, counteracting the free-rider problem.</p>
 <p><br><br><br></p>
 
 
+</section>
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->

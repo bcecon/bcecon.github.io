@@ -58,6 +58,92 @@ M \,=\,& M_{B} \,+\, M_{T}
 $$
 Note that (Budget-Ben) holds with equality at the optimal level of bundle $(X_{B}^{*}, M_{B}^{*})$ Ben would like to choose.
 
+<br>
+
+### Answer for Q1
+Taking the Tiana's action and the prices of the private good and the sustainability worker as given, Ben maximizes his utility:
+
+$$
+\begin{align}
+\max_{M_{B}}\; U_{B} &= 3 × \log(100 -  M_{B}) + 3 × \log(M_{B} + M_{T}),\tag{UMax-B}
+\end{align}
+$$
+where $X_{B} = 100 - M_{B}$.
+
+The first-order condition for problem (Umax-B) is:
+
+$$
+\frac{d U_{B}}{dM_{B}} = -\frac{3}{100-M_{B}} + \frac{3}{M_{B} + M_{T}} = 0.\tag{FOC-B}
+$$
+(FOC-B) simplifies to
+
+$$
+M_{B} = 50 - \frac{1}{2}M_{T}.\tag{Action-B}
+$$
+
+Taking the Ben's action and the prices of the private good and the sustainability worker as given, Tiana maximizes his utility:
+
+$$
+\begin{align}
+\max_{M_{T}}\; U_{T} &= 4 × \log(100 -  M_{T}) + 2 × \log(M_{B} + M_{T}),\tag{UMax-T}
+\end{align}
+$$
+where $X_{T} = 100 - M_{T}$.
+
+The first-order condition for problem (Umax-T) is:
+
+$$
+\frac{d U_{T}}{dM_{T}} = -\frac{4}{100-M_{T}} + \frac{2}{M_{T} + M_{T}} = 0.\tag{FOC-T}
+$$
+(FOC-T) simplifies to
+
+$$
+M_{T} = \frac{1}{3}(100 - 2M_{B}).\tag{Action-T}
+$$
+
+Both Ben's and Tiana's optimal decisions on how many sustainability workers to hire are characterized by (Action-B) and (Action-T), respectively. Solving the two unknowns---$M_{B}$ and $M_{T}$---in the two equations---(Action-B) and (Action-T)---gives us:
+
+$$
+(M_{B}^{*}, M_{T}^{*}) = (50, 0).
+$$
+Therefore, the total provision of sustainability workers under no government intervention is $M^{*} = M_{B}^{*} + M_{T}^{*} = 50$.
+<br>
+
+The following describes Ben's and Tiana's reactions to the other individual's choice on the number of sustainability workers to hire:
+
+```{r}
+
+df <- data.frame(m_i = seq(0, 150, 5),
+                 Ben = 50 - seq(0, 150, 5),
+                 Tiana = 50 - 1.5*seq(0, 150, 5)
+)
+
+df <- df %>%
+  rename(`Ben's Reaction to Tiana` = Ben,
+         `Tiana's Reaction to Ben` = Tiana) %>% 
+  pivot_longer(`Ben's Reaction to Tiana`:`Tiana's Reaction to Ben`,
+               names_to = "Reaction",
+               values_to = "fn")
+
+
+ggplot(df, aes(x = m_i, y = fn )) +
+  geom_vline(xintercept = 0) +
+  geom_hline(yintercept = 0) +
+  geom_line(aes(color = Reaction), size = 1.5) +
+  geom_point(data = data.frame(x = 0, y = 50),
+             aes(x = x, y = y), size = 2.5) +
+  labs(x = "Number of Tiana's Sustainability Workers",
+       y = "Number of Ben's Sustainability Workers",
+  ) +
+  scale_x_continuous(breaks = seq(0,150,5)) +
+  scale_y_continuous(breaks = seq(0,150,5)) +
+  coord_cartesian(xlim = c(0,60), 
+                  ylim = c(0,60)) +
+  theme_ipsum() +
+  theme(axis.title.x = element_text(size = rel(1.25)),
+        axis.title.y = element_text(size = rel(1.25)))
+```
+
 
 <br>
 
@@ -79,8 +165,119 @@ Note that both (Budget-Ben) and (Budget-Tiana) hold with equality at the sociall
 
 <br>
 
+### Answer for Q2
+Taking both Ben's and Tiana's budget constraints as given, the Geneseo government wants to maximize the social welfare $SW = U_{B} + U_{T}$ by choosing an allocation of $M_{B}$ and $M_{T}$:
+$$
+\begin{align}
+\max_{M_{B}, M_{T}}\; SW &= 3 × \log(100 -  M_{B}) + 4 × \log(100 -  M_{T}) + 5 × \log(M_{B} + M_{T}),\tag{SWMax}
+\end{align}
+$$
+
+First-order conditions for problem (SWMax) are:
+
+$$
+\begin{align}
+\frac{\partial SW}{\partial M_{B}} = -\frac{3}{100-M_{B}} + \frac{5}{M_{B}+M_{T}} = 0; \tag{FOC-SW-B}\\
+\frac{\partial SW}{\partial M_{B}} = -\frac{4}{100-M_{T}} + \frac{5}{M_{B}+M_{T}} = 0. \tag{FOC-SW-T}
+\end{align}
+$$
+(FOC-SW-B) and (FOC-SW-T) simplify to
+
+$$
+\begin{align}
+M_{B} = \frac{1}{8}(500 - 3M_{T});\tag{Action-SW-B}\\
+M_{T} = \frac{1}{9}(100 - 4M_{B}).\tag{Action-SW-T}
+\end{align}
+$$
+
+The Geneseo Govenment's allocation of the number of Ben's and Tiana's sustainability workers is characterized by (Action-SW-B) and (Action-SW-T). Solving the two unknowns---$M_{B}$ and $M_{T}$---in the two equations---(Action-SW-B) and (Action-SW-T)---gives us:
+
+$$
+(M_{B}^{o}, M_{T}^{o}) = \left(50, \frac{100}{3}\right).
+$$
+Therefore, the socially optimal level of sustainability workers is $M^{o} = M_{B}^{o} + M_{T}^{o} = \frac{250}{3}$, which is greater than the one in Q1. The sustainability workers are underprovided in the private market.
+
+
+<br>
+
+The following plots (Action-SW-B) and (Action-SW-T), describing how the Social Planner allocates Ben's and Tiana's sustainability workers:
+
+```{r}
+
+df <- data.frame(m_i = seq(0, 180, 5),
+                 Ben = (1/8)*( 500 - 3*seq(0, 180, 5) ),
+                 Tiana = (1/4)*( 500 - 9*seq(0, 180, 5) )
+)
+
+df <- df %>%
+  rename(`Ben's Reaction to Tiana` = Ben,
+         `Tiana's Reaction to Ben` = Tiana) %>% 
+  pivot_longer(`Ben's Reaction to Tiana`:`Tiana's Reaction to Ben`,
+               names_to = "Reaction",
+               values_to = "fn")
+
+
+ggplot(df, aes(x = m_i, y = fn )) +
+  geom_vline(xintercept = 0) +
+  geom_hline(yintercept = 0) +
+  geom_line(aes(color = Reaction), size = 1.5) +
+  geom_point(data = data.frame(x = 100/3, y = 50),
+             aes(x = x, y = y), size = 2.5) +
+  geom_segment(data = data.frame(x1 = 100/3, y1 = 50,
+                                 x2 = 0, y2 = 50),
+               aes(x = x1, y = y1, xend = x2, yend = y2),
+               linetype = 3) +
+  geom_segment(data = data.frame(x1 = 100/3, y1 = 50,
+                                 x2 = 100/3, y2 = 0),
+               aes(x = x1, y = y1, xend = x2, yend = y2),
+               linetype = 3) +
+  labs(x = "Number of Tiana's Sustainability Workers",
+       y = "Number of Ben's Sustainability Workers",
+  ) +
+  scale_x_continuous(breaks = seq(0,180,10)) +
+  scale_y_continuous(breaks = seq(0,180,10)) +
+  coord_cartesian(xlim = c(0,180), 
+                  ylim = c(0,130)) +
+  theme_ipsum() +
+  theme(axis.title.x = element_text(size = rel(1.25)),
+        axis.title.y = element_text(size = rel(1.25)))
+```
+
+- The welfare-maximizing allocation serves as a benchmark for environmental protection the Geneseo government aims to implement.
+
+
 ## Q3
 - If your answer in Q1 differs from Q2, explain economically and intuitively why they are different.
+
+### Answer for Q3
+
+#### Key Concepts:
+
+1. **Market Equilibrium and Marginal Utility**: 
+
+   - In a market equilibrium, each individual will make choices that equate their **marginal utility** (the additional satisfaction from consuming one more unit of a good) to the cost of that good. In this context, for the last sustainability worker hired, the **marginal utility** that each resident (Ben and Tiana) receives from the public good (sustainability workers) equals the marginal utility they get from consuming a private good. This is because, in equilibrium, people allocate their resources in a way that balances the benefits they get from different types of consumption.
+
+<br>
+2. **Social vs. Individual Marginal Utility**:
+
+  - **Social marginal utility** refers to the total benefit society gets from an additional unit of a public good (in this case, a sustainability worker). The social marginal utility is the **sum of the marginal utilities** that each resident (Ben and Tiana) gets from the last sustainability worker.
+  
+  - **Individual marginal utility** is the benefit a single person (either Ben or Tiana) receives from the same worker. Since sustainability workers provide a public good that benefits everyone, the **social marginal utility** of an additional worker is greater than any individual’s marginal utility because it includes the benefits to both residents combined.
+  
+    -	It is a coincidence that Ben’s contribution to the public good in both Q1 and Q2 happens to be the same. If Ben's preference were identical to Tiana's one, they would have both underprovided sustainability workers.
+
+<br>
+3. **Public Goods and Free-Riding**:
+  - A **public good** is something that benefits everyone, and one person’s use of it doesn’t reduce its availability for others. Because of this, people often have an incentive to **free-ride**, meaning they hope others will contribute to the public good (like hiring sustainability workers) while they enjoy the benefits without contributing themselves.
+  
+  - In this example, Ben and Tiana individually do not fully appreciate the benefit of hiring more sustainability workers because they only consider their own marginal benefit, not the total benefit to society (the **social marginal utility**). This leads to an incentive for **free-riding**—each of them would prefer the other to contribute more while they contribute less.
+
+4. **Government's Role**:
+  - The **Geneseo government** recognizes the full social benefit of sustainability workers, which is why it would hire **more sustainability workers** than Ben and Tiana would if they were acting alone. While individuals focus on their own marginal benefits, the government takes the broader social marginal utility into account, leading to a higher optimal level of investment in the public good (sustainability workers).
+
+#### Conclusion:
+In essence, this classwork explains that individuals tend to undervalue public goods (like sustainability workers), leading to underinvestment if left to private decision-making. However, the government, considering the social benefit, would like step in to correct this by hiring more sustainability workers than individuals like Ben and Tiana would on their own, counteracting the free-rider problem.
+
 
 <br><br><br>
 
