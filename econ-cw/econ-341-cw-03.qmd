@@ -186,7 +186,7 @@ $$
 $$
 \begin{align}
 M_{B} = \frac{1}{8}(500 - 3M_{T});\tag{Action-SW-B}\\
-M_{T} = \frac{1}{9}(100 - 4M_{B}).\tag{Action-SW-T}
+M_{T} = \frac{1}{9}(500 - 4M_{B}).\tag{Action-SW-T}
 \end{align}
 $$
 
