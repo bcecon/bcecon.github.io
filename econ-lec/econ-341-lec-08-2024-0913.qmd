@@ -105,6 +105,8 @@ theme_set(theme_fivethirtyeight()+
 - The process of finding optimal outcomes in environmental and resource economics involves three steps:
   1. Identify the optimal outcome
   2. Compare actual outcomes to the optimal, and identify reasons for divergences
+    - Which institutions would produce optimal outcomes?
+    - What are the behavioral sources of the divergences?
   3. Design policy solutions based on the problem's nature and causes
 
 
