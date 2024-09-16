@@ -82,7 +82,7 @@ theme_set(theme_fivethirtyeight()+
 ::: {.nonincremental}
 - Present value of a one-time net benefit ($NB_{n}$) received $n$ years from now is
 $$
-PV[NB_{n}] \,=\, \frac{B_{n}}{(1 \,+\, r)^{n}}
+PV[NB_{n}] \,=\, \frac{NB_{n}}{(1 \,+\, r)^{n}}
 $$
 $\quad$ - $r$: the interest rate\
 $\quad$ - $B_{0}$: the amount of net benefits received immediately

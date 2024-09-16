@@ -1495,7 +1495,7 @@
     "href": "econ-lec/econ-341-lec-09-2024-0916.html#normative-criteria-for-decision-making-1",
     "title": "Lecture 9",
     "section": "Normative Criteria for Decision Making",
-    "text": "Normative Criteria for Decision Making\nComparing Benefits and Costs Across Time\n\n\nPresent value of a one-time net benefit (\\(NB_{n}\\)) received \\(n\\) years from now is \\[\nPV[NB_{n}] \\,=\\, \\frac{B_{n}}{(1 \\,+\\, r)^{n}}\n\\] \\(\\quad\\) - \\(r\\): the interest rate\n\\(\\quad\\) - \\(B_{0}\\): the amount of net benefits received immediately"
+    "text": "Normative Criteria for Decision Making\nComparing Benefits and Costs Across Time\n\n\nPresent value of a one-time net benefit (\\(NB_{n}\\)) received \\(n\\) years from now is \\[\nPV[NB_{n}] \\,=\\, \\frac{NB_{n}}{(1 \\,+\\, r)^{n}}\n\\] \\(\\quad\\) - \\(r\\): the interest rate\n\\(\\quad\\) - \\(B_{0}\\): the amount of net benefits received immediately"
   },
   {
     "objectID": "econ-lec/econ-341-lec-09-2024-0916.html#normative-criteria-for-decision-making-2",
