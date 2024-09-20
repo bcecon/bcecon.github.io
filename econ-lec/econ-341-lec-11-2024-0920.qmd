@@ -84,6 +84,25 @@ theme_set(theme_fivethirtyeight()+
   - Project appears beneficial locally but may not be efficient from a national perspective.
 
 
+## Issues in Benefit Estimation
+### What Is the Proper Geographic Scope for the SCC?
+- **Proponents of the Global Metric**:
+  - Climate change is a global issue; damages should be assessed globally.
+  - The global metric reflects reductions in U.S.-caused damages to other countries.
+  - Reducing harm to others differs morally from providing goods or services for their enjoyment.
+
+
+
+## Issues in Benefit Estimation
+### What Is the Proper Geographic Scope for the SCC?
+- **Critics of the Global Metric**:
+  - Estimate should include only damages to the U.S.
+  - Including global damages could impose costs on U.S. citizens for benefits abroad.
+- **Proposed Solution**:
+  - Use both U.S.-only and global metrics in analyses for a comprehensive view.
+
+
+
 
 ## Issues in Benefit Estimation
 ### Aggregation
@@ -114,24 +133,6 @@ theme_set(theme_fivethirtyeight()+
   - Use sensitivity analysis to assess their impact on outcomes.
   - If results are sensitive to these benefits, they should be carefully considered in decision-making.
 
-
-
-## Issues in Benefit Estimation
-### What Is the Proper Geographic Scope for the SCC?
-- **Proponents of the Global Metric**:
-  - Climate change is a global issue; damages should be assessed globally.
-  - The global metric reflects reductions in U.S.-caused damages to other countries.
-  - Reducing harm to others differs morally from providing goods or services for their enjoyment.
-
-
-
-## Issues in Benefit Estimation
-### What Is the Proper Geographic Scope for the SCC?
-- **Critics of the Global Metric**:
-  - Estimate should include only damages to the U.S.
-  - Including global damages could impose costs on U.S. citizens for benefits abroad.
-- **Proposed Solution**:
-  - Use both U.S.-only and global metrics in analyses for a comprehensive view.
 
 
 
