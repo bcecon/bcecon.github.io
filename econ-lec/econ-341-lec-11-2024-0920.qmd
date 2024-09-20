@@ -1,0 +1,420 @@
+---
+title: Lecture 11
+subtitle: "Evaluating Trade-Offs: Benefit–Cost Analysis and Other Decision-Making Metrics"
+format:
+  clean-revealjs:
+    self-contained: false
+    chalkboard: true
+    incremental: true
+    code-annotations: hover
+    scrollable: false
+
+    # logo: logo-title-slide.png
+author:
+  - name: Byeong-Hak Choe
+    email: bchoe@geneseo.edu
+    affiliations: SUNY Geneseo
+date: 2024-09-20
+execute: 
+  eval: true
+  echo: true
+callout-icon: false
+
+from: markdown+emoji
+include-after-body: target-hover.html # effect.html
+
+# bibliography: refs.bib
+---
+
+
+```{r setup}
+#| include: false
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+
+
+theme_set(theme_fivethirtyeight()+
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = 
+                  element_text(angle = 0,
+                               size = rel(1.5),
+                               margin = margin(10,0,0,0)),
+                axis.title.y = 
+                  element_text(angle = 0,
+                               size = rel(1.5),
+                               margin = margin(0,10,0,0)),
+                axis.text.x = element_text(size = rel(1.5)),
+                axis.text.y = element_text(size = rel(1.5)),
+                strip.text = element_text(size = rel(1.5)),
+                legend.position = "top",
+                legend.text = element_text(size = rel(1.5)),
+                legend.title = element_text(size = rel(1.5))
+                )
+          )
+```
+
+
+
+
+# Benefit–Cost Analysis and Other Decision-Making Metrics {background-color="#1c4982"}
+
+
+
+## Issues in Benefit Estimation
+### Primary vs. Secondary Effects
+- **Environmental Projects**: Often produce both direct and indirect impacts.
+- **Primary Effect**: Direct outcomes (e.g., increased recreational use of a cleaned lake).
+- **Secondary Effect**: Ripple effects (e.g., more services or businesses due to increased visitors).
+- **Should Secondary Effects Be Counted?**
+  - **Yes**: If they lead to new employment using previously unused resources (e.g., labor in high-unemployment areas).
+  - **No**: If they merely shift resources without creating additional employment.
+- **Key Consideration**: Secondary benefits are more significant in areas with underutilized resources or high unemployment.
+
+
+
+## Issues in Benefit Estimation
+### Accounting Stance
+- **Definition**: The geographic scope where benefits and costs are measured.
+- **Local vs. National Impacts**:
+  - A project may benefit a local region but might not be justifiable when national costs are considered.
+- **Example**:
+  - Federal government funds a project; benefits are localized, but costs are borne nationally.
+  - Project appears beneficial locally but may not be efficient from a national perspective.
+
+
+
+## Issues in Benefit Estimation
+### Aggregation
+- **Challenge**: Aggregating benefits and costs across different populations and regions.
+- **Variation in Benefits**:
+  - Those closer to the project may receive more benefits than those farther away.
+- **Consideration**:
+  - Accurate aggregation should account for these differences to reflect true impacts.
+
+
+
+## Issues in Benefit Estimation
+### With and Without Principle
+- **Core Principle**: Only include benefits that directly result from the project.
+- **Avoid Overstatement**:
+  - Exclude benefits that would occur even without the project to prevent inflating its value.
+
+
+
+## Issues in Benefit Estimation
+### Tangible vs. Intangible Benefits
+- **Tangible Benefits**:
+  - Assignable monetary value (e.g., job creation, increased revenue).
+- **Intangible Benefits**:
+  - Harder to quantify due to measurement challenges (e.g., improved quality of life).
+- **Approach**:
+  - Do not ignore intangible benefits.
+  - Use sensitivity analysis to assess their impact on outcomes.
+  - If results are sensitive to these benefits, they should be carefully considered in decision-making.
+
+
+
+## Issues in Benefit Estimation
+### What Is the Proper Geographic Scope for the SCC?
+- **Proponents of the Global Metric**:
+  - Climate change is a global issue; damages should be assessed globally.
+  - The global metric reflects reductions in U.S.-caused damages to other countries.
+  - Reducing harm to others differs morally from providing goods or services for their enjoyment.
+
+
+
+## Issues in Benefit Estimation
+### What Is the Proper Geographic Scope for the SCC?
+- **Critics of the Global Metric**:
+  - Estimate should include only damages to the U.S.
+  - Including global damages could impose costs on U.S. citizens for benefits abroad.
+- **Proposed Solution**:
+  - Use both U.S.-only and global metrics in analyses for a comprehensive view.
+
+
+
+## Approaches to Cost Estimation
+### Overview
+- **Estimating Costs vs. Benefits**:
+  - Cost estimation is generally easier but still challenging.
+  - Projecting future costs adds complexity compared to evaluating current costs.
+
+
+
+## Approaches to Cost Estimation
+### 1. The Survey Approach
+- **Method**:
+  - Ask those who bear the costs (e.g., polluters) to estimate and report them.
+- **Advantage**:
+  - Leverages direct knowledge from those familiar with the costs.
+- **Problem**:
+  - Incentives for overestimation to influence less stringent regulations.
+  - Potential unreliability due to biased reporting.
+
+
+
+## Approaches to Cost Estimation
+### 2. The Engineering Approach
+- **Method**:
+  - Use engineering data to estimate costs for a "typical" firm.
+- **Assumption**:
+  - Firms will choose cost-minimizing technologies.
+- **Advantage**:
+  - Independent estimation avoids biases from regulated entities.
+- **Problem**:
+  - May not reflect actual costs for firms with unique circumstances.
+  - The "typical" firm scenario may not capture all variations.
+
+
+
+## Approaches to Cost Estimation
+### 3. The Combined Approach
+- **Method**:
+  - Combines survey and engineering approaches.
+- **Process**:
+  - **Survey**: Collects information on technologies and specific circumstances.
+  - **Engineering**: Applies this data to estimate actual costs.
+- **Advantage**:
+  - Balances detailed information with independent analysis.
+  - Provides a more comprehensive cost estimate.
+
+
+
+## Approaches to Cost Estimation
+### Challenges in Cost Quantification
+- **Quantifying Non-Tangible Costs**:
+  - Difficult to assign monetary values to some costs (e.g., time, environmental quality).
+- **Example**:
+  - Estimating the cost of increased travel time due to carpooling policies.
+- **Approach**:
+  - Use opportunity cost to value time.
+  - Travelers often value travel time at up to half their wage rate.
+
+
+
+## Approaches to Cost Estimation
+### Key Takeaways
+- **Trade-offs and Accuracy**:
+  - Each method has advantages and limitations in accuracy and potential bias.
+- **Combining Methods**:
+  - Mitigates individual shortcomings.
+  - Requires careful consideration of specific contexts and future uncertainties.
+
+
+
+## The Treatment of Risk
+### Understanding Risk in Environmental Policy
+- **Uncertainty in Outcomes**:
+  - Policies may have uncertain impacts due to unknown future conditions.
+  - Timing and extent of environmental damages are often uncertain.
+- **Implications**:
+  - Benefits of risk reduction depend on these uncertain factors.
+
+
+
+## The Treatment of Risk
+### Evaluating Risk in Benefit-Cost Analysis
+- **Policy Choices and Outcomes**:
+  - Different policies can lead to various possible outcomes.
+- **Challenge**:
+  - Difficult to choose the best policy without knowing future outcomes.
+
+
+
+## The Treatment of Risk
+### Evaluating Risk in Benefit-Cost Analysis
+- **Dominant Policy**:
+  - Maximizes net benefits across all outcomes.
+  - Rare in practice, so risk must be considered in decision-making.
+
+
+
+## The Treatment of Risk
+### Expected Present Value of Net Benefits (EPVNB)
+
+
+$$
+EPVNB_{j} \,=\, \sum_{i=0}^{I}\, P_{i} \times PVNB_{ij}
+$$
+
+- **EPVNB**: the sum of the present value of net benefits for each outcome, weighted by its probability
+  - $EPVNB_j$: expected present value of net benefits for policy $j$
+  - $P_i$: probability of the $i$-th outcome occurring
+  - $PVNB_{ij}$: present value of net benefits for policy $j$ if outcome $i$ prevails
+  - $J$ = number of policies being considered
+  - $I$ = number of outcomes being considered
+
+
+## The Treatment of Risk
+### Risk-Aversion
+
+- A **lottery** is a probability distribution over the set of events.
+
+- **Lottery Example**:
+  - **Option 1**: Receive $50 for sure.
+  - **Option 2**: 50% chance of $100, 50% chance of $0.
+- **Risk Preferences**:
+  - **Risk-Averse**: Prefer the certain $50.
+  - **Risk-Loving**: Prefer the gamble, hoping to get the $100. 
+  - **Risk-Neutral**: Indifferent between the two options.
+
+
+
+## The Treatment of Risk
+### Society’s Risk Preferences
+- **Assumption in EPVNB**:
+  - Assumes society is risk-neutral.
+- **Evidence**:
+  - Mixed behaviors indicate both risk-averse and risk-loving tendencies.
+- **Policy Implication**:
+  - Arrow & Lind suggest public investments can assume risk-neutrality due to risk sharing.
+
+
+
+## The Treatment of Risk
+### Complex Risk Categories
+- **Systematic Risks**:
+  - Affect the entire economy (e.g., pandemics like COVID-19).
+- **Compound Risks**:
+  - Multiple risks occurring together, increasing overall impact.
+  - Example: Wildfires during a pandemic.
+
+
+
+## The Treatment of Risk
+### Addressing Risk in Benefit-Cost Analysis
+- **Dealing with Probabilities**:
+  - Use ranges of probabilities to calculate multiple EPVNB scenarios.
+- **Outcome**:
+  - Provides insights into how probabilities affect policy outcomes.
+
+
+
+## The Treatment of Risk
+### Policy Implications
+- **Risk Aversion in Policy**:
+  - Environmental policies often reflect high risk aversion.
+- **Current Focus**:
+  - Defining acceptable risk levels on a case-by-case basis.
+
+
+
+## Choosing the Discount Rate
+### Importance of Discounting in Benefit-Cost Analysis
+- **Purpose**:
+  - Compares costs and benefits over time in present value terms.
+- **Impact**:
+  - Lower discount rates favor long-term benefits.
+  - Higher rates may make future benefits seem less valuable.
+
+
+
+## Choosing the Discount Rate
+### Conceptual Framework for Discount Rates
+- **Components**:
+  - **Riskless Cost of Capital**: Return on risk-free investments.
+  - **Risk Premium**: Compensation for taking on risk.
+- **Influence**:
+  - Affects the perceived desirability of projects.
+
+
+
+## Choosing the Discount Rate
+### Historical Context and Standardization
+- **Variation**:
+  - Agencies used different rates (0–20%) historically.
+- **OMB Standardization**:
+  - Set a standard rate (initially 10%, later 7%) to ensure consistency.
+- **Purpose**:
+  - Reduce bias and improve comparability of projects.
+
+
+
+## Choosing the Discount Rate
+### Challenges of Fixed Discount Rates
+- **Inflexibility**:
+  - May not reflect current market conditions.
+- **Example**:
+  - 2023 water resources rate is 2.5%, lower than standard rates.
+- **Result**:
+  - Potential inefficiencies in resource allocation.
+
+
+
+## Choosing the Discount Rate
+### Case Studies and Examples
+- **Passamaquoddy Bay Project**:
+  - U.S. (2.5% rate) favored the project.
+  - Canada (4.125% rate) did not.
+  - Highlighted how discount rates influence project evaluation.
+
+
+
+## Choosing the Discount Rate
+### Climate Change Policy Debate
+- **Nicholas Stern (0.1% rate)**:
+  - Advocated for immediate, strong action on climate change.
+- **William Nordhaus (5.5% rate)**:
+  - Suggested modest immediate actions, with greater future efforts.
+- **Implication**:
+  - Discount rate choice affects urgency and scale of climate policies.
+
+
+
+## Choosing the Discount Rate
+### Discounting over Long Time Horizons: Should Discount Rates Decline?
+- **Argument**:
+  - Declining rates may be more appropriate for long-term, intergenerational projects.
+- **Approaches**:
+  - **Descriptive**: Based on market rates.
+  - **Normative**: Includes ethical considerations for future generations.
+- **International Practices**:
+  - Some countries use declining rate schedules.
+
+
+
+## Choosing the Discount Rate
+### Discounting over Long Time Horizons: Should Discount Rates Decline?
+- **Blue-Ribbon Panel Recommendation**:
+  - Use a "declining certainty-equivalent discount rate."
+- **Evidence**:
+  - Supports declining rates but varies with models and data.
+- **Suggestion**:
+  - EPA’s Science Advisory Board to develop appropriate criteria.
+
+
+
+## Divergence of Social and Private Discount Rates
+### Efficient Resource Allocation and Discount Rates
+- **Efficiency Condition**:
+  - Firms should use the same discount rate as society.
+- **Consequences of Divergence**:
+  - **Higher Private Rates**: Overproduction, resource depletion.
+  - **Lower Private Rates**: Underutilization of resources.
+
+
+
+## Divergence of Social and Private Discount Rates
+### Reasons for Divergence Between Social and Private Discount Rates
+1. **Risk-Free Cost vs. Risk Premium**:
+   - Riskier industries have higher risk premiums.
+2. **Differences in Risk Perception**:
+   - Firms may perceive risks differently (e.g., fear of nationalization).
+3. **Time Preferences**:
+   - Developing countries may prioritize immediate benefits (higher rates).
+   - Industrialized nations may value future benefits more (lower rates).
+
+
+
+## Divergence of Social and Private Discount Rates
+### Implications of Divergence
+- **Inefficiency**:
+  - Divergence can lead to resource misallocation.
+  - Private decisions may not align with societal best interests.
+- **Recognition**:
+  - Identifying divergences is essential.
+- **Objective**:
+  - Align market decisions with societal welfare for efficient resource use.
+
