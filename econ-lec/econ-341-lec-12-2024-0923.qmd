@@ -1,5 +1,5 @@
 ---
-title: Lecture 11
+title: Lecture 12
 subtitle: "Evaluating Trade-Offs: Benefit–Cost Analysis and Other Decision-Making Metrics"
 format:
   clean-revealjs:
