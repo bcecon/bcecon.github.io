@@ -25,17 +25,6 @@ listing:
     filter-ui: false
     page-size: 36
     table-striped: false
-  - id: econ-341-qa
-    contents: "econ-qa/econ-341*.qmd"
-    type: table
-    fields: [title, date]
-    sort: 
-      - "date desc"
-      - "title desc"
-    sort-ui: false
-    filter-ui: false
-    page-size: 36
-    table-striped: false
   - id: econ-341-cw
     contents: "econ-cw/econ-341*.qmd"
     type: table
@@ -115,11 +104,12 @@ format:
 
 :::
 
+
+::: {.column width="45%"}
 ## $\bullet\,$ Classwork  :keyboard:
 
 :::{#econ-341-cw}
 :::
-
 
 ## $\bullet\,$ Homework  :computer:
 

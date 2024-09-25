@@ -95,34 +95,6 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-econ-341-qa .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-econ-341-qa'] = new List('listing-econ-341-qa', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-econ-341-cw .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -358,7 +330,7 @@ Date
 </tr>
 <tr data-index="1" data-listing-date-sort="1726804800000" data-listing-file-modified-sort="1726983165778" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-title-sort="Lecture 11" data-listing-filename-sort="econ-341-lec-11-2024-0920.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-341-lec-11-2024-0920.html'); return false;"" class="title listing-title">Lecture 11</a>
+<a href="./econ-lec/econ-341-lec-11-2024-0920.html" class="title listing-title">Lecture 11</a>
 </td>
 <td>
 <span class="listing-date">September 20, 2024</span>
@@ -366,7 +338,7 @@ Date
 </tr>
 <tr data-index="2" data-listing-date-sort="1726632000000" data-listing-file-modified-sort="1726633289992" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-title-sort="Lecture 10" data-listing-filename-sort="econ-341-lec-10-2024-0918.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-341-lec-10-2024-0918.html'); return false;"" class="title listing-title">Lecture 10</a>
+<a href="./econ-lec/econ-341-lec-10-2024-0918.html" class="title listing-title">Lecture 10</a>
 </td>
 <td>
 <span class="listing-date">September 18, 2024</span>
@@ -374,7 +346,7 @@ Date
 </tr>
 <tr data-index="3" data-listing-date-sort="1726459200000" data-listing-file-modified-sort="1726629321344" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-title-sort="Lecture 9" data-listing-filename-sort="econ-341-lec-09-2024-0916.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-341-lec-09-2024-0916.html'); return false;"" class="title listing-title">Lecture 9</a>
+<a href="./econ-lec/econ-341-lec-09-2024-0916.html" class="title listing-title">Lecture 9</a>
 </td>
 <td>
 <span class="listing-date">September 16, 2024</span>
@@ -382,7 +354,7 @@ Date
 </tr>
 <tr data-index="4" data-listing-date-sort="1726200000000" data-listing-file-modified-sort="1726241984622" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-title-sort="Lecture 8" data-listing-filename-sort="econ-341-lec-08-2024-0913.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-341-lec-08-2024-0913.html'); return false;"" class="title listing-title">Lecture 8</a>
+<a href="./econ-lec/econ-341-lec-08-2024-0913.html" class="title listing-title">Lecture 8</a>
 </td>
 <td>
 <span class="listing-date">September 13, 2024</span>
@@ -390,7 +362,7 @@ Date
 </tr>
 <tr data-index="5" data-listing-date-sort="1726027200000" data-listing-file-modified-sort="1726024171441" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-title-sort="Lecture 7" data-listing-filename-sort="econ-341-lec-07-2024-0911.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-341-lec-07-2024-0911.html'); return false;"" class="title listing-title">Lecture 7</a>
+<a href="./econ-lec/econ-341-lec-07-2024-0911.html" class="title listing-title">Lecture 7</a>
 </td>
 <td>
 <span class="listing-date">September 11, 2024</span>
@@ -398,7 +370,7 @@ Date
 </tr>
 <tr data-index="6" data-listing-date-sort="1725854400000" data-listing-file-modified-sort="1725901055280" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-title-sort="Lecture 6" data-listing-filename-sort="econ-341-lec-06-2024-0909.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-341-lec-06-2024-0909.html'); return false;"" class="title listing-title">Lecture 6</a>
+<a href="./econ-lec/econ-341-lec-06-2024-0909.html" class="title listing-title">Lecture 6</a>
 </td>
 <td>
 <span class="listing-date">September 9, 2024</span>
@@ -406,7 +378,7 @@ Date
 </tr>
 <tr data-index="7" data-listing-date-sort="1725595200000" data-listing-file-modified-sort="1725778063761" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-title-sort="Lecture 5" data-listing-filename-sort="econ-341-lec-05-2024-0906.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-341-lec-05-2024-0906.html'); return false;"" class="title listing-title">Lecture 5</a>
+<a href="./econ-lec/econ-341-lec-05-2024-0906.html" class="title listing-title">Lecture 5</a>
 </td>
 <td>
 <span class="listing-date">September 6, 2024</span>
@@ -414,7 +386,7 @@ Date
 </tr>
 <tr data-index="8" data-listing-date-sort="1725422400000" data-listing-file-modified-sort="1725515615777" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-title-sort="Lecture 4" data-listing-filename-sort="econ-341-lec-04-2024-0904.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-341-lec-04-2024-0904.html'); return false;"" class="title listing-title">Lecture 4</a>
+<a href="./econ-lec/econ-341-lec-04-2024-0904.html" class="title listing-title">Lecture 4</a>
 </td>
 <td>
 <span class="listing-date">September 4, 2024</span>
@@ -422,7 +394,7 @@ Date
 </tr>
 <tr data-index="9" data-listing-date-sort="1724817600000" data-listing-file-modified-sort="1725459953277" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-title-sort="Lecture 3" data-listing-filename-sort="econ-341-lec-03-2024-0830.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-341-lec-03-2024-0830.html'); return false;"" class="title listing-title">Lecture 3</a>
+<a href="./econ-lec/econ-341-lec-03-2024-0830.html" class="title listing-title">Lecture 3</a>
 </td>
 <td>
 <span class="listing-date">August 28, 2024</span>
@@ -430,7 +402,7 @@ Date
 </tr>
 <tr data-index="10" data-listing-date-sort="1724817600000" data-listing-file-modified-sort="1724867919851" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-title-sort="Lecture 2" data-listing-filename-sort="econ-341-lec-02-2024-0828.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-341-lec-02-2024-0828.html'); return false;"" class="title listing-title">Lecture 2</a>
+<a href="./econ-lec/econ-341-lec-02-2024-0828.html" class="title listing-title">Lecture 2</a>
 </td>
 <td>
 <span class="listing-date">August 28, 2024</span>
@@ -438,7 +410,7 @@ Date
 </tr>
 <tr data-index="11" data-listing-date-sort="1724644800000" data-listing-file-modified-sort="1724823083899" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16" data-listing-title-sort="Lecture 1" data-listing-filename-sort="econ-341-lec-01-2024-0826.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-341-lec-01-2024-0826.html'); return false;"" class="title listing-title">Lecture 1</a>
+<a href="./econ-lec/econ-341-lec-01-2024-0826.html" class="title listing-title">Lecture 1</a>
 </td>
 <td>
 <span class="listing-date">August 26, 2024</span>
@@ -454,7 +426,8 @@ No matching items
 </section>
 </div><div class="column" style="width:10%;">
 
-</div><section id="bullet-classwork" class="level2">
+</div><div class="column" style="width:45%;">
+<section id="bullet-classwork" class="level2">
 <h2 class="anchored" data-anchor-id="bullet-classwork"><span class="math inline">\(\bullet\,\)</span> Classwork <span class="emoji" data-emoji="keyboard">⌨️</span></h2>
 <div id="listing-econ-341-cw" class="quarto-listing quarto-listing-container-table">
 
@@ -501,7 +474,8 @@ Date
 No matching items
 </div>
 </div>
-</section><section id="bullet-homework" class="level2">
+</section>
+<section id="bullet-homework" class="level2">
 <h2 class="anchored" data-anchor-id="bullet-homework"><span class="math inline">\(\bullet\,\)</span> Homework <span class="emoji" data-emoji="computer">💻</span></h2>
 <div id="listing-econ-341-hw" class="quarto-listing quarto-listing-container-table">
 
@@ -542,40 +516,12 @@ No matching items
 </div>
 </section>
 </div>
-<p>::::</p>
+</div>
 
 
 <font size="5"><font size="5">
 
-</font></font><div class="quarto-listing quarto-listing-container-table" id="listing-econ-341-qa">
-
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Title
-</th>
-<th>
-Date
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-date-sort="1725508800000" data-listing-file-modified-sort="1725868901984" data-listing-date-modified-sort="1725868901000" data-listing-reading-time-sort="1" data-listing-title-sort="1. Type of Externalities" data-listing-filename-sort="econ-341-qa.qmd">
-<td>
-<a href="./econ-qa/econ-341-qa.html" class="title listing-title">1. Type of Externalities</a>
-</td>
-<td>
-<span class="listing-date">September 5, 2024</span>
-</td>
-</tr>
-</tbody>
-
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main><font size="5"><font size="5"> <!-- /main -->
+</font></font><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main><font size="5"><font size="5"> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
