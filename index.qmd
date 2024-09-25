@@ -115,34 +115,12 @@ format:
 
 :::
 
-
-::: {.column width="45%"}
-## $\bullet\,$ Course Discussion :question:
-
-:::{#econ-341-qa}
-:::
-
-:::
-
-::::
-
-
-:::: {.columns}
-
-::: {.column width="45%"}
 ## $\bullet\,$ Classwork  :keyboard:
 
 :::{#econ-341-cw}
 :::
 
-:::
 
-::: {.column width="10%"}
-
-:::
-
-
-::: {.column width="45%"}
 ## $\bullet\,$ Homework  :computer:
 
 :::{#econ-341-hw}
@@ -151,10 +129,4 @@ format:
 :::
 
 ::::
-
-
-
-
-
-
 

@@ -473,7 +473,7 @@
     "href": "index.html",
     "title": "ECON 341-01: Natural Resource Economics, Fall 2024",
     "section": "",
-    "text": "Welcome! 👋\n\\(-\\) Explore, Learn, and Grow with Economics! 🌟"
+    "text": "Welcome! 👋\n\\(-\\) Explore, Learn, and Grow with Economics! 🌟\n::::"
   },
   {
     "objectID": "index.html#bullet-lecture-slides",
@@ -2439,141 +2439,141 @@
     "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#the-treatment-of-risk",
     "href": "econ-lec/econ-341-lec-12-2024-0925.html#the-treatment-of-risk",
     "title": "Lecture 12",
-    "section": "",
-    "text": "Uncertainty in Outcomes:\n\nPolicies may have uncertain impacts due to unknown future conditions.\nTiming and extent of environmental damages are often uncertain.\n\nImplications:\n\nBenefits of risk reduction depend on these uncertain factors."
+    "section": "The Treatment of Risk",
+    "text": "The Treatment of Risk\nUnderstanding Risk in Environmental Policy\n\nUncertainty in Outcomes:\n\nPolicies may have uncertain impacts due to unknown future conditions.\nTiming and extent of environmental damages are often uncertain.\n\nImplications:\n\nBenefits of risk reduction depend on these uncertain factors."
   },
   {
     "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#the-treatment-of-risk-1",
     "href": "econ-lec/econ-341-lec-12-2024-0925.html#the-treatment-of-risk-1",
     "title": "Lecture 12",
-    "section": "",
-    "text": "Policy Choices and Outcomes:\n\nDifferent policies can lead to various possible outcomes.\n\nChallenge:\n\nDifficult to choose the best policy without knowing future outcomes."
+    "section": "The Treatment of Risk",
+    "text": "The Treatment of Risk\nEvaluating Risk in Benefit-Cost Analysis\n\nPolicy Choices and Outcomes:\n\nDifferent policies can lead to various possible outcomes.\n\nChallenge:\n\nDifficult to choose the best policy without knowing future outcomes."
   },
   {
     "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#the-treatment-of-risk-2",
     "href": "econ-lec/econ-341-lec-12-2024-0925.html#the-treatment-of-risk-2",
     "title": "Lecture 12",
-    "section": "",
-    "text": "Dominant Policy:\n\nMaximizes net benefits across all outcomes.\nRare in practice, so risk must be considered in decision-making."
+    "section": "The Treatment of Risk",
+    "text": "The Treatment of Risk\nEvaluating Risk in Benefit-Cost Analysis\n\nDominant Policy:\n\nMaximizes net benefits across all outcomes.\nRare in practice, so risk must be considered in decision-making."
   },
   {
     "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#the-treatment-of-risk-3",
     "href": "econ-lec/econ-341-lec-12-2024-0925.html#the-treatment-of-risk-3",
     "title": "Lecture 12",
-    "section": "",
-    "text": "\\[\nEPVNB_{j} \\,=\\, \\sum_{i=0}^{I}\\, P_{i} \\times PVNB_{ij}\n\\]\n\nEPVNB: the sum of the present value of net benefits for each outcome, weighted by its probability\n\n\\(EPVNB_j\\): expected present value of net benefits for policy \\(j\\)\n\\(P_i\\): probability of the \\(i\\)-th outcome occurring\n\\(PVNB_{ij}\\): present value of net benefits for policy \\(j\\) if outcome \\(i\\) prevails\n\\(J\\) = number of policies being considered\n\\(I\\) = number of outcomes being considered"
+    "section": "The Treatment of Risk",
+    "text": "The Treatment of Risk\nExpected Present Value of Net Benefits (EPVNB)\n\\[\nEPVNB_{j} \\,=\\, \\sum_{i=0}^{I}\\, P_{i} \\times PVNB_{ij}\n\\]\n\nEPVNB: the sum of the present value of net benefits for each outcome, weighted by its probability\n\n\\(EPVNB_j\\): expected present value of net benefits for policy \\(j\\)\n\\(P_i\\): probability of the \\(i\\)-th outcome occurring\n\\(PVNB_{ij}\\): present value of net benefits for policy \\(j\\) if outcome \\(i\\) prevails\n\\(J\\) = number of policies being considered\n\\(I\\) = number of outcomes being considered"
   },
   {
     "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#the-treatment-of-risk-4",
     "href": "econ-lec/econ-341-lec-12-2024-0925.html#the-treatment-of-risk-4",
     "title": "Lecture 12",
-    "section": "",
-    "text": "A lottery is a probability distribution over the set of events.\nLottery Example:\n\nOption 1: Receive $50 for sure.\nOption 2: 50% chance of $100, 50% chance of $0.\n\nRisk Preferences:\n\nRisk-Averse: Prefer the certain $50.\nRisk-Loving: Prefer the gamble, hoping to get the $100.\nRisk-Neutral: Indifferent between the two options."
+    "section": "The Treatment of Risk",
+    "text": "The Treatment of Risk\nRisk-Aversion\n\nA lottery is a probability distribution over the set of events.\nLottery Example:\n\nOption 1: Receive $50 for sure.\nOption 2: 50% chance of $100, 50% chance of $0.\n\nRisk Preferences:\n\nRisk-Averse: Prefer the certain $50.\nRisk-Loving: Prefer the gamble, hoping to get the $100.\nRisk-Neutral: Indifferent between the two options."
   },
   {
     "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#the-treatment-of-risk-5",
     "href": "econ-lec/econ-341-lec-12-2024-0925.html#the-treatment-of-risk-5",
     "title": "Lecture 12",
-    "section": "",
-    "text": "Assumption in EPVNB:\n\nAssumes society is risk-neutral.\n\nEvidence:\n\nMixed behaviors indicate both risk-averse and risk-loving tendencies.\n\nPolicy Implication:\n\nArrow & Lind suggest public investments can assume risk-neutrality due to risk sharing."
+    "section": "The Treatment of Risk",
+    "text": "The Treatment of Risk\nSociety’s Risk Preferences\n\nAssumption in EPVNB:\n\nAssumes society is risk-neutral.\n\nEvidence:\n\nMixed behaviors indicate both risk-averse and risk-loving tendencies.\n\nPolicy Implication:\n\nArrow & Lind suggest public investments can assume risk-neutrality due to risk sharing."
   },
   {
     "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#the-treatment-of-risk-6",
     "href": "econ-lec/econ-341-lec-12-2024-0925.html#the-treatment-of-risk-6",
     "title": "Lecture 12",
-    "section": "",
-    "text": "Systematic Risks:\n\nAffect the entire economy (e.g., pandemics like COVID-19).\n\nCompound Risks:\n\nMultiple risks occurring together, increasing overall impact.\nExample: Wildfires during a pandemic."
+    "section": "The Treatment of Risk",
+    "text": "The Treatment of Risk\nComplex Risk Categories\n\nSystematic Risks:\n\nAffect the entire economy (e.g., pandemics like COVID-19).\n\nCompound Risks:\n\nMultiple risks occurring together, increasing overall impact.\nExample: Wildfires during a pandemic."
   },
   {
     "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#the-treatment-of-risk-7",
     "href": "econ-lec/econ-341-lec-12-2024-0925.html#the-treatment-of-risk-7",
     "title": "Lecture 12",
-    "section": "",
-    "text": "Dealing with Probabilities:\n\nUse ranges of probabilities to calculate multiple EPVNB scenarios.\n\nOutcome:\n\nProvides insights into how probabilities affect policy outcomes."
+    "section": "The Treatment of Risk",
+    "text": "The Treatment of Risk\nAddressing Risk in Benefit-Cost Analysis\n\nDealing with Probabilities:\n\nUse ranges of probabilities to calculate multiple EPVNB scenarios.\n\nOutcome:\n\nProvides insights into how probabilities affect policy outcomes."
   },
   {
     "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#the-treatment-of-risk-8",
     "href": "econ-lec/econ-341-lec-12-2024-0925.html#the-treatment-of-risk-8",
     "title": "Lecture 12",
-    "section": "",
-    "text": "Risk Aversion in Policy:\n\nEnvironmental policies often reflect high risk aversion.\n\nCurrent Focus:\n\nDefining acceptable risk levels on a case-by-case basis."
+    "section": "The Treatment of Risk",
+    "text": "The Treatment of Risk\nPolicy Implications\n\nRisk Aversion in Policy:\n\nEnvironmental policies often reflect high risk aversion.\n\nCurrent Focus:\n\nDefining acceptable risk levels on a case-by-case basis."
   },
   {
     "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#choosing-the-discount-rate",
     "href": "econ-lec/econ-341-lec-12-2024-0925.html#choosing-the-discount-rate",
     "title": "Lecture 12",
-    "section": "",
-    "text": "Purpose:\n\nCompares costs and benefits over time in present value terms.\n\nImpact:\n\nLower discount rates favor long-term benefits.\nHigher rates may make future benefits seem less valuable."
+    "section": "Choosing the Discount Rate",
+    "text": "Choosing the Discount Rate\nImportance of Discounting in Benefit-Cost Analysis\n\nPurpose:\n\nCompares costs and benefits over time in present value terms.\n\nImpact:\n\nLower discount rates favor long-term benefits.\nHigher rates may make future benefits seem less valuable."
   },
   {
     "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#choosing-the-discount-rate-1",
     "href": "econ-lec/econ-341-lec-12-2024-0925.html#choosing-the-discount-rate-1",
     "title": "Lecture 12",
-    "section": "",
-    "text": "Components:\n\nRiskless Cost of Capital: Return on risk-free investments.\nRisk Premium: Compensation for taking on risk.\n\nInfluence:\n\nAffects the perceived desirability of projects."
+    "section": "Choosing the Discount Rate",
+    "text": "Choosing the Discount Rate\nConceptual Framework for Discount Rates\n\nComponents:\n\nRiskless Cost of Capital: Return on risk-free investments.\nRisk Premium: Compensation for taking on risk.\n\nInfluence:\n\nAffects the perceived desirability of projects."
   },
   {
     "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#choosing-the-discount-rate-2",
     "href": "econ-lec/econ-341-lec-12-2024-0925.html#choosing-the-discount-rate-2",
     "title": "Lecture 12",
-    "section": "",
-    "text": "Variation:\n\nAgencies used different rates (0–20%) historically.\n\nOMB Standardization:\n\nSet a standard rate (initially 10%, later 7%) to ensure consistency.\n\nPurpose:\n\nReduce bias and improve comparability of projects."
+    "section": "Choosing the Discount Rate",
+    "text": "Choosing the Discount Rate\nHistorical Context and Standardization\n\nVariation:\n\nAgencies used different rates (0–20%) historically.\n\nOMB Standardization:\n\nSet a standard rate (initially 10%, later 7%) to ensure consistency.\n\nPurpose:\n\nReduce bias and improve comparability of projects."
   },
   {
     "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#choosing-the-discount-rate-3",
     "href": "econ-lec/econ-341-lec-12-2024-0925.html#choosing-the-discount-rate-3",
     "title": "Lecture 12",
-    "section": "",
-    "text": "Inflexibility:\n\nMay not reflect current market conditions.\n\nExample:\n\n2023 water resources rate is 2.5%, lower than standard rates.\n\nResult:\n\nPotential inefficiencies in resource allocation."
+    "section": "Choosing the Discount Rate",
+    "text": "Choosing the Discount Rate\nChallenges of Fixed Discount Rates\n\nInflexibility:\n\nMay not reflect current market conditions.\n\nExample:\n\n2023 water resources rate is 2.5%, lower than standard rates.\n\nResult:\n\nPotential inefficiencies in resource allocation."
   },
   {
     "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#choosing-the-discount-rate-4",
     "href": "econ-lec/econ-341-lec-12-2024-0925.html#choosing-the-discount-rate-4",
     "title": "Lecture 12",
-    "section": "",
-    "text": "Passamaquoddy Bay Project:\n\nU.S. (2.5% rate) favored the project.\nCanada (4.125% rate) did not.\nHighlighted how discount rates influence project evaluation."
+    "section": "Choosing the Discount Rate",
+    "text": "Choosing the Discount Rate\nCase Studies and Examples\n\nPassamaquoddy Bay Project:\n\nU.S. (2.5% rate) favored the project.\nCanada (4.125% rate) did not.\nHighlighted how discount rates influence project evaluation."
   },
   {
     "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#choosing-the-discount-rate-5",
     "href": "econ-lec/econ-341-lec-12-2024-0925.html#choosing-the-discount-rate-5",
     "title": "Lecture 12",
-    "section": "",
-    "text": "Nicholas Stern (1.4% rate):\n\nAdvocated for immediate, strong action on climate change.\n\nWilliam Nordhaus (5.5% rate):\n\nSuggested modest immediate actions, with greater future efforts.\n\nImplication:\n\nDiscount rate choice affects urgency and scale of climate policies."
+    "section": "Choosing the Discount Rate",
+    "text": "Choosing the Discount Rate\nClimate Change Policy Debate\n\nNicholas Stern (1.4% rate):\n\nAdvocated for immediate, strong action on climate change.\n\nWilliam Nordhaus (5.5% rate):\n\nSuggested modest immediate actions, with greater future efforts.\n\nImplication:\n\nDiscount rate choice affects urgency and scale of climate policies."
   },
   {
     "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#choosing-the-discount-rate-6",
     "href": "econ-lec/econ-341-lec-12-2024-0925.html#choosing-the-discount-rate-6",
     "title": "Lecture 12",
-    "section": "",
-    "text": "Argument:\n\nDeclining rates may be more appropriate for long-term, intergenerational projects.\n\nApproaches:\n\nDescriptive: Based on market rates.\nNormative: Includes ethical considerations for future generations.\n\nInternational Practices:\n\nSome countries use declining rate schedules."
+    "section": "Choosing the Discount Rate",
+    "text": "Choosing the Discount Rate\nDiscounting over Long Time Horizons: Should Discount Rates Decline?\n\nArgument:\n\nDeclining rates may be more appropriate for long-term, intergenerational projects.\n\nApproaches:\n\nDescriptive: Based on market rates.\nNormative: Includes ethical considerations for future generations.\n\nInternational Practices:\n\nSome countries use declining rate schedules."
   },
   {
     "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#choosing-the-discount-rate-7",
     "href": "econ-lec/econ-341-lec-12-2024-0925.html#choosing-the-discount-rate-7",
     "title": "Lecture 12",
-    "section": "",
-    "text": "Blue-Ribbon Panel Recommendation:\n\nUse a “declining certainty-equivalent discount rate.”\n\nEvidence:\n\nSupports declining rates but varies with models and data.\n\nSuggestion:\n\nEPA’s Science Advisory Board to develop appropriate criteria."
+    "section": "Choosing the Discount Rate",
+    "text": "Choosing the Discount Rate\nDiscounting over Long Time Horizons: Should Discount Rates Decline?\n\nBlue-Ribbon Panel Recommendation:\n\nUse a “declining certainty-equivalent discount rate.”\n\nEvidence:\n\nSupports declining rates but varies with models and data.\n\nSuggestion:\n\nEPA’s Science Advisory Board to develop appropriate criteria."
   },
   {
     "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#divergence-of-social-and-private-discount-rates",
     "href": "econ-lec/econ-341-lec-12-2024-0925.html#divergence-of-social-and-private-discount-rates",
     "title": "Lecture 12",
-    "section": "",
-    "text": "Efficiency Condition:\n\nFirms should use the same discount rate as society.\n\nConsequences of Divergence:\n\nHigher Private Rates: Overproduction, resource depletion.\nLower Private Rates: Underutilization of resources."
+    "section": "Divergence of Social and Private Discount Rates",
+    "text": "Divergence of Social and Private Discount Rates\nEfficient Resource Allocation and Discount Rates\n\nEfficiency Condition:\n\nFirms should use the same discount rate as society.\n\nConsequences of Divergence:\n\nHigher Private Rates: Overproduction, resource depletion.\nLower Private Rates: Underutilization of resources."
   },
   {
     "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#divergence-of-social-and-private-discount-rates-1",
     "href": "econ-lec/econ-341-lec-12-2024-0925.html#divergence-of-social-and-private-discount-rates-1",
     "title": "Lecture 12",
-    "section": "",
-    "text": "Risk-Free Cost vs. Risk Premium:\n\nRiskier industries have higher risk premiums.\n\nDifferences in Risk Perception:\n\nFirms may perceive risks differently (e.g., fear of nationalization).\n\nTime Preferences:\n\nDeveloping countries may prioritize immediate benefits (higher rates).\nIndustrialized nations may value future benefits more (lower rates)."
+    "section": "Divergence of Social and Private Discount Rates",
+    "text": "Divergence of Social and Private Discount Rates\nReasons for Divergence Between Social and Private Discount Rates\n\nRisk-Free Cost vs. Risk Premium:\n\nRiskier industries have higher risk premiums.\n\nDifferences in Risk Perception:\n\nFirms may perceive risks differently (e.g., fear of nationalization).\n\nTime Preferences:\n\nDeveloping countries may prioritize immediate benefits (higher rates).\nIndustrialized nations may value future benefits more (lower rates)."
   },
   {
     "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#divergence-of-social-and-private-discount-rates-2",
     "href": "econ-lec/econ-341-lec-12-2024-0925.html#divergence-of-social-and-private-discount-rates-2",
     "title": "Lecture 12",
-    "section": "",
-    "text": "Inefficiency:\n\nDivergence can lead to resource misallocation.\nPrivate decisions may not align with societal best interests.\n\nRecognition:\n\nIdentifying divergences is essential.\n\nObjective:\n\nAlign market decisions with societal welfare for efficient resource use."
+    "section": "Divergence of Social and Private Discount Rates",
+    "text": "Divergence of Social and Private Discount Rates\nImplications of Divergence\n\nInefficiency:\n\nDivergence can lead to resource misallocation.\nPrivate decisions may not align with societal best interests.\n\nRecognition:\n\nIdentifying divergences is essential.\n\nObjective:\n\nAlign market decisions with societal welfare for efficient resource use."
   },
   {
     "objectID": "econ-hw/econ-341-hw-02.html#part-1.-consumer-welfare-q3a-q3c",
@@ -2623,5 +2623,271 @@
     "title": "Homework 2",
     "section": "Q2b.",
     "text": "Q2b.\nHow does this amount change if the discount rate increases to 10%?"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#valuing-the-envrionment-methods-1",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#valuing-the-envrionment-methods-1",
+    "title": "Lecture 12",
+    "section": "Valuing the Envrionment: Methods",
+    "text": "Valuing the Envrionment: Methods\nEnvironmental Disasters Highlight Valuation Challenges\n\nExxon Valdez Oil Spill (1989)\n\nSpilled 11 million gallons of crude oil in Prince William Sound, Alaska.\nExxon accepted liability for:\n\nCleanup costs: ~$2.1 billion.\nCompensation to fishermen: ~$303 million over 5 years.\nEnvironmental damages: Settled at $900 million; punitive damages fluctuated in court appeals."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#valuing-the-envrionment-methods-2",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#valuing-the-envrionment-methods-2",
+    "title": "Lecture 12",
+    "section": "Valuing the Envrionment: Methods",
+    "text": "Valuing the Envrionment: Methods\nEnvironmental Disasters Highlight Valuation Challenges\n\nDeepwater Horizon Spill (2010)\n\nSpilled an estimated 134 million gallons into the Gulf of Mexico.\nLargest maritime spill in U.S. history.\nSettlement: $20.8 billion, including $8.8 billion for natural resource damages.\nTotal costs: Over $50 billion including cleanup and claims."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#why-value-the-environment",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#why-value-the-environment",
+    "title": "Lecture 12",
+    "section": "Why Value the Environment?",
+    "text": "Why Value the Environment?\n\nDefault Valuation is Zero Without Effort\n\nNot valuing environmental goods implies a value of $0, leading to suboptimal policy decisions.\n\nInformed Decision-Making\n\nMonetization of environmental benefits and costs is crucial for benefit-cost analysis.\nEnsures that nonmarket environmental goods are considered in policy and legal decisions.\n\nApplications in Policy and Law\n\nNatural Resource Damage Assessments (e.g., oil spills).\nHabitat Designation under the Endangered Species Act.\nDam Relicensing Applications.\nEnvironmental Regulations (Clean Air Act, Clean Water Act)."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#challenges-in-valuing-the-envrionment",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#challenges-in-valuing-the-envrionment",
+    "title": "Lecture 12",
+    "section": "Challenges in Valuing the Envrionment",
+    "text": "Challenges in Valuing the Envrionment\nEstimating the Strength of Pollution Effects\n\nNonexperimental Data Challenges:\n\nWithout controlled experiments, it’s difficult to determine the exact relationship between pollution levels and health effects.\nSynergistic Effects:\n\nPollution may interact with other factors (e.g., smoking, other pollutants) in non-additive ways.\nThese interactions complicate the estimation of pollution’s direct impact.\n\n\nVariability in Research Findings:\n\nDifferent studies may yield conflicting results due to differences in methodology, data quality, and analytical techniques.\nConsistency in findings is hard to achieve without standardized methods."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#challenges-in-valuing-the-envrionment-1",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#challenges-in-valuing-the-envrionment-1",
+    "title": "Lecture 12",
+    "section": "Challenges in Valuing the Envrionment",
+    "text": "Challenges in Valuing the Envrionment\nMonetizing Physical Damages\n\nComplexities in Valuation:\n\nAssigning monetary value to human life extensions, health improvements, or reductions in suffering involves ethical dilemmas.\nEmotional and psychological damages are difficult to quantify.\n\nValuation Techniques:\n\nRevealed Preference Methods: Infer values based on actual behavior (e.g., how much people spend to avoid pollution).\nStated Preference Methods: Use surveys to elicit willingness to pay for environmental improvements or accept compensation for degradation."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#challenges-in-valuing-the-envrionment-2",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#challenges-in-valuing-the-envrionment-2",
+    "title": "Lecture 12",
+    "section": "Challenges in Valuing the Envrionment",
+    "text": "Challenges in Valuing the Envrionment\nOvercoming Valuation Difficulties\n\nInterdisciplinary Collaboration:\n\nCombining expertise from economics, epidemiology, environmental science, and other fields to improve data accuracy and methodological approaches.\n\nImproved Statistical Methods:\n\nUsing advanced econometric techniques to control for confounding variables.\nLongitudinal studies to track health outcomes over time.\n\nEthical Frameworks:\n\nEstablishing guidelines for valuing human health and life that consider both ethical implications and practical necessities."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#challenges-in-valuing-the-envrionment-3",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#challenges-in-valuing-the-envrionment-3",
+    "title": "Lecture 12",
+    "section": "Challenges in Valuing the Envrionment",
+    "text": "Challenges in Valuing the Envrionment\nMonetizing Physical Damages\n\nComplexities in Valuation:\n\nAssigning monetary value to human life extensions, health improvements, or reductions in suffering involves ethical dilemmas.\nEmotional and psychological damages are difficult to quantify.\n\nValuation Techniques:\n\nRevealed Preference Methods: Infer values based on actual behavior (e.g., how much people spend to avoid pollution).\nStated Preference Methods: Use surveys to elicit willingness to pay for environmental improvements or accept compensation for degradation."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#challenges-in-valuing-the-envrionment-4",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#challenges-in-valuing-the-envrionment-4",
+    "title": "Lecture 12",
+    "section": "Challenges in Valuing the Envrionment",
+    "text": "Challenges in Valuing the Envrionment\nOvercoming Valuation Difficulties\n\nInterdisciplinary Collaboration:\n\nCombining expertise from economics, epidemiology, environmental science, and other fields to improve data accuracy and methodological approaches.\n\nImproved Statistical Methods:\n\nUsing advanced econometric techniques to control for confounding variables.\nLongitudinal studies to track health outcomes over time.\n\nEthical Frameworks:\n\nEstablishing guidelines for valuing human health and life that consider both ethical implications and practical necessities."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#challenges-in-valuing-the-envrionment-5",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#challenges-in-valuing-the-envrionment-5",
+    "title": "Lecture 12",
+    "section": "Challenges in Valuing the Envrionment",
+    "text": "Challenges in Valuing the Envrionment\nOvercoming Valuation Difficulties\n\nInterdisciplinary Collaboration:\n\nCombining expertise from economics, epidemiology, environmental science, and other fields to improve data accuracy and methodological approaches.\n\nImproved Statistical Methods:\n\nUsing advanced econometric techniques to control for confounding variables.\nLongitudinal studies to track health outcomes over time.\n\nEthical Frameworks:\n\nEstablishing guidelines for valuing human health and life that consider both ethical implications and practical necessities."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#challenges-in-valuing-the-envrionment-6",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#challenges-in-valuing-the-envrionment-6",
+    "title": "Lecture 12",
+    "section": "Challenges in Valuing the Envrionment",
+    "text": "Challenges in Valuing the Envrionment\nOvercoming Valuation Difficulties\n\nInterdisciplinary Collaboration:\n\nCombining expertise from economics, epidemiology, environmental science, and other fields to improve data accuracy and methodological approaches.\n\nImproved Statistical Methods:\n\nUsing advanced econometric techniques to control for confounding variables.\nLongitudinal studies to track health outcomes over time.\n\nEthical Frameworks:\n\nEstablishing guidelines for valuing human health and life that consider both ethical implications and practical necessities."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#types-of-economic-values",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#types-of-economic-values",
+    "title": "Lecture 12",
+    "section": "Types of Economic Values",
+    "text": "Types of Economic Values\n1. Use Value\n\nDirect Interaction with the environment.\nExamples:\n\nFishing, hiking, swimming.\nEnjoyment of scenic vistas."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#types-of-economic-values-1",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#types-of-economic-values-1",
+    "title": "Lecture 12",
+    "section": "Types of Economic Values",
+    "text": "Types of Economic Values\n2. Option Value\n\nFuture Potential Use of the environment.\nWillingness to pay to preserve the option for future personal use.\nExample:\n\nPreserving a national park for a potential future visit."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#types-of-economic-values-2",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#types-of-economic-values-2",
+    "title": "Lecture 12",
+    "section": "Types of Economic Values",
+    "text": "Types of Economic Values\n3. Nonuse (Passive-Use) Value\n\nValue Without Direct Use.\nBequest Value: Ensuring the resource is available for future generations.\nExistence Value: Value from knowing a resource simply exists.\n\nExample: Satisfaction from knowing a species is protected, even if one will never see it."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#total-willingness-to-pay-twp",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#total-willingness-to-pay-twp",
+    "title": "Lecture 12",
+    "section": "Total Willingness to Pay (TWP)",
+    "text": "Total Willingness to Pay (TWP)\n\nFormula: \\[\n\\text{TWP} = \\text{Use Value} + \\text{Option Value} + \\text{Nonuse Value}\n\\]\nImportance:\n\nCaptures the full economic value of environmental resources.\nEssential for accurate damage assessments and policy evaluations."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#challenges-in-valuing-environmental-damage",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#challenges-in-valuing-environmental-damage",
+    "title": "Lecture 12",
+    "section": "Challenges in Valuing Environmental Damage",
+    "text": "Challenges in Valuing Environmental Damage\n\nIdentifying Affected Categories\n\nDetermining which resources and populations are impacted.\n\nEstimating Physical Damage\n\nUnderstanding the relationship between pollution and its effects.\nDifficult due to lack of controlled experiments and long-term effects.\n\nAccounting for Mitigation Efforts\n\nRecognizing actions taken to reduce damage.\n\nMonetizing Unmitigated Damages\n\nPlacing a dollar value on health impacts, ecological loss, and diminished enjoyment."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#valuation-methods-overview",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#valuation-methods-overview",
+    "title": "Lecture 12",
+    "section": "Valuation Methods Overview",
+    "text": "Valuation Methods Overview\n1. Stated Preference Methods\n\nBased on surveys and questionnaires.\nElicit values directly from individuals.\n\nContingent Valuation Method (CVM)\n\nAsks respondents their willingness to pay (WTP) for specific environmental changes.\n\nChoice Experiments\n\nRespondents choose between bundles of attributes with varying levels and costs."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#stated-preference-methods-contingent-valuation",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#stated-preference-methods-contingent-valuation",
+    "title": "Lecture 12",
+    "section": "Stated Preference Methods: Contingent Valuation",
+    "text": "Stated Preference Methods: Contingent Valuation\nContingent Valuation Method (CVM)\n\nHypothetical Market Creation\n\nRespondents consider WTP in a simulated scenario.\n\nPotential Biases and Solutions:\n\nStrategic Bias\n\nIssue: Deliberate misrepresentation to influence outcomes.\nSolution: Assure anonymity; emphasize honest responses.\n\nInformation Bias\n\nIssue: Lack of knowledge affecting responses.\nSolution: Provide clear, comprehensive information."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#debate-should-we-value-the-environment-economically",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#debate-should-we-value-the-environment-economically",
+    "title": "Lecture 12",
+    "section": "Debate: Should We Value the Environment Economically?",
+    "text": "Debate: Should We Value the Environment Economically?\n\nDeep Ecology Perspective\n\nEnvironment has intrinsic value beyond human use.\nEconomic valuation may be seen as inadequate or inappropriate.\n\nEconomic Perspective\n\nInstrumental Value: Environment valued for its usefulness to humans.\nValuation helps in making informed policy decisions.\nWithout valuation, environmental assets may be undervalued or ignored."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#choice-experiments",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#choice-experiments",
+    "title": "Lecture 12",
+    "section": "Choice Experiments",
+    "text": "Choice Experiments\n\nAttribute-Based Valuation\n\nRespondents choose between alternatives with different attributes and costs.\n\nAdvantages\n\nCan estimate the value of individual attributes.\nReflects trade-offs people are willing to make.\n\nExample Application\n\nValuing water quality improvements by presenting options with varying levels of clarity, nutrient concentrations, and costs."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#examples-of-valuation-studies",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#examples-of-valuation-studies",
+    "title": "Lecture 12",
+    "section": "Examples of Valuation Studies",
+    "text": "Examples of Valuation Studies\nExample 1: Exxon Valdez Passive-Use Value Assessment\n\nObjective: Estimate nonuse values lost due to the oil spill.\nMethod: National contingent valuation survey.\nOutcome: Aggregate lost passive-use values estimated at $2.8 billion (1990 dollars)."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#valuing-the-envrionment-methods-3",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#valuing-the-envrionment-methods-3",
+    "title": "Lecture 12",
+    "section": "Valuing the Envrionment: Methods",
+    "text": "Valuing the Envrionment: Methods\nKey Questions\n\nHow are economic damages from environmental harm calculated?\nWhat is the monetary value of lost wildlife and ecological damage?\nHow did the Exxon Valdez spill influence nonmarket valuation methods?"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#importance-of-damage-estimates",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#importance-of-damage-estimates",
+    "title": "Lecture 12",
+    "section": "Importance of Damage Estimates",
+    "text": "Importance of Damage Estimates\n\nPolicy Design: Damage estimates inform environmental regulations and policies aimed at pollution control.\nLegal Proceedings: Courts rely on damage valuations to determine liability awards in environmental lawsuits.\nForms of Pollution Damage\n\nHuman Health Effects: The most immediate concern, where polluted air and water can cause diseases upon ingestion or inhalation.\nLoss of Enjoyment: Pollution can reduce the quality of outdoor recreational activities.\nEnvironmental Damage: Harm to vegetation, wildlife, and ecosystems.\nMaterial Damage: Deterioration of buildings, infrastructure, and other materials due to pollutants."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#steps-in-assessing-the-magnitude-of-damage",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#steps-in-assessing-the-magnitude-of-damage",
+    "title": "Lecture 12",
+    "section": "Steps in Assessing the Magnitude of Damage",
+    "text": "Steps in Assessing the Magnitude of Damage\n\nIdentifying Affected Categories:\n\nDetermining which populations, ecosystems, or materials are impacted.\nChallenges arise due to ethical constraints preventing controlled human experiments.\n\nEstimating Physical Relationships:\n\nUnderstanding how pollutant emissions relate to damage in affected categories.\nRequires data on both pollutant levels and health/environmental outcomes."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#steps-in-assessing-the-magnitude-of-damage-1",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#steps-in-assessing-the-magnitude-of-damage-1",
+    "title": "Lecture 12",
+    "section": "Steps in Assessing the Magnitude of Damage",
+    "text": "Steps in Assessing the Magnitude of Damage\n\nEstimating Mitigation Responses:\n\nAssessing how affected parties might reduce or prevent damage.\nIncludes actions like medical treatment, relocation, or using protective equipment.\n\nMonetizing Unmitigated Damages:\n\nAssigning a monetary value to the physical damages that remain after mitigation.\nInvolves complex ethical and methodological considerations."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#challenges-in-data-collection-and-analysis",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#challenges-in-data-collection-and-analysis",
+    "title": "Lecture 12",
+    "section": "Challenges in Data Collection and Analysis",
+    "text": "Challenges in Data Collection and Analysis\nEthical Constraints\n\nHuman experimentation with pollutants is unethical.\nLimits the ability to conduct controlled studies directly linking pollution to health effects."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#challenges-in-data-collection-and-analysis-1",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#challenges-in-data-collection-and-analysis-1",
+    "title": "Lecture 12",
+    "section": "Challenges in Data Collection and Analysis",
+    "text": "Challenges in Data Collection and Analysis\nAlternative Approaches\n\nAnimal Experiments:\n\n\nControlled laboratory studies on animals to infer potential human impacts.\nLimitations:\n\nHigh costs and ethical concerns.\nUncertainty in extrapolating results to humans.\nLong-term effects may not be observable."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#challenges-in-data-collection-and-analysis-2",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#challenges-in-data-collection-and-analysis-2",
+    "title": "Lecture 12",
+    "section": "Challenges in Data Collection and Analysis",
+    "text": "Challenges in Data Collection and Analysis\nAlternative Approaches\n\nStatistical Analysis of Human Populations:\n\n\nObservational studies examining correlations between pollution levels and health outcomes.\nLimitations:\n\nCorrelation vs. Causation: Higher pollution levels may correlate with higher disease rates, but other factors (e.g., age, smoking rates) could be influencing results.\nConfounding Variables: Difficult to isolate the effect of pollution from other variables.\nData Limitations: Incomplete or inconsistent data across different regions and populations."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#estimating-the-strength-of-pollution-effects",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#estimating-the-strength-of-pollution-effects",
+    "title": "Lecture 12",
+    "section": "Estimating the Strength of Pollution Effects",
+    "text": "Estimating the Strength of Pollution Effects\n\nNonexperimental Data Challenges:\n\nWithout controlled experiments, it’s difficult to determine the exact relationship between pollution levels and health effects.\nSynergistic Effects:\n\nPollution may interact with other factors (e.g., smoking, other pollutants) in non-additive ways.\nThese interactions complicate the estimation of pollution’s direct impact.\n\n\nVariability in Research Findings:\n\nDifferent studies may yield conflicting results due to differences in methodology, data quality, and analytical techniques.\nConsistency in findings is hard to achieve without standardized methods."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#monetizing-physical-damages",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#monetizing-physical-damages",
+    "title": "Lecture 12",
+    "section": "Monetizing Physical Damages",
+    "text": "Monetizing Physical Damages\n\nComplexities in Valuation:\n\nAssigning monetary value to human life extensions, health improvements, or reductions in suffering involves ethical dilemmas.\nEmotional and psychological damages are difficult to quantify.\n\nValuation Techniques:\n\nRevealed Preference Methods: Infer values based on actual behavior (e.g., how much people spend to avoid pollution).\nStated Preference Methods: Use surveys to elicit willingness to pay for environmental improvements or accept compensation for degradation."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#overcoming-valuation-difficulties",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#overcoming-valuation-difficulties",
+    "title": "Lecture 12",
+    "section": "Overcoming Valuation Difficulties",
+    "text": "Overcoming Valuation Difficulties\n\nInterdisciplinary Collaboration:\n\nCombining expertise from economics, epidemiology, environmental science, and other fields to improve data accuracy and methodological approaches.\n\nImproved Statistical Methods:\n\nUsing advanced econometric techniques to control for confounding variables.\nPanel studies to track health outcomes over time.\n\nEthical Frameworks:\n\nEstablishing guidelines for valuing human health and life that consider both ethical implications and practical necessities."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#valuation-methods-overview-1",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#valuation-methods-overview-1",
+    "title": "Lecture 12",
+    "section": "Valuation Methods Overview",
+    "text": "Valuation Methods Overview\n2. Revealed Preference Methods\n\nBased on observed behaviors in actual markets.\nInfer values from related market choices.\n\nMarket Prices\n\nDirect valuation using existing market data.\n\nTravel Cost Method\n\nInfers value of recreational sites by expenses incurred by visitors.\n\nHedonic Pricing\n\nUses differences in market prices (e.g., property values) to estimate environmental values."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#stated-preference-methods-contingent-valuation-1",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#stated-preference-methods-contingent-valuation-1",
+    "title": "Lecture 12",
+    "section": "Stated Preference Methods: Contingent Valuation",
+    "text": "Stated Preference Methods: Contingent Valuation\nContingent Valuation Method (CVM)\n\nPotential Biases and Solutions:\n\nStarting-Point Bias\n\nIssue: Influence of initial value suggestions.\nSolution: Use randomized starting points; pretest surveys.\n\nHypothetical Bias\n\nIssue: Difference between hypothetical and actual WTP.\nSolution: Use real payment vehicles; emphasize consequentiality.\n\nPayment Vehicle Bias\n\nIssue: Negative reactions to the method of payment (e.g., taxes).\nSolution: Choose neutral, plausible payment methods.\n\nWTP vs. WTA Discrepancy\n\nIssue: Willingness to accept (WTA) often exceeds WTP.\nSolution: Understand context; use appropriate measure based on property rights."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#stated-preference-methods-1",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#stated-preference-methods-1",
+    "title": "Lecture 12",
+    "section": "Stated Preference Methods",
+    "text": "Stated Preference Methods\nContingent Valuation Method (CVM)\n\nHypothetical Market Creation\n\nRespondents consider WTP in a simulated scenario.\n\nPotential Biases and Solutions:\n\nStrategic Bias\n\nIssue: Deliberate misrepresentation to influence outcomes.\nSolution: Assure anonymity; emphasize honest responses.\n\nInformation Bias\n\nIssue: Lack of knowledge affecting responses.\nSolution: Provide clear, comprehensive information."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#stated-preference-methods-2",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#stated-preference-methods-2",
+    "title": "Lecture 12",
+    "section": "Stated Preference Methods",
+    "text": "Stated Preference Methods\nContingent Valuation Method (CVM)\n\nPotential Biases and Solutions:\n\nStarting-Point Bias\n\nIssue: Influence of initial value suggestions.\nSolution: Use randomized starting points; pretest surveys.\n\nHypothetical Bias\n\nIssue: Difference between hypothetical and actual WTP.\nSolution: Use real payment vehicles; emphasize consequentiality."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#stated-preference-methods-3",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#stated-preference-methods-3",
+    "title": "Lecture 12",
+    "section": "Stated Preference Methods",
+    "text": "Stated Preference Methods\nContingent Valuation Method (CVM)\n\nPotential Biases and Solutions:\n\nPayment Vehicle Bias\n\nIssue: Negative reactions to the method of payment (e.g., taxes).\nSolution: Choose neutral, plausible payment methods.\n\nWTP vs. WTA Discrepancy\n\nIssue: Willingness to accept (WTA) often exceeds WTP.\nSolution: Understand context; use appropriate measure based on property rights."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#stated-preference-methods-4",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#stated-preference-methods-4",
+    "title": "Lecture 12",
+    "section": "Stated Preference Methods",
+    "text": "Stated Preference Methods\nChoice Experiments\n\nAttribute-Based Valuation\n\nRespondents choose between alternatives with different attributes and costs.\n\nAdvantages\n\nCan estimate the value of individual attributes.\nReflects trade-offs people are willing to make.\n\nExample Application\n\nValuing water quality improvements by presenting options with varying levels of clarity, nutrient concentrations, and costs."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#examples-of-valuation-studies-1",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#examples-of-valuation-studies-1",
+    "title": "Lecture 12",
+    "section": "Examples of Valuation Studies",
+    "text": "Examples of Valuation Studies\nExample 2: Valuing Individual Brown Bears\n\nObjective: Determine WTP to protect individual brown bears in Alaska.\nMethod: Contingent valuation survey of live bear cam viewers.\nOutcome: Demonstrated reliable WTP estimates with careful survey design."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-12-2024-0925.html#examples-of-valuation-studies-2",
+    "href": "econ-lec/econ-341-lec-12-2024-0925.html#examples-of-valuation-studies-2",
+    "title": "Lecture 12",
+    "section": "Examples of Valuation Studies",
+    "text": "Examples of Valuation Studies\nExample 3: Total Economic Value of U.S. National Parks\n\nObjective: Estimate the TEV of all National Park Service lands and programs.\nMethod: Choice experiment with U.S. households.\nOutcome: TEV estimated at $92 billion, highlighting the significant value beyond visitation."
   }
 ]
