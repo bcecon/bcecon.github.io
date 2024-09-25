@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Byeong-Hak Choe">
-<meta name="dcterms.date" content="2024-09-24">
+<meta name="dcterms.date" content="2024-09-25">
 
 <title>Homework 2 | Byeong-Hak Choe</title>
 <style>
@@ -227,14 +227,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">September 24, 2024</p>
+      <p class="date">September 25, 2024</p>
     </div>
   </div>
   
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">September 24, 2024</p>
+      <p class="date-modified">September 25, 2024</p>
     </div>
   </div>
     
@@ -316,19 +316,21 @@ W(n, x, v, g) = \mu(n)\times\theta(x)\times u(v) + y + n\times c(x, g) - n\times
 <section id="part-1.-consumer-welfare-q4a-q4c" class="level2">
 <h2 class="anchored" data-anchor-id="part-1.-consumer-welfare-q4a-q4c">Part 1. Consumer Welfare (Q4a-Q4c)</h2>
 <p>Let us assume the existence of a <em>benevolent</em> Social Planner who makes all the decisions in the economy. The Social Planner is benevolent because the Social Planner’s objective is to maximize the social welfare by allocating available resources in the economy.</p>
-<p>The Social Planner maximizes the social welfare <span class="math inline">\(W\)</span> by choosing <span class="math inline">\(n,x,v\)</span>, and <span class="math inline">\(g\)</span>: <span class="math display">\[\begin{align*}
+<p>The Social Planner maximizes the social welfare <span class="math inline">\(W\)</span> by choosing <span class="math inline">\(n,x,v\)</span>, and <span class="math inline">\(g\)</span>: <span class="math display">\[
+\begin{align*}
 \max_{n,x,v,g}\; W \,=\, \mu(n)\times\theta(x)\times u(v) + y + n\times c(x, g) - n\times[p + d]\times g\times v
-\end{align*}\]</span></p>
-<p>The following is the first-order conditions (FOCs) that characterize welfare maximization: <span class="math display">\[\begin{align}
-\frac{\partial W}{\partial g} &amp;\,=\, -n \times [\, c_{g}(x,g) \,+\, (p+d)\times v \,] = 0;\\
+\end{align*}
+\]</span> The following is the first-order conditions (FOCs) that characterize welfare maximization: <span class="math display">\[
+\begin{align}
+\frac{\partial W}{\partial g} &amp;\,=\, -n \times [\, c_{g}(x,g) \,+\, (p+d)\times v \,] = 0;\tag{1}\\
 \hspace{3cm}\notag\\
-\frac{\partial W}{\partial x} &amp;\,=\, \mu(n)\times \theta'(x)\times u(v) \,-\, n\times c_{x}(x,g) = 0;\\
+\frac{\partial W}{\partial x} &amp;\,=\, \mu(n)\times \theta'(x)\times u(v) \,-\, n\times c_{x}(x,g) = 0;\tag{2}\\
 \hspace{4cm}\notag\\
-\frac{\partial W}{\partial v} &amp;\,=\, \mu(n)\times \theta(x)\times u'(v) \,-\, n\times (p + d)\times g  = 0;\\
+\frac{\partial W}{\partial v} &amp;\,=\, \mu(n)\times \theta(x)\times u'(v) \,-\, n\times (p + d)\times g  = 0;\tag{3}\\
 \hspace{4cm}\notag\\
-\frac{\partial W}{\partial n} &amp;\,=\, \mu'(n)\times \theta(x)\times u(v) \,-\, c(x,g) - (p + d)\times g \times v = 0.
-\end{align}\]</span></p>
-<p>Denote the solution to the FOCs (1)-(4) by <span class="math inline">\((n^{o}, x^{o}, v^{o}, g^{o})\)</span>.</p>
+\frac{\partial W}{\partial n} &amp;\,=\, \mu'(n)\times \theta(x)\times u(v) \,-\, c(x,g) - (p + d)\times g \times v = 0.\tag{4}
+\end{align}
+\]</span> Denote the solution to the FOCs (1)-(4) by <span class="math inline">\((n^{o}, x^{o}, v^{o}, g^{o})\)</span>.</p>
 <section id="q4a." class="level3">
 <h3 class="anchored" data-anchor-id="q4a.">Q4a.</h3>
 <ul>
@@ -388,15 +390,17 @@ W(n, x, v, g) = \mu(n)\times\theta(x)\times u(v) + y + n\times c(x, g) - n\times
 <li>A value of <span class="math inline">\(\beta = 1\)</span> implies that the consumer properly values a dollar of future fuel savings at exactly $1;</li>
 <li>A value of <span class="math inline">\(\beta &lt; 1\)</span> implies that the consumer undervalues such savings.</li>
 </ul>
-<p>Let <span class="math inline">\(U\)</span> be the consumer’s utility. Given these assumptions, below are the first-order conditions (FOCs) that characterize consumer’s utility maximizing behavior in the presence of the above policies: <span class="math display">\[\begin{align}
-\frac{\partial U}{\partial g} &amp;\,=\, -n [\, c_{g}(x,g) \,+\, \beta(p+\tau_{f}) v - \tau_{g} \,] = 0;\\
+<p>Let <span class="math inline">\(U\)</span> be the consumer’s utility. Given these assumptions, below are the first-order conditions (FOCs) that characterize consumer’s utility maximizing behavior in the presence of the above policies: <span class="math display">\[
+\begin{align}
+\frac{\partial U}{\partial g} &amp;\,=\, -n [\, c_{g}(x,g) \,+\, \beta(p+\tau_{f}) v - \tau_{g} \,] = 0;\tag{5}\\
 \hspace{3cm}\notag\\
-\frac{\partial U}{\partial x} &amp;\,=\, \mu(n) \theta'(x) u(v) \,-\, n c_{x}(x,g) + \tau_{g} n  \sigma'(x) = 0;\\
+\frac{\partial U}{\partial x} &amp;\,=\, \mu(n) \theta'(x) u(v) \,-\, n c_{x}(x,g) + \tau_{g} n  \sigma'(x) = 0;\tag{6}\\
 \hspace{4cm}\notag\\
-\frac{\partial U}{\partial v} &amp;\,=\, \mu(n) \theta(x) u'(v) \,-\, n (p + \tau_{f}) g  = 0;\\
+\frac{\partial U}{\partial v} &amp;\,=\, \mu(n) \theta(x) u'(v) \,-\, n (p + \tau_{f}) g  = 0;\tag{7}\\
 \hspace{4cm}\notag\\
-\frac{\partial U}{\partial n} &amp;\,=\, \mu'(n) \theta(x) u(v) \,-\, c(x,g) - \beta[\,p + \tau_{f}\,] g  v - \tau_{g}[\, g - \sigma(x) \,] - \tau_{n} = 0.
-\end{align}\]</span> Denote the solution to the FOCs (5)-(8) by <span class="math inline">\((n^{*}, x^{*}, v^{*}, g^{*})\)</span>.</p>
+\frac{\partial U}{\partial n} &amp;\,=\, \mu'(n) \theta(x) u(v) \,-\, c(x,g) - \beta[\,p + \tau_{f}\,] g  v - \tau_{g}[\, g - \sigma(x) \,] - \tau_{n} = 0.\tag{8}
+\end{align}
+\]</span> Denote the solution to the FOCs (5)-(8) by <span class="math inline">\((n^{*}, x^{*}, v^{*}, g^{*})\)</span>.</p>
 <p>Note that the multiplication notation ‘<span class="math inline">\(\times\)</span>’ is suppressed in the above FOCs.</p>
 <section id="q4d." class="level3">
 <h3 class="anchored" data-anchor-id="q4d.">Q4d.</h3>

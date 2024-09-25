@@ -117,21 +117,23 @@ Meanwhile, the expression $n\times (p + d) \times g\times v$ is **total private 
 Let us assume the existence of a *benevolent* Social Planner who makes all the decisions in the economy. The Social Planner is benevolent because the Social Planner's objective is to maximize the social welfare by allocating available resources in the economy.
 
 The Social Planner maximizes the social welfare $W$ by choosing $n,x,v$, and $g$:
+$$
 \begin{align*}
 \max_{n,x,v,g}\; W \,=\, \mu(n)\times\theta(x)\times u(v) + y + n\times c(x, g) - n\times[p + d]\times g\times v
 \end{align*}
-
+$$
 The following is the first-order conditions (FOCs) that characterize welfare maximization:
+$$
 \begin{align}
-\frac{\partial W}{\partial g} &\,=\, -n \times [\, c_{g}(x,g) \,+\, (p+d)\times v \,] = 0;\\
+\frac{\partial W}{\partial g} &\,=\, -n \times [\, c_{g}(x,g) \,+\, (p+d)\times v \,] = 0;\tag{1}\\
 \hspace{3cm}\notag\\
-\frac{\partial W}{\partial x} &\,=\, \mu(n)\times \theta'(x)\times u(v) \,-\, n\times c_{x}(x,g) = 0;\\
+\frac{\partial W}{\partial x} &\,=\, \mu(n)\times \theta'(x)\times u(v) \,-\, n\times c_{x}(x,g) = 0;\tag{2}\\
 \hspace{4cm}\notag\\
-\frac{\partial W}{\partial v} &\,=\, \mu(n)\times \theta(x)\times u'(v) \,-\, n\times (p + d)\times g  = 0;\\
+\frac{\partial W}{\partial v} &\,=\, \mu(n)\times \theta(x)\times u'(v) \,-\, n\times (p + d)\times g  = 0;\tag{3}\\
 \hspace{4cm}\notag\\
-\frac{\partial W}{\partial n} &\,=\, \mu'(n)\times \theta(x)\times u(v) \,-\, c(x,g) - (p + d)\times g \times v = 0.
+\frac{\partial W}{\partial n} &\,=\, \mu'(n)\times \theta(x)\times u(v) \,-\, c(x,g) - (p + d)\times g \times v = 0.\tag{4}
 \end{align}
-
+$$
 Denote the solution to the FOCs (1)-(4) by $(n^{o}, x^{o}, v^{o}, g^{o})$.
 
 
@@ -193,15 +195,17 @@ Additionally, the regulator considers the share of future fuel consumption that 
 
 
 Let $U$ be the consumer's utility. Given these assumptions, below are the first-order conditions (FOCs) that characterize consumer's utility maximizing behavior in the presence of the above policies:
+$$
 \begin{align}
-\frac{\partial U}{\partial g} &\,=\, -n [\, c_{g}(x,g) \,+\, \beta(p+\tau_{f}) v - \tau_{g} \,] = 0;\\
+\frac{\partial U}{\partial g} &\,=\, -n [\, c_{g}(x,g) \,+\, \beta(p+\tau_{f}) v - \tau_{g} \,] = 0;\tag{5}\\
 \hspace{3cm}\notag\\
-\frac{\partial U}{\partial x} &\,=\, \mu(n) \theta'(x) u(v) \,-\, n c_{x}(x,g) + \tau_{g} n  \sigma'(x) = 0;\\
+\frac{\partial U}{\partial x} &\,=\, \mu(n) \theta'(x) u(v) \,-\, n c_{x}(x,g) + \tau_{g} n  \sigma'(x) = 0;\tag{6}\\
 \hspace{4cm}\notag\\
-\frac{\partial U}{\partial v} &\,=\, \mu(n) \theta(x) u'(v) \,-\, n (p + \tau_{f}) g  = 0;\\
+\frac{\partial U}{\partial v} &\,=\, \mu(n) \theta(x) u'(v) \,-\, n (p + \tau_{f}) g  = 0;\tag{7}\\
 \hspace{4cm}\notag\\
-\frac{\partial U}{\partial n} &\,=\, \mu'(n) \theta(x) u(v) \,-\, c(x,g) - \beta[\,p + \tau_{f}\,] g  v - \tau_{g}[\, g - \sigma(x) \,] - \tau_{n} = 0.
+\frac{\partial U}{\partial n} &\,=\, \mu'(n) \theta(x) u(v) \,-\, c(x,g) - \beta[\,p + \tau_{f}\,] g  v - \tau_{g}[\, g - \sigma(x) \,] - \tau_{n} = 0.\tag{8}
 \end{align}
+$$
 Denote the solution to the FOCs (5)-(8) by $(n^{*}, x^{*}, v^{*}, g^{*})$.
 
 Note that the multiplication notation '$\times$' is suppressed in the above FOCs.
