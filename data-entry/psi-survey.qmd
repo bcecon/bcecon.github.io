@@ -36,6 +36,7 @@ Please provide detailed descriptions of your teaching, research, and service act
 
 For more information about each of the goals, you can visit the United Nations website: [SDGs: 17 Goals to Transform Our World](https://www.un.org/en/exhibits/page/sdgs-17-goals-transform-world).
 
+A <u>confirmation email</u> will be sent to the email address that you provide on this survey once your submission is received.
 
 ```{=html}
 <iframe id="contentFrame" width="100%" height="5000px" frameborder="no" 
