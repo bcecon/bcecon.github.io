@@ -1,0 +1,494 @@
+---
+title: Lecture 13
+subtitle: "Valuing the Environment: Methods"
+format:
+  clean-revealjs:
+    self-contained: false
+    chalkboard: true
+    incremental: true
+    code-annotations: hover
+    scrollable: false
+
+    # logo: logo-title-slide.png
+author:
+  - name: Byeong-Hak Choe
+    email: bchoe@geneseo.edu
+    affiliations: SUNY Geneseo
+date: 2024-09-27
+execute: 
+  eval: true
+  echo: true
+callout-icon: false
+
+from: markdown+emoji
+include-after-body: target-hover.html # effect.html
+
+# bibliography: refs.bib
+---
+
+
+```{r setup}
+#| include: false
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+
+
+theme_set(theme_fivethirtyeight()+
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = 
+                  element_text(angle = 0,
+                               size = rel(1.5),
+                               margin = margin(10,0,0,0)),
+                axis.title.y = 
+                  element_text(angle = 0,
+                               size = rel(1.5),
+                               margin = margin(0,10,0,0)),
+                axis.text.x = element_text(size = rel(1.5)),
+                axis.text.y = element_text(size = rel(1.5)),
+                strip.text = element_text(size = rel(1.5)),
+                legend.position = "top",
+                legend.text = element_text(size = rel(1.5)),
+                legend.title = element_text(size = rel(1.5))
+                )
+          )
+```
+
+
+# Valuing the Envrionment: Methods {background-color="#1c4982"}
+
+## Valuing the Envrionment: Methods
+### Environmental Disasters Highlight Valuation Challenges
+  - **Exxon Valdez Oil Spill (1989)**
+    - Spilled **11 million gallons** of crude oil in Prince William Sound, Alaska.
+    - Exxon accepted liability for:
+      - **Cleanup costs**: ~$2.1 billion.
+      - **Compensation to fishermen**: ~$303 million over 5 years.
+      - **Environmental damages**: Settled at $900 million; punitive damages fluctuated in court appeals.
+      
+
+## Valuing the Envrionment: Methods
+### Environmental Disasters Highlight Valuation Challenges
+  - **Deepwater Horizon Spill (2010)**
+    - Spilled an estimated **134 million gallons** into the Gulf of Mexico.
+    - Largest maritime spill in U.S. history.
+    - **Settlement**: $20.8 billion, including $8.8 billion for natural resource damages.
+    - **Total costs**: Over $65 billion including cleanup and claims.
+
+## Valuing the Envrionment: Methods
+### Key Questions
+  - How are economic damages from environmental harm calculated?
+  - What is the monetary value of lost wildlife and ecological damage?
+
+
+
+## Why Value the Environment?
+
+- **Default Valuation is Zero Without Effort**
+  - Not valuing environmental goods implies a value of **$0**, leading to suboptimal policy decisions.
+- **Informed Decision-Making**
+  - Monetization of environmental benefits and costs is crucial for **benefit-cost analysis**.
+  - Ensures that **nonmarket environmental goods** are considered in policy and legal decisions.
+
+- **Applications in Policy and Law**
+  - **Natural Resource Damage Assessments** (e.g., oil spills).
+  - **Habitat Designation** under the Endangered Species Act.
+  - **Dam Relicensing Applications**.
+  - **Environmental Regulations** (Clean Air Act, Clean Water Act).
+
+
+
+## Importance of Damage Estimates
+- **Policy Design**: Damage estimates inform environmental regulations and policies aimed at pollution control.
+- **Legal Proceedings**: Courts rely on damage valuations to determine liability awards in environmental lawsuits.
+
+- **Forms of Pollution Damage**
+  1. **Human Health Effects**: The most immediate concern, where polluted air and water can cause diseases upon ingestion or inhalation.
+  2. **Loss of Enjoyment**: Pollution can reduce the quality of outdoor recreational activities.
+  3. **Environmental Damage**: Harm to vegetation, wildlife, and ecosystems.
+  4. **Material Damage**: Deterioration of buildings, infrastructure, and other materials due to pollutants.
+
+
+## Steps in Assessing the Magnitude of Damage
+
+1. **Identifying Affected Categories**:
+   - Determining which populations, ecosystems, or materials are impacted.
+   - Challenges arise due to ethical constraints preventing controlled human experiments.
+
+2. **Estimating Physical Relationships**:
+   - Understanding how pollutant emissions relate to damage in affected categories.
+   - Requires data on both pollutant levels and health/environmental outcomes.
+
+## Steps in Assessing the Magnitude of Damage
+3. **Estimating Mitigation Responses**:
+   - Assessing how affected parties might reduce or prevent damage.
+   - Includes actions like medical treatment, relocation, or using protective equipment.
+
+4. **Monetizing Unmitigated Damages**:
+   - Assigning a monetary value to the physical damages that remain after mitigation.
+   - Involves complex ethical and methodological considerations.
+
+## Challenges in Data Collection and Analysis
+### Ethical Constraints
+  - Human experimentation with pollutants is unethical.
+  - Limits the ability to conduct controlled studies directly linking pollution to health effects.
+
+
+## Challenges in Data Collection and Analysis
+### Alternative Approaches
+1. **Animal Experiments**:
+  - Controlled laboratory studies on animals to infer potential human impacts.
+  - Limitations:
+    - High costs and ethical concerns.
+    - Uncertainty in extrapolating results to humans.
+    - Long-term effects may not be observable.
+
+
+## Challenges in Data Collection and Analysis
+### Alternative Approaches
+2. **Statistical Analysis of Human Populations**:
+  - Observational studies examining correlations between pollution levels and health outcomes.
+  - Limitations:
+    - **Correlation vs. Causation**: Higher pollution levels may correlate with higher disease rates, but other factors (e.g., age, smoking rates) could be influencing results.
+    - **Confounding Variables**: Difficult to isolate the effect of pollution from other variables.
+    - **Data Limitations**: Incomplete or inconsistent data across different regions and populations.
+
+
+## Estimating the Strength of Pollution Effects
+
+- **Nonexperimental Data Challenges**:
+  - Without controlled experiments, it's difficult to determine the exact relationship between pollution levels and health effects.
+  - **Synergistic Effects**:
+    - Pollution may interact with other factors (e.g., smoking, other pollutants) in non-additive ways.
+    - These interactions complicate the estimation of pollution's direct impact.
+
+- **Variability in Research Findings**:
+  - Different studies may yield conflicting results due to differences in methodology, data quality, and analytical techniques.
+  - Consistency in findings is hard to achieve without standardized methods.
+
+
+
+## Monetizing Physical Damages
+- **Complexities in Valuation**:
+  - Assigning monetary value to human life extensions, health improvements, or reductions in suffering involves ethical dilemmas.
+  - Emotional and psychological damages are difficult to quantify.
+
+- **Valuation Techniques**:
+  - **Revealed Preference Methods**: Infer values based on actual behavior (e.g., how much people spend to avoid pollution).
+  - **Stated Preference Methods**: Use surveys to elicit willingness to pay for environmental improvements or accept compensation for degradation.
+
+
+
+
+## Overcoming Valuation Difficulties
+
+- **Interdisciplinary Collaboration**:
+  - Combining expertise from economics, epidemiology, environmental science, and other fields to improve data accuracy and methodological approaches.
+
+- **Improved Statistical Methods**:
+  - Using advanced econometric techniques to control for confounding variables.
+  - Panel studies to track health outcomes over time.
+
+- **Ethical Frameworks**:
+  - Establishing guidelines for valuing human health and life that consider both ethical implications and practical necessities.
+
+
+## Types of Economic Values
+### 1. **Use Value**
+
+:::{.nonincremental}
+- **Direct Interaction** with the environment.
+- Examples:
+  - Fishing, hiking, swimming.
+  - Enjoyment of scenic vistas.
+
+:::
+
+## Types of Economic Values
+### 2. **Option Value**
+:::{.nonincremental}
+- **Future Potential Use** of the environment.
+- Willingness to pay to preserve the option for future personal use.
+- Example:
+  - Preserving a national park for a potential future visit.
+
+:::
+
+## Types of Economic Values
+### 3. **Nonuse (Passive-Use) Value**
+:::{.nonincremental}
+- **Value Without Direct Use**.
+- **Bequest Value**: Ensuring the resource is available for future generations.
+- **Existence Value**: Value from knowing a resource simply exists.
+  - Example: Satisfaction from knowing a species is protected, even if one will never see it.
+
+:::
+
+## Total Willingness to Pay (TWP)
+
+- **Formula**:
+$$
+  \text{TWP} = \text{Use Value} + \text{Option Value} + \text{Nonuse Value}
+$$
+
+- **Importance**:
+  - Captures the **full economic value** of environmental resources.
+  - Essential for accurate **damage assessments** and **policy evaluations**.
+
+
+
+## Debate: Should We Value the Environment Economically?
+
+- **Deep Ecology Perspective**
+  - Environment has **intrinsic value** beyond human use.
+  - Economic valuation may be seen as inadequate or inappropriate.
+- **Economic Perspective**
+  - **Instrumental Value**: Environment valued for its usefulness to humans.
+  - Valuation helps in making **informed policy decisions**.
+  - Without valuation, environmental assets may be undervalued or ignored.
+
+
+
+
+## Valuation Methods Overview
+### **1. Stated Preference Methods**
+- Based on **surveys and questionnaires**.
+- Elicit values directly from individuals.
+
+  - **Contingent Valuation Method (CVM)**
+    - Asks respondents their willingness to pay (WTP) for specific environmental changes.
+    - **Hypothetical Market Creation**: Respondents consider WTP in a simulated scenario.
+  - **Choice Experiments**
+    - Respondents choose between bundles of attributes with varying levels and costs.
+
+## Valuation Methods Overview
+### **2. Revealed Preference Methods**
+- Based on **observed behaviors** in actual markets.
+- Infer values from related market choices.
+
+  - **Market Prices**
+    - Direct valuation using existing market data.
+  - **Travel Cost Method**
+    - Infers value of recreational sites by expenses incurred by visitors.
+  - **Hedonic Pricing**
+    - Uses differences in market prices (e.g., property values) to estimate environmental values.
+
+
+
+## Stated Preference Methods
+### Contingent Valuation Method (CVM): Potential Biases and Solutions
+
+  1. **Strategic Bias**
+     - **Issue**: Deliberate misrepresentation to influence outcomes.
+     - **Solution**: Assure anonymity; emphasize honest responses.
+  2. **Information Bias**
+     - **Issue**: Lack of knowledge affecting responses.
+     - **Solution**: Provide clear, comprehensive information.
+     
+  3. **Starting-Point Bias**
+     - **Issue**: Influence of initial value suggestions.
+     - **Solution**: Use randomized starting points; pretest surveys.
+
+
+## Stated Preference Methods
+### Contingent Valuation Method (CVM): Potential Biases and Solutions
+
+4. **Hypothetical Bias**
+     - **Issue**: Difference between hypothetical and actual WTP.
+     - **Solution**: Use real payment vehicles; emphasize consequentiality.
+5. **Payment Vehicle Bias**
+     - **Issue**: Negative reactions to the method of payment (e.g., taxes).
+     - **Solution**: Choose neutral, plausible payment methods.
+6. **WTP vs. WTA Discrepancy**
+     - **Issue**: Willingness to accept (WTA) often exceeds WTP.
+     - **Solution**: Understand context; use appropriate measure based on property rights.
+
+
+## Stated Preference Methods
+### WTP vs. WTA Discrepancy
+
+- There are two ways to determine CS using utility levels:
+  - **Willingness-to-pay (WTP)** for improved quality
+  - **Willingness-to-accept (WTA)** compensation in exchange for degraded quality
+
+
+- More precisely,
+  - WTP measures the monetary value one is willing to pay to attain enhanced quality, while maintaining the same level of utility experienced prior to the enhancement.
+  - WTA measures the monetary compensation one is willing to accept for enduring a decrease in quality, while maintaining the same level of utility experienced prior to the degradation.
+
+
+## Stated Preference Methods
+### WTP vs. WTA Discrepancy
+
+- In standard theory, WTA should be only a bit higher than WTP for most goods, given small income effects.
+
+- In experiments, WTA values are typically 2 to 7 times as high as WTP values! 
+  - This difference persists even in tests specifically designed to control for inflated WTA figures
+
+
+
+## Stated Preference Methods
+### WTP vs. WTA Discrepancy
+
+
+::::{.nonincremental}
+:::: {.columns}
+
+::: {.column width="50%"}
+- $q$ : a public good (e.g., improvement in environmental quality)
+- $x_1$: a market good with price $p_1$
+- $y$: income to buy $x_{1}$.
+
+- **Compensating variation** (CV) measures WTP.
+- **Equivalent variation** (EV) measures WTA.
+
+:::
+
+::: {.column width="50%"}
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/cv-ev-q.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+::::
+::::
+
+
+
+
+## Stated Preference Methods
+### Explaining WTP/WTA Disparities
+
+
+:::: {.columns}
+::: {.column width="45%"}
+<div style="display:block; margin:20px;"></div>
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/gp-fig5-2.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::{.nonincremental}
+1. **Prospect theory**: people value gains and losses differently
+
+:::
+
+:::
+
+
+::: {.column width="55%"}
+
+  - **Loss aversion**: losses are valued more highly than gains.
+    - **The endowment effect**: people value what they own more than what they don’t 
+  - People may adopt the *status quo* as their *reference point* and demand higher compensation to allow environmental degradation than they are willing to pay to make improvements.
+  - This contribute to WTA being greater than WTP.
+
+:::
+::::
+
+<!-- 1. **Prospect theory**: people may adopt the *status quo* as their *reference point* and demand higher compensation to allow environmental degradation than they are willing to pay to make improvements -->
+
+<!-- - If prospect theory is correct, it would reshape our marginal benefit curve for pollution reduction -->
+
+
+
+
+## Stated Preference Methods
+### Explaining WTP/WTA Disparities
+
+<div style="text-align: center; width: 72%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/wta-wtp-subs.jpg" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+
+2. **Substitution**. The degree of substitutability between environmental quality and other consumption goods
+  - If environmental goods really have no good substitutes, this could lead to a larger disparaty.
+
+
+
+<!-- For example, if we were to compare WTP with WTA for tickets for two ice hockey games, one of which was also being live on TV, we might expect the difference between WTP and WTA to be smaller for the game that people could watch live on TV instead of only being able to watch it live at the stadium. If there are no close substitutes, then we could expect quite large differences between WTP and WTA, whereas if close substitutes exist, then WTP and WTA should not be that different.  -->
+
+<!-- The second explanation is rooted in behavioural psychology, in the concept of loss aversion. This concept suggests that people systematically value what they already have more highly than that which they could acquire, so that losses are always valued more highly than equivalent gains. -->
+
+<!-- ## Explaining WTP/WTA Disparities: -->
+<!-- ### Prospect Theory or Substitutability? -->
+
+<!-- <!-- - One study using candy bars and risk of salmonella from sandwiches, to determine peoples’ WTA and WTP. --> -->
+<!-- <!--   - Provided support for the “no-good substitutes” explanation for the WTA/WTP discrepancy --> -->
+
+
+<!-- - Advocates of prospect theory argue people do not become as attached to a candy bar or sandwich as they do to a grove of trees in a local park -->
+
+<!-- - People are attached to the status quo because there are no good substitutes for environmental degradation from the status quo -->
+
+<!-- - In this sense, the two explanations can converge -->
+
+
+## Stated Preference Methods
+### Explaining WTP/WTA Disparities
+3. **Moral Context**: WTA increases with the culpability of the party responsible for damages, suggesting that WTA can include a punitive element.
+
+4. **Type of Goods**: The ratio of WTA/WTP is smaller for ordinary goods and larger for public and nonmarket goods, influenced by the nature of property rights.
+  - Ownership and transfer rights for ordinary goods are clear and straightforward, while they are not for public and nonmarket goods.
+
+
+
+## Stated Preference Methods
+### Explaining WTP/WTA Disparities
+
+5. **Uncertainty in Dynamic Settings**: *Commitment costs* in decision-making, influenced by time preference and risk tolerance, can widen the gap between WTA and WTP.
+  - Commitment costs: if a community decides to allow development on a piece of land, they are committing to a decision that may be irreversible, and they forgo the opportunity to learn more about the environmental benefits of that land in the future.
+
+
+## Stated Preference Methods
+### The Choice between WTA and WTP
+
+1. **Property Rights and Valuation**: The choice between WTA and WTP depends on the allocation of property rights; ownership influences the valuation of environmental amenities.
+  - If the respondent owns the right to the resource, using WTA is appropriate; If not, using WTP is appropriate.
+
+2. **Preference for WTA**: For irreplaceable goods like biodiversity, WTA may be the preferred measure when determining compensation for losses.
+  - For something as unique as a species or a vital ecosystem, people might demand significantly higher compensation because the loss is permanent and cannot be easily offset by acquiring something else.
+
+
+
+## Stated Preference Methods
+### Choice Experiments
+
+- **Attribute-Based Valuation**
+  - Respondents choose between alternatives with different attributes and costs.
+- **Advantages**
+  - Can estimate the value of individual attributes.
+  - Reflects trade-offs people are willing to make.
+- **Example Application**
+  - Valuing water quality improvements by presenting options with varying levels of clarity, nutrient concentrations, and costs.
+
+
+
+## Examples of Valuation Studies
+### **Example 1: Exxon Valdez Passive-Use Value Assessment**
+
+- **Objective**: Estimate nonuse values lost due to the oil spill.
+- **Method**: National contingent valuation survey.
+- **Outcome**: Aggregate lost passive-use values estimated at **$2.8 billion** (1990 dollars).
+
+## Examples of Valuation Studies
+### **Example 2: Valuing Individual Brown Bears**
+
+- **Objective**: Determine WTP to protect individual brown bears in Alaska.
+- **Method**: Contingent valuation survey of live bear cam viewers.
+- **Outcome**: Demonstrated reliable WTP estimates with careful survey design.
+
+## Examples of Valuation Studies
+### **Example 3: Total Economic Value of U.S. National Parks**
+
+- **Objective**: Estimate the TEV of all National Park Service lands and programs.
+- **Method**: Choice experiment with U.S. households.
+- **Outcome**: TEV estimated at **$92 billion**, highlighting the significant value beyond visitation.
+
+
+
+
