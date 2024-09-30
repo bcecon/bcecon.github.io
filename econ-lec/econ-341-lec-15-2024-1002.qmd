@@ -61,7 +61,7 @@ theme_set(theme_fivethirtyeight()+
 
 ## Stated Preference Methods
 ### WTP vs. WTA Discrepancy
-
+:::{.nonincremental}
 - There are two ways to determine CS using utility levels:
   - **Willingness-to-pay (WTP)** for improved quality
   - **Willingness-to-accept (WTA)** compensation in exchange for degraded quality
@@ -80,7 +80,7 @@ theme_set(theme_fivethirtyeight()+
 - In experiments, WTA values are typically 2 to 7 times as high as WTP values! 
   - This difference persists even in tests specifically designed to control for inflated WTA figures
 
-
+:::
 
 ## Stated Preference Methods
 ### WTP vs. WTA Discrepancy
