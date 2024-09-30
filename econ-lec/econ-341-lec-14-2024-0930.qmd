@@ -58,20 +58,12 @@ theme_set(theme_fivethirtyeight()+
 
 # Valuing the Envrionment: Methods {background-color="#1c4982"}
 
-## Valuing the Envrionment: Methods
-### Environmental Disasters Highlight Valuation Challenges
-  - **Exxon Valdez Oil Spill (1989)**
-    - Spilled **11 million gallons** of crude oil in Prince William Sound, Alaska.
-    - Exxon accepted liability for:
-      - **Cleanup costs**: ~$2.1 billion.
-      - **Compensation to fishermen**: ~$303 million over 5 years.
-      - **Environmental damages**: Settled at $900 million; punitive damages fluctuated in court appeals.
-      
-
 
 
 ## Valuation Methods Overview
 ### **1. Stated Preference Methods**
+
+:::{.nonincremental}
 - Based on **surveys and questionnaires**.
 - Elicit values directly from individuals.
 
@@ -81,8 +73,13 @@ theme_set(theme_fivethirtyeight()+
   - **Choice Experiments**
     - Respondents choose between bundles of attributes with varying levels and costs.
 
+:::
+
 ## Valuation Methods Overview
 ### **2. Revealed Preference Methods**
+
+:::{.nonincremental}
+
 - Based on **observed behaviors** in actual markets.
 - Infer values from related market choices.
 
@@ -93,6 +90,7 @@ theme_set(theme_fivethirtyeight()+
   - **Hedonic Pricing**
     - Uses differences in market prices (e.g., property values) to estimate environmental values.
 
+:::
 
 
 ## Stated Preference Methods
@@ -261,7 +259,7 @@ theme_set(theme_fivethirtyeight()+
 ### Explaining WTP/WTA Disparities
 
 5. **Uncertainty in Dynamic Settings**: *Commitment costs* in decision-making, influenced by time preference and risk tolerance, can widen the gap between WTA and WTP.
-  - Commitment costs: if a community decides to allow development on a piece of land, they are committing to a decision that may be irreversible, and they forgo the opportunity to learn more about the environmental benefits of that land in the future.
+  - E.g., commitment costs: if a community decides to allow development on a piece of land, they are committing to a decision that may be irreversible, and they forgo the opportunity to learn more about the environmental benefits of that land in the future.
 
 
 ## Stated Preference Methods
@@ -302,10 +300,10 @@ theme_set(theme_fivethirtyeight()+
 ### Example 1: Measuring Passive-Use Values with CVM
   
 - **Survey Design:**
-  - Followed NOAA panel guidelines for reliable contingent valuation surveys.
+  - Followed [NOAA panel guidelines](https://repository.library.noaa.gov/view/noaa/60900) for reliable contingent valuation surveys.
   - Used a **binary discrete choice** format (yes/no) with varying payment amounts.
   - One-time tax increase used as the payment method.
-  - Focused on valuing a single good to avoid embedding bias (where respondents may have difficulty valuing multiple goods).
+  - Focused on valuing a single good to avoid **embedding bias** (where respondents may have difficulty valuing multiple goods).
   - Used visual aids like pictures, maps, and background information for context.
 
 
