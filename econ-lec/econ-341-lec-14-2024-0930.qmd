@@ -513,7 +513,7 @@ theme_set(theme_fivethirtyeight()+
   - The estimate also excludes the WTP of millions of **international tourists** and others with passive-use values.
 
 - **Economic Impact**:
-  - According to Linda Bilmes (Harvard University), the study shows that "Americans value the National Park Service at least **30 times more** than the government spends on it."
+  - The study shows that "Americans value the National Park Service at least **30 times more** than the government spends on it."
 
 
 
