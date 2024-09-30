@@ -416,23 +416,19 @@ theme_set(theme_fivethirtyeight()+
 ## Stated Preference Methods
 ### Choice Experiments: Valuing water quality improvements
 
-::::{.nonincremental}
-:::: {.columns}
-
-::: {.column width="67%"}
-<div style="text-align: center; width: 100%; margin: auto;">
+<div style="text-align: center; width: 67%; margin: auto;">
   <img src="https://bcdanl.github.io/lec_figs/tl-tab4-3.png" style="width: 100%; margin-bottom: -20px;">
   <p style="font-weight: bold;"></p>
 </div>
-:::
-::: {.column width="33%"}
-
-:::
-::::
-::::
 
 
 
+## Stated Preference Methods
+### Choice Experiments: Valuing water quality improvements
+- **Results**
+  - Residents are willing to pay for improvements in all three water quality attributes, with magnitudes that are roughly comparable to a recent Auckland referendum vote on a water quality tax ($66). 
+  - In Auckland, the average willingness to pay values (in NZ dollars) were $22.13 for nutrients, $189.75 for clarity, and $22.13 for E. coli.
+  
 ## Stated Preference Methods
 ### Choice Experiments
 
@@ -449,9 +445,29 @@ theme_set(theme_fivethirtyeight()+
 
 ## Stated Preference Methods
 ### **Example 3: The Value of U.S. National Parks**
+
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/nps-benefit.jpeg" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+:::
+::: {.column width="50%"}
 - **Background**:
   - In 2016, the U.S. National Park Service (NPS) celebrated its 100th anniversary.
   - Amidst discussions about potentially selling off park sites due to federal budget deficits, a study was conducted to estimate the **Total Economic Value (TEV)** of the NPS.
+
+:::
+::::
+
+
+
+## Stated Preference Methods
+### **Example 3: The Value of U.S. National Parks**
 
 - **Study Overview (Haefele et al., 2016)**:
   - This study was the first comprehensive estimate of the value of all National Park lands, waters, and historic sites.
