@@ -323,7 +323,7 @@ theme_set(theme_fivethirtyeight()+
 ## Stated Preference Methods
 ### **Example 2: WTP to Protect Brown Bears**
 
-{{< video https://www.youtube.com/watch?v=hdt1aldxafk width="85%" height="85%" >}}
+{{< video https://youtu.be/UPl8O2lfRnk?si=s55GFJo4-UGpW3Gu width="85%" height="85%" >}}
 
 
 ## Stated Preference Methods
