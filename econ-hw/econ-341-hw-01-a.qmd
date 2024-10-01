@@ -570,7 +570,7 @@ $$
 - Effect on Market Equilibrium and Social Welfare:
   - The implementation of a Pigouvian tax would significantly alter the market equilibrium. The supply curve would shift upward by the amount of the tax, resulting in a new equilibrium with a higher price and lower quantity. Producers would bear part of the tax burden, reducing their producer surplus, while consumers would face higher prices, diminishing their consumer surplus.
 
-  - In terms of social welfare, the deadweight loss from the negative externality disappears as production moves to the socially optimal level. The total economic surplus increases as environmental costs are internalized.
+  - In terms of social welfare, the deadweight loss from the negative externality disappears as production moves to the socially optimal level. The social welfare increases to the optimal level as environmental costs are internalized.
     - From an economic efficiency standpoint, the tax would encourage more efficient use of resources by incorporating environmental costs into market prices. This promotes an allocation of resources that better reflects true social costs and benefits.
   - Additionally, the revenue generated from the tax could potentially be used for environmental mitigation efforts or to offset other taxes, further influencing overall social welfare.
 
