@@ -1,0 +1,631 @@
+---
+title: Homework 1 - Example Answer
+subtitle: ""
+date: last-modified
+from: markdown+emoji
+comments: false
+code-fold: true
+
+execute: 
+  warning: false
+  message: false
+  fig-width: 9
+  fig-height: 7
+  fig-align: center
+  echo: false
+---
+```{r}
+#| include: false
+
+library(tidyverse)
+library(skimr)
+library(DT)
+library(hrbrthemes)
+
+theme_set(theme_ipsum() +
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = element_text(size = rel(2),
+                                            face = "bold",
+                                            margin = margin(0,0,10,0)),
+                axis.title.y = element_text(size = rel(2),
+                                            angle = 0,
+                                            face = "bold",
+                                            margin = margin(0,15,0,0)
+                                            ),
+                legend.title = element_text(size=rel(1.25))
+                ))
+
+
+df <- data.frame(
+  q = seq(0,4,.25),
+  mb_p = 4 - seq(0,4,.25),
+  mc = seq(0,4,.25) + 2
+) |> 
+  pivot_longer(cols = mb_p:mc,
+               names_to = 'type',
+               values_to = 'p') |> 
+  mutate(type = factor(type, labels = c('mb_p',
+                                        'mc')),
+         label = recode(type, 'mb_p' = "MB today", 'mc' = "MC"),
+         group = interaction(type, label)  # Creating a unique identifier for color and linetype
+  )
+```
+
+
+# Question 1. Externalities and Economic Development
+The demand function for oil is $q_d = 4 - p$, and the supply function is $q_s = p - 2$, where $p$ is the price of oil per barrel, and $q$ is the quantity of oil in millions of barrels per day. Using this information, solve the following problems:
+
+## a
+Graph the supply and demand functions on the same coordinate plane.
+
+```{r}
+ggplot() +
+  geom_line(data = df, aes(x = q, y = p, color = label, lty = label)) +
+  geom_point(data = 
+               data.frame(
+                 q = c(1), p = c(3)),
+             aes(x = q, y = p), size = 2) +
+  labs(color = 'MB & MC', lty = 'MB & MC') +
+  scale_color_manual(values = c("MB today" = "blue", 
+                                "MC" = "red")) +
+  scale_linetype_manual(values = c("MB today" = "solid",
+                                   "MC" = "solid")) + 
+  xlim(c(0,3))
+
+```
+
+
+## b
+Determine the market equilibrium price and quantity of oil.
+
+**Answer**
+- At the market equilibrium, the following holds:
+  - Utility/Profit Maximization: a consumer maximizes utility; a firm maximizes profit (a firm's version of utility).
+  - Market Clearing: a price is such that a quantity demanded is equal to a quantity supplied.
+  
+- Solving the system of demand and supply equations gives the equilibrium level of quantity ($q^{*}$) and price ($p^{*}$):
+$$
+\begin{align}
+MB(q^{*}) =\; &p^{*} = MC(q^{*})\\
+4 - q^{*} =\; &q^{*} + 2\\
+\quad\\
+\therefore\quad \left\{\begin{matrix}
+ q^{*} = 1 \\
+ p^{*} = 3
+\end{matrix}\right. 
+\end{align}
+$$
+
+<br><br>
+
+## c
+Calculate the consumer surplus and producer surplus at the market equilibrium.
+
+**Answer**
+
+- Consumer surplus ($CS$) is the value that consumers receive from an allocation minus what it costs them to obtain it.
+  - $CS$ is measured as the area under the demand curve minus the consumer cost.
+- Producer surplus ($PS$) is the value that producers receive from an allocation minus what it costs them to supply it.
+  - $PS$ is measured as the area above the supply curve and below the market price line.
+
+- Therefore, $CS = \frac{1}{2}$ and $PS = \frac{1}{2}$.
+```{r}
+
+ggplot() +
+  geom_line(data = df, aes(x = q, y = p, color = label, lty = label)) +
+  geom_point(data = 
+               data.frame(
+                 q = c(1), p = c(3)),
+             aes(x = q, y = p), size = 2) +
+  geom_polygon(data = data.frame(q = c(0, 1, 0), 
+                                 p = c(4, 3, 3)),
+               aes(x = q, y = p), 
+               fill = "lightblue", alpha = 0.5) +
+  geom_polygon(data = data.frame(q = c(0, 1, 0), 
+                                 p = c(2, 3, 3)),
+               aes(x = q, y = p), 
+               fill = "pink", alpha = 0.5) +
+  geom_text(data = data.frame(q = c(1/3, 1/3),
+                              p = c(3.33, 2.67),
+                              label = c("CS", "PS")
+                              ),
+            aes(x = q, y = p, label = label)
+            ) +
+  geom_hline(yintercept = 3, lty = 2) +
+  labs(color = 'MB & MC', lty = 'MB & MC') +
+  scale_color_manual(values = c("MB today" = "blue", 
+                                "MC" = "red")) +
+  scale_linetype_manual(values = c("MB today" = "solid",
+                                   "MC" = "solid")) + 
+  xlim(c(0,3))
+
+```
+
+
+<br><br>
+
+## d
+Oil consumption causes environmental damage. Suppose the marginal damage of oil pollution is given by $MD = q + 1$. Calculate:
+
+### (1) The socially optimal level of oil use
+
+**Answer**
+The social marginal cost ($SMC$) is:
+$$
+\begin{align}
+SMC &\,=\, MD + MC\\
+&\,=\, 2q + 3
+\end{align}
+$$
+At the socially optimum $(q^{o}, p^{o})$, the social marginal cost of oil use is equal to the (social) marginal benefit:
+
+$$
+\begin{align}
+SMC &\,=\, MB\\
+2q^{o} + 3 &\,=\, 4 - q^{o} 
+\end{align}
+$$
+Therefore, $q^{o} = \frac{1}{3}$.
+```{r}
+ggplot() +
+  geom_line(data = df, aes(x = q, y = p, color = label, lty = label)) +
+  geom_line(data = data.frame(
+    q = seq(0,4,.25),
+    p = 2 * seq(0,4,.25) + 3
+  ), 
+            aes(x = q, y = p)) +
+  geom_point(data = 
+               data.frame(
+                 q = c(1/3), p = c(4-1/3)),
+             aes(x = q, y = p), size = 2) +
+  geom_text(data = data.frame(q = c(1.5),
+                              p = c(5.5),
+                              label = c("SMC")
+                              ),
+            aes(x = q, y = p, label = label)
+            ) +
+  geom_vline(xintercept = 1/3, lty = 2) +
+  labs(color = 'MB & MC', lty = 'MB & MC') +
+  scale_color_manual(values = c("MB today" = "blue", 
+                                "MC" = "red")) +
+  scale_linetype_manual(values = c("MB today" = "solid",
+                                   "MC" = "solid")) +
+  ylim(c(0,6)) + 
+  xlim(c(0,3))
+```
+
+<br><br>
+
+### (2) The deadweight loss ($DWL$) due to pollution at the market equilibrium
+
+- Deadweight loss ($DWL$) is the loss of economic efficiency that occurs when the optimal or equilibrium outcome is not achieved in a market. 
+  - What will happen if the firm produces at $q^{*}$, instead of $q^{o}$?
+    - The total economic surplus ($TES = CS + PS$) is the same as in question (c).
+
+```{r}
+ggplot() +
+  geom_line(data = df, aes(x = q, y = p, color = label, lty = label)) +
+  geom_line(data = data.frame(
+    q = seq(0,4,.25),
+    p = 2 * seq(0,4,.25) + 3
+  ), 
+            aes(x = q, y = p)) +
+  geom_point(data = 
+               data.frame(
+                 q = c(1), p = c(3)),
+             aes(x = q, y = p), size = 2) +
+  geom_point(data = 
+               data.frame(
+                 q = c(1/3), p = c(11/3)),
+             aes(x = q, y = p), size = 2) +
+  geom_text(data = data.frame(q = c(1.5),
+                              p = c(5.5),
+                              label = c("SMC")
+                              ),
+            aes(x = q, y = p, label = label)
+            ) +
+  geom_polygon(data = data.frame(q = c(0, 1, 0), 
+                                 p = c(4, 3, 3)),
+               aes(x = q, y = p), 
+               fill = "lightblue", alpha = 0.5) +
+  geom_polygon(data = data.frame(q = c(0, 1, 0), 
+                                 p = c(2, 3, 3)),
+               aes(x = q, y = p), 
+               fill = "pink", alpha = 0.5) +
+  geom_text(data = data.frame(q = c(1/3, 1/3),
+                              p = c(3.33, 2.67),
+                              label = c("CS", "PS")
+                              ),
+            aes(x = q, y = p, label = label)
+            ) +
+  labs(color = 'MB & MC', lty = 'MB & MC') +
+  scale_color_manual(values = c("MB today" = "blue", 
+                                "MC" = "red")) +
+  scale_linetype_manual(values = c("MB today" = "solid",
+                                   "MC" = "solid")) +
+  ylim(c(0,6)) + xlim(c(0,3))
+
+```
+
+
+- However, producing at $q^{*} = 1$ creates the total external cost, the vertical distance between $SMC$ and $MC$ 
+
+```{r}
+ggplot() +
+  geom_line(data = df, aes(x = q, y = p, color = label, lty = label)) +
+  geom_line(data = data.frame(
+    q = seq(0,4,.25),
+    p = 2 * seq(0,4,.25) + 3
+  ), 
+            aes(x = q, y = p)) +
+  geom_text(data = data.frame(q = c(1.5),
+                              p = c(5.5),
+                              label = c("SMC")
+                              ),
+            aes(x = q, y = p, label = label)
+            ) +
+  geom_polygon(data = data.frame(q = c(0, 0, 1, 1), 
+                                 p = c(3, 2, 3, 5)),
+               aes(x = q, y = p), 
+               fill = "black", alpha = 0.5) +
+  geom_text(data = data.frame(q = c(.6),
+                              p = c(3.25),
+                              label = c("Total External Cost")
+                              ),
+            aes(x = q, y = p, label = label)
+            ) +
+  geom_vline(xintercept = 1, lty = 2) +
+  labs(color = 'MB & MC', lty = 'MB & MC') +
+  scale_color_manual(values = c("MB today" = "blue", 
+                                "MC" = "red")) +
+  scale_linetype_manual(values = c("MB today" = "solid",
+                                   "MC" = "solid")) +
+  ylim(c(0,6)) + xlim(c(0,3))
+
+```
+
+- Therefore $DWL$ can be calculated as the difference between the total surplus and the total external cost in the market:
+$$
+\begin{align}
+DWL &= \frac{1}{2}\times\left(1 - \frac{1}{3}\right)\times\left(5 - 3\right)\\
+&= \frac{2}{3}
+\end{align}
+$$
+  
+```{r}
+ggplot() +
+  geom_line(data = df, aes(x = q, y = p, color = label, lty = label)) +
+  geom_line(data = data.frame(
+    q = seq(0,4,.25),
+    p = 2 * seq(0,4,.25) + 3
+  ), 
+            aes(x = q, y = p)) +
+  geom_point(data = 
+               data.frame(
+                 q = c(1), p = c(3)),
+             aes(x = q, y = p), size = 2) +
+  geom_point(data = 
+               data.frame(
+                 q = c(1/3), p = c(11/3)),
+             aes(x = q, y = p), size = 2) +
+  geom_text(data = data.frame(q = c(1.5),
+                              p = c(5.5),
+                              label = c("SMC")
+                              ),
+            aes(x = q, y = p, label = label)
+            ) +
+  geom_polygon(data = data.frame(q = c(1, 1, 1/3), 
+                                 p = c(3, 5, 11/3)),
+               aes(x = q, y = p), 
+               fill = "black", alpha = 0.5) +
+  geom_text(data = data.frame(q = c(.8),
+                              p = c(3.85),
+                              label = c("DWL")
+                              ),
+            aes(x = q, y = p, label = label)
+            ) +
+  labs(color = 'MB & MC', lty = 'MB & MC') +
+  scale_color_manual(values = c("MB today" = "blue", 
+                                "MC" = "red")) +
+  scale_linetype_manual(values = c("MB today" = "solid",
+                                   "MC" = "solid")) +
+  ylim(c(0,6)) + xlim(c(0,3))
+
+```
+
+
+
+## e
+Due to economic development, the future demand for oil increases, resulting in a new demand function $q_d' = 8 - p$. Determine (1) the new market equilibrium price and quantity, (2) the new socially optimal level of oil use, and (3) the $DWL$ due to pollution at the market equilibrium in the future.
+
+### (1) The new market equilibrium price and quantity
+
+**Answer**
+In the equilibrium, the price is such that the market clears: 
+
+$$
+8 - q^{**} = q^{**} + 2
+$$
+Therefore, the new equilibrium quantity is $q^{**} = 3$, and the new equilibrium price is $p^{**}=5$.
+
+<br><br>
+
+
+### (2) The new socially optimal level of oil use
+
+**Answer**
+At the new socially optimum $q^{oo}$, the social marginal benefit of the oil use is equal to the social marginal cost of the oil use:
+
+$$
+8 - q^{oo} = 2q^{oo} + 3
+$$
+Therefore, the new socially optimal level of oil use is $q^{oo} = \frac{5}{3}$.
+
+<br><br>
+
+### (3) The $DWL$ due to pollution at the market equilibrium in the future
+
+- Deadweight loss ($DWL$) is the loss of economic efficiency that occurs when the optimal or equilibrium outcome is not achieved in a market. 
+  - What will happen if the firm produces at $q^{**}$, instead of $q^{oo}$?
+    - The total economic surplus ($TES = CS + PS$) is described as below.
+
+```{r}
+
+df1 <- data.frame(
+  q = seq(0,4,.25),
+  mb_p = 8 - seq(0,4,.25),
+  mc = seq(0,4,.25) + 2
+) |> 
+  pivot_longer(cols = mb_p:mc,
+               names_to = 'type',
+               values_to = 'p') |> 
+  mutate(type = factor(type, labels = c('mb_p',
+                                        'mc')),
+         label = recode(type, 'mb_p' = "MB tomorrow", 'mc' = "MC"),
+         group = interaction(type, label)  # Creating a unique identifier for color and linetype
+  )
+
+ggplot() +
+  geom_line(data = df1, aes(x = q, y = p, color = label, lty = label)) +
+  geom_line(data = data.frame(
+    q = seq(0,6,.25),
+    p = 2 * seq(0,6,.25) + 3
+  ), 
+            aes(x = q, y = p)) +
+  geom_point(data = 
+               data.frame(
+                 q = c(3), p = c(5)),
+             aes(x = q, y = p), size = 2) +
+  geom_point(data = 
+               data.frame(
+                 q = c(5/3), p = c(19/3)),
+             aes(x = q, y = p), size = 2) +
+  geom_text(data = data.frame(q = c(2.33),
+                              p = c(7),
+                              label = c("SMC")
+                              ),
+            aes(x = q, y = p, label = label)
+            ) +
+  geom_polygon(data = data.frame(q = c(0, 3, 0), 
+                                 p = c(8, 5, 5)),
+               aes(x = q, y = p), 
+               fill = "lightblue", alpha = 0.5) +
+  geom_polygon(data = data.frame(q = c(0, 3, 0), 
+                                 p = c(5, 5, 2)),
+               aes(x = q, y = p), 
+               fill = "pink", alpha = 0.5) +
+  geom_text(data = data.frame(q = c(1, 1),
+                              p = c(6, 7.5/2),
+                              label = c("CS", "PS")
+                              ),
+            aes(x = q, y = p, label = label)
+            ) +
+  labs(color = 'MB & MC', lty = 'MB & MC') +
+  scale_color_manual(values = c("MB tomorrow" = "blue", 
+                                "MC" = "red")) +
+  scale_linetype_manual(values = c("MB tomorrow" = "solid",
+                                   "MC" = "solid")) +
+  ylim(c(0,10)) + xlim(c(0,4))
+
+```
+
+
+- However, producing at $q^{**} = 3$ creates the total external cost, the vertical distance between $SMC$ and $MC$ 
+
+```{r}
+ggplot() +
+  geom_line(data = df1, aes(x = q, y = p, color = label, lty = label)) +
+  geom_line(data = data.frame(
+    q = seq(0,6,.25),
+    p = 2 * seq(0,6,.25) + 3
+  ), 
+            aes(x = q, y = p)) +
+  geom_point(data = 
+               data.frame(
+                 q = c(3), p = c(5)),
+             aes(x = q, y = p), size = 2) +
+  geom_point(data = 
+               data.frame(
+                 q = c(5/3), p = c(19/3)),
+             aes(x = q, y = p), size = 2) +
+  geom_text(data = data.frame(q = c(2.33),
+                              p = c(8.33),
+                              label = c("SMC")
+                              ),
+            aes(x = q, y = p, label = label)
+            ) +
+  geom_polygon(data = data.frame(q = c(0, 0, 3, 3), 
+                                 p = c(3, 2, 5, 9)),
+               aes(x = q, y = p), 
+               fill = "black", alpha = 0.5) +
+  geom_text(data = data.frame(q = c(1.5),
+                              p = c(4.67),
+                              label = c("Total External Cost")
+                              ),
+            aes(x = q, y = p, label = label)
+            ) +
+  geom_vline(xintercept = 3, lty = 2) +
+  labs(color = 'MB & MC', lty = 'MB & MC') +
+  scale_color_manual(values = c("MB tomorrow" = "blue", 
+                                "MC" = "red")) +
+  scale_linetype_manual(values = c("MB tomorrow" = "solid",
+                                   "MC" = "solid")) +
+  ylim(c(0,10)) + xlim(c(0,4))
+
+```
+
+- Therefore $DWL$ can be calculated as the difference between the total surplus and the total external cost in the market:
+$$
+\begin{align}
+DWL &= \frac{1}{2}\times\left(3 - \frac{5}{3}\right)\times\left(9 - 5\right)\\
+&= \frac{8}{3}
+\end{align}
+$$
+  
+```{r}
+ggplot() +
+  geom_line(data = df1, aes(x = q, y = p, color = label, lty = label)) +
+  geom_line(data = data.frame(
+    q = seq(0,6,.25),
+    p = 2 * seq(0,6,.25) + 3
+  ), 
+            aes(x = q, y = p)) +
+  geom_point(data = 
+               data.frame(
+                 q = c(3), p = c(5)),
+             aes(x = q, y = p), size = 2) +
+  geom_point(data = 
+               data.frame(
+                 q = c(5/3), p = c(19/3)),
+             aes(x = q, y = p), size = 2) +
+  geom_text(data = data.frame(q = c(2.33),
+                              p = c(8.33),
+                              label = c("SMC")
+                              ),
+            aes(x = q, y = p, label = label)
+            ) +
+  geom_polygon(data = data.frame(q = c(3, 3, 5/3), 
+                                 p = c(5, 9, 19/3)),
+               aes(x = q, y = p), 
+               fill = "black", alpha = 0.5) +
+  geom_text(data = data.frame(q = c(2.5),
+                              p = c(6.5),
+                              label = c("DWL")
+                              ),
+            aes(x = q, y = p, label = label)
+            ) +
+  geom_vline(xintercept = 3, lty = 2) +
+  labs(color = 'MB & MC', lty = 'MB & MC') +
+  scale_color_manual(values = c("MB tomorrow" = "blue", 
+                                "MC" = "red")) +
+  scale_linetype_manual(values = c("MB tomorrow" = "solid",
+                                   "MC" = "solid")) +
+  ylim(c(0,10)) + xlim(c(0,4))
+
+```
+
+
+
+## f
+Propose and briefly explain two distinct public policies that could be implemented to mitigate the environmental damages and reduce the burden on future generations. Discuss the potential effectiveness and challenges of each policy.
+
+**Answer**
+
+- Government can implement the two market-based policy instruments. [This lecture slide](https://bcecon.github.io/econ-lec/econ-341-lec-07-2024-0911.html?q=corrective#/the-pursuit-of-efficiency-12) explains these policy instruments.
+
+- Besides, government can invest in renewable energy by providing direct funding for clean energy projects (solar, wind, etc.)
+  - Policy: Provide direct funding for clean energy projects (solar, wind, etc.)
+  - Benefits:
+    - Directly reduces emissions through cleaner energy production
+    - Stimulates job creation in the green energy sector
+    - Decreases dependence on fossil fuels
+  - Challenges:
+    - High upfront costs with potential impact on government budgets
+    - Overcoming existing fossil fuel infrastructure lock-in
+    - Resistance from the established fossil fuel industry
+    - Ensuring efficient allocation of resources across various projects
+  - Long-term Impact: Accelerates transition to a low-carbon economy, potentially reducing future environmental mitigation costs.
+
+<br><br>
+
+## g
+Suppose the government decides to impose a Pigouvian tax to internalize the external costs of oil pollution. Calculate the optimal tax rates in the present and in the future and explain how it would affect the market equilibrium and social welfare.
+
+**Answer**
+
+- Corrective Taxation (Pigouvian Tax) for Oil Production:
+  - To address the negative externality imposed by oil production, we are considering implementing a price instrument known as corrective taxation, or Pigouvian tax. This policy involves setting a per-unit tax equal to the marginal environmental damage caused by oil production. 
+
+$$
+\begin{align}
+\text{Present}:&\quad t^{o} = MD(q^{o}) = q^{o} + 1\\
+\text{Future}:&\quad t^{oo} = MD(q^{oo}) = q^{oo} + 1
+\end{align}
+$$
+- Therefore, the Pigouvian tax rate in the present is $t^{o} = \frac{4}{3}$, and the Pigouvian tax in the future is $t^{oo} = \frac{8}{3}$.
+
+
+- The aim is to internalize the external costs, aligning private costs with social costs (Under this Pigouvian tax scheme, the $SMC$ curve becomes the firm's private marginal cost). 
+
+- Effect on Market Equilibrium and Social Welfare:
+  - The implementation of a Pigouvian tax would significantly alter the market equilibrium. The supply curve would shift upward by the amount of the tax, resulting in a new equilibrium with a higher price and lower quantity. Producers would bear part of the tax burden, reducing their producer surplus, while consumers would face higher prices, diminishing their consumer surplus.
+
+  - In terms of social welfare, the deadweight loss from the negative externality disappears as production moves to the socially optimal level. The total economic surplus increases as environmental costs are internalized.
+    - From an economic efficiency standpoint, the tax would encourage more efficient use of resources by incorporating environmental costs into market prices. This promotes an allocation of resources that better reflects true social costs and benefits.
+  - Additionally, the revenue generated from the tax could potentially be used for environmental mitigation efforts or to offset other taxes, further influencing overall social welfare.
+
+<!-- The distributional effects of the tax would depend on the relative elasticities of supply and demand, with the burden shared between producers and consumers. Industries and consumers heavily reliant on oil may face higher costs in the short term, but this creates long-term incentives for innovation in cleaner technologies and alternative energy sources. -->
+
+
+<!-- However, implementing such a policy faces several challenges. These include accurately measuring and quantifying environmental damage to set the correct tax rate, managing potential economic impacts on oil-dependent industries and regions, overcoming political resistance from oil producers and consumers, and addressing concerns about regressivity, as higher energy prices may disproportionately affect lower-income households. -->
+
+<!-- By considering these effects on market equilibrium and social welfare, we gain a more comprehensive understanding of the policy's impacts and its economic rationale in addressing the environmental externalities of oil production. -->
+
+<br><br><br>
+
+# Question 2. Provision of Public Goods
+A community lives near a forest. The forest provides wood, which the villagers can use for various purposes like heating, building, or selling. However, the forest also acts as a carbon sink, absorbing carbon dioxide and providing fresh air, and is home to various wildlife. If too many trees are cut down, the forest will degrade, leading to loss of these environmental benefits.
+
+There are $N$ number of identical villagers. Each villager is endowed with $\$y$, and must decide how much of their endowment to invest in a communal fund for forest conservation and how much to keep for themselves. Let $g_{i}$ denote each villager's contribution to the communal fund. 
+
+The total amount of dollars in the communial fund is multiplied by some constant factor $R$, where $1 < R < N$. The multiplied amount is then equally distributed among all villagers, irrespective of their individual contributions.
+
+Each villager $i$'s utility is as follows:
+$$
+\begin{align}
+U_{i} &= y - g_{i} + \frac{R}{N} \times G\\
+&= y - g_{i} + \frac{R}{N} \times \left(\, g_{i} + G_{-i} \,\right),
+\end{align}
+$$
+where $G$ is the total amount of dollars collected for the communial fund, and $G_{-i} = G - g_{i}$.
+
+a. Using calculus and graph, determine the equilibrium contribution ($g_{i}^{*}$) for each villager.
+b. The forest manager, who is external to the community, aims to maximize the community's social welfare ($SW$). Note that the social welfare is the sum of the individual villager's utility. Calculate the socially optimal level of $g_i$ that maximizes $SW$. How does this differ from the equilibrium contribution?
+
+$$
+\begin{align}
+SW &= U_{1} + U_{2} + \cdots + U_{N}\\
+&= N \times U_{i}\qquad\text{ for any villager }\; i = 1, 2, \cdots, N\\
+&= N \times \left(\,y - g_{i} + \frac{R}{N} \times G\,\right) \\
+&= Ny +( R - 1 )\times G\\
+&= Ny +( R - 1 )\times (G_{-i} + g_{i})\\
+&= Ny +( R - 1 )\times (g_{1} + g_{2} + \cdots + g_{N})
+\end{align}
+$$
+
+c. The forest manager decides to implement a matching grant program to encourage contributions to the forest conservation fund. For every dollar contributed by a villager, the program will contribute an additional $m$ dollars (where $0 < m < 1$). The utility function for each villager $i$ now becomes:
+$$
+\begin{align}
+U_{i}^{'} &= y - g_{i} + \frac{R}{N} \times (1 + m) \times G\\
+&= y - g_{i} + \frac{R}{N} \times (1 + m) \times \left(\, g_{i} + G_{-i} \,\right),
+\end{align}
+$$
+
+Determine the minimum value of $m$ that would induce villagers to contribute the socially optimal level of $g_i$ found in part (b). Show your work.
+
+d. Using the minimum value of $m$ found in part (c), calculate the total cost of implementing the matching grant program to the forest manager. Assume all villagers contribute the socially optimal amount.
+
+e. Calculate the change in social welfare ($\Delta SW = SW^{'} - SW$) with the introduction of the matching grant program. Compare this change to the cost of the program calculated in part (d). Is the change in $SW$ greater than, equal to, or less than the cost of the program to the forest manager? Justify your answer analytically.
+
+e. Discuss the practical implications and potential challenges of implementing such a matching grant program in the context of community forest management.
+
