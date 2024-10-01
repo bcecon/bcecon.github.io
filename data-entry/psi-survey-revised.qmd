@@ -1,0 +1,45 @@
+---
+title: "Aligning Faculty Activities with UN Sustainable Development Goals"
+subtitle: "Faculty Input Survey"
+date: last-modified
+from: markdown+emoji
+comments: false
+code-fold: false
+
+execute: 
+  warning: false
+  message: false
+  fig-width: 9
+  fig-height: 7
+  fig-align: center
+  eval: false
+---
+```{r}
+#| include: false
+
+library(tidyverse)
+library(skimr)
+library(DT)
+library(hrbrthemes)
+
+theme_set(theme_ipsum() +
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = element_text(size = rel(1.5)),
+                axis.title.y = element_text(size = rel(1.5)),
+                legend.title = element_text(size=rel(1.25))
+                ))
+```
+
+The Positive Societal Impact (PSI) Committee is conducting a survey to map our faculty's teaching, research, and service activities to the United Nations' Sustainable Development Goals (SDGs) the School of Business focuses on. We invite you to participate in this survey.
+
+Please provide detailed descriptions of your teaching, research, and service activities that correspond with each of the United Nations’ Sustainable Development Goals (SDGs) the School of Business focuses on. For each SDG, please indicate any relevant courses, projects, service roles, publications, or other academic efforts. If a particular SDG does not directly relate to your current work, feel free to leave that section blank or note “**Not Applicable**” (**NA**).
+
+For more information about each of the goals, you can visit the United Nations website: [SDGs: 17 Goals to Transform Our World](https://www.un.org/en/exhibits/page/sdgs-17-goals-transform-world).
+
+A <u>confirmation email</u> will be sent to the email address that you provide on this survey once your submission is received.
+
+```{=html}
+<iframe id="contentFrame" width="100%" height="1200px" frameborder="no" 
+  src="psi-un-goals-survey-revised.html" style="overflow: hidden;">
+</iframe>
+```
