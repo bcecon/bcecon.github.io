@@ -742,7 +742,7 @@ The first order condition to problem (villager-i') is:
 
 $$
 \begin{align}
-\frac{dU_{i}^{'}}{dg_{i}} \,=\, -1 + \frac{R}{N}\times(1+m) \tag{FOC-i}
+\frac{dU_{i}^{'}}{dg_{i}} \,=\, -1 + \frac{R}{N}\times(1+m) \tag{FOC-i'}
 \end{align}
 $$
 
