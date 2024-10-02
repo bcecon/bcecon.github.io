@@ -643,8 +643,8 @@ ggplot(dp) +
   scale_x_continuous(breaks = seq(0, y, y/5),
                      labels = c(0, "0.2y", "0.4y", "0.6y", "0.8y", "y")) + 
   scale_y_continuous(breaks = 7:12,
-                     labels = c(expression(frac(R, N)(y + G[-i])), "", "", "","", expression(y - frac(R, N)*G[-i]))) +
-  labs(x = "g", y = expression(U)) +
+                     labels = c(expression(frac(R, N)(y + G[-i])), "", "", "","", expression(y + frac(R, N)*G[-i]))) +
+  labs(x = expression(g[i]),, y = expression(U[i])) +
   coord_fixed()
 
 ```
@@ -710,7 +710,7 @@ ggplot(dp) +
   scale_x_continuous(breaks = seq(0, y, y / 5),
                      labels = c(0, "0.2y", "0.4y", "0.6y", "0.8y", "y")) +
   scale_y_continuous(breaks = 12:14,
-                     labels = c(expression(N*y + (R-1)*G[i]), "", expression(N*y + (R-1)*(y + G[i])))) +
+                     labels = c(expression(N*y + (R-1)*G[-i]), "", expression(N*y + (R-1)*(y + G[-i])))) +
   labs(x = expression(g[i]), y = expression(SW)) 
 
 ```
@@ -784,7 +784,7 @@ $$
 &= \left(N \times \left(\,y - y + \frac{R}{N} \times (1+m^{o})\times Ny\,\right)\right) - \left(N \times \left(\,y - 0 + \frac{R}{N} \times 0\,\right)\right) \\
 &= NR(1+m^{o})y - Ny\\
 &= Ny(R(1+m^{o}) - 1)\\
-&= Ny\left(R\left(1+\frac{N}{R} - 1\right) - 1\right)\\
+&= Ny\left(R\left(1+\frac{N}{R} - 1\right) - 1\right)\quad \because\; m^{o} = \frac{N}{R} - 1\\
 &= Ny\left(N - 1\right) \,>\, 0
 \end{align}
 $$
@@ -795,7 +795,7 @@ $$
 \begin{align}
 \Delta SW - Cost &= Ny(R(1+m^{o}) - 1) - Nm^{o}y\\
 &= Ny(R(1+m^{o}) - 1 - 1)\\
-&= Ny\left(R\times\frac{N}{R} - 1 - 1\right)\\
+&= Ny\left(R\times\frac{N}{R} - 1 - 1\right)\quad \because\; 1 + m^{o} = \frac{N}{R}\\
 &= Ny(N - 2)\\
 \end{align}
 $$
