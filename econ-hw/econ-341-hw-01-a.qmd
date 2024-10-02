@@ -821,7 +821,7 @@ Discuss the practical implications and potential challenges of implementing such
 
 5. Potential for strategic behavior: Villagers might coordinate to maximize the matching funds, which could lead to inefficiencies.
 
-6. Calibration: Determining the optimal matching rate m in practice could be difficult and may need to be adjusted over time.
+6. Calibration: Determining the optimal matching rate $m$ in practice could be difficult and may need to be adjusted over time.
 
 7. Spillover effects: The program might have positive externalities by fostering a culture of conservation and community cooperation.
 
