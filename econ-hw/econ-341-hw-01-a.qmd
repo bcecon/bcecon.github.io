@@ -289,7 +289,7 @@ ggplot() +
 
 ```
 
-- Therefore, $DWL$ can be calculated as the difference between the total surplus and the total external cost in the economy:
+- Therefore, $DWL$ can be calculated as the difference between the total economic surplus and the total external cost in the economy:
 $$
 \begin{align}
 DWL &= \frac{1}{2}\times\left(1 - \frac{1}{3}\right)\times\left(5 - 3\right)\\
