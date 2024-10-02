@@ -189,7 +189,15 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#f" id="toc-f" class="nav-link" data-scroll-target="#f">f</a></li>
   <li><a href="#g" id="toc-g" class="nav-link" data-scroll-target="#g">g</a></li>
   </ul></li>
-  <li><a href="#question-2.-provision-of-public-goods" id="toc-question-2.-provision-of-public-goods" class="nav-link" data-scroll-target="#question-2.-provision-of-public-goods">Question 2. Provision of Public Goods</a></li>
+  <li><a href="#question-2.-provision-of-public-goods" id="toc-question-2.-provision-of-public-goods" class="nav-link" data-scroll-target="#question-2.-provision-of-public-goods">Question 2. Provision of Public Goods</a>
+  <ul>
+  <li><a href="#a-1" id="toc-a-1" class="nav-link" data-scroll-target="#a-1">a</a></li>
+  <li><a href="#b-1" id="toc-b-1" class="nav-link" data-scroll-target="#b-1">b</a></li>
+  <li><a href="#c-1" id="toc-c-1" class="nav-link" data-scroll-target="#c-1">c</a></li>
+  <li><a href="#d-1" id="toc-d-1" class="nav-link" data-scroll-target="#d-1">d</a></li>
+  <li><a href="#e-1" id="toc-e-1" class="nav-link" data-scroll-target="#e-1">e</a></li>
+  <li><a href="#f-1" id="toc-f-1" class="nav-link" data-scroll-target="#f-1">f</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -237,6 +245,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="a" class="level2">
 <h2 class="anchored" data-anchor-id="a">a</h2>
 <p>Graph the supply and demand functions on the same coordinate plane.</p>
+<p><strong>Answer</strong></p>
 <div class="cell">
 <div class="cell-output-display">
 <p><img src="econ-341-hw-01-a_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="864"></p>
@@ -325,7 +334,10 @@ SMC &amp;\,=\, MB\\
 </div>
 </div>
 <ul>
-<li>However, producing at <span class="math inline">\(q^{*} = 1\)</span> creates the total external cost, the vertical distance between <span class="math inline">\(SMC\)</span> and <span class="math inline">\(MC\)</span></li>
+<li>However, producing at <span class="math inline">\(q^{*} = 1\)</span> creates the total external cost to society due to pollution.
+<ul>
+<li>This external cost is measured as the vertical distance between <span class="math inline">\(SMC\)</span> and <span class="math inline">\(MC\)</span>, which equals <span class="math inline">\(MD\)</span>.</li>
+</ul></li>
 </ul>
 <div class="cell">
 <div class="cell-output-display">
@@ -333,7 +345,7 @@ SMC &amp;\,=\, MB\\
 </div>
 </div>
 <ul>
-<li>Therefore <span class="math inline">\(DWL\)</span> can be calculated as the difference between the total surplus and the total external cost in the market: <span class="math display">\[
+<li>Therefore, <span class="math inline">\(DWL\)</span> can be calculated as the difference between the total surplus and the total external cost in the economy: <span class="math display">\[
 \begin{align}
 DWL &amp;= \frac{1}{2}\times\left(1 - \frac{1}{3}\right)\times\left(5 - 3\right)\\
 &amp;= \frac{2}{3}
@@ -477,10 +489,35 @@ U_{i} &amp;= y - g_{i} + \frac{R}{N} \times G\\
 &amp;= y - g_{i} + \frac{R}{N} \times \left(\, g_{i} + G_{-i} \,\right),
 \end{align}
 \]</span> where <span class="math inline">\(G\)</span> is the total amount of dollars collected for the communial fund, and <span class="math inline">\(G_{-i} = G - g_{i}\)</span>.</p>
-<ol type="a">
-<li>Using calculus and graph, determine the equilibrium contribution (<span class="math inline">\(g_{i}^{*}\)</span>) for each villager.</li>
-<li>The forest manager, who is external to the community, aims to maximize the community’s social welfare (<span class="math inline">\(SW\)</span>). Note that the social welfare is the sum of the individual villager’s utility. Calculate the socially optimal level of <span class="math inline">\(g_i\)</span> that maximizes <span class="math inline">\(SW\)</span>. How does this differ from the equilibrium contribution?</li>
-</ol>
+<section id="a-1" class="level2">
+<h2 class="anchored" data-anchor-id="a-1">a</h2>
+<p>Using calculus and graph, determine the equilibrium contribution (<span class="math inline">\(g_{i}^{*}\)</span>) for each villager.</p>
+<p><strong>Answer</strong></p>
+<p>In the equilibrium, each villager <span class="math inline">\(i\)</span> maximizes his or her utility by choosing <span class="math inline">\(g_{i}\)</span>:</p>
+<p><span class="math display">\[
+\begin{align}
+\max_{0\leq\, q_{i}\leq y}\;U_{i} &amp;= y - g_{i} + \frac{R}{N} \times G\tag{villager-i}\\
+&amp;= y - g_{i} + \frac{R}{N} \times \left(\, g_{i} + G_{-i} \,\right)
+\end{align}
+\]</span> The first order condition to problem (villager-i) is:</p>
+<p><span class="math display">\[
+\begin{align}
+\frac{dU_{i}}{dg_{i}} \,=\, -1 + \frac{R}{N} \, &lt; \, 0.\tag{FOC-i}
+\end{align}
+\]</span> (FOC-i) implies that the marginal utility of increasing one unit of <span class="math inline">\(g_{i}\)</span> is always negative. Since all villagers are identical, <span class="math inline">\(g_{i}^{*} = 0\)</span> for all <span class="math inline">\(i=1,\cdots, N\)</span>.</p>
+<ul>
+<li>The utility function <span class="math inline">\(U_{i}\)</span> of villager <span class="math inline">\(i\)</span>, in relation to their contribution <span class="math inline">\(g_{i}\)</span>, can be graphically represented as follows, holding all other villagers’ contributions remain constant:</li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="econ-341-hw-01-a_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid" width="864"></p>
+</div>
+</div>
+<p><br><br></p>
+</section>
+<section id="b-1" class="level2">
+<h2 class="anchored" data-anchor-id="b-1">b</h2>
+<p>The forest manager, who is external to the community, aims to maximize the community’s social welfare (<span class="math inline">\(SW\)</span>). Note that the social welfare is the sum of the individual villager’s utility. Calculate the socially optimal level of <span class="math inline">\(g_i\)</span> that maximizes <span class="math inline">\(SW\)</span>. How does this differ from the equilibrium contribution?</p>
 <p><span class="math display">\[
 \begin{align}
 SW &amp;= U_{1} + U_{2} + \cdots + U_{N}\\
@@ -491,22 +528,117 @@ SW &amp;= U_{1} + U_{2} + \cdots + U_{N}\\
 &amp;= Ny +( R - 1 )\times (g_{1} + g_{2} + \cdots + g_{N})
 \end{align}
 \]</span></p>
-<ol start="3" type="a">
-<li>The forest manager decides to implement a matching grant program to encourage contributions to the forest conservation fund. For every dollar contributed by a villager, the program will contribute an additional <span class="math inline">\(m\)</span> dollars (where <span class="math inline">\(0 &lt; m &lt; 1\)</span>). The utility function for each villager <span class="math inline">\(i\)</span> now becomes: <span class="math display">\[
+<p><strong>Answer</strong></p>
+<ul>
+<li>The forest manager aims to maximize the community’s social welfare (<span class="math inline">\(SW\)</span>) by optimally allocating the total contributions from all villagers:</li>
+</ul>
+<p><span class="math display">\[
+\begin{align}
+\max_{g_{1}, g_{2}, \cdots, g_{N}}\, SW = Ny +( R - 1 )\times (g_{1} + g_{2} + \cdots + g_{N})\tag{manager}
+\end{align}
+\]</span></p>
+<p>The first-order condition for problem (manager) is:</p>
+<p><span class="math display">\[
+\begin{align}
+\frac{\partial U_{i}}{\partial g_{i}} \,=\, R - 1 \, &gt; \, 0 \quad\text{for all }i = 1,\cdots, N.\tag{FOC-manager-i}
+\end{align}
+\]</span></p>
+<ul>
+<li><p>The first-order condition (FOC-manager-i) implies that the marginal social welfare of increasing villager <span class="math inline">\(i\)</span>’s contribution is always positive. Since all villagers are identical, <span class="math inline">\(g_{i}^{o} = y\)</span> for all <span class="math inline">\(i=1,\cdots, N\)</span>.</p></li>
+<li><p>The social welfare function <span class="math inline">\(SW\)</span>, in relation to a villager <span class="math inline">\(i\)</span>’s contribution <span class="math inline">\(g_{i}\)</span>, can be graphically represented as follows, holding all other villagers’ contributions remain constant:</p></li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="econ-341-hw-01-a_files/figure-html/unnamed-chunk-12-1.png" class="img-fluid" width="864"></p>
+</div>
+</div>
+<p><br><br></p>
+</section>
+<section id="c-1" class="level2">
+<h2 class="anchored" data-anchor-id="c-1">c</h2>
+<p>The forest manager decides to implement a matching grant program to encourage contributions to the forest conservation fund. For every dollar contributed by a villager, the program will contribute an additional <span class="math inline">\(m\)</span> dollars (where <span class="math inline">\(0 &lt; m &lt; 1\)</span>). The utility function for each villager <span class="math inline">\(i\)</span> now becomes: <span class="math display">\[
 \begin{align}
 U_{i}^{'} &amp;= y - g_{i} + \frac{R}{N} \times (1 + m) \times G\\
 &amp;= y - g_{i} + \frac{R}{N} \times (1 + m) \times \left(\, g_{i} + G_{-i} \,\right),
 \end{align}
-\]</span></li>
-</ol>
+\]</span></p>
 <p>Determine the minimum value of <span class="math inline">\(m\)</span> that would induce villagers to contribute the socially optimal level of <span class="math inline">\(g_i\)</span> found in part (b). Show your work.</p>
-<ol start="4" type="a">
-<li><p>Using the minimum value of <span class="math inline">\(m\)</span> found in part (c), calculate the total cost of implementing the matching grant program to the forest manager. Assume all villagers contribute the socially optimal amount.</p></li>
-<li><p>Calculate the change in social welfare (<span class="math inline">\(\Delta SW = SW^{'} - SW\)</span>) with the introduction of the matching grant program. Compare this change to the cost of the program calculated in part (d). Is the change in <span class="math inline">\(SW\)</span> greater than, equal to, or less than the cost of the program to the forest manager? Justify your answer analytically.</p></li>
-<li><p>Discuss the practical implications and potential challenges of implementing such a matching grant program in the context of community forest management.</p></li>
+<p><strong>Answer</strong></p>
+<p>In the equilibrium under this program, each villager <span class="math inline">\(i\)</span> maximizes his or her utility by choosing <span class="math inline">\(g_{i}\)</span>:</p>
+<p><span class="math display">\[
+\begin{align}
+\max_{0\leq\, q_{i}\leq y}\;U_{i}^{'} &amp;= y - g_{i} + \frac{R}{N}\times (1 + m)  \times G\tag{villager-i'}\\
+&amp;= y - g_{i} + \frac{R}{N}\times (1 + m)  \times \left(\, g_{i} + G_{-i} \,\right)
+\end{align}
+\]</span> The first order condition to problem (villager-i’) is:</p>
+<p><span class="math display">\[
+\begin{align}
+\frac{dU_{i}^{'}}{dg_{i}} \,=\, -1 + \frac{R}{N}\times(1+m) \tag{FOC-i}
+\end{align}
+\]</span></p>
+<ul>
+<li>Notice that the marginal utility of contribution under this program, <span class="math inline">\(\frac{dU_{i}^{'}}{dg_{i}}\)</span>, can be positive, depending on the value of <span class="math inline">\(m\)</span>. For sufficiently large value of <span class="math inline">\(m\)</span>, <span class="math inline">\(\frac{dU_{i}^{'}}{dg_{i}}\geq 0\)</span>, and there is a minimum value of <span class="math inline">\(m^{o}\)</span> that induces a villager <span class="math inline">\(i\)</span> to contribute the entire endowment <span class="math inline">\(y\)</span>:</li>
+</ul>
+<p><span class="math display">\[
+\frac{dU_{i}^{'}}{dg_{i}} \,=\,-1 + \frac{R}{N}\times(1+m^{o}) = 0
+\]</span> Therefore, <span class="math inline">\(m^{o} = \frac{N}{R} - 1\)</span>.</p>
+<p><br><br></p>
+</section>
+<section id="d-1" class="level2">
+<h2 class="anchored" data-anchor-id="d-1">d</h2>
+<p>Using the minimum value of <span class="math inline">\(m\)</span> found in part (c), calculate the total cost of implementing the matching grant program to the forest manager. Assume all villagers contribute the socially optimal amount.</p>
+<p><strong>Answer</strong></p>
+<p>The total cost of the matching grant program when everyone contributes <span class="math inline">\(y\)</span> is:</p>
+<p><span class="math display">\[
+\text{Cost}^{o} \,=\, N \times m^{o} \times y
+\]</span></p>
+<p><br><br></p>
+</section>
+<section id="e-1" class="level2">
+<h2 class="anchored" data-anchor-id="e-1">e</h2>
+<p>Calculate the change in social welfare (<span class="math inline">\(\Delta SW = SW^{'} - SW\)</span>) with the introduction of the matching grant program. Compare this change to the cost of the program calculated in part (d). Is the change in <span class="math inline">\(SW\)</span> greater than, equal to, or less than the cost of the program to the forest manager? Justify your answer analytically.</p>
+<p><strong>Answer</strong></p>
+<ul>
+<li>The change in social welfare due to the program is:</li>
+</ul>
+<p><span class="math display">\[
+\begin{align}
+\Delta SW &amp;= SW^{o'} - SW^{*} \\
+&amp;= \left(N \times \left(\,y - g_{i}^{o} + \frac{R}{N} \times (1+m^{o})\times G^{o}\,\right)\right) - \left(N \times \left(\,y - g_{i}^{*} + \frac{R}{N} \times G^{*}\,\right)\right) \\
+&amp;= \left(N \times \left(\,y - y + \frac{R}{N} \times (1+m^{o})\times Ny\,\right)\right) - \left(N \times \left(\,y - 0 + \frac{R}{N} \times 0\,\right)\right) \\
+&amp;= NR(1+m^{o})y - Ny\\
+&amp;= Ny(R(1+m^{o}) - 1)\\
+&amp;= Ny\left(R\left(1+\frac{N}{R} - 1\right) - 1\right)\\
+&amp;= Ny\left(N - 1\right) \,&gt;\, 0
+\end{align}
+\]</span> Therefore, <span class="math inline">\(\Delta SW &gt; 0\)</span>.</p>
+<p>Now let’s compare <span class="math inline">\(\Delta SW\)</span> with the cost of the program: <span class="math display">\[
+\begin{align}
+\Delta SW - Cost &amp;= Ny(R(1+m^{o}) - 1) - Nm^{o}y\\
+&amp;= Ny(R(1+m^{o}) - 1 - 1)\\
+&amp;= Ny\left(R\times\frac{N}{R} - 1 - 1\right)\\
+&amp;= Ny(N - 2)\\
+\end{align}
+\]</span> Therefore, the increase in <span class="math inline">\(SW\)</span> is greater than the minimzied cost of the program if there are more than two villagers in the forest community, justifying the action of the program!</p>
+<p><br><br></p>
+</section>
+<section id="f-1" class="level2">
+<h2 class="anchored" data-anchor-id="f-1">f</h2>
+<p>Discuss the practical implications and potential challenges of implementing such a matching grant program in the context of community forest management.</p>
+<p><strong>Answer</strong> 1. Funding: Securing sustainable funding for the matching grant program could be challenging, especially in resource-constrained environments.</p>
+<ol start="2" type="1">
+<li><p>Equity concerns: The program might disproportionately benefit wealthier villagers who can afford larger contributions.</p></li>
+<li><p>Long-term sustainability: There’s a risk of creating dependency on the matching grants, potentially reducing intrinsic motivation for conservation.</p></li>
+<li><p>Administrative costs: Implementing and monitoring the program would require resources and could be complex in a village setting.</p></li>
+<li><p>Potential for strategic behavior: Villagers might coordinate to maximize the matching funds, which could lead to inefficiencies.</p></li>
+<li><p>Calibration: Determining the optimal matching rate m in practice could be difficult and may need to be adjusted over time.</p></li>
+<li><p>Spillover effects: The program might have positive externalities by fostering a culture of conservation and community cooperation.</p></li>
 </ol>
+<p>This analysis demonstrates how a matching grant can theoretically solve the free-rider problem, but also highlights the practical challenges in implementing such a program. It underscores the complexity of designing effective policies for managing common pool resources like forests.</p>
+<p><br><br></p>
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
