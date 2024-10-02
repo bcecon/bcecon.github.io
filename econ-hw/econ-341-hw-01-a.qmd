@@ -748,7 +748,7 @@ $$
 \end{align}
 $$
 
-- Note that the marginal utility of contribution under this program, $\frac{dU_i}{dg_i}$, can range from 0 to a positive value, depending on $m$. For a sufficiently large $m$, $\frac{dU_i}{dg_i} \geq 0$. There exists a minimum value, $m^{o}$, that incentivizes a villager $i$ to contribute their entire endowment $y$:
+- Note that the marginal utility of contribution under this program, $\frac{dU_i}{dg_i}$, can range from 0 to a positive value, depending on $m$. There exists a minimum value, $m^{o}$, that incentivizes a villager $i$ to contribute their entire endowment $y$:
 
 
 $$
@@ -764,7 +764,7 @@ Using the minimum value of $m$ found in part (c), calculate the total cost of im
 
 **Answer**
 
-The total cost of the matching grant program when everyone contributes $y$ is:
+The *minimized* total cost of the matching grant program when everyone contributes $y$ is:
 
 $$
 \text{Cost}^{o} \,=\, N \times m^{o} \times y
