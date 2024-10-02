@@ -71,6 +71,7 @@ theme_set(theme_fivethirtyeight()+
   - WTP measures the monetary value one is willing to pay to attain enhanced quality, while maintaining the same level of utility experienced prior to the enhancement.
   - WTA measures the monetary compensation one is willing to accept for enduring a decrease in quality, while maintaining the same level of utility experienced prior to the degradation.
 
+:::
 
 ## Stated Preference Methods
 ### WTP vs. WTA Discrepancy
@@ -80,7 +81,6 @@ theme_set(theme_fivethirtyeight()+
 - In experiments, WTA values are typically 2 to 7 times as high as WTP values! 
   - This difference persists even in tests specifically designed to control for inflated WTA figures
 
-:::
 
 ## Stated Preference Methods
 ### WTP vs. WTA Discrepancy
@@ -135,11 +135,14 @@ theme_set(theme_fivethirtyeight()+
 
 ::: {.column width="55%"}
 
+:::{.nonincremental}
+
   - **Loss aversion**: losses are valued more highly than gains.
     - **The endowment effect**: people value what they own more than what they don’t 
   - People may adopt the *status quo* as their *reference point* and demand higher compensation to allow environmental degradation than they are willing to pay to make improvements.
   - This contribute to WTA being greater than WTP.
 
+:::
 :::
 ::::
 
@@ -159,10 +162,12 @@ theme_set(theme_fivethirtyeight()+
 </div>
 
 
+:::{.nonincremental}
+
 2. **Substitution**. The degree of substitutability between environmental quality and other consumption goods
   - If environmental goods really have no good substitutes, this could lead to a larger disparaty.
 
-
+:::
 
 <!-- For example, if we were to compare WTP with WTA for tickets for two ice hockey games, one of which was also being live on TV, we might expect the difference between WTP and WTA to be smaller for the game that people could watch live on TV instead of only being able to watch it live at the stadium. If there are no close substitutes, then we could expect quite large differences between WTP and WTA, whereas if close substitutes exist, then WTP and WTA should not be that different.  -->
 
@@ -184,19 +189,25 @@ theme_set(theme_fivethirtyeight()+
 
 ## Stated Preference Methods
 ### Explaining WTP/WTA Disparities
+
+:::{.nonincremental}
+
 3. **Moral Context**: WTA increases with the culpability of the party responsible for damages, suggesting that WTA can include a punitive element.
 
 4. **Type of Goods**: The ratio of WTA/WTP is smaller for ordinary goods and larger for public and nonmarket goods, influenced by the nature of property rights.
   - Ownership and transfer rights for ordinary goods are clear and straightforward, while they are not for public and nonmarket goods.
 
-
+:::
 
 ## Stated Preference Methods
 ### Explaining WTP/WTA Disparities
 
+:::{.nonincremental}
+
 5. **Uncertainty in Dynamic Settings**: *Commitment costs* in decision-making, influenced by time preference and risk tolerance, can widen the gap between WTA and WTP.
   - E.g., commitment costs: if a community decides to allow development on a piece of land, they are committing to a decision that may be irreversible, and they forgo the opportunity to learn more about the environmental benefits of that land in the future.
 
+:::
 
 ## Stated Preference Methods
 ### The Choice between WTA and WTP
@@ -417,7 +428,7 @@ theme_set(theme_fivethirtyeight()+
 ### **Example 3: The Value of U.S. National Parks**
 
 
-<div style="text-align: center; width: 100%; margin: auto;">
+<div style="text-align: center; width: 85%; margin: auto;">
   <img src="https://bcdanl.github.io/lec_figs/tl-tab4-4.png" style="width: 100%; margin-bottom: -20px;">
   <p style="font-weight: bold;"></p>
 </div>

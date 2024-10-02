@@ -250,8 +250,10 @@ ggplot() +
 ```
 
 
-- However, producing at $q^{*} = 1$ creates the total external cost to society due to pollution.
-  - This external cost is measured as the vertical distance between $SMC$ and $MC$, which equals $MD$.
+- However, pollution imposes a total external cost on society.
+  - This external cost is measured by the vertical distance between the Social Marginal Cost ($SMC$) and the private Marginal Cost ($MC$)  up to the production level $q^{*} = 1$.
+  - Note that $MD = SMC - MC$.
+  - Imagine building up the total external cost unit by unit. For each unit of oil production, you add its marginal damage to society. The sum of all these marginal damage gives you the total external cost. Graphically, this summation is represented by the vertical distance between $SMC$ and $MC$.
 
 ```{r}
 ggplot() +
