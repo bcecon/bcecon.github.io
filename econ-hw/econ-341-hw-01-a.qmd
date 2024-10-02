@@ -811,6 +811,7 @@ Therefore, the increase in $SW$ is greater than the minimzied cost of the progra
 Discuss the practical implications and potential challenges of implementing such a matching grant program in the context of community forest management.
 
 **Answer**
+
 1. Funding: Securing sustainable funding for the matching grant program could be challenging, especially in resource-constrained environments.
 
 2. Equity concerns: The program might disproportionately benefit wealthier villagers who can afford larger contributions.
