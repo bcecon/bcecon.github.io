@@ -75,12 +75,14 @@ theme_set(theme_fivethirtyeight()+
 
 ## Stated Preference Methods
 ### WTP vs. WTA Discrepancy
+:::{.nonincremental}
 
 - In standard theory, WTA should be only a bit higher than WTP for most goods, given small income effects.
 
 - In experiments, WTA values are typically 2 to 7 times as high as WTP values! 
   - This difference persists even in tests specifically designed to control for inflated WTA figures
 
+:::
 
 ## Stated Preference Methods
 ### WTP vs. WTA Discrepancy
