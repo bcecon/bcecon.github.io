@@ -796,7 +796,7 @@ Therefore, $\Delta SW > 0$.
 Now let's compare $\Delta SW$ with the cost of the program:
 $$
 \begin{align}
-\Delta SW - Cost &= Ny\left(N - 1\right) - Nm^{o}y\\
+\Delta SW - Cost^{o} &= Ny\left(N - 1\right) - Nm^{o}y\\
 &= Ny(N-1-m^{o})\\
 &= Ny\left( N - \frac{N}{R} \right)\quad \because\; 1 + m^{o} = \frac{N}{R}\\
 &= N^{2}y\left(1 - \frac{1}{R}\right) \,>\, 0\quad \because\; R > 1\\
