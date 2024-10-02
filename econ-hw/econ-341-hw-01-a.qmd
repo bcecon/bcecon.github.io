@@ -744,11 +744,12 @@ The first order condition to problem (villager-i') is:
 
 $$
 \begin{align}
-\frac{dU_{i}^{'}}{dg_{i}} \,=\, -1 + \frac{R}{N}\times(1+m) \tag{FOC-i'}
+\frac{dU_{i}^{'}}{dg_{i}} \,=\, -1 + \frac{R}{N}\times(1+m)\,\geq\, 0 \tag{FOC-i'}
 \end{align}
 $$
 
-- Notice that the marginal utility of contribution under this program, $\frac{dU_{i}^{'}}{dg_{i}}$, can be positive, depending on the value of $m$. For sufficiently large value of $m$, $\frac{dU_{i}^{'}}{dg_{i}}\geq 0$, and there is a minimum value of $m^{o}$ that induces a villager $i$ to contribute the entire endowment $y$:
+- Note that the marginal utility of contribution under this program, $\frac{dU_i}{dg_i}$, can range from 0 to a positive value, depending on $m$. For a sufficiently large $m$, $\frac{dU_i}{dg_i} \geq 0$. There exists a minimum value, $m^{o}$, that incentivizes a villager $i$ to contribute their entire endowment $y$:
+
 
 $$
 \frac{dU_{i}^{'}}{dg_{i}} \,=\,-1 + \frac{R}{N}\times(1+m^{o}) = 0
