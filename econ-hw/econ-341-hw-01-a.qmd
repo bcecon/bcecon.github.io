@@ -795,10 +795,10 @@ Therefore, $\Delta SW > 0$.
 Now let's compare $\Delta SW$ with the cost of the program:
 $$
 \begin{align}
-\Delta SW - Cost &= Ny(R(1+m^{o}) - 1) - Nm^{o}y\\
-&= Ny(R(1+m^{o}) - 1 - 1)\\
-&= Ny\left(R\times\frac{N}{R} - 1 - 1\right)\quad \because\; 1 + m^{o} = \frac{N}{R}\\
-&= Ny(N - 2)\\
+\Delta SW - Cost &= Ny\left(N - 1\right) - Nm^{o}y\\
+&= Ny(N-1-m^{o})\\
+&= Ny\left( N - \frac{N}{R} \right)\quad \because\; 1 + m^{o} = \frac{N}{R}\\
+&= N^{2}y\left(1 - \frac{1}{R}\right) \,>\, 0\quad \because\; R > 1\\
 \end{align}
 $$
 Therefore, the increase in $SW$ is greater than the minimzied cost of the program if there are more than two villagers in the forest community, justifying the action of the program!
