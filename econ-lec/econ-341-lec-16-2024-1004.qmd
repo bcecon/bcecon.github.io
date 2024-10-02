@@ -1,5 +1,5 @@
 ---
-title: Lecture 15
+title: Lecture 16
 subtitle: "Valuing the Environment: Methods"
 format:
   clean-revealjs:
@@ -14,7 +14,7 @@ author:
   - name: Byeong-Hak Choe
     email: bchoe@geneseo.edu
     affiliations: SUNY Geneseo
-date: 2024-10-02
+date: 2024-10-04
 execute: 
   eval: true
   echo: true
