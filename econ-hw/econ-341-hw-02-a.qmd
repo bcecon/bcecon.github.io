@@ -356,6 +356,7 @@ Due to consumers undervaluing fuel savings ($\beta < 1$), the characterization o
 
 
 **Answer**:
+
 In the presence of undervaluation ($\beta < 1$), the first-best policy must also include a fuel-economy standard with an implicit tax rate of $\tau_{g} = (1-\beta)(p +d)v^{*}$ and a uniform target of $\sigma(x) = g^{*}$, as well as a car tax given by $\tau_{n} = (1-\beta)(p+d)g^{*}v^{*}$. 
 
 
@@ -427,6 +428,7 @@ Panel b corresponds to Equation (6) and shows the effects of a fuel tax on car a
 
 <br><br>
 ## Reference
+
 - Anderson and Sallee. 2016. "Designing Policies to Make Cars Greener," _Annual Review of Resource Economics_. 8:157-180.
 
 
