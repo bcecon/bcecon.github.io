@@ -81,10 +81,11 @@ To determine the maximum amount we should be willing to invest today to eliminat
 $$
 PV = \frac{FV}{(1+r)^{n}}
 $$
-Where:
-	•	 $FV$: Future Value ($600,000,000,000)
-	•	 $r$: Discount rate (2% or 0.02)
-	•	 $n$: Number of periods (60 years)
+
+- Where:
+  - $FV$: Future Value ($600,000,000,000)
+  - $r$: Discount rate (2% or 0.02)
+  - $n$: Number of periods (60 years)
 
 The PV is \$182,869,359,875. Therefore, at a 2% discount rate, we should be willing to invest approximately \$182.85 billion today to eliminate $600 billion in damages 60 years from now.
 
@@ -96,6 +97,7 @@ The PV is \$182,869,359,875. Therefore, at a 2% discount rate, we should be will
 How does this amount change if the discount rate increases to 10%?
 
 **Answer**:
+
 If the discount rate increases to 10%, we follow the same process with the new rate. The PV is then \$1,970,562,169. Therefore, at a 10% discount rate, we should be willing to invest approximately $1.97 billion today to eliminate \$600 billion in damages 60 years from now.
 
 
@@ -108,7 +110,7 @@ What are the main challenges in using the contingent valuation method (CVM) for 
 
 **Answer**:
 
-Please refer to the lecture slides.
+Please refer to the lecture and the lecture slides.
 
 <br><br><br><br>
 
@@ -427,6 +429,7 @@ Panel b corresponds to Equation (6) and shows the effects of a fuel tax on car a
 
 
 <br><br>
+
 ## Reference
 
 - Anderson and Sallee. 2016. "Designing Policies to Make Cars Greener," _Annual Review of Resource Economics_. 8:157-180.
