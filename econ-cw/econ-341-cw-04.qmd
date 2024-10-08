@@ -76,6 +76,7 @@ d. Environmental resources have only instrumental value to humans
 Why is it important to include nonmarket values in benefit-cost analyses for environmental policies?
 
 **Answer:**
+
 It is important to include nonmarket values in benefit-cost analyses for environmental policies because many environmental goods and services do not have a direct market price, yet they provide significant value to society. Nonmarket values, such as clean air, biodiversity, and scenic beauty, often contribute to people’s well-being and quality of life. By incorporating these values into analyses, policymakers can make more informed decisions that reflect the true social benefits of environmental protection and conservation, beyond just market transactions. Ignoring nonmarket values can lead to underestimating the total benefits of environmental policies and potentially result in decisions that are suboptimal or harmful to the environment.
 
 
@@ -90,11 +91,9 @@ Consider a fishery where the total benefit ($TB$) and total cost ($TC$) of fishi
 
 where is $E$ is the level of fishing effort (e.g., number of boat-days).
 
-## Q2a. 
+## Q2a. and Q2b.
 On the same graph, draw the Total Benefit ($TB$) and Total Cost ($TC$) curves as functions of fishing effort  $E$.
 
-
-## Q2b. 
 On the same graph, draw the Marginal Benefit ($MB$) and Marginal Cost ($MC$) curves as functions of fishing effort  $E$ associated with the $TB$ and $TC$ functions.
 
 **Answer**:
