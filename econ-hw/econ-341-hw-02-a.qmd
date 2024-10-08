@@ -1,5 +1,5 @@
 ---
-title: Homework 2 - Example Answers
+title: Homework 2 - Example Answer
 subtitle: ""
 date: last-modified
 from: markdown+emoji

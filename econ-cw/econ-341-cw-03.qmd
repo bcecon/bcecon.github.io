@@ -1,6 +1,6 @@
 ---
-title: 3. Public Goods
-subtitle: ""
+title: Public Goods
+subtitle: Classwork 3
 date: last-modified
 code-fold: true
 execute: 

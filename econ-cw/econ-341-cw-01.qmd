@@ -1,6 +1,6 @@
 ---
-title: 1. Externalities
-subtitle: ""
+title: Externalities
+subtitle: Classwork 1
 date: 2024-09-04
 code-fold: true
 execute: 

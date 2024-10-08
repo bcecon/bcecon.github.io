@@ -1,6 +1,6 @@
 ---
-title: 2. Utility Maximization
-subtitle: ""
+title: Utility Maximization
+subtitle: Classwork 2
 date: last-modified
 code-fold: true
 execute: 
