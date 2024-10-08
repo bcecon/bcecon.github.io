@@ -145,9 +145,9 @@ ggplot(data = data.frame(x =x,
            label = "{", 
            size = 20, hjust = 0.85) +
   geom_text(data = data.frame(x = .4,
-                              y = .375,
-                              label = "NB"),
-            aes(x = x, y = y, label = label)) +
+                              y = .375),
+            aes(x = x, y = y),
+            label = expression(NB^"*")) +
   scale_x_continuous(breaks = x,
                      labels = x ) +
   scale_y_continuous(breaks = y,
