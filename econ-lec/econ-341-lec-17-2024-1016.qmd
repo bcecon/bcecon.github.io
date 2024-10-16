@@ -110,8 +110,8 @@ theme_set(theme_ipsum()+
 
 #### Step 1. Data Collection
 
-| Region      | Number of Visits | Average Travel Cost (USD) |
-|-|||
+| Origin      | Number of Visits | Average Travel Cost (USD) |
+|-------------|:-----------------|--------------------------:|
 | Region A    | 150              | 20                        |
 | Region B    | 120              | 40                        |
 | Region C    | 80               | 60                        |
