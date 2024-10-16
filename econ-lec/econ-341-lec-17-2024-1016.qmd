@@ -1,5 +1,5 @@
 ---
-title: Lecture 16
+title: Lecture 17
 subtitle: "Valuing the Environment: Methods"
 format:
   clean-revealjs:
