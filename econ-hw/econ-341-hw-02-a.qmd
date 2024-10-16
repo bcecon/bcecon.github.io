@@ -184,6 +184,7 @@ Denote the solution to the FOCs (1)-(4) by $(n^{o}, x^{o}, v^{o}, g^{o})$.
 - Explain this using the expression for the quality-adjusted utility derived from driving, $\mu(n)\times\theta(x)\times u(v)$.
 
 **Answer**:
+
 Since $\theta'(\cdot) > 0$, every mile driven in a high-quality car is more enjoyable than one in a low-quality car. 
 
 For $x_{H} > x_{L}$, the following holds for any $n$ and $v$:
@@ -222,8 +223,7 @@ $$
 
 - Equation (2) says that the marginal benefit of better car attributes (e.g., size) should be set equal to the marginal impact on the car’s up-front purchase cost.
 
-- Equation (3) says that the marginal benefit of a mile should be set equal to the per-mile marginal
-social cost of fuel consumption. 
+- Equation (3) says that the marginal benefit of a mile should be set equal to the per-mile marginal social cost of fuel consumption. 
 
 - Equation (4) says that the marginal benefit of a car should be set equal to the marginal cost, inclusive of the up-front purchase cost, as well as the social cost of the car’s fuel consumption.
 
@@ -317,10 +317,8 @@ Note that without a fuel tax, there is no internalization of the external damage
   - Provide economic intuition on this result.
 
 **Answer**:
-Comparing the welfare-maximizing conditions in Equations (1)–(4) to the consumer behavioral conditions
-in Equations (5)–(8) implies that the first-best policy includes a fuel tax given by $\tau_{f} = d$, i.e., a Pigouvian tax set equal to marginal damages. In the absence of consumer undervaluation ($\beta = 1$), the fuel tax alone is the first-best policy. Moreover, no combination of alternative policies can
-achieve the first-best outcome without a gasoline tax, which is necessary to create the appropriate
-incentive on the miles-driven margin.
+
+Comparing the welfare-maximizing conditions in Equations (1)–(4) to the consumer behavioral conditions in Equations (5)–(8) implies that the first-best policy includes a fuel tax given by $\tau_{f} = d$, i.e., a Pigouvian tax set equal to marginal damages. In the absence of consumer undervaluation ($\beta = 1$), the fuel tax alone is the first-best policy. Moreover, no combination of alternative policies can achieve the first-best outcome without a gasoline tax, which is necessary to create the appropriate incentive on the miles-driven margin.
 
 <br><br>
 
@@ -363,11 +361,6 @@ In the presence of undervaluation ($\beta < 1$), the first-best policy must also
 
 
 <br><br>
-
-
-
-
-
 
 
 ### Q4h.
