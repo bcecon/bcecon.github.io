@@ -4177,5 +4177,40 @@
     "title": "Lecture 16",
     "section": "Hedonic Methods Example",
     "text": "Hedonic Methods Example\nProperty Values and Pollution\n\n\n\n\n\n\n\n\n\nIn New Bedford, MA, houses closest to the contaminated area: price declines of $9,000;\n\nIn area of secondary pollution, declines of $7,000.\n\nTotal damages to home-owners: $36 million"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-17-2024-1016.html#hedonic-property-value-models",
+    "href": "econ-lec/econ-341-lec-17-2024-1016.html#hedonic-property-value-models",
+    "title": "Lecture 16",
+    "section": "Hedonic Property Value Models",
+    "text": "Hedonic Property Value Models\n\nHedonic property value models use market data (house prices) and then break down the house sales price into its attributes, including the house characteristics (e.g., number of bedrooms, lot size, and features), the neighborhood characteristics (e.g., crime rates, school quality, and so on), and environmental characteristics (e.g., air quality, percentage of open space nearby, distance to a local landfill, etc.).\nStatistical analysis is then used to estimate a price function from which an analyst can tease out the marginal willingness to pay (MWTP) for any of the attributes of the house; the value of an additional bedroom or bathroom as well as willingness to pay to be near or far from something can be estimated"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-17-2024-1016.html#hedonic-property-value-method",
+    "href": "econ-lec/econ-341-lec-17-2024-1016.html#hedonic-property-value-method",
+    "title": "Lecture 16",
+    "section": "Hedonic Property Value Method",
+    "text": "Hedonic Property Value Method\nExample 1. Impact of PCB Pollution\n\n\nCompare change in prices for houses sold before and after contamination became public.\n\nControl for all other factors affecting home costs.\n\n\n\n\\[\n\\begin{align}\nPrice_{i, t} = \\beta_{0} + \\beta_{1}PCB_{i, t} + \\mathbf{\\beta}X_{i,t} + \\epsilon_{i, t}\n\\end{align}\n\\]\n\n\n\\(i\\): House \\(i\\)\n\\(t\\): Time \\(t\\)\n\\(PCB\\): whether or not the house \\(i\\) in time \\(t\\) is known to be PCB (polychlorinated biphenyls)-contaminated\n\\(X_{i,t}\\): House \\(i\\)’s characteristics in time \\(t\\)"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-17-2024-1016.html#hedonic-property-value-method-1",
+    "href": "econ-lec/econ-341-lec-17-2024-1016.html#hedonic-property-value-method-1",
+    "title": "Lecture 16",
+    "section": "Hedonic Property Value Method",
+    "text": "Hedonic Property Value Method\nExample 1. Impact of PCB Pollution on Property Values\n\n\n\n\n\n\n\n\n\nIn New Bedford, MA, houses closest to the contaminated area: price declines of $9,000;\n\nIn area of secondary pollution, declines of $7,000.\n\nTotal damages to home-owners: $36 million"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-17-2024-1016.html#hedonic-property-value-method-2",
+    "href": "econ-lec/econ-341-lec-17-2024-1016.html#hedonic-property-value-method-2",
+    "title": "Lecture 16",
+    "section": "Hedonic Property Value Method",
+    "text": "Hedonic Property Value Method\nExample 2. The Visual Effect of Wind Turbines on Property Values\n\n\n\n\n\n\n\n\n\nA new study published in PNAS shows that U.S. house values within a wind turbine’s viewshed drop only slightly and temporarily due to disrupted views.\nThe study analyzed data from over 300 million home sales and 60,000 wind turbines in the U.S. from 1997 to 2020.\nThe impact is smaller the further the turbine is from the house and fades over time."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-17-2024-1016.html#hedonic-property-value-method-3",
+    "href": "econ-lec/econ-341-lec-17-2024-1016.html#hedonic-property-value-method-3",
+    "title": "Lecture 16",
+    "section": "Hedonic Property Value Method",
+    "text": "Hedonic Property Value Method\nExample 2. The Visual Effect of Wind Turbines on Property Values\n\nThe drop is about 1% for houses within 10 km of a turbine, with values eventually returning to their original levels.\nNo effect was found for turbines built after 2017, possibly due to increased public acceptance.\nUnlike prior research, this study also considered the visibility of wind turbines, not just proximity.\nHouses within 2 km of a turbine could see an 8% drop in value, but very few properties are located this close.\nThe negative effect peaks three years after installation and then dissipates as values recover.\nThe findings highlight growing public tolerance for wind turbines over time."
   }
 ]

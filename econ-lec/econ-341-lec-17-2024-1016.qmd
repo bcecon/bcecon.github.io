@@ -307,10 +307,15 @@ df |>
 
 
 
+## Hedonic Property Value Models
+
+- Hedonic property value models use market data (house prices) and then break down the house sales price into its attributes, including the house characteristics (e.g., number of bedrooms, lot size, and features), the neighborhood characteristics (e.g., crime rates, school quality, and so on), and environmental characteristics (e.g., air quality, percentage of open space nearby, distance to a local landfill, etc.). 
+
+- Statistical analysis is then used to estimate a price function from which an analyst can tease out the marginal willingness to pay (MWTP) for any of the attributes of the house; the value of an additional bedroom or bathroom as well as willingness to pay to be near or far from something can be estimated
 
 
-## Hedonic Methods Example
-### Property Values and Pollution
+## Hedonic Property Value Method
+### Example 1. Impact of PCB Pollution
 
 :::{.nonincremental}
 - Compare change in prices for houses sold before and after contamination became public. 
@@ -332,8 +337,8 @@ $$
 
 :::
 
-## Hedonic Methods Example
-### Property Values and Pollution
+## Hedonic Property Value Method
+### Example 1. Impact of PCB Pollution on Property Values
 
 
 :::: {.columns}
@@ -356,7 +361,40 @@ $$
 
 
 
+## Hedonic Property Value Method
+### Example 2. The Visual Effect of Wind Turbines on Property Values
 
 
+:::: {.columns}
+
+::: {.column width="50%"}
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/windmills-homes.jpg" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+
+::: {.column width="50%"}
+- [A new study published in PNAS](https://www.pnas.org/doi/10.1073/pnas.2309372121) shows that U.S. house values within a wind turbine’s viewshed drop only slightly and temporarily due to disrupted views.
+
+- The study analyzed data from over 300 million home sales and 60,000 wind turbines in the U.S. from 1997 to 2020.
+- The impact is smaller the further the turbine is from the house and fades over time.
+
+:::
+::::
+
+
+
+## Hedonic Property Value Method
+### Example 2. The Visual Effect of Wind Turbines on Property Values
+
+
+- The drop is about 1% for houses within 10 km of a turbine, with values eventually returning to their original levels.
+- No effect was found for turbines built after 2017, possibly due to increased public acceptance.
+- Unlike prior research, this study also considered the visibility of wind turbines, not just proximity.
+- Houses within 2 km of a turbine could see an 8% drop in value, but very few properties are located this close.
+- The negative effect peaks three years after installation and then dissipates as values recover.
+- The findings highlight growing public tolerance for wind turbines over time.
 
 
