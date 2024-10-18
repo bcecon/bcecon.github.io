@@ -154,8 +154,10 @@ $$
   <p style="font-weight: bold;"></p>
 </div>
 
+:::{.nonincremental}
 - The study analyzed data from over 300 million home sales and 60,000 wind turbines in the U.S. from 1997 to 2020.
 
+:::
 
 
 ## Hedonic Property Value Method
