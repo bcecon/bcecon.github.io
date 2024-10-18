@@ -1,0 +1,176 @@
+---
+title: Term Paper
+subtitle: Classwork 5
+date: last-modified
+code-fold: true
+execute: 
+  echo: false
+  warning: false
+  message: false
+from: markdown+emoji
+---
+```{r}
+#| include: false
+#| eval: true
+
+library(knitr)
+library(rmarkdown)
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+library(grid)
+
+theme_set(theme_minimal() +
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = element_text(size = rel(1), hjust = 1 ),
+                axis.title.y = element_text(size = rel(1), 
+                                            angle = 0,
+                                            margin = margin(0,10,0,0)))
+          )
+
+```
+
+
+# Key Components in Term Paper Proposal
+
+<!-- ## Part I - Memo to the President -->
+<!-- Each team will select one topic in the environmental economics and write a terse 1-2 page memo that explains in plain English to the President of a nation why this research matters for real-world environmental policy. -->
+
+<!-- ## Part II - Economic Modeling -->
+
+
+- Below are several key components. 
+
+  1. **Title**: A clear and concise title that gives an idea of the research topic.
+  
+  2. **Introduction**:
+     - **Background**: Provide context for the research topic, explaining why it's significant or relevant.
+     - **Statement of the Problem**: Clearly articulate the specific problem or issue the research will address.
+  
+  3. **Objectives or Research Questions**:
+     - List the primary objectives of the study or the main questions you aim to answer.
+  
+  4. **Economic Model**:
+     - Set up the economic problem.
+     - Do not need to be complete at this stage.
+  
+  5. **Empirical Analysis** (Not necessary):
+     - **Data Collection**: Explain how data will be gathered
+     - **Methodologies**: Describe how the data will be analyzed (e.g., linear regression, etc.).
+  
+  6. **Significance of the Study**:
+     - Explain its implications for real-world applications or environmental policy.
+  
+  7. **References**: List all sources cited in the proposal
+
+
+<br><br><br>
+
+
+# Rubric for Term Paper
+
+| **Attribute**                           | **Very Deficient (0)**                                             | **Somewhat Deficient (1)**                                             | **Acceptable (2)**                                                      | **Very Good (3)**                                                       | **Outstanding (4)**                                                    |
+|-----------------------------------------|-------------------------------------------------------------------|-----------------------------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------------------|
+| **1. Potential for success**            | - Low or no potential for success                                  | - Somewhat tenuous potential for success                               | - Adequate potential for success                                        | - High potential for success                                            | - Excellent potential for success                                      |
+| **2. Quality of research question**     | - Not stated or very unclear<br>- Entirely derivative<br>- Anticipate no contribution | - Stated somewhat confusingly<br>- Slightly original but largely derivative<br>- Anticipate minor contributions | - Stated explicitly<br>- Somewhat original and creative<br>- Anticipate limited contributions | - Stated explicitly and clearly<br>- Clearly original and creative<br>- Anticipate at least one good contribution | - Articulated very clearly<br>- Highly original and creative<br>- Anticipate several important contributions |
+| **3. Quality of proposed theoretical analysis** | - Demonstrates little or no critical thinking<br>- Little or no understanding of theoretical concepts<br>- Proposes inappropriate analytical and/or quantitative tools | - Demonstrates rudimentary critical thinking<br>- Somewhat shaky understanding of theoretical concepts<br>- Misses some important analytical and/or quantitative tools | - Demonstrates average critical thinking<br>- Demonstrates understanding of theoretical concepts<br>- Proposes appropriate analytical and/or quantitative tools | - Demonstrates mature critical thinking<br>- Clear understanding of theoretical concepts<br>- Proposes advanced analytical and/or quantitative tools | - Demonstrates sophisticated critical thinking<br>- Superior understanding of theoretical concepts<br>- Proposes highly advanced analytical and/or quantitative tools |
+| **4. Quality of proposed econometric analysis** | - Demonstrates little or no critical thinking<br>- Little or no understanding of theoretical concepts<br>- Proposes inappropriate analytical and/or quantitative tools | - Demonstrates rudimentary critical thinking<br>- Somewhat shaky understanding of theoretical concepts<br>- Misses some important analytical and/or quantitative tools | - Demonstrates average critical thinking<br>- Demonstrates understanding of theoretical concepts<br>- Proposes appropriate analytical and/or quantitative tools | - Demonstrates mature critical thinking<br>- Clear understanding of theoretical concepts<br>- Proposes advanced analytical and/or quantitative tools | - Demonstrates sophisticated critical thinking<br>- Superior understanding of theoretical concepts<br>- Proposes highly advanced analytical and/or quantitative tools |
+| **5. Quality of writing**               | - Very poorly organized<br>- Very difficult to read and understand<br>- Teems with typos and grammatical errors | - Somewhat disorganized<br>- Somewhat difficult to read and understand<br>- Numerous typos and grammatical errors | - Mostly well organized<br>- Mostly easy to read and understand<br>- Some typos and grammatical errors | - Well organized<br>- Easy to read and understand<br>- Very few typos or grammatical errors | - Very well organized<br>- Very easy to read and understand<br>- No typos or grammatical errors |
+| **6. Quality of oral presentation**     | - Very poorly organized<br>- Poor-quality slides or handouts<br>- Unable to address key questions | - Somewhat disorganized<br>- Some unclear slides or handouts<br>- Had difficulty with several questions | - Mostly well organized<br>- Mostly clear slides and handouts<br>- Addressed most questions acceptably | - Well organized<br>- Well thought-out slides and handouts<br>- Addressed almost all questions professionally | - Very well organized<br>- Outstanding slides and handouts<br>- Addressed all questions professionally |
+| **7. Other – explain**                  | -                                                                 | -                                                                     | -                                                                      | -                                                                      | -                                                                      |
+
+
+<br><br><br>
+
+# What is a model?
+
+- A model is a simplified representation of the world that helps us understand how the world works.
+
+- Disciplines other than economics have models too.
+
+- In the 1940s and 50s, a University of Chicago researcher called Dave Fultz modeled it with
+  - A dishpan filled with water
+  - Slowly rotating on a turntable
+  - With an electric heating element on the outside
+
+
+- Essentially reduced global weather to the interaction of three forces
+  - Viscosity of air
+  - Coriolis force because of earth's spin
+  - Temperature difference between poles and equator
+
+
+- So stripped away
+  - Oceans and continents
+  - Mountain ranges
+  - Ocean currents
+  
+  
+- Yet got the main qualitative features of the earth's climate:
+  - Steady flows near the rim (tropical trade winds)
+  - Eddies closer in (cyclonic storms)
+  - twisting ribbon of fast-flowing water around center (jet stream)
+
+
+
+- What is really important is that, in order for a model to be useful, it has to be "unrealistic."
+
+
+- **The point is that a simplified model allows us to understand the fundamental forces at play in some phenomenon, and that can help us manage/change that phenomenon.**
+
+
+<br><br><br>
+
+# Key Elements in an Economic Model
+
+- In principle, the model doesn't have to be mathematical. However, using math forces you to logically prove what you assert. Force of rhetoric won't do it anymore.
+
+
+## Key Elements
+
+- AGENTS
+  - Consumers
+  - Firms
+  - Government
+  - Social Planner
+
+
+- maximize an OBJECTIVE FUNCTION
+  - Utility
+  - Profits
+  - Social welfare
+
+
+- by choosing DECISION VARIABLES
+  - Consumption levels
+  - Production levels
+  - Taxes, subsidies, regulations
+
+
+- subject to CONSTRAINTS
+  - Fixed budget
+  - Supply = demand
+  - Other agents' behaviors
+
+<br><br><br>
+  
+# Types of problems encountered in economic models
+
+- Equilibrium
+  - What will the equilibrium price and quantity be in a market?
+  - What will the equilibrium interest rate and output be in an economy as a whole?
+
+
+- Comparative statics
+  - What happens to an equilibrium when something changes?
+  - Examples:
+    - Micro: Government is planning to impose a tax in market. What will this do to equilibrium price?
+    - Macro: How does a change in the savings rate affect equilibrium national income?
+  
+  
+- Optimization
+  - What is the optimal consumption bundle for a consumer?
+  - What is the optimal capital-labor mix for a firm?
+  - What is the optimal tax for a government?
+  - In practice, many interesting questions involve a mix of these.

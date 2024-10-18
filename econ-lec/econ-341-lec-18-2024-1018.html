@@ -11,8 +11,8 @@
   <meta name="generator" content="quarto-1.3.450">
 
   <meta name="author" content="Byeong-Hak Choe">
-  <meta name="dcterms.date" content="2024-10-16">
-  <title>Home - Lecture 17</title>
+  <meta name="dcterms.date" content="2024-10-18">
+  <title>Home - Lecture 18</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -328,7 +328,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Lecture 17</h1>
+  <h1 class="title">Lecture 18</h1>
   <p class="subtitle">Valuing the Environment: Methods</p>
 
 <div class="quarto-title-authors">
@@ -345,7 +345,7 @@ Byeong-Hak Choe
     </div>
 </div>
 
-  <p class="date">October 16, 2024</p>
+  <p class="date">October 18, 2024</p>
 </section>
 <section>
 <section id="valuing-the-envrionment-methods" class="title-slide slide level1 center" data-background-color="#1c4982">
@@ -354,242 +354,293 @@ Byeong-Hak Choe
 </section>
 <section id="revealed-preference-methods" class="slide level2">
 <h2>Revealed Preference Methods</h2>
-<h3 id="overview">Overview</h3>
+<h3 id="hedonic-methods-overview">Hedonic Methods Overview</h3>
 <ul>
-<li class="fragment"><p><strong>Observable Methods</strong>: Analyze actual behavior and expenditures in real-world scenarios.</p></li>
-<li class="fragment"><p><strong>Indirect Methods</strong>: Infer values of non-market goods and services by observing related market behaviors.</p></li>
-<li class="fragment"><p><strong>Advantages</strong>: Based on actual choices, providing credible and robust estimates.</p></li>
-<li class="fragment"><p><strong>Limitations</strong>: Cannot capture non-use values, may underestimate values for those with lower costs.</p></li>
-<li class="fragment"><p>Main Methods Discussed</p>
-<ol type="1">
-<li class="fragment">Travel-Cost Method (TCM)</li>
-<li class="fragment">Hedonic Property Value Models</li>
-<li class="fragment">Hedonic Wage Models</li>
-</ol></li>
-</ul>
-</section>
-<section id="revealed-preference-methods-1" class="slide level2">
-<h2>Revealed Preference Methods</h2>
-<h3 id="understanding-the-need-for-revealed-preference-methods">Understanding the Need for Revealed Preference Methods</h3>
+<li class="fragment"><strong>Hedonic Property Value Method</strong>
 <ul>
-<li class="fragment"><p><strong>Example</strong>: A sport fishery is threatened by pollution, leading to a reduction in sportfishing opportunities.</p></li>
-<li class="fragment"><p><strong>Challenge</strong>: Determining the economic loss when access to the fishery is free and there’s no direct market price.</p></li>
-<li class="fragment"><p><strong>Key Question</strong></p>
+<li class="fragment"><strong>Concept</strong>: Decomposes the price of a good into the implicit prices of its attributes.</li>
+<li class="fragment"><strong>Application in Real Estate</strong>: Housing prices are influenced by structural characteristics and environmental factors.</li>
+</ul></li>
+<li class="fragment"><strong>Hedonic Wage Method</strong>
 <ul>
-<li class="fragment">How can we assign an economic value to the loss of a recreational resource that is not priced in the market?</li>
+<li class="fragment"><strong>Purpose</strong>: Analyze how job characteristics, including environmental risks, affect wages.</li>
+<li class="fragment"><strong>Risk Compensation</strong>: Higher wages are paid for jobs with greater risks to attract workers.</li>
 </ul></li>
 </ul>
 </section>
-<section id="revealed-preference-methods-2" class="slide level2">
-<h2>Revealed Preference Methods</h2>
-<h3 id="travel-cost-method-tcm-overview">Travel-Cost Method (TCM) Overview</h3>
+<section id="hedonic-property-value-models" class="slide level2">
+<h2>Hedonic Property Value Models</h2>
 <ul>
-<li class="fragment"><strong>Concept</strong>: Travel Expenditure as a Proxy for Value.
+<li class="fragment"><strong>Hedonic Property Value Models</strong>: Use market data, such as house prices, and break down the price into individual attributes of the house, neighborhood, and environment.
 <ul>
-<li class="fragment">Assumes that the time and money visitors spend traveling to a site reflect the site’s recreational value.</li>
-<li class="fragment">Demand Curve Construction: By analyzing how visitation rates vary with travel costs, a demand curve for the site is developed.</li>
+<li class="fragment"><strong>House Characteristics</strong>: Includes factors like the number of bedrooms, lot size, and house features.</li>
+<li class="fragment"><strong>Neighborhood Characteristics</strong>: Crime rates, school quality, etc.</li>
+<li class="fragment"><strong>Environmental Characteristics</strong>: Air quality, nearby open space, distance to landfills, etc.</li>
 </ul></li>
-<li class="fragment"><strong>Applications of TCM</strong>
+<li class="fragment">Statistical Analysis is used to estimate a price function that reveals the <strong>marginal willingness to pay (MWTP)</strong> for any attribute.
 <ul>
-<li class="fragment"><strong>Recreational Resources</strong>: Valuing parks, lakes, wildlife reserves, and other natural attractions.</li>
-<li class="fragment"><strong>Policy Evaluation</strong>: Assessing the benefits of maintaining or improving recreational sites.</li>
-</ul></li>
-</ul>
-</section>
-<section id="first-variant-of-tcm" class="slide level2">
-<h2>First Variant of TCM</h2>
-<h3 id="travel-cost-demand-function">Travel-Cost Demand Function</h3>
-<ul>
-<li class="fragment"><strong>Demand Function</strong>: Relationship between travel costs and visitation rates.</li>
-<li class="fragment">Steps:
-<ol type="1">
-<li class="fragment">Collect data on visits and travel costs.</li>
-<li class="fragment">Estimate the demand function using regression analysis.</li>
-<li class="fragment">Calculate consumer surplus.</li>
-</ol></li>
-</ul>
-</section>
-<section id="travel-cost-demand-function-1" class="slide level2">
-<h2>Travel-Cost Demand Function</h2>
-<h3 id="example-national-park-visitation">Example: National Park Visitation</h3>
-<h4 id="step-1.-data-collection">Step 1. Data Collection</h4>
-<table>
-<thead>
-<tr class="header">
-<th>Origin</th>
-<th style="text-align: left;">Number of Visits</th>
-<th style="text-align: right;">Average Travel Cost (USD)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Region A</td>
-<td style="text-align: left;">150</td>
-<td style="text-align: right;">20</td>
-</tr>
-<tr class="even">
-<td>Region B</td>
-<td style="text-align: left;">120</td>
-<td style="text-align: right;">40</td>
-</tr>
-<tr class="odd">
-<td>Region C</td>
-<td style="text-align: left;">80</td>
-<td style="text-align: right;">60</td>
-</tr>
-<tr class="even">
-<td>Region D</td>
-<td style="text-align: left;">40</td>
-<td style="text-align: right;">80</td>
-</tr>
-<tr class="odd">
-<td>Region E</td>
-<td style="text-align: left;">10</td>
-<td style="text-align: right;">100</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="travel-cost-demand-function-2" class="slide level2">
-<h2>Travel-Cost Demand Function</h2>
-<h3 id="example-national-park-visitation-1">Example: National Park Visitation</h3>
-<h4 id="step-2-estimate-the-demand-function">Step 2: Estimate the Demand Function</h4>
-<ul>
-<li class="fragment"><p>Perform <strong>linear regression</strong> to estimate the relationship between visits and travel costs.</p></li>
-<li class="fragment"><p>Formula: <span class="math display">\[
-Q = \alpha + \beta P
-\]</span></p></li>
-<li class="fragment"><p>Where:</p>
-<ul>
-<li class="fragment"><span class="math inline">\(Q\)</span>: Number of visits.</li>
-<li class="fragment"><span class="math inline">\(P\)</span>: Travel cost.</li>
-<li class="fragment"><span class="math inline">\(\alpha\)</span>, <span class="math inline">\(\beta\)</span>: Regression coefficients.</li>
+<li class="fragment"><strong>MWTP for House Attributes</strong>: Can estimate the value of an additional bedroom or bathroom.</li>
+<li class="fragment"><strong>MWTP for Location</strong>: Can estimate willingness to pay to live near or far from certain factors, such as landfills.</li>
 </ul></li>
 </ul>
 </section>
-<section id="travel-cost-demand-function-3" class="slide level2">
-<h2>Travel-Cost Demand Function</h2>
-<h3 id="example-national-park-visitation-2">Example: National Park Visitation</h3>
-<h4 id="step-2-estimate-the-demand-function-1">Step 2: Estimate the Demand Function</h4>
-
-<img data-src="econ-341-lec-17-2024-1016_files/figure-revealjs/unnamed-chunk-1-1.png" width="960" class="r-stretch"></section>
-<section id="travel-cost-demand-function-4" class="slide level2">
-<h2>Travel-Cost Demand Function</h2>
-<h3 id="example-national-park-visitation-3">Example: National Park Visitation</h3>
-<h4 id="step-3-example-regression-result">Step 3: Example Regression Result</h4>
-<h3 id="demand-function">Demand Function:</h3>
-<p><span class="math display">\[
-Q = 188 - 1.8P
-\]</span></p>
-<ul>
-<li class="fragment"><strong>Interpretation</strong>:
-<ul>
-<li class="fragment"><span class="math inline">\(\beta = -1.8\)</span> → Each $1 increase in travel cost reduces visits by 1.8 visitors.</li>
-<li class="fragment"><span class="math inline">\(\alpha = 188\)</span> → Hypothetical number of visitors if travel cost were zero.</li>
-</ul></li>
-</ul>
-</section>
-<section id="travel-cost-demand-function-5" class="slide level2">
-<h2>Travel-Cost Demand Function</h2>
-<h3 id="example-national-park-visitation-4">Example: National Park Visitation</h3>
-<h4 id="step-4-predict-visitation">Step 4: Predict Visitation</h4>
-<ul>
-<li class="fragment"><strong>Example</strong>: If the travel cost is $60, the <em>predicted</em> number of visits is: <span class="math display">\[
-\begin{align}
-Q &amp;= 188 - 1.8(60) \\
-&amp;= 80 \text{ visits}
-\end{align}
-\]</span></li>
-</ul>
-</section>
-<section id="travel-cost-demand-function-6" class="slide level2">
-<h2>Travel-Cost Demand Function</h2>
-<h3 id="example-national-park-visitation-5">Example: National Park Visitation</h3>
-<h4 id="step-5-estimate-consumer-surplus">Step 5: Estimate Consumer Surplus</h4>
+<section id="hedonic-property-value-method" class="slide level2">
+<h2>Hedonic Property Value Method</h2>
+<h3 id="example-1.-impact-of-pcb-pollution">Example 1. Impact of PCB Pollution</h3>
 <div>
 <ul>
-<li><strong>Consumer Surplus</strong>: Total recreational value derived from the site.
+<li>Compare change in prices for houses sold before and after contamination became public.
 <ul>
-<li>Area under the demand curve but above the travel cost represents the consumer surplus.</li>
-<li>If travel cost is $60, consumer surplus will be:</li>
+<li>Control for all other factors affecting home costs.</li>
 </ul></li>
 </ul>
 </div>
-
-<img data-src="econ-341-lec-17-2024-1016_files/figure-revealjs/unnamed-chunk-2-1.png" width="960" class="r-stretch quarto-figure-center"></section>
-<section id="second-variant-of-tcm" class="slide level2">
-<h2>Second Variant of TCM</h2>
-<h3 id="random-utility-model-rum">Random Utility Model (RUM)</h3>
+<p><span class="math display">\[
+\begin{align}
+Price_{i, t} = \beta_{0} + \beta_{1}PCB_{i, t} + \mathbf{\beta}X_{i,t} + \epsilon_{i, t}
+\end{align}
+\]</span></p>
+<div>
 <ul>
-<li class="fragment"><p><strong>Purpose</strong>: Model the choice behavior of individuals when selecting among multiple recreational sites.</p></li>
-<li class="fragment"><p>In the RUM, a person choosing a particular site takes into consideration site characteristics and its price (trip cost).</p></li>
-<li class="fragment"><p>Characteristics affecting the site choice include ease of access and environmental quality.</p></li>
-<li class="fragment"><p>Each site results in a unique level of utility and a person is assumed to choose the site giving the highest level of utility to that person.</p></li>
-<li class="fragment"><p>Welfare losses from an event such as an oil spill can then be measured by the resulting change in utility should the person have to choose an alternate, less desirable site.</p></li>
+<li><span class="math inline">\(i\)</span>: House <span class="math inline">\(i\)</span></li>
+<li><span class="math inline">\(t\)</span>: Time <span class="math inline">\(t\)</span></li>
+<li><span class="math inline">\(PCB\)</span>: whether or not the house <span class="math inline">\(i\)</span> in time <span class="math inline">\(t\)</span> is known to be PCB (polychlorinated biphenyls)-contaminated</li>
+<li><span class="math inline">\(X_{i,t}\)</span>: House <span class="math inline">\(i\)</span>’s characteristics in time <span class="math inline">\(t\)</span></li>
 </ul>
+</div>
 </section>
-<section id="challenges-in-tcm" class="slide level2">
-<h2>Challenges in TCM</h2>
-<ul>
-<li class="fragment">Proximity Paradox
-<ul>
-<li class="fragment">Those who live closest to the site may actually visit frequently and have low travel costs.</li>
-<li class="fragment">This would potentially be underestimating their true valuation.</li>
-</ul></li>
-<li class="fragment">Opportunity Cost of Time
-<ul>
-<li class="fragment">Time spent traveling could have been used for other valuable activities.</li>
-<li class="fragment">Approaches: Wage Rate Method, Shadow Price of Time (Implicit value that individuals place on their time).</li>
-</ul></li>
-</ul>
-</section>
-<section id="using-the-tcm-to-estimate-recreational-value" class="slide level2">
-<h2>Using the TCM to Estimate Recreational Value</h2>
-<h3 id="beaches-in-minorca-spain">Beaches in Minorca, Spain</h3>
+<section id="hedonic-property-value-method-1" class="slide level2">
+<h2>Hedonic Property Value Method</h2>
+<h3 id="example-1.-impact-of-pcb-pollution-on-property-values">Example 1. Impact of PCB Pollution on Property Values</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div style="text-align: center; width: 100%; margin: auto;">
-<img src="https://bcdanl.github.io/lec_figs/minorca.png" style="width: 100%; margin-bottom: -20px;">
+<img src="https://bcdanl.github.io/lec_figs/bedford.png" style="width: 100%; margin-bottom: -20px;">
 <p style="font-weight: bold;">
 </p>
 </div>
 </div><div class="column" style="width:50%;">
 <ul>
-<li class="fragment">Minorca, Spain is a popular tourist destination, with its population doubling in summer due to tourism, mainly drawn by its beaches.</li>
-<li class="fragment">Researchers estimated the economic value of Minorca’s beaches using the TCM, with a hypothetical oil spill causing beach closures.</li>
-</ul>
-</div>
-</div>
-</section>
-<section id="using-the-tcm-to-estimate-recreational-value-1" class="slide level2">
-<h2>Using the TCM to Estimate Recreational Value</h2>
-<h3 id="beaches-in-minorca-spain-1">Beaches in Minorca, Spain</h3>
+<li class="fragment">In New Bedford, MA, houses closest to the contaminated area: price declines of $9,000;
 <ul>
-<li class="fragment">A RUM based on survey data from 573 individual surveys conducted at 51 beaches in 2008 was used for the analysis.</li>
-<li class="fragment">Surveys gathered travel details (origin, transportation, group size, demographics) and attitudes toward beach attributes (urbanization, sand type, cleanliness, crowding, amenities, environmental quality).</li>
-<li class="fragment">Positive characteristics for beach utility included north-facing, presence of lifeguards, toilets, drink vendors, thin sand, nudism, warm water, and environmental quality.</li>
-<li class="fragment">Negative characteristics included urban setting, crowding, algae, calm water, and non-northern orientation.</li>
-<li class="fragment">WTP to avoid beach closures ranges from 0.24 euros per day per person for west coast beaches (resulting in a 6,000-euro daily loss) to 1.73 euros for northern beaches (43,250-euro daily loss).</li>
-</ul>
-</section>
-<section id="using-the-tcm-to-estimate-recreational-value-2" class="slide level2">
-<h2>Using the TCM to Estimate Recreational Value</h2>
-<h3 id="florida-beaches">Florida Beaches</h3>
-<ul>
-<li class="fragment">Survey 826 tourists:
-<ul>
-<li class="fragment">Days spent at the beach and expenses incurred to use the beach, meals, travel and access fees, initial travel costs in and out of the state, length of stay, age, income, and other control data.</li>
-</ul></li>
-<li class="fragment">Hypothesis:
-<ul>
-<li class="fragment">Holding all the other factors constant, lower beach expenses <span class="math inline">\(\rightarrow\)</span> greater number of days at the beach</li>
-</ul></li>
-<li class="fragment">Results:
-<ul>
-<li class="fragment">A 10% increase in “price” lead to a 1.5% decrease in time on the beach.<br>
+<li class="fragment">In area of secondary pollution, declines of $7,000.<br>
 </li>
-<li class="fragment">Average CS per day of $38.</li>
-<li class="fragment">Over 2 million tourists: $2.37 billion per year.</li>
+<li class="fragment">Total damages to home-owners: $36 million</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="hedonic-property-value-method-2" class="slide level2">
+<h2>Hedonic Property Value Method</h2>
+<h3 id="example-2.-the-visual-effect-of-wind-turbines-on-property-values">Example 2. The Visual Effect of Wind Turbines on Property Values</h3>
+<div style="text-align: center; width: 60%; margin: auto;">
+<img src="https://bcdanl.github.io/lec_figs/windmills-homes.jpg" style="width: 100%; margin-bottom: -20px;">
+<p style="font-weight: bold;">
+</p>
+</div>
+<div>
+<ul>
+<li><a href="https://www.pnas.org/doi/10.1073/pnas.2309372121">A new study published in PNAS</a> shows that U.S. house values within a wind turbine’s viewshed drop only slightly and temporarily due to disrupted views.</li>
+</ul>
+</div>
+</section>
+<section id="hedonic-property-value-method-3" class="slide level2">
+<h2>Hedonic Property Value Method</h2>
+<h3 id="example-2.-the-visual-effect-of-wind-turbines-on-property-values-1">Example 2. The Visual Effect of Wind Turbines on Property Values</h3>
+<div style="text-align: center; width: 85%; margin: auto;">
+<img src="https://bcdanl.github.io/lec_figs/pnas-wind-hedonic-map.png" style="width: 100%; margin-bottom: -20px;">
+<p style="font-weight: bold;">
+</p>
+</div>
+<ul>
+<li class="fragment">The study analyzed data from over 300 million home sales and 60,000 wind turbines in the U.S. from 1997 to 2020.</li>
+</ul>
+</section>
+<section id="hedonic-property-value-method-4" class="slide level2">
+<h2>Hedonic Property Value Method</h2>
+<h3 id="example-2.-the-visual-effect-of-wind-turbines-on-property-values-2">Example 2. The Visual Effect of Wind Turbines on Property Values</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div style="text-align: center; width: 100%; margin: auto;">
+<img src="https://bcdanl.github.io/lec_figs/pnas-wind-hedonic-result.png" style="width: 100%; margin-bottom: -20px;">
+<p style="font-weight: bold;">
+</p>
+</div>
+</div><div class="column" style="width:50%;">
+<ul>
+<li class="fragment"><p>The impact is smaller the further the turbine is from the house.</p></li>
+<li class="fragment"><p>The drop is about 1% for houses within 10 km of a turbine, with values eventually returning to their original levels.</p></li>
+<li class="fragment"><p>Houses within 2 km of a turbine could see an 8% drop in value, but very few properties are located this close.</p></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="hedonic-property-value-method-5" class="slide level2">
+<h2>Hedonic Property Value Method</h2>
+<h3 id="example-2.-the-visual-effect-of-wind-turbines-on-property-values-3">Example 2. The Visual Effect of Wind Turbines on Property Values</h3>
+<ul>
+<li class="fragment">No effect was found for turbines built after 2017, possibly due to increased public acceptance.</li>
+<li class="fragment">Unlike prior research, this study also considered the visibility of wind turbines, not just proximity.</li>
+<li class="fragment">The negative effect peaks three years after installation and then dissipates as values recover.</li>
+<li class="fragment">The findings highlight growing public tolerance for wind turbines over time.</li>
+</ul>
+</section>
+<section id="revealed-preference-methods-1" class="slide level2">
+<h2>Revealed Preference Methods</h2>
+<h3 id="averting-expenditures">Averting Expenditures</h3>
+<ul>
+<li class="fragment"><strong>Averting/Avoidance Expenditures</strong>: Costs incurred to reduce damage caused by pollution through <em>defensive actions</em>.</li>
+<li class="fragment"><strong>Examples</strong>: Installing air purifiers or using bottled water due to air or water pollution.</li>
+<li class="fragment"><strong>Lower-Bound Estimate</strong>: Averting expenditures provide a minimum estimate of pollution-related damages, as people spend only up to the amount of harm avoided.</li>
+<li class="fragment"><strong>Impact on Poor Households</strong>: Poor households face greater hardship as they may not afford such coping measures.</li>
+<li class="fragment"><strong>Underestimation Risk</strong>: Ignoring averting expenditures or behavior can lead to underestimating damages. <!-- - Illustrative Example: If contaminated water causes illness in 4% of the population, but half use alternatives, illness drops to 2%, yet the avoidance costs must be included in total damage estimates. --></li>
+</ul>
+</section>
+<section id="averting-expenditures-1" class="slide level2">
+<h2>Averting Expenditures</h2>
+<h3 id="valuing-the-reliability-of-water-supplies-coping-expenditures-in-kathmandu-valley-nepal">Valuing the Reliability of Water Supplies: Coping Expenditures in Kathmandu Valley, Nepal</h3>
+<ul>
+<li class="fragment"><strong>Water Shortages in Nepal</strong>:
+<ul>
+<li class="fragment">Chronic shortages of safe drinking water affect Kathmandu Valley, where the public water supply is unreliable and contaminated.</li>
+</ul></li>
+<li class="fragment"><strong>Investment in Water Quality</strong>:
+<ul>
+<li class="fragment">Investment depends on how much the population values clean water, quantified through WTP.</li>
+</ul></li>
+<li class="fragment"><strong>Coping Mechanisms</strong>:
+<ul>
+<li class="fragment">Households cope by purchasing water, collecting from public taps, investing in wells/storage tanks, using filtration systems, or boiling water.</li>
+</ul></li>
+</ul>
+</section>
+<section id="averting-expenditures-2" class="slide level2">
+<h2>Averting Expenditures</h2>
+<h3 id="valuing-the-reliability-of-water-supplies-coping-expenditures-in-kathmandu-valley-nepal-1">Valuing the Reliability of Water Supplies: Coping Expenditures in Kathmandu Valley, Nepal</h3>
+<ul>
+<li class="fragment"><p>A survey of 1,500 households found that coping behaviors cost about 1% of monthly income, double the current water utility bills.</p></li>
+<li class="fragment"><p><strong>Coping Costs as WTP Proxy</strong>:</p>
+<ul>
+<li class="fragment">Financial and time costs of coping provide a lower-bound estimate of WTP, useful for constructing a demand curve for water provision.</li>
+</ul></li>
+<li class="fragment"><p><strong>Influence of Demographics</strong>:</p>
+<ul>
+<li class="fragment">Wealthier households had higher coping costs, investing more in water treatment and purchases.</li>
+<li class="fragment">More educated households also faced higher costs, likely due to better understanding of water contamination risks.</li>
+</ul></li>
+</ul>
+</section>
+<section id="averting-expenditures-3" class="slide level2">
+<h2>Averting Expenditures</h2>
+<h3 id="valuing-the-reliability-of-water-supplies-coping-expenditures-in-kathmandu-valley-nepal-2">Valuing the Reliability of Water Supplies: Coping Expenditures in Kathmandu Valley, Nepal</h3>
+<ul>
+<li class="fragment"><strong>Environmental Justice</strong> and <strong>Efficiency</strong>:
+<ul>
+<li class="fragment">Poorer households face greater financial and educational barriers, raising both environmental justice and efficiency concerns.</li>
+</ul></li>
+<li class="fragment"><strong>Policy Implications</strong>:
+<ul>
+<li class="fragment">Averting expenditures show that the value of water is at least twice the current per-unit charge, challenging the belief that water supply costs exceed user benefits in poor countries.</li>
+</ul></li>
+</ul>
+</section>
+<section id="nonmarket-valuation" class="slide level2">
+<h2>Nonmarket Valuation</h2>
+<h3 id="benefit-transfer-and-meta-analysis">Benefit Transfer and Meta-Analysis</h3>
+<ul>
+<li class="fragment"><strong>Cost Dilemma</strong>: Contingent valuation is expensive, and not using it risks assigning a zero value to passive-use, which is not ideal.</li>
+<li class="fragment"><strong>Benefit Transfer</strong>: A cost-effective alternative to contingent valuation, allowing the use of estimates from other sites or time periods for current valuation. - <strong>Value Transfer</strong>: Directly transferring estimates, adjusted for differences.
+<ul>
+<li class="fragment"><strong>Benefit Function Transfer</strong>: Using previously estimated benefit functions to calculate new, site-specific values.</li>
+<li class="fragment"><strong>Meta-Analysis</strong>: Statistically analyzing multiple studies to isolate determinants of value and apply them to new contexts.</li>
+</ul></li>
+<li class="fragment"><strong>Limitations of Benefit Transfer</strong>: Accuracy diminishes as the context (location or time) deviates from the original study, leading to potential transfer errors.</li>
+</ul>
+</section>
+<section id="nonmarket-valuation-1" class="slide level2">
+<h2>Nonmarket Valuation</h2>
+<h3 id="different-methods-different-experts-different-data">Different Methods, Different Experts, Different Data</h3>
+<div style="text-align: center; width: 75%; margin: auto;">
+<img src="https://bcdanl.github.io/lec_figs/tl-fig4-2.png" style="width: 100%; margin-bottom: -20px;">
+<p style="font-weight: bold;">
+</p>
+</div>
+<ul>
+<li class="fragment"><p>Each of these methods relies on different data and, many times, different experts.</p></li>
+<li class="fragment"><p>Rarely is the available time or money sufficient to apply all methods to a particular question.</p></li>
+</ul>
+</section>
+<section id="what-is-the-value-of-a-polar-bear" class="slide level2">
+<h2>What Is the Value of a Polar Bear?</h2>
+<div style="text-align: center; width: 45%; margin: auto;">
+<img src="https://bcdanl.github.io/lec_figs/polar-bear.jpg" style="width: 100%; margin-bottom: -20px;">
+<p style="font-weight: bold;">
+</p>
+</div>
+<ul>
+<li class="fragment"><p><strong>Study Purpose</strong>: The Canadian government commissioned a study in 2011 to estimate the socio-economic value of polar bears, partially to assess the impact of listing them as an at-risk species.</p></li>
+<li class="fragment"><p><strong>Comprehensive Valuation</strong>: The study captured both active use values (hunting, viewing, research) and passive-use values (existence and bequest).</p></li>
+</ul>
+</section>
+<section id="what-is-the-value-of-a-polar-bear-1" class="slide level2">
+<h2>What Is the Value of a Polar Bear?</h2>
+<ul>
+<li class="fragment"><strong>Valuation Methods</strong>:
+<ul>
+<li class="fragment">Used nonmarket valuation methods like travel-cost (viewing), market prices (hunting), meta-analysis, and benefit transfer for passive-use values.</li>
+<li class="fragment">Stated preference methods (contingent valuation or choice experiments) were not used due to time and budget constraints.</li>
+</ul></li>
+</ul>
+</section>
+<section id="what-is-the-value-of-a-polar-bear-2" class="slide level2">
+<h2>What Is the Value of a Polar Bear?</h2>
+<div style="text-align: center; width: 60%; margin: auto;">
+<img src="https://bcdanl.github.io/lec_figs/tl-fig4-3.png" style="width: 100%; margin-bottom: -20px;">
+<p style="font-weight: bold;">
+</p>
+</div>
+<ul>
+<li class="fragment"><strong>Direct Use Values</strong>: Made up a small portion of the total estimated value.</li>
+</ul>
+</section>
+<section id="what-is-the-value-of-a-polar-bear-3" class="slide level2">
+<h2>What Is the Value of a Polar Bear?</h2>
+<h3 id="caveats">Caveats</h3>
+<ul>
+<li class="fragment"><strong>Meat Value Substitutes</strong>:
+<ul>
+<li class="fragment">Polar bear meat was compared to beef and dog food, but alternative comparisons could affect results.</li>
+</ul></li>
+<li class="fragment"><strong>Sport Hunting Values</strong>:
+<ul>
+<li class="fragment">Estimated using benefit transfer from a 1989 big game and grizzly bear hunting study, translated into 2009 dollars.</li>
+<li class="fragment">The value may be either underestimated (due to the unique nature of polar bear hunting) or overestimated (due to the charismatic image of the polar bear).</li>
+</ul></li>
+</ul>
+</section>
+<section id="what-is-the-value-of-a-polar-bear-4" class="slide level2">
+<h2>What Is the Value of a Polar Bear?</h2>
+<h3 id="caveats-1">Caveats</h3>
+<ul>
+<li class="fragment"><strong>Passive-Use Values</strong>:
+<ul>
+<li class="fragment">Also estimated using benefit transfer based on a meta-analysis of species at risk.</li>
+<li class="fragment">Direct uses were excluded from the transferred value, but indirect use benefits were harder to separate, which could lead to overestimation.</li>
+</ul></li>
+</ul>
+</section>
+<section id="what-is-the-value-of-a-polar-bear-5" class="slide level2">
+<h2>What Is the Value of a Polar Bear?</h2>
+<h3 id="caveats-2">Caveats</h3>
+<ul>
+<li class="fragment"><strong>Double Counting Risk</strong>:
+<ul>
+<li class="fragment">Scientific values were calculated separately and also included in preservation value estimates, which may lead to overestimated totals.</li>
+</ul></li>
+<li class="fragment"><strong>Challenges in Valuation</strong>:
+<ul>
+<li class="fragment">Determining the true value of polar bears is difficult, and estimates may vary significantly based on methods and assumptions used.</li>
 </ul></li>
 </ul>
 
