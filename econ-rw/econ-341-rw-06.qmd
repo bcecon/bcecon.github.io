@@ -35,7 +35,7 @@ theme_set(theme_minimal() +
 
 Imagine you are a staff economist at the Environmental Defense Fund (EDF), working under the leadership of EDF's Chief Economist, Suzi Kerr. Suzi has asked you to assess whether EDF should endorse a letter to Congress, titled "Legislation to Address the Urgent Threat of Climate Change." This letter outlines key actions Congress must take to address climate change, such as transitioning to renewable energy, ending fossil fuel subsidies, and ensuring a just transition for impacted communities. Below are key questions to consider as part of your analysis of the letter's arguments.
 
-Refer to the provided document for the context.
+Refer to the provided letter for the context.
 
 - [Coalition letter advocating for a Green New Deal](https://bcecon.github.io/econ-rw/6-app-sunrise-statement.pdf)
 <br>
@@ -45,8 +45,15 @@ Refer to the provided document for the context.
 ### Statement to Consider:
 "The United States must shift to 100 percent renewable power generation by 2035 or earlier … As the transition away from fossil fuels occurs, our transportation system must also undergo 100 percent decarbonization."
 
-### Question:
+### Describe Key Challenges:
+- Consider the marginal costs of abatement when eliminating all non-renewable power sources and fossil-fuel vehicles by 2035.
+- Reflect on the technological advancements needed to achieve this goal and the associated economic implications.
+- Think about the impact on different communities, especially those that may be vulnerable to rapid economic changes.
+
+### Variation in Importance of Challenges:
 - Given what we know about the equimarginal rule and the marginal costs and marginal benefits of abatement, does it make sense to completely eliminate all non-renewable power sources and fossil-fuel powered vehicles by 2035?
+- How might these challenges vary for different stakeholders, such as energy producers, consumers, and policymakers?
+
 
 <br>
 
@@ -55,8 +62,13 @@ Refer to the provided document for the context.
 ### Statement to Consider:
 "We will vigorously oppose any legislation that … promotes corporate schemes that place profits over community burdens and benefits, including market-based mechanisms and technology options such as carbon and emissions trading and offsets…"
 
-### Question:
-- How would abandoning market-based mechanisms affect the cost of achieving a given amount of greenhouse gas emissions abatement?
+### Describe Potential Consequences:
+- Consider how abandoning market-based mechanisms, such as carbon pricing and emissions trading, might affect the overall cost of achieving emissions reductions.
+- Reflect on the potential inefficiencies that could arise from relying solely on command-and-control regulations.
+- Think about how market-based mechanisms could incentivize innovation and cost-effective emissions reductions.
+
+### Differences in Impact:
+- How might the consequences of abandoning market-based mechanisms differ for corporations, communities, and government entities?
 
 <br>
 
@@ -65,8 +77,14 @@ Refer to the provided document for the context.
 ### Statement to Consider:
 "Fossil fuel companies should pay their fair share for damages caused by climate change, rather than shifting those costs to taxpayers."
 
-### Question:
-- Who pays the cost of climate policy? Do command-and-control policies necessarily force companies to bear more of the costs of climate policy than market-based policies?
+### Who Bears the Costs:
+- Consider who ultimately bears the cost of climate policies—companies, consumers, or taxpayers.
+- Reflect on how command-and-control policies might shift costs directly to companies and how these costs might be passed on to consumers.
+- Think about how market-based policies can provide flexibility in cost distribution.
+
+### Differences in Cost Burden:
+- Who pays the cost of climate policy? 
+- Do command-and-control policies necessarily force companies to bear more of the costs of climate policy than market-based policies?
 
 <br>
 
@@ -75,5 +93,11 @@ Refer to the provided document for the context.
 ### Statement to Consider:
 "These policies are but a few ways to build a sustainable, low carbon economy where no one is left behind during this change."
 
-### Question:
+### Describe Key Benefits:
+- Consider the potential benefits of a sustainable, low-carbon economy, including improved public health, environmental restoration, and economic resilience.
+- Reflect on how a just transition can ensure that vulnerable communities are supported during the shift.
+- Think about the long-term benefits of reducing greenhouse gas emissions for future generations.
+
+### Differences in Value of Benefits:
 - Would an efficient, market-based approach to climate policy guarantee that all Americans are better off?
+- How might the benefits of a market-based approach differ in value depending on who is impacted, and in what ways?
