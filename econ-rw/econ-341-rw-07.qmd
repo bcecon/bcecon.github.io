@@ -1,0 +1,97 @@
+---
+title: "Topic 7 - Food Bank Market"
+date: last-modified
+code-fold: true
+execute: 
+  echo: false
+  warning: false
+  message: false
+from: markdown+emoji
+---
+```{r}
+#| include: false
+#| eval: true
+
+library(knitr)
+library(rmarkdown)
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+library(grid)
+
+theme_set(theme_minimal() +
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = element_text(size = rel(1), hjust = 1 ),
+                axis.title.y = element_text(size = rel(1), 
+                                            angle = 0,
+                                            margin = margin(0,10,0,0)))
+          )
+
+```
+
+
+# Evaluating the Market-Based Approach for Food Allocation
+
+Imagine you are an advisor to the New York Association of Food Banks, which is considering adopting a market-based approach similar to Feeding America. This approach was designed to address inefficiencies and inequities in food distribution to food banks across the United States. Below are key questions to consider when evaluating this potential change. Refer to the provided article and podcast links for the context and insights.
+
+- [_NPR_, "The Free Food Market"](https://www.npr.org/sections/money/2019/09/11/565736836/episode-665-the-free-food-market)
+- [_Canice Prendergast_, "How food banks use markets to feed the poor"](https://bcecon.github.io/econ-rw/7-app-prendergast-jep-2017)
+
+<br>
+
+## 1. Economic Inefficiencies in Central Allocation
+
+### Describe the Inefficiencies:
+- How did the central allocation of food create economic inefficiencies, as highlighted by the "pickle problem" and issues of food mismatches?
+
+### Causes of Inefficiencies:
+- What factors contributed to the inefficiencies in food distribution under the central allocation system?
+
+<br>
+
+## 2. The Market-Based Solution
+
+### Benefits of Introducing a Market:
+- Why was the introduction of a market able to resolve the inefficiencies of the central allocation system?
+- How did the market-based system address the "local knowledge problem," allowing food banks to better express their preferences?
+
+### Key Features of the Market:
+- What were the key features of the Choice System that enabled improved efficiency and preference matching?
+
+<br>
+
+## 3. Ensuring Fairness in the Market
+
+### Addressing Inequities:
+- How did the market ensure fairness among food banks, especially those with less fundraising capacity?
+
+### Role of Specialized Currency:
+- How did the use of "shares" as a specialized currency help ensure equitable access to food?
+- What were the specific safeguards implemented to protect smaller food banks?
+
+<br>
+
+## 4. Evaluating the Success of the Food Market
+
+### Overall Success:
+- Would you consider the introduction of the market-based food allocation a success?
+
+### Key Factors for Implementation Elsewhere:
+- Which aspects of this system would be crucial to consider if implementing a similar market elsewhere?
+
+### Lessons Learned:
+- How did food bank directors like Susanna Moore Gannon and John Arnold respond to the market system, and what lessons can be learned from their experiences?
+- How did features like credit, joint bidding, and negative pricing contribute to leveling the playing field?
+
+<br>
+
+## 5. Applicability in Other Contexts
+
+### Potential Applications:
+- What other settings—such as environmental resource allocation—might benefit from a market-based approach?
+- Can you identify other instances where a market-based system might improve efficiency compared to central allocation?
+
+
+
+

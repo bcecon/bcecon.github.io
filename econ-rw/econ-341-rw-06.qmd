@@ -1,0 +1,79 @@
+---
+title: "Topic 6 - Green New Deal"
+date: last-modified
+code-fold: true
+execute: 
+  echo: false
+  warning: false
+  message: false
+from: markdown+emoji
+---
+```{r}
+#| include: false
+#| eval: true
+
+library(knitr)
+library(rmarkdown)
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+library(grid)
+
+theme_set(theme_minimal() +
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = element_text(size = rel(1), hjust = 1 ),
+                axis.title.y = element_text(size = rel(1), 
+                                            angle = 0,
+                                            margin = margin(0,10,0,0)))
+          )
+
+```
+
+
+# Evaluating the Green New Deal: EDF's Perspective
+
+Imagine you are a staff economist at the Environmental Defense Fund (EDF), working under the leadership of EDF's Chief Economist, Suzi Kerr. Suzi has asked you to assess whether EDF should endorse a letter to Congress, titled "Legislation to Address the Urgent Threat of Climate Change." This letter outlines key actions Congress must take to address climate change, such as transitioning to renewable energy, ending fossil fuel subsidies, and ensuring a just transition for impacted communities. Below are key questions to consider as part of your analysis of the letter's arguments.
+
+Refer to the provided document for the context.
+
+- [Coalition letter advocating for a Green New Deal](https://bcecon.github.io/econ-rw/6-app-sunrise-statement.pdf)
+<br>
+
+## 1. Shifting to 100% Renewable Power by 2035
+
+### Statement to Consider:
+"The United States must shift to 100 percent renewable power generation by 2035 or earlier … As the transition away from fossil fuels occurs, our transportation system must also undergo 100 percent decarbonization."
+
+### Question:
+- Given what we know about the equimarginal rule and the marginal costs and marginal benefits of abatement, does it make sense to completely eliminate all non-renewable power sources and fossil-fuel powered vehicles by 2035?
+
+<br>
+
+## 2. Opposing Market-Based Mechanisms
+
+### Statement to Consider:
+"We will vigorously oppose any legislation that … promotes corporate schemes that place profits over community burdens and benefits, including market-based mechanisms and technology options such as carbon and emissions trading and offsets…"
+
+### Question:
+- How would abandoning market-based mechanisms affect the cost of achieving a given amount of greenhouse gas emissions abatement?
+
+<br>
+
+## 3. Costs of Climate Policy
+
+### Statement to Consider:
+"Fossil fuel companies should pay their fair share for damages caused by climate change, rather than shifting those costs to taxpayers."
+
+### Question:
+- Who pays the cost of climate policy? Do command-and-control policies necessarily force companies to bear more of the costs of climate policy than market-based policies?
+
+<br>
+
+## 4. Building a Sustainable, Low Carbon Economy
+
+### Statement to Consider:
+"These policies are but a few ways to build a sustainable, low carbon economy where no one is left behind during this change."
+
+### Question:
+- Would an efficient, market-based approach to climate policy guarantee that all Americans are better off?

@@ -1,0 +1,64 @@
+---
+title: "Topic 2 - Puente Power Plant"
+date: last-modified
+code-fold: true
+execute: 
+  echo: false
+  warning: false
+  message: false
+from: markdown+emoji
+---
+```{r}
+#| include: false
+#| eval: true
+
+library(knitr)
+library(rmarkdown)
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+library(grid)
+
+theme_set(theme_minimal() +
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = element_text(size = rel(1), hjust = 1 ),
+                axis.title.y = element_text(size = rel(1), 
+                                            angle = 0,
+                                            margin = margin(0,10,0,0)))
+          )
+
+```
+
+
+# Debate over the Puente Power Plant
+
+Based on your deep understanding of environmental, natural resource, and energy economics, you were one of the most persuasive voices at Oxnard's city council meetings during the debate over the Puente Power Plant. Several national environmental justice organizations have asked you to reflect on your success, and provide thoughts on the original Puente Power Plant plan. Refer to the provided articles for the context and insights.
+
+- [_Huffpost_, "Oxnard, California: The City That Stopped A Gas Plant"](https://bcecon.github.io/econ-rw/2-app-huffpost-2019-0612-oxnard.pdf)
+- [_California ISO_, "Moorpark Sub-Area Local Capacity Alternative Study"](https://bcecon.github.io/econ-rw/2-app-CAISO-2017-moorpark.pdf)
+
+<br>
+
+## Questions
+
+1. **Externalities of Puente Power Plant**  
+   What externalities would have been associated with the construction of Puente? Consider the environmental, social, and economic impacts, such as emissions, health effects, and property value changes. How does your understanding of these externalities affect your interpretation of the costs described in Table 1-1 of the California ISO (Independent System Operator Corporation)'s Local Capacity Alternative Study, which outlines the estimated capital costs for different scenarios, including the Puente project?
+
+
+<br>
+
+2. **Economic Efficiency of Renewable Alternatives**  
+   Do you think there was a viable economic efficiency argument for why solar energy was chosen as a renewable alternative to Puente although it was the more expensive option, as indicated in Table 1-1 of the California ISO's study? Why or why not?
+
+
+<br>
+
+3. **Economic Efficiency and Broader Considerations**  
+   Imagine that, even after taking all externalities into account, building the Puente Power Plant would have been the most economically efficient option. Does economic efficiency overlook anything that the Oxnard city council needed to consider when deciding on their support for Puente, such as environmental justice concerns or community well-being? Refer to the community's response and grassroots efforts highlighted in the article, "Oxnard, California: The City That Stopped A Gas Plant" by HuffPost.
+
+
+<br>
+
+4. **Why Puente Was Stopped**  
+   Personally, why do you think Puente was stopped, when so many other power plants across the nation are approved and built without much controversy? Consider factors like community activism, environmental justice awareness, and the availability of alternative energy solutions, as described in the HuffPost article. How did the local community's resistance and the presence of environmental justice groups influence the outcome?

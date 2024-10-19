@@ -48,6 +48,9 @@ website:
       - text: &nbsp;
       - text: <font size ="5" ><b>- Homework </b></font><font size ="5" color="#194493">{{< fa solid level-up >}}</font>
         href: listing-econ-341-hw.qmd
+      - text: &nbsp;
+      - text: <font size ="5" ><b>- Research </b></font><font size ="5" color="#194493">{{< fa solid brain >}}</font>
+        href: listing-econ-341-rw.qmd
       # - text: &nbsp;
       # - text: <font size ="5" ><b>- Class Notes </b></font><font size ="5" color="#194493">{{< fa solid pencil >}}</font>
       #   href: listing-econ-341-class.qmd

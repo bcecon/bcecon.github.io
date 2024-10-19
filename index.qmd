@@ -45,6 +45,16 @@ listing:
     sort-ui: false
     filter-ui: false
     page-size: 36
+  - id: econ-341-rw
+    contents: "econ-rw/econ-341*.qmd"
+    type: table
+    fields: [title, date]
+    sort: 
+      - "title desc"
+      - "date desc"
+    sort-ui: false
+    filter-ui: false
+    page-size: 36
     
 format: 
   html:
@@ -114,6 +124,11 @@ format:
 ## $\bullet\,$ Homework  :computer:
 
 :::{#econ-341-hw}
+:::
+
+## $\bullet\,$ Research  :earth_americas:
+
+:::{#econ-341-rw}
 :::
 
 :::

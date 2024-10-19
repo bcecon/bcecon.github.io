@@ -148,6 +148,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-econ-341-rw .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-econ-341-rw'] = new List('listing-econ-341-rw', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 <style>
 #toc-welcome {
@@ -264,6 +292,12 @@ border-radius: 5px; /* Rounds the corners */
  <span class="menu-text"><font size="5"><b>- Homework </b></font><font size="5" color="#194493"><i class="fa-solid fa-level-up" aria-label="level-up"></i></font></span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./listing-econ-341-rw.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><font size="5"><b>- Research </b></font><font size="5" color="#194493"><i class="fa-solid fa-brain" aria-label="brain"></i></font></span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -322,7 +356,7 @@ Date
 <tbody class="list">
 <tr data-index="0" data-listing-date-sort="1729224000000" data-listing-file-modified-sort="1729261594495" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-title-sort="Lecture 18" data-listing-filename-sort="econ-341-lec-18-2024-1018.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-341-lec-18-2024-1018.html'); return false;"" class="title listing-title">Lecture 18</a>
+<a href="./econ-lec/econ-341-lec-18-2024-1018.html" class="title listing-title">Lecture 18</a>
 </td>
 <td>
 <span class="listing-date">October 18, 2024</span>
@@ -330,7 +364,7 @@ Date
 </tr>
 <tr data-index="1" data-listing-date-sort="1729051200000" data-listing-file-modified-sort="1729202363321" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-title-sort="Lecture 17" data-listing-filename-sort="econ-341-lec-17-2024-1016.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-341-lec-17-2024-1016.html'); return false;"" class="title listing-title">Lecture 17</a>
+<a href="./econ-lec/econ-341-lec-17-2024-1016.html" class="title listing-title">Lecture 17</a>
 </td>
 <td>
 <span class="listing-date">October 16, 2024</span>
@@ -338,7 +372,7 @@ Date
 </tr>
 <tr data-index="2" data-listing-date-sort="1728014400000" data-listing-file-modified-sort="1728025763211" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-title-sort="Lecture 16" data-listing-filename-sort="econ-341-lec-16-2024-1004.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-341-lec-16-2024-1004.html'); return false;"" class="title listing-title">Lecture 16</a>
+<a href="./econ-lec/econ-341-lec-16-2024-1004.html" class="title listing-title">Lecture 16</a>
 </td>
 <td>
 <span class="listing-date">October 4, 2024</span>
@@ -346,7 +380,7 @@ Date
 </tr>
 <tr data-index="3" data-listing-date-sort="1727841600000" data-listing-file-modified-sort="1727883566370" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-title-sort="Lecture 15" data-listing-filename-sort="econ-341-lec-15-2024-1002.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-341-lec-15-2024-1002.html'); return false;"" class="title listing-title">Lecture 15</a>
+<a href="./econ-lec/econ-341-lec-15-2024-1002.html" class="title listing-title">Lecture 15</a>
 </td>
 <td>
 <span class="listing-date">October 2, 2024</span>
@@ -354,7 +388,7 @@ Date
 </tr>
 <tr data-index="4" data-listing-date-sort="1727668800000" data-listing-file-modified-sort="1727721151569" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-title-sort="Lecture 14" data-listing-filename-sort="econ-341-lec-14-2024-0930.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-341-lec-14-2024-0930.html'); return false;"" class="title listing-title">Lecture 14</a>
+<a href="./econ-lec/econ-341-lec-14-2024-0930.html" class="title listing-title">Lecture 14</a>
 </td>
 <td>
 <span class="listing-date">September 30, 2024</span>
@@ -362,7 +396,7 @@ Date
 </tr>
 <tr data-index="5" data-listing-date-sort="1727409600000" data-listing-file-modified-sort="1727678934658" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-title-sort="Lecture 13" data-listing-filename-sort="econ-341-lec-13-2024-0927.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-341-lec-13-2024-0927.html'); return false;"" class="title listing-title">Lecture 13</a>
+<a href="./econ-lec/econ-341-lec-13-2024-0927.html" class="title listing-title">Lecture 13</a>
 </td>
 <td>
 <span class="listing-date">September 27, 2024</span>
@@ -370,7 +404,7 @@ Date
 </tr>
 <tr data-index="6" data-listing-date-sort="1727236800000" data-listing-file-modified-sort="1727399041817" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-title-sort="Lecture 12" data-listing-filename-sort="econ-341-lec-12-2024-0925.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-341-lec-12-2024-0925.html'); return false;"" class="title listing-title">Lecture 12</a>
+<a href="./econ-lec/econ-341-lec-12-2024-0925.html" class="title listing-title">Lecture 12</a>
 </td>
 <td>
 <span class="listing-date">September 25, 2024</span>
@@ -378,7 +412,7 @@ Date
 </tr>
 <tr data-index="7" data-listing-date-sort="1726804800000" data-listing-file-modified-sort="1726983165778" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-title-sort="Lecture 11" data-listing-filename-sort="econ-341-lec-11-2024-0920.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-341-lec-11-2024-0920.html'); return false;"" class="title listing-title">Lecture 11</a>
+<a href="./econ-lec/econ-341-lec-11-2024-0920.html" class="title listing-title">Lecture 11</a>
 </td>
 <td>
 <span class="listing-date">September 20, 2024</span>
@@ -386,7 +420,7 @@ Date
 </tr>
 <tr data-index="8" data-listing-date-sort="1726632000000" data-listing-file-modified-sort="1726633289992" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-title-sort="Lecture 10" data-listing-filename-sort="econ-341-lec-10-2024-0918.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-341-lec-10-2024-0918.html'); return false;"" class="title listing-title">Lecture 10</a>
+<a href="./econ-lec/econ-341-lec-10-2024-0918.html" class="title listing-title">Lecture 10</a>
 </td>
 <td>
 <span class="listing-date">September 18, 2024</span>
@@ -394,7 +428,7 @@ Date
 </tr>
 <tr data-index="9" data-listing-date-sort="1726459200000" data-listing-file-modified-sort="1726629321344" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-title-sort="Lecture 9" data-listing-filename-sort="econ-341-lec-09-2024-0916.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-341-lec-09-2024-0916.html'); return false;"" class="title listing-title">Lecture 9</a>
+<a href="./econ-lec/econ-341-lec-09-2024-0916.html" class="title listing-title">Lecture 9</a>
 </td>
 <td>
 <span class="listing-date">September 16, 2024</span>
@@ -402,7 +436,7 @@ Date
 </tr>
 <tr data-index="10" data-listing-date-sort="1726200000000" data-listing-file-modified-sort="1726241984622" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-title-sort="Lecture 8" data-listing-filename-sort="econ-341-lec-08-2024-0913.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-341-lec-08-2024-0913.html'); return false;"" class="title listing-title">Lecture 8</a>
+<a href="./econ-lec/econ-341-lec-08-2024-0913.html" class="title listing-title">Lecture 8</a>
 </td>
 <td>
 <span class="listing-date">September 13, 2024</span>
@@ -410,7 +444,7 @@ Date
 </tr>
 <tr data-index="11" data-listing-date-sort="1726027200000" data-listing-file-modified-sort="1726024171441" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-title-sort="Lecture 7" data-listing-filename-sort="econ-341-lec-07-2024-0911.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-341-lec-07-2024-0911.html'); return false;"" class="title listing-title">Lecture 7</a>
+<a href="./econ-lec/econ-341-lec-07-2024-0911.html" class="title listing-title">Lecture 7</a>
 </td>
 <td>
 <span class="listing-date">September 11, 2024</span>
@@ -418,7 +452,7 @@ Date
 </tr>
 <tr data-index="12" data-listing-date-sort="1725854400000" data-listing-file-modified-sort="1725901055280" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-title-sort="Lecture 6" data-listing-filename-sort="econ-341-lec-06-2024-0909.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-341-lec-06-2024-0909.html'); return false;"" class="title listing-title">Lecture 6</a>
+<a href="./econ-lec/econ-341-lec-06-2024-0909.html" class="title listing-title">Lecture 6</a>
 </td>
 <td>
 <span class="listing-date">September 9, 2024</span>
@@ -426,7 +460,7 @@ Date
 </tr>
 <tr data-index="13" data-listing-date-sort="1725595200000" data-listing-file-modified-sort="1725778063761" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-title-sort="Lecture 5" data-listing-filename-sort="econ-341-lec-05-2024-0906.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-341-lec-05-2024-0906.html'); return false;"" class="title listing-title">Lecture 5</a>
+<a href="./econ-lec/econ-341-lec-05-2024-0906.html" class="title listing-title">Lecture 5</a>
 </td>
 <td>
 <span class="listing-date">September 6, 2024</span>
@@ -434,7 +468,7 @@ Date
 </tr>
 <tr data-index="14" data-listing-date-sort="1725422400000" data-listing-file-modified-sort="1725515615777" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-title-sort="Lecture 4" data-listing-filename-sort="econ-341-lec-04-2024-0904.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-341-lec-04-2024-0904.html'); return false;"" class="title listing-title">Lecture 4</a>
+<a href="./econ-lec/econ-341-lec-04-2024-0904.html" class="title listing-title">Lecture 4</a>
 </td>
 <td>
 <span class="listing-date">September 4, 2024</span>
@@ -442,7 +476,7 @@ Date
 </tr>
 <tr data-index="15" data-listing-date-sort="1724817600000" data-listing-file-modified-sort="1725459953277" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-title-sort="Lecture 3" data-listing-filename-sort="econ-341-lec-03-2024-0830.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-341-lec-03-2024-0830.html'); return false;"" class="title listing-title">Lecture 3</a>
+<a href="./econ-lec/econ-341-lec-03-2024-0830.html" class="title listing-title">Lecture 3</a>
 </td>
 <td>
 <span class="listing-date">August 28, 2024</span>
@@ -450,7 +484,7 @@ Date
 </tr>
 <tr data-index="16" data-listing-date-sort="1724817600000" data-listing-file-modified-sort="1724867919851" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-title-sort="Lecture 2" data-listing-filename-sort="econ-341-lec-02-2024-0828.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-341-lec-02-2024-0828.html'); return false;"" class="title listing-title">Lecture 2</a>
+<a href="./econ-lec/econ-341-lec-02-2024-0828.html" class="title listing-title">Lecture 2</a>
 </td>
 <td>
 <span class="listing-date">August 28, 2024</span>
@@ -458,7 +492,7 @@ Date
 </tr>
 <tr data-index="17" data-listing-date-sort="1724644800000" data-listing-file-modified-sort="1724823083899" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16" data-listing-title-sort="Lecture 1" data-listing-filename-sort="econ-341-lec-01-2024-0826.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-341-lec-01-2024-0826.html'); return false;"" class="title listing-title">Lecture 1</a>
+<a href="./econ-lec/econ-341-lec-01-2024-0826.html" class="title listing-title">Lecture 1</a>
 </td>
 <td>
 <span class="listing-date">August 26, 2024</span>
@@ -491,15 +525,7 @@ Date
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="1729223046000" data-listing-file-modified-sort="1729223046619" data-listing-date-modified-sort="1729223046000" data-listing-reading-time-sort="12" data-listing-title-sort="Term Paper" data-listing-filename-sort="econ-341-cw-05.qmd">
-<td>
-<a href="./econ-cw/econ-341-cw-05.html" class="title listing-title">Term Paper</a>
-</td>
-<td>
-<span class="listing-date">October 17, 2024</span>
-</td>
-</tr>
-<tr data-index="1" data-listing-date-sort="1728356272000" data-listing-file-modified-sort="1728356272786" data-listing-date-modified-sort="1728356272000" data-listing-reading-time-sort="20" data-listing-title-sort="Quiz 1" data-listing-filename-sort="econ-341-cw-04.qmd">
+<tr data-index="0" data-listing-date-sort="1728356272000" data-listing-file-modified-sort="1728356272786" data-listing-date-modified-sort="1728356272000" data-listing-reading-time-sort="20" data-listing-title-sort="Quiz 1" data-listing-filename-sort="econ-341-cw-04.qmd">
 <td>
 <a href="./econ-cw/econ-341-cw-04.html" class="title listing-title">Quiz 1</a>
 </td>
@@ -507,7 +533,7 @@ Date
 <span class="listing-date">October 7, 2024</span>
 </td>
 </tr>
-<tr data-index="2" data-listing-date-sort="1728349316000" data-listing-file-modified-sort="1728349316147" data-listing-date-modified-sort="1728349316000" data-listing-reading-time-sort="11" data-listing-title-sort="Public Goods" data-listing-filename-sort="econ-341-cw-03.qmd">
+<tr data-index="1" data-listing-date-sort="1728349316000" data-listing-file-modified-sort="1728349316147" data-listing-date-modified-sort="1728349316000" data-listing-reading-time-sort="11" data-listing-title-sort="Public Goods" data-listing-filename-sort="econ-341-cw-03.qmd">
 <td>
 <a href="./econ-cw/econ-341-cw-03.html" class="title listing-title">Public Goods</a>
 </td>
@@ -515,7 +541,7 @@ Date
 <span class="listing-date">October 7, 2024</span>
 </td>
 </tr>
-<tr data-index="3" data-listing-date-sort="1728349305000" data-listing-file-modified-sort="1728349305349" data-listing-date-modified-sort="1728349305000" data-listing-reading-time-sort="3" data-listing-title-sort="Utility Maximization" data-listing-filename-sort="econ-341-cw-02.qmd">
+<tr data-index="2" data-listing-date-sort="1728349305000" data-listing-file-modified-sort="1728349305349" data-listing-date-modified-sort="1728349305000" data-listing-reading-time-sort="3" data-listing-title-sort="Utility Maximization" data-listing-filename-sort="econ-341-cw-02.qmd">
 <td>
 <a href="./econ-cw/econ-341-cw-02.html" class="title listing-title">Utility Maximization</a>
 </td>
@@ -523,7 +549,7 @@ Date
 <span class="listing-date">October 7, 2024</span>
 </td>
 </tr>
-<tr data-index="4" data-listing-date-sort="1725422400000" data-listing-file-modified-sort="1728349293964" data-listing-date-modified-sort="1728349293000" data-listing-reading-time-sort="2" data-listing-title-sort="Externalities" data-listing-filename-sort="econ-341-cw-01.qmd">
+<tr data-index="3" data-listing-date-sort="1725422400000" data-listing-file-modified-sort="1728349293964" data-listing-date-modified-sort="1728349293000" data-listing-reading-time-sort="2" data-listing-title-sort="Externalities" data-listing-filename-sort="econ-341-cw-01.qmd">
 <td>
 <a href="./econ-cw/econ-341-cw-01.html" class="title listing-title">Externalities</a>
 </td>
@@ -585,6 +611,94 @@ Date
 </td>
 <td>
 <span class="listing-date">September 16, 2024</span>
+</td>
+</tr>
+</tbody>
+
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="bullet-research" class="level2">
+<h2 class="anchored" data-anchor-id="bullet-research"><span class="math inline">\(\bullet\,\)</span> Research <span class="emoji" data-emoji="earth_americas">🌎</span></h2>
+<div id="listing-econ-341-rw" class="quarto-listing quarto-listing-container-table">
+
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Title
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-date-sort="1729362135000" data-listing-file-modified-sort="1729362135106" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-title-sort="Topic 7 - Food Bank Market" data-listing-filename-sort="econ-341-rw-07.qmd">
+<td>
+<a href="./econ-rw/econ-341-rw-07.html" class="title listing-title">Topic 7 - Food Bank Market</a>
+</td>
+<td>
+<span class="listing-date">October 19, 2024</span>
+</td>
+</tr>
+<tr data-index="1" data-listing-date-sort="1729367433000" data-listing-file-modified-sort="1729367433137" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-title-sort="Topic 6 - Green New Deal" data-listing-filename-sort="econ-341-rw-06.qmd">
+<td>
+<a href="./econ-rw/econ-341-rw-06.html" class="title listing-title">Topic 6 - Green New Deal</a>
+</td>
+<td>
+<span class="listing-date">October 19, 2024</span>
+</td>
+</tr>
+<tr data-index="2" data-listing-date-sort="1729361984000" data-listing-file-modified-sort="1729361984498" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-title-sort="Topic 5 - Carbon Taxes in Washington State" data-listing-filename-sort="econ-341-rw-05.qmd">
+<td>
+<a href="./econ-rw/econ-341-rw-05.html" class="title listing-title">Topic 5 - Carbon Taxes in Washington State</a>
+</td>
+<td>
+<span class="listing-date">October 19, 2024</span>
+</td>
+</tr>
+<tr data-index="3" data-listing-date-sort="1729361872000" data-listing-file-modified-sort="1729361872658" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-title-sort="Topic 4 - High Seas Fisheries" data-listing-filename-sort="econ-341-rw-04.qmd">
+<td>
+<a href="./econ-rw/econ-341-rw-04.html" class="title listing-title">Topic 4 - High Seas Fisheries</a>
+</td>
+<td>
+<span class="listing-date">October 19, 2024</span>
+</td>
+</tr>
+<tr data-index="4" data-listing-date-sort="1729362933000" data-listing-file-modified-sort="1729362933612" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-title-sort="Topic 3 - Yasuni-ITT Project" data-listing-filename-sort="econ-341-rw-03.qmd">
+<td>
+<a href="./econ-rw/econ-341-rw-03.html" class="title listing-title">Topic 3 - Yasuni-ITT Project</a>
+</td>
+<td>
+<span class="listing-date">October 19, 2024</span>
+</td>
+</tr>
+<tr data-index="5" data-listing-date-sort="1729362891000" data-listing-file-modified-sort="1729362891026" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-title-sort="Topic 2 - Puente Power Plant" data-listing-filename-sort="econ-341-rw-02.qmd">
+<td>
+<a href="./econ-rw/econ-341-rw-02.html" class="title listing-title">Topic 2 - Puente Power Plant</a>
+</td>
+<td>
+<span class="listing-date">October 19, 2024</span>
+</td>
+</tr>
+<tr data-index="6" data-listing-date-sort="1729361890000" data-listing-file-modified-sort="1729361890643" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-title-sort="Topic 1 - Water Policy Analysis" data-listing-filename-sort="econ-341-rw-01.qmd">
+<td>
+<a href="./econ-rw/econ-341-rw-01.html" class="title listing-title">Topic 1 - Water Policy Analysis</a>
+</td>
+<td>
+<span class="listing-date">October 19, 2024</span>
+</td>
+</tr>
+<tr data-index="7" data-listing-date-sort="1729353318000" data-listing-file-modified-sort="1729353318494" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-title-sort="Term Paper Guideline" data-listing-filename-sort="econ-341-rw-00.qmd">
+<td>
+<a href="./econ-rw/econ-341-rw-00.html" class="title listing-title">Term Paper Guideline</a>
+</td>
+<td>
+<span class="listing-date">October 19, 2024</span>
 </td>
 </tr>
 </tbody>

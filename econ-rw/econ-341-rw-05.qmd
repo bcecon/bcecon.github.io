@@ -1,0 +1,88 @@
+---
+title: "Topic 5 - Carbon Taxes in Washington State"
+# subtitle: Research 1
+date: last-modified
+code-fold: true
+execute: 
+  echo: false
+  warning: false
+  message: false
+from: markdown+emoji
+---
+```{r}
+#| include: false
+#| eval: true
+
+library(knitr)
+library(rmarkdown)
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+library(grid)
+
+theme_set(theme_minimal() +
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = element_text(size = rel(1), hjust = 1 ),
+                axis.title.y = element_text(size = rel(1), 
+                                            angle = 0,
+                                            margin = margin(0,10,0,0)))
+          )
+
+```
+
+
+# Challenges and Opportunities in Carbon Tax Policy
+
+Imagine you are a policymaker tasked with analyzing carbon tax initiatives in Washington State, specifically I-732 and I-1631. You are concerned with understanding the broader implications of carbon tax policies, including their potential impacts, equity concerns, and the strategies used to garner support. Below are key questions to guide your analysis and reporting. Refer to the provided article and podcast links for the context and insights.
+
+- [_Planet Money, NPR_, "The One-Page Plan To Fix Global Warming ... Revisited"](https://www.npr.org/sections/money/2018/07/18/630267782/episode-472-the-one-page-plan-to-fix-global-warming-revisited)
+- [_Vox_, "Washington I-1631 results: price on carbon emissions fails to pass, David Roberts"](https://bcecon.github.io/econ-rw/5-app-vox-2018-carbon-tax-dc.pdf)
+
+<br>
+
+## 1. Carbon Tax vs. Fuel Economy Standards
+
+### How Might a Carbon Tax Reduce Emissions Differently?
+- Based on the Planet Money podcast, what are two ways in which a tax on the carbon in gasoline might reduce John Reilly's transportation emissions, that tighter fuel economy standards for cars would not?
+
+### Economic Incentives and Behavioral Changes:
+- Consider how a carbon tax creates economic incentives for individuals to change behavior. Reflect on the broader impact on both vehicle use and long-term choices compared to direct regulation like fuel economy standards.
+
+<br>
+
+## 2. Revenue-Neutral Carbon Tax and Emission Reductions
+
+### Mechanism of Emission Reductions:
+- The authors of Washington State's I-732 sought to create a revenue-neutral carbon tax in which all tax revenues are returned to Washington residents. Based on the Vox article, how can a policy that returns all tax revenues back to the people paying the tax reduce carbon emissions?
+
+### Balancing Revenue Neutrality and Incentives:
+- Reflect on how returning carbon tax revenues as rebates might still encourage emission reductions by changing cost structures for carbon-intensive activities.
+
+<br>
+
+## 3. Addressing Regressivity in Carbon Tax Policies
+
+### Strategies in I-732 vs. I-1631:
+
+a. How did the authors of I-732 try to address concerns about regressivity?
+
+b. How did the authors of I-1631 try to address this concern, as discussed in the Vox article?
+
+c. Which approach would better support low-income communities and communities of color, based on the article's discussion?
+
+### Impact of Revenue Allocation on Equity:
+- Reflect on how the allocation of carbon tax revenues impacts different social groups, and consider whether a direct rebate or targeted investment in low-income communities might be more effective.
+
+<br>
+
+## 4. Lessons for Future Carbon Tax Initiatives
+
+### Designing Effective Carbon Tax Policies:
+- What lessons can be learned from the failures of I-732 and I-1631 in Washington State to better design future carbon tax initiatives?
+
+### Building Public Support:
+- How might policymakers improve public support for carbon taxes, considering the importance of visible benefits and the framing of tax revenues?
+
+### Broader Implications for Climate Policy:
+- Consider the broader implications of these initiatives for national and global carbon pricing strategies. How can revenue allocation strategies and addressing equity concerns help build a more sustainable model for carbon taxation?
