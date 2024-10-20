@@ -37,7 +37,7 @@ theme_set(theme_minimal() +
 Imagine you are a fisheries economist working at NOAA and are preparing to negotiate a new United Nations treaty for the international management of the High Seas. Below are key questions to consider when analyzing the potential impacts of this treaty. Refer to the provided article and podcast for the context and insights.
 
 - [_Planet Money, NPR_, "The Less Deadly Catch"](https://www.npr.org/sections/money/2015/11/04/454698093/episode-661-the-less-deadly-catch)
-- [_Alastair Bland_, "Could the High Seas be Closed to Fishing?"](https://deeply.thenewhumanitarian.org/oceans/articles/2018/08/13/another-threat-to-coral-reefs-shifting-baselines-of-whats-normal)
+- [_Alastair Bland_, "Could the High Seas be Closed to Fishing?"](https://deeply.thenewhumanitarian.org/oceans/articles/2018/08/15/could-the-high-seas-be-closed-to-fishing)
 
 <br>
 
