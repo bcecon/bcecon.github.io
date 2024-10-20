@@ -37,7 +37,7 @@ theme_set(theme_minimal() +
 Imagine you are a policymaker tasked with analyzing carbon tax initiatives in Washington State, specifically I-732 and I-1631. You are concerned with understanding the broader implications of carbon tax policies, including their potential impacts, equity concerns, and the strategies used to garner support. Below are key questions to guide your analysis and reporting. Refer to the provided article and podcast links for the context and insights.
 
 - [_Planet Money, NPR_, "The One-Page Plan To Fix Global Warming ... Revisited"](https://www.npr.org/sections/money/2018/07/18/630267782/episode-472-the-one-page-plan-to-fix-global-warming-revisited)
-- [_Vox_, "Washington I-1631 results: price on carbon emissions fails to pass, David Roberts"](https://bcecon.github.io/econ-rw/5-app-vox-2018-carbon-tax-dc.pdf)
+- [_Vox_, "Washington I-1631 results: price on carbon emissions fails to pass, David Roberts"](https://bcecon.github.io/econ-rw/5-app-vox-2018-carbon-tax-dc.pdf){target="_blank"}
 
 <br>
 

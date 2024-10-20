@@ -36,7 +36,7 @@ theme_set(theme_minimal() +
 Imagine you are an advisor to the New York Association of Food Banks, which is considering adopting a market-based approach similar to Feeding America. This approach was designed to address inefficiencies and inequities in food distribution to food banks across the United States. Below are key questions to consider when evaluating this potential change. Refer to the provided article and podcast links for the context and insights.
 
 - [_NPR_, "The Free Food Market"](https://www.npr.org/sections/money/2019/09/11/565736836/episode-665-the-free-food-market)
-- [_Canice Prendergast_, "How food banks use markets to feed the poor"](https://bcecon.github.io/econ-rw/7-app-prendergast-jep-2017.pdf)
+- [_Canice Prendergast_, "How food banks use markets to feed the poor"](https://bcecon.github.io/econ-rw/7-app-prendergast-jep-2017.pdf){target="_blank"}
 
 <br>
 

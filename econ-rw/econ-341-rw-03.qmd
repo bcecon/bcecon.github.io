@@ -38,7 +38,7 @@ Imagine you are a Program Officer at the Moore Foundation, working within the An
 
 - [_Planet Money, NPR_, "Holding a Rainforest Hostage"](https://www.npr.org/sections/money/2013/08/30/217183518/episode-433-holding-a-rainforest-hostage-update)
 - [_The Guardian_, "Yasuni National Park: We want to give it as a gift to humanity"](https://www.youtube.com/watch?v=c07Z1ZexT7E)
-- [_Jayant Gandhi_, "Holding trees hostage: Ecuador's attempt to share costs of preserving the Amazon"](https://bcecon.github.io/econ-rw/3-app-gandhi-2015-yasuni.pdf)
+- [_Jayant Gandhi_, "Holding trees hostage: Ecuador's attempt to share costs of preserving the Amazon"](https://bcecon.github.io/econ-rw/3-app-gandhi-2015-yasuni.pdf){target="_blank"}
 
 <br>
 

@@ -37,7 +37,8 @@ Imagine you are a staff economist at the Environmental Defense Fund (EDF), worki
 
 Refer to the provided letter for the context.
 
-- [Coalition letter advocating for a Green New Deal](https://bcecon.github.io/econ-rw/6-app-sunrise-statement.pdf)
+- [Coalition letter advocating for a Green New Deal](https://bcecon.github.io/econ-rw/6-app-sunrise-statement.pdf){target="_blank"}
+
 <br>
 
 ## 1. Shifting to 100% Renewable Power by 2035

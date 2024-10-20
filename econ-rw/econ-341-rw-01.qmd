@@ -37,7 +37,7 @@ theme_set(theme_minimal() +
 Imagine you are an advisor to the Governor of California, who is considering mandatory increases in water flows to the California Delta. This policy would reduce the flow of water to California's Central Valley. Below are key questions to consider when analyzing the potential impacts of this policy. Refer to the provided article, podcast, and news links for the context and insights.
 
 - [_NPR_, "California's Drought Ripples Through Businesses, Then To Schools"](https://www.npr.org/2014/04/20/304173037/californias-drought-ripples-through-businesses-and-even-schools)
-- [_New York Times_, "Threatened Smelt Touches Off Battles in California's Endless Water Wars"](https://bcecon.github.io/econ-rw/1-app-nyt-2015-0215-smelt.pdf)
+- [_New York Times_, "Threatened Smelt Touches Off Battles in California's Endless Water Wars"](https://bcecon.github.io/econ-rw/1-app-nyt-2015-0215-smelt.pdf){target="_blank"}
 - [_Fox News_, "Sean Hannity Exposes the Man-Made Drought in California"](https://www.youtube.com/watch?v=Twd59PrqCNg)
 
 <br>
