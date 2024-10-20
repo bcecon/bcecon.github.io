@@ -50,8 +50,8 @@ listing:
     type: table
     fields: [title, date]
     sort: 
-      - "title desc"
-      - "date desc"
+      - "title"
+      - "date"
     sort-ui: false
     filter-ui: false
     page-size: 36
