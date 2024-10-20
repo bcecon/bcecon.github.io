@@ -1,6 +1,6 @@
 ---
 title: Term Paper Guideline
-subtitle: Research 0
+# subtitle: Research 0
 date: last-modified
 code-fold: true
 execute: 
