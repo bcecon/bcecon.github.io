@@ -37,7 +37,7 @@ theme_set(theme_minimal() +
 Imagine you are a fisheries economist working at NOAA and are preparing to negotiate a new United Nations treaty for the international management of the High Seas. Below are key questions to consider when analyzing the potential impacts of this treaty. Refer to the provided article and podcast for the context and insights.
 
 - [_Planet Money, NPR_, "The Less Deadly Catch"](https://www.npr.org/sections/money/2015/11/04/454698093/episode-661-the-less-deadly-catch)
-- [_Oceans Deeply_, "Another Threat to Coral Reefs: ‘Shifting Baselines' of What's"](https://bcecon.github.io/econ-rw/4-app-new-humanitarian-2018-high-seas.pdf){target="_blank"}
+- [_Oceans Deeply_, "Another Threat to Coral Reefs: ‘Shifting Baselines' of What's"](https://deeply.thenewhumanitarian.org/oceans/articles/2018/08/13/another-threat-to-coral-reefs-shifting-baselines-of-whats-normal)
 
 <br>
 
