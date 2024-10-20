@@ -1,0 +1,308 @@
+---
+title: Lecture 19
+subtitle: "Valuing the Environment: Methods"
+format:
+  clean-revealjs:
+    self-contained: false
+    chalkboard: true
+    incremental: true
+    code-annotations: hover
+    scrollable: false
+
+    # logo: logo-title-slide.png
+author:
+  - name: Byeong-Hak Choe
+    email: bchoe@geneseo.edu
+    affiliations: SUNY Geneseo
+date: 2024-10-21
+execute: 
+  eval: true
+  echo: false
+callout-icon: false
+
+from: markdown+emoji
+include-after-body: target-hover.html # effect.html
+
+# bibliography: refs.bib
+---
+
+
+```{r setup}
+#| include: false
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+
+
+theme_set(theme_ipsum()+
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = 
+                  element_text(angle = 0,
+                               size = rel(1.5),
+                               margin = margin(10,0,0,0)),
+                axis.title.y = 
+                  element_text(angle = 0,
+                               size = rel(1.5),
+                               margin = margin(0,10,0,0)),
+                axis.text.x = element_text(size = rel(1.5)),
+                axis.text.y = element_text(size = rel(1.5)),
+                strip.text = element_text(size = rel(1.5)),
+                legend.position = "top",
+                legend.text = element_text(size = rel(1.5)),
+                legend.title = element_text(size = rel(1.5))
+                )
+          )
+```
+
+
+# Valuing the Envrionment: Methods {background-color="#1c4982"}
+
+## Nonmarket Valuation
+### Different Methods, Different Experts, Different Data
+
+
+<div style="text-align: center; width: 75%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig4-2.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+- Each of these methods relies on different data and, many times, different experts. 
+
+- Rarely is the available time or money sufficient to apply all methods to a particular question.
+
+
+
+## What Is the Value of a Polar Bear?
+
+
+<div style="text-align: center; width: 45%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/polar-bear.jpg" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+- **Study Purpose**: The Canadian government commissioned a study in 2011 to estimate the socio-economic value of polar bears, partially to assess the impact of listing them as an at-risk species.
+
+- **Comprehensive Valuation**: The study captured both active use values (hunting, viewing, research) and passive-use values (existence and bequest).
+
+
+## What Is the Value of a Polar Bear?
+
+- **Valuation Methods**: 
+  - Used nonmarket valuation methods like travel-cost (viewing), market prices (hunting), meta-analysis, and benefit transfer for passive-use values. 
+  - Stated preference methods (contingent valuation or choice experiments) were not used due to time and budget constraints.
+
+
+
+## What Is the Value of a Polar Bear?
+
+<div style="text-align: center; width: 60%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig4-3.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+- **Direct Use Values**: Made up a small portion of the total estimated value.
+
+
+## What Is the Value of a Polar Bear?
+### Caveats
+
+- **Meat Value Substitutes**: 
+  - Polar bear meat was compared to beef and dog food, but alternative comparisons could affect results.
+- **Sport Hunting Values**: 
+  - Estimated using benefit transfer from a 1989 big game and grizzly bear hunting study, translated into 2009 dollars. 
+  - The value may be either underestimated (due to the unique nature of polar bear hunting) or overestimated (due to the charismatic image of the polar bear).
+
+## What Is the Value of a Polar Bear?
+### Caveats
+- **Passive-Use Values**: 
+  - Also estimated using benefit transfer based on a meta-analysis of species at risk. 
+  - Direct uses were excluded from the transferred value, but indirect use benefits were harder to separate, which could lead to overestimation.
+
+
+## What Is the Value of a Polar Bear?
+### Caveats
+- **Double Counting Risk**: 
+  - Scientific values were calculated separately and also included in preservation value estimates, which may lead to overestimated totals.
+  
+- **Challenges in Valuation**: 
+  - Determining the true value of polar bears is difficult, and estimates may vary significantly based on methods and assumptions used.
+
+
+## Valuing Human Life
+### Introduction
+
+- **Significance**: Estimating the value of human life is crucial for allocating resources in government programs aimed at saving lives and reducing illness.
+- **Challenge**: While life is inherently priceless, practical resource limitations necessitate economic valuation.
+
+
+
+## Economic Approach to Valuing Life
+- **Focus**: Valuing reductions in mortality risk, not life itself.
+- **Value of Reduced Mortality Risk (VSL)**:
+  - Represents an individual's **willingness to pay (WTP)** for small changes in mortality risks.
+  - Calculated as the **marginal rate of substitution** between mortality risk and money.
+  - Also known as the **Value of Statistical Life (VSL)**.
+
+
+## Q&A: Calculating VSL 1
+
+**Scenario:**  
+All else being equal, police officers receive an extra pay of $700 per year. If the excess risk of death for a police officer is 1/10,000 per year, how do you calculate the VSL based on this information?
+
+
+
+## Answer: Calculating VSL 1
+
+:::{.nonincremental}
+
+1. **Determine Total Extra Pay:**  
+   Each police officer receives an extra $700 per year.
+
+2. **Excess Risk of Death:**  
+   The excess risk of death is 1/10,000 per year.
+
+3. **Calculate VSL:**  
+$$
+   \text{VSL} = \frac{\text{Extra Pay}}{\text{Excess Risk of Death}} = \frac{\text{\$}700}{\frac{1}{10,000}} = \frac{700 \times 10,000}{\frac{1}{10,000}\times 10,000} = \text{\$}7,000,000
+$$
+**Result:**  
+The Value of Statistical Life (VSL) is **$7,000,000**.
+
+:::
+
+- This means that 10,000 police officers collectively value **the reduction of one statistical life** at $7 million per year.
+
+
+## Calculating VSL
+
+- **Example Scenario**:
+  - Policy reduces death risk from **1/100,000 to 1/150,000** for **1 million people**.
+  - Expected deaths decrease from **10 to 6.67**.
+  - If each person is willing to pay **$5**, total WTP is **$5 million**.
+- **VRMR Calculation**:
+  - VRMR = Total WTP / Expected deaths avoided.
+  - VRMR = $5 million / 3.33 ≈ **$1.5 million**.
+  - Alternatively, VRMR = Individual WTP / Change in risk.
+
+
+## Q&A: Calculating VSL 
+
+**Scenario:**  
+A safety measure is introduced in cars that decreases the probability of fatal accidents by 0.001% (or 1 in 100,000). If each individual in a population of 100,000 is willing to pay $100 for this reduction in risk, what is the Value of Statistical Life (VSL) in this scenario?
+
+
+## Is Valuing Human Life Immoral?
+### Critique of Benefit-Cost Analysis
+
+- **Moral Concerns**:
+  - Benefit-cost analysis is argued to be **immoral** by some critics.
+  - It represents a retreat from the **absolute right** of citizens to be free from pollution-induced harm.
+  - Justifying regulations that allow some pollution-induced deaths violates this right.
+
+## Is Valuing Human Life Immoral?
+### Defense of Benefit-Cost Analysis
+
+- **Necessity of Considering Benefits**:
+  - Ignoring benefits of lifesaving measures would be **immoral** due to resource scarcity.
+  - Resources should be allocated to produce the **greatest good**.
+- **Trade-offs Are Inevitable**:
+  - Eliminating all pollution is impractical and excessively costly.
+  - People routinely make trade-offs between cost and health risks (e.g., driving speed, medical expenses).
+- **Inclusivity in Decision-Making**:
+  - Imposing costs without public input is unethical.
+  - Benefit-cost analysis reflects choices people might make themselves.
+- **Conclusion**:
+  - While imperfect, benefit-cost analysis provides valuable information.
+  - Discarding it could harm those it aims to protect.
+  
+
+
+## Empirical Estimates of VSL
+- **Early Studies (Viscusi, 1996)**:
+  - Implied values between **$3 million and $7 million** (1986 dollars).
+  - Suggested standard estimate: **$5 million**.
+- **Recent Meta-Analyses (Banzhaf, 2021)**:
+  - Mean VSLs range from **$3.7 million to $12.3 million**.
+  - Central estimate: **$7 million**.
+
+
+
+## Factors Influencing VSL
+### Age Variations
+- **Inverted U-shaped relationship** between VSL and age (Viscusi, 2008).
+  - Ages 18–24: **$3.7 million**.
+  - Ages 35–44: **$9.7 million** (peak VSL).
+  - Ages 55–62: **$3.4 million**.
+
+## Factors Influencing VSL
+### Income and Regional Differences
+
+::::{.nonincremental}
+Different VSL (in $ million) across government agencies and countries
+
+:::: {.columns}
+
+::: {.column width="50%"}
+  - US EPA: **$9.38**. 
+  - US FDA: **$9.82**.
+  - US DOT & DHS: **$10.32**. 
+
+:::
+
+::: {.column width="50%"}
+  - European Union: **$1.71-3.56**. 
+  - OECD: **$2.24-4.08**.
+  - Pakistan: **$0.3 (or lower)**.
+
+:::
+::::
+
+::::
+
+- **Income Elasticity Adjustments**:
+  - Higher income elasticity over time (≥1.0) is used for lower-income countries, while lower elasticity (0.4-0.6) for U.S. agencies.
+  - Reflects that WTP as a percentage of income drops at very low incomes.
+  - What limited income is available in poorer households is reserved for basic needs.
+
+  
+  
+
+## Practical Applications of VSL
+- **Regulatory Benefits**
+  - **Mortality benefits** account for:
+    - Over **90%** of the benefits of the **Clean Air Act** (USEPA).
+    - **69%** of the benefits of the European Union **Clean Air Package**.
+
+- **Climate Change Impacts**
+  - **Heat-related deaths** attributed to climate change (~9,700/year).
+  - Influences the **social cost of carbon** by valuing mortality risks.
+
+- **Public Health Measures**
+  - VSL used to evaluate the **trade-offs** between economic activity and lives lost.
+  - Supported maintaining restrictions to **save lives** despite economic impacts.
+
+
+
+## Example: Using VSL to Inform Policy—COVID-19
+
+- **Economic Benefits of Public Health Measures**:
+  - Social distancing during COVID-19 could yield economic benefits of about **$8 trillion**.
+- **Historical Evidence**:
+  - Studies on the **1918 flu pandemic** indicate that cities with early and aggressive interventions saw better economic recovery post-pandemic.
+- **Key Insights**:
+  - **Social distancing** and public health policies can lead to both **lower mortality rates** and **improved economic outcomes**.
+  - The perceived trade-off between public health and economic activity is often **misleading**.
+
+
+## Example: Using VSL to Inform Policy—COVID-19
+- Estimated U.S. mortality costs at **$1.4 trillion** in the first half of 2020 using VSL.
+- Global mortality costs were around **$3.5 trillion** by early July 2020.
+
+- **Policy Implications**
+  - Investing in measures to reduce mortality risk during pandemics can be **economically justified**.
+  - **Benefit-cost analysis** aids in determining the **cost-effectiveness** of such policies.
+
+- While this benefit-cost analysis is useful, it requires careful interpretation considering uncertainties in the value of mortality risk reductions and the distribution of impacts across those who are advantaged and disadvantaged.
+
+

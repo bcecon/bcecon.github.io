@@ -1,5 +1,5 @@
 ---
-title: "Topic 1 - Balancing Water in California"
+title: "Topic 1 - Balancing Water Supply in California"
 # subtitle: Research 1
 date: last-modified
 code-fold: true

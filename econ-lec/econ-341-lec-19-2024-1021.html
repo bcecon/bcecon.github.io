@@ -11,8 +11,8 @@
   <meta name="generator" content="quarto-1.3.450">
 
   <meta name="author" content="Byeong-Hak Choe">
-  <meta name="dcterms.date" content="2024-10-18">
-  <title>Home - Lecture 18</title>
+  <meta name="dcterms.date" content="2024-10-21">
+  <title>Home - Lecture 19</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -328,7 +328,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Lecture 18</h1>
+  <h1 class="title">Lecture 19</h1>
   <p class="subtitle">Valuing the Environment: Methods</p>
 
 <div class="quarto-title-authors">
@@ -345,219 +345,312 @@ Byeong-Hak Choe
     </div>
 </div>
 
-  <p class="date">October 18, 2024</p>
+  <p class="date">October 21, 2024</p>
 </section>
 <section>
 <section id="valuing-the-envrionment-methods" class="title-slide slide level1 center" data-background-color="#1c4982">
 <h1>Valuing the Envrionment: Methods</h1>
 
 </section>
-<section id="revealed-preference-methods" class="slide level2">
-<h2>Revealed Preference Methods</h2>
-<h3 id="hedonic-methods-overview">Hedonic Methods Overview</h3>
-<ul>
-<li class="fragment"><strong>Hedonic Property Value Method</strong>
-<ul>
-<li class="fragment"><strong>Concept</strong>: Decomposes the price of a good into the implicit prices of its attributes.</li>
-<li class="fragment"><strong>Application in Real Estate</strong>: Housing prices are influenced by structural characteristics and environmental factors.</li>
-</ul></li>
-<li class="fragment"><strong>Hedonic Wage Method</strong>
-<ul>
-<li class="fragment"><strong>Purpose</strong>: Analyze how job characteristics, including environmental risks, affect wages.</li>
-<li class="fragment"><strong>Risk Compensation</strong>: Higher wages are paid for jobs with greater risks to attract workers.</li>
-</ul></li>
-</ul>
-</section>
-<section id="hedonic-property-value-models" class="slide level2">
-<h2>Hedonic Property Value Models</h2>
-<ul>
-<li class="fragment"><strong>Hedonic Property Value Models</strong>: Use market data, such as house prices, and break down the price into individual attributes of the house, neighborhood, and environment.
-<ul>
-<li class="fragment"><strong>House Characteristics</strong>: Includes factors like the number of bedrooms, lot size, and house features.</li>
-<li class="fragment"><strong>Neighborhood Characteristics</strong>: Crime rates, school quality, etc.</li>
-<li class="fragment"><strong>Environmental Characteristics</strong>: Air quality, nearby open space, distance to landfills, etc.</li>
-</ul></li>
-<li class="fragment">Statistical Analysis is used to estimate a price function that reveals the <strong>marginal willingness to pay (MWTP)</strong> for any attribute.
-<ul>
-<li class="fragment"><strong>MWTP for House Attributes</strong>: Can estimate the value of an additional bedroom or bathroom.</li>
-<li class="fragment"><strong>MWTP for Location</strong>: Can estimate willingness to pay to live near or far from certain factors, such as landfills.</li>
-</ul></li>
-</ul>
-</section>
-<section id="hedonic-property-value-method" class="slide level2">
-<h2>Hedonic Property Value Method</h2>
-<h3 id="example-1.-impact-of-pcb-pollution">Example 1. Impact of PCB Pollution</h3>
-<div>
-<ul>
-<li>Compare change in prices for houses sold before and after contamination became public.
-<ul>
-<li>Control for all other factors affecting home costs.</li>
-</ul></li>
-</ul>
-</div>
-<p><span class="math display">\[
-\begin{align}
-Price_{i, t} = \beta_{0} + \beta_{1}PCB_{i, t} + \mathbf{\beta}X_{i,t} + \epsilon_{i, t}
-\end{align}
-\]</span></p>
-<div>
-<ul>
-<li><span class="math inline">\(i\)</span>: House <span class="math inline">\(i\)</span></li>
-<li><span class="math inline">\(t\)</span>: Time <span class="math inline">\(t\)</span></li>
-<li><span class="math inline">\(PCB\)</span>: whether or not the house <span class="math inline">\(i\)</span> in time <span class="math inline">\(t\)</span> is known to be PCB (polychlorinated biphenyls)-contaminated</li>
-<li><span class="math inline">\(X_{i,t}\)</span>: House <span class="math inline">\(i\)</span>’s characteristics in time <span class="math inline">\(t\)</span></li>
-</ul>
-</div>
-</section>
-<section id="hedonic-property-value-method-1" class="slide level2">
-<h2>Hedonic Property Value Method</h2>
-<h3 id="example-1.-impact-of-pcb-pollution-on-property-values">Example 1. Impact of PCB Pollution on Property Values</h3>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div style="text-align: center; width: 100%; margin: auto;">
-<img src="https://bcdanl.github.io/lec_figs/bedford.png" style="width: 100%; margin-bottom: -20px;">
-<p style="font-weight: bold;">
-</p>
-</div>
-</div><div class="column" style="width:50%;">
-<ul>
-<li class="fragment">In New Bedford, MA, houses closest to the contaminated area: price declines of $9,000;
-<ul>
-<li class="fragment">In area of secondary pollution, declines of $7,000.<br>
-</li>
-<li class="fragment">Total damages to home-owners: $36 million</li>
-</ul></li>
-</ul>
-</div>
-</div>
-</section>
-<section id="hedonic-property-value-method-2" class="slide level2">
-<h2>Hedonic Property Value Method</h2>
-<h3 id="example-2.-the-visual-effect-of-wind-turbines-on-property-values">Example 2. The Visual Effect of Wind Turbines on Property Values</h3>
-<div style="text-align: center; width: 60%; margin: auto;">
-<img src="https://bcdanl.github.io/lec_figs/windmills-homes.jpg" style="width: 100%; margin-bottom: -20px;">
-<p style="font-weight: bold;">
-</p>
-</div>
-<div>
-<ul>
-<li><a href="https://www.pnas.org/doi/10.1073/pnas.2309372121">A new study published in PNAS</a> shows that U.S. house values within a wind turbine’s viewshed drop only slightly and temporarily due to disrupted views.</li>
-</ul>
-</div>
-</section>
-<section id="hedonic-property-value-method-3" class="slide level2">
-<h2>Hedonic Property Value Method</h2>
-<h3 id="example-2.-the-visual-effect-of-wind-turbines-on-property-values-1">Example 2. The Visual Effect of Wind Turbines on Property Values</h3>
-<div style="text-align: center; width: 85%; margin: auto;">
-<img src="https://bcdanl.github.io/lec_figs/pnas-wind-hedonic-map.png" style="width: 100%; margin-bottom: -20px;">
-<p style="font-weight: bold;">
-</p>
-</div>
-<div>
-<ul>
-<li>The study analyzed data from over 300 million home sales and 60,000 wind turbines in the U.S. from 1997 to 2020.</li>
-</ul>
-</div>
-</section>
-<section id="hedonic-property-value-method-4" class="slide level2">
-<h2>Hedonic Property Value Method</h2>
-<h3 id="example-2.-the-visual-effect-of-wind-turbines-on-property-values-2">Example 2. The Visual Effect of Wind Turbines on Property Values</h3>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div style="text-align: center; width: 100%; margin: auto;">
-<img src="https://bcdanl.github.io/lec_figs/pnas-wind-hedonic-result.png" style="width: 100%; margin-bottom: -20px;">
-<p style="font-weight: bold;">
-</p>
-</div>
-</div><div class="column" style="width:50%;">
-<ul>
-<li class="fragment"><p>The impact is smaller the further the turbine is from the house.</p></li>
-<li class="fragment"><p>The drop is about 1% for houses within 10 km of a turbine, with values eventually returning to their original levels.</p></li>
-<li class="fragment"><p>Houses within 2 km of a turbine could see an 8% drop in value, but very few properties are located this close.</p></li>
-</ul>
-</div>
-</div>
-</section>
-<section id="hedonic-property-value-method-5" class="slide level2">
-<h2>Hedonic Property Value Method</h2>
-<h3 id="example-2.-the-visual-effect-of-wind-turbines-on-property-values-3">Example 2. The Visual Effect of Wind Turbines on Property Values</h3>
-<ul>
-<li class="fragment">No effect was found for turbines built after 2017, possibly due to increased public acceptance.</li>
-<li class="fragment">Unlike prior research, this study also considered the visibility of wind turbines, not just proximity.</li>
-<li class="fragment">The negative effect peaks three years after installation and then dissipates as values recover.</li>
-<li class="fragment">The findings highlight growing public tolerance for wind turbines over time.</li>
-</ul>
-</section>
-<section id="revealed-preference-methods-1" class="slide level2">
-<h2>Revealed Preference Methods</h2>
-<h3 id="averting-expenditures">Averting Expenditures</h3>
-<ul>
-<li class="fragment"><strong>Averting/Avoidance Expenditures</strong>: Costs incurred to reduce damage caused by pollution through <em>defensive actions</em>.</li>
-<li class="fragment"><strong>Examples</strong>: Installing air purifiers or using bottled water due to air or water pollution.</li>
-<li class="fragment"><strong>Lower-Bound Estimate</strong>: Averting expenditures provide a minimum estimate of pollution-related damages, as people spend only up to the amount of harm avoided.</li>
-<li class="fragment"><strong>Impact on Poor Households</strong>: Poor households face greater hardship as they may not afford such coping measures.</li>
-<li class="fragment"><strong>Underestimation Risk</strong>: Ignoring averting expenditures or behavior can lead to underestimating damages. <!-- - Illustrative Example: If contaminated water causes illness in 4% of the population, but half use alternatives, illness drops to 2%, yet the avoidance costs must be included in total damage estimates. --></li>
-</ul>
-</section>
-<section id="averting-expenditures-1" class="slide level2">
-<h2>Averting Expenditures</h2>
-<h3 id="valuing-the-reliability-of-water-supplies-coping-expenditures-in-kathmandu-valley-nepal">Valuing the Reliability of Water Supplies: Coping Expenditures in Kathmandu Valley, Nepal</h3>
-<ul>
-<li class="fragment"><strong>Water Shortages in Nepal</strong>:
-<ul>
-<li class="fragment">Chronic shortages of safe drinking water affect Kathmandu Valley, where the public water supply is unreliable and contaminated.</li>
-</ul></li>
-<li class="fragment"><strong>Investment in Water Quality</strong>:
-<ul>
-<li class="fragment">Investment depends on how much the population values clean water, quantified through WTP.</li>
-</ul></li>
-<li class="fragment"><strong>Coping Mechanisms</strong>:
-<ul>
-<li class="fragment">Households cope by purchasing water, collecting from public taps, investing in wells/storage tanks, using filtration systems, or boiling water.</li>
-</ul></li>
-</ul>
-</section>
-<section id="averting-expenditures-2" class="slide level2">
-<h2>Averting Expenditures</h2>
-<h3 id="valuing-the-reliability-of-water-supplies-coping-expenditures-in-kathmandu-valley-nepal-1">Valuing the Reliability of Water Supplies: Coping Expenditures in Kathmandu Valley, Nepal</h3>
-<ul>
-<li class="fragment"><p>A survey of 1,500 households found that coping behaviors cost about 1% of monthly income, double the current water utility bills.</p></li>
-<li class="fragment"><p><strong>Coping Costs as WTP Proxy</strong>:</p>
-<ul>
-<li class="fragment">Financial and time costs of coping provide a lower-bound estimate of WTP, useful for constructing a demand curve for water provision.</li>
-</ul></li>
-<li class="fragment"><p><strong>Influence of Demographics</strong>:</p>
-<ul>
-<li class="fragment">Wealthier households had higher coping costs, investing more in water treatment and purchases.</li>
-<li class="fragment">More educated households also faced higher costs, likely due to better understanding of water contamination risks.</li>
-</ul></li>
-</ul>
-</section>
-<section id="averting-expenditures-3" class="slide level2">
-<h2>Averting Expenditures</h2>
-<h3 id="valuing-the-reliability-of-water-supplies-coping-expenditures-in-kathmandu-valley-nepal-2">Valuing the Reliability of Water Supplies: Coping Expenditures in Kathmandu Valley, Nepal</h3>
-<ul>
-<li class="fragment"><strong>Environmental Justice</strong> and <strong>Efficiency</strong>:
-<ul>
-<li class="fragment">Poorer households face greater financial and educational barriers, raising both environmental justice and efficiency concerns.</li>
-</ul></li>
-<li class="fragment"><strong>Policy Implications</strong>:
-<ul>
-<li class="fragment">Averting expenditures show that the value of water is at least twice the current per-unit charge, challenging the belief that water supply costs exceed user benefits in poor countries.</li>
-</ul></li>
-</ul>
-</section>
 <section id="nonmarket-valuation" class="slide level2">
 <h2>Nonmarket Valuation</h2>
-<h3 id="benefit-transfer-and-meta-analysis">Benefit Transfer and Meta-Analysis</h3>
+<h3 id="different-methods-different-experts-different-data">Different Methods, Different Experts, Different Data</h3>
+<div style="text-align: center; width: 75%; margin: auto;">
+<img src="https://bcdanl.github.io/lec_figs/tl-fig4-2.png" style="width: 100%; margin-bottom: -20px;">
+<p style="font-weight: bold;">
+</p>
+</div>
 <ul>
-<li class="fragment"><strong>Cost Dilemma</strong>: Contingent valuation is expensive, and not using it risks assigning a zero value to passive-use, which is not ideal.</li>
-<li class="fragment"><strong>Benefit Transfer</strong>: A cost-effective alternative to contingent valuation, allowing the use of estimates from other sites or time periods for current valuation. - <strong>Value Transfer</strong>: Directly transferring estimates, adjusted for differences.
+<li class="fragment"><p>Each of these methods relies on different data and, many times, different experts.</p></li>
+<li class="fragment"><p>Rarely is the available time or money sufficient to apply all methods to a particular question.</p></li>
+</ul>
+</section>
+<section id="what-is-the-value-of-a-polar-bear" class="slide level2">
+<h2>What Is the Value of a Polar Bear?</h2>
+<div style="text-align: center; width: 45%; margin: auto;">
+<img src="https://bcdanl.github.io/lec_figs/polar-bear.jpg" style="width: 100%; margin-bottom: -20px;">
+<p style="font-weight: bold;">
+</p>
+</div>
 <ul>
-<li class="fragment"><strong>Benefit Function Transfer</strong>: Using previously estimated benefit functions to calculate new, site-specific values.</li>
-<li class="fragment"><strong>Meta-Analysis</strong>: Statistically analyzing multiple studies to isolate determinants of value and apply them to new contexts.</li>
+<li class="fragment"><p><strong>Study Purpose</strong>: The Canadian government commissioned a study in 2011 to estimate the socio-economic value of polar bears, partially to assess the impact of listing them as an at-risk species.</p></li>
+<li class="fragment"><p><strong>Comprehensive Valuation</strong>: The study captured both active use values (hunting, viewing, research) and passive-use values (existence and bequest).</p></li>
+</ul>
+</section>
+<section id="what-is-the-value-of-a-polar-bear-1" class="slide level2">
+<h2>What Is the Value of a Polar Bear?</h2>
+<ul>
+<li class="fragment"><strong>Valuation Methods</strong>:
+<ul>
+<li class="fragment">Used nonmarket valuation methods like travel-cost (viewing), market prices (hunting), meta-analysis, and benefit transfer for passive-use values.</li>
+<li class="fragment">Stated preference methods (contingent valuation or choice experiments) were not used due to time and budget constraints.</li>
 </ul></li>
-<li class="fragment"><strong>Limitations of Benefit Transfer</strong>: Accuracy diminishes as the context (location or time) deviates from the original study, leading to potential transfer errors.</li>
+</ul>
+</section>
+<section id="what-is-the-value-of-a-polar-bear-2" class="slide level2">
+<h2>What Is the Value of a Polar Bear?</h2>
+<div style="text-align: center; width: 60%; margin: auto;">
+<img src="https://bcdanl.github.io/lec_figs/tl-fig4-3.png" style="width: 100%; margin-bottom: -20px;">
+<p style="font-weight: bold;">
+</p>
+</div>
+<ul>
+<li class="fragment"><strong>Direct Use Values</strong>: Made up a small portion of the total estimated value.</li>
+</ul>
+</section>
+<section id="what-is-the-value-of-a-polar-bear-3" class="slide level2">
+<h2>What Is the Value of a Polar Bear?</h2>
+<h3 id="caveats">Caveats</h3>
+<ul>
+<li class="fragment"><strong>Meat Value Substitutes</strong>:
+<ul>
+<li class="fragment">Polar bear meat was compared to beef and dog food, but alternative comparisons could affect results.</li>
+</ul></li>
+<li class="fragment"><strong>Sport Hunting Values</strong>:
+<ul>
+<li class="fragment">Estimated using benefit transfer from a 1989 big game and grizzly bear hunting study, translated into 2009 dollars.</li>
+<li class="fragment">The value may be either underestimated (due to the unique nature of polar bear hunting) or overestimated (due to the charismatic image of the polar bear).</li>
+</ul></li>
+</ul>
+</section>
+<section id="what-is-the-value-of-a-polar-bear-4" class="slide level2">
+<h2>What Is the Value of a Polar Bear?</h2>
+<h3 id="caveats-1">Caveats</h3>
+<ul>
+<li class="fragment"><strong>Passive-Use Values</strong>:
+<ul>
+<li class="fragment">Also estimated using benefit transfer based on a meta-analysis of species at risk.</li>
+<li class="fragment">Direct uses were excluded from the transferred value, but indirect use benefits were harder to separate, which could lead to overestimation.</li>
+</ul></li>
+</ul>
+</section>
+<section id="what-is-the-value-of-a-polar-bear-5" class="slide level2">
+<h2>What Is the Value of a Polar Bear?</h2>
+<h3 id="caveats-2">Caveats</h3>
+<ul>
+<li class="fragment"><strong>Double Counting Risk</strong>:
+<ul>
+<li class="fragment">Scientific values were calculated separately and also included in preservation value estimates, which may lead to overestimated totals.</li>
+</ul></li>
+<li class="fragment"><strong>Challenges in Valuation</strong>:
+<ul>
+<li class="fragment">Determining the true value of polar bears is difficult, and estimates may vary significantly based on methods and assumptions used.</li>
+</ul></li>
+</ul>
+</section>
+<section id="valuing-human-life" class="slide level2">
+<h2>Valuing Human Life</h2>
+<h3 id="introduction">Introduction</h3>
+<ul>
+<li class="fragment"><strong>Significance</strong>: Estimating the value of human life is crucial for allocating resources in government programs aimed at saving lives and reducing illness.</li>
+<li class="fragment"><strong>Challenge</strong>: While life is inherently priceless, practical resource limitations necessitate economic valuation.</li>
+</ul>
+</section>
+<section id="economic-approach-to-valuing-life" class="slide level2">
+<h2>Economic Approach to Valuing Life</h2>
+<ul>
+<li class="fragment"><strong>Focus</strong>: Valuing reductions in mortality risk, not life itself.</li>
+<li class="fragment"><strong>Value of Reduced Mortality Risk (VSL)</strong>:
+<ul>
+<li class="fragment">Represents an individual’s <strong>willingness to pay (WTP)</strong> for small changes in mortality risks.</li>
+<li class="fragment">Calculated as the <strong>marginal rate of substitution</strong> between mortality risk and money.</li>
+<li class="fragment">Also known as the <strong>Value of Statistical Life (VSL)</strong>.</li>
+</ul></li>
+</ul>
+</section>
+<section id="qa-calculating-vsl-1" class="slide level2">
+<h2>Q&amp;A: Calculating VSL 1</h2>
+<p><strong>Scenario:</strong><br>
+All else being equal, police officers receive an extra pay of $700 per year. If the excess risk of death for a police officer is 1/10,000 per year, how do you calculate the VSL based on this information?</p>
+</section>
+<section id="answer-calculating-vsl-1" class="slide level2">
+<h2>Answer: Calculating VSL 1</h2>
+<div>
+<ol type="1">
+<li><p><strong>Determine Total Extra Pay:</strong><br>
+Each police officer receives an extra $700 per year.</p></li>
+<li><p><strong>Excess Risk of Death:</strong><br>
+The excess risk of death is 1/10,000 per year.</p></li>
+<li><p><strong>Calculate VSL:</strong><br>
+<span class="math display">\[
+\text{VSL} = \frac{\text{Extra Pay}}{\text{Excess Risk of Death}} = \frac{\text{\$}700}{\frac{1}{10,000}} = \frac{700 \times 10,000}{\frac{1}{10,000}\times 10,000} = \text{\$}7,000,000
+\]</span> <strong>Result:</strong><br>
+The Value of Statistical Life (VSL) is <strong>$7,000,000</strong>.</p></li>
+</ol>
+</div>
+<ul>
+<li class="fragment">This means that 10,000 police officers collectively value <strong>the reduction of one statistical life</strong> at $7 million per year.</li>
+</ul>
+</section>
+<section id="calculating-vsl" class="slide level2">
+<h2>Calculating VSL</h2>
+<ul>
+<li class="fragment"><strong>Example Scenario</strong>:
+<ul>
+<li class="fragment">Policy reduces death risk from <strong>1/100,000 to 1/150,000</strong> for <strong>1 million people</strong>.</li>
+<li class="fragment">Expected deaths decrease from <strong>10 to 6.67</strong>.</li>
+<li class="fragment">If each person is willing to pay <strong>$5</strong>, total WTP is <strong>$5 million</strong>.</li>
+</ul></li>
+<li class="fragment"><strong>VRMR Calculation</strong>:
+<ul>
+<li class="fragment">VRMR = Total WTP / Expected deaths avoided.</li>
+<li class="fragment">VRMR = $5 million / 3.33 ≈ <strong>$1.5 million</strong>.</li>
+<li class="fragment">Alternatively, VRMR = Individual WTP / Change in risk.</li>
+</ul></li>
+</ul>
+</section>
+<section id="qa-calculating-vsl" class="slide level2">
+<h2>Q&amp;A: Calculating VSL</h2>
+<p><strong>Scenario:</strong><br>
+A safety measure is introduced in cars that decreases the probability of fatal accidents by 0.001% (or 1 in 100,000). If each individual in a population of 100,000 is willing to pay $100 for this reduction in risk, what is the Value of Statistical Life (VSL) in this scenario?</p>
+</section>
+<section id="is-valuing-human-life-immoral" class="slide level2">
+<h2>Is Valuing Human Life Immoral?</h2>
+<h3 id="critique-of-benefit-cost-analysis">Critique of Benefit-Cost Analysis</h3>
+<ul>
+<li class="fragment"><strong>Moral Concerns</strong>:
+<ul>
+<li class="fragment">Benefit-cost analysis is argued to be <strong>immoral</strong> by some critics.</li>
+<li class="fragment">It represents a retreat from the <strong>absolute right</strong> of citizens to be free from pollution-induced harm.</li>
+<li class="fragment">Justifying regulations that allow some pollution-induced deaths violates this right.</li>
+</ul></li>
+</ul>
+</section>
+<section id="is-valuing-human-life-immoral-1" class="slide level2">
+<h2>Is Valuing Human Life Immoral?</h2>
+<h3 id="defense-of-benefit-cost-analysis">Defense of Benefit-Cost Analysis</h3>
+<ul>
+<li class="fragment"><strong>Necessity of Considering Benefits</strong>:
+<ul>
+<li class="fragment">Ignoring benefits of lifesaving measures would be <strong>immoral</strong> due to resource scarcity.</li>
+<li class="fragment">Resources should be allocated to produce the <strong>greatest good</strong>.</li>
+</ul></li>
+<li class="fragment"><strong>Trade-offs Are Inevitable</strong>:
+<ul>
+<li class="fragment">Eliminating all pollution is impractical and excessively costly.</li>
+<li class="fragment">People routinely make trade-offs between cost and health risks (e.g., driving speed, medical expenses).</li>
+</ul></li>
+<li class="fragment"><strong>Inclusivity in Decision-Making</strong>:
+<ul>
+<li class="fragment">Imposing costs without public input is unethical.</li>
+<li class="fragment">Benefit-cost analysis reflects choices people might make themselves.</li>
+</ul></li>
+<li class="fragment"><strong>Conclusion</strong>:
+<ul>
+<li class="fragment">While imperfect, benefit-cost analysis provides valuable information.</li>
+<li class="fragment">Discarding it could harm those it aims to protect.</li>
+</ul></li>
+</ul>
+</section>
+<section id="empirical-estimates-of-vsl" class="slide level2">
+<h2>Empirical Estimates of VSL</h2>
+<ul>
+<li class="fragment"><strong>Early Studies (Viscusi, 1996)</strong>:
+<ul>
+<li class="fragment">Implied values between <strong>$3 million and $7 million</strong> (1986 dollars).</li>
+<li class="fragment">Suggested standard estimate: <strong>$5 million</strong>.</li>
+</ul></li>
+<li class="fragment"><strong>Recent Meta-Analyses (Banzhaf, 2021)</strong>:
+<ul>
+<li class="fragment">Mean VSLs range from <strong>$3.7 million to $12.3 million</strong>.</li>
+<li class="fragment">Central estimate: <strong>$7 million</strong>.</li>
+</ul></li>
+</ul>
+</section>
+<section id="factors-influencing-vsl" class="slide level2">
+<h2>Factors Influencing VSL</h2>
+<h3 id="age-variations">Age Variations</h3>
+<ul>
+<li class="fragment"><strong>Inverted U-shaped relationship</strong> between VSL and age (Viscusi, 2008).
+<ul>
+<li class="fragment">Ages 18–24: <strong>$3.7 million</strong>.</li>
+<li class="fragment">Ages 35–44: <strong>$9.7 million</strong> (peak VSL).</li>
+<li class="fragment">Ages 55–62: <strong>$3.4 million</strong>.</li>
+</ul></li>
+</ul>
+</section>
+<section id="factors-influencing-vsl-1" class="slide level2">
+<h2>Factors Influencing VSL</h2>
+<h3 id="income-and-regional-differences">Income and Regional Differences</h3>
+<div>
+<p>Different VSL (in $ million) across government agencies and countries</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>US EPA: <strong>$9.38</strong>.</li>
+<li>US FDA: <strong>$9.82</strong>.</li>
+<li>US DOT &amp; DHS: <strong>$10.32</strong>.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>European Union: <strong>$1.71-3.56</strong>.</li>
+<li>OECD: <strong>$2.24-4.08</strong>.</li>
+<li>Pakistan: <strong>$0.3 (or lower)</strong>.</li>
+</ul>
+</div>
+</div>
+</div>
+<ul>
+<li class="fragment"><strong>Income Elasticity Adjustments</strong>:
+<ul>
+<li class="fragment">Higher income elasticity over time (≥1.0) is used for lower-income countries, while lower elasticity (0.4-0.6) for U.S. agencies.</li>
+<li class="fragment">Reflects that WTP as a percentage of income drops at very low incomes.</li>
+<li class="fragment">What limited income is available in poorer households is reserved for basic needs.</li>
+</ul></li>
+</ul>
+</section>
+<section id="practical-applications-of-vsl" class="slide level2">
+<h2>Practical Applications of VSL</h2>
+<ul>
+<li class="fragment"><strong>Regulatory Benefits</strong>
+<ul>
+<li class="fragment"><strong>Mortality benefits</strong> account for:
+<ul>
+<li class="fragment">Over <strong>90%</strong> of the benefits of the <strong>Clean Air Act</strong> (USEPA).</li>
+<li class="fragment"><strong>69%</strong> of the benefits of the European Union <strong>Clean Air Package</strong>.</li>
+</ul></li>
+</ul></li>
+<li class="fragment"><strong>Climate Change Impacts</strong>
+<ul>
+<li class="fragment"><strong>Heat-related deaths</strong> attributed to climate change (~9,700/year).</li>
+<li class="fragment">Influences the <strong>social cost of carbon</strong> by valuing mortality risks.</li>
+</ul></li>
+<li class="fragment"><strong>Public Health Measures</strong>
+<ul>
+<li class="fragment">VSL used to evaluate the <strong>trade-offs</strong> between economic activity and lives lost.</li>
+<li class="fragment">Supported maintaining restrictions to <strong>save lives</strong> despite economic impacts.</li>
+</ul></li>
+</ul>
+</section>
+<section id="example-using-vsl-to-inform-policycovid-19" class="slide level2">
+<h2>Example: Using VSL to Inform Policy—COVID-19</h2>
+<ul>
+<li class="fragment"><strong>Economic Benefits of Public Health Measures</strong>:
+<ul>
+<li class="fragment">Social distancing during COVID-19 could yield economic benefits of about <strong>$8 trillion</strong>.</li>
+</ul></li>
+<li class="fragment"><strong>Historical Evidence</strong>:
+<ul>
+<li class="fragment">Studies on the <strong>1918 flu pandemic</strong> indicate that cities with early and aggressive interventions saw better economic recovery post-pandemic.</li>
+</ul></li>
+<li class="fragment"><strong>Key Insights</strong>:
+<ul>
+<li class="fragment"><strong>Social distancing</strong> and public health policies can lead to both <strong>lower mortality rates</strong> and <strong>improved economic outcomes</strong>.</li>
+<li class="fragment">The perceived trade-off between public health and economic activity is often <strong>misleading</strong>.</li>
+</ul></li>
+</ul>
+</section>
+<section id="example-using-vsl-to-inform-policycovid-19-1" class="slide level2">
+<h2>Example: Using VSL to Inform Policy—COVID-19</h2>
+<ul>
+<li class="fragment"><p>Estimated U.S. mortality costs at <strong>$1.4 trillion</strong> in the first half of 2020 using VSL.</p></li>
+<li class="fragment"><p>Global mortality costs were around <strong>$3.5 trillion</strong> by early July 2020.</p></li>
+<li class="fragment"><p><strong>Policy Implications</strong></p>
+<ul>
+<li class="fragment">Investing in measures to reduce mortality risk during pandemics can be <strong>economically justified</strong>.</li>
+<li class="fragment"><strong>Benefit-cost analysis</strong> aids in determining the <strong>cost-effectiveness</strong> of such policies.</li>
+</ul></li>
+<li class="fragment"><p>While this benefit-cost analysis is useful, it requires careful interpretation considering uncertainties in the value of mortality risk reductions and the distribution of impacts across those who are advantaged and disadvantaged.</p></li>
 </ul>
 
 <div class="footer footer-default">
