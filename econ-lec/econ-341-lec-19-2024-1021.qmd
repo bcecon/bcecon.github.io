@@ -139,7 +139,7 @@ theme_set(theme_ipsum()+
 
 ## Economic Approach to Valuing Life
 - **Focus**: Valuing reductions in mortality risk, not life itself.
-- **Value of Reduced Mortality Risk (VSL)**:
+- **Value of Reduced Mortality Risk**:
   - Represents an individual's **willingness to pay (WTP)** for small changes in mortality risks.
   - Calculated as the **marginal rate of substitution** between mortality risk and money.
   - Also known as the **Value of Statistical Life (VSL)**.
