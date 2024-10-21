@@ -180,16 +180,16 @@ The Value of Statistical Life (VSL) is **$7,000,000**.
   - Policy reduces death risk from **1/100,000 to 1/150,000** for **1 million people**.
   - Expected deaths decrease from **10 to 6.67**.
   - If each person is willing to pay **$5**, total WTP is **$5 million**.
-- **VRMR Calculation**:
-  - VRMR = Total WTP / Expected deaths avoided.
-  - VRMR = $5 million / 3.33 ≈ **$1.5 million**.
-  - Alternatively, VRMR = Individual WTP / Change in risk.
+- **VSL Calculation**:
+  - VSL = Total WTP / Expected deaths avoided.
+  - VSL = $5 million / 3.33 ≈ **$1.5 million**.
+  - Alternatively, VSL = Individual WTP / Change in risk.
 
 
 ## Q&A: Calculating VSL 
 
 **Scenario:**  
-A safety measure is introduced in cars that decreases the probability of fatal accidents by 0.001% (or 1 in 100,000). If each individual in a population of 100,000 is willing to pay $100 for this reduction in risk, what is the Value of Statistical Life (VSL) in this scenario?
+A safety measure is introduced in cars that decreases the probability of fatal accidents by 0.001% (or 1 in 100,000). If each individual in a population of 100,000 is willing to pay $100 for this reduction in risk, what is the VSL in this scenario?
 
 
 ## Is Valuing Human Life Immoral?

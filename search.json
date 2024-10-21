@@ -2993,14 +2993,14 @@
     "href": "econ-lec/econ-341-lec-19-2024-1021.html#calculating-vsl",
     "title": "Lecture 19",
     "section": "Calculating VSL",
-    "text": "Calculating VSL\n\nExample Scenario:\n\nPolicy reduces death risk from 1/100,000 to 1/150,000 for 1 million people.\nExpected deaths decrease from 10 to 6.67.\nIf each person is willing to pay $5, total WTP is $5 million.\n\nVRMR Calculation:\n\nVRMR = Total WTP / Expected deaths avoided.\nVRMR = $5 million / 3.33 ≈ $1.5 million.\nAlternatively, VRMR = Individual WTP / Change in risk."
+    "text": "Calculating VSL\n\nExample Scenario:\n\nPolicy reduces death risk from 1/100,000 to 1/150,000 for 1 million people.\nExpected deaths decrease from 10 to 6.67.\nIf each person is willing to pay $5, total WTP is $5 million.\n\nVSL Calculation:\n\nVSL = Total WTP / Expected deaths avoided.\nVSL = $5 million / 3.33 ≈ $1.5 million.\nAlternatively, VSL = Individual WTP / Change in risk."
   },
   {
     "objectID": "econ-lec/econ-341-lec-19-2024-1021.html#qa-calculating-vsl",
     "href": "econ-lec/econ-341-lec-19-2024-1021.html#qa-calculating-vsl",
     "title": "Lecture 19",
     "section": "Q&A: Calculating VSL",
-    "text": "Q&A: Calculating VSL\nScenario:\nA safety measure is introduced in cars that decreases the probability of fatal accidents by 0.001% (or 1 in 100,000). If each individual in a population of 100,000 is willing to pay $100 for this reduction in risk, what is the Value of Statistical Life (VSL) in this scenario?"
+    "text": "Q&A: Calculating VSL\nScenario:\nA safety measure is introduced in cars that decreases the probability of fatal accidents by 0.001% (or 1 in 100,000). If each individual in a population of 100,000 is willing to pay $100 for this reduction in risk, what is the VSL in this scenario?"
   },
   {
     "objectID": "econ-lec/econ-341-lec-19-2024-1021.html#is-valuing-human-life-immoral",
