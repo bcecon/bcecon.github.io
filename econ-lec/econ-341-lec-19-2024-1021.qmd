@@ -133,7 +133,7 @@ theme_set(theme_ipsum()+
 ### Introduction
 
 - **Significance**: Estimating the value of human life is crucial for allocating resources in government programs aimed at saving lives and reducing illness.
-- **Challenge**: While life is inherently priceless, practical resource limitations necessitate economic valuation.
+- **Challenge**: Life is inherently priceless. However, the resources used to prevent loss of life are scarce, choices must be made.
 
 
 

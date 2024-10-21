@@ -5,7 +5,7 @@ listing:
   contents: "econ-lec/*.qmd"
   type: table
   fields: [title, date]
-  sort: "title desc"
+  sort: "date"
   sort-ui: false
   page-size: 36
 
