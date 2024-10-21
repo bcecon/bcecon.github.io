@@ -145,14 +145,14 @@ theme_set(theme_ipsum()+
   - Also known as the **Value of Statistical Life (VSL)**.
 
 
-## Q&A: Calculating VSL 1
+## Q&A: Calculating VSL
 
 **Scenario:**  
 All else being equal, police officers receive an extra pay of $700 per year. If the excess risk of death for a police officer is 1/10,000 per year, how do you calculate the VSL based on this information?
 
 
 
-## Answer: Calculating VSL 1
+## Answer: Calculating VSL
 
 :::{.nonincremental}
 

@@ -2971,8 +2971,8 @@
     "objectID": "econ-lec/econ-341-lec-19-2024-1021.html#qa-calculating-vsl-1",
     "href": "econ-lec/econ-341-lec-19-2024-1021.html#qa-calculating-vsl-1",
     "title": "Lecture 19",
-    "section": "Q&A: Calculating VSL 1",
-    "text": "Q&A: Calculating VSL 1\nScenario:\nAll else being equal, police officers receive an extra pay of $700 per year. If the excess risk of death for a police officer is 1/10,000 per year, how do you calculate the VSL based on this information?"
+    "section": "Q&A: Calculating VSL",
+    "text": "Q&A: Calculating VSL\nScenario:\nA safety measure is introduced in cars that decreases the probability of fatal accidents by 0.001% (or 1 in 100,000). If each individual in a population of 100,000 is willing to pay $100 for this reduction in risk, what is the VSL in this scenario?"
   },
   {
     "objectID": "econ-lec/econ-341-lec-19-2024-1021.html#answer-calculating-vsl-1",
@@ -3000,7 +3000,7 @@
     "href": "econ-lec/econ-341-lec-19-2024-1021.html#qa-calculating-vsl",
     "title": "Lecture 19",
     "section": "Q&A: Calculating VSL",
-    "text": "Q&A: Calculating VSL\nScenario:\nA safety measure is introduced in cars that decreases the probability of fatal accidents by 0.001% (or 1 in 100,000). If each individual in a population of 100,000 is willing to pay $100 for this reduction in risk, what is the VSL in this scenario?"
+    "text": "Q&A: Calculating VSL\nScenario:\nAll else being equal, police officers receive an extra pay of $700 per year. If the excess risk of death for a police officer is 1/10,000 per year, how do you calculate the VSL based on this information?"
   },
   {
     "objectID": "econ-lec/econ-341-lec-19-2024-1021.html#is-valuing-human-life-immoral",
@@ -3015,5 +3015,12 @@
     "title": "Lecture 19",
     "section": "Is Valuing Human Life Immoral?",
     "text": "Is Valuing Human Life Immoral?\nDefense of Benefit-Cost Analysis\n\nNecessity of Considering Benefits:\n\nIgnoring benefits of lifesaving measures would be immoral due to resource scarcity.\nResources should be allocated to produce the greatest good.\n\nTrade-offs Are Inevitable:\n\nEliminating all pollution is impractical and excessively costly.\nPeople routinely make trade-offs between cost and health risks (e.g., driving speed, medical expenses).\n\nInclusivity in Decision-Making:\n\nImposing costs without public input is unethical.\nBenefit-cost analysis reflects choices people might make themselves.\n\nConclusion:\n\nWhile imperfect, benefit-cost analysis provides valuable information.\nDiscarding it could harm those it aims to protect."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-19-2024-1021.html#answer-calculating-vsl",
+    "href": "econ-lec/econ-341-lec-19-2024-1021.html#answer-calculating-vsl",
+    "title": "Lecture 19",
+    "section": "Answer: Calculating VSL",
+    "text": "Answer: Calculating VSL\n\n\nDetermine Total Extra Pay:\nEach police officer receives an extra $700 per year.\nExcess Risk of Death:\nThe excess risk of death is 1/10,000 per year.\nCalculate VSL:\n\\[\n\\text{VSL} = \\frac{\\text{Extra Pay}}{\\text{Excess Risk of Death}} = \\frac{\\text{\\$}700}{\\frac{1}{10,000}} = \\frac{700 \\times 10,000}{\\frac{1}{10,000}\\times 10,000} = \\text{\\$}7,000,000\n\\] Result:\nThe Value of Statistical Life (VSL) is $7,000,000.\n\n\n\nThis means that 10,000 police officers collectively value the reduction of one statistical life at $7 million per year."
   }
 ]
