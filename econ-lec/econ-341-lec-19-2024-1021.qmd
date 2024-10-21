@@ -306,3 +306,24 @@ Different VSL (in $ million) across government agencies and countries
 - While this benefit-cost analysis is useful, it requires careful interpretation considering uncertainties in the value of mortality risk reductions and the distribution of impacts across those who are advantaged and disadvantaged.
 
 
+
+## Example: Using VSL to Measure the Social Costs of Keystone Species Collapse, Vulture in India
+
+
+- Vultures are considered a “keystone species” critical to their surrounding habitat because, as highly-efficient scavengers, they play an important sanitation role. 
+
+- Farmers have long relied on them to remove the rotting bodies of dead livestock. 
+
+- But vultures in India came close to extinction in the mid-1990s after an anti-inflammatory drug (diclofenac) used to treat cattle poisoned and killed the birds. 
+
+
+
+## Example: Using VSL to Measure the Social Costs of Keystone Species Collapse, Vulture in India
+
+
+<div style="text-align: center; width: 73%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/vulture.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+- **Results**: Between 2000 and 2005 the loss of vultures caused about 100,000 additional human deaths each year, resulting in $69.4 billion per year in mortality damages. 

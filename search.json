@@ -3022,5 +3022,19 @@
     "title": "Lecture 19",
     "section": "Answer: Calculating VSL",
     "text": "Answer: Calculating VSL\n\n\nDetermine Total Extra Pay:\nEach police officer receives an extra $700 per year.\nExcess Risk of Death:\nThe excess risk of death is 1/10,000 per year.\nCalculate VSL:\n\\[\n\\text{VSL} = \\frac{\\text{Extra Pay}}{\\text{Excess Risk of Death}} = \\frac{\\text{\\$}700}{\\frac{1}{10,000}} = \\frac{700 \\times 10,000}{\\frac{1}{10,000}\\times 10,000} = \\text{\\$}7,000,000\n\\] Result:\nThe Value of Statistical Life (VSL) is $7,000,000.\n\n\n\nThis means that 10,000 police officers collectively value the reduction of one statistical life at $7 million per year."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-19-2024-1021.html#example-using-vsl-to-measure-the-social-costs-of-keystone-species-collapse-vulture-in-india",
+    "href": "econ-lec/econ-341-lec-19-2024-1021.html#example-using-vsl-to-measure-the-social-costs-of-keystone-species-collapse-vulture-in-india",
+    "title": "Lecture 19",
+    "section": "Example: Using VSL to Measure the Social Costs of Keystone Species Collapse, Vulture in India",
+    "text": "Example: Using VSL to Measure the Social Costs of Keystone Species Collapse, Vulture in India\n\nVultures are considered a “keystone species” critical to their surrounding habitat because, as highly-efficient scavengers, they play an important sanitation role.\nFarmers have long relied on them to remove the rotting bodies of dead livestock.\nBut vultures in India came close to extinction in the mid-1990s after an anti-inflammatory drug (diclofenac) used to treat cattle poisoned and killed the birds."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-19-2024-1021.html#example-using-vsl-to-measure-the-social-costs-of-keystone-species-collapse-vulture-in-india-1",
+    "href": "econ-lec/econ-341-lec-19-2024-1021.html#example-using-vsl-to-measure-the-social-costs-of-keystone-species-collapse-vulture-in-india-1",
+    "title": "Lecture 19",
+    "section": "Example: Using VSL to Measure the Social Costs of Keystone Species Collapse, Vulture in India",
+    "text": "Example: Using VSL to Measure the Social Costs of Keystone Species Collapse, Vulture in India\n\n\n\n\n\n\nResults: Between 2000 and 2005 the loss of vultures caused about 100,000 additional human deaths each year, resulting in $69.4 billion per year in mortality damages."
   }
 ]
