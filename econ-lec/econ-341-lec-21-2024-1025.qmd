@@ -1,0 +1,484 @@
+---
+title: Lecture 20
+subtitle: "Climate Change I: The Nature of the Challenge"
+format:
+  clean-revealjs:
+    self-contained: false
+    chalkboard: true
+    incremental: true
+    code-annotations: hover
+    scrollable: false
+
+    # logo: logo-title-slide.png
+author:
+  - name: Byeong-Hak Choe
+    email: bchoe@geneseo.edu
+    affiliations: SUNY Geneseo
+date: 2024-10-23
+execute: 
+  eval: true
+  echo: false
+callout-icon: false
+
+from: markdown+emoji
+include-after-body: target-hover.html # effect.html
+
+# bibliography: refs.bib
+---
+
+
+```{r setup}
+#| include: false
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+
+
+theme_set(theme_ipsum()+
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = 
+                  element_text(angle = 0,
+                               size = rel(1.5),
+                               margin = margin(10,0,0,0)),
+                axis.title.y = 
+                  element_text(angle = 0,
+                               size = rel(1.5),
+                               margin = margin(0,10,0,0)),
+                axis.text.x = element_text(size = rel(1.5)),
+                axis.text.y = element_text(size = rel(1.5)),
+                strip.text = element_text(size = rel(1.5)),
+                legend.position = "top",
+                legend.text = element_text(size = rel(1.5)),
+                legend.title = element_text(size = rel(1.5))
+                )
+          )
+```
+
+
+# Climate Change I: The Nature of the Challenge {background-color="#1c4982"}
+
+
+## Tipping Points and Fat Tails
+### Tipping Points
+
+- **Definition:**
+  - Critical thresholds where small changes can lead to significant and potentially irreversible shifts in the climate system.
+
+- **Consequences:**
+  - Triggering of large-scale system changes, such as accelerated ice melt or forest dieback.
+
+
+## Tipping Points and Fat Tails
+### Tipping Points Examples
+
+  - Melting of the Greenland ice sheet
+  - Coral reef die-off
+  - Sudden thawing of the northern permafrost
+  - Loss of Arctic sea ice
+  - Disruption of the Atlantic Meridional Overturning Circulation (AMOC)
+  - The collapse of the Amazon rainforest
+
+
+## Tipping Points and Fat Tails
+### The Permafrost Thaw Tipping Point
+
+- The permafrost is a layer of tundra that is composed of dead plants and animals that have been frozen for thousands of years.
+
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/permafrost-alaska.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;">Alaskan Tundra</p>
+</div>
+
+- [More details](https://climatekids.nasa.gov/permafrost/)
+
+
+
+
+## Tipping Points and Fat Tails
+### The Permafrost Thaw Tipping Point
+
+- **Carbon Storage in Permafrost:**
+  - Contains approximately twice the carbon currently in Earth's atmosphere.
+  
+- **Thawing Effects:**
+  - Releases CO₂ and CH₄, potent GHGs that further accelerate warming.
+  - Increased susceptibility to disturbances like wildfires, soil erosion, and drying events.
+
+- **Projected Impacts:**
+  - By 2060, up to 75% of carbon in permafrost peat-lands could be released, exacerbating climate change.
+
+
+## Probability Density Functions (PDFs) in Climate Modeling
+
+- **Purpose of PDFs:**
+  - Modelers use PDFs to represent the likelihood of various climate-related events occurring within specific ranges.
+  
+- **Importance of PDF Shape:**
+  - The shape of the PDF significantly influences the assessment of risk for extreme events.
+  
+- **Example PDF:**
+  - The PDF of temperature increase based on CO₂e level.
+
+
+
+## Fat Tails and Increased Risk of Dangerous Outcomes
+### Traditional Bell-Shaped PDFs
+
+- **Characteristics:**
+  - Symmetrical distribution with most outcomes clustering around the mean.
+  - **Example:** Mean temperature increase of 3°C.
+  
+- **Likelihood of Extreme Events:**
+  - Probability of exceeding 6°C (danger zone) is approximately 2%.
+
+## Fat Tails and Increased Risk of Dangerous Outcomes
+### Fat-Tailed PDFs in Climate Models
+
+<div style="text-align: center; width: 90%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig11-1.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;">Eventual Global Average Surface Warming Due to a Doubling of Carbon Dioxide (Climate Sensitivity).</p>
+</div>
+
+
+
+## Fat Tails and Increased Risk of Dangerous Outcomes
+### Fat-Tailed PDFs in Climate Models
+
+<div style="text-align: center; width: 90%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/ww-climate-shock-tab3-1.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;">Chance of eventual warming of >6°C (11°F) rises rapidly with increasing CO₂e concentrations.</p>
+</div>
+
+- What is the current level of CO₂e concentration?
+
+## Fat Tails and Increased Risk of Dangerous Outcomes
+### Fat-Tailed PDFs in Climate Models
+
+- **Characteristics:**
+  - Heavier tails compared to normal distributions.
+  - Higher probability of extreme outcomes!
+  
+- **Impact on Likelihood:**
+  - Probability of exceeding 6°C increases to approximately 10%.
+  - Represents a significant increase from traditional estimates.
+
+
+
+## Fat Tails and Increased Risk of Dangerous Outcomes
+
+- **Tipping Points:**
+  - Uncertain timing and magnitude of crossing critical thresholds.
+  
+- **Model Limitations:**
+  - Current models may underestimate the probability and severity of high-consequence, low-probability events.
+
+- **Weitzman’s Dismal Theorem**
+  - When dealing with fat-tailed uncertainties and catastrophic risks, the expected marginal utility losses can become infinite.
+
+
+## Policy Implications of Climate Uncertainties
+### Economic Insights
+
+- **Marginal Cost vs. Marginal Damage:**
+  - **Current Status:** Carbon prices are typically lower than the Social Cost of Carbon (SCC).
+  - **Implication:** Additional emission reductions are economically beneficial, as the marginal benefits exceed the marginal costs.
+
+
+## Policy Implications of Climate Uncertainties
+### Why Wait-and-See is Dangerous
+
+- **Energy Sector Changes:**
+  - Transitioning energy systems takes considerable time and investment.
+  - Delays can lock in high-carbon infrastructure and increase future mitigation costs.
+  
+- **Irreversibility:**
+  - Once certain thresholds are crossed, some climate impacts may become irreversible, necessitating immediate action to prevent them.
+
+
+## Policy Implications of Climate Uncertainties
+### Need for Immediate Action
+
+- **Preventing Irreversible Changes:**
+  - Taking action now can prevent or delay crossing tipping points.
+  
+- **Enhancing Policy Flexibility:**
+  - Developing policies that can be adjusted as new information becomes available ensures resilience against unforeseen changes.
+
+
+## Policy Implications of Climate Uncertainties
+### Geoengineering as a Viable Option
+
+- **When to Consider Geoengineering:**
+  - As the window for effective mitigation narrows, geoengineering may become one of the few remaining options to manage climate risks.
+  
+- **Challenges and Risks:**
+  - Geoengineering comes with its own set of risks and uncertainties, making it a controversial but potentially necessary tool in extreme scenarios.
+
+
+
+## Broad Strategies
+### 1. Sequestration
+
+- **Carbon Capture, Utilization, & Storage (CCUS):**
+  - **Geological Storage:** Injecting captured CO₂ into underground formations.
+  - **Utilization:** Converting CO₂ into alternative fuels, building materials, or other products.
+  - Several government acts, including the Inflation Reduction Act, includes **Section 45Q tax credit** to boost investment in CCUS.
+  
+- **Natural Sequestration:**
+  - **Afforestation & Reforestation:** Planting new forests and restoring degraded ones.
+  - **Ocean Uptake:** Enhancing the ocean’s capacity to absorb CO₂ through various  methods.
+
+
+## Broad Strategies
+### 2. Adaptation
+
+- **Enhancing Resilience of Systems:**
+  - **Infrastructure Relocation:** Moving transportation and waste facilities away from vulnerable areas.
+  - **Public Health Systems:** Preparing for increased disease burdens due to climate-related factors.
+  - **Forest Protection:** Implementing measures to reduce wildfire risks and preserve forest health.
+  - **Electric Grid Resilience:** Strengthening the grid to withstand climate-enhanced storms and extreme weather.
+
+
+## Broad Strategies
+### 3. Mitigation
+
+- **Reducing GHG Emissions:**
+  - **Market-Based Policies:**
+    - **Carbon Taxes:** Imposing taxes on carbon emissions to incentivize reductions.
+    - **Cap-and-Trade Systems:** Setting emission caps and allowing trading of emission permits.
+  
+  - **Regulatory Approaches:**
+    - **Transition to Low-Carbon Energy:** Promoting renewable energy sources like solar and wind.
+    - **Energy Efficiency Standards:** Implementing strict efficiency requirements for buildings, vehicles, and appliances.
+
+
+
+## The Evolution of Targets
+### Paris Climate Agreement (2015)
+
+- **Primary Targets:**
+  - **Below 2°C:** Limit global average temperature rise to well below 2°C above pre-industrial levels.
+  - **Pursue 1.5°C:** Aim to limit the temperature increase to 1.5°C if feasible.
+  
+- **Rationale:**
+  - **Benefits vs. Costs:** Limiting temperature rise reduces the risk of severe and irreversible climate impacts.
+  - **Insurance Principle:** Lower targets provide a buffer against uncertainties and potential tipping points.
+
+
+## The Evolution of Targets
+### Emissions Targets
+
+- **Carbon Budget:**
+  - Defined as the cumulative amount of CO₂e emissions that can be emitted while staying within the agreed temperature limits.
+  
+- **Carbon Neutrality:**
+  - **Definition:** Achieving zero net human-caused CO₂ emissions annually.
+  
+- **Climate Neutrality:**
+  - **Definition:** Achieving zero net CO₂e emissions annually, encompassing all GHGs.
+
+
+## The Evolution of Targets
+### Net Zero Commitments
+
+- **Adoption Status:**
+  - 131 countries, representing 72% of global emissions, have pledged to achieve net zero targets.
+  
+- **Challenges:**
+  - **Accounting Systems:** Ensuring accurate tracking and reporting of emissions and removals.
+  - **Transparency and Verifiability:** Strengthening systems to prevent overstatement, double-counting, or other inaccuracies in emission reductions.
+
+
+
+## Economic Insights on Targets and Timing
+### Optimal Emissions Control
+
+- **Efficiency Condition:**
+  - **Marginal Cost of Control (MCC):** The cost to reduce an additional unit of emissions.
+  - **Marginal Reduction in Damages (MRD):** The benefit from reducing that unit of emissions.
+  - **Optimal Point:** When MCC = MRD.
+
+
+## Economic Insights on Targets and Timing
+### Discount Rate Debate
+
+- **Normative Discounting:**
+  - **Basis:** Ethical principles regarding the treatment of future generations.
+  - **Implication:** Supports a lower discount rate, valuing future benefits more highly.
+  
+- **Opportunity Cost Discounting:**
+  - **Basis:** Economic opportunity costs of capital.
+  - **Implication:** Supports a higher discount rate, prioritizing present benefits over future ones.
+  
+- **Current Trends:**
+  - A convergence towards lower discount rates, emphasizing long-term impacts and sustainability.
+
+
+## Economic Insights on Targets and Timing
+### Current Findings
+
+- **Carbon Prices vs. Social Cost of Carbon (SCC):**
+  - **Observation:** Current carbon prices are significantly lower than SCC estimates.
+  - **Implication:** There is substantial economic justification for increasing carbon pricing to reflect the true social cost of emissions.
+
+
+## Economic Insights on Targets and Timing
+### Impact of Delay
+
+- **Cost Escalation:**
+  - **Economic Costs:** Delaying action can triple the necessary carbon price and increase macroeconomic costs by approximately 30%.
+  - **Climate Costs:** Higher future emissions lead to greater damages and increased likelihood of crossing tipping points.
+
+
+
+## The Economics of International Climate Agreements
+### Game Theory Perspective
+
+- **Why is Game Theory Relevant to Climate Change?**
+  - Game Theory is the study of strategic interactions among rational decision-makers.
+  - Countries face incentives to either cooperate (reduce emissions) or defect (not reduce emissions).
+  - Climate change is a global issue requiring collective action.
+
+
+
+
+## The Economics of International Climate Agreements
+### A Simple Game Theory
+
+|               |               | **Country B**      |               |
+|---------------|---------------|--------------------|---------------|
+|               |               | **Cooperate**      | **Defect**    |
+| **Country A** | **Cooperate** |     (3, 3)         |    (1, 4)     |
+|               | **Defect**    |     (4, 1)         |    (2, 2)     |
+|               |               |                    |               |
+
+
+- **Players**
+  - Two countries: **Country A** and **Country B**.
+
+- **Strategies**
+	-	**Cooperate**: Invest in reducing GHG emissions.
+	-	**Defect**: Continue emitting at current levels to avoid immediate costs.
+
+- **Payoffs** are in the format **(Country A’s payoff, Country B’s payoff)**
+
+
+## The Economics of International Climate Agreements
+### A Simple Game Theory
+
+|               |               | **Country B**      |               |
+|---------------|---------------|--------------------|---------------|
+|               |               | **Cooperate**      | **Defect**    |
+| **Country A** | **Cooperate** |     (3, 3)         |    (1, 4)     |
+|               | **Defect**    |     (4, 1)         |    (2, 2)     |
+|               |               |                    |               |
+
+
+- In a Nash Equilibrium (NE), each player’s chosen strategy is the best response to the other player’s strategy.
+  - In a NE, no player can unilaterally change their strategy to achieve a better payoff. 
+
+- What is the NE in this game?
+  - That is, to find what strategy each player playes in the NE.
+
+
+## The Economics of International Climate Agreements
+
+- **Self-Enforcing Agreements:**
+  - Designed to provide incentives for countries to join and comply without external enforcement.
+  
+- **Free-Rider Effect:**
+  - Nations benefit from others' emission reductions without contributing themselves, undermining collective efforts.
+  - This makes it difficult to construct self-enforcing agreements.
+
+## The Economics of International Climate Agreements
+### Barrett Model
+
+- **Stable Agreements Conditions:**
+  - Achievable when the difference between cooperative and non-cooperative outcomes is minimal.
+  
+- **Challenges:**
+  - High cooperative gains simultaneously increase incentives to free ride, making stable agreements difficult to attain.
+
+
+
+## The Economics of International Climate Agreements
+### Barrett Model
+
+|               |               | **Country B**      |               |
+|---------------|---------------|--------------------|---------------|
+|               |               | **Cooperate**      | **Defect**    |
+| **Country A** | **Cooperate** |     (5, 5)         |    (3, 4)     |
+|               | **Defect**    |     (4, 3)         |    (2, 2)     |
+|               |               |                    |               |
+
+- In this version of the payoff matrix,
+  - The difference between cooperative and non-cooperative outcomes is minimal (**4 vs. 3**).
+  - The gains from mutual cooperation slightly outweigh the benefits of unilateral defection (**5 vs. 4**).
+
+
+- What is the NE in this game?
+
+
+## The Economics of International Climate Agreements
+### Strategies to Enhance Cooperation
+
+<div style="display:block; margin:-10px;"></div>
+
+- **Issue Linkage:**
+  - **Definition:** Combining climate agreements with other economic treaties (e.g., trade, R&D) to create mutual benefits.
+  - **Example:** Linking climate action with technological cooperation or trade liberalization.
+  
+- **Climate Clubs:**
+  - **International Carbon Price:** A uniform carbon pricing mechanism among club members.
+  - **Tariffs on Non-Members:** Imposing tariffs on imports from countries not adhering to the club’s carbon pricing.
+  - **Example:** EU’s proposed **Carbon Border Adjustment Mechanism (CBAM)**, aimed at incentivizing non-EU countries to adopt similar carbon pricing.
+
+
+
+## The Precedent: Reducing Ozone-Depleting Gases
+### Montreal Protocol (1988)
+
+- **Objective:**
+  - Phase out the production and use of ozone-depleting substances (ODS), such as chlorofluorocarbons (CFCs).
+  
+- **Success Metrics:**
+  - **Participation:** 197 countries are signatories.
+  - **Effectiveness:** 99% phase-out of targeted ODS.
+  - **Outcome:** Ozone layer recovery expected by 2075.
+
+
+## The Precedent: Reducing Ozone-Depleting Gases
+### Key Factors for Success
+
+- **Multilateral Fund:**
+  - Established in 1990 to support developing countries in phasing out ODS.
+  - Financed by industrialized countries to cover incremental costs and facilitate technology transfer.
+  
+- **Availability of Substitutes:**
+  - Development and commercialization of alternative technologies reduced economic burdens.
+  - Producers transitioned to substitutes without significant losses, accelerating compliance.
+
+
+## The Precedent: Reducing Ozone-Depleting Gases
+### Lessons for Climate Policy
+
+- **Inclusive Participation:**
+  - Engaging both developed and developing countries ensures widespread compliance and effectiveness.
+  
+- **Economic Incentives:**
+  - Financial support mechanisms and technological alternatives lower the cost of compliance, encouraging participation.
+
+
+
+## Summary
+
+- **Need for Action:** Both scientific and economic analyses confirm urgency
+- **Barriers:** Free-rider effects, political complexities
+- **Optimistic Pathways:**
+  - Issue linkage, co-benefits, climate clubs
+  - Lessons from the Montreal Protocol
+- **Challenges Remain:** Energy use control, political will
+
+- **Conclusion:** Knowledge is sufficient; political action is required to implement necessary policies
