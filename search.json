@@ -3638,5 +3638,54 @@
     "title": "Lecture 20",
     "section": "The Economics of International Climate Agreements",
     "text": "The Economics of International Climate Agreements\nStrategies to Enhance Cooperation\n\n\n\n\nIssue Linkage:\n\nDefinition: Combining climate agreements with other economic treaties (e.g., trade, R&D) to create mutual benefits.\nExample: Linking climate action with technological cooperation or trade liberalization.\n\nClimate Clubs:\n\nInternational Carbon Price: A uniform carbon pricing mechanism among club members.\nTariffs on Non-Members: Imposing tariffs on imports from countries not adhering to the club’s carbon pricing.\nExample: EU’s proposed Carbon Border Adjustment Mechanism (CBAM), aimed at incentivizing non-EU countries to adopt similar carbon pricing."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-21-2024-1025.html#grading",
+    "href": "econ-lec/econ-341-lec-21-2024-1025.html#grading",
+    "title": "Lecture 20",
+    "section": "Grading",
+    "text": "Grading\n\\[\n\\begin{align}\n(\\text{Total Percentage Grade}) =&\\;\\, 0.05\\times(\\text{Attendance}) \\notag\\\\\n&\\,+\\, 0.15\\times(\\text{Quiz & Class Participation})\\notag\\\\\n& \\,+\\, 0.15\\times(\\text{Homework})\\notag\\\\  \n&\\,+\\, 0.15\\times(\\text{Presentation})\\notag\\\\\n& \\,+\\, 0.50\\times(\\text{Exam}).\\notag\n\\end{align}\n\\]"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-21-2024-1025.html#grading-1",
+    "href": "econ-lec/econ-341-lec-21-2024-1025.html#grading-1",
+    "title": "Lecture 20",
+    "section": "Grading",
+    "text": "Grading"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-21-2024-1025.html#grading-2",
+    "href": "econ-lec/econ-341-lec-21-2024-1025.html#grading-2",
+    "title": "Lecture 20",
+    "section": "Grading",
+    "text": "Grading\n\nYou are allowed up to 6 absences without penalty.\n\nSend me an email if you have standard excused reasons (illness, family emergency, transportation problems, etc.).\n\nFor each absence beyond the initial six, there will be a deduction of 1% from the Total Percentage Grade.\nThe single lowest homework score will be dropped when calculating the total homework score.\n\nEach homework except for the homework with the lowest score accounts for 20% of the total homework score."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-21-2024-1025.html#grading-3",
+    "href": "econ-lec/econ-341-lec-21-2024-1025.html#grading-3",
+    "title": "Lecture 20",
+    "section": "Grading",
+    "text": "Grading\n\\[\n\\begin{align}\n&(\\text{Total Exam Score}) \\\\\n=\\, &\\text{max}\\,\\left\\{0.50\\times(\\text{Midterm Exam Score}) \\,+\\, 0.50\\times(\\text{Final Exam Score})\\right.,\\notag\\\\\n&\\qquad\\;\\,\\left.0.25\\times(\\text{Midterm Exam Score}) \\,+\\, 0.75\\times(\\text{Final Exam Score})\\right\\}.\\notag\n\\end{align}\n\\]\n\nThe total exam score is the maximum between\n\nthe simple average of the midterm exam score and the final exam score and\nthe weighted average of them with one-fourth weight on the midterm exam score and three-third weight on the final exam score:"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-21-2024-1025.html#grading-4",
+    "href": "econ-lec/econ-341-lec-21-2024-1025.html#grading-4",
+    "title": "Lecture 20",
+    "section": "Grading",
+    "text": "Grading\n\\[\n\\begin{align}\n&(\\text{Total Midterm Exam}) \\\\\n=\\, &\\text{max}\\,\\left\\{0.50\\times(\\text{Midterm Exam 1}) \\,+\\, 0.50\\times(\\text{Midterm Exam 2})\\right.,\\notag\\\\\n&\\qquad\\;\\,\\left.0.25\\times(\\text{Midterm Exam 1}) \\,+\\, 0.75\\times(\\text{Midterm Exam 2})\\right\\}.\\notag\n\\end{align}\n\\]\n\nThe total midterm exam score is the maximum between\n\nthe simple average of the midterm exam 1 score and the midterm exam 2 score and\nthe weighted average of them with one-fourth weight on the midterm exam 1 score and three-third weight on the midterm exam 2 score:"
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-21-2024-1025.html#grading-5",
+    "href": "econ-lec/econ-341-lec-21-2024-1025.html#grading-5",
+    "title": "Lecture 20",
+    "section": "Grading",
+    "text": "Grading\n\nScenario 1\n\nSuppose your \\((\\text{Total Exam Score})\\) is taken from: \\[\n\\begin{align}\n&0.25\\times(\\text{Midterm Exam 1}) \\,+\\, 0.75\\times(\\text{Midterm Exam 2})\\\\\n&0.25\\times(\\text{Midterm Exam}) \\,+\\, 0.75\\times(\\text{Final Exam})\n\\end{align}\n\\]\n\\((\\text{Midterm Exam 1})\\) will then account for only 6.25% of your \\(\\text{Total Exam Score}\\)."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-21-2024-1025.html#grading-6",
+    "href": "econ-lec/econ-341-lec-21-2024-1025.html#grading-6",
+    "title": "Lecture 20",
+    "section": "Grading",
+    "text": "Grading\n\nScenario 2\n\nSuppose your \\((\\text{Total Exam Score})\\) is taken from: \\[\n\\begin{align}\n&0.5\\times(\\text{Midterm Exam 1}) \\,+\\, 0.5\\times(\\text{Midterm Exam 2})\\\\\n&0.25\\times(\\text{Midterm Exam}) \\,+\\, 0.75\\times(\\text{Final Exam})\n\\end{align}\n\\]\n\\((\\text{Midterm Exam 1})\\) will then account for only 12.5% of your \\(\\text{Total Exam Score}\\)."
   }
 ]

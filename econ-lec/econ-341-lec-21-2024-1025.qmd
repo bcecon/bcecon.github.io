@@ -56,6 +56,92 @@ theme_set(theme_ipsum()+
 ```
 
 
+
+## Grading
+
+$$
+\begin{align}
+(\text{Total Percentage Grade}) =&\;\, 0.05\times(\text{Attendance}) \notag\\
+&\,+\, 0.15\times(\text{Quiz & Class Participation})\notag\\ 
+& \,+\, 0.15\times(\text{Homework})\notag\\  
+&\,+\, 0.15\times(\text{Presentation})\notag\\
+& \,+\, 0.50\times(\text{Exam}).\notag
+\end{align}
+$$
+
+## Grading
+
+
+## Grading
+
+- You are allowed up to 6 absences without penalty. 
+  - Send me an email if you have standard excused reasons (illness, family emergency, transportation problems, etc.).
+
+- For each absence beyond the initial six, there will be a deduction of 1% from the Total Percentage Grade.
+
+- The single lowest homework score will be dropped when calculating the total homework score. 
+  - Each homework except for the homework with the lowest score accounts for 20% of the total homework score.
+
+
+## Grading
+
+$$
+\begin{align}
+&(\text{Total Exam Score}) \\
+=\, &\text{max}\,\left\{0.50\times(\text{Midterm Exam Score}) \,+\, 0.50\times(\text{Final Exam Score})\right.,\notag\\ 
+&\qquad\;\,\left.0.25\times(\text{Midterm Exam Score}) \,+\, 0.75\times(\text{Final Exam Score})\right\}.\notag
+\end{align}
+$$
+
+
+
+- The total exam score is the maximum between 
+  1. the simple average of the midterm exam score and the final exam score and
+  2. the weighted average of them with one-fourth weight on the midterm exam score and three-third weight on the final exam score:
+
+
+
+
+## Grading
+
+$$
+\begin{align}
+&(\text{Total Midterm Exam}) \\
+=\, &\text{max}\,\left\{0.50\times(\text{Midterm Exam 1}) \,+\, 0.50\times(\text{Midterm Exam 2})\right.,\notag\\ 
+&\qquad\;\,\left.0.25\times(\text{Midterm Exam 1}) \,+\, 0.75\times(\text{Midterm Exam 2})\right\}.\notag
+\end{align}
+$$
+
+
+
+- The total midterm exam score is the maximum between 
+  1. the simple average of the midterm exam 1 score and the midterm exam 2 score and
+  2. the weighted average of them with one-fourth weight on the midterm exam 1 score and three-third weight on the midterm exam 2 score:
+
+## Grading
+- **Scenario 1**
+  - Suppose your $(\text{Total Exam Score})$ is taken from:
+$$
+\begin{align}
+&0.25\times(\text{Midterm Exam 1}) \,+\, 0.75\times(\text{Midterm Exam 2})\\
+&0.25\times(\text{Midterm Exam}) \,+\, 0.75\times(\text{Final Exam})
+\end{align}
+$$
+  - $(\text{Midterm Exam 1})$ will then account for only **6.25%** of your $\text{Total Exam Score}$.
+  
+## Grading
+- **Scenario 2**
+  - Suppose your $(\text{Total Exam Score})$ is taken from:
+$$
+\begin{align}
+&0.5\times(\text{Midterm Exam 1}) \,+\, 0.5\times(\text{Midterm Exam 2})\\
+&0.25\times(\text{Midterm Exam}) \,+\, 0.75\times(\text{Final Exam})
+\end{align}
+$$
+  - $(\text{Midterm Exam 1})$ will then account for only **12.5%** of your $\text{Total Exam Score}$.
+  
+
+
 # Climate Change I: The Nature of the Challenge {background-color="#1c4982"}
 
 
