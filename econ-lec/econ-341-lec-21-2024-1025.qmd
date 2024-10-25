@@ -169,11 +169,13 @@ $$
 ## Tipping Points and Fat Tails
 ### The Permafrost Thaw Tipping Point
 
+:::{.nonincremental}
 - The permafrost is a layer of tundra that is composed of dead plants and animals that have been frozen for thousands of years.
 
+:::
 
 <div style="text-align: center; width: 100%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/permafrost-alaska.png" style="width: 100%; margin-bottom: -20px;">
+  <img src="https://bcdanl.github.io/lec_figs/permafrost-alaska.png" style="width: 50%; margin-bottom: -20px;">
   <p style="font-weight: bold;">Alaskan Tundra</p>
 </div>
 
