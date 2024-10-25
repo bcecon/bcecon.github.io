@@ -1,5 +1,5 @@
 ---
-title: Lecture 20
+title: Lecture 21
 subtitle: "Climate Change I: The Nature of the Challenge"
 format:
   clean-revealjs:
@@ -14,7 +14,7 @@ author:
   - name: Byeong-Hak Choe
     email: bchoe@geneseo.edu
     affiliations: SUNY Geneseo
-date: 2024-10-23
+date: 2024-10-25
 execute: 
   eval: true
   echo: false
@@ -260,7 +260,7 @@ $$
 - **Model Limitations:**
   - Current models may underestimate the probability and severity of high-consequence, low-probability events.
 
-- **Weitzman’s Dismal Theorem**
+- **Weitzman’s Dismal Theorem (2009)**
   - When dealing with fat-tailed uncertainties and catastrophic risks, the expected marginal utility losses can become infinite.
 
 
@@ -296,12 +296,26 @@ $$
 ## Policy Implications of Climate Uncertainties
 ### Geoengineering as a Viable Option
 
+
+:::: {.columns}
+
+::: {.column width="45%"}
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/geoengineering.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+::: {.column width="55%"}
+
 - **When to Consider Geoengineering:**
   - As the window for effective mitigation narrows, geoengineering may become one of the few remaining options to manage climate risks.
   
 - **Challenges and Risks:**
   - Geoengineering comes with its own set of risks and uncertainties, making it a controversial but potentially necessary tool in extreme scenarios.
 
+:::
+::::
 
 
 ## Broad Strategies
