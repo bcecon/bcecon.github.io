@@ -294,8 +294,8 @@ theme_set(theme_ipsum()+
   - **Uncertainty about the temperature rise** triggering catastrophe weakens coordination.
   - Lack of clear thresholds causes hesitation, leading agreements to fail.
 
-- **Key Insight**: 
-  - Certainty in climate thresholds strengthens cooperation, while uncertainty leads to coordination breakdowns.
+<!-- - **Key Insight**:  -->
+<!--   - Certainty in climate thresholds strengthens cooperation, while uncertainty leads to coordination breakdowns. -->
 
 
 
