@@ -315,6 +315,38 @@ theme_set(theme_ipsum()+
 
 
 
+
+## The Economics of International Climate Agreements
+### **Funding Transfers: [Adaptation Fund](https://www.adaptation-fund.org)** (2001)
+
+- **Adaptation Fund**:
+  - **Establishment:** Created to finance specific adaptation projects and programs in developing countries that are parties to the Kyoto Protocol.
+  - **Purpose:** Supports projects aimed at enhancing resilience and reducing vulnerability to climate impacts.
+  - **Incentive for Participation:**
+    - Access to the fund is exclusively available to parties in the agreement.
+    - Encourages potential holdouts to join the Kyoto Protocol by offering financial support.
+
+
+
+## The Economics of International Climate Agreements
+### **Funding Transfers: [Green Climate Fund](https://www.greenclimate.fund)** (2010)
+
+- **Establishment:**
+  - Initiated by the Conference of Parties (COP) to the United Nations Framework Convention on Climate Change (UNFCCC).
+  
+- **Purpose:**
+  - Provides significant funding to developing countries to:
+    - **Mitigation**: Limit or reduce their greenhouse gas emissions.
+    - **Adaptation**: Adapt to the impacts of climate change.
+  
+<!-- - **Focus Areas:** -->
+<!--   - Special emphasis on nations that are particularly vulnerable to climate change damages. -->
+  
+- **Impact:**
+  - **As of August 2024:** 286 proposals approved, facilitating widespread support ($16 b.) for climate action in 133 developing countries
+
+
+
 ## The Precedent: Reducing Ozone-Depleting Gases
 ### Montreal Protocol (1988)
 
