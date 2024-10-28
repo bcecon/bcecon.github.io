@@ -3770,42 +3770,42 @@
     "href": "econ-lec/econ-341-lec-22-2024-1028.html#the-economics-of-international-climate-agreements-1",
     "title": "Lecture 22",
     "section": "The Economics of International Climate Agreements",
-    "text": "The Economics of International Climate Agreements\nA Simple Game Theory\n\n\n\n\n\nCountry B\n\n\n\n\n\n\n\nCooperate\nDefect\n\n\nCountry A\nCooperate\n(3, 3)\n(1, 4)\n\n\n\nDefect\n(4, 1)\n(2, 2)\n\n\n\n\n\n\n\n\n\n\nPlayers\n\nTwo countries: Country A and Country B.\n\nStrategies\n\nCooperate: Invest in reducing GHG emissions.\nDefect: Continue emitting at current levels to avoid immediate costs.\n\nPayoffs are in the format (Country A’s payoff, Country B’s payoff)"
+    "text": "The Economics of International Climate Agreements\n\nSelf-Enforcing Agreements:\n\nDesigned to provide incentives for countries to join and comply without external enforcement.\n\nFree-Rider Effect:\n\nNations benefit from others’ emission reductions without contributing themselves, undermining collective efforts.\nThis makes it difficult to construct self-enforcing agreements."
   },
   {
     "objectID": "econ-lec/econ-341-lec-22-2024-1028.html#the-economics-of-international-climate-agreements-2",
     "href": "econ-lec/econ-341-lec-22-2024-1028.html#the-economics-of-international-climate-agreements-2",
     "title": "Lecture 22",
     "section": "The Economics of International Climate Agreements",
-    "text": "The Economics of International Climate Agreements\nA Simple Game Theory\n\n\n\n\n\nCountry B\n\n\n\n\n\n\n\nCooperate\nDefect\n\n\nCountry A\nCooperate\n(3, 3)\n(1, 4)\n\n\n\nDefect\n(4, 1)\n(2, 2)\n\n\n\n\n\n\n\n\n\n\nIn a Nash Equilibrium (NE), each player’s chosen strategy is the best response to the other player’s strategy.\n\nIn a NE, no player can unilaterally change their strategy to achieve a better payoff.\n\nWhat is the NE in this game?\n\nThat is, to find what strategy each player plays in the NE."
+    "text": "The Economics of International Climate Agreements\nA Simple Game Theory\n\n\n\n\n\nCountry B\n\n\n\n\n\n\n\nCooperate\nDefect\n\n\nCountry A\nCooperate\n(3, 3)\n(1, 4)\n\n\n\nDefect\n(4, 1)\n(2, 2)\n\n\n\n\n\n\n\n\n\n\nPlayers\n\nTwo countries: Country A and Country B.\n\nStrategies\n\nCooperate: Invest in reducing GHG emissions.\nDefect: Continue emitting at current levels to avoid immediate costs.\n\nPayoffs are in the format (Country A’s payoff, Country B’s payoff)"
   },
   {
     "objectID": "econ-lec/econ-341-lec-22-2024-1028.html#the-economics-of-international-climate-agreements-3",
     "href": "econ-lec/econ-341-lec-22-2024-1028.html#the-economics-of-international-climate-agreements-3",
     "title": "Lecture 22",
     "section": "The Economics of International Climate Agreements",
-    "text": "The Economics of International Climate Agreements\n\nSelf-Enforcing Agreements:\n\nDesigned to provide incentives for countries to join and comply without external enforcement.\n\nFree-Rider Effect:\n\nNations benefit from others’ emission reductions without contributing themselves, undermining collective efforts.\nThis makes it difficult to construct self-enforcing agreements."
+    "text": "The Economics of International Climate Agreements\nA Simple Game Theory\n\n\n\n\n\nCountry B\n\n\n\n\n\n\n\nCooperate\nDefect\n\n\nCountry A\nCooperate\n(3, 3)\n(1, 4)\n\n\n\nDefect\n(4, 1)\n(2, 2)\n\n\n\n\n\n\n\n\n\n\nIn a Nash Equilibrium (NE), each player’s chosen strategy is the best response to the other player’s strategy.\n\nIn a NE, no player can unilaterally change their strategy to achieve a better payoff.\n\nWhat is the NE in this game?\n\nThat is, to find what strategy each player plays in the NE."
   },
   {
     "objectID": "econ-lec/econ-341-lec-22-2024-1028.html#the-economics-of-international-climate-agreements-4",
     "href": "econ-lec/econ-341-lec-22-2024-1028.html#the-economics-of-international-climate-agreements-4",
     "title": "Lecture 22",
     "section": "The Economics of International Climate Agreements",
-    "text": "The Economics of International Climate Agreements\nBarrett Model\n\n\n\n\n\nCountry B\n\n\n\n\n\n\n\nCooperate\nDefect\n\n\nCountry A\nCooperate\n(5, 5)\n(3, 4)\n\n\n\nDefect\n(4, 3)\n(2, 2)\n\n\n\n\n\n\n\n\n\n\nIn this version of the payoff matrix,\n\nReduced Incentive to Defect: The payoff for unilateral defection (4) is only slightly higher than mutual cooperation (5).\n\nSmaller Penalty for Cooperating Alone: A country that cooperates while the other defects still receives a moderate payoff (3).\n\n\nWhat is the NE in this game?"
+    "text": "The Economics of International Climate Agreements\nBarrett Model (1994)\n\n\n\n\n\nCountry B\n\n\n\n\n\n\n\nCooperate\nDefect\n\n\nCountry A\nCooperate\n(5, 5)\n(3, 4)\n\n\n\nDefect\n(4, 3)\n(2, 2)\n\n\n\n\n\n\n\n\n\n\nIn this version of the payoff matrix,\n\nReduced Incentive to Defect: The payoff for unilateral defection (4) is only slightly higher than mutual cooperation (5).\n\nSmaller Penalty for Cooperating Alone: A country that cooperates while the other defects still receives a moderate payoff (3).\n\n\nWhat is the NE in this game?"
   },
   {
     "objectID": "econ-lec/econ-341-lec-22-2024-1028.html#the-economics-of-international-climate-agreements-5",
     "href": "econ-lec/econ-341-lec-22-2024-1028.html#the-economics-of-international-climate-agreements-5",
     "title": "Lecture 22",
     "section": "The Economics of International Climate Agreements",
-    "text": "The Economics of International Climate Agreements\nBarrett Model\n\n\n\n\n\nUnstable Agreement Scenario\n\nChallenges in Forming Agreements:\n\nHigh incentives to defect lead to unstable agreements, as countries prefer short-term individual gains over long-term collective benefits.\n\nWhen the potential gains from unilateral defection are large, the likelihood of sustaining cooperative agreements diminishes.\n\n\nStable Agreement Scenario\n\nFacilitating Cooperation:\n\nAdjusting payoffs to reduce the attractiveness of defection encourages countries to cooperate.\n\nStable agreements are more likely when the incentives to defect are minimized, and the benefits of cooperation are sufficiently attractive."
+    "text": "The Economics of International Climate Agreements\nBarrett Model (1994)\n\n\n\n\n\nUnstable Agreement Scenario\n\nChallenges in Forming Agreements:\n\nHigh incentives to defect lead to unstable agreements, as countries prefer short-term individual gains over long-term collective benefits.\n\nWhen the potential gains from unilateral defection are large, the likelihood of sustaining cooperative agreements diminishes.\n\n\nStable Agreement Scenario\n\nFacilitating Cooperation:\n\nAdjusting payoffs to reduce the attractiveness of defection encourages countries to cooperate.\n\nStable agreements are more likely when the incentives to defect are minimized, and the benefits of cooperation are sufficiently attractive."
   },
   {
     "objectID": "econ-lec/econ-341-lec-22-2024-1028.html#the-economics-of-international-climate-agreements-6",
     "href": "econ-lec/econ-341-lec-22-2024-1028.html#the-economics-of-international-climate-agreements-6",
     "title": "Lecture 22",
     "section": "The Economics of International Climate Agreements",
-    "text": "The Economics of International Climate Agreements\nStrategies to Enhance Cooperation\n\n\n\n\nIssue Linkage:\n\nDefinition: Combining climate agreements with other economic treaties (e.g., trade, R&D) to create mutual benefits.\nExample: Linking climate action with technological cooperation or trade liberalization.\n\nClimate Clubs:\n\nInternational Carbon Price: A uniform carbon pricing mechanism among club members.\nTariffs on Non-Members: Imposing tariffs on imports from countries not adhering to the club’s carbon pricing.\nExample: EU’s proposed Carbon Border Adjustment Mechanism (CBAM), aimed at incentivizing non-EU countries to adopt similar carbon pricing."
+    "text": "The Economics of International Climate Agreements\nBarrett Model (2013)\n\nCoordination with Certainty:\n\nWhen the catastrophic climate threshold is clear and benefits outweigh costs, countries can effectively align their actions.\nSelf-enforcing treaties help prevent the catastrophe.\n\nBreakdown with Uncertainty:\n\nUncertainty about the temperature rise triggering catastrophe weakens coordination.\nLack of clear thresholds causes hesitation, leading agreements to fail.\n\nKey Insight:\n\nCertainty in climate thresholds strengthens cooperation, while uncertainty leads to coordination breakdowns."
   },
   {
     "objectID": "econ-lec/econ-341-lec-22-2024-1028.html#the-precedent-reducing-ozone-depleting-gases",

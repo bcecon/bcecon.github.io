@@ -183,6 +183,15 @@ theme_set(theme_ipsum()+
   - Climate change is a global issue requiring collective action.
 
 
+## The Economics of International Climate Agreements
+
+- **Self-Enforcing Agreements:**
+  - Designed to provide incentives for countries to join and comply without external enforcement.
+  
+- **Free-Rider Effect:**
+  - Nations benefit from others' emission reductions without contributing themselves, undermining collective efforts.
+  - This makes it difficult to construct self-enforcing agreements.
+
 
 
 ## The Economics of International Climate Agreements
@@ -224,18 +233,9 @@ theme_set(theme_ipsum()+
   - That is, to find what strategy each player plays in the NE.
 
 
-## The Economics of International Climate Agreements
-
-- **Self-Enforcing Agreements:**
-  - Designed to provide incentives for countries to join and comply without external enforcement.
-  
-- **Free-Rider Effect:**
-  - Nations benefit from others' emission reductions without contributing themselves, undermining collective efforts.
-  - This makes it difficult to construct self-enforcing agreements.
-
 
 ## The Economics of International Climate Agreements
-### Barrett Model
+### Barrett Model (1994)
 
 |               |               | **Country B**      |               |
 |---------------|---------------|--------------------|---------------|
@@ -252,8 +252,9 @@ theme_set(theme_ipsum()+
 
 
 
+
 ## The Economics of International Climate Agreements
-### Barrett Model
+### Barrett Model (1994)
 
 <div style="display:block; margin:-20px;"></div>
 
@@ -281,6 +282,22 @@ theme_set(theme_ipsum()+
 
 :::
 ::::
+
+## The Economics of International Climate Agreements
+### Barrett Model (2013)
+
+- **Coordination with Certainty**:
+  - When the **catastrophic climate threshold is clear** and **benefits outweigh costs**, countries can effectively align their actions.
+  - **Self-enforcing treaties** help prevent the catastrophe.
+
+- **Breakdown with Uncertainty**:
+  - **Uncertainty about the temperature rise** triggering catastrophe weakens coordination.
+  - Lack of clear thresholds causes hesitation, leading agreements to fail.
+
+- **Key Insight**: 
+  - Certainty in climate thresholds strengthens cooperation, while uncertainty leads to coordination breakdowns.
+
+
 
 ## The Economics of International Climate Agreements
 ### Strategies to Enhance Cooperation
