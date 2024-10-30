@@ -1,5 +1,5 @@
 ---
-title: 1. Type of Externalities
+title: Q & A Board
 date: 2024-09-05
 execute: 
   echo: true
@@ -21,8 +21,8 @@ Let's collaborate and learn from each other!
 
 
 
-- Please provide an example of a negative externality and an example of a positive externality.
+<!-- - Please provide an example of a negative externality and an example of a positive externality. -->
 
-- For each example:
-  - Explain why it is considered a negative or positive externality.
-  - Describe who generates the externality and who is affected by it.
+<!-- - For each example: -->
+<!--   - Explain why it is considered a negative or positive externality. -->
+<!--   - Describe who generates the externality and who is affected by it. -->
