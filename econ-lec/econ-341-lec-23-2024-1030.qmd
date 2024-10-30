@@ -127,7 +127,7 @@ theme_set(theme_ipsum()+
 |               |               |                    |               |
 
 - In this version of the payoff matrix,
-  - **Reduced Incentive to Defect**: The payoff for unilateral defection (4) is only slightly higher than mutual cooperation (5).
+  - **Reduced Incentive to Defect**: The payoff for unilateral defection (4) is only slightly lower than mutual cooperation (5).
 	-	**Smaller Penalty for Cooperating Alone**: A country that cooperates while the other defects still receives a moderate payoff (3).
 
 - What is the NE in this game?
