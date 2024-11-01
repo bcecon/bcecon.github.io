@@ -274,4 +274,4 @@ theme_set(theme_ipsum()+
   - Lessons from the Montreal Protocol
 - **Challenges Remain:** Energy use control, political will
 
-- **Conclusion:** Knowledge is sufficient; political action is required to implement necessary policies
+- **Conclusion:** Knowledge is sufficient ([Climate Change 2023 Synthesis Report - Summary for Policymakers, *IPCC* (2023)](https://www.ipcc.ch/report/ar6/syr/summary-for-policymakers/)); political action is required to implement necessary policies
