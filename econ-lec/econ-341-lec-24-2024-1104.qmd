@@ -163,7 +163,7 @@ Source: [Total U.S. Greenhouse Gas Emissions by Economic Sector in 2022, EPA](ht
 
 - **Equimarginal Principle**
   - Achieve **cost-effectiveness** when the MC of reducing the last ton of emissions is equal across all reduction opportunities.
-- Carbon pricing inherently promotes this by:
+- **Carbon pricing** inherently promotes this by:
   - Imposing a uniform price on CO2e emissions.
   - Leading emitters to abate until their marginal cost equals the carbon price.
 - **Result:**
