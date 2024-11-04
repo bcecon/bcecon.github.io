@@ -14,7 +14,7 @@ author:
   - name: Byeong-Hak Choe
     email: bchoe@geneseo.edu
     affiliations: SUNY Geneseo
-date: 2024-11-01
+date: 2024-11-04
 execute: 
   eval: true
   echo: false
@@ -249,7 +249,7 @@ Source: [Total U.S. Greenhouse Gas Emissions by Economic Sector in 2022, EPA](ht
 
 
 - With pollution taxes, regulators only indirectly control the quantity of pollution, by guessing at industry response to a tax of a certain level. 
-  - Carbon tax is a **price** instrument
+  - Pollution tax is a **price** instrument
 
 
 
@@ -308,7 +308,7 @@ $DWL_{2}$: DWL from Pollution Taxes
 ::: {.column width="50%"}
 
 <div style="text-align: center; width: 100%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/p-v-q-1.png" style="width: 85%; margin-bottom: -20px;">
+  <img src="https://bcdanl.github.io/lec_figs/p-v-q-1.png" style="width: 80%; margin-bottom: -20px;">
   <p style="font-weight: bold;"></p>
 </div>
 :::
@@ -323,7 +323,7 @@ $DWL_{2}$: DWL from Pollution Taxes
 
 :::: {.columns}
 
-::: {.column width="50%"}
+::: {.column width="54%"}
 $MC_{1}$: Estimated $MC$
 
 $MC_{2}$: True $MC$
@@ -335,7 +335,7 @@ $DWL_{2}$: DWL from Pollution Taxes
 
 
 :::
-::: {.column width="50%"}
+::: {.column width="46%"}
 
 <div style="text-align: center; width: 100%; margin: auto;">
   <img src="https://bcdanl.github.io/lec_figs/p-v-q-2.png" style="width: 100%; margin-bottom: -20px;">
