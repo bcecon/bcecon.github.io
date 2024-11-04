@@ -152,6 +152,7 @@ Source: [Total U.S. Greenhouse Gas Emissions by Economic Sector in 2022, EPA](ht
 ## The Equimarginal Principle
 
 - **Example**:
+  - Both Company A and Company B have non-constant MC.
   - If Company A can reduce emissions at $50/ton and Company B at $100/ton:
     - Allocate more reduction to Company A until MCs equalize.
 - **Implication**:
