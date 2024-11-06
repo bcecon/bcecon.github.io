@@ -378,7 +378,7 @@ $DWL_{2}$: DWL from Pollution Taxes
   - Allowances are auctioned; revenue returned to member states.
 - **Market Stability Reserve (MSR)**:
   - Adjusts supply of allowances to stabilize the market.
-- **Cross-Border Adjustment Mechanism (CBAM)**:
+- **Carbon Border Adjustment Mechanism (CBAM)**:
   - Importers report embedded emissions and surrender certificates.
 
 
