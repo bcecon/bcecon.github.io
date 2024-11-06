@@ -228,9 +228,8 @@ $DWL_{2}$: DWL from Pollution Taxes
   - **Organizations**: Companies aiming for net-zero emissions can buy offsets to compensate for emissions they cannot eliminate.
 
 - **Compliance Markets**:
-  - **California Cap-and-Trade Program**: Regulated companies use certified offsets to meet legal emission reduction requirements.
-  - **European Emissions Trading Scheme**: Firms can use offsets from approved projects to comply with emission caps.
-  - **Carbon Tax Programs**: In some cases, offsets canreduce the level of taxable emissions by subtracting certified reductions from actual emissions.
+  - **Cap-and-Trade Programs**: Firms can use certified offsets to meet legal requirements.
+  - **Carbon Tax Programs**: In some cases, offsets can reduce the level of taxable emissions by subtracting certified reductions from actual emissions.
 
 
 
