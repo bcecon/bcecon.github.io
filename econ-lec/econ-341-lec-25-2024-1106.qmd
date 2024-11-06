@@ -212,7 +212,7 @@ $DWL_{2}$: DWL from Pollution Taxes
 
 # Understanding Carbon Offsets {background-color="#1c4982"}
 
-## What Are Carbon Offsets?
+## What Are Carbon Offset Credits?
 
 - **Definition**: Transferable instruments certified to represent the reduction of one metric ton of CO₂ or CO₂ equivalent (CO₂e).
 
@@ -223,7 +223,6 @@ $DWL_{2}$: DWL from Pollution Taxes
 
 
 ## What Are Carbon Offsets?
-### Examples**
 - **Voluntary Markets**:
   - **Individuals**: Airline passengers may choose to offset the carbon emissions from their flights by purchasing offsets.
   - **Organizations**: Companies aiming for net-zero emissions can buy offsets to compensate for emissions they cannot eliminate.
@@ -231,7 +230,7 @@ $DWL_{2}$: DWL from Pollution Taxes
 - **Compliance Markets**:
   - **California Cap-and-Trade Program**: Regulated companies use certified offsets to meet legal emission reduction requirements.
   - **European Emissions Trading Scheme**: Firms can use offsets from approved projects to comply with emission caps.
-  - **Carbon Tax Programs**: In some cases, offsets reduce the level of taxable emissions by subtracting certified reductions from actual emissions.
+  - **Carbon Tax Programs**: In some cases, offsets canreduce the level of taxable emissions by subtracting certified reductions from actual emissions.
 
 
 
@@ -334,12 +333,12 @@ $DWL_{2}$: DWL from Pollution Taxes
 - **Discretionary Adjustments**:
   - Prespecified triggering conditions.
   - Responses crafted when triggers are breached.
-  - *Example*: Aldy (2020) proposes a five-year review process.
+  - *Example*: A five-year review process.
 
 - **Automatic Adjustments**:
   - Both triggering conditions and adjustments are prespecified.
   - Tax rates adjust automatically based on emissions relative to benchmarks.
-  - *Example*: Metcalf's (2020) proposal adjusts tax rates if cumulative emissions exceed benchmarks.
+  - *Example*: Adjusting tax rates if cumulative emissions exceed benchmarks.
 
 
 

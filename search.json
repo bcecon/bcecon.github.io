@@ -4491,7 +4491,7 @@
     "href": "econ-lec/econ-341-lec-25-2024-1106.html#carbon-tax-hybrids-2",
     "title": "Lecture 25",
     "section": "Carbon Tax Hybrids",
-    "text": "Carbon Tax Hybrids\nAdjustment Mechanisms in Carbon Taxes\n\nDiscretionary Adjustments:\n\nPrespecified triggering conditions.\nResponses crafted when triggers are breached.\nExample: Aldy (2020) proposes a five-year review process.\n\nAutomatic Adjustments:\n\nBoth triggering conditions and adjustments are prespecified.\nTax rates adjust automatically based on emissions relative to benchmarks.\nExample: Metcalf’s (2020) proposal adjusts tax rates if cumulative emissions exceed benchmarks."
+    "text": "Carbon Tax Hybrids\nAdjustment Mechanisms in Carbon Taxes\n\nDiscretionary Adjustments:\n\nPrespecified triggering conditions.\nResponses crafted when triggers are breached.\nExample: A five-year review process.\n\nAutomatic Adjustments:\n\nBoth triggering conditions and adjustments are prespecified.\nTax rates adjust automatically based on emissions relative to benchmarks.\nExample: Adjusting tax rates if cumulative emissions exceed benchmarks."
   },
   {
     "objectID": "econ-lec/econ-341-lec-25-2024-1106.html#carbon-tax-hybrids-3",
@@ -4666,7 +4666,7 @@
     "href": "econ-lec/econ-341-lec-25-2024-1106.html#what-are-carbon-offsets",
     "title": "Lecture 25",
     "section": "What Are Carbon Offsets?",
-    "text": "What Are Carbon Offsets?\n\nDefinition: Transferable instruments certified to represent the reduction of one metric ton of CO₂ or CO₂ equivalent (CO₂e).\nMechanism:\n\nInvestment in Projects: Funding emission-reducing projects that are additional to what would occur naturally.\n\nUsage: Entities purchase offsets to reduce their net emissions where allowed."
+    "text": "What Are Carbon Offsets?\n\nVoluntary Markets:\n\nIndividuals: Airline passengers may choose to offset the carbon emissions from their flights by purchasing offsets.\nOrganizations: Companies aiming for net-zero emissions can buy offsets to compensate for emissions they cannot eliminate.\n\nCompliance Markets:\n\nCalifornia Cap-and-Trade Program: Regulated companies use certified offsets to meet legal emission reduction requirements.\nEuropean Emissions Trading Scheme: Firms can use offsets from approved projects to comply with emission caps.\nCarbon Tax Programs: In some cases, offsets canreduce the level of taxable emissions by subtracting certified reductions from actual emissions."
   },
   {
     "objectID": "econ-lec/econ-341-lec-25-2024-1106.html#what-are-carbon-offsets-1",
@@ -4681,5 +4681,12 @@
     "title": "Lecture 25",
     "section": "Breakdown of Revenue Allocation in 2017-2018",
     "text": "Breakdown of Revenue Allocation in 2017-2018\n\nEconomic Development: 11.71%\n\nInvestments in economic diversification and support for transitioning industries.\nFunds infrastructure projects and innovation in green technologies.\n\nTax Cuts: 5.59%\n\nReduction of other taxes to alleviate economic impacts.\nCan benefit businesses and households financially.\n\nDirect Transfers: 2.67%\n\nLump-sum payments or rebates to households.\nAimed at mitigating regressive effects on low-income groups."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-25-2024-1106.html#what-are-carbon-offset-credits",
+    "href": "econ-lec/econ-341-lec-25-2024-1106.html#what-are-carbon-offset-credits",
+    "title": "Lecture 25",
+    "section": "What Are Carbon Offset Credits?",
+    "text": "What Are Carbon Offset Credits?\n\nDefinition: Transferable instruments certified to represent the reduction of one metric ton of CO₂ or CO₂ equivalent (CO₂e).\nMechanism:\n\nInvestment in Projects: Funding emission-reducing projects that are additional to what would occur naturally.\n\nUsage: Entities purchase offsets to reduce their net emissions where allowed."
   }
 ]
