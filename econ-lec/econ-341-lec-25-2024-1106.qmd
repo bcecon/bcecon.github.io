@@ -332,7 +332,7 @@ $DWL_{2}$: DWL from Pollution Taxes
 - **Discretionary Adjustments**:
   - Prespecified triggering conditions.
   - Responses crafted when triggers are breached.
-  - *Example*: A five-year review process.
+  - *Example*: A five-year review process to update carbon tax rate.
 
 - **Automatic Adjustments**:
   - Both triggering conditions and adjustments are prespecified.
@@ -342,9 +342,9 @@ $DWL_{2}$: DWL from Pollution Taxes
 
 
 ## Carbon Tax Hybrids
-### Early Modeling Results
-
-- Flexible carbon tax programs can significantly reduce emissions uncertainty.
+### Adjustment Mechanisms in Carbon Taxes
+- We do not have the real-world example of these adjustment mechanisms in Carbon Taxes.
+- **Modeling Result**: Flexible carbon tax programs can significantly reduce emissions uncertainty.
 - **Potential benefits**:
   - Reducing excessive emissions outcomes.
   - Narrowing the range of expected emissions.
