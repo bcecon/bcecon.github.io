@@ -21,7 +21,7 @@ lec_dates <- c('0826', '0828', '0830',
                '1104', '1106')
 lec_n <- length(lec_dates) 
 
-lec_nos <- 1:lec_n
+lec_nos <- 1:lec_n 
 lec_nos <- sprintf("%02d", lec_nos)
 
 for (i in 1:length(lec_nos)){
