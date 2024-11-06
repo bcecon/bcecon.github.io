@@ -1,0 +1,63 @@
+---
+title: Price vs. Quantity under Uncertainty
+subtitle: Classwork 5
+date: 2024-11-06
+execute: 
+  echo: false
+  eval: true
+  warning: false
+  message: false
+---
+
+```{r}
+#| include: false
+
+library(tidyverse)
+library(hrbrthemes)
+
+
+theme_set(
+  theme_ipsum() +
+  theme(legend.position = "top",
+        legend.title = element_text(face = "bold"),
+        legend.background = element_rect(size = 0.5, 
+                                         linetype = 1, 
+                                         color = "lightgray"),
+        strip.background = element_rect(fill = "#c78ebe"),
+        strip.text = element_text(size = rel(1)),
+        axis.title.x = element_text(size = rel(1.5),
+                                    margin = margin(7.5,0,0,0)),
+        axis.title.y = element_text(size = rel(1.5),
+                                    angle = 0,
+                                    margin = margin(0,7.5,0,0))
+                )
+          )
+
+```
+
+
+<br>
+
+
+Suppose that the (external) damage done by polluting goods $Q$ is known to be $MD = 300 + 5Q$, and the (private) cost and benefit are given by $MC = 100 + 2Q$ and $MB = D_{0} + 2Q$, where $D_{0}$ is not precisely known.
+
+
+## Q1a.
+If $D_{0} = 1,000$, what would be the optimal quantity? What tax would be necessary in order for that to be the equilibrium quantity?
+
+<br>
+
+## Q1b.
+Suppose that, based on the result from Q1a, a cap-and-trade system is imposed to allow the optimal quantity of pollution to be produced. If $D_{0} = 900$, what would be the deadweight loss associated with having the wrong quantity?
+
+<br>
+
+## Q1c.
+Suppose that, based on the result from part Q1a, a tax is imposed to allow the optimal quantity of pollution to be produced. If $D_{0} = 900$, what would be the deadweight loss associated with having the wrong tax level?
+
+<br>
+
+## Q1d.
+If $D_{0}$ is not exactly known, which is likely to give better results, a cap-and-trade system or a tax? What would be the answer to this question if the marginal damage were $300 + 3Q$ instead of $300 + 5Q$?
+
+
