@@ -179,7 +179,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#q1a." id="toc-q1a." class="nav-link active" data-scroll-target="#q1a.">Q1a.</a></li>
   <li><a href="#q1b." id="toc-q1b." class="nav-link" data-scroll-target="#q1b.">Q1b.</a></li>
   <li><a href="#q1c." id="toc-q1c." class="nav-link" data-scroll-target="#q1c.">Q1c.</a></li>
-  <li><a href="#q1d." id="toc-q1d." class="nav-link" data-scroll-target="#q1d.">Q1d.</a></li>
+  <li><a href="#q1d." id="toc-q1d." class="nav-link" data-scroll-target="#q1d.">Q1d.</a>
+  <ul>
+  <li><a href="#the-market-for-ghg-emission-reduction-the-case-of-climate-change" id="toc-the-market-for-ghg-emission-reduction-the-case-of-climate-change" class="nav-link" data-scroll-target="#the-market-for-ghg-emission-reduction-the-case-of-climate-change">The Market for GHG Emission Reduction: The Case of Climate Change</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -213,7 +216,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">November 6, 2024</p>
+      <p class="date-modified">November 8, 2024</p>
     </div>
   </div>
     
@@ -223,27 +226,85 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p><br></p>
-<p>Suppose that the (external) damage done by polluting goods <span class="math inline">\(Q\)</span> is known to be <span class="math inline">\(MD = 300 + 5Q\)</span>, and the (private) cost and benefit are given by <span class="math inline">\(MC = 100 + 2Q\)</span> and <span class="math inline">\(MB = D_{0} + 2Q\)</span>, where <span class="math inline">\(D_{0}\)</span> is not precisely known.</p>
+<p>Suppose that the (external) damage done by polluting goods <span class="math inline">\(Q\)</span> is known to be <span class="math inline">\(MD = 300 + 5Q\)</span>, and the (private) cost and benefit are given by <span class="math inline">\(MC = 100 + 2Q\)</span> and <span class="math inline">\(MB = D_{0} - 2Q\)</span>, where <span class="math inline">\(D_{0}\)</span> is not precisely known.</p>
 <section id="q1a." class="level2">
 <h2 class="anchored" data-anchor-id="q1a.">Q1a.</h2>
 <p>If <span class="math inline">\(D_{0} = 1,000\)</span>, what would be the optimal quantity? What tax would be necessary in order for that to be the equilibrium quantity?</p>
 <p><br></p>
+<p><strong>Answer</strong>:</p>
+<p>Setting <span class="math inline">\(MB = MC + MD\)</span> gives</p>
+<p><span class="math display">\[
+1000 - 2Q = (100 + 2Q) + (300 + 5Q)
+\]</span> Therefore, <span class="math inline">\(Q^{gov} = \frac{200}{3} = 66 + \frac{2}{3}\)</span>.</p>
+<p>The tax that will result in the socially optimal level of pollution is set so that <span class="math inline">\(t^{*} = MD(Q^{*}) = 300 + 5Q^{*} = \frac{1900}{3} = 633 + \frac{1}{3}\)</span>.</p>
+<p><br><br></p>
 </section>
 <section id="q1b." class="level2">
 <h2 class="anchored" data-anchor-id="q1b.">Q1b.</h2>
 <p>Suppose that, based on the result from Q1a, a cap-and-trade system is imposed to allow the optimal quantity of pollution to be produced. If <span class="math inline">\(D_{0} = 900\)</span>, what would be the deadweight loss associated with having the wrong quantity?</p>
-<p><br></p>
+<p><br> <strong>Answer</strong>:</p>
+<p>Setting <span class="math inline">\(MB = MC + MD\)</span> gives</p>
+<p><span class="math display">\[
+900 - 2Q = (100 + 2Q) + (300 + 5Q)
+\]</span> Therefore, <span class="math inline">\(Q^{o} = \frac{500}{9} = 55 + \frac{5}{9}\)</span>, which is less than <span class="math inline">\(Q^{gov}\)</span>.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="econ-341-cw-05_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="864"></p>
+</div>
+</div>
+<p>SMC represents the marginal social cost, which is MC + MD.</p>
+<p>The DWL is: <span class="math display">\[
+\begin{align}
+DWL_{q} &amp;= \frac{1}{2}\times (1000 - 900) \times \left(\frac{200}{3} - \frac{500}{9}\right)\\
+&amp;= \frac{5000}{9}
+\end{align}
+\]</span></p>
+<p><br><br></p>
 </section>
 <section id="q1c." class="level2">
 <h2 class="anchored" data-anchor-id="q1c.">Q1c.</h2>
 <p>Suppose that, based on the result from part Q1a, a tax is imposed to allow the optimal quantity of pollution to be produced. If <span class="math inline">\(D_{0} = 900\)</span>, what would be the deadweight loss associated with having the wrong tax level?</p>
-<p><br></p>
+<p><br> <strong>Answer</strong>:</p>
+<p>Given <span class="math inline">\(t = \frac{1900}{3}\)</span> from Q1a, the firm will set <span class="math inline">\(MB = MC + t\)</span>:</p>
+<p><span class="math display">\[
+900 - 2Q = 100 + 2Q + \frac{1900}{3}.
+\]</span></p>
+<p>Therefore, <span class="math inline">\(Q^{gov-t} = \frac{125}{3} = 41 + \frac{2}{3}\)</span>, which is less than <span class="math inline">\(Q^{o}\)</span>.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="econ-341-cw-05_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="864"></p>
+</div>
+</div>
+<p>The DWL is: <span class="math display">\[
+\begin{align}
+DWL_{p} &amp;= \frac{1}{2}\times \left(900 - 2\frac{125}{3} - \left(400 + 7\frac{125}{3}\right)\right) \times \left(\frac{500}{9} - \frac{125}{3}\right)\\
+&amp;= \frac{1}{2}\times 125 \times \frac{125}{9}\\
+&amp;= \frac{5^6}{2\times3^{2}}
+\end{align}
+\]</span> <br><br></p>
 </section>
 <section id="q1d." class="level2">
 <h2 class="anchored" data-anchor-id="q1d.">Q1d.</h2>
 <p>If <span class="math inline">\(D_{0}\)</span> is not exactly known, which is likely to give better results, a cap-and-trade system or a tax? What would be the answer to this question if the marginal damage were <span class="math inline">\(300 + 3Q\)</span> instead of <span class="math inline">\(300 + 5Q\)</span>?</p>
+<p><strong>Answer</strong>:</p>
+<ul>
+<li><p>If you try other values for <span class="math inline">\(D_{0}\)</span>, you will find that the DWL is always higher for the tax than cap-and-trade, except when <span class="math inline">\(D_{0} = 1,000\)</span>.</p></li>
+<li><p>Because the marginal damage varies so much with quantity, the correct level for the tax is more sensitive to <span class="math inline">\(D_{0}\)</span> than the correct amount of pollution to allow is.</p></li>
+<li><p>If marginal damages are <span class="math inline">\(MD = 300 + 3Q\)</span>, the situation reverses; in that situation, marginal damages vary less with quantity and can be more precisely estimated than the correct quantity can.</p></li>
+</ul>
+<p><br></p>
+<section id="the-market-for-ghg-emission-reduction-the-case-of-climate-change" class="level3">
+<h3 class="anchored" data-anchor-id="the-market-for-ghg-emission-reduction-the-case-of-climate-change">The Market for GHG Emission Reduction: The Case of Climate Change</h3>
+<p>Reducing greenhouse gas (GHG) emissions addresses two distinct aspects: the <strong>stock</strong> of GHGs accumulated in the atmosphere over time and the <strong>flow</strong> of emissions released in the short term.</p>
+<p><img src="https://bcdanl.github.io/lec_figs/stock-flow-co2.jpg" class="img-fluid"></p>
+<ul>
+<li><p><strong>Stock of GHGs</strong>: The stock of GHGs represents the cumulative concentration of greenhouse gases, such as CO₂, in the atmosphere. It is this stock that drives long-term climate impacts, contributing to global warming and climate change. The benefits of emission reductions are associated with limiting this stock, as reducing the atmospheric concentration of GHGs mitigates climate risks and long-term environmental impacts. Importantly, the <strong>marginal benefits of emission reductions are relatively insensitive</strong> to short-term fluctuations in the flow of emissions. This is because benefits largely accrue from lowering the total stock over an extended period.</p></li>
+<li><p><strong>Flow of GHG Emissions</strong>: On the other hand, the <strong>costs of emissions reductions</strong> are closely tied to the flow, or the rate at which emissions are reduced. This flow depends on the current level of emissions output from industries, transportation, and other sectors. Reducing emissions flow—especially in a short timeframe—can be costly, as it often requires rapid changes in technology, infrastructure, or energy sources. Consequently, <strong>marginal costs are highly sensitive</strong> to the current level of reductions, rising steeply as greater reductions are implemented.</p></li>
+</ul>
+<!-- This implies that the marginal benefits of GHG emissions reductions are insensitive to the current level of emissions reductions, while the marginal costs of emissions reductions are highly sensitive to the level of reductions. -->
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
