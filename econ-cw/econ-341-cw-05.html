@@ -235,7 +235,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Setting <span class="math inline">\(MB = MC + MD\)</span> gives</p>
 <p><span class="math display">\[
 1000 - 2Q = (100 + 2Q) + (300 + 5Q)
-\]</span> Therefore, <span class="math inline">\(Q^{gov} = \frac{200}{3} = 66 + \frac{2}{3}\)</span>.</p>
+\]</span> Therefore, <span class="math inline">\(Q^{gov-q} = \frac{200}{3} = 66 + \frac{2}{3}\)</span>.</p>
 <p>The tax that will result in the socially optimal level of pollution is set so that <span class="math inline">\(t^{*} = MD(Q^{*}) = 300 + 5Q^{*} = \frac{1900}{3} = 633 + \frac{1}{3}\)</span>.</p>
 <p><br><br></p>
 </section>
@@ -246,7 +246,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Setting <span class="math inline">\(MB = MC + MD\)</span> gives</p>
 <p><span class="math display">\[
 900 - 2Q = (100 + 2Q) + (300 + 5Q)
-\]</span> Therefore, <span class="math inline">\(Q^{o} = \frac{500}{9} = 55 + \frac{5}{9}\)</span>, which is less than <span class="math inline">\(Q^{gov}\)</span>.</p>
+\]</span> Therefore, <span class="math inline">\(Q^{o} = \frac{500}{9} = 55 + \frac{5}{9}\)</span>, which is less than <span class="math inline">\(Q^{gov-q}\)</span>.</p>
 <div class="cell">
 <div class="cell-output-display">
 <p><img src="econ-341-cw-05_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="864"></p>
@@ -256,7 +256,7 @@ ul.task-list li input[type="checkbox"] {
 <p>The DWL is: <span class="math display">\[
 \begin{align}
 DWL_{q} &amp;= \frac{1}{2}\times (1000 - 900) \times \left(\frac{200}{3} - \frac{500}{9}\right)\\
-&amp;= \frac{5000}{9}
+&amp;= \frac{5000}{9} = \frac{2^{3}\times5^{4}}{3^{2}}
 \end{align}
 \]</span></p>
 <p><br><br></p>
@@ -269,7 +269,7 @@ DWL_{q} &amp;= \frac{1}{2}\times (1000 - 900) \times \left(\frac{200}{3} - \frac
 <p><span class="math display">\[
 900 - 2Q = 100 + 2Q + \frac{1900}{3}.
 \]</span></p>
-<p>Therefore, <span class="math inline">\(Q^{gov-t} = \frac{125}{3} = 41 + \frac{2}{3}\)</span>, which is less than <span class="math inline">\(Q^{o}\)</span>.</p>
+<p>Therefore, <span class="math inline">\(Q^{gov-p} = \frac{125}{3} = 41 + \frac{2}{3}\)</span>, which is less than <span class="math inline">\(Q^{o}\)</span>.</p>
 <div class="cell">
 <div class="cell-output-display">
 <p><img src="econ-341-cw-05_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="864"></p>
@@ -281,7 +281,16 @@ DWL_{p} &amp;= \frac{1}{2}\times \left(900 - 2\frac{125}{3} - \left(400 + 7\frac
 &amp;= \frac{1}{2}\times 125 \times \frac{125}{9}\\
 &amp;= \frac{5^6}{2\times3^{2}}
 \end{align}
-\]</span> <br><br></p>
+\]</span></p>
+<p>Below is to compare which deadweight loss is bigger: <span class="math display">\[
+\begin{align}
+DWL_{p} - DWL_{q} &amp;= \frac{5^6}{2\times3^{2}} - \frac{2^{3}\times5^{4}}{3^{2}}\\
+&amp;= \frac{5^{4}}{3^{2}}\left(\frac{5^{2}}{2} - 2^{3} \right)\\
+&amp;= \frac{5^{4}}{3^{2}}\left(12.5 - 8 \right)\\
+&amp;&gt; 0
+\end{align}
+\]</span> Therefore, the DWL is higher for the tax than cap-and-trade.</p>
+<p><br><br></p>
 </section>
 <section id="q1d." class="level2">
 <h2 class="anchored" data-anchor-id="q1d.">Q1d.</h2>
