@@ -60,7 +60,7 @@ $$
 $$
 Therefore, $Q^{gov-q} = \frac{200}{3} = 66 + \frac{2}{3}$.
 
-The tax that will result in the socially optimal level of pollution is set so that $t^{*} = MD(Q^{*}) = 300 + 5Q^{*} = \frac{1900}{3} = 633 + \frac{1}{3}$.
+The tax that will result in the socially optimal level of pollution is set so that $t^{*} = MD(Q^{gov-q}) = 300 + 5Q^{gov-q} = \frac{1900}{3} = 633 + \frac{1}{3}$.
 
 <br><br>
 
@@ -122,13 +122,13 @@ ggplot(df,
   hrbrthemes::theme_ipsum() +
   theme(axis.title.y = element_text(angle = 0))
 ```
-SMC represents the marginal social cost, which is MC + MD.
+$SMC$ represents the marginal social cost, which is $MC + MD$.
 
 The DWL is:
 $$
 \begin{align}
-DWL_{q} &= \frac{1}{2}\times (1000 - 900) \times \left(\frac{200}{3} - \frac{500}{9}\right)\\
-&= \frac{5000}{9} = \frac{2^{3}\times5^{4}}{3^{2}}
+DWL_{q} &= \frac{1}{2}\times (SMC(Q^{gov-q}) - MB(Q^{gov-q})) \times \left(\frac{200}{3} - \frac{500}{9}\right)\\
+&= \frac{100^2}{18} 
 \end{align}
 $$
 
@@ -141,7 +141,7 @@ Suppose that, based on the result from part Q1a, a tax is imposed to allow the o
 **Answer**:
 
 
-Given $t = \frac{1900}{3}$ from Q1a, the firm will set $MB = MC + t$:
+Given $t^{*} = \frac{1900}{3}$ from Q1a, the firm will set $MB = MC + t^{*}$:
 
 $$
 900 - 2Q = 100 + 2Q + \frac{1900}{3}.
@@ -201,22 +201,18 @@ ggplot(df,
 The DWL is:
 $$
 \begin{align}
-DWL_{p} &= \frac{1}{2}\times \left(900 - 2\frac{125}{3} - \left(400 + 7\frac{125}{3}\right)\right) \times \left(\frac{500}{9} - \frac{125}{3}\right)\\
-&= \frac{1}{2}\times 125 \times \frac{125}{9}\\
-&= \frac{5^6}{2\times3^{2}}
+DWL_{p} &= \frac{1}{2}\times (MB(Q^{gov-p}) - SMC(Q^{gov-p})) \times \left(\frac{500}{9} - \frac{125}{3}\right)\\
+&= \frac{5^5}{18}
 \end{align}
 $$
 
 Below is to compare which deadweight loss is bigger:
 $$
 \begin{align}
-DWL_{p} - DWL_{q} &= \frac{5^6}{2\times3^{2}} - \frac{2^{3}\times5^{4}}{3^{2}}\\
-&= \frac{5^{4}}{3^{2}}\left(\frac{5^{2}}{2} - 2^{3} \right)\\
-&= \frac{5^{4}}{3^{2}}\left(12.5 - 8 \right)\\
-&> 0
+DWL_{q} - DWL_{p} &= \frac{1}{18}(10^4 - 5^5) > 0
 \end{align}
 $$
-Therefore, the DWL is higher for the tax than cap-and-trade.
+Therefore, the DWL is higher for cap-and-trade than the tax.
 
 <br><br>
 
@@ -226,7 +222,7 @@ If $D_{0}$ is not exactly known, which is likely to give better results, a cap-a
 
 **Answer**:
 
-- If you try other values for $D_{0}$, you will find that the DWL is always higher for the tax than cap-and-trade, except when $D_{0} = 1,000$.
+- If you try other values for $D_{0}$, you will find that the DWL is always higher for cap-and-trade than the tax, except when $D_{0} = 1,000$.
 
 - Because the marginal damage varies so much with quantity, the correct level for the tax is more sensitive to $D_{0}$ than the correct amount of pollution to allow is.
 
