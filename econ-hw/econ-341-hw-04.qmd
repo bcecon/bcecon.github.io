@@ -126,7 +126,7 @@ What is the socially optimal level of each firm’s GHG reduction?
 <br>
 
 ## Q3b
-Compare the social efficiency of three possible outcomes: (1) mandating equal GHG emission reductions across all firms; (2) imposing a uniform tax per unit of GHG emissions; or (3) mandating equal GHG emission reductions across all firms but allowing the trading of GHG emission permits.
+Compare the social efficiency of three potential outcomes: (1) mandating equal GHG emission reductions across all firms; (2) imposing a uniform tax per unit of GHG emissions; or (3) mandating equal GHG emission reductions across all firms but allowing the trading of GHG emission permits.
 
 <br>
 
