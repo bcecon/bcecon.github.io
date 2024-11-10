@@ -1278,7 +1278,7 @@
     "href": "index.html#bullet-homework",
     "title": "ECON 341-01: Natural Resource Economics, Fall 2024",
     "section": "\\(\\bullet\\,\\) Homework 💻",
-    "text": "\\(\\bullet\\,\\) Homework 💻\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nHomework 3\n\n\nOctober 30, 2024\n\n\n\n\nHomework 2 - Example Answer\n\n\nOctober 7, 2024\n\n\n\n\nHomework 1 - Example Answer\n\n\nOctober 2, 2024\n\n\n\n\nHomework 2\n\n\nSeptember 25, 2024\n\n\n\n\nHomework 1\n\n\nSeptember 16, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "\\(\\bullet\\,\\) Homework 💻\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nHomework 4\n\n\nNovember 10, 2024\n\n\n\n\nHomework 3\n\n\nOctober 30, 2024\n\n\n\n\nHomework 2 - Example Answer\n\n\nOctober 7, 2024\n\n\n\n\nHomework 1 - Example Answer\n\n\nOctober 2, 2024\n\n\n\n\nHomework 2\n\n\nSeptember 25, 2024\n\n\n\n\nHomework 1\n\n\nSeptember 16, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#bullet-research",
@@ -1586,7 +1586,7 @@
     "href": "listing-econ-341-hw.html",
     "title": "ECON 341 - Homework",
     "section": "",
-    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\n\n\n\nSeptember 16, 2024\n\n\n\n\nHomework 1 - Example Answer\n\n\n\n\n\nOctober 2, 2024\n\n\n\n\nHomework 2\n\n\n\n\n\nSeptember 25, 2024\n\n\n\n\nHomework 2 - Example Answer\n\n\n\n\n\nOctober 7, 2024\n\n\n\n\nHomework 3\n\n\n\n\n\nOctober 30, 2024\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\n\n\n\nSeptember 16, 2024\n\n\n\n\nHomework 1 - Example Answer\n\n\n\n\n\nOctober 2, 2024\n\n\n\n\nHomework 2\n\n\n\n\n\nSeptember 25, 2024\n\n\n\n\nHomework 2 - Example Answer\n\n\n\n\n\nOctober 7, 2024\n\n\n\n\nHomework 3\n\n\n\n\n\nOctober 30, 2024\n\n\n\n\nHomework 4\n\n\n\n\n\nNovember 10, 2024\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "econ-rw/econ-341-rw-03.html",
@@ -4870,5 +4870,103 @@
     "title": "Lecture 26",
     "section": "Conclusion",
     "text": "Conclusion\n\nIntegrating Equity into Climate Policy:\n\nEssential for the effectiveness and acceptance of climate initiatives.\n\nBalancing Environmental and Social Goals:\n\nPolicies must reduce emissions while promoting social justice.\n\nMoving Forward:\n\nContinuous assessment and adjustment to ensure a fair transition."
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-04.html#environmental-and-natural-resource-economics",
+    "href": "econ-hw/econ-341-hw-04.html#environmental-and-natural-resource-economics",
+    "title": "Homework 4",
+    "section": "Environmental and Natural Resource Economics",
+    "text": "Environmental and Natural Resource Economics\n\nQuestion Setup\nConsider two major economies, Country A and Country B, deciding whether to implement strict carbon reduction policies. Each country can choose to either “Reduce Emissions” or “Continue Business as Usual (BAU).” The payoff matrix below shows the economic benefits (in billions of dollars) for each country over a 10-year period.\n\n\nOriginal Payoff Matrix\n\n\n\n\n\n\nCountry B\n\n\nReduce\nBAU\n\n\n\n\nCountry A\nReduce\n(5,5)\n(-2,8)\n\n\nBAU\n(8,-2)\n(1,1)\n\n\n\n\n\nQuestions\n\nWhat is the Nash equilibrium (or equilibria) in this game? Show your work.\nExplain why this game represents a Prisoner’s Dilemma in the context of climate change policy.\nIf the payoffs represent only economic benefits and ignore environmental costs:\n\nWhat would be the socially optimal outcome?\nWhy do countries tend to deviate from this outcome?\n\nSuggest one policy mechanism that could help countries achieve the socially optimal outcome."
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-04.html",
+    "href": "econ-hw/econ-341-hw-04.html",
+    "title": "Homework 4",
+    "section": "",
+    "text": "Suppose that hedonic wage studies indicate a willingness to pay $50 per person for a reduction in the risk of a premature death from an environmental hazard of \\(\\frac{1}{100,000}\\). If the exposed population is 4 million people, what is the implied value of a statistical life?\n\n\n\n\nSuppose that an impending environmental regulation to control that hazard is expected to reduce the risk of premature death from \\(\\frac{6}{100,000}\\) to \\(\\frac{2}{100,000}\\) per year in that exposed population of 4 million people. Your boss asks you to tell them what is the maximum this regulation could cost and still have the benefits be at least as large as the costs. What is your answer?"
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-04.html#q1a.",
+    "href": "econ-hw/econ-341-hw-04.html#q1a.",
+    "title": "Homework 4",
+    "section": "Q1a.",
+    "text": "Q1a.\nWhat is the Nash equilibrium (or equilibria) in this game? Show your work."
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-04.html#q1b",
+    "href": "econ-hw/econ-341-hw-04.html#q1b",
+    "title": "Homework 4",
+    "section": "",
+    "text": "Suppose that an impending environmental regulation to control that hazard is expected to reduce the risk of premature death from \\(\\frac{6}{100,000}\\) to \\(\\frac{2}{100,000}\\) per year in that exposed population of 4 million people. Your boss asks you to tell them what is the maximum this regulation could cost and still have the benefits be at least as large as the costs. What is your answer?"
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-04.html#q1c",
+    "href": "econ-hw/econ-341-hw-04.html#q1c",
+    "title": "Homework 4",
+    "section": "Q1c",
+    "text": "Q1c\nIf the payoffs represent only economic benefits and ignore environmental costs:\n\nWhat would be the socially optimal outcome?\nWhy do countries tend to deviate from this outcome?"
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-04.html#q1d",
+    "href": "econ-hw/econ-341-hw-04.html#q1d",
+    "title": "Homework 4",
+    "section": "Q1d",
+    "text": "Q1d\nSuggest one policy mechanism that could help countries achieve the socially optimal outcome. Provide the payoff matrix with your policy mechanism."
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-04.html#q2a",
+    "href": "econ-hw/econ-341-hw-04.html#q2a",
+    "title": "Homework 4",
+    "section": "Q2a",
+    "text": "Q2a\nSuppose that hedonic wage studies indicate a willingness to pay $50 per person for a reduction in the risk of a premature death from an environmental hazard of 1/100,000. If the exposed population is 4 million people, what is the implied value of a statistical life?"
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-04.html#q2b",
+    "href": "econ-hw/econ-341-hw-04.html#q2b",
+    "title": "Homework 4",
+    "section": "Q2b",
+    "text": "Q2b\nExplain why this game represents a Prisoner’s Dilemma in the context of climate change policy."
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-04.html#q3a",
+    "href": "econ-hw/econ-341-hw-04.html#q3a",
+    "title": "Homework 4",
+    "section": "Q3a",
+    "text": "Q3a\nWhat is the socially optimal level of each firm’s GHG reduction?"
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-04.html#q3b",
+    "href": "econ-hw/econ-341-hw-04.html#q3b",
+    "title": "Homework 4",
+    "section": "Q3b",
+    "text": "Q3b\nCompare the social efficiency of three possible outcomes: (1) mandating equal GHG emission reductions across all firms; (2) imposing a uniform tax per unit of GHG emissions; or (3) mandating equal GHG emission reductions across all firms but allowing the trading of GHG emission permits."
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-04.html#q1a",
+    "href": "econ-hw/econ-341-hw-04.html#q1a",
+    "title": "Homework 4",
+    "section": "",
+    "text": "Suppose that hedonic wage studies indicate a willingness to pay $50 per person for a reduction in the risk of a premature death from an environmental hazard of \\(\\frac{1}{100,000}\\). If the exposed population is 4 million people, what is the implied value of a statistical life?"
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-04.html#q2a.",
+    "href": "econ-hw/econ-341-hw-04.html#q2a.",
+    "title": "Homework 4",
+    "section": "Q2a.",
+    "text": "Q2a.\nWhat is the Nash equilibrium (or equilibria) in this game? Show your work."
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-04.html#q2c",
+    "href": "econ-hw/econ-341-hw-04.html#q2c",
+    "title": "Homework 4",
+    "section": "Q2c",
+    "text": "Q2c\nIf the payoffs represent only economic benefits and ignore environmental costs:\n\nWhat would be the socially optimal outcome?\nWhy do countries tend to deviate from this outcome?"
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-04.html#q2d",
+    "href": "econ-hw/econ-341-hw-04.html#q2d",
+    "title": "Homework 4",
+    "section": "Q2d",
+    "text": "Q2d\nConsider implementing a policy mechanism to modify the payoff structure of this climate agreement game.\n\nSuggest and explain a specific policy mechanism (e.g., carbon tax, trade sanctions, or technology subsidies) that could alter the payoffs.\nProvide a new payoff matrix that incorporates your suggested policy mechanism. Show all calculations for the modified payoffs.\nProve that under your proposed policy:\n\n\nThe socially optimal outcome (Reduce, Reduce) becomes a Nash equilibrium\n\n\nDiscuss one potential challenge in implementing your proposed policy mechanism in the real world."
   }
 ]
