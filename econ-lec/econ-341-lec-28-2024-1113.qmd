@@ -1,0 +1,1140 @@
+---
+title: Lecture 28
+subtitle: "Climate Change III: Adaptation"
+format:
+  clean-revealjs:
+    self-contained: false
+    chalkboard: true
+    incremental: true
+    code-annotations: hover
+    scrollable: false
+
+    # logo: logo-title-slide.png
+author:
+  - name: Byeong-Hak Choe
+    email: bchoe@geneseo.edu
+    affiliations: SUNY Geneseo
+date: 2024-11-13
+execute: 
+  eval: true
+  echo: false
+callout-icon: false
+
+from: markdown+emoji
+include-after-body: target-hover.html # effect.html
+
+# bibliography: refs.bib
+---
+
+
+```{r setup}
+#| include: false
+
+library(tidyverse)
+library(ggthemes)
+library(hrbrthemes)
+
+theme_set(theme_fivethirtyeight() +
+            theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(10,0,0,0)),
+                axis.title.y = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(0,10,0,0)),
+                axis.text.x = element_text(size = rel(1.75)),
+                axis.text.y = element_text(size = rel(1.75)),
+                strip.text = element_text(size = rel(1.5)),
+                legend.position = "top",
+                legend.text = element_text(size = rel(1.5)),
+                legend.title = element_text(size = rel(1.5))
+                )
+          )
+
+
+# Set global options for color-blind-friendly scales
+# scale_colour_discrete <- function(...) scale_colour_viridis_d(...)
+scale_colour_discrete <- function(...) scale_color_colorblind(...)
+scale_fill_discrete <- function(...) scale_fill_colorblind(...)
+
+```
+
+
+# Climate Adaptation: Flood Risks  {background-color="#1c4982"}
+## Climate Adaptation: Flood Risks
+### Introduction
+
+- **Natural Disasters Intensified by Climate Change**:
+  - Hurricanes
+  - Floods
+  - Wildfires
+
+- **Record-Breaking Disasters**:
+  - Year 2021: 47 weather disasters costing over **$1 billion** each.
+  - Top three flooding events in the U.S., Central Europe, and China totaled over **$150 billion** in damages.
+
+
+## Climate Adaptation: Flood Risks
+### Economic Impact of Flooding
+
+- **2021 Weather-Related Disasters**:
+  - Third costliest on record: **$329 billion** in damages.
+- **Costliest Year**: 2017 with **$519 billion** in damages.
+- **Global Flood Damages**:
+  - Germany: **$20 billion** (2021)
+  - Belgium: **$1.7 billion**
+  - China: **$30 billion**
+
+
+## Climate Adaptation: Flood Risks
+### The Need for Resilience
+> **"Capacity of social, economic, and environmental systems to cope with a hazardous event or trend or disturbance..."** IPCC
+
+> **"Resilience is the ability to prepare and plan for, absorb, recover from, and more successfully adapt to adverse events."** National Research Council (2012)
+
+
+- **Definition of Resilience**:
+  - **Ecological Perspective**: Ability of an ecosystem to recover from shocks.
+
+
+
+## Climate Adaptation: Flood Risks
+### Benefits of Building Resilience
+
+- **Economic Savings**:
+  - For every **$1** spent on pre-disaster resilience, about **$4** saved in post-disaster damages (Multihazard Mitigation Council).
+- **Strategies to Promote Resilience**:
+  - Providing better information on risks and mitigation.
+  - Implementing policies that incentivize private risk reduction.
+
+
+## Flood Insurance in the United States
+### Importance of Flood Insurance
+
+- **Floods**:
+  - Among the most prevalent and costly natural disasters.
+- **National Flood Insurance Program (NFIP)**:
+  - Established in 1968 by the National Flood Insurance Act.
+  - Managed by the Federal Emergency Management Agency (FEMA).
+
+
+## Flood Insurance in the United States
+### Major Disaster Declarations 1980 to 2017
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/kousky-2020-flood-risk-housing-1.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+
+## Flood Insurance in the United States
+### Goals of NFIP
+
+1. **Provide Flood Insurance**:
+   - Address lack of private insurance due to perceived uninsurable risks.
+2. **Improve Floodplain Management**:
+   - Encourage better land use and building practices.
+3. **Develop Floodplain Maps**:
+   - Identify flood-prone areas and assess risk levels.
+
+
+## Flood Insurance in the United States
+### Challenges Facing NFIP
+
+- **Financial Viability**:
+  - Increased storm frequency and intensity strain the program.
+  - Hurricane Katrina (2005) and subsequent storms created significant debt.
+- **Debt Accumulation**:
+  - NFIP borrows from the U.S. Treasury to cover shortfalls.
+  - Program has been in financial distress since 2005.
+
+
+## Flood Insurance in the United States
+### NFIP Debt
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig14-3.png" style="width: 80%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+
+
+## Flood Insurance in the United States
+### Total NFIP Claims Paid by Year (2018 values)
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/kousky-2020-flood-risk-housing-2.png" style="width: 80%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+
+## Flood Insurance in the United States
+### NFIP Policies-In-Force Over Time
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/kousky-2020-flood-risk-housing-4.png" style="width: 80%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+
+
+## Flood Insurance in the United States
+### Total Property Value
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/kousky-2020-flood-risk-housing-3.png" style="width: 70%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+
+## Flood Insurance in the United States
+### Top 30 Counties in the U.S. by the Number of NFIP Policies
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/kousky-2020-flood-risk-housing-5.png" style="width: 80%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+
+
+## Flood Insurance in the United States
+### Average Annual Loss in 2020 (in $ million)
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/nature-2022-flood-risk-1.png" style="width: 80%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+
+## Flood Insurance in the United States
+### Average Annual Loss (AAL) in 2020 (in %)
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/nature-2022-flood-risk-2.png" style="width: 80%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+
+## Flood Insurance in the United States
+### Average Annual Loss (AAL) in 2020 (in %)
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/nature-2022-flood-risk-3.png" style="width: 80%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+
+
+## Flood Insurance in the United States
+### AAL Increase by 2050 (in $1,000)
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/nature-2022-flood-risk-4.png" style="width: 80%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+
+
+## Flood Insurance in the United States
+### Increase in Average Annaul Exposure to Flooding Due to Climate Change (in %)
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/nature-2022-flood-risk-5.png" style="width: 70%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+
+
+## Enhancing Resilience with Flood Insurance
+### Efficiency Criteria for Flood Insurance
+  1. **Premium Levels**:
+     - Must be high enough to cover claims.
+  2. **Risk-Reflective Premium Structure**:
+     - Premiums should reflect the actual severity of individual risks.
+
+## Enhancing Resilience with Flood Insurance
+### Issues with NFIP Implementation
+  - **Underpriced Premiums**:
+    - Historically too low to cover claims.
+    - 2018 NFIP debt: **$20.5 billion**.
+  - **Outdated Risk Maps**:
+    - Fail to account for intensified flood risks due to climate change.
+  - **Ineffective Incentives**:
+    - Limited discounts for risk-reducing measures.
+    - Encourages rebuilding in high-risk areas without mitigation.
+
+
+## Enhancing Resilience with Flood Insurance
+
+- **Consequences of Inefficient Design**
+  - **Repeated Losses**:
+    - Properties flooding multiple times with NFIP paying for each rebuild.
+    - Example: A home flooded **40 times**, receiving **$428,379** in payments.
+  - **Grandfathering Policies**:
+    - Prevent premiums from increasing to reflect changing risks.
+    - Leads to financial shortfalls and misaligned risk signals.
+
+- **Existence of NFIP is Not Enough**:
+  - Effective design and implementation are crucial for resilience.
+  - Current structure may increase damages rather than mitigate them.
+
+
+
+## Proactive vs. Reactive Adaptation Strategies
+### Reactive Strategies
+
+- **Characteristics**:
+  - Actions taken after a disaster occurs.
+  - Example: Rebuilding homes after a flood.
+- **Issues**:
+  - Subsidized insurance creates **moral hazard**.
+    - Lack of incentive to reduce risk.
+  - Taxpayers bear the cost of repeated damages.
+
+
+## Moral Hazard and the NFIP
+### What is Moral Hazard?
+
+- **Definition**: Moral hazard occurs when one party engages in riskier behavior because they do not bear the full consequences of that behavior.
+- **Example in Insurance**: Policyholders may take fewer precautions or engage in risky behaviors because they know their losses will be covered by insurance.
+
+
+- The NFIP provides flood insurance to properties in flood-prone areas, often at subsidized or below-market rates.
+- **Moral Hazard Issue**: With flood insurance available, property owners may feel secure rebuilding or staying in high-risk areas, even after repeated flooding.
+- This can lead to **increased flood damages and repeated claims**, driving up the program’s costs.
+
+
+## Moral Hazard and the NFIP
+### Addressing Moral Hazard in the NFIP
+
+<div style="display:block; margin:-15px;"></div>
+
+1. **Premium Adjustments**:
+   - Adjusting premiums to reflect actual flood risk encourages safer property choices.
+  
+2. **Incentives for Mitigation**:
+   - Offering premium discounts for floodproofing, elevating buildings, or other mitigation measures.
+  
+3. **Restrictions on Rebuilding**:
+   - Limiting NFIP coverage for properties with repeated flood claims or requiring mitigation efforts for future coverage.
+  
+4. **Community-Based Mitigation**:
+   - The NFIP’s Community Rating System (CRS) incentivizes communities to implement flood management practices, potentially reducing moral hazard.
+
+
+
+## Proactive vs. Reactive Adaptation Strategies
+### Proactive Strategies
+
+- **Characteristics**:
+  - Actions taken in anticipation of future risks.
+  - Focus on reducing vulnerability before disasters.
+- **Examples**:
+  - Raising insurance premiums to reflect true risk.
+  - Investing in adaptation infrastructure.
+  - Implementing stricter building codes and zoning laws.
+
+
+## Proactive vs. Reactive Adaptation Strategies
+### Recent Reforms in NFIP
+
+1. **Biggert–Waters Flood Insurance Reform Act (2012)**:
+   - Aimed to make NFIP financially sound.
+   - Raised insurance rates and reduced subsidies.
+2. **Homeowner Flood Insurance Affordability Act (2014)**:
+   - Capped rate increases at 18% annually.
+   - Repealed certain rate increases for affordability.
+3. **Community Rating System (CRS)**:
+   - Offers premium discounts for community-wide mitigation efforts.
+   - Scores communities from 1 to 10, with discounts up to 45%.
+
+
+## Proactive vs. Reactive Adaptation Strategies
+### Disaster Recovery Reform Act (DRRA) of 2018
+
+- **Purpose**:
+  - Modify Hazard Mitigation Grants Program.
+  - Increase mitigation and improve resilience.
+- **Key Features**:
+  - Funds public infrastructure projects **before** disasters.
+  - Allows for alternative resilience options besides rebuilding.
+  - Allocates 6% of FEMA's post-disaster assistance to pre-disaster mitigation.
+
+## Proactive vs. Reactive Adaptation Strategies
+### Risk Rating 2.0 (2021)
+
+- **Update to NFIP's Pricing Methodology**:
+  - Reflects individual property's unique flood risk.
+  - Aims to create more equitable pricing.
+  - Addresses previous inequities where high-valued homes paid too little.
+
+
+
+## Rethinking Flood Insurance
+### Flood Risk Perceptions and Low Take-Up Rates
+
+<div style="display:block; margin:-10px;"></div>
+
+- **Statistics**:
+  - Only about **49%** of residents in flood zones purchase insurance.
+- **Reasons for Underinsurance** (from Behavioral Economics Insights):
+
+:::: {.columns}
+
+::: {.column width="50%"}
+1. **Myopia**:
+   - Focus on immediate costs over long-term benefits.
+2. **Amnesia**:
+   - Forgetting past disasters and their lessons.
+3. **Optimism**:
+   - Underestimating the likelihood of future losses.
+
+:::
+
+::: {.column width="50%"}
+4. **Inertia**:
+   - Preference for the status quo due to uncertainty.
+5. **Simplification**:
+   - Ignoring complex risk information.
+6. **Herding**:
+   - Basing decisions on others' actions.
+:::
+::::
+
+
+## Rethinking Flood Insurance
+### Behavioral Biases Impacting Risk Preparedness
+
+- **Myopia**: High initial costs overshadow potential future savings.
+- **Amnesia**: Lack of recent disasters reduces perceived need for insurance.
+- **Optimism**: Underestimation of risk ("It won't happen to me").
+- **Inertia**: Procrastination deters insurance purchases.
+- **Simplification**: Complex risks are underestimated.
+- **Herding**: Decisions influenced more by neighbors than personal risk.
+
+
+## Rethinking Flood Insurance
+### Implications
+
+- **Need for Improved Risk Communication**:
+  - Make probabilities and risks more understandable.
+- **Policy Interventions**:
+  - Encourage or mandate insurance purchases.
+  - Provide incentives for risk-reducing measures.
+
+
+
+## Benefits of Proactive Adaptation Strategies
+### Cost Savings Through Mitigation
+
+- **National Institute of Building Sciences Reports**:
+  - **Every $1 spent** on mitigation saves:
+    - **$6** in future disaster costs (federal grants).
+    - **$11** when meeting current building codes.
+    - **$4** when exceeding current building codes.
+
+## Benefits of Proactive Adaptation Strategies
+### Breakdown by Risk Type
+
+| Adaptation Strategy                     | Benefit-Cost Ratio |
+|--|--|
+| Federal Grants                          | 6:1                |
+| Meeting Current Building Codes          | 11:1               |
+| Exceeding Building Codes                | 4:1                |
+| Upgrading Utilities & Infrastructure    | 4:1                |
+
+
+## Benefits of Proactive Adaptation Strategies
+### Benefits Included in Analysis
+
+- **Reduced Casualties**:
+  - Preventing deaths and nonfatal injuries.
+- **Economic Benefits**:
+  - Reduced repair and replacement costs.
+  - Avoided business interruptions.
+- **Social Benefits**:
+  - Reduced displacement and sheltering costs.
+  - Prevention of PTSD cases.
+- **Job Creation**:
+  - Designing buildings to exceed codes can create **87,000** new long-term jobs.
+
+
+## Benefits of Proactive Adaptation Strategies
+
+- **Proactive Adaptation Increases Efficiency**:
+  - Reduces long-term costs.
+  - Enhances community resilience.
+  - Shifts focus from reactive rebuilding to proactive planning.
+
+
+
+## Sea Level Rise and Adaptation
+### The Challenge of Rising Seas
+
+- **Sea Level Rise**:
+  - Varies by location and emissions scenario.
+  - Expected to continue rising at increasing rates.
+- **Vulnerability Assessment Tools**:
+  - **NOAA Sea Level Rise Viewer**:
+    - Visualizes potential impacts.
+    - Identifies at-risk infrastructure and populations.
+
+## Sea Level Rise and Adaptation
+### Global and National Exposure
+
+- **Global Population at Risk**:
+  - **40%** of world's population (2.4 billion people) live within 100 km of the coast.
+- **U.S. Coastal Exposure**:
+  - **128 million** people live on the coast.
+  - **40%** live in areas with elevated coastal hazard risk.
+  - Coastal counties contribute over **$8.3 trillion** in goods and services annually.
+
+
+## Sea Level Rise and Adaptation
+### Adaptation Strategies for Sea Level Rise
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+#### 1. **Hard Infrastructure**:
+- **Defensive Structures**: Seawalls, bulkheads.
+  - Harden shoreline to prevent erosion.
+  - **Costs**:
+    - Expensive to build and maintain.
+    - Can disrupt natural ecosystems and neighboring properties.
+
+:::
+
+::: {.column width="50%"}
+#### 2. **Soft Infrastructure**:
+- **Beach Renourishment**:
+  - Adding sand to eroding beaches.
+  - **Benefits**:
+    - Maintains natural appearance.
+    - Provides temporary protection.
+
+:::
+::::
+
+## Sea Level Rise and Adaptation
+### Adaptation Strategies for Sea Level Rise
+:::: {.columns}
+
+::: {.column width="50%"}
+#### 3. **Green Infrastructure**:
+- **Living Shorelines**:
+  - Use of natural materials (plants, sand, rocks).
+  - **Benefits**:
+    - Enhances natural habitats.
+    - Cost-effective and sustainable.
+    - Requires maintenance and time to establish.
+
+:::
+::: {.column width="50%"}
+#### 4. **Managed Retreat**:
+- **Relocation**:
+  - Moving people and infrastructure away from high-risk areas.
+  - **Challenges**:
+    - Social and economic implications.
+    - Requires significant planning and resources.
+
+:::
+::::
+
+
+
+
+<!-- # Climate Adaptation: Wildfire Risk and Management  {background-color="#1c4982"} -->
+
+<!-- ## Increasing Severity of Wildfires -->
+
+<!-- - **Climate Change Effects**: -->
+<!--   - **Drought and Drier Conditions**: Prolonged periods without rain. -->
+<!--   - **Longer Fire Seasons**: Extended periods suitable for fires. -->
+<!-- - **Global Risk Increase**: -->
+<!--   - Wildfires occurring in previously low-risk areas. -->
+<!-- - **Statistics**: -->
+<!--   - In the western U.S., average annual area burned increased by **1200%** from the 1970s to the 2000s. -->
+<!--   - In 2020, U.S. wildfire damages totaled **$16.5 billion USD**. -->
+
+<!-- ## Health and Environmental Impacts -->
+
+<!-- - **Air Quality Degradation**: -->
+<!--   - Woodsmoke contributes to **25%** of Americans' exposure to **PM2.5** (fine particulate matter). -->
+<!--   - Associated with increased mortality and morbidity. -->
+<!-- - **Case Studies**: -->
+<!--   - **Brazilian Amazon Fires**: Smoke responsible for nearly **3,000** premature deaths. -->
+<!--   - **Australian Fires (2019-2020)**: Health care costs increased by **$1.95 billion AUD**. -->
+
+
+
+<!-- ## Economic Costs Beyond Immediate Damages -->
+
+<!-- - **Infrastructure Damage**: -->
+<!--   - Runoff and erosion leading to water quality issues. -->
+<!--   - Damage to roads, bridges, and reservoirs. -->
+<!-- - **Agricultural and Recreational Losses**: -->
+<!--   - Soil degradation affecting farming. -->
+<!--   - Loss of recreational areas due to fire damage. -->
+
+
+
+<!-- ## Adaptation Policies for Wildfire Risk -->
+<!-- ### Fuel Management -->
+
+<!-- - **Prescribed Burns**: -->
+<!--   - Controlled fires to reduce fuel load. -->
+<!--   - Mimics natural fire cycles. -->
+<!-- - **Forest Thinning**: -->
+<!--   - Removal of excess vegetation. -->
+<!--   - Reduces intensity of potential fires. -->
+
+<!-- ## Adaptation Policies for Wildfire Risk -->
+<!-- ### Response Preparedness -->
+
+<!-- - **Increasing Firefighting Personnel**: -->
+<!--   - More resources to combat fires. -->
+<!-- - **Improved Information Coverage**: -->
+<!--   - Early detection systems. -->
+<!--   - Public awareness campaigns. -->
+
+<!-- ## Adaptation Policies for Wildfire Risk -->
+<!-- ### Utility Policies -->
+<!-- - **Power Shutoffs**: -->
+<!--   - Utilities shut off power during high fire risk conditions. -->
+<!--   - Prevents fires caused by electrical equipment. -->
+
+<!-- ## Adaptation Policies for Wildfire Risk -->
+<!-- ### Building Codes and Development Restrictions -->
+
+<!-- - **Wildfire-Resistant Building Codes**: -->
+<!--   - Use of fire-resistant materials. -->
+<!--   - Design standards to prevent fire spread. -->
+<!-- - **Restricting Development**: -->
+<!--   - Limiting construction in fire-prone areas. -->
+<!--   - Zoning laws to manage land use. -->
+
+
+
+<!-- ### Example 14.4: Mandatory Adaptation Benefits -->
+
+<!-- ## Study by Baylis and Boomhower -->
+
+<!-- - **Objective**: Assess effectiveness of mandatory vs. voluntary adaptation. -->
+<!-- - **Data**: Property-level data for U.S. homes exposed to wildfire (2000-2020). -->
+
+<!-- ## Findings -->
+
+<!-- - **Building Codes Reduce Losses**: -->
+<!--   - Reduced average structure loss by **40%**. -->
+<!--   - Reduced loss to neighboring homes by **6%**. -->
+<!-- - **Spatial Externalities**: -->
+<!--   - Benefits extend beyond individual properties. -->
+<!-- - **Benefit-Cost Analysis**: -->
+<!--   - Building codes pass the test for new homes. -->
+<!--   - Not cost-effective for retrofitting existing homes. -->
+
+<!-- ## Equity Considerations -->
+
+<!-- - **Value of Homes**: -->
+<!--   - Higher-value homes more likely to benefit. -->
+<!-- - **Fuel Management Bias**: -->
+<!--   - More likely near higher socio-economic status neighborhoods. -->
+<!-- - **Policy Implications**: -->
+<!--   - Need for equitable fire suppression efforts. -->
+<!--   - Universal building codes can promote fairness. -->
+
+
+
+<!-- ## Climate Adaptation: Managing Water Shortages -->
+
+<!-- ## Dual Impacts of Climate Change -->
+
+<!-- - **Flooding**: Increased frequency and intensity in some areas. -->
+<!-- - **Water Scarcity**: Increased droughts and shortages in others. -->
+
+<!-- ## Strategies to Address Water Shortages -->
+
+<!-- - **Increasing Water Supplies**: -->
+<!--   - **Desalination**: Converting seawater to freshwater. -->
+<!--   - **Wastewater Recycling**: Treating and reusing water. -->
+<!--   - **Rainwater Harvesting**: Capturing and storing rainwater. -->
+
+<!-- - **Demand Management**: -->
+<!--   - **Conservation**: Encouraging reduced water use. -->
+<!--   - **Pricing Mechanisms**: Adjusting prices to reflect scarcity. -->
+
+
+
+<!-- ## Efficient Allocation of Scarce Water -->
+
+<!-- ## Surface Water vs. Groundwater -->
+
+<!-- - **Surface Water**: -->
+<!--   - Allocation among users without affecting future supplies. -->
+<!-- - **Groundwater**: -->
+<!--   - Withdrawals impact future availability. -->
+<!--   - Requires intertemporal allocation. -->
+
+<!-- ## Principles of Efficient Allocation -->
+
+<!-- - **Equalizing Marginal Net Benefits (MNB)**: -->
+<!--   - Water should be allocated so MNB is equal across all uses. -->
+<!--   - Maximizes total net benefits from water use. -->
+
+<!-- ## Illustration with Figure 14.4 -->
+
+<!-- - **Supply Curve (ST)**: Total available water (QT). -->
+<!-- - **Demand Curves**: -->
+<!--   - **User A**: Higher willingness to pay (e.g., municipality). -->
+<!--   - **User B**: Lower willingness to pay (e.g., agriculture). -->
+<!-- - **Efficient Allocation**: -->
+<!--   - **Q\*A** to User A. -->
+<!--   - **Q\*B** to User B. -->
+<!--   - Marginal net benefits are equalized. -->
+
+<!-- ## Dealing with Supply Variability -->
+
+<!-- - **Adjusting Allocations**: -->
+<!--   - In low supply scenarios, higher-value users receive more. -->
+<!--   - Users with alternatives or lower MNB receive less. -->
+<!-- - **Inefficient Allocations**: -->
+<!--   - Fixed proportions or guaranteed amounts may not be efficient. -->
+<!--   - Policies should be flexible to adjust to varying conditions. -->
+
+
+
+<!-- ## Legal and Institutional Barriers -->
+
+<!-- ## Historical Water Rights -->
+
+<!-- - **Riparian Rights**: -->
+<!--   - Rights tied to land adjacent to water. -->
+<!--   - Limited transferability. -->
+<!-- - **Prior Appropriation Doctrine**: -->
+<!--   - "First in time, first in right." -->
+<!--   - Seniority-based allocation, not based on economic efficiency. -->
+
+<!-- ## Impact on Efficiency -->
+
+<!-- - **Inflexibility**: -->
+<!--   - Water cannot easily move to highest-valued uses. -->
+<!-- - **Inequitable During Scarcity**: -->
+<!--   - Senior rights holders maintain access despite lower MNB. -->
+<!-- - **Example**: -->
+<!--   - Colorado River Compact allocations do not reflect current conditions or efficient use. -->
+
+
+
+<!-- ## Desalination and Wastewater Recycling -->
+
+<!-- ## Addressing Water Scarcity -->
+
+<!-- - **Global Water Stress**: -->
+<!--   - Over **2 billion** people in high water stress areas. -->
+<!-- - **Technological Solutions**: -->
+<!--   - **Desalination**: Converting seawater to potable water. -->
+<!--   - **Wastewater Recycling**: Treating sewage for reuse. -->
+
+<!-- ## Desalination Technologies -->
+
+<!-- - **Methods**: -->
+<!--   - **Reverse Osmosis**: Pressurizing seawater through membranes. -->
+<!--   - **Nanofiltration and Ultrafiltration**. -->
+
+<!-- - **Global Adoption**: -->
+<!--   - Over **21,000** desalination plants in **150+** countries. -->
+<!--   - Producing **25 billion gallons** per day. -->
+
+<!-- ## Economic Considerations -->
+
+<!-- - **High Costs**: -->
+<!--   - Energy-intensive processes. -->
+<!--   - Costs range from **$750 to $2,000 per acre-foot**. -->
+<!-- - **Case Studies**: -->
+<!--   - **Carlsbad Plant, California**: Supplies 10% of regional water at higher cost. -->
+<!--   - **Example 14.6**: China's costly projects to address water scarcity. -->
+
+<!-- ## Environmental Concerns -->
+
+<!-- - **Energy Use**: -->
+<!--   - Significant carbon footprint. -->
+<!-- - **Brine Disposal**: -->
+<!--   - High-salinity wastewater affects marine life. -->
+<!-- - **Intake Impacts**: -->
+<!--   - Harm to small organisms and larvae. -->
+
+
+
+<!-- ## Example 14.6: Moving Rivers or Desalting the Sea? -->
+
+<!-- ## China's Water Scarcity Challenge -->
+
+<!-- - **Northern China**: Extremely scarce freshwater resources. -->
+<!-- - **Projects**: -->
+<!--   - **Water Diversion**: From Yangzi River Basin. -->
+<!--   - **Desalination Plant**: Beijing Power and Desalination Plant. -->
+
+<!-- ## Economic Analysis -->
+
+<!-- - **Costs**: -->
+<!--   - Desalinated water: **8 yuan/m³** (~$1.30). -->
+<!--   - Diverted water: **10 yuan/m³**. -->
+<!-- - **Pricing Issues**: -->
+<!--   - Water prices charged to consumers are lower than production costs. -->
+<!--   - Sustainability concerns due to subsidies. -->
+
+<!-- ## Environmental and Social Impacts -->
+
+<!-- - **Energy Intensity**: -->
+<!--   - Reliance on coal increases emissions. -->
+<!-- - **Downstream Effects**: -->
+<!--   - Diversion impacts water availability in southern China. -->
+
+
+
+<!-- ## Roles for Public and Private Institutions -->
+
+<!-- ## Private Adaptation Actions -->
+
+<!-- - **Evidence of Private Adaptation**: -->
+<!--   - **Agriculture**: Crop choices adjusted to climate conditions. -->
+<!--   - **Energy Consumption**: Changes in usage patterns. -->
+
+<!-- - **Limitations**: -->
+<!--   - Actions may not be sufficient or fully effective. -->
+<!--   - Barriers inhibit optimal private responses. -->
+
+<!-- ## Barriers to Private Adaptation -->
+
+<!-- - **Property Rights Issues**: -->
+<!--   - Renters vs. owners have different incentives. -->
+<!--   - Ambiguous rights reduce investment in adaptation. -->
+
+<!-- - **Information Gaps**: -->
+<!--   - Lack of knowledge about risks and adaptation options. -->
+<!--   - Information as a public good leads to under-provision. -->
+
+<!-- - **Affordability Constraints**: -->
+<!--   - Low-income individuals may lack resources to adapt. -->
+<!--   - Limited access to financing. -->
+
+<!-- - **Dependence on Public Infrastructure**: -->
+<!--   - Effectiveness of private actions linked to public investments. -->
+
+
+
+<!-- ## Government Roles in Adaptation -->
+
+<!-- ## Correcting Market Failures -->
+
+<!-- - **Policy Interventions**: -->
+<!--   - Address distortions that lead to inefficient adaptation. -->
+<!-- - **Providing Information**: -->
+<!--   - Disseminate data on climate risks and adaptation strategies. -->
+
+<!-- ## Financial Support -->
+
+<!-- - **Assistance Programs**: -->
+<!--   - Help vulnerable populations with adaptation costs. -->
+<!-- - **Incentives**: -->
+<!--   - Subsidies or tax credits for adaptation investments. -->
+
+<!-- ## Public Infrastructure Planning -->
+
+<!-- - **Adaptation of Public Assets**: -->
+<!--   - Roads, bridges, and public transit systems. -->
+<!-- - **Long-Term Planning**: -->
+<!--   - Integrate climate projections into infrastructure development. -->
+
+
+
+<!-- ## Conclusion -->
+
+<!-- ## The Need for Integrated Adaptation Strategies -->
+
+<!-- - **Wildfires and Water Scarcity**: -->
+<!--   - Increasing threats require proactive adaptation. -->
+<!-- - **Combination of Policies**: -->
+<!--   - Fuel management, building codes, water pricing, and technological solutions. -->
+
+<!-- ## Economic Tools for Decision-Making -->
+
+<!-- - **Benefit-Cost Analysis**: -->
+<!--   - Evaluates the efficiency of adaptation investments. -->
+<!-- - **Addressing Equity**: -->
+<!--   - Policies should consider distributional impacts. -->
+
+<!-- ## Collaborative Efforts -->
+
+<!-- - **Public and Private Sectors**: -->
+<!--   - Both have roles in effective adaptation. -->
+<!-- - **Community Engagement**: -->
+<!--   - Involving stakeholders leads to better outcomes. -->
+
+
+<!-- ## Definition of Adaptation (IPCC, 2018) -->
+
+<!-- > **In human systems**, the process of adjustment to actual or expected climate and its effects, in order to moderate harm or exploit beneficial opportunities. -->
+<!-- > -->
+<!-- > **In natural systems**, the process of adjustment to actual climate and its effects; human intervention may facilitate adjustment to expected climate and its effects. -->
+
+
+
+<!-- ## Types of Adaptation Policies -->
+<!-- ## Proactive vs. Reactive Adaptation -->
+
+<!-- - **Proactive Policies**: Actions taken in anticipation of climate change impacts. -->
+<!-- - **Reactive Policies**: Responses to climate change impacts that have already occurred. -->
+
+<!-- ## Challenges in Adaptation Planning -->
+
+<!-- - Reactive policies are costly as event frequency and intensity increase. -->
+<!-- - Need to prioritize among many possible proactive policies. -->
+
+<!-- ## Vulnerability Assessment -->
+
+<!-- - Determines who and what is at risk, and to what extent. -->
+<!-- - Factors influencing vulnerability: -->
+<!--   - **Hazards**: Driven by climate changes. -->
+<!--   - **Exposure and Vulnerability**: Influenced by socio-economic conditions. -->
+<!-- - Adaptation policies are context- and location-specific. -->
+
+
+
+<!-- ## Adaptation and Mitigation: Complements or Substitutes? -->
+<!-- ## Complementary Strategies -->
+
+<!-- - Both are necessary in an optimal policy response. -->
+<!-- - Upward-sloping marginal cost functions imply using both strategies to minimize total costs. -->
+
+<!-- ## Substitutability -->
+
+<!-- - More of one strategy may reduce the need for the other. -->
+<!-- - Lower marginal cost of mitigation reduces marginal damages, lowering demand for adaptation. -->
+
+<!-- ## Misconceptions -->
+
+<!-- - False dichotomy: It's not about choosing mitigation **or** adaptation. -->
+<!-- - Optimal approach employs both, tailored to specific contexts. -->
+
+<!-- ## Timing Differences -->
+
+<!-- - **Mitigation**: Must be implemented early to prevent emissions buildup. -->
+<!-- - **Adaptation**: Can be implemented both early and as more information becomes available. -->
+
+
+
+<!-- ## Economic Tools for Adaptation Decision-Making -->
+
+<!-- ## Benefit-Cost Analysis (BCA) -->
+
+<!-- - Evaluates the economic efficiency of adaptation strategies. -->
+<!-- - Compares the costs of actions to the benefits of damage reductions. -->
+
+<!-- ## Cost-Effectiveness Analysis -->
+
+<!-- - Compares the relative costs of achieving a specific objective. -->
+<!-- - Useful when benefits are hard to quantify in monetary terms. -->
+
+<!-- ## Efficient Adaptation -->
+
+<!-- - Minimizes the sum of damage costs from climate change and the costs of adaptive actions. -->
+
+
+
+<!-- ## Forms of Adaptation Strategies -->
+
+<!-- ## Public and Private Strategies -->
+
+<!-- - **Infrastructure Changes**: Building sea walls, levees. -->
+<!-- - **Behavioral Shifts**: Water conservation, crop changes, relocation. -->
+
+<!-- ## Examples -->
+
+<!-- - **Flooding**: Sea level rise, increased storm intensity. -->
+<!-- - **Wildfires**: Extreme drought, development in fire-prone areas. -->
+<!-- - **Water Scarcity**: Increased frequency of droughts. -->
+
+
+<!-- # Climate Adaptation: Flood Risks—Storms, Sea Level Rise, and Storm Surges {background-color="#1c4982"} -->
+
+<!-- ## Climate Adaptation: Flood Risks -->
+<!-- ## Increasing Frequency and Costs -->
+
+<!-- - Record number of weather disasters causing over $1 billion in damages. -->
+<!-- - Flooding impacts more people and causes more damage than any other natural disaster. -->
+
+<!-- ## Resilience Building -->
+
+<!-- - **Definition**: Ability to prepare for, absorb, recover from, and adapt to adverse events. -->
+<!-- - Enhances capacity to cope with hazards. -->
+
+<!-- ## Economic Impact -->
+
+<!-- - Investing in resilience can significantly reduce future damages. -->
+<!-- - Every $1 spent on pre-disaster resilience can save up to $4 in post-disaster recovery costs. -->
+
+
+
+<!-- ## Flood Insurance in the United States -->
+
+<!-- ## National Flood Insurance Program (NFIP) -->
+
+<!-- - Established in 1968 to provide flood insurance and improve floodplain management. -->
+<!-- - Goals: -->
+<!--   1. Provide flood insurance. -->
+<!--   2. Improve floodplain management. -->
+<!--   3. Develop floodplain maps. -->
+
+<!-- ## Challenges with NFIP -->
+
+<!-- - Premiums often too low to cover claims. -->
+<!-- - Outdated flood maps underestimate risks. -->
+<!-- - Incentives may encourage rebuilding in high-risk areas. -->
+
+<!-- ## Financial Viability -->
+
+<!-- - Increased storm frequency challenges NFIP's sustainability. -->
+<!-- - NFIP has accrued significant debt due to catastrophic events. -->
+
+
+
+<!-- ## Enhancing Resilience through Flood Insurance -->
+
+<!-- ## Efficiency Criteria -->
+
+<!-- 1. Premiums should cover claims. -->
+<!-- 2. Premiums should reflect individual risk levels. -->
+
+<!-- ## Issues -->
+
+<!-- - Subsidized premiums lead to moral hazard. -->
+<!-- - Grandfathering policies prevent premiums from reflecting increasing risks. -->
+
+<!-- ## Recent Reforms -->
+
+<!-- - **Biggert–Waters Act (2012)**: Attempted to make NFIP more financially sound. -->
+<!-- - **Homeowner Flood Insurance Affordability Act (2014)**: Capped rate increases to maintain affordability. -->
+<!-- - **Risk Rating 2.0 (2021)**: Updated pricing to better reflect individual property risks. -->
+
+
+
+<!-- ## Proactive vs. Reactive Adaptation Strategies -->
+
+<!-- ## Reactive Strategies -->
+
+<!-- - Rebuilding after disasters. -->
+<!-- - May encourage repeated losses (e.g., rebuilding in flood zones). -->
+
+<!-- ## Proactive Strategies -->
+
+<!-- - **Zoning Changes**: Prevent development in high-risk areas. -->
+<!-- - **Building Codes**: Enhance structural resilience. -->
+<!-- - **Hazard Mitigation Grants**: Fund community adaptation infrastructure. -->
+
+<!-- ## Benefits of Proactive Adaptation -->
+
+<!-- - Significant savings in future disaster costs. -->
+<!-- - Improved safety and reduced loss of life. -->
+<!-- - Long-term economic and social benefits. -->
+
+
+
+<!-- ## Benefit-Cost Analysis of Adaptation Investments -->
+
+<!-- ## Findings from the National Institute of Building Sciences -->
+
+<!-- - **Federal Grants**: $1 spent yields $6 in future savings. -->
+<!-- - **Building Codes**: Meeting current codes yields $11 per $1 invested. -->
+<!-- - **Upgrading Codes**: Exceeding codes yields $4 per $1 invested. -->
+<!-- - **Infrastructure Mitigation**: Yields $4 per $1 invested. -->
+
+<!-- ## Additional Benefits -->
+
+<!-- - Preventing deaths and injuries. -->
+<!-- - Reducing economic disruptions. -->
+<!-- - Creating long-term jobs. -->
+
+
+
+<!-- ## Sea Level Rise and Adaptation -->
+
+<!-- ## Global and Local Risks -->
+
+<!-- - Sea levels are rising and will continue to do so. -->
+<!-- - Significant populations and infrastructure are at risk. -->
+
+<!-- ## Adaptation Strategies -->
+
+<!-- - **Hard Infrastructure**: Seawalls, bulkheads. -->
+<!-- - **Soft Infrastructure**: Beach nourishment. -->
+<!-- - **Green Infrastructure**: Living shorelines. -->
+<!-- - **Managed Retreat**: Relocating people and infrastructure. -->
+
+<!-- ## Evaluating Adaptation Options -->
+
+<!-- - Economic analysis helps prioritize strategies. -->
+<!-- - Consideration of costs, benefits, and environmental impacts. -->
+
+
+
+<!-- ## Managed Retreat: Buyouts -->
+
+<!-- ## Concept -->
+
+<!-- - Purchasing and removing properties in high-risk areas. -->
+<!-- - Land is converted to open space or natural habitats. -->
+
+<!-- ## Benefits -->
+
+<!-- - Reduces future disaster risks and costs. -->
+<!-- - Restores natural floodplains and ecosystems. -->
+<!-- - Provides long-term solutions over repeated rebuilding. -->
+
+<!-- ## Challenges -->
+
+<!-- - Requires upfront investment. -->
+<!-- - May face resistance from homeowners and communities. -->
+<!-- - Equity concerns regarding who receives buyouts. -->
+
+
+
+<!-- ## Prioritizing Adaptation Options with Ethical Considerations -->
+
+<!-- ## Economic Tools -->
+
+<!-- - **Benefit-Cost Analysis**: Quantifies costs and benefits to inform decisions. -->
+<!-- - **Cost-Effectiveness Analysis**: Compares the costs of achieving specific outcomes. -->
+<!-- - **Multi-Criteria Analysis**: Incorporates qualitative and quantitative factors. -->
+
+<!-- ## Ethical Boundaries -->
+
+<!-- - Need to address fairness and equity. -->
+<!-- - Consider distributional impacts on different communities. -->
+<!-- - Ensure vulnerable populations are not disproportionately affected. -->
+
+<!-- ## Integrating Economics and Ethics -->
+
+<!-- - Use distributional weights in analyses. -->
+<!-- - Engage stakeholders in decision-making processes. -->
+<!-- - Strive for equitable and sustainable adaptation strategies. -->
+
+
+
+<!-- ## Conclusion -->
+
+<!-- ## The Imperative of Adaptation -->
+
+<!-- - Climate change impacts are unavoidable; adaptation is essential. -->
+<!-- - Proactive strategies are more cost-effective than reactive ones. -->
+<!-- - Economics provides valuable tools for planning and prioritization. -->
+
+<!-- ## Moving Forward -->
+
+<!-- - Integrate mitigation and adaptation efforts. -->
+<!-- - Foster resilience through informed policies and investments. -->
+<!-- - Address ethical considerations to ensure equitable outcomes. -->
+
