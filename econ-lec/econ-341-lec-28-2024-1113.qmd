@@ -467,6 +467,15 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
   - Shifts focus from reactive rebuilding to proactive planning.
 
 
+## Sea Level Rise and Adaptation
+### [NOAA Sea Level Rise Viewer](https://coast.noaa.gov/slr/)
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/noaa-sea-level-rise-viewer.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+
 
 ## Sea Level Rise and Adaptation
 ### The Challenge of Rising Seas
@@ -475,7 +484,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
   - Varies by location and emissions scenario.
   - Expected to continue rising at increasing rates.
 - **Vulnerability Assessment Tools**:
-  - **NOAA Sea Level Rise Viewer**:
+  - [**NOAA Sea Level Rise Viewer**](https://coast.noaa.gov/slr/):
     - Visualizes potential impacts.
     - Identifies at-risk infrastructure and populations.
 
@@ -507,6 +516,29 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 :::
 
 ::: {.column width="50%"}
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/sealevel-seawall.jpg" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/sealevel-bulkhead.jpg" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+
+:::
+::::
+
+
+## Sea Level Rise and Adaptation
+### Adaptation Strategies for Sea Level Rise
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
 #### 2. **Soft Infrastructure**:
 - **Beach Renourishment**:
   - Adding sand to eroding beaches.
@@ -514,6 +546,15 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
     - Maintains natural appearance.
     - Provides temporary protection.
 
+:::
+
+::: {.column width="50%"}
+<div style="display:block; margin:100px;"></div>
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/sealevel-beach-sand.jpg" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
 :::
 ::::
 
@@ -532,6 +573,21 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 :::
 ::: {.column width="50%"}
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/sealevel-sills-marsh.jpg" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+::::
+
+
+## Sea Level Rise and Adaptation
+### Adaptation Strategies for Sea Level Rise
+:::: {.columns}
+
+::: {.column width="50%"}
 #### 4. **Managed Retreat**:
 - **Relocation**:
   - Moving people and infrastructure away from high-risk areas.
@@ -540,10 +596,16 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
     - Requires significant planning and resources.
 
 :::
+::: {.column width="50%"}
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/sealevel-managed-retreat.jpeg" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+:::
 ::::
 
 
----
 
 ## What to Expect When You're Expecting a Hurricane
 ### Associations of Hurricane Exposure and Forecasting with Impaired Birth Outcomes
