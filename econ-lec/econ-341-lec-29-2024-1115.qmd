@@ -1,0 +1,446 @@
+---
+title: Lecture 29
+subtitle: "Climate Change III: Adaptation"
+format:
+  clean-revealjs:
+    self-contained: false
+    chalkboard: true
+    incremental: true
+    code-annotations: hover
+    scrollable: false
+
+    # logo: logo-title-slide.png
+author:
+  - name: Byeong-Hak Choe
+    email: bchoe@geneseo.edu
+    affiliations: SUNY Geneseo
+date: 2024-11-15
+execute: 
+  eval: true
+  echo: false
+callout-icon: false
+
+from: markdown+emoji
+include-after-body: target-hover.html # effect.html
+
+# bibliography: refs.bib
+---
+
+
+```{r setup}
+#| include: false
+
+library(tidyverse)
+library(ggthemes)
+library(hrbrthemes)
+
+theme_set(theme_fivethirtyeight() +
+            theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(10,0,0,0)),
+                axis.title.y = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(0,10,0,0)),
+                axis.text.x = element_text(size = rel(1.75)),
+                axis.text.y = element_text(size = rel(1.75)),
+                strip.text = element_text(size = rel(1.5)),
+                legend.position = "top",
+                legend.text = element_text(size = rel(1.5)),
+                legend.title = element_text(size = rel(1.5))
+                )
+          )
+
+
+# Set global options for color-blind-friendly scales
+# scale_colour_discrete <- function(...) scale_colour_viridis_d(...)
+scale_colour_discrete <- function(...) scale_color_colorblind(...)
+scale_fill_discrete <- function(...) scale_fill_colorblind(...)
+
+```
+
+
+
+# Climate Adaptation: Wildfire Risk and Management  {background-color="#1c4982"}
+
+## Wildfire Map
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/wildfire-map.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::{.nonincremental}
+- Source: [FEMA National Risk Index](https://hazards.fema.gov/nri/map)
+
+:::
+
+## Smoke Map
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/noaa-smoke-map.png" style="width: 90%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::{.nonincremental}
+- Source: [NOAA Hazard Mapping System Fire and Smoke Product](https://www.ospo.noaa.gov/products/land/hms.html#maps)
+
+:::
+
+## Yearly Trends in Wildfire Outcomes
+### Acres Burned Annually, Annual Response Expenditures, and Insured Losses
+
+<div style="display:block; margin:80px;"></div>
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/arre-2022-wildfire-trend.jpg" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+
+## Increasing Severity of Wildfires
+
+- **Climate Change Effects**:
+  - **Drought and Drier Conditions**: Prolonged periods without rain.
+  - **Longer Fire Seasons**: Extended periods suitable for fires.
+- **Global Risk Increase**:
+  - Wildfires occurring in previously low-risk areas.
+- **Statistics**:
+  - In the western U.S., average annual area burned increased by **1200%** from the 1970s to the 2000s.
+  - In 2020, U.S. wildfire damages totaled **$16.5 billion USD**.
+
+## Health and Environmental Impacts
+
+- **Air Quality Degradation**:
+  - Woodsmoke contributes to **25%** of Americans' exposure to **PM2.5** (fine particulate matter).
+  - Associated with increased mortality and morbidity.
+- **Case Studies**:
+  - **Brazilian Amazon Fires**: Smoke responsible for nearly **3,000** premature deaths.
+  - **Australian Fires (2019-2020)**: Health care costs increased by **$1.95 billion AUD**.
+
+
+
+## Economic Costs Beyond Immediate Damages
+
+- **Infrastructure Damage**:
+  - Runoff and erosion leading to water quality issues.
+  - Damage to roads, bridges, and reservoirs.
+- **Agricultural and Recreational Losses**:
+  - Soil degradation affecting farming.
+  - Loss of recreational areas due to fire damage.
+
+
+
+## Adaptation Policies for Wildfire Risk
+### Fuel Management
+
+- **Prescribed Burns**:
+  - Controlled fires to reduce fuel load.
+  - Mimics natural fire cycles.
+- **Forest Thinning**:
+  - Removal of excess vegetation.
+  - Reduces intensity of potential fires.
+
+## Adaptation Policies for Wildfire Risk
+### Response Preparedness
+
+- **Increasing Firefighting Personnel**:
+  - More resources to combat fires.
+- **Improved Information Coverage**:
+  - Early detection systems.
+  - Public awareness campaigns.
+
+## Adaptation Policies for Wildfire Risk
+### Utility Policies
+- **Power Shutoffs**:
+  - Utilities shut off power during high fire risk conditions.
+  - Prevents fires caused by electrical equipment.
+
+## Adaptation Policies for Wildfire Risk
+### Building Codes and Development Restrictions
+
+- **Wildfire-Resistant Building Codes**:
+  - Use of fire-resistant materials.
+  - Design standards to prevent fire spread.
+- **Restricting Development**:
+  - Limiting construction in fire-prone areas.
+  - Zoning laws to manage land use.
+
+
+
+## Benefits of Mandatory Adaptation to Wildfires
+### Homeowners AND their Neighbors?
+
+- **Objective**: Assess effectiveness of mandatory vs. voluntary adaptation.
+- **Data**: Property-level data for U.S. homes exposed to wildfire (2000-2020).
+
+- **Building Codes Reduce Losses**:
+  - Reduced average structure loss by **40%**.
+  - Reduced loss to neighboring homes by **6%**.
+- **Spatial Externalities**:
+  - Benefits extend beyond individual properties.
+- **Benefit-Cost Analysis**:
+  - Building codes pass the test for new homes.
+  - Not cost-effective for retrofitting existing homes.
+
+
+## Benefits of Mandatory Adaptation to Wildfires
+### Equity Considerations
+
+- **Value of Homes**:
+  - Higher-value homes more likely to benefit.
+- **Fuel Management Bias**:
+  - More likely near higher socio-economic status neighborhoods.
+- **Policy Implications**:
+  - Need for equitable fire suppression efforts.
+  - Universal building codes can promote fairness.
+
+
+
+# Climate Adaptation: Managing Water Shortages  {background-color="#1c4982"}
+
+## Climate Adaptation: Managing Water Shortages
+### Strategies to Address Water Shortages
+
+- **Dual Impacts of Climate Change**
+  - **Flooding**: Increased frequency and intensity in some areas.
+  - **Water Scarcity**: Increased droughts and shortages in others.
+  
+- **Increasing Water Supplies**:
+  - **Desalination**: Converting seawater to freshwater.
+  - **Wastewater Recycling**: Treating and reusing water.
+  - **Rainwater Harvesting**: Capturing and storing rainwater.
+
+- **Demand Management**:
+  - **Conservation**: Encouraging reduced water use.
+  - **Pricing Mechanisms**: Adjusting prices to reflect scarcity.
+
+
+
+
+## Efficient Allocation of Scarce Water
+### Surface Water vs. Groundwater
+
+- **Surface Water**:
+  - Allocation among users without affecting future supplies.
+  
+- **Groundwater**:
+  - Withdrawals impact future availability.
+  - Requires intertemporal allocation.
+
+ 
+
+
+## The Efficient Allocation of Surface Water
+### Principles of Efficient Allocation
+
+:::{.nonincremental}
+
+- **Equalizing Marginal Net Benefits (MNB)**:
+  - Water should be allocated so $MNB$ is equal across all uses.
+  - Maximizes total net benefits from water use.
+  
+:::
+
+:::: {.columns}
+::: {.column width="60%"}
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig14-4.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+::: {.column width="40%"}
+- **Supply Curve** ($S_T$): Total available water ($Q_{T}$).
+- **Demand Curves**:
+  - **User A**: Higher willingness to pay (e.g., municipality).
+  - **User B**: Lower willingness to pay (e.g., agriculture).
+
+:::
+::::
+
+  
+<!-- - **Efficient Allocation**: -->
+<!--   - $Q_{A}^{*}$ to User A. -->
+<!--   - $Q_{B}^{*}$ to User B. -->
+<!--   - Marginal net benefits are equalized. -->
+
+
+
+## The Efficient Allocation of Surface Water
+### Fixed Proportions?
+
+:::{.nonincremental}
+
+- **Equalizing Marginal Net Benefits (MNB)**:
+  - Water should be allocated so $MNB$ is equal across all uses.
+  - Maximizes total net benefits from water use.
+  
+:::
+
+:::: {.columns}
+::: {.column width="60%"}
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig14-4.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+::: {.column width="40%"}
+- Suppose the water authority decides, for equity or political reasons, to simply divide the available water equally between the two users:
+  - $Q_{A} = 0.5Q_{T} = Q_{B}$
+  - Can you see inefficiency?
+
+:::
+::::
+
+
+
+## The Efficient Allocation of Surface Water
+### Water Scarcity
+
+:::{.nonincremental}
+
+- **Equalizing Marginal Net Benefits (MNB)**:
+  - Water should be allocated so $MNB$ is equal across all uses.
+  - Maximizes total net benefits from water use.
+  
+:::
+
+:::: {.columns}
+::: {.column width="60%"}
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig14-4.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+::: {.column width="40%"}
+-	Is water considered a scarce resource if the water supply exceeds the point where aggregate marginal $MNB$ equals zero?
+:::
+::::
+
+
+
+## The Efficient Allocation of Surface Water
+### Dealing with Supply Variability
+
+:::{.nonincremental}
+
+- **Equalizing Marginal Net Benefits (MNB)**:
+  - Water should be allocated so $MNB$ is equal across all uses.
+  - Maximizes total net benefits from water use.
+  
+:::
+
+:::: {.columns}
+::: {.column width="60%"}
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig14-4.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+::: {.column width="40%"}
+-	Suppose the total water supply is equal to $½ S_{T}$. 
+  - How should the lower water supply be efficiently allocated between the two users? 
+
+:::
+::::
+
+
+
+
+## The Efficient Allocation of Surface Water
+### Legal and Institutional Barriers
+
+- **Historical Water Rights**
+  - **Riparian Rights**:
+    - Rights tied to land adjacent to water.
+    - Limited transferability.
+  - **Prior Appropriation Doctrine**:
+    - "First in time, first in right."
+    - Seniority-based allocation, not based on economic efficiency.
+
+## The Efficient Allocation of Surface Water
+### Impact of Legal and Institutional Barriers on Efficiency
+
+- **Inflexibility**:
+  - Water cannot easily move to highest-valued uses.
+- **Inequitable During Scarcity**:
+  - Senior rights holders maintain access despite lower MNB.
+- **Example**:
+  - Colorado River Compact allocations do not reflect current conditions or efficient use.
+
+
+
+<!-- ## Desalination and Wastewater Recycling -->
+<!-- ### Addressing Water Scarcity -->
+
+<!-- - **Global Water Stress**: -->
+<!--   - Over **2 billion** people in high water stress areas. -->
+<!-- - **Technological Solutions**: -->
+<!--   - **Desalination**: Converting seawater to potable water. -->
+<!--   - **Wastewater Recycling**: Treating sewage for reuse. -->
+
+<!-- ## Desalination and Wastewater Recycling -->
+<!-- ### Desalination Technologies -->
+
+<!-- - **Methods**: -->
+<!--   - **Reverse Osmosis**: Pressurizing seawater through membranes. -->
+<!--   - **Nanofiltration and Ultrafiltration**. -->
+
+<!-- - **Global Adoption**: -->
+<!--   - Over **21,000** desalination plants in **150+** countries. -->
+<!--   - Producing **25 billion gallons** per day. -->
+
+<!-- ## Economic Considerations -->
+
+<!-- - **High Costs**: -->
+<!--   - Energy-intensive processes. -->
+<!--   - Costs range from **$750 to $2,000 per acre-foot**. -->
+<!-- - **Case Studies**: -->
+<!--   - **Carlsbad Plant, California**: Supplies 10% of regional water at higher cost. -->
+<!--   - **Example 14.6**: China's costly projects to address water scarcity. -->
+
+<!-- ## Environmental Concerns -->
+
+<!-- - **Energy Use**: -->
+<!--   - Significant carbon footprint. -->
+<!-- - **Brine Disposal**: -->
+<!--   - High-salinity wastewater affects marine life. -->
+<!-- - **Intake Impacts**: -->
+<!--   - Harm to small organisms and larvae. -->
+
+
+
+<!-- ## Moving Rivers or Desalting the Sea? -->
+<!-- ### China's Water Scarcity Challenge -->
+
+<!-- - **Northern China**: Extremely scarce freshwater resources. -->
+<!-- - **Projects**: -->
+<!--   - **Water Diversion**: From Yangzi River Basin. -->
+<!--   - **Desalination Plant**: Beijing Power and Desalination Plant. -->
+
+<!-- ## Moving Rivers or Desalting the Sea? -->
+<!-- ### Economic Analysis -->
+
+<!-- - **Costs**: -->
+<!--   - Desalinated water: **8 yuan/m³** (~$1.30). -->
+<!--   - Diverted water: **10 yuan/m³**. -->
+<!-- - **Pricing Issues**: -->
+<!--   - Water prices charged to consumers are lower than production costs. -->
+<!--   - Sustainability concerns due to subsidies. -->
+
+<!-- - **Environmental and Social Impacts** -->
+<!--   - **Energy Intensity**: -->
+<!--     - Reliance on coal increases emissions. -->
+<!--   - **Downstream Effects**: -->
+<!--     - Diversion impacts water availability in southern China. -->
+
