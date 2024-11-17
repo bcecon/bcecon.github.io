@@ -43,11 +43,16 @@ theme_set(theme_ipsum() +
 ## Question 1
 - What is a Carbon Border Adjustment (CBA), and what is its main purpose?
 
-<br>
+**Answer:**
+A Carbon Border Adjustment (CBA) is a fee imposed on imports of goods based on the greenhouse gas (GHG) emissions associated with their production. The main purpose of a CBA is to ensure that domestic industries, especially in countries with ambitious climate goals, remain competitive against imports from countries with less stringent environmental regulations.
 
+<br>
 
 ## Question 2
 - Which sectors are typically impacted by CBAs, and why?
+
+**Answer:**
+CBAs primarily affect industrial sectors that produce high-GHG-intensity commodities, such as steel, cement, aluminum, and petrochemicals. These sectors are heavily targeted because they are significant contributors to GHG emissions and operate in highly competitive global markets where cost differences influence market share.
 
 <br>
 
@@ -55,49 +60,96 @@ theme_set(theme_ipsum() +
 ## Question 3
 - Describe the approach taken by the European Union’s Carbon Border Adjustment Mechanism (CBAM).
 
+**Answer:**
+The EU’s CBAM imposes a fee on imports based on the carbon content of specific products like cement, steel, and aluminum. This fee matches the EU’s domestic carbon price under the Emissions Trading System (ETS). Importers must buy ETS allowances equal to the emissions embedded in their products, but they can get rebates if their home countries have equivalent carbon pricing.
+
+
 <br>
+
+
 
 
 ## Question 4
 - What role do “baselines” play in CBAs, and how do they function in the U.S. Clean Competition Act (CCA)?
 
+**Answer:**
+Baselines in CBAs serve as a benchmark for emissions intensity, allowing comparison of an imported product’s emissions with domestic standards. In the CCA, the baseline is the mean GHG intensity of U.S.-produced goods. Importers only pay fees for emissions above this baseline, and if an imported product has a lower emissions intensity than the U.S. baseline, no fee is applied.
+
 <br>
+
+
 
 
 ## Question 5
 - How are fees typically structured in CBAs, and what are some variations across policies?
 
+**Answer:**
+Fees in CBAs can be set per ton of CO₂e for imported products, reflecting either the carbon price in domestic markets (EU CBAM) or the social cost of carbon (as in some U.S. proposals). Another variation is an ad valorem fee (percentage of product value), which could increase over time to discourage high-GHG imports.
+
 <br>
+
+
 
 
 ## Question 6
 - What challenges exist in measuring the GHG intensity of products for CBAs?
 
+**Answer:**
+Measuring GHG intensity for CBAs is complex because it requires product-level data rather than facility or company-level data, which many national reporting systems currently lack. Further complications arise from differing national standards and the need to align with customs codes to apply consistent fees across products.
+
 <br>
+
+
 
 
 ## Question 7
 - How do CBAs interact with domestic emissions reduction strategies?
 
+**Answer:**
+CBAs complement domestic emissions reduction policies by leveling the playing field for domestic producers who bear emissions reduction costs. For example, the EU’s CBAM aligns with its ETS, requiring both domestic and foreign producers to pay for emissions allowances based on their carbon footprint.
+
 <br>
+
+
 
 
 ## Question 8
 - What exemptions or alliances are considered in CBAs, and how do they impact international trade?
 
+**Answer:**
+CBAs often exempt low- and moderate-income countries to protect their economic welfare. Policy alliances, or “clubs,” can also be formed where countries with similar emissions goals agree not to apply CBAs to each other’s goods, minimizing trade tensions while providing incentives for broader participation in climate action.
+
+
 <br>
+
+
 
 
 ## Question 9
 - Why might CBAs raise concerns regarding compliance with World Trade Organization (WTO) rules?
 
+**Answer:**
+CBAs may conflict with WTO rules as they could be seen as trade barriers favoring domestic over foreign products. The challenge lies in aligning CBAs with international trade laws to avoid discrimination against countries with less ambitious climate policies, which could lead to trade disputes.
+
 <br>
+
+
 
 
 ## Question 10
 - What questions remain unanswered about the effectiveness and fairness of CBAs?
 
+**Answer:**
+
+- Key questions include: 
+  - How effective are CBAs in preventing emissions leakage? 
+  - Will CBAs disproportionately impact developing countries? 
+  - How can CBAs be standardized internationally to avoid trade conflicts? 
+  - Can CBAs contribute to a global climate alliance that balances environmental goals with economic fairness?
+
 <br>
+
+
 
 
 
