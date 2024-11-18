@@ -1278,7 +1278,7 @@
     "href": "index.html#bullet-homework",
     "title": "ECON 341-01: Natural Resource Economics, Fall 2024",
     "section": "\\(\\bullet\\,\\) Homework 💻",
-    "text": "\\(\\bullet\\,\\) Homework 💻\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nHomework 3 - Example Answer\n\n\nNovember 17, 2024\n\n\n\n\nHomework 4\n\n\nNovember 10, 2024\n\n\n\n\nHomework 2 - Example Answer\n\n\nOctober 7, 2024\n\n\n\n\nHomework 1 - Example Answer\n\n\nOctober 2, 2024\n\n\n\n\nHomework 2\n\n\nSeptember 25, 2024\n\n\n\n\nHomework 1\n\n\nSeptember 16, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "\\(\\bullet\\,\\) Homework 💻\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nHomework 4 - Example Answer\n\n\nNovember 18, 2024\n\n\n\n\nHomework 3 - Example Answer\n\n\nNovember 17, 2024\n\n\n\n\nHomework 4\n\n\nNovember 10, 2024\n\n\n\n\nHomework 2 - Example Answer\n\n\nOctober 7, 2024\n\n\n\n\nHomework 1 - Example Answer\n\n\nOctober 2, 2024\n\n\n\n\nHomework 2\n\n\nSeptember 25, 2024\n\n\n\n\nHomework 1\n\n\nSeptember 16, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#bullet-research",
@@ -1586,7 +1586,7 @@
     "href": "listing-econ-341-hw.html",
     "title": "ECON 341 - Homework",
     "section": "",
-    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\n\n\n\nSeptember 16, 2024\n\n\n\n\nHomework 1 - Example Answer\n\n\n\n\n\nOctober 2, 2024\n\n\n\n\nHomework 2\n\n\n\n\n\nSeptember 25, 2024\n\n\n\n\nHomework 2 - Example Answer\n\n\n\n\n\nOctober 7, 2024\n\n\n\n\nHomework 3 - Example Answer\n\n\n\n\n\nNovember 17, 2024\n\n\n\n\nHomework 4\n\n\n\n\n\nNovember 10, 2024\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\n\n\n\nSeptember 16, 2024\n\n\n\n\nHomework 1 - Example Answer\n\n\n\n\n\nOctober 2, 2024\n\n\n\n\nHomework 2\n\n\n\n\n\nSeptember 25, 2024\n\n\n\n\nHomework 2 - Example Answer\n\n\n\n\n\nOctober 7, 2024\n\n\n\n\nHomework 3 - Example Answer\n\n\n\n\n\nNovember 17, 2024\n\n\n\n\nHomework 4\n\n\n\n\n\nNovember 10, 2024\n\n\n\n\nHomework 4 - Example Answer\n\n\n\n\n\nNovember 18, 2024\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "econ-rw/econ-341-rw-03.html",
@@ -7026,5 +7026,68 @@
     "title": "Lecture 28",
     "section": "Sea Level Rise and Adaptation",
     "text": "Sea Level Rise and Adaptation\nAdaptation Strategies for Sea Level Rise\n\n\n4. Managed Retreat:\n\nRelocation:\n\nMoving people and infrastructure away from high-risk areas.\nChallenges:\n\nSocial and economic implications.\nRequires significant planning and resources."
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-04-a.html",
+    "href": "econ-hw/econ-341-hw-04-a.html",
+    "title": "Homework 4 - Example Answer",
+    "section": "",
+    "text": "Suppose that hedonic wage studies indicate a willingness to pay $50 per person for a reduction in the risk of a premature death from an environmental hazard of \\(\\frac{1}{100,000}\\). If the exposed population is 4 million people, what is the implied value of a statistical life?\nAnswer:\nThe total willingness to pay for this risk reduction is $200 million: \\[\n\\$200 \\text{million} \\,=\\, \\$50\\; \\text{per person} × 4\\; \\text{million exposed people}.\n\\]\nThe expected number of lives saved would be 40: \\[\n40 \\,=\\,\\frac{1}{100,000}\\; \\text{risk of premature death} \\times 4,000,000\\; \\text{exposed population}.\n\\]\nThe implied value of a statistical life is $5,000,000: \\[\n\\$5,000,000\\;\\text{per life saved} \\,=\\, \\frac{\\$200,000,000\\; \\text{total willingness to pay}}{40\\; \\text{lives saved}}.\n\\]\n\n\n\n\nSuppose that an impending environmental regulation to control that hazard is expected to reduce the risk of premature death from \\(\\frac{6}{100,000}\\) to \\(\\frac{2}{100,000}\\) per year in that exposed population of 4 million people. Your boss asks you to tell them what is the maximum this regulation could cost and still have the benefits be at least as large as the costs. What is your answer?\nAnswer:\nThe program is expected to save 160 lives: \\[\n160 \\,=\\, \\left(\\frac{6}{100,000} – \\frac{2}{100,000}\\right) \\times 4,000,000.\n\\] According to the value of a statistical life in Q1a, the program will have more benefits than costs as long as it costs no more than $800,000,000:\n\\[\n$800,000,000 \\,=\\, \\$5,000,000\\; \\text{value per life} \\times 160\\; \\text{lives saved}\n\\]"
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-04-a.html#q1a",
+    "href": "econ-hw/econ-341-hw-04-a.html#q1a",
+    "title": "Homework 4 - Example Answer",
+    "section": "",
+    "text": "Suppose that hedonic wage studies indicate a willingness to pay $50 per person for a reduction in the risk of a premature death from an environmental hazard of \\(\\frac{1}{100,000}\\). If the exposed population is 4 million people, what is the implied value of a statistical life?\nAnswer:\nThe total willingness to pay for this risk reduction is $200 million: \\[\n\\$200 \\text{million} \\,=\\, \\$50\\; \\text{per person} × 4\\; \\text{million exposed people}.\n\\]\nThe expected number of lives saved would be 40: \\[\n40 \\,=\\,\\frac{1}{100,000}\\; \\text{risk of premature death} \\times 4,000,000\\; \\text{exposed population}.\n\\]\nThe implied value of a statistical life is $5,000,000: \\[\n\\$5,000,000\\;\\text{per life saved} \\,=\\, \\frac{\\$200,000,000\\; \\text{total willingness to pay}}{40\\; \\text{lives saved}}.\n\\]"
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-04-a.html#q1b",
+    "href": "econ-hw/econ-341-hw-04-a.html#q1b",
+    "title": "Homework 4 - Example Answer",
+    "section": "",
+    "text": "Suppose that an impending environmental regulation to control that hazard is expected to reduce the risk of premature death from \\(\\frac{6}{100,000}\\) to \\(\\frac{2}{100,000}\\) per year in that exposed population of 4 million people. Your boss asks you to tell them what is the maximum this regulation could cost and still have the benefits be at least as large as the costs. What is your answer?\nAnswer:\nThe program is expected to save 160 lives: \\[\n160 \\,=\\, \\left(\\frac{6}{100,000} – \\frac{2}{100,000}\\right) \\times 4,000,000.\n\\] According to the value of a statistical life in Q1a, the program will have more benefits than costs as long as it costs no more than $800,000,000:\n\\[\n$800,000,000 \\,=\\, \\$5,000,000\\; \\text{value per life} \\times 160\\; \\text{lives saved}\n\\]"
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-04-a.html#q2a.",
+    "href": "econ-hw/econ-341-hw-04-a.html#q2a.",
+    "title": "Homework 4 - Example Answer",
+    "section": "Q2a.",
+    "text": "Q2a.\nWhat is the Nash equilibrium (or equilibria) in this game? Show your work.\nAnswer:\n\nFor Country A:\n\nIf B chooses “Reduce”: 5 vs 8 (BAU gives higher payoff)\nIf B chooses “BAU”: -2 vs 1 (BAU gives higher payoff)\nConclusion: BAU is dominant strategy for A\n\n\n\nFor Country B:\n\nIf A chooses “Reduce”: 5 vs 8 (BAU gives higher payoff)\nIf A chooses “BAU”: -2 vs 1 (BAU gives higher payoff)\nConclusion: BAU is dominant strategy for B\n\nNash Equilibrium: (BAU, BAU) with payoff (1,1)"
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-04-a.html#q2b",
+    "href": "econ-hw/econ-341-hw-04-a.html#q2b",
+    "title": "Homework 4 - Example Answer",
+    "section": "Q2b",
+    "text": "Q2b\nExplain why this game represents a Prisoner’s Dilemma in the context of climate change policy.\nAnswer:\n\nThe game mirrors the classic Prisoner’s Dilemma.\nRational self-interest leads to mutual defection, resulting in lower payoffs for both.\n\nMutual cooperation (Reduce, Reduce) yields better outcome (5,5)\nMutual defection (BAU, BAU) yields worse outcome (1,1)\n\nHighlights the conflict between individual rationality and collective welfare.\n\nIndividual incentive to defect leads to suboptimal collective outcome\n\nRepresents real-world challenge in climate agreements"
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-04-a.html#q2c",
+    "href": "econ-hw/econ-341-hw-04-a.html#q2c",
+    "title": "Homework 4 - Example Answer",
+    "section": "Q2c",
+    "text": "Q2c\nIf the payoffs represent only economic benefits and ignore environmental costs:\n\nWhat would be the socially optimal outcome?\nWhy do countries tend to deviate from this outcome?\n\nAnswer:\n\nSocially optimal outcome is (Reduce, Reduce) because:\n\nTotal payoff is highest (5+5 = 10)\nEnvironmental benefits (not included in payoffs) would make this even more favorable\n\nCountries deviate because:\n\nIndividual incentive to free-ride\nLack of enforcement mechanisms\nShort-term economic gains prioritized over long-term benefits"
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-04-a.html#q2d",
+    "href": "econ-hw/econ-341-hw-04-a.html#q2d",
+    "title": "Homework 4 - Example Answer",
+    "section": "Q2d",
+    "text": "Q2d\nConsider implementing a policy mechanism to modify the payoff structure of this climate agreement game.\n\nSuggest and explain a specific policy mechanism (e.g., carbon tax, trade sanctions, or technology subsidies) that could alter the payoffs.\nProvide a new payoff matrix that incorporates your suggested policy mechanism. Show all calculations for the modified payoffs.\nProve that under your proposed policy:\n\n\nThe socially optimal outcome (Reduce, Reduce) becomes a Nash equilibrium\n\n\nDiscuss one potential challenge in implementing your proposed policy mechanism in the real world.\n\nAnswer:\n\nNew Payoff Matrix with Policy\n\n\n\n\n\n\nCountry B\n\n\nReduce\nBAU\n\n\n\n\nCountry A\nReduce\n(5,5)\n(0,4)\n\n\nBAU\n(4,0)\n(-3,-3)\n\n\n\n\n\nPolicy Components:\n\nInternational carbon tax of 4 billion on BAU choice\nTax redistribution to countries choosing “Reduce”\nInternational monitoring and enforcement\nBinding legal framework\n\n\n\nNew Nash Equilibrium Analysis:\nFor Country A: - If B chooses “Reduce”: 5 vs 4 (Reduce is better) - If B chooses “BAU”: 0 vs -3 (Reduce is better)\nFor Country B: - If A chooses “Reduce”: 5 vs 4 (Reduce is better) - If A chooses “BAU”: 0 vs -3 (Reduce is better)\nResult: (Reduce, Reduce) becomes the only Nash equilibrium\n\n\nImplementation Requirements\n\nEnforcement Mechanism\n\nInternational monitoring body\nTransparent emissions reporting\nThird-party verification\n\nCollection System\n\nAutomatic deduction from international trade\nWorld Bank or IMF oversight\nBinding legal framework\n\nDistribution Method\n\nClear formula for redistributing penalties\nTechnology transfer funds\nGreen infrastructure support"
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-04-a.html#q3a",
+    "href": "econ-hw/econ-341-hw-04-a.html#q3a",
+    "title": "Homework 4 - Example Answer",
+    "section": "Q3a",
+    "text": "Q3a\nWhat is the socially optimal level of each firm’s GHG reduction?\nAnswer:\nThere are two ways of interpreting this question: the marginal benefit of GHG emission reduction applies either to the overall level of pollution reduction (for the two firms combined) or to each firm separately.\n\nThe First Interpretation\nIn the first interpretation, the social optimum must solve: \\[\n\\begin{align}\nMC_{A} &\\,\\overbrace{=}^{(1)}\\, MB \\overbrace{=}^{(2)} MC_{B}\\\\\n(1):\\quad 20 + 4Q_{A} &\\,\\,\\,=\\, 400 - 4(Q_{A} + Q_{B})\\\\\n(2):\\quad 10 + 8Q_{B} &\\,\\,\\,=\\, 400 - 4(Q_{A} + Q_{B})\n\\end{align}\n\\] Equation (1) simplifies to \\[\nQ_{A} \\,=\\, \\frac{95}{2} - \\frac{1}{2}Q_{B}.\\tag{3}\n\\]\nSubstituting out \\(Q_{A}\\) in equation (2) using equation (3) gives: \\[\n\\begin{align}\n10 + 8Q_{B} \\,=\\, 400 - 4\\left(\\frac{95}{2} - \\frac{1}{2}Q_{B} + Q_{B} \\right)\\tag{4}\n\\end{align}\n\\] Solving equation (4) gives: \\[\n\\begin{align}\nQ_{B}^{o} &\\,=\\, 20\\\\\nQ_{A}^{o} &\\,=\\, \\frac{75}{2}\n\\end{align}\n\\]\n\n\nThe Second Interpretation\nIn the second interpretation, we set \\(MC = MB\\) separately for each firm: \\[\n\\begin{align}\nMC_{A} &\\,=\\, MB\\\\\n20 + 4Q_{A} &\\,\\,\\,=\\, 400 - 4Q_{A}\\tag{5}\n\\end{align}\n\\]\n\\[\n\\begin{align}\nMC_{B} &\\,=\\, MB\\\\\n10 + 8Q_{B} &\\,\\,\\,=\\, 400 - 4Q_{B}\\tag{6}\n\\end{align}\n\\]\nSolving equations (5) and (6) give: \\[\n\\begin{align}\nQ_{A}^{oo} &\\,=\\, \\frac{95}{2}\\\\\nQ_{B}^{oo} &\\,=\\, \\frac{65}{2}\n\\end{align}\n\\]"
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-04-a.html#q3b",
+    "href": "econ-hw/econ-341-hw-04-a.html#q3b",
+    "title": "Homework 4 - Example Answer",
+    "section": "Q3b",
+    "text": "Q3b\nCompare the social efficiency of three potential outcomes: (1) mandating equal GHG emission reductions across all firms; (2) imposing a uniform tax per unit of GHG emissions; or (3) mandating equal GHG emission reductions across all firms but allowing the trading of GHG emission permits.\nAnswer:\n\nThe First Interpretation\n\nThe same total reduction could be achieved by requiring each firm to reduce pollution by 28.75 units. This would be less efficient than the social optimum, since it would be less costly for firm A to reduce pollution by more and for firm B to reduce pollution by less (since \\(MC_A &lt; MC_B\\) at 27.25 units).\nA common tax could be used to achieve the social optimum. Setting a tax of 170 would lead firm A (respectively, B) to reduce pollution to the point where \\(MC_A = 170\\) (respectively \\(MC_B = 170\\)). Solving gives \\(Q_A = 37.5\\) and \\(Q_B = 20\\).\nRequiring both firms to reduce pollution by 27.25 units but allowing them to trade pollution permits can also be used to achieve the social optimum. The value to firm B of being able to produce 1 more unit of pollution (i.e., \\(MC_B\\)) is higher than the cost to firm A of reducing pollution by one unit (i.e., \\(MC_B\\)) when \\(Q_B = 27.25 = Q_A\\), so both can gain by trading a unit of pollution permits. This continues to be true as long as \\(Q_A &lt; 37.5\\) and \\(Q_B &gt; 20\\)—so they will trade until \\(Q_A = 37.5\\) and \\(Q_B = 20\\).\n\n\n\nThe Second Interpretation\n\nThe same level of pollution reduction could be achieved by requiring both firms to reduce pollution by 40 units. Firm A stops reducing pollution before it has exhausted all reduction steps for which the marginal cost is less than the marginal benefit, but firm B takes some pollution reduction steps for which the marginal cost exceeds marginal benefit. This is not socially efficient.\nA common tax would yield the same result: a tax designed to be optimal for firm A would be too low to induce firm B to reduce to the efficient quantity, and a tax designed to be optimal for firm B would induce firm A to reduce by too much.\nIf the firms started at the pollution reduction levels suggested in part (1), a pollution permit market would allow firm A to reduce its pollution by 7.5 more units and sell the permits to firm B, yielding the same result as in Q3a."
   }
 ]
