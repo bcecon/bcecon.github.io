@@ -4,7 +4,7 @@ date-modified: ""
 listing:
   contents: "econ-lec/*.qmd"
   type: table
-  fields: [title, date]
+  fields: [title, subtitle, date]
   sort: "date"
   sort-ui: false
   page-size: 36
