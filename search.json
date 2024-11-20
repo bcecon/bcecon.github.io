@@ -1271,7 +1271,7 @@
     "href": "index.html#bullet-classwork",
     "title": "ECON 341-01: Natural Resource Economics, Fall 2024",
     "section": "\\(\\bullet\\,\\) Classwork ⌨️",
-    "text": "\\(\\bullet\\,\\) Classwork ⌨️\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nPrice vs. Quantity under Uncertainty\n\n\nNovember 6, 2024\n\n\n\n\nQuiz 1\n\n\nOctober 7, 2024\n\n\n\n\nPublic Goods\n\n\nOctober 7, 2024\n\n\n\n\nUtility Maximization\n\n\nOctober 7, 2024\n\n\n\n\nExternalities\n\n\nSeptember 4, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "\\(\\bullet\\,\\) Classwork ⌨️\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nQuiz 2\n\n\nNovember 19, 2024\n\n\n\n\nPrice vs. Quantity under Uncertainty\n\n\nNovember 6, 2024\n\n\n\n\nQuiz 1\n\n\nOctober 7, 2024\n\n\n\n\nPublic Goods\n\n\nOctober 7, 2024\n\n\n\n\nUtility Maximization\n\n\nOctober 7, 2024\n\n\n\n\nExternalities\n\n\nSeptember 4, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#bullet-homework",
@@ -1579,7 +1579,7 @@
     "href": "listing-econ-341-cw.html",
     "title": "ECON 341 - Classwork",
     "section": "",
-    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nExternalities\n\n\nClasswork 1\n\n\nSeptember 4, 2024\n\n\n\n\nUtility Maximization\n\n\nClasswork 2\n\n\nOctober 7, 2024\n\n\n\n\nPublic Goods\n\n\nClasswork 3\n\n\nOctober 7, 2024\n\n\n\n\nQuiz 1\n\n\nClasswork 4\n\n\nOctober 7, 2024\n\n\n\n\nPrice vs. Quantity under Uncertainty\n\n\nClasswork 5\n\n\nNovember 6, 2024\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nExternalities\n\n\nClasswork 1\n\n\nSeptember 4, 2024\n\n\n\n\nUtility Maximization\n\n\nClasswork 2\n\n\nOctober 7, 2024\n\n\n\n\nPublic Goods\n\n\nClasswork 3\n\n\nOctober 7, 2024\n\n\n\n\nQuiz 1\n\n\nClasswork 4\n\n\nOctober 7, 2024\n\n\n\n\nPrice vs. Quantity under Uncertainty\n\n\nClasswork 5\n\n\nNovember 6, 2024\n\n\n\n\nQuiz 2\n\n\nClasswork 6\n\n\nNovember 19, 2024\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "listing-econ-341-hw.html",
@@ -7089,5 +7089,89 @@
     "title": "Homework 4 - Example Answer",
     "section": "Q3b",
     "text": "Q3b\nCompare the social efficiency of three potential outcomes: (1) mandating equal GHG emission reductions across all firms; (2) imposing a uniform tax per unit of GHG emissions; or (3) mandating equal GHG emission reductions across all firms but allowing the trading of GHG emission permits.\nAnswer:\n\nThe First Interpretation\n\nThe same total reduction could be achieved by requiring each firm to reduce pollution by 28.75 units. This would be less efficient than the social optimum, since it would be less costly for firm A to reduce pollution by more and for firm B to reduce pollution by less (since \\(MC_A &lt; MC_B\\) at 27.25 units).\nA common tax could be used to achieve the social optimum. Setting a tax of 170 would lead firm A (respectively, B) to reduce pollution to the point where \\(MC_A = 170\\) (respectively \\(MC_B = 170\\)). Solving gives \\(Q_A = 37.5\\) and \\(Q_B = 20\\).\nRequiring both firms to reduce pollution by 27.25 units but allowing them to trade pollution permits can also be used to achieve the social optimum. The value to firm B of being able to produce 1 more unit of pollution (i.e., \\(MC_B\\)) is higher than the cost to firm A of reducing pollution by one unit (i.e., \\(MC_B\\)) when \\(Q_B = 27.25 = Q_A\\), so both can gain by trading a unit of pollution permits. This continues to be true as long as \\(Q_A &lt; 37.5\\) and \\(Q_B &gt; 20\\)—so they will trade until \\(Q_A = 37.5\\) and \\(Q_B = 20\\).\n\n\n\nThe Second Interpretation\n\nThe same level of pollution reduction could be achieved by requiring both firms to reduce pollution by 40 units. Firm A stops reducing pollution before it has exhausted all reduction steps for which the marginal cost is less than the marginal benefit, but firm B takes some pollution reduction steps for which the marginal cost exceeds marginal benefit. This is not socially efficient.\nA common tax would yield the same result: a tax designed to be optimal for firm A would be too low to induce firm B to reduce to the efficient quantity, and a tax designed to be optimal for firm B would induce firm A to reduce by too much.\nIf the firms started at the pollution reduction levels suggested in part (1), a pollution permit market would allow firm A to reduce its pollution by 7.5 more units and sell the permits to firm B, yielding the same result as in Q3a."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-06.html",
+    "href": "econ-cw/econ-341-cw-06.html",
+    "title": "Quiz 2",
+    "section": "",
+    "text": "A paradox in travel-cost models is that individuals living closest to a site may appear to value it less because:\n\nThey visit less frequently.\nTheir low travel costs suggest a lower willingness to pay.\nThey prefer alternative sites.\nThey incur higher opportunity costs.\n\nAnswer: B. Their low travel costs suggest a lower willingness to pay.\nExplanation: Since travel costs are used as a proxy for price, individuals living nearby incur lower costs, which may incorrectly indicate a lower willingness to pay. In reality, they may value the site highly but their proximity results in minimal travel expenses.\n\n\n\nWhat is the “fat tail” problem in climate change economics?\n\nIt refers to the slow decline of GHG concentrations over time.\nIt represents the high probability of small, insignificant climate events.\nIt signifies a higher probability of extreme climate outcomes than predicted by normal distributions.\nIt describes the accumulation of minor climate effects leading to a major event.\n\nAnswer: C. It signifies a higher probability of extreme climate outcomes than predicted by normal distributions.\nExplanation: The “fat tail” problem indicates that the probability distribution of climate impacts has a heavier tail, meaning there’s a higher chance of extreme, high-consequence, low-probability events than a normal distribution would suggest.\n\n\n\nIn the context of emissions trading programs, what is a “hard collar”?\n\nA mechanism that prevents allowance prices from falling below a minimum level.\nA mechanism that places no limits on the number of allowances added to prevent prices from rising above a ceiling.\nA fixed limit on both the maximum and minimum allowance prices.\nA regulatory approach that adjusts emission targets based on economic conditions.\n\nAnswer: B\nExplanation: A hard collar allows unlimited allowances to be added to the system to prevent prices from rising above a certain trigger price, ensuring price certainty but potentially compromising emissions targets.\n\n\n\nWhich of the following best defines “moral hazard” in the context of flood insurance?\n\nHomeowners taking greater risks because they are protected from the consequences.\nInsurers charging higher premiums to high-risk homeowners.\nGovernment regulations preventing building in flood zones.\nThe natural tendency of individuals to avoid risky areas.\n\nAnswer: A\nExplanation: Moral hazard occurs when individuals have less incentive to avoid risk because they are insulated from its consequences, such as through subsidized insurance."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-06.html#question-1",
+    "href": "econ-cw/econ-341-cw-06.html#question-1",
+    "title": "Quiz 2",
+    "section": "",
+    "text": "A paradox in travel-cost models is that individuals living closest to a site may appear to value it less because:\n\nThey visit less frequently.\nTheir low travel costs suggest a lower willingness to pay.\nThey prefer alternative sites.\nThey incur higher opportunity costs.\n\nAnswer: B. Their low travel costs suggest a lower willingness to pay.\nExplanation: Since travel costs are used as a proxy for price, individuals living nearby incur lower costs, which may incorrectly indicate a lower willingness to pay. In reality, they may value the site highly but their proximity results in minimal travel expenses."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-06.html#question-2",
+    "href": "econ-cw/econ-341-cw-06.html#question-2",
+    "title": "Quiz 2",
+    "section": "",
+    "text": "What is the “fat tail” problem in climate change economics?\n\nIt refers to the slow decline of GHG concentrations over time.\nIt represents the high probability of small, insignificant climate events.\nIt signifies a higher probability of extreme climate outcomes than predicted by normal distributions.\nIt describes the accumulation of minor climate effects leading to a major event.\n\nAnswer: C. It signifies a higher probability of extreme climate outcomes than predicted by normal distributions.\nExplanation: The “fat tail” problem indicates that the probability distribution of climate impacts has a heavier tail, meaning there’s a higher chance of extreme, high-consequence, low-probability events than a normal distribution would suggest."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-06.html#question-3",
+    "href": "econ-cw/econ-341-cw-06.html#question-3",
+    "title": "Quiz 2",
+    "section": "",
+    "text": "In the context of emissions trading programs, what is a “hard collar”?\n\nA mechanism that prevents allowance prices from falling below a minimum level.\nA mechanism that places no limits on the number of allowances added to prevent prices from rising above a ceiling.\nA fixed limit on both the maximum and minimum allowance prices.\nA regulatory approach that adjusts emission targets based on economic conditions.\n\nAnswer: B\nExplanation: A hard collar allows unlimited allowances to be added to the system to prevent prices from rising above a certain trigger price, ensuring price certainty but potentially compromising emissions targets."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-06.html#question-4",
+    "href": "econ-cw/econ-341-cw-06.html#question-4",
+    "title": "Quiz 2",
+    "section": "",
+    "text": "Which of the following best defines “moral hazard” in the context of flood insurance?\n\nHomeowners taking greater risks because they are protected from the consequences.\nInsurers charging higher premiums to high-risk homeowners.\nGovernment regulations preventing building in flood zones.\nThe natural tendency of individuals to avoid risky areas.\n\nAnswer: A\nExplanation: Moral hazard occurs when individuals have less incentive to avoid risk because they are insulated from its consequences, such as through subsidized insurance."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-06.html#question-5",
+    "href": "econ-cw/econ-341-cw-06.html#question-5",
+    "title": "Quiz 2",
+    "section": "Question 5",
+    "text": "Question 5\nMeta-analysis takes empirical estimates from a sample of studies and statistically relates them to study characteristics.\nExplanation: This approach helps identify how different factors influence valuation estimates across studies."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-06.html#question-6",
+    "href": "econ-cw/econ-341-cw-06.html#question-6",
+    "title": "Quiz 2",
+    "section": "Question 6",
+    "text": "Question 6\nTipping points refer to thresholds where small changes can lead to significant and possibly irreversible shifts in the climate system.\nExplanation: Tipping points are critical thresholds that, when exceeded, can lead to large and irreversible changes in the climate system."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-06.html#question-7",
+    "href": "econ-cw/econ-341-cw-06.html#question-7",
+    "title": "Quiz 2",
+    "section": "Question 7",
+    "text": "Question 7\nA carbon offset credit is a transferrable instrument certified to represent an emission reduction of one metric ton of CO2e.\nExplanation: Offset credits allow for trading of certified emissions reductions."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-06.html#question-8",
+    "href": "econ-cw/econ-341-cw-06.html#question-8",
+    "title": "Quiz 2",
+    "section": "Question 8",
+    "text": "Question 8\nThe phenomenon where people tend to underestimate the likelihood that losses will occur from future hazards is called optimism.\nExplanation: Optimism is one of the six reasons people underprepare for disasters."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-06.html#question-9",
+    "href": "econ-cw/econ-341-cw-06.html#question-9",
+    "title": "Quiz 2",
+    "section": "Question 9",
+    "text": "Question 9\nDescribe how “issue linkage” might improve international cooperation on climate change.\nAnswer:\nPlease refer to the lecture slides"
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-06.html#question-10",
+    "href": "econ-cw/econ-341-cw-06.html#question-10",
+    "title": "Quiz 2",
+    "section": "Question 10",
+    "text": "Question 10\nA new environmental regulation is expected to reduce the mortality risk by 1 in 100,000 for each of 1 million people. If the VSL is estimated at $9 million, what is the total monetary benefit of this regulation in terms of reduced mortality risk?\n****Answer:****\nFirst, calculate the expected number of lives saved:\n\\[\n\\begin{align}\n\\text{Lives Saved} &= \\text{Population} \\times \\text{Risk Reduction}\\\\\n&= 1,000,000 \\times \\frac{1}{100,000}\\\\\n&= 10\\; \\text{lives}\n\\end{align}\n\\] Then, calculate the total monetary benefit:\n\\[\n\\begin{align}\n\\text{Total Benefit} &= \\text{Lives Saved} \\times \\text{VSL}\\\\\n&= 10 \\times \\$9,000,000\\\\\n&=\\$90,000,000\n\\end{align}\n\\]"
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-06.html#question-11",
+    "href": "econ-cw/econ-341-cw-06.html#question-11",
+    "title": "Quiz 2",
+    "section": "Question 11",
+    "text": "Question 11\nSuppose there are two firms, Firm A and Firm B, both emitting greenhouse gases (GHGs) The government aims to reduce total GHG emissions by 30 units. The marginal cost (MC) of GHG emission reduction for the two firms are given by:\n\nFirm A: \\(\\text{MC}_A = 2Q_A\\)\nFirm B: \\(\\text{MC}_B = Q_B\\)\n\nwhere \\(Q_A\\) and \\(Q_B\\) are the quantities of GHG emission reduction by Firm A and Firm B, respectively.\n\nDetermine the cost-effective allocation of GHG emission reduction between Firm A and Firm B to achieve the total GHG emission reduction of 30 units.\n\nAnswer:\nTo achieve cost-effectiveness, the marginal abatement costs must be equal across both firms:\n\\[\n\\begin{align}\nMC_{A} &= MC_{B}\\\\\n2Q_{A} &= Q_{B}\\tag{1}\n\\end{align}\n\\] The total GHG emission reduction required is: \\[\nQ_A + Q_B = 30\\tag{2}\n\\]\nSolving the system of the two equations (1) and (2) gives:\n\\[\nQ_{A}^{o} = 10,\\; Q_{B}^{o} = 20\n\\]\n\nCalculate the total cost of GHG emission reduction for each firm under this cost-effective allocation.\n\nAnswer:\n\n\n\n\n\nThe total cost of each firm’s pollution reduction is the triangle area under the each firm’s \\(MC\\) curve:\n\\[\n\\begin{align}\nTC_{A} = \\frac{1}{2}\\times 10 \\times 20 = 100,\\\\\nTC_{B} = \\frac{1}{2}\\times 20 \\times 20 = 200.\n\\end{align}\n\\]"
   }
 ]
