@@ -201,8 +201,7 @@ A just transition ensures that the move toward a low-carbon economy is fair and 
 	-	**Regressive Impact of Carbon Pricing:** Carbon pricing can be **regressive** because lower-income households spend a higher percentage of their income on energy and carbon-intensive goods. Without intervention, these households bear a disproportionate burden of the costs.
 	-	**Benefits of Emissions Reductions:** Lower-income communities often suffer more from the adverse effects of climate change, so they stand to gain significantly from emissions reductions.
 	
-- **Use of Revenue:**
-	-	Revenue Recycling: The way carbon pricing revenue is used critically affects the policy’s equity. Options include:
+- **Use of Revenue (Revenue Recycling):** The way carbon pricing revenue is used critically affects the policy’s equity. Options include:
 	-	**Progressive Rebates or Dividends:** Returning revenue to households, particularly targeting lower-income groups, can offset higher energy costs and even provide a net benefit.
 	-	**Targeted Investments:** Investing in energy efficiency, public transportation, and renewable energy projects in disadvantaged communities can reduce energy costs and improve living conditions.
 	-	**Job Training and Transition Assistance:** Allocating funds to retrain workers from carbon-intensive industries supports employment and eases the economic transition.
@@ -402,24 +401,25 @@ Note that the order of strategies in this parenthesis means (Country A's strateg
 
 **Answer:**
 
-For (Reduce, Reduce) to be only NE, the following conditions should hold:
+For the unique (Reduce, Reduce) NE, the following conditions can be considered:
 
 1. Country A's best response to Country B's Reduce is Reduce:
 
 $$
 \begin{align}
-\overbrace{5}^{\text{Payoff from Reduce}} & > \overbrace{8 -c}^{\text{Payoff from BAU}}\\
+\overbrace{5}^{\text{Country A's Payoff from Reduce}} & > \overbrace{8 -c}^{\text{Country A's Payoff from BAU}}\\
 \quad\\
-c & > 3\tag{1}
+\Leftrightarrow\qquad\qquad\qquad\qquad c & > 3\tag{1}
 \end{align}
 $$
+
 2. Country A's best response to Country B's BAU is Reduce:
 
 $$
 \begin{align}
-\overbrace{-2+b}^{\text{Payoff from Reduce}} &> \overbrace{1 -c}^{\text{Payoff from BAU}}\\
+\overbrace{-2+b}^{\text{Country A's Payoff from Reduce}} &> \overbrace{1 -c}^{\text{Country A's Payoff from BAU}}\\
 \quad\\
-b + c &> 3\tag{2}
+\Leftrightarrow\qquad\qquad\qquad b + c &> 3\tag{2}
 \end{align}
 $$
 
@@ -450,19 +450,20 @@ Conditions (1) and (2) ensure that both countries find it in their best interest
 	-	$c$: The country continuing BAU incurs opportunity costs from lost technology access, increasing $c$.
 
 - **Situation Where Issue Linkage Fails to Satisfy Conditions from Part (a):**
-  - **Scenario:** Weak Environmental Aid Reduces $b$ Below Required Threshold
+- **Scenario:** Weak Environmental Aid Reduces $b$ Below Required Threshold
 	-	**Description:** Countries agree that if one reduces emissions while the other does not, the reducing country will receive minimal environmental aid from international organizations, insufficient to offset the costs of reducing emissions.
 	-	**Impact on $b$:** The parameter $b$ increases slightly but not enough to satisfy the condition $b + c > 3$.
-	-	Given  $c > 3$: Even if $c$ exceeds 3 due to other factors (e.g., moderate/stringent sanctions), the negative value in $b$ can imply $b + c \leq 3$.
+	  -	Given  $c > 3$: Even if $c$ exceeds 3 due to other factors (e.g., moderate/stringent sanctions), the negative value in $b$ can imply $b + c \leq 3$.
+	  -	Weak issue linkage can imply imply $b + c \leq 3$.
 	-	**Result:** The inequality $b + c > 3$ is not satisfied.
-	-	**Consequence:** Country A (and similarly Country B) may prefer “BAU” when the other country chooses “BAU”, leading to multiple Nash equilibria, including (BAU, BAU), or a unique NE of (BAU, BAU).
+	-	**Consequence:** Country A (and similarly Country B) may prefer “BAU” when the other country chooses “BAU”, leading to a NE of (BAU, BAU).
 
 
 **Summary:**
 
 -	The **weak issue linkage** fails to create strong enough incentives for unilateral emission reductions.
 -	Countries may revert to “BAU” in anticipation that the benefits of reducing emissions are outweighed by the costs.
--	The failure to meet the condition $b + c > 3$ means “Reduce” is not a *dominant* strategy, and (Reduce, Reduce) is no longer the only Nash equilibrium.
+-	The failure to meet the condition $b + c > 3$ means “Reduce” is not a *dominant* strategy, and (Reduce, Reduce) is no longer the only NE.
 
 
 

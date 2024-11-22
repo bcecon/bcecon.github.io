@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Byeong-Hak Choe">
-<meta name="dcterms.date" content="2024-11-21">
+<meta name="dcterms.date" content="2024-11-22">
 
 <title>Midterm Exam II | Byeong-Hak Choe</title>
 <style>
@@ -236,14 +236,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 21, 2024</p>
+      <p class="date">November 22, 2024</p>
     </div>
   </div>
   
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">November 21, 2024</p>
+      <p class="date-modified">November 22, 2024</p>
     </div>
   </div>
     
@@ -398,9 +398,8 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Regressive Impact of Carbon Pricing:</strong> Carbon pricing can be <strong>regressive</strong> because lower-income households spend a higher percentage of their income on energy and carbon-intensive goods. Without intervention, these households bear a disproportionate burden of the costs.</li>
 <li><strong>Benefits of Emissions Reductions:</strong> Lower-income communities often suffer more from the adverse effects of climate change, so they stand to gain significantly from emissions reductions.</li>
 </ul></li>
-<li><strong>Use of Revenue:</strong>
+<li><strong>Use of Revenue (Revenue Recycling):</strong> The way carbon pricing revenue is used critically affects the policy’s equity. Options include:
 <ul>
-<li>Revenue Recycling: The way carbon pricing revenue is used critically affects the policy’s equity. Options include:</li>
 <li><strong>Progressive Rebates or Dividends:</strong> Returning revenue to households, particularly targeting lower-income groups, can offset higher energy costs and even provide a net benefit.</li>
 <li><strong>Targeted Investments:</strong> Investing in energy efficiency, public transportation, and renewable energy projects in disadvantaged communities can reduce energy costs and improve living conditions.</li>
 <li><strong>Job Training and Transition Assistance:</strong> Allocating funds to retrain workers from carbon-intensive industries supports employment and eases the economic transition.</li>
@@ -536,22 +535,25 @@ T^{o} &amp;= 16
 <p>What are the conditions on the parameter values <span class="math inline">\(b\)</span> and <span class="math inline">\(c\)</span> such that (Reduce, Reduce) is the only Nash equilibrium?</p>
 <p>Note that the order of strategies in this parenthesis means (Country A’s strategy, Country B’s strategy).</p>
 <p><strong>Answer:</strong></p>
-<p>For (Reduce, Reduce) to be only NE, the following conditions should hold:</p>
+<p>For the unique (Reduce, Reduce) NE, the following conditions can be considered:</p>
 <ol type="1">
 <li>Country A’s best response to Country B’s Reduce is Reduce:</li>
 </ol>
 <p><span class="math display">\[
 \begin{align}
-\overbrace{5}^{\text{Payoff from Reduce}} &amp; &gt; \overbrace{8 -c}^{\text{Payoff from BAU}}\\
+\overbrace{5}^{\text{Country A's Payoff from Reduce}} &amp; &gt; \overbrace{8 -c}^{\text{Country A's Payoff from BAU}}\\
 \quad\\
-c &amp; &gt; 3\tag{1}
+\Leftrightarrow\qquad\qquad\qquad\qquad c &amp; &gt; 3\tag{1}
 \end{align}
-\]</span> 2. Country A’s best response to Country B’s BAU is Reduce:</p>
+\]</span></p>
+<ol start="2" type="1">
+<li>Country A’s best response to Country B’s BAU is Reduce:</li>
+</ol>
 <p><span class="math display">\[
 \begin{align}
-\overbrace{-2+b}^{\text{Payoff from Reduce}} &amp;&gt; \overbrace{1 -c}^{\text{Payoff from BAU}}\\
+\overbrace{-2+b}^{\text{Country A's Payoff from Reduce}} &amp;&gt; \overbrace{1 -c}^{\text{Country A's Payoff from BAU}}\\
 \quad\\
-b + c &amp;&gt; 3\tag{2}
+\Leftrightarrow\qquad\qquad\qquad b + c &amp;&gt; 3\tag{2}
 \end{align}
 \]</span></p>
 <p>Since the payoff structure is symmetric between the two countries, we will derive the same conditions as in equations (1) and (2) if we consider Country B’s best response to Country A’s strategy.</p>
@@ -584,23 +586,20 @@ b + c &amp;&gt; 3\tag{2}
 </ul></li>
 </ol>
 <ul>
-<li><strong>Situation Where Issue Linkage Fails to Satisfy Conditions from Part (a):</strong>
-<ul>
+<li><strong>Situation Where Issue Linkage Fails to Satisfy Conditions from Part (a):</strong></li>
 <li><strong>Scenario:</strong> Weak Environmental Aid Reduces <span class="math inline">\(b\)</span> Below Required Threshold
 <ul>
 <li><strong>Description:</strong> Countries agree that if one reduces emissions while the other does not, the reducing country will receive minimal environmental aid from international organizations, insufficient to offset the costs of reducing emissions.</li>
-<li><strong>Impact on <span class="math inline">\(b\)</span>:</strong> The parameter <span class="math inline">\(b\)</span> increases slightly but not enough to satisfy the condition <span class="math inline">\(b + c &gt; 3\)</span>.</li>
-<li>Given <span class="math inline">\(c &gt; 3\)</span>: Even if <span class="math inline">\(c\)</span> exceeds 3 due to other factors (e.g., moderate/stringent sanctions), the negative value in <span class="math inline">\(b\)</span> can imply <span class="math inline">\(b + c \leq 3\)</span>.</li>
+<li><strong>Impact on <span class="math inline">\(b\)</span>:</strong> The parameter <span class="math inline">\(b\)</span> increases slightly but not enough to satisfy the condition <span class="math inline">\(b + c &gt; 3\)</span>. - Given <span class="math inline">\(c &gt; 3\)</span>: Even if <span class="math inline">\(c\)</span> exceeds 3 due to other factors (e.g., moderate/stringent sanctions), the negative value in <span class="math inline">\(b\)</span> can imply <span class="math inline">\(b + c \leq 3\)</span>. - Weak issue linkage can imply imply <span class="math inline">\(b + c \leq 3\)</span>.</li>
 <li><strong>Result:</strong> The inequality <span class="math inline">\(b + c &gt; 3\)</span> is not satisfied.</li>
-<li><strong>Consequence:</strong> Country A (and similarly Country B) may prefer “BAU” when the other country chooses “BAU”, leading to multiple Nash equilibria, including (BAU, BAU), or a unique NE of (BAU, BAU).</li>
-</ul></li>
+<li><strong>Consequence:</strong> Country A (and similarly Country B) may prefer “BAU” when the other country chooses “BAU”, leading to a NE of (BAU, BAU).</li>
 </ul></li>
 </ul>
 <p><strong>Summary:</strong></p>
 <ul>
 <li>The <strong>weak issue linkage</strong> fails to create strong enough incentives for unilateral emission reductions.</li>
 <li>Countries may revert to “BAU” in anticipation that the benefits of reducing emissions are outweighed by the costs.</li>
-<li>The failure to meet the condition <span class="math inline">\(b + c &gt; 3\)</span> means “Reduce” is not a <em>dominant</em> strategy, and (Reduce, Reduce) is no longer the only Nash equilibrium.</li>
+<li>The failure to meet the condition <span class="math inline">\(b + c &gt; 3\)</span> means “Reduce” is not a <em>dominant</em> strategy, and (Reduce, Reduce) is no longer the only NE.</li>
 </ul>
 
 
