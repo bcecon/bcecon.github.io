@@ -1271,7 +1271,7 @@
     "href": "index.html#bullet-classwork",
     "title": "ECON 341-01: Natural Resource Economics, Fall 2024",
     "section": "\\(\\bullet\\,\\) Classwork ⌨️",
-    "text": "\\(\\bullet\\,\\) Classwork ⌨️\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nQuiz 2\n\n\nNovember 19, 2024\n\n\n\n\nPrice vs. Quantity under Uncertainty\n\n\nNovember 6, 2024\n\n\n\n\nQuiz 1\n\n\nOctober 7, 2024\n\n\n\n\nPublic Goods\n\n\nOctober 7, 2024\n\n\n\n\nUtility Maximization\n\n\nOctober 7, 2024\n\n\n\n\nExternalities\n\n\nSeptember 4, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "\\(\\bullet\\,\\) Classwork ⌨️\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nMidterm Exam II\n\n\nNovember 21, 2024\n\n\n\n\nQuiz 2\n\n\nNovember 19, 2024\n\n\n\n\nPrice vs. Quantity under Uncertainty\n\n\nNovember 6, 2024\n\n\n\n\nQuiz 1\n\n\nOctober 7, 2024\n\n\n\n\nPublic Goods\n\n\nOctober 7, 2024\n\n\n\n\nUtility Maximization\n\n\nOctober 7, 2024\n\n\n\n\nExternalities\n\n\nSeptember 4, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#bullet-homework",
@@ -1579,7 +1579,7 @@
     "href": "listing-econ-341-cw.html",
     "title": "ECON 341 - Classwork",
     "section": "",
-    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nExternalities\n\n\nClasswork 1\n\n\nSeptember 4, 2024\n\n\n\n\nUtility Maximization\n\n\nClasswork 2\n\n\nOctober 7, 2024\n\n\n\n\nPublic Goods\n\n\nClasswork 3\n\n\nOctober 7, 2024\n\n\n\n\nQuiz 1\n\n\nClasswork 4\n\n\nOctober 7, 2024\n\n\n\n\nPrice vs. Quantity under Uncertainty\n\n\nClasswork 5\n\n\nNovember 6, 2024\n\n\n\n\nQuiz 2\n\n\nClasswork 6\n\n\nNovember 19, 2024\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nExternalities\n\n\nClasswork 1\n\n\nSeptember 4, 2024\n\n\n\n\nUtility Maximization\n\n\nClasswork 2\n\n\nOctober 7, 2024\n\n\n\n\nPublic Goods\n\n\nClasswork 3\n\n\nOctober 7, 2024\n\n\n\n\nQuiz 1\n\n\nClasswork 4\n\n\nOctober 7, 2024\n\n\n\n\nPrice vs. Quantity under Uncertainty\n\n\nClasswork 5\n\n\nNovember 6, 2024\n\n\n\n\nQuiz 2\n\n\nClasswork 6\n\n\nNovember 19, 2024\n\n\n\n\nMidterm Exam II\n\n\nClasswork 7\n\n\nNovember 21, 2024\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "listing-econ-341-hw.html",
@@ -7173,5 +7173,166 @@
     "title": "Quiz 2",
     "section": "Question 11",
     "text": "Question 11\nSuppose there are two firms, Firm A and Firm B, both emitting greenhouse gases (GHGs) The government aims to reduce total GHG emissions by 30 units. The marginal cost (MC) of GHG emission reduction for the two firms are given by:\n\nFirm A: \\(\\text{MC}_A = 2Q_A\\)\nFirm B: \\(\\text{MC}_B = Q_B\\)\n\nwhere \\(Q_A\\) and \\(Q_B\\) are the quantities of GHG emission reduction by Firm A and Firm B, respectively.\n\nDetermine the cost-effective allocation of GHG emission reduction between Firm A and Firm B to achieve the total GHG emission reduction of 30 units.\n\nAnswer:\nTo achieve cost-effectiveness, the marginal abatement costs must be equal across both firms:\n\\[\n\\begin{align}\nMC_{A} &= MC_{B}\\\\\n2Q_{A} &= Q_{B}\\tag{1}\n\\end{align}\n\\] The total GHG emission reduction required is: \\[\nQ_A + Q_B = 30\\tag{2}\n\\]\nSolving the system of the two equations (1) and (2) gives:\n\\[\nQ_{A}^{o} = 10,\\; Q_{B}^{o} = 20\n\\]\n\nCalculate the total cost of GHG emission reduction for each firm under this cost-effective allocation.\n\nAnswer:\n\n\n\n\n\nThe total cost of each firm’s pollution reduction is the triangle area under the each firm’s \\(MC\\) curve:\n\\[\n\\begin{align}\nTC_{A} = \\frac{1}{2}\\times 10 \\times 20 = 100,\\\\\nTC_{B} = \\frac{1}{2}\\times 20 \\times 20 = 200.\n\\end{align}\n\\]"
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-07.html",
+    "href": "econ-cw/econ-341-cw-07.html",
+    "title": "Midterm Exam II",
+    "section": "",
+    "text": "Which of the following best describes the travel-cost method in environmental and natural resource economics?\n\nIt directly measures market prices of environmental goods.\nIt infers the value of a recreational site by examining visitors’ travel expenditures.\nIt uses surveys to estimate individuals’ willingness to pay for non-use values.\nIt calculates environmental values based on property taxes.\n\nAnswer: B\nExplanation: The travel-cost method is a revealed preference approach that estimates the economic value of recreational sites by analyzing how much visitors spend to travel to those sites. This includes costs like transportation, accommodation, and time. By observing these expenditures, economists can infer visitors’ willingness to pay and construct a demand curve for the site.\n\n\n\nAverting expenditures are useful in environmental valuation because they:\n\nProvide an exact measure of environmental damages.\nOffer a lower-bound estimate of the willingness to pay to avoid environmental harm.\nRepresent the total cost of environmental degradation.\nAre unaffected by individual income levels.\n\nAnswer: B\nExplanation: Averting or “avoidance” expenditures are costs incurred by individuals to prevent or reduce exposure to environmental harms (e.g., buying bottled water due to water pollution). Since people would not normally spend more to prevent a problem than would be caused by the problem itself, averting expenditures can provide a lower-bound estimate of the damage caused by pollution.\n\n\n\nWhich of the following is NOT a necessary condition for carbon pricing to achieve cost-effectiveness in emissions reduction?\n\nThe price on emissions should be applied to all greenhouse gases measured as CO2e.\nAll emitters should face the same price per ton of CO2e.\nThe carbon price should be adjusted periodically to reflect inflation.\nThe price should be applied to all emission sources of those gases.\n\nAnswer: C\nExplanation: Adjusting the carbon price for inflation is not listed as a necessary condition for cost-effectiveness. The necessary conditions include applying the price to all greenhouse gases via CO2e, covering all emission sources, and ensuring all emitters face the same price per ton of CO2e to equalize marginal costs of abatement.\n\n\n\nIn comparing carbon taxes and emissions trading programs, which of the following statements is TRUE?\n\nCarbon taxes set the price, and the resulting emissions are uncertain.\nEmissions trading programs set the price, and the resulting emissions are uncertain.\nCarbon taxes set the emissions level, and the resulting price is uncertain.\nEmissions trading programs set both the emissions level and the price.\n\nAnswer: A\nExplanation: Carbon taxes involve the government setting the price (tax rate), and the market determining the resulting level of emissions, making emissions uncertain. Emissions trading programs set the emissions cap, and the market determines the price.\n\n\n\nThe primary concern with output-based carbon pricing systems is that they:\n\nImplicitly subsidize output, leading to lower emissions.\nAre more cost-effective than traditional ETS designs.\nImplicitly subsidize output, leading to higher costs and reduced cost-effectiveness.\nDo not account for differences in technology and fuel types.\n\nAnswer: C\nExplanation: Output-based systems can implicitly subsidize output since allowances are tied to production levels, potentially leading to higher costs and less cost-effective emissions reductions compared to traditional ETS designs.\n\n\n\nAccording to the IPCC, what are the two main types of adaptation policies?\n\nStructural and Non-structural adaptation\nProactive and Reactive adaptation\nNational and International adaptation\nPrivate and Public adaptation\n\nAnswer: B\nExplanation: The IPCC outlines two types of adaptation policies: proactive policies, which involve taking action in anticipation of a climate change impact, and reactive policies, which are taken in response to a climate change impact that has already occurred.\n\n\n\nIn the context of flood insurance in the United States, which of the following is a perverse incentive created by the National Flood Insurance Program (NFIP)?\n\nEncouraging homeowners to move away from flood-prone areas.\nRequiring higher premiums for higher-risk areas.\nAllowing homeowners to rebuild in the same flood-prone locations after flooding events.\nProviding accurate flood risk information to homeowners.\n\nAnswer: C\nExplanation: The NFIP requires that funds paid out in damage claims be used to rebuild a house in the same location, which encourages rebuilding in high-risk areas rather than reducing risk."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-07.html#question-1",
+    "href": "econ-cw/econ-341-cw-07.html#question-1",
+    "title": "Midterm Exam II",
+    "section": "",
+    "text": "Which of the following best describes the travel-cost method in environmental and natural resource economics?\n\nIt directly measures market prices of environmental goods.\nIt infers the value of a recreational site by examining visitors’ travel expenditures.\nIt uses surveys to estimate individuals’ willingness to pay for non-use values.\nIt calculates environmental values based on property taxes.\n\nAnswer: B\nExplanation: The travel-cost method is a revealed preference approach that estimates the economic value of recreational sites by analyzing how much visitors spend to travel to those sites. This includes costs like transportation, accommodation, and time. By observing these expenditures, economists can infer visitors’ willingness to pay and construct a demand curve for the site."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-07.html#question-2",
+    "href": "econ-cw/econ-341-cw-07.html#question-2",
+    "title": "Midterm Exam II",
+    "section": "",
+    "text": "Averting expenditures are useful in environmental valuation because they:\n\nProvide an exact measure of environmental damages.\nOffer a lower-bound estimate of the willingness to pay to avoid environmental harm.\nRepresent the total cost of environmental degradation.\nAre unaffected by individual income levels.\n\nAnswer: B\nExplanation: Averting or “avoidance” expenditures are costs incurred by individuals to prevent or reduce exposure to environmental harms (e.g., buying bottled water due to water pollution). Since people would not normally spend more to prevent a problem than would be caused by the problem itself, averting expenditures can provide a lower-bound estimate of the damage caused by pollution."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-07.html#question-3",
+    "href": "econ-cw/econ-341-cw-07.html#question-3",
+    "title": "Midterm Exam II",
+    "section": "",
+    "text": "Which of the following is NOT a necessary condition for carbon pricing to achieve cost-effectiveness in emissions reduction?\n\nThe price on emissions should be applied to all greenhouse gases measured as CO2e.\nAll emitters should face the same price per ton of CO2e.\nThe carbon price should be adjusted periodically to reflect inflation.\nThe price should be applied to all emission sources of those gases.\n\nAnswer: C\nExplanation: Adjusting the carbon price for inflation is not listed as a necessary condition for cost-effectiveness. The necessary conditions include applying the price to all greenhouse gases via CO2e, covering all emission sources, and ensuring all emitters face the same price per ton of CO2e to equalize marginal costs of abatement."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-07.html#question-4",
+    "href": "econ-cw/econ-341-cw-07.html#question-4",
+    "title": "Midterm Exam II",
+    "section": "",
+    "text": "In comparing carbon taxes and emissions trading programs, which of the following statements is TRUE?\n\nCarbon taxes set the price, and the resulting emissions are uncertain.\nEmissions trading programs set the price, and the resulting emissions are uncertain.\nCarbon taxes set the emissions level, and the resulting price is uncertain.\nEmissions trading programs set both the emissions level and the price.\n\nAnswer: A\nExplanation: Carbon taxes involve the government setting the price (tax rate), and the market determining the resulting level of emissions, making emissions uncertain. Emissions trading programs set the emissions cap, and the market determines the price."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-07.html#question-5",
+    "href": "econ-cw/econ-341-cw-07.html#question-5",
+    "title": "Midterm Exam II",
+    "section": "",
+    "text": "The primary concern with output-based carbon pricing systems is that they:\n\nImplicitly subsidize output, leading to lower emissions.\nAre more cost-effective than traditional ETS designs.\nImplicitly subsidize output, leading to higher costs and reduced cost-effectiveness.\nDo not account for differences in technology and fuel types.\n\nAnswer: C\nExplanation: Output-based systems can implicitly subsidize output since allowances are tied to production levels, potentially leading to higher costs and less cost-effective emissions reductions compared to traditional ETS designs."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-07.html#question-6",
+    "href": "econ-cw/econ-341-cw-07.html#question-6",
+    "title": "Midterm Exam II",
+    "section": "",
+    "text": "According to the IPCC, what are the two main types of adaptation policies?\n\nStructural and Non-structural adaptation\nProactive and Reactive adaptation\nNational and International adaptation\nPrivate and Public adaptation\n\nAnswer: B\nExplanation: The IPCC outlines two types of adaptation policies: proactive policies, which involve taking action in anticipation of a climate change impact, and reactive policies, which are taken in response to a climate change impact that has already occurred."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-07.html#question-7",
+    "href": "econ-cw/econ-341-cw-07.html#question-7",
+    "title": "Midterm Exam II",
+    "section": "",
+    "text": "In the context of flood insurance in the United States, which of the following is a perverse incentive created by the National Flood Insurance Program (NFIP)?\n\nEncouraging homeowners to move away from flood-prone areas.\nRequiring higher premiums for higher-risk areas.\nAllowing homeowners to rebuild in the same flood-prone locations after flooding events.\nProviding accurate flood risk information to homeowners.\n\nAnswer: C\nExplanation: The NFIP requires that funds paid out in damage claims be used to rebuild a house in the same location, which encourages rebuilding in high-risk areas rather than reducing risk."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-07.html#question-8",
+    "href": "econ-cw/econ-341-cw-07.html#question-8",
+    "title": "Midterm Exam II",
+    "section": "Question 8",
+    "text": "Question 8\nThe free-rider effect is a major challenge in forming international climate agreements because countries benefit from others’ emission reductions without participating themselves."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-07.html#question-9",
+    "href": "econ-cw/econ-341-cw-07.html#question-9",
+    "title": "Midterm Exam II",
+    "section": "Question 9",
+    "text": "Question 9\nMitigation strategies aim to moderate the temperature rise by reducing greenhouse gas emissions."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-07.html#question-10",
+    "href": "econ-cw/econ-341-cw-07.html#question-10",
+    "title": "Midterm Exam II",
+    "section": "Question 10",
+    "text": "Question 10\nFor carbon pricing to be cost-effective, the price on emissions should be applied to all greenhouse gases via carbon dioxide equivalents (CO₂e), which is used to express the impact of different greenhouse gases in terms of the amount of CO₂ that would have the same global warming potential over a specific time horizon, usually 100 years."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-07.html#question-11",
+    "href": "econ-cw/econ-341-cw-07.html#question-11",
+    "title": "Midterm Exam II",
+    "section": "Question 11",
+    "text": "Question 11\nIn the context of climate change adaptation, the vulnerability of a particular location is determined by examining the level of exposure to the risks and the number and types of hazards faced."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-07.html#question-12",
+    "href": "econ-cw/econ-341-cw-07.html#question-12",
+    "title": "Midterm Exam II",
+    "section": "Question 12",
+    "text": "Question 12\nAn increase in resilience could reduce nations’ vulnerability to disasters as well as the costs they impose. In the context of ecology, resilience refers to an ecosystem’s ability to bounce back (recover) from a shock."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-07.html#question-13",
+    "href": "econ-cw/econ-341-cw-07.html#question-13",
+    "title": "Midterm Exam II",
+    "section": "Question 13",
+    "text": "Question 13\n\nWhat is the Value of Statistical Life (VSL)?\nDiscuss how the concept of VSL can influence the Social Cost of Carbon (SCC) and policies related to climate change mitigation.\n\nAnswer: The VSL is an economic measure that estimates the monetary value people place on reducing the risk of death. VSL is calculated by dividing an individual’s willingness to pay for a specific reduction in mortality risk by the magnitude of that risk reduction. This calculation reflects the trade-off between money and a small change in mortality risk.\nThe VSL plays a crucial role in calculating the SCC, which estimates the economic damages associated with a metric ton of CO₂ emissions. By incorporating VSL, policymakers can quantify the mortality risks associated with climate change, such as deaths from extreme weather events or heatwaves.\nIncluding VSL in SCC calculations increases the estimated damages from carbon emissions, highlighting the human health benefits of reducing emissions. This, in turn, can justify more aggressive climate policies and regulations by showing that the benefits of emission reductions (in terms of saved lives) outweigh the costs.\nMoreover, acknowledging the mortality risks and assigning them a monetary value ensures that policies account for the full spectrum of climate change impacts. It strengthens the argument for urgent action and can influence international agreements and national regulations aimed at mitigating climate change."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-07.html#question-14",
+    "href": "econ-cw/econ-341-cw-07.html#question-14",
+    "title": "Midterm Exam II",
+    "section": "Question 14",
+    "text": "Question 14\nDiscuss the concept of “tipping points” in climate change and their implications for policy-making.\nAnswer: Tipping points in climate change refer to critical thresholds in the Earth’s system, where a small perturbation can qualitatively alter the state or development of a system. Once a tipping point is crossed, it can lead to significant and often irreversible changes in the environment, such as the rapid melting of polar ice caps, dieback of the Amazon rainforest, or thawing of permafrost, which releases large amounts of greenhouse gases.\nThe implications for policy-making are profound. First, tipping points introduce a high level of uncertainty and risk, as the exact thresholds and outcomes are not always predictable. This uncertainty necessitates a precautionary approach to climate policy, advocating for earlier and more aggressive emission reductions to minimize the risk of crossing these thresholds.\nSecond, tipping points can lead to non-linear and accelerated climate impacts, making it more challenging to adapt. Policies must, therefore, focus not only on gradual emission reductions but also on resilience and adaptive capacity to cope with sudden changes.\nLastly, the potential for catastrophic outcomes increases the social cost of carbon, justifying higher carbon prices and more stringent regulations. Policymakers must consider the fat-tailed nature of climate risks, where extreme events have a higher probability than traditionally estimated, warranting urgent and comprehensive climate action."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-07.html#question-15",
+    "href": "econ-cw/econ-341-cw-07.html#question-15",
+    "title": "Midterm Exam II",
+    "section": "Question 15",
+    "text": "Question 15\n\nWhat does “just transition” mean in the context of climate change?\nExplain how the design of carbon pricing policies can support a just transition, particularly in addressing distributional effects (i.e., how the costs and benefits of the policy are shared among different income groups, communities, and industries) and the strategic use of revenue to promote fairness and equity.\n\nAnswer: A just transition ensures that the move toward a low-carbon economy is fair and inclusive, addressing the needs of vulnerable populations who might be disproportionately affected by climate policies. Carbon pricing, as a key policy tool for reducing emissions, must be designed carefully to support a just transition.\n\nDistributional Effects:\n\nRegressive Impact of Carbon Pricing: Carbon pricing can be regressive because lower-income households spend a higher percentage of their income on energy and carbon-intensive goods. Without intervention, these households bear a disproportionate burden of the costs.\nBenefits of Emissions Reductions: Lower-income communities often suffer more from the adverse effects of climate change, so they stand to gain significantly from emissions reductions.\n\nUse of Revenue:\n\nRevenue Recycling: The way carbon pricing revenue is used critically affects the policy’s equity. Options include:\nProgressive Rebates or Dividends: Returning revenue to households, particularly targeting lower-income groups, can offset higher energy costs and even provide a net benefit.\nTargeted Investments: Investing in energy efficiency, public transportation, and renewable energy projects in disadvantaged communities can reduce energy costs and improve living conditions.\nJob Training and Transition Assistance: Allocating funds to retrain workers from carbon-intensive industries supports employment and eases the economic transition.\nSupporting Small Businesses: Assisting small businesses in adapting to higher energy costs ensures they remain competitive and can contribute to economic growth. Policy Design Considerations:\nTransparency and Participation: Engaging communities in policy design enhances legitimacy and ensures that policies address specific local needs.\nFlexibility: Policies should be adaptable to changing economic conditions to prevent unintended hardships.\nComplementary Measures: Combining carbon pricing with other policies, such as social safety nets and labor policies, can mitigate negative impacts on vulnerable groups."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-07.html#question-16",
+    "href": "econ-cw/econ-341-cw-07.html#question-16",
+    "title": "Midterm Exam II",
+    "section": "Question 16",
+    "text": "Question 16\nSuppose there are two firms, Firm A and Firm B, both emitting greenhouse gases (GHGs) The government aims to reduce total GHG emissions by 20 units. The marginal cost (MC) of GHG emission reduction for the two firms are given by:\n\nFirm A: \\(\\text{MC}_A = 4Q_A\\)\nFirm B: \\(\\text{MC}_B = Q_B\\)\n\nwhere \\(Q_A\\) and \\(Q_B\\) are the quantities of GHG emission reduction by Firm A and Firm B, respectively."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-07.html#a",
+    "href": "econ-cw/econ-341-cw-07.html#a",
+    "title": "Midterm Exam II",
+    "section": "(a)",
+    "text": "(a)\nDetermine the cost-effective allocation of GHG emission reduction between Firm A and Firm B to achieve the total GHG emission reduction of 20 units.\nAnswer:\nTo achieve cost-effectiveness, the marginal abatement costs must be equal across both firms:\n\\[\n\\begin{align}\nMC_{A} &= MC_{B}\\\\\n4Q_{A} &= Q_{B}\\tag{1}\n\\end{align}\n\\] The total GHG emission reduction required is: \\[\nQ_A + Q_B = 20\\tag{2}\n\\]\nSolving the system of the two equations (1) and (2) gives:\n\\[\nQ_{A}^{o} = 4,\\; Q_{B}^{o} = 16\n\\]"
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-07.html#b",
+    "href": "econ-cw/econ-341-cw-07.html#b",
+    "title": "Midterm Exam II",
+    "section": "(b)",
+    "text": "(b)\nCalculate the total cost of GHG emission reduction for each firm under this cost-effective allocation.\nAnswer:\n\n\n\n\n\nThe total cost of each firm’s pollution reduction is the triangle area under the each firm’s \\(MC\\) curve:\n\\[\n\\begin{align}\nTC_{A} &= \\frac{1}{2}\\times 4 \\times 16 = 32\\\\\nTC_{B} &= \\frac{1}{2}\\times 16 \\times 16 = 128\n\\end{align}\n\\]"
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-07.html#c",
+    "href": "econ-cw/econ-341-cw-07.html#c",
+    "title": "Midterm Exam II",
+    "section": "(c)",
+    "text": "(c)\nSuppose the government imposes a carbon tax of \\(T\\) dollars per unit of GHG emissions to achieve the total reduction of 20 units. Determine the tax rate \\(T\\) that would achieve the desired GHG emission reduction.\nAnswer:\nFirms will abate GHG emissions until:\n\\[\nMC = T\n\\] For Firm A:\n\\[\n\\begin{align}\nMC_{A} &= T\\\\\n4Q_{A} &= T\\\\\nQ_{A} &= \\frac{T}{4}\n\\end{align}\n\\] For Firm B:\n\\[\n\\begin{align}\nMC_{B} &= T\\\\\nQ_{B} &= T\n\\end{align}\n\\]\nTotal GHG emissions reduction is \\[\n\\begin{align}\nQ_{A} + Q_{A} &= 20\\\\\n\\frac{T}{4} + T &= 20\\\\\nT^{o} &= 16\n\\end{align}\n\\]\nTherefore, the cost-effective carbon tax rate \\(T^{o}\\) is $16 per per unit of GHG emissions.\nIn the absence of government intervention, self-interested firms are unlikely to reduce GHG emissions, as doing so incurs additional costs. However, implementing a carbon tax incentivizes these firms to lower their emissions, thereby achieving the cost-effective level of GHG emissions."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-07.html#question-17",
+    "href": "econ-cw/econ-341-cw-07.html#question-17",
+    "title": "Midterm Exam II",
+    "section": "Question 17",
+    "text": "Question 17\nConsider two major economies, Country A and Country B, deciding whether to implement strict climate change policies. Each country can choose to either “Reduce Emissions” or “Continue Business as Usual (BAU).” The payoff matrix below shows the economic benefits (in billions of dollars) for each country over a 10-year period.\nIn this context, two parameters, \\(b\\) and \\(c\\), can influence the payoffs, potentially increasing or decreasing them depending on the situation:\n\n\n\n\n\n\nCountryB\n\n\nReduce\nBAU\n\n\n\n\nCountryA\nReduce\n(5, 5)\n(-2 + b, 8 - c)\n\n\nBAU\n(8 - c, -2 + b)\n(1 - c, 1 - c)\n\n\n\nNote that the order of values in the parenthesis means (Country A’s payoff, Country B’s payoff)."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-07.html#a-1",
+    "href": "econ-cw/econ-341-cw-07.html#a-1",
+    "title": "Midterm Exam II",
+    "section": "(a)",
+    "text": "(a)\nWhat are the conditions on the parameter values \\(b\\) and \\(c\\) such that (Reduce, Reduce) is the only Nash equilibrium?\nNote that the order of strategies in this parenthesis means (Country A’s strategy, Country B’s strategy).\nAnswer:\nFor (Reduce, Reduce) to be only NE, the following conditions should hold:\n\nCountry A’s best response to Country B’s Reduce is Reduce:\n\n\\[\n\\begin{align}\n\\overbrace{5}^{\\text{Payoff from Reduce}} & &gt; \\overbrace{8 -c}^{\\text{Payoff from BAU}}\\\\\n\\quad\\\\\nc & &gt; 3\\tag{1}\n\\end{align}\n\\] 2. Country A’s best response to Country B’s BAU is Reduce:\n\\[\n\\begin{align}\n\\overbrace{-2+b}^{\\text{Payoff from Reduce}} &&gt; \\overbrace{1 -c}^{\\text{Payoff from BAU}}\\\\\n\\quad\\\\\nb + c &&gt; 3\\tag{2}\n\\end{align}\n\\]\nSince the payoff structure is symmetric between the two countries, we will derive the same conditions as in equations (1) and (2) if we consider Country B’s best response to Country A’s strategy.\nConditions (1) and (2) ensure that both countries find it in their best interest to “Reduce” emissions regardless of the other country’s action, making (Reduce, Reduce) the only stable outcome."
+  },
+  {
+    "objectID": "econ-cw/econ-341-cw-07.html#b-1",
+    "href": "econ-cw/econ-341-cw-07.html#b-1",
+    "title": "Midterm Exam II",
+    "section": "(b)",
+    "text": "(b)\n\nProvide examples of “issue linkage” that could influence the parameters \\(b\\) and \\(c\\).\nIn your examples, describe a situation where the issue linkage you propose fails to satisfy the conditions derived in part (a).\n\nAnswer:\n\nCarbon Border Adjustment Mechanism (CBAM) or Other Economic Sanction Increasing \\(c\\):\n\nScenario: Country A implements a CBAM that imposes tariffs or taxes on imported goods based on their carbon content. This means that if Country B continues with BAU and does not reduce emissions, its exports to Country A become more expensive due to the carbon tariffs.\nImpact on \\(c\\): The parameter \\(c\\) represents the additional cost to a country that continues with BAU while the other reduces emissions. The implementation of CBAM increases \\(c\\) for Country B because its goods face higher tariffs, making the BAU option less attractive. This incentivizes Country B to also reduce emissions to avoid the tariffs.\n\nTrade Agreements Enhancing \\(b\\):\n\nScenario: Countries A and B agree that if either country reduces emissions while the other does not, the country reducing emissions will receive favorable trade terms from the other country.\nImpact on \\(b\\): The parameter \\(b\\) represents additional benefits to a country that unilaterally reduces emissions. By linking emission reductions to trade benefits, \\(b\\) increases, making unilateral reduction more attractive.\n\nTechnology Sharing Agreements Affecting \\(b\\) and \\(c\\):\n\nScenario: Countries agree that if both reduce emissions, they will share green technology, but if a country continues BAU, it loses access to this technology.\nImpact on \\(b\\) and \\(c\\):\n\\(b\\): The country reducing emissions gains additional technological benefits, increasing \\(b\\).\n\\(c\\): The country continuing BAU incurs opportunity costs from lost technology access, increasing \\(c\\).\n\n\n\nSituation Where Issue Linkage Fails to Satisfy Conditions from Part (a):\n\nScenario: Weak Environmental Aid Reduces \\(b\\) Below Required Threshold\n\nDescription: Countries agree that if one reduces emissions while the other does not, the reducing country will receive minimal environmental aid from international organizations, insufficient to offset the costs of reducing emissions.\nImpact on \\(b\\): The parameter \\(b\\) increases slightly but not enough to satisfy the condition \\(b + c &gt; 3\\).\nGiven \\(c &gt; 3\\): Even if \\(c\\) exceeds 3 due to other factors (e.g., moderate/stringent sanctions), the negative value in \\(b\\) can imply \\(b + c \\leq 3\\).\nResult: The inequality \\(b + c &gt; 3\\) is not satisfied.\nConsequence: Country A (and similarly Country B) may prefer “BAU” when the other country chooses “BAU”, leading to multiple Nash equilibria, including (BAU, BAU), or a unique NE of (BAU, BAU).\n\n\n\nSummary:\n\nThe weak issue linkage fails to create strong enough incentives for unilateral emission reductions.\nCountries may revert to “BAU” in anticipation that the benefits of reducing emissions are outweighed by the costs.\nThe failure to meet the condition \\(b + c &gt; 3\\) means “Reduce” is not a dominant strategy, and (Reduce, Reduce) is no longer the only Nash equilibrium."
   }
 ]
