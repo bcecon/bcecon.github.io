@@ -100,12 +100,14 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 - **Surface Water**:
   - Allocation among users without affecting future supplies.
-  
+  -	Key considerations for efficient allocation:
+    - Balancing competing demands from various users.
+    - Managing year-to-year variability in water flow effectively.
+
 - **Groundwater**:
   - Withdrawals impact future availability.
-  - Requires intertemporal allocation.
+  - Requires **intertemporal allocation** to ensure sustainable use.
 
- 
 
 
 ## The Efficient Allocation of Surface Water
@@ -447,14 +449,33 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 ## Municipal Water Pricing
 ### Practical Application of CBFR
 
+
+
+:::: {.columns}
+::: {.column width="45%"}
+
+:::{.nonincremental}
 - **Case Study:** **Lomita, CA**, and **Longmont, CO**
+
+:::
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/water-pricing-map.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+
+::: {.column width="55%"}
+
   - CBFR stabilizes revenues for utilities
   - **Creates inequities among consumers**:
     - Low-use consumers face significant bill increases
     - High-use consumers see bill decreases
   - In Longmont, low-use consumers' bills nearly tripled
 
-
+:::
+::::
 
 ## Municipal Water Pricing
 ### Addressing Equity Concerns
