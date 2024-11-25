@@ -240,7 +240,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
     - Rights tied to land adjacent to water.
     - Limited transferability.
   - **Prior Appropriation Doctrine**:
-    - "First in time, first in right."
+    - "First in time, first in right" for "beneficial use" (agricultural, industrial, or household).
     - Seniority-based allocation, not based on economic efficiency.
 
 ## The Efficient Allocation of Surface Water
@@ -251,7 +251,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 - **Inequitable During Scarcity**:
   - Senior rights holders maintain access despite lower MNB.
 - **Example**:
-  - Colorado River Compact allocations do not reflect current conditions or efficient use.
+  - Colorado River Compact of 1922 allocations do not reflect current conditions or efficient use.
 
 
 
