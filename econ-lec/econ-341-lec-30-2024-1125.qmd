@@ -1,0 +1,606 @@
+---
+title: Lecture 30
+subtitle: "Climate Change III: Adaptation"
+format:
+  clean-revealjs:
+    self-contained: false
+    chalkboard: true
+    incremental: true
+    code-annotations: hover
+    scrollable: false
+
+    # logo: logo-title-slide.png
+author:
+  - name: Byeong-Hak Choe
+    email: bchoe@geneseo.edu
+    affiliations: SUNY Geneseo
+date: 2024-11-25
+execute: 
+  eval: true
+  echo: false
+callout-icon: false
+
+from: markdown+emoji
+include-after-body: target-hover.html # effect.html
+
+# bibliography: refs.bib
+---
+
+
+```{r setup}
+#| include: false
+
+library(tidyverse)
+library(ggthemes)
+library(hrbrthemes)
+
+theme_set(theme_fivethirtyeight() +
+            theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(10,0,0,0)),
+                axis.title.y = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(0,10,0,0)),
+                axis.text.x = element_text(size = rel(1.75)),
+                axis.text.y = element_text(size = rel(1.75)),
+                strip.text = element_text(size = rel(1.5)),
+                legend.position = "top",
+                legend.text = element_text(size = rel(1.5)),
+                legend.title = element_text(size = rel(1.5))
+                )
+          )
+
+
+# Set global options for color-blind-friendly scales
+# scale_colour_discrete <- function(...) scale_colour_viridis_d(...)
+scale_colour_discrete <- function(...) scale_color_colorblind(...)
+scale_fill_discrete <- function(...) scale_fill_colorblind(...)
+
+```
+
+
+
+# Climate Adaptation: Managing Water Shortages  {background-color="#1c4982"}
+
+## Climate Adaptation: Managing Water Shortages
+### Strategies to Address Water Shortages
+
+- **Dual Impacts of Climate Change**
+  - **Flooding**: Increased frequency and intensity in some areas.
+  - **Water Scarcity**: Increased droughts and shortages in others.
+  
+- **Increasing Water Supplies**:
+  - **Desalination**: Converting seawater to freshwater.
+  - **Wastewater Recycling**: Treating and reusing water.
+  - **Rainwater Harvesting**: Capturing and storing rainwater.
+
+- **Demand Management**:
+  - **Conservation**: Encouraging reduced water use.
+  - **Pricing Mechanisms**: Adjusting prices to reflect scarcity.
+
+
+
+
+## Efficient Allocation of Scarce Water
+### Surface Water vs. Groundwater
+
+- **Surface Water**:
+  - Allocation among users without affecting future supplies.
+  
+- **Groundwater**:
+  - Withdrawals impact future availability.
+  - Requires intertemporal allocation.
+
+ 
+
+
+## The Efficient Allocation of Surface Water
+### Principles of Efficient Allocation
+
+:::{.nonincremental}
+
+- **Equalizing Marginal Net Benefits (MNB)**:
+  - Water should be allocated so $MNB$ is equal across all uses.
+  - Maximizes total net benefits from water use.
+  
+:::
+
+:::: {.columns}
+::: {.column width="60%"}
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig14-4.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+::: {.column width="40%"}
+- **Supply Curve** ($S_T$): Total available water ($Q_{T}$).
+- **Demand Curves**:
+  - **User A**: Higher willingness to pay (e.g., municipality).
+  - **User B**: Lower willingness to pay (e.g., agriculture).
+
+:::
+::::
+
+  
+<!-- - **Efficient Allocation**: -->
+<!--   - $Q_{A}^{*}$ to User A. -->
+<!--   - $Q_{B}^{*}$ to User B. -->
+<!--   - Marginal net benefits are equalized. -->
+
+
+
+## The Efficient Allocation of Surface Water
+### Fixed Proportions?
+
+:::{.nonincremental}
+
+- **Equalizing Marginal Net Benefits (MNB)**:
+  - Water should be allocated so $MNB$ is equal across all uses.
+  - Maximizes total net benefits from water use.
+  
+:::
+
+:::: {.columns}
+::: {.column width="60%"}
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig14-4.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+::: {.column width="40%"}
+- Suppose the water authority decides, for equity or political reasons, to simply divide the available water equally between the two users:
+  - $Q_{A} = 0.5Q_{T} = Q_{B}$
+  - Can you see inefficiency?
+
+:::
+::::
+
+
+
+## The Efficient Allocation of Surface Water
+### Water Scarcity
+
+:::{.nonincremental}
+
+- **Equalizing Marginal Net Benefits (MNB)**:
+  - Water should be allocated so $MNB$ is equal across all uses.
+  - Maximizes total net benefits from water use.
+  
+:::
+
+:::: {.columns}
+::: {.column width="60%"}
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig14-4.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+::: {.column width="40%"}
+-	Is water considered a scarce resource if the water supply exceeds the point where aggregate marginal $MNB$ equals zero?
+:::
+::::
+
+
+
+## The Efficient Allocation of Surface Water
+### Dealing with Supply Variability
+
+:::{.nonincremental}
+
+- **Equalizing Marginal Net Benefits (MNB)**:
+  - Water should be allocated so $MNB$ is equal across all uses.
+  - Maximizes total net benefits from water use.
+  
+:::
+
+:::: {.columns}
+::: {.column width="60%"}
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig14-4.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+::: {.column width="40%"}
+-	Suppose the total water supply is equal to $½ S_{T}$. 
+  - How should the lower water supply be efficiently allocated between the two users? 
+
+:::
+::::
+
+
+
+
+## The Efficient Allocation of Surface Water
+### Legal and Institutional Barriers
+
+- **Historical Water Rights**
+  - **Riparian Rights**:
+    - Rights tied to land adjacent to water.
+    - Limited transferability.
+  - **Prior Appropriation Doctrine**:
+    - "First in time, first in right."
+    - Seniority-based allocation, not based on economic efficiency.
+
+## The Efficient Allocation of Surface Water
+### Impact of Legal and Institutional Barriers on Efficiency
+
+- **Inflexibility**:
+  - Water cannot easily move to highest-valued uses.
+- **Inequitable During Scarcity**:
+  - Senior rights holders maintain access despite lower MNB.
+- **Example**:
+  - Colorado River Compact allocations do not reflect current conditions or efficient use.
+
+
+
+
+## Municipal Water Pricing
+### Introduction
+
+- **Municipal water utilities** must balance:
+  - Revenue stability
+  - Signals about water scarcity
+  - Reasonable prices for commercial users
+  - Equitable prices for homeowners
+
+- **Regulated monopolies**:
+  - Water utilities often have local monopolies
+  - Required to earn only a "fair" rate of return
+  - Excess profits are not permitted
+
+
+## Municipal Water Pricing
+### Inefficiencies in Current Pricing
+
+- Prices charged do not promote efficient use
+  - Price levels are generally too low
+  - Rate structures do not reflect service costs for different customers
+
+
+
+## Municipal Water Pricing
+### Pricing Options for Water Utilities
+
+
+:::: {.columns}
+::: {.column width="25%"}
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig14-5v2.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+:::
+
+::: {.column width="75%"}
+
+- **Uniform Rate**
+  - Price per unit does not vary with consumption
+  
+<div style="display:block; margin:13px;"></div>
+
+- **Declining Rate**
+  - Price per unit decreases with consumption
+  
+<div style="display:block; margin:13px;"></div>
+
+- **Inverted Block Rate**
+  - Price per unit increases with consumption
+  
+<div style="display:block; margin:13px;"></div>
+
+- **Seasonal Rate**
+  - Price per unit varies with seasons
+  
+<!-- - Utilities can charge: -->
+<!--   - A flat fee -->
+<!--   - **Volumetric pricing methods** -->
+
+<!-- - **Volumetric pricing** requires metering -->
+<!--   - Sends signals about water scarcity -->
+<!--   - Charges a marginal value per unit consumed -->
+
+<!-- - **Increasing block rates**: -->
+<!--   - Price per unit rises with increased consumption -->
+<!--   - 58% of utilities worldwide use this method -->
+
+
+:::
+::::
+
+## Municipal Water Pricing
+### Adoption in the United States
+
+<!-- - **Increasing Block Rates**: -->
+  <!-- - Number of U.S. utilities using increasing block rates is rising slowly -->
+  <!-- - Decrease in utilities using declining block rates -->
+  
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig14-6.png" style="width: 85%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+- Reflects a shift toward pricing that mirrors water availability
+
+
+## Municipal Water Pricing
+### Water Pricing in the World
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-tab14-3.png" style="width: 60%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+- **Global Water International’s 2021 Tariff Survey**:
+  - Increasing block rates are now the most frequently used worldwide
+  - Almost all surveyed cities use volumetric pricing
+  - 9 of the 14 cities with declining block rates are in the U.S.
+
+
+
+
+
+## Municipal Water Pricing
+### Marginal-Cost Pricing Principles
+
+- **Efficiency dictates**:
+  - Prices should equal the marginal cost of provision
+  - Include marginal user cost when appropriate
+
+- **Corollaries**:
+  - **Peak pricing**: Higher prices during peak demand periods
+    - For water, peak demand is usually in summer
+    - Seasonal users should pay extra costs associated with system expansion
+
+- **Current Practices**:
+  - Few utilities implement peak pricing
+  - Some U.S. cities (e.g., Tucson, Arizona) use seasonal rates
+
+
+## Municipal Water Pricing
+### Seasonal Pricing Examples
+
+- **Tucson, Arizona**:
+  - Seasonal rates from May through September
+
+- **Increasing Block Rates as Seasonal Rates**:
+  - First block equals average winter consumption
+  - Users enter higher blocks primarily during summer months
+
+
+## Municipal Water Pricing
+### Challenges with Seasonal Pricing
+
+- **Political Feasibility**:
+  - Difficult to implement during non-drought periods
+  - More accepted during severe droughts
+
+- **Case Study: Santa Barbara, California**:
+  - Severe drought from 1987 to 1992
+  - Rates and structures changed 10 times between 1987 and 1995
+  - Highest block rate reached $29.43 per cubic feet (ccf)
+  - Water use dropped by almost 50%
+
+
+- **Utility Perspective**:
+  - Large reductions in use can threaten revenue stability
+  - High fixed costs need to be covered
+
+
+
+## Municipal Water Pricing
+### The Cost of Conservation: Revenue Stability versus Equitable Pricing
+
+
+:::: {.columns}
+::: {.column width="60%"}
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/water-drought-brown-green.jpeg" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+
+::: {.column width="40%"}
+- **California's Drought Emergency (2014-2015)**:
+  - Governor Jerry Brown declared a drought state of emergency
+  - Mandated 20% reduction in water use, later increased to 25%
+  - Extreme conservation led to revenue shortfalls for utilities
+
+:::
+::::
+
+## Municipal Water Pricing
+### Revenue Stability vs. Equitable Pricing: Consumption-Based Fixed Rate (CBFR)
+
+- **Proposed Solution**:
+  - **CBFR divides the bill into three parts**:
+    - **Fixed costs**: Shared equally among all users
+    - **Fixed-variable costs**: Based on proportion of consumption
+    - **Variable costs**: Based on actual consumption
+
+- **Goal**:
+  - Stabilize utility revenues despite reductions in water use
+
+
+## Municipal Water Pricing
+### Practical Application of CBFR
+
+- **Case Study:** **Lomita, CA**, and **Longmont, CO**
+  - CBFR stabilizes revenues for utilities
+  - **Creates inequities among consumers**:
+    - Low-use consumers face significant bill increases
+    - High-use consumers see bill decreases
+  - In Longmont, low-use consumers' bills nearly tripled
+
+
+
+## Municipal Water Pricing
+### Addressing Equity Concerns
+
+- **Modified CBFR**:
+  - **Scaled Consumption-Based Fixed Rate (SCBFR)**:
+    - Adjusts rates based on household income
+    - High-use consumers pay more
+    - Low-use consumers pay approximately 30% less
+
+- **Benefits of SCBFR**:
+  - Maintains revenue stability
+  - Enhances affordability and equity
+
+
+
+## Municipal Water Pricing
+### International Case Study: Cape Town, South Africa
+
+- **2018 Water Crisis**:
+  - Severe restrictions on water usage
+  - High fines and significant tariff hikes
+  - Crisis was averted but highlighted future risks
+
+
+
+## Municipal Water Pricing
+### Cost-Reflective Pricing
+
+- **Principle**:
+  - Customers should pay costs associated with their service
+  - Higher rates for those farther from the source or at higher elevations
+
+- **Current Practice**:
+  - Utilities make fewer distinctions among customer classes
+  - Higher-cost users are effectively subsidized
+  - Leads to less incentive to conserve
+
+
+
+## Municipal Water Pricing
+### Full Cost Recovery (FCR) Pricing
+
+- **Definition**:
+  - Allows utilities to earn more than a normal rate of return
+  - Includes environmental and resource costs
+
+- **European Union Directive**:
+  - Water pricing policies should incentivize efficient use
+  - Contribute to environmental objectives
+
+
+
+## Municipal Water Pricing
+### Impact of FCR Pricing
+
+- **Study on Nine European Countries**:
+  - Austria, Bulgaria, Czechia, Estonia, France, Greece, Italy, Portugal, Spain
+
+- **Findings on Consumption**:
+  - Price increases vary by country
+  - Estonia and Italy see significant consumption decreases (21.2% and 33.8%)
+
+- **Impact on Affordability**:
+  - Measured by share of household income spent on water
+  - Bulgaria faces affordability issues under FCR pricing
+
+
+
+## Municipal Water Pricing
+### Policy Implications
+
+- **Efficiency vs. Equity**:
+  - Efficient pricing may impact affordability
+  - Income redistribution schemes suggested to address this
+
+- **Practical Challenges**:
+  - Redistribution schemes may be difficult to implement
+  - Subsidies or social pricing as second-best options
+  - Some European countries have adopted social pricing
+
+
+
+## Municipal Water Pricing
+### Conclusion
+
+- **Balancing Objectives**:
+  - Municipal water pricing must balance revenue, conservation, and equity
+  - Increasing block rates and seasonal pricing promote conservation
+
+- **Future Considerations**:
+  - Adaptations in pricing can ensure water availability during droughts
+  - Policy changes may be necessary as climate change affects water resources
+
+
+
+<!-- ## Desalination and Wastewater Recycling -->
+<!-- ### Addressing Water Scarcity -->
+
+<!-- - **Global Water Stress**: -->
+<!--   - Over **2 billion** people in high water stress areas. -->
+<!-- - **Technological Solutions**: -->
+<!--   - **Desalination**: Converting seawater to potable water. -->
+<!--   - **Wastewater Recycling**: Treating sewage for reuse. -->
+
+<!-- ## Desalination and Wastewater Recycling -->
+<!-- ### Desalination Technologies -->
+
+<!-- - **Methods**: -->
+<!--   - **Reverse Osmosis**: Pressurizing seawater through membranes. -->
+<!--   - **Nanofiltration and Ultrafiltration**. -->
+
+<!-- - **Global Adoption**: -->
+<!--   - Over **21,000** desalination plants in **150+** countries. -->
+<!--   - Producing **25 billion gallons** per day. -->
+
+<!-- ## Economic Considerations -->
+
+<!-- - **High Costs**: -->
+<!--   - Energy-intensive processes. -->
+<!--   - Costs range from **$750 to $2,000 per acre-foot**. -->
+<!-- - **Case Studies**: -->
+<!--   - **Carlsbad Plant, California**: Supplies 10% of regional water at higher cost. -->
+<!--   - **Example 14.6**: China's costly projects to address water scarcity. -->
+
+<!-- ## Environmental Concerns -->
+
+<!-- - **Energy Use**: -->
+<!--   - Significant carbon footprint. -->
+<!-- - **Brine Disposal**: -->
+<!--   - High-salinity wastewater affects marine life. -->
+<!-- - **Intake Impacts**: -->
+<!--   - Harm to small organisms and larvae. -->
+
+
+
+<!-- ## Moving Rivers or Desalting the Sea? -->
+<!-- ### China's Water Scarcity Challenge -->
+
+<!-- - **Northern China**: Extremely scarce freshwater resources. -->
+<!-- - **Projects**: -->
+<!--   - **Water Diversion**: From Yangzi River Basin. -->
+<!--   - **Desalination Plant**: Beijing Power and Desalination Plant. -->
+
+<!-- ## Moving Rivers or Desalting the Sea? -->
+<!-- ### Economic Analysis -->
+
+<!-- - **Costs**: -->
+<!--   - Desalinated water: **8 yuan/m³** (~$1.30). -->
+<!--   - Diverted water: **10 yuan/m³**. -->
+<!-- - **Pricing Issues**: -->
+<!--   - Water prices charged to consumers are lower than production costs. -->
+<!--   - Sustainability concerns due to subsidies. -->
+
+<!-- - **Environmental and Social Impacts** -->
+<!--   - **Energy Intensity**: -->
+<!--     - Reliance on coal increases emissions. -->
+<!--   - **Downstream Effects**: -->
+<!--     - Diversion impacts water availability in southern China. -->
+
