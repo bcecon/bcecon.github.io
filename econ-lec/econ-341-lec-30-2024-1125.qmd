@@ -65,6 +65,17 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 # Climate Adaptation: Managing Water Shortages  {background-color="#1c4982"}
 
+
+## Climate Adaptation: Managing Water Shortages
+### [**U.S. Drought Map**](https://droughtmonitor.unl.edu)
+
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/drought-map.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+
 ## Climate Adaptation: Managing Water Shortages
 ### Strategies to Address Water Shortages
 
