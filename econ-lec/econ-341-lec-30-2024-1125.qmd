@@ -530,7 +530,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 
 ## Municipal Water Pricing
-### Impact of FCR Pricing
+### Full Cost Recovery (FCR) Pricing
 
 - **Study on Nine European Countries**:
   - Austria, Bulgaria, Czechia, Estonia, France, Greece, Italy, Portugal, Spain
@@ -546,7 +546,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 
 ## Municipal Water Pricing
-### Policy Implications
+### Full Cost Recovery (FCR) Pricing
 
 - **Efficiency vs. Equity**:
   - Efficient pricing may impact affordability
@@ -556,6 +556,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
   - Redistribution schemes may be difficult to implement
   - Subsidies or social pricing as second-best options
   - Some European countries have adopted social pricing
+    - Social pricing ensures affordability by offering tiered rates or subsidies for low-income households
 
 
 
