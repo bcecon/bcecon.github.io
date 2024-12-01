@@ -10,6 +10,7 @@ execute:
   eval: true
   warning: false
   message: false
+toc: true
 ---
 
 # Feedback
@@ -22,7 +23,7 @@ execute:
   - Mention any policy debates or pending legislation that could benefit from your research.  
 
 - Socioeconomic Considerations:  
-  - Address potential impacts on different socioeconomic groups, considering equity and fairness in environmental policy.  
+  - Address potential impacts on different socioeconomic groups, considering equity and fairness in carbon pricing design.  
 
 - Consider summarizing the following references:
   - Robert Stavins, *Carbon Taxes vs. Cap and Trade: Theory and Practice*, Harvard Project on Climate Agreements (2019)  
