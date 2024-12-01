@@ -19,9 +19,6 @@ toc: true
 -	Provide more background on the historical water allocation policies and how they have led to the current challenges. This will help readers understand the complexities involved.
 -	Data and Examples: Incorporate specific data or examples to illustrate the severity of the issue—for instance, statistics on agricultural losses due to water shortages or ecological decline in the Delta.
 -	Urban Water Use: While the proposal mentions urban residents, the introduction could clarify the role of urban water demands in the study to set accurate expectations.
--	Theoretical Framework Details: Elaborate on the theoretical underpinnings of the economic model. 
-  - Lecture on Water Scarcity and the following reference should be useful:
-      - Barbier and Burgess, *Economics of Water Scarcity and Efficiency*, Environmental Defense Fund (2024) [*[Link]*](https://bcecon.github.io/econ-rw/1-app-BarbierBurgess-sustainability-2024-water-scarcity.pdf)
 
 
 - Consider summarizing the following reference:
