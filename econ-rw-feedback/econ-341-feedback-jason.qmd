@@ -1,0 +1,45 @@
+---
+title: "ECON 341: Team Project"
+author: 
+  - Jason Copella
+  - <i>Feedback provided by</i> Byeong-Hak Choe
+date: last-modified
+execute: 
+  echo: false
+  eval: true
+  warning: false
+  message: false
+---
+
+
+# Feedback
+
+-	Incorporate historical data on drought patterns in California.
+-	Discuss any previous interventions or policies implemented to address the droughts and their outcomes.
+-	Depth and Specificity: Strengthen the statement by specifying how the droughts have disrupted the farming community. Mention factors like reduced crop yields, loss of farmland, or economic hardships faced by farmers.
+		
+
+- Suggestions on Research Questions:
+	1.	Which regions in California are most severely affected by water shortages due to drought?
+	  -	Rationale: Specifies “regions” and quantifies the severity.
+	2.	How will increasing waterflow in the California Delta affect statewide water distribution, and what are the logistical requirements?
+	  -	Rationale: Broadens the question to include practical considerations.
+	3.	What are the potential environmental and economic consequences of altering waterflow in California’s Central Valley?
+	  -	Rationale: Encourages examination of both positive and negative outcomes.
+	4.	Is increasing waterflow in the California Delta a sustainable and long-term solution to California’s drought problem?
+	  -	Rationale: Focuses on longevity and sustainability.
+	5.	How will changes in water distribution impact California farmers and the national food supply chain?
+	  -	Rationale: Connects local actions to national implications.
+	6.	What are the legal and policy implications of modifying waterflow in the California Delta?
+	  -	Rationale: Introduces consideration of regulatory and legal challenges.
+	
+
+- Consider summarizing the following reference:
+  - Medellín-Azuara et. al., *Economic Impacts of the 2020–22 Drought on California Agriculture*, Water
+Systems Management Lab. University of California, Merced (2022) [*[Link]*](https://bcecon.github.io/econ-rw/1-app-medellinEtAl-2022-ca-water-drought-report.pdf)
+
+  
+##	Theoretical Framework Details: 
+- Elaborate on the theoretical underpinnings of the economic model.
+- Lecture on Water Scarcity and the following reference should be useful:
+  - Barbier and Burgess, *Economics of Water Scarcity and Efficiency*, Environmental Defense Fund (2024) [*[Link]*](https://bcecon.github.io/econ-rw/1-app-BarbierBurgess-sustainability-2024-water-scarcity.pdf)
