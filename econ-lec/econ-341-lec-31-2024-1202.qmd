@@ -1,0 +1,611 @@
+---
+title: Lecture 31
+subtitle: "Common-Pool Resources: Commercially Valuable Fisheries"
+format:
+  clean-revealjs:
+    self-contained: false
+    chalkboard: true
+    incremental: true
+    code-annotations: hover
+    scrollable: false
+
+    # logo: logo-title-slide.png
+author:
+  - name: Byeong-Hak Choe
+    email: bchoe@geneseo.edu
+    affiliations: SUNY Geneseo
+date: 2024-12-02
+execute: 
+  eval: true
+  echo: false
+callout-icon: false
+
+from: markdown+emoji
+include-after-body: target-hover.html # effect.html
+
+# bibliography: refs.bib
+---
+
+
+```{r setup}
+#| include: false
+
+library(tidyverse)
+library(ggthemes)
+library(hrbrthemes)
+
+theme_set(theme_fivethirtyeight() +
+            theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(10,0,0,0)),
+                axis.title.y = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(0,10,0,0)),
+                axis.text.x = element_text(size = rel(1.75)),
+                axis.text.y = element_text(size = rel(1.75)),
+                strip.text = element_text(size = rel(1.5)),
+                legend.position = "top",
+                legend.text = element_text(size = rel(1.5)),
+                legend.title = element_text(size = rel(1.5))
+                )
+          )
+
+
+# Set global options for color-blind-friendly scales
+# scale_colour_discrete <- function(...) scale_colour_viridis_d(...)
+scale_colour_discrete <- function(...) scale_color_colorblind(...)
+scale_fill_discrete <- function(...) scale_fill_colorblind(...)
+
+```
+
+
+
+# Common-Pool Resources: Commercially Valuable Fisheries  {background-color="#1c4982"}
+
+
+## Commercially Valuable Fisheries
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig17-1.png" style="width: 95%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+- In 2009, the **World Bank** and the **Food and Agriculture Organization of the United Nations (FAO)** released a report called [**The Sunken Billions: The Economic Justification for Fisheries Reform**](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/656021468176334381/the-sunken-billions-the-economic-justification-for-fisheries-reform).
+
+- The controlled raising and harvesting of fish is called **aquaculture**.
+
+<!-- ## The Sunken Billions: The Economic Justification for Fisheries Reform -->
+<!-- - Current marine catch could be achieved with **half the current global fishing effort**. -->
+
+<!-- - **Overcapacity in global fleet**: -->
+<!--   - Excess fleets compete for limited resources. -->
+<!--   - Results in stagnant productivity and economic inefficiency. -->
+
+<!-- - **Global fleet response to declining productivity**: -->
+<!--   - Reduced labor costs. -->
+<!--   - Lobbying for subsidies. -->
+<!--   - Increased investment in technology. -->
+<!--   - Poor economic performance leads to **depressed fisher incomes**: -->
+<!--   - Increased costs per unit of harvest. -->
+<!--   - Stagnant real landed fish prices over the past decade. -->
+
+<!-- - **Economic and Market Context**: -->
+<!--   - Marine capture seafood accounts for **20% of the $400 billion global food fish market**. -->
+<!--   - Downward pressure on producer prices due to: -->
+<!--     - Market power of processors and retailers. -->
+<!--     - Growth of aquaculture (now **50% of food fish production**). -->
+
+<!-- - **Economic Rent and Net Benefits**: -->
+<!--   - Study estimates **loss of potential economic rent** (net economic benefits) in global fisheries. -->
+<!--   - Base year: **2004**. -->
+<!--   - **Model Aggregation**: -->
+<!--     - Aggregated diverse global fisheries into a single fishery. -->
+<!--     - Used global data (e.g., production, value, profits) as inputs for the model. -->
+
+## Commercially Valuable Fisheries
+
+
+- **Economic and Market Context**:
+  - Marine capture seafood accounts for **20% of the $400 billion global food fish market**.
+  - Downward pressure on producer prices due to:
+    - Market power of processors and retailers.
+    - Growth of aquaculture (now **50% of food fish production**).
+  - **Economic Losses**: Approximately **$50 billion per year** due to overfishing, poor management, and economic inefficiency.
+    - Over the last 30 years, losses sum to over **$2 trillion**.
+
+- **Potential for Reform**:
+  - Well-managed marine fisheries could provide sustainable economic benefits.
+  - Supports millions of fishers, coastal villages, and cities.
+
+ 
+
+## Human Interaction with Biological Populations
+
+- **Commercial Value**:
+  - Provides strong reason for human concern about future of species.
+  - May promote excessive harvest leading to overexploitation.
+
+- **Institutional Frameworks**:
+  - Influence conservation incentives.
+  - Crucial for protecting resources.
+
+ 
+
+## Key Renewable Resource-Management Issues
+
+- **Choosing Sustainable Harvest Levels**:
+  - How do we choose among sustainable levels of harvest?
+  - What sustainable level of harvest is appropriate?
+
+- **Interactive Resources**:
+  - Stock size determined by biological considerations and societal actions.
+  - Today's actions affect future resource availability.
+
+ 
+
+## Efficient and Sustainable Harvest Levels
+
+- **Efficiency vs. Sustainability**:
+  - Will efficient harvests always result in sustainable outcomes?
+  - Efficiency involves maximizing net benefits from resource use.
+
+- **Institutional Fulfillment**:
+  - Do current institutions provide incentives compatible with efficiency and sustainability?
+  - Many normal incentives are incompatible, leading to overharvesting.
+
+ 
+
+## Overharvesting and Common-Pool Resources
+
+- **Open-Access Fisheries**:
+  - Many commercial fisheries are open-access common-pool resources.
+  - Suffer from overexploitation due to lack of exclusive rights.
+
+- **Global Fisheries Status** (FAO, 2021):
+  - Total fisheries and aquaculture production reached **214 million metric tons in 2020**.
+  - **92%** of fish stocks are fully exploited or overexploited.
+  - **35.4%** of global stocks are overfished.
+
+ 
+
+## Efficient Allocations—Bioeconomics Theory
+
+
+:::: {.columns}
+::: {.column width="50%"}
+ <div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig17-2.png" style="width: 95%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+:::
+
+::: {.column width="50%"}
+
+- $S^{*}$: Maximum Sustainable Yield (MSY) Population.
+  - Population size yielding maximum growth.
+  - Corresponds to the largest sustainable catch.
+  
+:::
+::::
+
+:::{.nonincremental}
+
+- $\overline{S}$: Natural Equilibrium (Carrying Capacity).
+  - Population size without external influences.
+  - **Stable Equilibrium**: Movements away set forces to restore it.
+
+- $\underline{S}$: Minimum Viable Population.
+  - Below this, growth is negative; population declines to extinction.
+  - **Unstable Equilibrium**.
+
+:::
+
+<!-- - **Schaefer Model (1957)**: -->
+<!--   - Average relationship between growth of fish population and population size. -->
+<!--   - Abstracts from daily influences, focusing on long-term average. -->
+
+ 
+
+## Sustainable Yield
+
+
+:::: {.columns}
+::: {.column width="50%"}
+ <div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig17-2.png" style="width: 95%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+:::
+
+::: {.column width="50%"}
+
+- $G(S_{0})$: the sustainable yield for population size $S_{0}$.
+
+  - Since the catch is equal to the growth, population size (and next year’s growth) remains the same.
+
+:::
+::::
+
+<!-- <div style="display:block; margin:-20px;"></div> -->
+
+:::{.nonincremental}
+- **Definition**:
+  - Catch equals the growth rate of the population.
+  - Can be maintained perpetually.
+
+- **Determining Sustainable Yield**:
+  - For any population size between $\underline{S}$ and $\overline{S}$, sustainable yield is found where catch equals growth.
+
+:::
+
+## Static Efficient Sustainable Yield
+
+- **Is MSY Efficient?**:
+  - No, because efficiency involves net benefits, not just maximum catch.
+
+- **Static Efficient Sustainable Yield**:
+  - Catch level that, if maintained perpetually, maximizes annual net benefit (benefits minus costs).
+
+ 
+
+## Economic Model Assumptions
+
+1. **Constant Price of Fish**:
+   - Price does not depend on the amount sold.
+
+2. **Constant Marginal Cost of Fishing Effort**:
+   - Cost per unit of effort is constant.
+
+3. **Catch per Unit Effort Proportional to Population Size**:
+   - Smaller populations yield fewer fish per unit of effort.
+
+ 
+
+## Harvest-Effort Functions
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig17-3.jpg" style="width: 65%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+
+- **Relationship between Catch and Effort**:
+  - Increasing effort rotates the harvest function.
+  - Sustainable yield is at the intersection with the growth function.
+
+ 
+
+## Sustainable Yield Function
+
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig17-4.png" style="width: 70%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+
+- **Effort vs. Sustainable Yield**:
+  - Shows the sustained yield associated with different levels of fishing effort.
+  - Increasing effort initially increases yield, then decreases it after a point.
+
+ 
+
+## Determining Efficient Level of Effort
+
+
+:::: {.columns}
+::: {.column width="55%"}
+ <div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig17-5.png" style="width: 95%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+:::
+
+::: {.column width="45%"}
+
+<div style="display:block; margin:20px;"></div>
+
+
+:::{.nonincremental}
+
+- **Total Revenue ($TR$)**:
+
+  - $TR$ = Price × Quantity Caught.
+
+- **Total Cost ($TC$)**:
+
+  - $TC$ = Marginal Cost of Effort × Units of Effort.
+
+:::
+
+:::
+::::
+
+
+- **Efficient Effort Level ($E^{e}$)**:
+
+  - Where the difference between $TR$ and $TC$ is maximized.
+  - Marginal Benefit equals Marginal Cost.
+  
+## Impact of Technological Change
+
+- **Effect on Efficient Effort Level**:
+  - Technological improvements lower marginal costs.
+  - Results in increased effort, lower population size, larger annual catch, and higher net benefits.
+
+ 
+
+## Dynamic Efficient Sustainable Yield
+
+- **Incorporating Discounting**:
+  - Positive discount rates affect the efficient allocation over time.
+  - Higher discount rates increase the efficient level of effort beyond the static level.
+
+- **Potential for Extinction**:
+  - If the discount rate exceeds the population growth rate, efficient management could lead to extinction.
+  - Low rates of growth make conservation less productive.
+
+ 
+
+## Market Allocation in a Fishery
+
+
+:::: {.columns}
+::: {.column width="41%"}
+ <div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig17-6.png" style="width: 95%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+:::
+
+::: {.column width="59%"}
+
+- **Sole Owner vs. Open Access**:
+  - **Sole Owner**: Maximizes profit by choosing efficient effort level ($E^{e}$).
+  - **Open Access**: Leads to overexploitation, effort level increases to where profits are zero ($E^{c}$).
+
+- **External Costs**:
+  - **Contemporaneous External Cost**: Overcommitment of resources, reducing current profits.
+  - **Intergenerational External Cost**: Overfishing reduces stock, lowering future profits.
+
+
+:::
+::::
+
+
+ 
+
+## Example: Harbor Gangs of Maine and Other Informal Arrangements
+
+- **Informal Arrangements**:
+  - Fishers form "gangs" to restrict access to fishing areas.
+  - Enforce territories to prevent overexploitation.
+
+- **Benefits**:
+  - Higher catch per trap.
+  - Larger lobsters, fetching higher prices.
+
+- **Success Factors**:
+  - Strong leadership.
+  - Social cohesion.
+  - Complementary incentives like individual quotas.
+
+ 
+
+## Public Policy toward Fisheries
+
+- **Policy Responses**:
+  - Raising the real cost of fishing.
+  - Implementing taxes on effort or catch.
+  - Reducing or eliminating harmful subsidies.
+  - Establishing catch share programs.
+
+ 
+## Raising the Real Cost of Fishing
+
+ <div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig17-7.png" style="width: 50%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+
+:::: {.columns}
+::: {.column width="50%"}
+- **Early Policies**:
+  - Banning efficient gear (e.g., traps).
+  - Limiting fishing times and areas.
+  
+:::
+
+::: {.column width="50%"}
+- **Inefficiency Resulted**:
+  - Increased real resource costs.
+  - Overcapitalization in fishing fleets.
+  - Did not maximize net benefits.
+  
+:::
+::::
+
+
+
+
+ 
+
+## Taxes as a Policy Tool
+
+- **Implementing Taxes**:
+  - Tax on fishing effort or catch.
+  - Increases cost to fishers, reducing effort.
+
+- **Advantages**:
+  - Encourages cost-effective fishing methods.
+  - Government collects rents.
+  - Net benefits retained by society.
+
+ 
+
+## Perverse Incentives: Subsidies
+
+- **Negative Impact of Subsidies**:
+  - Reduce operating costs, encouraging overfishing.
+  - Lead to overexploited stocks and illegal fishing.
+
+- **Global Fisheries Subsidies**:
+  - Governments spend about **$35 billion per year**.
+  - Equivalent to 20% of the value of global marine capture.
+
+- **WTO Agreement (2022)**:
+  - Prohibits harmful fishing subsidies.
+  - Targets IUU fishing and overfished stocks.
+  - Provides technical assistance to developing countries.
+
+ 
+
+## Catch Share Programs
+
+- **Definition**:
+  - Allocate a portion of the total allowable catch to individuals, communities, or cooperatives.
+
+- **Types of Programs**:
+  - Individual Fishing Quotas (IFQs).
+  - Individual Transferable Quotas (ITQs).
+  - Territorial Use Rights Fisheries (TURFs).
+  - Fishing Cooperatives.
+  - Community Fishing Quotas.
+
+- **Global Adoption**:
+  - Nearly 200 programs in 40 countries.
+  - Cover more than 500 species.
+
+ 
+
+## Individual Transferable Quotas (ITQs)
+
+- **Key Characteristics**:
+  1. Quotas specify a share of the total catch.
+  2. Total quotas equal the efficient catch level.
+  3. Quotas are freely transferable among fishers.
+
+- **Advantages**:
+  - Encourage efficiency and cost-effective methods.
+  - Align individual incentives with sustainability.
+  - Promote technological innovation.
+
+ 
+
+## Rent Distribution and Equity Concerns
+
+- **Initial Allocation Matters**:
+  - **Auctioning Quotas**: Government collects rents.
+  - **Allocating to Fishers**: Fishers retain rents.
+
+- **Impact on Fishers**:
+  - Current fishers benefit if quotas are allocated to them.
+  - New entrants must purchase quotas, potentially raising barriers.
+
+- **Equity Issues**:
+  - Risk of industry consolidation.
+  - Smaller fishers may be disadvantaged.
+
+ 
+
+## Example: Atlantic Sea Scallop Fishery
+
+- **Management Approaches**:
+  - **Canada**: Implemented ITQ system.
+  - **United States**: Used traditional size and effort restrictions.
+
+- **Outcomes**:
+  - **Canada**:
+    - Maintained higher stock abundance.
+    - Increased revenue per sea-day.
+    - Fishery revenue increased due to higher catch per effort.
+
+  - **United States**:
+    - Declined stock abundance.
+    - Decreased revenue per sea-day.
+    - Harvesting of undersized scallops.
+
+ 
+
+## Debate: ITQs or TURFs?
+
+- **ITQs (Species-Based Rights)**:
+  - Allocate shares of total allowable catch.
+  - May not address spatial or habitat externalities.
+
+- **TURFs (Area-Based Rights)**:
+  - Allocate rights to specific geographic areas.
+  - Can manage habitat and interspecies interactions.
+
+- **Combined Approaches**:
+  - Potentially address broader issues.
+  - May offer better management for migratory species.
+
+ 
+
+## Exclusive Economic Zones (EEZs)
+
+- **United Nations Convention on the Law of the Sea**:
+  - Grants countries rights up to 200 miles offshore.
+
+- **Significance**:
+  - Enables national management and enforcement.
+  - Protects coastal resources.
+
+- **Limitations**:
+  - Highly migratory species remain unprotected.
+  - Open oceans (high seas) still face overexploitation.
+
+ 
+
+## Marine Protected Areas (MPAs) and Marine Reserves
+
+- **Marine Protected Areas (MPAs)**:
+  - Areas reserved by law for protection.
+  - Levels of restriction vary.
+
+- **Marine Reserves**:
+  - Fully protected MPAs.
+  - Prohibit all harvesting activities.
+
+- **Benefits**:
+  - Protect species and habitats.
+  - Promote ecosystem balance.
+  - Potential for spillover benefits to adjacent fisheries.
+
+ 
+
+## Spillover Benefits and Challenges
+
+- **Spillover Effect**:
+  - Increased populations within reserves can enhance catches outside.
+
+- **Challenges**:
+  - Short-term costs to fishers due to reduced access.
+  - Economic impacts must be balanced with conservation goals.
+
+- **Economic Considerations**:
+  - Need to assess present value of net benefits.
+  - Policies should address potential burdens on local communities.
+
+ 
+
+## Conclusion
+
+- **Overfishing is a Global Issue**:
+  - Leads to significant economic and ecological losses.
+
+- **Efficient Management is Essential**:
+  - Requires appropriate policies and institutions.
+
+- **Market-Based Solutions**:
+  - ITQs, TURFs, and catch share programs show promise.
+  - Align economic incentives with conservation.
+
+- **International Cooperation**:
+  - Critical for managing shared and migratory stocks.
+  - Agreements like the WTO's fisheries subsidies agreement are steps forward.
