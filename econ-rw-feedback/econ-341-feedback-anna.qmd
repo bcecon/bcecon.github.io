@@ -28,14 +28,6 @@ toc: true
 
 The proposed economic model aims to analyze the trade-offs between economic growth, employment, and environmental sustainability within the context of the Green New Deal. It considers two periods (time $t=1$ and $t=2$) and incorporates the effects of green technology adoption and climate damage resulting from fossil fuel use.
 
-$$
-\begin{align}
-\max_{c_{1}, c_{2}, k_{2}, d}\; SW &= \log(c_{1}) + \beta \log(c_{2})\\
-\text{subject to}\quad c_{1} + k_{2} &= k_{1}^{\alpha}d^{1-\alpha}\\
-c_{2} &= \left(1 -  d^{\gamma} \right)Ak_{2}
-\end{align}
-$$
-
 ## The Model
 
 We maximize the social welfare (SW) function subject to constraints on consumption and production in both periods:
@@ -71,8 +63,9 @@ The social welfare function represents the sum of the logarithmic utilities of c
 $$
 SW = \log(c_{1}) + \beta \log(c_{2})
 $$
-	-	Utility Function: $u(c_{t})=\log(c_{t})$ implies diminishing marginal utility of consumption.
-	-	Discount Factor: $\beta < 1$ reflects the society’s time preference, valuing current utility over future utility.
+	
+-	Utility Function: $u(c_{t})=\log(c_{t})$ implies diminishing marginal utility of consumption.
+-	Discount Factor: $\beta < 1$ reflects the society’s time preference, valuing current utility over future utility.
 
 ### Constraints
 
@@ -205,36 +198,38 @@ $$
 ## Tasks
 Questions Based on the Economic Model Analysis
 
-1.	Interpretation of First-Order Conditions (FOCs):
-	-	What do the first-order conditions derived from the economic model signify in terms of resource allocation between periods?
-	-	How does the optimal level of fossil fuel use $d$ relate to the marginal productivity and climate damage costs according to the FOCs?
+### 1.	Interpretation of First-Order Conditions (FOCs):
+-	What do the first-order conditions derived from the economic model signify in terms of resource allocation between periods?
+-	How does the optimal level of fossil fuel use $d$ relate to the marginal productivity and climate damage costs according to the FOCs?
 
-2.	Policy Implications:
-	-	What environmental regulations can be implemented to mitigate future climate damage as suggested by the model?
-	-	How does promoting green technology through subsidies or incentives for $A$ influence the adoption of renewable energy?
+### 2.	Policy Implications:
+-	What environmental regulations can be implemented to mitigate future climate damage as suggested by the model?
+-	How does promoting green technology through subsidies or incentives for $A$ influence the adoption of renewable energy?
 
-3.	Interpretation of the Model’s Trade-Offs:
-	-	Period 1:
-	  -	How does an increase in fossil fuel use $d$ affect output and consumption in the first period?
-	  -	Why is investment in capital $k_{2}$ critical for future production in the model?
-	-	Period 2:
-	  -	In what ways does increased fossil fuel use $d$ in period 1 lead to higher climate damage and reduced output in period 2?
-	  -	How can enhanced productivity $A$ from green technology mitigate the negative effects of climate damage in the second period?
-
-4.	Optimal Decision-Making:
-  -	Fossil Fuel Use ($d$):
-	  -	What factors must the economy consider to determine the optimal level of fossil fuel use $d$ balancing immediate benefits and future costs?
-	  -	What are the potential consequences of excessive fossil fuel use $d$ on future consumption and climate damage?
-	-	Investment in Capital ($k_{2}$):
-	  -	Why is allocating resources to capital investment $k_{2}$ essential for sustaining future economic growth?
-	  -	How does the trade-off between current consumption $c_{1}$ and future benefits through $k_{2}$ investment manifest in the model?
-
-5.	Role of Green Technology ($A$):
-	-	In what ways does an increased productivity parameter $A$ represent the positive impact of adopting renewable energy technologies in the model?
-	-	How can investing in green technology offset the negative effects of climate damage and support sustainable economic growth according to the model’s outcomes?
+### 3.	Interpretation of the Model’s Trade-Offs:
+-	Period 1:
+	-	How does an increase in fossil fuel use $d$ affect output and consumption in the first period?
+	-	Why is investment in capital $k_{2}$ critical for future production in the model?
 	
-6.	Role of the Discount Factor ($\beta$):
-	-	What is the significance of the discount factor $\beta$ in the utility function of the model?
-	-	How does the value of $\beta$ influence the trade-off between current and future consumption?
-	-	In what ways does society’s time preference, as represented by $\beta$, affect optimal decisions regarding fossil fuel use $d$ and investment in capital $k_{2}$ ?
+-	Period 2:
+	-	In what ways does increased fossil fuel use $d$ in period 1 lead to higher climate damage and reduced output in period 2?
+	-	How can enhanced productivity $A$ from green technology mitigate the negative effects of climate damage in the second period?
+
+### 4.	Optimal Decision-Making:
+-	Fossil Fuel Use ($d$):
+	-	What factors must the economy consider to determine the optimal level of fossil fuel use $d$ balancing immediate benefits and future costs?
+	-	What are the potential consequences of excessive fossil fuel use $d$ on future consumption and climate damage?
+
+-	Investment in Capital ($k_{2}$):
+	-	Why is allocating resources to capital investment $k_{2}$ essential for sustaining future economic growth?
+	-	How does the trade-off between current consumption $c_{1}$ and future benefits through $k_{2}$ investment manifest in the model?
+
+### 5.	Role of Green Technology ($A$):
+-	In what ways does an increased productivity parameter $A$ represent the positive impact of adopting renewable energy technologies in the model?
+-	How can investing in green technology offset the negative effects of climate damage and support sustainable economic growth according to the model’s outcomes?
+	
+### 6.	Role of the Discount Factor ($\beta$):
+-	What is the significance of the discount factor $\beta$ in the utility function of the model?
+-	How does the value of $\beta$ influence the trade-off between current and future consumption?
+-	In what ways does society’s time preference, as represented by $\beta$, affect optimal decisions regarding fossil fuel use $d$ and investment in capital $k_{2}$?
 
