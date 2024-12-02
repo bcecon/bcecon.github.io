@@ -78,3 +78,66 @@ If the marginal cost of additional catches (expressed in terms of the population
 
 
 
+<br><br><br>
+
+# Question 4. 
+Consider a village of $N$ identical fishermen ( $i = 1, 2, 3, \cdots, N$ ) nearby the Erie Lake. They all have a choice of how much time they want to spend fishing per day, denoted by $a_{i}$. Thus, the total time of fishing per day in the village is given by:
+
+$$
+\sum_{i = 1}^{N} a_{i} = a_{1} + a_{2} + \cdots + a_{N}.
+$$
+
+Suppose the stock of fishes over time $S$ in the Erie Lake is represented by a function of the total time of fishing per day:
+
+$$
+\begin{align}
+S &= 1000 - \sum_{i = 1}^{N} a_{i}\\ 
+&= 1000 - ( a_{1} + a_{2} + \cdots + a_{N} )
+\end{align}
+$$
+
+The amount of fishes fisherman $1$ catches is the fisherman $1$'s utility $U_{1}$, which is represented by:
+
+$$
+\begin{align}
+U_{1} &= a_{1}\times S\\
+&= a_{1}\times \left(\, 1000 - ( a_{1} + a_{2} + \cdots + a_{N} ) \,\right)
+\end{align}
+$$
+Each fisherman $i$ chooses how much time to spend fishing per day ($a_{i}$) to maximize his utility ($U_{i}$).
+
+<br>
+
+
+## Q4a
+- How much time will fisherman $1$ spend fishing per day if the government does not intervene?
+
+<br>
+
+## Q4b
+- How much fishes will fisherman $1$ catch?
+
+<br>
+
+## Q4c
+- If the fishermen jointly maximize the social welfare of the village, how much time each fisherman spend fishing per day and how much fishes each fisherman catch?
+
+  - Social welfare is given by:
+  
+$$
+\begin{align}
+SW = U_{1} + U_{2} + \cdots + U_{N}
+\end{align}
+$$
+
+<br>
+
+## Q4d
+- If there are 1,000 fishermen in the village, how much fish stock $S$ will be left in the Erie Lake after the scenarios outlined in Q4a/Q4b and in Q4c, respectively?
+- Provide an intuitive explanation on how fish stocks in both scenarios are different.
+- Make any policy suggestion on managing open access fishery in the village nearby the Erie Lake.
+
+
+
+
+ 

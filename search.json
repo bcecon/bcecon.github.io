@@ -1278,7 +1278,7 @@
     "href": "index.html#bullet-homework",
     "title": "ECON 341-01: Natural Resource Economics, Fall 2024",
     "section": "\\(\\bullet\\,\\) Homework 💻",
-    "text": "\\(\\bullet\\,\\) Homework 💻\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nHomework 5\n\n\nDecember 1, 2024\n\n\n\n\nHomework 4 - Example Answer\n\n\nNovember 18, 2024\n\n\n\n\nHomework 3 - Example Answer\n\n\nNovember 17, 2024\n\n\n\n\nHomework 4\n\n\nNovember 10, 2024\n\n\n\n\nHomework 2 - Example Answer\n\n\nOctober 7, 2024\n\n\n\n\nHomework 1 - Example Answer\n\n\nOctober 2, 2024\n\n\n\n\nHomework 2\n\n\nSeptember 25, 2024\n\n\n\n\nHomework 1\n\n\nSeptember 16, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "\\(\\bullet\\,\\) Homework 💻\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nHomework 5\n\n\nDecember 2, 2024\n\n\n\n\nHomework 4 - Example Answer\n\n\nNovember 18, 2024\n\n\n\n\nHomework 3 - Example Answer\n\n\nNovember 17, 2024\n\n\n\n\nHomework 4\n\n\nNovember 10, 2024\n\n\n\n\nHomework 2 - Example Answer\n\n\nOctober 7, 2024\n\n\n\n\nHomework 1 - Example Answer\n\n\nOctober 2, 2024\n\n\n\n\nHomework 2\n\n\nSeptember 25, 2024\n\n\n\n\nHomework 1\n\n\nSeptember 16, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#bullet-research",
@@ -1586,7 +1586,7 @@
     "href": "listing-econ-341-hw.html",
     "title": "ECON 341 - Homework",
     "section": "",
-    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\n\n\n\nSeptember 16, 2024\n\n\n\n\nHomework 1 - Example Answer\n\n\n\n\n\nOctober 2, 2024\n\n\n\n\nHomework 2\n\n\n\n\n\nSeptember 25, 2024\n\n\n\n\nHomework 2 - Example Answer\n\n\n\n\n\nOctober 7, 2024\n\n\n\n\nHomework 3 - Example Answer\n\n\n\n\n\nNovember 17, 2024\n\n\n\n\nHomework 4\n\n\n\n\n\nNovember 10, 2024\n\n\n\n\nHomework 4 - Example Answer\n\n\n\n\n\nNovember 18, 2024\n\n\n\n\nHomework 5\n\n\n\n\n\nDecember 1, 2024\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\n\n\n\nSeptember 16, 2024\n\n\n\n\nHomework 1 - Example Answer\n\n\n\n\n\nOctober 2, 2024\n\n\n\n\nHomework 2\n\n\n\n\n\nSeptember 25, 2024\n\n\n\n\nHomework 2 - Example Answer\n\n\n\n\n\nOctober 7, 2024\n\n\n\n\nHomework 3 - Example Answer\n\n\n\n\n\nNovember 17, 2024\n\n\n\n\nHomework 4\n\n\n\n\n\nNovember 10, 2024\n\n\n\n\nHomework 4 - Example Answer\n\n\n\n\n\nNovember 18, 2024\n\n\n\n\nHomework 5\n\n\n\n\n\nDecember 2, 2024\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "econ-rw/econ-341-rw-03.html",
@@ -8118,5 +8118,33 @@
     "title": "Homework 5",
     "section": "Q3b",
     "text": "Q3b\nIf the marginal cost of additional catches (expressed in terms of the population size) is \\(MC = 2(160 – P)\\), what is the population size that is compatible with the efficient sustainable yield?"
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-05.html#q4a",
+    "href": "econ-hw/econ-341-hw-05.html#q4a",
+    "title": "Homework 5",
+    "section": "Q4a",
+    "text": "Q4a\n\nHow much time will fisherman \\(1\\) spend fishing per day if the government does not intervene?"
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-05.html#q4b",
+    "href": "econ-hw/econ-341-hw-05.html#q4b",
+    "title": "Homework 5",
+    "section": "Q4b",
+    "text": "Q4b\n\nHow much fishes will fisherman \\(1\\) catch?"
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-05.html#q4c",
+    "href": "econ-hw/econ-341-hw-05.html#q4c",
+    "title": "Homework 5",
+    "section": "Q4c",
+    "text": "Q4c\n\nIf the fishermen jointly maximize the social welfare of the village, how much time each fisherman spend fishing per day and how much fishes each fisherman catch?\n\nSocial welfare is given by:\n\n\n\\[\n\\begin{align}\nSW = U_{1} + U_{2} + \\cdots + U_{N}\n\\end{align}\n\\]"
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-05.html#q4d",
+    "href": "econ-hw/econ-341-hw-05.html#q4d",
+    "title": "Homework 5",
+    "section": "Q4d",
+    "text": "Q4d\n\nIf there are 1,000 fishermen in the village, how much fish stock \\(S\\) will be left in the Erie Lake after the scenarios outlined in Q4a/Q4b and in Q4c, respectively?\nProvide an intuitive explanation on how fish stocks in both scenarios are different.\nMake any policy suggestion on managing open access fishery in the village nearby the Erie Lake."
   }
 ]
