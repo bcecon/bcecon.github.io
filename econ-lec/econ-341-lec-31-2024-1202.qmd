@@ -171,6 +171,22 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
  
 
+## Tragedy of the Commons
+
+- **Definition**: The overuse and depletion of a shared resource when individuals prioritize their own self-interest over the collective good.
+  <!-- - **Example**: Overfishing in open-access oceans  -->
+
+- **Key Cause**: Personal benefits from exploitation are immediate, while the costs are shared across all users.
+
+- **Challenges**:
+  - Lack of effective institutions prevents resource asset value from being protected.
+  - Leads to overuse, depletion, and long-term economic and environmental harm.
+
+- **Solutions**:
+  - Develop strategies that balance efficiency with sustainability.
+  - Implement institutional reforms to address issues like overfishing and ensure equitable resource management.
+ 
+
 ## Efficient Allocations—Bioeconomics Theory
 
 
