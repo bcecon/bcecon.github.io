@@ -1278,7 +1278,7 @@
     "href": "index.html#bullet-homework",
     "title": "ECON 341-01: Natural Resource Economics, Fall 2024",
     "section": "\\(\\bullet\\,\\) Homework 💻",
-    "text": "\\(\\bullet\\,\\) Homework 💻\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nHomework 4 - Example Answer\n\n\nNovember 18, 2024\n\n\n\n\nHomework 3 - Example Answer\n\n\nNovember 17, 2024\n\n\n\n\nHomework 4\n\n\nNovember 10, 2024\n\n\n\n\nHomework 2 - Example Answer\n\n\nOctober 7, 2024\n\n\n\n\nHomework 1 - Example Answer\n\n\nOctober 2, 2024\n\n\n\n\nHomework 2\n\n\nSeptember 25, 2024\n\n\n\n\nHomework 1\n\n\nSeptember 16, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "\\(\\bullet\\,\\) Homework 💻\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nHomework 5\n\n\nDecember 1, 2024\n\n\n\n\nHomework 4 - Example Answer\n\n\nNovember 18, 2024\n\n\n\n\nHomework 3 - Example Answer\n\n\nNovember 17, 2024\n\n\n\n\nHomework 4\n\n\nNovember 10, 2024\n\n\n\n\nHomework 2 - Example Answer\n\n\nOctober 7, 2024\n\n\n\n\nHomework 1 - Example Answer\n\n\nOctober 2, 2024\n\n\n\n\nHomework 2\n\n\nSeptember 25, 2024\n\n\n\n\nHomework 1\n\n\nSeptember 16, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#bullet-research",
@@ -1586,7 +1586,7 @@
     "href": "listing-econ-341-hw.html",
     "title": "ECON 341 - Homework",
     "section": "",
-    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\n\n\n\nSeptember 16, 2024\n\n\n\n\nHomework 1 - Example Answer\n\n\n\n\n\nOctober 2, 2024\n\n\n\n\nHomework 2\n\n\n\n\n\nSeptember 25, 2024\n\n\n\n\nHomework 2 - Example Answer\n\n\n\n\n\nOctober 7, 2024\n\n\n\n\nHomework 3 - Example Answer\n\n\n\n\n\nNovember 17, 2024\n\n\n\n\nHomework 4\n\n\n\n\n\nNovember 10, 2024\n\n\n\n\nHomework 4 - Example Answer\n\n\n\n\n\nNovember 18, 2024\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\n\n\n\nSeptember 16, 2024\n\n\n\n\nHomework 1 - Example Answer\n\n\n\n\n\nOctober 2, 2024\n\n\n\n\nHomework 2\n\n\n\n\n\nSeptember 25, 2024\n\n\n\n\nHomework 2 - Example Answer\n\n\n\n\n\nOctober 7, 2024\n\n\n\n\nHomework 3 - Example Answer\n\n\n\n\n\nNovember 17, 2024\n\n\n\n\nHomework 4\n\n\n\n\n\nNovember 10, 2024\n\n\n\n\nHomework 4 - Example Answer\n\n\n\n\n\nNovember 18, 2024\n\n\n\n\nHomework 5\n\n\n\n\n\nDecember 1, 2024\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "econ-rw/econ-341-rw-03.html",
@@ -8083,5 +8083,40 @@
     "title": "Lecture 31",
     "section": "Example: Harbor Gangs of Maine and Other Informal Arrangements",
     "text": "Example: Harbor Gangs of Maine and Other Informal Arrangements\n\nInformal Arrangements:\n\nFishers form “gangs” to restrict access to fishing areas.\nEnforce territories to prevent overexploitation.\n\nBenefits:\n\nHigher catch per trap.\nLarger lobsters, fetching higher prices.\n\nSuccess Factors:\n\nStrong leadership.\nSocial cohesion.\nComplementary incentives like individual quotas."
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-05.html",
+    "href": "econ-hw/econ-341-hw-05.html",
+    "title": "Homework 5",
+    "section": "",
+    "text": "Farmer’s marginal net benefit of water use is given by: \\[\nMNB_{f} = 10 - Q_{f}\n\\]\nUrban household’s marginal net benefit of water use is: \\[\nMNB_{u} = 20 - 2Q_{u}\n\\]\nThe total water supply is \\(Q_{total} = 15\\) units for any level of price.\n\n\nFind the efficient allocation of water use.\n\n\n\n\nIf water supply drops to 8 units for any level of price, what will be the efficient allocation of water use?"
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-05.html#q1a",
+    "href": "econ-hw/econ-341-hw-05.html#q1a",
+    "title": "Homework 5",
+    "section": "",
+    "text": "Find the efficient allocation of water use."
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-05.html#q1b",
+    "href": "econ-hw/econ-341-hw-05.html#q1b",
+    "title": "Homework 5",
+    "section": "",
+    "text": "If water supply drops to 8 units for any level of price, what will be the efficient allocation of water use?"
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-05.html#q3a",
+    "href": "econ-hw/econ-341-hw-05.html#q3a",
+    "title": "Homework 5",
+    "section": "Q3a",
+    "text": "Q3a\n\nCompute the population size that is compatible with the maximum sustainable yield.\nWhat would be the size of the annual catch if the population were to be sustained at this level?"
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-05.html#q3b",
+    "href": "econ-hw/econ-341-hw-05.html#q3b",
+    "title": "Homework 5",
+    "section": "Q3b",
+    "text": "Q3b\nIf the marginal cost of additional catches (expressed in terms of the population size) is \\(MC = 2(160 – P)\\), what is the population size that is compatible with the efficient sustainable yield?"
   }
 ]
