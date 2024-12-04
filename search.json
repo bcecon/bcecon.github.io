@@ -7935,7 +7935,7 @@
     "href": "econ-lec/econ-341-lec-31-2024-1202.html#impact-of-technological-change",
     "title": "Lecture 31",
     "section": "Impact of Technological Change",
-    "text": "Impact of Technological Change\n\nEffect on Efficient Effort Level:\n\nTechnological improvements lower marginal costs.\nResults in increased effort, lower population size, larger annual catch, and higher net benefits."
+    "text": "Impact of Technological Change\n\n\n\n\n\n\n\n\n\nEffect on Efficient Effort Level:\n\nTechnological improvements lower marginal costs (e.g., better sonar detection).\n\n\n\n\n\nResults in increased effort, lower population size, larger annual catch, and higher net benefits."
   },
   {
     "objectID": "econ-lec/econ-341-lec-31-2024-1202.html#dynamic-efficient-sustainable-yield",
@@ -8068,21 +8068,21 @@
     "href": "econ-lec/econ-341-lec-31-2024-1202.html#public-policy-toward-fisheries-1",
     "title": "Lecture 31",
     "section": "Public Policy toward Fisheries",
-    "text": "Public Policy toward Fisheries"
+    "text": "Public Policy toward Fisheries\nRaising the Real Cost of Fishing\n\n\n\n\n\n\n\n\n\n\nEarly Policies:\n\nBanning efficient gear (e.g., barricades, traps, thinner monofilament nets, gill netters).\nLimiting fishing times and areas.\nAchieving yield corresponding to the efficient effort level (\\(E^{e}\\))\n\n\n\n\n\n\n\n\n\nInefficiency Resulted:\n\nIncreased real resource costs, involving utilization of resources.\nOvercapitalization in fishing fleets.\nSubstantial loss in the fishers’ net benefit."
   },
   {
     "objectID": "econ-lec/econ-341-lec-31-2024-1202.html#market-allocation-in-a-fishery",
     "href": "econ-lec/econ-341-lec-31-2024-1202.html#market-allocation-in-a-fishery",
     "title": "Lecture 31",
     "section": "Market Allocation in a Fishery",
-    "text": "Market Allocation in a Fishery\n\n\n\n\n\n\n\n\n\nSole Owner vs. Open Access:\n\nSole Owner: Maximizes profit by choosing efficient effort level (\\(E^{e}\\)).\nOpen Access: Leads to overexploitation, effort level increases to where profits are zero (\\(E^{c}\\)).\n\nExternal Costs:\n\nContemporaneous External Cost: Overcommitment of resources, reducing current profits.\nIntergenerational External Cost: Overfishing reduces stock, lowering future profits."
+    "text": "Market Allocation in a Fishery\n\n\n\n\n\n\n\n\n\nSole Owner vs. Open Access:\n\nSole Owner: Maximizes profit by choosing efficient effort level (\\(E^{e}\\)).\nOpen Access: Leads to overexploitation, effort level increases to where profits are zero (\\(E^{c}\\)), creating the external costs:\n\nExternal Costs:\n\nContemporaneous External Cost: Overcommitment of resources, reducing current profits.\nIntergenerational External Cost: Overfishing reduces stock, lowering future profits."
   },
   {
     "objectID": "econ-lec/econ-341-lec-31-2024-1202.html#example-harbor-gangs-of-maine-and-other-informal-arrangements",
     "href": "econ-lec/econ-341-lec-31-2024-1202.html#example-harbor-gangs-of-maine-and-other-informal-arrangements",
     "title": "Lecture 31",
     "section": "Example: Harbor Gangs of Maine and Other Informal Arrangements",
-    "text": "Example: Harbor Gangs of Maine and Other Informal Arrangements\n\nInformal Arrangements:\n\nFishers form “gangs” to restrict access to fishing areas.\nEnforce territories to prevent overexploitation.\n\nBenefits:\n\nHigher catch per trap.\nLarger lobsters, fetching higher prices.\n\nSuccess Factors:\n\nStrong leadership.\nSocial cohesion.\nComplementary incentives like individual quotas."
+    "text": "Example: Harbor Gangs of Maine and Other Informal Arrangements\n\n\n\nInformal Arrangements:\n\nFishers form “gangs” to restrict access to fishing areas.\nEnforce territories to prevent overexploitation.\n\nBenefits:\n\nHigher catch per trap.\nLarger lobsters, fetching higher prices.\n\nSuccess Factors:\n\nStrong leadership.\nSocial cohesion.\nComplementary incentives like individual quotas."
   },
   {
     "objectID": "econ-hw/econ-341-hw-05.html",
@@ -8405,5 +8405,40 @@
     "title": "Lecture 32",
     "section": "Conclusion",
     "text": "Conclusion\n\nOverfishing is a Global Issue:\n\nLeads to significant economic and ecological losses.\n\nEfficient Management is Essential:\n\nRequires appropriate policies and institutions.\n\nMarket-Based Solutions:\n\nITQs, TURFs, and catch share programs show promise.\nAlign economic incentives with conservation.\n\nInternational Cooperation:\n\nCritical for managing shared and migratory stocks.\nAgreements like the WTO’s fisheries subsidies agreement are steps forward."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-31-2024-1202.html#public-policy-toward-fisheries-2",
+    "href": "econ-lec/econ-341-lec-31-2024-1202.html#public-policy-toward-fisheries-2",
+    "title": "Lecture 31",
+    "section": "Public Policy toward Fisheries",
+    "text": "Public Policy toward Fisheries\nTaxes as a Policy Tool\n\n\n\n\n\n\n\n\n\n\nImplementing Taxes:\n\nTax on fishing effort (or catch).\nIncreases cost to fishers, reducing effort.\n\n\n\n\n\n\nAdvantages:\n\nEncourages cost-effective fishing methods.\nGovernment collects tax revenues.\nNet benefits retained by society."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-31-2024-1202.html#public-policy-toward-fisheries-3",
+    "href": "econ-lec/econ-341-lec-31-2024-1202.html#public-policy-toward-fisheries-3",
+    "title": "Lecture 31",
+    "section": "Public Policy toward Fisheries",
+    "text": "Public Policy toward Fisheries\nPerverse Incentives: Subsidies\n\nNegative Impact of Subsidies:\n\nReduce operating costs, encouraging overfishing.\nLead to overexploited stocks and illegal fishing.\n\nGlobal Fisheries Subsidies:\n\nGovernments spend about $35 billion per year.\nEquivalent to 20% of the value of global marine capture.\n\nWTO Agreement (2022):\n\nProhibits harmful fishing subsidies.\nTargets IUU fishing and overfished stocks.\nProvides technical assistance to developing countries."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-31-2024-1202.html#public-policy-toward-fisheries-4",
+    "href": "econ-lec/econ-341-lec-31-2024-1202.html#public-policy-toward-fisheries-4",
+    "title": "Lecture 31",
+    "section": "Public Policy toward Fisheries",
+    "text": "Public Policy toward Fisheries\nCatch Share Programs\n\nDefinition:\n\nAllocate a portion of the total allowable catch to individuals, communities, or cooperatives.\n\nTypes of Programs:\n\nIndividual Fishing Quotas (IFQs).\nIndividual Transferable Quotas (ITQs).\nTerritorial Use Rights Fisheries (TURFs).\nFishing Cooperatives.\nCommunity Fishing Quotas.\n\nGlobal Adoption:\n\nNearly 200 programs in 40 countries.\nCover more than 500 species."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-31-2024-1202.html#catch-share-programs-1",
+    "href": "econ-lec/econ-341-lec-31-2024-1202.html#catch-share-programs-1",
+    "title": "Lecture 31",
+    "section": "Catch Share Programs",
+    "text": "Catch Share Programs\nIndividual Transferable Quotas (ITQs)\n\nKey Characteristics:\n\nQuotas specify a share of the total catch.\nTotal quotas equal the efficient catch level.\nQuotas are freely transferable among fishers.\n\nAdvantages:\n\nEncourage efficiency and cost-effective methods.\nAlign individual incentives with sustainability.\nPromote technological innovation."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-31-2024-1202.html#individual-transferable-quotas-itqs-1",
+    "href": "econ-lec/econ-341-lec-31-2024-1202.html#individual-transferable-quotas-itqs-1",
+    "title": "Lecture 31",
+    "section": "Individual Transferable Quotas (ITQs)",
+    "text": "Individual Transferable Quotas (ITQs)\nRent Distribution and Equity Concerns\n\nInitial Allocation Matters:\n\nAuctioning Quotas: Government collects rents.\nAllocating to Fishers: Fishers retain rents.\n\nImpact on Fishers:\n\nCurrent fishers benefit if quotas are allocated to them.\nNew entrants must purchase quotas, potentially raising barriers.\n\nEquity Issues:\n\nRisk of industry consolidation.\nSmaller fishers may be disadvantaged."
   }
 ]
