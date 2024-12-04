@@ -90,6 +90,7 @@ The term paper should adhere to the following structure and formatting guideline
   - An Excel spreadsheet for the peer evaluation will be provided. Make sure to save the spreadsheet and submit it to Brightspace.
   - Failure to complete the peer evaluation will result in a reduction of your class participation score.
   - **Score Calculation**: For each category of **Rubric 1-5**, the highest and lowest scores will be dropped to ensure fairness when calculating the peer evaluation score.
+  - Skip **Rubric 4. Quality of proposed econometric analysis** if the project does not have econometric analysis.
 
 
 ## Submission
