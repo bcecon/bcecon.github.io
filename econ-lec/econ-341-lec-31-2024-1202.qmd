@@ -249,7 +249,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 :::{.nonincremental}
 - **Definition**:
-  - Catch equals the growth rate of the population.
+  - Catch equals the growth of the population.
   - Can be maintained perpetually.
 
 - **Determining Sustainable Yield**:
@@ -354,15 +354,15 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
  
 
-## Dynamic Efficient Sustainable Yield
+<!-- ## Dynamic Efficient Sustainable Yield -->
 
-- **Incorporating Discounting**:
-  - Positive discount rates affect the efficient allocation over time.
-  - Higher discount rates increase the efficient level of effort beyond the static level.
+<!-- - **Incorporating Discounting**: -->
+<!--   - Positive discount rates affect the efficient allocation over time. -->
+<!--   - Higher discount rates increase the efficient level of effort beyond the static level. -->
 
-- **Potential for Extinction**:
-  - If the discount rate exceeds the population growth rate, efficient management could lead to extinction.
-  - Low rates of growth make conservation less productive.
+<!-- - **Potential for Extinction**: -->
+<!--   - If the discount rate exceeds the population growth rate, efficient management could lead to extinction. -->
+<!--   - Low rates of growth make conservation less productive. -->
 
  
 

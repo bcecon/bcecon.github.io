@@ -31,57 +31,106 @@ theme_set(theme_minimal() +
 
 ```
 
+# The Structure of the Term Paper
 
-# Key Components in Term Paper Proposal
+The term paper should adhere to the following structure and formatting guidelines:
 
-<!-- ## Part I - Memo to the President -->
-<!-- Each team will select one topic in the environmental economics and write a terse 1-2 page memo that explains in plain English to the President of a nation why this research matters for real-world environmental policy. -->
+## 1. Introduction (2-3 pages)
+- **Background**: Provide context for the research topic, explaining its significance or relevance.
+- **Statement of the Problem**: Clearly articulate the specific problem or issue the research addresses.
+- **Objectives or Research Questions**: List the primary objectives of the study or the main questions you aim to answer.
 
-<!-- ## Part II - Economic Modeling -->
+## 2. Literature Review (1-3 pages)
+- Summarize and critically analyze your references, including the recommended ones, explaining how they fit into your project.
+
+## 3. Model (2-3 pages)
+- Develop and present the economic model addressing the problem. Ensure clarity in outlining the key variables, assumptions, and equations, if applicable.
+
+## 4. Policy Applications (2-3 pages)
+- Discuss the real-world implications of your project and its relevance for public policy. Provide examples or scenarios where your findings can be applied.
+
+## 5. Conclusion (1 page)
+- Summarize the key findings and contributions of your paper, emphasizing its broader significance.
+
+## 6. References (no page limit)
+- List all sources cited in your paper following a consistent citation style (e.g., APA, MLA, Chicago).
 
 
-- Below are several key components. 
-
-  1. **Title**: A clear and concise title that gives an idea of the research topic.
-  
-  2. **Introduction**:
-     - **Background**: Provide context for the research topic, explaining why it's significant or relevant.
-     - **Statement of the Problem**: Clearly articulate the specific problem or issue the research will address.
-  
-  3. **Objectives or Research Questions**:
-     - List the primary objectives of the study or the main questions you aim to answer.
-  
-  4. **Economic Model**:
-     - Set up the economic problem.
-     - Do not need to be complete at this stage.
-  
-  5. **Empirical Analysis** (Not necessary):
-     - **Data Collection**: Explain how data will be gathered
-     - **Methodologies**: Describe how the data will be analyzed (e.g., linear regression, etc.).
-  
-  6. **Significance of the Study**:
-     - Explain its implications for real-world applications or environmental policy.
-  
-  7. **References**: List all sources cited in the proposal
+### General Requirements
+- The total length of the term paper (excluding references) should be **8-13 (or more) pages**, double-spaced, with 12-point Times New Roman font and 1-inch margins on a letter-size paper in a Word document.
+- Ensure proper organization, clear headings, and concise, well-structured writing.
 
 
 <br><br><br>
 
 
-# Rubric for Term Paper
+# Rubric for Team Project
 
-| **Attribute**                           | **Very Deficient (0)**                                             | **Somewhat Deficient (1)**                                             | **Acceptable (2)**                                                      | **Very Good (3)**                                                       | **Outstanding (4)**                                                    |
+| **Attribute**                           | **Very Deficient (1)**                                             | **Somewhat Deficient (2)**                                             | **Acceptable (3)**                                                      | **Very Good (4)**                                                       | **Outstanding (5)**                                                    |
 |-----------------------------------------|-------------------------------------------------------------------|-----------------------------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------------------|
 | **1. Potential for success**            | - Low or no potential for success                                  | - Somewhat tenuous potential for success                               | - Adequate potential for success                                        | - High potential for success                                            | - Excellent potential for success                                      |
 | **2. Quality of research question**     | - Not stated or very unclear<br>- Entirely derivative<br>- Anticipate no contribution | - Stated somewhat confusingly<br>- Slightly original but largely derivative<br>- Anticipate minor contributions | - Stated explicitly<br>- Somewhat original and creative<br>- Anticipate limited contributions | - Stated explicitly and clearly<br>- Clearly original and creative<br>- Anticipate at least one good contribution | - Articulated very clearly<br>- Highly original and creative<br>- Anticipate several important contributions |
 | **3. Quality of proposed theoretical analysis** | - Demonstrates little or no critical thinking<br>- Little or no understanding of theoretical concepts<br>- Proposes inappropriate analytical and/or quantitative tools | - Demonstrates rudimentary critical thinking<br>- Somewhat shaky understanding of theoretical concepts<br>- Misses some important analytical and/or quantitative tools | - Demonstrates average critical thinking<br>- Demonstrates understanding of theoretical concepts<br>- Proposes appropriate analytical and/or quantitative tools | - Demonstrates mature critical thinking<br>- Clear understanding of theoretical concepts<br>- Proposes advanced analytical and/or quantitative tools | - Demonstrates sophisticated critical thinking<br>- Superior understanding of theoretical concepts<br>- Proposes highly advanced analytical and/or quantitative tools |
 | **4. Quality of proposed econometric analysis** | - Demonstrates little or no critical thinking<br>- Little or no understanding of theoretical concepts<br>- Proposes inappropriate analytical and/or quantitative tools | - Demonstrates rudimentary critical thinking<br>- Somewhat shaky understanding of theoretical concepts<br>- Misses some important analytical and/or quantitative tools | - Demonstrates average critical thinking<br>- Demonstrates understanding of theoretical concepts<br>- Proposes appropriate analytical and/or quantitative tools | - Demonstrates mature critical thinking<br>- Clear understanding of theoretical concepts<br>- Proposes advanced analytical and/or quantitative tools | - Demonstrates sophisticated critical thinking<br>- Superior understanding of theoretical concepts<br>- Proposes highly advanced analytical and/or quantitative tools |
-| **5. Quality of writing**               | - Very poorly organized<br>- Very difficult to read and understand<br>- Teems with typos and grammatical errors | - Somewhat disorganized<br>- Somewhat difficult to read and understand<br>- Numerous typos and grammatical errors | - Mostly well organized<br>- Mostly easy to read and understand<br>- Some typos and grammatical errors | - Well organized<br>- Easy to read and understand<br>- Very few typos or grammatical errors | - Very well organized<br>- Very easy to read and understand<br>- No typos or grammatical errors |
-| **6. Quality of oral presentation**     | - Very poorly organized<br>- Poor-quality slides or handouts<br>- Unable to address key questions | - Somewhat disorganized<br>- Some unclear slides or handouts<br>- Had difficulty with several questions | - Mostly well organized<br>- Mostly clear slides and handouts<br>- Addressed most questions acceptably | - Well organized<br>- Well thought-out slides and handouts<br>- Addressed almost all questions professionally | - Very well organized<br>- Outstanding slides and handouts<br>- Addressed all questions professionally |
+| **5. Quality of oral presentation**     | - Very poorly organized<br>- Poor-quality slides or handouts<br>- Unable to address key questions | - Somewhat disorganized<br>- Some unclear slides or handouts<br>- Had difficulty with several questions | - Mostly well organized<br>- Mostly clear slides and handouts<br>- Addressed most questions acceptably | - Well organized<br>- Well thought-out slides and handouts<br>- Addressed almost all questions professionally | - Very well organized<br>- Outstanding slides and handouts<br>- Addressed all questions professionally |
+| **6. Quality of writing**               | - Very poorly organized<br>- Very difficult to read and understand<br>- Teems with typos and grammatical errors | - Somewhat disorganized<br>- Somewhat difficult to read and understand<br>- Numerous typos and grammatical errors | - Mostly well organized<br>- Mostly easy to read and understand<br>- Some typos and grammatical errors | - Well organized<br>- Easy to read and understand<br>- Very few typos or grammatical errors | - Very well organized<br>- Very easy to read and understand<br>- No typos or grammatical errors |
 | **7. Other – explain**                  | -                                                                 | -                                                                     | -                                                                      | -                                                                      | -                                                                      |
 
 
 <br><br><br>
+
+
+
+
+# Requirements
+
+## Peer Evaluation
+
+- Each student is required to evaluate the presentations of **other teams**. Peer evaluations will make up 5% of the total project score.
+  - An Excel spreadsheet for the peer evaluation will be provided. Make sure to save the spreadsheet and submit it to Brightspace.
+  - Failure to complete the peer evaluation will result in a reduction of your class participation score.
+  - **Score Calculation**: For each category of **Rubric 1-5**, the highest and lowest scores will be dropped to ensure fairness when calculating the peer evaluation score.
+
+
+## Submission
+- One representative in each team should email the file of the **presentation slides** (in _Microsoft PowerPoint_ or _Google Slides_ format) by December 9, 2024, 9:00 A.M.
+- One representative in each team should email the Word document of **term paper** by December 17, 2024, 11:59 P.M.
+
+
+
+<!-- # Key Components in Term Paper Proposal -->
+
+<!-- <!-- ## Part I - Memo to the President --> -->
+<!-- <!-- Each team will select one topic in the environmental economics and write a terse 1-2 page memo that explains in plain English to the President of a nation why this research matters for real-world environmental policy. --> -->
+
+<!-- <!-- ## Part II - Economic Modeling --> -->
+
+
+<!-- - Below are several key components.  -->
+
+<!--   1. **Title**: A clear and concise title that gives an idea of the research topic. -->
+
+<!--   2. **Introduction**: -->
+<!--      - **Background**: Provide context for the research topic, explaining why it's significant or relevant. -->
+<!--      - **Statement of the Problem**: Clearly articulate the specific problem or issue the research will address. -->
+
+<!--   3. **Objectives or Research Questions**: -->
+<!--      - List the primary objectives of the study or the main questions you aim to answer. -->
+
+<!--   4. **Economic Model**: -->
+<!--      - Set up the economic problem. -->
+<!--      - Do not need to be complete at this stage. -->
+
+<!--   5. **Empirical Analysis** (Not necessary): -->
+<!--      - **Data Collection**: Explain how data will be gathered -->
+<!--      - **Methodologies**: Describe how the data will be analyzed (e.g., linear regression, etc.). -->
+
+<!--   6. **Significance of the Study**: -->
+<!--      - Explain its implications for real-world applications or environmental policy. -->
+
+<!--   7. **References**: List all sources cited in the proposal -->
+
+<br><br>
 
 # What is a model?
 
