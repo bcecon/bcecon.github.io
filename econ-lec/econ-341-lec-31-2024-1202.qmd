@@ -531,16 +531,16 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 ### Perverse Incentives: Subsidies
 
 - **Negative Impact of Subsidies**:
-  - Reduce operating costs, encouraging overfishing.
+  - Reduce operating costs (e.g., fuel), encouraging overfishing.
   - Lead to overexploited stocks and illegal fishing.
 
 - **Global Fisheries Subsidies**:
   - Governments spend about **$35 billion per year**.
   - Equivalent to 20% of the value of global marine capture.
 
-- **WTO Agreement (2022)**:
+- **WTO Agreement on Fisheries Subsidies (2022)**:
   - Prohibits harmful fishing subsidies.
-  - Targets IUU fishing and overfished stocks.
+  - Targets IUU (illegal, unreported, or unregulated) fishing and overfished stocks.
   - Provides technical assistance to developing countries.
 
  
