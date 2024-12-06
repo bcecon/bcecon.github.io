@@ -548,7 +548,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 ## Catch Share Programs
 
 - **Definition**:
-  - Allocate a portion of the total allowable catch to individuals, communities, or cooperatives.
+  - Allocate a portion of the total allowable catch (TAC) to individuals, communities, or cooperatives.
 
 - **Types of Programs**:
   - Individual Fishing Quotas (IFQs).
@@ -576,55 +576,171 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
   - Promote technological innovation.
 
  
-## Individual Transferable Quotas (ITQs)
-### Rent Distribution and Equity Concerns
+<!-- ## Individual Transferable Quotas (ITQs) -->
+<!-- ### Rent Distribution and Equity Concerns -->
 
-- **Initial Allocation Matters**:
-  - **Auctioning Quotas**: Government collects rents.
-  - **Allocating to Fishers**: Fishers retain rents.
+<!-- - **Initial Allocation Matters**: -->
+<!--   - **Auctioning Quotas**: Government collects rents. -->
+<!--   - **Allocating to Fishers**: Fishers retain rents. -->
 
-- **Impact on Fishers**:
-  - Current fishers benefit if quotas are allocated to them.
-  - New entrants must purchase quotas, potentially raising barriers.
+<!-- - **Impact on Fishers**: -->
+<!--   - Current fishers benefit if quotas are allocated to them. -->
+<!--   - New entrants must purchase quotas, potentially raising barriers. -->
 
-- **Equity Issues**:
-  - Risk of industry consolidation.
-  - Smaller fishers may be disadvantaged.
+<!-- - **Equity Issues**: -->
+<!--   - Risk of industry consolidation. -->
+<!--   - Smaller fishers may be disadvantaged. -->
 
- 
 
-## Example: Atlantic Sea Scallop Fishery
+## Practical Challenges in ITQ Implementation
+<div style="display:block; margin:-15px;"></div>
+
+:::: {.columns}
+::: {.column width="50%"}
+#### Bycatch Issues
+- **Definition**: Bycatch refers to unintended species caught during fishing.
+- Some fishers may not have sufficient ITQs to cover the bycatch
+- Dumping bycatch results in a **double waste**:
+  1. **Wasted harvests**: Jettisoned fish are not likely to survive
+  2. **Smaller stocks**
+
+:::
+
+::: {.column width="50%"}
+#### High-Grading Concerns
+- **Definition**: High-grading occurs when quotas are based on weight, but the **value of the catch** depends on the size of individual fish.
+- Fishers may discard smaller fish to make room for larger, more valuable ones, even if smaller fish meet the quota.
+- **Impacts**:
+  - Leads to **double waste**.
+
+:::
+::::
+
+
+
+
+## ITQ vs. Traditional Size and Effort Restrictions
+### Example: Atlantic Sea Scallop Fishery
 
 - **Management Approaches**:
   - **Canada**: Implemented ITQ system.
   - **United States**: Used traditional size and effort restrictions.
 
-- **Outcomes**:
+
+:::: {.columns}
+::: {.column width="50%"}
+
   - **Canada**:
     - Maintained higher stock abundance.
     - Increased revenue per sea-day.
     - Fishery revenue increased due to higher catch per effort.
+
+:::
+
+::: {.column width="50%"}
 
   - **United States**:
     - Declined stock abundance.
     - Decreased revenue per sea-day.
     - Harvesting of undersized scallops.
 
- 
+:::
+::::
 
-## Debate: ITQs or TURFs?
 
-- **ITQs (Species-Based Rights)**:
-  - Allocate shares of total allowable catch.
-  - May not address spatial or habitat externalities.
 
-- **TURFs (Area-Based Rights)**:
-  - Allocate rights to specific geographic areas.
-  - Can manage habitat and interspecies interactions.
 
-- **Combined Approaches**:
-  - Potentially address broader issues.
-  - May offer better management for migratory species.
+
+
+## Effectiveness of ITQs in Fisheries Management
+
+<div style="display:block; margin:-15px;"></div>
+
+:::: {.columns}
+::: {.column width="50%"}
+#### Global Study on Fisheries
+
+- **Scope**: Analyzed over 11,000 fisheries globally from 1950 to 2003.
+- **Key Findings**:
+  - Fisheries with catch share rules (e.g., ITQs) experienced much less frequent collapse.
+  - By 2003, the fraction of collapsed ITQ fisheries was half that of non-ITQ fisheries.
+
+:::
+
+::: {.column width="50%"}
+#### Additional Study on ITQs 
+- **Scope**: Examined 20 fish stocks post-ITQ implementation.
+- **Key Findings**:
+  - 12 stocks showed improvement in size.
+  - 8 stocks continued to decline.
+
+:::
+::::
+
+- ITQs can sometimes help but are not a universal solution.
+
+
+
+<!-- ## Catch Share Programs -->
+<!-- ### Territorial Use Rights Fisheries (TURFs) -->
+
+<!-- - **Key Characteristics**: -->
+<!--   1. Allocate exclusive rights to fish in a specific area. -->
+<!--   2. Encourage sustainable management practices. -->
+<!--   3. Promote habitat protection and ecosystem balance. -->
+
+
+
+## ITQs or TURFs? Species, Space, or Both?
+### Advantages and Challenges of ITQs
+- **Advantages**:
+  - Popular and species-based, fostering efficient harvesting and conservation incentives.
+  - Assures a sustainable **total allowable catch (TAC)**.
+- **Challenges**:
+  - **Enforcement difficulties**.
+  - **Externalities**:
+    - Gear impacts on ecosystems.
+    - Spatial and cross-species externalities, which can increase under ITQs.
+  - Competition over **timing** of harvest:
+    - Productive periods may increase external costs (e.g., bycatch, juvenile stock impact).
+  - **Coase theorem limitation**:
+    - High transaction costs hinder solving remaining externalities through ownership rights.
+
+## ITQs or TURFs? Species, Space, or Both?
+### Advantages and Challenges of TURFs
+- **Advantages**:
+  - Solves issues of **time and space management**.
+  - Protects sensitive areas and habitats.
+  - Facilitates management of interspecies interactions and habitat conservation.
+- **Challenges**:
+  - **Conflict and coordination problems** within local cooperatives.
+  - **Scale mismatch**: TURFs may not align with the natural range or habitat of the species being managed.
+
+## ITQs or TURFs? Species, Space, or Both?
+### When to Use ITQs or TURFs
+
+
+:::: {.columns}
+::: {.column width="50%"}
+#### **ITQs**
+- Effective for marine fisheries.
+- Suitable for large-scale, species-based management.
+  
+:::
+
+::: {.column width="50%"}
+
+#### **TURFs**
+- Advantageous in developing countries with weak institutional structures.
+- Most appropriate for small, local populations or specific areas.
+  
+:::
+::::
+
+
+- **No one-size-fits-all solution**:
+  - Each method has a niche depending on the context, species, and institutional capacity.
+  - Combining ITQs and TURFs may optimize fisheries management in some scenarios.
 
  
 
@@ -641,41 +757,76 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
   - Highly migratory species remain unprotected.
   - Open oceans (high seas) still face overexploitation.
 
- 
 
-## Marine Protected Areas (MPAs) and Marine Reserves
+## Exclusive Economic Zones (EEZs)
+### [Russia’s "Peanut Hole"]((https://www.youtube.com/shorts/UO02hTOkhnk))
+<div style="display:block; margin:-15px;"></div>
 
-- **Marine Protected Areas (MPAs)**:
-  - Areas reserved by law for protection.
-  - Levels of restriction vary.
-
-- **Marine Reserves**:
-  - Fully protected MPAs.
-  - Prohibit all harvesting activities.
-
-- **Benefits**:
-  - Protect species and habitats.
-  - Promote ecosystem balance.
-  - Potential for spillover benefits to adjacent fisheries.
-
- 
-
-## Spillover Benefits and Challenges
-
-- **Spillover Effect**:
-  - Increased populations within reserves can enhance catches outside.
-
+- **Location**: A high seas area in the center of the Sea of Okhotsk, surrounded by Russia's EEZ.
+- **Significance**:
+  - Previously a global commons outside Russia's jurisdiction.
+  - Known as the "Peanut Hole" due to its unique shape.
 - **Challenges**:
-  - Short-term costs to fishers due to reduced access.
-  - Economic impacts must be balanced with conservation goals.
+  - Overfishing by international fleets posed threats to fish stocks.
+  - Difficulty in coordinating sustainable management of resources in this area.
+- **Resolution**:
+  - In 2014, Russia successfully gained control of the "Peanut Hole" under UNCLOS provisions, integrating it into its EEZ.
 
-- **Economic Considerations**:
-  - Need to assess present value of net benefits.
-  - Policies should address potential burdens on local communities.
+
+
+## Marine Protected Areas and Marine Reserves
+### Motivation: Challenges of Regulating Only Catch
+- **Unregulated factors**:
+  - Type of gear used and harvest locations.
+- **Environmental impacts**:
+  - Damaging gear affects targeted species (e.g., capturing unsellable juveniles) and non-targeted species (bycatch).
+  - Harvesting in sensitive areas (e.g., spawning grounds) can harm sustainability.
+
+## What Are MPAs and Marine Reserves?
+- **Marine Protected Areas (MPAs)**:
+  - Defined as areas reserved to protect natural and cultural resources.
+  - Protection levels range from minimal to full.
+- **Marine Reserves**:
+  - A subset of MPAs with full protection (e.g., no harvesting, high protection from threats like pollution).
+
+## MPAs and Marine Reserves
+### Benefits
+1. **Species Protection**: Prevent harvest within reserve boundaries.
+2. **Habitat Preservation**: Reduce damage caused by harmful fishing practices.
+3. **Ecosystem Balance**: Protect pivotal species to maintain biodiversity and productivity.
+4. **Spillover Benefits**:
+   - Larger populations lead to increased catches outside reserve boundaries.
+   - Example: Papahānaumokuākea Marine National Monument showed spillover benefits for tuna species.
+
+
+## MPAs and Marine Reserves
+### Challenges
+- **Short-term Costs**:
+  - Harvesters face immediate reductions in fishing areas.
+  - Delayed benefits impose costs (e.g., interest on loans).
+- **Political Opposition**:
+  - Harvesters who do not perceive benefits may resist reserve proposals.
+- **Present Value Considerations**:
+  - Benefits must be large and timely enough to offset short-term costs.
+
+
+## MPAs and Marine Reserves
+### International Efforts and Innovations
+
+- **Global Initiatives**:
+  - The [Convention on Biological Diversity](https://www.cbd.int/convention) (1992) aims to conserve 10% of marine ecoregions.
+  
+- **Eco-labeling Incentives**:
+  - Link seafood certification (e.g., [Marine Stewardship Council](https://www.msc.org/en-us)) to adjacent MPAs.
+  - <u>Proposal</u>: Use "sustainability credits" to protect fish stocks and encourage sustainable practices.
+
+<!-- - **Key Takeaway** -->
+<!--   - MPAs and marine reserves are valuable tools for sustainability but are not always win-win solutions. -->
+<!--   - Policies must address the short-term sacrifices by harvesters to ensure long-term success. -->
 
  
-
-## Conclusion
+## Commercially Valuable Fisheries
+### Conclusion
 
 - **Overfishing is a Global Issue**:
   - Leads to significant economic and ecological losses.

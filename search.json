@@ -7991,7 +7991,7 @@
     "href": "econ-lec/econ-341-lec-31-2024-1202.html#catch-share-programs",
     "title": "Lecture 31",
     "section": "Catch Share Programs",
-    "text": "Catch Share Programs\n\nDefinition:\n\nAllocate a portion of the total allowable catch to individuals, communities, or cooperatives.\n\nTypes of Programs:\n\nIndividual Fishing Quotas (IFQs).\nIndividual Transferable Quotas (ITQs).\nTerritorial Use Rights Fisheries (TURFs).\nFishing Cooperatives.\nCommunity Fishing Quotas.\n\nGlobal Adoption:\n\nNearly 200 programs in 40 countries.\nCover more than 500 species."
+    "text": "Catch Share Programs\n\nDefinition:\n\nAllocate a portion of the total allowable catch (TAC) to individuals, communities, or cooperatives.\n\nTypes of Programs:\n\nIndividual Fishing Quotas (IFQs).\nIndividual Transferable Quotas (ITQs).\nTerritorial Use Rights Fisheries (TURFs).\nFishing Cooperatives.\nCommunity Fishing Quotas.\n\nGlobal Adoption:\n\nNearly 200 programs in 40 countries.\nCover more than 500 species."
   },
   {
     "objectID": "econ-lec/econ-341-lec-31-2024-1202.html#individual-transferable-quotas-itqs",
@@ -8019,7 +8019,7 @@
     "href": "econ-lec/econ-341-lec-31-2024-1202.html#debate-itqs-or-turfs",
     "title": "Lecture 31",
     "section": "Debate: ITQs or TURFs?",
-    "text": "Debate: ITQs or TURFs?\n\nITQs (Species-Based Rights):\n\nAllocate shares of total allowable catch.\nMay not address spatial or habitat externalities.\n\nTURFs (Area-Based Rights):\n\nAllocate rights to specific geographic areas.\nCan manage habitat and interspecies interactions.\n\nCombined Approaches:\n\nPotentially address broader issues.\nMay offer better management for migratory species."
+    "text": "Debate: ITQs or TURFs?\n\n\n\nITQs (Species-Based Rights):\n\nAllocate shares of total allowable catch.\nMay not address spatial or habitat externalities.\n\n\n\n\nTURFs (Area-Based Rights):\n\nAllocate rights to specific geographic areas.\nCan manage habitat and interspecies interactions.\n\n\n\n\n\nCombined Approaches:\n\nPotentially address broader issues.\nMay offer better management for migratory species."
   },
   {
     "objectID": "econ-lec/econ-341-lec-31-2024-1202.html#exclusive-economic-zones-eezs",
@@ -8440,5 +8440,117 @@
     "title": "Lecture 31",
     "section": "Individual Transferable Quotas (ITQs)",
     "text": "Individual Transferable Quotas (ITQs)\nRent Distribution and Equity Concerns\n\nInitial Allocation Matters:\n\nAuctioning Quotas: Government collects rents.\nAllocating to Fishers: Fishers retain rents.\n\nImpact on Fishers:\n\nCurrent fishers benefit if quotas are allocated to them.\nNew entrants must purchase quotas, potentially raising barriers.\n\nEquity Issues:\n\nRisk of industry consolidation.\nSmaller fishers may be disadvantaged."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-31-2024-1202.html#implementing-itqs-practical-considerations",
+    "href": "econ-lec/econ-341-lec-31-2024-1202.html#implementing-itqs-practical-considerations",
+    "title": "Lecture 31",
+    "section": "Implementing ITQs: Practical Considerations",
+    "text": "Implementing ITQs: Practical Considerations\n\nSpecies other than those sought (known as “bycatch”) may well end up as part of the catch\n\nDumping the bycatch represents a double waste: the jettisoned fish are killed and not used, and the fisher’s quota is reduced by the weight of the bycatch\nBycatch can be reduced by using more selective fishing gear\n\n“High-grading” can occur when quotas specify the catch in terms of weight of a certain species, but the value of the catch is affected greatly by the size of the individual fish.\n\nHigh-grading results in both smaller stocks and wasted harvests.\nFishers may discard smaller fish to make room for larger ones, even if the smaller fish are part of the quota."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-31-2024-1202.html#itq",
+    "href": "econ-lec/econ-341-lec-31-2024-1202.html#itq",
+    "title": "Lecture 31",
+    "section": "ITQ",
+    "text": "ITQ\nAtlantic Sea Scallop Fishery\n\nManagement Approaches:\n\nCanada: Implemented ITQ system.\nUnited States: Used traditional size and effort restrictions.\n\nOutcomes:\n\nCanada:\n\nMaintained higher stock abundance.\nIncreased revenue per sea-day.\nFishery revenue increased due to higher catch per effort.\n\nUnited States:\n\nDeclined stock abundance.\nDecreased revenue per sea-day.\nHarvesting of undersized scallops."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-31-2024-1202.html#effectiveness-of-itqs-in-fisheries-management",
+    "href": "econ-lec/econ-341-lec-31-2024-1202.html#effectiveness-of-itqs-in-fisheries-management",
+    "title": "Lecture 31",
+    "section": "Effectiveness of ITQs in Fisheries Management",
+    "text": "Effectiveness of ITQs in Fisheries Management\n\n\n\n\n\nGlobal Study on Fisheries\n\nScope: Analyzed over 11,000 fisheries globally from 1950 to 2003.\nKey Findings:\n\nFisheries with catch share rules (e.g., ITQs) experienced much less frequent collapse.\nBy 2003, the fraction of collapsed ITQ fisheries was half that of non-ITQ fisheries.\n\n\n\nAdditional Study on ITQs\n\nScope: Examined 20 fish stocks post-ITQ implementation.\nKey Findings:\n\n12 stocks showed improvement in size.\n8 stocks continued to decline.\n\n\n\n\n\nITQs can sometimes help but are not a universal solution."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-31-2024-1202.html#catch-share-programs-2",
+    "href": "econ-lec/econ-341-lec-31-2024-1202.html#catch-share-programs-2",
+    "title": "Lecture 31",
+    "section": "Catch Share Programs",
+    "text": "Catch Share Programs\nTerritorial Use Rights Fisheries (TURFs)\n\nKey Characteristics:\n\nAllocate exclusive rights to fish in a specific area.\nEncourage sustainable management practices.\nPromote habitat protection and ecosystem balance."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-31-2024-1202.html#practical-challenges-in-itq-implementation",
+    "href": "econ-lec/econ-341-lec-31-2024-1202.html#practical-challenges-in-itq-implementation",
+    "title": "Lecture 31",
+    "section": "Practical Challenges in ITQ Implementation",
+    "text": "Practical Challenges in ITQ Implementation\n\n\n\n\n\nBycatch Issues\n\nDefinition: Bycatch refers to unintended species caught during fishing.\nSome fishers may not have sufficient ITQs to cover the bycatch\nDumping bycatch results in a double waste:\n\nWasted harvests: Jettisoned fish are not likely to survive\nSmaller stocks\n\n\n\nHigh-Grading Concerns\n\nDefinition: High-grading occurs when quotas are based on weight, but the value of the catch depends on the size of individual fish.\nFishers may discard smaller fish to make room for larger, more valuable ones, even if smaller fish meet the quota.\nImpacts:\n\nLeads to double waste."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-31-2024-1202.html#itq-vs.-traditional-size-and-effort-restrictions",
+    "href": "econ-lec/econ-341-lec-31-2024-1202.html#itq-vs.-traditional-size-and-effort-restrictions",
+    "title": "Lecture 31",
+    "section": "ITQ vs. Traditional Size and Effort Restrictions",
+    "text": "ITQ vs. Traditional Size and Effort Restrictions\nExample: Atlantic Sea Scallop Fishery\n\nManagement Approaches:\n\nCanada: Implemented ITQ system.\nUnited States: Used traditional size and effort restrictions.\n\n\n\n\n\nCanada:\n\nMaintained higher stock abundance.\nIncreased revenue per sea-day.\nFishery revenue increased due to higher catch per effort.\n\n\n\n\nUnited States:\n\nDeclined stock abundance.\nDecreased revenue per sea-day.\nHarvesting of undersized scallops."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-31-2024-1202.html#exclusive-economic-zones-eezs-1",
+    "href": "econ-lec/econ-341-lec-31-2024-1202.html#exclusive-economic-zones-eezs-1",
+    "title": "Lecture 31",
+    "section": "Exclusive Economic Zones (EEZs)",
+    "text": "Exclusive Economic Zones (EEZs)\nRussia’s “Peanut Hole”\n\n\n\n\nLocation: A high seas area in the center of the Sea of Okhotsk, surrounded by Russia’s EEZ.\nSignificance:\n\nPreviously a global commons outside Russia’s jurisdiction.\nKnown as the “Peanut Hole” due to its unique shape.\n\nChallenges:\n\nOverfishing by international fleets posed threats to fish stocks.\nDifficulty in coordinating sustainable management of resources in this area.\n\nResolution:\n\nIn 2014, Russia successfully gained control of the “Peanut Hole” under UNCLOS provisions, integrating it into its EEZ."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-31-2024-1202.html#itqs-or-turfs-species-space-or-both",
+    "href": "econ-lec/econ-341-lec-31-2024-1202.html#itqs-or-turfs-species-space-or-both",
+    "title": "Lecture 31",
+    "section": "ITQs or TURFs? Species, Space, or Both?",
+    "text": "ITQs or TURFs? Species, Space, or Both?\nAdvantages and Challenges of ITQs\n\nAdvantages:\n\nPopular and species-based, fostering efficient harvesting and conservation incentives.\nAssures a sustainable total allowable catch (TAC).\n\nChallenges:\n\nEnforcement difficulties.\nExternalities:\n\nGear impacts on ecosystems.\nSpatial and cross-species externalities, which can increase under ITQs.\n\nCompetition over timing of harvest:\n\nProductive periods may increase external costs (e.g., bycatch, juvenile stock impact).\n\nCoase theorem limitation:\n\nHigh transaction costs hinder solving remaining externalities through ownership rights."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-31-2024-1202.html#itqs-or-turfs-species-space-or-both-1",
+    "href": "econ-lec/econ-341-lec-31-2024-1202.html#itqs-or-turfs-species-space-or-both-1",
+    "title": "Lecture 31",
+    "section": "ITQs or TURFs? Species, Space, or Both?",
+    "text": "ITQs or TURFs? Species, Space, or Both?\nAdvantages and Challenges of TURFs\n\nAdvantages:\n\nSolves issues of time and space management.\nProtects sensitive areas and habitats.\nFacilitates management of interspecies interactions and habitat conservation.\n\nChallenges:\n\nConflict and coordination problems within local cooperatives.\nScale mismatch: TURFs may not align with the natural range or habitat of the species being managed."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-31-2024-1202.html#itqs-or-turfs-species-space-or-both-2",
+    "href": "econ-lec/econ-341-lec-31-2024-1202.html#itqs-or-turfs-species-space-or-both-2",
+    "title": "Lecture 31",
+    "section": "ITQs or TURFs? Species, Space, or Both?",
+    "text": "ITQs or TURFs? Species, Space, or Both?\nWhen to Use ITQs or TURFs\n\n\nITQs\n\nEffective for marine fisheries.\nSuitable for large-scale, species-based management.\n\n\nTURFs\n\nAdvantageous in developing countries with weak institutional structures.\nMost appropriate for small, local populations or specific areas.\n\n\n\n\nNo one-size-fits-all solution:\n\nEach method has a niche depending on the context, species, and institutional capacity.\nCombining ITQs and TURFs may optimize fisheries management in some scenarios."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-31-2024-1202.html#marine-protected-areas-and-marine-reserves",
+    "href": "econ-lec/econ-341-lec-31-2024-1202.html#marine-protected-areas-and-marine-reserves",
+    "title": "Lecture 31",
+    "section": "Marine Protected Areas and Marine Reserves",
+    "text": "Marine Protected Areas and Marine Reserves\nMotivation: Challenges of Regulating Only Catch\n\nUnregulated factors:\n\nType of gear used and harvest locations.\n\nEnvironmental impacts:\n\nDamaging gear affects targeted species (e.g., capturing unsellable juveniles) and non-targeted species (bycatch).\nHarvesting in sensitive areas (e.g., spawning grounds) can harm sustainability."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-31-2024-1202.html#what-are-mpas-and-marine-reserves",
+    "href": "econ-lec/econ-341-lec-31-2024-1202.html#what-are-mpas-and-marine-reserves",
+    "title": "Lecture 31",
+    "section": "What Are MPAs and Marine Reserves?",
+    "text": "What Are MPAs and Marine Reserves?\n\nMarine Protected Areas (MPAs):\n\nDefined as areas reserved to protect natural and cultural resources.\nProtection levels range from minimal to full.\n\nMarine Reserves:\n\nA subset of MPAs with full protection (e.g., no harvesting, high protection from threats like pollution)."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-31-2024-1202.html#mpas-and-marine-reserves",
+    "href": "econ-lec/econ-341-lec-31-2024-1202.html#mpas-and-marine-reserves",
+    "title": "Lecture 31",
+    "section": "MPAs and Marine Reserves",
+    "text": "MPAs and Marine Reserves\nBenefits\n\nSpecies Protection: Prevent harvest within reserve boundaries.\nHabitat Preservation: Reduce damage caused by harmful fishing practices.\nEcosystem Balance: Protect pivotal species to maintain biodiversity and productivity.\nSpillover Benefits:\n\nLarger populations lead to increased catches outside reserve boundaries.\nExample: Papahānaumokuākea Marine National Monument showed spillover benefits for tuna species."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-31-2024-1202.html#mpas-and-marine-reserves-1",
+    "href": "econ-lec/econ-341-lec-31-2024-1202.html#mpas-and-marine-reserves-1",
+    "title": "Lecture 31",
+    "section": "MPAs and Marine Reserves",
+    "text": "MPAs and Marine Reserves\nChallenges\n\nShort-term Costs:\n\nHarvesters face immediate reductions in fishing areas.\nDelayed benefits impose costs (e.g., interest on loans).\n\nPolitical Opposition:\n\nHarvesters who do not perceive benefits may resist reserve proposals.\n\nPresent Value Considerations:\n\nBenefits must be large and timely enough to offset short-term costs."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-31-2024-1202.html#mpas-and-marine-reserves-2",
+    "href": "econ-lec/econ-341-lec-31-2024-1202.html#mpas-and-marine-reserves-2",
+    "title": "Lecture 31",
+    "section": "MPAs and Marine Reserves",
+    "text": "MPAs and Marine Reserves\nInternational Efforts and Innovations\n\nGlobal Initiatives:\n\nThe Convention on Biological Diversity (1992) aims to conserve 10% of marine ecoregions.\n\nEco-labeling Incentives:\n\nLink seafood certification (e.g., Marine Stewardship Council) to adjacent MPAs.\nProposal: Use “sustainability credits” to protect fish stocks and encourage sustainable practices."
+  },
+  {
+    "objectID": "econ-lec/econ-341-lec-31-2024-1202.html#commercially-valuable-fisheries-2",
+    "href": "econ-lec/econ-341-lec-31-2024-1202.html#commercially-valuable-fisheries-2",
+    "title": "Lecture 31",
+    "section": "Commercially Valuable Fisheries",
+    "text": "Commercially Valuable Fisheries\nConclusion\n\nOverfishing is a Global Issue:\n\nLeads to significant economic and ecological losses.\n\nEfficient Management is Essential:\n\nRequires appropriate policies and institutions.\n\nMarket-Based Solutions:\n\nITQs, TURFs, and catch share programs show promise.\nAlign economic incentives with conservation.\n\nInternational Cooperation:\n\nCritical for managing shared and migratory stocks.\nAgreements like the WTO’s fisheries subsidies agreement are steps forward."
   }
 ]
