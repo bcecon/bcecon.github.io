@@ -758,8 +758,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
   - Open oceans (high seas) still face overexploitation.
 
 
-## Exclusive Economic Zones (EEZs)
-### [Russia’s "Peanut Hole"]((https://www.youtube.com/shorts/UO02hTOkhnk))
+## [Russia’s "Peanut Hole"]((https://www.youtube.com/shorts/UO02hTOkhnk))
 <div style="display:block; margin:-15px;"></div>
 
 - **Location**: A high seas area in the center of the Sea of Okhotsk, surrounded by Russia's EEZ.
@@ -770,7 +769,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
   - Overfishing by international fleets posed threats to fish stocks.
   - Difficulty in coordinating sustainable management of resources in this area.
 - **Resolution**:
-  - In 2014, Russia successfully gained control of the "Peanut Hole" under UNCLOS provisions, integrating it into its EEZ.
+  - In 2014, Russia gained control of the "Peanut Hole" under UN Convention on LOS (Law of the Sea) provisions, integrating it into its EEZ.
 
 
 
