@@ -8,6 +8,9 @@ execute:
   warning: false
   message: false
 from: markdown+emoji
+
+toc: true
+toc-expand: 2
 ---
 ```{r}
 #| include: false
