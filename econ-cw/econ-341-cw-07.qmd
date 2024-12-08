@@ -32,6 +32,59 @@ theme_set(theme_minimal() +
 ```
 
 
+
+# Summary for Midterm Exam 2 Performance
+
+The following provides the descriptive statistics for each part of the Midterm Exam 2 questions:
+
+```{r}
+#| echo: false
+#| eval: true
+df <- readr::read_csv("https://bcdanl.github.io/data/fall-2024-econ-341-01-midterm-2-stat.csv")
+colnames(df) <- str_c("q", colnames(df))
+sum <- skim(df) |> 
+  select(-skim_type,-n_missing,-complete_rate)
+colnames(sum) <- str_replace_all(colnames(sum), "numeric.", "")
+
+sum <- sum |> 
+  mutate(mean = round(mean, 2),
+         sd = round(sd, 2)) |> 
+  mutate(skim_variable = 
+           str_replace_all(skim_variable, "-\\(", "\\("),
+         ) |> 
+  mutate(question = skim_variable, .after = skim_variable) |> 
+  separate(question, into = c("question", "part"), sep = "-" ) |> 
+  select(-skim_variable) |> 
+  group_by(question) |> 
+  mutate(tmp = row_number(),
+         tmp2 = min(tmp),
+         question = ifelse(tmp2 != tmp, "", question),
+         p25 = round(p25, 2)) |> 
+  select(-tmp,-tmp2) |> 
+  ungroup()
+  
+
+DT::datatable(sum, rownames = F,
+              options = list(pageLength = ncol(df)))
+```
+
+<br>
+
+- Each of multiple choice and filling-in-blanks questions accounts for 3.33 points, totaling 40 points for all such questions.
+- Each of short essay and analytical questions accounts for 12 points, totaling 60 points for all such questions.
+- The descriptive statistics for the Midterm Exam II scores are as follows:
+
+```{r}
+DT::datatable(
+  data.frame(
+    stat = c("Mean", "S.D.", "Q1", "Median", "Q3"),
+    score = c(85.61, 7.50, 79.96, 85.42, 89.94)
+  )
+)
+
+```
+
+
 # Section 1. Multiple Choice
 
 ## Question 1
