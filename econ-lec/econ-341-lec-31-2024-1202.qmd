@@ -62,6 +62,25 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 ```
 
 
+## Course Summary
+### Student Course Evaluation (SCE)
+
+:::{.nonincremental}
+- I have tried to improve your learning experience in this course.
+- I value your feedback immensely.
+- I request for your participation in the [**Student Course Evaluation (SCE)**](https://www.geneseo.edu/sce).
+
+:::
+
+<div style="display:block; margin:20px;"></div>
+
+- Take 10 minutes right now to complete the SCE.
+- On your laptop, access the SCE form for **ECON 341** as follows:
+  1. Log in to [**Knightweb**](https://my.geneseo.edu/dashboard)
+  2. Click on the "Surveys" option
+  3. Choose **ECON 341** (class for which you want to fill out the SCE) and then complete the SCE survey.
+
+
 
 # Common-Pool Resources: Commercially Valuable Fisheries  {background-color="#1c4982"}
 
@@ -840,3 +859,6 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 - **International Cooperation**:
   - Critical for managing shared and migratory stocks.
   - Agreements like the WTO's fisheries subsidies agreement are steps forward.
+
+
+
