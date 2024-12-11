@@ -323,6 +323,8 @@ S^{*} &= 1000 - N\times \frac{1000}{N+1}\\
 &= \frac{1000}{N+1}
 \end{align}
 $$
+Notice that the fish stock $S^{*}$ decreases with $N$.
+
 
 The fish stock under the scenario Q4c (the type of cooperative, community-based management solutions) will be:
 $$
