@@ -1278,7 +1278,7 @@
     "href": "index.html#bullet-homework",
     "title": "ECON 341-01: Natural Resource Economics, Fall 2024",
     "section": "\\(\\bullet\\,\\) Homework 💻",
-    "text": "\\(\\bullet\\,\\) Homework 💻\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nHomework 5\n\n\nDecember 2, 2024\n\n\n\n\nHomework 4 - Example Answer\n\n\nNovember 18, 2024\n\n\n\n\nHomework 3 - Example Answer\n\n\nNovember 17, 2024\n\n\n\n\nHomework 4\n\n\nNovember 10, 2024\n\n\n\n\nHomework 2 - Example Answer\n\n\nOctober 7, 2024\n\n\n\n\nHomework 1 - Example Answer\n\n\nOctober 2, 2024\n\n\n\n\nHomework 2\n\n\nSeptember 25, 2024\n\n\n\n\nHomework 1\n\n\nSeptember 16, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "\\(\\bullet\\,\\) Homework 💻\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nHomework 5\n\n\nDecember 11, 2024\n\n\n\n\nHomework 5\n\n\nDecember 2, 2024\n\n\n\n\nHomework 4 - Example Answer\n\n\nNovember 18, 2024\n\n\n\n\nHomework 3 - Example Answer\n\n\nNovember 17, 2024\n\n\n\n\nHomework 4\n\n\nNovember 10, 2024\n\n\n\n\nHomework 2 - Example Answer\n\n\nOctober 7, 2024\n\n\n\n\nHomework 1 - Example Answer\n\n\nOctober 2, 2024\n\n\n\n\nHomework 2\n\n\nSeptember 25, 2024\n\n\n\n\nHomework 1\n\n\nSeptember 16, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#bullet-research",
@@ -1586,7 +1586,7 @@
     "href": "listing-econ-341-hw.html",
     "title": "ECON 341 - Homework",
     "section": "",
-    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\n\n\n\nSeptember 16, 2024\n\n\n\n\nHomework 1 - Example Answer\n\n\n\n\n\nOctober 2, 2024\n\n\n\n\nHomework 2\n\n\n\n\n\nSeptember 25, 2024\n\n\n\n\nHomework 2 - Example Answer\n\n\n\n\n\nOctober 7, 2024\n\n\n\n\nHomework 3 - Example Answer\n\n\n\n\n\nNovember 17, 2024\n\n\n\n\nHomework 4\n\n\n\n\n\nNovember 10, 2024\n\n\n\n\nHomework 4 - Example Answer\n\n\n\n\n\nNovember 18, 2024\n\n\n\n\nHomework 5\n\n\n\n\n\nDecember 2, 2024\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\n\n\n\nSeptember 16, 2024\n\n\n\n\nHomework 1 - Example Answer\n\n\n\n\n\nOctober 2, 2024\n\n\n\n\nHomework 2\n\n\n\n\n\nSeptember 25, 2024\n\n\n\n\nHomework 2 - Example Answer\n\n\n\n\n\nOctober 7, 2024\n\n\n\n\nHomework 3 - Example Answer\n\n\n\n\n\nNovember 17, 2024\n\n\n\n\nHomework 4\n\n\n\n\n\nNovember 10, 2024\n\n\n\n\nHomework 4 - Example Answer\n\n\n\n\n\nNovember 18, 2024\n\n\n\n\nHomework 5\n\n\nExample Answer\n\n\nDecember 11, 2024\n\n\n\n\nHomework 5\n\n\n\n\n\nDecember 2, 2024\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "econ-rw/econ-341-rw-03.html",
@@ -8566,5 +8566,68 @@
     "title": "Lecture 31",
     "section": "Course Summary",
     "text": "Course Summary\nStudent Course Evaluation (SCE)\n\n\nI have tried to improve your learning experience in this course.\nI value your feedback immensely.\nI request for your participation in the Student Course Evaluation (SCE).\n\n\n\n\n\n\nTake 10 minutes right now to complete the SCE.\nOn your laptop, access the SCE form for ECON 341 as follows:\n\nLog in to Knightweb\nClick on the “Surveys” option\nChoose ECON 341 (class for which you want to fill out the SCE) and then complete the SCE survey."
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-05-a.html",
+    "href": "econ-hw/econ-341-hw-05-a.html",
+    "title": "Homework 5",
+    "section": "",
+    "text": "Farmer’s marginal net benefit of water use is given by: \\[\nMNB_{f} = 10 - Q_{f}\n\\]\nUrban household’s marginal net benefit of water use is: \\[\nMNB_{u} = 20 - 2Q_{u}\n\\]\nThe total water supply is \\(Q_{total} = 15\\) units for any level of price.\n\n\nFind the efficient allocation of water use.\nAnswer:\nAt the efficient allocation, the following equimarginal principle holds:\n\\[\n\\begin{align}\nMNB_{f} = 10 - Q_{f} &= 20 - 2Q_{u}  = MNB_{u}\\\\\nQ_{f} + Q_{u} &= 15 = Q_{total}\n\\end{align}\n\\]\nTherefore, \\(Q_{f}^{*} = \\frac{20}{3}\\) and \\(Q_{u}^{*} = \\frac{25}{3}\\).\n\n\n\n\n\n\n\n\nIf water supply drops to 8 units for any level of price, what will be the efficient allocation of water use?\nAnswer:\nAt the efficient allocation with \\(Q_{new\\_total} = 8\\), the following equimarginal principle holds:\n\\[\n\\begin{align}\nMNB_{f} = 10 - Q_{f} &= 20 - 2Q_{u}  = MNB_{u}\\\\\nQ_{f} + Q_{u} &= 8 = Q_{new\\_total}\n\\end{align}\n\\]\nTherefore, \\(Q_{f}^{**} = 2\\) and \\(Q_{u}^{**} = 6\\)."
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-05-a.html#q1a",
+    "href": "econ-hw/econ-341-hw-05-a.html#q1a",
+    "title": "Homework 5",
+    "section": "",
+    "text": "Find the efficient allocation of water use.\nAnswer:\nAt the efficient allocation, the following equimarginal principle holds:\n\\[\n\\begin{align}\nMNB_{f} = 10 - Q_{f} &= 20 - 2Q_{u}  = MNB_{u}\\\\\nQ_{f} + Q_{u} &= 15 = Q_{total}\n\\end{align}\n\\]\nTherefore, \\(Q_{f}^{*} = \\frac{20}{3}\\) and \\(Q_{u}^{*} = \\frac{25}{3}\\)."
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-05-a.html#q1b",
+    "href": "econ-hw/econ-341-hw-05-a.html#q1b",
+    "title": "Homework 5",
+    "section": "",
+    "text": "If water supply drops to 8 units for any level of price, what will be the efficient allocation of water use?\nAnswer:\nAt the efficient allocation with \\(Q_{new\\_total} = 8\\), the following equimarginal principle holds:\n\\[\n\\begin{align}\nMNB_{f} = 10 - Q_{f} &= 20 - 2Q_{u}  = MNB_{u}\\\\\nQ_{f} + Q_{u} &= 8 = Q_{new\\_total}\n\\end{align}\n\\]\nTherefore, \\(Q_{f}^{**} = 2\\) and \\(Q_{u}^{**} = 6\\)."
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-05-a.html#q3a",
+    "href": "econ-hw/econ-341-hw-05-a.html#q3a",
+    "title": "Homework 5",
+    "section": "Q3a",
+    "text": "Q3a\n\nCompute the population size that is compatible with the maximum sustainable yield.\nWhat would be the size of the annual catch if the population were to be sustained at this level?\n\nAnswer:\nThe maximum sustainable yield is obtained when the marginal benefit of an additional reduction in the population size is zero: \\(20P – 400 = 0\\) or \\(P = 20,000\\) tons. The maximum sustainable yield can then be calculated using the \\(g\\) equation: \\(g = 4(20) –0.1(20)2 = 40\\) tons."
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-05-a.html#q3b",
+    "href": "econ-hw/econ-341-hw-05-a.html#q3b",
+    "title": "Homework 5",
+    "section": "Q3b",
+    "text": "Q3b\nIf the marginal cost of additional catches (expressed in terms of the population size) is \\(MC = 2(160 – P)\\), what is the population size that is compatible with the efficient sustainable yield?\nAnswer:\nThe efficient sustained yield can be found by setting marginal cost equal to marginal benefit: \\(20P – 400 – 2(160 – P)\\); therefore, \\(P = 32.7\\), which is a larger population than the one that would produce the maximum sustainable yield."
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-05-a.html#q4a",
+    "href": "econ-hw/econ-341-hw-05-a.html#q4a",
+    "title": "Homework 5",
+    "section": "Q4a",
+    "text": "Q4a\n\nHow much time will fisherman \\(1\\) spend fishing per day if the government does not intervene?\n\nAnswer:\nTaking other fishermen’s harvesting decisions as given, fisherman 1 maximizes his utility: \\[\n\\begin{align}\n\\max_{a_{1}}\\,U_{1} &= a_{1}\\times S\\tag{Fisherman-1}\\\\\n&= a_{1}\\times \\left(\\, 1000 - ( a_{1} + a_{2} + \\cdots + a_{N} ) \\,\\right)\n\\end{align}\n\\]\nFirst-order condition for problem (Fisherman-1) is\n\\[\n\\begin{align}\n\\frac{dU_{1}}{da_{1}} &= S + a_{1}\\frac{dS}{da_{1}}\\\\\n&= S + a_{1}\\times(-1)\\\\\n&= 1000 - ( a_{1} + a_{2} + \\cdots + a_{N} ) - a_{1} = 0.\\tag{FOC-1}\n\\end{align}\n\\] Since all fishermen are identical, their optimal harvesting decisions are identical. Let \\(a^{*}\\) denote their optimal amount of harvesting time: \\[\na^{*} = a_{1}^{*} = a_{2}^{*} = \\cdots = a_{N}^{*}\n\\]\nEquation (FOC-1) then simplifies to:\n\\[\n\\frac{dU_{1}}{da_{1}} = 1000 - (N+1)a^{*} = 0\n\\] Therefore, fisherman \\(1\\) will spend \\(a^{*} = \\frac{1000}{N+1}\\).\nNotice that the amount of optimal harvesting time \\(a^{*}\\) decreases with \\(N\\)."
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-05-a.html#q4b",
+    "href": "econ-hw/econ-341-hw-05-a.html#q4b",
+    "title": "Homework 5",
+    "section": "Q4b",
+    "text": "Q4b\n\nHow much fishes will fisherman \\(1\\) catch?\n\nAnswer:\nAll fishermen will catch \\(U^{*}_{1} = U^{*}_{2} = \\cdots = U^{*}_{N}\\):\n\\[\n\\begin{align}\nU^{*} &= a^{*}\\times S^{*}\\\\\n&= a^{*}\\times \\left( 1000 - N\\times a^{*} \\right)\\\\\n&= \\frac{1000}{N+1} \\times \\left( 1000 - N\\times \\frac{1000}{N+1} \\right)\\\\\n&= \\frac{1000^{2}}{N+1}\\left( 1 - \\frac{N}{N+1} \\right)\\\\\n&= \\frac{1000^{2}}{N+1}\\times \\frac{1}{N+1} \\\\\n&= \\left(\\frac{1000}{N+1}\\right)^{2} \\\\\n\\end{align}\n\\]\nNotice that the amount of optimal catch \\(U^{*}\\) decreases with \\(N\\)."
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-05-a.html#q4c",
+    "href": "econ-hw/econ-341-hw-05-a.html#q4c",
+    "title": "Homework 5",
+    "section": "Q4c",
+    "text": "Q4c\n\nIf the fishermen jointly maximize the social welfare of the village, how much time each fisherman spend fishing per day and how much fishes each fisherman catch?\n\nSocial welfare is given by:\n\n\n\\[\n\\begin{align}\nSW = U_{1} + U_{2} + \\cdots + U_{N}\n\\end{align}\n\\]\nAnswer:\nIf all fishermen jointly maximize the social welfare, the amount of total catches of the Erie Lake, we solve the following problem instead: \\[\n\\begin{align}\n\\max_{a_{1}, \\cdots, a_{N}}\\,SW &= U_{1} + U_{2} + \\cdots + U_{N}\\tag{SW-max}\\\\\n&= a_{1}\\times S + a_{2}\\times S + \\cdots + a_{N}\\times S \\\\\n&= (a_{1} + a_{2} + \\cdots + a_{N})\\times S\n\\end{align}\n\\] First-order condition of \\(a_{1}\\) for problem (SW-max) is:\n\\[\n\\begin{align}\n\\frac{\\partial SW}{\\partial a_{1}} &= S + (a_{1} + a_{2} + \\cdots + a_{N})\\frac{\\partial S}{\\partial a_{1}}\\\\\n&= S + (a_{1} + a_{2} + \\cdots + a_{N})\\times(-1)\\\\\n&= 1000 - 2\\times( a_{1} + a_{2} + \\cdots + a_{N} ) = 0\\tag{SW-FOC-1}\n\\end{align}\n\\] Since all fishermen are identical, their optimal harvesting decisions are identical. Let \\(a^{o}\\) denote their optimal amount of harvesting time for the problem (SW-max): \\[\na^{o} = a_{1}^{o} = a_{2}^{o} = \\cdots = a_{N}^{o}\n\\]\nEquation (SW-FOC-1) simplifies to\n\\[\n\\frac{\\partial SW}{\\partial a_{1}} = 1000 - 2\\times N\\times a^{o} = 0\n\\]\nTherefore, each fisherman will catch \\(a^{o} = \\frac{500}{N}\\), which is less than \\(a^{*} = \\frac{1000}{N+1}\\) for any \\(N\\geq 2\\)."
+  },
+  {
+    "objectID": "econ-hw/econ-341-hw-05-a.html#q4d",
+    "href": "econ-hw/econ-341-hw-05-a.html#q4d",
+    "title": "Homework 5",
+    "section": "Q4d",
+    "text": "Q4d\n\nIf there are 1,000 fishermen in the village, how much fish stock \\(S\\) will be left in the Erie Lake after the scenarios outlined in Q4a/Q4b and in Q4c, respectively?\nProvide an intuitive explanation on how fish stocks in both scenarios are different.\nMake any policy suggestion on managing open access fishery in the village nearby the Erie Lake.\n\nAnswer:\nThe fish stock under the scenario Q4a/Q4b (Open-Access) will be: \\[\n\\begin{align}\nS^{*} &= 1000 - N\\times \\frac{1000}{N+1}\\\\\n&= 1000\\times\\left( 1 - \\frac{N}{N+1} \\right)\\\\\n&= \\frac{1000}{N+1}\n\\end{align}\n\\]\nThe fish stock under the scenario Q4c (the type of cooperative, community-based management solutions) will be: \\[\n\\begin{align}\nS^{o} &= 1000 - N\\times \\frac{500}{N}\\\\\n&= 500\n\\end{align}\n\\]\nTherefore, \\(S^{o} &gt; S^{*}\\) for any \\(N \\geq 2\\).\nPolicy Suggestions for Managing the Open-Access Fishery\nManaging an open-access fishery to avoid over-exploitation requires policies that change the incentives faced by individual fishermen. Some policy approaches include: 1. Raising the Real Cost of Fishing: - By increasing the cost of effort (for example, through stricter gear restrictions, licensing requirements, or reduced fishing times), fishermen are encouraged to fish less intensely. While this can conserve fish stocks, it may also lead to inefficiencies—fishers may invest in less efficient methods simply to comply with regulations, driving up real resource costs without fully aligning incentives toward sustainability. 2. Implementing Taxes on Effort or Catch: - A tax on fishing effort or the amount caught increases the marginal cost of harvesting each fish. When designed appropriately, such taxes can lead fishermen to reduce their fishing effort to socially optimal levels. This approach encourages fishers to adopt more efficient technologies and methods because they internalize the cost of overfishing. The revenue collected from taxes can be used to improve fishery management, invest in conservation, or compensate affected communities. 3. Reducing or Eliminating Harmful Subsidies: - Many governments subsidize inputs like fuel or gear, making it cheaper to fish and thus promoting overfishing. Removing these subsidies discourages excessive effort, helping to maintain healthier fish stocks. Without subsidies, fishermen are more likely to fish only when it is economically viable and less likely to over-exploit the resource. 4. Establishing Catch Share Programs (such as ITQs - Individual Transferable Quotas): - Allocating each fisherman or a group of fishermen a specific share of the total allowable catch transforms them from competitors into stakeholders with a vested interest in sustainability. When fishers have secure rights to a portion of the catch, they have incentives to fish at sustainable levels and invest in maintaining or improving the resource. Market-based transfers of quotas allow more efficient fishers to buy shares, leading to overall cost-effective fishing practices.\n\n\nInformal Arrangements In Q4c, the fishermen are no longer acting purely as individual profit-maximizers under open access. Instead, they coordinate their effort to achieve a social optimum, recognizing the collective nature of their fishery resource. This shift—where the community as a whole decides on and abides by rules for effort levels—mirrors the approach outlined by the lecture slide and Nobel Laureate Elinor Ostrom’s book, Governing the Commons.\nOstrom’s work demonstrated that communities can manage common-pool resources sustainably through self-imposed rules, social norms, and enforcement mechanisms without requiring top-down government intervention or privatization. Such arrangements are often referred to as community-based or co-management regimes. They rely on trust, communication, transparency, and shared decision-making to overcome the “tragedy of the commons.”\nWhile the Q4c scenario is a simplified model that does not explicitly describe the institutional details (such as rule-making bodies, monitoring, conflict resolution, or sanctioning mechanisms), the essence of the scenario—fishermen agreeing to limit their individual harvesting for the greater long-term benefit—resonates strongly with Ostrom’s insights. Thus, Q4c captures the conceptual spirit of informal, community-based management regimes advocated by Ostrom, where collective governance and shared stewardship lead to more sustainable outcomes."
   }
 ]
