@@ -244,7 +244,7 @@ Notice that the amount of optimal harvesting time $a^{*}$ decreases with $N$.
 
 **Answer**:
 
-All fishermen will catch $U^{*}_{1} = U^{*}_{2} = \cdots = U^{*}_{N}$: 
+All fishermen will catch $U^{*} = U^{*}_{1} = U^{*}_{2} = \cdots = U^{*}_{N}$: 
 
 $$
 \begin{align}

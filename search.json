@@ -8614,7 +8614,7 @@
     "href": "econ-hw/econ-341-hw-05-a.html#q4b",
     "title": "Homework 5 - Example Answer",
     "section": "Q4b",
-    "text": "Q4b\n\nHow much fishes will fisherman \\(1\\) catch?\n\nAnswer:\nAll fishermen will catch \\(U^{*}_{1} = U^{*}_{2} = \\cdots = U^{*}_{N}\\):\n\\[\n\\begin{align}\nU^{*} &= a^{*}\\times S^{*}\\\\\n&= a^{*}\\times \\left( 1000 - N\\times a^{*} \\right)\\\\\n&= \\frac{1000}{N+1} \\times \\left( 1000 - N\\times \\frac{1000}{N+1} \\right)\\\\\n&= \\frac{1000^{2}}{N+1}\\left( 1 - \\frac{N}{N+1} \\right)\\\\\n&= \\frac{1000^{2}}{N+1}\\times \\frac{1}{N+1} \\\\\n&= \\left(\\frac{1000}{N+1}\\right)^{2} \\\\\n\\end{align}\n\\]\nNotice that the amount of optimal catch \\(U^{*}\\) decreases with \\(N\\)."
+    "text": "Q4b\n\nHow much fishes will fisherman \\(1\\) catch?\n\nAnswer:\nAll fishermen will catch \\(U^{*} = U^{*}_{1} = U^{*}_{2} = \\cdots = U^{*}_{N}\\):\n\\[\n\\begin{align}\nU^{*} &= a^{*}\\times S^{*}\\\\\n&= a^{*}\\times \\left( 1000 - N\\times a^{*} \\right)\\\\\n&= \\frac{1000}{N+1} \\times \\left( 1000 - N\\times \\frac{1000}{N+1} \\right)\\\\\n&= \\frac{1000^{2}}{N+1}\\left( 1 - \\frac{N}{N+1} \\right)\\\\\n&= \\frac{1000^{2}}{N+1}\\times \\frac{1}{N+1} \\\\\n&= \\left(\\frac{1000}{N+1}\\right)^{2} \\\\\n\\end{align}\n\\]\nNotice that the amount of optimal catch \\(U^{*}\\) decreases with \\(N\\)."
   },
   {
     "objectID": "econ-hw/econ-341-hw-05-a.html#q4c",
