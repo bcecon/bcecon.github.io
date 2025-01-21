@@ -4,8 +4,8 @@ project:
   
 website:
   title: Home
-  # favicon: img/favicon.ico
-  description: 'A collection of data analytics and economics by Byeong-Hak Choe'
+  favicon: img/favicon.ico
+  description: 'A collection of economics by Byeong-Hak Choe'
   reader-mode: false
   back-to-top-navigation: true
 
@@ -14,50 +14,16 @@ website:
     logo: img/geneseo-logo-squared.png
     pinned: true
     right:
-      # - text: Causal ML
-      #   href: econml.qmd
-      - text: Research
-        href: index-home.qmd
-      - text: "DANL {{< fa external-link >}}"
+      - text: "Teaching DANL {{< fa external-link >}}"
         href: https://bcdanl.github.io
         target: _blank
-      # - icon: github
-      #   href: https://github.com/bcecon
-      #   target: _blank
+      - text: Blog
+        href: blog-listing.qmd
+      - text: " "
     
-  sidebar:
-    title: "Welcome!"
-    logo: img/geneseo-logo-squared.png
-    style: docked
-    search: false
-    # collapse-level: 0
-    # pinned: true
-    # border: true
-    # type: light
-    contents:
-      - text: <a href="./index.html"><font size ="6" ><b>Welcome! </b></font><font size ="5" color="#194493"> <i class="fa fa-sun" aria-hidden="true"></i></font></a>
-      - text: &nbsp;
-      - text: <font size ="5" ><b>- Lecture </b></font><font size ="5" color="#194493">{{< fa solid laptop >}}</font>
-        href: listing-econ-341-lec.qmd
-      - text: &nbsp;
-      - text: <font size ="5" ><b>- Q & A </b></font><font size ="5" color="#194493">{{< fa solid commenting >}}</font>
-        href: listing-econ-341-qa.qmd
-      - text: &nbsp;
-      - text: <font size ="5" ><b>- Classwork </b></font><font size ="5" color="#194493">{{< fa solid keyboard >}}</font>
-        href: listing-econ-341-cw.qmd
-      - text: &nbsp;
-      - text: <font size ="5" ><b>- Homework </b></font><font size ="5" color="#194493">{{< fa solid level-up >}}</font>
-        href: listing-econ-341-hw.qmd
-      - text: &nbsp;
-      - text: <font size ="5" ><b>- Research </b></font><font size ="5" color="#194493">{{< fa solid brain >}}</font>
-        href: listing-econ-341-rw.qmd
-      # - text: &nbsp;
-      # - text: <font size ="5" ><b>- Class Notes </b></font><font size ="5" color="#194493">{{< fa solid pencil >}}</font>
-      #   href: listing-econ-341-class.qmd
-        
   page-footer: 
     border: false
-    center: "powered with github, quarto, and rstudio<br>byeong-hak choe, 2024"
+    center: "powered with github, quarto, and rstudio<br>byeong-hak choe, 2025"
     # foreground: dark
     # background: '#9b4e55' 
 
