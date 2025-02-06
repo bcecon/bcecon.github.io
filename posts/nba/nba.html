@@ -220,7 +220,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h1>Data Loading and Preliminary Exploration</h1>
 <p>First, we loaded the NBA dataset and observed its structure. The dataset contains five columns: <code>Name</code>, <code>Team</code>, <code>Position</code>, <code>Birthday</code>, and <code>Salary</code>. This gives us a good starting point to explore various aspects of the data, such as salary distributions among teams, age distribution of players, and more.</p>
 <div class="cell" data-outputid="f20f9ec5-b974-4413-c4a6-1bd89f66237a" data-execution_count="3">
-<details>
+<details open="">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
@@ -298,7 +298,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <p>Let’s start with checking out types of variables and missing values.</p>
 <div class="cell" data-outputid="b919fbee-f10f-4904-fc72-42bc62e0541e" data-execution_count="4">
-<details>
+<details open="">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>nba.info()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
@@ -326,7 +326,7 @@ memory usage: 17.7+ KB</code></pre>
 <h1>Descriptive Statistics</h1>
 <p>Let’s take a look at the descriptive statistics.</p>
 <div class="cell" data-outputid="92e5efd2-4a4f-43e1-9aac-7b391b06e9db" data-execution_count="5">
-<details>
+<details open="">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>nba_sum <span class="op">=</span> nba.describe(include <span class="op">=</span> <span class="st">"all"</span>)</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>show(nba_sum)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -402,7 +402,7 @@ memory usage: 17.7+ KB</code></pre>
 <h2 class="anchored" data-anchor-id="salary-distribution-among-teams">Salary Distribution Among Teams</h2>
 <p>Let’s start with the salary distribution among teams using seaborn for visualization. ​​</p>
 <div class="cell" data-execution_count="6">
-<details>
+<details open="">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Handle missing values in 'Salary' by replacing them with the median salary</span></span>
@@ -411,7 +411,7 @@ memory usage: 17.7+ KB</code></pre>
 </details>
 </div>
 <div class="cell" data-outputid="74fda422-ffd0-4b71-de5b-e6e40d6b923e" data-execution_count="7">
-<details>
+<details open="">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Set the aesthetic style of the plots</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>sns.set_style(<span class="st">"whitegrid"</span>)</span>
@@ -446,7 +446,7 @@ memory usage: 17.7+ KB</code></pre>
 <h2 class="anchored" data-anchor-id="player-age-distribution">Player Age Distribution</h2>
 <p>Next, let’s explore the Player Age Distribution across the NBA. We’ll create a histogram to visualize how player ages are distributed, which will help us understand if the league trends younger, older, or has a balanced age mix. ​​</p>
 <div class="cell" data-outputid="fa8b0596-0e0c-41e7-b950-f175e88b2a46" data-execution_count="8">
-<details>
+<details open="">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert 'Birthday' column to datetime format</span></span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> dateutil <span class="im">import</span> parser</span>
@@ -477,7 +477,7 @@ memory usage: 17.7+ KB</code></pre>
 <h2 class="anchored" data-anchor-id="position-wise-salary-insights">Position-wise Salary Insights</h2>
 <p>Moving on to Position-wise Salary Insights, we’ll examine how average salaries differ across player positions. This analysis could reveal which positions are typically higher-paid, potentially reflecting their value on the basketball court. Let’s create a box plot to visualize the salary distribution for each position. ​​</p>
 <div class="cell" data-outputid="0db0d9bb-d41f-438d-f953-7fa347a05c0e" data-execution_count="9">
-<details>
+<details open="">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot salary distribution by player position</span></span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
@@ -499,7 +499,7 @@ memory usage: 17.7+ KB</code></pre>
 <h2 class="anchored" data-anchor-id="top-10-highest-paid-players">Top 10 Highest Paid Players</h2>
 <p>Lastly, we’ll identify the Top 10 Highest Paid Players in the NBA. This analysis highlights the star earners of the league, providing insights into which players command the highest salaries and potentially why. Let’s extract and visualize this information. ​​</p>
 <div class="cell" data-outputid="a416e2ec-4d8e-4e85-b58e-2a1b743d0d35" data-execution_count="10">
-<details>
+<details open="">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Identify the top 10 highest paid players</span></span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>top_10_salaries <span class="op">=</span> nba.sort_values(by<span class="op">=</span><span class="st">'Salary'</span>, ascending<span class="op">=</span><span class="va">False</span>).head(<span class="dv">10</span>)</span>

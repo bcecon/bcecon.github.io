@@ -236,7 +236,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="the-cast-of-the-galaxy-loading-and-inspecting-the-data">The Cast of the Galaxy: Loading and Inspecting the Data</h2>
 <p>Our journey begins with the basics—loading the dataset and getting a sense of its structure:</p>
 <div class="cell">
-<details>
+<details open="">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -286,7 +286,7 @@ function scrollTable(offset) {
 <li><p><code>homeworld</code> Name of homeworld</p></li>
 </ul>
 <div class="cell">
-<details>
+<details open="">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">skim</span>(starwars_data) <span class="sc">|&gt;</span> </span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>n_missing)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -507,7 +507,7 @@ function scrollTable(offset) {
 <section id="species-in-the-spotlight" class="level3">
 <h3 class="anchored" data-anchor-id="species-in-the-spotlight">Species in the Spotlight</h3>
 <div class="cell">
-<details>
+<details open="">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Species distribution</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>starwars_data <span class="sc">|&gt;</span></span>
@@ -532,7 +532,7 @@ function scrollTable(offset) {
 <section id="gender-dynamics-across-the-galaxy" class="level3">
 <h3 class="anchored" data-anchor-id="gender-dynamics-across-the-galaxy">Gender Dynamics Across the Galaxy</h3>
 <div class="cell">
-<details>
+<details open="">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Gender distribution by species</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>starwars_data <span class="sc">|&gt;</span></span>
@@ -560,7 +560,7 @@ function scrollTable(offset) {
 <h3 class="anchored" data-anchor-id="the-height-of-heroism-analyzing-character-heights">The Height of Heroism: Analyzing Character Heights</h3>
 <p>Moving from demographics, we explore physical characteristics, starting with character heights. This analysis could reveal whether heroes and villains differ significantly in stature.</p>
 <div class="cell">
-<details>
+<details open="">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Height distribution</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>starwars_data <span class="sc">|&gt;</span></span>
@@ -583,7 +583,7 @@ function scrollTable(offset) {
 <h3 class="anchored" data-anchor-id="allegiances-and-homeworlds-the-galactic-divide">Allegiances and Homeworlds: The Galactic Divide</h3>
 <p>Another compelling aspect of the Star Wars saga is the clear delineation between factions, such as the Rebellion and the Empire. Analyzing characters’ homeworld provides a window into the narrative’s structure.</p>
 <div class="cell">
-<details>
+<details open="">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># homeworld distribution</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>starwars_data <span class="sc">|&gt;</span></span>
