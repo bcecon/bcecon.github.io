@@ -1,0 +1,52 @@
+---
+title: "Aligning Faculty Activities with UN Sustainable Development Goals"
+subtitle: "Faculty Input Survey"
+date: last-modified
+from: markdown+emoji
+
+# format:
+#   html:
+#     css: custom.css
+
+comments: false
+code-fold: false
+
+execute: 
+  warning: false
+  message: false
+  fig-width: 9
+  fig-height: 7
+  fig-align: center
+  eval: false
+---
+```{r}
+#| include: false
+
+library(tidyverse)
+library(skimr)
+library(DT)
+library(hrbrthemes)
+
+theme_set(theme_ipsum() +
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = element_text(size = rel(1.5)),
+                axis.title.y = element_text(size = rel(1.5)),
+                legend.title = element_text(size=rel(1.25))
+                ))
+```
+
+The Positive Societal Impact (PSI) Committee is conducting a survey to identify how our faculty's teaching, research, and service activities align with the School of Business's focus on the following United Nations **Sustainable Development Goals (SDGs)**. To learn more about each goal, click the links below:
+
+1. [**Quality Education (Goal 4)**](https://www.globalgoals.org/goals/4-quality-education/): Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.
+2. [**Decent Work and Economic Growth (Goal 8)**](https://www.globalgoals.org/goals/8-decent-work-and-economic-growth/): Promote sustained, inclusive, and sustainable economic growth, full and productive employment, and decent work for all.
+3. [**Reduced Inequality (Goal 10)**](https://www.globalgoals.org/goals/10-reduced-inequalities/): Reduce inequality within and among countries.
+
+We invite you to participate by providing detailed descriptions of your teaching, research, and service activities that support each of these SDGs. Where applicable, please include relevant courses, projects, service roles, publications, or other academic contributions. If an SDG does not relate to your current work, feel free to leave that section blank or note **"Not Applicable" (NA)**.
+
+A <u>confirmation email</u> will be sent to the email address that you provide on this survey once your submission is received.
+
+```{=html}
+<iframe id="contentFrame" width="100%" height="1500px" frameborder="no" 
+  src="psi-un-goals-survey-revised.html" style="overflow: hidden;">
+</iframe>
+```
