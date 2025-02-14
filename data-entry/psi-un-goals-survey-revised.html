@@ -22,7 +22,7 @@
       <!-- Teaching -->
       <div style="flex: 1; margin-right: 10px;">
         <textarea
-          class="textarea"
+          class="textarea short-textarea"
           style="width: calc(100% - 5px);"
           placeholder="First name"
           name="first-name"
@@ -31,7 +31,7 @@
       <!-- Research -->
       <div style="flex: 1; margin-left: 10px; margin-right: 10px;">
         <textarea
-          class="textarea"
+          class="textarea short-textarea"
           style="width: calc(100% - 5px);"
           placeholder="Last name"
           name="last-name"
@@ -40,7 +40,7 @@
       <!-- Service -->
       <div style="flex: 1; margin-left: 10px;">
         <textarea
-          class="textarea"
+          class="textarea short-textarea"
           style="width: calc(100% - 5px);"
           placeholder="Email"
           name="email"
@@ -199,7 +199,7 @@
 
         // Send a POST request to your Google Apps Script
         fetch(
-            "https://script.google.com/macros/s/AKfycbymm3mwl1-AbKGWZMWvWUfAZB_Oed6ep0Um5JREGNM9Mjf-nu1x13jUsbqlwlZR6lrZ/exec",
+            "https://script.google.com/macros/s/AKfycbxgVQ3ZrkgkQm0HAJe-REYtMMht03Et9C-5CCt54Q7vM7ncv3oLz4eeRdOKz2Akk1VB/exec",
             {
                 redirect: "follow",
                 method: "POST",
@@ -378,10 +378,16 @@ document.getElementById("form").addEventListener("submit", function (e) {
 <link rel="stylesheet" href="../styles.css">
 <link rel="stylesheet" href="../assets/css/font.css">
 <style>
-  .textarea {
-    width: 300px;
-    height: 100px;
-  }
+    /* LARGE textareas by default */
+    .textarea {
+      width: 300px;  
+      height: 250px; /* 200px for other fields */
+    }
+    /* OVERRIDE for smaller textareas (First Name, Last Name, Email) */
+    .short-textarea {
+      height: 50px !important; /* adjust as needed */
+      min-height: 50px !important; /* This is crucial, because Bulma sets min-height. */
+    }
 </style>
 
 </html>
