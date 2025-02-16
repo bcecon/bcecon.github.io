@@ -43,10 +43,10 @@ The Positive Societal Impact (PSI) Committee invites you to share how your teach
 
 Please provide descriptions of how your work aligns with these SDGs, including relevant courses, projects, service roles, publications, or other academic contributions. If an SDG does not pertain to your current work, simply leave that section blank or indicate **"Not Applicable" (NA)**.
 
-The survey is due by February 28, 2025. A <u>confirmation email</u> will be sent to the email address that you provide upon submission.
+The survey is due by **February 28, 2025**. A <u>confirmation email</u> will be sent to the email address that you provide upon submission.
 
 ```{=html}
-<iframe id="contentFrame" width="100%" height="1600px" frameborder="no" 
-  src="psi-un-goals-survey-revised.html" style="overflow: hidden;">
+<iframe id="contentFrame" width="100%" height="1600px" frameborder="0" scrolling="no"
+  src="psi-un-goals-survey-revised.html" style="overflow-y: hidden;">
 </iframe>
 ```
