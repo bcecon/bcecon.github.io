@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="bulma.css"
+    />
+  </head>
+  
+  <form id="form" class="container m-2 pl-2" action="submit.php" method="POST">
+    <br>
+  <div style="display:block; margin:-50px;"></div>
+    <section>
+      <div>
+        <br><br>
+        <h1 style="color: #1c4982; font-size: 30px; font-weight: bold">Name and Email</h1>
+      </div>
+    </section>
+
+<div class="field">
+  <div class="control">
+    <div style="display: flex; justify-content: space-between;">
+      <!-- Teaching -->
+      <div style="flex: 1; margin-right: 10px;">
+        <textarea
+          class="textarea short-textarea"
+          style="width: calc(100% - 5px);"
+          placeholder="First name"
+          name="First Name"
+        ></textarea>
+      </div>
+      <!-- Research -->
+      <div style="flex: 1; margin-left: 10px; margin-right: 10px;">
+        <textarea
+          class="textarea short-textarea"
+          style="width: calc(100% - 5px);"
+          placeholder="Last name"
+          name="Last Name"
+        ></textarea>
+      </div>
+      <!-- Service -->
+      <div style="flex: 1; margin-left: 10px;">
+        <textarea
+          class="textarea short-textarea"
+          style="width: calc(100% - 5px);"
+          placeholder="Email"
+          name="Email"
+        ></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+    <div style="display:block; margin:50px;"></div>
+
+    <section>
+      <div>
+        <h1 style="color: #1c4982; font-size: 30px; font-weight: bold">UN Sustainability Goals</h1>
+        <div style="display:block; margin:10px;"></div>
+      </div>
+    </section>
+    
+    <div style="display:block; margin:-50px;"></div>
+
+
+<!-- Goal 4 -->
+<br><br><div class="field">
+  <label class="label">
+    <span style="color: #1c4982; font-size: 22px">1. Quality Education</span><br>
+    Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.
+  </label>
+  <div class="control">
+    <div style="display: flex; justify-content: space-between;">
+      <!-- Teaching -->
+      <div style="flex: 1; margin-right: 10px;">
+        <textarea
+          class="textarea"
+          style="width: calc(100% - 5px);"
+          placeholder="Your teaching"
+          name="Quality Education - Teaching"
+        ></textarea>
+      </div>
+      <!-- Research -->
+      <div style="flex: 1; margin-left: 10px; margin-right: 10px;">
+        <textarea
+          class="textarea"
+          style="width: calc(100% - 5px);"
+          placeholder="Your research"
+          name="Quality Education - Research"
+        ></textarea>
+      </div>
+      <!-- Service -->
+      <div style="flex: 1; margin-left: 10px;">
+        <textarea
+          class="textarea"
+          style="width: calc(100% - 5px);"
+          placeholder="Your service"
+          name="Quality Education - Service"
+        ></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Goal 8 -->
+<br><br><div class="field">
+  <label class="label">
+    <span style="color: #1c4982; font-size: 22px">2. Decent Work and Economic Growth</span><br>
+    Promote sustained, inclusive, and sustainable economic growth, full and productive employment, and decent work for all.
+  </label>
+  <div class="control">
+    <div style="display: flex; justify-content: space-between;">
+      <!-- Teaching -->
+      <div style="flex: 1; margin-right: 10px;">
+        <textarea class="textarea" style="width: calc(100% - 5px);" placeholder="Your teaching" name="Decent Work and Economic Growth - Taching"></textarea>
+      </div>
+      <!-- Research -->
+      <div style="flex: 1; margin-left: 10px; margin-right: 10px;">
+        <textarea class="textarea" style="width: calc(100% - 5px);" placeholder="Your research" name="Decent Work and Economic Growth - Research"></textarea>
+      </div>
+      <!-- Service -->
+      <div style="flex: 1; margin-left: 10px;">
+        <textarea class="textarea" style="width: calc(100% - 5px);" placeholder="Your service" name="Decent Work and Economic Growth - Service"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Goal 10 -->
+<br><br><div class="field">
+  <label class="label">
+    <span style="color: #1c4982; font-size: 22px">3. Reduced Inequality</span><br>
+    Reduce inequality within and among countries.
+  </label>
+  <div class="control">
+    <div style="display: flex; justify-content: space-between;">
+      <!-- Teaching -->
+      <div style="flex: 1; margin-right: 10px;">
+        <textarea class="textarea" style="width: calc(100% - 5px);" placeholder="Your teaching" name="Reduced Inequality - Teaching"></textarea>
+      </div>
+      <!-- Research -->
+      <div style="flex: 1; margin-left: 10px; margin-right: 10px;">
+        <textarea class="textarea" style="width: calc(100% - 5px);" placeholder="Your research" name="Reduced Inequality - Research"></textarea>
+      </div>
+      <!-- Service -->
+      <div style="flex: 1; margin-left: 10px;">
+        <textarea class="textarea" style="width: calc(100% - 5px);" placeholder="Your service" name="Reduced Inequality - Service"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      <br><div class="field is-grouped">
+        <div class="control">
+          <button class="button is-primary" type="submit" id="submit-button">
+            Submit
+          </button>
+        </div>
+        <div class="control">
+          <button class="button is-danger">Cancel</button>
+        </div>
+      </div>
+      
+    </form>
+    <div
+      id="message"
+      style="
+        display: none;
+        margin: 18px;
+        font-weight: bold;
+        color: green;
+        padding: 8px;
+        background-color: beige;
+        border-radius: 4px;
+        border-color: aquamarine;
+      "
+    ></div>
+    
+
+<script>
+    const form = document.getElementById('form');
+    const messageElement = document.getElementById('message');
+    const submitButton = document.getElementById('submit-button');
+
+    form.addEventListener("submit", function (e) {
+        e.preventDefault(); // Prevent the default form submission
+        messageElement.textContent = "Submitting..";
+        messageElement.style.display = "block";
+        submitButton.disabled = true;
+
+        // Collect the form data
+        var formData = new FormData(this);
+        var keyValuePairs = [];
+        for (var pair of formData.entries()) {
+            keyValuePairs.push(pair[0] + "=" + encodeURIComponent(pair[1]));
+        }
+
+        var formDataString = keyValuePairs.join("&");
+
+        // Send a POST request to your Google Apps Script
+        fetch(
+            "https://script.google.com/macros/s/AKfycbzhwEwSptcu0ogatRrulg2_PzhNyM4Uhsqmg5CNQ2e_G7Tw8MqHyGWTwEl5t_4YSc7a/exec",
+            {
+                redirect: "follow",
+                method: "POST",
+                body: formDataString,
+                headers: {
+                    "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
+                },
+            }
+        )
+        .then(function (response) {
+            // Check if the request was successful
+            if (response.ok) {
+                return response.json(); // Assuming your script returns JSON response
+            } else {
+                throw new Error("Failed to submit the form.");
+            }
+        })
+        .then(function (data) {
+            // Display a success message
+            messageElement.textContent = "Data submitted successfully!";
+            messageElement.style.display = "block";
+            messageElement.style.backgroundColor = "green";
+            messageElement.style.color = "beige";
+            submitButton.disabled = false;
+            form.reset();
+
+            setTimeout(function () {
+                messageElement.textContent = "";
+                messageElement.style.display = "none";
+            }, 2600);
+        })
+        .catch(function (error) {
+            // Handle errors, display an error message
+            console.error(error);
+            messageElement.textContent = "An error occurred while submitting the form.";
+            messageElement.style.display = "block";
+            messageElement.style.backgroundColor = "red";
+            messageElement.style.color = "white";
+            submitButton.disabled = false;
+        });
+    });
+</script>
+
+
+</html>
