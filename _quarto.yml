@@ -14,7 +14,7 @@ website:
     logo: img/geneseo-logo-squared.png
     pinned: true
     right:
-      - text: "Teaching DANL {{< fa external-link >}}"
+      - text: "Teaching {{< fa external-link >}}"
         href: https://bcdanl.github.io
         target: _blank
       - text: Blog

@@ -7,14 +7,14 @@ about:
   image: img/bchoe-github.png
   image-width: 12.5em
   links: 
-    - icon: linkedin
-      href: https://www.linkedin.com/in/byeonghakchoe/
-      target: _blank
-    - text: "{{< fa brands x-twitter >}}"
-      href: https://twitter.com/climate_econ
-      target: _blank
+    # - text: "{{< fa brands x-twitter >}}"
+    #   href: https://twitter.com/climate_econ
+    #   target: _blank
     - icon: github
       href: https://github.com/bcecon
+      target: _blank
+    - icon: linkedin
+      href: https://www.linkedin.com/in/byeonghakchoe/
       target: _blank
     - text: CV
       href: https://bcecon.github.io/choe-cv.pdf
@@ -38,7 +38,7 @@ css: front.css
 
 I am an **assistant professor of data analytics and economics** at School of Business at SUNY Geneseo.
 
-My research interests lie in **economics of the environment and climate change**.
+I am particularly interested in the **economic aspects of environmental issues and climate change**.
 
 <!-- My teaching interests are in **economics and data science**. My students use the tools of machine learning, econometrics, and data visualization to address **business strategies**, **public policy**, and **individual decision-making**. -->
 
