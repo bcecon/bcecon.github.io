@@ -9,9 +9,12 @@ Welcome to ECON 340! 👋
 
 In our first week together, we will walk through the syllabus so you will know what to expect from the course—what you will learn, how the class is structured, and how you will be assessed. We will also set the stage for the semester by introducing some of the key tools and ideas in environmental economics, and by refreshing a few microeconomics concepts that will be especially useful as we move forward.
 
-## 📓 Syllabus and Survey
+## 📓 Syllabus
 
 - Please read the [syllabus](../syllabus.html){target="_blank"}
+
+## ❓ Survey
+
 - Please take the anonymous [survey on environmental economics](../survey.html){target="_blank"}
 
 ## 🏫 Lecture Slides 
