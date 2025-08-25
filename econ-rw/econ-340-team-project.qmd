@@ -41,11 +41,9 @@ scale_colour_discrete <- function(...) scale_color_colorblind(...)
 scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 ```
 
-
-
 Climate change is a defining global challenge with direct impacts on individuals, communities, and societies. This project invites you to explore the theme *“Climate Change and the Individual”* through research, analysis, and critical reflection.
 
-Project topics should focus on individual and societal responses such as **climate actions, advocacy, awareness, and outreach**. For further inspiration, consider the *problems and possibilities* identified in the 2025–26 Common Read.
+Project topics should focus on individual and societal responses such as **climate actions, advocacy, awareness, and outreach**. For further inspiration, consider the [*problems and possibilities*](https://www.getitright.earth/problems-possibilities) identified in the 2025–26 Common Read.
 
 ## Team Formation and Scope
 - Each project team will consist of **three students**.  
