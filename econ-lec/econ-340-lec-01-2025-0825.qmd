@@ -133,9 +133,9 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 - Email: [bchoe@geneseo.edu](bchoe@geneseo.edu)
 
 
-- Class Homepage: 
-  i. [https://mylearning.suny.edu/d2l/home/1513939](https://mylearning.suny.edu/d2l/home/1513939){target="_blank"}
-  i. [http://bcecon.github.io/](http://bcecon.github.io/){target="_blank"}
+- Class Websites: 
+  1 [GitHub Course Website](http://bcecon.github.io/){target="_blank"}
+  2 [Brightspace Course Shell](https://mylearning.suny.edu/d2l/home/2152120){target="_blank"}
   
   
 - Office: South Hall 227B
@@ -393,7 +393,7 @@ DT::datatable(text_tbl, rownames = FALSE,
   - Week 13 (Nov 17–21): **Homework 4, Quiz 2, & Midterm Exam 2**
   - Week 15 (Dec 1–5): **Team Presentations**
   - Week 16 (Dec 8-12): **Homework 5**
-  - Week 16 (December 10, Wednesday, 8:30 P.M.-10:30 P.M.) : **Final Exam**
+  - Week 16 (December 10, Wednesday, 8:30 P.M.-10:30 P.M.): **Final Exam**
   - Week 17 (December 16, Tuesday, 11:59 P.M.): **Project Proposal**
 
 
@@ -418,10 +418,10 @@ $$
 ## Syllabus
 ### Grading - Attendance & Homework
 
-- You are allowed up to **4 absences** without penalty. 
+- You are allowed up to **6 absences** without penalty. 
   - Send me an email if you have standard excused reasons (illness, family emergency, transportation problems, etc.).
 
-- For each absence beyond the initial six, there will be a deduction of 1% from the Total Percentage Grade.
+- For each absence beyond the initial six, there will be a deduction of 1% point from the Total Percentage Grade.
 
 - The single lowest homework score will be dropped when calculating the total homework score. 
   - Each homework except for the homework with the lowest score accounts for 25% of the total homework score.
