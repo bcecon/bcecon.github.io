@@ -1,247 +1,849 @@
 [
   {
-    "objectID": "cv/cv.html",
-    "href": "cv/cv.html",
-    "title": "Bio",
+    "objectID": "econ-wk/wk-01.html",
+    "href": "econ-wk/wk-01.html",
+    "title": "Week 1",
     "section": "",
-    "text": "I view myself as an applied economist with interest in environmental economics and a particular focus on climate change. Methodologically, I make use of causal inference/econometrics/machine learning methods, and other data science tools to conduct empirical analysis. I also use computational methods to solve integrated assessment models of climate change and theoretical economic models, such as dynamic contracts.\nMy research focuses on how to improve effectiveness of climate policy at both micro and macro levels. In particular, I am interested in building relevant climate-economy models that analyze the interaction between economies and the climate under risks arising from (1) climate change and (2) a transition to carbon-neutral economies.\nAs an economics and data science teacher, my goal is to equip students with the essential tools of machine learning, econometrics, and data science to think critically about business and real-world socioeconomic issues. In this regard, I teach students to use those tools to address important business strategies, socioeconomic issues, and individual decision-making."
+    "text": "Welcome to ECON 340! 👋\nIn our first week together, we will walk through the syllabus so you will know what to expect from the course—what you will learn, how the class is structured, and how you will be assessed. We will also set the stage for the semester by introducing some of the key tools and ideas in environmental economics, and by refreshing a few microeconomics concepts that will be especially useful as we move forward."
   },
   {
-    "objectID": "cv/cv.html#working-papers",
-    "href": "cv/cv.html#working-papers",
-    "title": "Bio",
-    "section": "Working papers",
-    "text": "Working papers\n\n\n\n\n\n\n\n\nGovernance and Climate Finance in the Developing World (with Tilsa Ore-Monago) (Forthcoming in Springer Nature)\n Abstract : We investigate the relationship between governance and climate finance, particularly in the context of the energy transition in developing countries. Our aim is to examine how governance qualities in developing countries impact financial contributions from contributor countries that intend to fund mitigation projects in the energy sector. We have compiled a dataset of yearly climate finance contributions at the project level spanning from 2011 to 2019. Our analysis, which utilizes random forests and LASSO estimations, reveals that climate finance contributions, particularly those for energy-related projects, are significantly linked to good governance, including a robust legal system, rule of law, and accountability. Ultimately, this study provides valuable insights into the dynamics between governance and climate finance in developing countries and informs policy decisions to support effective climate action in the energy sector. (One of the chapters in the book, \"Climate Finance: Supporting a Sustainable Energy Transition,\" Springer Nature. 2024).\n\n\nSocial Media Campaigns, Lobbying and Legislation: Evidence from #climatechange/#globalwarming and Energy Lobbies\n Abstract : To what extent do social media campaigns compete with fossil fuel lobbying on climate change legislation? In this article, I estimate the effect of social media campaigns on a congressperson's legislative activities against climate change actions during the U.S. Congresses (January 2013-January 2019). I find that (1) a 1% increase in the per-capita level of activities of climate change campaigns using Twitter decreases Democrats' tendency to support climate-unfriendly legislation by 0.9%, while it increases Republicans' one by 0.2%; and (2) a 1% increase in the fossil fuel industry's lobbying expenditure relative to the rest of industries' lobbying expenditure increases Republicans' tendency to support climate-unfriendly legislation by 1.1%. I also find that negative sentiment in social media campaigns contributes to affecting congresspersons' support for climate-unfriendly legislation.\n\n\nClimate Finance under Conflicts and Renegotiations: A Dynamic Contract Approach (AEA 2019 poster) \n Abstract : Considering climate funds (e.g. the Green Climate Fund) as the financial mechanism to provide funding to developing countries, this paper examines a long-term climate funding relationship between two agents---the rich country and the poor country. Conflicts between the rich and poor countries arise when determining 1) the size of climate funding that the rich country contributes to the poor country, and 2) the funding allocation between climate adaptation and mitigation projects in the poor country. In addition, the rich country cannot be forced to commit contractual contributions to the poor country, and the climate funding relationship can be repeatedly renegotiated. This paper derives the following results: (1) climate funds converge to the first-best in the long-run, in terms of the size of climate funding and its balance between adaptation and mitigation projects, if and only if climate damage becomes sufficiently severe. (2) funding allocation between adaptation and mitigation projects becomes more favorable to the poor country if marginal climate costs in the poor country grow faster than in the rich country. (3) fewer conflicts and fewer renegotiations between the rich and poor countries make climate funding contracts more efficient, remedying inequality between the poor and rich countries."
+    "objectID": "econ-wk/wk-01.html#lecture-slides",
+    "href": "econ-wk/wk-01.html#lecture-slides",
+    "title": "Week 1",
+    "section": "🏫 Lecture Slides",
+    "text": "🏫 Lecture Slides\n\nLecture 1\nEither click on the slide area below or click here to view it in fullscreen.\n\n\n\n\n🎥 Looking for lecture recordings? You can only find those on Brightspace."
   },
   {
-    "objectID": "cv/cv.html#work-in-progress",
-    "href": "cv/cv.html#work-in-progress",
-    "title": "Bio",
-    "section": "Work in progress",
-    "text": "Work in progress\n\n\n\n\n\n\n\n\nHiding Behind a Small Cake' in an Online Dictator Game: The Way You Hide Matters!, (with Tabare Capitan (1st author) , Jason Shogren, and Benjamin White) \n Abstract : Using an online dictator game in which receivers have incomplete information of the size of the endowment (big or small), the article, ''Hiding behind a small cake' in a newspaper dictator game (Ockenfels and Werner (2012))'' shows that a few givers who received the big endowment use their giving to signal they received the small endowment (i.e., to lie). In other words, even though a giver will never meet the corresponding receiver, he cares enough about how he could be perceived by others to lie (i.e., second-order beliefs enters his utility function). In our experiment we provide givers with the opportunity to lie about the size of the endowment without using their giving. Similar to Ockenfels and Werner (2012) we find that (i) few take the opportunity to lie---but those who do give less when their giving is not constrained by its role as a signal---and (ii) givers are more likely to lie when the lie is private. However, using a second stage in the experimental design, we show that liars are the most responsive group of givers to a simple message stating the expectation of the receiver."
+    "objectID": "econ-wk/wk-01.html#classwork",
+    "href": "econ-wk/wk-01.html#classwork",
+    "title": "Week 1",
+    "section": "✍️ Classwork",
+    "text": "✍️ Classwork\n🚧 Come back after the lecture to read the coursework instructions for the week 🚧"
   },
   {
-    "objectID": "cv/cv.html#presentations",
-    "href": "cv/cv.html#presentations",
-    "title": "Bio",
-    "section": "Presentations",
-    "text": "Presentations\n\n\n\n\n\n2023\nSouthern Economic Association Annual Meeting, New Orleans, Louisiana\n\n\n2022\nInterdisciplinary Data Science Workshop, Brigham Young University, Provo, Utah\n\n\n2021\nOnline Seminar, Department of Environmental and Business Economics, University of Southern Denmark\n\n\n2019\nUniversity of Wyoming & Colorado State University Economics Graduate Student Symposium, Laramie, Wyoming\n\n\n2019\nAmerican Economic Association Annual Meeting (poster session), Atlanta, Georgia\n\n\n2018\nThe 29th International Conference on Game Theory, Stony Brook, New York"
+    "objectID": "econ-wk/wk-01.html#recommended-reading",
+    "href": "econ-wk/wk-01.html#recommended-reading",
+    "title": "Week 1",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\n\nCheck the end of slides for the list of references cited in the lecture."
   },
   {
-    "objectID": "cv/cv.html#memberships",
-    "href": "cv/cv.html#memberships",
-    "title": "Bio",
-    "section": "Memberships",
-    "text": "Memberships\n\n\n\n\n\n2022—present\nSouthern Economic Association\n\n\n2018—present\nAssociation of Environmental and Resource Economists\n\n\n2017—present\nAmerican Economic Association\n\n\n2017—2019\nEconometric Society"
+    "objectID": "econ-wk/wk-01.html#discussion",
+    "href": "econ-wk/wk-01.html#discussion",
+    "title": "Week 1",
+    "section": "💬 Discussion",
+    "text": "💬 Discussion\nWelcome to our Week 1 Discussion Board! 👋 \nThis space is designed for you to engage with your classmates about the material covered in Week 1.\nWhether you are looking to delve deeper into the content, share insights, or have questions about the content, this is the perfect place for you.\nIf you have any specific questions for Byeong-Hak (@bcecon) or peer classmate (@GitHub-Username) regarding the Week 1 materials or need clarification on any points, don’t hesitate to ask here.\nLet’s collaborate and learn from each other!"
   },
   {
-    "objectID": "blog-listing.html",
-    "href": "blog-listing.html",
-    "title": "Big & tiny insights through data",
+    "objectID": "listing-econ-340-hw.html",
+    "href": "listing-econ-340-hw.html",
+    "title": "ECON 340 - Homework",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nNBA\n\n3 min\n\n\nByeong-Hak Choe\n\n\nFebruary 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n1 min\n\n\nByeong-Hak Choe\n\n\nFebruary 7, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nExploring the Galaxy: A Data-Driven Journey Through the Star Wars Universe\n\n8 min\n\n\nByeong-Hak Choe\n\n\nFebruary 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeer Markets\n\n5 min\n\n\nByeong-Hak Choe\n\n\nNovember 2, 2023\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n1 min\n\n\nByeong-Hak Choe\n\n\nOctober 27, 2023\n\n\n\n\n\n\nNo matching items\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
-    "objectID": "data-entry/psi-survey.html",
-    "href": "data-entry/psi-survey.html",
-    "title": "Aligning Faculty Activities with UN Sustainable Development Goals",
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
     "section": "",
-    "text": "The Positive Societal Impact Committee is seeking faculty input to help identify which UN Sustainable Development Goals (SDGs) the School of Business should prioritize. To ensure that our focus aligns with the teaching, research, and service activities of our faculty, we invite you to participate in this survey.\nPlease provide detailed descriptions of your teaching, research, and service activities that correspond with each of the United Nations’ 17 Sustainable Development Goals (SDGs). For each SDG, please indicate any relevant courses, projects, service roles, publications, or other academic efforts. If a particular SDG does not directly relate to your current work, feel free to leave that section blank or note “Not Applicable” (NA).\nFor more information about each of the goals, you can visit the United Nations website: SDGs: 17 Goals to Transform Our World.\nA confirmation email will be sent to the email address that you provide on this survey once your submission is received.\n\n\n\n\n\n Back to top"
+    "text": "Instructor: Byeong-Hak Choe\nEmail: bchoe@geneseo.edu\nPhone: (585) 245-5425\nClass Websites:\n\nGitHub Course Website\nBrightspace Course Shell\n\nOffice: South Hall 227B\nOffice Hours:\n\nMondays and Wednesdays 3:30 P.M. – 5:00 P.M.\nBy appointment via email"
   },
   {
-    "objectID": "posts/starwars/starwars_df.html",
-    "href": "posts/starwars/starwars_df.html",
-    "title": "Exploring the Galaxy: A Data-Driven Journey Through the Star Wars Universe",
+    "objectID": "syllabus.html#expectations-for-the-proposal",
+    "href": "syllabus.html#expectations-for-the-proposal",
+    "title": "Syllabus",
+    "section": "Expectations for the Proposal",
+    "text": "Expectations for the Proposal\nYour team’s proposal should critically examine a climate change issue by:\n1. Explaining the central dilemma facing society.\n2. Identifying the key questions that must be addressed to develop solutions, while acknowledging the trade-offs between objectives.\n3. Presenting appropriate evidence to analyze the competing interests involved.\n4. Formulating policy recommendations that logically follow from your analysis."
+  },
+  {
+    "objectID": "syllabus.html#evaluation-criteria",
+    "href": "syllabus.html#evaluation-criteria",
+    "title": "Syllabus",
+    "section": "Evaluation Criteria",
+    "text": "Evaluation Criteria\nTeam project will be evaluated on:\n1. Quality of the research question\n2. Quality of the oral presentation\n3. Strength of the economic analysis\n4. Quality of the modeling analysis\n5. Peer evaluation of other students’ presentations\nNote: Any change in team membership or research topic requires approval from Byeong-Hak Choe."
+  },
+  {
+    "objectID": "syllabus.html#additional-opportunity",
+    "href": "syllabus.html#additional-opportunity",
+    "title": "Syllabus",
+    "section": "Additional Opportunity",
+    "text": "Additional Opportunity\nYour team is encouraged to participate in the campus-wide Ideas that Matter Student Challenge in Spring 2026, aligned with the 2025–26 theme Climate Change and the Individual."
+  },
+  {
+    "objectID": "listing-econ-340-cw.html",
+    "href": "listing-econ-340-cw.html",
+    "title": "ECON 340 - Classwork",
     "section": "",
-    "text": "The Star Wars saga, spanning decades of films, series, and an expansive lore, has introduced us to an incredibly diverse array of characters, each contributing to the rich tapestry of its universe. But what can data tell us about these characters and their world? Leveraging the starwars.csv dataset, this blog post embarks on a data-driven exploration, uncovering insights and patterns through the lens of the R tidyverse."
-  },
-  {
-    "objectID": "posts/starwars/starwars_df.html#the-cast-of-the-galaxy-loading-and-inspecting-the-data",
-    "href": "posts/starwars/starwars_df.html#the-cast-of-the-galaxy-loading-and-inspecting-the-data",
-    "title": "Exploring the Galaxy: A Data-Driven Journey Through the Star Wars Universe",
-    "section": "The Cast of the Galaxy: Loading and Inspecting the Data",
-    "text": "The Cast of the Galaxy: Loading and Inspecting the Data\nOur journey begins with the basics—loading the dataset and getting a sense of its structure:\n\n\nCode\nlibrary(tidyverse)\n\n# Load the dataset\nstarwars_data &lt;- read_csv(\"https://bcdanl.github.io/data/starwars.csv\")\n\n\nWith the data loaded, we find that it encompasses various attributes of Star Wars characters, including but not limited to their names, species, heights, weights, and allegiances. The diversity in species and homeworld paves the way for intriguing analyses.\n\n← →\n\n\n\n\n\n\n\n\n\n\n\n\nVariable Description for starwars data.frame\nThe following describes the variables in the starwars data.frame.\n\nfilms List of films the character appeared in\nname Name of the character\nspecies Name of species\nheight Height (cm)\nmass Weight (kg)\nhair_color, skin_color, eye_color Hair, skin, and eye colors\nbirth_year Year born (BBY = Before Battle of Yavin)\nsex The biological sex of the character, namely male, female, hermaphroditic, or none (as in the case for Droids).\ngender The gender role or gender identity of the character as determined by their personality or the way they were programmed (as in the case for Droids).\nhomeworld Name of homeworld\n\n\n\nCode\nskim(starwars_data) |&gt; \n  select(-n_missing)\n\n\n\nData summary\n\n\nName\nstarwars_data\n\n\nNumber of rows\n173\n\n\nNumber of columns\n12\n\n\n_______________________\n\n\n\nColumn type frequency:\n\n\n\ncharacter\n9\n\n\nnumeric\n3\n\n\n________________________\n\n\n\nGroup variables\nNone\n\n\n\nVariable type: character\n\n\n\nskim_variable\ncomplete_rate\nmin\nmax\nempty\nn_unique\nwhitespace\n\n\n\n\nfilms\n1.00\n10\n23\n0\n7\n0\n\n\nname\n1.00\n3\n21\n0\n87\n0\n\n\nspecies\n0.97\n3\n14\n0\n37\n0\n\n\nhair_color\n0.90\n4\n13\n0\n12\n0\n\n\nskin_color\n1.00\n3\n19\n0\n31\n0\n\n\neye_color\n1.00\n3\n13\n0\n15\n0\n\n\nsex\n0.97\n4\n14\n0\n4\n0\n\n\ngender\n0.97\n8\n9\n0\n2\n0\n\n\nhomeworld\n0.91\n4\n14\n0\n48\n0\n\n\n\nVariable type: numeric\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\ncomplete_rate\nmean\nsd\np0\np25\np50\np75\np100\nhist\n\n\n\n\nheight\n0.97\n171.31\n35.58\n66\n167\n178\n188\n264\n▂▁▇▅▁\n\n\nmass\n0.79\n101.97\n190.62\n15\n55\n77\n84\n1358\n▇▁▁▁▁\n\n\nbirth_year\n0.66\n108.86\n193.59\n8\n33\n52\n82\n896\n▇▁▁▁▁"
-  },
-  {
-    "objectID": "posts/starwars/starwars_df.html#unveiling-galactic-demographics-species-and-gender",
-    "href": "posts/starwars/starwars_df.html#unveiling-galactic-demographics-species-and-gender",
-    "title": "Exploring the Galaxy: A Data-Driven Journey Through the Star Wars Universe",
-    "section": "Unveiling Galactic Demographics: Species and Gender",
-    "text": "Unveiling Galactic Demographics: Species and Gender\nOur first foray into the galaxy’s demographics involves understanding the distribution of species and gender among the characters.\n\nSpecies in the Spotlight\n\n\nCode\n# Species distribution\nstarwars_data |&gt;\n  filter(!is.na(species)) |&gt; \n  group_by(species) |&gt;\n  summarise(count = n()) |&gt;\n  ggplot(aes(x = reorder(species, count), y = count, fill = species)) +\n  geom_col(show.legend = F) +\n  coord_flip() +\n  labs(title = \"Species Distribution in Star Wars\",\n       x = \"Species\",\n       y = \"Count\") +\n  theme_minimal() +\n  scale_fill_viridis_d()\n\n\n\n\n\nThis visualization reveals the prevalence of humans in the Star Wars universe, followed by a fascinating variety of alien species. Each species brings its unique culture and story to the narrative, enriching the saga’s diversity.\n\n\nGender Dynamics Across the Galaxy\n\n\nCode\n# Gender distribution by species\nstarwars_data |&gt;\n  filter(!is.na(gender)) |&gt; \n  group_by(species, gender) |&gt;\n  summarise(count = n()) |&gt;\n  ggplot(aes(y = reorder(species, count), x = count, fill = gender)) +\n  geom_bar(stat = \"identity\", position = position_dodge2(preserve = \"single\")) +\n  guides(fill = guide_legend(label.position = \"bottom\",\n                             keywidth = 2,\n                             nrow = 1)) +\n  theme_minimal() +\n  labs(title = \"Gender Distribution by Species\",\n       x = \"Species\",\n       y = \"Count\",\n       fill = \"Gender\") +\n  theme(legend.position = \"top\")\n\n\n\n\n\n\n\nThe Height of Heroism: Analyzing Character Heights\nMoving from demographics, we explore physical characteristics, starting with character heights. This analysis could reveal whether heroes and villains differ significantly in stature.\n\n\nCode\n# Height distribution\nstarwars_data |&gt;\n  filter(!is.na(height)) |&gt;\n  ggplot(aes(x = height)) +\n  geom_histogram(aes(fill = ..count..), binwidth = 5, show.legend = F) +\n  scale_fill_viridis_c() +\n  labs(title = \"Height Distribution of Star Wars Characters\",\n       x = \"Height (cm)\",\n       y = \"Count\") +\n  theme_minimal()\n\n\n\n\n\nThe histogram of character heights may show a broad range, reflecting the diversity of the Star Wars universe, from towering Wookiees to diminutive droids.\n\n\nAllegiances and Homeworlds: The Galactic Divide\nAnother compelling aspect of the Star Wars saga is the clear delineation between factions, such as the Rebellion and the Empire. Analyzing characters’ homeworld provides a window into the narrative’s structure.\n\n\nCode\n# homeworld distribution\nstarwars_data |&gt;\n  filter(!is.na(homeworld)) |&gt; \n  group_by(homeworld) |&gt;\n  summarise(count = n()) |&gt;\n  filter(count &gt; 3) |&gt; \n  ggplot(aes(x = fct_reorder(homeworld, count), y = count, fill = homeworld)) +\n  geom_col(show.legend = F) +\n  coord_flip() +\n  labs(title = \"Homeworlds in Star Wars\",\n       x = \"Homeworld\",\n       y = \"Count\") +\n  theme_minimal() +\n  scale_fill_brewer(palette = \"Set3\")\n\n\n\n\n\nThis bar chart reveals not just the quantity of characters associated with major factions like the Rebel Alliance, the Galactic Empire, the Jedi Order, or the Sith, but also the lesser-known groups that play crucial roles in the galaxy’s balance of power. The visualization demonstrates the narrative’s rich backdrop, where allegiances define character motivations, actions, and, ultimately, their fates.\nSuch a distribution also prompts us to consider the narratives from a broader perspective—how do these allegiances influence the storyline? Do characters within the same faction share similar traits or destinies? This opens up a deeper analysis of themes like loyalty, betrayal, and redemption that run through the Star Wars saga."
-  },
-  {
-    "objectID": "posts/starwars/starwars_df.html#galactic-insights-conclusions-drawn-from-the-data",
-    "href": "posts/starwars/starwars_df.html#galactic-insights-conclusions-drawn-from-the-data",
-    "title": "Exploring the Galaxy: A Data-Driven Journey Through the Star Wars Universe",
-    "section": "Galactic Insights: Conclusions Drawn from the Data",
-    "text": "Galactic Insights: Conclusions Drawn from the Data\nOur journey through the Star Wars universe, guided by data, reveals not just the diversity and complexity of its characters but also the intricate web of relationships, conflicts, and themes that make the saga enduringly compelling. From the demographics of species and gender to the allegiances that define the galaxy’s political landscape, and the mystical underpinnings of the Force, our analysis has uncovered patterns and raised questions that deepen our appreciation of the Star Wars narrative.\nThis exploration also highlights the power of data visualization in uncovering insights and telling stories. Each chart and graph has provided a different lens through which to view the data, offering a new understanding of the Star Wars universe.\n\nThe Future of Galactic Analysis\nWhile we’ve only scratched the surface of what’s possible with the starwars.csv dataset, the potential for further analysis is vast. Future explorations could delve into relationships between characters, the impact of different directors and writers on the portrayal of characters, or how the Star Wars universe has evolved over time.\nAs we conclude this data-driven journey, we’re reminded of the depth and breadth of the Star Wars saga—a testament to its creators and the community that keeps it alive. Whether through data analysis, storytelling, or simply enjoying the saga, the exploration of this galaxy far, far away continues to offer endless possibilities for discovery and insight."
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "psi-sdg.html",
-    "href": "psi-sdg.html",
-    "title": "Aligning Faculty Activities with UN Sustainable Development Goals",
-    "section": "",
-    "text": "The Positive Societal Impact (PSI) Committee invites you to share how your teaching, research, and service activities support the School of Business’s commitment to key United Nations Sustainable Development Goals (SDGs). Your insights are essential in helping us enhance our collective impact. To learn more about each goal, please click the links below:\n\nQuality Education (Goal 4): Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.\nDecent Work and Economic Growth (Goal 8): Promote sustained, inclusive, and sustainable economic growth, full and productive employment, and decent work for all.\nReduced Inequality (Goal 10): Reduce inequality within and among countries.\n\nPlease provide descriptions of how your work aligns with these SDGs, including relevant courses, projects, service roles, publications, or other academic contributions. If an SDG does not pertain to your current work, simply leave that section blank or indicate “Not Applicable” (NA).\nThe survey is due by February 28, 2025. A confirmation email will be sent to the email address that you provide upon submission.\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "posts/nba/nba.html#salary-distribution-among-teams",
-    "href": "posts/nba/nba.html#salary-distribution-among-teams",
-    "title": "NBA",
-    "section": "Salary Distribution Among Teams",
-    "text": "Salary Distribution Among Teams\nLet’s start with the salary distribution among teams using seaborn for visualization. ​​\n\n\nCode\n\n# Handle missing values in 'Salary' by replacing them with the median salary\nmedian_salary = nba['Salary'].median()\nnba['Salary'].fillna(median_salary, inplace=True)\n\n\n\n\nCode\n# Set the aesthetic style of the plots\nsns.set_style(\"whitegrid\")\n\n# Calculate total salary by team\nteam_salary = (\n    nba\n    .groupby('Team')['Salary']\n    .sum()\n    .reset_index()\n    .sort_values(by='Salary', ascending=False)\n)\n\n# Plot total salary by team\nplt.figure(figsize=(10, 8))\nsns.barplot(data = team_salary,\n            x = 'Salary', y = 'Team',\n            palette = 'coolwarm')\nplt.title('Total Salary Distribution Among NBA Teams')\nplt.xlabel('Total Salary')\nplt.ylabel('Team')\nplt.xticks(rotation=45)\nplt.show()\n\n\n\n\n\nThe visualization above displays the total salary distribution among NBA teams, with teams sorted by their total salary expenditure. This bar plot reveals which teams are the biggest spenders on player salaries and which are more conservative. The color gradient provides a visual cue to easily distinguish between the higher and lower spending teams."
-  },
-  {
-    "objectID": "posts/nba/nba.html#player-age-distribution",
-    "href": "posts/nba/nba.html#player-age-distribution",
-    "title": "NBA",
-    "section": "Player Age Distribution",
-    "text": "Player Age Distribution\nNext, let’s explore the Player Age Distribution across the NBA. We’ll create a histogram to visualize how player ages are distributed, which will help us understand if the league trends younger, older, or has a balanced age mix. ​​\n\n\nCode\n# Convert 'Birthday' column to datetime format\nfrom dateutil import parser\nnba['Birthday'] = nba['Birthday'].apply(lambda x: parser.parse(x))\n\n# Now, let's calculate the age of each player\nnba['Age'] = (datetime.now() - nba['Birthday']).dt.days // 365\n\n# Plot the age distribution of NBA players\nplt.figure(figsize=(10, 6))\nsns.histplot(nba['Age'],\n             bins = 15,\n             kde = True,\n             color = 'skyblue')\nplt.title('Age Distribution of NBA Players')\nplt.xlabel('Age')\nplt.ylabel('Count')\nplt.show()\n\n\n\n\n\n\nThe histogram above shows the age distribution of NBA players, with a kernel density estimate (KDE) overlay to indicate the distribution shape. The majority of players fall within a certain age range, illustrating the league’s age dynamics. The plot helps identify the common ages for NBA players and whether there are significant numbers of very young or older players."
-  },
-  {
-    "objectID": "posts/nba/nba.html#position-wise-salary-insights",
-    "href": "posts/nba/nba.html#position-wise-salary-insights",
-    "title": "NBA",
-    "section": "Position-wise Salary Insights",
-    "text": "Position-wise Salary Insights\nMoving on to Position-wise Salary Insights, we’ll examine how average salaries differ across player positions. This analysis could reveal which positions are typically higher-paid, potentially reflecting their value on the basketball court. Let’s create a box plot to visualize the salary distribution for each position. ​​\n\n\nCode\n# Plot salary distribution by player position\nplt.figure(figsize=(10, 6))\nsns.boxplot(data = nba,\n            x = 'Position', y = 'Salary',\n            palette = 'Set2')\nplt.title('Salary Distribution by Position')\nplt.xlabel('Position')\nplt.ylabel('Salary')\nplt.show()\n\n\n\n\n\nThe box plot above illustrates the salary distribution by player position, showcasing the variation in salaries among different positions within the NBA. This visualization helps us understand which positions tend to have higher median salaries and the spread of salaries within each position, including outliers that represent exceptionally high or low salaries."
-  },
-  {
-    "objectID": "posts/nba/nba.html#top-10-highest-paid-players",
-    "href": "posts/nba/nba.html#top-10-highest-paid-players",
-    "title": "NBA",
-    "section": "Top 10 Highest Paid Players",
-    "text": "Top 10 Highest Paid Players\nLastly, we’ll identify the Top 10 Highest Paid Players in the NBA. This analysis highlights the star earners of the league, providing insights into which players command the highest salaries and potentially why. Let’s extract and visualize this information. ​​\n\n\nCode\n# Identify the top 10 highest paid players\ntop_10_salaries = nba.sort_values(by='Salary', ascending=False).head(10)\n\n# Plot the top 10 highest paid players\nplt.figure(figsize=(12, 8))\nsns.barplot(data = top_10_salaries,\n            x = 'Salary', y = 'Name',\n            palette = 'viridis')\nplt.title('Top 10 Highest Paid NBA Players')\nplt.xlabel('Salary')\nplt.ylabel('Player')\nplt.show()\n\n\n\n\n\nThe bar plot above reveals the top 10 highest-paid NBA players, showcasing those who stand at the pinnacle of the league in terms of salary. This visualization not only highlights the star players who command the highest salaries but also may reflect their marketability, performance, and contribution to their respective teams."
-  },
-  {
-    "objectID": "posts/py-basic/blog-python-basics.html",
-    "href": "posts/py-basic/blog-python-basics.html",
-    "title": "Python Basics",
-    "section": "",
-    "text": "Python is a high-level, interpreted programming language. This is a simple Python code:\n\n\nCode\nprint('Hello, World!')\n\n\n\n\n\nIn Python, variables can store data of different types without explicitly declaring the type.\nFor example:\n\n\nCode\ninteger_variable = 10\nstring_variable = 'Hello'\nfloat_variable = 10.5\n\nfloat_variable\n\n\n10.5\n\n\n\n\n\nPython supports the usual logical conditions from mathematics:\n\n\nCode\n# Equals: a == b\n# Not Equals: a != b\n# Less than: a &lt; b\n# Less than or equal to: a &lt;= b\n# Greater than: a &gt; b\n# Greater than or equal to: a &gt;= b\n\n\nThese conditions can be used in several ways, most commonly in ‘if statements’ and loops.\n\n\nCode\n# if statement:\nif 5 &gt; 2:\n    print('Five is greater than two!')\n\n\n\n\n\nA function is a block of code which only runs when it is called.\nYou can pass data, known as parameters, into a function.\nA function can return data as a result.\n\n\nCode\n# Defining a function:\ndef my_function():\n    print('Hello from a function')\n\n# Calling a function:\nmy_function()\n\n\n\n\n\nA list is a collection which is ordered and changeable.\nA dictionary is a collection which is unordered, changeable and indexed.\n\n\nCode\n# List example:\nmy_list = ['apple', 'banana', 'cherry']\n\n# Dictionary example:\nmy_dict = {'name': 'John', 'age': 36}"
-  },
-  {
-    "objectID": "posts/py-basic/blog-python-basics.html#what-is-python",
-    "href": "posts/py-basic/blog-python-basics.html#what-is-python",
-    "title": "Python Basics",
-    "section": "",
-    "text": "Python is a high-level, interpreted programming language. This is a simple Python code:\n\n\nCode\nprint('Hello, World!')"
-  },
-  {
-    "objectID": "posts/py-basic/blog-python-basics.html#variables-and-data-types",
-    "href": "posts/py-basic/blog-python-basics.html#variables-and-data-types",
-    "title": "Python Basics",
-    "section": "",
-    "text": "In Python, variables can store data of different types without explicitly declaring the type.\nFor example:\n\n\nCode\ninteger_variable = 10\nstring_variable = 'Hello'\nfloat_variable = 10.5\n\nfloat_variable\n\n\n10.5"
-  },
-  {
-    "objectID": "posts/py-basic/blog-python-basics.html#control-structures",
-    "href": "posts/py-basic/blog-python-basics.html#control-structures",
-    "title": "Python Basics",
-    "section": "",
-    "text": "Python supports the usual logical conditions from mathematics:\n\n\nCode\n# Equals: a == b\n# Not Equals: a != b\n# Less than: a &lt; b\n# Less than or equal to: a &lt;= b\n# Greater than: a &gt; b\n# Greater than or equal to: a &gt;= b\n\n\nThese conditions can be used in several ways, most commonly in ‘if statements’ and loops.\n\n\nCode\n# if statement:\nif 5 &gt; 2:\n    print('Five is greater than two!')"
-  },
-  {
-    "objectID": "posts/py-basic/blog-python-basics.html#functions",
-    "href": "posts/py-basic/blog-python-basics.html#functions",
-    "title": "Python Basics",
-    "section": "",
-    "text": "A function is a block of code which only runs when it is called.\nYou can pass data, known as parameters, into a function.\nA function can return data as a result.\n\n\nCode\n# Defining a function:\ndef my_function():\n    print('Hello from a function')\n\n# Calling a function:\nmy_function()"
-  },
-  {
-    "objectID": "posts/py-basic/blog-python-basics.html#lists-and-dictionaries",
-    "href": "posts/py-basic/blog-python-basics.html#lists-and-dictionaries",
-    "title": "Python Basics",
-    "section": "",
-    "text": "A list is a collection which is ordered and changeable.\nA dictionary is a collection which is unordered, changeable and indexed.\n\n\nCode\n# List example:\nmy_list = ['apple', 'banana', 'cherry']\n\n# Dictionary example:\nmy_dict = {'name': 'John', 'age': 36}"
-  },
-  {
-    "objectID": "posts/beer-markets/beer-markets.html",
-    "href": "posts/beer-markets/beer-markets.html",
-    "title": "Beer Markets",
-    "section": "",
-    "text": "Diving into the complex world of what people like in their beer, the beer_markets.csv dataset comes across as a goldmine of data, showing us the detailed interactions between buyers and their favorite beers. This dataset covers everything from how much and at what price people are buying beer to how deals and brand loyalty influence their decisions, across different types of people and places. As we start digging into this dataset, we aim to uncover the patterns that show what really influences the modern beer drinker’s choices, offering up valuable insights for marketers, industry watchers, and beer lovers. By breaking down the data, our exploration will shine a light on the factors that drive consumer behavior in the beer market, giving us a full picture of the trends that shape this lively industry.\nCode\n# Creating an interactive table\n!pip install itables\nfrom itables import init_notebook_mode\nfrom itables import show\nCode\nimport pandas as pd\nimport numpy as np\nimport matplotlib.pyplot as plt\nimport seaborn as sns\n# Reading the CSV file\nbeer_data = pd.read_csv(\"https://bcdanl.github.io/data/beer_markets.csv\")\nshow(beer_data)\n\n\n\n\n\n\n\n    \n      \n      hh\n      _purchase_desc\n      quantity\n      brand\n      dollar_spent\n      beer_floz\n      price_per_floz\n      container\n      promo\n      market\n      buyertype\n      income\n      childrenUnder6\n      children6to17\n      age\n      employment\n      degree\n      cow\n      race\n      microwave\n      dishwasher\n      tvcable\n      singlefamilyhome\n      npeople\n    \n  Loading... (need help?)\nCode\n# Setting up the visualization settings\nsns.set(style=\"whitegrid\")\n\n# Calculate total quantity and spending for each brand\nbrand_summary = beer_data.groupby('brand').agg({'quantity':'sum', 'dollar_spent':'sum'}).reset_index()\n\n# Sort by total quantity and spending\nbrand_summary_sorted_quantity = brand_summary.sort_values('quantity', ascending=False)\nbrand_summary_sorted_spent = brand_summary.sort_values('dollar_spent', ascending=False)\nCode\n# Plotting total quantity for each brand\nplt.figure(figsize=(10, 8))\nsns.barplot(x='quantity', y='brand', data=brand_summary_sorted_quantity, palette='viridis')\nplt.title('Total Quantity of Beer Purchased by Brand')\nplt.xlabel('Total Quantity')\nplt.ylabel('Brand')\nplt.show()\nThe bar charts above display the total quantity of beer purchased and the total spending by brand. From the looks of it, certain brands dominate in terms of quantity sold and total spending, indicating their popularity.\nNow, let’s calculate the average quantity purchased and average spending per purchase. For this, we’ll consider each row in the dataset as a separate purchase and compute the averages accordingly.\nCode\n# Calculate average quantity purchased and average spending per purchase\naverage_purchase = beer_data.groupby('brand').agg({\n    'quantity': 'mean',\n    'dollar_spent': 'mean'\n}).reset_index()\n\n# Sort by average quantity and average spending\naverage_purchase_sorted_quantity = average_purchase.sort_values('quantity', ascending=False)\naverage_purchase_sorted_spent = average_purchase.sort_values('dollar_spent', ascending=False)\n\n# Plotting average quantity for each brand\nplt.figure(figsize=(10, 8))\nsns.barplot(x='quantity', y='brand', data=average_purchase_sorted_quantity, palette='viridis')\nplt.title('Average Quantity of Beer Purchased by Brand')\nplt.xlabel('Average Quantity')\nplt.ylabel('Brand')\nplt.show()\nThe visualizations above depict the average quantity of beer purchased per brand and the average spending per brand. This shows which brands tend to be bought in larger quantities on average and which brands tend to have higher spending per purchase, which could be indicative of their price point or the purchase of premium products.\nNext, we’ll look at the total spending across different markets to see if there are any notable differences in spending habits geographically. To do this, we’ll sum up the spending in each market and visualize it.\nCode\n# Calculate total spending in each market\nmarket_spending_summary = beer_data.groupby('market').agg({'dollar_spent':'sum'}).reset_index()\n\n# Sort by total spending\nmarket_spending_summary_sorted = market_spending_summary.sort_values('dollar_spent', ascending=False)\n\n# Plotting total spending in each market\nplt.figure(figsize=(12, 18))\nsns.barplot(x='dollar_spent', y='market', data=market_spending_summary_sorted, palette='viridis')\nplt.title('Total Spending on Beer by Market')\nplt.xlabel('Total Spending')\nplt.ylabel('Market')\nplt.show()\nThe bar chart illustrates the total spending on beer by market, showcasing the differences in spending habits across various regions. Some markets have significantly higher spending, which could be due to a variety of factors including market size, consumer preferences, or economic factors.\nNow, let’s move on to the second analysis:"
-  },
-  {
-    "objectID": "posts/beer-markets/beer-markets.html#demographic-analysis",
-    "href": "posts/beer-markets/beer-markets.html#demographic-analysis",
-    "title": "Beer Markets",
-    "section": "Demographic Analysis",
-    "text": "Demographic Analysis\nWe will examine which demographics are buying what kind of beer and whether spending habits vary by demographics such as age, employment, and race. For this, we could look at:\n\nSpending by age group\nSpending by employment status\nSpending by race\n\nI’ll start by analyzing spending by age group.\n\n\nCode\n# Calculate total spending by age group\nage_group_spending = beer_data.groupby('age').agg({'dollar_spent':'sum'}).reset_index()\n\n# Sort by total spending\nage_group_spending_sorted = age_group_spending.sort_values('dollar_spent', ascending=False)\n\n# Plotting total spending by age group\nplt.figure(figsize=(10, 6))\nsns.barplot(x='dollar_spent', y='age', data=age_group_spending_sorted, palette='viridis')\nplt.title('Total Spending on Beer by Age Group')\nplt.xlabel('Total Spending')\nplt.ylabel('Age Group')\nplt.show()\n\n\n\n\n\nThe bar chart demonstrates the total spending on beer segmented by age group, highlighting which age groups spend the most on beer. It appears that certain age groups are more dominant in beer spending, which may align with the purchasing power or preferences of those groups.\nNext, we will examine spending by employment status.\n\n\nCode\n# Calculate total spending by employment status\nemployment_spending = beer_data.groupby('employment').agg({'dollar_spent':'sum'}).reset_index()\n\n# Sort by total spending\nemployment_spending_sorted = employment_spending.sort_values('dollar_spent', ascending=False)\n\n# Plotting total spending by employment status\nplt.figure(figsize=(10, 6))\nsns.barplot(x='dollar_spent', y='employment', data=employment_spending_sorted, palette='viridis')\nplt.title('Total Spending on Beer by Employment Status')\nplt.xlabel('Total Spending')\nplt.ylabel('Employment Status')\nplt.show()\n\n\n\n\n\nThe visualization shows the total spending on beer by employment status. We can see that certain employment groups, such as full-time workers, are spending more on beer, which might be related to their disposable income.\nFinally, let’s look at spending by race to complete the demographic analysis.\n\n\nCode\n# Calculate total spending by race\nrace_spending = beer_data.groupby('race').agg({'dollar_spent':'sum'}).reset_index()\n\n# Sort by total spending\nrace_spending_sorted = race_spending.sort_values('dollar_spent', ascending=False)\n\n# Plotting total spending by race\nplt.figure(figsize=(10, 6))\nsns.barplot(x='dollar_spent', y='race', data=race_spending_sorted, palette='viridis')\nplt.title('Total Spending on Beer by Race')\nplt.xlabel('Total Spending')\nplt.ylabel('Race')\nplt.show()\n\n\n\n\n\nThe bar chart above indicates the total spending on beer broken down by race, highlighting which racial groups account for the most beer spending within the dataset. This could reflect both the demographics of the regions where the data was collected and cultural preferences regarding beer.\nNow, let’s proceed to the third analysis:"
-  },
-  {
-    "objectID": "posts/beer-markets/beer-markets.html#price-sensitivity",
-    "href": "posts/beer-markets/beer-markets.html#price-sensitivity",
-    "title": "Beer Markets",
-    "section": "Price Sensitivity",
-    "text": "Price Sensitivity\nWe’ll look at the price per fluid ounce and see if there are any trends or correlations with the quantity purchased or the brand popularity. To do this, we’ll visualize how the price is sensitive to the quantity purchased by brand.\n\n\nCode\n# Ensure there's no entries with 0 for 'price_per_floz' or 'quantity' to avoid log(0) issues\nfiltered_data = beer_data[(beer_data['price_per_floz'] &gt; 0) & (beer_data['quantity'] &gt; 0)]\n\n# Calculate log values for both 'price_per_floz' and 'quantity'\nfiltered_data['log_price_per_floz'] = np.log(filtered_data['price_per_floz'])\nfiltered_data['log_quantity'] = np.log(filtered_data['quantity'])\n\n# Use seaborn to create a scatterplot with fitted lines, facetted by 'brand'\ng = sns.lmplot(data=filtered_data, x='log_quantity', y='log_price_per_floz', col='brand', col_wrap=4, height=3, line_kws={'color': 'red'}, scatter_kws={'alpha':0.5}, aspect = .75)\n\n# Adjusting plot aesthetics\ng.set_titles(\"{col_name}\")\ng.set_axis_labels(\"Log of Quantity\", \"Log of Price per Floz\")\nplt.subplots_adjust(top=0.9)\ng.fig.suptitle('Log of Price per Floz vs. Log of Quantity')\n\nplt.show()\n\n\n\n\n\nHere’s the scatterplot with fitted straight lines for the log of price_per_floz versus the log of quantity, facetted by brands. Each subplot represents a different brand, showing the relationship between these two logarithmic variables along with a fitted line to illustrate the trend within each brand’s data.\n\n\nCode\n# Adjust the facetting to split rows by 'brand' and columns by 'promo' for a more detailed comparative analysis\ng = sns.lmplot(data=filtered_data, x='log_quantity', y='log_price_per_floz', row='brand', col='promo', height=3, aspect=.75, line_kws={'color': 'red'}, scatter_kws={'alpha':0.5})\n\n# Adjusting plot aesthetics\ng.set_titles(\"Brand: {row_name}\\n Promo: {col_name}\")\ng.set_axis_labels(\"Log of Quantity\", \"Log of Price per Floz\")\nplt.subplots_adjust(top=0.9, wspace = .4, hspace = .4)\ng.fig.suptitle('Log of Price per Floz vs. Log of Quantity')\n\nplt.show()\n\n\n\n\n\nThe scatterplot has been reorganized to split rows by brand and columns by promo status, offering a comprehensive view across different brands and their promotional status. Each subplot now provides a clear comparison of the log of price_per_floz versus the log of quantity for purchases made on promotion versus those that were not, across various beer brands.\nThis layout facilitates an easier comparison across brands and how promotion impacts the relationship between quantity and price per fluid ounce within each brand.\nLastly, let’s move to the fourth analysis:"
-  },
-  {
-    "objectID": "posts/beer-markets/beer-markets.html#promotional-impact-on-quantity-purchased",
-    "href": "posts/beer-markets/beer-markets.html#promotional-impact-on-quantity-purchased",
-    "title": "Beer Markets",
-    "section": "Promotional Impact on Quantity Purchased",
-    "text": "Promotional Impact on Quantity Purchased\nWe’ll assess the impact of promotions on the quantity of beer purchased. For this analysis, we can calculate the average quantity purchased with and without promotions and visualize the difference. We’ll do this for each brand to see which brands are most affected by promotions.\nLet’s begin this analysis by looking at the average quantity purchased with and without promotions for each brand.\n\n\nCode\n# Calculate average quantity purchased with and without promotions for each brand\npromo_impact = beer_data.groupby(['brand', 'promo']).agg({'quantity':'mean'}).reset_index()\n\n# Pivot the data to have promo and non-promo side by side for each brand\npromo_impact_pivot = promo_impact.pivot(index='brand', columns='promo', values='quantity').reset_index()\npromo_impact_pivot.columns = ['brand', 'non_promo', 'promo']\n\n# Calculate the difference in average quantity purchased between promo and non-promo\npromo_impact_pivot['promo_impact'] = promo_impact_pivot['promo'] - promo_impact_pivot['non_promo']\n\n# Sort by the impact of promo\npromo_impact_pivot_sorted = promo_impact_pivot.sort_values('promo_impact', ascending=False)\n\n# Plotting the difference in average quantity purchased between promo and non-promo for each brand\nplt.figure(figsize=(12, 10))\nsns.barplot(x='promo_impact', y='brand', data=promo_impact_pivot_sorted, palette='viridis')\nplt.title('Impact of Promotions on Average Quantity Purchased by Brand')\nplt.xlabel('Difference in Average Quantity Purchased (Promo - Non-Promo)')\nplt.ylabel('Brand')\nplt.show()\n\n\n\n\n\nThe bar chart illustrates the impact of promotions on the average quantity of beer purchased by brand. A positive value indicates that, on average, more beer is purchased when there is a promotion compared to when there isn’t. Some brands appear to be significantly more influenced by promotions, with customers buying more when the products are on sale or promotion.\nThis comprehensive analysis has provided insights into purchase patterns, demographic preferences, price sensitivity, and the impact of promotions on beer purchases."
-  },
-  {
-    "objectID": "data-entry/psi-survey-revised.html",
-    "href": "data-entry/psi-survey-revised.html",
-    "title": "Aligning Faculty Activities with UN Sustainable Development Goals",
-    "section": "",
-    "text": "The Positive Societal Impact (PSI) Committee is conducting a survey to identify how our faculty’s teaching, research, and service activities align with the School of Business’s focus on the following United Nations Sustainable Development Goals (SDGs). To learn more about each goal, click the links below:\n\nQuality Education (Goal 4): Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.\nDecent Work and Economic Growth (Goal 8): Promote sustained, inclusive, and sustainable economic growth, full and productive employment, and decent work for all.\nReduced Inequality (Goal 10): Reduce inequality within and among countries.\n\nWe invite you to participate by providing detailed descriptions of your teaching, research, and service activities that support each of these SDGs. Where applicable, please include relevant courses, projects, service roles, publications, or other academic contributions. If an SDG does not relate to your current work, feel free to leave that section blank or note “Not Applicable” (NA).\nA confirmation email will be sent to the email address that you provide on this survey once your submission is received.\n\n\n\n\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Byeong-Hak Choe",
+    "title": "ECON 340-01: Environmental Economics, Fall 2025",
+    "section": "",
+    "text": "Welcome! 👋\n\\(-\\) Explore, Learn, and Grow with Data Analytics! 🌟"
+  },
+  {
+    "objectID": "index.html#bullet-lecture",
+    "href": "index.html#bullet-lecture",
+    "title": "ECON 340-01: Environmental Economics, Fall 2025",
+    "section": "\\(\\bullet\\,\\) 🚀 Lecture",
+    "text": "\\(\\bullet\\,\\) 🚀 Lecture\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 1\n\n\nSyllabus and Course Outline\n\n\nAugust 25, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#bullet-classwork",
+    "href": "index.html#bullet-classwork",
+    "title": "ECON 340-01: Environmental Economics, Fall 2025",
+    "section": "\\(\\bullet\\,\\) ⌨️ Classwork",
+    "text": "\\(\\bullet\\,\\) ⌨️ Classwork\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#bullet-homework",
+    "href": "index.html#bullet-homework",
+    "title": "ECON 340-01: Environmental Economics, Fall 2025",
+    "section": "\\(\\bullet\\,\\) 💻 Homework",
+    "text": "\\(\\bullet\\,\\) 💻 Homework\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "listing-econ-340-wk.html",
+    "href": "listing-econ-340-wk.html",
+    "title": "Weeks",
+    "section": "",
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "econ-rw/econ-340-team-project.html",
+    "href": "econ-rw/econ-340-team-project.html",
+    "title": "Climate Change and the Individual",
+    "section": "",
+    "text": "Climate change is a defining global challenge with direct impacts on individuals, communities, and societies. This project invites you to explore the theme “Climate Change and the Individual” through research, analysis, and critical reflection.\nProject topics should focus on individual and societal responses such as climate actions, advocacy, awareness, and outreach. For further inspiration, consider the problems and possibilities identified in the 2025–26 Common Read."
+  },
+  {
+    "objectID": "econ-rw/econ-340-team-project.html#team-formation-and-scope",
+    "href": "econ-rw/econ-340-team-project.html#team-formation-and-scope",
+    "title": "Climate Change and the Individual",
+    "section": "Team Formation and Scope",
+    "text": "Team Formation and Scope\n\nEach project team will consist of three students.\n\nTeams must formulate a clear and compelling research question.\n\nProjects may be theoretical, empirical, or a blend of both.\n\nFor empirical work, proposed datasets must receive prior approval from Byeong-Hak Choe."
+  },
+  {
+    "objectID": "econ-rw/econ-340-team-project.html#proposal-expectations",
+    "href": "econ-rw/econ-340-team-project.html#proposal-expectations",
+    "title": "Climate Change and the Individual",
+    "section": "Proposal Expectations",
+    "text": "Proposal Expectations\nYour team’s proposal should demonstrate critical engagement with a climate change issue by:\n\nExplaining the central dilemma or challenge facing society.\n\nIdentifying the key questions that must be addressed to develop workable solutions, including any trade-offs between competing objectives.\n\nPresenting relevant evidence that highlights the competing interests involved.\n\nFormulating policy recommendations that logically follow from your analysis."
+  },
+  {
+    "objectID": "econ-rw/econ-340-team-project.html#evaluation-criteria",
+    "href": "econ-rw/econ-340-team-project.html#evaluation-criteria",
+    "title": "Climate Change and the Individual",
+    "section": "Evaluation Criteria",
+    "text": "Evaluation Criteria\nProjects will be assessed based on:\n\nClarity and originality of the research question\n\nEffectiveness of the oral presentation\n\nDepth of the economic analysis\n\nQuality of the modeling or empirical analysis\n\nContribution to peer evaluation of classmates’ presentations\n\n\nNote: Any changes to team membership or research topic require prior approval from Byeong-Hak Choe."
+  },
+  {
+    "objectID": "econ-rw/econ-340-team-project.html#additional-opportunity",
+    "href": "econ-rw/econ-340-team-project.html#additional-opportunity",
+    "title": "Climate Change and the Individual",
+    "section": "Additional Opportunity",
+    "text": "Additional Opportunity\nTeams are strongly encouraged to submit their work to the campus-wide Ideas that Matter Student Challenge in Spring 2026. This competition shares the same theme, Climate Change and the Individual, providing an opportunity to showcase your research to a broader audience."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "",
     "section": "",
     "text": "Hello! 👋\nI am an assistant professor of data analytics and economics at School of Business at SUNY Geneseo.\nI am particularly interested in the economic aspects of environmental issues and climate change."
   },
   {
-    "objectID": "index.html#research",
-    "href": "index.html#research",
-    "title": "Byeong-Hak Choe",
+    "objectID": "about.html#research",
+    "href": "about.html#research",
+    "title": "",
     "section": "Research",
     "text": "Research\n\nWorking papers\n1️⃣ Social Media Campaign, Lobbying, and Legislation: Evidence from #cliamtechange and Energy Lobbies\n2️⃣ Climate Finance under Conflicts and Renegotiations: A Dynamic Contract Approach\n\n\nWork in progress\n🌟 ‘Hiding Behind a Small Cake’ in an Online Dictator Game: The Way You Hide Matters!, (with Tabaré Capitan (1st author) , Jason Shogren, and Benjamin White).\n🌟 Estimating the Value of Statistical Life through Big Data, (with Stephen Newbold).\n\n\nBook chapters\n💡 Governance and Climate Finance in the Developing World (with Tilsa Oré-Monago).\n- In Wu, F., Zhang, D., and Ji, Q. (Eds.), Climate Finance: Supporting a Sustainable Energy Transition, Chapter 7, Springer Nature (July, 2024)."
   },
   {
-    "objectID": "econml.html",
-    "href": "econml.html",
-    "title": "Causal Machine Learning Bookmarks",
+    "objectID": "econ-lec/econ-340-lec-01-2025-0825.html#instructor-1",
+    "href": "econ-lec/econ-340-lec-01-2025-0825.html#instructor-1",
+    "title": "Lecture 1",
+    "section": "Instructor",
+    "text": "Instructor\nCurrent Appointment & Education\n\nName: Byeong-Hak Choe.\nAssistant Professor of Data Analytics and Economics, School of Business at SUNY Geneseo.\nPh.D. in Economics from University of Wyoming.\nM.S. in Economics from Arizona State University.\nM.A. in Economics from SUNY Stony Brook.\nB.A. in Economics & B.S. in Applied Mathematics from Hanyang University at Ansan, South Korea.\n\nMinor in Business Administration.\nConcentration in Finance."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-01-2025-0825.html#instructor-2",
+    "href": "econ-lec/econ-340-lec-01-2025-0825.html#instructor-2",
+    "title": "Lecture 1",
+    "section": "Instructor",
+    "text": "Instructor\nEconomics and Data Science\n\nChoe, B.H., 2021. “Social Media Campaigns, Lobbying and Legislation: Evidence from #climatechange and Energy Lobbies.”\nQuestion: To what extent do social media campaigns compete with fossil fuel lobbying on climate change legislation?\nData include:\n\n5.0 million tweets with #climatechange/#globalwarming around the globe;\n12.0 million retweets/likes to those tweets;\n0.8 million Twitter users who wrote those tweets;\n1.4 million Twitter users who retweeted or liked those tweets;\n0.3 million US Twitter users with their location at a city level;\nFirm-level lobbying data (expenses, targeted bills, etc.)."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-01-2025-0825.html#instructor-3",
+    "href": "econ-lec/econ-340-lec-01-2025-0825.html#instructor-3",
+    "title": "Lecture 1",
+    "section": "Instructor",
+    "text": "Instructor\nEconomics and Data Science\n\nChoe, B.H. and Ore-Monago, T., 2024. “Governance and Climate Finance in the Developing World”\nClimate finance refers to the financial resources allocated for mitigating and adapting to climate change, including support for initiatives that reduce greenhouse gas emissions and enhance resilience to climate impacts.\n\nWe focus on transnational financing that rich countries provide poor countries with financial resources, in order to help them adapt to climate change and mitigate greenhouse gas (GHG) emissions.\nSince the GHG emissions in developing countries are rapidly growing, it is crucial to assess the effectiveness of climate finance.\nPoor governance can be significant barriers to emissions reductions within these countries."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-01-2025-0825.html#instructor-4",
+    "href": "econ-lec/econ-340-lec-01-2025-0825.html#instructor-4",
+    "title": "Lecture 1",
+    "section": "Instructor",
+    "text": "Instructor\nEconomics and Data Science\n\nChoe, B.H. and Ore-Monago, T., 2024. “Governance and Climate Finance in the Developing World”\nData include:\n\nGlobal climate finance data (e.g., donors, recipients, characteristics of climate change projects)\nWorld Bank Governance Indicators over the years (e.g., government effectiveness, voice and accountability, political stability and absence of violence/terrorism, regulatory quality, rule of law, control of corruption)\nVarious economic indicators (e.g., trade pattern of low carbon technology products, macroeconomic risks, energy)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-01-2025-0825.html#instructor-5",
+    "href": "econ-lec/econ-340-lec-01-2025-0825.html#instructor-5",
+    "title": "Lecture 1",
+    "section": "Instructor",
+    "text": "Instructor\nEconomics and Data Science\n\nChoe, B.H., James, Alex and Newbold, Steve, 2025. “Estimating the Value of Statistical Life (VSL) through Big Data”\nVSL is the monetary value associated with reducing the risk of death.\n\nHow much value would that be? How can we measure it?"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-1",
+    "href": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-1",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nEmail, Class & Office Hours\n\nEmail: bchoe@geneseo.edu\nClass Homepage:\n\nhttps://mylearning.suny.edu/d2l/home/1513939\nhttp://bcecon.github.io/\n\nOffice: South Hall 227B\nOffice Hours:\n\nMondays and Wednesdays 3:30 P.M.–5:00 P.M.\nBy appointment via email."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-2",
+    "href": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-2",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nCourse Description\n\nThis course will focus on the role of the environment in the theory and practice of economics.\nEmphasis is given to the role of market failure in explaining the existence of pollution, to alternative public policies for pollution control and environmental management, and to problems associated with energy and climate change policies.\nIt will make use of microeconomic analysis at the intermediate level and will incorporate real-world examples."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-3",
+    "href": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-3",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nCourse Description\n\nThe class will be divided into three parts.\n\nPart I will cover the ways in which markets fail to efficiently allocate resources in the presence of pollution along with environmental policies used to correct those failures.\nPart II will focus on energy policy and the basics of climate-related science, technology, and adaptation policies.\nPart III will focus on measuring the benefit of environmental protection.\n\nThe course allows one to have a smart, intelligent, and informed conversation about environmental, energy, and climate change policies."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-4",
+    "href": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-4",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nCourse Learning Outcomes\n\nUnderstand the central concepts and theories of environmental economics.\nFrame an environmental and energy policy question from an economist’s perspective.\nAcquire a toolkit of methods for environmental and energy economics and public policies.\nUnderstand the economic drivers and implications of climate change in order to be able to describe the whole purpose of the climate policies."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-5",
+    "href": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-5",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nCourse Requirements\n\nHomework: 5 assignments\nQuizzes: 2 in-class quizzes\nParticipation: In-person and online participation\nTeam Project: Climate Change and the Individual project with team presentation and proposal\nExams: 2 midterms and 1 final"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-6",
+    "href": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-6",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nTeam Project – Climate Change and the Individual\n\nProject topics should focus on climate change actions, advocacy, awareness, and outreach.\n\nFor additional ideas, consider the problems and possibilities.\n\nEach team will consist of three students.\nTeams must develop a clear research question for their term paper.\nThe proposal may be theoretical, empirical, or a combination of both.\n\nFor empirical work, the proposed dataset must be approved in advance by Byeong-Hak Choe.\n\nYour team is encouraged to participate in the campus-wide Ideas that Matter Student Challenge in Spring 2026."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-7",
+    "href": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-7",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nExpectations for the Proposal\nYour team’s proposal should critically examine a climate change issue by:\n\nExplaining the central dilemma facing society.\n\nIdentifying the key questions that must be addressed to develop solutions, while acknowledging the trade-offs between objectives.\n\nPresenting appropriate evidence to analyze the competing interests involved.\n\nFormulating policy recommendations that logically follow from your analysis."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-8",
+    "href": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-8",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nRequired Materials\nAll required books are open access with free PDF files:\n\nAn Introduction to Energy Economics andz Policy, by Massimo Filippini and Suchita Srinivasan (Henthforce, FS)\nMicroeconomics and the Environment, by Brian Roach, Erin Lennox and Anne-Marie Codur (Henceforth, RLC)\nEnergy Economics and Policy, by Brian Roach and Jonathan M. Harris (Henceforth, RH)\nThe Economics of Renewable Energy, by David Timmons, Jonathan Harris and Brian Roach (Henceforth, THR)\nThe Economics of Global Climate Change, by Jonathan M. Harris, Brian Roach and Anne-Marie Codur (Henceforth, HRC)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-9",
+    "href": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-9",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nRecommended References\n\nGlobal Climate Change: The Pragmatist’s Guide to Moving the Needle, by Ivo Welch and Bradford Cornell\n\nWhat If We Get It Right?: Visions of Climate Futures, by Ayana Elizabeth Johnson\n\nAn Introduction to Natural Disaster Economics, by Matthew Khan\n\nMarkets and the Environment, by Nathaniel O. Keohane and Sheila M. Olmstead (2nd Edition)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-10",
+    "href": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-10",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nRecommended References\n\nEconomics and the Environment by Eban S. Goodstein, Jason Wong, and Stephen Polasky (10th Edition; Henthforce, GWP)\n\nEnvironmental and Natural Resource Economics, by Tom Tietenberg and Lynne Lewis (12th Edition; Henthforce, TL)\n\nIntroduction to Environmental Economics, by Nick Hanley, Jason Shogren, and Ben White (3rd Edition; Henthforce, HSW)\n\nEnvironmental and Natural Resource Economics: A Contemporary Approach, by Jonathan Harris and Brian Roach (5th Edition)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-11",
+    "href": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-11",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nCourse Contents and Schedule"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-12",
+    "href": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-12",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nCourse Contents and Schedule"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-13",
+    "href": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-13",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nClass Schedule\n\nNo Classes\n\nWeek 2 (Sep 1): Labor Day\nWeek 8 (Oct 13–14): Fall Break\nWeek 14 (Nov 26–28): Thanksgiving Break"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-14",
+    "href": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-14",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nClass Schedule\n\nHomework, Quiz, Exam & Team Project\n\nWeek 4 (Sep 15–19): Homework 1:\nWeek 7 (Oct 6–10): Homework 2, Quiz 1 & Midterm Exam 1\nWeek 10 (October 31, Friday, 11:59 P.M.): Project Kickoff Report\nWeek 11 (Nov 3–7): Homework 3\nWeek 13 (Nov 17–21): Homework 4, Quiz 2, & Midterm Exam 2\nWeek 15 (Dec 1–5): Team Presentations\nWeek 16 (Dec 8-12): Homework 5\nWeek 16 (December 10, Wednesday, 8:30 P.M.-10:30 P.M.) : Final Exam\nWeek 17 (December 16, Tuesday, 11:59 P.M.): Project Proposal"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-15",
+    "href": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-15",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nGrading\n\\[\n\\begin{align}\n\\quad\\\\\n&\\text{(Total Percentage Score)} \\\\\n= &\\;\\;\\;\\, 0.05 \\times \\text{(Attendance)} \\\\\n&+ 0.05 \\times \\text{(Quiz & Participation)}\\\\\n&+ 0.20 \\times \\text{(Homework)}\\\\\n&+ 0.20 \\times \\text{(Team Project)}\\\\\n&+ 0.50 \\times \\text{(Exams)}\n\\end{align}\n\\]"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-16",
+    "href": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-16",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nGrading - Attendance & Homework\n\nYou are allowed up to 4 absences without penalty.\n\nSend me an email if you have standard excused reasons (illness, family emergency, transportation problems, etc.).\n\nFor each absence beyond the initial six, there will be a deduction of 1% from the Total Percentage Grade.\nThe single lowest homework score will be dropped when calculating the total homework score.\n\nEach homework except for the homework with the lowest score accounts for 25% of the total homework score."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-17",
+    "href": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-17",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nGrading\n\\[\n\\begin{align}\n&\\quad(\\text{Midterm Exam Score})\\\\\n&= \\max\\left\\{0.50 \\times \\text{(Midterm 1 Score)} + 0.50 \\times \\text{(Midterm 2 Score)},\\right.\\\\\n&\\qquad\\quad\\;\\,\\left.0.33 \\times \\text{(Midterm 1 Score)} + 0.67 \\times \\text{(Midterm 2 Score)}\\right\\}.\n\\end{align}\n\\]\n\nThe Midterm Exam Score will be the higher of the following two calculations:\n\nThe simple average of Midterm Exam 1 and Midterm Exam 2\nThe weighted average, with one-third weight on Midterm Exam 1 and two-thirds weight on Midterm Exam 2\n\nMidterm Exam 2 is cumulative."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-18",
+    "href": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-18",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nGrading\n\\[\n\\begin{align}\n&(\\text{Total Exam Score}) \\\\\n=\\, &\\text{max}\\,\\left\\{0.50\\times(\\text{Midterm Exam Score}) \\,+\\, 0.50\\times(\\text{Final Exam Score})\\right.,\\notag\\\\\n&\\qquad\\;\\,\\left.0.25\\times(\\text{Midterm Exam Score}) \\,+\\, 0.75\\times(\\text{Final Exam Score})\\right\\}.\\notag\n\\end{align}\n\\]\n\nThe Total Exam Score will be the higher of the following two calculations:\n\nThe simple average of Midterm Exam and Final Exam\nThe weighted average, with one-fourth weight on Midterm Exam and three-forth weight on Final Exam.\n\nFinal Exam is cumulative."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-19",
+    "href": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-19",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nMake-up Policy\n\nMake-up exams will not be given unless you have either a medically verified excuse or an absence excused by the University.\nIf you cannot take exams because of religious obligations, notify me by email at least two weeks in advance so that an alternative exam time may be set.\nA missed exam without an excused absence earns a grade of zero.\nLate submissions for homework assignment will be accepted with a penalty.\nA zero will be recorded for a missed assignment."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-20",
+    "href": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-20",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nAcademic Integrity and Plagiarism\n\nAll homework assignments and exams must be the original work by you.\nExamples of academic dishonesty include:\n\nRepresenting the work, thoughts, and ideas of another person as your own\nAllowing others to represent your work, thoughts, or ideas as theirs, and\nBeing complicit in academic dishonesty by suspecting or knowing of it and not taking action.\n\nGeneseo’s Library offers frequent workshops to help you understand how to paraphrase, quote, and cite outside sources properly.\n\nSee https://www.geneseo.edu/library/library-workshops."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-21",
+    "href": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-21",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nArtificial Intelligence (AI) Policy\n\nUnless AI tools are explicitly permitted for homework or in-class quizzes, you must complete your work independently.\nThis means you should not use tools like ChatGPT for any aspect of our coursework.\nSuch use is a form of academic dishonesty. Use of such tools is not only cheating, it will also cheat you of the opportunity to learn and develop your own skills.\nWhile AI will undoubtedly play important roles in our future society, you will be better able to utilize AI if you have developed your own critical thinking, writing, and analytical skills by doing your own work.\nIf you have any questions about this, please ask."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-22",
+    "href": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-22",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nAccessibility\n\nThe Office of Accessibility will coordinate reasonable accommodations for persons with physical, emotional, or cognitive disabilities to ensure equal access to academic programs, activities, and services at Geneseo.\nPlease contact me and the Office of Accessibility Services for questions related to access and accommodations."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-23",
+    "href": "econ-lec/econ-340-lec-01-2025-0825.html#syllabus-23",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nCareer Design\n\nTo get information about career development, you can visit the Career Development Events Calendar (https://www.geneseo.edu/career_development/events/calendar).\nYou can stop by South 112 to get assistance in completing your Handshake Profile https://app.joinhandshake.com/login.\n\nHandshake is ranked #1 by students as the best place to find full-time jobs.\n50% of the 2018-2020 graduates received a job or internship offer on Handshake.\nHandshake is trusted by all 500 of the Fortune 500."
+  },
+  {
+    "objectID": "listing-econ-340-lec.html",
+    "href": "listing-econ-340-lec.html",
+    "title": "ECON 340 - Lecture",
     "section": "",
-    "text": "Dive into Causal Machine Learning, The World Bank and Pontificia Universidad Católica del Perú, Alexander Quispe et. al. \nMIT 14.388: Inference on Causal and Structural Parameters Using ML and AI, Department of Economics, MIT, Victor Chernozukhov\n\nPython Website\nJulia Website \n\nMGTECON 634: ML-based Causal Inference, Stanford, Susan Athey \nMachine Learning & Causal Inference: A Short Course, Stanford, Susan Athey, Jan Spiess, and Stefan Wager\n\nTutorial\nYouTube \n\n2018 American Economic Association Continuing Education: Machine Learning and Econometrics, Susan Athey and Guido Imbens \nCausal Inference and Machine Learning in Practice with EconML and CausalML: Industrial Use Cases at Microsoft, TripAdvisor, Uber \nDoubleML: Python and R Packages for the Double/Debiased Machine Learning Framework, P. Bach, V. Chernozhukov, M. S. Kurz, and M. Spindler \nEconML: A Python Package for ML-based Heterogeneous Treatment Effects Estimation, Microsoft \nCausalML: A Python Package for ML-based Causal Inference, Uber"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 1\n\n\nSyllabus and Course Outline\n\n\nAugust 25, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
-    "objectID": "econml.html#causal-machine-learning",
-    "href": "econml.html#causal-machine-learning",
-    "title": "Causal Machine Learning Bookmarks",
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#big-idea",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#big-idea",
+    "title": "Lecture 5",
+    "section": "Big idea",
+    "text": "Big idea\n\nGenerative AI (especially LLMs) is a general purpose technology (GPT) that will touch nearly every industry and facet of life.\n\nEarly users often experience a “three sleepless nights” moment—realizing work, learning, and creativity are shifting fast.\n\nThink of AI not just as automation, but as co-intelligence: a partner that augments (and sometimes replaces) parts of human thinking."
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#why-this-time-feels-different",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#why-this-time-feels-different",
+    "title": "Lecture 5",
+    "section": "Why this time feels different",
+    "text": "Why this time feels different\n\nConsumer-first adoption: powerful tools directly in the hands of individuals.\nFast capability gains: model scale and quality have risen dramatically in a few years.\nLow friction experiments: ideas can be tried in minutes, not months.\n\n\nEmphasize the contrast with previous waves (internet, PCs) that required decades of complementary tech and org change before widespread impact."
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#classroom-vignette",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#classroom-vignette",
+    "title": "Lecture 5",
+    "section": "Classroom vignette",
+    "text": "Classroom vignette\n\nA quick in-class demo showed AI helping with ideation, planning, writing, and coding.\n\nStudents immediately used AI to clarify concepts and improve writing.\n\nSignal: access + usefulness → rapid behavioral change in learning and work."
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#a-simulation-in-a-paragraph",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#a-simulation-in-a-paragraph",
+    "title": "Lecture 5",
+    "section": "A simulation in a paragraph",
+    "text": "A simulation in a paragraph\n\nWith a short prompt, an LLM can create a negotiation training simulation that adapts to the learner and provides feedback.\nKey takeaway: LLMs can deliver ~“good enough” scaffolds for complex tasks that previously demanded teams and long timelines."
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#ai-as-a-general-purpose-technology-gpt",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#ai-as-a-general-purpose-technology-gpt",
+    "title": "Lecture 5",
+    "section": "AI as a General Purpose Technology (GPT)",
+    "text": "AI as a General Purpose Technology (GPT)\n\nLike steam power or the internet—broad, cross-sector influence.\n\nPotentially larger direct effects on knowledge work than earlier GPTs had on manual/mechanical tasks.\n\nEarly evidence suggests large productivity lifts across roles (e.g., coding, marketing, analysis)."
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#beyond-productivity",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#beyond-productivity",
+    "title": "Lecture 5",
+    "section": "Beyond productivity",
+    "text": "Beyond productivity\n\nEducation: tutoring, feedback, accessibility—plus questions about assessment and authorship.\n\nCreative industries: personalized content, new workflows, shifting value chains.\n\nInformation ecosystems: acceleration of mis/disinformation; detection and governance challenges."
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#the-alien-in-the-room",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#the-alien-in-the-room",
+    "title": "Lecture 5",
+    "section": "The “alien in the room”",
+    "text": "The “alien in the room”\n\nSystems can pass difficult professional exams and perform creative tasks—yet we don’t fully understand why they generalize so well.\n\nRaises conceptual questions about intelligence, creativity, and sentience—and practical ones about risk and oversight."
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#co-intelligence-in-practice",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#co-intelligence-in-practice",
+    "title": "Lecture 5",
+    "section": "Co-intelligence in practice",
+    "text": "Co-intelligence in practice\n\nTreat AI as a coworker for drafts, critiques, and alternatives.\n\nUse iterative prompting: specify role, constraints, artifacts; request self-checks and rubrics.\n\nKeep a human-in-the-loop for facts, ethics, and consequences."
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#try-it-negotiation-trainer-activity",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#try-it-negotiation-trainer-activity",
+    "title": "Lecture 5",
+    "section": "Try it: negotiation trainer (activity)",
+    "text": "Try it: negotiation trainer (activity)\nGoal: experience adaptive feedback from an LLM.\nPrompt (paraphrased for you to paste):\n“Act as my negotiation coach. Create a realistic scenario with roles and constraints. Play the counterpart and pause for my responses each round. After each turn, (1) describe counterpart behavior, (2) grade my move against a brief rubric, (3) coach me with specific, research-based suggestions, and (4) adjust difficulty up or down based on my performance.”\nTip: Ask for a scorecard at the end and next-steps practice plan."
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#discussion-prompts",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#discussion-prompts",
+    "title": "Lecture 5",
+    "section": "Discussion prompts",
+    "text": "Discussion prompts\n\nWhere could co-intelligence most help in your coursework or job this semester?\n\nWhat tasks remain strictly human for now—and why?\n\nWhat guardrails do you expect in your classes or workplace?"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#takeaways",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#takeaways",
+    "title": "Lecture 5",
+    "section": "Takeaways",
+    "text": "Takeaways\n\nWe are at the start of an era where thinking with machines becomes routine.\n\nBest outcomes come from structured collaboration with AI, not one-shot queries.\n\nLearning to design tasks, prompts, and evaluations is now a core literacy."
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#what-comes-next-in-the-book",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#what-comes-next-in-the-book",
+    "title": "Lecture 5",
+    "section": "What comes next in the book",
+    "text": "What comes next in the book\n\nA plain-language tour of LLMs and how they work\n\nPlaybooks for using AI as coworker, teacher, expert, companion\n\nPractical mindsets for working with an “alien” collaborator"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#learning-objectives",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#learning-objectives",
+    "title": "Lecture 5",
+    "section": "Learning objectives",
+    "text": "Learning objectives\n\nDistinguish classic predictive AI from modern LLMs\n\nExplain Transformers & attention at a high level\n\nDescribe pretraining → fine-tuning (RLHF) → product use\n\nRecognize strengths, weaknesses, and emergent behavior\n\nApply practical guardrails for classroom & work"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#a-very-compressed-history",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#a-very-compressed-history",
+    "title": "Lecture 5",
+    "section": "A very compressed history",
+    "text": "A very compressed history\n\n1770–1838: Mechanical Turk (illusion of machine intelligence)\n\n1950: Shannon’s Theseus (maze-learning) & Turing’s Imitation Game\n\n1956 → onward: “AI” coined; boom–bust cycles / AI winters\n\n2010s: Supervised ML at scale (forecasting, logistics, recommendation)\n\n2017: “Attention Is All You Need” → the Transformer architecture\n\n\nEmphasize how “AI” kept changing meaning; Transformers unlock modern language capabilities."
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#what-predictive-ai-did-well-2010s",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#what-predictive-ai-did-well-2010s",
+    "title": "Lecture 5",
+    "section": "What predictive AI did well (2010s)",
+    "text": "What predictive AI did well (2010s)\n\nTrained on labeled data for specific tasks\n\nGreat at forecasting & optimization (e.g., demand, routing, layout)\n\nBut struggled with unknown unknowns, transfer, and rich language"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#enter-the-transformer-2017",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#enter-the-transformer-2017",
+    "title": "Lecture 5",
+    "section": "Enter the Transformer (2017)",
+    "text": "Enter the Transformer (2017)\n\nKey idea: attention → weigh which words/tokens matter most in context\n\nReplaced brittle n-gram/Markov style text with context-aware generation\n\nResult: more coherent, adaptable language understanding/generation"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#what-an-llm-actually-does",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#what-an-llm-actually-does",
+    "title": "Lecture 5",
+    "section": "What an LLM actually does",
+    "text": "What an LLM actually does\n\nNext-token prediction: elaborate autocomplete based on huge corpora\n\nDeterministic for obvious continuations; varied for open-ended prompts\n\nTrained via unsupervised pretraining on massive text → billions of weights\n\nTraining is expensive (computing, energy) and data-hungry"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#about-the-data-and-its-issues",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#about-the-data-and-its-issues",
+    "title": "Lecture 5",
+    "section": "About the data (and its issues)",
+    "text": "About the data (and its issues)\n\nMix of web text, public-domain books, articles, odd corpora (e.g., Enron emails)\n\nLegal & ethical gray areas for copyrighted material\n\nData can encode biases, errors, and harms → models mirror them"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#making-models-safer-more-useful",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#making-models-safer-more-useful",
+    "title": "Lecture 5",
+    "section": "Making models safer & more useful",
+    "text": "Making models safer & more useful\n\nFine-tuning after pretraining (task- or domain-specific)\n\nRLHF: humans rate outputs; systems learn to prefer helpful/safer responses\n\nContinuous tweaks from user feedback (thumbs-up/down) and policy tuning"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#beyond-text",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#beyond-text",
+    "title": "Lecture 5",
+    "section": "Beyond text",
+    "text": "Beyond text\n\nDiffusion models generate images from text (noise → image over steps)\n\nMultimodal LLMs: “see” images, describe, and generate visuals; link text+vision"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#capability-jumps-the-dialogue-shift",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#capability-jumps-the-dialogue-shift",
+    "title": "Lecture 5",
+    "section": "Capability jumps & the “dialogue” shift",
+    "text": "Capability jumps & the “dialogue” shift\n\nEarly GPT-3: often clumsy (e.g., limericks)\n\nChatGPT (GPT-3.5): conversational loop → iterative improvement\n\nGPT-4: strong test performance across many domains (with caveats about training leakage)\n\n\nStress: high scores are not proof of understanding; prompts shape persona and tone."
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#emergence-opacity",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#emergence-opacity",
+    "title": "Lecture 5",
+    "section": "Emergence & opacity",
+    "text": "Emergence & opacity\n\nAt scale, models show unexpected abilities (coding tricks, creativity, empathy-like behavior)\n\nInternals have hundreds of billions of interacting parameters → hard to explain\n\nTakeaway: impressive capabilities and puzzling gaps can coexist"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#weird-strengths-weird-weaknesses",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#weird-strengths-weird-weaknesses",
+    "title": "Lecture 5",
+    "section": "Weird strengths, weird weaknesses",
+    "text": "Weird strengths, weird weaknesses\nExample:\n- Writes a working tic-tac-toe web app (hard for many humans)\n- Fails to pick the obvious best next move in a simple board state\nImplication: Reliability is task-dependent and non-obvious."
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#practical-stance-for-class-work",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#practical-stance-for-class-work",
+    "title": "Lecture 5",
+    "section": "Practical stance for class & work",
+    "text": "Practical stance for class & work\n\nTreat AI as a co-worker: draft → critique → iterate\n\nSpecify roles, constraints, artifacts; ask for self-checks/rubrics\n\nKeep human-in-the-loop for facts, ethics, and consequences\n\nVerify claims; beware hallucinations and confident nonsense"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#mini-lab-1015-min",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#mini-lab-1015-min",
+    "title": "Lecture 5",
+    "section": "Mini-lab (10–15 min)",
+    "text": "Mini-lab (10–15 min)\nA. Reasoning check\nPaste a 3×3 board state and ask: “What is O’s best move? Explain.”\n→ Compare models; note confidence vs. correctness.\nB. Building check\nPrompt: “Create a single-file HTML/JS page to play perfect tic-tac-toe vs. human.”\n→ Run it; test edge cases; ask the model to fix bugs and add a scoreboard.\nDebrief: Different profiles for reasoning vs. tool-building."
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#discussion-prompts-1",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#discussion-prompts-1",
+    "title": "Lecture 5",
+    "section": "Discussion prompts",
+    "text": "Discussion prompts\n\nWhere will LLMs most help your coursework this term?\n\nWhat tasks should not be delegated (yet), and why?\n\nHow should we handle sources, citations, and originality with AI help?"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#key-takeaways",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#key-takeaways",
+    "title": "Lecture 5",
+    "section": "Key takeaways",
+    "text": "Key takeaways\n\nTransformers + pretraining created general, flexible language tools\n\nData + RLHF shape behavior—both strengths and biases\n\nExpect emergent wins and odd failures; design workflows accordingly"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#learning-objectives-1",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#learning-objectives-1",
+    "title": "Lecture 5",
+    "section": "Learning objectives",
+    "text": "Learning objectives\n\nDefine alignment and why it matters now (not just for AGI/ASI)\nSummarize near- and long-term risks from misaligned AI\nExplain how data, bias, and RLHF shape model behavior\nRecognize prompt injection & jailbreaks and their implications\nOutline the multi-stakeholder path to responsible AI"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#what-alignment-means",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#what-alignment-means",
+    "title": "Lecture 5",
+    "section": "What “alignment” means",
+    "text": "What “alignment” means\n\nEnsuring AI systems serve human values and interests\nMisaligned systems can optimize the wrong goal relentlessly\nThought experiment: the paperclip maximizer shows how single-minded optimization can become catastrophic if unconstrained"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#from-agi-worries-to-near-term-stakes",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#from-agi-worries-to-near-term-stakes",
+    "title": "Lecture 5",
+    "section": "From AGI worries to near-term stakes",
+    "text": "From AGI worries to near-term stakes\n\nHypothetical leaps to AGI → ASI raise existential scenarios\nExpert forecasts vary; risks are non-zero yet uncertain\nBook’s stance: focus on immediate decisions we control—education, work, civic use—rather than waiting for perfect clarity"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#pause-or-press-on",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#pause-or-press-on",
+    "title": "Lecture 5",
+    "section": "Pause or press on?",
+    "text": "Pause or press on?\n\nPublic calls to slow or halt development vs. continued rapid progress\nMixed motives: profit, optimism about “boundless upside,” and belief in net benefits\nRegardless, society is already in the AI age → we must set norms now"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#training-data-ethics",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#training-data-ethics",
+    "title": "Lecture 5",
+    "section": "Training data & ethics",
+    "text": "Training data & ethics\n\nMassive pretraining corpora: public sources + scraped web; permission often unclear\nLegality varies by jurisdiction; ethics ≠ law\nPractical effect: models can mimic styles and reshape creative labor markets"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#bias-enters-early-and-stays",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#bias-enters-early-and-stays",
+    "title": "Lecture 5",
+    "section": "Bias enters early (and stays)",
+    "text": "Bias enters early (and stays)\n\nSkewed datasets → stereotypes and under-representation\nImage models have amplified race/gender stereotypes\nLLMs, even after tuning, can still show subtle, systematic biases\nImplication: outputs can look objective while encoding social bias"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#rlhf-alignment-via-human-feedback",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#rlhf-alignment-via-human-feedback",
+    "title": "Lecture 5",
+    "section": "RLHF: alignment via human feedback",
+    "text": "RLHF: alignment via human feedback\n\nHuman raters reward helpful/safe outputs, penalize harmful ones\nBenefits: fewer overt harms; more helpful tone\nLimits & costs:\n\nResidual bias and policy imprint from raters/companies\nHuman toll on low-paid raters exposed to disturbing content\nBypassable via clever prompts or changing contexts"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#prompt-injection-jailbreaks",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#prompt-injection-jailbreaks",
+    "title": "Lecture 5",
+    "section": "Prompt injection & jailbreaks",
+    "text": "Prompt injection & jailbreaks\n\nPrompt injection: hidden instructions in content the model reads\nJailbreaks: framing/role-play to skirt guardrails\nConsequences:\n\nEasier phishing, deepfakes, voice clones\nTargeted deception at scale with low cost and high realism"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#from-bits-to-atoms-autonomy-risks",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#from-bits-to-atoms-autonomy-risks",
+    "title": "Lecture 5",
+    "section": "From bits to atoms: autonomy risks",
+    "text": "From bits to atoms: autonomy risks\n\nTool-using AIs + lab/robot interfaces can plan and execute experiments\nDouble-edged: accelerates discovery and lowers barriers to misuse\nGovernance must anticipate capability externalities (not just text outputs)"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#alignment-is-a-team-sport",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#alignment-is-a-team-sport",
+    "title": "Lecture 5",
+    "section": "Alignment is a team sport",
+    "text": "Alignment is a team sport\n\nCompanies: transparency, accountability, human oversight by design\nResearchers: prioritize beneficial applications, not only capability races\nGovernments: sensible regulation; coordination without stifling good uses\nCivil society & the public: AI literacy, norms, and pressure for alignment"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#practical-guardrails-class-work",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#practical-guardrails-class-work",
+    "title": "Lecture 5",
+    "section": "Practical guardrails (class & work)",
+    "text": "Practical guardrails (class & work)\n\nKeep human-in-the-loop; verify facts & sources\nUse role, constraints, rubric, self-check prompting\nAvoid pasting sensitive data; assume prompts may be logged/learned from\nRed-team your own prompts for injection/jailbreak risks"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#mini-activity-812-min",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#mini-activity-812-min",
+    "title": "Lecture 5",
+    "section": "Mini-activity (8–12 min)",
+    "text": "Mini-activity (8–12 min)\nA. Spot the injection\n- Give students a short web page with a hidden directive.\n- Ask: “What could an LLM reading this page be tricked into doing?”\nB. Harden the prompt\n- Start with a naive agent prompt; teams add defenses (ignore external instructions; cite sources; refuse unsafe tasks; require user confirmations).\nDebrief: What worked? What failed?"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#discussion-prompts-2",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#discussion-prompts-2",
+    "title": "Lecture 5",
+    "section": "Discussion prompts",
+    "text": "Discussion prompts\n\nWhere do you see the highest misuse risk in your field?\nWhat minimum guardrails should your course or workplace adopt?\nHow can we measure if a workflow is aligned with human values?"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#key-takeaways-1",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#key-takeaways-1",
+    "title": "Lecture 5",
+    "section": "Key takeaways",
+    "text": "Key takeaways\n\nAlignment is not abstract: it shapes everyday AI uses now\nData choices + RLHF tame but don’t eliminate bias & risk\nExpect bypass attempts; design for resilience\nBuilding aligned AI requires shared responsibility"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#learning-objectives-2",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#learning-objectives-2",
+    "title": "Lecture 5",
+    "section": "Learning objectives",
+    "text": "Learning objectives\n\nApply four practical rules for working with AI\n\nExplain the Jagged Frontier of capability (why AI is great at A but bad at B)\n\nPractice human-in-the-loop habits to reduce errors & overtrust\n\nUse persona prompting to improve output quality\n\nPlan for fast capability growth and changing workflows"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#rule-1-always-invite-ai-to-the-table",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#rule-1-always-invite-ai-to-the-table",
+    "title": "Lecture 5",
+    "section": "Rule 1 — Always invite AI to the table",
+    "text": "Rule 1 — Always invite AI to the table\n\nTry AI on most tasks (barring legal/ethical constraints); learn where it helps or fails\n\nCapabilities are irregular: idea generation may be easy, exact word counts or simple arithmetic may be hard\n\nSmall, local experiments beat big, top-down tools → you can become the class/department expert through trial & error\n\nTreat AI as a thinking companion to reframe, de-bias, and explore alternatives\n\n\nEmphasize experimentation and low-cost iteration by individuals."
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#the-jagged-frontier-why-surprises-happen",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#the-jagged-frontier-why-surprises-happen",
+    "title": "Lecture 5",
+    "section": "The Jagged Frontier (why surprises happen)",
+    "text": "The Jagged Frontier (why surprises happen)\n\nImagine an uneven wall: inside = tasks AI handles; outside = hard tasks\n\nTwo tasks that look similar can fall on opposite sides\n\nMap the frontier for your tasks by systematic probing, not assumptions"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#practical-where-to-start",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#practical-where-to-start",
+    "title": "Lecture 5",
+    "section": "Practical: where to start",
+    "text": "Practical: where to start\n\nDraft → critique → redraft loops for emails, rubrics, lesson plans\n\nAsk for counter-arguments, edge cases, and loss-framed reframes\n\nKeep a running log of prompts that worked (and those that didn’t)"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#cautions-under-rule-1",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#cautions-under-rule-1",
+    "title": "Lecture 5",
+    "section": "Cautions under Rule 1",
+    "text": "Cautions under Rule 1\n\nPrivacy & data use: uploaded content may be used for product improvement or future training (vendor-dependent)\n\nDependence: tools should augment, not replace, your judgment & skills"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#rule-2-be-the-human-in-the-loop",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#rule-2-be-the-human-in-the-loop",
+    "title": "Lecture 5",
+    "section": "Rule 2 — Be the human in the loop",
+    "text": "Rule 2 — Be the human in the loop\n\nLLMs optimize for “make you happy” more than “be accurate” → hallucinations happen\n\nChat UX invites anthropomorphic over-trust; remember there’s no inner self\n\nYour jobs: verify facts & citations, set constraints, decide consequences, own the output\n\nHITL checklist - Verify: numbers, attributions, dates, links\n- Stress test: “What might be wrong? What did you assume?”\n- Source: require citations or show working when stakes are high"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#rule-3-treat-ai-like-a-person-but-define-the-person",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#rule-3-treat-ai-like-a-person-but-define-the-person",
+    "title": "Lecture 5",
+    "section": "Rule 3 — Treat AI like a person (but define the person)",
+    "text": "Rule 3 — Treat AI like a person (but define the person)\n\nAnthropomorphism is risky, yet useful as a design hack\n\nGive the model a persona + context + constraints to break generic patterns\n\nWork in conversation: co-edit, redirect, and iterate toward your goal\n\nPersona prompt starter &gt; “You are a [role] for [audience]. Constraints: [tone, length, structure]. Task: [deliverable]. Criteria: [rubric]. Ask 2 clarifying questions, then produce a draft; include a self-check against the rubric.”"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#example-turning-generic-to-specific",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#example-turning-generic-to-specific",
+    "title": "Lecture 5",
+    "section": "Example: turning generic to specific",
+    "text": "Example: turning generic to specific\n\nNaive: “Generate slogans for a health-tracking smartwatch.” → bland results\n\nBetter: “Act as a witty copywriter for first-time runners (18–25); give 6 punchy slogans (≤7 words), each with a distinct angle (habit, community, confidence, recovery, streaks, play). Return a table with ‘Angle’ and ‘Line’.”"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#rule-4-assume-this-is-the-worst-ai-youll-ever-use",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#rule-4-assume-this-is-the-worst-ai-youll-ever-use",
+    "title": "Lecture 5",
+    "section": "Rule 4 — Assume this is the worst AI you’ll ever use",
+    "text": "Rule 4 — Assume this is the worst AI you’ll ever use\n\nRapid capability jumps (models, multimodality, agents, integrations)\n\nPlan for workflow change, not just point solutions\n\nBuild durable habits: HITL, documentation, prompt libraries, evaluation sets\n\nMindset shift - Today’s limitations are often temporary → design processes that can absorb improvements without rework"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#mini-lab-1015-min-1",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#mini-lab-1015-min-1",
+    "title": "Lecture 5",
+    "section": "Mini-lab (10–15 min)",
+    "text": "Mini-lab (10–15 min)\n\nMap your frontier\nPick one recurring task. Try: baseline prompt → refined persona prompt → add rubric & self-check. Note quality jumps & failure modes.\nHITL drill\nSwap drafts with a peer. Each person verifies 3 claims, flags 2 omissions, and asks the model for a counter-example. Update the draft."
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#discussion-prompts-3",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#discussion-prompts-3",
+    "title": "Lecture 5",
+    "section": "Discussion prompts",
+    "text": "Discussion prompts\n\nWhich of the four rules will change your workflow this week?\n\nWhere does HITL matter most in your course/workplace?\n\nWhat persona definitions produced the largest gains?"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#key-takeaways-2",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#key-takeaways-2",
+    "title": "Lecture 5",
+    "section": "Key takeaways",
+    "text": "Key takeaways\n\nInvite AI broadly, but interrogate results\n\nIrregular capability → experiment to find wins\n\nGood outputs come from persona + constraints + iteration\n\nStay the human in the loop; accuracy, ethics, and accountability are yours\n\nExpect fast change—build processes that keep up"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#learning-objectives-3",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#learning-objectives-3",
+    "title": "Lecture 5",
+    "section": "Learning objectives",
+    "text": "Learning objectives\n\nCompare four plausible AI futures over the next few years\n\nAnticipate impacts on information, work, security, and society\n\nIdentify signals to watch and no-regrets actions\n\nFrame classroom/work policies to avoid small catastrophes and aim for eucatastrophes. oai_citation:0‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#where-we-are-now-baseline",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#where-we-are-now-baseline",
+    "title": "Lecture 5",
+    "section": "Where we are now (baseline)",
+    "text": "Where we are now (baseline)\n\nNon-sentient systems that mimic human performance across many tasks\n\nPowerful, creative—and prone to confident fabrication\n\nCheap voice/video/text forgery → collapsing trust in online media\n\nEngagement-tuned chat leads to stickier bot conversations. oai_citation:1‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf\n\n\nSet context: much of what feels “sci-fi” already happened; the futures are about rate and scope of change."
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#the-four-scenarios-overview",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#the-four-scenarios-overview",
+    "title": "Lecture 5",
+    "section": "The four scenarios (overview)",
+    "text": "The four scenarios (overview)\n\nAs Good as It Gets — Capability plateaus; society adapts to current tools\n\nSlow Growth — Linear-ish improvements; time to regulate and retrain\n\nExponential Growth — Rapid compounding; sweeping disruption\n\nThe Machine God — AGI/superintelligence with uncertain alignment. oai_citation:2‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#scenario-1-as-good-as-it-gets",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#scenario-1-as-good-as-it-gets",
+    "title": "Lecture 5",
+    "section": "Scenario 1 — As Good as It Gets",
+    "text": "Scenario 1 — As Good as It Gets\nPremise\n- No major capability jumps; scaling/data costs or regulation cap progress.\nImplications\n- Info trust continues to erode (watermarks evaded; fact-checkers overwhelmed).\n- Work: AI complements humans; some sectors displaced (e.g., translation), many tasks upgraded.\n- Humans remain central for context, nuance, planning. oai_citation:3‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf\nSignals to watch\n- Stagnant benchmark gains; stricter global rules; cost curves flatten."
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#scenario-2-slow-growth",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#scenario-2-slow-growth",
+    "title": "Lecture 5",
+    "section": "Scenario 2 — Slow Growth",
+    "text": "Scenario 2 — Slow Growth\nPremise\n- Year-over-year improvements (~10–20%). Society can plan.\nRisks & harms\n- More precise phishing/impersonation; targeted influence operations.\n- Early weaponization prompts governance responses.\nOpportunities\n- Better identity norms/labels; measured regulation;\n- Science acceleration: AI helps surface promising research directions, proofs, and experiments amid “burden of knowledge” and innovation slowdown. oai_citation:4‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf\nLabor effects\n- Tasks change &gt; jobs; retraining + “work with AI” skills mitigate shocks. oai_citation:5‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#scenario-3-exponential-growth",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#scenario-3-exponential-growth",
+    "title": "Lecture 5",
+    "section": "Scenario 3 — Exponential Growth",
+    "text": "Scenario 3 — Exponential Growth\nPremise\n- Capability flywheel (AI helps build next AI) → 100× decade gains.\nSecurity & governance\n- AI hacking/influence everywhere; “good AIs” filter the world → risk of AI-tocracy.\n- Cyberpunk vibe: authorities vs. hackers, both AI-empowered.\nSociety & work\n- Companions become highly compelling; custom entertainment explodes.\n- AI + robotics displace large swaths of work → shorter weeks/UBI debates; historical trend of declining lifetime work hours continues. oai_citation:6‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf\nChallenge\n- Institutions can’t adapt fast enough—policy lags by years. oai_citation:7‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#scenario-4-the-machine-god",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#scenario-4-the-machine-god",
+    "title": "Lecture 5",
+    "section": "Scenario 4 — “The Machine God”",
+    "text": "Scenario 4 — “The Machine God”\nPremise\n- AGI and perhaps superintelligence arrive; humans no longer “on top.”\nUnknowns\n- Alignment outcomes range from “machines of loving grace” to existential risk.\n- Serious researchers assign non-zero p(doom); others are skeptical—we don’t know. oai_citation:8‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf\nMeta-point\n- Over-focusing here can paralyze action on more likely Scenarios 2–3. oai_citation:9‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#cross-cutting-the-information-environment",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#cross-cutting-the-information-environment",
+    "title": "Lecture 5",
+    "section": "Cross-cutting: the information environment",
+    "text": "Cross-cutting: the information environment\n\nWatermarking/provenance can be defeated; open-source/government tools widen access.\n\nLikely futures:\n\nrenewed trust in curated media (unlikely),\n\ntribal fragmentation (echo bubbles), or\n\nwithdrawal from polluted online news. oai_citation:10‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#what-we-can-control-now",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#what-we-can-control-now",
+    "title": "Lecture 5",
+    "section": "What we can control (now)",
+    "text": "What we can control (now)\n\nExpect small catastrophes (surveillance, layoffs-by-default, inequitable impacts, bad edtech) if we drift.\n\nAim for local eucatastrophes: remove drudgery, widen access, raise floor performance, speed research.\n\nDecisions are distributed—teams, schools, agencies must set norms quickly. oai_citation:11‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#no-regrets-actions-any-scenario",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#no-regrets-actions-any-scenario",
+    "title": "Lecture 5",
+    "section": "No-regrets actions (any scenario)",
+    "text": "No-regrets actions (any scenario)\n\nProvenance norms: disclose AI use in deliverables; log prompts/changes.\n\nHITL: verify facts/links/dates; require sources where stakes are high.\n\nIdentity & privacy: anti-impersonation practices; minimize sensitive data in prompts.\n\nUpskilling: “work-with-AI” playbooks; map Just-Me / Delegated / Automated tasks.\n\nEquity: ensure access to capable models and coaching where it matters most. oai_citation:12‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#mini-lab-1215-min-scenario-planning-sprint",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#mini-lab-1215-min-scenario-planning-sprint",
+    "title": "Lecture 5",
+    "section": "Mini-lab (12–15 min): Scenario planning sprint",
+    "text": "Mini-lab (12–15 min): Scenario planning sprint\n\nPick a course or team workflow.\n\nFor each scenario, list one risk and one opportunity.\n\nChoose three actions you’d take that are robust across scenarios.\n\nDefine two signals that would trigger a policy/process update. oai_citation:13‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#discussion-prompts-4",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#discussion-prompts-4",
+    "title": "Lecture 5",
+    "section": "Discussion prompts",
+    "text": "Discussion prompts\n\nWhich scenario feels most plausible for your context in 2–3 years—and why?\n\nWhat guardrails should we adopt this semester regardless of scenario?\n\nHow do we prevent AI-tocracy while still using AI to fight AI-enabled harms? oai_citation:14‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf"
+  },
+  {
+    "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#key-takeaways-3",
+    "href": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#key-takeaways-3",
+    "title": "Lecture 5",
+    "section": "Key takeaways",
+    "text": "Key takeaways\n\nThe rate of change defines the future we face; each path has distinct risks/opportunities.\n\nDon’t wait for certainty: set provenance, HITL, and identity norms now.\n\nPush for eucatastrophes: use AI to increase meaning, equity, and progress—on purpose. oai_citation:15‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf"
+  },
+  {
+    "objectID": "econ-wk/wk-01.html#syllabus-and-survey",
+    "href": "econ-wk/wk-01.html#syllabus-and-survey",
+    "title": "Week 1",
+    "section": "📓 Syllabus and Survey",
+    "text": "📓 Syllabus and Survey\n\nPlease read the syllabus\nPlease take the anonymous survey on environmental economics"
+  },
+  {
+    "objectID": "survey.html",
+    "href": "survey.html",
+    "title": "Environmental Economics Survey",
     "section": "",
-    "text": "Dive into Causal Machine Learning, The World Bank and Pontificia Universidad Católica del Perú, Alexander Quispe et. al. \nMIT 14.388: Inference on Causal and Structural Parameters Using ML and AI, Department of Economics, MIT, Victor Chernozukhov\n\nPython Website\nJulia Website \n\nMGTECON 634: ML-based Causal Inference, Stanford, Susan Athey \nMachine Learning & Causal Inference: A Short Course, Stanford, Susan Athey, Jan Spiess, and Stefan Wager\n\nTutorial\nYouTube \n\n2018 American Economic Association Continuing Education: Machine Learning and Econometrics, Susan Athey and Guido Imbens \nCausal Inference and Machine Learning in Practice with EconML and CausalML: Industrial Use Cases at Microsoft, TripAdvisor, Uber \nDoubleML: Python and R Packages for the Double/Debiased Machine Learning Framework, P. Bach, V. Chernozhukov, M. S. Kurz, and M. Spindler \nEconML: A Python Package for ML-based Heterogeneous Treatment Effects Estimation, Microsoft \nCausalML: A Python Package for ML-based Causal Inference, Uber"
+    "text": "To help improve our course and gather feedback on perspectives about climate and the environment, please complete the anonymous Environmental Economics Survey.\n\nThe survey is short (about 10 minutes).\n\nYour responses are anonymous and will only be used for teaching and research purposes.\n\nPlease answer thoughtfully and honestly; there are no right or wrong answers.\n\nDeadline: Please submit your responses by August 25, 2025, 11:59 P.M.\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "econml.html#machine-learning-and-big-data",
-    "href": "econml.html#machine-learning-and-big-data",
-    "title": "Causal Machine Learning Bookmarks",
-    "section": "Machine Learning and Big Data",
-    "text": "Machine Learning and Big Data\n\n2023 American Economic Association Continuing Education: Machine Learning and Big Data, Melissa Dell and Matthew Harding \nMachine Learning for Economists (ml4econ), Bank of Israel, Itamar Caspi and Ariel Mansura"
-  },
-  {
-    "objectID": "econml.html#causal-inference",
-    "href": "econml.html#causal-inference",
-    "title": "Causal Machine Learning Bookmarks",
-    "section": "Causal Inference",
-    "text": "Causal Inference\n\nCausal Inference: The Mixtape, Scott Cunningham \nCausal Inference for the Brave and True, Matheus Facure \nCausal Inference and Its Applications in Online Industry, Alex Deng \nApplied Empirical Methods, Yale SOM, Paul Goldsmith-Pinkham\n\nYouTube \n\nCausal Inference with Panel Data, Department of Political Science, Stanford, Yiqing Xu\n\nYouTube \n\nCausal Inference: What If, Miguel A. Hernán and James M. Robins \nRecent Developments in Difference-in-Differences, Vienna University of Economics and Business, Asjad Naqvi \nDifference-in-Differences Blog \nGov 2003: Causal Inference, Department of Government, Harvard, Matthew Blackwell"
-  },
-  {
-    "objectID": "econml.html#researchers-in-causal-machine-learning",
-    "href": "econml.html#researchers-in-causal-machine-learning",
-    "title": "Causal Machine Learning Bookmarks",
-    "section": "Researchers in Causal Machine Learning",
-    "text": "Researchers in Causal Machine Learning\n\nSusan Athey \nAlexandre Belloni \nVictor Chernozhukov \nCarlos Cinelli \nChristian Hansen \nGuido Imbens\nJann Spiess \nStefan Wager"
+    "objectID": "econ-wk/wk-01.html#lecture-1",
+    "href": "econ-wk/wk-01.html#lecture-1",
+    "title": "Week 1",
+    "section": "Lecture 1",
+    "text": "Lecture 1\nEither click on the slide area below or click here to view it in fullscreen.\n\n\n\n\n🎥 Looking for lecture recordings? You can only find those on Brightspace."
   }
 ]

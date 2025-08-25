@@ -1,0 +1,77 @@
+---
+title: Climate Change and the Individual
+subtitle: Project Guideline
+author: Byeong-Hak Choe
+institute: SUNY Geneseo
+date: 2025-08-25
+
+# toc: true
+# toc-depth: 2
+# toc-expand: true
+# toc-title: Contents
+# number-sections: false
+# number-depth: 3
+
+code-fold: false
+
+execute:
+  echo: true
+  eval: true
+  message: false
+  warning: false
+  fig-width: 9
+  fig-height: 6
+---
+```{r}
+#| include: false
+library(tidyverse)
+library(skimr)
+library(broom)
+library(hrbrthemes)
+
+theme_set(theme_ipsum() +
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = element_text(size = rel(1.5) ),
+                axis.title.y = element_text(size = rel(1.5) ))
+          )
+
+# Set global options for color-blind-friendly scales
+# scale_colour_discrete <- function(...) scale_colour_viridis_d(...)
+scale_colour_discrete <- function(...) scale_color_colorblind(...)
+scale_fill_discrete <- function(...) scale_fill_colorblind(...)
+```
+
+
+
+Climate change is a defining global challenge with direct impacts on individuals, communities, and societies. This project invites you to explore the theme *“Climate Change and the Individual”* through research, analysis, and critical reflection.
+
+Project topics should focus on individual and societal responses such as **climate actions, advocacy, awareness, and outreach**. For further inspiration, consider the *problems and possibilities* identified in the 2025–26 Common Read.
+
+## Team Formation and Scope
+- Each project team will consist of **three students**.  
+- Teams must formulate a clear and compelling **research question**.  
+- Projects may be **theoretical, empirical, or a blend of both**.  
+- For empirical work, proposed datasets must receive prior approval from **Byeong-Hak Choe**.  
+
+## Proposal Expectations
+Your team’s proposal should demonstrate critical engagement with a climate change issue by:  
+
+1. **Explaining** the central dilemma or challenge facing society.  
+2. **Identifying** the key questions that must be addressed to develop workable solutions, including any trade-offs between competing objectives.  
+3. **Presenting** relevant evidence that highlights the competing interests involved.  
+4. **Formulating** policy recommendations that logically follow from your analysis.  
+
+## Evaluation Criteria
+Projects will be assessed based on:  
+
+1. **Clarity and originality** of the research question  
+2. **Effectiveness** of the oral presentation  
+3. **Depth** of the economic analysis  
+4. **Quality** of the modeling or empirical analysis  
+5. **Contribution** to peer evaluation of classmates’ presentations  
+
+> **Note:** Any changes to team membership or research topic require prior approval from **Byeong-Hak Choe**.  
+
+
+## Additional Opportunity
+Teams are strongly encouraged to submit their work to the campus-wide [*Ideas that Matter Student Challenge*](https://www.geneseo.edu/cil/ideas-matter-student-challenge) in Spring 2026. This competition shares the same theme, *Climate Change and the Individual*, providing an opportunity to showcase your research to a broader audience.  

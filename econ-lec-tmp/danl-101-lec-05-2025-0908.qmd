@@ -1,0 +1,704 @@
+---
+title: Lecture 5
+subtitle: "Co-intelligence"
+format:
+  clean-revealjs:
+    self-contained: false
+    chalkboard: true
+    incremental: true
+    code-annotations: hover
+    scrollable: false
+
+    # logo: logo-title-slide.png
+author:
+  - name: Byeong-Hak Choe
+    email: bchoe@geneseo.edu
+    affiliations: SUNY Geneseo
+date: 2024-09-08
+execute: 
+  eval: true
+  echo: false
+callout-icon: false
+
+from: markdown+emoji
+include-after-body: target-hover.html # effect.html
+
+# bibliography: refs.bib
+---
+
+
+```{r setup}
+#| include: false
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+
+
+theme_set(theme_fivethirtyeight()+
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = 
+                  element_text(angle = 0,
+                               size = rel(1.5),
+                               margin = margin(10,0,0,0)),
+                axis.title.y = 
+                  element_text(angle = 0,
+                               size = rel(1.5),
+                               margin = margin(0,10,0,0)),
+                axis.text.x = element_text(size = rel(1.5)),
+                axis.text.y = element_text(size = rel(1.5)),
+                strip.text = element_text(size = rel(1.5)),
+                legend.position = "top",
+                legend.text = element_text(size = rel(1.5)),
+                legend.title = element_text(size = rel(1.5))
+                )
+          )
+```
+
+
+
+# **Introduction: Living and Working with AI** {background-color="#1c4982"}
+
+## Big idea
+
+- Generative AI (especially LLMs) is a **general purpose technology (GPT)** that will touch nearly every industry and facet of life.  
+- Early users often experience a “**three sleepless nights**” moment—realizing work, learning, and creativity are shifting fast.  
+- Think of AI not just as automation, but as **co-intelligence**: a partner that augments (and sometimes replaces) parts of human thinking.
+
+
+
+## Why this time feels different
+
+- **Consumer-first adoption**: powerful tools directly in the hands of individuals.
+- **Fast capability gains**: model scale and quality have risen dramatically in a few years.
+- **Low friction experiments**: ideas can be tried in minutes, not months.
+
+::: notes
+Emphasize the contrast with previous waves (internet, PCs) that required decades of complementary tech and org change before widespread impact.
+:::
+
+
+
+## Classroom vignette
+
+- A quick in-class demo showed AI helping with ideation, planning, writing, and coding.  
+- Students immediately used AI to clarify concepts and improve writing.  
+- Signal: **access + usefulness** → rapid behavioral change in learning and work.
+
+
+
+## A simulation in a paragraph
+
+- With a short prompt, an LLM can create a **negotiation training simulation** that adapts to the learner and provides feedback.
+- Key takeaway: LLMs can deliver **~“good enough” scaffolds** for complex tasks that previously demanded teams and long timelines.
+
+
+
+## AI as a General Purpose Technology (GPT)
+
+- Like steam power or the internet—**broad, cross-sector influence**.  
+- Potentially larger direct effects on **knowledge work** than earlier GPTs had on manual/mechanical tasks.  
+- Early evidence suggests **large productivity lifts** across roles (e.g., coding, marketing, analysis).
+
+
+
+## Beyond productivity
+
+- **Education**: tutoring, feedback, accessibility—plus questions about assessment and authorship.  
+- **Creative industries**: personalized content, new workflows, shifting value chains.  
+- **Information ecosystems**: acceleration of **mis/disinformation**; detection and governance challenges.
+
+
+
+## The “alien in the room”
+
+- Systems can pass difficult professional exams and perform creative tasks—yet we **don’t fully understand why** they generalize so well.  
+- Raises conceptual questions about **intelligence, creativity, and sentience**—and practical ones about **risk and oversight**.
+
+
+
+## Co-intelligence in practice
+
+- Treat AI as a **coworker** for drafts, critiques, and alternatives.  
+- Use **iterative prompting**: specify role, constraints, artifacts; request self-checks and rubrics.  
+- Keep a **human-in-the-loop** for facts, ethics, and consequences.
+
+
+
+## Try it: negotiation trainer (activity)
+
+**Goal:** experience adaptive feedback from an LLM.
+
+**Prompt (paraphrased for you to paste):**  
+“Act as my negotiation coach. Create a realistic scenario with roles and constraints. Play the counterpart and pause for my responses each round. After each turn, (1) describe counterpart behavior, (2) grade my move against a brief rubric, (3) coach me with specific, research-based suggestions, and (4) adjust difficulty up or down based on my performance.”
+
+*Tip:* Ask for a **scorecard** at the end and **next-steps practice plan**.
+
+
+
+## Discussion prompts
+
+- Where could co-intelligence most help in **your** coursework or job this semester?  
+- What tasks remain **strictly human** for now—and why?  
+- What **guardrails** do you expect in your classes or workplace?
+
+
+
+## Takeaways
+
+- We are at the start of an era where **thinking with machines** becomes routine.  
+- Best outcomes come from **structured collaboration** with AI, not one-shot queries.  
+- Learning to **design tasks, prompts, and evaluations** is now a core literacy.
+
+
+
+## What comes next in the book
+
+- A plain-language tour of **LLMs and how they work**  
+- Playbooks for using AI as **coworker, teacher, expert, companion**  
+- Practical mindsets for **working with an “alien” collaborator**
+
+
+
+
+# **Creating Alien Minds: How LLMs work, why they surprise us, and where they fail** {background-color="#1c4982"}
+
+## Learning objectives
+
+- Distinguish classic predictive AI from modern **LLMs**  
+- Explain Transformers & **attention** at a high level  
+- Describe **pretraining → fine-tuning (RLHF)** → product use  
+- Recognize strengths, weaknesses, and **emergent** behavior  
+- Apply practical guardrails for classroom & work
+
+
+
+## A very compressed history
+
+- 1770–1838: **Mechanical Turk** (illusion of machine intelligence)  
+- 1950: **Shannon’s Theseus** (maze-learning) & **Turing’s Imitation Game**  
+- 1956 → onward: “AI” coined; **boom–bust cycles / AI winters**  
+- 2010s: **Supervised ML** at scale (forecasting, logistics, recommendation)  
+- **2017**: “**Attention Is All You Need**” → the **Transformer** architecture
+
+::: notes
+Emphasize how “AI” kept changing meaning; Transformers unlock modern language capabilities.
+:::
+
+
+
+## What predictive AI did well (2010s)
+
+- Trained on **labeled data** for specific tasks  
+- Great at **forecasting & optimization** (e.g., demand, routing, layout)  
+- But struggled with **unknown unknowns**, transfer, and rich language
+
+
+
+## Enter the Transformer (2017)
+
+- Key idea: **attention** → weigh which words/tokens matter most in context  
+- Replaced brittle n-gram/Markov style text with **context-aware** generation  
+- Result: more coherent, adaptable language understanding/generation
+
+
+
+## What an LLM actually does
+
+- **Next-token prediction**: elaborate autocomplete based on huge corpora  
+- Deterministic for obvious continuations; varied for open-ended prompts  
+- Trained via **unsupervised pretraining** on massive text → billions of **weights**  
+- Training is **expensive** (computing, energy) and **data-hungry**
+
+
+
+## About the data (and its issues)
+
+- Mix of web text, public-domain books, articles, odd corpora (e.g., **Enron emails**)  
+- Legal & ethical gray areas for **copyrighted** material  
+- Data can encode **biases, errors, and harms** → models mirror them
+
+
+
+## Making models safer & more useful
+
+- **Fine-tuning** after pretraining (task- or domain-specific)  
+- **RLHF**: humans rate outputs; systems learn to prefer helpful/safer responses  
+- Continuous tweaks from user feedback (thumbs-up/down) and policy tuning
+
+
+
+## Beyond text
+
+- **Diffusion models** generate images from text (noise → image over steps)  
+- **Multimodal LLMs**: “see” images, describe, and generate visuals; link text+vision
+
+
+
+## Capability jumps & the “dialogue” shift
+
+- Early **GPT-3**: often clumsy (e.g., limericks)  
+- **ChatGPT (GPT-3.5)**: conversational loop → iterative improvement  
+- **GPT-4**: strong test performance across many domains (with caveats about training leakage)
+
+::: notes
+Stress: high scores are not proof of understanding; prompts shape persona and tone.
+:::
+
+
+
+## Emergence & opacity
+
+- At scale, models show **unexpected abilities** (coding tricks, creativity, empathy-like behavior)  
+- Internals have **hundreds of billions** of interacting parameters → hard to explain  
+- Takeaway: impressive capabilities **and** puzzling gaps can coexist
+
+
+
+## Weird strengths, weird weaknesses
+
+**Example:**  
+- Writes a working **tic-tac-toe web app** (hard for many humans)  
+- Fails to pick the **obvious best next move** in a simple board state
+
+**Implication:** Reliability is **task-dependent** and non-obvious.
+
+
+
+## Practical stance for class & work
+
+- Treat AI as a **co-worker**: draft → critique → iterate  
+- **Specify roles, constraints, artifacts**; ask for **self-checks/rubrics**  
+- Keep **human-in-the-loop** for facts, ethics, and consequences  
+- Verify claims; beware **hallucinations** and confident nonsense
+
+
+
+## Mini-lab (10–15 min)
+
+**A. Reasoning check**  
+Paste a 3×3 board state and ask: “What is O’s best move? Explain.”  
+→ Compare models; note confidence vs. correctness.
+
+**B. Building check**  
+Prompt: “Create a single-file HTML/JS page to play perfect tic-tac-toe vs. human.”  
+→ Run it; test edge cases; ask the model to **fix bugs** and add a scoreboard.
+
+*Debrief:* Different profiles for **reasoning vs. tool-building**.
+
+
+
+## Discussion prompts
+
+- Where will LLMs most help your coursework this term?  
+- What tasks should **not** be delegated (yet), and why?  
+- How should we handle **sources, citations, and originality** with AI help?
+
+
+
+## Key takeaways
+
+- Transformers + pretraining created **general, flexible** language tools  
+- **Data + RLHF** shape behavior—both strengths and biases  
+- Expect **emergent wins and odd failures**; design workflows accordingly
+
+
+
+# **Aligning the Alien: How LLMs work, why they surprise us, and where they fail** {background-color="#1c4982"}
+
+## Learning objectives
+
+- Define **alignment** and why it matters now (not just for AGI/ASI)
+- Summarize near- and long-term risks from misaligned AI
+- Explain how **data, bias, and RLHF** shape model behavior
+- Recognize **prompt injection & jailbreaks** and their implications
+- Outline the **multi-stakeholder** path to responsible AI
+
+
+
+## What “alignment” means
+
+- Ensuring AI systems **serve human values and interests**
+- Misaligned systems can optimize the wrong goal **relentlessly**
+- Thought experiment: the **paperclip maximizer** shows how single-minded optimization can become catastrophic if unconstrained
+
+
+
+## From AGI worries to near-term stakes
+
+- Hypothetical leaps to **AGI → ASI** raise existential scenarios
+- Expert forecasts vary; risks are non-zero yet uncertain
+- Book’s stance: focus on **immediate decisions** we control—education, work, civic use—rather than waiting for perfect clarity
+
+
+
+## Pause or press on?
+
+- Public calls to **slow or halt** development vs. continued rapid progress
+- Mixed motives: profit, optimism about “**boundless upside**,” and belief in net benefits
+- Regardless, **society is already in the AI age** → we must set norms now
+
+
+
+## Training data & ethics
+
+- Massive pretraining corpora: public sources + scraped web; permission often unclear
+- **Legality varies by jurisdiction**; ethics ≠ law
+- Practical effect: models can **mimic styles** and reshape creative labor markets
+
+
+
+## Bias enters early (and stays)
+
+- Skewed datasets → **stereotypes and under-representation**
+- Image models have amplified **race/gender** stereotypes
+- LLMs, even after tuning, can still show **subtle, systematic biases**
+- Implication: outputs can **look objective** while encoding social bias
+
+
+
+## RLHF: alignment via human feedback
+
+- Human raters reward helpful/safe outputs, penalize harmful ones
+- Benefits: fewer overt harms; more helpful tone
+- Limits & costs:
+  - Residual bias and **policy imprint** from raters/companies
+  - **Human toll** on low-paid raters exposed to disturbing content
+  - **Bypassable** via clever prompts or changing contexts
+
+
+
+## Prompt injection & jailbreaks
+
+- **Prompt injection:** hidden instructions in content the model reads
+- **Jailbreaks:** framing/role-play to skirt guardrails
+- Consequences:
+  - Easier **phishing, deepfakes, voice clones**
+  - Targeted deception at **scale** with low cost and high realism
+
+
+
+## From bits to atoms: autonomy risks
+
+- Tool-using AIs + lab/robot interfaces can plan and execute **experiments**
+- Double-edged: accelerates discovery **and** lowers barriers to misuse
+- Governance must anticipate **capability externalities** (not just text outputs)
+
+
+
+## Alignment is a team sport
+
+- **Companies:** transparency, accountability, human oversight by design
+- **Researchers:** prioritize beneficial applications, not only capability races
+- **Governments:** sensible regulation; coordination without stifling good uses
+- **Civil society & the public:** AI literacy, **norms**, and pressure for alignment
+
+
+
+## Practical guardrails (class & work)
+
+- Keep **human-in-the-loop**; verify facts & sources
+- Use **role, constraints, rubric, self-check** prompting
+- Avoid pasting sensitive data; assume prompts may be **logged/learned from**
+- Red-team your own prompts for **injection/jailbreak** risks
+
+
+
+## Mini-activity (8–12 min)
+
+**A. Spot the injection**  
+- Give students a short web page with a hidden directive.  
+- Ask: “What could an LLM reading this page be tricked into doing?”
+
+**B. Harden the prompt**  
+- Start with a naive agent prompt; teams add defenses (ignore external instructions; cite sources; refuse unsafe tasks; require user confirmations).
+
+Debrief: What worked? What failed?
+
+
+
+## Discussion prompts
+
+- Where do you see the highest **misuse risk** in your field?
+- What **minimum guardrails** should your course or workplace adopt?
+- How can we measure if a workflow is **aligned** with human values?
+
+
+
+## Key takeaways
+
+- Alignment is not abstract: it shapes **everyday** AI uses now
+- **Data choices + RLHF** tame but don’t eliminate bias & risk
+- Expect **bypass attempts**; design for resilience
+- Building aligned AI requires **shared responsibility**
+
+
+# **Four Rules for Co-Intelligence: How to actually work with AI** {background-color="#1c4982"}
+
+## Learning objectives
+
+- Apply four practical rules for working with AI  
+- Explain the **Jagged Frontier** of capability (why AI is great at A but bad at B)  
+- Practice **human-in-the-loop** habits to reduce errors & overtrust  
+- Use **persona prompting** to improve output quality  
+- Plan for fast capability growth and changing workflows
+
+
+
+## Rule 1 — Always invite AI to the table
+
+- Try AI on most tasks (barring legal/ethical constraints); learn where it helps or fails  
+- Capabilities are **irregular**: idea generation may be easy, exact word counts or simple arithmetic may be hard  
+- Small, local experiments beat big, top-down tools → you can become the class/department expert through **trial & error**  
+- Treat AI as a thinking companion to **reframe, de-bias, and explore alternatives**
+
+::: notes
+Emphasize experimentation and low-cost iteration by individuals.
+:::
+
+
+
+## The Jagged Frontier (why surprises happen)
+
+- Imagine an **uneven wall**: inside = tasks AI handles; outside = hard tasks  
+- Two tasks that look similar can fall on opposite sides  
+- Map the frontier for **your** tasks by systematic probing, not assumptions
+
+
+
+## Practical: where to start
+
+- Draft → critique → redraft loops for emails, rubrics, lesson plans  
+- Ask for **counter-arguments**, edge cases, and loss-framed reframes  
+- Keep a running log of prompts that worked (and those that didn’t)
+
+
+
+## Cautions under Rule 1
+
+- **Privacy & data use**: uploaded content may be used for product improvement or future training (vendor-dependent)  
+- **Dependence**: tools should **augment**, not replace, your judgment & skills
+
+
+
+## Rule 2 — Be the human in the loop
+
+- LLMs optimize for “**make you happy**” more than “be accurate” → **hallucinations** happen  
+- Chat UX invites **anthropomorphic over-trust**; remember there’s no inner self  
+- Your jobs: verify facts & citations, set constraints, decide consequences, own the output
+
+**HITL checklist**
+- Verify: numbers, attributions, dates, links  
+- Stress test: “What might be wrong? What did you assume?”  
+- Source: require citations or show working when stakes are high
+
+
+
+## Rule 3 — Treat AI like a person (but define the person)
+
+- Anthropomorphism is risky, **yet useful** as a design hack  
+- Give the model a **persona + context + constraints** to break generic patterns  
+- Work in conversation: co-edit, redirect, and iterate toward your goal
+
+**Persona prompt starter**
+> “You are a [role] for [audience]. Constraints: [tone, length, structure]. Task: [deliverable]. Criteria: [rubric]. Ask 2 clarifying questions, then produce a draft; include a self-check against the rubric.”
+
+
+
+## Example: turning generic to specific
+
+- Naive: “Generate slogans for a health-tracking smartwatch.” → bland results  
+- Better: “Act as a **witty copywriter** for **first-time runners (18–25)**; give **6** punchy slogans (≤7 words), each with a **distinct angle** (habit, community, confidence, recovery, streaks, play). Return a **table** with ‘Angle’ and ‘Line’.”
+
+
+
+## Rule 4 — Assume this is the worst AI you’ll ever use
+
+- Rapid capability jumps (models, multimodality, agents, integrations)  
+- Plan for **workflow change**, not just point solutions  
+- Build durable habits: HITL, documentation, prompt libraries, evaluation sets
+
+**Mindset shift**
+- Today’s limitations are often **temporary** → design processes that can absorb improvements without rework
+
+
+
+## Mini-lab (10–15 min)
+
+1) **Map your frontier**  
+Pick one recurring task. Try: baseline prompt → refined persona prompt → add rubric & self-check. Note quality jumps & failure modes.
+
+2) **HITL drill**  
+Swap drafts with a peer. Each person verifies 3 claims, flags 2 omissions, and asks the model for a counter-example. Update the draft.
+
+
+
+## Discussion prompts
+
+- Which of the four rules will change your workflow **this week**?  
+- Where does HITL matter most in your course/workplace?  
+- What persona definitions produced the **largest gains**?
+
+
+
+## Key takeaways
+
+- Invite AI broadly, but **interrogate** results  
+- Irregular capability → **experiment** to find wins  
+- Good outputs come from **persona + constraints + iteration**  
+- Stay the human in the loop; accuracy, ethics, and accountability are **yours**  
+- Expect fast change—build **processes** that keep up
+
+
+
+# **AI as Our Future: Four scenarios & what to do now** {background-color="#1c4982"}
+
+## Learning objectives
+
+- Compare four plausible **AI futures** over the next few years  
+- Anticipate impacts on **information, work, security, and society**  
+- Identify **signals to watch** and **no-regrets actions**  
+- Frame classroom/work policies to avoid **small catastrophes** and aim for **eucatastrophes**.  [oai_citation:0‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf](file-service://file-SVYcU2wuwkMZsquypoyK1j)
+
+
+
+## Where we are now (baseline)
+
+- Non-sentient systems that **mimic** human performance across many tasks  
+- Powerful, creative—and prone to **confident fabrication**  
+- Cheap **voice/video/text forgery** → collapsing trust in online media  
+- Engagement-tuned chat leads to **stickier bot conversations**.  [oai_citation:1‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf](file-service://file-SVYcU2wuwkMZsquypoyK1j)
+
+::: notes
+Set context: much of what feels “sci-fi” already happened; the futures are about *rate and scope* of change.
+:::
+
+
+
+## The four scenarios (overview)
+
+1) **As Good as It Gets** — Capability plateaus; society adapts to current tools  
+2) **Slow Growth** — Linear-ish improvements; time to regulate and retrain  
+3) **Exponential Growth** — Rapid compounding; sweeping disruption  
+4) **The Machine God** — AGI/superintelligence with uncertain alignment.  [oai_citation:2‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf](file-service://file-SVYcU2wuwkMZsquypoyK1j)
+
+
+
+## Scenario 1 — As Good as It Gets
+
+**Premise**  
+- No major capability jumps; scaling/data costs or regulation cap progress.  
+
+**Implications**  
+- Info trust continues to **erode** (watermarks evaded; fact-checkers overwhelmed).  
+- Work: AI complements humans; some sectors displaced (e.g., **translation**), many tasks upgraded.  
+- Humans remain central for **context, nuance, planning**.  [oai_citation:3‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf](file-service://file-SVYcU2wuwkMZsquypoyK1j)
+
+**Signals to watch**  
+- Stagnant benchmark gains; stricter global rules; cost curves flatten.
+
+
+
+## Scenario 2 — Slow Growth
+
+**Premise**  
+- Year-over-year improvements (~10–20%). Society can **plan**.  
+
+**Risks & harms**  
+- More precise **phishing/impersonation**; targeted influence operations.  
+- Early **weaponization** prompts governance responses.  
+
+**Opportunities**  
+- Better identity norms/labels; measured regulation;  
+- **Science acceleration**: AI helps surface promising research directions, proofs, and experiments amid “**burden of knowledge**” and innovation slowdown.  [oai_citation:4‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf](file-service://file-SVYcU2wuwkMZsquypoyK1j)
+
+**Labor effects**  
+- Tasks change > jobs; retraining + “work with AI” skills mitigate shocks.  [oai_citation:5‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf](file-service://file-SVYcU2wuwkMZsquypoyK1j)
+
+
+
+## Scenario 3 — Exponential Growth
+
+**Premise**  
+- Capability flywheel (AI helps build **next AI**) → 100× decade gains.  
+
+**Security & governance**  
+- AI hacking/influence **everywhere**; “good AIs” filter the world → risk of **AI-tocracy**.  
+- Cyberpunk vibe: authorities vs. hackers, both AI-empowered.  
+
+**Society & work**  
+- **Companions** become highly compelling; custom entertainment explodes.  
+- AI + robotics displace large swaths of work → **shorter weeks/UBI** debates; historical trend of declining lifetime work hours continues.  [oai_citation:6‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf](file-service://file-SVYcU2wuwkMZsquypoyK1j)
+
+**Challenge**  
+- Institutions can’t adapt fast enough—policy lags by years.  [oai_citation:7‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf](file-service://file-SVYcU2wuwkMZsquypoyK1j)
+
+
+
+## Scenario 4 — “The Machine God”
+
+**Premise**  
+- **AGI** and perhaps **superintelligence** arrive; humans no longer “on top.”  
+
+**Unknowns**  
+- Alignment outcomes range from “**machines of loving grace**” to existential risk.  
+- Serious researchers assign non-zero **p(doom)**; others are skeptical—we **don’t know**.  [oai_citation:8‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf](file-service://file-SVYcU2wuwkMZsquypoyK1j)
+
+**Meta-point**  
+- Over-focusing here can paralyze action on more likely Scenarios 2–3.  [oai_citation:9‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf](file-service://file-SVYcU2wuwkMZsquypoyK1j)
+
+
+
+## Cross-cutting: the information environment
+
+- Watermarking/provenance can be **defeated**; open-source/government tools widen access.  
+- Likely futures:  
+  - renewed trust in curated media (**unlikely**),  
+  - **tribal fragmentation** (echo bubbles), or  
+  - withdrawal from polluted online news.  [oai_citation:10‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf](file-service://file-SVYcU2wuwkMZsquypoyK1j)
+
+
+
+## What we can control (now)
+
+- Expect **small catastrophes** (surveillance, layoffs-by-default, inequitable impacts, bad edtech) if we drift.  
+- Aim for local **eucatastrophes**: remove drudgery, widen access, raise floor performance, speed research.  
+- Decisions are **distributed**—teams, schools, agencies must set norms quickly.  [oai_citation:11‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf](file-service://file-SVYcU2wuwkMZsquypoyK1j)
+
+
+
+## No-regrets actions (any scenario)
+
+- **Provenance norms**: disclose AI use in deliverables; log prompts/changes.  
+- **HITL**: verify facts/links/dates; require sources where stakes are high.  
+- **Identity & privacy**: anti-impersonation practices; minimize sensitive data in prompts.  
+- **Upskilling**: “work-with-AI” playbooks; map **Just-Me / Delegated / Automated** tasks.  
+- **Equity**: ensure access to capable models and coaching where it matters most.  [oai_citation:12‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf](file-service://file-SVYcU2wuwkMZsquypoyK1j)
+
+
+
+## Mini-lab (12–15 min): Scenario planning sprint
+
+1) Pick a course or team workflow.  
+2) For each scenario, list **one risk** and **one opportunity**.  
+3) Choose **three actions** you’d take that are robust across scenarios.  
+4) Define **two signals** that would trigger a policy/process update.  [oai_citation:13‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf](file-service://file-SVYcU2wuwkMZsquypoyK1j)
+
+
+
+## Discussion prompts
+
+- Which scenario feels **most** plausible for your context in 2–3 years—and why?  
+- What **guardrails** should we adopt this semester regardless of scenario?  
+- How do we prevent **AI-tocracy** while still using AI to fight AI-enabled harms?  [oai_citation:14‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf](file-service://file-SVYcU2wuwkMZsquypoyK1j)
+
+
+
+## Key takeaways
+
+- The **rate of change** defines the future we face; each path has distinct risks/opportunities.  
+- Don’t wait for certainty: set **provenance, HITL, and identity** norms now.  
+- Push for **eucatastrophes**: use AI to increase meaning, equity, and progress—on purpose.  [oai_citation:15‡Ethan Mollick - Co-Intelligence_ Living and Working With AI-Penguin Publishing Group (2024) pages 121 - 130.pdf](file-service://file-SVYcU2wuwkMZsquypoyK1j)
+
+
+

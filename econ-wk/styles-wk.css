@@ -1,0 +1,9 @@
+#quarto-sidebar .sidebar-item-section > .sidebar-section > li:first-child {
+  margin-top: 0.0rem !important;
+  padding-top: 0.4rem !important;
+}
+
+/* Make section spacing consistent */
+#quarto-sidebar .sidebar-item-section > .sidebar-section {
+  margin-bottom: 0.5rem !important;
+}

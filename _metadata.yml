@@ -14,7 +14,8 @@ title-block-banner: false
 open-graph:
   image: /assets/img/posts.png
 date-format: long
-date-modified: last-modified
+date: last-modified
+# date-modified: last-modified
 # code-tools:
 #   source: repo
 #   caption: none
@@ -23,17 +24,17 @@ include-after-body:
     <div id="scroll-padding"></div>
     <script src='/assets/js/site.js'></script>
     <script src='/assets/js/posts.js'></script>
-comments:
-  giscus:
-    repo: bcecon/bcecon.github.io
-    mapping: title
-    reactions-enabled: true
-    loading: lazy
-    input-position: top
-    theme: preferred_color_scheme
-    language: en
+# comments:
+#   giscus:
+#     repo: bcdanl/bcdanl.github.io
+#     mapping: title
+#     reactions-enabled: true
+#     loading: lazy
+#     input-position: top
+#     theme: preferred_color_scheme
+#     language: en
 
-toc: true
+# toc: true
 
 # appendix-cite-as: display
 # license:

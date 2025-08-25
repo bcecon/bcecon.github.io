@@ -1,0 +1,395 @@
+---
+title: Syllabus
+subtitle: "ECON 340: Environmental Economics, Fall 2025"
+author: "Byeong-Hak Choe"
+number-sections: false
+toc: true
+toc-depth: 4
+toc-expand: 2
+toc-title: "
+<div style='white-space:nowrap;'>
+  <img src='/img/logo-geneseo.jpg'
+       style='height:48px; display:inline-block; vertical-align:middle; margin-right:0px;'>
+  <span style='display:inline-block; vertical-align:middle; font-family:Arial; font-weight:bold; line-height:1.05;'>
+    Data<br>Analytics
+  </span>
+</div>
+<br>On this page"
+css: [weeks/styles-wk.css]
+---
+
+# Course Information
+
+- **Instructor**: Byeong-Hak Choe
+- **Email**: [bchoe@geneseo.edu](mailto:bchoe@geneseo.edu)
+- **Phone**: (585) 245-5425
+- **Class Websites**:
+  - [GitHub Course Website](https://bcecon.github.io)
+  - [Brightspace Course Shell](https://mylearning.suny.edu/d2l/home/2152120)
+- **Office**: South Hall 227B
+- **Office Hours**:
+  - Mondays and Wednesdays 3:30 P.M. – 5:00 P.M.
+  - By appointment via email
+
+
+# Revised Course Description
+This course will focus on the role of the environment in the theory and practice of economics. Emphasis is given to the role of market failure in explaining the existence of pollution, to alternative public policies for pollution control and environmental management, and to problems associated with energy policy and climate change. It will make use of microeconomic analysis at the intermediate level and will incorporate real-world examples. The class will be divided into three parts. Part I will cover the ways in which markets fail to efficiently allocate resources in the presence of pollution along with environmental policies used to correct those failures. Part II will focus on energy policy and the basics of climate-related science, technology, and adaptation policies. Part III will focus on measuring the benefit of environmental protection. The course allows one to have a smart, intelligent, and informed conversation about environmental, energy, and climate change policies.
+
+
+# School of Business Mission
+The School of Business at SUNY Geneseo is committed to exceptional business and economics education within the context of a strong liberal arts tradition. The School is distinguished by a uniquely accomplished and dedicated faculty, motivated and capable students, a robust professional development program, and the engaged support of alumni, employers, and business leaders. Students acquire strong quantitative, analytical, and communication skills while preparing for professional success as socially conscious contributors. We strive for teaching excellence, and we recognize that high-quality faculty scholarship and professional activities increase our impact on knowledge, practice, and pedagogy.
+
+
+# Bachelor of Arts in Economics Program Competency Goals
+- **Competency Goal 1**: Our learners will have strong quantitative skills
+- **Competency Goal 2**: Our learners will have strong analytical skills
+- **Competency Goal 3**: Our learners will have effective communication skills
+- **Competency Goal 4**: Our learners will have a thorough understanding of core economic theories
+- **Competency Goal 5**: Our learners will have a multidimensional understanding of social responsibility
+
+# Globe Learning Outcome - Social Sciences
+Students will demonstrate
+-	Understanding of at least one social scientific method, including quantitative and qualitative research designs; hypothesis development and testing; observation, measurement, and data collection; statistical and interpretive analysis; scientific communication; 
+-	Knowledge of some major social scientific concepts, models, and theories; 
+-	Familiarity with some social, political, economic, and moral issues of concern to social scientists. 
+
+
+# Course Learning Outcomes
+- Understand the central concepts and theories of environmental economics.
+- Frame an environmental policy question from an economist’s perspective.
+- Acquire a toolkit of methods for environmental and energy economics and public policies.
+- Understand the economic drivers and implications of climate change in order to be able to describe the whole purpose of the climate policies.
+
+
+# Course Requirements
+- **Homework**: 5 assignments
+- **Quizzes**: 2 in-class quizzes
+- **Participation**: In-person and online participation
+- **Team Project**: *Climate Change and the Individual project* with team presentation and proposal
+- **Exams**: 2 midterms and 1 final
+- **Tools**:
+  - [Brightspace](http://brightspace.geneseo.edu/)
+    - [Privacy Policy](https://www.d2l.com/legal/privacy/)
+  - [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software)
+    - [Services Agreement](https://www.microsoft.com/en-us/servicesagreement#14e_Skype)
+  - [GitHub](https://github.com)
+    - [Site Policy](https://docs.github.com/en/site-policy/)
+
+
+
+# Team Project – Climate Change and the Individual  
+
+Project topics should focus on climate change actions, advocacy, awareness, and outreach. For additional ideas, consider the [problems and possibilities](https://www.getitright.earth/problems-possibilities).  
+
+Each team will consist of **three students**. Teams must develop a clear **research question** for their term paper. The proposal may be **theoretical, empirical, or a combination of both**. For empirical work, the proposed dataset must be approved in advance by **Byeong-Hak Choe**.
+
+## Expectations for the Proposal
+Your team’s proposal should critically examine a climate change issue by:  
+1. **Explaining** the central dilemma facing society.  
+2. **Identifying** the key questions that must be addressed to develop solutions, while acknowledging the trade-offs between objectives.  
+3. **Presenting** appropriate evidence to analyze the competing interests involved.  
+4. **Formulating** policy recommendations that logically follow from your analysis.  
+
+## Evaluation Criteria  
+Team project will be evaluated on:  
+1. Quality of the research question  
+2. Quality of the oral presentation  
+3. Strength of the economic analysis  
+4. Quality of the modeling analysis  
+5. Peer evaluation of other students’ presentations  
+
+**Note:** Any change in team membership or research topic requires approval from **Byeong-Hak Choe**.  
+
+## Additional Opportunity  
+Your team is encouraged to participate in the campus-wide [Ideas that Matter Student Challenge](https://www.geneseo.edu/cil/ideas-matter-student-challenge) in Spring 2026, aligned with the 2025–26 theme *Climate Change and the Individual*. 
+
+
+# Required Textbook
+
+All required books are open access with free PDF files:
+  
+- [*An Introduction to Energy Economics and Policy*](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/330248A5D38A65BF463C59A26E193CB7/9781009471817AR.pdf/An_Introduction_to_Energy_Economics_and_Policy.pdf?event-type=FTLA), by Massimo Filippini and Suchita Srinivasan (Henthforce, FS)
+  - ISBN-10: 1009471821
+  - ISBN-13: 978-1009471831
+
+- [*Microeconomics and the Environment*](https://www.bu.edu/eci/files/2024/07/MicroAndtheEnvironment-2024.pdf), by Brian Roach, Erin Lennox and Anne-Marie Codur (Henceforth, RLC)
+  
+- [*Energy Economics and Policy*](https://www.bu.edu/eci/files/2025/06/Energy-Economics-and-Policy-Module-2025.pdf), by Brian Roach and Jonathan M. Harris (Henceforth, RH)
+
+- [*The Economics of Renewable Energy*](https://www.bu.edu/eci/files/2024/03/renewable-energy-econ-module-final.pdf), by David Timmons, Jonathan Harris and Brian Roach (Henceforth, THR)
+
+- [*The Economics of Global Climate Change*](https://www.bu.edu/eci/files/2025/07/Climate-Module-2025-final.pdf), by Jonathan M. Harris, Brian Roach and Anne-Marie Codur (Henceforth, HRC)
+
+
+
+# Recommended References
+
+- [*Global Climate Change: The Pragmatist’s Guide to Moving the Needle*](https://climate-change.ivo-welch.info/home/), by Ivo Welch and Bradford Cornell  
+  - ISBN-10: 0984004998  
+  - ISBN-13: 978-0984004997  
+
+- [*What If We Get It Right?: Visions of Climate Futures*](https://www.getitright.earth), by Ayana Elizabeth Johnson  
+  - ISBN-10: 0593229363  
+  - ISBN-13: 978-0593229361  
+
+- [*An Introduction to Natural Disaster Economics*](https://docs.google.com/document/d/1mh6ltbYDUguee8JkPfPGGfM26Lz7cEa7/edit?usp=sharing&ouid=113346383464248167416&rtpof=true&sd=true), by Matthew Khan  
+
+- **Economics and the Environment** by Eban S. Goodstein, Jason Wong, and Stephen Polasky (10th Edition; Henthforce, GWP)  
+  - ISBN-10: 1394307950  
+  - ISBN-13: 978-1394307951  
+
+- **Environmental and Natural Resource Economics**, by Tom Tietenberg and Lynne Lewis (12th Edition; Henthforce, TL)  
+  - ISBN-10: 1032101180  
+  - ISBN-13: 978-1032101187  
+
+- **Introduction to Environmental Economics**, by Nick Hanley, Jason Shogren, and Ben White (3rd Edition; Henthforce, HSW)  
+  - ISBN-10: 0198737238  
+  - ISBN-13: 978-0198737230  
+
+- **Environmental and Natural Resource Economics: A Contemporary Approach**, by Jonathan Harris and Brian Roach (5th Edition)  
+  - ISBN-10: 0367531380  
+  - ISBN-13: 978-0367531386  
+
+- **Markets and the Environment**, by Nathaniel O. Keohane and Sheila M. Olmstead (2nd Edition)  
+  - ISBN-10: 1610916077  
+  - ISBN-13: 978-1610916073  
+
+
+# Course Schedule
+
+| Week | Dates       | Topic                                          | Materials |
+|:---:|:-------------:|:----------------------------------------------|:------|
+| 1   | Aug 25–29    | Introduction; Microeconomics Review  | FS Ch.1; RLC Ch.1-2; HRC |
+| 2   | Sep 2–5      | Market Failures and Behavioral Anomalies | FS Ch.2; RLC Ch2-3 |
+| 3   | Sep 8–12     | Market Failures and Behavioral Anomalies | FS Ch.2; RLC Ch.3 |
+| 4   | Sep 15–19    | Market Failures and Behavioral Anomalies | FS Ch.2; RLC Ch.3 |
+| 5   | Sep 22–26    | Market Failures and Behavioral Anomalies | FS Ch.2; RLC Ch.3 |
+| 6   | Sep 29–Oct 3 | Public Goods and Common Pool Resources   | FS Ch.2; RLC Ch.3 |
+| 7   | Oct 6–10     | Public Goods and Common Pool Resources   | FS Ch.2; RLC Ch.3 |
+| 8   | Oct 15–17    | Economics of Global Climate Change    | HRC |
+| 9   | Oct 20–24    | Energy Policy  | FS Ch.7-8; RH; THR |
+| 10  | Oct 27–31    | Energy Policy  | FS Ch.7-8; RH; THR |
+| 11  | Nov 3–7      | Energy Policy  | FS Ch.7-8; RH; THR |
+| 12  | Nov 10–14    | Climate Change Adaptation: Floods and Wildfire   | TL Ch.14 |
+| 13  | Nov 17–21    | Measuring the Benefits of Environmental Protection |  RLC Ch.4; GWP Ch.5; HSW Ch.5  |
+| 14  | Nov 24–25    | Measuring the Benefits of Environmental Protection |  RLC Ch.4; GWP Ch.5; HSW Ch.5  |
+| 15  | Dec 1–5      | Team Presentations   |    |
+| 16  | Dec 8-12     | Summary              |    |
+
+
+### No Classes
+- Week 2 (Sep 1): **Labor Day**
+- Week 8 (Oct 13–14): **Fall Break**
+- Week 14 (Nov 26–28): **Thanksgiving Break**
+
+### Homework, Quiz, Exam & Team Project Schedule
+- Week 4 (Sep 15–19): **Homework 1**: 
+- Week 7 (Oct 6–10): **Homework 2, Quiz 1 & Midterm Exam 1**
+- Week 10 (October 31, Friday, 11:59 P.M.): **Project Kickoff Report**
+- Week 11 (Nov 3–7): **Homework 3**
+- Week 13 (Nov 17–21): **Homework 4, Quiz 2, & Midterm Exam 2**
+- Week 15 (Dec 1–5): **Team Presentations**
+- Week 16 (Dec 8-12): **Homework 5**
+- Week 16 (December 10, Wednesday, 8:30 P.M.-10:30 P.M.) : **Final Exam**
+- Week 17 (December 16, Tuesday, 11:59 P.M.): **Project Proposal**
+
+
+# Attendance
+
+Students are allowed up to **six absences** without penalty. Additional absences may affect your grade unless they are formally excused. If you must miss class for a standard excused reason (e.g., illness, family emergency, transportation issues), please notify me at [bchoe@geneseo.edu](mailto:bchoe@geneseo.edu) so the absence can be recorded appropriately.
+
+Regular attendance is expected, as discussions, activities, and projects are central to your learning. If you anticipate challenges that may affect your attendance, please reach out—I am happy to work with you to help you stay on track.
+
+# Grading
+
+- **Total Percentage Grade**
+  - **Attendance**: 5%  
+  - **Quizzes & Participation**: 5%  
+  - **Homework**: 20% *(single lowest homework score dropped)*  
+  - **Team Project**: 20%  
+  - **Exams**: 50%
+$$
+\begin{align}
+\quad\\
+&\text{(Total Percentage Score)} \\
+= &\quad\; 0.05 \times \text{(Attendance)} \\
+&+ 0.05 \times \text{(Quiz \& Participation)}\\
+&+ 0.20 \times \text{(Homework)}\\
+&+ 0.20 \times \text{(Team Project)}\\
+&+ 0.50 \times \text{(Exams)}
+\end{align}
+$$
+
+- **Exam Score Calculations**
+
+$$
+\begin{align}
+&\quad(\text{Midterm Exam Score})\\
+&= \max\left\{0.50 \times \text{(Midterm 1 Score)} + 0.50 \times \text{(Midterm 2 Score)},\right.\\ 
+&\qquad\quad\;\;\,\left.0.33 \times \text{(Midterm 1 Score)} + 0.67 \times \text{(Midterm 2 Score)}\right\}.
+\end{align}
+$$
+
+- The Midterm Exam Score will be the **higher** of the following two calculations:  
+
+  1. The simple average of Midterm Exam 1 and Midterm Exam 2
+  2. The weighted average, with one-third weight on Midterm Exam 1 and two-thirds weight on Midterm Exam 2
+
+
+$$
+\begin{align}
+&\quad(\text{Total Exam Score})\\
+&= \max\left\{0.50 \times \text{(Midterm Exam Score)} + 0.50 \times \text{(Final Exam Score)},\right.\\ 
+&\qquad\quad\;\;\,\left.0.25 \times \text{(Midterm Exam Score)} + 0.75 \times \text{(Final Exam Score)}\right\}.
+\end{align}
+$$
+
+- The Total Exam Score will be the **higher** of the following two calculations:  
+
+  1. The simple average of Midterm Exam and Final Exam
+  2. The weighted average, with one-fourth weight on Midterm Exam and three-forth weight on Final Exam.
+  
+  
+
+- **Team Project Score**
+$$
+\begin{align}
+&\quad\text{(Team Project Score)}\\
+&= \;\;\; 0.05 \times \text{(Peer Evaluation)}\\
+&\quad + 0.10 \times \text{(Project Kickoff Report)}\\
+&\quad + 0.50 \times \text{(Presentation)}\\
+&\quad + 0.35 \times \text{(Proposal)}.
+\end{align}
+$$
+
+- **Letter Grade Scale**  
+Total percentage scores are converted to letter grades according to the following ranges:
+
+$$
+\begin{align}
+100 &≥ A ≥ 93 > A− ≥ 90\\
+90 &> B+ ≥ 87 > B ≥ 83 > B− ≥ 80\\
+80 &> C+ ≥ 77 > C ≥ 73 > C− ≥ 70\\
+70 &> D ≥ 60 > E
+\end{align}
+$$
+
+# Policies
+
+### Make-up Exams
+Make-up exams will not be given unless you have either a medically verified excuse or an absence excused by the University. For religious obligations, notify the instructor by email at least two weeks in advance to set an alternative time. A missed exam without an excused absence earns a grade of zero.
+
+### Artificial Intelligence (AI)
+Unless AI tools are explicitly permitted for homework or in-class quizzes, you must complete your work independently. Using tools like ChatGPT for any aspect of coursework is a form of academic dishonesty and undermines the development of your own skills. If you have questions, please ask.
+
+<!-- #### Some AI Use Permitted, however use must be disclosed and additional documentation needs to be submitted -->
+
+<!-- ⚠️ You may use AI tools only for assignments where I have given you specific permission. -->
+
+<!-- ##### ✔️ Approved use cases for AI tools for this assignment: -->
+
+<!-- - 📊 Allowed to help analyze data and generate insights. -->
+
+<!-- 📢 You must acknowledge your use of AI tools in this course. -->
+
+##### 📝 If you use AI for a particular assignment and/or project, you must also:
+
+- 📝 You must document which AI platforms and tools you used.
+- 📤 You must include your prompts and AI outputs with your assignment submission.
+- 🧠 You must include a reflection on your AI usage and learning process.
+
+### Academic Integrity and Plagiarism
+All homework assignments and exams must be your original work. Academic dishonesty will not be tolerated. Examples include:
+
+- Representing the work, thoughts, or ideas of another person as your own  
+- Allowing others to represent your work, thoughts, or ideas as theirs  
+- Being complicit in academic dishonesty by suspecting or knowing of it and not taking action
+
+See: [Academic Dishonesty Policy and Procedures](https://www.geneseo.edu/handbook/academic-dishonesty-policy) and [Plagiarism Tutorial Brightspace Link](https://mylearning.suny.edu/d2l/le/discovery/view/course/2225415)
+
+
+<!-- ### Student Course Experience (SCE) Survey -->
+<!-- During the last two weeks of the semester, students are invited and encouraged to complete a four-item course experience survey through KnightWeb. Responses are completely anonymous at all times, and the results are only shared with instructors after final grades have been submitted. Instructors use the feedback to improve their courses in the future, and results from the SCE surveys are included in faculty portfolios used in renewal, tenure and promotion decisions. To participate: In a web browser, visit MyGeneseo. Select KnightWeb, Surveys, then SCE Surveys. -->
+
+
+### Accessibility
+SUNY Geneseo is dedicated to providing an equitable and inclusive educational experience for all students. The Office of Accessibility (OAS) will coordinate reasonable accommodations for persons with disabilities to ensure equal access to academic programs, activities, and services offered by SUNY Geneseo.
+
+Students with approved accommodations may submit a [semester request](https://www.geneseo.edu/accessibility-office/renew-academic-accommodations) to renew their academic accommodations. More information on the process for [requesting academic accommodations](https://www.geneseo.edu/accessibility-office/requesting-academic-accommodations) is on the OAS website.
+
+**Questions? Contact the OAS by email, phone, or in-person**:
+
+[Office of Accessibility Services](https://www.geneseo.edu/accessibility-office)  
+Erwin Hall 22  
+585-245-5112  
+[access@geneseo.edu](mailto:access@geneseo.edu)
+
+### Public Health and Class Attendance
+If you are experiencing symptoms associated with COVID on a day that class meets in-person, do not attend. Communicate proactively about absences and contact the Dean of Students if you expect to be out for an extended period.
+
+### Religious Observations and Class Attendance
+New York State Education Law 224-a stipulates that “any student in an institution of higher education who is unable, because of [their] religious beliefs, to attend classes on a particular day or days shall, because of such absence on the particular day or days, be excused from any examination or any study or work requirements” (see [General Classroom Policies for more information](https://www.geneseo.edu/apca/classroom-policies)). SUNY Geneseo has a commitment to inclusion and belonging, and I want to stress my respect for the diverse identities and faith traditions of students in my class. If you anticipate an absence due to religious observations, please contact me as soon as possible in advance to discuss your needs and arrange make up plans. The New York State Department of Civil Service maintains a [calendar of major religious observations](https://www.cs.ny.gov/attend_leave_manual/030Appendices/B-CalendarofLegalHolidays/AppendixB_CalendarTOC.htm).  
+
+
+### Military Obligations and Class Attendance
+Federal and New York State law requires institutions of higher education to provide an excused leave of absence from classes without penalty to students enrolled in the National Guard or armed forces reserves who are called to active duty. If you are called to active military duty and need to miss classes, please let me know and consult as soon as possible with the Dean of Students. 
+
+### Bias-Related Incidents
+
+> "We are here to listen, to learn, to teach, to debate, to change, to grow. We should all be safe to pursue these goals at SUNY Geneseo while being who we are. Together, we commit ourselves to pluralism, cultivating a community that respects difference and promotes a sense of inclusion and belonging."
+
+As this excerpt from our Community Commitment to Diversity, Equity, and Inclusion states, here at SUNY Geneseo, we want to provide a space where everyone feels welcome to learn and grow in their identities as well as in their role as students, faculty, and staff. If in the unfortunate instance you witness or experience an incident of bias, we encourage you to reach out to the [Chief Diversity Officer](mailto:rking@geneseo.edu), [Director of Multicultural Affairs](mailto:charcum@geneseo.edu), and/or our University Police Department. You may also choose to report it through the [bias-related incident reporting form](https://cm.maxient.com/reportingform.php?SUNYGeneseo&layout_id=5).  In trying to create an environment that facilitates growth through diverse thoughts and ideas, reporting incidents of bias - including threats, vandalism, and microaggressive behaviors - can help bring a better understanding of our campus climate as well as provide opportunities for learning and restoring harm.
+
+
+
+# Personal Health, Well-being, and Basic Needs
+
+### Well-Being 
+Prioritizing well-being can support the achievement of academic goals and alleviate stress. Eating nutritious foods, getting enough sleep, exercising, avoiding drugs and alcohol, maintaining healthy relationships, and building in time to relax all help promote a healthy lifestyle and general well-being. Your health and wellbeing are foundational to your ability to learn, and if you find that you are feeling unwell (physically or mentally) and it is impacting your ability to complete your coursework, please reach out. In a similar way, I will occasionally ask for some patience and flexibility on your part. 
+
+If I am slow responding to an email, if I take some time to grade an assignment, or if I am a bit late posting course materials, please be patient (and feel free to send me a ‘nudge’; I will not be offended). You will never suffer any disadvantage in the course because of delays on my part. Remember that we are all in this together.
+
+### Basic Needs Statement
+In order to foster a sense of belonging and connection, a state of financial, mental, emotional and physical stability must be achieved. If you are facing food insecurity, displacement, an emergency, crisis, or health-related or medical expense, you are not alone. Concerns about academic performance, health situations, family health and wellness (including the loss of a loved one), interpersonal relationships and commitments, and other factors can contribute to stress. Students are strongly encouraged to communicate their needs to faculty and staff and seek support if they are experiencing unmanageable stress or are having difficulties with daily functioning. The Dean of Students (585-245-5706) can assist and provide direction to [appropriate campus resources](https://www.geneseo.edu/student_life/resources-student-basic-needs). For more information, visit the [Dean of Students Office website](https://www.geneseo.edu/dean_students).
+
+### Mental Health
+As a student, you may experience a range of challenges that can impact your mental health and thus impact your learning; common examples include increased anxiety, shifts in mood, strained relationships, difficulties related to substance use, trouble concentrating, and lack of motivation, among many others. These experiences may reduce your ability to participate fully in daily activities and affect your academic performance.
+
+SUNY Geneseo offers free, confidential counseling for students through Student Health and Counseling, and seeking support for your mental health can be key to your success at college. You can learn more about the [various mental health services available on campus online](https://www.geneseo.edu/health/counseling). To request a counseling appointment, please [complete the online form](http://myhealth.geneseo.edu/).
+
+### Guidelines for Attendance and Public Health
+SUNY Geneseo is a residential liberal arts college where we all learn together in a shared space. This classroom community is vital for engaging in discussions, solving problems, and answering questions together. Learning is an active process, and it requires engagement - on my part and yours. I promise to create an interactive and collaborative classroom space, and in return I expect you to attend and engage in the activities. 
+
+It’s possible that some of you may get sick over the course of the semester. Because we want you to be successful and because we value your contribution to the course, we expect you to prioritize attendance. If you are not feeling well and your symptoms do not allow you to attend class, stay home (except to go to the health center), rest, and take care of yourself. You can find more [guidelines from the Center for Disease Control](https://www.cdc.gov/respiratory-viruses/prevention/precautions-when-sick.html) for precautions when sick which cover flu, COVID, and other illnesses.
+
+I expect you to communicate with me directly about your absences. I can support you to keep up with class if you are out for an illness, but I need you to take responsibility for being transparent and clear in letting me know when you are out and why. Although I can work with you on keeping up, you may miss some course content and extended absences may impact your ability to realize your full potential in this class. For extended absences (i.e., more than a couple of days of classes), you should contact the Dean of Students who can assist with reaching out to your faculty.
+
+### Food Security for SUNY Geneseo Students
+SUNY Geneseo is committed to supporting students who are experiencing food insecurity. If you're unfamiliar with the phrase "food insecurity," you can learn more at the following link on Feeding America’s website: [Understanding Food Insecurity](https://hungerandhealth.feedingamerica.org/understand-food-insecurity/). 
+
+[Knights’ Harvest Pantry](https://www.geneseo.edu/volunteer_center/knights-harvest-pantry), our on-campus food pantry, is a collaborative initiative supported by Campus Auxiliary Services (CAS) and facilitated by trained student volunteers. The program is advised by the Assistant Director of Student Volunteerism and Community Engagement in partnership with the Geneseo Opportunities for Leadership Development (GOLD) program. 
+
+Students who are in need can confidentially request a bag of food and basic hygiene supplies through our website. These bags typically include non-perishable items and, when available, fresh fruits, vegetables, meat, and dairy products. Pickups take place at the GOLD Leadership Center in MacVittie College Union, Room 114. 
+
+We are committed to protecting student privacy and promoting dignity, while also working to destigmatize food insecurity on our campus. If Knights’ Harvest Pantry does not fully meet your needs or if you'd prefer to discuss your situation privately, please reach out to Cheyenne DeMarco, Assistant Director of Student Volunteerism and Community Engagement, at cdemarco@geneseo.edu for a one-on-one consultation. 
+
+Please note that Knights’ Harvest Pantry is closed during official SUNY breaks, including Fall Break, Winter Intersession, Spring Break, and summer between semesters. During these times, students are encouraged to access the [Geneseo-Groveland Emergency Food Pantry](https://ggefoodpantry.org), located at 31 Center Street, Geneseo, NY 14454. For updates on pantry hours, events, and additional support opportunities, follow us on Instagram or Facebook: @knightsharvestgeneseo. For questions or support, contact Cheyenne DeMarco at cdemarco@geneseo.edu or (585) 245-5893.
+
+### Emergency Funding
+The college has three sources of emergency funding for students experiencing short-term financial crises. The [Camiolo Student Emergency Loan Fund (SELF)](https://www.geneseo.edu/support/self-student-emergency-loan-fund) provides short-term loans to students for situations both temporary and beyond their control. The SELF was established with the expectation that students who use the fund seek to “pay it forward” as soon as they are able by contributing to the fund so other students can be helped, too. While there is not a legal obligation, the donors hope that student loan recipients respect and honor the value of community and helping others in their time of crisis. The [One Knight Student Aid Emergency Fund](https://www.geneseo.edu/dean_students/one-knight-student-aid-emergency-fund) assists Geneseo students who are facing financial emergencies mainly related to the COVID-19 pandemic. The fund offers grants (one-time award) depending on a student's documented financial need. For those students expecting a refund from financial aid, a Temple Hill loan of up to $500 can be offered prior to the approved loan dispersal. If you are experiencing financial hardship, please contact the Dean of Students (585-245-5706), who can assist and provide direction to appropriate campus resources.
+
+
+
+# SUNY Geneseo’s Commitments, Mission and Values
+
+SUNY Geneseo has several core documents that articulate our shared commitments and learning objectives. These include:
+
+- [SUNY Geneseo Mission, Vision and Values](https://www.geneseo.edu/about/mission-vision-and-values)
+- [Community Commitment to Diversity, Equity, and Inclusion](https://www.geneseo.edu/diversity/commitment)
+- [Sustainability as a Core Value](https://www.geneseo.edu/sustainability/about-sustainability-geneseo)
+- [Geneseo Learning Outcomes for Baccalaureate Education](https://www.geneseo.edu/provost/globe-geneseo-learning-outcomes-baccalaureate-education)
+
+
+# Disclaimer
+
+The syllabus may be subject to change during the semester. If it is changed, you will be notified via email and Brightspace.

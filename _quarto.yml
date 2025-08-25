@@ -3,9 +3,9 @@ project:
   output-dir: "."
   
 website:
-  title: Home
-  favicon: img/favicon.ico
-  description: 'A collection of economics by Byeong-Hak Choe'
+  title: ""
+  # favicon: img/favicon.ico
+  description: 'A collection of environmental economics by Byeong-Hak Choe'
   reader-mode: false
   back-to-top-navigation: true
 
@@ -14,13 +14,40 @@ website:
     logo: img/geneseo-logo-squared.png
     pinned: true
     right:
-      - text: "Teaching {{< fa external-link >}}"
-        href: https://bcdanl.github.io
-        target: _blank
-      - text: Blog
-        href: blog-listing.qmd
-      - text: " "
+      - text: 🚀 Lecture
+        href: listing-econ-340-lec.qmd
+      - text: ' '
+      - text: ⌨️ Classwork
+        href: listing-econ-340-cw.qmd
+      - text: ' '
+      - text: 💻 Homework
+        href: listing-econ-340-hw.qmd
+      - text: ' '
     
+  sidebar:
+    style: docked
+    search: false
+    collapse-level: 0
+    contents:
+      - text: 🏠 Home
+        href: index.qmd
+      - text: 📓 Syllabus
+        href: syllabus.qmd
+      - text: 🅱 Brightspace
+        href: https://mylearning.suny.edu/d2l/home/2152120
+        target: _blank
+        
+      - section: ✍️️ Project
+        contents:
+          - text: 📚 Guideline
+            href: econ-rw/econ-340-team-project.qmd
+                
+      - section: 🗓️ Weeks
+        contents:
+          - text: Week 01
+            href: econ-wk/wk-01.qmd
+      
+        
   page-footer: 
     border: false
     center: "powered with github, quarto, and rstudio<br>byeong-hak choe, 2025"
@@ -38,7 +65,7 @@ format:
   html: 
     grid:
       margin-width: 400px
-      sidebar-width: 275px
+      sidebar-width: 200px
     link-external-newwindow: true
     theme:
       light: [flatly]  # flatly litera sandstone 'assets/scss/light.scss'

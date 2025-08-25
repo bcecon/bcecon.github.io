@@ -1,0 +1,42 @@
+---
+title: '<font style="font-family:Optima"><b>Weeks</b></font>'
+date-modified: ""
+listing:
+  contents: "weeks/*.qmd"
+  type: table
+  fields: [title, subtitle, date]
+  sort: 
+    - "date desc"
+    - "title desc"
+  sort-ui: false
+  page-size: 36
+
+page-layout: full
+comments: false
+# css: front.css
+from: markdown+emoji
+fig-align: center
+format: 
+  html:
+    include-in-header:
+     text: |
+        <style>
+        #toc-welcome {
+              font-size: 1.67em;
+        }
+        #toc-bullet-lecture {
+              font-size: 1.67em;
+        }
+        #toc-bullet-classwork {
+              font-size: 1.67em;
+        }
+        #toc-bullet-homework {
+              font-size: 1.67em;
+        }
+        a {
+        text-decoration: none; /* This removes the underline */
+        padding: 5px 10px; /* Top & Bottom, Left & Right Padding */
+        border-radius: 5px; /* Rounds the corners */
+        }
+        </style>
+---

@@ -33,4 +33,92 @@
 /*   margin-left: 5px; /* Adds space between the icon and text */
 /* }
 
+/* Force navbar logo alignment to be consistent across ALL pages */
+.navbar .navbar-brand {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
 
+/* Ensure the logo image itself doesn't carry stray margins */
+.navbar .navbar-brand img {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* Force consistent line spacing in sidebar on ALL pages */
+#quarto-sidebar .sidebar-link,
+#quarto-sidebar .sidebar-item-text,
+#quarto-sidebar .menu-text {
+  line-height: 1.3 !important;   /* pick your preferred value */
+}
+
+/* Optional: normalize vertical padding too */
+#quarto-sidebar .sidebar-link,
+#quarto-sidebar .sidebar-item-text {
+  padding-top: 0.2rem !important;
+  padding-bottom: 0.2rem !important;
+}
+
+
+/* Normalize the first-level items (Home, Weeks, etc.) */
+#quarto-sidebar .sidebar-item,
+#quarto-sidebar .sidebar-link,
+#quarto-sidebar .sidebar-item-text {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* Normalize sidebar indentation across ALL pages */
+#quarto-sidebar .sidebar-menu-container,
+#quarto-sidebar .sidebar-menu-container .list-unstyled {
+  margin-left: 0 !important;
+  margin-top: 0 !important;
+}
+
+
+
+/* ---- Site sidebar (left) ---- */
+#quarto-sidebar .sidebar-menu a.sidebar-link,
+#quarto-sidebar nav.sidebar-menu a,
+#quarto-sidebar .sidebar-item a.sidebar-item-text {
+  display: block;
+  padding: .35rem .5rem;
+  border-radius: .375rem;
+  transition: background-color .2s ease, color .2s ease, padding-left .2s ease;
+  text-decoration: none;
+}
+
+#quarto-sidebar .sidebar-menu a.sidebar-link:hover,
+#quarto-sidebar nav.sidebar-menu a:hover,
+#quarto-sidebar .sidebar-item a.sidebar-item-text:hover {
+  background-color: rgba(0,0,0,.06);
+  color: var(--bs-primary);
+  padding-left: .65rem; /* subtle slide */
+}
+
+/* Optional: keep the active item visually strong */
+#quarto-sidebar .sidebar-menu a.sidebar-link.active {
+  background-color: rgba(0,0,0,.1);
+  color: var(--bs-primary);
+  font-weight: 600;
+}
+
+/* ---- In-page TOC links (right) ---- */
+#TOC a.nav-link,
+#quarto-toc a.nav-link {
+  border-radius: .25rem;
+  transition: background-color .2s ease, color .2s ease;
+}
+
+#TOC a.nav-link:hover,
+#quarto-toc a.nav-link:hover {
+  background-color: rgba(0,0,0,.06);
+  color: var(--bs-primary);
+}
+
+/* Dark mode tweak (optional) */
+:root[data-bs-theme="dark"] #quarto-sidebar .sidebar-menu a.sidebar-link:hover,
+:root[data-bs-theme="dark"] #TOC a.nav-link:hover,
+:root[data-bs-theme="dark"] #quarto-toc a.nav-link:hover {
+  background-color: rgba(255,255,255,.08);
+}

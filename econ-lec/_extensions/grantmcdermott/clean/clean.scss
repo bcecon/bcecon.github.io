@@ -1,0 +1,223 @@
+/*-- scss:defaults --*/
+
+// Custom colours and variables
+$jet: #131516;
+$accent: #107895; 
+$accent2: #9a2515;
+$right-arrow: "\2192"; 
+$circle: "•";
+$square: "▪";
+$diamond: "▻";
+
+// ================== Fonts ==================
+
+// Local Optima fonts
+@font-face {
+  font-family: 'Optima Web';
+  src: url('../font/Lucida-Console.ttf.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Optima Web';
+  src: url('../font/Optima-Roman.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Google Roboto (imported)
+@import url(https://fonts.googleapis.com/css?family=Roboto:200,200i,300,300i,350,350i,400,400i);
+
+// Font families
+$font-family-sans-serif: Optima, 'Optima Web', sans-serif !default;
+$presentation-heading-font: "Roboto", "Palatino", "Palatino Linotype", serif !default;
+
+$presentation-heading-color: #1c4982 !default;
+$presentation-heading-font-weight: 400;
+$presentation-font-size-root: 32px;
+
+// colors
+$body-color: $jet !default;
+$link-color: $accent !default;
+$selection-bg: #26351c !default;
+
+/*-- scss:rules --*/
+
+body, .reveal {
+  font-family: Optima, 'Optima Web', sans-serif;
+  color: $body-color;
+}
+
+// Headings
+.reveal h1, 
+.reveal h2, 
+.reveal h3, 
+.reveal h4 {
+  font-family: $presentation-heading-font;
+  color: #1c4982;
+}
+
+.reveal h1 {
+  font-weight: 700;   // boldest
+  font-size: 1.8em;   // make it stand out more
+}
+
+.reveal h2 {
+  font-weight: 600;
+  font-size: 1.4em;
+}
+
+.reveal h3 {
+  color: $accent;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 0.95em;
+}
+
+.reveal h4 {
+  color: $accent2;
+  font-weight: 500;
+  margin-top: 1.25em;
+}
+
+.bh {
+  display: block;
+  margin-top: -40px;
+  margin-bottom: -20px;
+  font-family: $presentation-heading-font;
+  font-weight: 400;
+  color: #1c4982;
+  font-size: 30px;
+}
+
+// Title slide
+#title-slide {
+  text-align: left;
+
+  .title {
+    color: $body-color;
+    font-size: 1.4em;
+    font-weight: 400;
+  }
+
+  .subtitle {
+    color: $accent;
+    font-style: italic;
+    margin-top: 0em;
+    font-weight: 400;
+  }
+
+  .institute,
+  .quarto-title-affiliation,
+  .quarto-title-author-email {
+    font-style: italic;
+  }
+
+  .author,
+  .quarto-title-author-name {
+    color: $body-color;
+  }
+
+  .quarto-title-authors {
+    display: flex;
+    justify-content: left;
+
+    .quarto-title-author {
+      padding-left: 0em;
+      padding-right: 0em;
+      width: 100%;
+    }
+  }
+}
+
+// Links
+.reveal a {
+  color: #0066cc;
+  line-height: 1.5em;
+  font-weight: bold;
+}
+
+// Paragraphs
+.reveal p {
+  font-weight: lighter;
+  margin-top: 1.25em;
+}
+
+// Lists
+.reveal ul {
+  font-weight: lighter;
+  padding-left: 16px;
+  line-height: 1.33;
+
+  li::marker {
+    color: mix($accent, white, 70%);
+  }
+}
+
+.reveal ul ul {
+  list-style: none;
+  li:before {
+    content: $square;
+    color: mix($accent, white, 60%);
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    margin-right: 0.5em;
+  }
+}
+
+.reveal ul ul ul {
+  list-style: none;
+  li:before {
+    content: $diamond;
+    color: mix($accent, white, 60%);
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    margin-right: 0.5em;
+  }
+}
+
+.reveal ol {
+  font-weight: lighter;
+  padding-left: 16px;
+  li::marker {
+    color: $accent;
+  }
+}
+
+// Code blocks
+.reveal pre code,
+.code.sourceCode {
+  font-family: 'Lucida Console', 'Lucida Console Web', monospace;
+  font-size: 20px;
+}
+
+// Buttons
+.button {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: $accent;
+  border: 1px solid $accent;
+  color: #fff !important;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+.button:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+.button::before {
+  content: "▶";
+  margin-right: 5px;
+}

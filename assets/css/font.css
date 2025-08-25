@@ -36,6 +36,12 @@ code.sourceCode {
 }
 
 a {
-  color: #1c4982;
+  color: #3a9d23;        /* main link color  #628b41 */
+  font-weight: bold;
+  text-decoration: none; /* cleaner base */
 }
-
+a:hover, a:focus {
+  color: #1c4982;        /* darker shade on hover */
+  font-weight: bold;
+  text-decoration: underline;
+}

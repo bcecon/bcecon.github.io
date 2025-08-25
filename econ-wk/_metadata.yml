@@ -1,0 +1,50 @@
+author: Byeong-Hak Choe
+pagetitle: '{{< meta title >}} | Byeong-Hak Choe'
+title-block-banner: false
+open-graph:
+  image: /assets/img/posts.png
+date-format: long
+date-modified: last-modified
+# code-tools:
+#   source: repo
+#   caption: none
+include-after-body:
+  text: |
+    <div id="scroll-padding"></div>
+    <script src='/assets/js/site.js'></script>
+    <script src='/assets/js/posts.js'></script>
+comments:
+  giscus:
+    repo: bcdanl/bcdanl.github.io
+    # mapping: title
+    reactions-enabled: false
+    # loading: lazy
+    input-position: top
+    theme: preferred_color_scheme
+    language: en
+css: styles-wk.css
+toc: true
+toc-depth: 6
+toc-expand: 3
+toc-title: "
+<div style='white-space:nowrap;'>
+  <img src='../img/logo-geneseo.jpg'
+       style='height:48px; display:inline-block; vertical-align:middle; margin-right:0px;'>
+  <span style='display:inline-block; vertical-align:middle; font-family:Arial; font-weight:bold; line-height:1.05;'>
+    Data<br>Analytics
+  </span>
+</div>
+<br>On this page"
+
+
+# toc-title: "
+# <div style='display:flex; align-items:center; gap:10px;'>
+#   <img src='../img/logo-geneseo.jpg' style='width:60px;'>
+#   <span style='font-family:Arial; font-weight:bold;'>Data Analytics</span>
+# </div>
+# <br>On this page"
+
+# citation: true
+# appendix-cite-as: display
+# license:
+  # text: © 2024 Byeong-Hak Choe | This post is licensed under <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>CC BY-NC-SA 4.0</a>.
