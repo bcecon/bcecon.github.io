@@ -11,11 +11,11 @@ In our first week together, we will walk through the syllabus so you will know w
 
 ## 📓 Syllabus
 
-- Please read the [syllabus](../syllabus.html){target="_blank"}
+- Please read the [syllabus](../syllabus.html){target="_blank"}.
 
 ## ❓ Survey
 
-- Please take the anonymous [survey on environmental economics](../survey.html){target="_blank"}
+- Please take the anonymous [survey on environmental economics](../survey.html){target="_blank"}.
 
 ## 🏫 Lecture Slides 
 
