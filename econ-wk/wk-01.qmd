@@ -72,6 +72,8 @@ Either click on the slide area below or click [here](../econ-lec/econ-340-lec-02
 
 - Check the end of slides for the list of references cited in the lecture.
 
+- Here is some change.
+
 ## 💬 Discussion
 
 <font size = "5">Welcome to our Week 1 Discussion Board! 👋 </font>
