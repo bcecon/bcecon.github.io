@@ -88,7 +88,7 @@
     "href": "index.html#bullet-lecture",
     "title": "ECON 340-01: Environmental Economics, Fall 2025",
     "section": "\\(\\bullet\\,\\) 🚀 Lecture",
-    "text": "\\(\\bullet\\,\\) 🚀 Lecture\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 1\n\n\nSyllabus and Course Outline\n\n\nAugust 25, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "\\(\\bullet\\,\\) 🚀 Lecture\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 1\n\n\nSyllabus and Course Outline\n\n\nAugust 25, 2025\n\n\n\n\nLecture 2\n\n\nClass Survey Results vs. Professional Consensus\n\n\nAugust 27, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#bullet-classwork",
@@ -361,7 +361,7 @@
     "href": "listing-econ-340-lec.html",
     "title": "ECON 340 - Lecture",
     "section": "",
-    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 1\n\n\nSyllabus and Course Outline\n\n\nAugust 25, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 1\n\n\nSyllabus and Course Outline\n\n\nAugust 25, 2025\n\n\n\n\nLecture 2\n\n\nClass Survey Results vs. Professional Consensus\n\n\nAugust 27, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#big-idea",
@@ -858,6 +858,811 @@
     "href": "econ-wk/wk-01.html#survey",
     "title": "Week 1",
     "section": "❓ Survey",
-    "text": "❓ Survey\n\nPlease take the anonymous survey on environmental economics."
+    "text": "❓ Survey\n\nPlease take the anonymous survey on environmental economics.\n\n\n\n\n\n\n\n\n\nQuestion\nClass\nEconomist\n\n\n\n\nHow concerned are you about air quality?\n84.62% concerned\n57.14% concerned\n\n\nHow concerned are you about environmental justice?\n69.23% concerned\n53.97% concerned\n\n\nHow concerned are you about renewable energy?\n83.34% concerned\n45.21% concerned\n\n\nHow concerned are you about mining impacts?\n53.84% concerned\n40.64% concerned\n\n\nHow concerned are you about solid waste?\n76.92% concerned\n39.46% unconcerned\n\n\nHow concerned are you about hazardous waste?\n84.62% concerned\n38.38% neutral\n\n\nEstablish strict limits on the release of methane in the production of natural gas.\n84.61% favor\n75.39% favor\n\n\nFor environmental problems, there should be international agreements that U.S. and other countries should be made to follow.\n100.00% favor\n74.35% agree\n\n\nSpend federal money to increase the number of electric vehicle charging stations in the U.S.\n46.15% favor\n68.95% favor\n\n\nTax imports based on the greenhouse gases used to make them.\n46.15% favor\n67.72% favor\n\n\nSet higher fuel efficiency standards for cars, trucks and buses.\n84.61% favor\n66.84% favor\n\n\nProvide tax incentives to businesses to promote their use of wind, solar and nuclear power.\n76.93% favor\n63.35% favor\n\n\nProvide tax credits to Americans who install clean energy systems, like solar power, in their homes.\n84.62% favor\n61.26% favor\n\n\nProvide tax credits to individuals who purchase electric vehicles.\n53.84% favor\n51.85% favor\n\n\nRegulation in the U.S. should be implemented to address environmental justice concerns.\n92.31% agree\n81.15% agree\n\n\nReducing the regulatory power of the Environmental Protection Agency (EPA) would improve the economic efficiency of the U.S. economy.\n53.8% neutral\n80.63% disagree\n\n\nCommunities that exist close to hazardous waste sites are aware and accepting of the hazardous waste site(s) near their home.\n84.1% disagree\n75.39% disagree\n\n\nCarbon markets and carbon offsets are an efficient mechanism for private firms to meet their carbon reduction goals.\n53.8% neutral\n56.84% agree\n\n\nEmissions tax or permit auction revenues should be returned to the public through dividends or lower income taxes.\n69.2% neutral\n55.5% agree\n\n\nEmissions tax or permit auction revenues should be used to reduce the national debt.\n46.2% neutral\n42.63% neutral\n\n\nEmissions standards are rigid, and insensitive to geographical and technological differences.\n69.23% agree\n49.74% agree"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#today",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#today",
+    "title": "Lecture 2",
+    "section": "Today",
+    "text": "Today\n\nReview class survey results\nDiscuss takeaways on concerns, agreement, and policy support\nCompare class views to professional consensus from a recent survey of environmental & resource economists"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#data-figures",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#data-figures",
+    "title": "Lecture 2",
+    "section": "Data & Figures",
+    "text": "Data & Figures\n\nSource: Google Form responses from our class (small-N; not representative)\nFigures are pre-rendered and embedded below — no live R code\nColor scale: diverging (red → gray → blue) centered at Neutral\nBars show counts; percent labels printed above each bar"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#how-concerned-are-we-13",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#how-concerned-are-we-13",
+    "title": "Lecture 2",
+    "section": "How concerned are we? (1/3)",
+    "text": "How concerned are we? (1/3)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#how-concerned-are-we-23",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#how-concerned-are-we-23",
+    "title": "Lecture 2",
+    "section": "How concerned are we? (2/3)",
+    "text": "How concerned are we? (2/3)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#how-concerned-are-we-33",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#how-concerned-are-we-33",
+    "title": "Lecture 2",
+    "section": "How concerned are we? (3/3)",
+    "text": "How concerned are we? (3/3)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#policy-support-favor-14",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#policy-support-favor-14",
+    "title": "Lecture 2",
+    "section": "Policy support (favor) (1/4)",
+    "text": "Policy support (favor) (1/4)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#policy-support-favor-24",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#policy-support-favor-24",
+    "title": "Lecture 2",
+    "section": "Policy support (favor) (2/4)",
+    "text": "Policy support (favor) (2/4)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#policy-support-favor-34",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#policy-support-favor-34",
+    "title": "Lecture 2",
+    "section": "Policy support (favor) (3/4)",
+    "text": "Policy support (favor) (3/4)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#policy-support-favor-44",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#policy-support-favor-44",
+    "title": "Lecture 2",
+    "section": "Policy support (favor) (4/4)",
+    "text": "Policy support (favor) (4/4)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#agreement-statements-16",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#agreement-statements-16",
+    "title": "Lecture 2",
+    "section": "Agreement statements (1/6)",
+    "text": "Agreement statements (1/6)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#agreement-statements-26",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#agreement-statements-26",
+    "title": "Lecture 2",
+    "section": "Agreement statements (2/6)",
+    "text": "Agreement statements (2/6)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#agreement-statements-36",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#agreement-statements-36",
+    "title": "Lecture 2",
+    "section": "Agreement statements (3/6)",
+    "text": "Agreement statements (3/6)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#agreement-statements-46",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#agreement-statements-46",
+    "title": "Lecture 2",
+    "section": "Agreement statements (4/6)",
+    "text": "Agreement statements (4/6)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#agreement-statements-56",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#agreement-statements-56",
+    "title": "Lecture 2",
+    "section": "Agreement statements (5/6)",
+    "text": "Agreement statements (5/6)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#agreement-statements-66",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#agreement-statements-66",
+    "title": "Lecture 2",
+    "section": "Agreement statements (6/6)",
+    "text": "Agreement statements (6/6)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#professional-consensus-highlights",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#professional-consensus-highlights",
+    "title": "Lecture 2",
+    "section": "Professional consensus — highlights",
+    "text": "Professional consensus — highlights\nSupermajority and High Levels of Strong Consensus (1/2)\n\n\nUnregulated markets provide public goods in optimal quantities. (96.84% disagree)\nAir pollution and hazardous waste siting decisions disproportionately affect low-income & minority communities. (91.05 / 90.53% agree)\nEmissions taxes or marketable emissions permits are a more economically efficient approach to pollution control than emissions standards. (90.5% agree)\nHow concerned are you about climate change? (88.95% concerned)\nUnregulated common-pool resources face the “tragedy of the commons” problem. (87.96% agree)\nThe U.S. should increase energy taxes. (83.33% agree)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#compare-class-vs.-economists-prompts",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#compare-class-vs.-economists-prompts",
+    "title": "Lecture 2",
+    "section": "Compare: class vs. economists — prompts",
+    "text": "Compare: class vs. economists — prompts\n\nWhere do our charts show alignment with professional consensus?\nWhere do we diverge?\nWhat might explain differences (information, values, incentives, local context)?\nWhich policies balance efficiency and equity considerations most clearly?"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#activity-58-min",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#activity-58-min",
+    "title": "Lecture 2",
+    "section": "Activity (5–8 min)",
+    "text": "Activity (5–8 min)\nIn pairs:\n\nPick one policy (e.g., EV chargers, methane limits, border carbon adjustment).\nArgue both for and against using efficiency and equity frames.\nIdentify 2–3 data points you’d collect to persuade a median voter.\n\nShare out: 1-minute summary per pair."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#concern-air-quality",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#concern-air-quality",
+    "title": "Lecture 2",
+    "section": "Concern: Air quality",
+    "text": "Concern: Air quality\n\n\n\n\n Economists: 57.14% concerned\n\n\n\n\n\nOur class is 27% more concerned than professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#concern-environmental-justice",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#concern-environmental-justice",
+    "title": "Lecture 2",
+    "section": "Concern: Environmental justice",
+    "text": "Concern: Environmental justice\n\n\n\n\n Economists: 53.97% concerned\n\n\n\n\n\nOur class is 15% more concerned than professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#concern-renewable-energy",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#concern-renewable-energy",
+    "title": "Lecture 2",
+    "section": "Concern: Renewable energy",
+    "text": "Concern: Renewable energy\n\n\n\n\n Economists: 45.21% concerned\n\n\n\n\n\nOur class is 38% more concerned than professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#concern-mining-impacts",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#concern-mining-impacts",
+    "title": "Lecture 2",
+    "section": "Concern: Mining impacts",
+    "text": "Concern: Mining impacts\n\n\n\n\n Economists: 40.64% concerned\n\n\n\n\n\nOur class is 13% more concerned than professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#concern-solid-waste",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#concern-solid-waste",
+    "title": "Lecture 2",
+    "section": "Concern: Solid waste",
+    "text": "Concern: Solid waste\n\n\n\n\n Economists: 39.46% unconcerned\n\n\n\n\n\nOur class is 37% more concerned than professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#concern-hazardous-waste",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#concern-hazardous-waste",
+    "title": "Lecture 2",
+    "section": "Concern: Hazardous waste",
+    "text": "Concern: Hazardous waste\n\n\n\n\n Economists: 38.38% neutral\n\n\n\n\n\nOur class is 46% more concerned than professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#favor-methane-limits-natural-gas-production",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#favor-methane-limits-natural-gas-production",
+    "title": "Lecture 2",
+    "section": "Favor: Methane limits (natural gas production)",
+    "text": "Favor: Methane limits (natural gas production)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#favor-international-agreements",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#favor-international-agreements",
+    "title": "Lecture 2",
+    "section": "Favor: International agreements",
+    "text": "Favor: International agreements"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#favor-ev-charging-stations-federal-funding",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#favor-ev-charging-stations-federal-funding",
+    "title": "Lecture 2",
+    "section": "Favor: EV charging stations (federal funding)",
+    "text": "Favor: EV charging stations (federal funding)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#favor-border-carbon-adjustment-tax-imports-by-ghg",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#favor-border-carbon-adjustment-tax-imports-by-ghg",
+    "title": "Lecture 2",
+    "section": "Favor: Border carbon adjustment (tax imports by GHG)",
+    "text": "Favor: Border carbon adjustment (tax imports by GHG)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#favor-higher-fuel-efficiency-standards",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#favor-higher-fuel-efficiency-standards",
+    "title": "Lecture 2",
+    "section": "Favor: Higher fuel-efficiency standards",
+    "text": "Favor: Higher fuel-efficiency standards"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#favor-business-incentives-for-clean-energy",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#favor-business-incentives-for-clean-energy",
+    "title": "Lecture 2",
+    "section": "Favor: Business incentives for clean energy",
+    "text": "Favor: Business incentives for clean energy"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#favor-home-cleanenergy-tax-credits",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#favor-home-cleanenergy-tax-credits",
+    "title": "Lecture 2",
+    "section": "Favor: Home clean‑energy tax credits",
+    "text": "Favor: Home clean‑energy tax credits"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#favor-ev-purchase-tax-credits",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#favor-ev-purchase-tax-credits",
+    "title": "Lecture 2",
+    "section": "Favor: EV purchase tax credits",
+    "text": "Favor: EV purchase tax credits"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#agree-ej-regulation-should-be-implemented",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#agree-ej-regulation-should-be-implemented",
+    "title": "Lecture 2",
+    "section": "Agree: EJ regulation should be implemented",
+    "text": "Agree: EJ regulation should be implemented\n\n\n\n\n Economists: 81.15% agree\n\n\n\n\n\nOur class is 10% more supportive than professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#agree-reduce-epa-regulatory-power-improves-efficiency",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#agree-reduce-epa-regulatory-power-improves-efficiency",
+    "title": "Lecture 2",
+    "section": "Agree: Reduce EPA regulatory power improves efficiency",
+    "text": "Agree: Reduce EPA regulatory power improves efficiency\n\n\n\n\n Economists: 80.63% disagree\n\n\n\n\n\nOur class is 50% less disagreement than professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#agree-communities-near-hazardous-waste-sites-are-awareaccepting",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#agree-communities-near-hazardous-waste-sites-are-awareaccepting",
+    "title": "Lecture 2",
+    "section": "Agree: Communities near hazardous waste sites are aware/accepting",
+    "text": "Agree: Communities near hazardous waste sites are aware/accepting\n\n\n\n\n Economists: 75.39% disagree\n\n\n\n\n\nOur class is 9% more supportive than professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#agree-free-market-property-rights-tort-law-are-best-tools",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#agree-free-market-property-rights-tort-law-are-best-tools",
+    "title": "Lecture 2",
+    "section": "Agree: Free market / property rights / tort law are best tools",
+    "text": "Agree: Free market / property rights / tort law are best tools\n\n\n\n\n Economists: 73.44% disagree\n\n\n\n\n\nOur class is 50% less disagreement than professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#agree-economic-growth-always-harms-the-environment",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#agree-economic-growth-always-harms-the-environment",
+    "title": "Lecture 2",
+    "section": "Agree: Economic growth always harms the environment",
+    "text": "Agree: Economic growth always harms the environment\n\n\n\n\n Economists: 70.16% disagree\n\n\n\n\n\nOur class is 14% more disagreement than professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#agree-carbon-markets-and-offsets-are-efficient-for-firms",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#agree-carbon-markets-and-offsets-are-efficient-for-firms",
+    "title": "Lecture 2",
+    "section": "Agree: Carbon markets and offsets are efficient for firms",
+    "text": "Agree: Carbon markets and offsets are efficient for firms\n\n\n\n\n Economists: 56.84% agree\n\n\n\n\n\nOur class is 26% less supportive than professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#agree-return-carbon-revenues-via-dividends-lower-taxes",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#agree-return-carbon-revenues-via-dividends-lower-taxes",
+    "title": "Lecture 2",
+    "section": "Agree: Return carbon revenues via dividends / lower taxes",
+    "text": "Agree: Return carbon revenues via dividends / lower taxes\n\n\n\n\n Economists: 55.5% agree\n\n\n\n\n\nOur class is 32% less supportive than professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#agree-use-carbon-revenues-to-reduce-national-debt",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#agree-use-carbon-revenues-to-reduce-national-debt",
+    "title": "Lecture 2",
+    "section": "Agree: Use carbon revenues to reduce national debt",
+    "text": "Agree: Use carbon revenues to reduce national debt\n\n\n\n\n Economists: 42.63% neutral\n\n\n\n\n\nOur class is as neutral as professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#agree-emission-standards-are-rigid-insensitive-to-differences",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#agree-emission-standards-are-rigid-insensitive-to-differences",
+    "title": "Lecture 2",
+    "section": "Agree: Emission standards are rigid / insensitive to differences",
+    "text": "Agree: Emission standards are rigid / insensitive to differences\n\n\n\n\n Economists: 49.74% agree\n\n\n\n\n\nOur class is 20% more supportive than professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#agree-max-sustainable-level-of-economic-growth-exists",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#agree-max-sustainable-level-of-economic-growth-exists",
+    "title": "Lecture 2",
+    "section": "Agree: Max sustainable level of economic growth exists",
+    "text": "Agree: Max sustainable level of economic growth exists\n\n\n\n\n Economists: 44.21% agree\n\n\n\n\n\nOur class is 9% more supportive than professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#agree-population-growth-degrades-the-environment",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#agree-population-growth-degrades-the-environment",
+    "title": "Lecture 2",
+    "section": "Agree: Population growth degrades the environment",
+    "text": "Agree: Population growth degrades the environment\n\n\n\n\n Economists: 41.58% disagree\n\n\n\n\n\nOur class is 26% less disagreement than professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#policy-support-methane-limits-natural-gas-production",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#policy-support-methane-limits-natural-gas-production",
+    "title": "Lecture 2",
+    "section": "Policy Support: Methane limits (natural gas production)",
+    "text": "Policy Support: Methane limits (natural gas production)\n\n\n\n\n Economists: 75.39% favor\n\n\n\n\n\nOur class is 9% more supportive than professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#policy-support-international-agreements",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#policy-support-international-agreements",
+    "title": "Lecture 2",
+    "section": "Policy Support: International agreements",
+    "text": "Policy Support: International agreements\n\n\n\n\n Economists: 74.35% favor\n\n\n\n\n\nOur class is 26% more supportive than professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#policy-support-ev-charging-stations-federal-funding",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#policy-support-ev-charging-stations-federal-funding",
+    "title": "Lecture 2",
+    "section": "Policy Support: EV charging stations (federal funding)",
+    "text": "Policy Support: EV charging stations (federal funding)\n\n\n\n\n Economists: 68.95% favor\n\n\n\n\n\nOur class is 23% less supportive than professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#policy-support-border-carbon-adjustment-tax-imports-by-ghg",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#policy-support-border-carbon-adjustment-tax-imports-by-ghg",
+    "title": "Lecture 2",
+    "section": "Policy Support: Border carbon adjustment (tax imports by GHG)",
+    "text": "Policy Support: Border carbon adjustment (tax imports by GHG)\n\n\n\n\n Economists: 67.72% favor\n\n\n\n\n\nOur class is 21% less supportive than professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#policy-support-higher-fuel-efficiency-standards",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#policy-support-higher-fuel-efficiency-standards",
+    "title": "Lecture 2",
+    "section": "Policy Support: Higher fuel-efficiency standards",
+    "text": "Policy Support: Higher fuel-efficiency standards\n\n\n\n\n Economists: 66.84% favor\n\n\n\n\n\nOur class is 18% more supportive than professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#policy-support-business-incentives-for-clean-energy",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#policy-support-business-incentives-for-clean-energy",
+    "title": "Lecture 2",
+    "section": "Policy Support: Business incentives for clean energy",
+    "text": "Policy Support: Business incentives for clean energy\n\n\n\n\n Economists: 63.35% favor\n\n\n\n\n\nOur class is 14% more supportive than professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#policy-support-home-cleanenergy-tax-credits",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#policy-support-home-cleanenergy-tax-credits",
+    "title": "Lecture 2",
+    "section": "Policy Support: Home clean‑energy tax credits",
+    "text": "Policy Support: Home clean‑energy tax credits\n\n\n\n\n Economists: 61.26% favor\n\n\n\n\n\nOur class is 23% more supportive than professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#policy-support-ev-purchase-tax-credits",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#policy-support-ev-purchase-tax-credits",
+    "title": "Lecture 2",
+    "section": "Policy Support: EV purchase tax credits",
+    "text": "Policy Support: EV purchase tax credits\n\n\n\n\n Economists: 51.85% favor\n\n\n\n\n\nOur class is as supportive as professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#concern",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#concern",
+    "title": "Lecture 2",
+    "section": "Concern",
+    "text": "Concern\nAir quality\n\n\n\n\n Economists: 57.14% concerned"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#concern-1",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#concern-1",
+    "title": "Lecture 2",
+    "section": "Concern",
+    "text": "Concern\nEnvironmental justice\n\n\n\n\n Economists: 53.97% concerned"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#concern-2",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#concern-2",
+    "title": "Lecture 2",
+    "section": "Concern",
+    "text": "Concern\nRenewable energy\n\n\n\n\n Economists: 45.21% concerned"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#concern-3",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#concern-3",
+    "title": "Lecture 2",
+    "section": "Concern",
+    "text": "Concern\nMining impacts\n\n\n\n\n Economists: 40.64% concerned"
+  },
+  {
+    "objectID": "about 10.39.27 PM.html",
+    "href": "about 10.39.27 PM.html",
+    "title": "",
+    "section": "",
+    "text": "Hello! 👋\nI am an assistant professor of data analytics and economics at School of Business at SUNY Geneseo.\nI am particularly interested in the economic aspects of environmental issues and climate change."
+  },
+  {
+    "objectID": "about 10.39.27 PM.html#research",
+    "href": "about 10.39.27 PM.html#research",
+    "title": "",
+    "section": "Research",
+    "text": "Research\n\nWorking papers\n1️⃣ Social Media Campaign, Lobbying, and Legislation: Evidence from #cliamtechange and Energy Lobbies\n2️⃣ Climate Finance under Conflicts and Renegotiations: A Dynamic Contract Approach\n\n\nWork in progress\n🌟 ‘Hiding Behind a Small Cake’ in an Online Dictator Game: The Way You Hide Matters!, (with Tabaré Capitan (1st author) , Jason Shogren, and Benjamin White).\n🌟 Estimating the Value of Statistical Life through Big Data, (with Stephen Newbold).\n\n\nBook chapters\n💡 Governance and Climate Finance in the Developing World (with Tilsa Oré-Monago).\n- In Wu, F., Zhang, D., and Ji, Q. (Eds.), Climate Finance: Supporting a Sustainable Energy Transition, Chapter 7, Springer Nature (July, 2024)."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#summary-class-vs-economists-all-questions",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#summary-class-vs-economists-all-questions",
+    "title": "Lecture 2",
+    "section": "Summary: Class vs Economists (All Questions)",
+    "text": "Summary: Class vs Economists (All Questions)\n\n\n\n\n\n\n\n\nQuestion\nClass\nEconomist\n\n\n\n\nHow concerned are you about air quality?\n84.62% concerned\n57.14% concerned\n\n\nHow concerned are you about environmental justice?\n69.23% concerned\n53.97% concerned\n\n\nHow concerned are you about renewable energy?\n83.34% concerned\n45.21% concerned\n\n\nHow concerned are you about mining impacts?\n53.84% concerned\n40.64% concerned\n\n\nHow concerned are you about solid waste?\n76.92% concerned\n39.46% unconcerned\n\n\nHow concerned are you about hazardous waste?\n84.62% concerned\n38.38% neutral\n\n\nEstablish strict limits on the release of methane in the production of natural gas.\n84.61% favor\n75.39% favor\n\n\nFor environmental problems, there should be international agreements that U.S. and other countries should be made to follow.\n100.00% favor\n74.35% agree\n\n\nSpend federal money to increase the number of electric vehicle charging stations in the U.S.\n46.15% favor\n68.95% favor\n\n\nTax imports based on the greenhouse gases used to make them.\n46.15% favor\n67.72% favor\n\n\nSet higher fuel efficiency standards for cars, trucks and buses.\n84.61% favor\n66.84% favor\n\n\nProvide tax incentives to businesses to promote their use of wind, solar and nuclear power.\n76.93% favor\n63.35% favor\n\n\nProvide tax credits to Americans who install clean energy systems, like solar power, in their homes.\n84.62% favor\n61.26% favor\n\n\nProvide tax credits to individuals who purchase electric vehicles.\n53.84% favor\n51.85% favor\n\n\nRegulation in the U.S. should be implemented to address environmental justice concerns.\n92.31% agree\n81.15% agree\n\n\nReducing the regulatory power of the Environmental Protection Agency (EPA) would improve the economic efficiency of the U.S. economy.\n15.38% agree\n80.63% disagree\n\n\nCommunities that exist close to hazardous waste sites are aware and accepting of the hazardous waste site(s) near their home.\n7.69% agree\n75.39% disagree\n\n\nThe free market, property rights, and tort law provide the best tools to preserve the health and sustainability of the environment.\n30.77% agree\n73.44% disagree\n\n\nEconomic growth always harms the environment.\n7.69% agree\n70.16% disagree\n\n\nCarbon markets and carbon offsets are an efficient mechanism for private firms to meet their carbon reduction goals.\n30.77% agree\n56.84% agree\n\n\nEmissions tax or permit auction revenues should be returned to the public through dividends or lower income taxes.\n23.07% agree\n55.5% agree\n\n\nEmissions tax or permit auction revenues should be used to reduce the national debt.\n30.77% agree\n42.63% neutral\n\n\nEmissions standards are rigid, and insensitive to geographical and technological differences.\n69.23% agree\n49.74% agree\n\n\nThere exists a maximum level of economic growth that can be sustained without undermining the resource base upon which it depends.\n53.84% agree\n44.21% agree\n\n\nPopulation growth inevitably degrades the environment.\n61.53% agree\n41.58% disagree\n\n\n\n:::"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#summary-class-vs-economists",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#summary-class-vs-economists",
+    "title": "Lecture 2",
+    "section": "Summary: Class vs Economists",
+    "text": "Summary: Class vs Economists\n\n\n\n\n\n\n\n\nQuestion\nClass\nEconomist\n\n\n\n\nHow concerned are you about air quality?\n84.62% concerned\n57.14% concerned\n\n\nHow concerned are you about environmental justice?\n69.23% concerned\n53.97% concerned\n\n\nHow concerned are you about renewable energy?\n83.34% concerned\n45.21% concerned\n\n\nHow concerned are you about mining impacts?\n53.84% concerned\n40.64% concerned\n\n\nHow concerned are you about solid waste?\n76.92% concerned\n39.46% unconcerned\n\n\nHow concerned are you about hazardous waste?\n84.62% concerned\n38.38% neutral\n\n\n\n:::"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#summary-class-vs-economists-1",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#summary-class-vs-economists-1",
+    "title": "Lecture 2",
+    "section": "Summary: Class vs Economists",
+    "text": "Summary: Class vs Economists\n\n\n\n\n\n\n\n\nQuestion\nClass\nEconomist\n\n\n\n\nEstablish strict limits on the release of methane in the production of natural gas.\n84.61% favor\n75.39% favor\n\n\nFor environmental problems, there should be international agreements that U.S. and other countries should be made to follow.\n100.00% favor\n74.35% agree\n\n\nSpend federal money to increase the number of electric vehicle charging stations in the U.S.\n46.15% favor\n68.95% favor\n\n\nTax imports based on the greenhouse gases used to make them.\n46.15% favor\n67.72% favor\n\n\nSet higher fuel efficiency standards for cars, trucks and buses.\n84.61% favor\n66.84% favor\n\n\nProvide tax incentives to businesses to promote their use of wind, solar and nuclear power.\n76.93% favor\n63.35% favor\n\n\nProvide tax credits to Americans who install clean energy systems, like solar power, in their homes.\n84.62% favor\n61.26% favor\n\n\nProvide tax credits to individuals who purchase electric vehicles.\n53.84% favor\n51.85% favor\n\n\n\n:::"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#summary-class-vs-economists-2",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#summary-class-vs-economists-2",
+    "title": "Lecture 2",
+    "section": "Summary: Class vs Economists",
+    "text": "Summary: Class vs Economists\n\n\n\n\n\n\n\n\nQuestion\nClass\nEconomist\n\n\n\n\nRegulation in the U.S. should be implemented to address environmental justice concerns.\n92.31% agree\n81.15% agree\n\n\nReducing the regulatory power of the Environmental Protection Agency (EPA) would improve the economic efficiency of the U.S. economy.\n15.38% agree\n80.63% disagree\n\n\nCommunities that exist close to hazardous waste sites are aware and accepting of the hazardous waste site(s) near their home.\n7.69% agree\n75.39% disagree\n\n\nThe free market, property rights, and tort law provide the best tools to preserve the health and sustainability of the environment.\n30.77% agree\n73.44% disagree\n\n\nEconomic growth always harms the environment.\n7.69% agree\n70.16% disagree\n\n\nCarbon markets and carbon offsets are an efficient mechanism for private firms to meet their carbon reduction goals.\n30.77% agree\n56.84% agree\n\n\nEmissions tax or permit auction revenues should be returned to the public through dividends or lower income taxes.\n23.07% agree\n55.5% agree\n\n\nEmissions tax or permit auction revenues should be used to reduce the national debt.\n30.77% agree\n42.63% neutral\n\n\nEmissions standards are rigid, and insensitive to geographical and technological differences.\n69.23% agree\n49.74% agree\n\n\nThere exists a maximum level of economic growth that can be sustained without undermining the resource base upon which it depends.\n53.84% agree\n44.21% agree\n\n\nPopulation growth inevitably degrades the environment.\n61.53% agree\n41.58% disagree\n\n\n\n:::"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#summary---concern-class-vs-economists",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#summary---concern-class-vs-economists",
+    "title": "Lecture 2",
+    "section": "Summary - Concern: Class vs Economists",
+    "text": "Summary - Concern: Class vs Economists\n\n\n\n\n\n\n\n\nQuestion\nClass\nEconomist\n\n\n\n\nHow concerned are you about air quality?\n84.62% concerned\n57.14% concerned\n\n\nHow concerned are you about environmental justice?\n69.23% concerned\n53.97% concerned\n\n\nHow concerned are you about renewable energy?\n83.34% concerned\n45.21% concerned\n\n\nHow concerned are you about mining impacts?\n53.84% concerned\n40.64% concerned\n\n\nHow concerned are you about solid waste?\n76.92% concerned\n39.46% unconcerned\n\n\nHow concerned are you about hazardous waste?\n84.62% concerned\n38.38% neutral"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#summary---policy-support-class-vs-economists",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#summary---policy-support-class-vs-economists",
+    "title": "Lecture 2",
+    "section": "Summary - Policy Support: Class vs Economists",
+    "text": "Summary - Policy Support: Class vs Economists\n\n\n\n\n\n\n\n\nQuestion\nClass\nEconomist\n\n\n\n\nEstablish strict limits on the release of methane in the production of natural gas.\n84.61% favor\n75.39% favor\n\n\nFor environmental problems, there should be international agreements that U.S. and other countries should be made to follow.\n100.00% favor\n74.35% agree\n\n\nSpend federal money to increase the number of electric vehicle charging stations in the U.S.\n46.15% favor\n68.95% favor\n\n\nTax imports based on the greenhouse gases used to make them.\n46.15% favor\n67.72% favor\n\n\nSet higher fuel efficiency standards for cars, trucks and buses.\n84.61% favor\n66.84% favor\n\n\nProvide tax incentives to businesses to promote their use of wind, solar and nuclear power.\n76.93% favor\n63.35% favor\n\n\nProvide tax credits to Americans who install clean energy systems, like solar power, in their homes.\n84.62% favor\n61.26% favor\n\n\nProvide tax credits to individuals who purchase electric vehicles.\n53.84% favor\n51.85% favor"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#summary---agreement-class-vs-economists",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#summary---agreement-class-vs-economists",
+    "title": "Lecture 2",
+    "section": "Summary - Agreement: Class vs Economists",
+    "text": "Summary - Agreement: Class vs Economists\n\n\n\n\n\n\n\n\nQuestion\nClass\nEconomist\n\n\n\n\nRegulation in the U.S. should be implemented to address environmental justice concerns.\n92.31% agree\n81.15% agree\n\n\nReducing the regulatory power of the Environmental Protection Agency (EPA) would improve the economic efficiency of the U.S. economy.\n15.38% agree\n80.63% disagree\n\n\nCommunities that exist close to hazardous waste sites are aware and accepting of the hazardous waste site(s) near their home.\n7.69% agree\n75.39% disagree\n\n\nThe free market, property rights, and tort law provide the best tools to preserve the health and sustainability of the environment.\n30.77% agree\n73.44% disagree\n\n\nEconomic growth always harms the environment.\n7.69% agree\n70.16% disagree\n\n\nCarbon markets and carbon offsets are an efficient mechanism for private firms to meet their carbon reduction goals.\n30.77% agree\n56.84% agree\n\n\nEmissions tax or permit auction revenues should be returned to the public through dividends or lower income taxes.\n23.07% agree\n55.5% agree\n\n\nEmissions tax or permit auction revenues should be used to reduce the national debt.\n30.77% agree\n42.63% neutral\n\n\nEmissions standards are rigid, and insensitive to geographical and technological differences.\n69.23% agree\n49.74% agree\n\n\nThere exists a maximum level of economic growth that can be sustained without undermining the resource base upon which it depends.\n53.84% agree\n44.21% agree\n\n\nPopulation growth inevitably degrades the environment.\n61.53% agree\n41.58% disagree"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#summary---policy-support-class-vs-economists-12",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#summary---policy-support-class-vs-economists-12",
+    "title": "Lecture 2",
+    "section": "Summary - Policy Support: Class vs Economists (1/2)",
+    "text": "Summary - Policy Support: Class vs Economists (1/2)\n\n\n\n\n\n\n\n\nQuestion\nClass\nEconomist\n\n\n\n\nEstablish strict limits on the release of methane in the production of natural gas.\n84.61% favor\n75.39% favor\n\n\nFor environmental problems, there should be international agreements that U.S. and other countries should be made to follow.\n100.00% favor\n74.35% agree\n\n\nSpend federal money to increase the number of electric vehicle charging stations in the U.S.\n46.15% favor\n68.95% favor\n\n\nTax imports based on the greenhouse gases used to make them.\n46.15% favor\n67.72% favor"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#summary---policy-support-class-vs-economists-22",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#summary---policy-support-class-vs-economists-22",
+    "title": "Lecture 2",
+    "section": "Summary - Policy Support: Class vs Economists (2/2)",
+    "text": "Summary - Policy Support: Class vs Economists (2/2)\n\n\n\n\n\n\n\n\nQuestion\nClass\nEconomist\n\n\n\n\nSet higher fuel efficiency standards for cars, trucks and buses.\n84.61% favor\n66.84% favor\n\n\nProvide tax incentives to businesses to promote their use of wind, solar and nuclear power.\n76.93% favor\n63.35% favor\n\n\nProvide tax credits to Americans who install clean energy systems, like solar power, in their homes.\n84.62% favor\n61.26% favor\n\n\nProvide tax credits to individuals who purchase electric vehicles.\n53.84% favor\n51.85% favor"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#summary---agreement-class-vs-economists-13",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#summary---agreement-class-vs-economists-13",
+    "title": "Lecture 2",
+    "section": "Summary - Agreement: Class vs Economists (1/3)",
+    "text": "Summary - Agreement: Class vs Economists (1/3)\n\n\n\n\n\n\n\n\nQuestion\nClass\nEconomist\n\n\n\n\nRegulation in the U.S. should be implemented to address environmental justice concerns.\n92.31% agree\n81.15% agree\n\n\nReducing the regulatory power of the Environmental Protection Agency (EPA) would improve the economic efficiency of the U.S. economy.\n53.8% neutral\n80.63% disagree\n\n\nCommunities that exist close to hazardous waste sites are aware and accepting of the hazardous waste site(s) near their home.\n84.1% disagree\n75.39% disagree"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#summary---agreement-class-vs-economists-23",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#summary---agreement-class-vs-economists-23",
+    "title": "Lecture 2",
+    "section": "Summary - Agreement: Class vs Economists (2/3)",
+    "text": "Summary - Agreement: Class vs Economists (2/3)\n\n\n\n\n\n\n\n\nQuestion\nClass\nEconomist\n\n\n\n\nCarbon markets and carbon offsets are an efficient mechanism for private firms to meet their carbon reduction goals.\n53.8% neutral\n56.84% agree\n\n\nEmissions tax or permit auction revenues should be returned to the public through dividends or lower income taxes.\n69.2% neutral\n55.5% agree\n\n\nEmissions tax or permit auction revenues should be used to reduce the national debt.\n46.2% neutral\n42.63% neutral\n\n\nEmissions standards are rigid, and insensitive to geographical and technological differences.\n69.23% agree\n49.74% agree"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#summary---agreement-class-vs-economists-33",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#summary---agreement-class-vs-economists-33",
+    "title": "Lecture 2",
+    "section": "Summary - Agreement: Class vs Economists (3/3)",
+    "text": "Summary - Agreement: Class vs Economists (3/3)\n\n\n\n\n\n\n\n\nQuestion\nClass\nEconomist\n\n\n\n\nThere exists a maximum level of economic growth that can be sustained without undermining the resource base upon which it depends.\n53.84% agree\n44.21% agree\n\n\nEconomic growth always harms the environment.\n84.6% disagree\n70.16% disagree\n\n\nPopulation growth inevitably degrades the environment.\n61.53% agree\n41.58% disagree\n\n\nThe free market, property rights, and tort law provide the best tools to preserve the health and sustainability of the environment.\n46.2% neutral\n73.44% disagree"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#professional-consensus-highlights-1",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#professional-consensus-highlights-1",
+    "title": "Lecture 2",
+    "section": "Professional consensus — highlights",
+    "text": "Professional consensus — highlights\nSupermajority and High Levels of Strong Consensus (2/2)\n\n\nReducing the regulatory power of the Environmental Protection Agency (EPA) would improve the economic efficiency of the U.S. economy. (80.63% disagree)\nCommunities that exist close to hazardous waste sites are aware and accepting of the hazardous waste site(s) near their home. (75.39% disagree)\nFor environmental problems, there should be international agreements that U.S. and other countries should be made to follow. (74.35% agree)\nThe free market, property rights, and tort law provide the best tools to preserve the health and sustainability of the environment. (73.44% disagree)\nEconomic growth always harms the environment. (70.16% disagree)\nTax imports based on the greenhouse gases used to make them. (67.72% favor)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html",
+    "title": "Lecture 2",
+    "section": "",
+    "text": "Review class survey results\nDiscuss takeaways on concerns, agreement, and policy support\nCompare class views to professional consensus from a recent survey of environmental & resource economists"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#today",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#today",
+    "title": "Lecture 2",
+    "section": "",
+    "text": "Review class survey results\nDiscuss takeaways on concerns, agreement, and policy support\nCompare class views to professional consensus from a recent survey of environmental & resource economists"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#concern-air-quality",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#concern-air-quality",
+    "title": "Lecture 2",
+    "section": "Concern: Air quality",
+    "text": "Concern: Air quality\n\n\n\n\n Economists: 57.14% concerned\n\n\n\n\n\nOur class is 27% more concerned than professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#concern-environmental-justice",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#concern-environmental-justice",
+    "title": "Lecture 2",
+    "section": "Concern: Environmental justice",
+    "text": "Concern: Environmental justice\n\n\n\n\n Economists: 53.97% concerned\n\n\n\n\n\nOur class is 15% more concerned than professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#concern-renewable-energy",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#concern-renewable-energy",
+    "title": "Lecture 2",
+    "section": "Concern: Renewable energy",
+    "text": "Concern: Renewable energy\n\n\n\n\n Economists: 45.21% concerned\n\n\n\n\n\nOur class is 38% more concerned than professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#concern-mining-impacts",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#concern-mining-impacts",
+    "title": "Lecture 2",
+    "section": "Concern: Mining impacts",
+    "text": "Concern: Mining impacts\n\n\n\n\n Economists: 40.64% concerned\n\n\n\n\n\nOur class is 13% more concerned than professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#concern-solid-waste",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#concern-solid-waste",
+    "title": "Lecture 2",
+    "section": "Concern: Solid waste",
+    "text": "Concern: Solid waste\n\n\n\n\n Economists: 39.46% unconcerned\n\n\n\n\n\nOur class is 37% more concerned than professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#concern-hazardous-waste",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#concern-hazardous-waste",
+    "title": "Lecture 2",
+    "section": "Concern: Hazardous waste",
+    "text": "Concern: Hazardous waste\n\n\n\n\n Economists: 38.38% neutral\n\n\n\n\n\nOur class is 46% more concerned than professional economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#policy-support-methane-limits-natural-gas-production",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#policy-support-methane-limits-natural-gas-production",
+    "title": "Lecture 2",
+    "section": "Policy Support: Methane limits (natural gas production)",
+    "text": "Policy Support: Methane limits (natural gas production)\n\n\n\n\n Economists: 75.39% favor\n\n\n\n\n\nOur class is 9% more supportive than the economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#policy-support-international-agreements",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#policy-support-international-agreements",
+    "title": "Lecture 2",
+    "section": "Policy Support: International agreements",
+    "text": "Policy Support: International agreements\n\n\n\n\n Economists: 74.35% favor\n\n\n\n\n\nOur class is 26% more supportive than the economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#policy-support-ev-charging-stations-federal-funding",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#policy-support-ev-charging-stations-federal-funding",
+    "title": "Lecture 2",
+    "section": "Policy Support: EV charging stations (federal funding)",
+    "text": "Policy Support: EV charging stations (federal funding)\n\n\n\n\n Economists: 68.95% favor\n\n\n\n\n\nOur class is 23% less supportive than the economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#policy-support-border-carbon-adjustment-tax-imports-by-ghg",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#policy-support-border-carbon-adjustment-tax-imports-by-ghg",
+    "title": "Lecture 2",
+    "section": "Policy Support: Border carbon adjustment (tax imports by GHG)",
+    "text": "Policy Support: Border carbon adjustment (tax imports by GHG)\n\n\n\n\n Economists: 67.72% favor\n\n\n\n\n\nOur class is 21% less supportive than the economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#policy-support-higher-fuel-efficiency-standards",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#policy-support-higher-fuel-efficiency-standards",
+    "title": "Lecture 2",
+    "section": "Policy Support: Higher fuel-efficiency standards",
+    "text": "Policy Support: Higher fuel-efficiency standards\n\n\n\n\n Economists: 66.84% favor\n\n\n\n\n\nOur class is 18% more supportive than the economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#policy-support-business-incentives-for-clean-energy",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#policy-support-business-incentives-for-clean-energy",
+    "title": "Lecture 2",
+    "section": "Policy Support: Business incentives for clean energy",
+    "text": "Policy Support: Business incentives for clean energy\n\n\n\n\n Economists: 63.35% favor\n\n\n\n\n\nOur class is 14% more supportive than the economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#policy-support-home-cleanenergy-tax-credits",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#policy-support-home-cleanenergy-tax-credits",
+    "title": "Lecture 2",
+    "section": "Policy Support: Home clean‑energy tax credits",
+    "text": "Policy Support: Home clean‑energy tax credits\n\n\n\n\n Economists: 61.26% favor\n\n\n\n\n\nOur class is 23% more supportive than the economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#policy-support-ev-purchase-tax-credits",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#policy-support-ev-purchase-tax-credits",
+    "title": "Lecture 2",
+    "section": "Policy Support: EV purchase tax credits",
+    "text": "Policy Support: EV purchase tax credits\n\n\n\n\n Economists: 51.85% favor\n\n\n\n\n\nOur class is as supportive as the economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#agree-ej-regulation-should-be-implemented",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#agree-ej-regulation-should-be-implemented",
+    "title": "Lecture 2",
+    "section": "Agree: EJ regulation should be implemented",
+    "text": "Agree: EJ regulation should be implemented\n\n\n\n\n Economists: 81.15% agree\n\n\n\n\n\nOur class is 10% more supportive than the economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#agree-reduce-epa-regulatory-power-improves-efficiency",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#agree-reduce-epa-regulatory-power-improves-efficiency",
+    "title": "Lecture 2",
+    "section": "Agree: Reduce EPA regulatory power improves efficiency",
+    "text": "Agree: Reduce EPA regulatory power improves efficiency\n\n\n\n\n Economists: 80.63% disagree\n\n\n\n\n\nOur class is 50% less disagreement than the economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#agree-communities-near-hazardous-waste-sites-are-awareaccepting",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#agree-communities-near-hazardous-waste-sites-are-awareaccepting",
+    "title": "Lecture 2",
+    "section": "Agree: Communities near hazardous waste sites are aware/accepting",
+    "text": "Agree: Communities near hazardous waste sites are aware/accepting\n\n\n\n\n Economists: 75.39% disagree\n\n\n\n\n\nOur class is 9% more supportive than the economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#agree-free-market-property-rights-tort-law-are-best-tools",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#agree-free-market-property-rights-tort-law-are-best-tools",
+    "title": "Lecture 2",
+    "section": "Agree: Free market / property rights / tort law are best tools",
+    "text": "Agree: Free market / property rights / tort law are best tools\n\n\n\n\n Economists: 73.44% disagree\n\n\n\n\n\nOur class is 50% less disagreement than the economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#agree-economic-growth-always-harms-the-environment",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#agree-economic-growth-always-harms-the-environment",
+    "title": "Lecture 2",
+    "section": "Agree: Economic growth always harms the environment",
+    "text": "Agree: Economic growth always harms the environment\n\n\n\n\n Economists: 70.16% disagree\n\n\n\n\n\nOur class is 14% more disagreement than the economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#agree-carbon-markets-and-offsets-are-efficient-for-firms",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#agree-carbon-markets-and-offsets-are-efficient-for-firms",
+    "title": "Lecture 2",
+    "section": "Agree: Carbon markets and offsets are efficient for firms",
+    "text": "Agree: Carbon markets and offsets are efficient for firms\n\n\n\n\n Economists: 56.84% agree\n\n\n\n\n\nOur class is 26% less supportive than the economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#agree-return-carbon-revenues-via-dividends-lower-taxes",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#agree-return-carbon-revenues-via-dividends-lower-taxes",
+    "title": "Lecture 2",
+    "section": "Agree: Return carbon revenues via dividends / lower taxes",
+    "text": "Agree: Return carbon revenues via dividends / lower taxes\n\n\n\n\n Economists: 55.5% agree\n\n\n\n\n\nOur class is 32% less supportive than the economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#agree-use-carbon-revenues-to-reduce-national-debt",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#agree-use-carbon-revenues-to-reduce-national-debt",
+    "title": "Lecture 2",
+    "section": "Agree: Use carbon revenues to reduce national debt",
+    "text": "Agree: Use carbon revenues to reduce national debt\n\n\n\n\n Economists: 42.63% neutral\n\n\n\n\n\nOur class is as neutral as economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#agree-emission-standards-are-rigid-insensitive-to-differences",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#agree-emission-standards-are-rigid-insensitive-to-differences",
+    "title": "Lecture 2",
+    "section": "Agree: Emission standards are rigid / insensitive to differences",
+    "text": "Agree: Emission standards are rigid / insensitive to differences\n\n\n\n\n Economists: 49.74% agree\n\n\n\n\n\nOur class is 20% more supportive than the economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#agree-max-sustainable-level-of-economic-growth-exists",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#agree-max-sustainable-level-of-economic-growth-exists",
+    "title": "Lecture 2",
+    "section": "Agree: Max sustainable level of economic growth exists",
+    "text": "Agree: Max sustainable level of economic growth exists\n\n\n\n\n Economists: 44.21% agree\n\n\n\n\n\nOur class is 9% more supportive than the economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#agree-population-growth-degrades-the-environment",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#agree-population-growth-degrades-the-environment",
+    "title": "Lecture 2",
+    "section": "Agree: Population growth degrades the environment",
+    "text": "Agree: Population growth degrades the environment\n\n\n\n\n Economists: 41.58% disagree\n\n\n\n\n\nOur class is 26% less disagreement than the economists."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#summary---concern-class-vs-economists",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#summary---concern-class-vs-economists",
+    "title": "Lecture 2",
+    "section": "Summary - Concern: Class vs Economists",
+    "text": "Summary - Concern: Class vs Economists\n\n\n\n\n\n\n\n\nQuestion\nClass\nEconomist\n\n\n\n\nHow concerned are you about air quality?\n84.62% concerned\n57.14% concerned\n\n\nHow concerned are you about environmental justice?\n69.23% concerned\n53.97% concerned\n\n\nHow concerned are you about renewable energy?\n83.34% concerned\n45.21% concerned\n\n\nHow concerned are you about mining impacts?\n53.84% concerned\n40.64% concerned\n\n\nHow concerned are you about solid waste?\n76.92% concerned\n39.46% unconcerned\n\n\nHow concerned are you about hazardous waste?\n84.62% concerned\n38.38% neutral"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#summary---policy-support-class-vs-economists-12",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#summary---policy-support-class-vs-economists-12",
+    "title": "Lecture 2",
+    "section": "Summary - Policy Support: Class vs Economists (1/2)",
+    "text": "Summary - Policy Support: Class vs Economists (1/2)\n\n\n\n\n\n\n\n\nQuestion\nClass\nEconomist\n\n\n\n\nEstablish strict limits on the release of methane in the production of natural gas.\n84.61% favor\n75.39% favor\n\n\nFor environmental problems, there should be international agreements that U.S. and other countries should be made to follow.\n100.00% favor\n74.35% agree\n\n\nSpend federal money to increase the number of electric vehicle charging stations in the U.S.\n46.15% favor\n68.95% favor\n\n\nTax imports based on the greenhouse gases used to make them.\n46.15% favor\n67.72% favor"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#summary---policy-support-class-vs-economists-22",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#summary---policy-support-class-vs-economists-22",
+    "title": "Lecture 2",
+    "section": "Summary - Policy Support: Class vs Economists (2/2)",
+    "text": "Summary - Policy Support: Class vs Economists (2/2)\n\n\n\n\n\n\n\n\nQuestion\nClass\nEconomist\n\n\n\n\nSet higher fuel efficiency standards for cars, trucks and buses.\n84.61% favor\n66.84% favor\n\n\nProvide tax incentives to businesses to promote their use of wind, solar and nuclear power.\n76.93% favor\n63.35% favor\n\n\nProvide tax credits to Americans who install clean energy systems, like solar power, in their homes.\n84.62% favor\n61.26% favor\n\n\nProvide tax credits to individuals who purchase electric vehicles.\n53.84% favor\n51.85% favor"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#summary---agreement-class-vs-economists-13",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#summary---agreement-class-vs-economists-13",
+    "title": "Lecture 2",
+    "section": "Summary - Agreement: Class vs Economists (1/3)",
+    "text": "Summary - Agreement: Class vs Economists (1/3)\n\n\n\n\n\n\n\n\nQuestion\nClass\nEconomist\n\n\n\n\nRegulation in the U.S. should be implemented to address environmental justice concerns.\n92.31% agree\n81.15% agree\n\n\nReducing the regulatory power of the Environmental Protection Agency (EPA) would improve the economic efficiency of the U.S. economy.\n53.8% neutral\n80.63% disagree\n\n\nCommunities that exist close to hazardous waste sites are aware and accepting of the hazardous waste site(s) near their home.\n84.1% disagree\n75.39% disagree"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#summary---agreement-class-vs-economists-23",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#summary---agreement-class-vs-economists-23",
+    "title": "Lecture 2",
+    "section": "Summary - Agreement: Class vs Economists (2/3)",
+    "text": "Summary - Agreement: Class vs Economists (2/3)\n\n\n\n\n\n\n\n\nQuestion\nClass\nEconomist\n\n\n\n\nCarbon markets and carbon offsets are an efficient mechanism for private firms to meet their carbon reduction goals.\n53.8% neutral\n56.84% agree\n\n\nEmissions tax or permit auction revenues should be returned to the public through dividends or lower income taxes.\n69.2% neutral\n55.5% agree\n\n\nEmissions tax or permit auction revenues should be used to reduce the national debt.\n46.2% neutral\n42.63% neutral\n\n\nEmissions standards are rigid, and insensitive to geographical and technological differences.\n69.23% agree\n49.74% agree"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#summary---agreement-class-vs-economists-33",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#summary---agreement-class-vs-economists-33",
+    "title": "Lecture 2",
+    "section": "Summary - Agreement: Class vs Economists (3/3)",
+    "text": "Summary - Agreement: Class vs Economists (3/3)\n\n\n\n\n\n\n\n\nQuestion\nClass\nEconomist\n\n\n\n\nThere exists a maximum level of economic growth that can be sustained without undermining the resource base upon which it depends.\n53.84% agree\n44.21% agree\n\n\nEconomic growth always harms the environment.\n84.6% disagree\n70.16% disagree\n\n\nPopulation growth inevitably degrades the environment.\n61.53% agree\n41.58% disagree\n\n\nThe free market, property rights, and tort law provide the best tools to preserve the health and sustainability of the environment.\n46.2% neutral\n73.44% disagree"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#professional-consensus-highlights",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#professional-consensus-highlights",
+    "title": "Lecture 2",
+    "section": "Professional consensus — highlights",
+    "text": "Professional consensus — highlights\n\nSupermajority and High Levels of Strong Consensus\n\nUnregulated markets provide public goods in optimal quantities. (96.84% disagree)\nAir pollution and hazardous waste siting decisions disproportionately affect low-income & minority communities. (91.5% agree)\nEmissions taxes or marketable emissions permits are a more economically efficient approach to pollution control than emissions standards. (90.5% agree)\nHow concerned are you about climate change? (88.95% concerned)\nForests should be managed to provide multiple uses. (88.42% agree)\nUnregulated common-pool resources face the “tragedy of the commons” problem. (87.96% agree)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.knit.html#professional-consensus-highlights-1",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.knit.html#professional-consensus-highlights-1",
+    "title": "Lecture 2",
+    "section": "Professional consensus — highlights",
+    "text": "Professional consensus — highlights\n\nThe respondents in the survey were 70% male, 81% white, 90% PhD educated, and 77% politically liberal.\nEconomists broadly favor market-based instruments (taxes/permits) for cost-effective abatement\nStrong support for EV infrastructure and fuel economy standards\nRecognition of environmental justice concerns and the role of regulation\nSkepticism about free-market environmentalism as a sole approach\nMixed preferences on revenue recycling (dividends vs. deficit reduction)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#professional-consensus-highlights-2",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#professional-consensus-highlights-2",
+    "title": "Lecture 2",
+    "section": "Professional consensus — highlights",
+    "text": "Professional consensus — highlights\nWithout a Supermajority but With a Majority (&gt;50%)\n\n\nProvide tax credits to Americans who install clean energy systems, like solar power, in their homes. (61.26% favor)\nHow concerned are you about air quality? (57.14% concerned)\nCarbon markets and carbon offsets are an efficient mechanism for private firms to meet their carbon reduction goals. (56.84% agree)\nEmissions tax or permit auction revenues should be returned to the public through dividends or lower income taxes. (55.50% agree)\nHow concerned are you about environmental justice? (53.97% concerned)\nProvide tax credits to individuals who purchase electric vehicles. (51.85% favor)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#professional-consensus-highlights-3",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#professional-consensus-highlights-3",
+    "title": "Lecture 2",
+    "section": "Professional consensus — highlights",
+    "text": "Professional consensus — highlights\nWithout a Majority of Without Agreement/Disagreement\n\n\nEmissions standards are rigid, and insensitive to geographical and technological differences. (49.74% agree)\nHow concerned are you about renewable energy? (45.21% concerned)\nThere exists a maximum level of economic growth that can be sustained without undermining the resource base upon which it depends. (44.21% agree)\nHow concerned are you about mining impacts? (40.64% concerned)\nHow concerned are you about solid waste? (39.46% unconcerned)\nHow concerned are you about hazardous waste? (38.38% neutral)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#professional-consensus-highlights-4",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#professional-consensus-highlights-4",
+    "title": "Lecture 2",
+    "section": "Professional consensus — highlights",
+    "text": "Professional consensus — highlights\n\n\nThe respondents in the 2023 survey were:\n\n70% male\n81% white\n90% Ph.D. educated\n77% politically liberal.\n\nEconomists broadly favor market-based instruments (taxes/permits) for cost-effective abatement\nStrong support for EV infrastructure and fuel economy standards\nRecognition of environmental justice concerns and the role of regulation\nMixed preferences on revenue recycling (dividends vs. deficit reduction)\nSkepticism about free-market environmentalism as a sole approach"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#where-do-we-diverge-what-might-explain-differences",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#where-do-we-diverge-what-might-explain-differences",
+    "title": "Lecture 2",
+    "section": "Where do we diverge? What might explain differences?",
+    "text": "Where do we diverge? What might explain differences?\nQ1: Renewable Energy\nHow concerned are you about renewable energy?\n\n\nClass: 83.34% concerned\n\nEconomists: 45.21% concerned\n\nWhy the gap?\n\nStudents: urgency about climate & future jobs, idealistic about solutions\n\nEconomists: cautious — focus on system-wide efficiency, trade-offs, and carbon pricing\n\nDifferent interpretation: “concern” = not enough being done vs. priority among many issues"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#where-do-we-diverge-what-might-explain-differences-1",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#where-do-we-diverge-what-might-explain-differences-1",
+    "title": "Lecture 2",
+    "section": "Where do we diverge? What might explain differences?",
+    "text": "Where do we diverge? What might explain differences?\nQ2: Solid Waste\nHow concerned are you about solid waste?\n\n\nClass: 76.92% concerned\n\nEconomists: 39.46% unconcerned\n\nWhy the gap?\n\nStudents: visible, personal issue (trash, recycling, plastics) → feels urgent\n\nEconomists: see waste as less critical compared to climate/energy externalities\n\nLandfills & recycling markets: often solvable locally, smaller macroeconomic impact"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#q3-epa-regulation",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#q3-epa-regulation",
+    "title": "Lecture 2",
+    "section": "Q3: EPA Regulation",
+    "text": "Q3: EPA Regulation\nReducing the regulatory power of the Environmental Protection Agency (EPA) would improve the economic efficiency of the U.S. economy.\n\n\nEconomists: Many skeptical of this statement\n\nClass: More mixed responses\n\nWhy the gap?\n\n\nEconomists see EPA as correcting market failures (externalities) → regulations can increase efficiency\n\nWithout regulation, pollution costs shift to society rather than polluters"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#where-do-we-diverge-what-might-explain-differences-2",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#where-do-we-diverge-what-might-explain-differences-2",
+    "title": "Lecture 2",
+    "section": "Where do we diverge? What might explain differences?",
+    "text": "Where do we diverge? What might explain differences?\nFree Market, Property Rights, and Tort Law\nThe free market, property rights, and tort law provide the best tools to preserve the health and sustainability of the environment.\n\n\nEconomists: 73.44% disagree\n\nClass: Only 23% disagree\n\nWhy the gap?\n\nStudents: markets/property rights sound fair & intuitive (“if you own it, you’ll care for it”)\n\nEconomists: global problems like CO₂ are commons problems → markets & tort law can’t solve them alone\n\nNeed collective tools: carbon pricing, cap-and-trade, regulations"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#q1-renewable-energy",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#q1-renewable-energy",
+    "title": "Lecture 2",
+    "section": "Q1: Renewable Energy",
+    "text": "Q1: Renewable Energy\nHow concerned are you about renewable energy?\n\n\nClass: 83.34% concerned\n\nEconomists: 45.21% concerned\n\nWhy the gap?\n\n\nEconomists: cautious — focus on system-wide efficiency, trade-offs, and carbon pricing\n\nDifferent interpretation: “concern” = not enough being done vs. priority among many issues"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#q2-solid-waste",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#q2-solid-waste",
+    "title": "Lecture 2",
+    "section": "Q2: Solid Waste",
+    "text": "Q2: Solid Waste\nHow concerned are you about solid waste?\n\n\nClass: 76.92% concerned\n\nEconomists: 39.46% unconcerned\n\nWhy the gap?\n\n\nEconomists: see waste as less critical compared to climate/energy externalities\n\nLandfills & recycling markets: often solvable locally, smaller macroeconomic impact"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-02-2025-0827.html#q4.-free-market-property-rights-and-tort-law",
+    "href": "econ-lec/econ-340-lec-02-2025-0827.html#q4.-free-market-property-rights-and-tort-law",
+    "title": "Lecture 2",
+    "section": "Q4. Free Market, Property Rights, and Tort Law",
+    "text": "Q4. Free Market, Property Rights, and Tort Law\nThe free market, property rights, and tort law provide the best tools to preserve the health and sustainability of the environment.\n\n\nEconomists: 73.44% disagree\n\nClass: Only 23% disagree\n\nWhy the gap?\n\n\nEconomists: global problems like CO₂ are commons problems → markets & tort law can’t solve them alone\n\nNeed collective tools: carbon pricing, cap-and-trade, regulations"
   }
 ]

@@ -1,0 +1,684 @@
+---
+title: Lecture 2
+subtitle: Class Survey Results vs. Professional Consensus
+format:
+  clean-revealjs:
+    self-contained: false
+    chalkboard: true
+    incremental: true
+    code-annotations: hover
+    scrollable: false
+
+    # logo: logo-title-slide.png
+author:
+  - name: Byeong-Hak Choe
+    email: bchoe@geneseo.edu
+    affiliations: SUNY Geneseo
+date: 2025-08-27
+execute: 
+  eval: true
+  echo: false
+callout-icon: false
+
+from: markdown+emoji
+include-after-body: target-hover.html # effect.html
+
+# bibliography: refs.bib
+---
+
+```{r setup}
+#| include: false
+
+library(tidyverse)
+library(lubridate)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+library(viridis)
+library(rmarkdown)
+library(gapminder)
+library(ggrepel)
+
+theme_set(theme_fivethirtyeight() +
+            theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(10,0,0,0)),
+                axis.title.y = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(0,10,0,0)),
+                axis.text.x = element_text(size = rel(1.75)),
+                axis.text.y = element_text(size = rel(1.75)),
+                strip.text = element_text(size = rel(1.5)),
+                legend.position = "top",
+                legend.text = element_text(size = rel(1.5)),
+                legend.title = element_text(size = rel(1.5))
+                )
+          )
+
+# Set global options for color-blind-friendly scales
+# scale_colour_discrete <- function(...) scale_colour_viridis_d(...)
+scale_colour_discrete <- function(...) scale_color_colorblind(...)
+scale_fill_discrete <- function(...) scale_fill_colorblind(...)
+```
+
+# Class Survey Results {background-color="#1c4982"}
+
+## Concern: Air quality
+
+:::: {.columns}
+
+::: {.column width="75%"}
+![](https://bcdanl.github.io/lec_figs/concern_01.png "How concerned are you about air quality?")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: 57.14% concerned
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+Our class is 27% more concerned than professional economists.
+
+## Concern: Environmental justice
+
+:::: {.columns}
+
+::: {.column width="75%"}
+![](https://bcdanl.github.io/lec_figs/concern_02.png "How concerned are you about environmental justice?")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *53.97%* concerned
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+Our class is 15% more concerned than professional economists.
+
+
+## Concern: Renewable energy
+
+:::: {.columns}
+
+::: {.column width="75%"}
+![](https://bcdanl.github.io/lec_figs/concern_03.png "How concerned are you about renewable energy?")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *45.21%* concerned
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+Our class is 38% more concerned than professional economists.
+
+
+## Concern: Mining impacts
+
+:::: {.columns}
+
+::: {.column width="75%"}
+![](https://bcdanl.github.io/lec_figs/concern_04.png "How concerned are you about mining impacts?")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *40.64%* concerned
+:::
+
+::::
+<div style="display:block; margin:-75px;"></div>
+Our class is 13% more concerned than professional economists.
+
+## Concern: Solid waste
+
+:::: {.columns}
+
+::: {.column width="75%"}
+![](https://bcdanl.github.io/lec_figs/concern_05.png "How concerned are you about solid waste?")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *39.46%* unconcerned
+:::
+
+::::
+<div style="display:block; margin:-75px;"></div>
+Our class is 37% more concerned than professional economists.
+
+
+## Concern: Hazardous waste
+
+:::: {.columns}
+
+::: {.column width="75%"}
+![](https://bcdanl.github.io/lec_figs/concern_06.png "How concerned are you about hazardous waste?")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *38.38%* neutral
+:::
+
+::::
+<div style="display:block; margin:-75px;"></div>
+Our class is 46% more concerned than professional economists.
+
+## Policy Support: Methane limits (natural gas production)
+
+:::: {.columns}
+
+::: {.column width="75%"}
+![](https://bcdanl.github.io/lec_figs/favor_01.png "Establish strict methane limits in natural gas production")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *75.39%* favor
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+Our class is 9% more supportive than professional economists.
+
+## Policy Support: International agreements
+
+:::: {.columns}
+
+::: {.column width="75%"}
+![](https://bcdanl.github.io/lec_figs/favor_02.png "International environmental agreements")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *74.35%* favor
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+Our class is 26% more supportive than professional economists.
+
+
+## Policy Support: EV charging stations (federal funding)
+
+:::: {.columns}
+
+::: {.column width="75%"}
+![](https://bcdanl.github.io/lec_figs/favor_03.png "EV charging stations (federal funding)")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *68.95%* favor
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+Our class is 23% less supportive than professional economists.
+
+
+## Policy Support: Border carbon adjustment (tax imports by GHG)
+
+:::: {.columns}
+
+::: {.column width="75%"}
+![](https://bcdanl.github.io/lec_figs/favor_04.png "Tax imports based on embedded GHGs (border adjustment)")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *67.72%* favor
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+Our class is 21% less supportive than professional economists.
+
+
+## Policy Support: Higher fuel-efficiency standards
+
+:::: {.columns}
+
+::: {.column width="75%"}
+![](https://bcdanl.github.io/lec_figs/favor_05.png "Higher fuel-efficiency standards")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *66.84%* favor
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+Our class is 18% more supportive than professional economists.
+
+
+## Policy Support: Business incentives for clean energy
+
+:::: {.columns}
+
+::: {.column width="75%"}
+![](https://bcdanl.github.io/lec_figs/favor_06.png "Business tax incentives for clean energy")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *63.35%* favor
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+Our class is 14% more supportive than professional economists.
+
+
+## Policy Support: Home clean‑energy tax credits
+
+:::: {.columns}
+
+::: {.column width="75%"}
+![](https://bcdanl.github.io/lec_figs/favor_07.png "Home clean‑energy tax credits")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *61.26%* favor
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+Our class is 23% more supportive than professional economists.
+
+
+## Policy Support: EV purchase tax credits
+
+:::: {.columns}
+
+::: {.column width="75%"}
+![](https://bcdanl.github.io/lec_figs/favor_08.png "EV purchase tax credits")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *51.85%* favor
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+Our class is as supportive as professional economists.
+
+
+## Agree: EJ regulation should be implemented
+
+:::: {.columns}
+
+::: {.column width="75%"}
+![](https://bcdanl.github.io/lec_figs/agree_01.png "Regulation should address environmental justice")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *81.15%* agree
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+Our class is 10% more supportive than professional economists.
+
+
+
+## Agree: Reduce EPA regulatory power improves efficiency
+
+:::: {.columns}
+
+::: {.column width="75%"}
+![](https://bcdanl.github.io/lec_figs/agree_02.png "Reducing EPA regulatory power improves efficiency")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *80.63%* disagree
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+Our class is 50% less disagreement than professional economists.
+
+
+
+## Agree: Communities near hazardous waste sites are aware/accepting
+
+:::: {.columns}
+
+::: {.column width="75%"}
+![](https://bcdanl.github.io/lec_figs/agree_03.png "Communities near hazardous waste sites are aware/accepting")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *75.39%* disagree
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+Our class is 9% more supportive than professional economists.
+
+## Agree: Free market / property rights / tort law are best tools
+
+:::: {.columns}
+
+::: {.column width="75%"}
+![](https://bcdanl.github.io/lec_figs/agree_04.png "Free market/property rights/tort law are best tools")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *73.44%* disagree
+:::
+
+::::
+
+
+<div style="display:block; margin:-75px;"></div>
+Our class is 50% less disagreement than professional economists.
+
+## Agree: Economic growth always harms the environment
+
+:::: {.columns}
+
+::: {.column width="75%"}
+![](https://bcdanl.github.io/lec_figs/agree_05.png "Economic growth always harms the environment")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *70.16%* disagree
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+Our class is 14% more disagreement than professional economists.
+
+## Agree: Carbon markets and offsets are efficient for firms
+
+:::: {.columns}
+
+::: {.column width="75%"}
+![](https://bcdanl.github.io/lec_figs/agree_06.png "Carbon markets/offsets are efficient for firms")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *56.84%* agree
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+Our class is 26% less supportive than professional economists.
+
+## Agree: Return carbon revenues via dividends / lower taxes
+
+:::: {.columns}
+
+::: {.column width="75%"}
+![](https://bcdanl.github.io/lec_figs/agree_07.png "Return carbon revenues via dividends / lower income taxes")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *55.5%* agree
+:::
+
+::::
+
+
+<div style="display:block; margin:-75px;"></div>
+Our class is 32% less supportive than professional economists.
+
+
+## Agree: Use carbon revenues to reduce national debt
+
+:::: {.columns}
+
+::: {.column width="75%"}
+![](https://bcdanl.github.io/lec_figs/agree_08.png "Use carbon revenues to reduce national debt")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *42.63%* neutral
+:::
+
+::::
+
+
+<div style="display:block; margin:-75px;"></div>
+Our class is as neutral as professional economists.
+
+## Agree: Emission standards are rigid / insensitive to differences
+
+:::: {.columns}
+
+::: {.column width="75%"}
+![](https://bcdanl.github.io/lec_figs/agree_09.png "Emissions standards are rigid / insensitive to differences")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *49.74%* agree
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+Our class is 20% more supportive than professional economists.
+
+
+## Agree: Max sustainable level of economic growth exists
+
+:::: {.columns}
+
+::: {.column width="75%"}
+![](https://bcdanl.github.io/lec_figs/agree_10.png "There exists a maximum sustainable level of economic growth")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *44.21%* agree
+:::
+
+::::
+
+
+<div style="display:block; margin:-75px;"></div>
+Our class is 9% more supportive than professional economists.
+
+## Agree: Population growth degrades the environment
+
+:::: {.columns}
+
+::: {.column width="75%"}
+![](https://bcdanl.github.io/lec_figs/agree_11.png "Population growth inevitably degrades the environment")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *41.58%* disagree
+:::
+
+::::
+
+
+<div style="display:block; margin:-75px;"></div>
+Our class is 26% less disagreement than professional economists.
+
+
+# Professional Consensus {background-color="#1c4982"}
+
+## Professional consensus — highlights
+### Supermajority and High Levels of Strong Consensus (1/2)
+:::{.nonincremental}
+- Unregulated markets provide public goods in optimal quantities. (**96.84% disagree**)
+- Air pollution and hazardous waste siting decisions disproportionately affect low-income & minority communities. (**91.05 / 90.53% agree**)
+- Emissions taxes or marketable emissions permits are a more economically efficient approach to pollution control than emissions standards. (**90.5% agree**)
+- How concerned are you about climate change? (**88.95% concerned**)
+- Unregulated common-pool resources face the “tragedy of the commons” problem. (**87.96% agree**)
+- The U.S. should increase energy taxes. (**83.33% agree**)
+
+:::
+
+
+## Professional consensus — highlights
+### Supermajority and High Levels of Strong Consensus (2/2)
+:::{.nonincremental}
+- Reducing the regulatory power of the Environmental Protection Agency (EPA) would improve the economic efficiency of the U.S. economy. (**80.63% disagree**)
+- Communities that exist close to hazardous waste sites are aware and accepting of the hazardous waste site(s) near their home. (**75.39% disagree**)
+- For environmental problems, there should be international agreements that U.S. and other countries should be made to follow. (**74.35% agree**)
+- The free market, property rights, and tort law provide the best tools to preserve the health and sustainability of the environment. (**73.44% disagree**)
+- Economic growth always harms the environment. (**70.16% disagree**)
+- Tax imports based on the greenhouse gases used to make them. (**67.72% favor**)
+
+:::
+
+## Professional consensus — highlights
+### Without a Supermajority but With a Majority (>50%)
+:::{.nonincremental}
+- Provide tax credits to Americans who install clean energy systems, like solar power, in their homes. (**61.26% favor**)
+- How concerned are you about air quality? (**57.14% concerned**)
+- Carbon markets and carbon offsets are an efficient mechanism for private firms to meet their carbon reduction goals. (**56.84% agree**)
+- Emissions tax or permit auction revenues should be returned to the public through dividends or lower income taxes. (**55.50% agree**)
+- How concerned are you about environmental justice? (**53.97% concerned**)
+- Provide tax credits to individuals who purchase electric vehicles. (**51.85% favor**)
+
+:::
+
+## Professional consensus — highlights
+### Without a Majority of Without Agreement/Disagreement
+:::{.nonincremental}
+- Emissions standards are rigid, and insensitive to geographical and technological differences. (**49.74% agree**)
+- How concerned are you about renewable energy? (**45.21% concerned**)
+- There exists a maximum level of economic growth that can be sustained without undermining the resource base upon which it depends. (**44.21% agree**)
+- How concerned are you about mining impacts? (**40.64% concerned**)
+- How concerned are you about solid waste? (**39.46% unconcerned**)
+- How concerned are you about hazardous waste? (**38.38% neutral**)
+
+:::
+
+## Professional consensus — highlights
+
+:::{.nonincremental}
+
+- The respondents in the 2023 survey were:
+  - 70% male
+  - 81% white
+  - 90% Ph.D. educated
+  - 77% politically liberal.
+  
+- Economists broadly favor **market-based instruments** (taxes/permits) for cost-effective abatement
+- Strong support for **EV infrastructure** and **fuel economy** standards
+- Recognition of **environmental justice** concerns and the role of regulation
+- Mixed preferences on **revenue recycling** (dividends vs. deficit reduction)
+- Skepticism about **free-market environmentalism** as a sole approach
+
+:::
+
+# Class Survey Results vs. Professional Consensus {background-color="#1c4982"}
+## Q1: Renewable Energy
+
+**How concerned are you about renewable energy?**
+
+::: incremental
+- **Class:** 83.34% concerned  
+- **Economists:** 45.21% concerned  
+- **Why the gap?**  
+  <!-- - Students: urgency about climate & future jobs, idealistic about solutions   -->
+  - Economists: cautious — focus on system-wide efficiency, trade-offs, and carbon pricing  
+  - Different interpretation: “concern” = *not enough being done* vs. *priority among many issues*  
+
+:::
+
+
+## Q2: Solid Waste
+
+**How concerned are you about solid waste?**
+
+::: incremental
+- **Class:** 76.92% concerned  
+- **Economists:** 39.46% unconcerned  
+- **Why the gap?**  
+  <!-- - Students: visible, personal issue (trash, recycling, plastics) → feels urgent   -->
+  - Economists: see waste as less critical compared to climate/energy externalities  
+  - Landfills & recycling markets: often solvable locally, smaller macroeconomic impact  
+
+:::
+
+
+## Q3: EPA Regulation
+
+**Reducing the regulatory power of the Environmental Protection Agency (EPA) would improve the economic efficiency of the U.S. economy.**
+
+::: incremental
+- **Economists:** Many skeptical of this statement  
+- **Class:** More mixed responses  
+- **Why the gap?**  
+  <!-- - Students may associate “less regulation” with business efficiency   -->
+  - Economists see EPA as correcting market failures (externalities) → regulations can *increase* efficiency  
+  - Without regulation, pollution costs shift to society rather than polluters  
+
+:::
+
+## Q4. Free Market, Property Rights, and Tort Law
+
+**The free market, property rights, and tort law provide the best tools to preserve the health and sustainability of the environment.**
+
+::: incremental
+- **Economists:** 73.44% disagree  
+- **Class:** Only 23% disagree  
+- **Why the gap?**  
+  <!-- - Students: markets/property rights sound fair & intuitive (“if you own it, you’ll care for it”)   -->
+  - Economists: global problems like CO₂ are *commons* problems → markets & tort law can’t solve them alone  
+  - Need collective tools: carbon pricing, cap-and-trade, regulations  
+  
+:::
+
+<!-- > Reference reading: survey of environmental & natural resource economists (see attached PDF on the course site) -->
+
+
+<!-- ## Compare: class vs. economists — prompts -->
+
+<!-- - Where do our charts show **alignment** with professional consensus? -->
+<!-- - Where do we **diverge**? What might explain differences? -->
+<!-- - What might explain differences (information, values, incentives, local context)? -->
+<!-- - Which policies balance **efficiency** and **equity** considerations most clearly? -->
+
+<!-- ## Activity (5–8 min) -->
+
+<!-- In pairs: -->
+
+<!-- 1. Pick one policy (e.g., EV chargers, methane limits, border carbon adjustment). -->
+<!-- 2. Argue both **for** and **against** using efficiency *and* equity frames. -->
+<!-- 3. Identify 2–3 data points you’d collect to persuade a median voter. -->
+
+<!-- Share out: 1-minute summary per pair. -->

@@ -10,7 +10,8 @@
   {
     "listing": "/index.html",
     "items": [
-      "/econ-lec/econ-340-lec-01-2025-0825.html"
+      "/econ-lec/econ-340-lec-01-2025-0825.html",
+      "/econ-lec/econ-340-lec-02-2025-0827.html"
     ]
   },
   {
@@ -20,7 +21,8 @@
   {
     "listing": "/listing-econ-340-lec.html",
     "items": [
-      "/econ-lec/econ-340-lec-01-2025-0825.html"
+      "/econ-lec/econ-340-lec-01-2025-0825.html",
+      "/econ-lec/econ-340-lec-02-2025-0827.html"
     ]
   }
 ]

@@ -17,6 +17,31 @@ In our first week together, we will walk through the syllabus so you will know w
 
 - Please take the anonymous [survey on environmental economics](../survey.html){target="_blank"}.
 
+| Question | Class | Economist |
+|---|---:|:--|
+| How concerned are you about air quality? | **84.62% concerned** | 57.14% concerned |
+| How concerned are you about environmental justice? | **69.23% concerned** | 53.97% concerned |
+| How concerned are you about renewable energy? | **83.34% concerned** | 45.21% concerned |
+| How concerned are you about mining impacts? | **53.84% concerned** | 40.64% concerned |
+| How concerned are you about solid waste? | **76.92% concerned** | 39.46% unconcerned |
+| How concerned are you about hazardous waste? | **84.62% concerned** | 38.38% neutral |
+| Establish strict limits on the release of methane in the production of natural gas. | **84.61% favor** | 75.39% favor |
+| For environmental problems, there should be international agreements that U.S. and other countries should be made to follow. | **100.00% favor** | 74.35% agree |
+| Spend federal money to increase the number of electric vehicle charging stations in the U.S. | **46.15% favor** | 68.95% favor |
+| Tax imports based on the greenhouse gases used to make them. | **46.15% favor** | 67.72% favor |
+| Set higher fuel efficiency standards for cars, trucks and buses. | **84.61% favor** | 66.84% favor |
+| Provide tax incentives to businesses to promote their use of wind, solar and nuclear power. | **76.93% favor** | 63.35% favor |
+| Provide tax credits to Americans who install clean energy systems, like solar power, in their homes. | **84.62% favor** | 61.26% favor |
+| Provide tax credits to individuals who purchase electric vehicles. | **53.84% favor** | 51.85% favor |
+| Regulation in the U.S. should be implemented to address environmental justice concerns. | **92.31% agree** | 81.15% agree |
+| Reducing the regulatory power of the Environmental Protection Agency (EPA) would improve the economic efficiency of the U.S. economy. | **53.8% neutral** | 80.63% disagree |
+| Communities that exist close to hazardous waste sites are aware and accepting of the hazardous waste site(s) near their home. | **84.1% disagree** | 75.39% disagree |
+| Carbon markets and carbon offsets are an efficient mechanism for private firms to meet their carbon reduction goals. | **53.8% neutral** | 56.84% agree |
+| Emissions tax or permit auction revenues should be returned to the public through dividends or lower income taxes. | **69.2% neutral** | 55.5% agree |
+| Emissions tax or permit auction revenues should be used to reduce the national debt. | **46.2% neutral** | 42.63% neutral |
+| Emissions standards are rigid, and insensitive to geographical and technological differences. | **69.23% agree** | 49.74% agree |
+
+
 ## 🏫 Lecture Slides 
 
 ### Lecture 1
