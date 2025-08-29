@@ -11,14 +11,14 @@
     "href": "econ-wk/wk-01.html#lecture-slides",
     "title": "Week 1",
     "section": "🏫 Lecture Slides",
-    "text": "🏫 Lecture Slides\n\nLecture 1 - Syllabus\nEither click on the slide area below or click here to view it in fullscreen.\n\n\n\n\n\n\nLecture 2 - Environmental Economics Survey\nEither click on the slide area below or click here to view it in fullscreen.\n\n\n\n\n🎥 Looking for lecture recordings? You can only find those on Brightspace."
+    "text": "🏫 Lecture Slides\n\nLecture 1 - Syllabus\nEither click on the slide area below or click here to view it in fullscreen.\n\n\n\n\n\n\nLecture 2 - Environmental Economics Survey\nEither click on the slide area below or click here to view it in fullscreen.\n\n\n\n\n\n\nLecture 3 - Microeconomics Review\nEither click on the slide area below or click here to view it in fullscreen.\n\n\n\n\n🎥 Looking for lecture recordings? You can only find those on Brightspace."
   },
   {
     "objectID": "econ-wk/wk-01.html#classwork",
     "href": "econ-wk/wk-01.html#classwork",
     "title": "Week 1",
     "section": "✍️ Classwork",
-    "text": "✍️ Classwork\n🚧 Come back after the lecture to read the coursework instructions for the week 🚧"
+    "text": "✍️ Classwork\n🚧 Please work on examples in Lecture 3. 🚧"
   },
   {
     "objectID": "econ-wk/wk-01.html#recommended-reading",
@@ -88,7 +88,7 @@
     "href": "index.html#bullet-lecture",
     "title": "ECON 340-01: Environmental Economics, Fall 2025",
     "section": "\\(\\bullet\\,\\) 🚀 Lecture",
-    "text": "\\(\\bullet\\,\\) 🚀 Lecture\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 1\n\n\nSyllabus and Course Outline\n\n\nAugust 25, 2025\n\n\n\n\nLecture 2\n\n\nClass Survey Results vs. Professional Consensus\n\n\nAugust 27, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "\\(\\bullet\\,\\) 🚀 Lecture\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 1\n\n\nSyllabus and Course Outline\n\n\nAugust 25, 2025\n\n\n\n\nLecture 2\n\n\nClass Survey Results vs. Professional Consensus\n\n\nAugust 27, 2025\n\n\n\n\nLecture 3\n\n\nMicroeconomics Review\n\n\nAugust 29, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#bullet-classwork",
@@ -361,7 +361,7 @@
     "href": "listing-econ-340-lec.html",
     "title": "ECON 340 - Lecture",
     "section": "",
-    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 1\n\n\nSyllabus and Course Outline\n\n\nAugust 25, 2025\n\n\n\n\nLecture 2\n\n\nClass Survey Results vs. Professional Consensus\n\n\nAugust 27, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 1\n\n\nSyllabus and Course Outline\n\n\nAugust 25, 2025\n\n\n\n\nLecture 2\n\n\nClass Survey Results vs. Professional Consensus\n\n\nAugust 27, 2025\n\n\n\n\nLecture 3\n\n\nMicroeconomics Review\n\n\nAugust 29, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#big-idea",
@@ -1720,5 +1720,138 @@
     "title": "Week 1",
     "section": "📚 Reference",
     "text": "📚 Reference\n\nLea-Rachel Kosnik & John C. Whitehead & Timothy C. Haab, 2025. “Shifting Perspectives: An Updated Survey of Environmental and Natural Resource Economists,” Working Papers 25-02, Department of Economics, Appalachian State University."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-03-2025-0829.html#demand-and-supply-basics",
+    "href": "econ-lec/econ-340-lec-03-2025-0829.html#demand-and-supply-basics",
+    "title": "Lecture 3",
+    "section": "Demand and Supply Basics",
+    "text": "Demand and Supply Basics\n\nDemand Curve (Law of Demand):\nQuantity demanded decreases as price increases.\n\\[ Q_d = a - bP, \\quad b &gt; 0 \\]\nSupply Curve (Law of Supply):\nQuantity supplied increases as price increases.\n\\[ Q_s = c + dP, \\quad d &gt; 0 \\]"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-03-2025-0829.html#marginal-cost-mc-and-supply",
+    "href": "econ-lec/econ-340-lec-03-2025-0829.html#marginal-cost-mc-and-supply",
+    "title": "Lecture 3",
+    "section": "Marginal Cost (MC) and Supply",
+    "text": "Marginal Cost (MC) and Supply\n\nSupply: the set of output levels a firm is willing to produce at each possible market price.\n\nSelling rule: A firm produces and sells units as long as P ≥ MC.\n\nSupply comes from MC: In perfect competition, firms are price takers. They choose output where P = MC, so the supply curve is the upward-sloping portion of the MC curve (above shutdown).\nWhy MC rises with output:\n\nFixed capacity → adding more output requires using less efficient inputs.\n\nOvertime, congestion, and rising input costs make each extra unit more costly.\n\n\nEconomies of scale at low Q: MC may fall initially as fixed costs are spread and efficiency improves. But for supply decisions, only the rising portion of MC matters, since that is where firms operate."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-03-2025-0829.html#marginal-benefit-mb-and-demand",
+    "href": "econ-lec/econ-340-lec-03-2025-0829.html#marginal-benefit-mb-and-demand",
+    "title": "Lecture 3",
+    "section": "Marginal Benefit (MB) and Demand",
+    "text": "Marginal Benefit (MB) and Demand\n\nWhy MB = Demand?\n\nDemand = willingness to pay (WTP) for each unit.\nConsumers are willing to pay for an additional unit of a good only if the MB of that unit is greater than or equal to its price.\nWTP for one more unit = marginal benefit (MB).\nAs quantity ↑, WTP ↓ → downward slope.\n\nConsumer surplus (CS) = area below MB (demand) and above price."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-03-2025-0829.html#marginal-benefit-mb-and-demand-1",
+    "href": "econ-lec/econ-340-lec-03-2025-0829.html#marginal-benefit-mb-and-demand-1",
+    "title": "Lecture 3",
+    "section": "Marginal Benefit (MB) and Demand",
+    "text": "Marginal Benefit (MB) and Demand\n\nWhy MB = Demand?\n\nDemand = willingness to pay (WTP) for each unit.\n\nWTP for one more unit = marginal benefit (MB).\n\nAs quantity ↑, WTP ↓ → downward slope.\n\nConsumer surplus (CS) = area below MB (demand) and above price."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-03-2025-0829.html#marginal-cost-mc-and-supply-1",
+    "href": "econ-lec/econ-340-lec-03-2025-0829.html#marginal-cost-mc-and-supply-1",
+    "title": "Lecture 3",
+    "section": "Marginal Cost (MC) and Supply",
+    "text": "Marginal Cost (MC) and Supply\n\nWhy MC = Supply?\n\nSupply = minimum price producers accept.\n\nCost of supplying one more unit = marginal cost (MC).\n\nAs quantity ↑, MC ↑ → upward slope.\n\nProducer surplus (PS) = area above MC (supply) and below price."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-03-2025-0829.html#market-equilibrium",
+    "href": "econ-lec/econ-340-lec-03-2025-0829.html#market-equilibrium",
+    "title": "Lecture 3",
+    "section": "Market Equilibrium",
+    "text": "Market Equilibrium\n\nMarket clears when:\n\\[ Q_d = Q_s \\]\nEquilibrium price \\(P^{*}\\) is such that market clears (\\(Q_d = Q_s\\))."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-03-2025-0829.html#welfare-analysis",
+    "href": "econ-lec/econ-340-lec-03-2025-0829.html#welfare-analysis",
+    "title": "Lecture 3",
+    "section": "Welfare Analysis",
+    "text": "Welfare Analysis\n\nConsumer surplus (CS): Area under demand (MB) and above price up to the purchased quantity.\nProducer surplus (PS): Area above supply (MC) and below price up to the sold quantity.\nTotal Surplus (TS) = CS + PS\n\nTS is the economy’s social welfare measure.\n\nAt perfect competitive equilibrium:\n\nNo surplus, no shortage.\n\nWelfare is maximized–no mutually beneficial trades are left; any quantity above/below \\(Q^*\\) reduces TS."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-03-2025-0829.html#demand-supply-equilibrium",
+    "href": "econ-lec/econ-340-lec-03-2025-0829.html#demand-supply-equilibrium",
+    "title": "Lecture 3",
+    "section": "Demand, Supply, Equilibrium",
+    "text": "Demand, Supply, Equilibrium\n\n\nWhat are the equations for the demand and supply curves?"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-03-2025-0829.html#r-consumer-and-producer-surplus",
+    "href": "econ-lec/econ-340-lec-03-2025-0829.html#r-consumer-and-producer-surplus",
+    "title": "Lecture 3",
+    "section": "R: Consumer and Producer Surplus",
+    "text": "R: Consumer and Producer Surplus"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-03-2025-0829.html#tax-example-setup",
+    "href": "econ-lec/econ-340-lec-03-2025-0829.html#tax-example-setup",
+    "title": "Lecture 3",
+    "section": "Tax Example: Setup",
+    "text": "Tax Example: Setup\n\nSuppose a per-unit tax t = 5 is imposed on sellers.\n\nEffect: Supply curve shifts upward by $5.\n\nHow large are consumer surplus (CS) and producer surplus (PS)?\nWhat is the new total surplus (TS = CS + PS + Tax Revenue), and how does it compare to the no-tax benchmark?\n\nReminder: \\(\\text{Tax Revenue} = t \\times Q^{**}\\), where \\(Q^{**}\\) is the quantity traded under the tax."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-03-2025-0829.html#r-tax-cs-ps-tax-revenue-dwl",
+    "href": "econ-lec/econ-340-lec-03-2025-0829.html#r-tax-cs-ps-tax-revenue-dwl",
+    "title": "Lecture 3",
+    "section": "R: Tax, CS, PS, Tax Revenue, DWL",
+    "text": "R: Tax, CS, PS, Tax Revenue, DWL"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-03-2025-0829.html#key-takeaways",
+    "href": "econ-lec/econ-340-lec-03-2025-0829.html#key-takeaways",
+    "title": "Lecture 3",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways\n\nDemand = Marginal Benefit (WTP).\n\nSupply = Marginal Cost.\n\nEquilibrium maximizes total welfare.\n\nA tax:\n\nShrinks CS & PS,\n\nCreates government revenue,\n\nCauses DWL (lost trades)."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-03-2025-0829.html#consumer-and-producer-surplus",
+    "href": "econ-lec/econ-340-lec-03-2025-0829.html#consumer-and-producer-surplus",
+    "title": "Lecture 3",
+    "section": "Consumer and Producer Surplus",
+    "text": "Consumer and Producer Surplus\n\n\nWhat are the sizes of CS and PS?"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-03-2025-0829.html#price-regulation",
+    "href": "econ-lec/econ-340-lec-03-2025-0829.html#price-regulation",
+    "title": "Lecture 3",
+    "section": "Price Regulation",
+    "text": "Price Regulation\n\nSuppose a per-unit tax t = 5 is imposed.\n\nEffect: Supply curve shifts upward by $5.\n\nBuyers pay Pb, sellers receive Ps.\n\nQuantity falls → creates Deadweight Loss (DWL).\n\nDWL: Net loss of total surplus."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-03-2025-0829.html#quantity-regulation",
+    "href": "econ-lec/econ-340-lec-03-2025-0829.html#quantity-regulation",
+    "title": "Lecture 3",
+    "section": "Quantity Regulation",
+    "text": "Quantity Regulation\n\nAssume the government wants to reduce both the level of production and consumption. A policy to reduce quantity is called a quota, a government-imposed restriction on the number of goods bought and sold. Suppose the government sets a quota of 10.\nWhat will happen to the economy?"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-03-2025-0829.html#marginal-benefit-mb-and-demand-why-downward",
+    "href": "econ-lec/econ-340-lec-03-2025-0829.html#marginal-benefit-mb-and-demand-why-downward",
+    "title": "Lecture 3",
+    "section": "Marginal Benefit (MB) and Demand — Why Downward?",
+    "text": "Marginal Benefit (MB) and Demand — Why Downward?\n\nMB = WTP: The demand curve is a maximum willingness-to-pay curve; it shows the value of the next unit to buyers (their marginal benefit).\nDiminishing marginal benefit: Early units satisfy the most valuable uses; later units go to less urgent uses ⇒ MB falls as Q rises ⇒ downward slope.\nPurchase rule: Buyers add units while MB ≥ P.\n\nAggregating individuals, to sell more units the price must fall to attract buyers with lower WTP ⇒ a downward-sloping demand/MB curve."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-03-2025-0829.html#quantity-regulation-quota",
+    "href": "econ-lec/econ-340-lec-03-2025-0829.html#quantity-regulation-quota",
+    "title": "Lecture 3",
+    "section": "Quantity Regulation (Quota)",
+    "text": "Quantity Regulation (Quota)\n\nSuppose the government sets a quota at\n\\[\n\\bar Q = 10\n\\] so that only 10 units can be traded.\nAt this restricted quantity, suppose that buyers pay MB at \\(Q=10\\) to sellers.\n\nHow large are consumer surplus (CS) and producer surplus (PS)?\nWhat is the new total surplus (TS = CS + PS), and how does it compare to the no-quota benchmark?"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-03-2025-0829.html#quota-rent-what-is-it-who-gets-it",
+    "href": "econ-lec/econ-340-lec-03-2025-0829.html#quota-rent-what-is-it-who-gets-it",
+    "title": "Lecture 3",
+    "section": "Quota Rent (What is it? Who gets it?)",
+    "text": "Quota Rent (What is it? Who gets it?)\n\nA binding quota caps quantity at (Q &lt; Q^*). At (Q):\n\nBuyers’ price: (P_b = P_D(Q)) (from demand / MB).\nSellers’ price: (P_s = P_S(Q)) (from supply / MC).\n\nThe wedge between these prices is the quota rent per unit: \\[\n\\text{Quota rent per unit} = P_b - P_s\n\\]\nTotal quota rent (the value of the licenses): \\[\n\\text{Total rent} = (P_b - P_s)\\,\\bar Q\n\\]\nWho captures it?\n\nIf the government gives licenses to sellers/importers → license holders get the rent.\n\nIf the government auctions licenses → government revenue equals the total rent.\n\nIf foreign exporters hold rights → foreigners may capture the rent.\n\nWelfare accounting: With a quota, Total Surplus is \\[\nTS = CS + PS + \\text{Quota Rent},\n\\] which is less than the no-quota benchmark by the deadweight loss (lost mutually beneficial trades).\n\nNumeric example (your parameters)\n\n(Q_d = 100 - 2P,; Q_s = -20 + P,; Q=10).\n(P_b = P_D(10) = (100-10)/2 = 45,P_s = P_S(10) = 10 - (-20) = 30.)\nRent per unit (= 45-30 = 15)."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-03-2025-0829.html#ex",
+    "href": "econ-lec/econ-340-lec-03-2025-0829.html#ex",
+    "title": "Lecture 3",
+    "section": "Ex",
+    "text": "Ex"
   }
 ]

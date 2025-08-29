@@ -61,11 +61,20 @@ Either click on the slide area below or click [here](../econ-lec/econ-340-lec-02
 </div>
 
 
+
+### Lecture 3 - Microeconomics Review
+Either click on the slide area below or click [here](../econ-lec/econ-340-lec-03-2025-0829.html){target='_blank'} to view it in fullscreen.
+
+<div class="container" style="position: relative;overflow: hidden;width: 100%;min-height:600px;">
+<iframe src="../econ-lec/econ-340-lec-03-2025-0829.html" style="position=absolute;top: 0;left: 0;bottom: 0;right: 0;width: 100%;min-height:600px;"></iframe>
+</div>
+
+
 🎥 Looking for lecture recordings? You can only find those on Brightspace.
 
 ## ✍️ Classwork
 
-🚧 Come back after the lecture to read the coursework instructions for the week 🚧
+🚧 Please work on examples in Lecture 3. 🚧
 
 
 ## 📚 Recommended Reading

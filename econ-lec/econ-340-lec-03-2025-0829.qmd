@@ -1,0 +1,243 @@
+---
+title: Lecture 3
+subtitle: Microeconomics Review
+format:
+  clean-revealjs:
+    self-contained: false
+    chalkboard: true
+    incremental: true
+    code-annotations: hover
+    scrollable: false
+
+    # logo: logo-title-slide.png
+author:
+  - name: Byeong-Hak Choe
+    email: bchoe@geneseo.edu
+    affiliations: SUNY Geneseo
+date: 2025-08-29
+execute: 
+  eval: true
+  echo: false
+callout-icon: false
+
+from: markdown+emoji
+include-after-body: target-hover.html # effect.html
+
+# bibliography: refs.bib
+---
+
+```{r setup}
+#| include: false
+
+library(tidyverse)
+library(lubridate)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+library(viridis)
+library(rmarkdown)
+library(gapminder)
+library(ggrepel)
+
+theme_set(theme_fivethirtyeight() +
+            theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(10,0,0,0)),
+                axis.title.y = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(0,10,0,0)),
+                axis.text.x = element_text(size = rel(1.75)),
+                axis.text.y = element_text(size = rel(1.75)),
+                strip.text = element_text(size = rel(1.5)),
+                legend.position = "top",
+                legend.text = element_text(size = rel(1.5)),
+                legend.title = element_text(size = rel(1.5))
+                )
+          )
+
+# Set global options for color-blind-friendly scales
+# scale_colour_discrete <- function(...) scale_colour_viridis_d(...)
+scale_colour_discrete <- function(...) scale_color_colorblind(...)
+scale_fill_discrete <- function(...) scale_fill_colorblind(...)
+```
+
+# Demand, Supply, Equilibrium, and Welfare Analysis  {background-color="#1c4982"}
+
+## Demand and Supply Basics
+
+- **Demand Curve (Law of Demand):**  
+  Quantity demanded decreases as price increases.  
+$$ Q_d = a - bP, \quad b > 0 $$
+
+- **Supply Curve (Law of Supply):**  
+  Quantity supplied increases as price increases.  
+$$ Q_s = c + dP, \quad d > 0 $$
+
+
+
+<!-- ## Marginal Cost (MC) and Supply -->
+<!-- - In a perfectly competitive market, a firm's **marginal cost (MC)** curve can be thought of as its supply curve: -->
+<!--   - Firms aim to maximize profit by producing where MC equals marginal revenue (MR).  -->
+<!--   - MC is a cost of producing one more unit of a good. -->
+<!--   - The price that a firm can charge for its product is determined by the market and is equal to its marginal revenue (P=MR).   -->
+<!--   - Therefore firms produce the quantity where MC equals the market price. -->
+<!--   - As quantity ↑, MC ↑ → upward slope. -->
+
+
+
+<!-- ## Marginal Benefit (MB) and Demand -->
+<!-- - In a perfectly competitive market, a **marginal benefit (MB)** curve is essentially synonymous with a demand curve. -->
+<!--   - The MB curve represents the maximum price a consumer is willing to pay for each additional unit of a good. -->
+<!--   - Consumers are willing to buy an additional unit of a good only if the MB of that unit is greater than or equal to its price. -->
+<!--   - The MB curve shows how many units consumers are willing to purchase at each price, which is the demand curve. -->
+<!--   - As quantity ↑, WTP ↓ → downward slope. -->
+
+
+<!-- ## Marginal Benefit (MB) and Demand -->
+
+<!-- - **Why MB = Demand?** -->
+<!--   - Demand = willingness to pay (WTP) for each unit. -->
+<!--   - Consumers are willing to pay for an additional unit of a good only if the MB of that unit is greater than or equal to its price. -->
+<!--   - WTP for one more unit = **marginal benefit (MB)**. -->
+<!--   - As quantity ↑, WTP ↓ → downward slope. -->
+
+<!-- - Consumer surplus (CS) = area below MB (demand) and above price. -->
+
+## Marginal Benefit (MB) and Demand — Why Downward?
+
+- **MB = WTP**: The demand curve is a **maximum willingness-to-pay** curve; it shows the value of the **next** unit to buyers (their **marginal benefit**).
+
+- **Diminishing marginal benefit**: Early units satisfy the most valuable uses; later units go to less urgent uses ⇒ **MB falls as Q rises** ⇒ **downward slope**. 
+
+- **Purchase rule**: Buyers add units while **MB ≥ P**. 
+  - Aggregating individuals, to sell more units the price must fall to attract buyers with lower WTP ⇒ a downward-sloping **demand/MB** curve.
+  
+
+
+<!-- ## Marginal Cost (MC) and Supply -->
+
+<!-- - **Why MC = Supply?** -->
+<!--   - Supply = minimum price producers accept. -->
+<!--   - Cost of supplying one more unit = **marginal cost (MC)**. -->
+<!--   - As quantity ↑, MC ↑ → upward slope. -->
+
+<!-- - Producer surplus (PS) = area above MC (supply) and below price. -->
+## Marginal Cost (MC) and Supply
+
+- **Supply**: the set of output levels a firm is willing to produce at each possible market price.
+  - **Selling rule**: A firm produces and sells units as long as **P ≥ MC**.
+
+- **Supply comes from MC**: In perfect competition, firms are price takers. They choose output where **P = MC**, so the **supply curve is the upward-sloping portion of the MC curve (above shutdown)**.
+
+- **Why MC rises with output**:  
+  - Fixed capacity → adding more output requires using less efficient inputs.  
+  - Overtime, congestion, and rising input costs make each extra unit **more costly**.  
+  <!-- - Thus **MC increases as Q increases** ⇒ **upward slope**. -->
+
+- **Economies of scale at low Q**: MC may fall initially as fixed costs are spread and efficiency improves. But for supply decisions, only the **rising portion of MC** matters, since that is where firms operate.
+
+
+
+## Market Equilibrium
+
+- Market clears when:  
+$$ Q_d = Q_s $$
+
+- Equilibrium price $P^{*}$ is such that market clears ($Q_d = Q_s$).
+
+
+
+## Welfare Analysis
+
+- **Consumer surplus (CS)**: Area **under demand (MB)** and **above price** up to the purchased quantity.
+
+- **Producer surplus (PS)**: Area **above supply (MC)** and **below price** up to the sold quantity.
+   
+- **Total Surplus (TS) = CS + PS**
+  - TS is the economy's **social welfare** measure.
+  
+- At perfect competitive equilibrium:  
+  - No surplus, no shortage.    
+  - Welfare is maximized--no mutually beneficial trades are left; any quantity above/below $Q^*$ reduces TS.
+  
+  
+  
+## Demand, Supply, Equilibrium
+
+```{r}
+library(ggplot2)
+
+# Linear Demand & Supply
+a <- 100; b <- 2   # Demand: Qd = 100 - 2P
+c <- -20;  d <- 1   # Supply: Qs = -20 + P
+
+# Equilibrium
+eq_price <- (a - c) / (b + d)
+eq_qty   <- a - b * eq_price
+
+# Data
+df <- data.frame(P = seq(0, 50, 0.5))
+df$Qd <- a - b * df$P
+df$Qs <- c + d * df$P
+
+ggplot(df, aes(x = Qd, y = P)) +
+  geom_line(color="blue", size=1) + # Demand
+  geom_line(aes(x = Qs, y = P), color="red", size=1) + # Supply
+  geom_point(aes(x=eq_qty, y=eq_price), size=3, color="black") +
+  labs(x="Quantity", y="Price", 
+       title="Market Equilibrium: Demand & Supply") +
+  scale_x_continuous(breaks = seq(0,30,10), limits = c(0,30)) +
+  coord_fixed() +
+  theme_minimal()
+```
+
+- What are the equations for the demand and supply curves?
+
+
+## Consumer and Producer Surplus
+
+```{r}
+ggplot(df, aes(x = Qd, y = P)) +
+  geom_line(color="blue", size=1) +
+  geom_line(aes(x = Qs, y = P), color="red", size=1) +
+  geom_point(aes(x=eq_qty, y=eq_price), size=3, color="black") +
+  geom_ribbon(data=subset(df, Qd>=0 & Qd<=eq_qty),
+              aes(x=Qd, ymin=eq_price, ymax=P), fill="blue", alpha=0.2) +
+  geom_ribbon(data=subset(df, Qs>=0 & Qs<=eq_qty),
+              aes(x=Qs, ymin=P, ymax=eq_price), fill="red", alpha=0.2) +
+  annotate("text", x = 5, y = 42.5, label = "CS") +
+  annotate("text", x = 5, y = 35, label = "PS") +
+  labs(x="Quantity", y="Price", 
+       title="Welfare: Consumer & Producer Surplus") +
+  scale_x_continuous(breaks = seq(0,30,10), limits = c(0,30)) +
+  coord_fixed() +
+  theme_minimal()
+```
+
+- What are the sizes of CS and PS?
+
+## Quantity Regulation (Quota)
+
+- Suppose the government sets a **quota** at  
+  $$
+  \bar Q = 10
+  $$
+  so that only 10 units can be traded.
+
+- At this restricted quantity, suppose that buyers pay MB at $Q=10$ to sellers.
+  - How large are **consumer surplus (CS)** and **producer surplus (PS)**?
+  - What is the new **total surplus (TS = CS + PS)**, and how does it compare to the no-quota benchmark?
+  
+  
+
+## Tax Example: Setup
+
+- Suppose a per-unit tax **t = 5** is imposed on sellers.  
+- Effect: Supply curve shifts upward by \$5.
+  - How large are **consumer surplus (CS)** and **producer surplus (PS)**?
+  - What is the new **total surplus (TS = CS + PS + Tax Revenue)**, and how does it compare to the no-tax benchmark? 
+  
+- **Reminder:** $\text{Tax Revenue} = t \times Q^{**}$, where $Q^{**}$ is the quantity traded under the tax.
