@@ -5,14 +5,18 @@
   },
   {
     "listing": "/listing-econ-340-cw.html",
-    "items": []
+    "items": [
+      "/econ-cw/econ-340-cw-01.html"
+    ]
   },
   {
     "listing": "/index.html",
     "items": [
       "/econ-lec/econ-340-lec-01-2025-0825.html",
       "/econ-lec/econ-340-lec-02-2025-0827.html",
-      "/econ-lec/econ-340-lec-03-2025-0829.html"
+      "/econ-lec/econ-340-lec-03-2025-0829.html",
+      "/econ-lec/econ-340-lec-04-2025-0903.html",
+      "/econ-cw/econ-340-cw-01.html"
     ]
   },
   {
@@ -24,7 +28,8 @@
     "items": [
       "/econ-lec/econ-340-lec-01-2025-0825.html",
       "/econ-lec/econ-340-lec-02-2025-0827.html",
-      "/econ-lec/econ-340-lec-03-2025-0829.html"
+      "/econ-lec/econ-340-lec-03-2025-0829.html",
+      "/econ-lec/econ-340-lec-04-2025-0903.html"
     ]
   }
 ]

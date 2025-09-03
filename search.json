@@ -74,7 +74,7 @@
     "href": "listing-econ-340-cw.html",
     "title": "ECON 340 - Classwork",
     "section": "",
-    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nMicroeconomics Review\n\n\nClasswork 1\n\n\nSeptember 2, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "index.html",
@@ -88,14 +88,14 @@
     "href": "index.html#bullet-lecture",
     "title": "ECON 340-01: Environmental Economics, Fall 2025",
     "section": "\\(\\bullet\\,\\) 🚀 Lecture",
-    "text": "\\(\\bullet\\,\\) 🚀 Lecture\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 1\n\n\nSyllabus and Course Outline\n\n\nAugust 25, 2025\n\n\n\n\nLecture 2\n\n\nClass Survey Results vs. Professional Consensus\n\n\nAugust 27, 2025\n\n\n\n\nLecture 3\n\n\nMicroeconomics Review\n\n\nAugust 29, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "\\(\\bullet\\,\\) 🚀 Lecture\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 1\n\n\nSyllabus and Course Outline\n\n\nAugust 25, 2025\n\n\n\n\nLecture 2\n\n\nClass Survey Results vs. Professional Consensus\n\n\nAugust 27, 2025\n\n\n\n\nLecture 3\n\n\nMicroeconomics Review\n\n\nAugust 29, 2025\n\n\n\n\nLecture 4\n\n\nExternalities\n\n\nSeptember 3, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#bullet-classwork",
     "href": "index.html#bullet-classwork",
     "title": "ECON 340-01: Environmental Economics, Fall 2025",
     "section": "\\(\\bullet\\,\\) ⌨️ Classwork",
-    "text": "\\(\\bullet\\,\\) ⌨️ Classwork\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "\\(\\bullet\\,\\) ⌨️ Classwork\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nMicroeconomics Review\n\n\nClasswork 1\n\n\nSeptember 2, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#bullet-homework",
@@ -361,7 +361,7 @@
     "href": "listing-econ-340-lec.html",
     "title": "ECON 340 - Lecture",
     "section": "",
-    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 1\n\n\nSyllabus and Course Outline\n\n\nAugust 25, 2025\n\n\n\n\nLecture 2\n\n\nClass Survey Results vs. Professional Consensus\n\n\nAugust 27, 2025\n\n\n\n\nLecture 3\n\n\nMicroeconomics Review\n\n\nAugust 29, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 1\n\n\nSyllabus and Course Outline\n\n\nAugust 25, 2025\n\n\n\n\nLecture 2\n\n\nClass Survey Results vs. Professional Consensus\n\n\nAugust 27, 2025\n\n\n\n\nLecture 3\n\n\nMicroeconomics Review\n\n\nAugust 29, 2025\n\n\n\n\nLecture 4\n\n\nExternalities\n\n\nSeptember 3, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#big-idea",
@@ -1853,5 +1853,138 @@
     "title": "Lecture 3",
     "section": "Ex",
     "text": "Ex"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-03-2025-0829.html#deadweight-loss-dwl",
+    "href": "econ-lec/econ-340-lec-03-2025-0829.html#deadweight-loss-dwl",
+    "title": "Lecture 3",
+    "section": "Deadweight Loss (DWL)",
+    "text": "Deadweight Loss (DWL)\n\nDeadweight loss: the reduction in total surplus that occurs when a market is prevented from reaching the efficient equilibrium quantity.\nInterpretation:\n\nRepresents the value of mutually beneficial trades that do not occur.\n\nCaused by distortions such as taxes, quotas, subsidies, or price controls in a perfectly competitive market.\n\nDeadweight loss is the welfare lost to society when output is restricted away from the point where MB equals MC."
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-01.html",
+    "href": "econ-cw/econ-340-cw-01.html",
+    "title": "Microeconomics Review",
+    "section": "",
+    "text": "Consider a market with the following demand and supply curves:\n\\[\n\\begin{align}\nQ_D &= 400 - 20P; \\\\\n\\qquad\nQ_S &= 16P - 32\n\\end{align}\n\\]\nTasks:\na. Draw the demand curve and the supply curve on the same graph. Clearly label both curves.\nb. Solve for the equilibrium price and equilibrium quantity.\nc. Calculate the numerical values of consumer surplus (CS) and producer surplus (PS).\nd. On your graph, shade and label the areas corresponding to CS and PS.\ne. Compute the total willingness to pay (TWTP) for the equilibrium quantity and the total variable cost (TVC) of supplying that quantity. Indicate these areas on your graph."
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-01.html#question-1.-welfare-analysis-of-equilibrium-in-a-competitive-market",
+    "href": "econ-cw/econ-340-cw-01.html#question-1.-welfare-analysis-of-equilibrium-in-a-competitive-market",
+    "title": "Microeconomics Review",
+    "section": "",
+    "text": "Consider a market with the following demand and supply curves:\n\\[\n\\begin{align}\nQ_D &= 400 - 20P; \\\\\n\\qquad\nQ_S &= 16P - 32\n\\end{align}\n\\]\nTasks:\na. Draw the demand curve and the supply curve on the same graph. Clearly label both curves.\nb. Solve for the equilibrium price and equilibrium quantity.\nc. Calculate the numerical values of consumer surplus (CS) and producer surplus (PS).\nd. On your graph, shade and label the areas corresponding to CS and PS.\ne. Compute the total willingness to pay (TWTP) for the equilibrium quantity and the total variable cost (TVC) of supplying that quantity. Indicate these areas on your graph."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0903.html#what-is-an-externality",
+    "href": "econ-lec/econ-340-lec-04-2025-0903.html#what-is-an-externality",
+    "title": "Lecture 4",
+    "section": "What is an Externality?",
+    "text": "What is an Externality?\n\n\nAn externality is an impact (cost or benefit) on the well‑being of non‑participants in a market transaction.\n\nNegative externality: imposes costs on others (e.g., air pollution from autos).\nPositive externality: confers benefits on others (e.g., tree planting—amenity value, carbon uptake, habitat).\n\nComprehensive analysis must account for all members of society (and possibly ecosystems), not only buyers and sellers.\n\n\n\n\n\nTip\n\n\nKey idea: Markets maximize total surplus only when all marginal costs and benefits are internal to decision‑makers."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0903.html#the-market-for-automobiles",
+    "href": "econ-lec/econ-340-lec-04-2025-0903.html#the-market-for-automobiles",
+    "title": "Lecture 4",
+    "section": "The Market for Automobiles",
+    "text": "The Market for Automobiles\n\n\n\n\n\n\n\n\n\nSupply curve ≈ PMC: marginal private cost of producing one more unit (labor, materials, energy, etc.).\nDemand curve ≈ MPB: marginal private benefit (consumers’ willingness‑to‑pay for one more unit).\n\n\n\n\nMarket equilibrium \\((P_{M}, Q_{M})\\) is efficient only if PMC = SMC and MPB = MSB (i.e., no externalities)."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0903.html#accounting-for-environmental-costs",
+    "href": "econ-lec/econ-340-lec-04-2025-0903.html#accounting-for-environmental-costs",
+    "title": "Lecture 4",
+    "section": "Accounting for Environmental Costs",
+    "text": "Accounting for Environmental Costs\n\nAuto production & use create multiple negative externalities: local/regional air pollution, CO₂, water contamination, toxic wastes, habitat loss, road salt runoff, congestion.\nThese costs do not appear in the private supply curve; hence market overstates net social benefits at \\((P_{M}, Q_{M})\\).\nWe must internalize external costs to evaluate the market’s true impact."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0903.html#the-market-for-automobiles-with-negative-externalities",
+    "href": "econ-lec/econ-340-lec-04-2025-0903.html#the-market-for-automobiles-with-negative-externalities",
+    "title": "Lecture 4",
+    "section": "The Market for Automobiles with Negative Externalities",
+    "text": "The Market for Automobiles with Negative Externalities\n\n\n\n\n\n\n\n\n\nSMC = PMC + MEC, where MEC is the marginal external cost.\nTypically, MEC rises with output when pollution/congestion intensify.\n\n\n\n\nSMC lies above PMC by the vertical distance equal to MEC."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0903.html#automobile-market-with-pigovian-tax",
+    "href": "econ-lec/econ-340-lec-04-2025-0903.html#automobile-market-with-pigovian-tax",
+    "title": "Lecture 4",
+    "section": "Automobile Market with Pigovian Tax",
+    "text": "Automobile Market with Pigovian Tax\n\n\n\n\n\n\n\n\n\nImpose a per‑unit tax \\(t\\) equal to MEC at \\(Q^{*}\\).\nEffect: raises firms’ marginal private cost so the effective supply coincides with SMC.\n\n\n\n\nNew equilibrium: \\((P^{*}, Q^{*})\\)—the socially efficient outcome."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0903.html#practical-design-choices",
+    "href": "econ-lec/econ-340-lec-04-2025-0903.html#practical-design-choices",
+    "title": "Lecture 4",
+    "section": "Practical Design Choices",
+    "text": "Practical Design Choices\n\nSet the right tax: Requires damage estimation (economics + science).\nAdministrative cost vs benefit: Not every small externality warrants a bespoke tax.\nUpstream taxes: Levy at raw inputs (fossil fuels, toxic chemicals, ores) to simplify coverage; costs ripple downstream to products according to input intensity.\nRevenue recycling: Use proceeds for rebates, tax credits, rate relief, or public goods to address equity/political feasibility."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0903.html#the-market-for-solar-energy-with-positive-externalities",
+    "href": "econ-lec/econ-340-lec-04-2025-0903.html#the-market-for-solar-energy-with-positive-externalities",
+    "title": "Lecture 4",
+    "section": "The Market for Solar Energy with Positive Externalities",
+    "text": "The Market for Solar Energy with Positive Externalities\n\n\n\n\n\n\n\n\n\nMSB = MPB + MEB, where MEB is marginal external benefit.\n\n\n\n\nExamples: solar panels (emissions reductions), vaccinations, R&D spillovers, urban trees."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0903.html#the-market-for-solar-energy-with-a-subsidy",
+    "href": "econ-lec/econ-340-lec-04-2025-0903.html#the-market-for-solar-energy-with-a-subsidy",
+    "title": "Lecture 4",
+    "section": "The Market for Solar Energy with a Subsidy",
+    "text": "The Market for Solar Energy with a Subsidy\n\n\n\n\n\n\n\n\n\nA producer subsidy of \\(s\\) per unit lowers effective marginal cost (downward supply shift).\nA consumer subsidy / tax credit raises effective willingness‑to‑pay (upward demand shift).\n\n\n\n\nCorrect subsidy aligns the market with \\(Q^{*}\\) where SMC = MSB."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0903.html#welfare-analysis-of-the-automobile-market",
+    "href": "econ-lec/econ-340-lec-04-2025-0903.html#welfare-analysis-of-the-automobile-market",
+    "title": "Lecture 4",
+    "section": "Welfare Analysis of the Automobile Market",
+    "text": "Welfare Analysis of the Automobile Market\n\n\n\n\n\n\n\n\n\nConsumer Surplus (CS): Area under demand and above price.\nProducer Surplus (PS): Area above supply (PMC) and below price.\n\n\n\n\nWithout externalities, equilibrium maximizes CS + PS."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0903.html#welfare-analysis-of-the-automobile-market-with-externalities",
+    "href": "econ-lec/econ-340-lec-04-2025-0903.html#welfare-analysis-of-the-automobile-market-with-externalities",
+    "title": "Lecture 4",
+    "section": "Welfare Analysis of the Automobile Market with Externalities",
+    "text": "Welfare Analysis of the Automobile Market with Externalities\n\n\n\n\n\n\n\n\n\nWith a negative externality, true net social welfare is: \\[\n\\begin{align}\n&\\quad\\;\\; \\text{NSW}\\\\\n\\,&=\\, (\\text{CS} + \\text{PS}) \\\\\n&\\;\\,- \\text{External Damages}.\n\\end{align}\n\\]\n\n\n\n\nExternal damages are the area between PMC and SMC up to the chosen quantity."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0903.html#pigovian-tax-improves-welfare",
+    "href": "econ-lec/econ-340-lec-04-2025-0903.html#pigovian-tax-improves-welfare",
+    "title": "Lecture 4",
+    "section": "Pigovian Tax Improves Welfare",
+    "text": "Pigovian Tax Improves Welfare\n\n\n\n\n\n\n\n\n\nSet tax so that the equilibrium moves to \\(Q^{*}\\).\nTax revenue equals the external damages at \\(Q^{*}\\) (rectangle D): revenue can compensate for damages.\n\n\n\n\nNet social welfare becomes A’’ + B’‘, which equals A’ + B’; hence welfare rises by C relative to the unregulated outcome."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0903.html#deadweight-loss-dwl-definition",
+    "href": "econ-lec/econ-340-lec-04-2025-0903.html#deadweight-loss-dwl-definition",
+    "title": "Lecture 4",
+    "section": "Deadweight Loss (DWL) — Definition",
+    "text": "Deadweight Loss (DWL) — Definition\n\nDWL is the loss in total surplus relative to the efficient outcome.\nWith negative externalities and no policy: DWL is the triangle between \\(Q^{*}\\) and QM where SMC &gt; MB."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0903.html#valuing-damages",
+    "href": "econ-lec/econ-340-lec-04-2025-0903.html#valuing-damages",
+    "title": "Lecture 4",
+    "section": "Valuing Damages",
+    "text": "Valuing Damages\n\n\nAssign monetary values to external harms to build SMC:\n\nDirect costs (e.g., water treatment for contaminated sources).\nHealth damages (medical expenses, morbidity, mortality risk).\nAesthetic/amenity losses (visibility, recreation quality).\nEcosystem impacts (biodiversity, habitat quality).\n\nIf we assign no value, the market implicitly assigns zero—biasing decisions.\n\n\n\n\n\nWarning\n\n\nValuation aggregates tangible and intangible impacts; precision is hard, but order‑of‑magnitude estimates guide better policy than zeros."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0903.html#incidence-elasticities",
+    "href": "econ-lec/econ-340-lec-04-2025-0903.html#incidence-elasticities",
+    "title": "Lecture 4",
+    "section": "Incidence & Elasticities",
+    "text": "Incidence & Elasticities\n\nTax burden split depends on price elasticities of supply and demand.\nSteeper (less elastic) side bears more burden.\nCommon claim “firms pass it all on” is generally false; division is empirical."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0903.html#distributional-concerns",
+    "href": "econ-lec/econ-340-lec-04-2025-0903.html#distributional-concerns",
+    "title": "Lecture 4",
+    "section": "Distributional Concerns",
+    "text": "Distributional Concerns\n\n\nMany environmental taxes (e.g., on fuels) can be regressive.\nPolicy package can include lump‑sum rebates, earned income credits, or targeted transfers to protect low‑income households.\n\n\n\n\n\nTip\n\n\nA 2013 estimate put global primary‑industry externalities near $7.3T (~13% of world output); in magnitude, comprehensive Pigovian systems could rival global tax revenues—raising ideas of tax swaps. (Use with caution; orders of magnitude, not precise policy blueprints.)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0903.html#optimal-pollution",
+    "href": "econ-lec/econ-340-lec-04-2025-0903.html#optimal-pollution",
+    "title": "Lecture 4",
+    "section": "Optimal Pollution",
+    "text": "Optimal Pollution\n\n\nZero pollution generally implies zero production; instead, economists seek the efficient (not necessarily zero) level of pollution given current technology and preferences.\nThe Pigovian tax yields optimal (residual) pollution—the remaining damages at \\(Q^{*}\\).\nCaveat: If demand shifts right (e.g., autos more valued), the efficient pollution level can rise—raising questions about science‑based caps vs pure efficiency.\n\n\n\n\n\nWarning\n\n\nPolicy practice often sets health‑based standards (e.g., the Clean Air Act) and then uses market instruments to achieve those standards cost‑effectively."
   }
 ]

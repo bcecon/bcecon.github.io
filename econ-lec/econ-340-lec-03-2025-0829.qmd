@@ -241,3 +241,14 @@ ggplot(df, aes(x = Qd, y = P)) +
   - What is the new **total surplus (TS = CS + PS + Tax Revenue)**, and how does it compare to the no-tax benchmark? 
   
 - **Reminder:** $\text{Tax Revenue} = t \times Q^{**}$, where $Q^{**}$ is the quantity traded under the tax.
+
+
+## Deadweight Loss (DWL)
+
+- **Deadweight loss**: the reduction in **total surplus** that occurs when a market is prevented from reaching the efficient equilibrium quantity.
+
+- **Interpretation:**  
+  - Represents the value of **mutually beneficial trades that do not occur**.  
+  - Caused by distortions such as **taxes, quotas, subsidies, or price controls** in a perfectly competitive market.  
+
+-  **Deadweight loss** is the welfare lost to society when output is restricted away from the point where MB equals MC.

@@ -1,0 +1,60 @@
+---
+title: Microeconomics Review
+subtitle: Classwork 1
+date: 2025-09-02
+code-fold: true
+execute: 
+  echo: true
+  warning: false
+  message: false
+from: markdown+emoji
+---
+```{r}
+#| include: false
+
+library(knitr)
+library(rmarkdown)
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+
+theme_set(theme_ipsum() +
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = element_text(size = rel(1.5)),
+                axis.title.y = element_text(size = rel(1.5)),
+                legend.title = element_text(size=rel(1.25))
+                ))
+```
+
+## Question 1. Welfare Analysis of Equilibrium in a Competitive Market
+
+Consider a market with the following demand and supply curves:  
+
+$$
+\begin{align}
+Q_D &= 400 - 20P; \\
+\qquad 
+Q_S &= 16P - 32
+\end{align}
+$$
+
+**Tasks:**  
+a. Draw the demand curve and the supply curve on the same graph. Clearly label both curves.  
+b. Solve for the equilibrium price and equilibrium quantity.  
+c. Calculate the numerical values of **consumer surplus (CS)** and **producer surplus (PS)**.  
+d. On your graph, shade and label the areas corresponding to CS and PS.  
+e. Compute the **total benefit (TB)** for the equilibrium quantity and the **total variable cost (TVC)** of supplying that quantity. Indicate these areas on your graph.  
+
+
+<br><br>
+
+<!-- ## Question 2. Externalities -->
+
+<!-- The marginal benefit curve for a product is given by $MB = 100-20Q$ and the marginal private cost curve for a product is given by $MC_{P} = 10 + 0.5Q$. -->
+
+<!-- a. Find the equilibrium price and quantity and illustrate graphically. -->
+<!-- b. Suppose the marginal external cost (the marginal increase in damages from pollution) for producing one unit of a product is given by $MC_{E} = 0.5Q$. Find the marginal social cost $MC_{S} = MC_{P} + MC_{E}$. Illustrate this new cost curve on your graph. -->
+<!-- c. Find the socially optimal equilibrium price and quantity. -->
+
+<!-- <br><br> -->

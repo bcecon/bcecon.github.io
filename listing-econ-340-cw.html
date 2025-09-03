@@ -73,9 +73,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-date',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -291,6 +291,17 @@ Date
 </tr>
 </thead>
 <tbody class="list">
+<tr data-index="0" data-listing-date-sort="1756785600000" data-listing-file-modified-sort="1756860982381" data-listing-date-modified-sort="1756860982000" data-listing-reading-time-sort="2" data-listing-title-sort="Microeconomics Review" data-listing-filename-sort="econ-340-cw-01.qmd">
+<td>
+<a href="./econ-cw/econ-340-cw-01.html" class="title listing-title">Microeconomics Review</a>
+</td>
+<td>
+<span class="listing-subtitle">Classwork 1</span>
+</td>
+<td>
+<span class="listing-date">September 2, 2025</span>
+</td>
+</tr>
 </tbody>
 
 </table>

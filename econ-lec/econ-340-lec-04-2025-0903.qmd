@@ -1,0 +1,393 @@
+---
+title: Lecture 4
+subtitle: Externalities
+format:
+  clean-revealjs:
+    self-contained: false
+    chalkboard: true
+    incremental: true
+    code-annotations: hover
+    scrollable: false
+
+    # logo: logo-title-slide.png
+author:
+  - name: Byeong-Hak Choe
+    email: bchoe@geneseo.edu
+    affiliations: SUNY Geneseo
+date: 2025-09-03
+execute: 
+  eval: true
+  echo: false
+callout-icon: false
+
+from: markdown+emoji
+include-after-body: target-hover.html # effect.html
+
+# bibliography: refs.bib
+---
+
+```{r setup}
+#| include: false
+
+library(tidyverse)
+library(lubridate)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+library(viridis)
+library(rmarkdown)
+library(gapminder)
+library(ggrepel)
+
+theme_set(theme_fivethirtyeight() +
+            theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(10,0,0,0)),
+                axis.title.y = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(0,10,0,0)),
+                axis.text.x = element_text(size = rel(1.75)),
+                axis.text.y = element_text(size = rel(1.75)),
+                strip.text = element_text(size = rel(1.5)),
+                legend.position = "top",
+                legend.text = element_text(size = rel(1.5)),
+                legend.title = element_text(size = rel(1.5))
+                )
+          )
+
+# Set global options for color-blind-friendly scales
+# scale_colour_discrete <- function(...) scale_colour_viridis_d(...)
+scale_colour_discrete <- function(...) scale_color_colorblind(...)
+scale_fill_discrete <- function(...) scale_fill_colorblind(...)
+```
+
+# Externalities {background-color="#1c4982"}
+
+## What is an Externality?
+:::{.nonincremental}
+- An **externality** is an impact (cost or benefit) on the **well‑being of non‑participants** in a market transaction.
+  - **Negative externality**: imposes costs on others (e.g., air pollution from autos).
+  - **Positive externality**: confers benefits on others (e.g., tree planting—amenity value, carbon uptake, habitat).
+- Comprehensive analysis must account for **all members of society** (and possibly ecosystems), not only buyers and sellers.
+
+:::
+
+::: callout-tip
+**Key idea:** Markets maximize total surplus **only** when *all* marginal costs and benefits are internal to decision‑makers.
+:::
+
+## The Market for Automobiles
+::::{.columns}
+::: {.column width="67.5%"}
+
+<div style="text-align: center; width: 75%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/hr-fig3-1.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+
+::: {.column width="32.5%"}
+
+- **Supply curve** ≈ **PMC**: marginal private cost of producing one more unit (labor, materials, energy, etc.).
+- **Demand curve** ≈ **MPB**: marginal private benefit (consumers’ willingness‑to‑pay for one more unit).
+
+:::
+::::
+
+- **Market equilibrium $(P_{M}, Q_{M})$** is efficient **only if** PMC = SMC and MPB = MSB (i.e., no externalities).
+
+
+<!-- ::: callout-note -->
+<!-- **Figure 3.1 (explained)**: For automobiles, demand intersects supply at $(P_{M}, Q_{M})$. With no externalities, this point maximizes total private surplus. -->
+<!-- ::: -->
+
+
+## Accounting for Environmental Costs
+
+- Auto production & use create multiple **negative externalities**: local/regional air pollution, CO₂, water contamination, toxic wastes, habitat loss, road salt runoff, congestion.
+- These costs **do not appear** in the private supply curve; hence **market overstates net social benefits** at $(P_{M}, Q_{M})$.
+- We must **internalize** external costs to evaluate the market’s true impact.
+
+
+## Valuing Damages
+:::{.nonincremental}
+- Assign **monetary values** to external harms to build **SMC**:
+  - Direct costs (e.g., **water treatment** for contaminated sources).
+  - **Health damages** (medical expenses, morbidity, mortality risk).
+  - **Aesthetic/amenity** losses (visibility, recreation quality).
+  - **Ecosystem** impacts (biodiversity, habitat quality).
+- If we assign no value, the market implicitly assigns **zero**—biasing decisions.
+
+:::
+
+::: callout-warning
+Valuation aggregates **tangible** and **intangible** impacts; precision is hard, but **order‑of‑magnitude** estimates guide better policy than zeros.
+:::
+
+## The Market for Automobiles with Negative Externalities
+
+::::{.columns}
+::: {.column width="67.5%"}
+
+<div style="text-align: center; width: 75%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/hr-fig3-2.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+
+::: {.column width="32.5%"}
+
+
+- **SMC = PMC + MEC**, where **MEC** is the *marginal external cost*.
+- Typically, **MEC rises** with output when pollution/congestion intensify.
+
+:::
+::::
+
+- **SMC** lies **above** **PMC** by the vertical distance equal to MEC.
+
+
+<!-- ::: callout-note -->
+<!-- **Figure 3.2 (explained):** SMC above supply (PMC). Efficient quantity **$Q^{*}$** occurs where **SMC** intersects demand (MPB). For any $Q>$Q^{*}$$, SMC > MB ⇒ society worse off at the margin. -->
+<!-- ::: -->
+
+<!-- ## Inefficiency of the Unregulated Outcome -->
+
+<!-- - At the market outcome **$(P_{M}, Q_{M})$** with a negative externality: -->
+<!--   - Quantity is **too high**: $\;QM > $Q^{*}$$. -->
+<!--   - Price is **too low** relative to social cost: $\;PM < P^{*}$. -->
+<!--   - Units between **$Q^{*}$** and **QM** have **SMC > MB** → **net social loss**. -->
+
+# Internalizing Environmental Costs {background-color="#1c4982"}
+
+## Automobile Market with Pigovian Tax
+
+::::{.columns}
+::: {.column width="67.5%"}
+
+<div style="text-align: center; width: 75%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/hr-fig3-3.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+
+::: {.column width="32.5%"}
+
+
+- Impose a **per‑unit tax** $t$ equal to **MEC at $Q^{*}$**.
+- Effect: raises firms’ **marginal private cost** so the *effective* supply coincides with **SMC**.
+
+:::
+::::
+
+- New equilibrium: **$(P^{*}, Q^{*})$**—the **socially efficient** outcome.
+
+
+<!-- ::: callout-note -->
+<!-- **Figure 3.3 (explained):** Supply with tax overlaps SMC; price rises to **P^{*}**, quantity falls to **$Q^{*}$**. Burden shared by consumers (higher price) and producers (lower net‑of‑tax receipts), depending on elasticities. -->
+<!-- ::: -->
+
+## Practical Design Choices
+
+- **Set the right tax**: Requires damage estimation (economics + science).
+- **Administrative cost** vs **benefit**: Not every small externality warrants a bespoke tax.
+- **Upstream taxes**: Levy at **raw inputs** (fossil fuels, toxic chemicals, ores) to simplify coverage; costs ripple downstream to products according to input intensity.
+- **Revenue recycling**: Use proceeds for **rebates**, **tax credits**, **rate relief**, or **public goods** to address equity/political feasibility.
+
+
+## Incidence & Elasticities
+
+- Tax burden split depends on **price elasticities** of supply and demand.
+- Steeper (less elastic) side bears **more** burden.
+- Common claim “firms pass it all on” is generally **false**; division is empirical.
+
+
+## Distributional Concerns
+:::{.nonincremental}
+- Many environmental taxes (e.g., on fuels) can be **regressive**.
+- Policy package can include **lump‑sum rebates**, **earned income credits**, or **targeted transfers** to protect **low‑income** households.
+:::
+
+::: callout-tip
+A 2013 estimate put global primary‑industry externalities near **$7.3T (~13% of world output)**; in magnitude, **comprehensive Pigovian systems** could rival global tax revenues—raising ideas of **tax swaps**. (Use with caution; orders of magnitude, not precise policy blueprints.)
+:::
+
+
+# Positive Externalities {background-color="#1c4982"}
+
+## The Market for Solar Energy with Positive Externalities
+
+
+::::{.columns}
+::: {.column width="67.5%"}
+
+<div style="text-align: center; width: 75%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/hr-fig3-4.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+
+::: {.column width="32.5%"}
+
+
+- **MSB = MPB + MEB**, where **MEB** is *marginal external benefit*.
+
+:::
+::::
+
+- Examples: **solar panels** (emissions reductions), **vaccinations**, **R&D spillovers**, **urban trees**.
+
+
+
+<!-- ::: callout-note -->
+<!-- **Figure 3.4 (explained):** MSB lies **above** demand by the vertical MEB. Market stops at **QM**, but **$Q^{*}$** is larger because **MSB > SMC** for units between QM and $Q^{*}$. -->
+<!-- ::: -->
+
+## The Market for Solar Energy with a Subsidy
+
+
+::::{.columns}
+::: {.column width="67.5%"}
+
+<div style="text-align: center; width: 75%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/hr-fig3-5.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+
+::: {.column width="32.5%"}
+
+
+- A **producer subsidy** of $s$ per unit **lowers** effective marginal cost (downward supply shift).
+- A **consumer subsidy / tax credit** **raises** effective willingness‑to‑pay (upward demand shift).
+
+:::
+::::
+
+- **Correct subsidy** aligns the market with **$Q^{*}$** where **SMC = MSB**.
+
+
+
+<!-- ::: callout-note -->
+<!-- **Figure 3.5 (explained):** With the subsidy, equilibrium quantity expands to **$Q^{*}$**; price effects differ for producers vs consumers, but the quantity target is the same. -->
+<!-- ::: -->
+
+# Welfare Analysis of Externalities {background-color="#1c4982"}
+
+## Welfare Analysis of the Automobile Market
+
+
+::::{.columns}
+::: {.column width="67.5%"}
+
+<div style="text-align: center; width: 75%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/hr-fig3-6.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+
+::: {.column width="32.5%"}
+
+
+- **Consumer Surplus (CS):** Area **under demand** and **above price**.
+- **Producer Surplus (PS):** Area **above supply (PMC)** and **below price**.
+
+:::
+::::
+
+- Without externalities, equilibrium maximizes **CS + PS**.
+
+
+
+<!-- ::: callout-note -->
+<!-- **Figure 3.6 (explained):** At $(P_{M}, Q_{M})$, CS = area **A**; PS = area **B**. -->
+<!-- ::: -->
+
+## Welfare Analysis of the Automobile Market with Externalities
+
+::::{.columns}
+::: {.column width="67.5%"}
+
+<div style="text-align: center; width: 75%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/hr-fig3-7.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+
+::: {.column width="32.5%"}
+
+- With a negative externality, true **net social welfare** is:
+  $$
+  \begin{align}
+  &\quad\;\; \text{NSW}\\ 
+  \,&=\, (\text{CS} + \text{PS}) \\
+  &\;\,- \text{External Damages}.
+  \end{align}
+  $$
+
+:::
+::::
+
+
+- External damages are the area **between PMC and SMC** up to the chosen quantity.
+
+
+<!-- ::: callout-note -->
+<!-- **Figure 3.7 (explained):** At **QM**, net welfare = **A' + B' − C**. Triangle **C** is the **deadweight loss** from overproduction where **SMC > MB**. -->
+<!-- ::: -->
+
+## Pigovian Tax Improves Welfare
+
+::::{.columns}
+::: {.column width="67.5%"}
+
+<div style="text-align: center; width: 75%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/hr-fig3-8.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+
+::: {.column width="32.5%"}
+
+- Set tax so that the equilibrium moves to **$Q^{*}$**.
+- **Tax revenue** equals the **external damages at $Q^{*}$** (rectangle **D**): revenue can **compensate** for damages.
+
+:::
+::::
+
+- Net social welfare becomes **A'' + B''**, which equals **A' + B'**; hence welfare **rises by C** relative to the unregulated outcome.
+
+
+<!-- ::: callout-tip -->
+<!-- **Takeaway:** Properly set **taxes/subsidies eliminate the deadweight loss** created by externalities and **increase net social welfare**. -->
+<!-- ::: -->
+
+<!-- ## Deadweight Loss (DWL) — Definition -->
+
+<!-- - **DWL** is the loss in total surplus relative to the efficient outcome. -->
+<!-- - With negative externalities and no policy: DWL is the triangle **between $Q^{*}$** and **QM** where **SMC > MB**. -->
+
+
+## Optimal Pollution
+:::{.nonincremental}
+- **Zero pollution** generally implies **zero production**; instead, economists seek the **efficient** (not necessarily zero) level of pollution given current technology and preferences.
+- The **Pigovian tax** yields **optimal (residual) pollution**—the remaining damages at **$Q^{*}$**.
+- Caveat: If demand shifts right (e.g., autos more valued), the **efficient** pollution level can rise—raising questions about **science‑based caps** vs **pure efficiency**.
+:::
+
+::: callout-warning
+Policy practice often sets **health‑based standards** (e.g., the Clean Air Act) and then uses market instruments to **achieve** those standards cost‑effectively.
+:::
+
+
