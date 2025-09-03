@@ -46,6 +46,8 @@ website:
         contents:
           - text: Week 01
             href: econ-wk/wk-01.qmd
+          - text: Week 02
+            href: econ-wk/wk-02.qmd
       
         
   page-footer: 

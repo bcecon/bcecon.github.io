@@ -1,0 +1,52 @@
+---
+title: Week 2
+subtitle: Microeconomics Review; Externalities
+date: 2025-09-02
+from: markdown+emoji
+---
+
+In Week 2, we will wrap up welfare analysis in competitive markets using the supply–demand framework, then move on to environmental externalities and contrast that with the standard competitive-market analysis from the microeconomics review.
+
+
+## 🏫 Lecture Slides 
+
+### Lecture 3 - Microeconomics Review
+Either click on the slide area below or click [here](../econ-lec/econ-340-lec-03-2025-0829.html){target='_blank'} to view it in fullscreen.
+
+<div class="container" style="position: relative;overflow: hidden;width: 100%;min-height:600px;">
+<iframe src="../econ-lec/econ-340-lec-03-2025-0829.html" style="position=absolute;top: 0;left: 0;bottom: 0;right: 0;width: 100%;min-height:600px;"></iframe>
+</div>
+
+
+### Lecture 4 - Externalities
+Either click on the slide area below or click [here](../econ-lec/econ-340-lec-04-2025-0904.html){target='_blank'} to view it in fullscreen.
+
+<div class="container" style="position: relative;overflow: hidden;width: 100%;min-height:600px;">
+<iframe src="../econ-lec/econ-340-lec-04-2025-0904.html" style="position=absolute;top: 0;left: 0;bottom: 0;right: 0;width: 100%;min-height:600px;"></iframe>
+</div>
+
+
+🎥 Looking for lecture recordings? You can only find those on Brightspace.
+
+## ✍️ Classwork
+
+🚧 TBA 🚧
+
+
+## 📚 Recommended Reading
+
+- 
+
+
+## 💬 Discussion
+
+<font size = "5">Welcome to our Week 1 Discussion Board! 👋 </font>
+
+
+This space is designed for you to engage with your classmates about the material covered in Week 1.
+
+Whether you are looking to delve deeper into the content, share insights, or have questions about the content, this is the perfect place for you.
+
+If you have any specific questions for Byeong-Hak (**@bcecon**) or peer classmate (@GitHub-Username) regarding the Week 1 materials or need clarification on any points, don't hesitate to ask here. 
+
+Let's collaborate and learn from each other!

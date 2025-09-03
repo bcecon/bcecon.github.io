@@ -1,6 +1,6 @@
 ---
-title: Microeconomics Review
-subtitle: Classwork 1
+title: Classwork 1
+subtitle: Microeconomics Review
 date: 2025-09-02
 code-fold: true
 execute: 
