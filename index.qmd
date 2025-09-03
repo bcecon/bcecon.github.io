@@ -1,5 +1,5 @@
 ---
-title: '<font style="font-family:Optima"><b>ECON 340-01: Environmental Economics, Fall 2025</b></font>'
+title: '<font style="font-family:Optima"><b>ECON 340: Environmental Economics, Fall 2025</b></font>'
 subtitle: '<div class=class="box-body buttons-text clearfix"><font size="5"><ul style="list-style-type: none;"><li><b>Instructor: Byeong-Hak Choe</b> <b>(</b><a href="mailto:bchoe@geneseo.edu" class="about-link" rel="" target=""><i class="bi bi-envelope"></i><span class="about-link-text"> Email</span></a></span></a><b>)</b></li></ul></font></div>'
 
 date: ''
