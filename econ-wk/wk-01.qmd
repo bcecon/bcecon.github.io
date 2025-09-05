@@ -44,37 +44,22 @@ In our first week together, we will walk through the syllabus so you will know w
 
 ## 🏫 Lecture Slides 
 
-### Lecture 1 - Syllabus
-Either click on the slide area below or click [here](../econ-lec/econ-340-lec-01-2025-0825.html){target='_blank'} to view it in fullscreen.
 
-<div class="container" style="position: relative;overflow: hidden;width: 100%;min-height:600px;">
-<iframe src="../econ-lec/econ-340-lec-01-2025-0825.html" style="position=absolute;top: 0;left: 0;bottom: 0;right: 0;width: 100%;min-height:600px;"></iframe>
-</div>
+- **Lecture 1 - Syllabus**  
+  [View Slides](../econ-lec/econ-340-lec-01-2025-0825.html){target="_blank"}  
 
-
-
-### Lecture 2 - Environmental Economics Survey
-Either click on the slide area below or click [here](../econ-lec/econ-340-lec-02-2025-0827.html){target='_blank'} to view it in fullscreen.
-
-<div class="container" style="position: relative;overflow: hidden;width: 100%;min-height:600px;">
-<iframe src="../econ-lec/econ-340-lec-02-2025-0827.html" style="position=absolute;top: 0;left: 0;bottom: 0;right: 0;width: 100%;min-height:600px;"></iframe>
-</div>
-
-
-
-### Lecture 3 - Microeconomics Review
-Either click on the slide area below or click [here](../econ-lec/econ-340-lec-03-2025-0829.html){target='_blank'} to view it in fullscreen.
-
-<div class="container" style="position: relative;overflow: hidden;width: 100%;min-height:600px;">
-<iframe src="../econ-lec/econ-340-lec-03-2025-0829.html" style="position=absolute;top: 0;left: 0;bottom: 0;right: 0;width: 100%;min-height:600px;"></iframe>
-</div>
+- **Lecture 2 - Environmental Economics Survey**  
+  [View Slides](../econ-lec/econ-340-lec-02-2025-0827.html){target="_blank"}  
+  
+- **Lecture 3 - Microeconomics Review**  
+  [View Slides](../econ-lec/econ-340-lec-03-2025-0829.html){target="_blank"}  
 
 
 🎥 Looking for lecture recordings? You can only find those on Brightspace.
 
 ## ✍️ Classwork
 
-🚧 Please work on examples in Lecture 3. 🚧
+🚧 Please work on the examples in Lecture 3. 🚧
 
 
 ## 💬 Discussion

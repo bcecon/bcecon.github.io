@@ -14,7 +14,7 @@ author:
   - name: Byeong-Hak Choe
     email: bchoe@geneseo.edu
     affiliations: SUNY Geneseo
-date: 2025-09-03
+date: 2025-09-05
 execute: 
   eval: true
   echo: false
@@ -68,7 +68,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 ## What is an Externality?
 :::{.nonincremental}
-- An **externality** is an impact (cost or benefit) on the **well‑being of non‑participants** in a market transaction.
+- An **externality** is a side effect of a market transaction—positive or negative—that affects the **well-being of people who are not directly involved** as buyers or sellers.
   - **Negative externality**: imposes costs on others (e.g., air pollution from autos).
   - **Positive externality**: confers benefits on others (e.g., tree planting—amenity value, carbon uptake, habitat).
 - Comprehensive analysis must account for **all members of society** (and possibly ecosystems), not only buyers and sellers.
@@ -92,13 +92,13 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 ::: {.column width="32.5%"}
 
-- **Supply curve** ≈ **PMC**: marginal private cost of producing one more unit (labor, materials, energy, etc.).
-- **Demand curve** ≈ **MPB**: marginal private benefit (consumers’ willingness‑to‑pay for one more unit).
+- **Supply curve** ≈ **PMC**: private marginal cost of producing one more unit (labor, materials, energy, etc.).
+- **Demand curve** ≈ **PMB**: private marginal benefit (consumers’ willingness‑to‑pay for one more unit).
 
 :::
 ::::
 
-- **Market equilibrium $(P_{M}, Q_{M})$** is efficient **only if** PMC = SMC and MPB = MSB (i.e., no externalities).
+- **Market equilibrium $(P_{M}, Q_{M})$** is efficient **only if** PMC = SMC and PMB = SMB (i.e., no externalities).
 
 
 <!-- ::: callout-note -->
@@ -111,6 +111,65 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 - Auto production & use create multiple **negative externalities**: local/regional air pollution, CO₂, water contamination, toxic wastes, habitat loss, road salt runoff, congestion.
 - These costs **do not appear** in the private supply curve; hence **market overstates net social benefits** at $(P_{M}, Q_{M})$.
 - We must **internalize** external costs to evaluate the market’s true impact.
+
+
+## EPA Endangerment Finding on GHG Emissions
+
+- **Proposal Date**: July 29, 2025 — EPA formally proposed rescinding the 2009 Greenhouse Gas (GHG) Endangerment Finding ([US EPA](https://www.epa.gov/regulations-emissions-vehicles-and-engines/proposed-rule-reconsideration-2009-endangerment-finding)).
+- **Statutory Impact**: Without the Endangerment Finding, EPA would **lose authority under CAA §202(a)** to regulate GHG emissions from motor vehicles ([US EPA](https://www.epa.gov/regulations-emissions-vehicles-and-engines/proposed-rule-reconsideration-2009-endangerment-finding); [Wikipedia](https://en.wikipedia.org/wiki/Regulation_of_greenhouse_gases_under_the_Clean_Air_Act)).
+  - CAA §202(a) is the EPA’s authority to regulate tailpipe pollution from new vehicles when it threatens public health or welfare.
+- **Regulatory Effect**: Proposal includes **removal of GHG standards** for light-, medium-, and heavy-duty vehicles and engines ([US EPA](https://www.epa.gov/regulations-emissions-vehicles-and-engines/proposed-rule-reconsideration-2009-endangerment-finding)). 
+- **What Remains**: Standards for **criteria pollutants, toxic emissions, corporate average fuel economy (CAFE), and labeling** will **not be changed**([US EPA](https://www.epa.gov/regulations-emissions-vehicles-and-engines/proposed-rule-reconsideration-2009-endangerment-finding)). 
+
+
+## EPA Endangerment Finding: Process & Reactions
+
+<div style="display:block; margin:-10px;"></div>
+
+- **Public Hearing & Comment Period**:
+  - Public hearings held August 19–21 (and possibly August 22), 2025.  
+  - Comment deadline extended from September 15 to **September 22, 2025** ([Federal Register](https://www.federalregister.gov/documents/2025/08/15/2025-15512/reconsideration-of-2009-endangerment-finding-and-greenhouse-gas-vehicle-standards-extension-of); [Office of Advocacy](https://advocacy.sba.gov/2025/08/15/epa-extends-comment-period-for-proposed-repeal-of-greenhouse-gas-endangerment-finding-and-vehicle-emissions-rules/); [Holland & Knight](https://www.hklaw.com/en/insights/publications/2025/08/up-in-the-air-epa-opens-comment-on-repealing-endangerment-finding)).
+
+- **Deregulatory Framing**:
+  - The proposal is presented as part of a broader **deregulatory agenda**, hailed as one of the **largest in U.S. history** ([US EPA](https://www.epa.gov/newsreleases/what-they-are-saying-leaders-praise-epa-launching-largest-deregulatory-action-us)).
+  - EPA claims the repeal could save Americans **$54 billion annually** and **$170 billion for small businesses** ([US EPA](https://www.epa.gov/newsreleases/epa-releases-proposal-rescind-obama-era-endangerment-finding-regulations-paved-way)).
+
+- **Criticisms**:
+  - Critics argue the rule **ignores scientific consensus** and is legally weak, potentially dismantling key rules and safeguards designed to protect against climate change ([The Washington Post](https://www.washingtonpost.com/climate-environment/2025/07/22/endangerment-finding-epa-climate)).  
+   
+
+
+<!-- ## EPA Endangerment Finding on GHG Emissions -->
+
+<!-- :::: {.columns} -->
+
+<!-- ::: {.column width="50%"} -->
+
+<!-- ### ✅ Pro-Regulation -->
+
+<!-- - **Legal Duty:** CAA §202(a) requires regulation if emissions endanger health/welfare.   -->
+<!-- - **Real Reductions:** ~7.2 Gt CO₂e avoided (2027–2055).   -->
+<!-- - **Net Benefits:** ~$99 billion/yr (fuel + maintenance + health + climate).   -->
+<!-- - **Technology Pathway:** Standards accelerate hybrids, EVs, and cleaner ICEs.   -->
+<!-- - **Equity Potential:** Lower lifetime fuel costs, especially helpful to low-income drivers.   -->
+<!-- - **Global Influence:** U.S. standards push global auto market toward cleaner tech.   -->
+
+<!-- ::: -->
+
+<!-- ::: {.column width="50%"} -->
+
+<!-- ### ❌ Repeal Arguments -->
+
+<!-- - **Statutory Scope:** Section 202(a) wasn’t meant for **global pollutants** like CO₂.   -->
+<!-- - **Small Climate Effect:** Cuts only ~0.004 °C warming (~0.4 ppm CO₂).   -->
+<!-- - **Economic Concerns:** Higher sticker prices, fewer consumer choices.   -->
+<!-- - **Technology Limits:** Vehicle tech cannot meaningfully change global concentrations.   -->
+<!-- - **Transition Costs:** Infrastructure gaps (charging, minerals) raise risks.   -->
+<!-- - **Reliance Interests:** Industry & consumers already invested under prior rules.   -->
+
+<!-- ::: -->
+
+<!-- :::: -->
 
 
 ## Valuing Damages
@@ -128,6 +187,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 Valuation aggregates **tangible** and **intangible** impacts; precision is hard, but **order‑of‑magnitude** estimates guide better policy than zeros.
 :::
 
+
 ## The Market for Automobiles with Negative Externalities
 
 ::::{.columns}
@@ -143,17 +203,17 @@ Valuation aggregates **tangible** and **intangible** impacts; precision is hard,
 ::: {.column width="32.5%"}
 
 
-- **SMC = PMC + MEC**, where **MEC** is the *marginal external cost*.
-- Typically, **MEC rises** with output when pollution/congestion intensify.
+- **SMC = PMC + EMC**, where **EMC** is the *external marginal cost*.
+- Typically, **EMC rises** with output when pollution/congestion intensify.
 
 :::
 ::::
 
-- **SMC** lies **above** **PMC** by the vertical distance equal to MEC.
+- **SMC** lies **above** **PMC** by the vertical distance equal to EMC.
 
 
 <!-- ::: callout-note -->
-<!-- **Figure 3.2 (explained):** SMC above supply (PMC). Efficient quantity **$Q^{*}$** occurs where **SMC** intersects demand (MPB). For any $Q>$Q^{*}$$, SMC > MB ⇒ society worse off at the margin. -->
+<!-- **Figure 3.2 (explained):** SMC above supply (PMC). Efficient quantity **$Q^{*}$** occurs where **SMC** intersects demand (PMB). For any $Q>$Q^{*}$$, SMC > MB ⇒ society worse off at the margin. -->
 <!-- ::: -->
 
 <!-- ## Inefficiency of the Unregulated Outcome -->
@@ -180,7 +240,7 @@ Valuation aggregates **tangible** and **intangible** impacts; precision is hard,
 ::: {.column width="32.5%"}
 
 
-- Impose a **per‑unit tax** $t$ equal to **MEC at $Q^{*}$**.
+- Impose a **per‑unit tax** $t$ equal to **EMC at $Q^{*}$**.
 - Effect: raises firms’ **marginal private cost** so the *effective* supply coincides with **SMC**.
 
 :::
@@ -237,7 +297,7 @@ A 2013 estimate put global primary‑industry externalities near **$7.3T (~13% o
 ::: {.column width="32.5%"}
 
 
-- **MSB = MPB + MEB**, where **MEB** is *marginal external benefit*.
+- **SMB = PMB + EMB**, where **EMB** is *external marginal benefit*.
 
 :::
 ::::
@@ -247,7 +307,7 @@ A 2013 estimate put global primary‑industry externalities near **$7.3T (~13% o
 
 
 <!-- ::: callout-note -->
-<!-- **Figure 3.4 (explained):** MSB lies **above** demand by the vertical MEB. Market stops at **QM**, but **$Q^{*}$** is larger because **MSB > SMC** for units between QM and $Q^{*}$. -->
+<!-- **Figure 3.4 (explained):** SMB lies **above** demand by the vertical EMB. Market stops at **QM**, but **$Q^{*}$** is larger because **SMB > SMC** for units between QM and $Q^{*}$. -->
 <!-- ::: -->
 
 ## The Market for Solar Energy with a Subsidy
@@ -272,7 +332,7 @@ A 2013 estimate put global primary‑industry externalities near **$7.3T (~13% o
 :::
 ::::
 
-- **Correct subsidy** aligns the market with **$Q^{*}$** where **SMC = MSB**.
+- **Correct subsidy** aligns the market with **$Q^{*}$** where **SMC = SMB**.
 
 
 

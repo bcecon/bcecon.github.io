@@ -10,28 +10,20 @@ In Week 2, we will wrap up welfare analysis in competitive markets using the sup
 
 ## 🏫 Lecture Slides 
 
-### Lecture 3 - Microeconomics Review
-Either click on the slide area below or click [here](../econ-lec/econ-340-lec-03-2025-0829.html){target='_blank'} to view it in fullscreen.
 
-<div class="container" style="position: relative;overflow: hidden;width: 100%;min-height:600px;">
-<iframe src="../econ-lec/econ-340-lec-03-2025-0829.html" style="position=absolute;top: 0;left: 0;bottom: 0;right: 0;width: 100%;min-height:600px;"></iframe>
-</div>
+- **Lecture 3 - Microeconomics Review**  
+  [View Slides](../econ-lec/econ-340-lec-03-2025-0829.html){target="_blank"}  
 
-
-### Lecture 4 - Externalities
-Either click on the slide area below or click [here](../econ-lec/econ-340-lec-04-2025-0903.html){target='_blank'} to view it in fullscreen.
-
-<div class="container" style="position: relative;overflow: hidden;width: 100%;min-height:600px;">
-<iframe src="../econ-lec/econ-340-lec-04-2025-0903.html" style="position=absolute;top: 0;left: 0;bottom: 0;right: 0;width: 100%;min-height:600px;"></iframe>
-</div>
+- **Lecture 4 - Externalities**  
+  [View Slides](../econ-lec/econ-340-lec-04-2025-0905.html){target="_blank"}  
 
 
 🎥 Looking for lecture recordings? You can only find those on Brightspace.
 
 ## ✍️ Classwork
 
-🚧 TBA 🚧
-
+🚧 [Classwork 1](../econ-cw/econ-340-cw-01.html){target="_blank"} reviews the welfare analysis of equilibrium in a competitive market. 🚧  
+- In particular, Question 1(e) introduces an alternative framework for analyzing welfare in a market economy.
 
 ## 📚 Recommended Reading
 
