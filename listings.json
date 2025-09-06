@@ -21,7 +21,8 @@
       "/econ-lec/econ-340-lec-02-2025-0827.html",
       "/econ-lec/econ-340-lec-03-2025-0829.html",
       "/econ-lec/econ-340-lec-04-2025-0905.html",
-      "/econ-cw/econ-340-cw-01.html"
+      "/econ-cw/econ-340-cw-01.html",
+      "/econ-hw/econ-340-hw-01.html"
     ]
   },
   {
@@ -30,6 +31,8 @@
   },
   {
     "listing": "/listing-econ-340-hw.html",
-    "items": []
+    "items": [
+      "/econ-hw/econ-340-hw-01.html"
+    ]
   }
 ]
