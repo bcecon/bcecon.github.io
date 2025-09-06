@@ -116,21 +116,22 @@ Draft your comments using **MS Word** or similar program. This makes it easier f
 
 
 
-## Learn About EPA’s Proposal
+## Learn about EPA’s Proposal
 
 - [EPA Proposed Rule: Reconsideration of Endangerment Finding and Greenhouse Gas Vehicle Standards](https://www.epa.gov/regulations-emissions-vehicles-and-engines/proposed-rule-reconsideration-2009-endangerment-finding)
 - [EPA Notice of Proposed Rulemaking](https://www.govinfo.gov/content/pkg/FR-2025-08-01/pdf/2025-14572.pdf)
 - [EPA Draft Regulatory Impact Analysis](https://www.epa.gov/system/files/documents/2025-07/420d25003.pdf)
 
 
-## Resources Related to the Proposal
+## Resources related to the Proposal
 - [A Critical Review of Impacts of Greenhouse Gas Emissions on the U.S. Climate](https://www.energy.gov/topics/climate), US Department of Energy, Climate Working Group, Jul 23, 2025.
 
 - [The Practice and Assessment of Science: Five Foundational Flaws in the Department of Energy's 2025 Climate Report](https://www.ametsoc.org/ams/about-ams/ams-statements/statements-of-the-ams-in-force/the-practice-and-assessment-of-science-five-foundational-flaws-in-the-department-of-energys-2025-climate-report/), Executive Committee of the American Meteorological Society, Aug 27, 2025.
 
 - Tandon, A., L. Hickman, C. Keating, and R. McSweeney, [Factcheck: Trump’s climate report includes more than 100 false or misleading claims](https://interactive.carbonbrief.org/doe-factcheck/index.html), Carbon Brief, Aug 13, 2025.
 
-- Citizens’ Climate Lobby, [Comment on Reconsideration of 2009 Endangerment Finding and Greenhouse Gas Vehicle Standards](https://bcecon.github.io/docs/ccl-epa-endangerment-comment.pdf), Aug 8, 2025
+- Citizens’ Climate Lobby, [Comment on Reconsideration of 2009 Endangerment Finding and Greenhouse Gas Vehicle Standards](https://bcecon.github.io/docs/ccl-epa-endangerment-comment.pdf), Aug 8, 2025.
 
-- Wentz, J., [Attribution Science and EPA’s Reconsideration of the GHG Endangerment Finding](https://blogs.law.columbia.edu/climatechange/2025/05/22/attribution-science-and-epas-reconsideration-of-the-ghg-endangerment-finding/), Climate Law Blog, Columbia Law School, May 22, 2025
+- Wentz, J., [Attribution Science and EPA’s Reconsideration of the GHG Endangerment Finding](https://blogs.law.columbia.edu/climatechange/2025/05/22/attribution-science-and-epas-reconsideration-of-the-ghg-endangerment-finding/), Climate Law Blog, Columbia Law School, May 22, 2025.
 
+- [EPA Launches Biggest Deregulatory Action in U.S. History](https://www.epa.gov/newsreleases/epa-launches-biggest-deregulatory-action-us-history?utm_source=chatgpt.com), US EPA, March 12, 2025.
