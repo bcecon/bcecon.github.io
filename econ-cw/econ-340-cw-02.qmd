@@ -1,0 +1,39 @@
+---
+title: Classwork 2
+subtitle: Externalities
+date: 2025-09-08
+code-fold: true
+execute: 
+  echo: true
+  warning: false
+  message: false
+from: markdown+emoji
+---
+```{r}
+#| include: false
+
+library(knitr)
+library(rmarkdown)
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+
+theme_set(theme_ipsum() +
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = element_text(size = rel(1.5)),
+                axis.title.y = element_text(size = rel(1.5)),
+                legend.title = element_text(size=rel(1.25))
+                ))
+```
+
+
+## Question 1. Externalities
+
+The marginal benefit curve for a product is given by $MB = 100-20Q$ and the private marginal cost curve for a product is given by $PMC = 10 + 0.5Q$.
+
+a. Find the equilibrium price and quantity and illustrate graphically.
+b. Suppose the external marginal cost (the marginal increase in damages from pollution) for producing one unit of a product is given by $EMC = 0.5Q$. Find the social marginal cost $SMC = PMC + EMC$. Illustrate this new cost curve on your graph.
+c. Find the socially optimal equilibrium price and quantity.
+
+<br><br>

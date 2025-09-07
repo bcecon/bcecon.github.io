@@ -134,7 +134,7 @@ Draft your comments using **MS Word** or similar program. This makes it easier f
 
 - Citizens’ Climate Lobby, [Comment on Reconsideration of 2009 Endangerment Finding and Greenhouse Gas Vehicle Standards](https://bcecon.github.io/docs/ccl-epa-endangerment-comment.pdf), Aug 8, 2025.
 
-- Patterson S. and Niiler E., [Trump Administration Aims to Roll Back Bedrock Climate Tool](wsj-epa-2025-0729), The Wall Street Journal, July 29, 2025.
+- Patterson S. and Niiler E., [Trump Administration Aims to Roll Back Bedrock Climate Tool](https://bcecon.github.io/docs/wsj-epa-2025-0729.pdf), The Wall Street Journal, July 29, 2025.
 
 - Wentz, J., [Attribution Science and EPA’s Reconsideration of the GHG Endangerment Finding](https://blogs.law.columbia.edu/climatechange/2025/05/22/attribution-science-and-epas-reconsideration-of-the-ghg-endangerment-finding/), Climate Law Blog, Columbia Law School, May 22, 2025.
 
