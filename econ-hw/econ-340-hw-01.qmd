@@ -12,6 +12,9 @@ execute:
   fig-width: 9
   fig-height: 7
   fig-align: center
+  
+include-after-body: target-hover.html 
+
 ---
 ```{r}
 #| include: false

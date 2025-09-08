@@ -28,12 +28,13 @@ theme_set(theme_ipsum() +
 ```
 
 
-## Question 1. Externalities
+## Question 1. Negative Externalities
 
 The marginal benefit curve for a product is given by $MB = 100-20Q$ and the private marginal cost curve for a product is given by $PMC = 10 + 0.5Q$.
 
 a. Find the equilibrium price and quantity and illustrate graphically.
 b. Suppose the external marginal cost (the marginal increase in damages from pollution) for producing one unit of a product is given by $EMC = 0.5Q$. Find the social marginal cost $SMC = PMC + EMC$. Illustrate this new cost curve on your graph.
 c. Find the socially optimal equilibrium price and quantity.
+d. What is total social welfare in the market with the correct Pigouvian tax? Solve for consumer surplus, producer surplus, the externality damage, and the tax revenues algebraically. Also show these areas in your graph from part (b).
 
 <br><br>

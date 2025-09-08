@@ -188,6 +188,7 @@ Valuation aggregates **tangible** and **intangible** impacts; precision is hard,
 :::
 
 
+
 ## The Market for Automobiles with Negative Externalities
 
 ::::{.columns}
@@ -225,6 +226,18 @@ Valuation aggregates **tangible** and **intangible** impacts; precision is hard,
 
 # Internalizing Environmental Costs {background-color="#1c4982"}
 
+## Fixing the Inefficiency: Pigovian Tax on Automobiles
+
+- **Market failure:** Prices omit pollution damages ⇒ production **beyond $Q^{*}$** is socially undesirable.
+- **Goal:** Get the price **“right”** by **internalizing** external costs so they enter consumer/producer decisions.
+- **Tool — Pigovian tax:** A **per-unit tax \(t\)** on automobile **production or emissions** that makes  
+  $$
+  \text{PMC} + t = \text{SMC} \quad \text{at } Q^{*}.
+  $$
+  - Reflects the **Polluter Pays Principle (PPP)**: those causing pollution **pay its external costs**.
+
+
+
 ## Automobile Market with Pigovian Tax
 
 ::::{.columns}
@@ -241,42 +254,175 @@ Valuation aggregates **tangible** and **intangible** impacts; precision is hard,
 
 
 - Impose a **per‑unit tax** $t$ equal to **EMC at $Q^{*}$**.
-- Effect: raises firms’ **marginal private cost** so the *effective* supply coincides with **SMC**.
+- Effect: raises firms’ **private marginal cost** so the *effective* supply coincides with **SMC**.
 
 :::
 ::::
 
 - New equilibrium: **$(P^{*}, Q^{*})$**—the **socially efficient** outcome.
 
+<!-- - A per-unit tax $t$ is the **vertical gap** between the pre-tax and post-tax cost curves (**$P_0$ to $P^{*}$** in stylized diagrams).   -->
+
+- **Set the right rate**
+  - Target the per-unit external damage at $Q^{*}$ so **PMC + $t$ = SMC**.
+  
 
 <!-- ::: callout-note -->
 <!-- **Figure 3.3 (explained):** Supply with tax overlaps SMC; price rises to **P^{*}**, quantity falls to **$Q^{*}$**. Burden shared by consumers (higher price) and producers (lower net‑of‑tax receipts), depending on elasticities. -->
 <!-- ::: -->
 
-## Practical Design Choices
 
-- **Set the right tax**: Requires damage estimation (economics + science).
-- **Administrative cost** vs **benefit**: Not every small externality warrants a bespoke tax.
-- **Upstream taxes**: Levy at **raw inputs** (fossil fuels, toxic chemicals, ores) to simplify coverage; costs ripple downstream to products according to input intensity.
-- **Revenue recycling**: Use proceeds for **rebates**, **tax credits**, **rate relief**, or **public goods** to address equity/political feasibility.
+## Economic Tax Incidence & Elasticities
+
+::::{.nonincremental}
+::: callout-note
+- A **price elasticity** of demand/supply measures how responsive the quantity demanded/supplied are to price changes.
+
+- An **inelastic** demand/supply ⇒ quantity changes little for a given price change.
+  - The more steeper, the less elastic.
+  
+:::
+::::
+
+<div style="display:block; margin:-15px;"></div>
+
+::::{.columns}
+::: {.column width="67.5%"}
+
+<div style="text-align: center; width: 75%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/hr-fig3-3.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+
+::: {.column width="32.5%"}
 
 
-## Incidence & Elasticities
+- **Consumer incidence**: the amount of the tax revenue paid by consumers
+- **Producer incidence**: the amount of the tax revenue paid by producers
 
-- Tax burden split depends on **price elasticities** of supply and demand.
-- Steeper (less elastic) side bears **more** burden.
-- Common claim “firms pass it all on” is generally **false**; division is empirical.
+:::
+::::
 
 
+
+## Who Pays? Economic Incidence & Elasticities
+
+
+::::{.columns}
+::: {.column width="67.5%"}
+
+<div style="text-align: center; width: 75%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/hr-fig3-3.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+
+::: {.column width="32.5%"}
+
+
+- **Who pays more?** 
+  - The **less elastic** (steeper) side of the market bears **more** of the tax.  
+:::
+::::
+
+- The claim “**firms pass it all on**” is generally **false**; division is **empirical** and depends on elasticities.
+
+<!-- ## Distributional Concerns -->
+
+<!-- - Energy and fuel taxes can be **regressive**: lower-income households spend a **larger share** on gasoline/electricity. -->
+<!-- - Mitigation: **lump-sum dividends**, **refundable credits**, **targeted transfers**, or **rate relief** to protect low-income households while preserving **price signals**. -->
+
+<!-- - **Revenue recycling**   -->
+<!--   - Use proceeds for **lump-sum rebates** and **tax credits/rate relief** to bolster **equity + political feasibility**. -->
+  
 ## Distributional Concerns
-:::{.nonincremental}
-- Many environmental taxes (e.g., on fuels) can be **regressive**.
-- Policy package can include **lump‑sum rebates**, **earned income credits**, or **targeted transfers** to protect **low‑income** households.
-:::
 
-::: callout-tip
-A 2013 estimate put global primary‑industry externalities near **$7.3T (~13% of world output)**; in magnitude, **comprehensive Pigovian systems** could rival global tax revenues—raising ideas of **tax swaps**. (Use with caution; orders of magnitude, not precise policy blueprints.)
-:::
+- **Regressivity:** Energy/fuel taxes can burden lower-income households (higher budget share on energy).
+
+- **How to offset (Revenue recycling):**
+  - **Lump-sum dividends** (“carbon cash-back”).
+  - **Refundable credits** (e.g., energy affordability credit, EITC/CTC top-ups).
+  - **Targeted transfers** (rural mileage, extreme-climate heating, heating-oil users).
+  - **Fixed bill credits / lifeline blocks** for essential usage *(avoid broad per-unit discounts)*.
+  - **Just-transition support** for affected workers/communities.
+
+- **Design notes:** Preserve **price signals** (don’t lower per-unit energy prices), make benefits **visible**, and address **equity/political feasibility**
+
+<!-- ::: callout-note -->
+<!-- - **Orders of magnitude**: A 2013 estimate put global externalities from **primary industries** (agriculture, fishing, mining, power generation, initial materials processing) near **\$7.3T (~13% of world output)**.  -->
+<!-- - World Bank data put **2018 global tax revenues ≈ 15%** of world output.  -->
+<!-- - Comprehensive **upstream Pigovian systems** could, in principle, rival existing tax takes—think **tax swaps**, not a literal one-for-one blueprint. -->
+<!-- ::: -->
+
+
+
+## Don’t tax everything
+  - Estimating the “right” tax requires **economics + science**.  
+  - For **small externalities**, the revenue may not justify **measurement + admin** costs.  
+  - Example: “**shirts**” would imply product-by-product rates (cotton vs. synthetics, dye processes, *organic* vs. *recycled*) → **monumental** complexity.
+
+## Go upstream *(tax near resource extraction)*  
+  - Levy at **raw inputs** (e.g., **crude oil**, **cotton**, **ores**, **toxic chemicals**) so costs ripple through prices in proportion to input intensity.  
+  - Focus on materials with **widespread ecological damage** (e.g., **fossil fuels**, key minerals, toxics).  
+  - Benefits: **far fewer tax points**, lower admin burden, avoids bespoke rates on countless final goods.
+
+
+
+
+## Beyond Taxes: Standards & Mandates
+
+- **Performance/tech standards** (e.g., fuel-efficiency rules) and **mandated controls** (e.g., catalytic converters) can cut emissions **without** directly pricing each unit.  
+- Standards often raise **upfront/capital costs**, so that prices can rise (**resemble a tax**), while **energy-efficient equipment** uses less fuel/power, so lifetime bills may fall.
+- Useful where **damage estimates are uncertain**, **admin is hard**, or **health/ecological thresholds** justify minimum standards alongside prices.
+
+<!-- ## Practical Design Choices -->
+
+<!-- - **Set the right tax**: Requires damage estimation (economics + science). -->
+<!-- - **Administrative cost** vs **benefit**: Not every small externality warrants a bespoke tax. -->
+<!-- - **Upstream taxes**: Levy at **raw inputs** (fossil fuels, toxic chemicals, ores) to simplify coverage; costs ripple downstream to products according to input intensity. -->
+<!-- - **Revenue recycling**: Use proceeds for **rebates**, **tax credits**, **rate relief**, or **public goods** to address equity/political feasibility. -->
+
+
+<!-- ## Incidence & Elasticities -->
+
+<!-- - Tax burden split depends on **price elasticities** of supply and demand. -->
+<!--   - That is, how responsive the quantity supplied and demanded are to price changes. -->
+<!--   - Bottom line: Steeper (less elastic) side bears **more** burden. -->
+<!-- - Common claim “firms pass it all on” is generally **false**; division is **empirical**. -->
+
+
+<!-- ## Distributional Concerns -->
+<!-- :::{.nonincremental} -->
+<!-- - Many environmental taxes (e.g., on fuels) can be **regressive**. -->
+<!-- - Policy package can include **lump‑sum rebates**, **earned income credits**, or **targeted transfers** to protect **low‑income** households. -->
+<!-- ::: -->
+
+<!-- ::: callout-note -->
+<!-- A 2013 estimate put global primary‑industry externalities near **$7.3T (~13% of world output)**; in magnitude, **comprehensive Pigovian systems** could rival global tax revenues—raising ideas of **tax swaps**. (Use with caution; orders of magnitude, not precise policy blueprints.) -->
+<!-- ::: -->
+
+## The Top Externalities of the Global Market
+
+<div style="text-align: center; width: 90%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/snp-global-externalities.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+Environmental damage costs generated by companies in the S&P Global Broad Market Index by sector group in 2021.
+
+
+## The Top Externalities of the Global Market
+
+<div style="text-align: center; width: 90%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/snp-global-externalities-pct.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+Source: [S&P Global Sustainable1](https://www.spglobal.com/sustainable1/en/insights/blogs/unpriced-environmental-costs-the-top-externalities-of-the-global-market).
+
 
 
 # Positive Externalities {background-color="#1c4982"}
@@ -327,7 +473,7 @@ A 2013 estimate put global primary‑industry externalities near **$7.3T (~13% o
 
 
 - A **producer subsidy** of $s$ per unit **lowers** effective marginal cost (downward supply shift).
-- A **consumer subsidy / tax credit** **raises** effective willingness‑to‑pay (upward demand shift).
+- A **consumer subsidy (e.g., tax credit)** **raises** effective willingness‑to‑pay (upward demand shift).
 
 :::
 ::::
@@ -426,7 +572,7 @@ A 2013 estimate put global primary‑industry externalities near **$7.3T (~13% o
 :::
 ::::
 
-- Net social welfare becomes **A'' + B''**, which equals **A' + B'**; hence welfare **rises by C** relative to the unregulated outcome.
+- Net social welfare becomes **A'' + B''**; hence welfare **rises by C** relative to the unregulated outcome.
 
 
 <!-- ::: callout-tip -->
@@ -443,7 +589,7 @@ A 2013 estimate put global primary‑industry externalities near **$7.3T (~13% o
 :::{.nonincremental}
 - **Zero pollution** generally implies **zero production**; instead, economists seek the **efficient** (not necessarily zero) level of pollution given current technology and preferences.
 - The **Pigovian tax** yields **optimal (residual) pollution**—the remaining damages at **$Q^{*}$**.
-- Caveat: If demand shifts right (e.g., autos more valued), the **efficient** pollution level can rise—raising questions about **science‑based caps** vs **pure efficiency**.
+- Caveat: If demand shifts right (e.g., autos more valued), the **efficient** pollution level can rise—raising questions about **science‑based caps** vs. **pure efficiency**.
 :::
 
 ::: callout-warning

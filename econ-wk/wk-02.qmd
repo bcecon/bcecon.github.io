@@ -25,9 +25,9 @@ In Week 2, we will wrap up welfare analysis in competitive markets using the sup
 🚧 [Classwork 1](../econ-cw/econ-340-cw-01.html){target="_blank"} reviews the welfare analysis of equilibrium in a competitive market. 🚧  
 - In particular, Question 1(e) introduces an alternative framework for analyzing welfare in a market economy.
 
-## 📚 Recommended Reading
+<!-- ## 📚 Recommended Reading -->
 
-- 
+<!-- -  -->
 
 
 ## 💬 Discussion
