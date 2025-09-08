@@ -1,7 +1,7 @@
 ---
 title: Week 3
 subtitle: Externalities; Property Rights and the Coase Theorem
-date: 2025-09-02
+date: 2025-09-08
 from: markdown+emoji
 ---
 
