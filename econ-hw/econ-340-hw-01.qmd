@@ -12,8 +12,6 @@ execute:
   fig-width: 9
   fig-height: 7
   fig-align: center
-  
-include-after-body: target-hover.html 
 
 ---
 ```{r}
@@ -62,7 +60,11 @@ g. Suppose the government decides to impose a Pigouvian tax to internalize the e
 
 You have an opportunity to comment and voice your opinions on the [US Environmental Protection Agency’s proposal to rescind its endangerment finding](https://www.epa.gov/regulations-emissions-vehicles-and-engines/proposed-rule-reconsideration-2009-endangerment-finding) and end federal regulation of greenhouse gas emissions. Public comments on the proposal are invited and should be **submitted no later than 11:59 PM EDT on Monday, September 22, 2025**.
 
-For the purpose of grading, please submit the PDF file of your comment to Brightspace by **11:59 PM EDT on Monday, September 22, 2025**.
+### Homework Submission
+-	For grading purposes, please submit a PDF of your comment to Brightspace by **11:59 PM EDT on Monday, September 22, 2025**.
+
+-	You are not required to submit your comment to the US EPA for grading. However, I strongly encourage you to take this opportunity to learn more about an important policy issue, practice your reasoning and argumentation skills, and engage in civic responsibility.
+	-	If you submit your comment to the US EPA, please either provide the URL where it appears online or forward the email of your submission to [bchoe@geneseo.edu](mailto:bchoe@geneseo.edu).
 
 
 ## How to Submit Comments to the US EPA
