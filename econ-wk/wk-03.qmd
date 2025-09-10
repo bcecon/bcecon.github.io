@@ -18,6 +18,13 @@ In Week 3, we will continue studying environmental externalities, and then move 
 
 🎥 Looking for lecture recordings? You can only find those on Brightspace.
 
+
+### Useful Keyboard Shortcuts for Lecture Slides
+- **CTRL + Shift + F**: Search
+- **M**: Toggle menu
+- **E**: PDF export/printing mode
+
+
 ## ✍️ Classwork
 
 🏫 [Classwork 2](../econ-cw/econ-340-cw-02.html){target="_blank"} reviews the welfare analysis of externalities. 🏫  
