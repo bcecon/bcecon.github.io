@@ -378,6 +378,68 @@ Valuation aggregates **tangible** and **intangible** impacts; precision is hard,
 - Standards often raise **upfront/capital costs**, so that prices can rise (**resemble a tax**), while **energy-efficient equipment** uses less fuel/power, so lifetime bills may fall.
 - Useful where **damage estimates are uncertain**, **admin is hard**, or **health/ecological thresholds** justify minimum standards alongside prices.
 
+
+<!-- ##  -->
+
+<!-- <div style="display:block; margin:-80px;"></div> -->
+
+
+<!-- :::: {.columns} -->
+<!-- ::: {.column width="50%"} -->
+
+<!-- #### 💰 Market Instruments  -->
+
+<!-- <div style="display:block; margin:-30px;"></div> -->
+
+<!-- **Advantages**   -->
+<!-- - Cost-effective allocation of reductions   -->
+<!-- - Incentivizes continuous innovation   -->
+<!-- - Flexibility in compliance strategies   -->
+<!-- - Generates revenue (taxes)   -->
+<!-- - Quantity certainty (cap-and-trade) -->
+
+<!-- <div style="display:block; margin:-20px;"></div> -->
+
+<!-- **Disadvantages**   -->
+<!-- - Uncertainty (price vs. emissions)   -->
+<!-- - Requires monitoring & enforcement   -->
+<!-- - Politically unpopular (“tax”)   -->
+<!-- - Can be regressive without compensation   -->
+<!-- - Risk of carbon leakage (industry relocation) -->
+
+<!-- ::: -->
+
+<!-- ::: {.column width="50%"} -->
+
+<!-- #### ⚙️ Standards & Mandates   -->
+
+<!-- <div style="display:block; margin:-40px;"></div> -->
+
+<!-- **Advantages**   -->
+<!-- - Clear, simple to enforce   -->
+<!-- - Guarantees minimum protection   -->
+<!-- - Useful under uncertainty/difficult admin   -->
+<!-- - Ensures equity across firms/consumers   -->
+<!-- - Direct health & ecological co-benefits   -->
+
+<!-- <div style="display:block; margin:-20px;"></div> -->
+
+<!-- **Disadvantages**   -->
+<!-- - Less cost-effective overall   -->
+<!-- - No incentive once standard is met   -->
+<!-- - Risk of stifling innovation (if prescriptive)   -->
+<!-- - Raises upfront capital costs   -->
+<!-- - May only address part of the problem   -->
+
+<!-- ::: -->
+<!-- :::: -->
+
+<!-- ## Policy Mix -->
+<!-- - Governments often **combine tools**: -->
+<!--   - Carbon pricing for efficiency -->
+<!--   - Standards for minimum protection -->
+<!--   - Subsidies/innovation funding for new tech -->
+
 <!-- ## Practical Design Choices -->
 
 <!-- - **Set the right tax**: Requires damage estimation (economics + science). -->
@@ -589,7 +651,7 @@ Source: [S&P Global Sustainable1](https://www.spglobal.com/sustainable1/en/insig
 :::{.nonincremental}
 - **Zero pollution** generally implies **zero production**; instead, economists seek the **efficient** (not necessarily zero) level of pollution given current technology and preferences.
 - The **Pigovian tax** yields **optimal (residual) pollution**—the remaining damages at **$Q^{*}$**.
-- Caveat: If demand shifts right (e.g., autos more valued), the **efficient** pollution level can rise—raising questions about **science‑based caps** vs. **pure efficiency**.
+- **Caveat**: If demand shifts right (e.g., autos more valued), the **efficient** pollution level can rise—raising questions about **science‑based caps** vs. **pure efficiency**.
 :::
 
 ::: callout-warning
