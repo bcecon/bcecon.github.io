@@ -649,13 +649,14 @@ Source: [S&P Global Sustainable1](https://www.spglobal.com/sustainable1/en/insig
 
 ## Optimal Pollution
 :::{.nonincremental}
-- **Zero pollution** generally implies **zero production**; instead, economists seek the **efficient** (not necessarily zero) level of pollution given current technology and preferences.
+- **Zero pollution** generally implies **zero production**; instead, economists seek the **efficient** (not necessarily zero) level of pollution given current <u>*technology*</u> and <u>*preferences*</u>.
 - The **Pigovian tax** yields **optimal (residual) pollution**—the remaining damages at **$Q^{*}$**.
 - **Caveat**: If demand shifts right (e.g., autos more valued), the **efficient** pollution level can rise—raising questions about **science‑based caps** vs. **pure efficiency**.
 :::
 
-::: callout-warning
-Policy practice often sets **health‑based standards** (e.g., the Clean Air Act) and then uses market instruments to **achieve** those standards cost‑effectively.
+::: callout-note
+- **Preferences** (what people want—<u>demand</u>) and **technology** (what/how much outputs can be produced from scarce inputs—<u>supply</u>), given **endowments** (initial resources) and **prices**, jointly determine **market equilibrium** and **welfare**, as **consumers maximize utility** and **firms maximize profit**.
+- Policy practice often sets **health‑based standards** (e.g., the Clean Air Act) and then uses market instruments to **achieve** those standards cost‑effectively.
 :::
 
 
