@@ -1461,5 +1461,33 @@
     "title": "Lecture 4",
     "section": "",
     "text": "💰 Market Instruments\n\n\n\nAdvantages\n- Cost-effective allocation of reductions\n- Incentivizes continuous innovation\n- Flexibility in compliance strategies\n- Generates revenue (taxes)\n- Quantity certainty (cap-and-trade)\n\n\n\nDisadvantages\n- Uncertainty (price vs. emissions)\n- Requires monitoring & enforcement\n- Politically unpopular (“tax”)\n- Can be regressive without compensation\n- Risk of carbon leakage (industry relocation)\n\n⚙️ Standards & Mandates\n\n\n\nAdvantages\n- Clear, simple to enforce\n- Guarantees minimum protection\n- Useful under uncertainty/difficult admin\n- Ensures equity across firms/consumers\n- Direct health & ecological co-benefits\n\n\n\nDisadvantages\n- Less cost-effective overall\n- No incentive once standard is met\n- Risk of stifling innovation (if prescriptive)\n- Raises upfront capital costs\n- May only address part of the problem"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0905.html#welfare-analysis-of-pigouvian-tax-on-consumers-and-producers",
+    "href": "econ-lec/econ-340-lec-04-2025-0905.html#welfare-analysis-of-pigouvian-tax-on-consumers-and-producers",
+    "title": "Lecture 4",
+    "section": "Welfare Analysis of Pigouvian Tax on Consumers and Producers",
+    "text": "Welfare Analysis of Pigouvian Tax on Consumers and Producers\n\n\n\n\nNote\n\n\n\nThe Pigouvian tax causes the equilibrium price consumers pay to rise, and the equilibrium quantity to fall.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConsumer incidence:\n\nThe amount of the tax revenue paid by consumers\nThe amount to which CS decreases, measured over quantities from \\(0\\) to \\(Q^{*}\\)\n\nProducer incidence:\n\nThe amount of the tax revenue paid by producers\nThe amount to which PS decreases, measured over quantities from \\(0\\) to \\(Q^{*}\\)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0905.html#pigouvian-tax-and",
+    "href": "econ-lec/econ-340-lec-04-2025-0905.html#pigouvian-tax-and",
+    "title": "Lecture 4",
+    "section": "Pigouvian Tax and",
+    "text": "Pigouvian Tax and\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConsumer incidence:\n\nThe amount of the tax revenue paid by consumers\nThe amount to which CS decreases, measured over quantities from \\(0\\) to \\(Q^{*}\\)\n\nProducer incidence:\n\nThe amount of the tax revenue paid by producers\nThe amount to which PS decreases, measured over quantities from \\(0\\) to \\(Q^{*}\\)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0905.html#tax-revenue-cs-and-ps",
+    "href": "econ-lec/econ-340-lec-04-2025-0905.html#tax-revenue-cs-and-ps",
+    "title": "Lecture 4",
+    "section": "Tax Revenue, CS, and PS",
+    "text": "Tax Revenue, CS, and PS\n\n\n\n\n\n\n\n\n\nTax Revenue: \\(t \\times Q^{*}\\)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0905.html#tax-revenue-cs-and-ps-1",
+    "href": "econ-lec/econ-340-lec-04-2025-0905.html#tax-revenue-cs-and-ps-1",
+    "title": "Lecture 4",
+    "section": "Tax Revenue, CS, and PS",
+    "text": "Tax Revenue, CS, and PS\n\n\n\n\n\n\n\n\n\nConsumer incidence:\n\nThe amount to which CS decreases, measured over quantities from \\(0\\) to \\(Q^{*}\\)\n\nTax falls on consumers, who pay \\(P^{*} - P_{M}\\) more per unit.\n\n\nProducer incidence:\n\nThe amount to which PS decreases, measured over quantities from \\(0\\) to \\(Q^{*}\\)\n\nTax falls on producers, who receive \\(P_{M} - P_{0}\\) less per unit."
   }
 ]

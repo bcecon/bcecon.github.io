@@ -659,4 +659,49 @@ Source: [S&P Global Sustainable1](https://www.spglobal.com/sustainable1/en/insig
 - Policy practice often sets **health‑based standards** (e.g., the Clean Air Act) and then uses market instruments to **achieve** those standards cost‑effectively.
 :::
 
+## Tax Revenue, CS, and PS
+
+::::{.columns}
+::: {.column width="67.5%"}
+
+<div style="text-align: center; width: 75%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/hr-fig3-3-tax-revenue.jpg" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+
+::: {.column width="32.5%"}
+
+- **Tax Revenue**: $t \times Q^{*}$
+
+:::
+::::
+
+
+## Tax Revenue, CS, and PS
+
+::::{.columns}
+::: {.column width="67.5%"}
+
+<div style="text-align: center; width: 75%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/hr-fig3-3-cs-ps.jpg" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+
+::: {.column width="32.5%"}
+
+
+- **Consumer incidence**: 
+  - The amount to which **CS** decreases, measured over quantities from $0$ to $Q^{*}$
+    - Tax falls on consumers, who pay $P^{*} - P_{M}$ *more* per unit.
+- **Producer incidence**: 
+  - The amount to which **PS** decreases, measured over quantities from $0$ to $Q^{*}$
+    - Tax falls on producers, who receive $P_{M} - P_{0}$ *less* per unit.
+
+:::
+::::
+
 
