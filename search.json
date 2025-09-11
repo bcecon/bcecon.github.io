@@ -851,7 +851,7 @@
     "href": "econ-lec/econ-340-lec-04-2025-0905.html#distributional-concerns",
     "title": "Lecture 4",
     "section": "Distributional Concerns",
-    "text": "Distributional Concerns\n\nRegressivity: Energy/fuel taxes can burden lower-income households (higher budget share on energy).\nHow to offset (Revenue recycling):\n\nLump-sum dividends (“carbon cash-back”).\nRefundable credits (e.g., energy affordability credit, EITC/CTC top-ups).\nTargeted transfers (rural mileage, extreme-climate heating, heating-oil users).\nFixed bill credits / lifeline blocks for essential usage (avoid broad per-unit discounts).\nJust-transition support for affected workers/communities.\n\nDesign notes: Preserve price signals (don’t lower per-unit energy prices), make benefits visible, and address equity/political feasibility"
+    "text": "Distributional Concerns\n\nRegressivity: Energy/fuel taxes can burden lower-income households (higher budget share on energy).\nHow to offset (Revenue recycling):\n\nLump-sum dividends (“carbon cash-back”).\nRefundable credits (e.g., energy affordability credit, EITC (earned income tax credits) top-ups).\nTargeted transfers (rural mileage, extreme-climate heating, heating-oil users).\nFixed bill credits / lifeline blocks for essential usage (avoid broad per-unit discounts).\nJust-transition support for affected workers/communities.\n\nDesign notes: Preserve price signals (don’t lower per-unit energy prices), make benefits visible, and address equity/political feasibility"
   },
   {
     "objectID": "econ-lec/econ-340-lec-04-2025-0905.html#dont-tax-everything",
@@ -928,7 +928,7 @@
     "href": "econ-lec/econ-340-lec-04-2025-0905.html#optimal-pollution",
     "title": "Lecture 4",
     "section": "Optimal Pollution",
-    "text": "Optimal Pollution\n\n\nZero pollution generally implies zero production; instead, economists seek the efficient (not necessarily zero) level of pollution given current technology and preferences.\nThe Pigovian tax yields optimal (residual) pollution—the remaining damages at \\(Q^{*}\\).\nCaveat: If demand shifts right (e.g., autos more valued), the efficient pollution level can rise—raising questions about science‑based caps vs. pure efficiency.\n\n\n\n\n\nNote\n\n\n\nPreferences (what people want—demand) and technology (what/how much outputs can be produced from scarce inputs—supply), given endowments (initial resources) and prices, jointly determine market equilibrium and welfare, as consumers maximize utility and firms maximize profit.\nPolicy practice often sets health‑based standards (e.g., the Clean Air Act) and then uses market instruments to achieve those standards cost‑effectively."
+    "text": "Optimal Pollution\n\nZero pollution generally implies zero production; instead, economists seek the efficient (not necessarily zero) level of pollution given current technology and preferences.\nThe Pigovian tax yields optimal (residual) pollution—the remaining damages at \\(Q^{*}\\).\nCaveat: If demand shifts right (e.g., autos more valued), the efficient pollution level can rise—raising questions about science‑based caps vs. pure efficiency.\n\n\n\n\nNote\n\n\n\nPreferences (what people want—demand) and technology (what/how much outputs can be produced from scarce inputs—supply), given endowments (initial resources) and prices, jointly determine market equilibrium and welfare, as consumers maximize utility and firms maximize profit.\nPolicy practice often sets health‑based standards (e.g., the Clean Air Act) and then uses market instruments to achieve those standards cost‑effectively."
   },
   {
     "objectID": "listing-econ-340-lec.html",
@@ -1481,13 +1481,83 @@
     "href": "econ-lec/econ-340-lec-04-2025-0905.html#tax-revenue-cs-and-ps",
     "title": "Lecture 4",
     "section": "Tax Revenue, CS, and PS",
-    "text": "Tax Revenue, CS, and PS\n\n\n\n\n\n\n\n\n\nTax Revenue: \\(t \\times Q^{*}\\)"
+    "text": "Tax Revenue, CS, and PS\n\n\n\n\n\n\nTax Revenue: \\(t \\times Q^{*}\\)"
   },
   {
     "objectID": "econ-lec/econ-340-lec-04-2025-0905.html#tax-revenue-cs-and-ps-1",
     "href": "econ-lec/econ-340-lec-04-2025-0905.html#tax-revenue-cs-and-ps-1",
     "title": "Lecture 4",
     "section": "Tax Revenue, CS, and PS",
-    "text": "Tax Revenue, CS, and PS\n\n\n\n\n\n\n\n\n\nConsumer incidence:\n\nThe amount to which CS decreases, measured over quantities from \\(0\\) to \\(Q^{*}\\)\n\nTax falls on consumers, who pay \\(P^{*} - P_{M}\\) more per unit.\n\n\nProducer incidence:\n\nThe amount to which PS decreases, measured over quantities from \\(0\\) to \\(Q^{*}\\)\n\nTax falls on producers, who receive \\(P_{M} - P_{0}\\) less per unit."
+    "text": "Tax Revenue, CS, and PS\n\n\n\n\n\n\nConsumer incidence: The amount to which CS decreases, measured over quantities from \\(0\\) to \\(Q^{*}\\) \\(\\;\\rightarrow\\;\\) Tax falls on consumers, who pay \\(P^{*} - P_{M}\\) more per unit.\nProducer incidence: The amount to which PS decreases, measured over quantities from \\(0\\) to \\(Q^{*}\\) \\(\\;\\rightarrow\\;\\) Tax falls on producers, who receive \\(P_{M} - P_{0}\\) less per unit."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0905.html#welfare-analysis-of-the-automobile-market-1",
+    "href": "econ-lec/econ-340-lec-04-2025-0905.html#welfare-analysis-of-the-automobile-market-1",
+    "title": "Lecture 4",
+    "section": "Welfare Analysis of the Automobile Market",
+    "text": "Welfare Analysis of the Automobile Market\nWithout Pigouvian Tax\n\n\n\n\n\nWithout Pigouvian tax, consumers and producers enjoys the same level of CS and PS."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0905.html#welfare-analysis-of-the-automobile-market-2",
+    "href": "econ-lec/econ-340-lec-04-2025-0905.html#welfare-analysis-of-the-automobile-market-2",
+    "title": "Lecture 4",
+    "section": "Welfare Analysis of the Automobile Market",
+    "text": "Welfare Analysis of the Automobile Market\nWithout Pigouvian Tax\n\n\n\n\n\nHowever, their market activities imposes a negative external cost to people who are not market participants, the area between PMC and SMC up to the chosen quantity (\\(Q_{M}\\))."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0905.html#welfare-analysis-of-the-automobile-market-3",
+    "href": "econ-lec/econ-340-lec-04-2025-0905.html#welfare-analysis-of-the-automobile-market-3",
+    "title": "Lecture 4",
+    "section": "Welfare Analysis of the Automobile Market",
+    "text": "Welfare Analysis of the Automobile Market\nWithout Pigouvian Tax\n\n\n\n\n\nWith such a negative externality, true net social welfare (NSW) is: \\[\n  \\begin{align}\n  &\\quad\\;\\; (\\text{NSW})\\,=\\, (\\text{CS} + \\text{PS}) \\,-\\, (\\text{External Cost}).\n  \\end{align}\n  \\]"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0905.html#welfare-analysis-of-the-automobile-market-4",
+    "href": "econ-lec/econ-340-lec-04-2025-0905.html#welfare-analysis-of-the-automobile-market-4",
+    "title": "Lecture 4",
+    "section": "Welfare Analysis of the Automobile Market",
+    "text": "Welfare Analysis of the Automobile Market\nWithout Pigouvian Tax\n\n\n\n\n\nTriangle C is the deadweight loss from overproduction where SMC &gt; MB."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0905.html#welfare-analysis-of-the-automobile-market-5",
+    "href": "econ-lec/econ-340-lec-04-2025-0905.html#welfare-analysis-of-the-automobile-market-5",
+    "title": "Lecture 4",
+    "section": "Welfare Analysis of the Automobile Market",
+    "text": "Welfare Analysis of the Automobile Market\nWith Pigouvian Tax\n\n\n\n\n\nWith Pigouvian tax, consumers and producers enjoys CS and PS, measured over quantities from 0 to \\(Q^{*}\\), the new equilibrium quantity."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0905.html#welfare-analysis-of-the-automobile-market-6",
+    "href": "econ-lec/econ-340-lec-04-2025-0905.html#welfare-analysis-of-the-automobile-market-6",
+    "title": "Lecture 4",
+    "section": "Welfare Analysis of the Automobile Market",
+    "text": "Welfare Analysis of the Automobile Market\nWith Pigouvian Tax\n\n\n\n\n\nTax revenue equals \\(t\\times Q^{*}\\)."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0905.html#welfare-analysis-of-the-automobile-market-7",
+    "href": "econ-lec/econ-340-lec-04-2025-0905.html#welfare-analysis-of-the-automobile-market-7",
+    "title": "Lecture 4",
+    "section": "Welfare Analysis of the Automobile Market",
+    "text": "Welfare Analysis of the Automobile Market\nWith Pigouvian Tax\n\n\n\n\n\nPigouvian tax limits external damage corresponding to \\(Q^{*}\\)."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0905.html#welfare-analysis-of-the-automobile-market-8",
+    "href": "econ-lec/econ-340-lec-04-2025-0905.html#welfare-analysis-of-the-automobile-market-8",
+    "title": "Lecture 4",
+    "section": "Welfare Analysis of the Automobile Market",
+    "text": "Welfare Analysis of the Automobile Market\nWith Pigouvian Tax\n\n\n\n\n\nWith such a negative externality, true net social welfare (NSW) is: \\[\n  \\begin{align}\n  &\\quad\\;\\; (\\text{NSW})\\,=\\, (\\text{CS} + \\text{PS} + \\text{Tax Revenue}) \\,-\\, (\\text{External Cost}).\n  \\end{align}\n  \\]\n\nPigovian Tax Improves Welfare: welfare rises by C relative to the unregulated outcome."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0905.html#tax-incidence",
+    "href": "econ-lec/econ-340-lec-04-2025-0905.html#tax-incidence",
+    "title": "Lecture 4",
+    "section": "Tax Incidence",
+    "text": "Tax Incidence\n\n\n\n\n\n\nTax Revenue: \\(t \\times Q^{*}\\)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0905.html#tax-incidence-1",
+    "href": "econ-lec/econ-340-lec-04-2025-0905.html#tax-incidence-1",
+    "title": "Lecture 4",
+    "section": "Tax Incidence",
+    "text": "Tax Incidence\n\n\n\n\n\n\nConsumer incidence: The amount to which CS decreases, measured over quantities from \\(0\\) to \\(Q^{*}\\) \\(\\;\\rightarrow\\;\\) Tax falls on consumers, who pay \\(P^{*} - P_{M}\\) more per unit.\nProducer incidence: The amount to which PS decreases, measured over quantities from \\(0\\) to \\(Q^{*}\\) \\(\\;\\rightarrow\\;\\) Tax falls on producers, who receive \\(P_{M} - P_{0}\\) less per unit."
   }
 ]
