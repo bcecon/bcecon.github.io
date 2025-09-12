@@ -893,7 +893,7 @@
     "href": "econ-lec/econ-340-lec-04-2025-0905.html#the-market-for-solar-energy-with-positive-externalities",
     "title": "Lecture 4",
     "section": "The Market for Solar Energy with Positive Externalities",
-    "text": "The Market for Solar Energy with Positive Externalities\n\n\n\n\n\n\n\n\n\nSMB = PMB + EMB, where EMB is external marginal benefit.\n\n\n\n\nExamples: solar panels (emissions reductions), vaccinations, R&D spillovers, urban trees."
+    "text": "The Market for Solar Energy with Positive Externalities\n\nExamples: solar panels (emissions reductions), vaccinations, R&D spillovers, urban trees."
   },
   {
     "objectID": "econ-lec/econ-340-lec-04-2025-0905.html#the-market-for-solar-energy-with-a-subsidy",
@@ -928,7 +928,7 @@
     "href": "econ-lec/econ-340-lec-04-2025-0905.html#optimal-pollution",
     "title": "Lecture 4",
     "section": "Optimal Pollution",
-    "text": "Optimal Pollution\n\nZero pollution generally implies zero production; instead, economists seek the efficient (not necessarily zero) level of pollution given current technology and preferences.\nThe Pigovian tax yields optimal (residual) pollution—the remaining damages at \\(Q^{*}\\).\nCaveat: If demand shifts right (e.g., autos more valued), the efficient pollution level can rise—raising questions about science‑based caps vs. pure efficiency.\n\n\n\n\nNote\n\n\n\nPreferences (what people want—demand) and technology (what/how much outputs can be produced from scarce inputs—supply), given endowments (initial resources) and prices, jointly determine market equilibrium and welfare, as consumers maximize utility and firms maximize profit.\nPolicy practice often sets health‑based standards (e.g., the Clean Air Act) and then uses market instruments to achieve those standards cost‑effectively."
+    "text": "Optimal Pollution\n\nZero pollution generally implies zero production; instead, economists seek the efficient (not necessarily zero) level of pollution given current technology and preferences.\n\nThe Pigovian tax yields optimal (residual) pollution—the remaining damages at \\(Q^{*}\\).\n\nCaveat: If demand shifts right (e.g., autos more valued), the efficient pollution level can rise—raising questions about science‑based caps vs. pure efficiency.\n\n\n\n\nNote\n\n\n\nPreferences (what people want—demand) and technology (what/how much outputs can be produced from scarce inputs—supply), given endowments (initial resources) and prices, jointly determine market equilibrium and welfare, as consumers maximize utility and firms maximize profit.\nPolicy practice often sets health‑based standards (e.g., the Clean Air Act) and then uses market instruments to achieve those standards cost‑effectively."
   },
   {
     "objectID": "listing-econ-340-lec.html",
@@ -1495,21 +1495,21 @@
     "href": "econ-lec/econ-340-lec-04-2025-0905.html#welfare-analysis-of-the-automobile-market-1",
     "title": "Lecture 4",
     "section": "Welfare Analysis of the Automobile Market",
-    "text": "Welfare Analysis of the Automobile Market\nWithout Pigouvian Tax\n\n\n\n\n\nWithout Pigouvian tax, consumers and producers enjoys the same level of CS and PS."
+    "text": "Welfare Analysis of the Automobile Market\nWithout Pigouvian Tax\n\n\n\n\n\nWithout Pigouvian tax, consumers and producers enjoys higher CS and PS than with the tax."
   },
   {
     "objectID": "econ-lec/econ-340-lec-04-2025-0905.html#welfare-analysis-of-the-automobile-market-2",
     "href": "econ-lec/econ-340-lec-04-2025-0905.html#welfare-analysis-of-the-automobile-market-2",
     "title": "Lecture 4",
     "section": "Welfare Analysis of the Automobile Market",
-    "text": "Welfare Analysis of the Automobile Market\nWithout Pigouvian Tax\n\n\n\n\n\nHowever, their market activities imposes a negative external cost to people who are not market participants, the area between PMC and SMC up to the chosen quantity (\\(Q_{M}\\))."
+    "text": "Welfare Analysis of the Automobile Market\nWithout Pigouvian Tax\n\n\n\n\n\nHowever, these market activities impose a negative external costs to third parties, represented by the area between PMC and SMC up to the chosen quantity (\\(Q_{M}\\))."
   },
   {
     "objectID": "econ-lec/econ-340-lec-04-2025-0905.html#welfare-analysis-of-the-automobile-market-3",
     "href": "econ-lec/econ-340-lec-04-2025-0905.html#welfare-analysis-of-the-automobile-market-3",
     "title": "Lecture 4",
     "section": "Welfare Analysis of the Automobile Market",
-    "text": "Welfare Analysis of the Automobile Market\nWithout Pigouvian Tax\n\n\n\n\n\nWith such a negative externality, true net social welfare (NSW) is: \\[\n  \\begin{align}\n  &\\quad\\;\\; (\\text{NSW})\\,=\\, (\\text{CS} + \\text{PS}) \\,-\\, (\\text{External Cost}).\n  \\end{align}\n  \\]"
+    "text": "Welfare Analysis of the Automobile Market\nWithout Pigouvian Tax\n\n\n\n\n\nWith such a negative externality, true social welfare (SW) is: \\[\n  \\begin{align}\n  &\\quad\\;\\; (\\text{SW})\\,=\\, (\\text{CS} + \\text{PS}) \\,-\\, (\\text{External Cost}).\n  \\end{align}\n  \\]"
   },
   {
     "objectID": "econ-lec/econ-340-lec-04-2025-0905.html#welfare-analysis-of-the-automobile-market-4",
@@ -1523,7 +1523,7 @@
     "href": "econ-lec/econ-340-lec-04-2025-0905.html#welfare-analysis-of-the-automobile-market-5",
     "title": "Lecture 4",
     "section": "Welfare Analysis of the Automobile Market",
-    "text": "Welfare Analysis of the Automobile Market\nWith Pigouvian Tax\n\n\n\n\n\nWith Pigouvian tax, consumers and producers enjoys CS and PS, measured over quantities from 0 to \\(Q^{*}\\), the new equilibrium quantity."
+    "text": "Welfare Analysis of the Automobile Market\nWith Pigouvian Tax\n\n\n\n\n\nWith Pigouvian tax, CS and PS are measured over quantities from 0 to \\(Q^{*}\\), the new equilibrium quantity."
   },
   {
     "objectID": "econ-lec/econ-340-lec-04-2025-0905.html#welfare-analysis-of-the-automobile-market-6",
@@ -1537,27 +1537,55 @@
     "href": "econ-lec/econ-340-lec-04-2025-0905.html#welfare-analysis-of-the-automobile-market-7",
     "title": "Lecture 4",
     "section": "Welfare Analysis of the Automobile Market",
-    "text": "Welfare Analysis of the Automobile Market\nWith Pigouvian Tax\n\n\n\n\n\nPigouvian tax limits external damage corresponding to \\(Q^{*}\\)."
+    "text": "Welfare Analysis of the Automobile Market\nWith Pigouvian Tax\n\n\n\n\n\nPigouvian tax caps external damage by shifting the market to the efficient quantity \\(Q^{*}\\)."
   },
   {
     "objectID": "econ-lec/econ-340-lec-04-2025-0905.html#welfare-analysis-of-the-automobile-market-8",
     "href": "econ-lec/econ-340-lec-04-2025-0905.html#welfare-analysis-of-the-automobile-market-8",
     "title": "Lecture 4",
     "section": "Welfare Analysis of the Automobile Market",
-    "text": "Welfare Analysis of the Automobile Market\nWith Pigouvian Tax\n\n\n\n\n\nWith such a negative externality, true net social welfare (NSW) is: \\[\n  \\begin{align}\n  &\\quad\\;\\; (\\text{NSW})\\,=\\, (\\text{CS} + \\text{PS} + \\text{Tax Revenue}) \\,-\\, (\\text{External Cost}).\n  \\end{align}\n  \\]\n\nPigovian Tax Improves Welfare: welfare rises by C relative to the unregulated outcome."
+    "text": "Welfare Analysis of the Automobile Market\nWith Pigouvian Tax\n\n\n\n\n\nWith such a negative externality, true social welfare (SW) is: \\[\n  \\begin{align}\n  &\\quad\\;\\; (\\text{SW})\\,=\\, (\\text{CS} + \\text{PS} + \\text{Tax Revenue}) \\,-\\, (\\text{External Cost}).\n  \\end{align}\n  \\]\n\nPigovian Tax Improves Welfare: welfare rises by C relative to the unregulated outcome."
   },
   {
     "objectID": "econ-lec/econ-340-lec-04-2025-0905.html#tax-incidence",
     "href": "econ-lec/econ-340-lec-04-2025-0905.html#tax-incidence",
     "title": "Lecture 4",
     "section": "Tax Incidence",
-    "text": "Tax Incidence\n\n\n\n\n\n\nTax Revenue: \\(t \\times Q^{*}\\)"
+    "text": "Tax Incidence\n\n\n\n\n\nTax Revenue: \\(t \\times Q^{*}\\)\nTax incidence: The division of the tax burden between consumers and producers, determined by the relative elasticities of demand and supply."
   },
   {
     "objectID": "econ-lec/econ-340-lec-04-2025-0905.html#tax-incidence-1",
     "href": "econ-lec/econ-340-lec-04-2025-0905.html#tax-incidence-1",
     "title": "Lecture 4",
     "section": "Tax Incidence",
-    "text": "Tax Incidence\n\n\n\n\n\n\nConsumer incidence: The amount to which CS decreases, measured over quantities from \\(0\\) to \\(Q^{*}\\) \\(\\;\\rightarrow\\;\\) Tax falls on consumers, who pay \\(P^{*} - P_{M}\\) more per unit.\nProducer incidence: The amount to which PS decreases, measured over quantities from \\(0\\) to \\(Q^{*}\\) \\(\\;\\rightarrow\\;\\) Tax falls on producers, who receive \\(P_{M} - P_{0}\\) less per unit."
+    "text": "Tax Incidence\n\n\n\n\n\nConsumer incidence: The amount to which CS decreases, measured over quantities from \\(0\\) to \\(Q^{*}\\) \\(\\;\\rightarrow\\;\\) Tax falls on consumers, who pay \\(P^{*} - P_{M}\\) more per unit.\nProducer incidence: The amount to which PS decreases, measured over quantities from \\(0\\) to \\(Q^{*}\\) \\(\\;\\rightarrow\\;\\) Tax falls on producers, who receive \\(P_{M} - P_{0}\\) less per unit."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0905.html#tax-incidence-ordinary-vs.-pigouvian-tax",
+    "href": "econ-lec/econ-340-lec-04-2025-0905.html#tax-incidence-ordinary-vs.-pigouvian-tax",
+    "title": "Lecture 4",
+    "section": "Tax Incidence: Ordinary vs. Pigouvian Tax",
+    "text": "Tax Incidence: Ordinary vs. Pigouvian Tax\n\n\n\n\n\nOrdinary Tax (in a Competitive Market)\n\nIncidence:\n\nConsumers pay higher price (\\(P^{*} - P_{M}\\)).\n\nProducers receive lower price (\\(P_{M} - P_{0}\\)).\n\n\nWelfare effect:\n\nCreates deadweight loss (DWL).\n\nTotal surplus falls.\n\n\n\nPigouvian Tax\n\nIncidence:\n\nConsumers and Producers still share burden depending on elasticities.\n\n\nWelfare effect:\n\nInternalizes externality (e.g., pollution).\n\nReduces overproduction: \\(Q_{M} \\rightarrow Q^{*}\\).\n\nImproves social welfare by offsetting external damages."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0905.html#positive-externalities-market-outcome-policy",
+    "href": "econ-lec/econ-340-lec-04-2025-0905.html#positive-externalities-market-outcome-policy",
+    "title": "Lecture 4",
+    "section": "Positive Externalities: Market Outcome & Policy",
+    "text": "Positive Externalities: Market Outcome & Policy\n\nExamples: solar panels (emissions reductions), vaccinations, R&D spillovers, urban trees.\nIn an unregulated market, beneficial spillovers aren’t rewarded → underproduction:\n\nPMB &lt; SMB ⇒ \\(Q_{M}\\) &lt; \\(Q^{*}\\) → welfare loss.\n\n\n\n\n\n\nGoal: internalize social benefits to reach the efficient level \\(Q^{*}\\)\nSolar PV example:\n\nNeighbors learn from one household’s installation/operation experience.\nIf one home’s solar panels make more electricity than that home uses during the day, the extra can flow onto the neighborhood."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0905.html#the-market-for-solar-energy-with-positive-externalities-1",
+    "href": "econ-lec/econ-340-lec-04-2025-0905.html#the-market-for-solar-energy-with-positive-externalities-1",
+    "title": "Lecture 4",
+    "section": "The Market for Solar Energy with Positive Externalities",
+    "text": "The Market for Solar Energy with Positive Externalities\n\n\n\n\n\n\n\n\n\nSMB = PMB + EMB, where EMB is external marginal benefit."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-04-2025-0905.html#the-market-for-solar-energy",
+    "href": "econ-lec/econ-340-lec-04-2025-0905.html#the-market-for-solar-energy",
+    "title": "Lecture 4",
+    "section": "The Market for Solar Energy",
+    "text": "The Market for Solar Energy\n\n\n\n\n\n\n\n\n\nSMB = PMB + EMB, where EMB is external marginal benefit."
   }
 ]

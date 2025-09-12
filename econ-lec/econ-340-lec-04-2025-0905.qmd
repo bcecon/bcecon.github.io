@@ -489,7 +489,25 @@ Source: [S&P Global Sustainable1](https://www.spglobal.com/sustainable1/en/insig
 
 # Positive Externalities {background-color="#1c4982"}
 
-## The Market for Solar Energy with Positive Externalities
+## Positive Externalities: Market Outcome & Policy
+
+- **Examples**: solar panels (emissions reductions), vaccinations, R&D spillovers, urban trees.
+
+- In an unregulated market, **beneficial spillovers aren’t rewarded** → **underproduction**:
+<div style="text-align:center">
+  *PMB < SMB  ⇒  $Q_{M}$ <* $Q^{*}$ → **welfare loss**.
+</div>
+
+<div style="display:block; margin:15px;"></div>
+
+- **Goal:** internalize social benefits to reach the **efficient level** $Q^{*}$
+- **Solar PV example:**
+  - Neighbors learn from one household’s installation/operation experience.
+  - If one home’s solar panels make more electricity than that home uses during the day, the extra can flow onto the neighborhood.
+
+
+
+## The Market for Solar Energy
 
 
 ::::{.columns}
@@ -510,7 +528,6 @@ Source: [S&P Global Sustainable1](https://www.spglobal.com/sustainable1/en/insig
 :::
 ::::
 
-- Examples: **solar panels** (emissions reductions), **vaccinations**, **R&D spillovers**, **urban trees**.
 
 
 
@@ -534,8 +551,8 @@ Source: [S&P Global Sustainable1](https://www.spglobal.com/sustainable1/en/insig
 ::: {.column width="32.5%"}
 
 
-- A **producer subsidy** of $s$ per unit **lowers** effective marginal cost (downward supply shift).
-- A **consumer subsidy (e.g., tax credit)** **raises** effective willingness‑to‑pay (upward demand shift).
+- A **producer subsidy** of $s$ per unit **lowers** effective marginal cost (<u>downward supply shift</u>).
+- A **consumer subsidy (e.g., tax credit)** **raises** effective willingness‑to‑pay (<u>upward demand shift</u>).
 
 :::
 ::::
@@ -591,7 +608,9 @@ Source: [S&P Global Sustainable1](https://www.spglobal.com/sustainable1/en/insig
 </div>
 
 
-Without Pigouvian tax, consumers and producers enjoys the same level of <span style="color:blue">**CS**</span> and <span style="color:red">**PS**</span>.
+Without Pigouvian tax, consumers and producers enjoys higher <span style="color:blue">**CS**</span> and <span style="color:red">**PS**</span> than with the tax.
+
+<!-- - This reflects **private surplus** only. -->
 
 
 
@@ -607,9 +626,7 @@ Without Pigouvian tax, consumers and producers enjoys the same level of <span st
 </div>
 
 
-However, their market activities imposes a **negative external cost** to people who are not market participants, the area **between PMC and SMC** up to the chosen quantity ($Q_{M}$).
-
-
+However, these market activities impose a **negative external costs** to third parties, represented by the area **between PMC and SMC** up to the chosen quantity ($Q_{M}$).
 
 
 ## Welfare Analysis of the Automobile Market
@@ -622,10 +639,10 @@ However, their market activities imposes a **negative external cost** to people 
 
 
 
-With such a negative externality, true **net social welfare (NSW)** is:
+With such a negative externality, true **social welfare (SW)** is:
   $$
   \begin{align}
-  &\quad\;\; (\text{NSW})\,=\, (\text{CS} + \text{PS}) \,-\, (\text{External Cost}).
+  &\quad\;\; (\text{SW})\,=\, (\text{CS} + \text{PS}) \,-\, (\text{External Cost}).
   \end{align}
   $$
 
@@ -650,8 +667,7 @@ Triangle **C** is the **deadweight loss** from overproduction where **SMC > MB**
   <p style="font-weight: bold;"></p>
 </div>
 
-With Pigouvian tax, consumers and producers enjoys <span style="color:blue">**CS**</span> and <span style="color:red">**PS**</span>, measured over quantities from 0 to **$Q^{*}$**, the new equilibrium quantity.
-
+With Pigouvian tax, <span style="color:blue">**CS**</span> and <span style="color:red">**PS**</span> are measured over quantities from 0 to **$Q^{*}$**, the new equilibrium quantity.
 
 
 ## Welfare Analysis of the Automobile Market
@@ -675,7 +691,7 @@ With Pigouvian tax, consumers and producers enjoys <span style="color:blue">**CS
 </div>
 
 
-Pigouvian tax limits **external damage** corresponding to $Q^{*}$.
+Pigouvian tax caps **external damage** by shifting the market to the efficient quantity $Q^{*}$.
 
 
 ## Welfare Analysis of the Automobile Market
@@ -686,10 +702,10 @@ Pigouvian tax limits **external damage** corresponding to $Q^{*}$.
   <p style="font-weight: bold;"></p>
 </div>
 
-With such a negative externality, true **net social welfare (NSW)** is:
+With such a negative externality, true **social welfare (SW)** is:
   $$
   \begin{align}
-  &\quad\;\; (\text{NSW})\,=\, (\text{CS} + \text{PS} + \text{Tax Revenue}) \,-\, (\text{External Cost}).
+  &\quad\;\; (\text{SW})\,=\, (\text{CS} + \text{PS} + \text{Tax Revenue}) \,-\, (\text{External Cost}).
   \end{align}
   $$
   
@@ -733,7 +749,7 @@ With such a negative externality, true **net social welfare (NSW)** is:
 
 ## Optimal Pollution
 - **Zero pollution** generally implies **zero production**; instead, economists seek the **efficient** (not necessarily zero) level of pollution given current <u>*technology*</u> and <u>*preferences*</u>.
-- The **Pigovian tax** yields **optimal (residual) pollution**—the remaining damages at **$Q^{*}$**.
+  - The **Pigovian tax** yields **optimal (residual) pollution**—the remaining damages at **$Q^{*}$**.
 - **Caveat**: If demand shifts right (e.g., autos more valued), the **efficient** pollution level can rise—raising questions about **science‑based caps** vs. **pure efficiency**.
 
 ::: callout-note
@@ -748,7 +764,9 @@ With such a negative externality, true **net social welfare (NSW)** is:
 </div>
 
 
-- <span style="color:green">**Tax Revenue**</span>: $t \times Q^{*}$
+<span style="color:green">**Tax Revenue**</span>: $t \times Q^{*}$
+
+**Tax incidence**: The division of the tax burden between consumers and producers, determined by the relative elasticities of demand and supply.
 
 
 ## Tax Incidence
@@ -758,7 +776,36 @@ With such a negative externality, true **net social welfare (NSW)** is:
   <p style="font-weight: bold;"></p>
 </div>
 
-- <span style="color:blue">**Consumer incidence**</span>: The amount to which **CS** decreases, measured over quantities from $0$ to $Q^{*}$ $\;\rightarrow\;$ Tax falls on *consumers*, who pay $P^{*} - P_{M}$ *more* per unit.
-- <span style="color:red">**Producer incidence**</span>: The amount to which **PS** decreases, measured over quantities from $0$ to $Q^{*}$ $\;\rightarrow\;$ Tax falls on *producers*, who receive $P_{M} - P_{0}$ *less* per unit.
+<span style="color:blue">**Consumer incidence**</span>: The amount to which **CS** decreases, measured over quantities from $0$ to $Q^{*}$ $\;\rightarrow\;$ Tax falls on *consumers*, who pay $P^{*} - P_{M}$ *more* per unit.
+
+<span style="color:red">**Producer incidence**</span>: The amount to which **PS** decreases, measured over quantities from $0$ to $Q^{*}$ $\;\rightarrow\;$ Tax falls on *producers*, who receive $P_{M} - P_{0}$ *less* per unit.
 
 
+## Tax Incidence: Ordinary vs. Pigouvian Tax
+
+<div style="display:block; margin:-20px;"></div>
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+#### Ordinary Tax (in a Competitive Market)
+- **Incidence**:  
+  - <span style="color:blue">Consumers</span> pay higher price ($P^{*} - P_{M}$).  
+  - <span style="color:red">Producers</span> receive lower price ($P_{M} - P_{0}$).  
+- **Welfare effect**:  
+  - Creates **deadweight loss (DWL)**.  
+  - Total surplus falls.
+:::
+
+::: {.column width="50%"}
+#### Pigouvian Tax
+- **Incidence**:  
+  - <span style="color:blue">Consumers</span> and <span style="color:red">Producers</span> still share burden depending on elasticities.  
+- **Welfare effect**:  
+  - **Internalizes externality** (e.g., pollution).  
+  - Reduces overproduction: $Q_{M} \rightarrow Q^{*}$.  
+  - Improves **social welfare** by offsetting external damages.
+:::
+
+:::: 
