@@ -359,7 +359,7 @@ Date
 <tbody class="list">
 <tr data-index="0" data-listing-date-sort="1756094400000" data-listing-file-modified-sort="1756137782632" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-title-sort="Lecture 1" data-listing-filename-sort="econ-340-lec-01-2025-0825.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-340-lec-01-2025-0825.html'); return false;"" class="title listing-title">Lecture 1</a>
+<a href="./econ-lec/econ-340-lec-01-2025-0825.html" class="title listing-title">Lecture 1</a>
 </td>
 <td>
 <span class="listing-subtitle">Syllabus and Course Outline</span>
@@ -370,7 +370,7 @@ Date
 </tr>
 <tr data-index="1" data-listing-date-sort="1756267200000" data-listing-file-modified-sort="1756260966632" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-title-sort="Lecture 2" data-listing-filename-sort="econ-340-lec-02-2025-0827.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-340-lec-02-2025-0827.html'); return false;"" class="title listing-title">Lecture 2</a>
+<a href="./econ-lec/econ-340-lec-02-2025-0827.html" class="title listing-title">Lecture 2</a>
 </td>
 <td>
 <span class="listing-subtitle">Class Survey Results vs.&nbsp;Professional Consensus</span>
@@ -381,7 +381,7 @@ Date
 </tr>
 <tr data-index="2" data-listing-date-sort="1756440000000" data-listing-file-modified-sort="1756860381568" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-title-sort="Lecture 3" data-listing-filename-sort="econ-340-lec-03-2025-0829.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-340-lec-03-2025-0829.html'); return false;"" class="title listing-title">Lecture 3</a>
+<a href="./econ-lec/econ-340-lec-03-2025-0829.html" class="title listing-title">Lecture 3</a>
 </td>
 <td>
 <span class="listing-subtitle">Microeconomics Review</span>
@@ -392,7 +392,7 @@ Date
 </tr>
 <tr data-index="3" data-listing-date-sort="1757044800000" data-listing-file-modified-sort="1757649436709" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="20" data-listing-title-sort="Lecture 4" data-listing-filename-sort="econ-340-lec-04-2025-0905.qmd">
 <td>
-<a href="#" onclick="window.open('./econ-lec/econ-340-lec-04-2025-0905.html'); return false;"" class="title listing-title">Lecture 4</a>
+<a href="./econ-lec/econ-340-lec-04-2025-0905.html" class="title listing-title">Lecture 4</a>
 </td>
 <td>
 <span class="listing-subtitle">Externalities</span>
@@ -501,6 +501,19 @@ No matching items
 </font></font></section><font size="5"><font size="5">
 
 </font></font><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main><font size="5"><font size="5"> <!-- /main -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const btn = document.querySelector('.quarto-btn-toggle');
+  if (!btn || !window.bootstrap) return;
+
+  btn.addEventListener('click', function (e) {
+    ['#quarto-sidebar', '#quarto-sidebar-glass'].forEach(sel => {
+      const el = document.querySelector(sel);
+      if (el) bootstrap.Collapse.getOrCreateInstance(el).toggle();
+    });
+  }, { capture: true });
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

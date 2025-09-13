@@ -1,0 +1,13 @@
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const btn = document.querySelector('.quarto-btn-toggle');
+  if (!btn || !window.bootstrap) return;
+
+  btn.addEventListener('click', function (e) {
+    ['#quarto-sidebar', '#quarto-sidebar-glass'].forEach(sel => {
+      const el = document.querySelector(sel);
+      if (el) bootstrap.Collapse.getOrCreateInstance(el).toggle();
+    });
+  }, { capture: true });
+});
+</script>
