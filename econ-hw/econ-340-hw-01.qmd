@@ -167,12 +167,14 @@ Draft your comments using **MS Word** or similar program. This makes it easier f
 
 A small town has two factories, Alpha and Beta, located side by side. Alpha emits smoke that drifts into Beta’s building, making it harder for Beta’s workers to breathe and lowering their productivity. Currently, Alpha produces 12 units of smoke per day. Cutting back on emissions is costly:  
 
+Let $x$ denote the units of emission reduced by Alpha (abatement). Treat $x$ as any number from 0 to 12.
+
 - Alpha’s marginal cost of reducing each unit of smoke is: $MC = x$ (in \$).  
 - Beta’s marginal benefit from each unit of reduction (cleaner air, healthier workers, higher productivity) is: $MB = 12 − x$ (in \$).  
 
 Two technological solutions are available:  
 
--	Beta can pay $10 per day to rent an air filter from a third party, which reduces Alpha’s smoke and improves the air quality in Beta’s workplace.
+-	Beta can pay $10 per day to rent an **air filter** from a third party, which reduces Alpha’s smoke and improves the air quality in Beta’s workplace.
 - Alpha can be relocated to another industrial site at a cost of $40 per day, which eliminates all exposure for Beta.
 
 
@@ -189,7 +191,7 @@ Two technological solutions are available:
 &nbsp;&nbsp;&nbsp;&nbsp;(*Hint: There are two benefits under this scenario---(1) Relative to the status quo of 12 smoke emissions, the benefits of air filter rental have two components. First, Beta gets the full benefits of seeing 4 smoke reduced. Second, each unit of damage to Beta is cut in half by the filter for the remaining 8 smoke emissions.)  
 &nbsp;&nbsp;&nbsp;&nbsp;3. Pay to relocate Alpha.  
 
-&nbsp;&nbsp;&nbsp;&nbsp;**Which scenario yields the highest efficiency?**  
+&nbsp;&nbsp;&nbsp;&nbsp;**Which scenario yields the highest efficiency?** Show your calculations.
 
 
 🔎 **Guidelines:**  
