@@ -44,7 +44,7 @@ theme_set(theme_ipsum() +
     - When uploading, please also leave a note in the submission box indicating whether you submitted your comment to the U.S. EPA.
 
 
-# Question 1. Externalities and Economic Development
+# Question 1. Externalities and Economic Development (Points: 30)
 The demand function for oil is $q_d = 4 - p$, and the supply function is $q_s = p - 2$, where $p$ is the price of oil per barrel, and $q$ is the quantity of oil in millions of barrels per day. Using this information, solve the following problems:
 
 ---
@@ -71,7 +71,7 @@ The demand function for oil is $q_d = 4 - p$, and the supply function is $q_s = 
 
 <br><br>
 
-# Question 2. EPA Endangerment Finding on Greenhouse Gas Emissions
+# Question 2. EPA Endangerment Finding on Greenhouse Gas Emissions (Points: 40)
 
 You have an opportunity to comment and voice your opinions on the [US Environmental Protection Agency’s proposal to rescind its endangerment finding](https://www.epa.gov/regulations-emissions-vehicles-and-engines/proposed-rule-reconsideration-2009-endangerment-finding) and end federal regulation of greenhouse gas emissions. Public comments on the proposal are invited and should be **submitted no later than 11:59 PM EDT on Monday, September 22, 2025**.
 
@@ -163,7 +163,7 @@ Draft your comments using **MS Word** or similar program. This makes it easier f
 
 <br><br>
 
-# Question 3. Coase Theorem
+# Question 3. Coase Theorem (Points: 30)
 
 A small town has two factories, Alpha and Beta, located side by side. Alpha emits smoke that drifts into Beta’s building, making it harder for Beta’s workers to breathe and lowering their productivity. Currently, Alpha produces 12 units of smoke per day. Cutting back on emissions is costly:  
 
