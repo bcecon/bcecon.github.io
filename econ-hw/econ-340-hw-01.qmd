@@ -71,7 +71,7 @@ The demand function for oil is $q_d = 4 - p$, and the supply function is $q_s = 
 
 <br><br>
 
-# Question 2. EPA Edangerment Finding on Greenhouse Gas Emissions
+# Question 2. EPA Endangerment Finding on Greenhouse Gas Emissions
 
 You have an opportunity to comment and voice your opinions on the [US Environmental Protection Agency’s proposal to rescind its endangerment finding](https://www.epa.gov/regulations-emissions-vehicles-and-engines/proposed-rule-reconsideration-2009-endangerment-finding) and end federal regulation of greenhouse gas emissions. Public comments on the proposal are invited and should be **submitted no later than 11:59 PM EDT on Monday, September 22, 2025**.
 
