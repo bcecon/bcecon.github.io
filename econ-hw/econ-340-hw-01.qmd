@@ -1,6 +1,6 @@
 ---
 title: Homework 1
-subtitle: Externalities
+subtitle: Externalities; EPA Edangerment Finding on GHG Emissions; Coase Theorem
 date: last-modified
 from: markdown+emoji
 comments: false
@@ -31,27 +31,42 @@ theme_set(theme_ipsum() +
 ```
 
 
+
+## Homework Instructions
+
+- **No Generative AI**: You are **not** allowed to use generative AI tools for Homework Assignment 1.  
+
+- **Deadlines**:  
+  - **Questions 1, 3, and 4**: Due **Monday, September 22, 2025 at 10:30 A.M. (ET)**  
+    - Hand in your written answers on paper to Prof. Choe at the beginning of class.  
+  - **Question 2**: Due **Monday, September 22, 2025 at 11:59 P.M. (ET)**  
+    - Submit your comment as a PDF or Word document on Brightspace.  
+    - When uploading, please also leave a note in the submission box indicating whether you submitted your comment to the U.S. EPA.
+
+
 # Question 1. Externalities and Economic Development
 The demand function for oil is $q_d = 4 - p$, and the supply function is $q_s = p - 2$, where $p$ is the price of oil per barrel, and $q$ is the quantity of oil in millions of barrels per day. Using this information, solve the following problems:
 
-a. Graph the supply and demand functions on the same coordinate plane.
+---
 
-b. Determine the market equilibrium price and quantity of oil.
+**a**. Graph the supply and demand functions on the same coordinate plane.
 
-c. Calculate the consumer surplus and producer surplus at the market equilibrium.
+**b**. Determine the market equilibrium price and quantity of oil.
 
-d. Oil consumption causes environmental damage. Suppose the external marginal cost of oil pollution is given by $EMC = q + 1$. Calculate:
+**c**. Calculate the consumer surplus and producer surplus at the market equilibrium.
+
+**d**. Oil consumption causes environmental damage. Suppose the external marginal cost of oil pollution is given by $EMC = q + 1$. Calculate:
    (1) The socially optimal level of oil use
    (2) The deadweight loss due to pollution at the market equilibrium
 
-e. Due to economic development, the future demand for oil increases, resulting in a new demand function $q_d' = 8 - p$. Determine:
+**e**. Due to economic development, the future demand for oil increases, resulting in a new demand function $q_d' = 8 - p$. Determine:
    (1) The new market equilibrium price and quantity
    (2) The new socially optimal level of oil use
    (2) The deadweight loss due to pollution at the market equilibrium in the future
 
-f. Propose and briefly explain two distinct public policies that could be implemented to mitigate the environmental damages and reduce the burden on future generations. Discuss the potential effectiveness and challenges of each policy.
+**f**. Propose and briefly explain two distinct public policies that could be implemented to mitigate the environmental damages and reduce the burden on future generations. Discuss the potential effectiveness and challenges of each policy.
 
-g. Suppose the government decides to impose a Pigouvian tax to internalize the external costs of oil pollution. Calculate the optimal tax rates in the present and in the future and explain how it would affect the market equilibrium and social welfare.
+**g**. Suppose the government decides to impose a Pigouvian tax to internalize the external costs of oil pollution. Calculate the optimal tax rates in the present and in the future and explain how it would affect the market equilibrium and social welfare.
 
 
 <br><br>
@@ -64,7 +79,7 @@ You have an opportunity to comment and voice your opinions on the [US Environmen
 -	For grading purposes, please submit a PDF of your comment to Brightspace by **11:59 PM EDT on Monday, September 22, 2025**.
 
 -	You are not required to submit your comment to the US EPA for grading. However, I strongly encourage you to take this opportunity to learn more about an important policy issue, practice your reasoning and argumentation skills, and engage in civic responsibility.
-	-	If you submit your comment to the US EPA, please either provide the URL where it appears online or forward the email of your submission to [bchoe@geneseo.edu](mailto:bchoe@geneseo.edu).
+	<!-- -	If you submit your comment to the US EPA, please either provide the URL where it appears online or forward the email of your submission to [bchoe@geneseo.edu](mailto:bchoe@geneseo.edu). -->
 
 
 ## How to Submit Comments to the US EPA
@@ -144,3 +159,61 @@ Draft your comments using **MS Word** or similar program. This makes it easier f
 - Wentz, J., [Attribution Science and EPA’s Reconsideration of the GHG Endangerment Finding](https://blogs.law.columbia.edu/climatechange/2025/05/22/attribution-science-and-epas-reconsideration-of-the-ghg-endangerment-finding/), Climate Law Blog, Columbia Law School, May 22, 2025.
 
 - [EPA Launches Biggest Deregulatory Action in U.S. History](https://www.epa.gov/newsreleases/epa-launches-biggest-deregulatory-action-us-history?utm_source=chatgpt.com), US EPA, March 12, 2025.
+
+
+<br><br>
+
+# Question 3. Coase Theorem
+
+A small town has two factories, Alpha and Beta, located side by side. Alpha emits smoke that drifts into Beta’s building, making it harder for Beta’s workers to breathe and lowering their productivity. Currently, Alpha produces 12 units of smoke per day. Cutting back on emissions is costly:  
+
+- Alpha’s marginal cost of reducing each unit of smoke is: $MC = x$ (in \$).  
+- Beta’s marginal benefit from each unit of reduction (cleaner air, healthier workers, higher productivity) is: $MB = 12 − x$ (in \$).  
+
+Two technological solutions are available:  
+
+-	Beta can pay $10 per day to rent an air filter from a third party, which reduces Alpha’s smoke and improves the air quality in Beta’s workplace.
+- Alpha can be relocated to another industrial site at a cost of $40 per day, which eliminates all exposure for Beta.
+
+
+---
+
+**a.** Draw a diagram with “units of emission reduced” on the horizontal axis, showing marginal costs and marginal benefits. Without the filter or relocation, what is the efficient amount of smoke Alpha should cut?  
+
+**b.** Suppose the air filter is installed, reducing Beta’s marginal benefit from each unit of abatement to $\left(6 - \tfrac{x}{2}\right)$. That is, Beta now values emission reduction at only half the original level. What is the new efficient level of emission reduction?
+
+**c.** Calculate the _net benefit_ (efficiency) of Beta for each scenario:  
+
+&nbsp;&nbsp;&nbsp;&nbsp;1. Do not rent the air filter or relocate Alpha, but instead pay Alpha not to emit smoke.  
+&nbsp;&nbsp;&nbsp;&nbsp;2. Rent the air filter and then also pay Alpha not to emit smoke.  
+&nbsp;&nbsp;&nbsp;&nbsp;(*Hint: There are two benefits under this scenario---(1) Relative to the status quo of 12 smoke emissions, the benefits of air filter rental have two components. First, Beta gets the full benefits of seeing 4 smoke reduced. Second, each unit of damage to Beta is cut in half by the filter for the remaining 8 smoke emissions.)  
+&nbsp;&nbsp;&nbsp;&nbsp;3. Pay to relocate Alpha.  
+
+&nbsp;&nbsp;&nbsp;&nbsp;**Which scenario yields the highest overall efficiency?**  
+
+
+🔎 **Guidelines:**  
+- The _net benefit (efficiency)_ is:  
+  $$
+  (\text{Total Benefits from reduction}) \; - \; (\text{Total Costs (abatement + filter/relocation)})
+  $$  
+
+
+**d.** Assume no transaction costs or free riding. According to the Coase theorem, explain why the two factories could reach the efficient outcome through negotiation even if Beta has the right to force Alpha to move at its own expense.  
+
+
+
+
+
+<br><br>
+
+# Question 4. Class Participation (Not Graded for Homework 1)
+
+Please write one sentence for each time you participated in class (any public speaking during class time) between **August 25, 2025 and September 19, 2025**.  
+
+**Examples:**  
+- “I asked a question to clarify the syllabus.”  
+- “I asked how carbon taxes affect consumer behavior.”  
+- “I gave plastic pollution as an example of a negative externality.”  
+- “I pointed out a calculation error during the lecture.”  
+

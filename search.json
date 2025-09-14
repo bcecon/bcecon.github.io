@@ -74,7 +74,7 @@
     "href": "listing-econ-340-hw.html",
     "title": "ECON 340 - Homework",
     "section": "",
-    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\nExternalities\n\n\nSeptember 9, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\nExternalities; EPA Edangerment Finding on GHG Emissions; Coase Theorem\n\n\nSeptember 14, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "syllabus.html",
@@ -536,7 +536,7 @@
     "href": "econ-hw/econ-340-hw-01.html",
     "title": "Homework 1",
     "section": "",
-    "text": "The demand function for oil is \\(q_d = 4 - p\\), and the supply function is \\(q_s = p - 2\\), where \\(p\\) is the price of oil per barrel, and \\(q\\) is the quantity of oil in millions of barrels per day. Using this information, solve the following problems:\n\nGraph the supply and demand functions on the same coordinate plane.\nDetermine the market equilibrium price and quantity of oil.\nCalculate the consumer surplus and producer surplus at the market equilibrium.\nOil consumption causes environmental damage. Suppose the external marginal cost of oil pollution is given by \\(EMC = q + 1\\). Calculate:\n\nThe socially optimal level of oil use\nThe deadweight loss due to pollution at the market equilibrium\n\nDue to economic development, the future demand for oil increases, resulting in a new demand function \\(q_d' = 8 - p\\). Determine:\n\nThe new market equilibrium price and quantity\nThe new socially optimal level of oil use\nThe deadweight loss due to pollution at the market equilibrium in the future\n\nPropose and briefly explain two distinct public policies that could be implemented to mitigate the environmental damages and reduce the burden on future generations. Discuss the potential effectiveness and challenges of each policy.\nSuppose the government decides to impose a Pigouvian tax to internalize the external costs of oil pollution. Calculate the optimal tax rates in the present and in the future and explain how it would affect the market equilibrium and social welfare."
+    "text": "No Generative AI: You are not allowed to use generative AI tools for Homework Assignment 1.\nDeadlines:\n\nQuestions 1, 3, and 4: Due Monday, September 22, 2025 at 10:30 A.M. (ET)\n\nHand in your written answers on paper to Prof. Choe at the beginning of class.\n\n\nQuestion 2: Due Monday, September 22, 2025 at 11:59 P.M. (ET)\n\nSubmit your comment as a PDF or Word document on Brightspace.\n\nWhen uploading, please also leave a note in the submission box indicating whether you submitted your comment to the U.S. EPA."
   },
   {
     "objectID": "econ-hw/econ-340-hw-01.html#how-to-submit-comments-to-the-us-epa",
@@ -676,7 +676,7 @@
     "href": "index.html#bullet-homework",
     "title": "ECON 340: Environmental Economics, Fall 2025",
     "section": "\\(\\bullet\\,\\) 💻 Homework",
-    "text": "\\(\\bullet\\,\\) 💻 Homework\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\nExternalities\n\n\nSeptember 9, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "\\(\\bullet\\,\\) 💻 Homework\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\nExternalities; EPA Edangerment Finding on GHG Emissions; Coase Theorem\n\n\nSeptember 14, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "econ-cw/econ-340-cw-01.html",
@@ -1510,5 +1510,19 @@
     "title": "Week 3",
     "section": "💬 Discussion",
     "text": "💬 Discussion\nWelcome to our Week 3 Discussion Board! 👋 \nThis space is designed for you to engage with your classmates about the material covered in Week 3.\nWhether you are looking to delve deeper into the content, share insights, or have questions about the content, this is the perfect place for you.\nIf you have any specific questions for Byeong-Hak (@bcecon) or peer classmate (@GitHub-Username) regarding the Week 2 materials or need clarification on any points, don’t hesitate to ask here.\nLet’s collaborate and learn from each other!"
+  },
+  {
+    "objectID": "econ-hw/econ-340-hw-01.html#homework-instructions",
+    "href": "econ-hw/econ-340-hw-01.html#homework-instructions",
+    "title": "Homework 1",
+    "section": "",
+    "text": "No Generative AI: You are not allowed to use generative AI tools for Homework Assignment 1.\nDeadlines:\n\nQuestions 1, 3, and 4: Due Monday, September 22, 2025 at 10:30 A.M. (ET)\n\nHand in your written answers on paper to Prof. Choe at the beginning of class.\n\n\nQuestion 2: Due Monday, September 22, 2025 at 11:59 P.M. (ET)\n\nSubmit your comment as a PDF or Word document on Brightspace.\n\nWhen uploading, please also leave a note in the submission box indicating whether you submitted your comment to the U.S. EPA."
+  },
+  {
+    "objectID": "econ-hw/econ-340-hw-01.html#august-25-september-19-2025",
+    "href": "econ-hw/econ-340-hw-01.html#august-25-september-19-2025",
+    "title": "Homework 1",
+    "section": "August 25 – September 19, 2025",
+    "text": "August 25 – September 19, 2025\nPlease write one sentence for each time you participated in class (any public speaking during class time) between August 25, 2025 and September 19, 2025.\nExamples:\n- “I asked a question to clarify the syllabus.”\n- “I asked how carbon taxes affect consumer behavior.”\n- “I gave plastic pollution as an example of a negative externality.”\n- “I pointed out a calculation error during the lecture.”"
   }
 ]
