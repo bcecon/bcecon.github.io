@@ -111,15 +111,17 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 - *Example outcome*: Beta pays Alpha **$6,000**.  
   - Alpha gains \$1,000 more than draining.  
   - Beta avoids \$8,000 damage, but still pays \$6,000 → net \$2,000 better off.  
+  - The actual payment depends on each side’s **bargaining power**.
+
 - **Efficient result**: wetland preserved.  
 
 
 ## Negotiation with Alpha Holding Rights
-### Why Beta is Still “Unhappy”
+### Why Beta Could Still Be “Unhappy”
 - Beta is **better off** than if Alpha drained (\$2,000 net gain).  
-- But she still **feels burdened** because:  
+- But she could still **feels burdened** because:  
   - She pays a large sum to prevent harm.  
-  - She captures only part of the surplus (\$2,000 of the total \$3,000).  
+  <!-- - She captures only part of the surplus (\$2,000 of the total \$3,000).   -->
   - She may believe she should not have to pay at all.  
 - Lesson: **Efficiency ≠ Equity**. 
   - Efficient outcomes can still feel unfair.  
@@ -147,7 +149,6 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
   - *Example*: $10,000 payment →  
     - Alpha nets $2,000.  
     - Beta nets $2,000.  
-  - Final payment depends on bargaining power.  
 - Takeaway: **Efficient outcome depends on relative benefits and costs**, not on initial assignment of rights.  
 
 
