@@ -1,0 +1,84 @@
+---
+title: Week 4
+subtitle: Externalities; Property Rights and the Coase Theorem
+date: 2025-09-15
+from: markdown+emoji
+---
+
+In Week 4, we will conclude our discussion of environmental externality theory and then explore how assigning property rights to externalities can serve as an alternative to Pigovian taxation.  
+
+
+## 🏫 Lecture Slides 
+
+- **Lecture 4 - Externalities**  
+  [View Slides](../econ-lec/econ-340-lec-04-2025-0905.html){target="_blank"}  
+
+
+- **Lecture 5 - Property Rights, the Coase Theorem, and the Environment**  
+  [View Slides](../econ-lec/econ-340-lec-05-2025-0915.html){target="_blank"}  
+
+
+🎥 Looking for lecture recordings? You can only find those on Brightspace.
+
+
+## ✍️ Classwork
+
+🏫 [Classwork 2](../econ-cw/econ-340-cw-02.html){target="_blank"} reviews the welfare analysis of externalities. 🏫  
+
+
+## 📝 Homework
+🏡 [Homework 1](../econ-hw/econ-340-hw-01.html){target="_blank"} has been posted. 🏡
+
+
+
+## 📚 Recommended Reading
+
+### Property Rights, the Coase Theorem, and the Environment
+Pigovian taxes make intuitive sense by requiring those who pollute to cover their social and environmental costs. This approach assumes that communities deserve compensation for pollution harm, and it establishes that while society possesses rights to unpolluted air, polluters cannot freely discharge emissions without limit. Yet the question of how rights should be assigned is not always straightforward. Consider a case in which one farmer drains a wetland to create cropland, causing flooding problems for a neighboring farmer who loses the wetland’s natural capacity to absorb water. This raises the issue of whether the upstream farmer should compensate the downstream neighbor or whether the right to modify one’s land extends without restriction, regardless of the harms imposed on others.
+
+This example demonstrates that externalities are not just about costs and benefits but also about the scope of property rights. Do landowners automatically possess the right to drain wetlands, or is that right constrained by the interests of neighbors and the broader community? To see how rights matter, imagine two possible allocations. If Alpha, the upstream farmer, has the right to drain, he expects to earn $5,000 from crop production. Beta, his downstream neighbor, anticipates $8,000 in flood damages. Both parties know these figures. Even though Alpha holds the legal right, Beta may be willing to pay him not to exercise it. She would pay up to $8,000 to avoid damage, while Alpha would accept anything above $5,000. A bargaining range of $5,000 to $8,000 opens. Suppose they agree on $6,000. Alpha gains $1,000 more than if he had drained the wetland, and Beta is $2,000 better off compared with her expected losses. She effectively buys the right to decide how the wetland is used without purchasing Alpha’s land. If, alternatively, the law grants Beta the right to be free from drainage, then Alpha must secure her consent. Given the assumed values, no deal would occur: Alpha cannot offer enough to meet Beta’s minimum of $8,000. The wetland remains intact either way, though the distribution of gains differs. If conditions change and Alpha could earn $12,000 by planting a specialty crop, then he would be willing to pay Beta as much as $12,000 for permission. If they settle at $10,000, Alpha nets $2,000 and Beta also gains $2,000 relative to her damages. The outcome reflects efficiency—land is drained when benefits exceed costs—though the final price depends on bargaining skills and leverage.
+
+#### An Illustration of the Coase Theorem
+
+These negotiations illustrate the Coase theorem, developed by Nobel laureate Ronald Coase in 1960. The theorem holds that if property rights are clearly defined and transaction costs are low, then private bargaining leads to efficient resource use even when externalities exist. Transaction costs include the time, effort, and money required to obtain information, negotiate, and enforce agreements. In the Alpha and Beta case, transaction costs are low: they need only settle on a compensation figure, though formal contracts might involve legal expenses. Their negotiations show how external costs are balanced against economic gains. An $8,000 external cost is not worth incurring for $5,000 in private benefit, but it is worth incurring for $12,000. Regardless of who holds the initial right, efficiency emerges through negotiation.
+
+The same logic applies to industrial pollution. Suppose a factory emits 80 tons of effluent into a river, damaging downstream communities. Eliminating emissions entirely would force the factory to shut down, destroying valuable production. The factory realizes marginal benefits from polluting, while the community bears marginal costs of treatment. At 80 tons, marginal costs are high and marginal benefits are low—pollution is excessive. If emissions are limited to 50 tons, marginal benefits and marginal costs equalize. Reducing further to 20 tons imposes high costs on the factory for little additional community benefit. Thus, the efficient pollution level is 50 tons, where the additional benefit to the factory exactly balances the additional harm to the community.
+
+If the community holds the right to restrict emissions, the factory would be willing to pay for the right to pollute. The first ton is valuable to the factory—worth $400—while the damage to the community is small, creating room for trade. Negotiations continue as long as factory benefits exceed community damages. By the 40th ton, the benefit is $200, the cost $120. Negotiation remains possible but narrower. At the 50th ton, both equal $150. Beyond that, no trade occurs. At 50 tons, community damages total $3,750. If rights sell for $150 per ton, the community collects $7,500, pays for its damages, and comes out $3,750 ahead. The factory enjoys $13,750 in production benefits, pays $7,500 for rights, and nets $6,250. Combined welfare is $10,000. If the factory initially holds unlimited pollution rights, it emits 80 tons, gaining $16,000 while the community suffers $9,600 in damages—a net social benefit of $6,400. But since late tons bring minimal benefit to the factory and high costs to the community, negotiation leads back to 50 tons. The factory ends up with $18,250 in total benefits after payments, more than its initial $16,000. The community suffers $8,250 in losses, better than the $9,600 it faced before. Again, net social benefit is $10,000. Efficiency is preserved, but distribution differs. Rights allocation shifts thousands of dollars between parties without changing efficiency, highlighting the tension between efficiency and equity.
+
+#### A Practical Application - NYC Watershed Land Acquisition Program
+
+A real-world example comes from New York City’s Watershed Land Acquisition Program. To supply clean water to 8.4 million residents, the city faced a choice: build costly filtration plants or preserve watershed lands that naturally filter water. The city opted for preservation, committing to purchase 355,050 acres from willing sellers at fair market prices, including paying property taxes on acquired land. Importantly, eminent domain was not used. By buying land or conservation easements, the city ensured long-term water quality more cheaply than through filtration plants. This market-based solution mirrors the Coasean logic: voluntary transactions between property owners and the city secured an efficient environmental outcome.
+
+The program also illustrates how property rights and regulation intersect. Governments may take land for public use through eminent domain, but the U.S. Constitution requires just compensation. The Fifth Amendment states that private property shall not be taken for public use without fair payment. Complete deprivation of property rights requires full compensation, as when land is condemned for highways. More complex are “regulatory takings,” where environmental regulations reduce property value without eliminating all use. The landmark Lucas v. South Carolina Coastal Council case (1992) clarified that only total takings—where all economically viable use is removed—require compensation. Partial takings, which are common in environmental regulation, do not. This ruling preserved the effectiveness of environmental laws by avoiding the burden of compensating every landowner for every regulatory restriction, though debates about fairness continue.
+
+#### Limitations of the Coase Theorem
+
+While the Coase theorem shows how efficiency can be reached through bargaining, it relies on assumptions that rarely hold in complex environmental contexts. Free market environmentalism, which seeks to bring environmental issues into the marketplace through property rights, argues that government intervention is unnecessary if rights are clearly assigned. In practice, however, transaction costs undermine this vision. When many parties are affected, as in a case of 50 downstream communities impacted by a factory’s effluent, coordination is nearly impossible. If factories hold pollution rights, communities must organize compensation offers, but free-rider problems arise as each waits for others to pay. If communities hold pollution-free rights, holdout problems emerge, as a single community can veto agreements by demanding excessive compensation. With multiple polluters, complexity multiplies. These realities mean that efficient bargains are often unattainable, and government intervention through regulation or Pigovian taxes becomes essential. Setting water quality standards or taxing effluents are ways to ensure efficiency when private negotiations fail.
+
+#### Issues of Equity and Distribution
+
+Beyond transaction costs, equity concerns limit the Coase theorem’s appeal. Poor communities may lack resources to pay off polluters, even when health damages are severe. Conversely, if they hold rights, they may accept hazardous facilities for compensation out of economic desperation, effectively trading health for money. Wealthy communities can buy open space for preservation, while poor ones cannot. Zoning laws can equalize protection, but markets alone amplify inequality. Moreover, the theorem struggles with environmental harms to nonhuman species and ecosystems. Pesticides that kill bees but not humans, or projects that destroy habitats, impose costs with no clear human claimant. Organizations like the Nature Conservancy attempt to fill this gap by purchasing land for conservation, but their reach is small relative to the scale of ecological loss. Future generations face similar exclusion, as property rights generally apply only to current people. Climate change, deforestation, and species extinction pose harms that current markets cannot represent.
+
+The concept of environmental justice highlights these distributional concerns. According to the U.S. Environmental Protection Agency, environmental justice means fair treatment and meaningful participation for all people regardless of race, color, origin, or income. In practice, low-income and minority communities often bear disproportionate burdens because they lack political power. The Flint water crisis is a striking example. In 2014, officials switched Flint’s water source to save money, leading to lead contamination in a city that is 84 percent Black and largely poor. Between 6,000 and 12,000 children were exposed, and government responses were slow. Scholars called this one of the most egregious cases of environmental racism. Criminal charges were later filed against state officials, including the governor, for failing to protect residents.
+
+In summary, economic activities frequently impose external effects on those not involved, such as automobile pollution. When markets fail to account for these costs, society experiences inefficiency and overproduction of harmful goods. Pigovian taxes can internalize external costs, while subsidies can encourage activities with positive externalities such as open land preservation or solar energy adoption. Assigning property rights may also work under certain conditions, but when large numbers of people are affected, damages are difficult to value, or equity concerns dominate, government intervention is usually necessary. Efficiency and equity must both be considered in crafting environmental policy.
+
+#### References
+- Harris J. and Roach B., *Chapter 4. Theory of Environmental Externality*, **Environmental and Natural Resource Economics: A Contemporary Approach** (5th Edition)
+
+⚠️ Note: These contents from the above book chapter are shared under fair use for educational purposes to support your learning.
+
+
+## 💬 Discussion
+
+<font size = "5">Welcome to our Week 3 Discussion Board! 👋 </font>
+
+
+This space is designed for you to engage with your classmates about the material covered in Week 3.
+
+Whether you are looking to delve deeper into the content, share insights, or have questions about the content, this is the perfect place for you.
+
+If you have any specific questions for Byeong-Hak (**@bcecon**) or peer classmate (@GitHub-Username) regarding the Week 2 materials or need clarification on any points, don't hesitate to ask here. 
+
+Let's collaborate and learn from each other!

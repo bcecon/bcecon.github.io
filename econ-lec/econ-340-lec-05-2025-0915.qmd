@@ -8,6 +8,7 @@ format:
     incremental: true
     code-annotations: hover
     scrollable: false
+    css: _extensions/grantmcdermott/clean/clean.scss
 
     # logo: logo-title-slide.png
 author:
@@ -397,11 +398,13 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 - Do polluting industries **choose to locate** in poor and minority communities—where land is cheaper and political resistance is weaker?  
 
-- Or do **low-income households move in** near hazardous facilities after they are built, attracted by lower housing costs?  
+- Or do **low-income households move in** near toxic storage or disposal facility (TSDF) after they are built, attracted by lower housing costs?  
 
 - **Pastor et al. (2016), *“Which Came First? Toxic Facilities, Minority Move-In, and Environmental Justice”***:  
-  - A **10 percentage point increase** in minority population share was linked to **~34–39% higher odds** of a toxic storage or disposal facility siting.
-  - This weakens the “minority move-in” hypothesis.
+  - A **10% point increase** in minority population share was linked to **~34–39% higher odds** of a TSDF siting.
+  - The **pace of increase** in minority residents near TSDFs was similar to the pace elsewhere in the region.
+
+  <!-- - This weakens the “minority move-in” hypothesis. -->
 
   <!-- - Prior to siting decisions, neighborhoods with **below-average incomes** and **above-average percentages of Latino and African American residents** were **more likely** to receive a toxic storage or disposal facility.   -->
 

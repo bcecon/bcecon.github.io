@@ -8,6 +8,7 @@ format:
     incremental: true
     code-annotations: hover
     scrollable: false
+    css: _extensions/grantmcdermott/clean/clean.scss
 
     # logo: logo-title-slide.png
 author:
