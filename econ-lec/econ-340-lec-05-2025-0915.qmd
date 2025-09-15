@@ -382,11 +382,28 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 ## Environmental Justice
 - Defined by EPA: *“Fair treatment and meaningful involvement of all people regardless of race, color, national origin, or income.”*  
 - Example: **Flint, Michigan Water Crisis (2014–)**  
-  - City switched to Flint River water → lead contamination.  
+  - City switched to Flint River water, which was corrosive and not treated properly → lead contamination.  
   - 6,000–12,000 children exposed.  
   - Community largely low-income and African-American.  
 - Lesson: **Markets alone cannot ensure fairness** in environmental outcomes.  
 
+## Environmental Justice
+
+
+<div style="text-align: center; width: 62.5%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/gp-tab7-1.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold; font-size: 18px;">Race, Poverty and Hazardous Waste Facilities</p>
+</div>
+
+- Do polluting industries **choose to locate** in poor and minority communities—where land is cheaper and political resistance is weaker?  
+
+- Or do **low-income households move in** near hazardous facilities after they are built, attracted by lower housing costs?  
+
+- **Pastor et al. (2016), *“Which Came First? Toxic Facilities, Minority Move-In, and Environmental Justice”***:  
+  - A **10 percentage point increase** in minority population share was linked to **~34–39% higher odds** of a toxic storage or disposal facility siting.
+  - This weakens the “minority move-in” hypothesis.
+
+  <!-- - Prior to siting decisions, neighborhoods with **below-average incomes** and **above-average percentages of Latino and African American residents** were **more likely** to receive a toxic storage or disposal facility.   -->
 
 
 
