@@ -1,0 +1,401 @@
+---
+title: Lecture 5
+subtitle: Property Rights, the Coase Theorem, and the Environment
+format:
+  clean-revealjs:
+    self-contained: false
+    chalkboard: true
+    incremental: true
+    code-annotations: hover
+    scrollable: false
+
+    # logo: logo-title-slide.png
+author:
+  - name: Byeong-Hak Choe
+    email: bchoe@geneseo.edu
+    affiliations: SUNY Geneseo
+date: 2025-09-15
+execute: 
+  eval: true
+  echo: false
+callout-icon: false
+
+from: markdown+emoji
+include-after-body: target-hover.html # effect.html
+
+# bibliography: refs.bib
+---
+
+```{r setup}
+#| include: false
+
+library(tidyverse)
+library(lubridate)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+library(viridis)
+library(rmarkdown)
+library(gapminder)
+library(ggrepel)
+
+theme_set(theme_fivethirtyeight() +
+            theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(10,0,0,0)),
+                axis.title.y = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(0,10,0,0)),
+                axis.text.x = element_text(size = rel(1.75)),
+                axis.text.y = element_text(size = rel(1.75)),
+                strip.text = element_text(size = rel(1.5)),
+                legend.position = "top",
+                legend.text = element_text(size = rel(1.5)),
+                legend.title = element_text(size = rel(1.5))
+                )
+          )
+
+# Set global options for color-blind-friendly scales
+# scale_colour_discrete <- function(...) scale_colour_viridis_d(...)
+scale_colour_discrete <- function(...) scale_color_colorblind(...)
+scale_fill_discrete <- function(...) scale_fill_colorblind(...)
+```
+
+# Property Rights, the Coase Theorem, and the Environment {background-color="#1c4982"}
+
+## Pigovian Taxes and Rights
+- A **Pigovian tax** makes polluters pay for the external damages they impose on society.  
+- Implicit assumption:  
+  - Society has a **right to clean environment** and to be compensated for damages.  
+  - Polluters **do not have unlimited rights** to emit.  
+- Intuitively appealing, but raises a broader question:  
+  - Who **owns the right** in cases of environmental harm?  
+  - The polluter, or society at large?  
+
+
+
+## A Wetland Example: Competing Rights
+
+::::{.columns}
+::: {.column width="50%"}
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/wetland.jpg" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+
+::: {.column width="50%"}
+
+- Farmer **Alpha** drains a wetland to grow crops → earns **$5,000 profit**.  
+- Downstream neighbor **Beta** loses **$8,000** in crop damage from flooding.  
+
+:::
+::::
+
+
+- **Question**:  
+  - Does Alpha’s property ownership give him the **right to drain**?  
+  - Or does Beta (or society) have the **right to protection** from harm?  
+
+## Negotiation with Alpha Holding Rights
+- Suppose Alpha **has the legal right** to drain.  
+  - Beta can offer to pay him to keep the wetland intact.  
+  - Beta’s **willingness to pay**: up to $8,000 (her avoided damages).  
+  - Alpha’s **willingness to accept**: at least $5,000 (his foregone profit).  
+  - This creates a **bargaining range**: **$5,000–$8,000**.  
+- *Example outcome*: Beta pays Alpha **$6,000**.  
+  - Alpha gains \$1,000 more than draining.  
+  - Beta avoids \$8,000 damage, but still pays \$6,000 → net \$2,000 better off.  
+- **Efficient result**: wetland preserved.  
+
+
+## Negotiation with Alpha Holding Rights
+### Why Beta is Still “Unhappy”
+- Beta is **better off** than if Alpha drained (\$2,000 net gain).  
+- But she still **feels burdened** because:  
+  - She pays a large sum to prevent harm.  
+  - She captures only part of the surplus (\$2,000 of the total \$3,000).  
+  - She may believe she should not have to pay at all.  
+- Lesson: **Efficiency ≠ Equity**. 
+  - Efficient outcomes can still feel unfair.  
+
+
+
+## Negotiation with Beta Holding Rights
+- Suppose the law gives Beta the **right to a wetland**.  
+  - Alpha must buy permission to drain.  
+  - With current values:  
+    - Alpha can offer up to $5,000 (his potential profit).  
+    - Beta demands at least $8,000 (her avoided loss).  
+  - No agreement possible → wetland preserved (**same efficient outcome**)  
+  
+- Outcome is identical regardless of who holds the rights—Wetland stays intact.
+
+
+## Negotiation with Beta Holding Rights
+### A Change in Payoffs
+- Imagine a *new crop* grows well on drained wetlands.  
+  - Alpha’s profit rises to **$12,000**.  
+  - Beta still faces $8,000 in damages.  
+- Now negotiation is possible:  
+  - Alpha can pay Beta between $8,000 and $12,000.  
+  - *Example*: $10,000 payment →  
+    - Alpha nets $2,000.  
+    - Beta nets $2,000.  
+  - Final payment depends on bargaining power.  
+- Takeaway: **Efficient outcome depends on relative benefits and costs**, not on initial assignment of rights.  
+
+
+
+## The Coase Theorem
+
+::::{.columns}
+::: {.column width="32.5%"}
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/coase-nobel.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/coase-social-cost.jpg" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+
+::: {.column width="67.5%"}
+
+- **Transaction costs:** Expenses of making a deal or negotiation (e.g., legal fees, administrative costs, or costs of bringing parties together).
+- **The Coase Theorem**:  
+  - If property rights are **well defined** and **transaction costs are negligible**,  
+  - Then private bargaining will lead to **efficient allocation** of resources,  
+  - Even when **externalities** are present.  
+- Rights determine **who pays whom**, but **not the final efficient outcome**.  
+- <u>*Assumes*</u>: Perfect information; Few parties; No high legal or enforcement costs.   
+
+:::
+::::
+
+
+
+
+
+## Welfare Analysis of Company vs. Community
+
+
+::::{.columns}
+::: {.column width="50%"}
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/hr-fig3-9.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+
+::: {.column width="50%"}
+
+- Company emits **80 tons of effluent** into a river.  
+  - Company gains profits (MB of pollution).  
+  - Community bears damages (MC of pollution).  
+  
+:::
+::::
+
+
+- Efficient solution: **50 tons**, where MB = MC.  
+  - Beyond 50, extra damage > extra profit.  
+  - Below 50, extra profit > extra damage.   
+
+
+
+
+
+## Negotiation with Community Holding Rights
+
+::::{.columns}
+::: {.column width="50%"}
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/hr-fig3-9.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+
+::: {.column width="50%"}
+
+:::{.nonincremental}
+- Assume:  
+  - Pollution rights sell for **$150** each.  
+  - The **community** owns the rights.  
+:::
+
+:::
+::::
+
+
+<div style="display:block; margin:-15px;"></div>
+
+
+::::{.columns}
+::: {.column width="50%"}
+
+- At 50 tons: MB = MC = $150.  
+  - Company's payments = **$7,500** (area B + C).  
+  - Company benefits = **$13,750** (area A + B + C).  
+  - Total community damages = **$3,750** (area C).  
+
+:::
+
+::: {.column width="50%"}
+
+- Net results:  
+  - Company' Net Benefit: **$6,250**.  
+  - Community's Net Benefit: **$3,750**.  
+  - **Social Welfare = $10,000**.  
+
+
+:::
+::::
+
+## Negotiation with Company Holding Rights
+
+
+
+::::{.columns}
+::: {.column width="50%"}
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/hr-fig3-9.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+
+::: {.column width="50%"}
+
+:::{.nonincremental}
+- Assume:  
+  - Pollution rights sell for **$150** each.  
+  - The **company** owns the rights.  
+:::
+  
+:::
+::::
+
+<div style="display:block; margin:-15px;"></div>
+
+
+::::{.columns}
+::: {.column width="50%"}
+
+- At 50 tons: MB = MC = $150.  
+  - Community's payments = **$7,500** (area D + E).  
+  - Company benefits = **$13,750** (area A + B + C).  
+  - Total community damages = **$3,750** (area C).  
+  
+
+:::
+
+::: {.column width="50%"}
+
+
+- Net results:  
+  - Company's Net Benefit: **$18,250**.  
+  - Community' Net Benefit:  
+  -**$8,250**.  
+  - **Social Welfare = $10,000**.  
+- **Distribution of welfare** differs.
+
+
+:::
+::::
+
+
+## Case Study: NYC Land Acquisition Program
+
+
+::::{.columns}
+::: {.column width="52.5%"}
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/nyc-land-acquition.jpg" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+
+::: {.column width="47.5%"}
+
+- NYC must provide clean drinking water for **8.4 million people**.  
+  - Option 1: Build massive water filtration plants (very costly).  
+  - Option 2: **Protect watersheds upstream** by buying land & easements.  
+
+:::
+::::
+
+
+- NYC purchased property rights voluntarily (no *eminent domain* used):  
+  - Acquire 355,000+ acres from willing sellers; Pay **fair market value**.  
+- Cheaper than filtration; Clean water maintained; Example of **Coasean bargaining** on a large scale.  
+
+
+
+## Property Rights and Takings
+
+- **Eminent Domain:** Gov’t may take land for public use but <u>must pay compensation</u> (Fifth Amendment). 
+  - **Taking**: Any gov’t action that deprives an owner of property rights. 
+- **Regulatory Takings:** Laws that restrict land use and may reduce property value.  
+- **Supreme Court Ruling – *Lucas v. South Carolina Coastal Council* (1992):**  
+  - South Carolina Law barred building on Lucas’s beachfront lots.  
+  - *Ruling:* A regulation that removes **all economic use** of land is a **taking** → compensation required.  
+
+<div style="display:block; margin:-15px;"></div>
+<div style="font-size:1.25rem; max-width:600px; margin:0.5rem auto;">
+
+| **Type of Taking** | **Definition**                          | **Compensation?** |
+|---------------------|------------------------------------------|-------------------|
+| <span class="fragment">**Total Taking**</span>    | <span class="fragment">All economic use eliminated</span> | <span class="fragment">✅ Yes</span> |
+| <span class="fragment">**Partial Taking**</span>  | <span class="fragment">Some economic use remains</span>   | <span class="fragment">❌ No</span> |
+</div>
+
+<!-- - **Impact:** Set limits on environmental regulation—compensation only when all use is lost. -->
+
+## Limits of the Coase Theorem
+- **Transaction costs**:  
+  - With many affected parties, bargaining may be impossible.  
+- **Free-rider effect**:  
+  - Some communities hope others will pay for pollution reduction.  
+- **Holdout effect**:  
+  - One party can block agreement by demanding excess payment.  
+- **Equity concerns**:  
+  - Poor communities may lack resources to “buy out” polluters.  
+- **Nonhuman/ecosystem impacts**:  
+  - Who bargains for species, biodiversity, or future generations?  
+
+
+
+## Environmental Justice
+- Defined by EPA: *“Fair treatment and meaningful involvement of all people regardless of race, color, national origin, or income.”*  
+- Example: **Flint, Michigan Water Crisis (2014–)**  
+  - City switched to Flint River water → lead contamination.  
+  - 6,000–12,000 children exposed.  
+  - Community largely low-income and African-American.  
+- Lesson: **Markets alone cannot ensure fairness** in environmental outcomes.  
+
+
+
+
+<!-- ## Summary -->
+<!-- - **Externalities** cause inefficiency because costs/benefits spill over.   -->
+<!-- - **Pigovian taxes** internalize costs.   -->
+<!-- - **Coase theorem** shows efficiency is possible through bargaining.   -->
+<!-- - But:   -->
+<!--   - Transaction costs, free-riders, and holdouts limit application.   -->
+<!--   - Equity and justice concerns remain unresolved.   -->
+<!--   - Future generations and ecosystems often unrepresented.   -->
+<!-- - Bottom line: Coase provides insight, but **policy and regulation remain essential**.   -->
