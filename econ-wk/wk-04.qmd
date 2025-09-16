@@ -23,12 +23,11 @@ In Week 4, we will conclude our discussion of environmental externality theory a
 
 ## ✍️ Classwork
 
-- **Classwork 2 - Externalities**  
-  [View Slides](../econ-cw/econ-340-cw-02.html){target="_blank"}  
+- **Classwork 2: Externalities**  
+  [📄 View Classwork](../econ-cw/econ-340-cw-02.html){target="_blank"}  
 
-
-- **Classwork 3 - Property Rights, the Coase Theorem, and the Environment**  
-  [View Slides](../econ-cw/econ-340-cw-03.html){target="_blank"}  
+- **Classwork 3: Property Rights, the Coase Theorem, and the Environment**  
+  [📄 View Classwork](../econ-cw/econ-340-cw-03.html){target="_blank"}  
 
 
 ## 📝 Homework
