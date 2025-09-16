@@ -18,7 +18,7 @@
     "href": "econ-wk/wk-04.html#classwork",
     "title": "Week 4",
     "section": "✍️ Classwork",
-    "text": "✍️ Classwork\n🏫 Classwork 2 reviews the welfare analysis of externalities. 🏫"
+    "text": "✍️ Classwork\n\nClasswork 2 - Externalities\nView Slides\nClasswork 3 - Property Rights, the Coase Theorem, and the Environment\nView Slides"
   },
   {
     "objectID": "econ-wk/wk-04.html#homework",
@@ -1222,7 +1222,7 @@
     "href": "index.html#bullet-classwork",
     "title": "ECON 340: Environmental Economics, Fall 2025",
     "section": "\\(\\bullet\\,\\) ⌨️ Classwork",
-    "text": "\\(\\bullet\\,\\) ⌨️ Classwork\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 1\n\n\nMicroeconomics Review\n\n\nSeptember 2, 2025\n\n\n\n\nClasswork 2\n\n\nExternalities\n\n\nSeptember 8, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "\\(\\bullet\\,\\) ⌨️ Classwork\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 1\n\n\nMicroeconomics Review\n\n\nSeptember 2, 2025\n\n\n\n\nClasswork 2\n\n\nExternalities\n\n\nSeptember 8, 2025\n\n\n\n\nClasswork 3\n\n\nProperty Rights, the Coase Theorem, and the Environment\n\n\nSeptember 19, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#bullet-homework",
@@ -1250,7 +1250,7 @@
     "href": "listing-econ-340-cw.html",
     "title": "ECON 340 - Classwork",
     "section": "",
-    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 2\n\n\nExternalities\n\n\nSeptember 8, 2025\n\n\n\n\nClasswork 1\n\n\nMicroeconomics Review\n\n\nSeptember 2, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 3\n\n\nProperty Rights, the Coase Theorem, and the Environment\n\n\nSeptember 19, 2025\n\n\n\n\nClasswork 2\n\n\nExternalities\n\n\nSeptember 8, 2025\n\n\n\n\nClasswork 1\n\n\nMicroeconomics Review\n\n\nSeptember 2, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "econ-lec/econ-340-lec-03-2025-0829.html#demand-and-supply-basics",
@@ -1657,5 +1657,40 @@
     "title": "Week 2",
     "section": "💬 Discussion",
     "text": "💬 Discussion\nWelcome to our Week 2 Discussion Board! 👋 \nThis space is designed for you to engage with your classmates about the material covered in Week 2.\nWhether you are looking to delve deeper into the content, share insights, or have questions about the content, this is the perfect place for you.\nIf you have any specific questions for Byeong-Hak (@bcecon) or peer classmate (@GitHub-Username) regarding the Week 2 materials or need clarification on any points, don’t hesitate to ask here.\nLet’s collaborate and learn from each other!"
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-03.html",
+    "href": "econ-cw/econ-340-cw-03.html",
+    "title": "Classwork 3",
+    "section": "",
+    "text": "Consider a society with just two people. Person 1 gains positive utility from choosing the number of hours of loud music \\(h\\), while Person 2 experiences negative utility from the same activity, since it disturbs their peace and quiet. Thus, Person 1 imposes a negative externality on Person 2. Assume there are no other costs associated with the activity.\n\nPerson 1’s marginal benefit (in $) from hours of loud music \\(h\\) is given by \\(MB(h) = 4 - 2h\\).\n\nPerson 2’s marginal cost (in $) from hours of loud music \\(h\\) is given by \\(MC(h) = 2h\\).\n\n\n\n\n\n\n\nNote\n\n\n\nHere, \\(MB(h)\\) and \\(MC(h)\\) both represent functions of \\(h\\): \\(MB(h)\\) shows how Person 1’s marginal benefit changes with \\(h\\), while \\(MC(h)\\) shows how Person 2’s marginal cost changes with \\(h\\).\n\n\n\n\nFind the market level \\(h_{M}\\) of the activity that results if choosing it is left up to Person 1.\n\n\n\nWhat is the socially optimal level of \\(h^{*}\\)?\n\n\n\nSuppose that, instead of trying to intervene in the market, the government just passes a law giving Person 2 a clearly defined right to have \\(h = 0\\) (e.g., it imposes a noise ordinance that forbids Person 1 from playing loud music), but then allows Person 1 to “bribe” Person 2 to give up some of that right (i.e., allow some music playing) in exchange for a lump-sum transfer $\\(T\\).\nShow that this will restore the socially optimal level \\(h^{*}\\), and specify the possible range of \\(T\\) (in dollars) that makes both persons better off compared to their initial legal entitlement.\n\n\n\nSame question as c, but now the government gives Person 1 a clear legal right to \\(h_{M}\\) (i.e., in our example, a right to play as much loud music as she likes), and then allows Person 2 to “bribe” Person 1 to give up some of that right (i.e., cut back on her music playing) in exchange for a lump-sum transfer $\\(T\\).\nShow that this, too, will restore the socially optimal level \\(h^{*}\\), and specify the possible range of \\(T\\) (in dollars) that makes both persons better off compared to their initial legal entitlement."
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-03.html#a.",
+    "href": "econ-cw/econ-340-cw-03.html#a.",
+    "title": "Classwork 3",
+    "section": "",
+    "text": "Find the market level \\(h_{M}\\) of the activity that results if choosing it is left up to Person 1."
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-03.html#b.",
+    "href": "econ-cw/econ-340-cw-03.html#b.",
+    "title": "Classwork 3",
+    "section": "",
+    "text": "What is the socially optimal level of \\(h^{*}\\)?"
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-03.html#c.",
+    "href": "econ-cw/econ-340-cw-03.html#c.",
+    "title": "Classwork 3",
+    "section": "",
+    "text": "Suppose that, instead of trying to intervene in the market, the government just passes a law giving Person 2 a clearly defined right to have \\(h = 0\\) (e.g., it imposes a noise ordinance that forbids Person 1 from playing loud music), but then allows Person 1 to “bribe” Person 2 to give up some of that right (i.e., allow some music playing) in exchange for a lump-sum transfer $\\(T\\).\nShow that this will restore the socially optimal level \\(h^{*}\\), and specify the possible range of \\(T\\) (in dollars) that makes both persons better off compared to their initial legal entitlement."
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-03.html#d.",
+    "href": "econ-cw/econ-340-cw-03.html#d.",
+    "title": "Classwork 3",
+    "section": "",
+    "text": "Same question as c, but now the government gives Person 1 a clear legal right to \\(h_{M}\\) (i.e., in our example, a right to play as much loud music as she likes), and then allows Person 2 to “bribe” Person 1 to give up some of that right (i.e., cut back on her music playing) in exchange for a lump-sum transfer $\\(T\\).\nShow that this, too, will restore the socially optimal level \\(h^{*}\\), and specify the possible range of \\(T\\) (in dollars) that makes both persons better off compared to their initial legal entitlement."
   }
 ]

@@ -1,0 +1,55 @@
+---
+title: Classwork 3
+subtitle: Property Rights, the Coase Theorem, and the Environment
+date: 2025-09-19
+code-fold: true
+execute: 
+  echo: true
+  warning: false
+  message: false
+from: markdown+emoji
+---
+```{r}
+#| include: false
+
+library(knitr)
+library(rmarkdown)
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+
+theme_set(theme_ipsum() +
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = element_text(size = rel(1.5)),
+                axis.title.y = element_text(size = rel(1.5)),
+                legend.title = element_text(size=rel(1.25))
+                ))
+```
+
+# Question 1. Property Rights, the Coase Theorem, and the Environment
+Consider a society with just two people. *Person 1* gains positive utility from choosing the number of hours of loud music $h$, while *Person 2* experiences negative utility from the same activity, since it disturbs their peace and quiet. Thus, *Person 1* imposes a negative externality on *Person 2*. Assume there are no other costs associated with the activity.
+
+- *Person 1*'s marginal benefit (in \$) from hours of loud music $h$ is given by $MB(h) = 4 - 2h$.  
+- *Person 2*'s marginal cost (in \$) from hours of loud music $h$ is given by $MC(h) = 2h$.  
+
+:::callout-note
+Here, $MB(h)$ and $MC(h)$ both represent functions of $h$: $MB(h)$ shows how *Person 1*’s marginal benefit changes with $h$, while $MC(h)$ shows how *Person 2*’s marginal cost changes with $h$.
+
+:::
+
+## a.
+Find the market level $h_{M}$ of the activity that results if choosing it is left up to *Person 1*.
+
+## b.
+What is the socially optimal level of $h^{*}$?
+
+## c.
+Suppose that, instead of trying to intervene in the market, the government just passes a law giving *Person 2* a clearly defined right to have $h = 0$ (e.g., it imposes a noise ordinance that forbids *Person 1* from playing loud music), but then allows *Person 1* to "bribe" *Person 2* to give up some of that right (i.e., allow some music playing) in exchange for a lump-sum transfer \$$T$. 
+
+Show that this will restore the socially optimal level $h^{*}$, and specify the possible range of $T$ (in dollars) that makes both persons better off compared to their initial legal entitlement.
+
+## d. 
+Same question as **c**, but now the government gives *Person 1* a clear legal right to $h_{M}$ (i.e., in our example, a right to play as much loud music as she likes), and then allows *Person 2* to "bribe" *Person 1* to give up some of that right (i.e., cut back on her music playing) in exchange for a lump-sum transfer \$$T$.
+
+Show that this, too, will restore the socially optimal level $h^{*}$, and specify the possible range of $T$ (in dollars) that makes both persons better off compared to their initial legal entitlement.
