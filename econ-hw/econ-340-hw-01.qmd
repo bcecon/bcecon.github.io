@@ -37,7 +37,7 @@ theme_set(theme_ipsum() +
 - **No Generative AI**: You are **not** allowed to use generative AI tools for Homework Assignment 1.  
 
 - **Deadlines**:  
-  - **Questions 1, 3, and 4**: Due **Monday, September 22, 2025 at 10:30 A.M. (ET)**  
+  - **Questions 1, 3, and 4**: Due **Wednesday, September 24, 2025 at 10:30 A.M. (ET)**  
     - Hand in your written answers on paper to Prof. Choe at the beginning of class.  
   - **Question 2**: Due **Monday, September 22, 2025 at 11:59 P.M. (ET)**  
     - Submit your comment as a PDF or Word document on Brightspace.  
@@ -211,7 +211,7 @@ Two technological solutions are available:
 
 # Question 4. Class Participation (Not Graded for Homework 1)
 
-Please write one sentence for each time you participated in class (any public speaking during class time) between **August 25, 2025 and September 19, 2025**.  
+Please write one sentence for each time you participated in class (any public speaking during class time) between **August 25, 2025 and September 22, 2025**.  
 
 **Examples:**  
 - “I asked a question to clarify the syllabus.”  
