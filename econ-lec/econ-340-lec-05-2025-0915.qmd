@@ -340,7 +340,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 ::::
 
 
-- NYC purchased <u>property rights</u> *voluntarily* (no *eminent domain* used):  
+- NYC purchased <u>property rights</u> *voluntarily* (no <u>*eminent domain*</u> used):  
   - Acquire 355,000+ acres from willing sellers; Pay **fair market value**.  
 - Cheaper than filtration; Clean water maintained; Example of **Coasean bargaining** on a large scale.  
 
