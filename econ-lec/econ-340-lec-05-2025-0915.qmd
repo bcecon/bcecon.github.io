@@ -369,30 +369,132 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 - **Q**: What is the rationale for not requiring compensation in cases of **partial takings**?  
 <!-- - **Impact:** Set limits on environmental regulation—compensation only when all use is lost. -->
 
+<!-- ## Limits of the Coase Theorem -->
+<!-- - **Transaction costs**:   -->
+<!--   - With many affected parties, bargaining may be impossible.   -->
+<!-- - **Free-rider effect**:   -->
+<!--   - Some communities hope others will pay for pollution reduction.   -->
+<!-- - **Holdout effect**:   -->
+<!--   - One party can block agreement by demanding excess payment.   -->
+<!-- - **Equity concerns**:   -->
+<!--   - Poor communities may lack resources to “buy out” polluters.   -->
+<!-- - **Nonhuman/ecosystem impacts**:   -->
+<!--   - Who bargains for species, biodiversity, or future generations?   -->
+
 ## Limits of the Coase Theorem
-- **Transaction costs**:  
-  - With many affected parties, bargaining may be impossible.  
-- **Free-rider effect**:  
-  - Some communities hope others will pay for pollution reduction.  
-- **Holdout effect**:  
-  - One party can block agreement by demanding excess payment.  
-- **Equity concerns**:  
-  - Poor communities may lack resources to “buy out” polluters.  
-- **Nonhuman/ecosystem impacts**:  
-  - Who bargains for species, biodiversity, or future generations?  
+
+- **The Promise of Coase**  
+  - In theory, if property rights are clearly assigned, parties can negotiate efficient outcomes without government intervention.  
+  - This idea underpins **free market environmentalism**—the belief that expanding property rights and market mechanisms can handle pollution control.  
+
+- **The Reality: Transaction Costs**  
+  - Efficient bargaining assumes low transaction costs, but in practice these costs can be very high.  
+  - When only two parties negotiate (e.g., Alpha and Beta), costs are manageable.  
+  - With 50 downstream communities and multiple factories, negotiation becomes cumbersome, maybe impossible.  
+
+## Limits of the Coase Theorem
+
+- **Free-Rider Effect**  
+  - Some communities may wait for others to pay off the polluter, hoping to enjoy benefits without contributing.  
+  - This leads to *undersupply of pollution reduction*.  
+  - **Example**: if one community refuses to contribute, others may hesitate too, and no deal is reached.  
+
+- **Holdout Effect**  
+  - When many parties must agree, a single holdout can block progress by demanding more compensation.  
+  - **Example**: 49 communities agree, but the 50th demands excessive payment, threatening to veto the entire agreement.  
+  - Like free-riding, this prevents efficient negotiation.  
+
+## Limits of the Coase Theorem
+
+- **Nonhuman and Ecosystem Impacts**  
+  - Many environmental damages harm ecosystems, plants, or animals rather than identifiable individuals.  
+  - Who bargains for the survival of birds, bees, or endangered species?  
+  - Groups like _The Nature Conservancy_ buy land to preserve ecosystems, but their reach is limited.  
+  - In markets, ecological values often lose to economic ones.  
+
+- **Future Generations**  
+  - Property rights usually apply to the current generation.  
+  - Climate change, fisheries depletion, and species extinction impose costs on future people with no voice in today’s negotiations.  
+  - Markets alone cannot ensure _intergenerational fairness_.  
+
+<!-- - **Conclusion**   -->
+<!--   - The Coase Theorem shows how efficiency *might* emerge through bargaining.   -->
+<!--   - But with high transaction costs, collective action problems, ecological limits, and equity concerns, **government intervention (e.g., Pigovian taxes, regulations, or standards) is often necessary** to achieve efficient and just outcomes.   -->
+
+
+## Limits of the Coase Theorem - Equity Concerns
+- Poor communities may lack the resources to “buy out” polluters, even when health damages are severe.  
+- They might accept hazardous facilities out of desperation for compensation.  
+- Meanwhile, wealthier communities can afford to preserve open space, while poorer ones cannot.  
+- Example: **Global plastic waste trade**  
+  - High-income countries export waste to poorer nations that accept environmental risks for financial gain.  
+  - A large share of traded plastics is mismanaged.  
+  - For decades, China was the largest importer, receiving 72% of global plastic waste exports and mismanaging about 76% of it (EIA, 2021). 
+
+
+
+
+<!-- # Safety versus Efficiency -->
+<!-- ### <p style="color:#00449E"> The Summers Memo </p> -->
+
+<!-- - In an internal memorandum to his staff, then chief economist at the World Bank, Lawrence Summers wrote:   -->
+
+<!-- > “Just between you and me, shouldn’t the World Bank be encouraging more migration of the dirty industries to the [less-developed countries]? ... I think the economic logic behind dumping a load of waste in the lowest-wage country is impeccable and we should face up to that.” -->
+
+<!-- - We have defined this “narrow” view as the efficiency view.  -->
+<!--   - Is it is morally defensible?  -->
+
+<!-- - Possibly, if toxic trade in fact makes all parties better off… -->
+
+
+
+
+## Global plastics trade hits record $1.2 trillion
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/plastic-trade-unctad.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+
+## Global plastics trade hits record $1.2 trillion
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/plastic-trade-basel-action-network.jpeg" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+
 
 
 
 ## Environmental Justice
 - Defined by EPA: *“Fair treatment and meaningful involvement of all people regardless of race, color, national origin, or income.”*  
+
+
+::::{.columns}
+::: {.column width="40%"}
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/flint-mi-water.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+
+::: {.column width="60%"}
+
 - Example: **Flint, Michigan Water Crisis (2014–)**  
   - City switched to Flint River water, which was corrosive and not treated properly → lead contamination.  
   - 6,000–12,000 children exposed.  
   - Community largely low-income and African-American.  
+
+:::
+::::
+
 - Lesson: **Markets alone cannot ensure fairness** in environmental outcomes.  
 
 ## Environmental Justice
-
 
 <div style="text-align: center; width: 62.5%; margin: auto;">
   <img src="https://bcdanl.github.io/lec_figs/gp-tab7-1.png" style="width: 100%; margin-bottom: -20px;">

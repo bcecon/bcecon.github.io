@@ -634,14 +634,14 @@
     "href": "econ-lec/econ-340-lec-05-2025-0915.html#limits-of-the-coase-theorem",
     "title": "Lecture 5",
     "section": "Limits of the Coase Theorem",
-    "text": "Limits of the Coase Theorem\n\nTransaction costs:\n\nWith many affected parties, bargaining may be impossible.\n\n\nFree-rider effect:\n\nSome communities hope others will pay for pollution reduction.\n\n\nHoldout effect:\n\nOne party can block agreement by demanding excess payment.\n\n\nEquity concerns:\n\nPoor communities may lack resources to “buy out” polluters.\n\n\nNonhuman/ecosystem impacts:\n\nWho bargains for species, biodiversity, or future generations?"
+    "text": "Limits of the Coase Theorem\n\nThe Promise of Coase\n\nIn theory, if property rights are clearly assigned, parties can negotiate efficient outcomes without government intervention.\n\nThis idea underpins free market environmentalism—the belief that expanding property rights and market mechanisms can handle pollution control.\n\nThe Reality: Transaction Costs\n\nEfficient bargaining assumes low transaction costs, but in practice these costs can be very high.\n\nWhen only two parties negotiate (e.g., Alpha and Beta), costs are manageable.\n\nWith 50 downstream communities and multiple factories, negotiation becomes cumbersome, maybe impossible."
   },
   {
     "objectID": "econ-lec/econ-340-lec-05-2025-0915.html#environmental-justice",
     "href": "econ-lec/econ-340-lec-05-2025-0915.html#environmental-justice",
     "title": "Lecture 5",
     "section": "Environmental Justice",
-    "text": "Environmental Justice\n\nDefined by EPA: “Fair treatment and meaningful involvement of all people regardless of race, color, national origin, or income.”\n\nExample: Flint, Michigan Water Crisis (2014–)\n\nCity switched to Flint River water, which was corrosive and not treated properly → lead contamination.\n\n6,000–12,000 children exposed.\n\nCommunity largely low-income and African-American.\n\n\nLesson: Markets alone cannot ensure fairness in environmental outcomes."
+    "text": "Environmental Justice\n\nDefined by EPA: “Fair treatment and meaningful involvement of all people regardless of race, color, national origin, or income.”\n\n\n\n\n\n\n\n\n\n\nExample: Flint, Michigan Water Crisis (2014–)\n\nCity switched to Flint River water, which was corrosive and not treated properly → lead contamination.\n\n6,000–12,000 children exposed.\n\nCommunity largely low-income and African-American.\n\n\n\n\n\nLesson: Markets alone cannot ensure fairness in environmental outcomes."
   },
   {
     "objectID": "econ-lec/econ-340-lec-05-2025-0915.html#environmental-justice-1",
@@ -1874,5 +1874,47 @@
     "title": "Classwork 3",
     "section": "Key takeaways",
     "text": "Key takeaways\n\nSame efficient \\(h\\): With clear rights and zero transaction costs, bargaining moves to \\(\\boxed{h^*=1}\\) regardless of the initial right.\n\nDifferent \\(T\\): The feasible transfer at \\(h^*=1\\) is \\([1,3]\\); the actual \\(T\\) depends on bargaining power/protocol, not efficiency."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-05-2025-0915.html#limits-of-the-coase-theorem-1",
+    "href": "econ-lec/econ-340-lec-05-2025-0915.html#limits-of-the-coase-theorem-1",
+    "title": "Lecture 5",
+    "section": "Limits of the Coase Theorem",
+    "text": "Limits of the Coase Theorem\n\nFree-Rider Effect\n\nSome communities may wait for others to pay off the polluter, hoping to enjoy benefits without contributing.\n\nThis leads to undersupply of pollution reduction.\n\nExample: if one community refuses to contribute, others may hesitate too, and no deal is reached.\n\nHoldout Effect\n\nWhen many parties must agree, a single holdout can block progress by demanding more compensation.\n\nExample: 49 communities agree, but the 50th demands excessive payment, threatening to veto the entire agreement.\n\nLike free-riding, this prevents efficient negotiation."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-05-2025-0915.html#limits-of-the-coase-theorem-2",
+    "href": "econ-lec/econ-340-lec-05-2025-0915.html#limits-of-the-coase-theorem-2",
+    "title": "Lecture 5",
+    "section": "Limits of the Coase Theorem",
+    "text": "Limits of the Coase Theorem\n\nNonhuman and Ecosystem Impacts\n\nMany environmental damages harm ecosystems, plants, or animals rather than identifiable individuals.\n\nWho bargains for the survival of birds, bees, or endangered species?\n\nGroups like The Nature Conservancy buy land to preserve ecosystems, but their reach is limited.\n\nIn markets, ecological values often lose to economic ones.\n\nFuture Generations\n\nProperty rights usually apply to the current generation.\n\nClimate change, fisheries depletion, and species extinction impose costs on future people with no voice in today’s negotiations.\n\nMarkets alone cannot ensure intergenerational fairness."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-05-2025-0915.html#limits-of-the-coase-theorem-3",
+    "href": "econ-lec/econ-340-lec-05-2025-0915.html#limits-of-the-coase-theorem-3",
+    "title": "Lecture 5",
+    "section": "Limits of the Coase Theorem",
+    "text": "Limits of the Coase Theorem\n\nEquity Concerns\n\nPoor communities may lack the resources to “buy out” polluters, even when health damages are severe.\n\nThey might accept hazardous facilities out of desperation for compensation.\n\nMeanwhile, wealthier communities can afford to preserve open space, while poorer ones cannot.\n\nExample: Global plastic waste trade\n\nHigh-income countries export waste to poorer nations that accept environmental risks for financial gain.\n\nA large share of traded plastics is mismanaged.\n\nFor decades, China was the largest importer, receiving 72% of global plastic waste exports and mismanaging about 76% of it."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-05-2025-0915.html#global-plastics-trade-hits-record-1.2-trillion",
+    "href": "econ-lec/econ-340-lec-05-2025-0915.html#global-plastics-trade-hits-record-1.2-trillion",
+    "title": "Lecture 5",
+    "section": "Global plastics trade hits record $1.2 trillion",
+    "text": "Global plastics trade hits record $1.2 trillion"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-05-2025-0915.html#global-plastics-trade-hits-record-1.2-trillion-1",
+    "href": "econ-lec/econ-340-lec-05-2025-0915.html#global-plastics-trade-hits-record-1.2-trillion-1",
+    "title": "Lecture 5",
+    "section": "Global plastics trade hits record $1.2 trillion",
+    "text": "Global plastics trade hits record $1.2 trillion"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-05-2025-0915.html#limits-of-the-coase-theorem---equity-concerns",
+    "href": "econ-lec/econ-340-lec-05-2025-0915.html#limits-of-the-coase-theorem---equity-concerns",
+    "title": "Lecture 5",
+    "section": "Limits of the Coase Theorem - Equity Concerns",
+    "text": "Limits of the Coase Theorem - Equity Concerns\n\nPoor communities may lack the resources to “buy out” polluters, even when health damages are severe.\n\nThey might accept hazardous facilities out of desperation for compensation.\n\nMeanwhile, wealthier communities can afford to preserve open space, while poorer ones cannot.\n\nExample: Global plastic waste trade\n\nHigh-income countries export waste to poorer nations that accept environmental risks for financial gain.\n\nA large share of traded plastics is mismanaged.\n\nFor decades, China was the largest importer, receiving 72% of global plastic waste exports and mismanaging about 76% of it (EIA, 2021)."
   }
 ]
