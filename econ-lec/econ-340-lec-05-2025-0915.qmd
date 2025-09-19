@@ -347,23 +347,26 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 
 ## Property Rights and Takings
+<div style="display:block; margin:-10px;"></div>
 
 - **Eminent Domain:** Gov’t may take land for public use but <u>must pay compensation</u> (Fifth Amendment). 
 - **Taking**: Any gov’t action that deprives an owner of property rights. 
   - **Regulatory Takings:** Laws that restrict land use and may reduce property value.  
-- **Supreme Court Ruling – *Lucas v. South Carolina Coastal Council* (1992):**  
+- **Supreme Court Ruling – *Lucas v. South Carolina Coastal Council*:**  
   - South Carolina Law barred building on Lucas’s beachfront lots.  
   - *Ruling:* A regulation that removes **all economic use** of land is a **taking** → compensation required.  
 
 <div style="display:block; margin:-15px;"></div>
-<div style="font-size:1.25rem; max-width:600px; margin:0.5rem auto;">
+<div style="font-size:1.25rem; max-width:800px; margin:0.5rem auto;">
 
-| **Type of Taking** | **Definition**                          | **Compensation?** |
-|---------------------|------------------------------------------|-------------------|
-| <span class="fragment">**Total Taking**</span>    | <span class="fragment">All economic use eliminated</span> | <span class="fragment">✅ Yes</span> |
-| <span class="fragment">**Partial Taking**</span>  | <span class="fragment">Some economic use remains</span>   | <span class="fragment">❌ No</span> |
+| **Type of Taking** | **Definition**                          | **Compensation?** | **Frequency** |
+|---------------------|------------------------------------------|-------------------|---------------|
+| <span class="fragment">**Total Taking**</span>    | <span class="fragment">All economic use eliminated</span> | <span class="fragment">✅ Yes</span> | <span class="fragment">Rare</span> |
+| <span class="fragment">**Partial Taking**</span>  | <span class="fragment">Some economic use remains</span>   | <span class="fragment">❌ No</span>  | <span class="fragment">Common</span> |
+
 </div>
 
+- **Q**: What is the rationale for not requiring compensation in cases of **partial takings**?  
 <!-- - **Impact:** Set limits on environmental regulation—compensation only when all use is lost. -->
 
 ## Limits of the Coase Theorem
