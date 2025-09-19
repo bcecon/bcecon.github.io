@@ -295,7 +295,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 ::: {.column width="50%"}
 
 - At 50 tons: MB = MC = $150.  
-  - Community's payments = **$7,500** (area D + E).  
+  - Community's payments = **$4,500** (area D + E).  
   - Company benefits = **$13,750** (area A + B + C).  
   - Total community damages = **$3,750** (area C).  
   
