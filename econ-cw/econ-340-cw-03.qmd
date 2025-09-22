@@ -65,7 +65,9 @@ ggplot(df, aes(h)) +
   geom_vline(xintercept = 0, linewidth = 1.1) +
   geom_line(aes(y = MB), linewidth = 1.1, color = 'blue') +
   geom_vline(xintercept = h_M,    linetype = "dashed") +
-  annotate("text", x = h_M,    y = 3.75, label = "h_M = 2", vjust = -0.5, angle = 90) +
+  annotate("text", x = h_M,    y = 3.75, 
+           label = expression(h[M] == 2), 
+           vjust = -0.5, angle = 90) +
   labs(title = "Marginal Benefit of Loud Music",
        x = "h (hours of loud music)", y = "Dollars") +
   theme_ipsum(base_size = 13)
@@ -103,7 +105,9 @@ ggplot(df, aes(h)) +
     aes(x = h, y = y),
     fill = "blue", alpha = 0.3
   ) +
-  annotate("text", x = h_M,    y = 3.75, label = "h_M = 2", vjust = -0.5, angle = 90) +
+  annotate("text", x = h_M,    y = 3.75, 
+           label = expression(h[M] == 2), 
+           vjust = -0.5, angle = 90) +
   labs(title = "Total Benefit of Loud Music",
        x = "h (hours of loud music)", y = "Dollars") +
   theme_ipsum(base_size = 13)
