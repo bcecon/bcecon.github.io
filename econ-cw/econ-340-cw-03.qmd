@@ -185,19 +185,23 @@ ggplot(df, aes(h)) +
 ```
 
 
-Efficiency requires $MB(h)=MC(h)$, so that social welfare (total surplus) is maximized: 
+Efficiency requires $MB(h)=MC(h)$, so that social welfare (total surplus) is maximized:  
 
 $$
-4-2h=2h \Rightarrow \boxed{h^*=1}
-$$.
-
+4 - 2h = 2h \;\;\Rightarrow\;\; \boxed{h^* = 1}.
+$$  
 
 **Why?** At $h=1$, the next unit’s benefit equals the next unit’s cost, so total surplus is maximized:  
-$$
-TS(h)= TB(h) - TC(h),
-$$  
-which peaks at $h=1$.
 
+$$
+TS(h) = TB(h) - TC(h),
+$$  
+
+which peaks at $h=1$.  
+
+- When **$MB > MC$** (for $h < 1$): the next unit of music adds more benefit than harm, so playing more music increases the total surplus.  
+- When **$MB < MC$** (for $h > 1$): the next unit of music causes more harm than benefit, so playing more music shrinks the total surplus.  
+- Only when **$MB = MC$** (at $h=1$) do we stop, because any movement in either direction would reduce total surplus.
 
 The total surplus of loud music is the triangle area below:
 ```{r}
