@@ -72,7 +72,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 - **Private property** is not the only way to define entitlements to resource use. Consider:
   - **State-property regimes** — government owns and controls access and rules.
   - **Common-property regimes** — a specified group **co-owns** and **co-manages** the resource.
-  - **_Res nullius_ / Open access** — **no owner**, no authority to exclude or set rules.
+  - **_Res nullius_ / Open access regimes** — **no owner**, no authority to exclude or set rules.
 - Each regime creates **distinct incentives** for harvest, investment, monitoring, and conservation.
 
 
@@ -81,8 +81,8 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 - Present to some degree in virtually all countries (e.g., **parks**, **wilderness preserves**).
 - **Upside:** Can pursue **social objectives** (biodiversity, equity) with legal authority to exclude/enforce.
-- **Risk:** **Principal–agent** problems—bureaucratic incentives may diverge from society’s interests  
-  (budget maximization, political influence, information gaps).
+- **Risk:** **Principal–agent** problems—bureaucratic incentives may diverge from society’s interests (e.g., budget maximization, political influence, information gaps).
+  - *Principal–agent problems*: the conflict that arises when one party (the principal) delegates authority to another party (the agent) to act on their behalf, and the agent's interests do not align with the principal's.
 - **Performance hinges on**: credible science, monitoring/enforcement capacity, accountability.
 
 
