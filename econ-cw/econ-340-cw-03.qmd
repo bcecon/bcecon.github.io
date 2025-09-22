@@ -416,7 +416,7 @@ $$
 TS(h) = TB(h) - TC(h)
 $$
 
-- Transfers ($T$) only redistribute this surplus between the two people; they don’t create or destroy it.  
+- Lump-sum transfers ($T$) only redistribute this surplus between the two people; they don’t create or destroy it.  
 
 - If Person 1 has the right to play:  
 $$
