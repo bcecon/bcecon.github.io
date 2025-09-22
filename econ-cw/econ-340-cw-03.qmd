@@ -439,4 +439,4 @@ $$
 
 So regardless of how the pie is sliced (what $T$ is), the pie is maximized only at $h^{*}=1$.
 
-How the pie is divided—i.e., the actual transfer size—depends on their relative bargaining power.
+How the pie is divided—that is, the actual transfer size—depends on the relative bargaining power of the two parties in a given situation.  
