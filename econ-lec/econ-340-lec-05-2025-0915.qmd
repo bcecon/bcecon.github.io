@@ -1,6 +1,6 @@
 ---
-title: Lecture 6
-subtitle: Common Property Resources and Public Goods
+title: Lecture 5
+subtitle: Property Rights, the Coase Theorem, and the Environment
 format:
   clean-revealjs:
     self-contained: false
