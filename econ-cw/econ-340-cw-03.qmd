@@ -419,7 +419,7 @@ paid from Person 1 to Person 2 makes both (weakly) better off.
 - The **total pie** from bargaining is the **total surplus**—the total dollar value created, equal to Person 1’s total benefit from music minus Person 2’s total harm.  
   - Intuitively, the **total surplus** represents the size of the pie before deciding how to slice it between the two people.  
   - We call it a “pie” because it measures the overall gains available from negotiation: the larger the pie, the more there is for the two to share, even though bargaining determines who gets which slice.  
-  
+
 $$
 TS(h) = TB(h) - TC(h)
 $$
@@ -428,23 +428,40 @@ $$
 
 - If Person 1 has the right to play:  
 $$
-\begin{align}
-(\text{Total Pie}) &= (TB(h) + T) - (TC(h) + T)\\
-&= TS(h)
-\end{align}
+(\text{Total Pie}) = (TB(h) + T) - (TC(h) + T) = TS(h)
 $$
 
 - If Person 2 has the right to silence:  
 $$
-\begin{align}
-(\text{Total Pie}) &= (TB(h) - T) - (TC(h) + T)\\
-&= TS(h)
-\end{align}
+(\text{Total Pie}) = (TB(h) - T) - (TC(h) + T) = TS(h)
 $$
 
--	At $h=0.5$, there’s unclaimed surplus left on the table. Moving closer to $h=1$ increases total pie size before dividing it.
--	At $h=1.5$, they’re wasting surplus (total harm > total benefit). Moving closer to $h=1$ makes the pie bigger for both.
+- At $h=0.5$, some surplus is left unclaimed. Moving closer to $h=1$ makes the pie larger.  
+- At $h=1.5$, some surplus is left unclaimed. Cutting back toward $h=1$ makes the pie larger.  
 
-So regardless of how the pie is sliced (what $T$ is), the pie is maximized only at $h^{*}=1$.
+- Intuition:  
+  - When **$MB > MC$** ($h < 1$), the next unit of music adds more benefit than harm, so the pie grows.  
+  - When **$MB < MC$** ($h > 1$), the next unit causes more harm than benefit, so the pie shrinks.  
+  - Only when **$MB = MC$** ($h=1$) is the pie maximized; any movement away reduces total surplus.  
 
+
+
+### Numerical Illustration of the Total Pie
+
+<div style="font-size:1rem; max-width:600px; margin:0.5rem auto;">
+
+| $h$   | $TS(h)$ (in \$) |
+|-------|-----------------------|
+| 0.5   | $1.5$ |
+| 1.0   | $2.0$ |
+| 1.5   | $1.5$ |
+
+</div>
+
+The total surplus (“pie”) is maximized at $h^* = 1$ with $TS = 2$.  
+
+**Conclusion:** Regardless of how the pie is sliced (the transfer $T$), the pie itself is largest only at $h^{*}=1$.
+
+:::callout-note
 How the pie is divided—that is, the actual transfer size—depends on the relative bargaining power of the two parties in a given situation.  
+:::

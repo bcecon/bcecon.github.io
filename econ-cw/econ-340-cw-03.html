@@ -225,7 +225,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#b.-socially-efficient-outcome" id="toc-b.-socially-efficient-outcome" class="nav-link" data-scroll-target="#b.-socially-efficient-outcome">b. Socially efficient outcome</a></li>
   <li><a href="#c.-person-1-has-the-right-to-play" id="toc-c.-person-1-has-the-right-to-play" class="nav-link" data-scroll-target="#c.-person-1-has-the-right-to-play">c.&nbsp;Person 1 has the right to play</a></li>
   <li><a href="#d.-person-2-has-the-right-to-silence" id="toc-d.-person-2-has-the-right-to-silence" class="nav-link" data-scroll-target="#d.-person-2-has-the-right-to-silence">d.&nbsp;Person 2 has the right to silence</a></li>
-  <li><a href="#why-transfers-dont-justify-stopping-at-h-0.5-or-h-1.5" id="toc-why-transfers-dont-justify-stopping-at-h-0.5-or-h-1.5" class="nav-link" data-scroll-target="#why-transfers-dont-justify-stopping-at-h-0.5-or-h-1.5">Why transfers don’t justify stopping at <span class="math inline">\(h = 0.5\)</span> or <span class="math inline">\(h = 1.5\)</span>?</a></li>
+  <li><a href="#why-transfers-dont-justify-stopping-at-h-0.5-or-h-1.5" id="toc-why-transfers-dont-justify-stopping-at-h-0.5-or-h-1.5" class="nav-link" data-scroll-target="#why-transfers-dont-justify-stopping-at-h-0.5-or-h-1.5">Why transfers don’t justify stopping at <span class="math inline">\(h = 0.5\)</span> or <span class="math inline">\(h = 1.5\)</span>?</a>
+  <ul>
+  <li><a href="#numerical-illustration-of-the-total-pie" id="toc-numerical-illustration-of-the-total-pie" class="nav-link" data-scroll-target="#numerical-illustration-of-the-total-pie">Numerical Illustration of the Total Pie</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -488,25 +491,68 @@ TS(h) = TB(h) - TC(h)
 <li><p>Lump-sum transfers (<span class="math inline">\(T\)</span>) only redistribute this surplus between the two people; they don’t create or destroy it.</p></li>
 <li><p>If Person 1 has the right to play:<br>
 <span class="math display">\[
-\begin{align}
-(\text{Total Pie}) &amp;= (TB(h) + T) - (TC(h) + T)\\
-&amp;= TS(h)
-\end{align}
+(\text{Total Pie}) = (TB(h) + T) - (TC(h) + T) = TS(h)
 \]</span></p></li>
 <li><p>If Person 2 has the right to silence:<br>
 <span class="math display">\[
-\begin{align}
-(\text{Total Pie}) &amp;= (TB(h) - T) - (TC(h) + T)\\
-&amp;= TS(h)
-\end{align}
+(\text{Total Pie}) = (TB(h) - T) - (TC(h) + T) = TS(h)
 \]</span></p></li>
-<li><p>At <span class="math inline">\(h=0.5\)</span>, there’s unclaimed surplus left on the table. Moving closer to <span class="math inline">\(h=1\)</span> increases total pie size before dividing it.</p></li>
-<li><p>At <span class="math inline">\(h=1.5\)</span>, they’re wasting surplus (total harm &gt; total benefit). Moving closer to <span class="math inline">\(h=1\)</span> makes the pie bigger for both.</p></li>
+<li><p>At <span class="math inline">\(h=0.5\)</span>, some surplus is left unclaimed. Moving closer to <span class="math inline">\(h=1\)</span> makes the pie larger.<br>
+</p></li>
+<li><p>At <span class="math inline">\(h=1.5\)</span>, some surplus is left unclaimed. Cutting back toward <span class="math inline">\(h=1\)</span> makes the pie larger.</p></li>
+<li><p>Intuition:</p>
+<ul>
+<li>When <strong><span class="math inline">\(MB &gt; MC\)</span></strong> (<span class="math inline">\(h &lt; 1\)</span>), the next unit of music adds more benefit than harm, so the pie grows.<br>
+</li>
+<li>When <strong><span class="math inline">\(MB &lt; MC\)</span></strong> (<span class="math inline">\(h &gt; 1\)</span>), the next unit causes more harm than benefit, so the pie shrinks.<br>
+</li>
+<li>Only when <strong><span class="math inline">\(MB = MC\)</span></strong> (<span class="math inline">\(h=1\)</span>) is the pie maximized; any movement away reduces total surplus.</li>
+</ul></li>
 </ul>
-<p>So regardless of how the pie is sliced (what <span class="math inline">\(T\)</span> is), the pie is maximized only at <span class="math inline">\(h^{*}=1\)</span>.</p>
+<section id="numerical-illustration-of-the-total-pie" class="level3">
+<h3 class="anchored" data-anchor-id="numerical-illustration-of-the-total-pie">Numerical Illustration of the Total Pie</h3>
+<div style="font-size:1rem; max-width:600px; margin:0.5rem auto;">
+<table class="table">
+<thead>
+<tr class="header">
+<th><span class="math inline">\(h\)</span></th>
+<th><span class="math inline">\(TS(h)\)</span> (in $)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0.5</td>
+<td><span class="math inline">\(1.5\)</span></td>
+</tr>
+<tr class="even">
+<td>1.0</td>
+<td><span class="math inline">\(2.0\)</span></td>
+</tr>
+<tr class="odd">
+<td>1.5</td>
+<td><span class="math inline">\(1.5\)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>The total surplus (“pie”) is maximized at <span class="math inline">\(h^* = 1\)</span> with <span class="math inline">\(TS = 2\)</span>.</p>
+<p><strong>Conclusion:</strong> Regardless of how the pie is sliced (the transfer <span class="math inline">\(T\)</span>), the pie itself is largest only at <span class="math inline">\(h^{*}=1\)</span>.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>How the pie is divided—that is, the actual transfer size—depends on the relative bargaining power of the two parties in a given situation.</p>
+</div>
+</div>
 
 
+</section>
 </section>
 </section>
 
