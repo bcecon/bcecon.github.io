@@ -58,7 +58,7 @@ Open-access **common-pool** resources are shared stocks that are **nonexclusive*
 
 <!-- ![Bison Harvesting](https://bcdanl.github.io/lec_figs/tl-fig2-5r.jpg) -->
 
-<div style="text-align: center; width: 80%; margin: auto;">
+<div style="text-align: center; width: 50%; margin: auto;">
   <img src="https://bcdanl.github.io/lec_figs/tl-fig2-5r.jpg" alt="Total and marginal panels illustration" style="width: 100%; margin-bottom: 30px;">
   <p style="font-weight: bold;">Bison Harvesting</p>
 </div>
