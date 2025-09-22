@@ -1131,14 +1131,14 @@
     "href": "econ-lec/econ-340-lec-06-2025-0922.html#bison-as-a-common-pool-example",
     "title": "Lecture 6",
     "section": "Bison as a Common-Pool Example",
-    "text": "Bison as a Common-Pool Example\n\n\n\n\n\n\nCommon-pool resources (CPRs): nonexcludable and rival.\n\nExcludable? Can users who haven’t paid be kept out?\n\nRival? Does one user’s consumption reduce what’s left for others?"
+    "text": "Bison as a Common-Pool Example"
   },
   {
     "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#rivalry-vs.-excludability",
     "href": "econ-lec/econ-340-lec-06-2025-0922.html#rivalry-vs.-excludability",
     "title": "Lecture 6",
     "section": "Rivalry vs. Excludability",
-    "text": "Rivalry vs. Excludability"
+    "text": "Rivalry vs. Excludability\n\n\n\n\n\nExcludable? Can users who haven’t paid be kept out?\nRival? Does one user’s consumption reduce what’s left for others?"
   },
   {
     "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#when-commons-workand-when-they-dont",
@@ -1152,7 +1152,7 @@
     "href": "econ-lec/econ-340-lec-06-2025-0922.html#historical-context-american-bison",
     "title": "Lecture 6",
     "section": "Historical Context: American Bison",
-    "text": "Historical Context: American Bison\n\n\n\n\n\nNorthern and Southern Herds, circa 1865\n\n\n\n\nEarly U.S. period: Abundant bison; unrestricted hunting did not impose noticeable scarcity costs.\n\nAs demand/technology rose: Scarcity emerged; each hunter’s effort reduced others’ catch per unit effort.\n\nOpen access + scarcity ⇒ escalating effort, falling stocks, near-extinction."
+    "text": "Historical Context: American Bison\n\n\n\n\n\n\n\n\nNorthern and Southern Herds, circa 1865\n\n\n\n\n\n\n\n\n\nEarly U.S. period: Abundant bison; unrestricted hunting did not impose noticeable scarcity costs.\n\n\n\n\n\nAs demand/technology rose: Scarcity emerged; each hunter’s effort reduced others’ catch per unit effort.\nOpen access + scarcity ⇒ escalating effort, falling stocks, near-extinction."
   },
   {
     "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#total-framework",
@@ -1923,5 +1923,33 @@
     "title": "Lecture 6",
     "section": "Common Property — When It Works (and When It Doesn’t)",
     "text": "Common Property — When It Works (and When It Doesn’t)\n\n\n\n\n\nCase: Swiss Alpine Meadows (Common Property Success)\n\nGrazing treated as common property for centuries.\n\nUser associations set stocking rules; stable membership fostered reciprocity and trust.\n\nOutcome: Overgrazing discouraged; compliance high; sustained yields.\n\n\nCase: Mawelle, Sri Lanka (Governance Breakdown)\n\nInitially: Rotating rights over fishing spots/times ensured equity and protected stocks.\n\nLater: Population growth + outsiders eroded cohesion; rules became unenforceable.\n\nOutcome: Overexploitation and lower incomes.\n\n\n\n\nSuccess ingredients: reciprocity, stable membership, transparent rules, graduated sanctions, local monitoring."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#total-framework-top-panel",
+    "href": "econ-lec/econ-340-lec-06-2025-0922.html#total-framework-top-panel",
+    "title": "Lecture 6",
+    "section": "Total Framework (Top Panel)",
+    "text": "Total Framework (Top Panel)\n\n\n\n\n\n\n\n\n\nTotal Surplus \\(TS(E) = TR(E) - TC(E)\\).\n\nTotal Revenue \\(TR(E) = P \\times H(E)\\) with price \\(P\\) assumed constant.\n\nTotal Cost \\(TC(E)\\): increases with effort \\(E\\) (linear if marginal cost \\(c\\) is constant).\n\nEfficient effort \\(E^{*}\\): maximizes the vertical gap between TR and TC."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#marginal-framework-bottom-panel",
+    "href": "econ-lec/econ-340-lec-06-2025-0922.html#marginal-framework-bottom-panel",
+    "title": "Lecture 6",
+    "section": "Marginal Framework (Bottom Panel)",
+    "text": "Marginal Framework (Bottom Panel)\n\n\n\n\n\n\n\n\n\nMarginal Revenue \\(MR(E) = \\frac{dTR}{dE}\\) declines as stock falls with effort.\n\nMarginal Cost \\(MC(E)\\) (e.g., constant \\(c\\)).\n\nEfficiency: \\(MR(E^{*}) = MC(E^{*})\\).\n\nTwo panels are equivalent representations of the same optimum."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#rivalry-excludability",
+    "href": "econ-lec/econ-340-lec-06-2025-0922.html#rivalry-excludability",
+    "title": "Lecture 6",
+    "section": "Rivalry & Excludability",
+    "text": "Rivalry & Excludability\n\n\n\n\n\n\n\n\nRival? Does one user’s consumption reduce what’s left for others?\nExcludable? Can users who haven’t paid be kept out?"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#american-bison-as-a-common-pool-example",
+    "href": "econ-lec/econ-340-lec-06-2025-0922.html#american-bison-as-a-common-pool-example",
+    "title": "Lecture 6",
+    "section": "American Bison as a Common-Pool Example",
+    "text": "American Bison as a Common-Pool Example\n\n\n\n\n\n\n\n\n\n\n\n\n\nNorthern and Southern Herds, circa 1865\n\n\n\n\n\n\n\n\n\nEarly U.S. period: Abundant bison; unrestricted hunting did not impose noticeable scarcity costs.\n\n\n\n\n\n\n\n\n\n\nAs demand/technology rose: Scarcity emerged; each hunter’s effort reduced others’ catch per unit effort.\nOpen access + scarcity ⇒ escalating effort, falling stocks, near-extinction."
   }
 ]

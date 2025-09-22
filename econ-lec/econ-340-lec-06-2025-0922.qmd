@@ -125,6 +125,23 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 
 
+## Rivalry & Excludability
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/common-public-goods.png" alt="Goods classification by rivalry and excludability" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+<div style="display:block; margin:50px;"></div>
+
+
+
+**Rival?** Does one user’s consumption reduce what’s left for others?
+
+**Excludable?** Can users who haven’t paid be kept out?  
+
+
+
 ## Open Access (_Res nullius_) — The Core Problem
 
 - **No one can exclude** ⇒ access is **nonexcludable**; the stock is **rival** (one user’s harvest reduces others’).
@@ -143,55 +160,49 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 | **Open Access**| None             | No one           | No one (dissipated)   | Overuse; collapse risk             |
 
 
-## Bison as a Common-Pool Example
+
+
+
+
+
+
+## American Bison as a Common-Pool Example
+<div style="display:block; margin:-10px;"></div>
 
 :::: {.columns}
+::: {.column width="4%"}
+:::
+::: {.column width="42%"}
+<div style="display:block; margin:-12px;"></div>
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/bison1865.jpeg" alt="Northern and Southern Bison Herds in 1865" style="width: 100%; margin-bottom: -20px;">
+<p style="font-weight: bold; font-size: 0.85em;">Northern and Southern Herds, circa 1865</p>
+</div>
+:::
 ::: {.column width="50%"}
+
 {{< video https://youtu.be/sZ2qSup8kLc width="100%" height="100%" >}}
 
 {{< video https://youtu.be/-eDAgcjWKIA width="100%" height="100%" >}}
 
-:::
-::: {.column width="50%"}
-- **Common-pool resources (CPRs)**: **nonexcludable** and **rival**.  
-  - **Excludable?** Can users who haven’t paid be kept out?  
-  - **Rival?** Does one user’s consumption reduce what’s left for others?
+<div style="display:block; margin:-30px;"></div>
 
-:::
-::::
-
-
-
-
-## Rivalry vs. Excludability
-
-<div style="text-align: center; width: 100%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/common-public-goods.png" alt="Goods classification by rivalry and excludability" style="width: 100%; margin-bottom: -20px;">
-  <p style="font-weight: bold;"></p>
-</div>
-
-
-
-
-## Historical Context: American Bison
-
-:::: {.columns}
-::: {.column width="45%"}
-<div style="text-align: center; width: 100%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/bison1865.jpeg" alt="Northern and Southern Bison Herds in 1865" style="width: 100%; margin-bottom: -20px;">
-  <p style="font-weight: bold;">Northern and Southern Herds, circa 1865</p>
-</div>
-:::
-::: {.column width="55%"}
 - **Early U.S. period:** Abundant bison; unrestricted hunting did not impose noticeable scarcity costs.  
-- **As demand/technology rose:** Scarcity emerged; each hunter’s effort **reduced** others’ catch per unit effort.  
-- **Open access + scarcity ⇒** escalating effort, falling stocks, **near-extinction**.
+:::
+
+::: {.column width="4%"}
 :::
 ::::
 
+<div style="display:block; margin:-20px;"></div>
+
+- **As demand/technology rose:** Scarcity emerged; each hunter’s effort **reduced** others’ catch per unit effort.  
+
+- **Open access + scarcity ⇒** escalating effort, falling stocks, **near-extinction**.
 
 
-## Total Framework
+
+## Total Framework (Top Panel)
 
 :::: {.columns}
 ::: {.column width="61%"}
@@ -210,7 +221,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 
 
-## Marginal Framework (Bottom Panel: Margins)
+## Marginal Framework (Bottom Panel)
 
 :::: {.columns}
 ::: {.column width="61%"}
