@@ -152,16 +152,27 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 ## Incentives by Regime
 
-| Regime         | Excludability   | Who sets rules? | Who captures rents?   | Typical risks                      |
-|----------------|------------------|------------------|-----------------------|------------------------------------|
-| **Private**    | High             | Owner(s)         | Owner(s)              | Externalities; market power        |
-| **State**      | High (by law)    | Government       | Public (in principle) | Bureaucratic drift; info gaps      |
-| **Common**     | Group-limited    | Co-owners        | Co-owners             | Cohesion/monitoring failures       |
-| **Open Access**| None             | No one           | No one (dissipated)   | Overuse; collapse risk             |
+<div style="font-size:1.5rem; max-width:900px; margin:0.5rem auto;">
 
+<div style="font-size:1.25rem; max-width:800px; margin:0.5rem auto;">
 
+| Regime | Excludability | Who sets rules? | Who captures rents? | Typical risks |
+|--------|---------------|-----------------|---------------------|---------------|
+| <span class="fragment">**Private**</span> | <span class="fragment">High</span> | <span class="fragment">Owner(s)</span> | <span class="fragment">Owner(s)</span> | <span class="fragment">Externalities; market power</span> |
+| <span class="fragment">**State**</span> | <span class="fragment">High (by law)</span> | <span class="fragment">Government</span> | <span class="fragment">Public (in principle)</span> | <span class="fragment">Bureaucratic drift; info gaps</span> |
+| <span class="fragment">**Common**</span> | <span class="fragment">Group-limited</span> | <span class="fragment">Co-owners</span> | <span class="fragment">Co-owners</span> | <span class="fragment">Cohesion/monitoring failures</span> |
+| <span class="fragment">**Open Access**</span> | <span class="fragment">None</span> | <span class="fragment">No one</span> | <span class="fragment">No one (dissipated)</span> | <span class="fragment">Overuse; collapse risk</span> |
 
+</div>
 
+:::callout-note
+Key distinction: **Open access** ⟂ **Common property**.  
+
+Open access = common property **without** effective rules or governance.
+
+All open-access resources are **common-pool resources (CPR)**, but not all common-pool resources are open access.
+
+:::
 
 
 
@@ -212,7 +223,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 </div>
 :::
 ::: {.column width="39%"}
-- **Total Surplus** $TS(E) = TR(E) - TC(E)$.  
+- **Profits** $\Pi(E) = TR(E) - TC(E)$.  
 - **Total Revenue** $TR(E) = P \times H(E)$ with price $P$ assumed constant.  
 - **Total Cost** $TC(E)$: increases with effort $E$ (linear if marginal cost $c$ is constant).  
 - **Efficient effort $E^{*}$:** maximizes the **vertical gap** between TR and TC.

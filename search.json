@@ -1124,7 +1124,7 @@
     "href": "econ-lec/econ-340-lec-06-2025-0922.html#incentives-by-regime",
     "title": "Lecture 6",
     "section": "Incentives by Regime",
-    "text": "Incentives by Regime\n\n\n\n\n\n\n\n\n\n\nRegime\nExcludability\nWho sets rules?\nWho captures rents?\nTypical risks\n\n\n\n\nPrivate\nHigh\nOwner(s)\nOwner(s)\nExternalities; market power\n\n\nState\nHigh (by law)\nGovernment\nPublic (in principle)\nBureaucratic drift; info gaps\n\n\nCommon\nGroup-limited\nCo-owners\nCo-owners\nCohesion/monitoring failures\n\n\nOpen Access\nNone\nNo one\nNo one (dissipated)\nOveruse; collapse risk"
+    "text": "Incentives by Regime\n\n\n\n\n\n\n\n\n\n\n\n\n\nRegime\nExcludability\nWho sets rules?\nWho captures rents?\nTypical risks\n\n\n\n\nPrivate\nHigh\nOwner(s)\nOwner(s)\nExternalities; market power\n\n\nState\nHigh (by law)\nGovernment\nPublic (in principle)\nBureaucratic drift; info gaps\n\n\nCommon\nGroup-limited\nCo-owners\nCo-owners\nCohesion/monitoring failures\n\n\nOpen Access\nNone\nNo one\nNo one (dissipated)\nOveruse; collapse risk\n\n\n\n\n\n\n\nNote\n\n\nKey distinction: Open access ⟂ Common property.\nOpen access = common property without effective rules or governance.\nAll open-access resources are common-pool resources (CPR), but not all common-pool resources are open access."
   },
   {
     "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#bison-as-a-common-pool-example",
@@ -1929,7 +1929,7 @@
     "href": "econ-lec/econ-340-lec-06-2025-0922.html#total-framework-top-panel",
     "title": "Lecture 6",
     "section": "Total Framework (Top Panel)",
-    "text": "Total Framework (Top Panel)\n\n\n\n\n\n\n\n\n\nTotal Surplus \\(TS(E) = TR(E) - TC(E)\\).\n\nTotal Revenue \\(TR(E) = P \\times H(E)\\) with price \\(P\\) assumed constant.\n\nTotal Cost \\(TC(E)\\): increases with effort \\(E\\) (linear if marginal cost \\(c\\) is constant).\n\nEfficient effort \\(E^{*}\\): maximizes the vertical gap between TR and TC."
+    "text": "Total Framework (Top Panel)\n\n\n\n\n\n\n\n\n\nProfits \\(\\Pi(E) = TR(E) - TC(E)\\).\n\nTotal Revenue \\(TR(E) = P \\times H(E)\\) with price \\(P\\) assumed constant.\n\nTotal Cost \\(TC(E)\\): increases with effort \\(E\\) (linear if marginal cost \\(c\\) is constant).\n\nEfficient effort \\(E^{*}\\): maximizes the vertical gap between TR and TC."
   },
   {
     "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#marginal-framework-bottom-panel",
@@ -1951,5 +1951,19 @@
     "title": "Lecture 6",
     "section": "American Bison as a Common-Pool Example",
     "text": "American Bison as a Common-Pool Example\n\n\n\n\n\n\n\n\n\n\n\n\n\nNorthern and Southern Herds, circa 1865\n\n\n\n\n\n\n\n\n\nEarly U.S. period: Abundant bison; unrestricted hunting did not impose noticeable scarcity costs.\n\n\n\n\n\n\n\n\n\n\nAs demand/technology rose: Scarcity emerged; each hunter’s effort reduced others’ catch per unit effort.\nOpen access + scarcity ⇒ escalating effort, falling stocks, near-extinction."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#american-bison-as-a-common-pool-resource-cpr",
+    "href": "econ-lec/econ-340-lec-06-2025-0922.html#american-bison-as-a-common-pool-resource-cpr",
+    "title": "Lecture 6",
+    "section": "American Bison as a Common-Pool Resource (CPR)",
+    "text": "American Bison as a Common-Pool Resource (CPR)\n\n\n\n\n\n\n\n\n\n\n\n\n\nNorthern and Southern Herds, circa 1865\n\n\n\n\n\n\n\n\n\nEarly U.S. period: Abundant bison; unrestricted hunting did not impose noticeable scarcity costs.\n\n\n\n\n\n\n\n\n\n\nAs demand/technology rose: Scarcity emerged; each hunter’s effort reduced others’ catch per unit effort.\nOpen access + scarcity ⇒ escalating effort, falling stocks, near-extinction."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#american-bison-as-a-common-pool-resource",
+    "href": "econ-lec/econ-340-lec-06-2025-0922.html#american-bison-as-a-common-pool-resource",
+    "title": "Lecture 6",
+    "section": "American Bison as a Common-Pool Resource",
+    "text": "American Bison as a Common-Pool Resource\n\n\n\n\n\n\n\n\n\n\n\n\n\nNorthern and Southern Herds, circa 1865\n\n\n\n\n\n\n\n\n\nEarly U.S. period: Abundant bison; unrestricted hunting did not impose noticeable scarcity costs.\n\n\n\n\n\n\n\n\n\n\nAs demand/technology rose: Scarcity emerged; each hunter’s effort reduced others’ catch per unit effort.\nOpen access + scarcity ⇒ escalating effort, falling stocks, near-extinction."
   }
 ]
