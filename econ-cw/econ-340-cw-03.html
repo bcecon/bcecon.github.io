@@ -225,6 +225,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#b.-socially-efficient-outcome" id="toc-b.-socially-efficient-outcome" class="nav-link" data-scroll-target="#b.-socially-efficient-outcome">b. Socially efficient outcome</a></li>
   <li><a href="#c.-person-1-has-the-right-to-play" id="toc-c.-person-1-has-the-right-to-play" class="nav-link" data-scroll-target="#c.-person-1-has-the-right-to-play">c.&nbsp;Person 1 has the right to play</a></li>
   <li><a href="#d.-person-2-has-the-right-to-silence" id="toc-d.-person-2-has-the-right-to-silence" class="nav-link" data-scroll-target="#d.-person-2-has-the-right-to-silence">d.&nbsp;Person 2 has the right to silence</a></li>
+  <li><a href="#why-transfers-dont-justify-stopping-at-0.5-or-1.5" id="toc-why-transfers-dont-justify-stopping-at-0.5-or-1.5" class="nav-link" data-scroll-target="#why-transfers-dont-justify-stopping-at-0.5-or-1.5">Why transfers don’t justify stopping at 0.5 or 1.5?</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -295,10 +296,77 @@ Transfers <span class="math inline">\(T\)</span> (in dollars) are lump-sum payme
 <section id="a.-market-outcome" class="level2">
 <h2 class="anchored" data-anchor-id="a.-market-outcome">a. Market outcome</h2>
 <p>If the decision is left entirely to <em>Person 1</em>, what level of music <span class="math inline">\(h_M\)</span> will she choose? Why?</p>
+<p><strong>Example Answer</strong></p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="econ-340-cw-03_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>Person 1 chooses <span class="math inline">\(h\)</span> to maximize her own payoff and ignores Person 2’s cost.<br>
+She sets <span class="math inline">\(MB(h)=0\)</span>:<br>
+<span class="math display">\[
+4-2h=0 \;\;\Rightarrow\;\; \boxed{h_M=2}.
+\]</span></p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="econ-340-cw-03_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>Total benefit (<span class="math inline">\(TB\)</span>) is the area under the <span class="math inline">\(MB\)</span> curve. So, total benefit is maximized at <span class="math inline">\(h=2\)</span>.</p>
+<p><strong>Why?</strong> With no private cost, she keeps increasing <span class="math inline">\(h\)</span> until her marginal benefit hits zero; the neighbor’s harm is not internalized.</p>
+<p><em>Examples</em></p>
+<ul>
+<li><p>At <span class="math inline">\(h=0\)</span>: Total benefit of playing music is zero.</p></li>
+<li><p>At <span class="math inline">\(h=1\)</span>: Total benefit is smaller than the above:</p></li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="econ-340-cw-03_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p><br><br></p>
 </section>
 <section id="b.-socially-efficient-outcome" class="level2">
 <h2 class="anchored" data-anchor-id="b.-socially-efficient-outcome">b. Socially efficient outcome</h2>
-<p>What is the socially optimal level <span class="math inline">\(h^*\)</span>? Why?</p>
+<p>What is the socially optimal level <span class="math inline">\(h^{*}\)</span>? Why?</p>
+<p><strong>Example Answer</strong></p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="econ-340-cw-03_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>Efficiency requires <span class="math inline">\(MB(h)=MC(h)\)</span>, so that social welfare (total surplus) is maximized:</p>
+<p><span class="math display">\[
+4-2h=2h \Rightarrow \boxed{h^*=1}
+\]</span>.</p>
+<p><strong>Why?</strong> At <span class="math inline">\(h=1\)</span>, the next unit’s benefit equals the next unit’s cost, so total surplus (the “pie”) is maximized:<br>
+<span class="math display">\[
+TS(h)= TB(h) - TC(h),
+\]</span><br>
+which peaks at <span class="math inline">\(h=1\)</span>.</p>
+<p>The total surplus of loud music is the triangle area below:</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="econ-340-cw-03_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>This is because the total benefit is the area under the MB, and the total cost is the area under the MC:</p>
+<ul>
+<li>Total benefit (<span class="math inline">\(TB\)</span>) from 1 hour of loud music</li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="econ-340-cw-03_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<ul>
+<li>Total cost (<span class="math inline">\(TC\)</span>) from 1 hour of loud music</li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="econ-340-cw-03_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
 </section>
 <section id="c.-person-1-has-the-right-to-play" class="level2">
 <h2 class="anchored" data-anchor-id="c.-person-1-has-the-right-to-play">c.&nbsp;Person 1 has the right to play</h2>
@@ -306,11 +374,48 @@ Transfers <span class="math inline">\(T\)</span> (in dollars) are lump-sum payme
 <em>Person 2</em> may then “bribe” <em>Person 1</em> to reduce music in exchange for a lump-sum transfer <span class="math inline">\(T\)</span> (in dollars).<br>
 Assume there are no transaction costs in bargaining.</p>
 <ul>
-<li>Show how bargaining can still lead them to agree on the socially optimal level <span class="math inline">\(h^*\)</span>.
+<li>Show how bargaining can still lead them to agree on the socially optimal level <span class="math inline">\(h^{*}\)</span>.
 <ul>
 <li>Identify the possible range of transfers <span class="math inline">\(T\)</span> (in dollars), paid from <em>Person 2</em> to <em>Person 1</em>, that makes both better off compared to their initial legal entitlement (<span class="math inline">\(h=h_M, T=0\)</span>).</li>
 </ul></li>
 </ul>
+<p><strong>Example Answer</strong><br>
+Starting from <span class="math inline">\(h=2\)</span>, <span class="math display">\[
+MC(2)=4&gt;MB(2)=0,
+\]</span></p>
+<p>so both gain by reducing <span class="math inline">\(h\)</span> until <span class="math inline">\(MB=MC\)</span>, i.e., to <span class="math inline">\(\boxed{h^{*}=1}\)</span>.</p>
+<p>Transfers to cut noise from <span class="math inline">\(2\to 1\)</span>:</p>
+<ul>
+<li>Person 2 should be better off from the bargaining.
+<ul>
+<li>This means that Person 2’s total cost (harm from music plus any transfer paid to Person 1) at <span class="math inline">\(h=1\)</span> with transfer <span class="math inline">\(T\)</span> must be no greater than at the initial entitlement <span class="math inline">\(h=2\)</span> with <span class="math inline">\(T=0\)</span>.</li>
+</ul></li>
+</ul>
+<p><span class="math display">\[
+\begin{align}
+TC(h=1) + T &amp;\;\leq\; TC(h=2) \qquad \Leftrightarrow\\
+\left(\frac{1}{2}\times 1 \times 2\right) + T &amp;\;\leq\; \frac{1}{2}\times 2 \times 4 \qquad \Leftrightarrow\\
+1 + T &amp;\;\leq\; 4\qquad \Leftrightarrow\\
+T&amp;\;\leq\; 3
+\end{align}
+\]</span></p>
+<ul>
+<li>Person 1 should also be better off from the bargaining.
+<ul>
+<li>This means that Person 1’s net payoff (the benefit from music plus any transfer received or minus any transfer paid) at <span class="math inline">\(h=1\)</span> with <span class="math inline">\(T\)</span> must be at least as high as at the initial entitlement <span class="math inline">\(h=2\)</span> with <span class="math inline">\(T=0\)</span>.</li>
+</ul></li>
+</ul>
+<p><span class="math display">\[
+\begin{align}
+TB(h=1) + T &amp;\;\geq\; TB(h=2) \qquad \Leftrightarrow\\
+\left(\frac{1}{2}\times (4 + 2) \times 1\right) + T &amp;\;\geq\; \frac{1}{2}\times 2 \times 4 \qquad \Leftrightarrow\\
+3 + T &amp;\;\geq\; 4\qquad \Leftrightarrow\\
+T&amp;\;\geq\; 1
+\end{align}
+\]</span> Therefore, any transfer <span class="math inline">\(T\)</span> with <span class="math display">\[
+1\;\leq\; T \;\leq\; 3
+\]</span> paid from Person 2 to Person 1 makes both (weakly) better off.</p>
+<p><br><br></p>
 </section>
 <section id="d.-person-2-has-the-right-to-silence" class="level2">
 <h2 class="anchored" data-anchor-id="d.-person-2-has-the-right-to-silence">d.&nbsp;Person 2 has the right to silence</h2>
@@ -318,11 +423,76 @@ Assume there are no transaction costs in bargaining.</p>
 <em>Person 1</em> may then “bribe” <em>Person 2</em> to allow some music in exchange for a lump-sum transfer <span class="math inline">\(T\)</span> (in dollars).<br>
 Assume there are no transaction costs in bargaining.</p>
 <ul>
-<li>Show how bargaining can still lead them to agree on the socially optimal level <span class="math inline">\(h^*\)</span>.
+<li>Show how bargaining can still lead them to agree on the socially optimal level <span class="math inline">\(h^{*}\)</span>.
 <ul>
 <li>Identify the possible range of transfers <span class="math inline">\(T\)</span> (in dollars), paid from <em>Person 1</em> to <em>Person 2</em>, that makes both better off compared to their initial legal entitlement (<span class="math inline">\(h=0, T=0\)</span>).</li>
 </ul></li>
 </ul>
+<p><strong>Example Answer</strong><br>
+Starting from <span class="math inline">\(h=0\)</span>, <span class="math display">\[
+MC(0)=0&lt;MB(0)=4,
+\]</span></p>
+<p>so both gain by increasing <span class="math inline">\(h\)</span> until <span class="math inline">\(MB=MC\)</span>, i.e., to <span class="math inline">\(\boxed{h^{*}=1}\)</span>.</p>
+<p>Transfers to increase noise from <span class="math inline">\(0\to 1\)</span>:</p>
+<ul>
+<li>Person 2 should be better off from the bargaining.
+<ul>
+<li>This means that Person 2’s net payoff (transfer received from Person 1 minus the harm from music) at <span class="math inline">\(h=1\)</span> with transfer <span class="math inline">\(T\)</span> must be at least as great as under the initial entitlement <span class="math inline">\(h=0\)</span> with <span class="math inline">\(T=0\)</span>.</li>
+</ul></li>
+</ul>
+<p><span class="math display">\[
+\begin{align}
+T - TC(h=1)  &amp;\;\geq\; -TC(h=0) \qquad \Leftrightarrow\\
+T - \left(\frac{1}{2}\times 1 \times 2\right)  &amp;\;\geq\; 0 \qquad \Leftrightarrow\\
+T   &amp;\;\geq\; 1
+\end{align}
+\]</span></p>
+<ul>
+<li>Person 1 should also be better off from the bargaining.
+<ul>
+<li>This means that Person 1’s net payoff (the benefit from music minus any transfer paid to person 2) at <span class="math inline">\(h=1\)</span> with <span class="math inline">\(T\)</span> must be at least as high as at the initial entitlement <span class="math inline">\(h=0\)</span> with <span class="math inline">\(T=0\)</span>.</li>
+</ul></li>
+</ul>
+<p><span class="math display">\[
+\begin{align}
+TB(h=1) - T &amp;\;\geq\; TB(h=0) \qquad \Leftrightarrow\\
+\left(\frac{1}{2}\times (4 + 2) \times 1\right) - T &amp;\;\geq\; 0 \qquad \Leftrightarrow\\
+3  &amp;\;\geq\; T
+\end{align}
+\]</span> Therefore, any transfer <span class="math inline">\(T\)</span> with <span class="math display">\[
+1\;\leq\; T \;\leq\; 3
+\]</span> paid from Person 1 to Person 2 makes both (weakly) better off.</p>
+<p><br><br></p>
+</section>
+<section id="why-transfers-dont-justify-stopping-at-0.5-or-1.5" class="level2">
+<h2 class="anchored" data-anchor-id="why-transfers-dont-justify-stopping-at-0.5-or-1.5">Why transfers don’t justify stopping at 0.5 or 1.5?</h2>
+<ul>
+<li>The <strong>total pie</strong> from bargaining is the <strong>total surplus</strong>: the difference between Person 1’s total benefit from music and Person 2’s total harm.</li>
+</ul>
+<p><span class="math display">\[
+TS(h) = TB(h) - TC(h)
+\]</span></p>
+<ul>
+<li><p>Transfers (<span class="math inline">\(T\)</span>) only redistribute this surplus between the two people; they don’t create or destroy it.</p></li>
+<li><p>If Person 1 has the right to play:<br>
+<span class="math display">\[
+\begin{align}
+(\text{Total Pie}) &amp;= (TB(h) + T) - (TC(h) + T)\\
+&amp;= TS(h)
+\end{align}
+\]</span></p></li>
+<li><p>If Person 2 has the right to silence:<br>
+<span class="math display">\[
+\begin{align}
+(\text{Total Pie}) &amp;= (TB(h) - T) - (TC(h) + T)\\
+&amp;= TS(h)
+\end{align}
+\]</span></p></li>
+<li><p>At <span class="math inline">\(h=0.5\)</span>, there’s unclaimed surplus left on the table. Moving closer to <span class="math inline">\(h=1\)</span> increases total pie size before dividing it.</p></li>
+<li><p>At <span class="math inline">\(h=1.5\)</span>, they’re wasting surplus (total harm &gt; total benefit). Moving closer to <span class="math inline">\(h=1\)</span> makes the pie bigger for both.</p></li>
+</ul>
+<p>So regardless of how the pie is sliced (what <span class="math inline">\(T\)</span> is), the pie is maximized only at <span class="math inline">\(h^{*}=1\)</span>.</p>
+<p>How the pie is divided—i.e., the actual transfer size—depends on their relative bargaining power.</p>
 
 
 </section>
