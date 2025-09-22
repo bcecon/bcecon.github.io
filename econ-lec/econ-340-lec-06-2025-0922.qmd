@@ -64,7 +64,7 @@ scale_colour_discrete <- function(...) scale_color_colorblind(...)
 scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 ```
 
-# Alternative Property Right Structures and the Incentives They Create {background-color="#1c4982"}
+# Common Property, Open Access, and Property Rights {background-color="#1c4982"}
 
 
 ## Four Property-Right Regimes: The Landscape
