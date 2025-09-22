@@ -92,6 +92,35 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 - **Definition:** Shared resources managed **in common** by a defined group; rights may be **formal** (law) or **informal** (custom).
 - **Efficiency & sustainability** depend on **rule quality** (fit to ecology), **compliance**, **conflict resolution**, and **trust**.
 - **Reality check:** Many successes exist—but **breakdowns** are common when cohesion or enforcement erodes.
+
+
+
+## Common Property — When It Works (and When It Doesn’t)
+
+<div style="display:block; margin:-15px;"></div>
+
+
+:::: {.columns}
+::: {.column width="50%"}
+
+#### Case: Swiss Alpine Meadows (Common Property Success)
+
+- **Grazing** treated as **common property** for centuries.  
+- **User associations** set stocking rules; **stable membership** fostered reciprocity and trust.  
+- **Outcome:** Overgrazing discouraged; compliance high; **sustained yields**.
+
+:::
+
+::: {.column width="50%"}
+#### Case: Mawelle, Sri Lanka (Governance Breakdown)
+
+- *Initially*: **Rotating rights** over fishing spots/times ensured equity and protected stocks.  
+- *Later*: **Population growth** + **outsiders** eroded cohesion; rules became **unenforceable**.  
+- *Outcome*: **Overexploitation** and **lower incomes**.
+
+:::
+::::
+
 - **Success ingredients:** reciprocity, stable membership, transparent rules, graduated sanctions, local monitoring.
 
 
@@ -140,33 +169,6 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
   <img src="https://bcdanl.github.io/lec_figs/common-public-goods.png" alt="Goods classification by rivalry and excludability" style="width: 100%; margin-bottom: -20px;">
   <p style="font-weight: bold;"></p>
 </div>
-
-
-
-## When Commons Work—and When They Don’t
-
-
-:::: {.columns}
-::: {.column width="50%"}
-
-#### Case: Swiss Alpine Meadows (Common Property Success)
-
-- **Grazing** treated as **common property** for centuries.  
-- **User associations** set stocking rules; **stable membership** fostered reciprocity and trust.  
-- **Outcome:** Overgrazing discouraged; compliance high; **sustained yields**.
-
-:::
-
-::: {.column width="50%"}
-#### Case: Mawelle, Sri Lanka (Governance Breakdown)
-
-- Initially: **Rotating rights** over fishing spots/times ensured equity and protected stocks.  
-- Later: **Population growth** + **outsiders** eroded cohesion; rules became **unenforceable**.  
-- Outcome: **Overexploitation** and **lower incomes**.
-
-:::
-::::
-
 
 
 
