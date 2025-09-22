@@ -281,11 +281,11 @@ All open-access resources are **common-pool resources (CPR)**, but not all commo
 ::: {.column width="39%"}
 - With free entry, users expand effort until **profit per user = 0**.  
 - Condition: **Average Revenue $AR(E_{OA}) = MC$** (with constant $c$).  
-- Because $AR > MR$ when TR is concave, **$E_{OA} > E^{*}$** and **rents are dissipated**.
+- Because $AR > MR$ when TR shows *diminishing returns*, **$E_{OA} > E^{*}$** and **rents are dissipated**.
 :::
 ::::
 
-
+<!-- When the TR shows diminishing returns, each additional unit of effort adds less revenue than the average. -->
 
 ## Why Open Access Dissipates Rents
 
