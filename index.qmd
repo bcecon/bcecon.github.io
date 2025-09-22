@@ -31,8 +31,9 @@ listing:
     type: table
     fields: [title, subtitle, date]
     sort: 
-      - "date"
+      - "title"
       - "subtitle"
+      - "date"
     sort-ui: false
     filter-ui: false
     page-size: 36
