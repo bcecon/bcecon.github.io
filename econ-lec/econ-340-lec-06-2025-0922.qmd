@@ -136,7 +136,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 
 
-**Rival?** Does one user’s consumption reduce what’s left for others?
+**Rival?** Does one user’s harvest reduce what’s left for others?
 
 **Excludable?** Can users who haven’t paid be kept out?  
 
