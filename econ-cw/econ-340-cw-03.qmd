@@ -192,7 +192,7 @@ $$
 $$.
 
 
-**Why?** At $h=1$, the next unit’s benefit equals the next unit’s cost, so total surplus (the “pie”) is maximized:  
+**Why?** At $h=1$, the next unit’s benefit equals the next unit’s cost, so total surplus is maximized:  
 $$
 TS(h)= TB(h) - TC(h),
 $$  
@@ -406,10 +406,12 @@ paid from Person 1 to Person 2 makes both (weakly) better off.
 
 <br><br>
 
-## Why transfers don’t justify stopping at 0.5 or 1.5?
+## Why transfers don’t justify stopping at $h = 0.5$ or $h = 1.5$?
 
-- The **total pie** from bargaining is the **total surplus**: the difference between Person 1’s total benefit from music and Person 2’s total harm.  
-
+- The **total pie** from bargaining is the **total surplus**—the total dollar value created, equal to Person 1’s total benefit from music minus Person 2’s total harm.  
+  - Intuitively, the **total surplus** represents the size of the pie before deciding how to slice it between the two people.  
+  - We call it a “pie” because it measures the overall gains available from negotiation: the larger the pie, the more there is for the two to share, even though bargaining determines who gets which slice.  
+  
 $$
 TS(h) = TB(h) - TC(h)
 $$
