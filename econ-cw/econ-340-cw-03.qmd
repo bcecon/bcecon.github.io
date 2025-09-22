@@ -338,7 +338,7 @@ T&\;\leq\; 3
 $$
 
 - Person 1 should also be better off from the bargaining. 
-  - This means that Person 1’s net payoff (the benefit from music plus any transfer received or minus any transfer paid) at $h=1$ with $T$ must be at least as high as at the initial entitlement $h=2$ with $T=0$.
+  - This means that Person 1’s net payoff (the benefit from music plus any transfer received) at $h=1$ with $T$ must be at least as high as at the initial entitlement $h=2$ with $T=0$.
   
 $$
 \begin{align}
