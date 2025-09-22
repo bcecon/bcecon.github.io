@@ -45,12 +45,12 @@ Transfers $T$ (in dollars) are lump-sum payments between the two people.
 
 
 ## a. Market outcome
-If the decision is left entirely to *Person 1*, what level of music $h_M$ will she choose?
+If the decision is left entirely to *Person 1*, what level of music $h_M$ will she choose? Why?
 
 
 
 ## b. Socially efficient outcome
-What is the socially optimal level $h^*$?
+What is the socially optimal level $h^*$? Why?
 
 
 

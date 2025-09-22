@@ -977,21 +977,21 @@
     "href": "econ-cw/econ-340-cw-03.html",
     "title": "Classwork 3",
     "section": "",
-    "text": "Consider a society with just two people. Person 1 enjoys playing loud music for \\(h\\) hours, while Person 2 dislikes the noise. Both are self-interested and care only about their own payoff.\n\nPerson 1’s marginal benefit (in dollars) from music is:\n\\(MB(h) = 4 - 2h\\).\n\nPerson 2’s marginal cost (in dollars) from music is:\n\\(MC(h) = 2h\\).\n\n\n\n\n\n\n\nNote\n\n\n\nHere, \\(MB(h)\\) and \\(MC(h)\\) are functions of \\(h\\).\nTransfers \\(T\\) (in dollars) are lump-sum payments between the two people.\n\n\n\n\nIf the decision is left entirely to Person 1, what level of music \\(h_M\\) will she choose?\n\n\n\nWhat is the socially optimal level \\(h^*\\)?\n\n\n\nSuppose the government gives Person 1 the legal right to play as much as she wants (\\(h=h_M\\)).\nPerson 2 may then “bribe” Person 1 to reduce music in exchange for a lump-sum transfer \\(T\\) (in dollars).\nAssume there are no transaction costs in bargaining.\n\nShow how bargaining can still lead them to agree on the socially optimal level \\(h^*\\).\n\nIdentify the possible range of transfers \\(T\\) (in dollars), paid from Person 2 to Person 1, that makes both better off compared to their initial legal entitlement (\\(h=h_M, T=0\\)).\n\n\n\n\n\nNow suppose the government gives Person 2 the legal right to silence (\\(h=0\\)).\nPerson 1 may then “bribe” Person 2 to allow some music in exchange for a lump-sum transfer \\(T\\) (in dollars).\nAssume there are no transaction costs in bargaining.\n\nShow how bargaining can still lead them to agree on the socially optimal level \\(h^*\\).\n\nIdentify the possible range of transfers \\(T\\) (in dollars), paid from Person 1 to Person 2, that makes both better off compared to their initial legal entitlement (\\(h=0, T=0\\))."
+    "text": "Consider a society with just two people. Person 1 enjoys playing loud music for \\(h\\) hours, while Person 2 dislikes the noise. Both are self-interested and care only about their own payoff.\n\nPerson 1’s marginal benefit (in dollars) from music is:\n\\(MB(h) = 4 - 2h\\).\n\nPerson 2’s marginal cost (in dollars) from music is:\n\\(MC(h) = 2h\\).\n\n\n\n\n\n\n\nNote\n\n\n\nHere, \\(MB(h)\\) and \\(MC(h)\\) are functions of \\(h\\).\nTransfers \\(T\\) (in dollars) are lump-sum payments between the two people.\n\n\n\n\nIf the decision is left entirely to Person 1, what level of music \\(h_M\\) will she choose? Why?\n\n\n\nWhat is the socially optimal level \\(h^*\\)? Why?\n\n\n\nSuppose the government gives Person 1 the legal right to play as much as she wants (\\(h=h_M\\)).\nPerson 2 may then “bribe” Person 1 to reduce music in exchange for a lump-sum transfer \\(T\\) (in dollars).\nAssume there are no transaction costs in bargaining.\n\nShow how bargaining can still lead them to agree on the socially optimal level \\(h^*\\).\n\nIdentify the possible range of transfers \\(T\\) (in dollars), paid from Person 2 to Person 1, that makes both better off compared to their initial legal entitlement (\\(h=h_M, T=0\\)).\n\n\n\n\n\nNow suppose the government gives Person 2 the legal right to silence (\\(h=0\\)).\nPerson 1 may then “bribe” Person 2 to allow some music in exchange for a lump-sum transfer \\(T\\) (in dollars).\nAssume there are no transaction costs in bargaining.\n\nShow how bargaining can still lead them to agree on the socially optimal level \\(h^*\\).\n\nIdentify the possible range of transfers \\(T\\) (in dollars), paid from Person 1 to Person 2, that makes both better off compared to their initial legal entitlement (\\(h=0, T=0\\))."
   },
   {
     "objectID": "econ-cw/econ-340-cw-03.html#a.-market-outcome",
     "href": "econ-cw/econ-340-cw-03.html#a.-market-outcome",
     "title": "Classwork 3",
     "section": "",
-    "text": "If the decision is left entirely to Person 1, what level of music \\(h_M\\) will she choose?"
+    "text": "If the decision is left entirely to Person 1, what level of music \\(h_M\\) will she choose? Why?"
   },
   {
     "objectID": "econ-cw/econ-340-cw-03.html#b.-socially-efficient-outcome",
     "href": "econ-cw/econ-340-cw-03.html#b.-socially-efficient-outcome",
     "title": "Classwork 3",
     "section": "",
-    "text": "What is the socially optimal level \\(h^*\\)?"
+    "text": "What is the socially optimal level \\(h^*\\)? Why?"
   },
   {
     "objectID": "econ-cw/econ-340-cw-03.html#c.-person-1-has-the-right-to-play",
