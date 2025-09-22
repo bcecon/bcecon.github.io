@@ -1,0 +1,333 @@
+---
+title: Lecture 6
+subtitle: Common Property, Open Access, and Property Rights
+format:
+  clean-revealjs:
+    self-contained: false
+    chalkboard: true
+    incremental: true
+    code-annotations: hover
+    scrollable: false
+
+    # logo: logo-title-slide.png
+author:
+  - name: Byeong-Hak Choe
+    email: bchoe@geneseo.edu
+    affiliations: SUNY Geneseo
+date: 2025-09-22
+execute: 
+  eval: true
+  echo: false
+callout-icon: false
+
+from: markdown+emoji
+include-after-body: target-hover.html # effect.html
+
+# bibliography: refs.bib
+---
+
+```{r setup}
+#| include: false
+
+library(tidyverse)
+library(lubridate)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+library(viridis)
+library(rmarkdown)
+library(gapminder)
+library(ggrepel)
+
+theme_set(theme_fivethirtyeight() +
+            theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(10,0,0,0)),
+                axis.title.y = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(0,10,0,0)),
+                axis.text.x = element_text(size = rel(1.75)),
+                axis.text.y = element_text(size = rel(1.75)),
+                strip.text = element_text(size = rel(1.5)),
+                legend.position = "top",
+                legend.text = element_text(size = rel(1.5)),
+                legend.title = element_text(size = rel(1.5))
+                )
+          )
+
+# Set global options for color-blind-friendly scales
+# scale_colour_discrete <- function(...) scale_colour_viridis_d(...)
+scale_colour_discrete <- function(...) scale_color_colorblind(...)
+scale_fill_discrete <- function(...) scale_fill_colorblind(...)
+```
+
+# Alternative Property Right Structures and the Incentives They Create {background-color="#1c4982"}
+
+
+## Four Property-Right Regimes: The Landscape
+
+- **Private property** is not the only way to define entitlements to resource use. Consider:
+  - **State-property regimes** — government owns and controls access and rules.
+  - **Common-property regimes** — a specified group **co-owns** and **co-manages** the resource.
+  - **_Res nullius_ / Open access** — **no owner**, no authority to exclude or set rules.
+- Each regime creates **distinct incentives** for harvest, investment, monitoring, and conservation.
+
+
+
+## State Property — Design & Pitfalls
+
+- Present to some degree in virtually all countries (e.g., **parks**, **wilderness preserves**).
+- **Upside:** Can pursue **social objectives** (biodiversity, equity) with legal authority to exclude/enforce.
+- **Risk:** **Principal–agent** problems—bureaucratic incentives may diverge from society’s interests  
+  (budget maximization, political influence, information gaps).
+- **Performance hinges on**: credible science, monitoring/enforcement capacity, accountability.
+
+
+
+## Common Property — When It Works (and When It Doesn’t)
+
+- **Definition:** Shared resources managed **in common** by a defined group; rights may be **formal** (law) or **informal** (custom).
+- **Efficiency & sustainability** depend on **rule quality** (fit to ecology), **compliance**, **conflict resolution**, and **trust**.
+- **Reality check:** Many successes exist—but **breakdowns** are common when cohesion or enforcement erodes.
+- **Success ingredients:** reciprocity, stable membership, transparent rules, graduated sanctions, local monitoring.
+
+
+
+## Open Access (_Res nullius_) — The Core Problem
+
+- **No one can exclude** ⇒ access is **nonexcludable**; the stock is **rival** (one user’s harvest reduces others’).
+- Result: **First-come, first-served** use; individuals ignore the **stock externality** on others and the future.
+- Popular label: **“Tragedy of the open-access commons”**—**overuse** and **rent dissipation** as scarcity grows.
+
+
+
+## Incentives by Regime
+
+| Regime         | Excludability   | Who sets rules? | Who captures rents?   | Typical risks                      |
+|----------------|------------------|------------------|-----------------------|------------------------------------|
+| **Private**    | High             | Owner(s)         | Owner(s)              | Externalities; market power        |
+| **State**      | High (by law)    | Government       | Public (in principle) | Bureaucratic drift; info gaps      |
+| **Common**     | Group-limited    | Co-owners        | Co-owners             | Cohesion/monitoring failures       |
+| **Open Access**| None             | No one           | No one (dissipated)   | Overuse; collapse risk             |
+
+
+## Bison as a Common-Pool Example
+
+:::: {.columns}
+::: {.column width="50%"}
+{{< video https://youtu.be/sZ2qSup8kLc width="100%" height="100%" >}}
+
+{{< video https://youtu.be/-eDAgcjWKIA width="100%" height="100%" >}}
+
+:::
+::: {.column width="50%"}
+- **Common-pool resources (CPRs)**: **nonexcludable** and **rival**.  
+  - **Excludable?** Can users who haven’t paid be kept out?  
+  - **Rival?** Does one user’s consumption reduce what’s left for others?
+
+:::
+::::
+
+
+
+
+## Rivalry vs. Excludability
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/common-public-goods.png" alt="Goods classification by rivalry and excludability" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+
+
+## When Commons Work—and When They Don’t
+
+
+:::: {.columns}
+::: {.column width="50%"}
+
+#### Case: Swiss Alpine Meadows (Common Property Success)
+
+- **Grazing** treated as **common property** for centuries.  
+- **User associations** set stocking rules; **stable membership** fostered reciprocity and trust.  
+- **Outcome:** Overgrazing discouraged; compliance high; **sustained yields**.
+
+:::
+
+::: {.column width="50%"}
+#### Case: Mawelle, Sri Lanka (Governance Breakdown)
+
+- Initially: **Rotating rights** over fishing spots/times ensured equity and protected stocks.  
+- Later: **Population growth** + **outsiders** eroded cohesion; rules became **unenforceable**.  
+- Outcome: **Overexploitation** and **lower incomes**.
+
+:::
+::::
+
+
+
+
+
+## Historical Context: American Bison
+
+:::: {.columns}
+::: {.column width="45%"}
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/bison1865.jpeg" alt="Northern and Southern Bison Herds in 1865" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;">Northern and Southern Herds, circa 1865</p>
+</div>
+:::
+::: {.column width="55%"}
+- **Early U.S. period:** Abundant bison; unrestricted hunting did not impose noticeable scarcity costs.  
+- **As demand/technology rose:** Scarcity emerged; each hunter’s effort **reduced** others’ catch per unit effort.  
+- **Open access + scarcity ⇒** escalating effort, falling stocks, **near-extinction**.
+:::
+::::
+
+
+
+## Total Framework
+
+:::: {.columns}
+::: {.column width="61%"}
+<div style="text-align: center; width: 75%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig2-5r.jpg" alt="Total and marginal panels illustration" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+:::
+::: {.column width="39%"}
+- **Total Surplus** $TS(E) = TR(E) - TC(E)$.  
+- **Total Revenue** $TR(E) = P \times H(E)$ with price $P$ assumed constant.  
+- **Total Cost** $TC(E)$: increases with effort $E$ (linear if marginal cost $c$ is constant).  
+- **Efficient effort $E^{*}$:** maximizes the **vertical gap** between TR and TC.
+:::
+::::
+
+
+
+## Marginal Framework (Bottom Panel: Margins)
+
+:::: {.columns}
+::: {.column width="61%"}
+<div style="text-align: center; width: 75%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig2-5r.jpg" alt="Marginal revenue and marginal cost crossing" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+:::
+::: {.column width="39%"}
+- **Marginal Revenue** $MR(E) = \frac{dTR}{dE}$ **declines** as stock falls with effort.  
+- **Marginal Cost** $MC(E)$ (e.g., constant $c$).  
+- **Efficiency:** $MR(E^{*}) = MC(E^{*})$.  
+- Two panels are **equivalent** representations of the same optimum.
+:::
+::::
+
+
+
+## Locating the Efficient Point $E^{*}$
+
+:::: {.columns}
+::: {.column width="61%"}
+<div style="text-align: center; width: 75%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig2-5r.jpg" alt="Efficient effort in total and marginal panels" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+:::
+::: {.column width="39%"}
+- In **totals**: $E^{*}$ maximizes **TR − TC**.  
+- In **margins**: $MR = MC$.  
+- Interpretation: At $E^{*}$, the **last unit of effort** adds as much revenue as it costs.
+:::
+::::
+
+
+
+## Open-Access Outcome $E_{OA}$: Why It’s Too High
+
+:::: {.columns}
+::: {.column width="61%"}
+<div style="text-align: center; width: 75%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig2-5r.jpg" alt="Open-access effort where AR equals MC" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+:::
+::: {.column width="39%"}
+- With free entry, users expand effort until **profit per user = 0**.  
+- Condition: **Average Revenue $AR(E_{OA}) = MC$** (with constant $c$).  
+- Because $AR > MR$ when TR is concave, **$E_{OA} > E^{*}$** and **rents are dissipated**.
+:::
+::::
+
+
+
+## Why Open Access Dissipates Rents
+
+- **No exclusion ⇒ no appropriation of surplus.**  
+- Each user ignores the **stock externality** imposed on others (and on the future).  
+- Effort expands until **normal profit** (per-user profit $=0$)—**total economic rent falls to zero**.  
+- Formally (constant $c$): $AR(E_{OA}) = MC = c$, while $E_{OA} > E^{*}$ and $TS(E_{OA}) < TS(E^{*})$.
+
+
+
+## Comparative Incentives
+
+- **Private:** Owner internalizes returns (intertemporal), incentivizing conservation **subject to** discounting/externalities.  
+- **State:** Can set socially oriented rules; success depends on capacity, information, and accountability.  
+- **Common:** Effective when rules **fit local conditions**, participation is broad, and monitoring/sanctions are credible.  
+- **Open Access:** Systematically overshoots efficient effort; **rent dissipation** and higher **collapse risk** as price/technology rise.
+
+
+## Policy Levers to Realign Incentives
+
+- **Define/strengthen rights:** Privatization **or** robust **common-property** institutions (where feasible and equitable).  
+- **Regulate access/harvest:** Licenses, quotas, **ITQs (individual transferable quotas)**, seasonal/gear limits; invest in **monitoring & enforcement**.  
+- **Price instruments:** Access/landing fees to internalize stock externalities; **earmark revenues** for stewardship/transition.  
+- **Capacity building:** Support **user associations**, conflict resolution, and **nested** local–state governance.
+
+## [Russia’s “Peanut Hole”](https://www.youtube.com/shorts/UO02hTOkhnk)
+<div style="display:block; margin:-15px;"></div>
+
+- **Location**: A high seas area in the center of the Sea of Okhotsk, surrounded by Russia's **EEZ** (Exclusive Economic Zone), which generally extends **200 nautical miles** from a coastal state’s baselines.
+- **Significance**:
+  - Previously a global commons outside Russia's jurisdiction.
+  - Known as the "Peanut Hole" due to its unique shape.
+- **Challenges**:
+  - Overfishing by international fleets posed threats to fish stocks.
+  - Difficulty in coordinating sustainable management of resources in this area.
+- **Resolution**: In 2014, Russia gained control of the "Peanut Hole" under UN Convention on LOS (Law of the Sea) provisions, integrating it into its EEZ.
+
+
+## Community-Devised Governance of the Commons
+
+- Alternative to private ownership or top-down regulation: **users** can craft agreements to avoid the tragedy of the commons.
+- **Elinor Ostrom** (Nobel 2009): many communities succeed via **self-organization** without privatization or heavy state control.
+- Local users hold **context-specific knowledge** (ecology, seasons, customs) often missing from centralized rule setting (fees, harvest limits).
+- Users recognize that **short-run individual gains** can cause **long-run ecological/economic collapse**, so they adopt **precautionary rules**.
+
+## Community-Devised Governance of the Commons
+### Conditions for effective local cooperation
+- **Broad participation** in rulemaking by most users.
+- **Accountable monitoring** conducted by or answerable to users, with regular checks of conditions and compliance.
+- **Low-cost, responsive** conflict resolution mechanisms.
+- Rules **tailored to local** ecology, culture, and technology.
+- **Graduated sanctions** that escalate with repeated violations.
+
+## Nested Governance & Policy Levers
+
+- Ostrom’s approach can **complement** government for large-scale commons via **nested** institutions.
+- *Example*: a state/federal agency **administers/enforces** an ITQ program; **local fishers** co-design allocation rules and handle day-to-day disputes.
+- Effective governance is **participatory**, combining local (including Indigenous) knowledge, history, and culture with broader legal/scientific capacity.
+- At **national/global** scales, government involvement is essential, while policy still **respects local variation** and incorporates community voices.
+
+
+
+
+<!-- ## Key Takeaways -->
+
+<!-- - **Rights → incentives → outcomes.**   -->
+<!-- - **Open access** overuses scarce resources and **dissipates rents**.   -->
+<!-- - **Efficient use** at $MR=MC$; open access stops at $AR=MC$.   -->
+<!-- - Durable solutions rely on **clear rights**, **credible rules**, and **effective enforcement**—via **private**, **state**, or **common** governance, often in **hybrid** forms. -->

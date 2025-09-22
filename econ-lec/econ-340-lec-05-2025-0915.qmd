@@ -1,6 +1,6 @@
 ---
-title: Lecture 5
-subtitle: Property Rights, the Coase Theorem, and the Environment
+title: Lecture 6
+subtitle: Common Property Resources and Public Goods
 format:
   clean-revealjs:
     self-contained: false
@@ -14,7 +14,7 @@ author:
   - name: Byeong-Hak Choe
     email: bchoe@geneseo.edu
     affiliations: SUNY Geneseo
-date: 2025-09-15
+date: 2025-09-22
 execute: 
   eval: true
   echo: false

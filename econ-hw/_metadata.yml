@@ -17,6 +17,16 @@ comments: false
 toc: true
 toc-depth: 6
 toc-expand: 3
+toc-title: "
+<div style='white-space:nowrap;'>
+  <img src='../img/logo-geneseo.jpg'
+       style='height:48px; display:inline-block; vertical-align:middle; margin-right:0px;'>
+  <span style='display:inline-block; vertical-align:middle; font-family:Arial; font-weight:bold; line-height:1.05;'>
+    Environmental<br>Economics
+  </span>
+</div>
+<br>On this page"
+
 # citation: true
 # appendix-cite-as: display
 # license:

@@ -79,6 +79,10 @@ You have an opportunity to comment and voice your opinions on the [US Environmen
 -	For grading purposes, please submit a PDF of your comment to Brightspace by **11:59 PM EDT on Monday, September 22, 2025**.
 
 -	You are not required to submit your comment to the US EPA for grading. However, I strongly encourage you to take this opportunity to learn more about an important policy issue, practice your reasoning and argumentation skills, and engage in civic responsibility.
+- If you are not submitting your comment to the EPA, you do not need to include the docket ID or other identifying info from the “tips for effective comments.”
+- For this homework submission, there is no required font, spacing, citation style, or page format. Aim for about 2–3 pages if that is helpful, but shorter or longer is fine if your argument is clear and well-supported.
+- Please address the core question---whether GHGs should be treated as "air pollution" under CAA §202(a)---and take a clear position with reasoning and any sources you find useful.
+
 	<!-- -	If you submit your comment to the US EPA, please either provide the URL where it appears online or forward the email of your submission to [bchoe@geneseo.edu](mailto:bchoe@geneseo.edu). -->
 
 
@@ -106,7 +110,7 @@ You can submit comments online or by email. The deadline for Submitting Comments
 
 Begin by informing yourself about EPA’s proposal, their analysis, and the analyses of others using links provided below. Search for additional credible sources.
 
-Effective comments are concise and strongly reasoned. Recission of the endangerment finding will have many far-reaching consequences. Don’t attempt to be comprehensive in your comments; focus on one or two issues that are most salient to you. Support your comments with citations to sources if relevant. Include a statement about why the proposed recission is important to you personally. See also EPA’s [tips for effective comments](https://www.epa.gov/dockets/commenting-epa-dockets#tips) on rulemaking dockets
+Effective comments are concise and strongly reasoned. Recission of the endangerment finding will have many far-reaching consequences. Don’t attempt to be comprehensive in your comments; focus on one or two issues that are most salient to you. Support your comments with citations to sources if relevant. Include a statement about why the proposed recission is important to you personally. See also EPA’s [tips for effective comments](https://www.epa.gov/dockets/commenting-epa-dockets#tips) on rulemaking dockets.
 
 Draft your comments using **MS Word** or similar program. This makes it easier for you to make and save revisions before you submit your comments.
 

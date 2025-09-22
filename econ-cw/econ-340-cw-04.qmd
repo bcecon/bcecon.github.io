@@ -1,0 +1,45 @@
+---
+title: Classwork 4
+subtitle: Common Property Resources
+date: 2025-09-19
+code-fold: true
+execute: 
+  echo: true
+  warning: false
+  message: false
+from: markdown+emoji
+---
+```{r}
+#| include: false
+
+library(knitr)
+library(rmarkdown)
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+
+theme_set(theme_ipsum() +
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = element_text(size = rel(1.5)),
+                axis.title.y = element_text(size = rel(1.5)),
+                legend.title = element_text(size=rel(1.25))
+                ))
+```
+
+
+
+# Question 1. Optimal Harvesting in a Fishery
+Consider a fishery where the total benefit ($TB$) and total cost ($TC$) of fishing effort ($E$) are represented by the following functions:
+
+- $TB(E) \,=\, 1.5E \,-\, E^{2}$ (in \$);
+- $TC(E) \,=\, 0.5E$ (in \$),
+
+where is $E$ is the level of fishing effort (e.g., number of boat-days).
+
+
+**a**. On the same graph, draw the Total Benefit ($TB$) and Total Cost ($TC$) curves as functions of fishing effort $E$.
+
+**b**. On the same graph, draw the Marginal Benefit ($MB$) and Marginal Cost ($MC$) curves as functions of fishing effort  $E$ associated with the $TB$ and $TC$ functions.
+
+

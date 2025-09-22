@@ -26,9 +26,6 @@ In Week 4, we will conclude our discussion of environmental externality theory a
 - **Classwork 2: Externalities**  
   [📄 View Classwork](../econ-cw/econ-340-cw-02.html){target="_blank"}  
 
-- **Classwork 3: Property Rights, the Coase Theorem, and the Environment**  
-  [📄 View Classwork](../econ-cw/econ-340-cw-03.html){target="_blank"}  
-
 
 ## 📝 Homework
 🏡 [Homework 1](../econ-hw/econ-340-hw-01.html){target="_blank"} has been posted. 🏡
@@ -72,7 +69,7 @@ The concept of environmental justice highlights these distributional concerns. A
 In summary, economic activities frequently impose external effects on those not involved, such as automobile pollution. When markets fail to account for these costs, society experiences inefficiency and overproduction of harmful goods. Pigovian taxes can internalize external costs, while subsidies can encourage activities with positive externalities such as open land preservation or solar energy adoption. Assigning property rights may also work under certain conditions, but when large numbers of people are affected, damages are difficult to value, or equity concerns dominate, government intervention is usually necessary. Efficiency and equity must both be considered in crafting environmental policy.
 
 #### References
-- Harris J. and Roach B., *Chapter 4. Theory of Environmental Externality*, **Environmental and Natural Resource Economics: A Contemporary Approach** (5th Edition)
+- Harris J. and Roach B., *Chapter 3. Theory of Environmental Externality*, **Environmental and Natural Resource Economics: A Contemporary Approach** (5th Edition)
 
 ⚠️ Note: These contents from the above book chapter are shared under fair use for educational purposes to support your learning.
 
