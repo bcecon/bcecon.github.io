@@ -956,14 +956,14 @@
     "href": "index.html#bullet-lecture",
     "title": "ECON 340: Environmental Economics, Fall 2025",
     "section": "\\(\\bullet\\,\\) 🚀 Lecture",
-    "text": "\\(\\bullet\\,\\) 🚀 Lecture\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 1\n\n\nSyllabus and Course Outline\n\n\nAugust 25, 2025\n\n\n\n\nLecture 2\n\n\nClass Survey Results vs. Professional Consensus\n\n\nAugust 27, 2025\n\n\n\n\nLecture 3\n\n\nMicroeconomics Review\n\n\nAugust 29, 2025\n\n\n\n\nLecture 4\n\n\nExternalities\n\n\nSeptember 5, 2025\n\n\n\n\nLecture 5\n\n\nProperty Rights, the Coase Theorem, and the Environment\n\n\nSeptember 22, 2025\n\n\n\n\nLecture 6\n\n\nCommon Property, Open Access, and Property Rights\n\n\nSeptember 22, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "\\(\\bullet\\,\\) 🚀 Lecture\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 1\n\n\nSyllabus and Course Outline\n\n\nAugust 25, 2025\n\n\n\n\nLecture 2\n\n\nClass Survey Results vs. Professional Consensus\n\n\nAugust 27, 2025\n\n\n\n\nLecture 3\n\n\nMicroeconomics Review\n\n\nAugust 29, 2025\n\n\n\n\nLecture 4\n\n\nExternalities\n\n\nSeptember 5, 2025\n\n\n\n\nLecture 5\n\n\nProperty Rights, the Coase Theorem, and the Environment\n\n\nSeptember 15, 2025\n\n\n\n\nLecture 6\n\n\nCommon Property, Open Access, and Property Rights\n\n\nSeptember 26, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#bullet-classwork",
     "href": "index.html#bullet-classwork",
     "title": "ECON 340: Environmental Economics, Fall 2025",
     "section": "\\(\\bullet\\,\\) ⌨️ Classwork",
-    "text": "\\(\\bullet\\,\\) ⌨️ Classwork\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 1\n\n\nMicroeconomics Review\n\n\nSeptember 2, 2025\n\n\n\n\nClasswork 2\n\n\nExternalities\n\n\nSeptember 8, 2025\n\n\n\n\nClasswork 3\n\n\nProperty Rights, the Coase Theorem, and the Environment\n\n\nSeptember 19, 2025\n\n\n\n\nClasswork 4\n\n\nCommon Property Resources\n\n\nSeptember 19, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "\\(\\bullet\\,\\) ⌨️ Classwork\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 1\n\n\nMicroeconomics Review\n\n\nSeptember 2, 2025\n\n\n\n\nClasswork 2\n\n\nExternalities\n\n\nSeptember 8, 2025\n\n\n\n\nClasswork 3\n\n\nProperty Rights, the Coase Theorem, and the Environment\n\n\nSeptember 19, 2025\n\n\n\n\nClasswork 4\n\n\nCommon Property Resources\n\n\nSeptember 26, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#bullet-homework",
@@ -1012,14 +1012,14 @@
     "href": "econ-cw/econ-340-cw-04.html",
     "title": "Classwork 4",
     "section": "",
-    "text": "Question 1. Optimal Harvesting in a Fishery\nConsider a fishery where the total benefit (\\(TB\\)) and total cost (\\(TC\\)) of fishing effort (\\(E\\)) are represented by the following functions:\n\n\\(TB(E) \\,=\\, 1.5E \\,-\\, E^{2}\\) (in $);\n\\(TC(E) \\,=\\, 0.5E\\) (in $),\n\nwhere is \\(E\\) is the level of fishing effort (e.g., number of boat-days).\na. On the same graph, draw the Total Benefit (\\(TB\\)) and Total Cost (\\(TC\\)) curves as functions of fishing effort \\(E\\).\nb. On the same graph, draw the Marginal Benefit (\\(MB\\)) and Marginal Cost (\\(MC\\)) curves as functions of fishing effort \\(E\\) associated with the \\(TB\\) and \\(TC\\) functions.\n\n\n\n\n Back to top"
+    "text": "Question 1 — Optimal Harvesting in a Fishery\nConsider a fishery where the total benefit (TB) and total cost (TC) of fishing effort \\(E\\) are:\n\n\\(TB(E)=1.5E - E^{2}\\) (in $)\n\\(TC(E)=0.5E\\) (in $)\n\nwhere \\(E\\) is the level of fishing effort (e.g., number of boat-days).\na. Draw the Total Benefit (TB) and Total Cost (TC) curves as functions of fishing effort \\(E\\). Place these curves in the top panel of a two-panel figure.\nb. On the bottom panel, draw the Marginal Benefit (MB) and Marginal Cost (MC) curves as functions of fishing effort \\(E\\).\nMake sure the top and bottom panels share the same horizontal scale for effort \\(E\\), so the relationship between total and marginal spaces is consistent.\n\nRecall that:\n\n\\(MB(E)=\\dfrac{d\\,TB}{dE}=1.5 - 2E\\)\n\\(MC(E)=\\dfrac{d\\,TC}{dE}=0.5\\)\n\n\nc. On both panels, mark and label the two benchmark effort levels using vertical guide lines that align across panels:\n\nThe (economically) efficient effort \\(E^*\\): Draw a vertical line at \\(E^*\\) on both the top (TB/TC) and bottom (AB/AC/MB/MC) panels and label it “\\(E^*\\)”.\nThe open-access effort \\(E_{OA}\\): Draw a vertical line at \\(E_{OA}\\) on both panels and label it “\\(E_{OA}\\)”.\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "listing-econ-340-cw.html",
     "href": "listing-econ-340-cw.html",
     "title": "ECON 340 - Classwork",
     "section": "",
-    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 4\n\n\nCommon Property Resources\n\n\nSeptember 19, 2025\n\n\n\n\nClasswork 3\n\n\nProperty Rights, the Coase Theorem, and the Environment\n\n\nSeptember 19, 2025\n\n\n\n\nClasswork 2\n\n\nExternalities\n\n\nSeptember 8, 2025\n\n\n\n\nClasswork 1\n\n\nMicroeconomics Review\n\n\nSeptember 2, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 4\n\n\nCommon Property Resources\n\n\nSeptember 26, 2025\n\n\n\n\nClasswork 3\n\n\nProperty Rights, the Coase Theorem, and the Environment\n\n\nSeptember 19, 2025\n\n\n\n\nClasswork 2\n\n\nExternalities\n\n\nSeptember 8, 2025\n\n\n\n\nClasswork 1\n\n\nMicroeconomics Review\n\n\nSeptember 2, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "econ-lec/econ-340-lec-03-2025-0829.html#demand-and-supply-basics",
@@ -1376,7 +1376,7 @@
     "href": "listing-econ-340-lec.html",
     "title": "ECON 340 - Lecture",
     "section": "",
-    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 1\n\n\nSyllabus and Course Outline\n\n\nAugust 25, 2025\n\n\n\n\nLecture 2\n\n\nClass Survey Results vs. Professional Consensus\n\n\nAugust 27, 2025\n\n\n\n\nLecture 3\n\n\nMicroeconomics Review\n\n\nAugust 29, 2025\n\n\n\n\nLecture 4\n\n\nExternalities\n\n\nSeptember 5, 2025\n\n\n\n\nLecture 5\n\n\nProperty Rights, the Coase Theorem, and the Environment\n\n\nSeptember 22, 2025\n\n\n\n\nLecture 6\n\n\nCommon Property, Open Access, and Property Rights\n\n\nSeptember 22, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 1\n\n\nSyllabus and Course Outline\n\n\nAugust 25, 2025\n\n\n\n\nLecture 2\n\n\nClass Survey Results vs. Professional Consensus\n\n\nAugust 27, 2025\n\n\n\n\nLecture 3\n\n\nMicroeconomics Review\n\n\nAugust 29, 2025\n\n\n\n\nLecture 4\n\n\nExternalities\n\n\nSeptember 5, 2025\n\n\n\n\nLecture 5\n\n\nProperty Rights, the Coase Theorem, and the Environment\n\n\nSeptember 15, 2025\n\n\n\n\nLecture 6\n\n\nCommon Property, Open Access, and Property Rights\n\n\nSeptember 26, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "econ-lec-tmp/danl-101-lec-05-2025-0908.html#big-idea",

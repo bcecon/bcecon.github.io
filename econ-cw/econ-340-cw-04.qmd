@@ -1,10 +1,11 @@
 ---
 title: Classwork 4
 subtitle: Common Property Resources
-date: 2025-09-19
+date: 2025-09-26
 code-fold: true
 execute: 
-  echo: true
+  echo: false
+  eval: true
   warning: false
   message: false
 from: markdown+emoji
@@ -28,18 +29,68 @@ theme_set(theme_ipsum() +
 ```
 
 
+# Question 1 — Optimal Harvesting in a Fishery
 
-# Question 1. Optimal Harvesting in a Fishery
-Consider a fishery where the total benefit ($TB$) and total cost ($TC$) of fishing effort ($E$) are represented by the following functions:
+Consider a fishery where the total benefit (**TB**) and total cost (**TC**) of fishing effort $E$ are:
 
-- $TB(E) \,=\, 1.5E \,-\, E^{2}$ (in \$);
-- $TC(E) \,=\, 0.5E$ (in \$),
+- $TB(E)=1.5E - E^{2}$ (in \$)
+- $TC(E)=0.5E$ (in \$)
 
-where is $E$ is the level of fishing effort (e.g., number of boat-days).
+where $E$ is the level of fishing effort (e.g., number of boat-days).
 
-
-**a**. On the same graph, draw the Total Benefit ($TB$) and Total Cost ($TC$) curves as functions of fishing effort $E$.
-
-**b**. On the same graph, draw the Marginal Benefit ($MB$) and Marginal Cost ($MC$) curves as functions of fishing effort  $E$ associated with the $TB$ and $TC$ functions.
+**a.** Draw the **Total Benefit (TB)** and **Total Cost (TC)** curves as functions of fishing effort $E$.  Place these curves in the **top panel** of a two-panel figure.
 
 
+**b.** On the **bottom panel**, draw the **Marginal Benefit (MB)** and **Marginal Cost (MC)** curves as functions of fishing effort $E$.  
+
+Make sure the top and bottom panels share the same horizontal scale for effort $E$, so the relationship between total and marginal spaces is consistent.
+
+- Recall that:
+  - $MB(E)=\dfrac{d\,TB}{dE}=1.5 - 2E$
+  - $MC(E)=\dfrac{d\,TC}{dE}=0.5$
+
+
+**c.** On both panels, **mark and label** the two benchmark effort levels using **vertical guide lines** that align across panels:
+
+- The (economically) **efficient effort** $E^*$:
+  Draw a vertical line at $E^*$ on **both** the top (TB/TC) and bottom (AB/AC/MB/MC) panels and label it “$E^*$”.
+
+- The **open-access effort** $E_{OA}$:
+  Draw a vertical line at $E_{OA}$ on **both** panels and label it “$E_{OA}$”.
+
+
+```{r}
+#| eval: false
+# Load packages
+library(tidyverse)
+
+# Domain for effort (adjust as needed)
+E_max <- 1.5
+E <- seq(0, E_max, length.out = 501)
+
+# Define functions
+TB <- 1.5*E - E^2
+TC <- 0.5*E
+MB <- 1.5 - 2*E
+MC_AC <- rep(0.5, length(E))
+AB <- 1.5 - E
+
+
+# Data frames
+df_level <- tibble(E, TB, TC) |> pivot_longer(cols = c(TB, TC), names_to = "curve", values_to = "value")
+df_marg  <- tibble(E, AB, MB, MC_AC) |> pivot_longer(cols = c(AB, MB, MC_AC), names_to = "curve", values_to = "value") |> mutate(curve = ifelse(curve == 'MC_AC', 'AC & MC', curve))
+
+# (a) TB vs TC
+ggplot(df_level, aes(x = E, y = value, linetype = curve)) +
+  geom_line(size = 1) +
+  labs(title = "Total Benefit and Total Cost vs Effort",
+       x = "Effort (E)", y = "Dollars", linetype = "Curve") +
+  theme_minimal(base_size = 12)
+
+# (b) MB vs MC
+ggplot(df_marg, aes(x = E, y = value, linetype = curve)) +
+  geom_line(size = 1) +
+  labs(title = "Average/Marginal Benefit and Average/Marginal Cost vs Effort",
+       x = "Effort (E)", y = "Dollars per unit of E", linetype = "Curve") +
+  theme_minimal(base_size = 12)
+```
