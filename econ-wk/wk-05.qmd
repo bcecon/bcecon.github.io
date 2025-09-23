@@ -57,9 +57,10 @@ Such stability is not guaranteed, especially under rising population pressure. I
 Open-access **common-pool** resources are shared stocks that are **nonexclusive** (anyone can exploit them) and **rivalous** (one user’s harvest reduces what’s left for others). The American bison illustrates the consequences. In the early United States, bison were so abundant that unrestricted hunting posed no immediate problem: people could readily obtain hides and meat, and one hunter’s aggressiveness did not meaningfully raise the time and effort others needed. When scarcity was absent, open access did not undermine efficiency. As demand rose and the herd shrank, however, each incremental unit of hunting effort required more time and work to achieve an extra harvest.
 
 <!-- ![Bison Harvesting](https://bcdanl.github.io/lec_figs/tl-fig2-5r.jpg) -->
+<div style="display:block; margin:10px;"></div>
 
-<div style="text-align: center; width: 50%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/tl-fig2-5r.jpg" alt="Total and marginal panels illustration" style="width: 100%; margin-bottom: 30px;">
+<div style="text-align: center; width: 60%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/tl-fig2-5r.jpg" alt="Total and marginal panels illustration" style="width: 100%; margin-bottom: 20px;">
   <p style="font-weight: bold;">Bison Harvesting</p>
 </div>
 

@@ -29,7 +29,7 @@ theme_set(theme_ipsum() +
 ```
 
 
-# Question 1 — Optimal Harvesting in a Fishery
+## Optimal Harvesting in a Fishery
 
 Consider a fishery where the total benefit (**TB**) and total cost (**TC**) of fishing effort $E$ are:
 
@@ -38,26 +38,38 @@ Consider a fishery where the total benefit (**TB**) and total cost (**TC**) of f
 
 where $E$ is the level of fishing effort (e.g., number of boat-days).
 
-**a.** Draw the **Total Benefit (TB)** and **Total Cost (TC)** curves as functions of fishing effort $E$.  Place these curves in the **top panel** of a two-panel figure.
+### Part A — Total Curves
+Draw the **Total Benefit (TB)** and **Total Cost (TC)** curves as functions of fishing effort $E$.  Place these curves in the **top panel** of a two-panel figure.
 
+### Part B — Marginal Curves
+On the **bottom panel**, draw the **Marginal Benefit (MB)** and **Marginal Cost (MC)** curves as functions of fishing effort $E$.  
 
-**b.** On the **bottom panel**, draw the **Marginal Benefit (MB)** and **Marginal Cost (MC)** curves as functions of fishing effort $E$.  
-
+### Part C — Efficient and Open-Access Effort Levels
 Make sure the top and bottom panels share the same horizontal scale for effort $E$, so the relationship between total and marginal spaces is consistent.
 
 - Recall that:
   - $MB(E)=\dfrac{d\,TB}{dE}=1.5 - 2E$
   - $MC(E)=\dfrac{d\,TC}{dE}=0.5$
 
+On both panels, **mark and label** the two benchmark effort levels using **vertical guide lines** that align across panels:
 
-**c.** On both panels, **mark and label** the two benchmark effort levels using **vertical guide lines** that align across panels:
-
-- The (economically) **efficient effort** $E^*$:
+- The **efficient effort** $E^*$:
   Draw a vertical line at $E^*$ on **both** the top (TB/TC) and bottom (AB/AC/MB/MC) panels and label it “$E^*$”.
 
 - The **open-access effort** $E_{OA}$:
   Draw a vertical line at $E_{OA}$ on **both** panels and label it “$E_{OA}$”.
 
+
+## Part D — Intuition Behind $E^*$ and $E_{OA}$
+Explain the intuition behind these two effort levels:
+
+1. **Why does $E^*$ arise?**  
+2. **Why does $E_{OA}$ arise under open access?**  
+
+
+## Part E — Policy Intervention with a License Fee
+- **License fee:** Explain, both analytically and intuitively, how charging a **per-unit license fee** (e.g., per boat-day) can reduce fishing effort from the open-access level $E_{OA}$ down to the efficient level $E^*$.  
+- Discuss why aligning individual fishers’ **incentives** with the social optimum is crucial for preventing rent dissipation and ensuring the long-run **sustainability** of the fishery.
 
 ```{r}
 #| eval: false
@@ -94,3 +106,5 @@ ggplot(df_marg, aes(x = E, y = value, linetype = curve)) +
        x = "Effort (E)", y = "Dollars per unit of E", linetype = "Curve") +
   theme_minimal(base_size = 12)
 ```
+
+
