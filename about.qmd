@@ -28,9 +28,6 @@ comments: false
 toc: false
 from: markdown+emoji
 css: front.css
-
-
-# include-after-body: data-entry/data-entry-form.html
 ---
 
 
@@ -43,9 +40,22 @@ I am an **assistant professor of data analytics and economics** at School of Bus
 
 I am particularly interested in the **economic aspects of environmental issues and climate change**.
 
-<!-- My teaching interests are in **economics and data science**. My students use the tools of machine learning, econometrics, and data visualization to address **business strategies**, **public policy**, and **individual decision-making**. -->
+In teaching, I combine **economics, data science, and generative AI**. My students use **data visualization**, **machine learning**, **econometrics**, and **AI-assisted methods** to address challenges in **business strategy**, **public policy**, and **individual decision-making**.
+
+🔗 Teaching website for data analytics:  
+
+- <a href="https://bcdanl.github.io/" target="_blank" rel="noopener">DANL 101: Introduction to Data Analytics</a>
+- <a href="https://bcdanl.github.io/299" target="_blank" rel="noopener">DANL 299: Data Preparation and Management</a>
+
+<div style="display:block; margin:50px;"></div>
+
+
+<!-- Teaching website for data analytics is [here](https://bcdanl.github.io/){target="_blank"}. -->
+
 
 ## Research
+
+<div style="display:block; margin:-10px;"></div>
 
 ### Working papers
 
@@ -67,9 +77,3 @@ I am particularly interested in the **economic aspects of environmental issues a
   
 
 <br>
-
-<!-- ```{=html} -->
-<!-- <iframe height="900px" width="100%" frameborder="no" -->
-<!-- src="data-entry/data-entry-form.html"> -->
-<!-- </iframe> -->
-<!-- ``` -->
