@@ -1,83 +1,117 @@
 /*-- scss:defaults --*/
 
 // Custom colours and variables
-
 $jet: #131516;
-$accent: #107895;
+$accent: #107895; 
 $accent2: #9a2515;
-// $accent2: #e64173;
-$right-arrow: "\2192"; // Unicode character for right arrow
+$right-arrow: "\2192"; 
+$circle: "•";
+$square: "▪";
+$diamond: "▻";
 
-// fonts
+// ================== Fonts ==================
 
-/*
-Note: This theme uses the Roboto font family, which it imports from Google
-  Fonts to ensure consistent weighting in addition to availability. While
-  you can use a local installation of Roboto, this is generally not 
-  recommended since the weighting will likely be wrong (probably too
-  light). OTOH, importing from Google Fonts can cause some issues in
-  certain secure environments due the external CDN (see:
-  https://github.com/grantmcdermott/quarto-revealjs-clean/issues/7). If
-  that's the case for you, simply comment out the `@import url(...)` line
-  below and it will default for the default Sans Serif font on your system
-  (e.g., Helvetica on a Mac). Circling back to the earlier point about
-  preserving consistent font weights, you may also wish to remove "Roboto"
-  from the choice set if the family is installed locally.
-*/
+// Local Optima fonts
+@font-face {
+  font-family: 'Optima Web';
+  src: url('../assets/font/Lucida-Console.ttf.woff');
+  font-weight: normal;
+  font-style: normal;
+} 
+
+@font-face {
+  font-family: 'Optima Web';
+  src: url('../assets/font/Optima-Roman.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Google Roboto (imported)
 @import url(https://fonts.googleapis.com/css?family=Roboto:200,200i,300,300i,350,350i,400,400i);
-$font-family-sans-serif: "Roboto", sans-serif !default;
-$presentation-heading-font: "Roboto", sans-serif !default;
 
-$presentation-heading-color: $jet !default;
-$presentation-heading-font-weight: lighter;
-//$presentation-heading-line-height: 2;
-//$presentation-block-margin: 28px;
+// Font families
+$font-family-sans-serif: Optima, 'Optima Web', sans-serif !default;
+$presentation-heading-font: "Roboto", "Palatino", "Palatino Linotype", serif !default;
+
+$presentation-heading-color: #1c4982 !default;
+$presentation-heading-font-weight: 400;
 $presentation-font-size-root: 32px;
 
 // colors
-//$body-bg: #f0f1eb !default;
 $body-color: $jet !default;
 $link-color: $accent !default;
 $selection-bg: #26351c !default;
 
-
 /*-- scss:rules --*/
 
-.reveal a {
-  line-height: 1.5em;
+body, .reveal {
+  font-family: Optima, 'Optima Web', sans-serif;
+  color: $body-color;
 }
 
-.reveal p {
-  // font-weight: 300;
-  font-weight: lighter;
+// Headings
+.reveal h1, 
+.reveal h2, 
+.reveal h3, 
+.reveal h4 {
+  font-family: $presentation-heading-font;
+  color: #1c4982;
+}
+
+.reveal h1 {
+  font-weight: 700;   // boldest
+  font-size: 1.8em;   // make it stand out more
+}
+
+.reveal h2 {
+  font-weight: 600;
+  font-size: 1.4em;
+}
+
+.reveal h3 {
+  color: $accent;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 0.95em;
+}
+
+.reveal h4 {
+  color: $accent2;
+  font-weight: 500;
   margin-top: 1.25em;
 }
 
-// title and headings
+.bh {
+  display: block;
+  margin-top: -40px;
+  margin-bottom: -20px;
+  font-family: $presentation-heading-font;
+  font-weight: 400;
+  color: #1c4982;
+  font-size: 30px;
+}
 
+// Title slide
 #title-slide {
   text-align: left;
 
   .title {
     color: $body-color;
     font-size: 1.4em;
-    // font-weight: 350;
-    font-weight: lighter;
+    font-weight: 400;
   }
 
   .subtitle {
     color: $accent;
     font-style: italic;
     margin-top: 0em;
-    font-weight: lighter;
+    font-weight: 400;
   }
 
   .institute,
   .quarto-title-affiliation,
   .quarto-title-author-email {
     font-style: italic;
-    // font-size: 80%;
-    // color: #7F7F7F;
   }
 
   .author,
@@ -95,56 +129,26 @@ $selection-bg: #26351c !default;
       width: 100%;
     }
   }
-
 }
 
+// Links
+.reveal a {
+  color: #0066cc;
+  line-height: 1.5em;
+  font-weight: bold;
+}
 
-.reveal h2 {
-  // font-weight: 350;
+// Paragraphs
+.reveal p {
   font-weight: lighter;
-  font-size: 1.4em;
-}
-
-.reveal h3 {
-  color: $accent;
-  font-style: italic;
-  // font-weight: 350;
-  font-weight: lighter;
-  font-size: 0.95em;
-}
-
-.reveal h4 {
-  color: $accent2;
-  // font-weight: 350;
-  font-weight: normal;
   margin-top: 1.25em;
 }
 
-// alerts etc.
-
-.alert {
-  color: $accent2;
-}
-
-.fg {
-  color: var(--col, $jet);
-}
-
-.bg {
-  background-color: var(--col, #fff);
-  padding: 0.1em;
-  border-radius: 5px;
-  display: inline-block;
-}
-
-// lists
-
-// Unordered lists
-
+// Lists
 .reveal ul {
-  // font-weight: 300;
   font-weight: lighter;
   padding-left: 16px;
+  line-height: 1.33;
 
   li::marker {
     color: mix($accent, white, 70%);
@@ -153,9 +157,8 @@ $selection-bg: #26351c !default;
 
 .reveal ul ul {
   list-style: none;
-
   li:before {
-    content: $right-arrow;
+    content: $square;
     color: mix($accent, white, 60%);
     display: inline-block;
     width: 1em;
@@ -164,53 +167,34 @@ $selection-bg: #26351c !default;
   }
 }
 
-// Ordered lists
+.reveal ul ul ul {
+  list-style: none;
+  li:before {
+    content: $diamond;
+    color: mix($accent, white, 60%);
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    margin-right: 0.5em;
+  }
+}
 
 .reveal ol {
-  // font-weight: 300;
   font-weight: lighter;
   padding-left: 16px;
-
   li::marker {
     color: $accent;
   }
 }
 
-// Move "hamburger" menu button to top right
-
-.reveal .slide-menu-button {
-  position: fixed;
-  top: 6px;
-  right: 0;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
-  pointer-events: none;
+// Code blocks
+.reveal pre code,
+.code.sourceCode {
+  font-family: 'Lucida Console', 'Lucida Console Web', monospace;
+  font-size: 20px;
 }
 
-.reveal .slide-menu-button > * {
-  pointer-events: auto;
-}
-
-
-// Same for chalkboard buttons (with an offset)
-
-.reveal .slide-chalkboard-buttons {
-  position: fixed;
-  top: 12px;
-  right: 24px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
-  pointer-events: none;
-}
-
-.reveal .slide-chalkboard-buttons > * {
-  pointer-events: auto;
-}
-
-// Beamer-style button link environment
-
+// Buttons
 .button {
   display: inline-block;
   padding: 6px 12px;
@@ -229,33 +213,11 @@ $selection-bg: #26351c !default;
   border-radius: 4px;
   transition: all 0.2s ease-in-out;
 }
-
 .button:hover {
   background-color: #0056b3;
   border-color: #0056b3;
 }
-
 .button::before {
   content: "▶";
   margin-right: 5px;
-}
-
-// Special catch for etable environment to ensure these table images
-// don't overflow the slide.
-// See: https://lrberge.github.io/fixest/articles/etable_new_features.html
-
-.etable {
-  width: 100%;
-  height: calc(100% - 3em); /* Adjust 3em based on the height of your header, if necessary */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.etable img {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-  object-fit: contain;
 }
