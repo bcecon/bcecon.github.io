@@ -28,6 +28,7 @@ comments: false
 toc: false
 from: markdown+emoji
 css: front.css
+page-layout: full
 ---
 
 
