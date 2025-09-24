@@ -1173,14 +1173,14 @@
     "href": "econ-lec/econ-340-lec-06-2025-0922.html#american-bison-as-a-common-pool-example",
     "title": "Lecture 6",
     "section": "American Bison as a Common-Pool Example",
-    "text": "American Bison as a Common-Pool Example\n\n\n\n\n\n\n\n\n\n\n\n\n\nNorthern and Southern Herds, circa 1865\n\n\n\n\n\n\n\n\n\nEarly U.S. period: Abundant bison; unrestricted hunting did not impose noticeable scarcity costs.\n\n\n\n\n\n\n\n\n\n\nAs demand/technology rose: Scarcity emerged; each hunter’s effort reduced others’ catch per unit effort.\nOpen access + scarcity ⇒ escalating effort, falling stocks, near-extinction."
+    "text": "American Bison as a Common-Pool Example\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEarly U.S. period:\n\nAbundant bison; unrestricted hunting did not impose noticeable scarcity costs.\n\nAs demand/technology rose:\n\nScarcity emerged; each hunter’s effort reduced others’ catch per unit effort.\n\nOpen access + scarcity ⇒ escalating effort, falling stocks, near-extinction."
   },
   {
     "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#total-framework-top-panel",
     "href": "econ-lec/econ-340-lec-06-2025-0922.html#total-framework-top-panel",
     "title": "Lecture 6",
     "section": "Total Framework (Top Panel)",
-    "text": "Total Framework (Top Panel)\n\n\n\n\n\n\n\n\n\nProfits \\(\\Pi(E) = TR(E) - TC(E)\\).\n\nTotal Revenue \\(TR(E) = P \\times H(E)\\) with price \\(P\\) assumed constant.\n\nTotal Cost \\(TC(E)\\): increases with effort \\(E\\) (linear if marginal cost \\(c\\) is constant).\n\nEfficient effort \\(E^{*}\\): maximizes the vertical gap between TR and TC."
+    "text": "Total Framework (Top Panel)\n\n\n\n\n\n\n\n\n\nProfit (Total Surplus) \\(\\Pi(E) = TR(E) - TC(E)\\).\n\nTotal Revenue (Total Benefit) \\(TR(E)\\): increase with effort at a diminishing rate.\n\nTotal Cost \\(TC(E)\\): increases with effort \\(E\\) (linear if marginal cost \\(c\\) is constant).\nEfficient effort \\(E^{*}\\): maximizes the vertical gap between \\(TR\\) and \\(TC\\)."
   },
   {
     "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#marginal-framework-bottom-panel",
@@ -1194,14 +1194,14 @@
     "href": "econ-lec/econ-340-lec-06-2025-0922.html#locating-the-efficient-point-e",
     "title": "Lecture 6",
     "section": "Locating the Efficient Point \\(E^{*}\\)",
-    "text": "Locating the Efficient Point \\(E^{*}\\)\n\n\n\n\n\n\n\n\n\nIn totals: \\(E^{*}\\) maximizes TR − TC.\n\nIn margins: \\(MR = MC\\).\n\nInterpretation: At \\(E^{*}\\), the last unit of effort adds as much revenue as it costs."
+    "text": "Locating the Efficient Point \\(E^{*}\\)\n\n\n\n\n\n\n\n\n\nIn totals: \\(E^{*}\\) maximizes \\(TR − TC\\).\n\nIn margins: \\(MR = MC\\).\n\nInterpretation: At \\(E^{*}\\), the last unit of effort adds as much revenue as it costs."
   },
   {
     "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#open-access-outcome-e_oa-why-its-too-high",
     "href": "econ-lec/econ-340-lec-06-2025-0922.html#open-access-outcome-e_oa-why-its-too-high",
     "title": "Lecture 6",
     "section": "Open-Access Outcome \\(E_{OA}\\): Why It’s Too High",
-    "text": "Open-Access Outcome \\(E_{OA}\\): Why It’s Too High\n\n\n\n\n\n\n\n\n\nWith free entry, users expand effort until profit per user = 0.\n\nCondition: Average Revenue \\(AR(E_{OA}) = MC\\) (with constant \\(c\\)).\n\nBecause \\(AR &gt; MR\\) when TR shows diminishing returns, \\(E_{OA} &gt; E^{*}\\) and rents are dissipated."
+    "text": "Open-Access Outcome \\(E_{OA}\\): Why It’s Too High\n\n\n\n\n\n\n\n\n\nWith free entry, users expand effort until profit per user = 0.\n\nCondition: Average Revenue \\(AR(E_{OA}) = AC\\) (with constant \\(c\\)).\n\nBecause \\(AR &gt; MR\\) when TR shows diminishing returns, \\(E_{OA} &gt; E^{*}\\) and rents are dissipated."
   },
   {
     "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#why-open-access-dissipates-rents",

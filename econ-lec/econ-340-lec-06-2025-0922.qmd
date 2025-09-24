@@ -178,38 +178,39 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 
 ## American Bison as a Common-Pool Example
-<div style="display:block; margin:-10px;"></div>
+<!-- <div style="display:block; margin:-10px;"></div> -->
 
 :::: {.columns}
-::: {.column width="4%"}
-:::
-::: {.column width="42%"}
+::: {.column width="45%"}
 <div style="display:block; margin:-12px;"></div>
 <div style="text-align: center; width: 100%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/bison1865.jpeg" alt="Northern and Southern Bison Herds in 1865" style="width: 100%; margin-bottom: -20px;">
-<p style="font-weight: bold; font-size: 0.85em;">Northern and Southern Herds, circa 1865</p>
+  <img src="https://bcdanl.github.io/lec_figs/bison-range-map.gif" alt="Northern and Southern Bison Herds in 1865" style="width: 100%; margin-bottom: -20px;">
+<p style="font-weight: bold; font-size: 0.85em;"></p>
 </div>
 :::
-::: {.column width="50%"}
+::: {.column width="55%"}
 
-{{< video https://youtu.be/sZ2qSup8kLc width="100%" height="100%" >}}
+<!-- {{< video https://youtu.be/sZ2qSup8kLc width="100%" height="100%" >}} -->
 
-{{< video https://youtu.be/-eDAgcjWKIA width="100%" height="100%" >}}
+<!-- {{< video https://youtu.be/-eDAgcjWKIA width="100%" height="100%" >}} -->
 
-<div style="display:block; margin:-30px;"></div>
+<!-- <div style="display:block; margin:-30px;"></div> -->
 
-- **Early U.S. period:** Abundant bison; unrestricted hunting did not impose noticeable scarcity costs.  
-:::
+- **Early U.S. period:** 
+  - Abundant bison; unrestricted hunting did not impose noticeable scarcity costs.  
 
-::: {.column width="4%"}
-:::
-::::
-
-<div style="display:block; margin:-20px;"></div>
-
-- **As demand/technology rose:** Scarcity emerged; each hunter’s effort **reduced** others’ catch per unit effort.  
+- **As demand/technology rose:** 
+  - Scarcity emerged; each hunter’s effort **reduced** others’ catch per unit effort.  
 
 - **Open access + scarcity ⇒** escalating effort, falling stocks, **near-extinction**.
+
+:::
+
+::::
+
+<!-- <div style="display:block; margin:-25px;"></div> -->
+
+
 
 
 
@@ -223,10 +224,10 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 </div>
 :::
 ::: {.column width="39%"}
-- **Profits** $\Pi(E) = TR(E) - TC(E)$.  
-- **Total Revenue** $TR(E) = P \times H(E)$ with price $P$ assumed constant.  
-- **Total Cost** $TC(E)$: increases with effort $E$ (linear if marginal cost $c$ is constant).  
-- **Efficient effort $E^{*}$:** maximizes the **vertical gap** between TR and TC.
+- **Profit** (Total Surplus) $\Pi(E) = TR(E) - TC(E)$.  
+- **Total Revenue** (Total Benefit) $TR(E)$: increase with effort at a *diminishing rate*.  
+- **Total Cost** $TC(E)$: increases with effort $E$ (linear if marginal cost $c$ is constant).
+- **Efficient effort $E^{*}$:** maximizes the **vertical gap** between $TR$ and $TC$.
 :::
 ::::
 
@@ -261,7 +262,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 </div>
 :::
 ::: {.column width="39%"}
-- In **totals**: $E^{*}$ maximizes **TR − TC**.  
+- In **totals**: $E^{*}$ maximizes **$TR − TC$**.  
 - In **margins**: $MR = MC$.  
 - Interpretation: At $E^{*}$, the **last unit of effort** adds as much revenue as it costs.
 :::
@@ -280,7 +281,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 :::
 ::: {.column width="39%"}
 - With free entry, users expand effort until **profit per user = 0**.  
-- Condition: **Average Revenue $AR(E_{OA}) = MC$** (with constant $c$).  
+- Condition: **Average Revenue $AR(E_{OA}) = AC$** (with constant $c$).  
 - Because $AR > MR$ when TR shows *diminishing returns*, **$E_{OA} > E^{*}$** and **rents are dissipated**.
 :::
 ::::
