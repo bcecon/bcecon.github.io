@@ -166,11 +166,11 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 </div>
 
 :::callout-note
-Key distinction: **Open access** ⟂ **Common property**.  
+- Key distinction: **Open access** ⟂ **Common property**.  
 
-Open access = common property **without** effective rules or governance.
+- Open access = common property **without** effective rules or governance.
 
-All open-access resources are **common-pool resources (CPR)**, but not all common-pool resources are open access.
+- All open-access resources are **common-pool resources (CPR)**, but not all common-pool resources are open access.
 
 :::
 
