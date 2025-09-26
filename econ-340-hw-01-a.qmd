@@ -102,10 +102,6 @@ Determine the market equilibrium price and quantity of oil.
 
 <details><summary>👉 Click here to see the example answer</summary><br>
 
-- At the market equilibrium, the following holds:
-  - Utility/Profit Maximization: a consumer maximizes utility; a firm maximizes profit (a firm's version of utility).
-  - Market Clearing: a price is such that a quantity demanded is equal to a quantity supplied.
-  
 - Solving the system of demand and supply equations gives the market equilibrium level of quantity ($q_M$) and price ($p_M$):
 $$
 \begin{align}
@@ -184,7 +180,7 @@ Oil consumption causes environmental damage. Suppose the external marginal cost 
 The social marginal cost ($SMC$) is:
 $$
 \begin{align}
-SMC &\,=\, MD + MC\\
+SMC &\,=\, EMC + MC\\
 &\,=\, 2q + 3
 \end{align}
 $$
