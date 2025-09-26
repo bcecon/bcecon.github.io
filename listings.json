@@ -6,6 +6,22 @@
     ]
   },
   {
+    "listing": "/index.html",
+    "items": [
+      "/econ-lec/econ-340-lec-01-2025-0825.html",
+      "/econ-lec/econ-340-lec-02-2025-0827.html",
+      "/econ-lec/econ-340-lec-03-2025-0829.html",
+      "/econ-lec/econ-340-lec-04-2025-0905.html",
+      "/econ-lec/econ-340-lec-05-2025-0915.html",
+      "/econ-lec/econ-340-lec-06-2025-0926.html",
+      "/econ-cw/econ-340-cw-01.html",
+      "/econ-cw/econ-340-cw-02.html",
+      "/econ-cw/econ-340-cw-03.html",
+      "/econ-cw/econ-340-cw-04.html",
+      "/econ-hw/econ-340-hw-01.html"
+    ]
+  },
+  {
     "listing": "/listing-econ-340-wk.html",
     "items": []
   },
@@ -26,23 +42,7 @@
       "/econ-lec/econ-340-lec-03-2025-0829.html",
       "/econ-lec/econ-340-lec-04-2025-0905.html",
       "/econ-lec/econ-340-lec-05-2025-0915.html",
-      "/econ-lec/econ-340-lec-06-2025-0922.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/econ-lec/econ-340-lec-01-2025-0825.html",
-      "/econ-lec/econ-340-lec-02-2025-0827.html",
-      "/econ-lec/econ-340-lec-03-2025-0829.html",
-      "/econ-lec/econ-340-lec-04-2025-0905.html",
-      "/econ-lec/econ-340-lec-05-2025-0915.html",
-      "/econ-lec/econ-340-lec-06-2025-0922.html",
-      "/econ-cw/econ-340-cw-01.html",
-      "/econ-cw/econ-340-cw-02.html",
-      "/econ-cw/econ-340-cw-03.html",
-      "/econ-cw/econ-340-cw-04.html",
-      "/econ-hw/econ-340-hw-01.html"
+      "/econ-lec/econ-340-lec-06-2025-0926.html"
     ]
   }
 ]

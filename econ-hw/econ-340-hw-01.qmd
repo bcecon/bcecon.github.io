@@ -4,7 +4,12 @@ subtitle: Externalities; EPA Edangerment Finding on GHG Emissions; Coase Theorem
 date: last-modified
 from: markdown+emoji
 comments: false
-code-fold: true
+echo: false
+code-fold: false
+
+toc: true
+toc-depth: 6
+toc-expand: 3
 
 execute: 
   warning: false
@@ -24,10 +29,27 @@ library(hrbrthemes)
 
 theme_set(theme_ipsum() +
           theme(strip.background =element_rect(fill="lightgray"),
-                axis.title.x = element_text(size = rel(1.5)),
-                axis.title.y = element_text(size = rel(1.5)),
+                axis.title.x = element_text(size = rel(1.5),),
+                axis.title.y = element_text(size = rel(1.5),
+                                            angle = 360),
                 legend.title = element_text(size=rel(1.25))
                 ))
+
+
+df <- data.frame(
+  q = seq(0,4,.25),
+  mb_p = 4 - seq(0,4,.25),
+  mc = seq(0,4,.25) + 2
+) |> 
+  pivot_longer(cols = mb_p:mc,
+               names_to = 'type',
+               values_to = 'p') |> 
+  mutate(type = factor(type, labels = c('mb_p',
+                                        'mc')),
+         label = recode(type, 'mb_p' = "MB today", 'mc' = "MC"),
+         group = interaction(type, label)  # Creating a unique identifier for color and linetype
+  )
+
 ```
 
 
@@ -49,27 +71,918 @@ The demand function for oil is $q_d = 4 - p$, and the supply function is $q_s = 
 
 ---
 
-**a**. Graph the supply and demand functions on the same coordinate plane.
+## **a**. 
+Graph the supply and demand functions on the same coordinate plane.
 
-**b**. Determine the market equilibrium price and quantity of oil.
 
-**c**. Calculate the consumer surplus and producer surplus at the market equilibrium.
+<details><summary>👉 Click here to see the example answer</summary><br>
 
-**d**. Oil consumption causes environmental damage. Suppose the external marginal cost of oil pollution is given by $EMC = q + 1$. Calculate:
+
+```{r}
+ggplot() +
+  geom_line(data = df, aes(x = q, y = p, color = label, lty = label)) +
+  geom_point(data = 
+               data.frame(
+                 q = c(1), p = c(3)),
+             aes(x = q, y = p), size = 2) +
+  labs(color = 'MB & MC', lty = 'MB & MC') +
+  scale_color_manual(values = c("MB today" = "blue", 
+                                "MC" = "red")) +
+  scale_linetype_manual(values = c("MB today" = "solid",
+                                   "MC" = "solid")) + 
+  xlim(c(0,3))
+
+```
+
+</details><br><br>
+
+## **b**. 
+Determine the market equilibrium price and quantity of oil.
+
+
+<details><summary>👉 Click here to see the example answer</summary><br>
+
+- Solving the system of demand and supply equations gives the market equilibrium level of quantity ($q_M$) and price ($p_M$):
+$$
+\begin{align}
+MB(q_M) =\; &p_M = MC(q_M)\\
+4 - q_M =\; &q_M + 2\\
+\quad\\
+\therefore\quad \left\{\begin{matrix}
+ q_M = 1 \\
+ p_M = 3
+\end{matrix}\right. 
+\end{align}
+$$
+
+</details><br><br>
+
+## **c**. 
+Calculate the consumer surplus and producer surplus at the market equilibrium.
+
+<details><summary>👉 Click here to see the example answer</summary><br>
+
+- Consumer surplus ($CS$) is the value that consumers receive from an allocation minus what it costs them to obtain it.
+  - $CS$ is measured as the area under the demand curve minus the consumer cost.
+- Producer surplus ($PS$) is the value that producers receive from an allocation minus what it costs them to supply it.
+  - $PS$ is measured as the area above the supply curve and below the market price line.
+
+- Therefore, $CS = \frac{1}{2}$ and $PS = \frac{1}{2}$.
+```{r}
+
+ggplot() +
+  geom_line(data = df, aes(x = q, y = p, color = label, lty = label)) +
+  geom_point(data = 
+               data.frame(
+                 q = c(1), p = c(3)),
+             aes(x = q, y = p), size = 2) +
+  geom_polygon(data = data.frame(q = c(0, 1, 0), 
+                                 p = c(4, 3, 3)),
+               aes(x = q, y = p), 
+               fill = "lightblue", alpha = 0.5) +
+  geom_polygon(data = data.frame(q = c(0, 1, 0), 
+                                 p = c(2, 3, 3)),
+               aes(x = q, y = p), 
+               fill = "pink", alpha = 0.5) +
+  geom_text(data = data.frame(q = c(1/3, 1/3),
+                              p = c(3.33, 2.67),
+                              label = c("CS", "PS")
+                              ),
+            aes(x = q, y = p, label = label)
+            ) +
+  geom_hline(yintercept = 3, lty = 2) +
+  labs(color = 'MB & MC', lty = 'MB & MC') +
+  scale_color_manual(values = c("MB today" = "blue", 
+                                "MC" = "red")) +
+  scale_linetype_manual(values = c("MB today" = "solid",
+                                   "MC" = "solid")) + 
+  xlim(c(0,3))
+
+```
+
+
+</details><br><br>
+
+
+
+## **d**. 
+Oil consumption causes environmental damage. Suppose the external marginal cost of oil pollution is given by $EMC = q + 1$. Calculate:
    (1) The socially optimal level of oil use
    (2) The deadweight loss due to pollution at the market equilibrium
 
-**e**. Due to economic development, the future demand for oil increases, resulting in a new demand function $q_d' = 8 - p$. Determine:
+
+**_Answer_**
+
+**(1) The socially optimal level of oil use**
+
+<details><summary>👉 Click here to see the example answer</summary><br>
+
+The social marginal cost ($SMC$) is:
+$$
+\begin{align}
+SMC &\,=\, EMC + MC\\
+&\,=\, 2q + 3
+\end{align}
+$$
+At the socially optimum $(q^{*}, p^{*})$, the social marginal cost of oil use is equal to the (social) marginal benefit:
+
+$$
+\begin{align}
+SMC &\,=\, MB\\
+2q^{*} + 3 &\,=\, 4 - q^{*} 
+\end{align}
+$$
+Therefore, $q^{*} = \frac{1}{3}$.
+```{r}
+ggplot() +
+  geom_line(data = df, aes(x = q, y = p, color = label, lty = label)) +
+  geom_line(data = data.frame(
+    q = seq(0,4,.25),
+    p = 2 * seq(0,4,.25) + 3
+  ), 
+            aes(x = q, y = p)) +
+  geom_point(data = 
+               data.frame(
+                 q = c(1/3), p = c(4-1/3)),
+             aes(x = q, y = p), size = 2) +
+  geom_text(data = data.frame(q = c(1.5),
+                              p = c(5.5),
+                              label = c("SMC")
+                              ),
+            aes(x = q, y = p, label = label)
+            ) +
+  geom_vline(xintercept = 1/3, lty = 2) +
+  labs(color = 'MB & MC', lty = 'MB & MC') +
+  scale_color_manual(values = c("MB today" = "blue", 
+                                "MC" = "red")) +
+  scale_linetype_manual(values = c("MB today" = "solid",
+                                   "MC" = "solid")) +
+  ylim(c(0,6)) + 
+  xlim(c(0,3))
+```
+
+</details><br><br>
+
+
+**(2) The deadweight loss ($DWL$) due to pollution at the market equilibrium**
+
+<details><summary>👉 Click here to see the example answer</summary><br>
+
+
+- Deadweight loss ($DWL$) is the loss of economic efficiency that occurs when the optimal or equilibrium outcome is not achieved in a market. 
+  - What will happen if the firm produces at $q_M$, instead of $q^{*}$?
+    - The total surplus ($TS = CS + PS$) is the same as in question (c).
+
+```{r}
+ggplot() +
+  geom_line(data = df, aes(x = q, y = p, color = label, lty = label)) +
+  geom_line(data = data.frame(
+    q = seq(0,4,.25),
+    p = 2 * seq(0,4,.25) + 3
+  ), 
+            aes(x = q, y = p)) +
+  geom_point(data = 
+               data.frame(
+                 q = c(1), p = c(3)),
+             aes(x = q, y = p), size = 2) +
+  geom_point(data = 
+               data.frame(
+                 q = c(1/3), p = c(11/3)),
+             aes(x = q, y = p), size = 2) +
+  geom_text(data = data.frame(q = c(1.5),
+                              p = c(5.5),
+                              label = c("SMC")
+                              ),
+            aes(x = q, y = p, label = label)
+            ) +
+  geom_polygon(data = data.frame(q = c(0, 1, 0), 
+                                 p = c(4, 3, 3)),
+               aes(x = q, y = p), 
+               fill = "lightblue", alpha = 0.5) +
+  geom_polygon(data = data.frame(q = c(0, 1, 0), 
+                                 p = c(2, 3, 3)),
+               aes(x = q, y = p), 
+               fill = "pink", alpha = 0.5) +
+  geom_text(data = data.frame(q = c(1/3, 1/3),
+                              p = c(3.33, 2.67),
+                              label = c("CS", "PS")
+                              ),
+            aes(x = q, y = p, label = label)
+            ) +
+  labs(color = 'MB & MC', lty = 'MB & MC') +
+  scale_color_manual(values = c("MB today" = "blue", 
+                                "MC" = "red")) +
+  scale_linetype_manual(values = c("MB today" = "solid",
+                                   "MC" = "solid")) +
+  ylim(c(0,6)) + xlim(c(0,3))
+
+```
+
+
+- However, pollution imposes a external total cost on society.
+  - This external cost is measured by the vertical distance between the Social Marginal Cost ($SMC$) and the Private Marginal Cost ($MC$)  up to the production level $q^{*} = 1$.
+  - Note that $EMC = SMC - MC$.
+  - Imagine building up the external total cost unit by unit. For each unit of oil production, you add its marginal damage to society. The sum of all these marginal damage gives you the external total cost. Graphically, this summation is represented by the vertical distance between $SMC$ and $MC$.
+
+```{r}
+ggplot() +
+  geom_line(data = df, aes(x = q, y = p, color = label, lty = label)) +
+  geom_line(data = data.frame(
+    q = seq(0,4,.25),
+    p = 2 * seq(0,4,.25) + 3
+  ), 
+            aes(x = q, y = p)) +
+  geom_text(data = data.frame(q = c(1.5),
+                              p = c(5.5),
+                              label = c("SMC")
+                              ),
+            aes(x = q, y = p, label = label)
+            ) +
+  geom_polygon(data = data.frame(q = c(0, 0, 1, 1), 
+                                 p = c(3, 2, 3, 5)),
+               aes(x = q, y = p), 
+               fill = "black", alpha = 0.5) +
+  geom_text(data = data.frame(q = c(.6),
+                              p = c(3.25),
+                              label = c("External Total Cost")
+                              ),
+            aes(x = q, y = p, label = label)
+            ) +
+  geom_vline(xintercept = 1, lty = 2) +
+  labs(color = 'MB & MC', lty = 'MB & MC') +
+  scale_color_manual(values = c("MB today" = "blue", 
+                                "MC" = "red")) +
+  scale_linetype_manual(values = c("MB today" = "solid",
+                                   "MC" = "solid")) +
+  ylim(c(0,6)) + xlim(c(0,3))
+
+```
+
+- Therefore, $DWL$ can be calculated as the difference between the total surplus and the external total cost in the economy:
+$$
+\begin{align}
+DWL &= \frac{1}{2}\times\left(1 - \frac{1}{3}\right)\times\left(5 - 3\right)\\
+&= \frac{2}{3}
+\end{align}
+$$
+  
+```{r}
+ggplot() +
+  geom_line(data = df, aes(x = q, y = p, color = label, lty = label)) +
+  geom_line(data = data.frame(
+    q = seq(0,4,.25),
+    p = 2 * seq(0,4,.25) + 3
+  ), 
+            aes(x = q, y = p)) +
+  geom_point(data = 
+               data.frame(
+                 q = c(1), p = c(3)),
+             aes(x = q, y = p), size = 2) +
+  geom_point(data = 
+               data.frame(
+                 q = c(1/3), p = c(11/3)),
+             aes(x = q, y = p), size = 2) +
+  geom_text(data = data.frame(q = c(1.5),
+                              p = c(5.5),
+                              label = c("SMC")
+                              ),
+            aes(x = q, y = p, label = label)
+            ) +
+  geom_polygon(data = data.frame(q = c(1, 1, 1/3), 
+                                 p = c(3, 5, 11/3)),
+               aes(x = q, y = p), 
+               fill = "black", alpha = 0.5) +
+  geom_text(data = data.frame(q = c(.8),
+                              p = c(3.85),
+                              label = c("DWL")
+                              ),
+            aes(x = q, y = p, label = label)
+            ) +
+  labs(color = 'MB & MC', lty = 'MB & MC') +
+  scale_color_manual(values = c("MB today" = "blue", 
+                                "MC" = "red")) +
+  scale_linetype_manual(values = c("MB today" = "solid",
+                                   "MC" = "solid")) +
+  ylim(c(0,6)) + xlim(c(0,3))
+
+```
+
+
+</details><br><br>
+
+
+
+## **e**. 
+Due to economic development, the future demand for oil increases, resulting in a new demand function $q_d' = 8 - p$. Determine:
    (1) The new market equilibrium price and quantity
    (2) The new socially optimal level of oil use
    (2) The deadweight loss due to pollution at the market equilibrium in the future
 
-**f**. Propose and briefly explain two distinct public policies that could be implemented to mitigate the environmental damages and reduce the burden on future generations. Discuss the potential effectiveness and challenges of each policy.
 
-**g**. Suppose the government decides to impose a Pigouvian tax to internalize the external costs of oil pollution. Calculate the optimal tax rates in the present and in the future and explain how it would affect the market equilibrium and social welfare.
+**_Answer_:**
+
+**(1) The new market equilibrium price and quantity**
+
+<details><summary>👉 Click here to see the example answer</summary><br>
+
+In the equilibrium, the price is such that the market clears: 
+
+$$
+8 - q^{Future}_{M} = q^{Future}_{M} + 2
+$$
+Therefore, the new equilibrium quantity is $q^{Future}_{M} = 3$, and the new equilibrium price is $p^{Future}_{M}=5$.
+
+</details><br><br>
 
 
-<br><br>
+**(2) The new socially optimal level of oil use**
+
+<details><summary>👉 Click here to see the example answer</summary><br>
+
+At the new socially optimum $q^{*Future}$, the social marginal benefit of the oil use is equal to the social marginal cost of the oil use:
+
+$$
+8 - q^{*Future} = 2q^{*Future} + 3
+$$
+Therefore, the new socially optimal level of oil use is $q^{*Future} = \frac{5}{3}$.
+
+</details><br><br>
+
+
+**(3) The $DWL$ due to pollution at the market equilibrium in the future**
+
+<details><summary>👉 Click here to see the example answer</summary><br>
+
+- Deadweight loss ($DWL$) is the loss of economic efficiency that occurs when the optimal or equilibrium outcome is not achieved in a market. 
+  - What will happen if the firm produces at $q^{Future}_{M}$, instead of $q^{*Future}$?
+    - The total surplus ($TS = CS + PS$) is described as below.
+
+```{r}
+
+df1 <- data.frame(
+  q = seq(0,4,.25),
+  mb_p = 8 - seq(0,4,.25),
+  mc = seq(0,4,.25) + 2
+) |> 
+  pivot_longer(cols = mb_p:mc,
+               names_to = 'type',
+               values_to = 'p') |> 
+  mutate(type = factor(type, labels = c('mb_p',
+                                        'mc')),
+         label = recode(type, 'mb_p' = "MB tomorrow", 'mc' = "MC"),
+         group = interaction(type, label)  # Creating a unique identifier for color and linetype
+  )
+
+ggplot() +
+  geom_line(data = df1, aes(x = q, y = p, color = label, lty = label)) +
+  geom_line(data = data.frame(
+    q = seq(0,6,.25),
+    p = 2 * seq(0,6,.25) + 3
+  ), 
+            aes(x = q, y = p)) +
+  geom_point(data = 
+               data.frame(
+                 q = c(3), p = c(5)),
+             aes(x = q, y = p), size = 2) +
+  geom_point(data = 
+               data.frame(
+                 q = c(5/3), p = c(19/3)),
+             aes(x = q, y = p), size = 2) +
+  geom_text(data = data.frame(q = c(2.33),
+                              p = c(7),
+                              label = c("SMC")
+                              ),
+            aes(x = q, y = p, label = label)
+            ) +
+  geom_polygon(data = data.frame(q = c(0, 3, 0), 
+                                 p = c(8, 5, 5)),
+               aes(x = q, y = p), 
+               fill = "lightblue", alpha = 0.5) +
+  geom_polygon(data = data.frame(q = c(0, 3, 0), 
+                                 p = c(5, 5, 2)),
+               aes(x = q, y = p), 
+               fill = "pink", alpha = 0.5) +
+  geom_text(data = data.frame(q = c(1, 1),
+                              p = c(6, 7.5/2),
+                              label = c("CS", "PS")
+                              ),
+            aes(x = q, y = p, label = label)
+            ) +
+  labs(color = 'MB & MC', lty = 'MB & MC') +
+  scale_color_manual(values = c("MB tomorrow" = "blue", 
+                                "MC" = "red")) +
+  scale_linetype_manual(values = c("MB tomorrow" = "solid",
+                                   "MC" = "solid")) +
+  ylim(c(0,10)) + xlim(c(0,4))
+
+```
+
+
+- However, producing at $q^{Future}_{M} = 3$ creates the external total cost, the vertical distance between $SMC$ and $MC$ 
+
+```{r}
+ggplot() +
+  geom_line(data = df1, aes(x = q, y = p, color = label, lty = label)) +
+  geom_line(data = data.frame(
+    q = seq(0,6,.25),
+    p = 2 * seq(0,6,.25) + 3
+  ), 
+            aes(x = q, y = p)) +
+  geom_point(data = 
+               data.frame(
+                 q = c(3), p = c(5)),
+             aes(x = q, y = p), size = 2) +
+  geom_point(data = 
+               data.frame(
+                 q = c(5/3), p = c(19/3)),
+             aes(x = q, y = p), size = 2) +
+  geom_text(data = data.frame(q = c(3.33),
+                              p = c(9),
+                              label = c("SMC")
+                              ),
+            aes(x = q, y = p, label = label)
+            ) +
+  geom_polygon(data = data.frame(q = c(0, 0, 3, 3), 
+                                 p = c(3, 2, 5, 9)),
+               aes(x = q, y = p), 
+               fill = "black", alpha = 0.5) +
+  geom_text(data = data.frame(q = c(1.5),
+                              p = c(4.67),
+                              label = c("External Total Cost")
+                              ),
+            aes(x = q, y = p, label = label)
+            ) +
+  geom_vline(xintercept = 3, lty = 2) +
+  labs(color = 'MB & MC', lty = 'MB & MC') +
+  scale_color_manual(values = c("MB tomorrow" = "blue", 
+                                "MC" = "red")) +
+  scale_linetype_manual(values = c("MB tomorrow" = "solid",
+                                   "MC" = "solid")) +
+  ylim(c(0,10)) + xlim(c(0,4))
+
+```
+
+- Therefore $DWL$ can be calculated as the difference between the total surplus and the external total cost in the market:
+$$
+\begin{align}
+DWL &= \frac{1}{2}\times\left(3 - \frac{5}{3}\right)\times\left(9 - 5\right)\\
+&= \frac{8}{3}
+\end{align}
+$$
+  
+```{r}
+ggplot() +
+  geom_line(data = df1, aes(x = q, y = p, color = label, lty = label)) +
+  geom_line(data = data.frame(
+    q = seq(0,6,.25),
+    p = 2 * seq(0,6,.25) + 3
+  ), 
+            aes(x = q, y = p)) +
+  geom_point(data = 
+               data.frame(
+                 q = c(3), p = c(5)),
+             aes(x = q, y = p), size = 2) +
+  geom_point(data = 
+               data.frame(
+                 q = c(5/3), p = c(19/3)),
+             aes(x = q, y = p), size = 2) +
+  geom_text(data = data.frame(q = c(2.33),
+                              p = c(8.33),
+                              label = c("SMC")
+                              ),
+            aes(x = q, y = p, label = label)
+            ) +
+  geom_polygon(data = data.frame(q = c(3, 3, 5/3), 
+                                 p = c(5, 9, 19/3)),
+               aes(x = q, y = p), 
+               fill = "black", alpha = 0.5) +
+  geom_text(data = data.frame(q = c(2.5),
+                              p = c(6.5),
+                              label = c("DWL")
+                              ),
+            aes(x = q, y = p, label = label)
+            ) +
+  geom_vline(xintercept = 3, lty = 2) +
+  labs(color = 'MB & MC', lty = 'MB & MC') +
+  scale_color_manual(values = c("MB tomorrow" = "blue", 
+                                "MC" = "red")) +
+  scale_linetype_manual(values = c("MB tomorrow" = "solid",
+                                   "MC" = "solid")) +
+  ylim(c(0,10)) + xlim(c(0,4))
+
+```
+
+
+
+</details><br><br>
+
+
+
+## **f**. 
+Propose and briefly explain two distinct public policies that could be implemented to mitigate the environmental damages and reduce the burden on future generations. Discuss the potential effectiveness and challenges of each policy.
+
+<details><summary>👉 Click here to see the example answer</summary><br>
+
+1. **Implement a Pigouvian Tax**  
+   - **Policy:** Impose a tax equal to the marginal external cost of pollution (e.g., a carbon tax).  
+   - **Benefits:**  
+     - Internalizes the environmental cost of pollution, incentivizing firms and consumers to reduce emissions  
+     - Generates government revenue that can be reinvested in sustainability initiatives or used to offset regressive effects on low-income households  
+   - **Challenges:**  
+     - Determining the “correct” tax level can be politically and technically difficult  
+     - Strong resistance from industries and consumers sensitive to price increases  
+   - **Long-term Impact:** Creates consistent market signals that encourage cleaner technologies and reduce environmental harm over time  
+
+
+2. **Direct Public Investment in Renewable Energy**  
+   - **Policy:** Government funds large-scale projects in solar, wind, and other renewable sources  
+   - **Benefits:**  
+     - Immediately expands the supply of clean energy, reducing reliance on fossil fuels  
+     - Encourages innovation and job growth in the green sector  
+     - Improves long-term energy security  
+   - **Challenges:**  
+     - Requires substantial upfront public spending, potentially straining budgets  
+     - Must overcome fossil fuel infrastructure “lock-in” and opposition from incumbent industries  
+     - Effectiveness depends on careful allocation to avoid waste or inefficiency  
+   - **Long-term Impact:** Accelerates the energy transition, lowering environmental damages and easing the burden on future generations by reducing climate risks  
+   
+
+</details><br><br>
+
+
+
+## **g**. 
+Suppose the government decides to impose a Pigouvian tax to internalize the external costs of oil pollution. Calculate the optimal tax rates in the present and in the future and explain how it would affect the market equilibrium and social welfare.
+
+
+**_Answer_**:
+
+**Pigouvian Tax for Oil Production:**
+
+<details><summary>👉 Click here to see the example answer</summary><br>
+
+  - To address the negative externality imposed by oil production, we are considering implementing a price instrument known as Pigouvian tax, or corrective taxation. This policy involves setting a per-unit tax equal to the marginal environmental damage caused by oil production. 
+
+$$
+\begin{align}
+\text{Present}:&\quad t^{*} = EMC(q^{*}) = q^{*} + 1\\
+\text{Future}:&\quad t^{*Future} = EMC(q^{*Future}) = q^{*Future} + 1
+\end{align}
+$$
+- Therefore, the Pigouvian tax rate in the present is $t^{*} = \frac{4}{3}$, and the Pigouvian tax in the future is $t^{*Future} = \frac{8}{3}$.
+
+</details><br><br>
+
+
+ 
+**How the Pigouvian Tax would affect the market equilibrium and social welfare**
+
+<details><summary>👉 Click here to see the example answer</summary><br>
+
+- **Purpose of the Pigouvian Tax** 
+
+  The tax is designed to internalize the external costs of oil pollution by aligning private costs with social costs. Under this scheme, the **Social Marginal Cost (SMC)** curve becomes the effective private marginal cost of firms.  
+
+
+### 1. Optimal Tax Rates  
+- **Present:** The optimal tax equals the current external marginal cost of oil pollution.  
+- **Future:** The optimal tax should be updated to reflect future external damages, which may rise if pollution accumulates or environmental sensitivity increases.  
+
+
+### 2. Effect on Market Equilibrium  
+- The supply curve shifts **upward** by the tax amount.  
+- The new equilibrium has:  
+  - A **higher market price**  
+  - A **lower equilibrium quantity**  
+- The burden of the tax is shared between producers and consumers, depending on the relative elasticities of demand and supply.  
+
+### 3. Effect on Social Welfare  
+- **Efficiency Gains:**  
+  - The deadweight loss from the externality disappears as production contracts to the socially optimal level.  
+  - Resources are allocated more efficiently because environmental costs are reflected in prices.  
+- **Welfare Improvements:**  
+  - Producer surplus decreases and consumer surplus shrinks, but overall social welfare **rises** because external costs are now accounted for.  
+- **Tax Revenue:**  
+  - Can be used for environmental mitigation, subsidizing clean energy, or reducing other distortionary taxes.  
+
+
+### 4. Long-Run Impacts  
+- Creates incentives for innovation in cleaner technologies and greater energy efficiency.  
+- Encourages substitution toward renewable energy and reduces long-term environmental damages.  
+
+### 5. Implementation Challenges  
+- **Measurement:** Difficulties in estimating the precise marginal external damage to set the correct tax.  
+- **Economic Impact:** Oil-dependent industries and regions may face adjustment costs.  
+- **Political Resistance:** Strong opposition likely from oil producers, consumers, and lobbyists.  
+- **Equity Concerns:** Higher energy prices can disproportionately affect lower-income households, requiring compensatory measures (e.g., rebates, targeted subsidies).  
+
+
+
+
+</details><br><br>
+
+
+# Question 3. Coase Theorem (Points: 30)
+
+A small town has two factories, Alpha and Beta, located side by side. Alpha emits smoke that drifts into Beta’s building, making it harder for Beta’s workers to breathe and lowering their productivity. Currently, Alpha produces 12 units of smoke per day. Cutting back on emissions is costly:  
+
+Let $x$ denote the units of emission reduced by Alpha (abatement). Treat $x$ as any number from 0 to 12.
+
+- Alpha’s marginal cost of reducing each unit of smoke is: $MC = x$ (in \$).  
+- Beta’s marginal benefit from each unit of reduction (cleaner air, healthier workers, higher productivity) is: $MB = 12 − x$ (in \$).  
+
+Two technological solutions are available:  
+
+-	Beta can pay $10 per day to rent an **air filter** from a third party, which reduces Alpha’s smoke and improves the air quality in Beta’s workplace.
+- Alpha can be relocated to another industrial site at a cost of $40 per day, which eliminates all exposure for Beta.
+
+
+---
+
+## **a.** 
+Draw a diagram with “units of emission reduced” on the horizontal axis, showing marginal costs and marginal benefits. Without the filter or relocation, what is the efficient amount of smoke Alpha should cut?  
+
+<details><summary>👉 Click here to see the example answer</summary><br>
+
+Set $MC=MB$:
+$$
+x = 12 - x \;\Rightarrow\; 2x=12 \;\Rightarrow\; \boxed{x^{*}=6}.
+$$
+
+
+```{r}
+# (a) Without filter
+df_a <- data.frame(x = seq(0, 12, 0.1))
+df_a$MC <- df_a$x
+df_a$MB <- 12 - df_a$x
+
+ggplot(df_a, aes(x = x)) +
+  geom_line(aes(y = MC, color = "MC = x"), size = 1) +
+  geom_line(aes(y = MB, color = "MB = 12 - x"), size = 1) +
+  geom_vline(xintercept = 6, linetype = "dashed") +
+  geom_hline(yintercept = 6, linetype = "dashed") +
+  annotate("text", x = 6.2, y = 0.5, label = "x* = 6", hjust = 0) +
+  labs(title = "(a) Efficient Reduction Without Filter",
+       x = "Units of Emission Reduced (x)",
+       y = "Dollars",
+       color = "Curves")
+```
+
+</details><br><br>
+
+## **b.** 
+Suppose the air filter is installed, reducing Beta’s marginal benefit from each unit of abatement to $\left(6 - \tfrac{x}{2}\right)$. That is, Beta now values emission reduction at only half the original level. What is the new efficient level of emission reduction?
+
+<details><summary>👉 Click here to see the example answer</summary><br>
+
+The filter halves Beta’s marginal benefit:
+$$
+MB_f(x)=\tfrac{1}{2}(12-x)=6-\tfrac{x}{2}.
+$$
+
+Set $MC=MB_f$:
+$$
+x = 6 - \frac{x}{2} \;\Rightarrow\; \frac{3}{2}x=6 \;\Rightarrow\; \boxed{x_f^{*}=4}.
+$$
+
+```{r}
+# (b) With filter
+df_b <- data.frame(x = seq(0, 12, 0.1))
+df_b$MC <- df_b$x
+df_b$MBf <- 6 - df_b$x/2
+
+ggplot(df_b, aes(x = x)) +
+  geom_line(aes(y = MC, color = "MC = x"), size = 1) +
+  geom_line(aes(y = MBf, color = "MB = 6 - x/2"), size = 1) +
+  geom_vline(xintercept = 4, linetype = "dashed") +
+  geom_hline(yintercept = 4, linetype = "dashed") +
+  annotate("text", x = 4.2, y = 0.5, label = "x* = 4", hjust = 0) +
+  labs(title = "(b) Efficient Reduction With Filter",
+       x = "Units of Emission Reduced (x)",
+       y = "Dollars",
+       color = "Curves")
+```
+
+
+### Why the Filter Halves Beta’s Marginal Benefit  
+
+- **Without the filter:**  
+  Every unit of abatement removes **1 full unit of smoke**.  
+  - If Alpha cuts back 1 more unit, Beta enjoys the full relief of that unit.  
+  - The marginal benefit starts high (12) and declines linearly as fewer units remain:  
+$$
+    MB(x) = 12 - x
+$$  
+
+- **With the filter:**  
+  The filter already removes **half the harm** from every unit of smoke that remains.  
+  - Each unit of abatement by Alpha now only solves **half as much of a problem** as before.  
+  - Example: abating 1 unit takes Beta from “½ unit of smoke” to “0 smoke,” not from “1 full unit” to “0.”  
+
+- **Result:**  
+  Both the intercept and the slope of the MB curve are halved:  
+$$
+  MB_f(x) = \tfrac{1}{2}(12 - x) = 6 - 0.5x
+$$ 
+
+The filter is already doing half the cleanup, so Beta values any additional abatement by Alpha at only half the original amount.  
+
+
+</details><br><br>
+
+## **c.** 
+Calculate the _net benefit_ (efficiency) of Beta for each scenario:  
+
+&nbsp;&nbsp;&nbsp;&nbsp;1. Do not rent the air filter or relocate Alpha, but instead pay Alpha not to emit smoke.  
+&nbsp;&nbsp;&nbsp;&nbsp;2. Rent the air filter and then also pay Alpha not to emit smoke.  
+&nbsp;&nbsp;&nbsp;&nbsp;(*Hint: There are two benefits under this scenario---(1) Relative to the status quo of 12 smoke emissions, the benefits of air filter rental have two components. First, Beta gets the full benefits of seeing 4 smoke reduced. Second, each unit of damage to Beta is cut in half by the filter for the remaining 8 smoke emissions.)  
+&nbsp;&nbsp;&nbsp;&nbsp;3. Pay to relocate Alpha.  
+
+&nbsp;&nbsp;&nbsp;&nbsp;**Which scenario yields the highest efficiency?** Show your calculations.
+
+
+🔎 **Guidelines:**  
+- The _net benefit (efficiency)_ is:  
+  $$
+  (\text{Total Benefits from reduction}) \; - \; (\text{Total Costs (abatement + filter/relocation)})
+  $$  
+
+
+**_Answer_**
+
+**Scenario 1. Do not rent the air filter or relocate Alpha, but instead pay Alpha not to emit smoke.**
+
+<details><summary>👉 Click here to see the example answer</summary><br>
+
+  
+```{r}
+# Common grids
+xs <- seq(0, 12, 0.01)
+df  <- data.frame(x = xs,
+                  MC = xs,
+                  MB = 12 - xs,
+                  MBf = 6 - xs/2)
+
+############################
+# Scenario 1: No filter, no relocation
+############################
+p_s1 <- ggplot(df, aes(x = x)) +
+  # Net benefit area between MB and MC up to x = 6
+  geom_ribbon(data = subset(df, x <= 6),
+              aes(ymin = MC, ymax = MB),
+              alpha = 0.25) +
+  geom_line(aes(y = MC, color = "MC = x"), size = 1) +
+  geom_line(aes(y = MB, color = "MB = 12 - x"), size = 1) +
+  geom_vline(xintercept = 6, linetype = "dashed") +
+  geom_hline(yintercept = 6, linetype = "dashed") +
+  annotate("text", x = 6.2, y = 0.5, label = "x* = 6", hjust = 0) +
+  annotate("text", x = 2.5, y = 7, label = "Net benefit area", size = 3.5) +
+  labs(title = "Scenario 1: No Filter, No Relocation",
+       subtitle = "Efficient abatement x* = 6; shaded area = NB1 (36)",
+       x = "Units of Emission Reduced (x)", y = "Dollars", color = "Curves") +
+  scale_x_continuous(breaks = seq(0, 13, 2))  +
+  scale_y_continuous(breaks = seq(0, 13, 2)) 
+
+############################
+# Scenario 2: Install filter ($10/day) and abate optimally
+############################
+# Components to visualize:
+# A) Net benefit of abating 4 with the filter: area between MBf and MC from 0 to 4
+# B) Baseline filter benefit on remaining emissions: half of original MB from 4 to 12
+
+p_s2 <- ggplot(df, aes(x = x)) +
+  # (B) Baseline filter benefit on remaining emissions: 0.5 * MB from x in [4,12]
+  geom_ribbon(data = subset(df, x >= 4 & x <= 12),
+              aes(ymin = MB/2, ymax = MB), 
+              alpha = 0.20) +
+  # (A) Net benefit of abating 4 with filter: area between MBf and MC from 0 to 4
+  geom_ribbon(data = subset(df, x >= 0 & x <= 4),
+              aes(ymin = MC, ymax = MB),
+              alpha = 0.30) +
+  # Curves
+  geom_line(aes(y = MC, color = "MC = x"), size = 1) +
+  geom_line(aes(y = MBf, color = "MB_f = 6 - x/2"), size = 1) +
+  geom_line(aes(y = MB, color = "MB (original) = 12 - x"),
+            size = 0.8) +
+  # Efficient point with filter
+  geom_vline(xintercept = 4, linetype = "dashed") +
+  geom_hline(yintercept = 4, linetype = "dashed") +
+  annotate("text", x = 4.2, y = 0.6, label = "x* = 4", hjust = 0) +
+  # Labels for shaded components and cost note
+  annotate("text", x = 1.9, y = 7, label = "A: Net benefit of abating 4\n(with filter)", size = 3.5) +
+  annotate("text", x = 7, y = 5, label = "B: Filter baseline benefit\non remaining emissions", size = 3.5) +
+  annotate("text", x = 7, y = 11, label = "Minus $10/day filter cost", size = 3.5) +
+  labs(title = "Scenario 2: Install Filter and Abate Optimally",
+       subtitle = "Shaded:\n A (0–4 between MB & MC)\n + B (half of original MB, 4–12);\nNB2 = 38 after subtracting AC(4) and $10 filter cost",
+       x = "Units of Emission Reduced (x)", y = "Dollars", color = "Curves") +
+  scale_x_continuous(breaks = seq(0, 13, 2))  +
+  scale_y_continuous(breaks = seq(0, 13, 2)) 
+
+############################
+# Scenario 3: Relocate Alpha ($40/day), no abatement needed
+############################
+# Shade the full area under original MB from 0 to 12 (total benefit = 72),
+# then note the $40 relocation cost.
+p_s3 <- ggplot(df, aes(x = x)) +
+  geom_ribbon(aes(ymin = 0, ymax = MB), alpha = 0.25) +
+  geom_line(aes(y = MB, color = "MB = 12 - x"), size = 1) +
+  # For reference, include MC line faintly (not binding here)
+  geom_line(aes(y = MC, color = "MC = x"), size = 0.7) +
+  annotate("text", x = 3, y = 6, label = "Total benefit = Area under MB \nfrom 0 to 12 = 72", size = 3.7) +
+  annotate("text", x = 10, y = 5.5, label = "Minus $40 relocation cost", size = 3.7) +
+  labs(title = "Scenario 3: Relocate Alpha (Eliminate Exposure)",
+       subtitle = "Shaded area (0–12 under MB) = 72; NB3 = 72 - 40 = 32",
+       x = "Units of Emission Reduced (x)", y = "Dollars", color = "Curves") +
+  scale_x_continuous(breaks = seq(0, 13, 2))  +
+  scale_y_continuous(breaks = seq(0, 13, 2)) 
+
+# If you want them side by side:
+# install.packages("patchwork")  # if needed
+# library(patchwork)
+# p_s1 + p_s2 + p_s3
+```
+
+```{r}
+p_s1
+```
+
+</details><br><br>
+
+**Scenario 2. Rent the air filter and then also pay Alpha not to emit smoke.**  
+<details><summary>👉 Click here to see the example answer</summary><br>
+
+
+```{r}
+p_s2
+```
+
+### Intuition with an Example  
+
+- Suppose **1 unit of smoke causes \$10 of harm** to Beta.  
+
+- **With the filter in place:**  
+  - If Alpha **emits** that unit, the filter cuts the harm in half, so Beta only suffers **\$5 of damage**.  
+  - If Alpha **abates** that unit (doesn’t emit it at all), Beta avoids the **entire \$10 of harm**, not just the \$5 that would remain after the filter.  
+
+👉 This shows why the benefit of abating the first few units should be measured using the **original marginal benefit curve, \(MB(x) = 12 - x\)**, not the reduced curve.  
+
+- For units that are **abated** → use the **old MB curve (\(12 - x\))**, since those units vanish completely **relative to the status quo** (12 units of smoke without the filter).  
+- For units that are **not abated** → count only **half of the old MB**, since the filter reduces their damage by 50% **relative to the status quo**.  
+
+
+</details><br><br>
+
+
+**Scenario 3. Pay to relocate Alpha.**  
+<details><summary>👉 Click here to see the example answer</summary><br>
+
+
+```{r}
+p_s3
+```
+
+</details><br><br>
+
+
+**Comparison & conclusion**
+
+<details><summary>👉 Click here to see the example answer</summary><br>
+
+$$
+NB_1=36,\quad NB_2=38,\quad NB_3=32.
+$$
+
+$$
+\boxed{\text{Highest efficiency: Scenario 2 (filter + optimal abatement).}}
+$$
+
+Implication of Scenario 2 (Filter + Abatement)
+
+- With private negotiation, Beta and Alpha can agree to both install the filter (\$10 per day) and abate 4 units.  
+- Even after including the filter’s fixed cost and Alpha’s abatement cost, this **combined approach yields the highest net benefit** compared with using only abatement or full relocation.  
+
+
+</details><br><br>
+
+
+## **d.** 
+Assume no transaction costs or free riding. According to the Coase theorem, explain why the two factories could reach the efficient outcome through negotiation even if Beta has the right to force Alpha to move at its own expense.  
+
+<details><summary>👉 Click here to see the example answer</summary><br>
+
+
+If negotiation is easy and property rights are clear, Alpha and Beta can always reach the **efficient outcome**, no matter who holds the rights.  
+
+In this case, **Scenario 2**—installing the filter and reducing emissions by 4 units—gives the highest net benefit.  
+
+**Key Lesson:** The most effective solution often comes from a **combination of technology and abatement**. Through negotiation, both sides can agree on a plan that balances **benefits, costs, and fixed expenses** better than either extreme. 
+
+:::callout-note
+Property rights determine who pays and who gains, but not the overall efficiency.  
+:::
+
+</details><br><br>
+
 
 # Question 2. EPA Endangerment Finding on Greenhouse Gas Emissions (Points: 40)
 
@@ -167,51 +1080,8 @@ Draft your comments using **MS Word** or similar program. This makes it easier f
 
 <br><br>
 
-# Question 3. Coase Theorem (Points: 30)
-
-A small town has two factories, Alpha and Beta, located side by side. Alpha emits smoke that drifts into Beta’s building, making it harder for Beta’s workers to breathe and lowering their productivity. Currently, Alpha produces 12 units of smoke per day. Cutting back on emissions is costly:  
-
-Let $x$ denote the units of emission reduced by Alpha (abatement). Treat $x$ as any number from 0 to 12.
-
-- Alpha’s marginal cost of reducing each unit of smoke is: $MC = x$ (in \$).  
-- Beta’s marginal benefit from each unit of reduction (cleaner air, healthier workers, higher productivity) is: $MB = 12 − x$ (in \$).  
-
-Two technological solutions are available:  
-
--	Beta can pay $10 per day to rent an **air filter** from a third party, which reduces Alpha’s smoke and improves the air quality in Beta’s workplace.
-- Alpha can be relocated to another industrial site at a cost of $40 per day, which eliminates all exposure for Beta.
 
 
----
-
-**a.** Draw a diagram with “units of emission reduced” on the horizontal axis, showing marginal costs and marginal benefits. Without the filter or relocation, what is the efficient amount of smoke Alpha should cut?  
-
-**b.** Suppose the air filter is installed, reducing Beta’s marginal benefit from each unit of abatement to $\left(6 - \tfrac{x}{2}\right)$. That is, Beta now values emission reduction at only half the original level. What is the new efficient level of emission reduction?
-
-**c.** Calculate the _net benefit_ (efficiency) of Beta for each scenario:  
-
-&nbsp;&nbsp;&nbsp;&nbsp;1. Do not rent the air filter or relocate Alpha, but instead pay Alpha not to emit smoke.  
-&nbsp;&nbsp;&nbsp;&nbsp;2. Rent the air filter and then also pay Alpha not to emit smoke.  
-&nbsp;&nbsp;&nbsp;&nbsp;(*Hint: There are two benefits under this scenario---(1) Relative to the status quo of 12 smoke emissions, the benefits of air filter rental have two components. First, Beta gets the full benefits of seeing 4 smoke reduced. Second, each unit of damage to Beta is cut in half by the filter for the remaining 8 smoke emissions.)  
-&nbsp;&nbsp;&nbsp;&nbsp;3. Pay to relocate Alpha.  
-
-&nbsp;&nbsp;&nbsp;&nbsp;**Which scenario yields the highest efficiency?** Show your calculations.
-
-
-🔎 **Guidelines:**  
-- The _net benefit (efficiency)_ is:  
-  $$
-  (\text{Total Benefits from reduction}) \; - \; (\text{Total Costs (abatement + filter/relocation)})
-  $$  
-
-
-**d.** Assume no transaction costs or free riding. According to the Coase theorem, explain why the two factories could reach the efficient outcome through negotiation even if Beta has the right to force Alpha to move at its own expense.  
-
-
-
-
-
-<br><br>
 
 # Question 4. Class Participation (Not Graded for Homework 1)
 

@@ -156,13 +156,12 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 <div style="font-size:1.25rem; max-width:800px; margin:0.5rem auto;">
 
-| Regime | Excludability | Who sets rules? | Who captures rents? | Typical risks |
-|--------|---------------|-----------------|---------------------|---------------|
-| <span class="fragment">**Private**</span> | <span class="fragment">High</span> | <span class="fragment">Owner(s)</span> | <span class="fragment">Owner(s)</span> | <span class="fragment">Externalities; market power</span> |
-| <span class="fragment">**State**</span> | <span class="fragment">High (by law)</span> | <span class="fragment">Government</span> | <span class="fragment">Public (in principle)</span> | <span class="fragment">Bureaucratic drift; info gaps</span> |
-| <span class="fragment">**Common**</span> | <span class="fragment">Group-limited</span> | <span class="fragment">Co-owners</span> | <span class="fragment">Co-owners</span> | <span class="fragment">Cohesion/monitoring failures</span> |
-| <span class="fragment">**Open Access**</span> | <span class="fragment">None</span> | <span class="fragment">No one</span> | <span class="fragment">No one (dissipated)</span> | <span class="fragment">Overuse; collapse risk</span> |
-
+| Attribute | **Private** | **State** | **Common** | **Open Access** |
+|-----------|-------------|-----------|------------|-----------------|
+| **Excludability** | <span class="fragment">High</span> | <span class="fragment">High (by law)</span> | <span class="fragment">Group-limited</span> | <span class="fragment">None</span> |
+| **Who sets rules?** | <span class="fragment">Owner(s)</span> | <span class="fragment">Government</span> | <span class="fragment">Co-owners</span> | <span class="fragment">No one</span> |
+| **Who captures rents?** | <span class="fragment">Owner(s)</span> | <span class="fragment">Public (in principle)</span> | <span class="fragment">Co-owners</span> | <span class="fragment">No one (dissipated)</span> |
+| **Typical risks** | <span class="fragment">Externalities; market power</span> | <span class="fragment">Bureaucratic drift; info gaps</span> | <span class="fragment">Cohesion/monitoring failures</span> | <span class="fragment">Overuse; collapse risk</span> |
 </div>
 
 :::callout-note
@@ -298,12 +297,29 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 
 - Under free entry, effort keeps expanding until **each user earns zero profit**.  
-- This **zero-profit condition** is:  
+- The **open-access condition** is:  
   $$
   AB(E_{OA}) = AC(E_{OA})
   $$  
 
-<div style="display:block; margin:-20px;"></div>
+<div style="display:block; margin:-35px;"></div>
+
+- At this point, $E = E_{OA}$, **Total Surplus (profit)** is zero:  
+  $$
+  \begin{align}
+  TS(E_{OA}) &= 0\quad \Leftrightarrow \\
+  \frac{TB(E_{OA})}{E_{OA}} &= \frac{TC(E_{OA})}{E_{OA}}
+  \end{align}
+  $$
+<!-- <div style="display:block; margin:-15px;"></div> -->
+
+<!--   $$ -->
+<!-- \begin{align} -->
+<!-- TB(E_{OA}) &= TC(E_{OA})    \quad \Leftrightarrow \\ -->
+<!-- \frac{TB(E_{OA})}{E_{OA}} &= \frac{TC(E_{OA})}{E_{OA}}    \quad \Leftrightarrow \\ -->
+<!-- \text{Thus,}\quad AB(E_{OA}) &= AC(E_{OA}) -->
+<!-- \end{align} -->
+<!--   $$ -->
 
 
 :::
