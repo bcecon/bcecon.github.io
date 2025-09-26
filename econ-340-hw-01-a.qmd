@@ -6,9 +6,10 @@ from: markdown+emoji
 comments: false
 echo: false
 code-fold: false
+
 toc: true
-toc-depth: 3
-toc-expand: true
+toc-depth: 6
+toc-expand: 3
 
 execute: 
   warning: false
@@ -174,8 +175,9 @@ Oil consumption causes environmental damage. Suppose the external marginal cost 
    (2) The deadweight loss due to pollution at the market equilibrium
 
 
-**Answer**
-(1) The socially optimal level of oil use
+**_Answer_**
+
+**(1) The socially optimal level of oil use**
 
 <details><summary>👉 Click here to see the example answer</summary><br>
 
@@ -226,7 +228,7 @@ ggplot() +
 </details><br><br>
 
 
-(2) The deadweight loss ($DWL$) due to pollution at the market equilibrium
+**(2) The deadweight loss ($DWL$) due to pollution at the market equilibrium**
 
 <details><summary>👉 Click here to see the example answer</summary><br>
 
@@ -381,9 +383,9 @@ Due to economic development, the future demand for oil increases, resulting in a
    (2) The deadweight loss due to pollution at the market equilibrium in the future
 
 
-**Answer:**
+**_Answer_:**
 
-(1) The new market equilibrium price and quantity
+**(1) The new market equilibrium price and quantity**
 
 <details><summary>👉 Click here to see the example answer</summary><br>
 
@@ -397,7 +399,7 @@ Therefore, the new equilibrium quantity is $q^{Future}_{M} = 3$, and the new equ
 </details><br><br>
 
 
-(2) The new socially optimal level of oil use
+**(2) The new socially optimal level of oil use**
 
 <details><summary>👉 Click here to see the example answer</summary><br>
 
@@ -411,7 +413,7 @@ Therefore, the new socially optimal level of oil use is $q^{*Future} = \frac{5}{
 </details><br><br>
 
 
-(3) The $DWL$ due to pollution at the market equilibrium in the future
+**(3) The $DWL$ due to pollution at the market equilibrium in the future**
 
 <details><summary>👉 Click here to see the example answer</summary><br>
 
@@ -616,15 +618,19 @@ Propose and briefly explain two distinct public policies that could be implement
 ## **g**. 
 Suppose the government decides to impose a Pigouvian tax to internalize the external costs of oil pollution. Calculate the optimal tax rates in the present and in the future and explain how it would affect the market equilibrium and social welfare.
 
+
+**_Answer_**:
+
+**Pigouvian Tax for Oil Production:**
+
 <details><summary>👉 Click here to see the example answer</summary><br>
 
-- Corrective Taxation (Pigouvian Tax) for Oil Production:
-  - To address the negative externality imposed by oil production, we are considering implementing a price instrument known as corrective taxation, or Pigouvian tax. This policy involves setting a per-unit tax equal to the marginal environmental damage caused by oil production. 
+  - To address the negative externality imposed by oil production, we are considering implementing a price instrument known as Pigouvian tax, or corrective taxation. This policy involves setting a per-unit tax equal to the marginal environmental damage caused by oil production. 
 
 $$
 \begin{align}
-\text{Present}:&\quad t^{*} = MD(q^{*}) = q^{*} + 1\\
-\text{Future}:&\quad t^{*Future} = MD(q^{*Future}) = q^{*Future} + 1
+\text{Present}:&\quad t^{*} = EMC(q^{*}) = q^{*} + 1\\
+\text{Future}:&\quad t^{*Future} = EMC(q^{*Future}) = q^{*Future} + 1
 \end{align}
 $$
 - Therefore, the Pigouvian tax rate in the present is $t^{*} = \frac{4}{3}$, and the Pigouvian tax in the future is $t^{*Future} = \frac{8}{3}$.
@@ -633,7 +639,7 @@ $$
 
 
  
-How the Pigouvian Tax would affect the market equilibrium and social welfare
+**How the Pigouvian Tax would affect the market equilibrium and social welfare**
 
 <details><summary>👉 Click here to see the example answer</summary><br>
 
@@ -678,104 +684,6 @@ How the Pigouvian Tax would affect the market equilibrium and social welfare
 
 
 </details><br><br>
-
-
-# Question 2. EPA Endangerment Finding on Greenhouse Gas Emissions (Points: 40)
-
-You have an opportunity to comment and voice your opinions on the [US Environmental Protection Agency’s proposal to rescind its endangerment finding](https://www.epa.gov/regulations-emissions-vehicles-and-engines/proposed-rule-reconsideration-2009-endangerment-finding) and end federal regulation of greenhouse gas emissions. Public comments on the proposal are invited and should be **submitted no later than 11:59 PM EDT on Monday, September 22, 2025**.
-
-### Homework Submission
--	For grading purposes, please submit a PDF of your comment to Brightspace by **11:59 PM EDT on Monday, September 22, 2025**.
-
--	You are not required to submit your comment to the US EPA for grading. However, I strongly encourage you to take this opportunity to learn more about an important policy issue, practice your reasoning and argumentation skills, and engage in civic responsibility.
-- If you are not submitting your comment to the EPA, you do not need to include the docket ID or other identifying info from the “tips for effective comments.”
-- For this homework submission, there is no required font, spacing, citation style, or page format. Aim for about 2–3 pages if that is helpful, but shorter or longer is fine if your argument is clear and well-supported.
-- Please address the core question---whether GHGs should be treated as "air pollution" under CAA §202(a)---and take a clear position with reasoning and any sources you find useful.
-
-	<!-- -	If you submit your comment to the US EPA, please either provide the URL where it appears online or forward the email of your submission to [bchoe@geneseo.edu](mailto:bchoe@geneseo.edu). -->
-
-
-## How to Submit Comments to the US EPA
-
-You can submit comments online or by email. The deadline for Submitting Comments is 11:59 PM EDT on Monday, September 22, 2025.
-
-### Commenting online:
-
-- EPA prefers that comments be submitted online using the Federal eRulemaking Portal.
-- Click this link for commenting on the [**EPA proposal, Docket ID No. EPA-HQ-OAR-2025-0194**](https://www.regulations.gov/docket/EPA-HQ-OAR-2025-0194).
-- Click the tab “Docket Documents.”
-- Click the “Comment” button.
-![](https://bcdanl.github.io/lec_figs/epa-ghg-repeal-comment.png)
-- Type or paste your comment in the comment field OR attach a file with your comment.
-
-
-### Commenting by Email:
-
-- Type the Docket ID No. in the subject line of your email message: **EPA-HQ-OAR-2025-0194**
-- Send your email to [a-and-r-Docket@epa.gov](mailto:a-and-r-Docket@epa.gov).
-
-
-## Writing Effective Comments
-
-Begin by informing yourself about EPA’s proposal, their analysis, and the analyses of others using links provided below. Search for additional credible sources.
-
-Effective comments are concise and strongly reasoned. Recission of the endangerment finding will have many far-reaching consequences. Don’t attempt to be comprehensive in your comments; focus on one or two issues that are most salient to you. Support your comments with citations to sources if relevant. Include a statement about why the proposed recission is important to you personally. See also EPA’s [tips for effective comments](https://www.epa.gov/dockets/commenting-epa-dockets#tips) on rulemaking dockets.
-
-Draft your comments using **MS Word** or similar program. This makes it easier for you to make and save revisions before you submit your comments.
-
-## The Main Issue: EPA’s Proposal to Reconsider the 2009 Endangerment Finding
-
-### Background
-- **2009 Endangerment Finding**: The EPA determined that greenhouse gases (GHGs) endanger public health and welfare, and that emissions from new motor vehicles contribute to this threat.  
-- **Legal Foundation**: This finding triggered the EPA’s obligation under **Clean Air Act (CAA) §202(a)** to regulate GHG emissions from cars and trucks.  
-- **Supreme Court Ruling**: In *Massachusetts v. EPA (2007)*, the Court confirmed that GHGs are “air pollutants” under the Clean Air Act.
-
-### The Current Proposal (2025)
-- **EPA proposes to rescind the 2009 Endangerment Finding.**
-- This would remove the statutory basis for regulating GHG emissions from new vehicles under CAA §202(a).
-- As a result, all **GHG standards for light-, medium-, and heavy-duty vehicles** would be repealed.
-
-
-### The Main Issue
-**Should GHGs be treated as “air pollution” under CAA §202(a), requiring EPA regulation, or not?**
-
-- **Pro-Regulation View**:
-  - GHGs clearly fit the Act’s definition of “air pollutant.”
-  - Vehicle emissions are a significant source of U.S. GHGs (~17% of total).
-  - Regulation delivers real emission cuts and large net economic benefits (fuel + maintenance savings, health co-benefits).
-
-- **Repeal View**:
-  - Section 202(a) was not intended for global pollutants like CO₂.
-  - Vehicle standards have only a modest impact on global concentrations and warming.
-  - Compliance raises vehicle costs and limits consumer choice, creating economic harm.
-
-
-
-## Learn about EPA’s Proposal
-
-- [EPA Proposed Rule: Reconsideration of Endangerment Finding and Greenhouse Gas Vehicle Standards](https://www.epa.gov/regulations-emissions-vehicles-and-engines/proposed-rule-reconsideration-2009-endangerment-finding)
-- [EPA Notice of Proposed Rulemaking](https://www.govinfo.gov/content/pkg/FR-2025-08-01/pdf/2025-14572.pdf)
-- [EPA Draft Regulatory Impact Analysis](https://www.epa.gov/system/files/documents/2025-07/420d25003.pdf)
-
-
-## Resources related to the Proposal
-- [A Critical Review of Impacts of Greenhouse Gas Emissions on the U.S. Climate](https://www.energy.gov/topics/climate), US Department of Energy, Climate Working Group, Jul 23, 2025.
-
-- [The Practice and Assessment of Science: Five Foundational Flaws in the Department of Energy's 2025 Climate Report](https://www.ametsoc.org/ams/about-ams/ams-statements/statements-of-the-ams-in-force/the-practice-and-assessment-of-science-five-foundational-flaws-in-the-department-of-energys-2025-climate-report/), Executive Committee of the American Meteorological Society, Aug 27, 2025.
-
-- Tandon, A., L. Hickman, C. Keating, and R. McSweeney, [Factcheck: Trump’s climate report includes more than 100 false or misleading claims](https://interactive.carbonbrief.org/doe-factcheck/index.html), Carbon Brief, Aug 13, 2025.
-
-- Citizens’ Climate Lobby, [Comment on Reconsideration of 2009 Endangerment Finding and Greenhouse Gas Vehicle Standards](https://bcecon.github.io/docs/ccl-epa-endangerment-comment.pdf), Aug 8, 2025.
-
-- Patterson S. and Niiler E., [Trump Administration Aims to Roll Back Bedrock Climate Tool](https://bcecon.github.io/docs/wsj-epa-2025-0729.pdf), The Wall Street Journal, July 29, 2025.
-
-- Wentz, J., [Attribution Science and EPA’s Reconsideration of the GHG Endangerment Finding](https://blogs.law.columbia.edu/climatechange/2025/05/22/attribution-science-and-epas-reconsideration-of-the-ghg-endangerment-finding/), Climate Law Blog, Columbia Law School, May 22, 2025.
-
-- [EPA Launches Biggest Deregulatory Action in U.S. History](https://www.epa.gov/newsreleases/epa-launches-biggest-deregulatory-action-us-history?utm_source=chatgpt.com), US EPA, March 12, 2025.
-
-
-<br><br>
-
 
 
 # Question 3. Coase Theorem (Points: 30)
@@ -904,9 +812,9 @@ Calculate the _net benefit_ (efficiency) of Beta for each scenario:
   $$  
 
 
-**Answer**
+**_Answer_**
 
-Scenario 1. Do not rent the air filter or relocate Alpha, but instead pay Alpha not to emit smoke.
+**Scenario 1. Do not rent the air filter or relocate Alpha, but instead pay Alpha not to emit smoke.**
 
 <details><summary>👉 Click here to see the example answer</summary><br>
 
@@ -1004,7 +912,7 @@ p_s1
 
 </details><br><br>
 
-Scenario 2. Rent the air filter and then also pay Alpha not to emit smoke.  
+**Scenario 2. Rent the air filter and then also pay Alpha not to emit smoke.**  
 <details><summary>👉 Click here to see the example answer</summary><br>
 
 
@@ -1029,7 +937,7 @@ p_s2
 </details><br><br>
 
 
-Scenario 3. Pay to relocate Alpha.  
+**Scenario 3. Pay to relocate Alpha.**  
 <details><summary>👉 Click here to see the example answer</summary><br>
 
 
@@ -1040,7 +948,7 @@ p_s3
 </details><br><br>
 
 
-Comparison & conclusion
+**Comparison & conclusion**
 
 <details><summary>👉 Click here to see the example answer</summary><br>
 
@@ -1078,6 +986,105 @@ Property rights determine who pays and who gains, but not the overall efficiency
 :::
 
 </details><br><br>
+
+
+# Question 2. EPA Endangerment Finding on Greenhouse Gas Emissions (Points: 40)
+
+You have an opportunity to comment and voice your opinions on the [US Environmental Protection Agency’s proposal to rescind its endangerment finding](https://www.epa.gov/regulations-emissions-vehicles-and-engines/proposed-rule-reconsideration-2009-endangerment-finding) and end federal regulation of greenhouse gas emissions. Public comments on the proposal are invited and should be **submitted no later than 11:59 PM EDT on Monday, September 22, 2025**.
+
+### Homework Submission
+-	For grading purposes, please submit a PDF of your comment to Brightspace by **11:59 PM EDT on Monday, September 22, 2025**.
+
+-	You are not required to submit your comment to the US EPA for grading. However, I strongly encourage you to take this opportunity to learn more about an important policy issue, practice your reasoning and argumentation skills, and engage in civic responsibility.
+- If you are not submitting your comment to the EPA, you do not need to include the docket ID or other identifying info from the “tips for effective comments.”
+- For this homework submission, there is no required font, spacing, citation style, or page format. Aim for about 2–3 pages if that is helpful, but shorter or longer is fine if your argument is clear and well-supported.
+- Please address the core question---whether GHGs should be treated as "air pollution" under CAA §202(a)---and take a clear position with reasoning and any sources you find useful.
+
+	<!-- -	If you submit your comment to the US EPA, please either provide the URL where it appears online or forward the email of your submission to [bchoe@geneseo.edu](mailto:bchoe@geneseo.edu). -->
+
+
+## How to Submit Comments to the US EPA
+
+You can submit comments online or by email. The deadline for Submitting Comments is 11:59 PM EDT on Monday, September 22, 2025.
+
+### Commenting online:
+
+- EPA prefers that comments be submitted online using the Federal eRulemaking Portal.
+- Click this link for commenting on the [**EPA proposal, Docket ID No. EPA-HQ-OAR-2025-0194**](https://www.regulations.gov/docket/EPA-HQ-OAR-2025-0194).
+- Click the tab “Docket Documents.”
+- Click the “Comment” button.
+![](https://bcdanl.github.io/lec_figs/epa-ghg-repeal-comment.png)
+- Type or paste your comment in the comment field OR attach a file with your comment.
+
+
+### Commenting by Email:
+
+- Type the Docket ID No. in the subject line of your email message: **EPA-HQ-OAR-2025-0194**
+- Send your email to [a-and-r-Docket@epa.gov](mailto:a-and-r-Docket@epa.gov).
+
+
+## Writing Effective Comments
+
+Begin by informing yourself about EPA’s proposal, their analysis, and the analyses of others using links provided below. Search for additional credible sources.
+
+Effective comments are concise and strongly reasoned. Recission of the endangerment finding will have many far-reaching consequences. Don’t attempt to be comprehensive in your comments; focus on one or two issues that are most salient to you. Support your comments with citations to sources if relevant. Include a statement about why the proposed recission is important to you personally. See also EPA’s [tips for effective comments](https://www.epa.gov/dockets/commenting-epa-dockets#tips) on rulemaking dockets.
+
+Draft your comments using **MS Word** or similar program. This makes it easier for you to make and save revisions before you submit your comments.
+
+## The Main Issue: EPA’s Proposal to Reconsider the 2009 Endangerment Finding
+
+### Background
+- **2009 Endangerment Finding**: The EPA determined that greenhouse gases (GHGs) endanger public health and welfare, and that emissions from new motor vehicles contribute to this threat.  
+- **Legal Foundation**: This finding triggered the EPA’s obligation under **Clean Air Act (CAA) §202(a)** to regulate GHG emissions from cars and trucks.  
+- **Supreme Court Ruling**: In *Massachusetts v. EPA (2007)*, the Court confirmed that GHGs are “air pollutants” under the Clean Air Act.
+
+### The Current Proposal (2025)
+- **EPA proposes to rescind the 2009 Endangerment Finding.**
+- This would remove the statutory basis for regulating GHG emissions from new vehicles under CAA §202(a).
+- As a result, all **GHG standards for light-, medium-, and heavy-duty vehicles** would be repealed.
+
+
+### The Main Issue
+**Should GHGs be treated as “air pollution” under CAA §202(a), requiring EPA regulation, or not?**
+
+- **Pro-Regulation View**:
+  - GHGs clearly fit the Act’s definition of “air pollutant.”
+  - Vehicle emissions are a significant source of U.S. GHGs (~17% of total).
+  - Regulation delivers real emission cuts and large net economic benefits (fuel + maintenance savings, health co-benefits).
+
+- **Repeal View**:
+  - Section 202(a) was not intended for global pollutants like CO₂.
+  - Vehicle standards have only a modest impact on global concentrations and warming.
+  - Compliance raises vehicle costs and limits consumer choice, creating economic harm.
+
+
+
+## Learn about EPA’s Proposal
+
+- [EPA Proposed Rule: Reconsideration of Endangerment Finding and Greenhouse Gas Vehicle Standards](https://www.epa.gov/regulations-emissions-vehicles-and-engines/proposed-rule-reconsideration-2009-endangerment-finding)
+- [EPA Notice of Proposed Rulemaking](https://www.govinfo.gov/content/pkg/FR-2025-08-01/pdf/2025-14572.pdf)
+- [EPA Draft Regulatory Impact Analysis](https://www.epa.gov/system/files/documents/2025-07/420d25003.pdf)
+
+
+## Resources related to the Proposal
+- [A Critical Review of Impacts of Greenhouse Gas Emissions on the U.S. Climate](https://www.energy.gov/topics/climate), US Department of Energy, Climate Working Group, Jul 23, 2025.
+
+- [The Practice and Assessment of Science: Five Foundational Flaws in the Department of Energy's 2025 Climate Report](https://www.ametsoc.org/ams/about-ams/ams-statements/statements-of-the-ams-in-force/the-practice-and-assessment-of-science-five-foundational-flaws-in-the-department-of-energys-2025-climate-report/), Executive Committee of the American Meteorological Society, Aug 27, 2025.
+
+- Tandon, A., L. Hickman, C. Keating, and R. McSweeney, [Factcheck: Trump’s climate report includes more than 100 false or misleading claims](https://interactive.carbonbrief.org/doe-factcheck/index.html), Carbon Brief, Aug 13, 2025.
+
+- Citizens’ Climate Lobby, [Comment on Reconsideration of 2009 Endangerment Finding and Greenhouse Gas Vehicle Standards](https://bcecon.github.io/docs/ccl-epa-endangerment-comment.pdf), Aug 8, 2025.
+
+- Patterson S. and Niiler E., [Trump Administration Aims to Roll Back Bedrock Climate Tool](https://bcecon.github.io/docs/wsj-epa-2025-0729.pdf), The Wall Street Journal, July 29, 2025.
+
+- Wentz, J., [Attribution Science and EPA’s Reconsideration of the GHG Endangerment Finding](https://blogs.law.columbia.edu/climatechange/2025/05/22/attribution-science-and-epas-reconsideration-of-the-ghg-endangerment-finding/), Climate Law Blog, Columbia Law School, May 22, 2025.
+
+- [EPA Launches Biggest Deregulatory Action in U.S. History](https://www.epa.gov/newsreleases/epa-launches-biggest-deregulatory-action-us-history?utm_source=chatgpt.com), US EPA, March 12, 2025.
+
+
+<br><br>
+
+
 
 
 # Question 4. Class Participation (Not Graded for Homework 1)
