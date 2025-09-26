@@ -174,7 +174,22 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 :::
 
+- **Rights → incentives → outcomes.**
+- Durable solutions rely on **clear rights**, **credible rules**, and **effective enforcement**—via **private**, **state**, or **common** governance, often in **hybrid** forms.
 
+<!-- - **Rights → incentives → outcomes.**   -->
+<!-- - **Open access** overuses scarce resources and **dissipates rents**.   -->
+<!-- - **Efficient use** at $MR=MC$; open access stops at $AR=MC$.   -->
+<!-- - Durable solutions rely on **clear rights**, **credible rules**, and **effective enforcement**—via **private**, **state**, or **common** governance, often in **hybrid** forms. -->
+
+
+
+<!-- ## Comparative Incentives -->
+
+<!-- - **Private:** Owner internalizes returns (intertemporal), incentivizing conservation **subject to** discounting/externalities.   -->
+<!-- - **State:** Can set socially oriented rules; success depends on capacity, information, and accountability.   -->
+<!-- - **Common:** Effective when rules **fit local conditions**, participation is broad, and monitoring/sanctions are credible.   -->
+<!-- - **Open Access:** Systematically overshoots efficient effort; **rent dissipation** and higher **collapse risk** as price/technology rise. -->
 
 
 ## American Bison as a Common-Pool Example
@@ -224,10 +239,10 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 </div>
 :::
 ::: {.column width="39%"}
-- **Profit** (Total Surplus) $\Pi(E) = TR(E) - TC(E)$.  
-- **Total Revenue** (Total Benefit) $TR(E)$: increase with effort at a *diminishing rate*.  
+- **Total Surplus** (Profit) $TS(E) = TB(E) - TC(E)$.  
+- **Total Benefit** (Total Revenue) $TB(E)$: increase with effort at a *diminishing rate*.  
 - **Total Cost** $TC(E)$: increases with effort $E$ (linear if marginal cost $c$ is constant).
-- **Efficient effort $E^{*}$:** maximizes the **vertical gap** between $TR$ and $TC$.
+- **Efficient effort $E^{*}$:** maximizes the **vertical gap** between $TB$ and $TC$.
 :::
 ::::
 
@@ -243,7 +258,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 </div>
 :::
 ::: {.column width="39%"}
-- **Marginal Revenue** $MR(E) = \frac{dTR}{dE}$ **declines** as stock falls with effort.  
+- **Marginal Benefit** $MB(E) = \frac{dTB}{dE}$ **declines** as stock falls with effort.  
 - **Marginal Cost** $MC(E)$ (e.g., constant $c$).  
 - **Efficiency:** $MR(E^{*}) = MC(E^{*})$.  
 - Two panels are **equivalent** representations of the same optimum.
@@ -262,8 +277,8 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 </div>
 :::
 ::: {.column width="39%"}
-- In **totals**: $E^{*}$ maximizes **$TR − TC$**.  
-- In **margins**: $MR = MC$.  
+- In **totals**: $E^{*}$ maximizes **$TB − TC$**.  
+- In **margins**: $MB = MC$.  
 - Interpretation: At $E^{*}$, the **last unit of effort** adds as much revenue as it costs.
 :::
 ::::
@@ -280,39 +295,150 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 </div>
 :::
 ::: {.column width="39%"}
-- With free entry, users expand effort until **profit per user = 0**.  
-- Condition: **Average Revenue $AR(E_{OA}) = AC$** (with constant $c$).  
-- Because $AR > MR$ when TR shows *diminishing returns*, **$E_{OA} > E^{*}$** and **rents are dissipated**.
+
+
+- Under free entry, effort keeps expanding until **each user earns zero profit**.  
+- This **zero-profit condition** is:  
+  $$
+  AB(E_{OA}) = AC(E_{OA})
+  $$  
+
+<div style="display:block; margin:-20px;"></div>
+
+
 :::
 ::::
 
 <!-- When the TR shows diminishing returns, each additional unit of effort adds less revenue than the average. -->
 
-## Why Open Access Dissipates Rents
 
-- **No exclusion ⇒ no appropriation of surplus.**  
+## The Overuse Problem in Open Access
+<div style="display:block; margin:-10px;"></div>
+
+- **No exclusion ⇒ no one can secure surplus.**  
 - Each user ignores the **stock externality** imposed on others (and on the future).  
-- Effort expands until **normal profit** (per-user profit $=0$)—**total economic rent falls to zero**.  
-- Formally (constant $c$): $AR(E_{OA}) = MC = c$, while $E_{OA} > E^{*}$ and $TS(E_{OA}) < TS(E^{*})$.
+
+- With **free entry**, effort keeps expanding until **per-user profit $=0$**.
+  - This drives **total economic rent to zero**.  
+
+- Why does effort go too far?  
+  - When total benefits ($TB$) flatten under *diminishing returns*, the **average benefit ($AB$)** stays above the **marginal benefit ($MB$)**.  
+  - Individuals follow the **average**, thinking it’s still worth entering (per-user profit $>0$).  
+  - But efficiency depends on the **marginal**, which has already fallen.  
+  - This mismatch keeps effort rising past the efficient level.  
+
+- **Result:** **$\;\;E_{OA} > E^{*}$** and all rents are dissipated.  
+<!-- - Formally (constant $c$): $AR(E_{OA}) = AC = c$, while $E_{OA} > E^{*}$ and $TS(E_{OA}) < TS(E^{*})$. -->
+
+
+## Policy Tools to Fix Incentives
+
+- **Rights:** Give people clear, fair rights to use the resource  
+  - Could be private rights or strong common-property rules  
+
+- **Rules & limits:** Control who can enter and how much they can take  
+  - Examples: licenses, quotas, individual transferable quotas (ITQs), seasonal closures, gear limits  
+  - Backed up with good monitoring and enforcement  
+
+- **Prices & fees:** Charge access or landing fees so users feel the true cost of overuse  
+  - Use the money to fund stewardship (resource care) and support transitions for affected groups  
+
+- **Capacity building:** Help communities organize and cooperate  
+  - Support user groups, resolve conflicts, and improve coordination between local and state levels
+  
+
+## Community Governance of the Commons
 
 
 
-## Comparative Incentives
+:::: {.columns}
+::: {.column width="50%"}
 
-- **Private:** Owner internalizes returns (intertemporal), incentivizing conservation **subject to** discounting/externalities.  
-- **State:** Can set socially oriented rules; success depends on capacity, information, and accountability.  
-- **Common:** Effective when rules **fit local conditions**, participation is broad, and monitoring/sanctions are credible.  
-- **Open Access:** Systematically overshoots efficient effort; **rent dissipation** and higher **collapse risk** as price/technology rise.
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/ostrom-nobel.jpg" alt="Goods classification by rivalry and excludability" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+:::
+::: {.column width="50%"}
+
+- Beyond private property or top-down government rules, **users themselves** can create agreements to avoid the tragedy of the commons.  
+- **Elinor Ostrom** (Nobel Prize 2009) showed that many communities succeed through **self-organization** without needing full privatization or heavy state control.  
+
+:::
+::::
+<div style="display:block; margin:-15px;"></div>
+
+- Challenged the **“tragedy of the commons”** idea: communities can manage shared resources.  
+- Showed real-world evidence (forests, fisheries, irrigation) where self-governance works.  
+<!-- - Identified design principles for success: participation, monitoring, conflict resolution, and fair rules.   -->
+
+## Ostrom: Keys to Local Cooperation (I)
+
+- **Rules that fit the place**: local users bring **insider knowledge**—about ecology, seasons, culture, customs, and technology—that outsiders often miss.  
+- **Shared roles**: community governance can **work with government**, especially for large resources.  
+  - *Example*: federal agency runs ITQ program; **local fishers** co-design allocation rules and settle disputes.  
+
+- **Participatory & scalable governance**:  
+  - Combine local (including Indigenous) knowledge, history, and culture with legal and scientific tools.  
+  - At national/global scales, government still plays a role but must **respect local variation** and include community voices.    
 
 
-## Policy Levers to Realign Incentives
 
-- **Define/strengthen rights:** Privatization **or** robust **common-property** institutions (where feasible and equitable).  
-- **Regulate access/harvest:** Licenses, quotas, **ITQs (individual transferable quotas)**, seasonal/gear limits; invest in **monitoring & enforcement**.  
-- **Price instruments:** Access/landing fees to internalize stock externalities; **earmark revenues** for stewardship/transition.  
-- **Capacity building:** Support **user associations**, conflict resolution, and **nested** local–state governance.
+## Ostrom: Keys to Local Cooperation (II)
 
-## [Russia’s “Peanut Hole”](https://www.youtube.com/shorts/UO02hTOkhnk)
+- **Precautionary rules**: users see that short-term gains can cause long-term collapse, so they adopt protective rules.  
+  - **Monitoring with accountability**: users check each other, or monitors report directly to the community.  
+  - **Graduated sanctions**: small penalties for first violations, stronger ones for repeat rule-breaking.  
+
+- **Simple, low-cost conflict resolution**: problems can be solved quickly and fairly.  
+
+
+<!-- ## What Makes Local Cooperation Work? -->
+
+<!-- - **Broad participation**: most users help shape the rules. -->
+<!-- - **Monitoring with accountability**: users check each other, or monitors report directly to the community. -->
+<!-- - **Simple, low-cost conflict resolution**: problems can be solved quickly and fairly. -->
+<!-- - **Rules that fit the place**: -->
+<!--   - Local users bring **insider knowledge**—about the ecology, seasons, culture, customs, and technology—that outsiders often miss. -->
+<!-- - **Graduated sanctions**: small penalties for first violations, harsher ones if rule-breaking continues. -->
+<!--   - They also see that chasing **short-term gains** can lead to **long-term collapse**, so they adopt precautionary rules to protect the resource. -->
+
+
+<!-- ## Nested Governance & Policy Mix -->
+
+<!-- - Ostrom argued that community governance can **work together with government**, especially for large resources. -->
+<!--   - *Example*: a federal agency sets up an ITQ (tradable quota) program, while **local fishers** help design allocation rules and settle everyday disputes. -->
+<!-- - Effective governance is **participatory**: it combines local (including Indigenous) knowledge, history, and culture with wider legal and scientific tools. -->
+<!-- - At **national and global scales**, governments still play a big role, but policies should **respect local variation** and include community voices. -->
+
+
+
+<!-- ## Community-Devised Governance of the Commons -->
+
+<!-- - Alternative to private ownership or top-down regulation: **users** can craft agreements to avoid the tragedy of the commons. -->
+<!-- - **Elinor Ostrom** (Nobel 2009): many communities succeed via **self-organization** without privatization or heavy state control. -->
+<!-- - Local users hold **context-specific knowledge** (ecology, seasons, customs) often missing from centralized rule setting (fees, harvest limits). -->
+<!-- - Users recognize that **short-run individual gains** can cause **long-run ecological/economic collapse**, so they adopt **precautionary rules**. -->
+
+<!-- ## Community-Devised Governance of the Commons -->
+<!-- ### Conditions for effective local cooperation -->
+<!-- - **Broad participation** in rulemaking by most users. -->
+<!-- - **Accountable monitoring** conducted by or answerable to users, with regular checks of conditions and compliance. -->
+<!-- - **Low-cost, responsive** conflict resolution mechanisms. -->
+<!-- - Rules **tailored to local** ecology, culture, and technology. -->
+<!-- - **Graduated sanctions** that escalate with repeated violations. -->
+
+<!-- ## Nested Governance & Policy Levers -->
+
+<!-- - Ostrom’s approach can **complement** government for large-scale commons via **nested** institutions. -->
+<!-- - *Example*: a state/federal agency **administers/enforces** an ITQ program; **local fishers** co-design allocation rules and handle day-to-day disputes. -->
+<!-- - Effective governance is **participatory**, combining local (including Indigenous) knowledge, history, and culture with broader legal/scientific capacity. -->
+<!-- - At **national/global** scales, government involvement is essential, while policy still **respects local variation** and incorporates community voices. -->
+
+
+
+## Global Commons - [Russia’s “Peanut Hole”](https://www.youtube.com/shorts/UO02hTOkhnk)
 <div style="display:block; margin:-15px;"></div>
 
 - **Location**: A high seas area in the center of the Sea of Okhotsk, surrounded by Russia's **EEZ** (Exclusive Economic Zone), which generally extends **200 nautical miles** from a coastal state’s baselines.
@@ -323,30 +449,6 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
   - Overfishing by international fleets posed threats to fish stocks.
   - Difficulty in coordinating sustainable management of resources in this area.
 - **Resolution**: In 2014, Russia gained control of the "Peanut Hole" under UN Convention on LOS (Law of the Sea) provisions, integrating it into its EEZ.
-
-
-## Community-Devised Governance of the Commons
-
-- Alternative to private ownership or top-down regulation: **users** can craft agreements to avoid the tragedy of the commons.
-- **Elinor Ostrom** (Nobel 2009): many communities succeed via **self-organization** without privatization or heavy state control.
-- Local users hold **context-specific knowledge** (ecology, seasons, customs) often missing from centralized rule setting (fees, harvest limits).
-- Users recognize that **short-run individual gains** can cause **long-run ecological/economic collapse**, so they adopt **precautionary rules**.
-
-## Community-Devised Governance of the Commons
-### Conditions for effective local cooperation
-- **Broad participation** in rulemaking by most users.
-- **Accountable monitoring** conducted by or answerable to users, with regular checks of conditions and compliance.
-- **Low-cost, responsive** conflict resolution mechanisms.
-- Rules **tailored to local** ecology, culture, and technology.
-- **Graduated sanctions** that escalate with repeated violations.
-
-## Nested Governance & Policy Levers
-
-- Ostrom’s approach can **complement** government for large-scale commons via **nested** institutions.
-- *Example*: a state/federal agency **administers/enforces** an ITQ program; **local fishers** co-design allocation rules and handle day-to-day disputes.
-- Effective governance is **participatory**, combining local (including Indigenous) knowledge, history, and culture with broader legal/scientific capacity.
-- At **national/global** scales, government involvement is essential, while policy still **respects local variation** and incorporates community voices.
-
 
 
 

@@ -1166,7 +1166,7 @@
     "href": "econ-lec/econ-340-lec-06-2025-0922.html#incentives-by-regime",
     "title": "Lecture 6",
     "section": "Incentives by Regime",
-    "text": "Incentives by Regime\n\n\n\n\n\n\n\n\n\n\n\n\n\nRegime\nExcludability\nWho sets rules?\nWho captures rents?\nTypical risks\n\n\n\n\nPrivate\nHigh\nOwner(s)\nOwner(s)\nExternalities; market power\n\n\nState\nHigh (by law)\nGovernment\nPublic (in principle)\nBureaucratic drift; info gaps\n\n\nCommon\nGroup-limited\nCo-owners\nCo-owners\nCohesion/monitoring failures\n\n\nOpen Access\nNone\nNo one\nNo one (dissipated)\nOveruse; collapse risk\n\n\n\n\n\n\n\nNote\n\n\n\nKey distinction: Open access ⟂ Common property.\nOpen access = common property without effective rules or governance.\nAll open-access resources are common-pool resources (CPR), but not all common-pool resources are open access."
+    "text": "Incentives by Regime\n\n\n\n\n\n\n\n\n\n\n\n\n\nRegime\nExcludability\nWho sets rules?\nWho captures rents?\nTypical risks\n\n\n\n\nPrivate\nHigh\nOwner(s)\nOwner(s)\nExternalities; market power\n\n\nState\nHigh (by law)\nGovernment\nPublic (in principle)\nBureaucratic drift; info gaps\n\n\nCommon\nGroup-limited\nCo-owners\nCo-owners\nCohesion/monitoring failures\n\n\nOpen Access\nNone\nNo one\nNo one (dissipated)\nOveruse; collapse risk\n\n\n\n\n\n\n\nNote\n\n\n\nKey distinction: Open access ⟂ Common property.\nOpen access = common property without effective rules or governance.\nAll open-access resources are common-pool resources (CPR), but not all common-pool resources are open access.\n\n\n\n\n\nRights → incentives → outcomes.\nDurable solutions rely on clear rights, credible rules, and effective enforcement—via private, state, or common governance, often in hybrid forms."
   },
   {
     "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#american-bison-as-a-common-pool-example",
@@ -1180,35 +1180,35 @@
     "href": "econ-lec/econ-340-lec-06-2025-0922.html#total-framework-top-panel",
     "title": "Lecture 6",
     "section": "Total Framework (Top Panel)",
-    "text": "Total Framework (Top Panel)\n\n\n\n\n\n\n\n\n\nProfit (Total Surplus) \\(\\Pi(E) = TR(E) - TC(E)\\).\n\nTotal Revenue (Total Benefit) \\(TR(E)\\): increase with effort at a diminishing rate.\n\nTotal Cost \\(TC(E)\\): increases with effort \\(E\\) (linear if marginal cost \\(c\\) is constant).\nEfficient effort \\(E^{*}\\): maximizes the vertical gap between \\(TR\\) and \\(TC\\)."
+    "text": "Total Framework (Top Panel)\n\n\n\n\n\n\n\n\n\nTotal Surplus (Profit) \\(TS(E) = TB(E) - TC(E)\\).\n\nTotal Benefit (Total Revenue) \\(TB(E)\\): increase with effort at a diminishing rate.\n\nTotal Cost \\(TC(E)\\): increases with effort \\(E\\) (linear if marginal cost \\(c\\) is constant).\nEfficient effort \\(E^{*}\\): maximizes the vertical gap between \\(TB\\) and \\(TC\\)."
   },
   {
     "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#marginal-framework-bottom-panel",
     "href": "econ-lec/econ-340-lec-06-2025-0922.html#marginal-framework-bottom-panel",
     "title": "Lecture 6",
     "section": "Marginal Framework (Bottom Panel)",
-    "text": "Marginal Framework (Bottom Panel)\n\n\n\n\n\n\n\n\n\nMarginal Revenue \\(MR(E) = \\frac{dTR}{dE}\\) declines as stock falls with effort.\n\nMarginal Cost \\(MC(E)\\) (e.g., constant \\(c\\)).\n\nEfficiency: \\(MR(E^{*}) = MC(E^{*})\\).\n\nTwo panels are equivalent representations of the same optimum."
+    "text": "Marginal Framework (Bottom Panel)\n\n\n\n\n\n\n\n\n\nMarginal Benefit \\(MB(E) = \\frac{dTB}{dE}\\) declines as stock falls with effort.\n\nMarginal Cost \\(MC(E)\\) (e.g., constant \\(c\\)).\n\nEfficiency: \\(MR(E^{*}) = MC(E^{*})\\).\n\nTwo panels are equivalent representations of the same optimum."
   },
   {
     "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#locating-the-efficient-point-e",
     "href": "econ-lec/econ-340-lec-06-2025-0922.html#locating-the-efficient-point-e",
     "title": "Lecture 6",
     "section": "Locating the Efficient Point \\(E^{*}\\)",
-    "text": "Locating the Efficient Point \\(E^{*}\\)\n\n\n\n\n\n\n\n\n\nIn totals: \\(E^{*}\\) maximizes \\(TR − TC\\).\n\nIn margins: \\(MR = MC\\).\n\nInterpretation: At \\(E^{*}\\), the last unit of effort adds as much revenue as it costs."
+    "text": "Locating the Efficient Point \\(E^{*}\\)\n\n\n\n\n\n\n\n\n\nIn totals: \\(E^{*}\\) maximizes \\(TB − TC\\).\n\nIn margins: \\(MB = MC\\).\n\nInterpretation: At \\(E^{*}\\), the last unit of effort adds as much revenue as it costs."
   },
   {
     "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#open-access-outcome-e_oa-why-its-too-high",
     "href": "econ-lec/econ-340-lec-06-2025-0922.html#open-access-outcome-e_oa-why-its-too-high",
     "title": "Lecture 6",
     "section": "Open-Access Outcome \\(E_{OA}\\): Why It’s Too High",
-    "text": "Open-Access Outcome \\(E_{OA}\\): Why It’s Too High\n\n\n\n\n\n\n\n\n\nWith free entry, users expand effort until profit per user = 0.\n\nCondition: Average Revenue \\(AR(E_{OA}) = AC\\) (with constant \\(c\\)).\n\nBecause \\(AR &gt; MR\\) when TR shows diminishing returns, \\(E_{OA} &gt; E^{*}\\) and rents are dissipated."
+    "text": "Open-Access Outcome \\(E_{OA}\\): Why It’s Too High\n\n\n\n\n\n\n\n\n\nUnder free entry, effort keeps expanding until each user earns zero profit.\n\nThis zero-profit condition is:\n\\[\nAB(E_{OA}) = AC(E_{OA})\n\\]"
   },
   {
     "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#why-open-access-dissipates-rents",
     "href": "econ-lec/econ-340-lec-06-2025-0922.html#why-open-access-dissipates-rents",
     "title": "Lecture 6",
     "section": "Why Open Access Dissipates Rents",
-    "text": "Why Open Access Dissipates Rents\n\nNo exclusion ⇒ no appropriation of surplus.\n\nEach user ignores the stock externality imposed on others (and on the future).\n\nEffort expands until normal profit (per-user profit \\(=0\\))—total economic rent falls to zero.\n\nFormally (constant \\(c\\)): \\(AR(E_{OA}) = MC = c\\), while \\(E_{OA} &gt; E^{*}\\) and \\(TS(E_{OA}) &lt; TS(E^{*})\\)."
+    "text": "Why Open Access Dissipates Rents\n\nNo exclusion ⇒ no appropriation of surplus.\nWhen total benefits (\\(TB\\)) flatten due to diminishing returns to effort, the average benefit (AB) remains higher than the marginal benefit (MB).\n\nIndividuals respond to the average, thinking it’s still worth entering.\n\nBut efficiency depends on the marginal, which has already fallen.\n\nThis mismatch leads effort to keep expanding past the efficient point, wiping out all rents.\n\n\nAs a result, the open-access effort \\(E_{OA}\\) is greater than the efficient level \\(E^{*}\\), and all rents are dissipated.\nEach user ignores the stock externality imposed on others (and on the future).\n\nEffort expands until normal profit (per-user profit \\(=0\\))—total economic rent falls to zero."
   },
   {
     "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#comparative-incentives",
@@ -1937,5 +1937,215 @@
     "title": "Week 5",
     "section": "💬 Discussion",
     "text": "💬 Discussion\nWelcome to our Week 5 Discussion Board! 👋 \nThis space is designed for you to engage with your classmates about the material covered in Week 5.\nWhether you are looking to delve deeper into the content, share insights, or have questions about the content, this is the perfect place for you.\nIf you have any specific questions for Byeong-Hak (@bcecon) or peer classmate (@GitHub-Username) regarding the Week 5 materials or need clarification on any points, don’t hesitate to ask here.\nLet’s collaborate and learn from each other!"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#open-access-outcome",
+    "href": "econ-lec/econ-340-lec-06-2025-0922.html#open-access-outcome",
+    "title": "Lecture 6",
+    "section": "Open Access Outcome",
+    "text": "Open Access Outcome\n\nUnder free entry, effort keeps expanding until each user earns zero profit.\n\nThis zero-profit condition is:\n\\[\nAB(E_{OA}) = AC(E_{OA})\n\\]\n\nWhen total benefits (\\(TB\\)) flatten due to diminishing returns to effort, the average benefit (AB) remains higher than the marginal benefit (MB).\n\nIndividuals respond to the average, thinking it’s still worth entering.\n\nBut efficiency depends on the marginal, which has already fallen.\n\nThis mismatch leads effort to keep expanding past the efficient point, wiping out all rents.\n\n\nAs a result, the open-access effort \\(E_{OA}\\) is greater than the efficient level \\(E^{*}\\), and all rents are dissipated."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#why-open-access-dissipates-rents-1",
+    "href": "econ-lec/econ-340-lec-06-2025-0922.html#why-open-access-dissipates-rents-1",
+    "title": "Lecture 6",
+    "section": "Why Open Access Dissipates Rents",
+    "text": "Why Open Access Dissipates Rents\n\nNo exclusion ⇒ no one can secure surplus.\n\nEach user ignores the stock externality imposed on others (and on the future).\nWith free entry, effort expands until normal profit (per-user profit \\(=0\\)).\n\nThis drives total economic rent to zero.\n\nWhy does effort go too far?\n\nWhen total benefits (\\(TB\\)) flatten under diminishing returns, the average benefit (AB) stays above the marginal benefit (MB).\n\nIndividuals follow the average, thinking it’s still worth entering.\n\nBut efficiency depends on the marginal, which has already fallen.\n\nThis mismatch keeps effort rising past the efficient level.\n\nResult: Open-access effort \\(E_{OA}\\) is greater than the efficient level \\(E^{*}\\), and all rents are dissipated."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#the-overuse-problem-in-open-access",
+    "href": "econ-lec/econ-340-lec-06-2025-0922.html#the-overuse-problem-in-open-access",
+    "title": "Lecture 6",
+    "section": "The Overuse Problem in Open Access",
+    "text": "The Overuse Problem in Open Access\n\n\n\n\nNo exclusion ⇒ no one can secure surplus.\n\nEach user ignores the stock externality imposed on others (and on the future).\nWith free entry, effort keeps expanding until per-user profit \\(=0\\).\n\nThis drives total economic rent to zero.\n\nWhy does effort go too far?\n\nWhen total benefits (\\(TB\\)) flatten under diminishing returns, the average benefit (\\(AB\\)) stays above the marginal benefit (\\(MB\\)).\n\nIndividuals follow the average, thinking it’s still worth entering (per-user profit \\(&gt;0\\)).\n\nBut efficiency depends on the marginal, which has already fallen.\n\nThis mismatch keeps effort rising past the efficient level.\n\nResult: \\(\\;\\;E_{OA} &gt; E^{*}\\) and all rents are dissipated."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#policy-tools-to-fix-incentives",
+    "href": "econ-lec/econ-340-lec-06-2025-0922.html#policy-tools-to-fix-incentives",
+    "title": "Lecture 6",
+    "section": "Policy Tools to Fix Incentives",
+    "text": "Policy Tools to Fix Incentives\n\nRights: Give people clear, fair rights to use the resource\n\nCould be private rights or strong common-property rules\n\nRules & limits: Control who can enter and how much they can take\n\nExamples: licenses, quotas, individual transferable quotas (ITQs), seasonal closures, gear limits\n\nBacked up with good monitoring and enforcement\n\nPrices & fees: Charge access or landing fees so users feel the true cost of overuse\n\nUse the money to fund stewardship (resource care) and support transitions for affected groups\n\nCapacity building: Help communities organize and cooperate\n\nSupport user groups, resolve conflicts, and improve coordination between local and state levels"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#community-governance-of-the-commons",
+    "href": "econ-lec/econ-340-lec-06-2025-0922.html#community-governance-of-the-commons",
+    "title": "Lecture 6",
+    "section": "Community Governance of the Commons",
+    "text": "Community Governance of the Commons\n\n\n\n\n\n\n\n\n\nBeyond private property or top-down government rules, users themselves can create agreements to avoid the tragedy of the commons.\n\nElinor Ostrom (Nobel Prize 2009) showed that many communities succeed through self-organization without needing full privatization or heavy state control.\n\n\n\n\n\n\n\nChallenged the “tragedy of the commons” idea: communities can manage shared resources.\n\nShowed real-world evidence (forests, fisheries, irrigation) where self-governance works."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#what-makes-local-cooperation-work",
+    "href": "econ-lec/econ-340-lec-06-2025-0922.html#what-makes-local-cooperation-work",
+    "title": "Lecture 6",
+    "section": "What Makes Local Cooperation Work?",
+    "text": "What Makes Local Cooperation Work?\n\nBroad participation: most users help shape the rules.\n\nMonitoring with accountability: users check each other, or monitors report directly to the community.\n\nSimple, low-cost conflict resolution: problems can be solved quickly and fairly.\n\nRules that fit the place: tailored to the specific ecology, culture, and technology.\n\nGraduated sanctions: small penalties for first violations, harsher ones if rule-breaking continues."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#nested-governance-policy-mix",
+    "href": "econ-lec/econ-340-lec-06-2025-0922.html#nested-governance-policy-mix",
+    "title": "Lecture 6",
+    "section": "Nested Governance & Policy Mix",
+    "text": "Nested Governance & Policy Mix\n\nOstrom argued that community governance can work together with government, especially for large resources.\n\nExample: a federal agency sets up an ITQ (tradable quota) program, while local fishers help design allocation rules and settle everyday disputes.\n\nEffective governance is participatory: it combines local (including Indigenous) knowledge, history, and culture with wider legal and scientific tools.\n\nAt national and global scales, governments still play a big role, but policies should respect local variation and include community voices."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#what-makes-local-cooperation-work-i",
+    "href": "econ-lec/econ-340-lec-06-2025-0922.html#what-makes-local-cooperation-work-i",
+    "title": "Lecture 6",
+    "section": "What Makes Local Cooperation Work? (I)",
+    "text": "What Makes Local Cooperation Work? (I)\n\nRules that fit the place: local users bring insider knowledge—about ecology, seasons, culture, customs, and technology—that outsiders often miss.\n\nShared roles: community governance can work with government, especially for large resources.\n\nExample: federal agency runs ITQ program; local fishers co-design allocation rules and settle disputes.\n\nParticipatory & scalable governance:\n\nCombine local (including Indigenous) knowledge, history, and culture with legal and scientific tools.\n\nAt national/global scales, government still plays a role but must respect local variation and include community voices."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#what-makes-local-cooperation-work-ii",
+    "href": "econ-lec/econ-340-lec-06-2025-0922.html#what-makes-local-cooperation-work-ii",
+    "title": "Lecture 6",
+    "section": "What Makes Local Cooperation Work? (II)",
+    "text": "What Makes Local Cooperation Work? (II)\n\nPrecautionary rules: users see that short-term gains can cause long-term collapse, so they adopt protective rules.\n\nMonitoring with accountability: users check each other, or monitors report directly to the community.\n\nGraduated sanctions: small penalties for first violations, stronger ones for repeat rule-breaking.\n\nSimple, low-cost conflict resolution: problems can be solved quickly and fairly."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#ostrom-keys-to-local-cooperation-i",
+    "href": "econ-lec/econ-340-lec-06-2025-0922.html#ostrom-keys-to-local-cooperation-i",
+    "title": "Lecture 6",
+    "section": "Ostrom: Keys to Local Cooperation (I)",
+    "text": "Ostrom: Keys to Local Cooperation (I)\n\nRules that fit the place: local users bring insider knowledge—about ecology, seasons, culture, customs, and technology—that outsiders often miss.\n\nShared roles: community governance can work with government, especially for large resources.\n\nExample: federal agency runs ITQ program; local fishers co-design allocation rules and settle disputes.\n\nParticipatory & scalable governance:\n\nCombine local (including Indigenous) knowledge, history, and culture with legal and scientific tools.\n\nAt national/global scales, government still plays a role but must respect local variation and include community voices."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#ostrom-keys-to-local-cooperation-ii",
+    "href": "econ-lec/econ-340-lec-06-2025-0922.html#ostrom-keys-to-local-cooperation-ii",
+    "title": "Lecture 6",
+    "section": "Ostrom: Keys to Local Cooperation (II)",
+    "text": "Ostrom: Keys to Local Cooperation (II)\n\nPrecautionary rules: users see that short-term gains can cause long-term collapse, so they adopt protective rules.\n\nMonitoring with accountability: users check each other, or monitors report directly to the community.\n\nGraduated sanctions: small penalties for first violations, stronger ones for repeat rule-breaking.\n\nSimple, low-cost conflict resolution: problems can be solved quickly and fairly."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-06-2025-0922.html#global-commons---russias-peanut-hole",
+    "href": "econ-lec/econ-340-lec-06-2025-0922.html#global-commons---russias-peanut-hole",
+    "title": "Lecture 6",
+    "section": "Global Commons - Russia’s “Peanut Hole”",
+    "text": "Global Commons - Russia’s “Peanut Hole”\n\n\n\n\nLocation: A high seas area in the center of the Sea of Okhotsk, surrounded by Russia’s EEZ (Exclusive Economic Zone), which generally extends 200 nautical miles from a coastal state’s baselines.\nSignificance:\n\nPreviously a global commons outside Russia’s jurisdiction.\nKnown as the “Peanut Hole” due to its unique shape.\n\nChallenges:\n\nOverfishing by international fleets posed threats to fish stocks.\nDifficulty in coordinating sustainable management of resources in this area.\n\nResolution: In 2014, Russia gained control of the “Peanut Hole” under UN Convention on LOS (Law of the Sea) provisions, integrating it into its EEZ."
+  },
+  {
+    "objectID": "econ-340-hw-01-a.html",
+    "href": "econ-340-hw-01-a.html",
+    "title": "Homework 1",
+    "section": "",
+    "text": "No Generative AI: You are not allowed to use generative AI tools for Homework Assignment 1.\nDeadlines:\n\nQuestions 1, 3, and 4: Due Wednesday, September 24, 2025 at 10:30 A.M. (ET)\n\nHand in your written answers on paper to Prof. Choe at the beginning of class.\n\n\nQuestion 2: Due Monday, September 22, 2025 at 11:59 P.M. (ET)\n\nSubmit your comment as a PDF or Word document on Brightspace.\n\nWhen uploading, please also leave a note in the submission box indicating whether you submitted your comment to the U.S. EPA."
+  },
+  {
+    "objectID": "econ-340-hw-01-a.html#homework-instructions",
+    "href": "econ-340-hw-01-a.html#homework-instructions",
+    "title": "Homework 1",
+    "section": "",
+    "text": "No Generative AI: You are not allowed to use generative AI tools for Homework Assignment 1.\nDeadlines:\n\nQuestions 1, 3, and 4: Due Wednesday, September 24, 2025 at 10:30 A.M. (ET)\n\nHand in your written answers on paper to Prof. Choe at the beginning of class.\n\n\nQuestion 2: Due Monday, September 22, 2025 at 11:59 P.M. (ET)\n\nSubmit your comment as a PDF or Word document on Brightspace.\n\nWhen uploading, please also leave a note in the submission box indicating whether you submitted your comment to the U.S. EPA."
+  },
+  {
+    "objectID": "econ-340-hw-01-a.html#a.",
+    "href": "econ-340-hw-01-a.html#a.",
+    "title": "Homework 1",
+    "section": "a.",
+    "text": "a.\nGraph the supply and demand functions on the same coordinate plane.\n\n\n👉 Click here to see the example answer"
+  },
+  {
+    "objectID": "econ-340-hw-01-a.html#b.",
+    "href": "econ-340-hw-01-a.html#b.",
+    "title": "Homework 1",
+    "section": "b.",
+    "text": "b.\nDetermine the market equilibrium price and quantity of oil.\n\n\n👉 Click here to see the example answer\n\n\n\nAt the market equilibrium, the following holds:\n\nUtility/Profit Maximization: a consumer maximizes utility; a firm maximizes profit (a firm’s version of utility).\nMarket Clearing: a price is such that a quantity demanded is equal to a quantity supplied.\n\nSolving the system of demand and supply equations gives the market equilibrium level of quantity (\\(q_M\\)) and price (\\(p_M\\)): \\[\n\\begin{align}\nMB(q_M) =\\; &p_M = MC(q_M)\\\\\n4 - q_M =\\; &q_M + 2\\\\\n\\quad\\\\\n\\therefore\\quad \\left\\{\\begin{matrix}\nq_M = 1 \\\\\np_M = 3\n\\end{matrix}\\right.\n\\end{align}\n\\]"
+  },
+  {
+    "objectID": "econ-340-hw-01-a.html#c.",
+    "href": "econ-340-hw-01-a.html#c.",
+    "title": "Homework 1",
+    "section": "c.",
+    "text": "c.\nCalculate the consumer surplus and producer surplus at the market equilibrium.\n\n\n👉 Click here to see the example answer\n\n\n\nConsumer surplus (\\(CS\\)) is the value that consumers receive from an allocation minus what it costs them to obtain it.\n\n\\(CS\\) is measured as the area under the demand curve minus the consumer cost.\n\nProducer surplus (\\(PS\\)) is the value that producers receive from an allocation minus what it costs them to supply it.\n\n\\(PS\\) is measured as the area above the supply curve and below the market price line.\n\nTherefore, \\(CS = \\frac{1}{2}\\) and \\(PS = \\frac{1}{2}\\)."
+  },
+  {
+    "objectID": "econ-340-hw-01-a.html#d.",
+    "href": "econ-340-hw-01-a.html#d.",
+    "title": "Homework 1",
+    "section": "d.",
+    "text": "d.\nOil consumption causes environmental damage. Suppose the external marginal cost of oil pollution is given by \\(EMC = q + 1\\). Calculate: (1) The socially optimal level of oil use (2) The deadweight loss due to pollution at the market equilibrium\nAnswer (1) The socially optimal level of oil use\n\n\n👉 Click here to see the example answer\n\n\nThe social marginal cost (\\(SMC\\)) is: \\[\n\\begin{align}\nSMC &\\,=\\, MD + MC\\\\\n&\\,=\\, 2q + 3\n\\end{align}\n\\] At the socially optimum \\((q^{*}, p^{*})\\), the social marginal cost of oil use is equal to the (social) marginal benefit:\n\\[\n\\begin{align}\nSMC &\\,=\\, MB\\\\\n2q^{*} + 3 &\\,=\\, 4 - q^{*}\n\\end{align}\n\\] Therefore, \\(q^{*} = \\frac{1}{3}\\).\n\n\n\n\n\n\n\n\nThe deadweight loss (\\(DWL\\)) due to pollution at the market equilibrium\n\n\n\n👉 Click here to see the example answer\n\n\n\nDeadweight loss (\\(DWL\\)) is the loss of economic efficiency that occurs when the optimal or equilibrium outcome is not achieved in a market.\n\nWhat will happen if the firm produces at \\(q_M\\), instead of \\(q^{*}\\)?\n\nThe total surplus (\\(TS = CS + PS\\)) is the same as in question (c).\n\n\n\n\n\n\n\n\n\nHowever, pollution imposes a external total cost on society.\n\nThis external cost is measured by the vertical distance between the Social Marginal Cost (\\(SMC\\)) and the Private Marginal Cost (\\(MC\\)) up to the production level \\(q^{*} = 1\\).\nNote that \\(EMC = SMC - MC\\).\nImagine building up the external total cost unit by unit. For each unit of oil production, you add its marginal damage to society. The sum of all these marginal damage gives you the external total cost. Graphically, this summation is represented by the vertical distance between \\(SMC\\) and \\(MC\\).\n\n\n\n\n\n\n\n\nTherefore, \\(DWL\\) can be calculated as the difference between the total surplus and the external total cost in the economy: \\[\n\\begin{align}\nDWL &= \\frac{1}{2}\\times\\left(1 - \\frac{1}{3}\\right)\\times\\left(5 - 3\\right)\\\\\n&= \\frac{2}{3}\n\\end{align}\n\\]"
+  },
+  {
+    "objectID": "econ-340-hw-01-a.html#e.",
+    "href": "econ-340-hw-01-a.html#e.",
+    "title": "Homework 1",
+    "section": "e.",
+    "text": "e.\nDue to economic development, the future demand for oil increases, resulting in a new demand function \\(q_d' = 8 - p\\). Determine: (1) The new market equilibrium price and quantity (2) The new socially optimal level of oil use (2) The deadweight loss due to pollution at the market equilibrium in the future\nAnswer:\n\nThe new market equilibrium price and quantity\n\n\n\n👉 Click here to see the example answer\n\n\nIn the equilibrium, the price is such that the market clears:\n\\[\n8 - q^{Future}_{M} = q^{Future}_{M} + 2\n\\] Therefore, the new equilibrium quantity is \\(q^{Future}_{M} = 3\\), and the new equilibrium price is \\(p^{Future}_{M}=5\\).\n\n\n\nThe new socially optimal level of oil use\n\n\n\n👉 Click here to see the example answer\n\n\nAt the new socially optimum \\(q^{*Future}\\), the social marginal benefit of the oil use is equal to the social marginal cost of the oil use:\n\\[\n8 - q^{*Future} = 2q^{*Future} + 3\n\\] Therefore, the new socially optimal level of oil use is \\(q^{*Future} = \\frac{5}{3}\\).\n\n\n\nThe \\(DWL\\) due to pollution at the market equilibrium in the future\n\n\n\n👉 Click here to see the example answer\n\n\n\nDeadweight loss (\\(DWL\\)) is the loss of economic efficiency that occurs when the optimal or equilibrium outcome is not achieved in a market.\n\nWhat will happen if the firm produces at \\(q^{Future}_{M}\\), instead of \\(q^{*Future}\\)?\n\nThe total surplus (\\(TS = CS + PS\\)) is described as below.\n\n\n\n\n\n\n\n\n\nHowever, producing at \\(q^{Future}_{M} = 3\\) creates the external total cost, the vertical distance between \\(SMC\\) and \\(MC\\)\n\n\n\n\n\n\n\nTherefore \\(DWL\\) can be calculated as the difference between the total surplus and the external total cost in the market: \\[\n\\begin{align}\nDWL &= \\frac{1}{2}\\times\\left(3 - \\frac{5}{3}\\right)\\times\\left(9 - 5\\right)\\\\\n&= \\frac{8}{3}\n\\end{align}\n\\]"
+  },
+  {
+    "objectID": "econ-340-hw-01-a.html#f.",
+    "href": "econ-340-hw-01-a.html#f.",
+    "title": "Homework 1",
+    "section": "f.",
+    "text": "f.\nPropose and briefly explain two distinct public policies that could be implemented to mitigate the environmental damages and reduce the burden on future generations. Discuss the potential effectiveness and challenges of each policy.\n\n\n👉 Click here to see the example answer\n\n\n\nImplement a Pigouvian Tax\n\nPolicy: Impose a tax equal to the marginal external cost of pollution (e.g., a carbon tax).\n\nBenefits:\n\nInternalizes the environmental cost of pollution, incentivizing firms and consumers to reduce emissions\n\nGenerates government revenue that can be reinvested in sustainability initiatives or used to offset regressive effects on low-income households\n\n\nChallenges:\n\nDetermining the “correct” tax level can be politically and technically difficult\n\nStrong resistance from industries and consumers sensitive to price increases\n\n\nLong-term Impact: Creates consistent market signals that encourage cleaner technologies and reduce environmental harm over time\n\nDirect Public Investment in Renewable Energy\n\nPolicy: Government funds large-scale projects in solar, wind, and other renewable sources\n\nBenefits:\n\nImmediately expands the supply of clean energy, reducing reliance on fossil fuels\n\nEncourages innovation and job growth in the green sector\n\nImproves long-term energy security\n\n\nChallenges:\n\nRequires substantial upfront public spending, potentially straining budgets\n\nMust overcome fossil fuel infrastructure “lock-in” and opposition from incumbent industries\n\nEffectiveness depends on careful allocation to avoid waste or inefficiency\n\n\nLong-term Impact: Accelerates the energy transition, lowering environmental damages and easing the burden on future generations by reducing climate risks"
+  },
+  {
+    "objectID": "econ-340-hw-01-a.html#g.",
+    "href": "econ-340-hw-01-a.html#g.",
+    "title": "Homework 1",
+    "section": "g.",
+    "text": "g.\nSuppose the government decides to impose a Pigouvian tax to internalize the external costs of oil pollution. Calculate the optimal tax rates in the present and in the future and explain how it would affect the market equilibrium and social welfare.\n\n\n👉 Click here to see the example answer\n\n\n\nCorrective Taxation (Pigouvian Tax) for Oil Production:\n\nTo address the negative externality imposed by oil production, we are considering implementing a price instrument known as corrective taxation, or Pigouvian tax. This policy involves setting a per-unit tax equal to the marginal environmental damage caused by oil production.\n\n\n\\[\n\\begin{align}\n\\text{Present}:&\\quad t^{*} = MD(q^{*}) = q^{*} + 1\\\\\n\\text{Future}:&\\quad t^{*Future} = MD(q^{*Future}) = q^{*Future} + 1\n\\end{align}\n\\] - Therefore, the Pigouvian tax rate in the present is \\(t^{*} = \\frac{4}{3}\\), and the Pigouvian tax in the future is \\(t^{*Future} = \\frac{8}{3}\\).\n\n\nHow the Pigouvian Tax would affect the market equilibrium and social welfare\n\n\n👉 Click here to see the example answer\n\n\n\nPurpose of the Pigouvian Tax\nThe tax is designed to internalize the external costs of oil pollution by aligning private costs with social costs. Under this scheme, the Social Marginal Cost (SMC) curve becomes the effective private marginal cost of firms.\n\n\n1. Optimal Tax Rates\n\nPresent: The optimal tax equals the current external marginal cost of oil pollution.\n\nFuture: The optimal tax should be updated to reflect future external damages, which may rise if pollution accumulates or environmental sensitivity increases.\n\n\n\n2. Effect on Market Equilibrium\n\nThe supply curve shifts upward by the tax amount.\n\nThe new equilibrium has:\n\nA higher market price\n\nA lower equilibrium quantity\n\n\nThe burden of the tax is shared between producers and consumers, depending on the relative elasticities of demand and supply.\n\n\n\n3. Effect on Social Welfare\n\nEfficiency Gains:\n\nThe deadweight loss from the externality disappears as production contracts to the socially optimal level.\n\nResources are allocated more efficiently because environmental costs are reflected in prices.\n\n\nWelfare Improvements:\n\nProducer surplus decreases and consumer surplus shrinks, but overall social welfare rises because external costs are now accounted for.\n\n\nTax Revenue:\n\nCan be used for environmental mitigation, subsidizing clean energy, or reducing other distortionary taxes.\n\n\n\n\n4. Long-Run Impacts\n\nCreates incentives for innovation in cleaner technologies and greater energy efficiency.\n\nEncourages substitution toward renewable energy and reduces long-term environmental damages.\n\n\n\n5. Implementation Challenges\n\nMeasurement: Difficulties in estimating the precise marginal external damage to set the correct tax.\n\nEconomic Impact: Oil-dependent industries and regions may face adjustment costs.\n\nPolitical Resistance: Strong opposition likely from oil producers, consumers, and lobbyists.\n\nEquity Concerns: Higher energy prices can disproportionately affect lower-income households, requiring compensatory measures (e.g., rebates, targeted subsidies)."
+  },
+  {
+    "objectID": "econ-340-hw-01-a.html#how-to-submit-comments-to-the-us-epa",
+    "href": "econ-340-hw-01-a.html#how-to-submit-comments-to-the-us-epa",
+    "title": "Homework 1",
+    "section": "How to Submit Comments to the US EPA",
+    "text": "How to Submit Comments to the US EPA\nYou can submit comments online or by email. The deadline for Submitting Comments is 11:59 PM EDT on Monday, September 22, 2025.\n\nCommenting online:\n\nEPA prefers that comments be submitted online using the Federal eRulemaking Portal.\nClick this link for commenting on the EPA proposal, Docket ID No. EPA-HQ-OAR-2025-0194.\nClick the tab “Docket Documents.”\nClick the “Comment” button. \nType or paste your comment in the comment field OR attach a file with your comment.\n\n\n\nCommenting by Email:\n\nType the Docket ID No. in the subject line of your email message: EPA-HQ-OAR-2025-0194\nSend your email to a-and-r-Docket@epa.gov."
+  },
+  {
+    "objectID": "econ-340-hw-01-a.html#writing-effective-comments",
+    "href": "econ-340-hw-01-a.html#writing-effective-comments",
+    "title": "Homework 1",
+    "section": "Writing Effective Comments",
+    "text": "Writing Effective Comments\nBegin by informing yourself about EPA’s proposal, their analysis, and the analyses of others using links provided below. Search for additional credible sources.\nEffective comments are concise and strongly reasoned. Recission of the endangerment finding will have many far-reaching consequences. Don’t attempt to be comprehensive in your comments; focus on one or two issues that are most salient to you. Support your comments with citations to sources if relevant. Include a statement about why the proposed recission is important to you personally. See also EPA’s tips for effective comments on rulemaking dockets.\nDraft your comments using MS Word or similar program. This makes it easier for you to make and save revisions before you submit your comments."
+  },
+  {
+    "objectID": "econ-340-hw-01-a.html#the-main-issue-epas-proposal-to-reconsider-the-2009-endangerment-finding",
+    "href": "econ-340-hw-01-a.html#the-main-issue-epas-proposal-to-reconsider-the-2009-endangerment-finding",
+    "title": "Homework 1",
+    "section": "The Main Issue: EPA’s Proposal to Reconsider the 2009 Endangerment Finding",
+    "text": "The Main Issue: EPA’s Proposal to Reconsider the 2009 Endangerment Finding\n\nBackground\n\n2009 Endangerment Finding: The EPA determined that greenhouse gases (GHGs) endanger public health and welfare, and that emissions from new motor vehicles contribute to this threat.\n\nLegal Foundation: This finding triggered the EPA’s obligation under Clean Air Act (CAA) §202(a) to regulate GHG emissions from cars and trucks.\n\nSupreme Court Ruling: In Massachusetts v. EPA (2007), the Court confirmed that GHGs are “air pollutants” under the Clean Air Act.\n\n\n\nThe Current Proposal (2025)\n\nEPA proposes to rescind the 2009 Endangerment Finding.\nThis would remove the statutory basis for regulating GHG emissions from new vehicles under CAA §202(a).\nAs a result, all GHG standards for light-, medium-, and heavy-duty vehicles would be repealed.\n\n\n\nThe Main Issue\nShould GHGs be treated as “air pollution” under CAA §202(a), requiring EPA regulation, or not?\n\nPro-Regulation View:\n\nGHGs clearly fit the Act’s definition of “air pollutant.”\nVehicle emissions are a significant source of U.S. GHGs (~17% of total).\nRegulation delivers real emission cuts and large net economic benefits (fuel + maintenance savings, health co-benefits).\n\nRepeal View:\n\nSection 202(a) was not intended for global pollutants like CO₂.\nVehicle standards have only a modest impact on global concentrations and warming.\nCompliance raises vehicle costs and limits consumer choice, creating economic harm."
+  },
+  {
+    "objectID": "econ-340-hw-01-a.html#learn-about-epas-proposal",
+    "href": "econ-340-hw-01-a.html#learn-about-epas-proposal",
+    "title": "Homework 1",
+    "section": "Learn about EPA’s Proposal",
+    "text": "Learn about EPA’s Proposal\n\nEPA Proposed Rule: Reconsideration of Endangerment Finding and Greenhouse Gas Vehicle Standards\nEPA Notice of Proposed Rulemaking\nEPA Draft Regulatory Impact Analysis"
+  },
+  {
+    "objectID": "econ-340-hw-01-a.html#resources-related-to-the-proposal",
+    "href": "econ-340-hw-01-a.html#resources-related-to-the-proposal",
+    "title": "Homework 1",
+    "section": "Resources related to the Proposal",
+    "text": "Resources related to the Proposal\n\nA Critical Review of Impacts of Greenhouse Gas Emissions on the U.S. Climate, US Department of Energy, Climate Working Group, Jul 23, 2025.\nThe Practice and Assessment of Science: Five Foundational Flaws in the Department of Energy’s 2025 Climate Report, Executive Committee of the American Meteorological Society, Aug 27, 2025.\nTandon, A., L. Hickman, C. Keating, and R. McSweeney, Factcheck: Trump’s climate report includes more than 100 false or misleading claims, Carbon Brief, Aug 13, 2025.\nCitizens’ Climate Lobby, Comment on Reconsideration of 2009 Endangerment Finding and Greenhouse Gas Vehicle Standards, Aug 8, 2025.\nPatterson S. and Niiler E., Trump Administration Aims to Roll Back Bedrock Climate Tool, The Wall Street Journal, July 29, 2025.\nWentz, J., Attribution Science and EPA’s Reconsideration of the GHG Endangerment Finding, Climate Law Blog, Columbia Law School, May 22, 2025.\nEPA Launches Biggest Deregulatory Action in U.S. History, US EPA, March 12, 2025."
+  },
+  {
+    "objectID": "econ-340-hw-01-a.html#a.-1",
+    "href": "econ-340-hw-01-a.html#a.-1",
+    "title": "Homework 1",
+    "section": "a.",
+    "text": "a.\nDraw a diagram with “units of emission reduced” on the horizontal axis, showing marginal costs and marginal benefits. Without the filter or relocation, what is the efficient amount of smoke Alpha should cut?\n\n\n👉 Click here to see the example answer\n\n\nSet \\(MC=MB\\): \\[\nx = 12 - x \\;\\Rightarrow\\; 2x=12 \\;\\Rightarrow\\; \\boxed{x^{*}=6}.\n\\]"
+  },
+  {
+    "objectID": "econ-340-hw-01-a.html#b.-1",
+    "href": "econ-340-hw-01-a.html#b.-1",
+    "title": "Homework 1",
+    "section": "b.",
+    "text": "b.\nSuppose the air filter is installed, reducing Beta’s marginal benefit from each unit of abatement to \\(\\left(6 - \\tfrac{x}{2}\\right)\\). That is, Beta now values emission reduction at only half the original level. What is the new efficient level of emission reduction?\n\n\n👉 Click here to see the example answer\n\n\nThe filter halves Beta’s marginal benefit: \\[\nMB_f(x)=\\tfrac{1}{2}(12-x)=6-\\tfrac{x}{2}.\n\\]\nSet \\(MC=MB_f\\): \\[\nx = 6 - \\frac{x}{2} \\;\\Rightarrow\\; \\frac{3}{2}x=6 \\;\\Rightarrow\\; \\boxed{x_f^{*}=4}.\n\\]\n\n\n\n\n\n\nWhy the Filter Halves Beta’s Marginal Benefit\n\nWithout the filter:\nEvery unit of abatement removes 1 full unit of smoke.\n\nIf Alpha cuts back 1 more unit, Beta enjoys the full relief of that unit.\n\nThe marginal benefit starts high (12) and declines linearly as fewer units remain:\n\\[\nMB(x) = 12 - x\n\\]\n\nWith the filter:\nThe filter already removes half the harm from every unit of smoke that remains.\n\nEach unit of abatement by Alpha now only solves half as much of a problem as before.\n\nExample: abating 1 unit takes Beta from “½ unit of smoke” to “0 smoke,” not from “1 full unit” to “0.”\n\nResult:\nBoth the intercept and the slope of the MB curve are halved:\n\\[\nMB_f(x) = \\tfrac{1}{2}(12 - x) = 6 - 0.5x\n\\]\n\nThe filter is already doing half the cleanup, so Beta values any additional abatement by Alpha at only half the original amount."
+  },
+  {
+    "objectID": "econ-340-hw-01-a.html#c.-1",
+    "href": "econ-340-hw-01-a.html#c.-1",
+    "title": "Homework 1",
+    "section": "c.",
+    "text": "c.\nCalculate the net benefit (efficiency) of Beta for each scenario:\n    1. Do not rent the air filter or relocate Alpha, but instead pay Alpha not to emit smoke.\n    2. Rent the air filter and then also pay Alpha not to emit smoke.\n    (*Hint: There are two benefits under this scenario—(1) Relative to the status quo of 12 smoke emissions, the benefits of air filter rental have two components. First, Beta gets the full benefits of seeing 4 smoke reduced. Second, each unit of damage to Beta is cut in half by the filter for the remaining 8 smoke emissions.)\n    3. Pay to relocate Alpha.\n    Which scenario yields the highest efficiency? Show your calculations.\n🔎 Guidelines:\n- The net benefit (efficiency) is:\n\\[\n  (\\text{Total Benefits from reduction}) \\; - \\; (\\text{Total Costs (abatement + filter/relocation)})\n  \\]\nAnswer\nScenario 1. Do not rent the air filter or relocate Alpha, but instead pay Alpha not to emit smoke.\n\n\n👉 Click here to see the example answer\n\n\n\n\n\n\n\n\n\nScenario 2. Rent the air filter and then also pay Alpha not to emit smoke.\n\n\n\n👉 Click here to see the example answer\n\n\n\n\n\n\n\n\nIntuition with an Example\n\nSuppose 1 unit of smoke causes $10 of harm to Beta.\nWith the filter in place:\n\nIf Alpha emits that unit, the filter cuts the harm in half, so Beta only suffers $5 of damage.\n\nIf Alpha abates that unit (doesn’t emit it at all), Beta avoids the entire $10 of harm, not just the $5 that would remain after the filter.\n\n\n👉 This shows why the benefit of abating the first few units should be measured using the original marginal benefit curve, (MB(x) = 12 - x), not the reduced curve.\n\nFor units that are abated → use the old MB curve ((12 - x)), since those units vanish completely relative to the status quo (12 units of smoke without the filter).\n\nFor units that are not abated → count only half of the old MB, since the filter reduces their damage by 50% relative to the status quo.\n\n\n\nScenario 3. Pay to relocate Alpha.\n\n\n\n👉 Click here to see the example answer\n\n\n\n\n\n\n\n\n\nComparison & conclusion\n\n\n👉 Click here to see the example answer\n\n\n\\[\nNB_1=36,\\quad NB_2=38,\\quad NB_3=32.\n\\]\n\\[\n\\boxed{\\text{Highest efficiency: Scenario 2 (filter + optimal abatement).}}\n\\]\nImplication of Scenario 2 (Filter + Abatement)\n\nWith private negotiation, Beta and Alpha can agree to both install the filter ($10 per day) and abate 4 units.\n\nEven after including the filter’s fixed cost and Alpha’s abatement cost, this combined approach yields the highest net benefit compared with using only abatement or full relocation."
+  },
+  {
+    "objectID": "econ-340-hw-01-a.html#d.-1",
+    "href": "econ-340-hw-01-a.html#d.-1",
+    "title": "Homework 1",
+    "section": "d.",
+    "text": "d.\nAssume no transaction costs or free riding. According to the Coase theorem, explain why the two factories could reach the efficient outcome through negotiation even if Beta has the right to force Alpha to move at its own expense.\n\n\n👉 Click here to see the example answer\n\n\nIf negotiation is easy and property rights are clear, Alpha and Beta can always reach the efficient outcome, no matter who holds the rights.\nIn this case, Scenario 2—installing the filter and reducing emissions by 4 units—gives the highest net benefit.\nKey Lesson: The most effective solution often comes from a combination of technology and abatement. Through negotiation, both sides can agree on a plan that balances benefits, costs, and fixed expenses better than either extreme.\n\n\n\n\n\n\nNote\n\n\n\nProperty rights determine who pays and who gains, but not the overall efficiency."
   }
 ]
