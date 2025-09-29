@@ -492,7 +492,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 - **Location**: A high seas area in the center of the Sea of Okhotsk, surrounded by Russia's **EEZ** (Exclusive Economic Zone), which generally extends **200 nautical miles** from a coastal state’s baselines.
 - **Significance**:
-  - Previously a global commons outside Russia's jurisdiction.
+  - Previously a **global common** outside Russia's jurisdiction.
   - Known as the "Peanut Hole" due to its unique shape.
 - **Challenges**:
   - Overfishing by international fleets posed threats to fish stocks.
