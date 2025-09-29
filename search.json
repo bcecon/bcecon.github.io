@@ -1621,7 +1621,7 @@
     "href": "index.html#bullet-classwork",
     "title": "ECON 340: Environmental Economics, Fall 2025",
     "section": "\\(\\bullet\\,\\) ⌨️ Classwork",
-    "text": "\\(\\bullet\\,\\) ⌨️ Classwork\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 1\n\n\nMicroeconomics Review\n\n\nSeptember 2, 2025\n\n\n\n\nClasswork 2\n\n\nExternalities\n\n\nSeptember 8, 2025\n\n\n\n\nClasswork 3\n\n\nProperty Rights, the Coase Theorem, and the Environment\n\n\nSeptember 19, 2025\n\n\n\n\nClasswork 4\n\n\nCommon Property Resources\n\n\nSeptember 26, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "\\(\\bullet\\,\\) ⌨️ Classwork\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 1\n\n\nMicroeconomics Review\n\n\nSeptember 2, 2025\n\n\n\n\nClasswork 2\n\n\nExternalities\n\n\nSeptember 8, 2025\n\n\n\n\nClasswork 3\n\n\nProperty Rights, the Coase Theorem, and the Environment\n\n\nSeptember 19, 2025\n\n\n\n\nClasswork 4\n\n\nOptimal Harvesting in a Common-pool Fishery\n\n\nSeptember 26, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#bullet-homework",
@@ -1677,7 +1677,7 @@
     "href": "econ-cw/econ-340-cw-04.html",
     "title": "Classwork 4",
     "section": "",
-    "text": "Consider a fishery where the total benefit (TB) and total cost (TC) of fishing effort \\(E\\) are:\n\n\\(TB(E)=1.5E - E^{2}\\) (in $)\n\\(TC(E)=0.5E\\) (in $)\n\nwhere \\(E\\) is the level of fishing effort (e.g., number of boat-days).\n\n\nDraw the Total Benefit (TB) and Total Cost (TC) curves as functions of fishing effort \\(E\\). Place these curves in the top panel of a two-panel figure.\n\n\n\nOn the bottom panel, draw the Marginal Benefit (MB) and Marginal Cost (MC) curves as functions of fishing effort \\(E\\).\n\n\n\nMake sure the top and bottom panels share the same horizontal scale for effort \\(E\\), so the relationship between total and marginal spaces is consistent.\n\nRecall that:\n\n\\(MB(E)=\\dfrac{d\\,TB}{dE}=1.5 - 2E\\)\n\\(MC(E)=\\dfrac{d\\,TC}{dE}=0.5\\)\n\n\nOn both panels, mark and label the two benchmark effort levels using vertical guide lines that align across panels:\n\nThe efficient effort \\(E^*\\): Draw a vertical line at \\(E^*\\) on both the top (TB/TC) and bottom (AB/AC/MB/MC) panels and label it “\\(E^*\\)”.\nThe open-access effort \\(E_{OA}\\): Draw a vertical line at \\(E_{OA}\\) on both panels and label it “\\(E_{OA}\\)”."
+    "text": "Consider a fishery where the total benefit (TB) and total cost (TC) of fishing effort \\(E\\) are:\nwhere \\(E\\) is the level of fishing effort (e.g., number of boat-days)."
   },
   {
     "objectID": "econ-cw/econ-340-cw-04.html#optimal-harvesting-in-a-fishery",
@@ -1698,7 +1698,7 @@
     "href": "econ-cw/econ-340-cw-04.html#part-e-policy-intervention-with-a-license-fee",
     "title": "Classwork 4",
     "section": "Part E — Policy Intervention with a License Fee",
-    "text": "Part E — Policy Intervention with a License Fee\n\nLicense fee: Explain, both analytically and intuitively, how charging a per-unit license fee (e.g., per boat-day) can reduce fishing effort from the open-access level \\(E_{OA}\\) down to the efficient level \\(E^*\\).\n\nDiscuss why aligning individual fishers’ incentives with the social optimum is crucial for preventing rent dissipation and ensuring the long-run sustainability of the fishery."
+    "text": "Part E — Policy Intervention with a License Fee\n\nLicense fee: Explain, both analytically and intuitively, how charging a per-unit license fee (e.g., per boat-day) can reduce fishing effort from the open-access level \\(E_{OA}\\) down to the efficient level \\(E^*\\).\n\nExplain why it is important to align individual fishers’ incentives with the socially optimal level of effort in a fishery. In your answer, discuss:\n\nIncentive problem: Why do individual fishers’ private decisions differ from what is best for the group?\nEconomic rent: What happens to economic rents under open access when incentives are not aligned?\nSustainability: Why does aligning incentives matter for the long-run health of both the fish stock and the fishing economy?"
   },
   {
     "objectID": "econ-hw/econ-340-hw-02.html",
@@ -1789,7 +1789,7 @@
     "href": "listing-econ-340-cw.html",
     "title": "ECON 340 - Classwork",
     "section": "",
-    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 4\n\n\nCommon Property Resources\n\n\nSeptember 26, 2025\n\n\n\n\nClasswork 3\n\n\nProperty Rights, the Coase Theorem, and the Environment\n\n\nSeptember 19, 2025\n\n\n\n\nClasswork 2\n\n\nExternalities\n\n\nSeptember 8, 2025\n\n\n\n\nClasswork 1\n\n\nMicroeconomics Review\n\n\nSeptember 2, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 4\n\n\nOptimal Harvesting in a Common-pool Fishery\n\n\nSeptember 26, 2025\n\n\n\n\nClasswork 3\n\n\nProperty Rights, the Coase Theorem, and the Environment\n\n\nSeptember 19, 2025\n\n\n\n\nClasswork 2\n\n\nExternalities\n\n\nSeptember 8, 2025\n\n\n\n\nClasswork 1\n\n\nMicroeconomics Review\n\n\nSeptember 2, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "econ-lec/econ-340-lec-03-2025-0829.html#demand-and-supply-basics",
@@ -1943,14 +1943,14 @@
     "href": "econ-lec/econ-340-lec-06-2025-0926.html#open-access-res-nullius-the-core-problem",
     "title": "Lecture 6",
     "section": "Open Access (Res nullius) — The Core Problem",
-    "text": "Open Access (Res nullius) — The Core Problem\n\nNo one can exclude ⇒ access is nonexcludable; the stock is rival (one user’s harvest reduces others’).\nResult: First-come, first-served use; individuals ignore the stock externality on others and the future.\nPopular label: “Tragedy of the open-access commons”—overuse and rent dissipation as scarcity grows."
+    "text": "Open Access (Res nullius) — The Core Problem\n\nNo one can exclude ⇒ access is nonexcludable; the stock is rival (one user’s harvest reduces others’).\nResult: First-come, first-served use; individuals ignore the stock externality on others and the future.\nPopular label: “Tragedy of the open-access commons”—overuse and dissipation of economic rents as scarcity grows.\n\n\n\n\nNote\n\n\n\nEconomic rent is the extra return to a resource (like land, fish, or oil) above the minimum payment necessary to keep it in use."
   },
   {
     "objectID": "econ-lec/econ-340-lec-06-2025-0926.html#incentives-by-regime",
     "href": "econ-lec/econ-340-lec-06-2025-0926.html#incentives-by-regime",
     "title": "Lecture 6",
     "section": "Incentives by Regime",
-    "text": "Incentives by Regime\n\n\n\n\n\n\n\n\n\n\n\n\n\nAttribute\nPrivate\nState\nCommon\nOpen Access\n\n\n\n\nExcludability\nHigh\nHigh (by law)\nGroup-limited\nNone\n\n\nWho sets rules?\nOwner(s)\nGovernment\nCo-owners\nNo one\n\n\nWho captures rents?\nOwner(s)\nPublic (in principle)\nCo-owners\nNo one (dissipated)\n\n\nTypical risks\nExternalities; market power\nBureaucratic drift; info gaps\nCohesion/monitoring failures\nOveruse; collapse risk\n\n\n\n\n\n\n\nNote\n\n\n\nKey distinction: Open access ⟂ Common property.\nOpen access = common property without effective rules or governance.\nAll open-access resources are common-pool resources (CPR), but not all common-pool resources are open access.\n\n\n\n\n\nRights → incentives → outcomes.\nDurable solutions rely on clear rights, credible rules, and effective enforcement—via private, state, or common governance, often in hybrid forms."
+    "text": "Incentives by Regime\n\n\n\n\n\n\n\n\n\n\n\n\n\nAttribute\nPrivate\nState\nCommon\nOpen Access\n\n\n\n\nExcludability\nHigh\nHigh (by law)\nGroup-limited\nNone\n\n\nWho sets rules?\nOwner(s)\nGovernment\nCo-owners\nNo one\n\n\nWho captures rents?\nOwner(s)\nPublic (in principle)\nCo-owners\nNo one (dissipated)\n\n\nTypical risks\nExternalities; market power\nPrincipal–agent problem; info gaps\nCohesion/monitoring failures\nOveruse; collapse risk\n\n\n\n\n\n\n\nNote\n\n\n\nKey distinction: Open access ⟂ Common property.\nOpen access = common property without effective rules or governance.\nAll open-access resources are common-pool resources (CPR), but not all common-pool resources are open access.\n\n\n\n\n\nRights → incentives → outcomes.\nDurable solutions rely on clear rights, credible rules, and effective enforcement—via private, state, or common governance, often in hybrid forms."
   },
   {
     "objectID": "econ-lec/econ-340-lec-06-2025-0926.html#american-bison-as-a-common-pool-example",
@@ -1985,7 +1985,7 @@
     "href": "econ-lec/econ-340-lec-06-2025-0926.html#open-access-outcome-e_oa-why-its-too-high",
     "title": "Lecture 6",
     "section": "Open-Access Outcome \\(E_{OA}\\): Why It’s Too High",
-    "text": "Open-Access Outcome \\(E_{OA}\\): Why It’s Too High\n\n\n\n\n\n\n\n\n\nUnder free entry, effort keeps expanding until each user earns zero profit.\n\nThe open-access condition is:\n\\[\nAB(E_{OA}) = AC(E_{OA})\n\\]\n\n\n\n\n\nAt this point, \\(E = E_{OA}\\), Total Surplus (profit) is zero:\n\\[\n\\begin{align}\nTS(E_{OA}) &= 0\\quad \\Leftrightarrow \\\\\n\\frac{TB(E_{OA})}{E_{OA}} &= \\frac{TC(E_{OA})}{E_{OA}}\n\\end{align}\n\\]"
+    "text": "Open-Access Outcome \\(E_{OA}\\): Why It’s Too High\n\n\n\n\n\n\n\n\n\nUnder free entry, effort keeps expanding until each user earns zero profit.\n\nThe open-access condition is:\n\\[\nAB(E_{OA}) = AC(E_{OA})\n\\]\n\n\n\n\n\nAt this point (\\(E = E_{OA}\\)), Total Surplus (profit) is zero:\n\\[\n\\begin{align}\nTS(E_{OA}) &= 0\\quad \\Leftrightarrow \\\\\n\\frac{TB(E_{OA})}{E_{OA}} &= \\frac{TC(E_{OA})}{E_{OA}}\n\\end{align}\n\\]"
   },
   {
     "objectID": "econ-lec/econ-340-lec-06-2025-0926.html#the-overuse-problem-in-open-access",
@@ -2175,5 +2175,26 @@
     "title": "Week 5",
     "section": "💬 Discussion",
     "text": "💬 Discussion\nWelcome to our Week 5 Discussion Board! 👋 \nThis space is designed for you to engage with your classmates about the material covered in Week 5.\nWhether you are looking to delve deeper into the content, share insights, or have questions about the content, this is the perfect place for you.\nIf you have any specific questions for Byeong-Hak (@bcecon) or peer classmate (@GitHub-Username) regarding the Week 5 materials or need clarification on any points, don’t hesitate to ask here.\nLet’s collaborate and learn from each other!"
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-04.html#part-a-total-curves",
+    "href": "econ-cw/econ-340-cw-04.html#part-a-total-curves",
+    "title": "Classwork 4",
+    "section": "Part A — Total Curves",
+    "text": "Part A — Total Curves\nDraw the Total Benefit (TB) and Total Cost (TC) curves as functions of fishing effort \\(E\\). Place these curves in the top panel of a two-panel figure."
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-04.html#part-b-marginal-curves",
+    "href": "econ-cw/econ-340-cw-04.html#part-b-marginal-curves",
+    "title": "Classwork 4",
+    "section": "Part B — Marginal Curves",
+    "text": "Part B — Marginal Curves\nOn the bottom panel, draw the Marginal Benefit (MB) and Marginal Cost (MC) curves as functions of fishing effort \\(E\\)."
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-04.html#part-c-efficient-and-open-access-effort-levels",
+    "href": "econ-cw/econ-340-cw-04.html#part-c-efficient-and-open-access-effort-levels",
+    "title": "Classwork 4",
+    "section": "Part C — Efficient and Open-Access Effort Levels",
+    "text": "Part C — Efficient and Open-Access Effort Levels\nMake sure the top and bottom panels share the same horizontal scale for effort \\(E\\), so the relationship between total and marginal spaces is consistent.\n\nRecall that:\n\n\\(MB(E)=\\dfrac{d\\,TB}{dE}=1.5 - 2E\\)\n\\(MC(E)=\\dfrac{d\\,TC}{dE}=0.5\\)\n\n\nOn both panels, mark and label the two benchmark effort levels using vertical guide lines that align across panels:\n\nThe efficient effort \\(E^*\\): Draw a vertical line at \\(E^*\\) on both the top (TB/TC) and bottom (AB/AC/MB/MC) panels and label it “\\(E^*\\)”.\nThe open-access effort \\(E_{OA}\\): Draw a vertical line at \\(E_{OA}\\) on both panels and label it “\\(E_{OA}\\)”."
   }
 ]

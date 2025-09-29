@@ -145,10 +145,14 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 ## Open Access (_Res nullius_) — The Core Problem
 
 - **No one can exclude** ⇒ access is **nonexcludable**; the stock is **rival** (one user’s harvest reduces others’).
-- Result: **First-come, first-served** use; individuals ignore the **stock externality** on others and the future.
-- Popular label: **“Tragedy of the open-access commons”**—**overuse** and **rent dissipation** as scarcity grows.
+- <u>Result</u>: **First-come, first-served** use; individuals ignore the **stock externality** on others and the future.
+- <u>Popular label</u>: **“Tragedy of the open-access commons”**—**overuse** and **dissipation of economic rents** as scarcity grows.
 
+:::callout-note
 
+- **Economic rent** is the extra return to a resource (like land, fish, or oil) above the minimum payment necessary to keep it in use.
+
+:::
 
 ## Incentives by Regime
 
@@ -161,7 +165,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 | **Excludability** | <span class="fragment">High</span> | <span class="fragment">High (by law)</span> | <span class="fragment">Group-limited</span> | <span class="fragment">None</span> |
 | **Who sets rules?** | <span class="fragment">Owner(s)</span> | <span class="fragment">Government</span> | <span class="fragment">Co-owners</span> | <span class="fragment">No one</span> |
 | **Who captures rents?** | <span class="fragment">Owner(s)</span> | <span class="fragment">Public (in principle)</span> | <span class="fragment">Co-owners</span> | <span class="fragment">No one (dissipated)</span> |
-| **Typical risks** | <span class="fragment">Externalities; market power</span> | <span class="fragment">Bureaucratic drift; info gaps</span> | <span class="fragment">Cohesion/monitoring failures</span> | <span class="fragment">Overuse; collapse risk</span> |
+| **Typical risks** | <span class="fragment">Externalities; market power</span> | <span class="fragment">Principal–agent problem; info gaps</span> | <span class="fragment">Cohesion/monitoring failures</span> | <span class="fragment">Overuse; collapse risk</span> |
 </div>
 
 :::callout-note
@@ -304,7 +308,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 <div style="display:block; margin:-35px;"></div>
 
-- At this point, $E = E_{OA}$, **Total Surplus (profit)** is zero:  
+- At this point ($E = E_{OA}$), **Total Surplus (profit)** is zero:  
   $$
   \begin{align}
   TS(E_{OA}) &= 0\quad \Leftrightarrow \\
