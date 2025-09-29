@@ -50,7 +50,8 @@ If the decision is left entirely to *Person 1*, what level of music $h_M$ will s
 
 
 
-<details><summary>👉 Click here to see the example answer</summary><br>
+::: {.callout-tip collapse="true"}
+### Show answer
 
 ```{r}
 MB <- function(h) 4 - 2*h
@@ -156,14 +157,15 @@ ggplot(df, aes(h)) +
 ```
 
 
-</details><br><br>
+:::
 
 
 ## b. Socially efficient outcome
 What is the socially optimal level $h^{*}$? Why?
 
 
-<details><summary>👉 Click here to see the example answer</summary><br>
+::: {.callout-tip collapse="true"}
+### Show answer
 
 
 ```{r}
@@ -315,7 +317,7 @@ ggplot(df, aes(h)) +
 ```
 
 
-</details><br><br>
+:::
 
 
 ## c. Person 1 has the right to play
@@ -326,7 +328,9 @@ Assume there are no transaction costs in bargaining.
 - Show how bargaining can still lead them to agree on the socially optimal level $h^{*}$.  
   - Identify the possible range of transfers $T$ (in dollars), paid from *Person 2* to *Person 1*, that makes both better off compared to their initial legal entitlement ($h=h_M, T=0$).
 
-<details><summary>👉 Click here to see the example answer</summary><br>
+::: {.callout-tip collapse="true"}
+### Show answer
+
 Starting from $h=2$, 
 $$
 MC(2)=4>MB(2)=0,
@@ -366,7 +370,7 @@ $$
 paid from Person 2 to Person 1 makes both (weakly) better off.  
 
 
-</details><br><br>
+:::
 
 ## d. Person 2 has the right to silence
 Now suppose the government gives *Person 2* the legal right to silence ($h=0$).  
@@ -377,7 +381,8 @@ Assume there are no transaction costs in bargaining.
   - Identify the possible range of transfers $T$ (in dollars), paid from *Person 1* to *Person 2*, that makes both better off compared to their initial legal entitlement ($h=0, T=0$).
 
 
-<details><summary>👉 Click here to see the example answer</summary><br>
+::: {.callout-tip collapse="true"}
+### Show answer
 
 Starting from $h=0$, 
 $$
@@ -470,4 +475,4 @@ How the pie is divided—that is, the actual transfer size—depends on the rela
 :::
 
 
-</details><br><br>
+:::

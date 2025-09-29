@@ -1,11 +1,11 @@
 ---
 title: Week 5
-subtitle: Common Property Resources and Public Goods
+subtitle: Common Property Resources
 date: 2025-09-22
 from: markdown+emoji
 ---
 
-In Week 5, we will sum up the Property Right and the Environment, and then move to discussion on how to propery manage common pool resources and preserve public goods.
+In Week 5, we will sum up the Property Right and the Environment, and then move to discussion on how to property manage common pool resources.
 
 
 ## 🏫 Lecture Slides 
@@ -14,8 +14,8 @@ In Week 5, we will sum up the Property Right and the Environment, and then move 
   [View Slides](../econ-lec/econ-340-lec-05-2025-0915.html){target="_blank"}  
 
 
-- **Lecture 6 - Common Property Resources and Public Goods**  
-  [View Slides](../econ-lec/econ-340-lec-06-2025-0922.html){target="_blank"}  
+- **Lecture 6 - Common Property, Open Access, and Property Rights**  
+  [View Slides](../econ-lec/econ-340-lec-06-2025-0926.html){target="_blank"}  
 
 
 🎥 Looking for lecture recordings? You can only find those on Brightspace.

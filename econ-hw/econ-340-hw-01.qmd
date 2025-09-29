@@ -61,7 +61,7 @@ df <- data.frame(
 - **Deadlines**:  
   - **Questions 1, 3, and 4**: Due **Wednesday, September 24, 2025 at 10:30 A.M. (ET)**  
     - Hand in your written answers on paper to Prof. Choe at the beginning of class.  
-  - **Question 2**: Due **Monday, September 22, 2025 at 11:59 P.M. (ET)**  
+  - **Question 2**: Due **Monday, September 22, 2025 at 11:59 P.M.**  
     - Submit your comment as a PDF or Word document on Brightspace.  
     - When uploading, please also leave a note in the submission box indicating whether you submitted your comment to the U.S. EPA.
 
@@ -75,8 +75,8 @@ The demand function for oil is $q_d = 4 - p$, and the supply function is $q_s = 
 Graph the supply and demand functions on the same coordinate plane.
 
 
-<details><summary>👉 Click here to see the example answer</summary><br>
-
+::: {.callout-tip collapse="true"}
+### Show answer
 
 ```{r}
 ggplot() +
@@ -94,13 +94,14 @@ ggplot() +
 
 ```
 
-</details><br><br>
+:::
 
 ## **b**. 
 Determine the market equilibrium price and quantity of oil.
 
 
-<details><summary>👉 Click here to see the example answer</summary><br>
+::: {.callout-tip collapse="true"}
+### Show answer
 
 - Solving the system of demand and supply equations gives the market equilibrium level of quantity ($q_M$) and price ($p_M$):
 $$
@@ -115,12 +116,13 @@ MB(q_M) =\; &p_M = MC(q_M)\\
 \end{align}
 $$
 
-</details><br><br>
+:::
 
 ## **c**. 
 Calculate the consumer surplus and producer surplus at the market equilibrium.
 
-<details><summary>👉 Click here to see the example answer</summary><br>
+::: {.callout-tip collapse="true"}
+### Show answer
 
 - Consumer surplus ($CS$) is the value that consumers receive from an allocation minus what it costs them to obtain it.
   - $CS$ is measured as the area under the demand curve minus the consumer cost.
@@ -161,7 +163,7 @@ ggplot() +
 ```
 
 
-</details><br><br>
+:::
 
 
 
@@ -175,7 +177,8 @@ Oil consumption causes environmental damage. Suppose the external marginal cost 
 
 **(1) The socially optimal level of oil use**
 
-<details><summary>👉 Click here to see the example answer</summary><br>
+::: {.callout-tip collapse="true"}
+### Show answer
 
 The social marginal cost ($SMC$) is:
 $$
@@ -221,12 +224,13 @@ ggplot() +
   xlim(c(0,3))
 ```
 
-</details><br><br>
+:::
 
 
 **(2) The deadweight loss ($DWL$) due to pollution at the market equilibrium**
 
-<details><summary>👉 Click here to see the example answer</summary><br>
+::: {.callout-tip collapse="true"}
+### Show answer
 
 
 - Deadweight loss ($DWL$) is the loss of economic efficiency that occurs when the optimal or equilibrium outcome is not achieved in a market. 
@@ -368,7 +372,7 @@ ggplot() +
 ```
 
 
-</details><br><br>
+:::
 
 
 
@@ -383,7 +387,8 @@ Due to economic development, the future demand for oil increases, resulting in a
 
 **(1) The new market equilibrium price and quantity**
 
-<details><summary>👉 Click here to see the example answer</summary><br>
+::: {.callout-tip collapse="true"}
+### Show answer
 
 In the equilibrium, the price is such that the market clears: 
 
@@ -392,12 +397,13 @@ $$
 $$
 Therefore, the new equilibrium quantity is $q^{Future}_{M} = 3$, and the new equilibrium price is $p^{Future}_{M}=5$.
 
-</details><br><br>
+:::
 
 
 **(2) The new socially optimal level of oil use**
 
-<details><summary>👉 Click here to see the example answer</summary><br>
+::: {.callout-tip collapse="true"}
+### Show answer
 
 At the new socially optimum $q^{*Future}$, the social marginal benefit of the oil use is equal to the social marginal cost of the oil use:
 
@@ -406,12 +412,13 @@ $$
 $$
 Therefore, the new socially optimal level of oil use is $q^{*Future} = \frac{5}{3}$.
 
-</details><br><br>
+:::
 
 
 **(3) The $DWL$ due to pollution at the market equilibrium in the future**
 
-<details><summary>👉 Click here to see the example answer</summary><br>
+::: {.callout-tip collapse="true"}
+### Show answer
 
 - Deadweight loss ($DWL$) is the loss of economic efficiency that occurs when the optimal or equilibrium outcome is not achieved in a market. 
   - What will happen if the firm produces at $q^{Future}_{M}$, instead of $q^{*Future}$?
@@ -574,14 +581,15 @@ ggplot() +
 
 
 
-</details><br><br>
+:::
 
 
 
 ## **f**. 
 Propose and briefly explain two distinct public policies that could be implemented to mitigate the environmental damages and reduce the burden on future generations. Discuss the potential effectiveness and challenges of each policy.
 
-<details><summary>👉 Click here to see the example answer</summary><br>
+::: {.callout-tip collapse="true"}
+### Show answer
 
 1. **Implement a Pigouvian Tax**  
    - **Policy:** Impose a tax equal to the marginal external cost of pollution (e.g., a carbon tax).  
@@ -607,7 +615,7 @@ Propose and briefly explain two distinct public policies that could be implement
    - **Long-term Impact:** Accelerates the energy transition, lowering environmental damages and easing the burden on future generations by reducing climate risks  
    
 
-</details><br><br>
+:::
 
 
 
@@ -619,7 +627,8 @@ Suppose the government decides to impose a Pigouvian tax to internalize the exte
 
 **Pigouvian Tax for Oil Production:**
 
-<details><summary>👉 Click here to see the example answer</summary><br>
+::: {.callout-tip collapse="true"}
+### Show answer
 
   - To address the negative externality imposed by oil production, we are considering implementing a price instrument known as Pigouvian tax, or corrective taxation. This policy involves setting a per-unit tax equal to the marginal environmental damage caused by oil production. 
 
@@ -631,13 +640,14 @@ $$
 $$
 - Therefore, the Pigouvian tax rate in the present is $t^{*} = \frac{4}{3}$, and the Pigouvian tax in the future is $t^{*Future} = \frac{8}{3}$.
 
-</details><br><br>
+:::
 
 
  
 **How the Pigouvian Tax would affect the market equilibrium and social welfare**
 
-<details><summary>👉 Click here to see the example answer</summary><br>
+::: {.callout-tip collapse="true"}
+### Show answer
 
 - **Purpose of the Pigouvian Tax** 
 
@@ -679,7 +689,7 @@ $$
 
 
 
-</details><br><br>
+:::
 
 
 # Question 3. Coase Theorem (Points: 30)
@@ -702,7 +712,8 @@ Two technological solutions are available:
 ## **a.** 
 Draw a diagram with “units of emission reduced” on the horizontal axis, showing marginal costs and marginal benefits. Without the filter or relocation, what is the efficient amount of smoke Alpha should cut?  
 
-<details><summary>👉 Click here to see the example answer</summary><br>
+::: {.callout-tip collapse="true"}
+### Show answer
 
 Set $MC=MB$:
 $$
@@ -728,12 +739,13 @@ ggplot(df_a, aes(x = x)) +
        color = "Curves")
 ```
 
-</details><br><br>
+:::
 
 ## **b.** 
 Suppose the air filter is installed, reducing Beta’s marginal benefit from each unit of abatement to $\left(6 - \tfrac{x}{2}\right)$. That is, Beta now values emission reduction at only half the original level. What is the new efficient level of emission reduction?
 
-<details><summary>👉 Click here to see the example answer</summary><br>
+::: {.callout-tip collapse="true"}
+### Show answer
 
 The filter halves Beta’s marginal benefit:
 $$
@@ -788,7 +800,7 @@ $$
 The filter is already doing half the cleanup, so Beta values any additional abatement by Alpha at only half the original amount.  
 
 
-</details><br><br>
+:::
 
 ## **c.** 
 Calculate the _net benefit_ (efficiency) of Beta for each scenario:  
@@ -812,7 +824,8 @@ Calculate the _net benefit_ (efficiency) of Beta for each scenario:
 
 **Scenario 1. Do not rent the air filter or relocate Alpha, but instead pay Alpha not to emit smoke.**
 
-<details><summary>👉 Click here to see the example answer</summary><br>
+::: {.callout-tip collapse="true"}
+### Show answer
 
   
 ```{r}
@@ -906,17 +919,18 @@ p_s3 <- ggplot(df, aes(x = x)) +
 p_s1
 ```
 
-</details><br><br>
+:::
 
-**Scenario 2. Rent the air filter and then also pay Alpha not to emit smoke.**  
-<details><summary>👉 Click here to see the example answer</summary><br>
+**Scenario 2. Rent the air filter and then also pay Alpha not to emit smoke.**
 
+::: {.callout-tip collapse="true"}
+### Show answer
 
 ```{r}
 p_s2
 ```
 
-### Intuition with an Example  
+**Intuition with an Example**
 
 - Suppose **1 unit of smoke causes \$10 of harm** to Beta.  
 
@@ -930,23 +944,26 @@ p_s2
 - For units that are **not abated** → count only **half of the old MB**, since the filter reduces their damage by 50% **relative to the status quo**.  
 
 
-</details><br><br>
+:::
 
 
 **Scenario 3. Pay to relocate Alpha.**  
-<details><summary>👉 Click here to see the example answer</summary><br>
+
+::: {.callout-tip collapse="true"}
+### Show answer
 
 
 ```{r}
 p_s3
 ```
 
-</details><br><br>
+:::
 
 
-**Comparison & conclusion**
+**Comparison & Conclusion**
 
-<details><summary>👉 Click here to see the example answer</summary><br>
+::: {.callout-tip collapse="true"}
+### Show answer
 
 $$
 NB_1=36,\quad NB_2=38,\quad NB_3=32.
@@ -962,13 +979,14 @@ Implication of Scenario 2 (Filter + Abatement)
 - Even after including the filter’s fixed cost and Alpha’s abatement cost, this **combined approach yields the highest net benefit** compared with using only abatement or full relocation.  
 
 
-</details><br><br>
+:::
 
 
 ## **d.** 
 Assume no transaction costs or free riding. According to the Coase theorem, explain why the two factories could reach the efficient outcome through negotiation even if Beta has the right to force Alpha to move at its own expense.  
 
-<details><summary>👉 Click here to see the example answer</summary><br>
+::: {.callout-tip collapse="true"}
+### Show answer
 
 
 If negotiation is easy and property rights are clear, Alpha and Beta can always reach the **efficient outcome**, no matter who holds the rights.  
@@ -981,7 +999,7 @@ In this case, **Scenario 2**—installing the filter and reducing emissions by 4
 Property rights determine who pays and who gains, but not the overall efficiency.  
 :::
 
-</details><br><br>
+:::
 
 
 # Question 2. EPA Endangerment Finding on Greenhouse Gas Emissions (Points: 40)

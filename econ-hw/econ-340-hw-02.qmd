@@ -1,0 +1,200 @@
+---
+title: Homework 2
+subtitle: Externalities; Common Pool Resources; Public Goods
+date: last-modified
+from: markdown+emoji
+comments: false
+echo: false
+code-fold: false
+
+toc: true
+toc-depth: 6
+toc-expand: 3
+
+execute: 
+  warning: false
+  message: false
+  fig-width: 9
+  fig-height: 7
+  fig-align: center
+
+---
+```{r}
+#| include: false
+
+library(tidyverse)
+library(skimr)
+library(DT)
+library(hrbrthemes)
+
+theme_set(theme_ipsum() +
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = element_text(size = rel(1.5),),
+                axis.title.y = element_text(size = rel(1.5),
+                                            angle = 360),
+                legend.title = element_text(size=rel(1.25))
+                ))
+
+
+df <- data.frame(
+  q = seq(0,4,.25),
+  mb_p = 4 - seq(0,4,.25),
+  mc = seq(0,4,.25) + 2
+) |> 
+  pivot_longer(cols = mb_p:mc,
+               names_to = 'type',
+               values_to = 'p') |> 
+  mutate(type = factor(type, labels = c('mb_p',
+                                        'mc')),
+         label = recode(type, 'mb_p' = "MB today", 'mc' = "MC"),
+         group = interaction(type, label)  # Creating a unique identifier for color and linetype
+  )
+
+```
+
+
+
+## Homework Instructions
+
+- **No Generative AI**: You are **not** allowed to use generative AI tools for Homework Assignment 1, except for part **d2 in Question 1**
+
+- **Deadlines**: **Wednesday, October 8, 2025 at 10:30 A.M.**  
+    - Hand in your written answers on paper to Prof. Choe at the beginning of class.
+
+
+# Question 1. Optimal Logging, Externalities, and REDD+ (Points: 50)
+
+A forest jurisdiction evaluates logging activity $L$ under two private market components and one external cost:
+
+- **Timber benefit (private):** $TB(L)=2L - L^{2}$  
+- **Harvesting cost (private):** $TC(L)=L$  
+- **Carbon damage (external):** $TD(L)=\delta\,L$, where $\delta = 0.5>0$ is the monetized climate damage per unit of logging effort $L$.
+
+Here, $L$ is logging effort (e.g., worker-days). Private loggers ignore $TD$.
+
+**Notes:**  
+- $MB(L)=\frac{dTB}{dL}=2-2L$  
+- $MC(L)=\frac{dTC}{dL}=1$  
+- $AB(L)=TB/L=2-L$ (for $L>0$)  
+- $AC(L)=TC/L=1$ (for $L>0$)
+
+## a — Total Curves (Top Panel)
+Plot **TB**, **TC**, **TD**, and **Total Social Cost** $TSC(L)=TC(L)+TD(L)$ versus $L$.
+
+
+## b — Marginal Curves (Bottom Panel)
+Plot **marginals**:  
+- $MB(L)=2-2L$  
+- $MC(L)=1$  
+- $MD(L)=0.5$ (External Marginal Cost)
+
+Also plot averages: $AB(L)=2-L$, $AC(L)=1$.
+
+
+## c — Benchmarks (align vertical guide lines across panels)
+Find and mark:
+
+1. **Private/market effort** $L^{priv}$
+2. **Socially efficient effort** $L^{*}$
+3. **Open-access effort** $L_{OA}$
+
+
+
+## d — What is REDD+ and how can it help here?
+
+**REDD+** (*Reducing Emissions from Deforestation and forest Degradation*) is an international climate policy framework that provides payments when countries or jurisdictions **reduce logging and therefore release less CO$_2$**.  
+
+Suppose each unit of logging effort $L$ emits $e$ tons of CO$_2$. Under REDD+, loggers or governments receive a payment of $\tau$ dollars for every ton of emissions **not released**, compared to a baseline.  
+
+From the perspective of a logger, this acts like an **extra cost of logging**: cutting down one more unit of forest means losing $\tau$ dollars of payment. In economic terms, the decision rule becomes  
+
+$$
+MB(L) = MC(L) + \tau.
+$$
+
+Here, $\tau$ effectively makes logging more expensive and pushes effort down toward the socially efficient level. If $\tau$ is set equal to the external damage per unit of logging ($\delta$), then loggers internalize the climate cost and choose the efficient effort $L^*$.  
+
+### d1 — Pigouvian Alignment
+Show that setting $\tau=\delta = 0.5$ implements the socially efficient effort $L^*$.  
+
+### d2 — Practical Challenges of REDD+
+Briefly discuss the following implementation issues:
+
+-	**Additionality**: How can we verify that emission reductions are truly extra (would not have happened without REDD+)?
+-	**Leakage**: Could logging or deforestation simply shift to another location, offsetting the gains?
+-	**Permanence**: Even if forests are protected now, what ensures the carbon remains stored long term (e.g., risk of future logging or fires)?
+
+
+
+<br><br>
+
+# Question 2. Expansion of Data Centers and the Environment (Points: 50)
+
+
+<div style="text-align: center; margin: 1em 0;">
+  <iframe width="800" height="450" src="https://www.youtube.com/embed/t-8TDOFqkQA?si=oBBubL6CvNtGudUT" 
+    title="YouTube video player" frameborder="0" allowfullscreen>
+  </iframe>
+  <p><em>Business Insider - Exposing The Dark Side of America's AI Data Center Explosion, September 18, 2025</em></p>
+</div>
+
+Watch the video above. Then solve the question:
+
+<!-- ### Video Summary -->
+
+<!-- - **Rapid growth**: Data centers are being built at a rate of more than two per week, clustering near reliable power, water, cheap land, and tax breaks.   -->
+<!-- - **Scale & resources**: A single large center can use as much electricity and water as an entire city; clusters in Virginia, Arizona, and California consume enormous resources.   -->
+<!-- - **Externalities**:   -->
+<!--   - *Local*: Noise, vibrations, health effects, and property value declines for nearby residents.   -->
+<!--   - *Global*: High electricity demand driving fossil fuel use, CO₂ emissions, and massive water consumption in drought-stricken areas.   -->
+<!-- - **Opacity**: Companies frequently obscure ownership and operations by using shell LLCs (Limited Liability Companies), binding local officials with NDAs (Non-Disclosure Agreements), and claiming “trade secret” exemptions. Journalists had to reconstruct a public map of data centers by piecing together generator permits and scattered public records. -->
+<!-- - **Equity & policy issues**:   -->
+<!--   - Tax breaks and land-use approvals often benefit large technology companies, while the resulting costs (grid strain, water scarcity, higher household bills) are shifted onto local residents.   -->
+<!--   - Even as companies promise “water positive” and “carbon neutral” goals, reliance on offsets and continued growth raises doubts.   -->
+<!--   - Utilities in places like Virginia project billions in grid upgrades, with household electricity bills potentially rising 50%.   -->
+<!-- - **Employment mismatch**: Despite billions in investment, individual data centers create relatively few permanent jobs (sometimes fewer than 150).   -->
+
+
+
+<!-- ## Part II — Grid Reliability as a Public Good -->
+
+Two representative households A and B value **grid reliability** $G$ (a public good).  
+
+- $MB_A(G) = 40 - 2G$  
+- $MB_B(G) = 30 - G$  
+- $MC(G) = 10 + G$  
+
+## a — Efficient Reliability Level
+Find the efficient level $G^{*}$.  
+
+## b — Private vs. Social Choice
+Compare this to what might happen if households acted alone and only equated their **own $MB$** to $MC$  
+
+## c — Underprovision of Public Goods
+Explain why **underprovision** arises.
+
+## d — Future Reliability with Data-Center Growth
+Suppose data center growth increases society’s valuation of grid reliability and alters the cost of providing it. In the future:
+
+- $MB_{A}^{Future}(G) = 60 - 2G$  
+- $MB_{B}^{Future}(G) = 50 - G$  
+- $MC^{Future}(G) = 10 + 2G$  
+
+### d1 — Efficient Future Level 
+Compute the efficient future level $G^{*Future}$. 
+
+### d2 — Interpretation
+Briefly interpret what the change in the optimal reliability level implies for society, considering:
+
+- Investment needs: what new infrastructure or grid upgrades might be required?
+-	Costs: how do higher marginal costs affect who pays (households vs. data centers)?
+-	Benefits: how does increased reliability reduce risks (e.g., outages, health costs, lost data) for both residents and businesses?
+
+## f — Cost Sharing Debate
+Who should bear the costs of grid expansion — households, data centers, or government? Justify.
+
+
+## g — Local Government Incentives
+Why might local governments still provide subsidies to large technology companies, or approve land-use changes that allow data centers to be built, even when these projects create negative externalities?
+
+

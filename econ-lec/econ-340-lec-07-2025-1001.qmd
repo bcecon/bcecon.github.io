@@ -1,0 +1,226 @@
+---
+title: Lecture 7
+subtitle: Public Goods
+format:
+  clean-revealjs:
+    self-contained: false
+    chalkboard: true
+    incremental: true
+    code-annotations: hover
+    scrollable: false
+
+    # logo: logo-title-slide.png
+author:
+  - name: Byeong-Hak Choe
+    email: bchoe@geneseo.edu
+    affiliations: SUNY Geneseo
+date: 2025-10-03
+execute: 
+  eval: true
+  echo: false
+callout-icon: false
+
+from: markdown+emoji
+include-after-body: target-hover.html # effect.html
+
+# bibliography: refs.bib
+---
+
+```{r setup}
+#| include: false
+
+library(tidyverse)
+library(lubridate)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+library(viridis)
+library(rmarkdown)
+library(gapminder)
+library(ggrepel)
+
+theme_set(theme_fivethirtyeight() +
+            theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(10,0,0,0)),
+                axis.title.y = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(0,10,0,0)),
+                axis.text.x = element_text(size = rel(1.75)),
+                axis.text.y = element_text(size = rel(1.75)),
+                strip.text = element_text(size = rel(1.5)),
+                legend.position = "top",
+                legend.text = element_text(size = rel(1.5)),
+                legend.title = element_text(size = rel(1.5))
+                )
+          )
+
+# Set global options for color-blind-friendly scales
+# scale_colour_discrete <- function(...) scale_colour_viridis_d(...)
+
+scale_colour_discrete <- function(...) scale_color_colorblind(...)
+scale_fill_discrete <- function(...) scale_fill_colorblind(...)
+
+```
+
+
+# Public Goods {background-color="#1c4982"}
+
+
+## Rivalry & Excludability
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/common-public-goods.png" alt="Goods classification by rivalry and excludability" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+<div style="display:block; margin:50px;"></div>
+
+
+**Rival?** Does one person’s use reduce what remains available for others?
+
+**Excludable?** Can access be restricted to those who pay—or can anyone consume the good even without paying?
+
+
+<!-- ## What is a public good? -->
+
+<!-- - **Why it matters**:  -->
+<!--   - With nonexcludability, pricing access is hard   -->
+<!--   → voluntary contributions invite **free riding**   -->
+<!--   → markets **underprovide** relative to the social optimum. -->
+
+<!-- :::callout-notes -->
+<!-- - Remind: rivalry is about marginal cost of an additional user; if near zero, nonrival. -->
+<!-- ::: -->
+
+
+
+## Where Do Public Goods Show Up in Energy & Climate?
+
+- **Basic R&D** in energy efficiency, storage, fusion, green hydrogen (knowledge spillovers).  
+- **Awareness campaigns** on climate & energy saving.  
+- **Protective infrastructure** (often *local* public goods):
+  - Sea walls & surge barriers (coastal protection)
+  - Riverbank & floodplain defenses
+  - Urban heat mitigation (cool roofs, urban canopy)
+- **Global mitigation** (e.g., CO₂ reduction benefits) vs. **local adaptation** (place-specific benefits).
+
+
+<!-- ## Local vs. Global Public Goods -->
+
+<!-- - **Global**: climate mitigation, basic scientific knowledge.   -->
+<!-- - **Local**: flood defenses, wildfire buffers, urban cooling—all benefit specific regions.   -->
+<!-- - Financing often blends **national support** + **local cost-sharing** to reflect incidence. -->
+
+
+
+## Market Failures - Why Markets Underprovide Public Goods
+
+- In competitive markets, **demand = willingness to pay (WTP)** for private goods.  
+- For public goods, **individual WTP understates marginal benefit (MB)** because people can consume **even if they pay less (or nothing)**.  
+- <u>*Result*</u>: **Free riding** → (Total Voluntary Funding) $\,<\,$ (Cost) → **Underprovision**.
+
+::: callout-note
+- Market failure here is **on the demand side**, unlike overuse of common-pool resources which is **on the production side**.
+
+:::
+
+
+<!-- ## Aggregating Benefits: Vertical Summation -->
+
+<!-- - For public goods, **social marginal benefit (SMB)** is the **vertical sum** of individual MB curves: -->
+
+<!-- $$ -->
+<!-- \text{SMB}(Q) \;=\; \sum_{i=1}^n \text{MB}_i(Q) -->
+<!-- $$ -->
+
+<!-- **Samuelson condition (optimum $Q^{*}$)**: -->
+<!-- $$ -->
+<!-- \boxed{\sum_i \text{MB}_i(Q^{*}) \;=\; \text{MC}(Q^{*})} -->
+<!-- $$ -->
+
+<!-- - Contrast: Private-good market demand is a **horizontal** sum of individual demands. -->
+
+
+
+## Aggregating Benefits: Vertical Summation
+
+:::: {.columns}
+::: {.column width="47.5%"}
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/hr-fig4-4.png" alt="" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+:::
+::: {.column width="52.5%"}
+
+- Both value forest preservation (acres $Q$).  
+- At $Q=10$, Doug’s $MB$ = \$5; Sasha’s $MB$ = \$2.
+- For public goods, **social marginal benefit (SMB)** is the **vertical sum** of individual MB curves
+  - **SMB = \$7**.  
+  
+- Suppose **SMC = \$7 per acre** (constant).  
+- Then $Q^{*} = 10$ where **SMB = SMC**.
+
+:::
+::::
+
+<!-- :::callout-note -->
+<!-- - Private-good market demand is a **horizontal** sum of individual demands. -->
+<!-- ::: -->
+
+
+## Funding the Optimum (Who Pays?)
+
+
+:::: {.columns}
+::: {.column width="47.5%"}
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/hr-fig4-4.png" alt="" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+:::
+::: {.column width="52.5%"}
+
+- **Total Cost** = \$70. Options:
+  - **Uniform tax**: Doug \$35, Sasha \$35 (simple, but ignores benefit differences).  
+  - **Benefit-based shares** (ideal but hard to measure): Doug pays more since his MB is higher.  
+  - **Ability-to-pay**: progressive finance to address equity concerns.  
+
+- Tensions:
+  - **Efficiency**: hit $Q^{*}$.  
+  - **Fairness**: how to split the bill?
+
+
+:::
+::::
+
+
+
+
+<!-- ## Lindahl pricing (idealized) -->
+
+<!-- - Each person faces a **personalized price** equal to their MB at $Q^{*}$.   -->
+<!-- - Total of personalized prices equals MC: -->
+<!--   $$ -->
+<!--   \sum_i p_i = \text{MC}, \quad p_i = \text{MB}_i(Q^{*}) -->
+<!--   $$ -->
+<!-- - If everyone truthfully reports MB, the outcome is efficient and fair by construction. -->
+
+<!-- **Problem**: People have incentives to **understate** MB → preference revelation failure. -->
+
+
+
+## Mechanisms & policy tools
+
+- **Direct public provision** financed by general taxation (common in R&D, defense).  
+- **VCG / Clarke-Groves** mechanisms (truth-telling incentives; complex, rare at scale).  
+- **Matching grants / subsidies** to crowd-in voluntary contributions.  
+- **Earmarked taxes / levies** (e.g., resilience bonds, green property assessments).  
+- **Patents & prizes** for R&D (make knowledge partially excludable; second-best).  
+- **Information & norms**: public campaigns that shift preferences (can complement funding).
+
+

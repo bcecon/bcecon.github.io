@@ -452,6 +452,35 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 <!-- - Effective governance is **participatory**, combining local (including Indigenous) knowledge, history, and culture with broader legal/scientific capacity. -->
 <!-- - At **national/global** scales, government involvement is essential, while policy still **respects local variation** and incorporates community voices. -->
 
+<!-- ## Local vs. Global Commons -->
+
+<!-- :::: {.columns} -->
+<!-- ::: {.column width="50%"} -->
+<!-- #### **Local** -->
+<!-- - Examples: -->
+<!--   - Groundwater basins -->
+<!--   - Village pastures -->
+<!--   - In-shore/coastal fisheries -->
+
+
+<!-- - **Governance & finance**:  -->
+<!--   - Community rules, permits/quotas, co-management -->
+
+<!-- ::: {.column width="50%"} -->
+
+<!-- #### **Global** -->
+
+<!-- - Examples: -->
+<!-- - Atmosphere’s GHG sink capacity -->
+<!-- - **High seas** fisheries,  -->
+<!-- - **Stratospheric ozone**,  -->
+<!-- - Deep seabed -->
+
+<!-- - **Governance & finance**:  -->
+<!--   - Treaties & RFMOs, MRV/transparency, climate & conservation finance, tech transfer. -->
+
+<!-- ::: -->
+<!-- :::: -->
 
 
 ## Global Commons - [Russia’s “Peanut Hole”](https://www.youtube.com/shorts/UO02hTOkhnk)
