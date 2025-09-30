@@ -10,23 +10,9 @@ execute:
   message: false
 from: markdown+emoji
 ---
-```{r}
-#| include: false
 
-library(knitr)
-library(rmarkdown)
-library(tidyverse)
-library(skimr)
-library(ggthemes)
-library(hrbrthemes)
 
-theme_set(theme_ipsum() +
-          theme(strip.background =element_rect(fill="lightgray"),
-                axis.title.x = element_text(size = rel(1.5)),
-                axis.title.y = element_text(size = rel(1.5)),
-                legend.title = element_text(size=rel(1.25))
-                ))
-```
+
 
 
 <br>
@@ -141,40 +127,8 @@ Explain the intuition behind these two effort levels:
 	2.	**Economic rent**: What happens to economic rents under open access when incentives are not aligned?
 	3.	**Sustainability**: Why does aligning incentives matter for the long-run health of both the fish stock and the fishing economy?
 
-```{r}
-#| eval: false
-# Load packages
-library(tidyverse)
 
-# Domain for effort (adjust as needed)
-E_max <- 1.5
-E <- seq(0, E_max, length.out = 501)
+::: {.cell}
 
-# Define functions
-TB <- 1.5*E - E^2
-TC <- 0.5*E
-MB <- 1.5 - 2*E
-MC_AC <- rep(0.5, length(E))
-AB <- 1.5 - E
-
-
-# Data frames
-df_level <- tibble(E, TB, TC) |> pivot_longer(cols = c(TB, TC), names_to = "curve", values_to = "value")
-df_marg  <- tibble(E, AB, MB, MC_AC) |> pivot_longer(cols = c(AB, MB, MC_AC), names_to = "curve", values_to = "value") |> mutate(curve = ifelse(curve == 'MC_AC', 'AC & MC', curve))
-
-# (a) TB vs TC
-ggplot(df_level, aes(x = E, y = value, linetype = curve)) +
-  geom_line(size = 1) +
-  labs(title = "Total Benefit and Total Cost vs Effort",
-       x = "Effort (E)", y = "Dollars", linetype = "Curve") +
-  theme_minimal(base_size = 12)
-
-# (b) MB vs MC
-ggplot(df_marg, aes(x = E, y = value, linetype = curve)) +
-  geom_line(size = 1) +
-  labs(title = "Average/Marginal Benefit and Average/Marginal Cost vs Effort",
-       x = "Effort (E)", y = "Dollars per unit of E", linetype = "Curve") +
-  theme_minimal(base_size = 12)
-```
-
+:::
 
