@@ -263,7 +263,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 ::: {.column width="39%"}
 - **Marginal Benefit** $MB(E) = \frac{dTB}{dE}$ **declines** as stock falls with effort.  
 - **Marginal Cost** $MC(E)$ (e.g., constant $c$).  
-- **Efficiency:** $MR(E^{*}) = MC(E^{*})$.  
+- **Efficiency:** $MB(E^{*}) = MC(E^{*})$.  
 - Two panels are **equivalent** representations of the same optimum.
 :::
 ::::
