@@ -38,6 +38,32 @@ Consider a fishery where the total benefit (**TB**) and total cost (**TC**) of f
 
 where $E$ is the level of fishing effort (e.g., number of boat-days).
 
+## Key Concepts
+
+Before beginning, recall these definitions:
+
+- **Average Benefit (AB):**  
+  $AB(E) = \dfrac{TB(E)}{E}$.  
+  In economics, AB measures benefit per unit of input; here, it shows the **revenue per boat-day**.  
+  *For this fishery:* $AB(E) = \dfrac{1.5E - E^2}{E} = 1.5 - E$.  
+
+- **Average Cost (AC):**  
+  $AC(E) = \dfrac{TC(E)}{E}$.  
+  In economics, AC measures cost per unit of input; here, it is the **cost per boat-day**.  
+  *For this fishery:* $AC(E) = \dfrac{0.5E}{E} = 0.5$.  
+
+- **Marginal Benefit (MB):**  
+  $MB(E) = \dfrac{dTB}{dE}$.  
+  In economics, MB is the extra benefit from one more unit of input; here, the **additional revenue from one more boat-day**.  
+  *For this fishery:* $MB(E) = 1.5 - 2E$.  
+
+- **Marginal Cost (MC):**  
+  $MC(E) = \dfrac{dTC}{dE}$.  
+  In economics, MC is the extra cost from one more unit of input; here, the **additional cost of adding one boat-day**.  
+  *For this fishery:* $MC(E) = 0.5$.  
+  
+<br>
+
 ## Part A — Total Curves
 Draw the **Total Benefit (TB)** and **Total Cost (TC)** curves as functions of fishing effort $E$.  Place these curves in the **top panel** of a two-panel figure.
 

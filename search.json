@@ -2196,5 +2196,54 @@
     "title": "Classwork 4",
     "section": "Part C — Efficient and Open-Access Effort Levels",
     "text": "Part C — Efficient and Open-Access Effort Levels\nMake sure the top and bottom panels share the same horizontal scale for effort \\(E\\), so the relationship between total and marginal spaces is consistent.\n\nRecall that:\n\n\\(MB(E)=\\dfrac{d\\,TB}{dE}=1.5 - 2E\\)\n\\(MC(E)=\\dfrac{d\\,TC}{dE}=0.5\\)\n\n\nOn both panels, mark and label the two benchmark effort levels using vertical guide lines that align across panels:\n\nThe efficient effort \\(E^*\\): Draw a vertical line at \\(E^*\\) on both the top (TB/TC) and bottom (AB/AC/MB/MC) panels and label it “\\(E^*\\)”.\nThe open-access effort \\(E_{OA}\\): Draw a vertical line at \\(E_{OA}\\) on both panels and label it “\\(E_{OA}\\)”."
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-04.html#key-concepts",
+    "href": "econ-cw/econ-340-cw-04.html#key-concepts",
+    "title": "Classwork 4",
+    "section": "Key Concepts",
+    "text": "Key Concepts\nBefore beginning, recall these definitions:\n\nAverage Benefit (AB):\n\\(AB(E) = \\dfrac{TB(E)}{E}\\).\nIn economics, AB measures benefit per unit of input; here, it shows the revenue per boat-day.\nFor this fishery: \\(AB(E) = \\dfrac{1.5E - E^2}{E} = 1.5 - E\\).\nAverage Cost (AC):\n\\(AC(E) = \\dfrac{TC(E)}{E}\\).\nIn economics, AC measures cost per unit of input; here, it is the cost per boat-day.\nFor this fishery: \\(AC(E) = \\dfrac{0.5E}{E} = 0.5\\).\nMarginal Benefit (MB):\n\\(MB(E) = \\dfrac{dTB}{dE}\\).\nIn economics, MB is the extra benefit from one more unit of input; here, the additional revenue from one more boat-day.\nFor this fishery: \\(MB(E) = 1.5 - 2E\\).\nMarginal Cost (MC):\n\\(MC(E) = \\dfrac{dTC}{dE}\\).\nIn economics, MC is the extra cost from one more unit of input; here, the additional cost of adding one boat-day.\nFor this fishery: \\(MC(E) = 0.5\\)."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-07-2025-1003.html#rivalry-excludability",
+    "href": "econ-lec/econ-340-lec-07-2025-1003.html#rivalry-excludability",
+    "title": "Lecture 7",
+    "section": "Rivalry & Excludability",
+    "text": "Rivalry & Excludability\n\n\n\n\n\n\n\n\nRival? Does one person’s use reduce what remains available for others?\nExcludable? Can access be restricted to those who pay—or can anyone consume the good even without paying?"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-07-2025-1003.html#where-do-public-goods-show-up-in-energy-climate",
+    "href": "econ-lec/econ-340-lec-07-2025-1003.html#where-do-public-goods-show-up-in-energy-climate",
+    "title": "Lecture 7",
+    "section": "Where Do Public Goods Show Up in Energy & Climate?",
+    "text": "Where Do Public Goods Show Up in Energy & Climate?\n\nBasic R&D in energy efficiency, storage, fusion, green hydrogen (knowledge spillovers).\n\nAwareness campaigns on climate & energy saving.\n\nProtective infrastructure (often local public goods):\n\nSea walls & surge barriers (coastal protection)\nRiverbank & floodplain defenses\nUrban heat mitigation (cool roofs, urban canopy)\n\nGlobal mitigation (e.g., CO₂ reduction benefits) vs. local adaptation (place-specific benefits)."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-07-2025-1003.html#market-failures---why-markets-underprovide-public-goods",
+    "href": "econ-lec/econ-340-lec-07-2025-1003.html#market-failures---why-markets-underprovide-public-goods",
+    "title": "Lecture 7",
+    "section": "Market Failures - Why Markets Underprovide Public Goods",
+    "text": "Market Failures - Why Markets Underprovide Public Goods\n\nIn competitive markets, demand = willingness to pay (WTP) for private goods.\n\nFor public goods, individual WTP understates marginal benefit (MB) because people can consume even if they pay less (or nothing).\n\nResult: Free riding → (Total Voluntary Funding) \\(\\,&lt;\\,\\) (Cost) → Underprovision.\n\n\n\n\nNote\n\n\n\nMarket failure here is on the demand side, unlike overuse of common-pool resources which is on the production side."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-07-2025-1003.html#aggregating-benefits-vertical-summation",
+    "href": "econ-lec/econ-340-lec-07-2025-1003.html#aggregating-benefits-vertical-summation",
+    "title": "Lecture 7",
+    "section": "Aggregating Benefits: Vertical Summation",
+    "text": "Aggregating Benefits: Vertical Summation\n\n\n\n\n\n\n\n\n\nBoth value forest preservation (acres \\(Q\\)).\n\nAt \\(Q=10\\), Doug’s \\(MB\\) = $5; Sasha’s \\(MB\\) = $2.\nFor public goods, social marginal benefit (SMB) is the vertical sum of individual MB curves\n\nSMB = $7.\n\nSuppose SMC = $7 per acre (constant).\n\nThen \\(Q^{*} = 10\\) where SMB = SMC."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-07-2025-1003.html#funding-the-optimum-who-pays",
+    "href": "econ-lec/econ-340-lec-07-2025-1003.html#funding-the-optimum-who-pays",
+    "title": "Lecture 7",
+    "section": "Funding the Optimum (Who Pays?)",
+    "text": "Funding the Optimum (Who Pays?)\n\n\n\n\n\n\n\n\n\nTotal Cost = $70. Options:\n\nUniform tax: Doug $35, Sasha $35 (simple, but ignores benefit differences).\n\nBenefit-based shares (ideal but hard to measure): Doug pays more since his MB is higher.\n\nAbility-to-pay: progressive finance to address equity concerns.\n\nTensions:\n\nEfficiency: hit \\(Q^{*}\\).\n\nFairness: how to split the bill?"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-07-2025-1003.html#mechanisms-policy-tools",
+    "href": "econ-lec/econ-340-lec-07-2025-1003.html#mechanisms-policy-tools",
+    "title": "Lecture 7",
+    "section": "Mechanisms & policy tools",
+    "text": "Mechanisms & policy tools\n\nDirect public provision financed by general taxation (common in R&D, defense).\n\nVCG / Clarke-Groves mechanisms (truth-telling incentives; complex, rare at scale).\n\nMatching grants / subsidies to crowd-in voluntary contributions.\n\nEarmarked taxes / levies (e.g., resilience bonds, green property assessments).\n\nPatents & prizes for R&D (make knowledge partially excludable; second-best).\n\nInformation & norms: public campaigns that shift preferences (can complement funding)."
   }
 ]
