@@ -68,7 +68,7 @@ Before beginning, recall these definitions:
 
 ## Benefit–Cost Table
 
-|    E |     TB |    MB |    AB |    TC |   MC |    AC |
+|    Effort <br><small>$E$</small> |     TB <br><small>$1.5E - E^2$</small> |    MB <br><small>$1.5 - 2E$</small> |    AB <br><small>$1.5 - E$</small> |    TC <br><small>$0.5E$</small> |   MC <br><small>$0.5$</small> |    AC <br><small>$0.5$</small> |
 |-----:|-------:|------:|------:|------:|-----:|------:|
 | 0.05 |  0.073 |  1.400 | 1.450 | 0.025 | 0.500 | 0.500 |
 | 0.10 |  0.140 |  1.300 | 1.400 | 0.050 | 0.500 | 0.500 |
