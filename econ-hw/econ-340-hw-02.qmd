@@ -194,9 +194,9 @@ Compute the efficient future level $G^{*Future}$.
 ### d2 — Interpretation
 Briefly interpret what the change in the optimal reliability level implies for society, considering:
 
-- Investment needs: what new infrastructure or grid upgrades might be required?
--	Costs: how do higher marginal costs affect who pays (households vs. data centers)?
--	Benefits: how does increased reliability reduce risks (e.g., outages, health costs, lost data) for both residents and businesses?
+- **Investment needs**: what new infrastructure or grid upgrades might be required?
+-	**Costs**: how do higher marginal costs affect who pays (households vs. data centers)?
+-	**Benefits**: how does increased reliability reduce risks (e.g., outages, health costs, lost data) for both residents and businesses?
 
 ## f — Cost Sharing Debate
 Who should bear the costs of grid expansion — households, data centers, or government? Justify.
