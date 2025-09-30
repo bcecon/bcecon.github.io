@@ -158,11 +158,19 @@ Watch the video above. Then solve the question:
 
 <!-- ## Part II — Grid Reliability as a Public Good -->
 
-Two representative households A and B value **grid reliability** $G$ (a public good).  
+Two representative households, A and B, both benefit from **grid reliability** $G$.  
+Grid reliability refers to the stability and resilience of the electricity system—fewer blackouts, quicker recovery from outages, and greater assurance that power is available when needed.  
+This reliability is a **public good**: once provided, it benefits everyone simultaneously, and no household can be excluded from enjoying it.  
+
+Each household’s willingness to pay for reliability is reflected in their **marginal benefit (MB)** functions:  
 
 - $MB_A(G) = 40 - 2G$  
 - $MB_B(G) = 30 - G$  
+
+The **marginal cost (MC)** of providing additional reliability, such as building more transmission lines, adding backup generators, or investing in grid hardening, is given by:  
+
 - $MC(G) = 10 + G$  
+
 
 ## a — Efficient Reliability Level
 Find the efficient level $G^{*}$.  
