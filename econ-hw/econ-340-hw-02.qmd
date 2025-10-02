@@ -106,23 +106,23 @@ Then **draw vertical guide lines** at the three effort levels on **both** panels
    - *Definition:* With **many competing loggers**, free entry expands effort until each logger earns zero economic profit and all resource rents are dissipated.
 
 
-
 ## d — What is REDD+ and how can it help here?
 
-**REDD+** (*Reducing Emissions from Deforestation and forest Degradation*) is an international climate policy framework that provides payments when countries or jurisdictions **reduce logging and therefore release less CO$_2$**.  
+**REDD+** (*Reducing Emissions from Deforestation and forest Degradation*) is an international climate policy framework that provides payments when countries or jurisdictions **reduce logging and therefore avoid CO$_2$ emissions**.  
 
-Suppose each unit of logging effort $L$ emits $e$ tons of CO$_2$. Under REDD+, loggers or governments receive a payment of $\tau$ dollars for every ton of emissions **not released**, compared to a baseline.  
+For simplicity, assume the climate damage from one unit of logging is valued at $\delta = 0.5$ dollars. Under REDD+, loggers (or local governments) receive a payment $\tau$ for each unit of logging **not carried out**, relative to a baseline.  
 
-From the perspective of a logger, this acts like an **extra cost of logging**: cutting down one more unit of forest means losing $\tau$ dollars of payment. In economic terms, the decision rule becomes  
+From the logger’s perspective, this acts like an **extra cost of logging**: cutting down one more unit of forest means losing $\tau$ dollars of REDD+ payment. In economic terms, the decision rule becomes  
 
 $$
 MB(L) = MC(L) + \tau.
 $$
 
-Here, $\tau$ effectively makes logging more expensive and pushes effort down toward the socially efficient level. If $\tau$ is set equal to the external damage per unit of logging ($\delta$), then loggers internalize the climate cost and choose the efficient effort $L^*$.  
+If $\tau$ is set equal to the external damage per unit of logging ($\delta$), then the private decision condition matches the social condition. Loggers internalize the climate cost and choose the socially efficient effort $L^*$.  
 
 ### d1 — Pigouvian Alignment
-Show that setting $\tau=\delta = 0.5$ implements the socially efficient effort $L^*$.  
+Assume $\delta=0.5$. Show that setting $\tau=\delta$ implements the socially efficient effort $L^*$.
+
 
 ### d2 — Practical Challenges of REDD+
 Briefly discuss the following implementation issues:
