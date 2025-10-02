@@ -6,8 +6,8 @@ listing:
   type: table
   fields: [title, subtitle, date]
   sort: 
-    - "date desc"
-    - "title desc"
+    - "date"
+    - "title"
   sort-ui: false
   page-size: 36
 
