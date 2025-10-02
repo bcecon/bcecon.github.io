@@ -76,7 +76,9 @@ Here, $L$ is logging effort (e.g., worker-days). Private loggers ignore $TD$.
 - $MB(L)=\frac{dTB}{dL}=2-2L$  
 - $MC(L)=\frac{dTC}{dL}=1$  
 - $AB(L)=TB/L=2-L$ (for $L>0$)  
-- $AC(L)=TC/L=1$ (for $L>0$)
+- $AC(L)=TC/L=1$ (for $L>0$)  
+- $MD(L)=\frac{dTD}{dL}=\delta=0.5$  
+
 
 ## a — Total Curves (Top Panel)
 Plot **TB**, **TC**, **TD**, and **Total Social Cost** $TSC(L)=TC(L)+TD(L)$ versus $L$.
@@ -86,9 +88,11 @@ Plot **TB**, **TC**, **TD**, and **Total Social Cost** $TSC(L)=TC(L)+TD(L)$ vers
 Plot **marginals**:  
 - $MB(L)=2-2L$  
 - $MC(L)=1$  
-- $MD(L)=0.5$ (External Marginal Cost)
+- $MD(L)=\delta=0.5$ (External Marginal Cost)
 
-Also plot averages: $AB(L)=2-L$, $AC(L)=1$.
+Also plot **averages**:  
+- $AB(L)=2-L$  
+- $AC(L)=1$
 
 
 ## c — Benchmarks (align vertical guide lines across panels)
