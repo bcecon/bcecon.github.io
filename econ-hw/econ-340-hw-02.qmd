@@ -118,7 +118,7 @@ $$
 MB(L) = MC(L) + \tau.
 $$
 
-If $\tau$ is set equal to the external damage per unit of logging ($\delta$), then the private decision condition matches the social condition. Loggers internalize the climate cost and choose the socially efficient effort $L^*$.  
+If $\tau$ is set equal to the external damage per unit of logging ($\delta$), then the logging decision takes into account the climate cost, and effort is reduced to the efficient level $L^*$. 
 
 ### d1 — Pigouvian Alignment
 Assume $\delta=0.5$. Show that if a single logging firm faces a REDD+ payment set at $\tau=\delta$, it will choose the socially efficient effort $L^*$.
