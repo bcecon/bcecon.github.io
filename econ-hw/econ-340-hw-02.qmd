@@ -97,7 +97,7 @@ For each benchmark below, (i) **define it**, (ii) **write the condition** to sol
 Then **draw vertical guide lines** at the three effort levels on **both** panels so they align.
 
 1. **Private optimum $L^{priv}$** — *Privately optimal with no externality considered.*  
-   - *Definition:* A **single logger** maximizing their own net private benefit, **ignoring the external damage**.  
+   - *Definition:* A **single logging firm** (a private decision-maker with exclusive rights to the forest) maximizing their own net private benefit, **ignoring the external damage**.  
 
 2. **Socially efficient optimum $L^{*}$** — *Maximizes total net social benefit (accounts for the external damage).*  
    - **Definition:** Chosen to internalize the carbon damage at the margin.  
@@ -121,8 +121,7 @@ $$
 If $\tau$ is set equal to the external damage per unit of logging ($\delta$), then the private decision condition matches the social condition. Loggers internalize the climate cost and choose the socially efficient effort $L^*$.  
 
 ### d1 — Pigouvian Alignment
-Assume $\delta=0.5$. Show that setting $\tau=\delta$ implements the socially efficient effort $L^*$.
-
+Assume $\delta=0.5$. Show that if a single logging firm faces a REDD+ payment set at $\tau=\delta$, it will choose the socially efficient effort $L^*$.
 
 ### d2 — Practical Challenges of REDD+
 Briefly discuss the following implementation issues:
