@@ -92,11 +92,18 @@ Also plot averages: $AB(L)=2-L$, $AC(L)=1$.
 
 
 ## c — Benchmarks (align vertical guide lines across panels)
-Find and mark:
 
-1. **Private/market effort** $L^{priv}$
-2. **Socially efficient effort** $L^{*}$
-3. **Open-access effort** $L_{OA}$
+For each benchmark below, (i) **define it**, (ii) **write the condition** to solve, and (iii) **compute the numeric value** using $\delta=0.5$.  
+Then **draw vertical guide lines** at the three effort levels on **both** panels so they align.
+
+1. **Private optimum $L^{priv}$** — *Privately optimal with no externality considered.*  
+   - *Definition:* A **single logger** maximizing their own net private benefit, **ignoring the external damage**.  
+
+2. **Socially efficient optimum $L^{*}$** — *Maximizes total net social benefit (accounts for the external damage).*  
+   - **Definition:** Chosen to internalize the carbon damage at the margin.  
+
+3. **Open-access level $L_{OA}$** — *Free entry drives profit per unit to zero.*  
+   - *Definition:* With **many competing loggers**, entry continues until **average benefit equals average cost**. Each logger just breaks even, and resource rents are dissipated.  
 
 
 
