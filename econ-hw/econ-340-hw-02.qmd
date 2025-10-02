@@ -106,7 +106,7 @@ Then **draw vertical guide lines** at the three effort levels on **both** panels
 2. **Socially efficient optimum $L^{*}$** — *Maximizes total net social benefit (accounts for the external damage).*  
    - **Definition:** Chosen to internalize the carbon damage at the margin.  
 
-3. **Open-access level $L_{OA}$** — *Free entry drives profit per unit to zero.*  
+3. **Open-access level $L_{OA}$** — *Free entry expands effort until profit is zero, ignoring externalities.*  
    - *Definition:* With **many competing loggers**, free entry expands effort until each logger earns zero economic profit and all resource rents are dissipated.
 
 

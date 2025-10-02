@@ -1628,7 +1628,7 @@
     "href": "index.html#bullet-homework",
     "title": "ECON 340: Environmental Economics, Fall 2025",
     "section": "\\(\\bullet\\,\\) 💻 Homework",
-    "text": "\\(\\bullet\\,\\) 💻 Homework\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\nExternalities; EPA Edangerment Finding on GHG Emissions; Coase Theorem\n\n\nSeptember 28, 2025\n\n\n\n\nHomework 2\n\n\nExternalities; Common Pool Resources; Public Goods\n\n\nOctober 1, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "\\(\\bullet\\,\\) 💻 Homework\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\nExternalities; EPA Edangerment Finding on GHG Emissions; Coase Theorem\n\n\nSeptember 28, 2025\n\n\n\n\nHomework 2\n\n\nExternalities; Common Pool Resources; Public Goods\n\n\nOctober 2, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "econ-cw/econ-340-cw-03.html",
@@ -1733,7 +1733,7 @@
     "href": "econ-hw/econ-340-hw-02.html#c-benchmarks-align-vertical-guide-lines-across-panels",
     "title": "Homework 2",
     "section": "c — Benchmarks (align vertical guide lines across panels)",
-    "text": "c — Benchmarks (align vertical guide lines across panels)\nFor each benchmark below, (i) define it, (ii) write the condition to solve, and (iii) compute the numeric value using \\(\\delta=0.5\\).\nThen draw vertical guide lines at the three effort levels on both panels so they align.\n\nPrivate optimum \\(L^{priv}\\) — Privately optimal with no externality considered.\n\nDefinition: A single logging firm (a private decision-maker with exclusive rights to the forest) maximizing their own net private benefit, ignoring the external damage.\n\nSocially efficient optimum \\(L^{*}\\) — Maximizes total net social benefit (accounts for the external damage).\n\nDefinition: Chosen to internalize the carbon damage at the margin.\n\nOpen-access level \\(L_{OA}\\) — Free entry drives profit per unit to zero.\n\nDefinition: With many competing loggers, free entry expands effort until each logger earns zero economic profit and all resource rents are dissipated."
+    "text": "c — Benchmarks (align vertical guide lines across panels)\nFor each benchmark below, (i) define it, (ii) write the condition to solve, and (iii) compute the numeric value using \\(\\delta=0.5\\).\nThen draw vertical guide lines at the three effort levels on both panels so they align.\n\nPrivate optimum \\(L^{priv}\\) — Privately optimal with no externality considered.\n\nDefinition: A single logging firm (a private decision-maker with exclusive rights to the forest) maximizing their own net private benefit, ignoring the external damage.\n\nSocially efficient optimum \\(L^{*}\\) — Maximizes total net social benefit (accounts for the external damage).\n\nDefinition: Chosen to internalize the carbon damage at the margin.\n\nOpen-access level \\(L_{OA}\\) — Free entry expands effort until profit is zero, ignoring externalities.\n\nDefinition: With many competing loggers, free entry expands effort until each logger earns zero economic profit and all resource rents are dissipated."
   },
   {
     "objectID": "econ-hw/econ-340-hw-02.html#d-what-is-redd-and-how-can-it-help-here",
@@ -2062,7 +2062,7 @@
     "href": "listing-econ-340-hw.html",
     "title": "ECON 340 - Homework",
     "section": "",
-    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\nExternalities; EPA Edangerment Finding on GHG Emissions; Coase Theorem\n\n\nSeptember 28, 2025\n\n\n\n\nHomework 2\n\n\nExternalities; Common Pool Resources; Public Goods\n\n\nOctober 1, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\nExternalities; EPA Edangerment Finding on GHG Emissions; Coase Theorem\n\n\nSeptember 28, 2025\n\n\n\n\nHomework 2\n\n\nExternalities; Common Pool Resources; Public Goods\n\n\nOctober 2, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "econ-wk/wk-01.html",
