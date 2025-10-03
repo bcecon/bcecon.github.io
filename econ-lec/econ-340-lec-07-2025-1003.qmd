@@ -121,7 +121,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 - In competitive markets, **demand = willingness to pay (WTP)** for private goods.  
 - For public goods, **individual WTP understates marginal benefit (MB)** because people can consume **even if they pay less (or nothing)**.  
-- <u>*Result*</u>: **Free riding** → (Total Voluntary Funding) $\,<\,$ (Cost) → **Underprovision**.
+- <u>*Result*</u>: **Free riding** → $\text{(Total Voluntary Funding)} \,<\,\text{(Cost)}$ → **Underprovision**.
 
 ::: callout-note
 - Market failure here is **on the demand side**, unlike overuse of common-pool resources which is **on the production side**.
@@ -213,14 +213,79 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 <!-- **Problem**: People have incentives to **understate** MB → preference revelation failure. -->
 
 
+<!-- ## Mechanisms & Policy Tools -->
 
-## Mechanisms & policy tools
+<!-- - **Direct public provision** — government supplies the good, financed through general taxation   -->
+<!--   *Examples: national defense, basic research, public health campaigns*   -->
 
-- **Direct public provision** financed by general taxation (common in R&D, defense).  
-- **VCG / Clarke-Groves** mechanisms (truth-telling incentives; complex, rare at scale).  
-- **Matching grants / subsidies** to crowd-in voluntary contributions.  
-- **Earmarked taxes / levies** (e.g., resilience bonds, green property assessments).  
-- **Patents & prizes** for R&D (make knowledge partially excludable; second-best).  
-- **Information & norms**: public campaigns that shift preferences (can complement funding).
+<!-- - **Matching grants & subsidies** — amplify voluntary contributions by adding public funds   -->
+<!--   *Encourages private giving, lowers cost of participation*   -->
+
+<!-- - **Earmarked taxes & levies** — dedicated funding streams tied to the good   -->
+<!--   *Examples: resilience bonds, carbon levies, conservation assessments*   -->
+
+<!-- - **Patents & prizes** — create incentives for innovation by making outcomes partly excludable   -->
+<!--   *Encourages R&D while still generating spillovers*   -->
+
+<!-- - **Information & social norms** — campaigns and education to shift behavior and increase support   -->
+<!--   *Examples: climate awareness, energy-saving initiatives*   -->
 
 
+
+## Policy Tools - Direct Public Provision
+
+- Government directly **provides the public good**, funded through **general taxation**.  
+- Avoids reliance on voluntary contributions → ensures adequate and stable supply.  
+- Citizens share costs through taxes, but **everyone benefits** once the good is provided.  
+
+- *Examples:*  
+  - National defense  
+  - Basic scientific research  
+  - Public health campaigns (e.g., vaccination drives)  
+
+## Policy Tools - Matching grants & subsidies
+
+- Amplify voluntary contributions by adding public funds  
+  *Encourages private giving, lowers cost of participation*  
+- *Examples:*  
+  - U.S. federal **charitable gift matching** programs (e.g., matching donations to conservation NGOs)  
+  - **Public broadcasting** pledge drives with matching challenges  
+  - **State and federal subsidies** for rooftop solar panels and energy-efficient appliances  
+  - Local governments matching **community fundraising** for parks, libraries, or schools  
+  - International funds (e.g., **Green Climate Fund**) co-financing climate adaptation projects with national contributions  
+
+
+## Policy Tools - Earmarked Taxes & Levies
+
+- **Dedicated funding streams** linked directly to a specific public good.  
+- Revenues cannot be spent elsewhere → builds **trust** that taxes support the intended purpose.  
+- Helps align **costs with beneficiaries** (those who pay are often those who benefit most).  
+
+- *Examples:*  
+  - Resilience bonds to finance disaster protection infrastructure  
+  - Carbon levies to support climate mitigation and clean energy  
+  - Local conservation assessments for parks, wetlands, or open space protection
+
+## Policy Tools - Patents & Prizes
+
+- Provide **incentives for innovation** by making knowledge partly excludable.  
+- **Patents**: grant temporary monopoly rights to inventors → they can earn profits, encouraging investment in R&D.  
+- **Prizes**: reward specific breakthroughs without ongoing monopoly, while allowing broader diffusion.  
+- Both approaches aim to stimulate innovation while still creating **knowledge spillovers** that benefit society.  
+- *Examples:*  
+  - Pharmaceutical patents for new drugs  
+  - XPRIZE competitions (e.g., carbon removal, space technology)  
+  - Government innovation prizes for energy efficiency or medical devices  
+
+
+## Policy Tools - Information & Social Norms
+
+- Use **campaigns, education, and messaging** to influence behavior and public attitudes.  
+- Can shift **social norms** so that contributing to or supporting a public good becomes the default.  
+- Works best when combined with other policy tools (taxes, subsidies, regulation).  
+
+- *Examples* 
+  - Climate awareness campaigns (e.g., “Act on Climate”)  
+  - Energy-saving initiatives (“Turn off the lights,” Energy Star labeling)  
+  - Public health messages (seatbelt use, anti-smoking, vaccination reminders)  
+  - Recycling and waste reduction campaigns  

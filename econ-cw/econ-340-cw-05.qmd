@@ -1,0 +1,73 @@
+---
+title: Classwork 5
+subtitle: Public Goods in Action
+date: 2025-10-03
+code-fold: true
+execute: 
+  echo: false
+  eval: true
+  warning: false
+  message: false
+from: markdown+emoji
+---
+```{r}
+#| include: false
+
+library(knitr)
+library(rmarkdown)
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+
+theme_set(theme_ipsum() +
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = element_text(size = rel(1.5)),
+                axis.title.y = element_text(size = rel(1.5)),
+                legend.title = element_text(size=rel(1.25))
+                ))
+```
+
+
+<br>
+
+## Part 1 — Conceptual Warm-Up
+
+1. Explain in your own words why **public goods require vertical summation of marginal benefits**.  
+2. In the **Doug–Sasha forest preservation example**, what condition makes 10 acres optimal?  
+3. Give **one local** and **one global** example of an environmental public good not listed in the lecture.  
+
+<br><br>
+
+## Part 2 — Applied Problem
+
+Suppose two people, **Alex** and **Jamie**, value urban tree planting as follows:  
+
+$$
+MB_{Alex}(Q) = 16 - Q \quad \quad MB_{Jamie}(Q) = 12 - 2Q
+$$  
+
+(Values are in dollars; truncate at zero.)  
+The marginal cost of planting trees is constant at **$10 per tree**.
+
+**Tasks:**  
+1. Draw the MB curves for Alex and Jamie separately.  
+2. Construct the **social MB curve** by vertical summation.  
+3. Find the **optimal number of trees Q* where SMB = MC**.  
+4. Compare the total benefits received by Alex vs. Jamie at Q*.  
+5. Propose two possible **cost-sharing rules** (e.g., equal split, benefit-based) and discuss whether each is *fair* and/or *efficient*.  
+
+<br><br>
+
+## Part 3 — Sensitivity
+
+1. Suppose the cost per tree rises from $10 to **$12**. Recalculate Q*.  
+2. Suppose Jamie’s valuation increases to \(MB_{Jamie}(Q) = 15 - 2Q\). How does this change Q*?  
+3. Which change (higher cost vs. higher demand) has a larger effect on optimal provision? Why?  
+
+<br><br>
+
+## Part 4 — Reflection
+
+- How does this exercise illustrate the **free-rider problem**?  
+- What role should government play when preferences and benefits differ across individuals?  

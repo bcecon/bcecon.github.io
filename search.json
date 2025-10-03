@@ -1621,7 +1621,7 @@
     "href": "index.html#bullet-classwork",
     "title": "ECON 340: Environmental Economics, Fall 2025",
     "section": "\\(\\bullet\\,\\) ⌨️ Classwork",
-    "text": "\\(\\bullet\\,\\) ⌨️ Classwork\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 1\n\n\nMicroeconomics Review\n\n\nSeptember 2, 2025\n\n\n\n\nClasswork 2\n\n\nExternalities\n\n\nSeptember 8, 2025\n\n\n\n\nClasswork 3\n\n\nProperty Rights, the Coase Theorem, and the Environment\n\n\nSeptember 19, 2025\n\n\n\n\nClasswork 4\n\n\nOptimal Harvesting in a Common-pool Fishery\n\n\nSeptember 26, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "\\(\\bullet\\,\\) ⌨️ Classwork\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 1\n\n\nMicroeconomics Review\n\n\nSeptember 2, 2025\n\n\n\n\nClasswork 2\n\n\nExternalities\n\n\nSeptember 8, 2025\n\n\n\n\nClasswork 3\n\n\nProperty Rights, the Coase Theorem, and the Environment\n\n\nSeptember 19, 2025\n\n\n\n\nClasswork 4\n\n\nOptimal Harvesting in a Common-pool Fishery\n\n\nSeptember 26, 2025\n\n\n\n\nClasswork 5\n\n\nPublic Goods in Action\n\n\nOctober 3, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#bullet-homework",
@@ -1789,7 +1789,7 @@
     "href": "listing-econ-340-cw.html",
     "title": "ECON 340 - Classwork",
     "section": "",
-    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 1\n\n\nMicroeconomics Review\n\n\nSeptember 2, 2025\n\n\n\n\nClasswork 2\n\n\nExternalities\n\n\nSeptember 8, 2025\n\n\n\n\nClasswork 3\n\n\nProperty Rights, the Coase Theorem, and the Environment\n\n\nSeptember 19, 2025\n\n\n\n\nClasswork 4\n\n\nOptimal Harvesting in a Common-pool Fishery\n\n\nSeptember 26, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 1\n\n\nMicroeconomics Review\n\n\nSeptember 2, 2025\n\n\n\n\nClasswork 2\n\n\nExternalities\n\n\nSeptember 8, 2025\n\n\n\n\nClasswork 3\n\n\nProperty Rights, the Coase Theorem, and the Environment\n\n\nSeptember 19, 2025\n\n\n\n\nClasswork 4\n\n\nOptimal Harvesting in a Common-pool Fishery\n\n\nSeptember 26, 2025\n\n\n\n\nClasswork 5\n\n\nPublic Goods in Action\n\n\nOctober 3, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "econ-lec/econ-340-lec-03-2025-0829.html#demand-and-supply-basics",
@@ -2223,7 +2223,7 @@
     "href": "econ-lec/econ-340-lec-07-2025-1003.html#market-failures---why-markets-underprovide-public-goods",
     "title": "Lecture 7",
     "section": "Market Failures - Why Markets Underprovide Public Goods",
-    "text": "Market Failures - Why Markets Underprovide Public Goods\n\nIn competitive markets, demand = willingness to pay (WTP) for private goods.\n\nFor public goods, individual WTP understates marginal benefit (MB) because people can consume even if they pay less (or nothing).\n\nResult: Free riding → (Total Voluntary Funding) \\(\\,&lt;\\,\\) (Cost) → Underprovision.\n\n\n\n\nNote\n\n\n\nMarket failure here is on the demand side, unlike overuse of common-pool resources which is on the production side."
+    "text": "Market Failures - Why Markets Underprovide Public Goods\n\nIn competitive markets, demand = willingness to pay (WTP) for private goods.\n\nFor public goods, individual WTP understates marginal benefit (MB) because people can consume even if they pay less (or nothing).\n\nResult: Free riding → \\(\\text{(Total Voluntary Funding)} \\,&lt;\\,\\text{(Cost)}\\) → Underprovision.\n\n\n\n\nNote\n\n\n\nMarket failure here is on the demand side, unlike overuse of common-pool resources which is on the production side."
   },
   {
     "objectID": "econ-lec/econ-340-lec-07-2025-1003.html#aggregating-benefits-vertical-summation",
@@ -2243,8 +2243,8 @@
     "objectID": "econ-lec/econ-340-lec-07-2025-1003.html#mechanisms-policy-tools",
     "href": "econ-lec/econ-340-lec-07-2025-1003.html#mechanisms-policy-tools",
     "title": "Lecture 7",
-    "section": "Mechanisms & policy tools",
-    "text": "Mechanisms & policy tools\n\nDirect public provision financed by general taxation (common in R&D, defense).\n\nVCG / Clarke-Groves mechanisms (truth-telling incentives; complex, rare at scale).\n\nMatching grants / subsidies to crowd-in voluntary contributions.\n\nEarmarked taxes / levies (e.g., resilience bonds, green property assessments).\n\nPatents & prizes for R&D (make knowledge partially excludable; second-best).\n\nInformation & norms: public campaigns that shift preferences (can complement funding)."
+    "section": "Mechanisms & Policy Tools",
+    "text": "Mechanisms & Policy Tools\n\nDirect public provision — government supplies the good, financed through general taxation\nExamples: national defense, basic research, public health campaigns\nMatching grants & subsidies — amplify voluntary contributions by adding public funds\nEncourages private giving, lowers cost of participation\nEarmarked taxes & levies — dedicated funding streams tied to the good\nExamples: resilience bonds, carbon levies, conservation assessments\nPatents & prizes — create incentives for innovation by making outcomes partly excludable\nEncourages R&D while still generating spillovers\nInformation & social norms — campaigns and education to shift behavior and increase support\nExamples: climate awareness, energy-saving initiatives"
   },
   {
     "objectID": "econ-cw/econ-340-cw-04.html#benefitcost-table-1",
@@ -2315,5 +2315,75 @@
     "title": "Homework 2",
     "section": "d — What is REDD+ and how can it help here?",
     "text": "d — What is REDD+ and how can it help here?\nREDD+ (Reducing Emissions from Deforestation and forest Degradation) is an international climate policy framework that provides payments when countries or jurisdictions reduce logging and therefore avoid CO\\(_2\\) emissions.\nFor simplicity, assume the climate damage from one unit of logging is valued at \\(\\delta\\) dollars. Under REDD+, loggers (or governments) receive a payment \\(\\tau\\) for each unit of logging not carried out, relative to a baseline.\nFrom the logger’s perspective, this acts like an extra cost of logging: cutting down one more unit of forest means losing \\(\\tau\\) dollars of REDD+ payment. In economic terms, the decision rule becomes\n\\[\nMB(L) = MC(L) + \\tau.\n\\]\nIf \\(\\tau\\) is set equal to the external damage per unit of logging (\\(\\delta\\)), then the private decision condition matches the social condition. Loggers internalize the climate cost and choose the socially efficient effort \\(L^*\\).\n\nd1 — Pigouvian Alignment\nShow that setting \\(\\tau=\\delta=0.5\\) implements the socially efficient effort \\(L^*\\).\n\n\nd1 — Pigouvian Alignment\nShow that setting \\(\\tau=\\delta = 0.5\\) implements the socially efficient effort \\(L^*\\).\n\n\nd2 — Practical Challenges of REDD+\nBriefly discuss the following implementation issues:\n\nAdditionality: How can we verify that emission reductions are truly extra (would not have happened without REDD+)?\nLeakage: Could logging or deforestation simply shift to another location, offsetting the gains?\nPermanence: Even if forests are protected now, what ensures the carbon remains stored long term (e.g., risk of future logging or fires)?"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-07-2025-1003.html#mechanisms-policy-tools-1",
+    "href": "econ-lec/econ-340-lec-07-2025-1003.html#mechanisms-policy-tools-1",
+    "title": "Lecture 7",
+    "section": "Mechanisms & Policy Tools",
+    "text": "Mechanisms & Policy Tools\n\nMatching grants & subsidies — amplify voluntary contributions by adding public funds\nEncourages private giving, lowers cost of participation\nExamples:\n\nU.S. federal charitable gift matching programs (e.g., matching donations to conservation NGOs)\n\nPublic broadcasting pledge drives with matching challenges\n\nState and federal subsidies for rooftop solar panels and energy-efficient appliances\n\nLocal governments matching community fundraising for parks, libraries, or schools\n\nInternational funds (e.g., Green Climate Fund) co-financing climate adaptation projects with national contributions"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-07-2025-1003.html#policy-tools---direct-public-provision",
+    "href": "econ-lec/econ-340-lec-07-2025-1003.html#policy-tools---direct-public-provision",
+    "title": "Lecture 7",
+    "section": "Policy Tools - Direct Public Provision",
+    "text": "Policy Tools - Direct Public Provision\n\nGovernment directly provides the public good, funded through general taxation.\n\nAvoids reliance on voluntary contributions → ensures adequate and stable supply.\n\nCitizens share costs through taxes, but everyone benefits once the good is provided.\nExamples:\n\nNational defense\n\nBasic scientific research\n\nPublic health campaigns (e.g., vaccination drives)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-07-2025-1003.html#policy-tools---matching-grants-subsidies",
+    "href": "econ-lec/econ-340-lec-07-2025-1003.html#policy-tools---matching-grants-subsidies",
+    "title": "Lecture 7",
+    "section": "Policy Tools - Matching grants & subsidies",
+    "text": "Policy Tools - Matching grants & subsidies\n\nAmplify voluntary contributions by adding public funds\nEncourages private giving, lowers cost of participation\n\nExamples:\n\nU.S. federal charitable gift matching programs (e.g., matching donations to conservation NGOs)\n\nPublic broadcasting pledge drives with matching challenges\n\nState and federal subsidies for rooftop solar panels and energy-efficient appliances\n\nLocal governments matching community fundraising for parks, libraries, or schools\n\nInternational funds (e.g., Green Climate Fund) co-financing climate adaptation projects with national contributions"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-07-2025-1003.html#policy-tools---earmarked-taxes-levies",
+    "href": "econ-lec/econ-340-lec-07-2025-1003.html#policy-tools---earmarked-taxes-levies",
+    "title": "Lecture 7",
+    "section": "Policy Tools - Earmarked Taxes & Levies",
+    "text": "Policy Tools - Earmarked Taxes & Levies\n\nDedicated funding streams linked directly to a specific public good.\n\nRevenues cannot be spent elsewhere → builds trust that taxes support the intended purpose.\n\nHelps align costs with beneficiaries (those who pay are often those who benefit most).\nExamples:\n\nResilience bonds to finance disaster protection infrastructure\n\nCarbon levies to support climate mitigation and clean energy\n\nLocal conservation assessments for parks, wetlands, or open space protection"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-07-2025-1003.html#policy-tools---patents-prizes",
+    "href": "econ-lec/econ-340-lec-07-2025-1003.html#policy-tools---patents-prizes",
+    "title": "Lecture 7",
+    "section": "Policy Tools - Patents & Prizes",
+    "text": "Policy Tools - Patents & Prizes\n\nProvide incentives for innovation by making knowledge partly excludable.\n\nPatents: grant temporary monopoly rights to inventors → they can earn profits, encouraging investment in R&D.\n\nPrizes: reward specific breakthroughs without ongoing monopoly, while allowing broader diffusion.\n\nBoth approaches aim to stimulate innovation while still creating knowledge spillovers that benefit society.\n\nExamples:\n\nPharmaceutical patents for new drugs\n\nXPRIZE competitions (e.g., carbon removal, space technology)\n\nGovernment innovation prizes for energy efficiency or medical devices"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-07-2025-1003.html#policy-tools---information-social-norms",
+    "href": "econ-lec/econ-340-lec-07-2025-1003.html#policy-tools---information-social-norms",
+    "title": "Lecture 7",
+    "section": "Policy Tools - Information & Social Norms",
+    "text": "Policy Tools - Information & Social Norms\n\nUse campaigns, education, and messaging to influence behavior and public attitudes.\n\nCan shift social norms so that contributing to or supporting a public good becomes the default.\n\nWorks best when combined with other policy tools (taxes, subsidies, regulation).\nExamples\n\nClimate awareness campaigns (e.g., “Act on Climate”)\n\nEnergy-saving initiatives (“Turn off the lights,” Energy Star labeling)\n\nPublic health messages (seatbelt use, anti-smoking, vaccination reminders)\n\nRecycling and waste reduction campaigns"
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-05.html#part-1-conceptual-warm-up",
+    "href": "econ-cw/econ-340-cw-05.html#part-1-conceptual-warm-up",
+    "title": "Classwork 5",
+    "section": "Part 1 — Conceptual Warm-Up",
+    "text": "Part 1 — Conceptual Warm-Up\n\nExplain in your own words why public goods require vertical summation of marginal benefits.\n\nIn the Doug–Sasha forest preservation example, what condition makes 10 acres optimal?\n\nGive one local and one global example of an environmental public good not listed in the lecture."
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-05.html#part-2-applied-problem",
+    "href": "econ-cw/econ-340-cw-05.html#part-2-applied-problem",
+    "title": "Classwork 5",
+    "section": "Part 2 — Applied Problem",
+    "text": "Part 2 — Applied Problem\nSuppose two people, Alex and Jamie, value urban tree planting as follows:\n\\[\nMB_{Alex}(Q) = 16 - Q \\quad \\quad MB_{Jamie}(Q) = 12 - 2Q\n\\]\n(Values are in dollars; truncate at zero.)\nThe marginal cost of planting trees is constant at $10 per tree.\nTasks:\n1. Draw the MB curves for Alex and Jamie separately.\n2. Construct the social MB curve by vertical summation.\n3. Find the optimal number of trees Q* where SMB = MC.\n4. Compare the total benefits received by Alex vs. Jamie at Q.\n5. Propose two possible cost-sharing rules (e.g., equal split, benefit-based) and discuss whether each is fair* and/or efficient."
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-05.html#part-3-sensitivity",
+    "href": "econ-cw/econ-340-cw-05.html#part-3-sensitivity",
+    "title": "Classwork 5",
+    "section": "Part 3 — Sensitivity",
+    "text": "Part 3 — Sensitivity\n\nSuppose the cost per tree rises from $10 to $12. Recalculate Q*.\n\nSuppose Jamie’s valuation increases to (MB_{Jamie}(Q) = 15 - 2Q). How does this change Q*?\n\nWhich change (higher cost vs. higher demand) has a larger effect on optimal provision? Why?"
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-05.html#part-4-reflection",
+    "href": "econ-cw/econ-340-cw-05.html#part-4-reflection",
+    "title": "Classwork 5",
+    "section": "Part 4 — Reflection",
+    "text": "Part 4 — Reflection\n\nHow does this exercise illustrate the free-rider problem?\n\nWhat role should government play when preferences and benefits differ across individuals?"
   }
 ]
