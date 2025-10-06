@@ -135,14 +135,17 @@ $$
 (\text{Earnings}) = (\text{Farming Income}) + (\text{PES Payment}) + (\text{Forest Harvesting}) - (\text{Policing or Fines})
 $$
 
+Farming income of **\$70** is automatically granted to every household each period.
+
+
 ### Income Components
 
 | Component | Description | Default Value |
 |------------|--------------|----------------|
-| **Farming Income** | Subsistence income from your land plot | \$70 |
+| **Farming Income** | Automatic subsistence income from your land plot | \$70 |
 | **PES Payment** | Payment for entering PES contract | \$50 |
 | **Forest Harvesting** | \$10 × card number (if not in PES) | varies |
-| **Policing / Fines** | Cost of enforcement or penalties | varies |
+<!-- | **Policing / Fines** | Cost of enforcement or penalties (in **Periods 2 and 4**) | varies | -->
 
 <p style="color: darkred; font-weight: bold; font-style: italic;">
 If total earnings < \$75, your family cannot eat for a day (conceptually unpleasant!).
@@ -177,7 +180,7 @@ If total earnings < \$75, your family cannot eat for a day (conceptually unpleas
 ## Period 1 — Payments for Ecosystem Services (PES)
 - PES contracts available at **\$50** payment.  
 - If you take PES, **you cannot harvest**.  
-- All contracts are audited (no illegal harvest possible).
+  - No illegal harvest is possible.
 
 
 ### CP1 - Payment Recording
