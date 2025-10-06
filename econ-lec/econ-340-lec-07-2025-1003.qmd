@@ -362,14 +362,12 @@ You are a **household** in rural *Ephoria*, a low-income tropical country.
 </a>
 </center>
 
+
 - Forest resources = **subsistence + cash**
 - Government introduces a **PES contract**:
   - Pay \$50 if you agree not to harvest wood this year  
   - Each round = new policy design
 
-
-
-## Household Decision
 
 :::: {.columns}
 ::: {.column width="45%"}
@@ -413,7 +411,7 @@ You are a **household** in rural *Ephoria*, a low-income tropical country.
 
 - 🧭 **Concepts**
   - Opportunity cost (abatement cost)
-  - Additionality  
+  - Additionality (True *additional* conservation only occurs when the payment **changes** behavior)
   - Heterogeneity in cost → cost-effective targeting
 
 
@@ -458,4 +456,54 @@ You are a **household** in rural *Ephoria*, a low-income tropical country.
   - Trust & social capital  
   - Deterrence by monitoring
   
+
+## 🌳 The Promise of Forest-Based PES
+- **Aligns incentives**: Encourages conservation by paying for the ecosystem services forests provide (carbon storage, biodiversity, water regulation).  
+- **Cost-effective mitigation**: Taps into *low-cost abatement opportunities* in developing regions — “climate finance with co-benefits.”  
+- **Income diversification**: Provides a stable cash flow to rural households that might otherwise rely on unsustainable logging or agriculture.  
+- **Global–local partnership**: Transfers resources from high-emission (often rich) countries to low-income communities maintaining forests.  
+- **Flexibility**: Can be scaled or customized — individual, community, or landscape-level programs.
+
+## ⚠️ Potential Pitfalls and Challenges
+
+- **Additionality problem**  
+  <!-- → Are we paying people for actions they would have done anyway?   -->
+  → CP1 in our game shows how payments can reward *non-additional* conservation.
   
+- **Verification and enforcement**  
+  <!-- → How can we monitor whether deforestation really stopped?   -->
+  → Illegal harvesting in CP2 and CP4 highlights the *verifiability challenge.*
+
+- **Leakage**  
+  → Conservation in one area can shift deforestation to another.  
+  → Not captured in our classroom game, but critical in real programs.
+
+- **Equity and fairness**  
+  → Who gets paid — landowners or landless users?  
+  → How are community payments shared (as in CP3–CP4)?  
+  → Risk of elite capture or exclusion of marginalized groups.
+
+- **Dependence on external funding**  
+  → Long-term sustainability uncertain once donor support ends.
+
+
+## ⚖️ Equity, Empowerment, and Governance
+
+- PES can **empower communities** by recognizing their role in environmental stewardship — especially under community-based contracts (like CP3–CP4).  
+- However, unequal land rights and bargaining power can **reinforce inequalities** — wealthier households or leaders may capture the majority of benefits.  
+- Trust and local governance capacity determine whether PES fosters cooperation or conflict.  
+- The design of **payment division rules** (equal vs. proportional vs. needs-based) has real implications for fairness and motivation.
+
+
+
+## 🧠 Reflective Prompts for Class Discussion
+
+- In our experiment, who gained most from PES — low-card or high-card players?  
+- Did community-level decision-making improve or reduce fairness?  
+- If you were a policymaker in *Ephoria*, how would you redesign PES to:  
+  - Improve **additionality**,  
+  - Strengthen **compliance**, and  
+  - Ensure **equitable benefit sharing**?
+
+- 💬 **Key takeaway:**  
+  - > PES succeeds not just when payments exist — but when they are *credible, additional, verifiable,* and *fair.*

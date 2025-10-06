@@ -2426,7 +2426,7 @@
     "href": "econ-lec/econ-340-lec-07-2025-1003.html#pes-role-playing-game",
     "title": "Lecture 7",
     "section": "PES Role-Playing Game 🎲",
-    "text": "PES Role-Playing Game 🎲\nYou are a household in rural Ephoria, a low-income tropical country.\n\n 🎮 View the Game \n\n\nForest resources = subsistence + cash\nGovernment introduces a PES contract:\n\nPay $50 if you agree not to harvest wood this year\n\nEach round = new policy design"
+    "text": "PES Role-Playing Game 🎲\nYou are a household in rural Ephoria, a low-income tropical country.\n\n 🎮 View the Game \n\n\nForest resources = subsistence + cash\nGovernment introduces a PES contract:\n\nPay $50 if you agree not to harvest wood this year\n\nEach round = new policy design\n\n\n\n\nOption A: Deforest\n- Harvest wood for cooking or sale\n- Value = playing card × $10\n(face cards & jokers = $0)\n\nvs.\n\nOption B: Conserve\n- Accept PES payment\n- Commit not to harvest"
   },
   {
     "objectID": "econ-lec/econ-340-lec-07-2025-1003.html#household-decision",
@@ -2447,7 +2447,7 @@
     "href": "econ-lec/econ-340-lec-07-2025-1003.html#cp1-baseline-vs.-pes",
     "title": "Lecture 7",
     "section": "CP1 – Baseline vs. PES",
-    "text": "CP1 – Baseline vs. PES\n\nHow did you decide between harvesting and PES?\n\nDid your card value affect your choice?\n🧭 Concepts\n\nOpportunity cost (abatement cost)\nAdditionality\n\nHeterogeneity in cost → cost-effective targeting"
+    "text": "CP1 – Baseline vs. PES\n\nHow did you decide between harvesting and PES?\n\nDid your card value affect your choice?\n🧭 Concepts\n\nOpportunity cost (abatement cost)\nAdditionality (True additional conservation only occurs when the payment changes behavior)\nHeterogeneity in cost → cost-effective targeting"
   },
   {
     "objectID": "econ-lec/econ-340-lec-07-2025-1003.html#cp2-illegal-harvest-option",
@@ -2469,5 +2469,40 @@
     "title": "Lecture 7",
     "section": "CP4 – Community Contract + Illegal Harvest",
     "text": "CP4 – Community Contract + Illegal Harvest\n\nCommunities can join PES and decide whether to police\n\nIf policing → cost $5 per household, no cheating possible\n\nIf not → some may harvest illegally\n\nAudit probability increases with # illegal harvesters\n\n⚖️ Concepts\n\nSelf-governance\n\nCollective enforcement\n\nTrust & social capital\n\nDeterrence by monitoring"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-07-2025-1003.html#discussion",
+    "href": "econ-lec/econ-340-lec-07-2025-1003.html#discussion",
+    "title": "Lecture 7",
+    "section": "Discussion",
+    "text": "Discussion\n\nWhat is the biggest promise of forest-based PES?\nWhat is their biggest potential pitfall?\nDo PES programs tend to be good or bad for equity / empowerment?"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-07-2025-1003.html#the-promise-of-forest-based-pes",
+    "href": "econ-lec/econ-340-lec-07-2025-1003.html#the-promise-of-forest-based-pes",
+    "title": "Lecture 7",
+    "section": "🌳 The Promise of Forest-Based PES",
+    "text": "🌳 The Promise of Forest-Based PES\n\nAligns incentives: Encourages conservation by paying for the ecosystem services forests provide (carbon storage, biodiversity, water regulation).\n\nCost-effective mitigation: Taps into low-cost abatement opportunities in developing regions — “climate finance with co-benefits.”\n\nIncome diversification: Provides a stable cash flow to rural households that might otherwise rely on unsustainable logging or agriculture.\n\nGlobal–local partnership: Transfers resources from high-emission (often rich) countries to low-income communities maintaining forests.\n\nFlexibility: Can be scaled or customized — individual, community, or landscape-level programs."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-07-2025-1003.html#potential-pitfalls-and-challenges",
+    "href": "econ-lec/econ-340-lec-07-2025-1003.html#potential-pitfalls-and-challenges",
+    "title": "Lecture 7",
+    "section": "⚠️ Potential Pitfalls and Challenges",
+    "text": "⚠️ Potential Pitfalls and Challenges\n\nAdditionality problem\n → CP1 in our game shows how payments can reward non-additional conservation.\nVerification and enforcement\n → Illegal harvesting in CP2 and CP4 highlights the verifiability challenge.\nLeakage\n→ Conservation in one area can shift deforestation to another.\n→ Not captured in our classroom game, but critical in real programs.\nEquity and fairness\n→ Who gets paid — landowners or landless users?\n→ How are community payments shared (as in CP3–CP4)?\n→ Risk of elite capture or exclusion of marginalized groups.\nDependence on external funding\n→ Long-term sustainability uncertain once donor support ends."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-07-2025-1003.html#equity-empowerment-and-governance",
+    "href": "econ-lec/econ-340-lec-07-2025-1003.html#equity-empowerment-and-governance",
+    "title": "Lecture 7",
+    "section": "⚖️ Equity, Empowerment, and Governance",
+    "text": "⚖️ Equity, Empowerment, and Governance\n\nPES can empower communities by recognizing their role in environmental stewardship — especially under community-based contracts (like CP3–CP4).\n\nHowever, unequal land rights and bargaining power can reinforce inequalities — wealthier households or leaders may capture the majority of benefits.\n\nTrust and local governance capacity determine whether PES fosters cooperation or conflict.\n\nThe design of payment division rules (equal vs. proportional vs. needs-based) has real implications for fairness and motivation."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-07-2025-1003.html#reflective-prompts-for-class-discussion",
+    "href": "econ-lec/econ-340-lec-07-2025-1003.html#reflective-prompts-for-class-discussion",
+    "title": "Lecture 7",
+    "section": "🧠 Reflective Prompts for Class Discussion",
+    "text": "🧠 Reflective Prompts for Class Discussion\n\nIn our experiment, who gained most from PES — low-card or high-card players?\n\nDid community-level decision-making improve or reduce fairness?\n\nIf you were a policymaker in Ephoria, how would you redesign PES to:\n\nImprove additionality,\n\nStrengthen compliance, and\n\nEnsure equitable benefit sharing?\n\n💬 Key takeaway:\n\n\nPES succeeds not just when payments exist — but when they are credible, additional, verifiable, and fair."
   }
 ]
