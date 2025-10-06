@@ -5,7 +5,8 @@ library(tidyverse)
 library(janitor)
 library(stringr)
 library(gsheet)
-
+library(hrbrthemes)
+library(ggthemes)
 
 # List your Google Sheet URLs (replace these with yours)
 urls <- c(
@@ -187,6 +188,7 @@ illegal_vs_harvestValue <- all_cp |>
   group_by(period, harvest_value) |>
   summarise(illegal_rate = mean(illegal %in% TRUE, na.rm = TRUE), n = n(), .groups="drop")
 
+
 # Community-level views (CP3 & CP4)
 comm_cp3 <- all_cp |>
   filter(period == "cp3") |>
@@ -225,6 +227,103 @@ comm_cp4_split <- all_cp |>
   count(split_rule) |> 
   arrange(-n)
 
+
+
+
+# viz summary ------------------------------------------------------------
+
+
+illegal_vs_harvestValue |> 
+  ggplot() +
+  geom_col(aes(x = harvest_value,
+               y = illegal_rate,
+               fill = period),
+           position = "dodge") +
+  scale_fill_tableau() +
+  scale_y_percent() +
+  labs(x = "Harvest Value",
+       y = "Illegal Rate",
+       fill = "Period") +
+  theme_ipsum() +
+  theme(axis.title.x = element_text(size = rel(2)),
+        axis.title.y = element_text(angle = 0,
+                                    size = rel(2)),
+  )
+
+# 💵 Distribution of Earnings Across Periods
+all_cp %>%
+  ggplot(aes(x = period, y = earning, fill = period)) +
+  geom_boxplot(alpha = 0.8) +
+  labs(
+    title = "Distribution of Earnings Across Contract Periods",
+    x = "Contract Period",
+    y = "Earnings ($)"
+  ) +
+  theme_ipsum(base_size = 13) +
+  theme(legend.position = "none")
+
+
+# 🪵 Effect of Harvest Value on PES Decision
+all_cp %>%
+  filter(period %in% c("cp1", "cp2")) %>%
+  ggplot(aes(x = harvest_value, y = pes, color = period)) +
+  geom_jitter(width = 0.3, height = 0.03, alpha = 0.5) +
+  geom_smooth(method = "glm", method.args = list(family = binomial), se = FALSE) +
+  labs(
+    title = "PES Adoption vs. Harvest Value",
+    x = "Harvest Value (Card × $10)",
+    y = "P(PES = 1)"
+  ) +
+  theme_minimal(base_size = 13)
+
+# 💡 Community Policing Impact
+all_cp %>%
+  filter(period == "cp4") %>%
+  group_by(police) %>%
+  summarise(mean_earning = mean(earning, na.rm = TRUE)) %>%
+  ggplot(aes(x = factor(police), y = mean_earning, fill = factor(police))) +
+  geom_col() +
+  labs(
+    title = "Average Earnings by Policing Decision (CP4)",
+    x = "Police (1 = Yes)",
+    y = "Mean Earnings ($)"
+  ) +
+  scale_fill_tableau() +
+  theme_ipsum(base_size = 13) +
+  theme(legend.position = "none")
+
+
+# data frame summary ------------------------------------------------------
+
+
+
+# 👥 Community-Level Insights (CP3–CP4)
+comm_summary <- all_cp %>%
+  filter(period %in% c("cp3", "cp4")) %>%
+  group_by(period, community) %>%
+  summarise(
+    n = n(),
+    mean_earning = mean(earning, na.rm = TRUE),
+    pes_rate = mean(pes, na.rm = TRUE),
+    illegal_rate = mean(illegal, na.rm = TRUE),
+    policing_rate = mean(police, na.rm = TRUE)
+  )
+
+
+# 📊 Split Rule Preferences (CP3 & CP4)
+all_cp %>%
+  filter(period %in% c("cp3", "cp4"), !is.na(split_rule)) %>%
+  count(period, split_rule) %>%
+  mutate(pct = round(100 * n / sum(n), 1)) %>%
+  arrange(period, desc(n))
+
+# 🎯 Top vs. Bottom Earners
+all_cp %>%
+  group_by(`id-number`) %>%
+  summarise(total_earning = sum(earning, na.rm = TRUE)) %>%
+  arrange(desc(total_earning)) %>%
+  mutate(rank = row_number()) %>%
+  slice_head(n = 10)
 
 
 # lottery -----------------------------------------------------------------
