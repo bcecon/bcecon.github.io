@@ -97,7 +97,7 @@ Also plot **averages**:
 
 ## c — Benchmarks (align vertical guide lines across panels)
 
-For each benchmark below, (i) **define it**, (ii) **write the condition** to solve, and (iii) **compute the numeric value** using $\delta=0.5$.  
+For each benchmark below, (i) **denote private optimum $L^{priv}$, socially efficient optimum $L^{*}$, and open-access level $L_{OA}$**, (ii) **write the condition** to solve each, and (iii) **compute the numeric value for each** using $\delta=0.5$.  
 Then **draw vertical guide lines** at the three effort levels on **both** panels so they align.
 
 1. **Private optimum $L^{priv}$** — *Privately optimal with no externality considered.*  
