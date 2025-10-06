@@ -655,16 +655,18 @@ Byeong-Hak Choe
 <section id="who-pays-for-pes-contracts" class="slide level2">
 <h2>Who Pays for PES Contracts?</h2>
 <ul>
-<li class="fragment">Polluters (firms/countries) must cut emissions under regulations</li>
-<li class="fragment">Instead of cutting directly, they can <strong>buy offsets</strong>:
+<li class="fragment">Polluters (firms or countries) are often required by regulation to <strong>limit their total emissions</strong>.<br>
+</li>
+<li class="fragment">Instead of cutting emissions directly, they can <strong>buy offsets</strong>, such as:
 <ul>
-<li class="fragment">e.g., “Protect 1 ha of rainforest instead of emitting 100 t CO₂”</li>
+<li class="fragment">“Protect 1 hectare of rainforest instead of emitting 100 tons of CO₂.”</li>
 </ul></li>
-<li class="fragment">These offsets integrate with <strong>cap-and-trade</strong> markets
+<li class="fragment">These offsets are integrated into <strong><span style="color:#e63946; font-weight:700;" data-tippy-content="A market-based system where the government sets a cap on total emissions and issues tradable permits (allowances). Firms that cut emissions cheaply can sell permits, and others buy them — ensuring the target is met at the lowest overall cost.">cap-and-trade</span></strong> markets.
 <ul>
-<li class="fragment">Companies can choose between permits and offsets</li>
+<li class="fragment">Companies can choose between <strong>permits</strong> and <strong>offsets</strong> to meet emission limits.<br>
+</li>
 </ul></li>
-<li class="fragment">International PES → transfers resources from <strong>rich to poor countries</strong></li>
+<li class="fragment">International PES schemes therefore act as <strong>global offsets</strong>, transferring resources from <strong>high-emission (often rich)</strong> countries to <strong>low-income</strong> forest communities that conserve carbon sinks.</li>
 </ul>
 </section>
 <section id="why-is-pes-hard" class="slide level2">
@@ -893,6 +895,37 @@ Byeong-Hak Choe
 </blockquote></li>
 </ul></li>
 </ul>
+<!-- Load Tippy.js -->
+<link rel="stylesheet" href="https://unpkg.com/tippy.js@6/dist/tippy.css">
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://unpkg.com/tippy.js@6"></script>
+<!-- Custom tooltip style -->
+<style>
+.tippy-box[data-theme~='light-border'] {
+  font-size: 2rem;        /* increase overall text size */
+  line-height: 1.5;         /* better spacing */
+  color: #1c1c1c;
+  background-color: #fefefe;
+  border: 1px solid #cccccc;
+  padding: 10px;
+}
+.tippy-arrow {
+  color: #fefefe;
+}
+</style>
+<!-- Initialize tooltip -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  tippy('[data-tippy-content]', {
+    allowHTML: true,
+    theme: 'light-border',
+    maxWidth: 600,
+    placement: 'top',
+    animation: 'scale',
+    delay: [100, 100],
+  });
+});
+</script>
 
 <div class="footer footer-default">
 

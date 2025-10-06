@@ -327,16 +327,14 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
   - $+$ Sustainable forest management for carbon storage
 
 
-
 ## Who Pays for PES Contracts?
 
-- Polluters (firms/countries) must cut emissions under regulations
-- Instead of cutting directly, they can **buy offsets**:
-  - e.g., “Protect 1 ha of rainforest instead of emitting 100 t CO₂”
-- These offsets integrate with **cap-and-trade** markets  
-  - Companies can choose between permits and offsets
-- International PES → transfers resources from **rich to poor countries**
-
+- Polluters (firms or countries) are often required by regulation to **limit their total emissions**.  
+- Instead of cutting emissions directly, they can **buy offsets**, such as:  
+  - “Protect 1 hectare of rainforest instead of emitting 100 tons of CO₂.”
+- These offsets are integrated into **<span style="color:#e63946; font-weight:700;" data-tippy-content="A market-based system where the government sets a cap on total emissions and issues tradable permits (allowances). Firms that cut emissions cheaply can sell permits, and others buy them — ensuring the target is met at the lowest overall cost.">cap-and-trade</span>** markets.
+  - Companies can choose between **permits** and **offsets** to meet emission limits.  
+- International PES schemes therefore act as **global offsets**, transferring resources from **high-emission (often rich)** countries to **low-income** forest communities that conserve carbon sinks.
 
 
 ## Why Is PES Hard?
@@ -507,3 +505,38 @@ You are a **household** in rural *Ephoria*, a low-income tropical country.
 
 - 💬 **Key takeaway:**  
   - > PES succeeds not just when payments exist — but when they are *credible, additional, verifiable,* and *fair.*
+  
+  
+<!-- Load Tippy.js -->
+<link rel="stylesheet" href="https://unpkg.com/tippy.js@6/dist/tippy.css">
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://unpkg.com/tippy.js@6"></script>
+
+<!-- Custom tooltip style -->
+<style>
+.tippy-box[data-theme~='light-border'] {
+  font-size: 2rem;        /* increase overall text size */
+  line-height: 1.5;         /* better spacing */
+  color: #1c1c1c;
+  background-color: #fefefe;
+  border: 1px solid #cccccc;
+  padding: 10px;
+}
+.tippy-arrow {
+  color: #fefefe;
+}
+</style>
+
+<!-- Initialize tooltip -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  tippy('[data-tippy-content]', {
+    allowHTML: true,
+    theme: 'light-border',
+    maxWidth: 600,
+    placement: 'top',
+    animation: 'scale',
+    delay: [100, 100],
+  });
+});
+</script>
