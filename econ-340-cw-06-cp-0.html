@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="bulma.css" />
+  <meta charset="utf-8" />
+  <title>ECON 340 – CP0 Baseline</title>
+</head>
+<body>
+
+<form id="form" class="container m-2 pl-2" action="submit.php" method="POST">
+
+  <br><div style="display:block; margin:-50px;"></div>
+
+  <br>
+  <section><h1 style="color:#1c4982;font-size:30px;font-style:bold">Your ID#</h1></section>
+<div class="field">
+  <label class="label">Random ID Number</label>
+  <div class="control">
+    <input
+      class="input"
+      type="text"
+      name="id-number"
+      maxlength="2"
+      inputmode="numeric"
+      pattern="[0-9]{1,2}"
+      placeholder="e.g., 5"
+      style="width: 80px; height: 40px; text-align: center;"
+      required
+    />
+  </div>
+</div>
+
+
+
+<!-- === Playing Card Widget (no reset) === -->
+<section id="card-widget" aria-labelledby="card-title" style="margin-top:1.25rem">
+  <h1 id="card-title" style="color:#1c4982; font-size:30px; font-style:bold">Draw / Enter Your Card</h1>
+
+  <!-- Hidden fields -->
+  <input type="hidden" name="card" />
+  <input type="hidden" name="card_rank" />
+  <input type="hidden" name="card_suit" />
+  <input type="hidden" name="card_value" />
+  <input type="hidden" name="harvest_value" />
+
+  <div class="columns is-multiline">
+    <div class="column is-12">
+      <div class="buttons">
+        <button type="button" class="button is-info" id="deal-card">Deal a Random Card</button>
+        <button type="button" class="button is-light" id="use-physical">Use Physical Card</button>
+      </div>
+    </div>
+
+    <!-- Visual card preview -->
+    <div class="column is-12">
+      <div id="card-preview" class="cardbox" aria-live="polite" aria-atomic="true">
+        <div class="inner">
+          <div class="corner corner-top"><span class="rank">—</span><span class="suit"> </span></div>
+          <div class="center"><span class="label">No card selected</span></div>
+          <div class="corner corner-bottom"><span class="rank">—</span><span class="suit"> </span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Manual entry -->
+    <div class="column is-12" id="manual-entry" style="display:none;">
+      <div class="field is-grouped is-align-items-center">
+        <div class="control">
+          <div class="select">
+            <select id="rank-select">
+              <option value="">Rank…</option>
+              <option value="A">A</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="J">J</option>
+              <option value="Q">Q</option>
+              <option value="K">K</option>
+              <option value="Joker">Joker</option>
+            </select>
+          </div>
+        </div>
+        <div class="control">
+          <div class="select">
+            <select id="suit-select">
+              <option value="">Suit…</option>
+              <option value="♠">♠ Spades</option>
+              <option value="♥">♥ Hearts</option>
+              <option value="♦">♦ Diamonds</option>
+              <option value="♣">♣ Clubs</option>
+              <option value="(none)">Joker (no suit)</option>
+            </select>
+          </div>
+        </div>
+        <div class="control">
+          <button type="button" class="button is-primary" id="apply-manual">Apply Card</button>
+        </div>
+      </div>
+      <p class="help">Faces and Jokers count as 0. <strong>Ace counts as 1</strong>.</p>
+    </div>
+
+    <div class="column is-12">
+      <div class="field">
+        <label class="label">Card (auto-filled)</label>
+        <div class="control">
+          <input class="input" id="card-display" type="text" readonly>
+        </div>
+      </div>
+      <div class="field">
+        <label class="label">Harvest Value (auto)</label>
+        <div class="control">
+          <input class="input" id="harvest-display" type="text" readonly>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.cardbox {
+  width:260px;height:360px;border-radius:12px;border:2px solid #ddd;background:#fff;
+  position:relative;box-shadow:0 4px 12px rgba(0,0,0,.08);
+}
+.cardbox .inner {position:absolute;inset:12px;display:grid;place-items:center;}
+.cardbox .corner {position:absolute;font-weight:700;}
+.corner-top{top:6px;left:10px;text-align:left;}
+.corner-bottom{bottom:6px;right:10px;text-align:right;transform:rotate(180deg);}
+.rank{display:block;font-size:28px;}
+.suit{display:block;font-size:24px;}
+.center .label{font-size:22px;color:#999;}
+.red{color:#c0392b;}
+.black{color:#2c3e50;}
+</style>
+
+<script>
+(function(){
+  const ACE_VALUE=1,INCLUDE_JOKERS=true;
+  const $=s=>document.querySelector(s);
+  const widget=$('#card-widget'),form=widget.closest('form');
+  const dealBtn=$('#deal-card'),useBtn=$('#use-physical');
+  const manualBox=$('#manual-entry'),rankSel=$('#rank-select'),suitSel=$('#suit-select'),applyBtn=$('#apply-manual');
+  const prev=$('#card-preview'),rankT=prev.querySelector('.corner-top .rank'),suitT=prev.querySelector('.corner-top .suit'),
+        labelC=prev.querySelector('.center .label'),rankB=prev.querySelector('.corner-bottom .rank'),suitB=prev.querySelector('.corner-bottom .suit');
+  const dispCard=$('#card-display'),dispHV=$('#harvest-display');
+  const hfCard=form.querySelector('input[name="card"]'),
+        hfRank=form.querySelector('input[name="card_rank"]'),
+        hfSuit=form.querySelector('input[name="card_suit"]'),
+        hfVal=form.querySelector('input[name="card_value"]'),
+        hfHV=form.querySelector('input[name="harvest_value"]');
+
+  function deck(){const s=['♠','♥','♦','♣'],r=['A','2','3','4','5','6','7','8','9','10','J','Q','K'],d=[];for(const su of s)for(const ra of r)d.push({r:ra,s:su});if(INCLUDE_JOKERS)d.push({r:'Joker'},{r:'Joker'});return d;}
+  function pick(){const d=deck();return d[Math.floor(Math.random()*d.length)];}
+  function val(r){if(r==='Joker'||['J','Q','K'].includes(r))return 0;if(r==='A')return ACE_VALUE;return parseInt(r,10);}
+  function hv(v){return 10*v;}
+  function setPrev(r,s){
+    const red=(s==='♥'||s==='♦'),c=red?'red':'black';
+    [rankT,rankB,suitT,suitB].forEach(el=>{el.classList.remove('red','black');if(r!=='Joker')el.classList.add(c);});
+    rankT.textContent=r||'—';rankB.textContent=r||'—';suitT.textContent=s||' ';suitB.textContent=s||' ';
+    labelC.textContent=r? (r==='Joker'?'Joker':`${r}${s}`):'No card selected';labelC.style.color=r?'#1c4982':'#999';
+  }
+  function fill(r,s){
+    const v=val(r),hvVal=hv(v);
+    hfCard.value=r==='Joker'?'Joker':`${r}${s}`;hfRank.value=r;hfSuit.value=r==='Joker'?'':s;hfVal.value=v;hfHV.value=hvVal;
+    dispCard.value=hfCard.value;dispHV.value=`$${hvVal}`;
+    setPrev(r,s);
+  }
+
+  dealBtn.addEventListener('click',()=>{const c=pick();fill(c.r,c.s||'');dealBtn.disabled=useBtn.disabled=true;});
+  useBtn.addEventListener('click',()=>{manualBox.style.display='block';});
+  applyBtn.addEventListener('click',()=>{
+    const r=rankSel.value,s=suitSel.value;
+    if(!r){alert('Select a rank.');return;}
+    if(r==='Joker')fill('Joker','');else if(!s||s==='(none)'){alert('Select a suit.');return;}else fill(r,s);
+    dealBtn.disabled=useBtn.disabled=true;manualBox.style.display='none';
+  });
+
+  setPrev('','');
+})();
+</script>
+<!-- === /Playing Card Widget (no reset) === -->
+
+  <div class="field">
+    <label class="label">Decision: Will you harvest?</label>
+    <div class="control">
+      <label class="radio"><input type="radio" name="harvest" value="Harvest" /> Harvest</label>
+      <label class="radio"><input type="radio" name="harvest" value="No" /> No</label>
+    </div>
+  </div>
+
+  <div class="field is-grouped">
+    <div class="control"><button class="button is-primary" type="submit" id="submit-button">Submit</button></div>
+    <div class="control"><button class="button is-danger" type="reset">Cancel</button></div>
+  </div>
+</form>
+
+<div id="print-view" aria-hidden="true" style="display:none;"></div>
+<div id="message" style="display:none;margin:18px;font-weight:bold;color:green;padding:8px;background:beige;border-radius:4px;"></div>
+
+<script>
+  (function () {
+    const form = document.getElementById('form');
+    const messageElement = document.getElementById('message');
+    const submitButton = document.getElementById('submit-button');
+
+    // Your latest /exec URL here (NOT /dev)
+    const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwi57IG7lYit_7fF6QVNDZbvSJ-R4iyfuOuIvFTeYB_RTzG9qGuPJNPLZv60lA8qwD9/exec";
+
+    form.addEventListener("submit", async function (e) {
+      e.preventDefault();                 // stop native navigation
+      messageElement.textContent = "Submitting..";
+      messageElement.style.display = "block";
+      submitButton.disabled = true;
+
+      // Collect the form data as x-www-form-urlencoded
+      const fd = new FormData(form);
+      const body = [...fd.entries()]
+        .map(([k,v]) => k + "=" + encodeURIComponent(v))
+        .join("&");
+
+      try {
+        const r = await fetch(APPS_SCRIPT_URL, {
+          method: "POST",
+          redirect: "follow",
+          headers: { "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8" },
+          body
+        });
+
+        // Expect JSON back from your doPost
+        if (!r.ok) throw new Error("Submit failed");
+        await r.json();
+
+        messageElement.textContent = "Data submitted successfully!";
+        messageElement.style.backgroundColor = "green";
+        messageElement.style.color = "beige";
+        submitButton.disabled = false;
+        form.reset();
+        setTimeout(() => { messageElement.textContent = ""; messageElement.style.display = "none"; }, 2600);
+      } catch (err) {
+        console.error(err);
+        messageElement.textContent = "An error occurred while submitting the form.";
+        messageElement.style.display = "block";
+        messageElement.style.backgroundColor = "red";
+        messageElement.style.color = "white";
+        submitButton.disabled = false;
+      }
+    });
+  })();
+</script>
+
+<style>
+  .field .control label.radio{ display:block; margin:.25rem 0; line-height:1.4; white-space:normal; }
+  .field .control label.radio + label.radio{ margin-left:0; }
+  .field .control label.radio input[type="radio"]{ margin-right:.5rem; transform: translateY(1px); }
+  .textarea{ width:300px; height:100px; }
+  @media print{ #form-cp0, .button{ display:none!important;} #print-view{ display:block!important;} }
+</style>
+</body>
+</html>

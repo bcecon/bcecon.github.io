@@ -1,0 +1,71 @@
+---
+title: Week 7
+subtitle: Quiz 1 and Midterm Exam 1
+date: 2025-10-06
+from: markdown+emoji
+---
+
+In Week 7, we will have the following schedule:
+
+- **October 6, Monday**: Interactive in-class activity
+- **October 8, Wednesday**: Homework 2 Due; Quiz 1 and Review
+- **October 10, Friday**: Midterm Exam 1
+
+
+## ✍️ Classwork
+
+- **Classwork 5: Public Goods in Action**  
+  [📄 View Classwork](../econ-cw/econ-340-cw-05.html){target="_blank"}  
+
+- **Classwork 6: REDD+ Experiment — _Money Growing on Trees_**  
+  [📄 View Classwork](../econ-340-cw-06.html){target="_blank"}  
+
+
+## 📝 Homework
+🏡 [Homework 2](../econ-hw/econ-340-hw-02.html){target="_blank"} has been posted. 🏡
+
+
+
+## 📚 Recommended Reading
+
+### REDD+: Reducing Emissions from Deforestation and Forest Degradation
+
+REDD+ (*Reducing Emissions from Deforestation and forest Degradation*) is an international climate policy framework established under the United Nations Framework Convention on Climate Change (UNFCCC). It provides financial incentives to developing countries for reducing greenhouse gas emissions from deforestation, forest degradation, and other land-use changes that release carbon stored in trees.
+
+The “+” in REDD+ extends the idea beyond preventing deforestation—it also includes conservation, sustainable forest management, and enhancement of forest carbon stocks (such as through reforestation or afforestation). In practice, REDD+ programs create a system of payments for ecosystem services (PES): countries, local governments, or communities that successfully lower their deforestation rates relative to an established baseline receive results-based payments, often funded by international donors or carbon markets.
+
+For example, Brazil has implemented one of the world’s most notable REDD+ programs through the *Amazon Fund*, financed by contributions from Norway and Germany to reward verified reductions in deforestation. Similarly, Indonesia has received results-based payments through the *Green Climate Fund (GCF)* for measurable emission reductions, while also supporting community-based forest management and improving land-use monitoring systems. REDD+ therefore represents an intersection between climate change mitigation, sustainable development, and local governance, aiming to align global carbon goals with local economic incentives.
+
+Despite its potential, implementing REDD+ faces several practical challenges that determine its effectiveness and credibility. These include additionality, leakage, and permanence.
+
+Additionality refers to whether the emission reductions under REDD+ are *truly additional*—that is, they would not have occurred without the program. Establishing a credible baseline scenario is difficult because deforestation trends depend on many factors such as commodity prices, policy shifts, and economic growth. If the baseline is inflated, the program might appear to generate reductions that are not real. For example, in *Peru*, some early REDD+ projects were criticized for assuming rapid deforestation growth that did not match satellite data, resulting in credits for “phantom” reductions. Ensuring additionality requires transparent baseline modeling and independent verification of land-use data.
+
+Leakage occurs when reducing deforestation in one area simply pushes logging or land clearing to another area, offsetting the gains. For instance, in *Indonesia*, limiting palm oil expansion in one province led to increased clearing in neighboring regions with weaker enforcement. This problem highlights the importance of jurisdictional or national-scale REDD+ programs and integrated land-use policies rather than isolated project-level efforts.
+
+Permanence is the concern that carbon stored in forests may not remain there indefinitely. Even if deforestation is prevented today, future fires, illegal logging, or policy reversals can release that carbon again. In *Brazil’s Amazon*, record-breaking wildfires in 2019 emitted large amounts of carbon from areas that had previously benefited from REDD+ protection. To address this, programs often use buffer reserves of credits, long-term monitoring, and reversal-risk mechanisms (such as insurance pools) to ensure that carbon storage is maintained over time.
+
+Overall, REDD+ provides a promising way to align financial incentives with forest conservation and climate goals. However, maintaining credibility, transparency, and long-term commitment is essential. Addressing additionality, leakage, and permanence challenges determines whether REDD+ can deliver durable climate benefits rather than short-term gains.
+
+#### References
+
+1. Angelsen, A. (Ed.). (2018). [*Transforming REDD+: Lessons and New Directions.*](https://www.cifor-icraf.org/publications/pdf_files/Books/BAngelsen1801.pdf) Center for International Forestry Research (CIFOR).  
+2. UNFCCC. (2016). *The Warsaw Framework for REDD+.* [https://redd.unfccc.int/fact-sheets/warsaw-framework-for-redd.html](https://redd.unfccc.int/fact-sheets/warsaw-framework-for-redd.html)  
+3. Seymour, F., & Busch, J. (2016). [*Why Forests? Why Now? The Science, Economics, and Politics of Tropical Forests and Climate Change.*](https://www.cgdev.org/sites/default/files/Seymour-Busch-why-forests-why-now-full-book.PDF) Center for Global Development.  
+4. Green Climate Fund (GCF). (2020). *REDD+ Results-Based Payments.* [https://www.greenclimate.fund/redd](https://www.greenclimate.fund/redd)  
+5. Busch, J., & Ferretti-Gallon, K. (2017). [“What drives deforestation and what stops it? A meta-analysis.”](https://www.files.ethz.ch/isn/179235/what-drives-deforestation-what-stops.pdf) *Review of Environmental Economics and Policy,* 11(1), 3–23.
+
+
+
+
+## 💬 Discussion
+
+<font size = "5">Welcome to our Week 6 Discussion Board! 👋 </font>
+
+
+This space is designed for you to engage with your classmates about the material covered in Week 6.
+
+Whether you are looking to delve deeper into the content, share insights, or have questions about the content, this is the perfect place for you.
+
+If you have any specific questions for Byeong-Hak (**@bcecon**) or peer classmate (@GitHub-Username) regarding the Week 6 materials or need clarification on any points, don't hesitate to ask here. 
+
+Let's collaborate and learn from each other!

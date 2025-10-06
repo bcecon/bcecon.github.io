@@ -62,7 +62,7 @@ The marginal cost of planting trees is constant at **$10 per tree**.
 ## Part 3 — Sensitivity
 
 1. Suppose the cost per tree rises from $10 to **$12**. Recalculate Q*.  
-2. Suppose Jamie’s valuation increases to \(MB_{Jamie}(Q) = 15 - 2Q\). How does this change Q*?  
+2. Suppose Jamie’s valuation increases to $MB_{Jamie}(Q) = 15 - 2Q$. How does this change Q*?  
 3. Which change (higher cost vs. higher demand) has a larger effect on optimal provision? Why?  
 
 <br><br>

@@ -1,0 +1,314 @@
+---
+title: Classwork 6
+subtitle: "REDD+ Experiment — *Money Growing on Trees*"
+date: 2025-10-06
+code-fold: true
+execute: 
+  echo: false
+  eval: true
+  warning: false
+  message: false
+from: markdown+emoji
+toc: true
+toc-depth: 6
+---
+
+
+# Overview
+
+You are a household in the *beautiful* but *low-income tropical country* of **Ephoria**.  
+You live in a rural area on the margin of a *forest*. Over the last few decades, expansion of agriculture and urban areas has reduced forest cover and put pressure on local resources.
+
+Your small, traditional community survives mainly through:
+
+- **Subsistence farming** (gardens for food)  
+- **Harvesting wood and non-timber forest products** (fruits, nuts, medicinal plants, bark, fish, and game)
+
+
+```{=html}
+<div style="
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 1.2rem;
+  width: 90%;
+  margin: auto;
+">
+
+  <!-- Left image -->
+  <div style="
+    flex: 1 1 440px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  ">
+    <img src="https://bcdanl.github.io/lec_figs/hawaiian-forest.jpg"
+         alt="forest-view"
+         style="
+           width: 100%;
+           height: 267px;
+           object-fit: cover;
+           aspect-ratio: 3/2;
+           border-radius: 8px;
+           margin-bottom: 8px;
+         ">
+    <p style="font-weight: bold; margin-top: auto;">Tropical forest ecosystem</p>
+  </div>
+
+  <!-- Right image -->
+  <div style="
+    flex: 1 1 440px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  ">
+    <img src="https://bcdanl.github.io/lec_figs/harvest-wood-cooking.jpg"
+         alt="forest-logging"
+         style="
+           width: 100%;
+           height: 267px;
+           object-fit: cover;
+           aspect-ratio: 3/2;
+           border-radius: 8px;
+           margin-bottom: 8px;
+         ">
+    <p style="font-weight: bold; margin-top: auto;">Forest degradation from wood harvesting</p>
+  </div>
+
+</div>
+```
+
+
+Wood is used for cooking and heating, but contributes to **deforestation** and **climate change**.  
+If you don’t harvest wood, you must either do without or buy replacement goods on the market.
+
+---
+
+# Your Card and Harvest Value
+
+Each participant receives a **playing card**:
+
+- Number cards (1–10): harvesting value = \$10 × card number  
+- Face cards or Jokers: harvesting value = \$0  
+
+Harvest values differ because of variations in household needs, family size, and access to forest areas.
+
+---
+
+# Policy Context
+
+To fight deforestation and raise revenue, Ephoria’s policymakers are experimenting with **Payments for Ecosystem Services (PES)** through an international **REDD+** program.
+
+- Local households/communities sign PES contracts.  
+- Foreign buyers purchase **avoided-deforestation credits** to offset emissions.
+
+You will play through several *contract periods*, each representing a different policy environment.
+
+---
+
+# Payment Mechanism (Real Incentives)
+
+To make decisions realistic, **two random participants** will be selected at the end of the experiment to receive real payments based on their total earnings across all rounds:
+
+$$
+\text{Real Payment} = \frac{\text{Total Experimental Earnings}}{100}
+$$
+
+Typically, this amounts to about **\$8–\$12 per winner**.
+<!-- Because the winners are chosen **at random**, everyone should make decisions as if their earnings were real.   -->
+<!-- This system mirrors how many real-world experiments and PES programs operate — where incentives are credible but limited in scale. -->
+
+---
+
+# Your Earnings Formula
+
+$$
+(\text{Earnings}) = (\text{Farming Income}) + (\text{PES Payment}) + (\text{Forest Harvesting}) - (\text{Policing or Fines})
+$$
+
+### Income Components
+
+| Component | Description | Default Value |
+|------------|--------------|----------------|
+| **Farming Income** | Subsistence income from your land plot | \$70 |
+| **PES Payment** | Payment for entering PES contract | \$50 |
+| **Forest Harvesting** | \$10 × card number (if not in PES) | varies |
+| **Policing / Fines** | Cost of enforcement or penalties | varies |
+
+<p style="color: darkred; font-weight: bold; font-style: italic;">
+If total earnings < \$75, your family cannot eat for a day (conceptually unpleasant!).
+</p>
+
+---
+
+# Contract Periods (CP)
+
+## Period 0 — Baseline
+- PES contracts **not available**.  
+- Decision: **Harvest wood or not**.  
+- Earnings as defined above.
+
+### CP0 - Payment Recording
+
+| CP | Conditions            | PES / Harvest? | Illegal Harvest? | Audited? | A: Farming | B: PES | C: Harvest | D: Fines | **Earnings = A + C** |
+|----|------------------------|----------------|------------------|----------|------------|--------|------------|----------|--------------------------------|
+| 0  | Baseline              | Harvest / No   |                  |          | \$70       |        | \$        |          |                                |
+
+### CP0 - Experiment
+
+```{=html}
+<iframe id="contentFrame" width="100%" height="1050px" frameborder="no" 
+  src="econ-340-cw-06-cp-0.html" style="overflow: hidden;">
+</iframe>
+```
+
+---
+
+## Period 1 — Payments for Ecosystem Services (PES)
+- PES contracts available at **\$50** payment.  
+- If you take PES, **you cannot harvest**.  
+- All contracts are audited (no illegal harvest possible).
+
+
+### CP1 - Payment Recording
+
+| CP | Conditions            | PES / Harvest? | Illegal Harvest? | Audited? | A: Farming | B: PES | C: Harvest | D: Fines | **Earnings = A + B + C** |
+|----|------------------------|----------------|------------------|----------|------------|--------|------------|----------|--------------------------------|
+| 1  | PES                   | PES / No       |                  |          | \$70       | \$     | \$         |        |                                |
+
+
+
+### CP1 - Experiment
+
+
+```{=html}
+<iframe id="contentFrame" width="100%" height="1050px" frameborder="no" 
+  src="econ-340-cw-06-cp-1.html" style="overflow: hidden;">
+</iframe>
+```
+
+---
+
+## Period 2 — PES + Illegal Harvest
+- PES payment = \$50.  
+- You *may* illegally harvest after signing PES.  
+- Each contract audited with **25 % probability**.  
+- If audited and caught:  
+  - Lose PES payment  
+  - Lose harvest earnings  
+  - Pay fine of **\$70**
+
+
+### CP2 - Payment Recording
+
+| CP | Conditions            | PES / Harvest? | Illegal Harvest? | Audited? | A: Farming | B: PES | C: Harvest | D: Fines | **Earnings = A + B + C – D** |
+|----|------------------------|----------------|------------------|----------|------------|--------|------------|----------|--------------------------------|
+| 2  | Illegal Harvest       | PES / No       | Y / N            | Y / N    | \$70       | \$     | \$         | \$       |                                |
+
+
+
+### CP2 - Experiment
+
+```{=html}
+<iframe id="contentFrame" width="100%" height="1100px" frameborder="no" 
+  src="econ-340-cw-06-cp-2.html" style="overflow: hidden;">
+</iframe>
+```
+
+---
+
+## Period 3 — Community Contract
+- Participants form **a community of 4-5 members** (randomly assigned).  
+- Each community jointly decides:  
+  - Whether to enter PES at \$50 per household.  
+  - How to divide PES payments.  
+- If the community joins PES → **no one** may harvest.
+
+
+### CP3 - Payment Recording
+
+| CP | Conditions            | PES / Harvest? | Illegal Harvest? | Audited? | A: Farming | B: PES | C: Harvest | D: Fines | **Earnings = A + B + C** |
+|----|------------------------|----------------|------------------|----------|------------|--------|------------|----------|--------------------------------|
+| 3  | Community             | PES / No       |                  |          | \$70       | \$     | \$         |        |                                |
+
+
+
+### CP3 - Experiment
+
+```{=html}
+<iframe id="contentFrame" width="100%" height="1450px" frameborder="no" 
+  src="econ-340-cw-06-cp-3.html" style="overflow: hidden;">
+</iframe>
+```
+
+
+---
+
+## Period 4 — Community Contract + Illegal Harvest
+- Same communities as in Period 3.  
+- Decisions:  
+  1. **Join PES?**  
+  2. If yes → **Police the group?** (cost = \$5 per household)  
+    - If policing → no household does harvest illegally.
+    - If no policing → each household privately decides **Harvest illegally or not**. 
+
+### Audit Rule
+- Audits occur at **community level** only when joining PES.  
+- Audit probability = 10 % × (# of illegal harvesters).  
+- If audited and any illegal harvest is found:  
+  - PES payments void for everyone.  
+  - All harvests confiscated.  
+  - Each household fined \$70.
+
+
+### Order of Actions (Period 4)
+
+1. Community decides whether to **join PES**.  
+2. If yes → community decides whether to **police**.  
+3. If no policing → households privately decide whether to harvest illegally.  
+4. Government may audit (probability as above).
+
+
+### CP4 - Payment Recording
+
+| CP | Conditions            | PES / Harvest? | Illegal Harvest? | Audited? | A: Farming | B: PES | C: Harvest | D: Fines/Policing | **Earnings = A + B + C – D** |
+|----|------------------------|----------------|------------------|----------|------------|--------|------------|----------|--------------------------------|
+| 4  | Comm + Illegal Harvest   | PES / No       | Y / N            | Y / N    | \$70       | \$     | \$         | \$       |                                |
+
+
+### CP4 - Experiment
+
+```{=html}
+<iframe id="contentFrame" width="100%" height="1700px" frameborder="no" 
+  src="econ-340-cw-06-cp-4.html" style="overflow: hidden;">
+</iframe>
+```
+
+
+---
+
+# Recording Sheet
+
+| CP | Conditions            | PES / Harvest? | Illegal Harvest? | Audited? | A: Farming | B: PES | C: Harvest | D: Fines | **Earnings = A + B + C – D** |
+|----|------------------------|----------------|------------------|----------|------------|--------|------------|----------|--------------------------------|
+| 0  | Baseline              | Harvest / No   |                  |          | \$70       |        |            |          |                                |
+| 1  | PES                   | PES / No       |                  |          | \$70       | \$     | \$         | \$       |                                |
+| 2  | Illegal Harvest       | PES / No       | Y / N            | Y / N    | \$70       | \$     | \$         | \$       |                                |
+| 3  | Community             | PES / No       |                  |          | \$70       | \$     | \$         | \$       |                                |
+| 4  | Comm + Ill. Harvest   | PES / No       | Y / N            | Y / N    | \$70       | \$     | \$         | \$       |                                |
+| **TOTAL** |                |                |                  |          |            |        |            |          | \$                             |
+
+> **Note:** If you illegally harvest and are audited, cross out columns **B** and **C** for that round – both become zero.
+
+# Reference
+
+- Dissanayake, S. T. M., & Jacobson, S. A. (2021). Money growing on trees: A classroom game about payments for ecosystem services and tropical deforestation. The Journal of Economic Education, 52(3), 192–217. https://doi.org/10.1080/00220485.2021.1925183
