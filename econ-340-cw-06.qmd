@@ -239,7 +239,7 @@ If total earnings < \$75, your family cannot eat for a day (conceptually unpleas
 - Participants form **a community of 4-5 members** (randomly assigned).  
 - Each community jointly decides:  
   - Whether to enter the PES contract.  
-  - If the community joins, it receives a total PES payment equal to  
+  - If the community joins PES, the community receives a total PES income equal to  
     $$
     \$50 \times (\text{number of households in the community})
     $$
@@ -274,8 +274,8 @@ If total earnings < \$75, your family cannot eat for a day (conceptually unpleas
 - Community Decisions:  
   1. **Join PES?**  
   2. If yes → **Police the group?** (cost = \$5 per household)  
-    - If policing → no household does harvest illegally.
-    - If no policing → each household privately decides **Harvest illegally or not**. 
+    - If policing → no household harvests illegally.
+    - If no policing → each household **privately** decides **Harvest illegally or not**. 
 
 ### Audit Rule
 - Audits occur at **community level** only when joining PES.  
