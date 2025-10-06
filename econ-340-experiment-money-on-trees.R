@@ -17,6 +17,21 @@ urls <- c(
   cp4 = "https://docs.google.com/spreadsheets/d/1aDaoFzQhVKGZtRNgVYNM72VWQ9wYoFPIMlHT191OK-8/edit?usp=share_link"
 )
 
+gsheet2tbl(urls[1]) |> 
+  write_csv('/Users/bchoe/Documents/websites/bcdanl.github.io/data/econ-340-redd-exp-cp0-2025-1006.csv')
+
+gsheet2tbl(urls[2]) |> 
+  write_csv('/Users/bchoe/Documents/websites/bcdanl.github.io/data/econ-340-redd-exp-cp1-2025-1006.csv')
+
+gsheet2tbl(urls[3]) |> 
+  write_csv('/Users/bchoe/Documents/websites/bcdanl.github.io/data/econ-340-redd-exp-cp2-2025-1006.csv')
+
+gsheet2tbl(urls[4]) |> 
+  write_csv('/Users/bchoe/Documents/websites/bcdanl.github.io/data/econ-340-redd-exp-cp3-2025-1006.csv')
+
+gsheet2tbl(urls[5]) |> 
+  write_csv('/Users/bchoe/Documents/websites/bcdanl.github.io/data/econ-340-redd-exp-cp4-2025-1006.csv')
+
 df_0 <- gsheet2tbl(urls[1]) |> 
   mutate(`submission-time` = ymd_hm(`submission-time`)) |> 
   group_by(`id-number`) |> 
@@ -98,9 +113,11 @@ df_4 <- gsheet2tbl(urls[5]) |>
   filter(row_number() == 1) |> 
   ungroup() |> 
   mutate(period = "cp4", .before = 1,
-         pes = ifelse(pes_group == "No", 0, 1),
+         pes = ifelse(pes_group == "Yes", 1, 0),
+         pes = ifelse(community == "A", 1, pes),
          police = ifelse(police == "Yes", 1, 0),
-         illegal = ifelse(illegal == "N", 0, 1),
+         illegal = ifelse(is.na(illegal), 0, illegal),
+         illegal = ifelse(illegal == "Y", 1, 0),
          pes_payment = 50 * pes,
          harvest_value = ifelse(harvest_value == 0, 1, harvest_value),
          harvest_payment = harvest_value * (1-pes)) |>
@@ -108,7 +125,7 @@ df_4 <- gsheet2tbl(urls[5]) |>
   mutate(
     illegal_n = sum(illegal),
     audit = ifelse(
-      pes == 1 & police == 0,
+      pes == 1 & police == 0 & !is.na(pes),
       rbinom(n(), 1, 0.1 * illegal_n),
       0
     ),
@@ -320,8 +337,6 @@ all_cp %>%
 
 # data frame summary ------------------------------------------------------
 
-
-
 # 👥 Community-Level Insights (CP3–CP4)
 comm_summary <- all_cp %>%
   filter(period %in% c("cp3", "cp4")) %>%
@@ -336,7 +351,9 @@ comm_summary <- all_cp %>%
 
 
 # 📊 Split Rule Preferences (CP3 & CP4)
-all_cp %>%
+df_rules <- all_cp %>%
+  ungroup() |> 
+  select(-`id-number`) |> 
   filter(period %in% c("cp3", "cp4"), !is.na(split_rule)) %>%
   count(period, split_rule) %>%
   mutate(pct = round(100 * n / sum(n), 1)) %>%
