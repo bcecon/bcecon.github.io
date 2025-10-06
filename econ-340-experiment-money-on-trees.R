@@ -18,6 +18,7 @@ urls <- c(
 )
 
 gsheet2tbl(urls[1])  |> 
+  filter(!is.na(harvest)) |> 
   mutate(`submission-time` = ymd_hm(`submission-time`)) |> 
   group_by(`id-number`) |> 
   filter(max(`submission-time`) == `submission-time`) |> 
@@ -108,6 +109,7 @@ gsheet2tbl(urls[5]) |>
   write_csv('/Users/bchoe/Documents/websites/bcdanl.github.io/data/econ-340-redd-exp-cp4-2025-1006.csv')
 
 df_0 <- gsheet2tbl(urls[1]) |> 
+  filter(!is.na(harvest)) |> 
   mutate(`submission-time` = ymd_hm(`submission-time`)) |> 
   group_by(`id-number`) |> 
   filter(max(`submission-time`) == `submission-time`) |> 
@@ -432,10 +434,11 @@ all_cp %>%
   geom_smooth(method = "glm", 
               method.args = list(family = binomial), 
               se = FALSE) +
+  scale_y_percent() +
   labs(
     title = "PES Adoption vs. Harvest Value",
     x = "Harvest Value (Card × $10)",
-    y = "P(PES = 1)"
+    y = "Proportion of PES"
   ) +
   scale_color_tableau() +
   theme_ipsum(base_size = 13)
@@ -443,13 +446,14 @@ all_cp %>%
 # 💡 Community Policing Impact
 all_cp %>%
   filter(period == "Community PES + Ill. Harvest") %>%
+  mutate(police = ifelse(police == 0, "No Policing", "Policing")) |> 
   group_by(police) %>%
   summarise(mean_earning = mean(earning, na.rm = TRUE)) %>%
   ggplot(aes(x = factor(police), y = mean_earning, fill = factor(police))) +
   geom_col() +
   labs(
     title = "Average Earnings by Policing Decision (CP4)",
-    x = "Police (1 = Yes)",
+    x = "",
     y = "Mean Earnings ($)"
   ) +
   scale_fill_tableau() +
