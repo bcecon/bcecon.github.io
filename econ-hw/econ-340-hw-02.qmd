@@ -186,7 +186,7 @@ The **marginal cost (MC)** of providing additional reliability, such as building
 Find the efficient level $G^{*}$.  
 
 ## b — Private vs. Social Choice
-Compare this to what might happen if households acted alone and only equated their **own $MB$** to $MC$  
+Compare this to what might happen if households acted alone and only equated their **own $MB$** to $MC$.
 
 ## c — Underprovision of Public Goods
 Explain why **underprovision** arises.
