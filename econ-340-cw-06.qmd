@@ -171,6 +171,7 @@ If total earnings < \$75, your family cannot eat for a day (conceptually unpleas
 </iframe>
 ```
 
+
 ---
 
 ## Period 1 — Payments for Ecosystem Services (PES)
@@ -195,6 +196,8 @@ If total earnings < \$75, your family cannot eat for a day (conceptually unpleas
   src="econ-340-cw-06-cp-1.html" style="overflow: hidden;">
 </iframe>
 ```
+
+
 
 ---
 
@@ -224,6 +227,9 @@ If total earnings < \$75, your family cannot eat for a day (conceptually unpleas
 </iframe>
 ```
 
+
+
+
 ---
 
 ## Period 3 — Community Contract
@@ -249,6 +255,9 @@ If total earnings < \$75, your family cannot eat for a day (conceptually unpleas
   src="econ-340-cw-06-cp-3.html" style="overflow: hidden;">
 </iframe>
 ```
+
+
+
 
 
 ---
@@ -292,6 +301,8 @@ If total earnings < \$75, your family cannot eat for a day (conceptually unpleas
   src="econ-340-cw-06-cp-4.html" style="overflow: hidden;">
 </iframe>
 ```
+
+
 
 
 ---

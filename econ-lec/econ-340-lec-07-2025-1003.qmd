@@ -289,3 +289,173 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
   - Energy-saving initiatives (“Turn off the lights,” Energy Star labeling)  
   - Public health messages (seatbelt use, anti-smoking, vaccination reminders)  
   - Recycling and waste reduction campaigns  
+  
+  
+
+# Money Growing on Trees: Payments for Environmental Services in Community Forestry {background-color="#1c4982"}
+
+## Climate Change and Forests
+
+- Climate change arises from **net greenhouse gas emissions**
+- Abatement (mitigation) can come from  
+  - ↓ **Reducing sources** — burning fewer fossil fuels  
+  - ↑ **Increasing sinks** — forests that absorb CO₂  
+- Forests act as **natural carbon storage**
+- “Avoiding deforestation” = *negative emissions relative to baseline*
+
+
+
+## Avoiding Deforestation: Economics of Abatement
+
+- **Social benefit**: avoided climate damages (global public good)  
+- **Social cost**: opportunity cost of land or resources  
+  - Lost agricultural income  
+  - Lost timber or charcoal value  
+- Many tropical regions offer **low-cost abatement** opportunities  
+  → Why global climate finance often targets developing countries
+
+
+
+## REDD+ and PES
+
+- Avoiding deforestation creates **positive externalities**
+- **Payments for Ecosystem Services (PES)**:
+  - Pay local households for the environmental services they provide  
+  - Internalize the externality through incentive-compatible contracts  
+- Example: **REDD+**
+  - *Reducing Emissions from Deforestation and Forest Degradation*  
+  - + Sustainable forest management for carbon storage
+
+
+
+## Who Pays for PES Contracts?
+
+- Polluters (firms/countries) must cut emissions under regulations
+- Instead of cutting directly, they can **buy offsets**:
+  - e.g., “Protect 1 ha of rainforest instead of emitting 100 t CO₂”
+- These offsets integrate with **cap-and-trade** markets  
+  - Companies can choose between permits and offsets
+- International PES → transfers resources from **rich to poor countries**
+
+
+
+## Why Is PES Hard?
+
+### Verifiability & Additionality
+
+- **Verifiability** → Can we confirm the forest was truly protected?  
+  - Avoids *fraud* and *double counting*
+- **Additionality** → Would it have been protected *anyway*?  
+  - Avoids *non-additional* payments
+- Non-verifiable or non-additional contracts  
+  → Waste resources and fail to reduce total emissions
+
+
+
+## PES Role-Playing Game 🎲
+
+You are a **household** in rural *Ephoria*, a low-income tropical country.
+
+<center>
+<a href="https://bcecon.github.io/econ-340-cw-06.html" target="_blank">
+<strong>🎮 View the Game</strong>
+</a>
+</center>
+
+- Forest resources = **subsistence + cash**
+- Government introduces a **PES contract**:
+  - Pay \$50 if you agree not to harvest wood this year  
+  - Each round = new policy design
+
+
+
+## Household Decision
+
+:::: {.columns}
+::: {.column width="45%"}
+
+**Option A: Deforest**  
+- Harvest wood for cooking or sale  
+- Value = playing card × \$10  
+  (face cards & jokers = \$0)
+
+:::
+::: {.column width="10%" align="center"}
+**vs.**
+:::
+::: {.column width="45%"}
+
+**Option B: Conserve**  
+- Accept PES payment  
+- Commit *not* to harvest
+
+:::
+::::
+
+
+
+## Contract Periods (Treatments)
+
+| Period | Policy Context            | Key Feature                         |
+|:------:|:---------------------------|:------------------------------------|
+| **0**  | Baseline                   | No PES (individual harvest only)    |
+| **1**  | PES                        | Legal PES contracts only            |
+| **2**  | PES + Illegal Harvest      | Can cheat; subject to random audit  |
+| **3**  | Community PES              | Group decision and shared payment   |
+| **4**  | Community + Illegal Harvest| Group and individual enforcement    |
+
+
+
+## CP1 – *Baseline vs. PES*
+
+- How did you decide between harvesting and PES?  
+- Did your **card value** affect your choice?
+
+- 🧭 **Concepts**
+  - Opportunity cost (abatement cost)
+  - Additionality  
+  - Heterogeneity in cost → cost-effective targeting
+
+
+
+## CP2 – *Illegal Harvest Option*
+
+- You could sign PES but still harvest (“cheat”)
+- Small chance of being **audited**  
+- If caught → lose payment + fine
+
+- 🧠 **Key Idea:** Rational Theory of Crime (Becker 1968)
+  - Expected benefit of cheating =  
+  *(gain if not caught)* − *(probability × penalty)*
+
+- 💭 What share of the class cheated? Why?
+
+
+
+## CP3 – *Community Contract*
+
+- Now, each **community decides together** whether to join PES  
+- If accepted, PES payment must be **shared** among members  
+- Split rules vary: equal, proportional, needs-based, etc.
+
+- 🤝 **Concepts**
+  - Community governance (Ostrom)  
+  - Fairness & equity norms  
+  - Coordination vs. free-riding
+
+
+
+## CP4 – *Community Contract + Illegal Harvest*
+
+- Communities can **join PES** *and* decide whether to **police**
+  - If policing → cost \$5 per household, no cheating possible  
+  - If not → some may harvest illegally  
+  - Audit probability increases with # illegal harvesters
+
+- ⚖️ **Concepts**
+  - Self-governance  
+  - Collective enforcement  
+  - Trust & social capital  
+  - Deterrence by monitoring
+  
+  
