@@ -18,6 +18,11 @@ urls <- c(
 )
 
 df_0 <- gsheet2tbl(urls[1]) |> 
+  mutate(`submission-time` = ymd_hm(`submission-time`)) |> 
+  group_by(`id-number`) |> 
+  filter(max(`submission-time`) == `submission-time`) |> 
+  filter(row_number() == 1) |> 
+  ungroup() |> 
   mutate(period = "cp0", .before = 1,
          harvest = ifelse(harvest == "No", 0, 1),
          harvest_value = ifelse(harvest_value == 0, 1, harvest_value),
@@ -25,6 +30,11 @@ df_0 <- gsheet2tbl(urls[1]) |>
   relocate(`id-number`, period, earning)
 
 df_1 <- gsheet2tbl(urls[2]) |> 
+  mutate(`submission-time` = ymd_hm(`submission-time`)) |> 
+  group_by(`id-number`) |> 
+  filter(max(`submission-time`) == `submission-time`) |> 
+  filter(row_number() == 1) |> 
+  ungroup() |> 
   mutate(period = "cp1", .before = 1,
          pes = ifelse(pes == "No", 0, 1),
          pes_payment = 50 * pes,
@@ -35,6 +45,11 @@ df_1 <- gsheet2tbl(urls[2]) |>
 
 set.seed(14454)
 df_2 <- gsheet2tbl(urls[3]) |> 
+  mutate(`submission-time` = ymd_hm(`submission-time`)) |> 
+  group_by(`id-number`) |> 
+  filter(max(`submission-time`) == `submission-time`) |> 
+  filter(row_number() == 1) |> 
+  ungroup() |> 
   mutate(period = "cp2", .before = 1,
          pes = ifelse(pes == "Yes", 1, 0),
          illegal = ifelse(illegal == "N", 0, 1),
@@ -53,6 +68,11 @@ df_2 <- gsheet2tbl(urls[3]) |>
 
 
 df_3 <- gsheet2tbl(urls[4]) |> 
+  mutate(`submission-time` = ymd_hm(`submission-time`)) |> 
+  group_by(`id-number`) |> 
+  filter(max(`submission-time`) == `submission-time`) |> 
+  filter(row_number() == 1) |> 
+  ungroup() |> 
   mutate(period = "cp3", .before = 1,
          pes = ifelse(pes_group == "No", 0, 1),
          pes_payment = 50 * pes,
@@ -72,6 +92,11 @@ df_3 <- gsheet2tbl(urls[4]) |>
 
 set.seed(14454)
 df_4 <- gsheet2tbl(urls[5]) |>
+  mutate(`submission-time` = ymd_hm(`submission-time`)) |> 
+  group_by(`id-number`) |> 
+  filter(max(`submission-time`) == `submission-time`) |> 
+  filter(row_number() == 1) |> 
+  ungroup() |> 
   mutate(period = "cp4", .before = 1,
          pes = ifelse(pes_group == "No", 0, 1),
          police = ifelse(police == "Yes", 1, 0),
