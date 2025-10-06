@@ -320,7 +320,7 @@ If total earnings < \$75, your family cannot eat for a day (conceptually unpleas
 | 1  | PES                   | PES / No       |                  |          | \$70       | \$     | \$         | \$       |                                |
 | 2  | Illegal Harvest       | PES / No       | Y / N            | Y / N    | \$70       | \$     | \$         | \$       |                                |
 | 3  | Community             | PES / No       |                  |          | \$70       | \$     | \$         | \$       |                                |
-| 4  | Comm + Ill. Harvest   | PES / No       | Y / N            | Y / N    | \$70       | \$     | \$         | \$       |                                |
+| 4  | Comm + Illegal Harvest   | PES / No       | Y / N            | Y / N    | \$70       | \$     | \$         | \$       |                                |
 | **TOTAL** |                |                |                  |          |            |        |            |          | \$                             |
 
 > **Note:** If you illegally harvest and are audited, cross out columns **B** and **C** for that round – both become zero.
