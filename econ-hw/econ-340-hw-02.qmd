@@ -172,7 +172,7 @@ Two representative households, A and B, both benefit from **grid reliability** $
 Grid reliability refers to the stability and resilience of the electricity system—fewer blackouts, quicker recovery from outages, and greater assurance that power is available when needed.  
 This reliability is a **public good**: once provided, it benefits everyone simultaneously, and no household can be excluded from enjoying it.  
 
-Each household’s willingness to pay for reliability is reflected in their **marginal benefit (MB)** functions:  
+Each household’s **marginal benefit (MB)** function is:  
 
 - $MB_A(G) = 40 - 2G$  
 - $MB_B(G) = 30 - G$  
