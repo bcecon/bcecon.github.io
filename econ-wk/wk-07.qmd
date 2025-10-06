@@ -18,7 +18,7 @@ In Week 7, we will have the following schedule:
   [📄 View Classwork](../econ-cw/econ-340-cw-05.html){target="_blank"}  
 
 - **Classwork 6: REDD+ Experiment — _Money Growing on Trees_**  
-  [📄 View Classwork](../econ-340-cw-06.html){target="_blank"}  
+  [📄 View Classwork](../econ-cw/econ-340-cw-06.html){target="_blank"}  
 
 
 ## 📝 Homework
