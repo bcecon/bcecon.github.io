@@ -178,7 +178,7 @@ If total earnings < \$75, your family cannot eat for a day (conceptually unpleas
 ---
 
 ## Period 1 — Payments for Ecosystem Services (PES)
-- PES contracts available at **\$50** payment.  
+- PES contracts available at **\$50** income.  
 - If you take PES, **you cannot harvest**.  
   - No illegal harvest is possible.
 
@@ -205,11 +205,11 @@ If total earnings < \$75, your family cannot eat for a day (conceptually unpleas
 ---
 
 ## Period 2 — PES + Illegal Harvest
-- PES payment = \$50.  
+- PES income = \$50.  
 - You *may* illegally harvest after signing PES.  
 - Each contract audited with **25 % probability**.  
 - If audited and caught:  
-  - Lose PES payment  
+  - Lose PES income  
   - Lose harvest earnings  
   - Pay fine of **\$70**
 
@@ -238,8 +238,12 @@ If total earnings < \$75, your family cannot eat for a day (conceptually unpleas
 ## Period 3 — Community Contract
 - Participants form **a community of 4-5 members** (randomly assigned).  
 - Each community jointly decides:  
-  - Whether to enter PES at \$50 per household.  
-  - How to divide PES payments.  
+  - Whether to enter the PES contract.  
+  - If the community joins, it receives a total PES payment equal to  
+    $$
+    \$50 \times (\text{number of households in the community})
+    $$
+  - The community must then decide **how to divide this total PES income** among its members.
 - If the community joins PES → **no one** may harvest.
 
 
@@ -267,7 +271,7 @@ If total earnings < \$75, your family cannot eat for a day (conceptually unpleas
 
 ## Period 4 — Community Contract + Illegal Harvest
 - Same communities as in Period 3.  
-- Decisions:  
+- Community Decisions:  
   1. **Join PES?**  
   2. If yes → **Police the group?** (cost = \$5 per household)  
     - If policing → no household does harvest illegally.
