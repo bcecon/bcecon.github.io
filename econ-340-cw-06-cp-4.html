@@ -231,17 +231,23 @@
     <div class="control">
       <label class="radio"><input type="radio" name="police" value="Yes" /> Yes (police)</label>
       <label class="radio"><input type="radio" name="police" value="No" /> No (no policing)</label>
+      <label class="radio"><input type="radio" name="police" value="no_PES"> Our community does <strong>NOT</strong> join PES.</label>
     </div>
   </div>
+
+<br>
 
   <div class="field">
     <label class="label">If community chooses PES and does NOT police: Will YOU harvest illegally?</label>
     <div class="control">
       <label class="radio"><input type="radio" name="illegal" value="Y" /> Yes (attempt illegal harvest)</label>
       <label class="radio"><input type="radio" name="illegal" value="N" /> No</label>
+      <label class="radio"><input type="radio" name="illegal" value="no_PES"> Our community does <strong>NOT</strong> join PES.</label>
     </div>
     <p class="help">Audit probability = 10% × (# illegal harvesters). If audited and any illegal is found: lose PES for all, lose harvest, fine $70 per member.</p>
   </div>
+
+<br>
 
   <div class="field">
     <label class="label">If the community chooses PES, how should the PES payment be divided?</label>
@@ -250,11 +256,12 @@
         <label class="radio"><input type="radio" name="split_rule" value="compliers_only_equal"> b) <strong>Equal split only among compliant members</strong> — illegal harvesters lose their share, and the remaining payment is not redistributed <strong>(total payout decreases)</strong></label>
         <label class="radio"><input type="radio" name="split_rule" value="remove_benefits_illegal_equal"> c) <strong>Illegal harvesters forfeit their PES share</strong>, which is <strong>redistributed equally</strong> among compliant members <strong>(total payout remains constant)</strong></label>
         <label class="radio">
-  <input type="radio" name="split_rule" value="remove_benefits_illegal_proportional" />
-  d) <strong>Illegal harvesters forfeit their PES shares</strong>, which are <strong>redistributed</strong> among compliant members. 
-  Compliant members with higher card values (larger foregone harvests) receive larger PES shares. 
-   <strong>(total payout remains constant)</strong>
-</label>
+          <input type="radio" name="split_rule" value="remove_benefits_illegal_proportional" />
+          d) <strong>Illegal harvesters forfeit their PES shares</strong>, which are <strong>redistributed</strong> among compliant members. 
+          Compliant members with higher card values (larger foregone harvests) receive larger PES shares. 
+           <strong>(total payout remains constant)</strong>
+        </label>
+        <label class="radio"><input type="radio" name="split_rule" value="no_PES"> e) Our community does <strong>NOT</strong> join PES.</label>
     </div>
   </div>
 

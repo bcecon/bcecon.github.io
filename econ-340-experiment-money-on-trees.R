@@ -63,7 +63,7 @@ df_3 <- gsheet2tbl(urls[4]) |>
                                 split_rule == 'proportional_card' ~  harvest_value * pes_payment*n() / sum(harvest_value),
                                 split_rule == 'floor_plus_proportional' ~ .75*pes_payment*n() + .25*harvest_value * pes_payment*n() / sum(harvest_value),
                                 split_rule == 'floor_plus_needs' ~  .75*pes_payment*n() + .25*(1/harvest_value) * pes_payment*n() / sum(1/harvest_value),
-                                is.na(split_rule) ~ 0)
+                                is.na(split_rule) | split_rule == "no_PES" ~ 0)
          ) |> 
   ungroup() |> 
   mutate(earning = round(70 + harvest_payment + additional, 2)) |> 
@@ -109,7 +109,7 @@ df_4 <- gsheet2tbl(urls[5]) |>
                            audit == 0 & illegal_n > 0 & police == 1 & split_rule == 'remove_benefits_illegal_proportional' ~ pes_payment * harvest_value/sum(harvest_value),
 
                            audit == 1 & illegal_n > 0  ~ -harvest_payment - 70,
-                           is.na(split_rule) ~ 0)
+                           is.na(split_rule) | split_rule == "no_PES" ~ 0)
   ) |>
   ungroup() |>
   mutate(earning = round(70 + harvest_payment + additional + illegal * harvest_value
