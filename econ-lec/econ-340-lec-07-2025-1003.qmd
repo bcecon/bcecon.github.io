@@ -323,8 +323,8 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
   - Pay local households for the environmental services they provide  
   - Internalize the externality through incentive-compatible contracts  
 - Example: **REDD+**
-  - *Reducing Emissions from Deforestation and Forest Degradation*  
-  - + Sustainable forest management for carbon storage
+  - *Reducing Emissions from Deforestation and Forest Degradation*
+  - $+$ Sustainable forest management for carbon storage
 
 
 

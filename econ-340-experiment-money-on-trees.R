@@ -36,7 +36,7 @@ df_1 <- gsheet2tbl(urls[2]) |>
 set.seed(14454)
 df_2 <- gsheet2tbl(urls[3]) |> 
   mutate(period = "cp2", .before = 1,
-         pes = ifelse(pes == "No", 0, 1),
+         pes = ifelse(pes == "Yes", 1, 0),
          illegal = ifelse(illegal == "N", 0, 1),
          pes_payment = 50 * pes,
          harvest_value = ifelse(harvest_value == 0, 1, harvest_value),
