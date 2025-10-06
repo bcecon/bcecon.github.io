@@ -370,10 +370,11 @@ You are a **household** in rural *Ephoria*, a low-income tropical country.
 :::: {.columns}
 ::: {.column width="45%"}
 
-**Option A: Deforest**  
-- Harvest wood for cooking or sale  
-- Value = playing card × \$10  
-  (face cards & jokers = \$0)
+- **Option A: Deforest**  
+  - Harvest wood for cooking or sale  
+
+<!-- - Value = playing card × \$10   -->
+<!--   (face cards & jokers = \$0) -->
 
 :::
 ::: {.column width="10%" align="center"}
@@ -381,9 +382,9 @@ You are a **household** in rural *Ephoria*, a low-income tropical country.
 :::
 ::: {.column width="45%"}
 
-**Option B: Conserve**  
-- Accept PES payment  
-- Commit *not* to harvest
+- **Option B: Conserve**  
+  - Accept PES payment  
+  - Commit *not* to harvest
 
 :::
 ::::
