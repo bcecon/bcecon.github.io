@@ -123,7 +123,7 @@ $$
 \text{Real Payment} = \frac{\text{Total Experimental Earnings}}{100}
 $$
 
-Typically, this amounts to about **\$8–\$12 per winner**.
+Typically, this amounts to about **\$3–\$9 per winner**.
 <!-- Because the winners are chosen **at random**, everyone should make decisions as if their earnings were real.   -->
 <!-- This system mirrors how many real-world experiments and PES programs operate — where incentives are credible but limited in scale. -->
 
