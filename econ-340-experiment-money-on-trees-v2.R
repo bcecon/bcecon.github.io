@@ -1,6 +1,3 @@
-# ===============================
-# Setup
-# ===============================
 library(tidyverse)
 library(janitor)
 library(stringr)
@@ -8,6 +5,8 @@ library(gsheet)
 library(hrbrthemes)
 library(ggthemes)
 library(lubridate)
+
+# exporting data ----------------------------------------------------------
 
 # List your Google Sheet URLs (replace these with yours)
 urls <- c(
@@ -111,15 +110,8 @@ gsheet2tbl(urls[5]) |>
 
 
 
-# helper: keep last submission per id
-keep_last <- function(df) {
-  df |>
-    mutate(`submission-time` = ymd_hm(`submission-time`)) |>
-    group_by(`id-number`) |>
-    slice_max(order_by = `submission-time`, n = 1, with_ties = FALSE) |>
-    ungroup()
-}
 
+# data prep ---------------------------------------------------------------
 # ----------------------------
 # CP0
 # ----------------------------
