@@ -7,6 +7,7 @@ library(stringr)
 library(gsheet)
 library(hrbrthemes)
 library(ggthemes)
+library(lubridate)
 
 # List your Google Sheet URLs (replace these with yours)
 urls <- c(
@@ -67,8 +68,8 @@ gsheet2tbl(urls[4]) |>
   mutate(split_rule = ifelse(community == "community_DRCongo", 
                              "floor_plus_proportional", split_rule),
          pes_group = ifelse(community == "community_Peru", 
-                             "PES", pes_group)
-         ) |> 
+                            "PES", pes_group)
+  ) |> 
   arrange(community) |> 
   write_csv('/Users/bchoe/Documents/websites/bcdanl.github.io/data/econ-340-redd-exp-cp3-2025-1006.csv')
 
@@ -103,176 +104,204 @@ gsheet2tbl(urls[5]) |>
          pes_group = ifelse(community == "community_Peru", 
                             "No", pes_group),
          illegal = ifelse(community == "community_Peru", 
-                            "no_PES", illegal)
+                          "no_PES", illegal)
   ) |> 
   arrange(community) |> 
   write_csv('/Users/bchoe/Documents/websites/bcdanl.github.io/data/econ-340-redd-exp-cp4-2025-1006.csv')
 
-df_0 <- gsheet2tbl(urls[1]) |> 
-  filter(!is.na(harvest)) |> 
-  mutate(`submission-time` = ymd_hm(`submission-time`)) |> 
-  group_by(`id-number`) |> 
-  filter(max(`submission-time`) == `submission-time`) |> 
-  filter(row_number() == 1) |> 
-  ungroup() |> 
-  mutate(period = "cp0", .before = 1,
-         harvest = ifelse(harvest == "No", 0, 1),
-         harvest_value = ifelse(harvest_value == 0, 1, harvest_value),
-         earning = 70 + harvest_value * harvest) |> 
+
+
+# helper: keep last submission per id
+keep_last <- function(df) {
+  df |>
+    mutate(`submission-time` = ymd_hm(`submission-time`)) |>
+    group_by(`id-number`) |>
+    slice_max(order_by = `submission-time`, n = 1, with_ties = FALSE) |>
+    ungroup()
+}
+
+# ----------------------------
+# CP0
+# ----------------------------
+df_0 <- read_csv("/Users/bchoe/Documents/websites/bcdanl.github.io/data/econ-340-redd-exp-cp0-2025-1006.csv") |>
+  filter(!is.na(harvest)) |>
+  mutate(
+    period = "cp0",
+    harvest = ifelse(harvest == "No", 0, 1),
+    # NOTE: if you truly want face/Joker (0) to be 0, remove the next line:
+    harvest_value = ifelse(harvest_value == 0, 1, harvest_value),
+    earning = 70 + harvest_value * harvest
+  ) |>
   relocate(`id-number`, period, earning)
 
-df_1 <- gsheet2tbl(urls[2]) |> 
-  mutate(`submission-time` = ymd_hm(`submission-time`)) |> 
-  group_by(`id-number`) |> 
-  filter(max(`submission-time`) == `submission-time`) |> 
-  filter(row_number() == 1) |> 
-  ungroup() |> 
-  mutate(period = "cp1", .before = 1,
-         pes = ifelse(pes == "PES", 1, 0),
-         pes_payment = 50 * pes,
-         harvest_payment = harvest_value * (1-pes),
-         earning = 70 + pes_payment + harvest_payment) |> 
+# ----------------------------
+# CP1
+# ----------------------------
+df_1 <- read_csv("/Users/bchoe/Documents/websites/bcdanl.github.io/data/econ-340-redd-exp-cp1-2025-1006.csv") |>
+  mutate(
+    period = "cp1",
+    pes = ifelse(pes == "PES", 1, 0),
+    pes_payment = 50 * pes,
+    harvest_payment = harvest_value * (1 - pes),
+    earning = 70 + pes_payment + harvest_payment
+  ) |>
   relocate(`id-number`, period, earning)
 
+# ----------------------------
+# CP2 (PES + Illegal)
+# Audit should penalize ONLY if (pes==1 & illegal==1). 
+# If audited and cheated: lose PES (50), lose illegal harvest value, and pay 70 fine.
+# ----------------------------
 set.seed(14454)
-df_2 <- gsheet2tbl(urls[3]) |> 
-  mutate(`submission-time` = ymd_hm(`submission-time`)) |> 
-  group_by(`id-number`) |> 
-  filter(max(`submission-time`) == `submission-time`) |> 
-  filter(row_number() == 1) |> 
-  ungroup() |> 
-  mutate(period = "cp2", .before = 1,
-         pes = ifelse(pes == "Yes" | is.na(pes), 1, 0), # obs w/ is.na(pes) did illegal
-         illegal = ifelse(illegal == "N" | is.na(illegal), 0, 1),
-         pes_payment = 50 * pes,
-         harvest_payment = harvest_value * (1-pes),
-         fine = ifelse(
-           pes == 1,
-           rbinom(n(), 1, 0.25),  # 25% if PES participant
-           0
-         ),
-         earning = 70 + pes_payment + harvest_payment + illegal*harvest_value +
-                  - fine*pes*illegal*harvest_value - fine*70 - fine*50) |> 
-  relocate(`id-number`, period, earning) |> 
-  arrange(-pes,-fine)
+df_2 <- read_csv("/Users/bchoe/Documents/websites/bcdanl.github.io/data/econ-340-redd-exp-cp2-2025-1006.csv") |>
+  mutate(
+    period = "cp2",
+    illegal = ifelse(pes == "No", "no_PES", illegal),
+    illegal = ifelse(pes == "PES" & is.na(illegal), "Y", illegal),  # assumed
+    pes = ifelse(pes == "PES", 1, 0),  
+    illegal = ifelse(illegal == "Y", 1, 0),          # NA -> 0 here; adjust if you want otherwise
+    pes_payment = 50 * pes,
+    harvest_payment = harvest_value * (1 - pes),
+    
+    # draw audits only for PES participants (fine is an audit indicator)
+    fine = ifelse(pes == 1, rbinom(n(), 1, 0.25), 0),
+    
+    # Base earnings: 70 + (PES if pes==1) + (legal harvest if not in PES) + (illegal harvest if cheating)
+    base_earn = 70 + pes_payment + harvest_payment + illegal * harvest_value,
+    
+    # If audited AND cheated (pes==1 & illegal==1 & fine==1): subtract PES (50), illegal harvest, and 70 fine.
+    penalty = ifelse(fine == 1 & pes == 1 & illegal == 1, 50 + harvest_value + 70, 0),
+    
+    earning = base_earn - penalty
+  ) |>
+  relocate(`id-number`, period, earning) |>
+  arrange(desc(pes), desc(fine))
 
-
-df_3 <- gsheet2tbl(urls[4]) |> 
-  mutate(`submission-time` = ymd_hm(`submission-time`)) |> 
-  group_by(`id-number`) |> 
-  filter(max(`submission-time`) == `submission-time`) |> 
-  filter(row_number() == 1) |> 
-  ungroup() |> 
-  mutate(split_rule = ifelse(community == "E", 
-                             "floor_plus_proportional", split_rule),
-         pes_group = ifelse(community == "B", 
-                            "PES", pes_group)
-  ) |> 
-  mutate(period = "cp3", .before = 1,
-         pes = ifelse(pes_group == "PES", 1, 0),
-         pes_payment = 50 * pes,
-         harvest_payment = harvest_value * (1-pes)) |> 
-  group_by(community) |> 
-  mutate(additional = case_when(split_rule == 'equal' ~ pes_payment,
-                                split_rule == 'proportional_card' ~  (harvest_value+10) * pes_payment*n() / sum(harvest_value+10),
-                                split_rule == 'floor_plus_proportional' ~ .75*pes_payment  + .25*(harvest_value+10) * pes_payment*n() / sum(harvest_value+10),
-                                split_rule == 'floor_plus_needs' ~  .75*pes_payment + .25*(1/(harvest_value+10)) * pes_payment*n() / sum(1/(harvest_value+10)),
-                                is.na(split_rule) | split_rule == "no_PES" ~ 0)
-         ) |> 
-  ungroup() |> 
-  mutate(earning = round(70 + harvest_payment + additional, 2)) |> 
+# ----------------------------
+# CP3 (Community PES)
+# Assumes: if community joins PES, every member has a PES “pot” (50 each) to split by chosen rule.
+# Your scheme mixes a per-person base (50) with redistributions that sum to group total (50*n()).
+# Kept your intent, but made the keeping-last-submission robust.
+# ----------------------------
+df_3 <- read_csv("/Users/bchoe/Documents/websites/bcdanl.github.io/data/econ-340-redd-exp-cp3-2025-1006.csv") |>
+  mutate(
+    # override a couple of communities per your custom choices
+    split_rule = ifelse(community == "E", "floor_plus_proportional", split_rule),
+    pes_group  = ifelse(community == "B", "PES", pes_group),
+    
+    period = "cp3",
+    pes = ifelse(pes_group == "PES", 1, 0),
+    pes_payment = 50 * pes,
+    harvest_payment = harvest_value * (1 - pes)
+  ) |>
+  group_by(community) |>
+  mutate(
+    # weights use (harvest_value + 10) to avoid zero weight
+    additional = case_when(
+      pes == 0 ~ 0,  # if community didn't join PES, no PES addition
+      split_rule == "equal" ~ pes_payment,  # 50 each
+      split_rule == "proportional_card" ~ (harvest_value + 10) * pes_payment * n() / sum(harvest_value + 10),
+      split_rule == "floor_plus_proportional" ~ 0.75 * pes_payment + 0.25 * (harvest_value + 10) * pes_payment * n() / sum(harvest_value + 10),
+      split_rule == "floor_plus_needs" ~ 0.75 * pes_payment + 0.25 * (1 / (harvest_value + 10)) * pes_payment * n() / sum(1 / (harvest_value + 10)),
+      is.na(split_rule) | split_rule == "no_PES" ~ 0,
+      TRUE ~ 0
+    )
+  ) |>
+  ungroup() |>
+  mutate(
+    earning = round(70 + harvest_payment + additional, 2)
+  ) |>
   relocate(`id-number`, period, earning)
 
-
+# ----------------------------
+# CP4 (Community + Illegal)
+# Fixes:
+# - keep illegal as numeric 0/1 consistently
+# - rbinom(n(), ...) not rbinom(4, ...)
+# - cap audit prob at 1: pmin(0.1 * illegal_n, 1)
+# - on audit: remove illegal harvest and fine everyone (–70), do NOT add PES (voided)
+# ----------------------------
 set.seed(14454)
-df_4 <- gsheet2tbl(urls[5]) |>
-  mutate(`submission-time` = ymd_hm(`submission-time`)) |> 
-  group_by(`id-number`) |> 
-  filter(max(`submission-time`) == `submission-time`) |> 
-  filter(row_number() == 1) |> 
-  ungroup() |> 
-  mutate(split_rule = ifelse(community == "A", 
-                             "remove_benefits_illegal_equal", split_rule),
-         split_rule = ifelse(community == "F", 
-                             "compliers_only_equal", split_rule),
-         split_rule = ifelse(community == "E", 
-                             "equal", split_rule),
-         split_rule = ifelse(community == "B", 
-                             "no_PES", split_rule),
-         police = ifelse(community == "F", 
-                         "Yes", police),
-         police = ifelse(community == "B", 
-                         "No", police),
-         pes_group = ifelse(community == "A", 
-                            "PES", pes_group),
-         pes_group = ifelse(community == "B", 
-                            "No", pes_group),
-         illegal = ifelse(community == "B", 
-                          "no_PES", illegal)
-  ) |> 
-  mutate(period = "cp4", .before = 1,
-         pes = ifelse(pes_group == "PES", 1, 0),
-         pes = ifelse(community == "A", 1, pes),
-         police = ifelse(police == "No" | police == "no_PES", 0, 1),
-         illegal = ifelse(
-           is.na(illegal),
-           rbinom(4, 1, 0.67),
-           illegal
-         ), # Many members in community F left illegal NA
-         illegal = ifelse(illegal == "Y", 1, 0),
-         pes_payment = 50 * pes,
-         harvest_payment = harvest_value * (1-pes)) |>
+df_4 <- read_csv("/Users/bchoe/Documents/websites/bcdanl.github.io/data/econ-340-redd-exp-cp4-2025-1006.csv") |>
+  mutate(
+    period = "cp4",
+    illegal = ifelse(pes_group == "PES" & police == "Yes", "N", illegal),
+    illegal = ifelse(pes_group == "No", "no_PES", illegal),
+    split_rule = ifelse(pes_group == "No", "no_PES", split_rule)
+  ) |>
+  mutate(
+    pes = ifelse(pes_group == "PES", 1, 0),
+    pes_payment = 50 * pes,
+    harvest_payment = harvest_value * (1 - pes),
+    illegal = ifelse(illegal == "Y", 1, 0),
+    police = ifelse(police == "Yes", 1, 0)
+  ) |>
   group_by(community) |>
   mutate(
     illegal_n = sum(illegal),
-    audit = ifelse(
-      pes == 1 & police == 0 & !is.na(pes),
-      rbinom(n(), 1, 0.1 * illegal_n),
-      0
-    ),
-    audit = ifelse(sum(audit) > 0, 1, 0),
-    additional = case_when(illegal_n == 0 & police == 0 & split_rule == 'equal' ~ pes_payment,
-                           illegal_n == 0 & police == 0 & split_rule == 'compliers_only_equal' & illegal == 0 ~ pes_payment,
-                           illegal_n == 0 & police == 0 & split_rule == 'compliers_only_equal' & illegal == 1 ~ 0,
-                           illegal_n == 0 & police == 0 & split_rule == 'remove_benefits_illegal_equal' & illegal == 0 ~ pes_payment*n()/(n()-illegal_n),
-                           illegal_n == 0 & police == 0 & split_rule == 'remove_benefits_illegal_equal' & illegal == 1 ~ 0,
-                           illegal_n == 0 & police == 0 & split_rule == 'remove_benefits_illegal_proportional' & illegal == 0 ~  pes_payment*n() * (harvest_value+10) / sum((harvest_value+10)*(1-illegal)),
-                           illegal_n == 0 & police == 0 & split_rule == 'remove_benefits_illegal_proportional' & illegal == 1 ~  0,
-                           illegal_n == 0 & police == 1 & split_rule %in% c('equal', 'compliers_only_equal', 'remove_benefits_illegal_equal') ~ pes_payment,
-                           illegal_n == 0 & police == 1 & split_rule == 'remove_benefits_illegal_proportional' ~ pes_payment * (harvest_value+10)/sum(harvest_value+10),
-
-                           audit == 0 & illegal_n > 0 & police == 0 & split_rule == 'equal' ~ pes_payment,
-                           audit == 0 & illegal_n > 0 & police == 0 & split_rule == 'compliers_only_equal' & illegal == 0 ~ pes_payment,
-                           audit == 0 & illegal_n > 0 & police == 0 & split_rule == 'compliers_only_equal' & illegal == 1 ~ 0,
-                           audit == 0 & illegal_n > 0 & police == 0 & split_rule == 'remove_benefits_illegal_equal' & illegal == 0 ~ pes_payment*n()/(n()-illegal_n),
-                           audit == 0 & illegal_n > 0 & police == 0 & split_rule == 'remove_benefits_illegal_equal' & illegal == 1 ~ 0,
-                           audit == 0 & illegal_n > 0 & police == 0 & split_rule == 'remove_benefits_illegal_proportional' & illegal == 0 ~  pes_payment*n() * (harvest_value+10) / sum((harvest_value+10)*(1-illegal)),
-                           audit == 0 & illegal_n > 0 & police == 0 & split_rule == 'remove_benefits_illegal_proportional' & illegal == 1 ~  0,
-                           audit == 0 & illegal_n > 0 & police == 1 & split_rule %in% c('equal', 'compliers_only_equal', 'remove_benefits_illegal_equal') ~ pes_payment,
-                           audit == 0 & illegal_n > 0 & police == 1 & split_rule == 'remove_benefits_illegal_proportional' ~ pes_payment * (harvest_value+10)/sum(harvest_value+10),
-
-                           audit == 1 & illegal_n > 0  ~ -harvest_payment - 70,
-                           is.na(split_rule) | split_rule == "no_PES" ~ 0)
+    audit_prob = pmin(0.1 * illegal_n, 1),
+    audit_draw = ifelse(pes == 1 & police == 0, rbinom(n(), 1, audit_prob), 0),
+    audit = ifelse(sum(audit_draw) > 0, 1, 0),
+    
+    additional = case_when(
+      # No PES
+      pes == 0 ~ 0,
+      
+      # PES + Police: no illegal possible; just apply split rule
+      pes == 1 & police == 1 & split_rule %in% c("equal", "compliers_only_equal", "remove_benefits_illegal_equal") ~ pes_payment,
+      pes == 1 & police == 1 & split_rule == "remove_benefits_illegal_proportional" ~ pes_payment * (harvest_value + 10) / sum(harvest_value + 10),
+      
+      # PES, no police, NO audit → apply split rule with/without excluding illegal
+      audit == 0 & pes == 1 & police == 0 & split_rule == "equal" ~ pes_payment,
+      audit == 0 & pes == 1 & police == 0 & split_rule == "compliers_only_equal" ~ ifelse(illegal == 0, pes_payment, 0),
+      audit == 0 & pes == 1 & police == 0 & split_rule == "remove_benefits_illegal_equal" ~ ifelse(illegal == 0, pes_payment * n() / (n() - illegal_n), 0),
+      audit == 0 & pes == 1 & police == 0 & split_rule == "remove_benefits_illegal_proportional" ~ ifelse(
+        illegal == 0,
+        pes_payment * (harvest_value + 10) * n() / sum((harvest_value + 10) * (1 - illegal)),
+        0
+      ),
+      
+      # PES, no police, AUDIT → contracts void + illegal harvest confiscated + fine everyone 70
+      audit == 1 & pes == 1 & police == 0 & split_rule == "equal" ~ pes_payment,
+      audit == 1 & pes == 1 & police == 0 & split_rule == "compliers_only_equal" ~ ifelse(illegal == 0, pes_payment, - (illegal * harvest_value) - 70),
+      audit == 1 & pes == 1 & police == 0 & split_rule == "remove_benefits_illegal_equal" ~ ifelse(illegal == 0, pes_payment * n() / (n() - illegal_n), - (illegal * harvest_value) - 70),
+      audit == 1 & pes == 1 & police == 0 & split_rule == "remove_benefits_illegal_proportional" ~ ifelse(
+        illegal == 0,
+        pes_payment * (harvest_value + 10) * n() / sum((harvest_value + 10) * (1 - illegal)),
+        - (illegal * harvest_value) - 70
+      ),
+      
+      # no_PES or missing
+      is.na(split_rule) | split_rule == "no_PES" ~ 0,
+      
+      TRUE ~ 0
+    )
   ) |>
   ungroup() |>
-  mutate(earning = round(70 + harvest_payment + additional + illegal * harvest_value
-                         - 5*police,
-                         2)) |>
+  mutate(
+    earning = round(70 + harvest_payment + additional + illegal * harvest_value - 5 * police, 2)
+  ) |>
   relocate(`id-number`, period, earning)
 
-
-all_cp <- bind_rows(df_0, df_1, df_2, df_3, df_4) |> 
-  mutate(period = case_when(period == "cp0" ~ "Baseline",
-                            period == "cp1" ~ "PES",
-                            period == "cp2" ~ "PES + Ill. Harvest",
-                            period == "cp3" ~ "Community PES",
-                            period == "cp4" ~ "Community PES + Ill. Harvest"),
-         period = factor(period,
-                         levels = 
-                           c("Baseline", "PES", "PES + Ill. Harvest",
-                             "Community PES", "Community PES + Ill. Harvest")),
-         
-         )
+# ----------------------------
+# Bind all + nice period labels
+# ----------------------------
+all_cp <- bind_rows(df_0, df_1, df_2, df_3, df_4) |>
+  mutate(
+    period = case_when(
+      period == "cp0" ~ "Baseline",
+      period == "cp1" ~ "PES",
+      period == "cp2" ~ "PES + Ill. Harvest",
+      period == "cp3" ~ "Community PES",
+      period == "cp4" ~ "Community PES + Ill. Harvest",
+      TRUE ~ period
+    ),
+    period = factor(
+      period,
+      levels = c("Baseline", "PES", "PES + Ill. Harvest", "Community PES", "Community PES + Ill. Harvest")
+    ),
+    diff = earning - (70 + harvest_value)
+  )
 
 
 
@@ -411,9 +440,10 @@ illegal_vs_harvestValue |>
 
 # 💵 Relationship between Earning and Harvest Value Across Periods
 all_cp %>%
+  
   ggplot(aes(x = harvest_value + 70, y = earning, color = period)) +
   geom_point(alpha = 0.8) +
-  geom_smooth(se=F) +
+  geom_smooth(se=F, method = lm) +
   labs(
     title = "Relationship between Harvest Value and Earning\nAcross Contract Periods",
     x = "Harvest Value ($)",
@@ -460,13 +490,32 @@ all_cp %>%
   geom_boxplot(alpha = 0.8, position = position_dodge(width = 0.8)) +
   labs(
     title = "Distribution of Farming+Harvest Values vs. Earnings by Period",
-    y = "Period",
+    y = "",
     x = "Value ($)",
     fill = ""
   ) +
   scale_fill_tableau(labels = c("Farming + Harvest", "Earnings")) +
   theme_ipsum(base_size = 13) +
   theme(legend.position = "top")
+
+
+# 💵 Distribution of Earnings Across Periods
+all_cp %>%
+  # filter(diff >-51) |> 
+  filter(period != "Baseline") |> 
+  ggplot(aes(y = period, x = diff, fill = period)) +
+  geom_boxplot(alpha = 0.8) +
+  geom_vline(xintercept = 0, color = 'darkred', linetype = 2, linewidth = 1.25) +
+  labs(
+    title = "Distribution of Earnings Differences: PES vs. Non-PES Participants",
+    y = "",
+    x = "(PES Earnings) - (Farming + Harvest)"
+  ) +
+  scale_fill_tableau() +
+  theme_ipsum(base_size = 13) +
+  theme(legend.position = "none",
+        axis.title.x = element_text(size = rel(1.25)))
+
 
 # 🪵 Effect of Harvest Value on PES Decision
 all_cp %>%
@@ -490,7 +539,8 @@ all_cp %>%
   filter(period == "Community PES + Ill. Harvest") %>%
   mutate(police = ifelse(police == 0, "No Policing", "Policing")) |> 
   group_by(police) %>%
-  summarise(mean_earning = mean(earning, na.rm = TRUE)) %>%
+  summarise(mean_earning = mean(earning, na.rm = TRUE),
+            median_earning = median(earning, na.rm = TRUE)) %>%
   ggplot(aes(x = factor(police), y = mean_earning, fill = factor(police))) +
   geom_col() +
   labs(
@@ -540,13 +590,13 @@ all_cp %>%
 # lottery -----------------------------------------------------------------
 
 
-sum <- all_cp |> 
-  group_by(`id-number`) |> 
-  summarise(real_earning = round(sum(earning, na.rm = T) / 100))
-
-
-set.seed(1)
-sum |> 
-  slice_sample(n = 2)
+# sum <- all_cp |> 
+#   group_by(`id-number`) |> 
+#   summarise(real_earning = round(sum(earning, na.rm = T) / 100))
+# 
+# 
+# set.seed(1)
+# sum |> 
+#   slice_sample(n = 2)
 
 

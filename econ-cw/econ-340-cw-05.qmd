@@ -34,10 +34,43 @@ theme_set(theme_ipsum() +
 ## Part 1 — Conceptual Warm-Up
 
 1. Explain in your own words why **public goods require vertical summation of marginal benefits**.  
-2. In the **Doug–Sasha forest preservation example**, what condition makes 10 acres optimal?  
+
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+Because everyone consumes the **same quantity** $Q$ of a public good. The **social marginal benefit (SMB)** at that $Q$ is the **sum of each individual’s marginal benefit** at that same quantity, so we **add vertically** the MB curves:  
+$$
+\text{SMB}(Q) = \sum_i \text{MB}_i(Q).
+$$
+
+:::
+
+2. In the **Doug–Sasha forest preservation example**, what condition makes 10 acres optimal? 
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+At $Q=10$, Doug’s MB $=\$5$ and Sasha’s MB $=\$2$, so  
+$$
+\text{SMB}(10) = 5 + 2 = \$7 = \text{MC}.
+$$  
+
+SMB = MC holds, making $Q=10$ optimal.
+
+:::
+
 3. Give **one local** and **one global** example of an environmental public good not listed in the lecture.  
 
-<br><br>
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+- **Local**: Urban street lighting; city flood siren system.  
+- **Global**: Global disease surveillance networks; open satellite climate data.
+
+:::
+
 
 ## Part 2 — Applied Problem
 
@@ -55,9 +88,157 @@ The marginal cost of planting trees is constant at **$10 per tree**.
 2. Construct the **social MB curve** by vertical summation.  
 3. Find the **optimal number of trees Q* where SMB = MC**.  
 4. Compare the total benefits received by Alex vs. Jamie at Q*.  
+
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+- **Social MB by vertical summation (piecewise)**  
+
+For $0 \le Q \le 6$: both positive,
+$$
+\text{SMB}(Q) = (16 - Q) + (12 - 2Q) = 28 - 3Q.
+$$
+For $6 < Q \le 16$: Jamie’s MB is 0, so
+$$
+\text{SMB}(Q) = 16 - Q.
+$$
+For $Q > 16$: $\text{SMB}(Q)=0$.
+
+
+- **Optimal quantity $Q^*$ where SMB = MC**  
+
+Solve in the relevant segment:
+$$
+28 - 3Q = 10 \;\Rightarrow\; 3Q = 18 \;\Rightarrow\; Q^* = 6.
+$$
+
+- **Total benefits at $Q^*$ and comparison**
+
+Alex:
+$$
+TB_{Alex}(Q^{*}) = \frac{1}{2}\times(16+10)\times 6 = 78
+$$
+
+Jamie:
+$$
+TB_{Jamie}(Q^{*}) = \frac{1}{2}\times12 \times 6 = 36
+$$
+
+- **Total benefit at $Q^*$**:
+
+$$
+TB_{Alex}(Q^{*}) + TB_{Jamie}(Q^{*}) = 114
+$$
+
+- **Total cost at $Q^*$**:
+
+$$
+TC(Q^{*}) = 10 \times 6 = 60
+$$
+
+- **Net surplus:** $114 - 60 = \boxed{54}$.
+
+
+```{r}
+#| echo: false
+# GGPlot solution for the Alex–Jamie public good example
+# Tasks covered:
+# 1) Individual MB curves
+# 2) Social MB (vertical sum) curve
+# 3) Optimal Q* where SMB = MC
+# 4) Compute total benefits at Q*
+# 5) (Discussion) Cost-sharing rules — printed suggestions
+
+library(tidyverse)
+
+# Setup
+MC_val <- 10
+Q_grid <- tibble(Q = seq(0, 20, by = 0.01))
+
+MB_Alex  <- function(Q) pmax(16 - Q, 0)
+MB_Jamie <- function(Q) pmax(12 - 2*Q, 0)
+MC_fun   <- function(Q) rep(MC_val, length(Q))
+
+df_indiv <- Q_grid |>
+  mutate(Alex  = MB_Alex(Q),
+         Jamie = MB_Jamie(Q)) |>
+  pivot_longer(cols = c(Alex, Jamie), names_to = "Person", values_to = "MB")
+
+# Social MB is the vertical sum (piecewise automatically via truncation at 0)
+df_soc <- Q_grid |>
+  mutate(SMB = MB_Alex(Q) + MB_Jamie(Q),
+         MC  = MC_fun(Q))
+
+# --- 3) Optimal Q* (solve SMB(Q) = MC) ---
+# On [0,6], SMB = (16 - Q) + (12 - 2Q) = 28 - 3Q
+# Set 28 - 3Q = 10 -> Q* = 6 (this is exactly at the kink where Jamie hits zero)
+Q_star <- 6
+
+# --- 4) Total benefits at Q* (areas under MB) ---
+benefit_alex  <- integrate(function(q) pmax(16 - q, 0), lower = 0, upper = Q_star)$value
+benefit_jamie <- integrate(function(q) pmax(12 - 2*q, 0), lower = 0, upper = Q_star)$value
+total_benefit <- benefit_alex + benefit_jamie
+total_cost    <- MC_val * Q_star
+net_surplus   <- total_benefit - total_cost
+
+cat(sprintf("Q* = %.2f\nAlex benefit = %.2f\nJamie benefit = %.2f\nTotal benefit = %.2f\nTotal cost = %.2f\nNet surplus = %.2f\n",
+            Q_star, benefit_alex, benefit_jamie, total_benefit, total_cost, net_surplus))
+
+# --- 1) Plot: Individual MB curves ---
+p1 <- ggplot(df_indiv, aes(x = Q, y = MB, color = Person)) +
+  geom_line(linewidth = 1) +
+  geom_vline(xintercept = Q_star, linetype = "dashed") +
+  annotate("text", x = Q_star + 0.3, y = 0.5, label = "Q* = 6", hjust = 0) +
+  scale_color_manual(values = c("Alex" = "#1f77b4", "Jamie" = "#ff7f0e")) +
+  labs(title = "Individual Marginal Benefits",
+       x = "Quantity of trees (Q)",
+       y = "Marginal Benefit ($)") +
+  theme_minimal()
+
+# --- 2) + 3) Plot: Social MB (vertical sum) vs MC, with Q* marker ---
+p2 <- ggplot(df_soc, aes(x = Q)) +
+  geom_line(aes(y = SMB), linewidth = 1.1) +
+  geom_hline(yintercept = MC_val, linetype = "dashed", linewidth = 1) +
+  geom_point(aes(x = Q_star, y = MC_val), size = 2) +
+  annotate("text", x = Q_star + 0.3, y = MC_val + 0.5,
+           label = "SMB(Q*) = MC = $10", hjust = 0) +
+  labs(title = "Social MB (vertical sum) vs Marginal Cost",
+       x = "Quantity of trees (Q)",
+       y = "Dollars") +
+  theme_minimal()
+
+print(p1)
+print(p2)
+
+# --- 5) Cost-sharing rules (examples) ---
+# equal_split     <- total_cost / 2
+# benefit_share_A <- total_cost * (benefit_alex / total_benefit)
+# benefit_share_J <- total_cost * (benefit_jamie / total_benefit)
+# 
+# cat(sprintf("\nCost-sharing examples at Q*:\n- Equal split: $%.2f each\n- Benefit-based: Alex $%.2f, Jamie $%.2f\n",
+#             equal_split, benefit_share_A, benefit_share_J))
+```
+
+
+:::
+
 5. Propose two possible **cost-sharing rules** (e.g., equal split, benefit-based) and discuss whether each is *fair* and/or *efficient*.  
 
-<br><br>
+::: {.callout-tip collapse="true"}
+### Show answer
+
+- **Equal split:** Each pays \$30. Simple and transparent; ignores heterogeneous benefits.  
+- **Benefit-based:** Share proportional to benefits:  
+  - Alex: $78/114 \approx 0.684 \Rightarrow \$41.05$.  
+  - Jamie: $36/114 \approx 0.316 \Rightarrow \$18.95$.  
+  Efficient in the sense that each pays ≤ benefit received; equity depends on norms and ability to pay.
+
+
+:::
+
+
+
 
 ## Part 3 — Sensitivity
 
@@ -65,9 +246,136 @@ The marginal cost of planting trees is constant at **$10 per tree**.
 2. Suppose Jamie’s valuation increases to $MB_{Jamie}(Q) = 15 - 2Q$. How does this change Q*?  
 3. Which change (higher cost vs. higher demand) has a larger effect on optimal provision? Why?  
 
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+
+1) **Higher cost: $MC=12$**  
+On $0\le Q\le 6$: $28 - 3Q = 12 \Rightarrow 3Q = 16 \Rightarrow Q^* = \boxed{16/3 \approx 5.33}$.  
+(Jamie’s MB at $5.33$ is $12 - 2\cdot 5.33 \approx 1.33 > 0$, so the piecewise region is valid.)
+
+2) **Higher demand for Jamie: $MB_{Jamie}(Q)=15 - 2Q$**  
+For $0 \le Q \le 7.5$:  
+$$
+\text{SMB}(Q) = (16 - Q) + (15 - 2Q) = 31 - 3Q.
+$$  
+Set equal to MC: $31 - 3Q = 10 \Rightarrow 3Q = 21 \Rightarrow Q^* = \boxed{7}$.
+
+3) **Which change has a larger effect? Why?**  
+- Baseline $Q^*=6$.  
+- With $MC=12$: $Q^*\approx 5.33$ (down by ~0.67).  
+- With higher Jamie MB: $Q^*=7$ (up by 1.0).  
+**Demand increase** has the **larger** effect here because it raises SMB across relevant $Q$, moving the SMB=MC intersection more than the modest MC increase reduces it.
+
+:::
+
 <br><br>
 
 ## Part 4 — Reflection
 
 - How does this exercise illustrate the **free-rider problem**?  
 - What role should government play when preferences and benefits differ across individuals?  
+
+
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+
+## Understanding the Free-Rider Problem and the Government’s Role
+
+### The Free-Rider Problem — Why Public Goods Are Underprovided
+
+**1. What is “free riding”?**  
+A **free rider** is someone who enjoys the benefits of a public good without paying for it.  
+Because public goods are **nonexcludable**, once they are provided, everyone benefits — whether they contribute or not.  
+
+*Example:* Once a city builds flood barriers, all residents are protected. Even those who did not contribute still enjoy the same protection.
+
+---
+
+**2. Why is $WTP < MB$?**  
+For private goods, people reveal their preferences by purchasing — they pay if $P \le MB$.  
+But for public goods, individuals can benefit **without paying**, so their **willingness to pay (WTP)** is less than their **true marginal benefit (MB)**:  
+
+$$
+WTP_i < MB_i
+$$  
+
+This causes the **aggregate demand curve** to lie below the true **social marginal benefit (SMB)** curve, leading to **underprovision** when relying solely on voluntary contributions.
+
+---
+
+**3. Why the market fails**  
+Firms cannot collect enough payment to cover costs because of free riding.  
+As a result, markets stop short of the efficient provision level $Q^*$, where:
+
+$$
+SMB = SMC
+$$
+
+Hence, **too little** of the public good is produced relative to the socially optimal level.
+
+---
+
+**4. Policy tools to narrow the gap**
+
+- **Matching grants / subsidies:** Encourage private contributions by adding public funds (e.g., government donation matching).  
+- **Direct public provision:** Government directly supplies the good (e.g., national defense, public health).  
+- **Mandatory taxes or fees:** Ensure everyone contributes to a good they all benefit from (e.g., roads, national parks).  
+
+These tools realign **private incentives** with **social benefits**, helping the economy move toward the efficient $Q^*$.
+
+---
+
+### Government’s Role — Balancing Efficiency and Equity
+
+**1. Efficiency**  
+The optimal level of a public good occurs when the **sum of all individuals’ marginal benefits** equals the **marginal cost** of provision:  
+
+$$
+\sum_i MB_i(Q^*) = MC(Q^*)
+$$  
+
+At this point, society’s **total willingness to pay** for the last unit just equals its **cost** — the condition for **Pareto efficiency** in public goods provision.
+
+---
+
+**2. Financing mechanisms**  
+Once $Q^*$ is determined, the challenge becomes **how to finance it**:  
+
+- **Taxation:** Everyone contributes through general taxes.  
+- **Subsidies / matching:** Encourage private provision or local co-financing.  
+- **Earmarked levies:** Tie specific taxes to related benefits (e.g., gas tax for road repair).  
+- **Public–private partnerships:** Share costs between government and private sector.
+
+---
+
+**3. The equity challenge**  
+Efficiency tells us *how much* to produce; equity determines *who should pay*.  
+
+Two fairness principles guide policy:
+- **Benefit-based fairness:** Those who benefit more should contribute more.  
+- **Ability-to-pay fairness:** Those with higher incomes contribute more, even if benefits are similar.  
+
+The government must balance these principles, designing taxes or cost-sharing rules that achieve **efficiency ($SMB = SMC$)** while maintaining **equity**.
+
+
+
+### Summary
+
+| Problem | Mechanism | Policy Response |
+|----------|------------|----------------|
+| Free riding → underprovision | $WTP < MB$ | Government funding or intervention |
+| Market failure | No price mechanism for shared benefits | Taxes, subsidies, or direct provision |
+| Unequal benefits/incomes | Efficiency–equity tradeoff | Mixed cost-sharing rules |
+
+**Bottom line:**  
+- Without government: free riding causes $WTP < MB$ and underprovision.  
+- With government: collective financing (taxes, subsidies, matching) enables provision at the efficient level $Q^*$.  
+- The policy goal is to achieve both **efficiency** (produce where $SMB = SMC$) and **equity** (fair cost-sharing across individuals).
+
+
+
+:::

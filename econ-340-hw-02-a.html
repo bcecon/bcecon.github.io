@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2025-10-08">
+
+<title>Homework 2 | Byeong-Hak Choe</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="assets/css/font.css">
+<meta property="og:title" content="Homework 2 | Byeong-Hak Choe">
+<meta property="og:description" content="Externalities; Common Pool Resources; Public Goods">
+<meta property="og:image" content="/assets/img/posts.png">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./img/geneseo-logo-squared.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html" rel="" target="">
+ <span class="menu-text">💡 What I Do</span></a>
+  </li>  
+  <li class="dropdown-header">
+ <span class="menu-text"> </span></li>
+</ul>
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Homework 2</li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">🏠 Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./syllabus.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">📓 Syllabus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://mylearning.suny.edu/d2l/home/2152120" class="sidebar-item-text sidebar-link" target="&quot;_blank&quot;">
+ <span class="menu-text">🅱 Brightspace</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./listing-econ-340-lec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">🚀 Lecture</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./listing-econ-340-cw.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">📝 Classwork</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./listing-econ-340-hw.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">📚 Homework</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">✍️️ Project</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./econ-rw/econ-340-team-project.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">📄 Guideline</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">🗓️ Weeks</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./econ-wk/wk-01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Week 01</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./econ-wk/wk-02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Week 02</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./econ-wk/wk-03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Week 03</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./econ-wk/wk-04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Week 04</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./econ-wk/wk-05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Week 05</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./econ-wk/wk-06.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Week 06</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./econ-wk/wk-07.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Week 07</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="3">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#homework-instructions" id="toc-homework-instructions" class="nav-link active" data-scroll-target="#homework-instructions">Homework Instructions</a></li>
+  <li><a href="#question-1.-optimal-logging-externalities-and-redd-points-50" id="toc-question-1.-optimal-logging-externalities-and-redd-points-50" class="nav-link" data-scroll-target="#question-1.-optimal-logging-externalities-and-redd-points-50">Question 1. Optimal Logging, Externalities, and REDD+ (Points: 50)</a>
+  <ul>
+  <li><a href="#a-total-curves-top-panel" id="toc-a-total-curves-top-panel" class="nav-link" data-scroll-target="#a-total-curves-top-panel">a — Total Curves (Top Panel)</a></li>
+  <li><a href="#b-marginal-curves-bottom-panel" id="toc-b-marginal-curves-bottom-panel" class="nav-link" data-scroll-target="#b-marginal-curves-bottom-panel">b — Marginal Curves (Bottom Panel)</a></li>
+  <li><a href="#c-benchmarks-align-vertical-guide-lines-across-panels" id="toc-c-benchmarks-align-vertical-guide-lines-across-panels" class="nav-link" data-scroll-target="#c-benchmarks-align-vertical-guide-lines-across-panels">c — Benchmarks (align vertical guide lines across panels)</a></li>
+  <li><a href="#d-what-is-redd-and-how-can-it-help-here" id="toc-d-what-is-redd-and-how-can-it-help-here" class="nav-link" data-scroll-target="#d-what-is-redd-and-how-can-it-help-here">d — What is REDD+ and how can it help here?</a>
+  <ul>
+  <li><a href="#d1-pigouvian-alignment" id="toc-d1-pigouvian-alignment" class="nav-link" data-scroll-target="#d1-pigouvian-alignment">d1 — Pigouvian Alignment</a></li>
+  <li><a href="#d2-practical-challenges-of-redd" id="toc-d2-practical-challenges-of-redd" class="nav-link" data-scroll-target="#d2-practical-challenges-of-redd">d2 — Practical Challenges of REDD+</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#question-2.-expansion-of-data-centers-and-the-environment-points-50" id="toc-question-2.-expansion-of-data-centers-and-the-environment-points-50" class="nav-link" data-scroll-target="#question-2.-expansion-of-data-centers-and-the-environment-points-50">Question 2. Expansion of Data Centers and the Environment (Points: 50)</a>
+  <ul>
+  <li><a href="#video-summary" id="toc-video-summary" class="nav-link" data-scroll-target="#video-summary">Video Summary</a></li>
+  <li><a href="#grid-reliability-as-a-public-good" id="toc-grid-reliability-as-a-public-good" class="nav-link" data-scroll-target="#grid-reliability-as-a-public-good">Grid Reliability as a Public Good</a></li>
+  <li><a href="#a-efficient-reliability-level" id="toc-a-efficient-reliability-level" class="nav-link" data-scroll-target="#a-efficient-reliability-level">a — Efficient Reliability Level</a></li>
+  <li><a href="#b-private-vs.-social-choice" id="toc-b-private-vs.-social-choice" class="nav-link" data-scroll-target="#b-private-vs.-social-choice">b — Private vs.&nbsp;Social Choice</a></li>
+  <li><a href="#c-underprovision-of-public-goods" id="toc-c-underprovision-of-public-goods" class="nav-link" data-scroll-target="#c-underprovision-of-public-goods">c — Underprovision of Public Goods</a></li>
+  <li><a href="#d-future-reliability-with-data-center-growth" id="toc-d-future-reliability-with-data-center-growth" class="nav-link" data-scroll-target="#d-future-reliability-with-data-center-growth">d — Future Reliability with Data-Center Growth</a>
+  <ul>
+  <li><a href="#d1-efficient-future-level" id="toc-d1-efficient-future-level" class="nav-link" data-scroll-target="#d1-efficient-future-level">d1 — Efficient Future Level</a></li>
+  <li><a href="#d2-interpretation" id="toc-d2-interpretation" class="nav-link" data-scroll-target="#d2-interpretation">d2 — Interpretation</a></li>
+  </ul></li>
+  <li><a href="#f-cost-sharing-debate" id="toc-f-cost-sharing-debate" class="nav-link" data-scroll-target="#f-cost-sharing-debate">f — Cost Sharing Debate</a></li>
+  <li><a href="#g-local-government-incentives" id="toc-g-local-government-incentives" class="nav-link" data-scroll-target="#g-local-government-incentives">g — Local Government Incentives</a></li>
+  </ul></li>
+  <li><a href="#question-3.-class-participation-not-graded-for-homework-2" id="toc-question-3.-class-participation-not-graded-for-homework-2" class="nav-link" data-scroll-target="#question-3.-class-participation-not-graded-for-homework-2">Question 3. Class Participation (Not Graded for Homework 2)</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Homework 2</h1>
+<p class="subtitle lead">Externalities; Common Pool Resources; Public Goods</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 8, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="homework-instructions" class="level2">
+<h2 class="anchored" data-anchor-id="homework-instructions">Homework Instructions</h2>
+<ul>
+<li><p><strong>No Generative AI</strong>: You are <strong>not</strong> allowed to use generative AI tools for Homework Assignment 1, except for part <strong>d2 in Question 1</strong></p></li>
+<li><p><strong>Deadlines</strong>: <strong>Wednesday, October 8, 2025 at 10:30 A.M.</strong></p>
+<ul>
+<li>Hand in your written answers on paper to Prof.&nbsp;Choe at the beginning of class.</li>
+</ul></li>
+</ul>
+</section>
+<section id="question-1.-optimal-logging-externalities-and-redd-points-50" class="level1">
+<h1>Question 1. Optimal Logging, Externalities, and REDD+ (Points: 50)</h1>
+<p>A forest jurisdiction evaluates logging activity <span class="math inline">\(L\)</span> under two private market components and one external cost:</p>
+<ul>
+<li><strong>Timber benefit (private):</strong> <span class="math inline">\(TB(L)=2L - L^{2}\)</span><br>
+</li>
+<li><strong>Harvesting cost (private):</strong> <span class="math inline">\(TC(L)=L\)</span><br>
+</li>
+<li><strong>Carbon damage (external):</strong> <span class="math inline">\(TD(L)=\delta\,L\)</span>, where <span class="math inline">\(\delta = 0.5&gt;0\)</span> is the monetized climate damage per unit of logging effort <span class="math inline">\(L\)</span>.</li>
+</ul>
+<p>Here, <span class="math inline">\(L\)</span> is logging effort (e.g., worker-days). Private loggers ignore <span class="math inline">\(TD\)</span>.</p>
+<p><strong>Notes:</strong><br>
+- <span class="math inline">\(MB(L)=\frac{dTB}{dL}=2-2L\)</span><br>
+- <span class="math inline">\(MC(L)=\frac{dTC}{dL}=1\)</span><br>
+- <span class="math inline">\(AB(L)=TB/L=2-L\)</span> (for <span class="math inline">\(L&gt;0\)</span>)<br>
+- <span class="math inline">\(AC(L)=TC/L=1\)</span> (for <span class="math inline">\(L&gt;0\)</span>)<br>
+- <span class="math inline">\(MD(L)=\frac{dTD}{dL}=\delta=0.5\)</span></p>
+<section id="a-total-curves-top-panel" class="level2">
+<h2 class="anchored" data-anchor-id="a-total-curves-top-panel">a — Total Curves (Top Panel)</h2>
+<p>Plot <strong>TB</strong>, <strong>TC</strong>, <strong>TD</strong>, and <strong>Total Social Cost</strong> <span class="math inline">\(TSC(L)=TC(L)+TD(L)\)</span> versus <span class="math inline">\(L\)</span>.</p>
+</section>
+<section id="b-marginal-curves-bottom-panel" class="level2">
+<h2 class="anchored" data-anchor-id="b-marginal-curves-bottom-panel">b — Marginal Curves (Bottom Panel)</h2>
+<p>Plot <strong>marginals</strong>:<br>
+- <span class="math inline">\(MB(L)=2-2L\)</span><br>
+- <span class="math inline">\(MC(L)=1\)</span><br>
+- <span class="math inline">\(MD(L)=\delta=0.5\)</span> (External Marginal Cost)</p>
+<p>Also plot <strong>averages</strong>:<br>
+- <span class="math inline">\(AB(L)=2-L\)</span><br>
+- <span class="math inline">\(AC(L)=1\)</span></p>
+</section>
+<section id="c-benchmarks-align-vertical-guide-lines-across-panels" class="level2">
+<h2 class="anchored" data-anchor-id="c-benchmarks-align-vertical-guide-lines-across-panels">c — Benchmarks (align vertical guide lines across panels)</h2>
+<p>For each benchmark below, (i) <strong>denote private optimum <span class="math inline">\(L^{priv}\)</span>, socially efficient optimum <span class="math inline">\(L^{*}\)</span>, and open-access level <span class="math inline">\(L_{OA}\)</span></strong>, (ii) <strong>write the condition</strong> to solve each, and (iii) <strong>compute the numeric value for each</strong> using <span class="math inline">\(\delta=0.5\)</span>.<br>
+Then <strong>draw vertical guide lines</strong> at the three effort levels on <strong>both</strong> panels so they align.</p>
+<ol type="1">
+<li><strong>Private optimum <span class="math inline">\(L^{priv}\)</span></strong> — <em>Privately optimal with no externality considered.</em>
+<ul>
+<li><em>Definition:</em> A <strong>single logging firm</strong> (a private decision-maker with exclusive rights to the forest) maximizing their own net private benefit, <strong>ignoring the external damage</strong>.</li>
+</ul></li>
+<li><strong>Socially efficient optimum <span class="math inline">\(L^{*}\)</span></strong> — <em>Maximizes total net social benefit (accounts for the external damage).</em>
+<ul>
+<li><strong>Definition:</strong> Chosen to internalize the carbon damage at the margin.</li>
+</ul></li>
+<li><strong>Open-access level <span class="math inline">\(L_{OA}\)</span></strong> — <em>Free entry expands effort until profit is zero, ignoring externalities.</em>
+<ul>
+<li><em>Definition:</em> With <strong>many competing loggers</strong>, free entry expands effort until each logger earns zero economic profit and all resource rents are dissipated.</li>
+</ul></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="econ-340-hw-02-a_files/figure-html/top-panel-1.png" class="img-fluid figure-img" width="864"></p>
+<figcaption class="figure-caption">Top: Totals (TB, TC, TD, and TSC) vs logging effort L.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="econ-340-hw-02-a_files/figure-html/bottom-panel-1.png" class="img-fluid figure-img" width="864"></p>
+<figcaption class="figure-caption">Bottom: Marginal &amp; Average Curves (MB, MC, MD, AB, AC) vs L.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="d-what-is-redd-and-how-can-it-help-here" class="level2">
+<h2 class="anchored" data-anchor-id="d-what-is-redd-and-how-can-it-help-here">d — What is REDD+ and how can it help here?</h2>
+<p><strong>REDD+</strong> (<em>Reducing Emissions from Deforestation and forest Degradation</em>) is an international climate policy framework that provides payments when countries or jurisdictions <strong>reduce logging and therefore avoid CO<span class="math inline">\(_2\)</span> emissions</strong>.</p>
+<p>For simplicity, assume the climate damage from one unit of logging is valued at <span class="math inline">\(\delta = 0.5\)</span> dollars. Under REDD+, loggers (or local governments) receive a payment <span class="math inline">\(\tau\)</span> for each unit of logging <strong>not carried out</strong>, relative to a baseline.</p>
+<p>From the logger’s perspective, this acts like an <strong>extra cost of logging</strong>: cutting down one more unit of forest means losing <span class="math inline">\(\tau\)</span> dollars of REDD+ payment. In economic terms, the decision rule becomes</p>
+<p><span class="math display">\[
+MB(L) = MC(L) + \tau.
+\]</span></p>
+<p>If <span class="math inline">\(\tau\)</span> is set equal to the external damage per unit of logging (<span class="math inline">\(\delta\)</span>), then the logging decision takes into account the climate cost, and effort is reduced to the efficient level <span class="math inline">\(L^*\)</span>.</p>
+<section id="d1-pigouvian-alignment" class="level3">
+<h3 class="anchored" data-anchor-id="d1-pigouvian-alignment">d1 — Pigouvian Alignment</h3>
+<p>Assume <span class="math inline">\(\delta=0.5\)</span>. Show that if a single logging firm faces a REDD+ payment set at <span class="math inline">\(\tau=\delta\)</span>, it will choose the socially efficient effort <span class="math inline">\(L^*\)</span>.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Setting <span class="math inline">\(\tau=\delta\)</span> makes the private firm’s optimal condition a <span class="math inline">\(MB=MC+\delta\)</span>, which is equivalent to the condition for the socially efficient optimum. Therefore, setting <span class="math inline">\(\tau=\delta\)</span> implements <span class="math inline">\(L^*\)</span>.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="d2-practical-challenges-of-redd" class="level3">
+<h3 class="anchored" data-anchor-id="d2-practical-challenges-of-redd">d2 — Practical Challenges of REDD+</h3>
+<p>Briefly discuss the following implementation issues:</p>
+<ul>
+<li><strong>Additionality</strong>: How can we verify that emission reductions are truly extra (would not have happened without REDD+)?</li>
+<li><strong>Leakage</strong>: Could logging or deforestation simply shift to another location, offsetting the gains?</li>
+<li><strong>Permanence</strong>: Even if forests are protected now, what ensures the carbon remains stored long term (e.g., risk of future logging or fires)?</li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>REDD+ faces several implementation challenges that affect its credibility and long-term impact.<br>
+- <strong>Additionality:</strong> REDD+ credits must reflect <em>real</em> emission reductions beyond what would have occurred without the program. Establishing a credible baseline (<span class="math inline">\(L^{BAU}\)</span>) is difficult because future deforestation trends depend on market, policy, and social factors.<br>
+- <strong>Leakage:</strong> Deforestation or logging reduced in one project area may simply shift to another unprotected area, offsetting the climate benefits. This risk is lower in jurisdictional or national-scale programs that track land-use changes more comprehensively.<br>
+- <strong>Permanence:</strong> Even if forests are protected today, stored carbon can be released later through fires, illegal logging, or policy changes. Ensuring permanence requires long-term monitoring, insurance buffers, and legal safeguards to maintain carbon storage over time.<br>
+Overall, addressing these three issues is essential to ensure REDD+ delivers genuine, measurable, and lasting climate benefits.</p>
+</div>
+</div>
+</div>
+<p><br><br></p>
+</section>
+</section>
+</section>
+<section id="question-2.-expansion-of-data-centers-and-the-environment-points-50" class="level1">
+<h1>Question 2. Expansion of Data Centers and the Environment (Points: 50)</h1>
+<div style="text-align: center; margin: 1em 0;">
+<iframe width="800" height="450" src="https://www.youtube.com/embed/t-8TDOFqkQA?si=oBBubL6CvNtGudUT" title="YouTube video player" frameborder="0" allowfullscreen=""> </iframe>
+<p>
+<em>Business Insider - Exposing The Dark Side of America’s AI Data Center Explosion, September 18, 2025</em>
+</p>
+</div>
+<p>Watch the video above. Then solve the question:</p>
+<section id="video-summary" class="level2">
+<h2 class="anchored" data-anchor-id="video-summary">Video Summary</h2>
+<ul>
+<li><strong>Rapid growth</strong>: Data centers are being built at a rate of more than two per week, clustering near reliable power, water, cheap land, and tax breaks.</li>
+<li><strong>Scale &amp; resources</strong>: A single large center can use as much electricity and water as an entire city; clusters in Virginia, Arizona, and California consume enormous resources.</li>
+<li><strong>Externalities</strong>:
+<ul>
+<li><em>Local</em>: Noise, vibrations, health effects, and property value declines for nearby residents.</li>
+<li><em>Global</em>: High electricity demand driving fossil fuel use, CO₂ emissions, and massive water consumption in drought-stricken areas.</li>
+</ul></li>
+<li><strong>Opacity</strong>: Companies frequently obscure ownership and operations by using shell LLCs (Limited Liability Companies), binding local officials with NDAs (Non-Disclosure Agreements), and claiming “trade secret” exemptions. Journalists had to reconstruct a public map of data centers by piecing together generator permits and scattered public records.</li>
+<li><strong>Equity &amp; policy issues</strong>:
+<ul>
+<li>Tax breaks and land-use approvals often benefit large technology companies, while the resulting costs (grid strain, water scarcity, higher household bills) are shifted onto local residents.</li>
+<li>Even as companies promise “water positive” and “carbon neutral” goals, reliance on offsets and continued growth raises doubts.</li>
+<li>Utilities in places like Virginia project billions in grid upgrades, with household electricity bills potentially rising 50%.</li>
+</ul></li>
+<li><strong>Employment mismatch</strong>: Despite billions in investment, individual data centers create relatively few permanent jobs (sometimes fewer than 150).</li>
+</ul>
+</section>
+<section id="grid-reliability-as-a-public-good" class="level2">
+<h2 class="anchored" data-anchor-id="grid-reliability-as-a-public-good">Grid Reliability as a Public Good</h2>
+<p>Two representative households, A and B, both benefit from <strong>grid reliability</strong> <span class="math inline">\(G\)</span>.<br>
+Grid reliability refers to the stability and resilience of the electricity system—fewer blackouts, quicker recovery from outages, and greater assurance that power is available when needed.<br>
+This reliability is a <strong>public good</strong>: once provided, it benefits everyone simultaneously, and no household can be excluded from enjoying it.</p>
+<p>Each household’s <strong>marginal benefit (MB)</strong> function is:</p>
+<ul>
+<li><span class="math inline">\(MB_A(G) = 40 - 2G\)</span><br>
+</li>
+<li><span class="math inline">\(MB_B(G) = 30 - G\)</span></li>
+</ul>
+<p>The <strong>marginal cost (MC)</strong> of providing additional reliability, such as building more transmission lines, adding backup generators, or investing in grid hardening, is given by:</p>
+<ul>
+<li><span class="math inline">\(MC(G) = 10 + G\)</span></li>
+</ul>
+<hr>
+</section>
+<section id="a-efficient-reliability-level" class="level2">
+<h2 class="anchored" data-anchor-id="a-efficient-reliability-level">a — Efficient Reliability Level</h2>
+<p>Find the efficient level <span class="math inline">\(G^{*}\)</span>.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Samuelson condition:</strong> Sum of marginal benefits equals marginal cost. <span class="math display">\[
+MB_A(G) + MB_B(G) = MC(G)
+\]</span></p>
+<p><span class="math display">\[
+(40 - 2G) + (30 - G) = 10 + G \;\Rightarrow\; 70 - 3G = 10 + G
+\]</span></p>
+<p><span class="math display">\[
+60 = 4G \;\Rightarrow\; \boxed{G^* = 15}.
+\]</span></p>
+<p><em>Interpretation:</em> At <span class="math inline">\(G^*=15\)</span>, the additional social value of one more unit of reliability (adding <span class="math inline">\(MB_A+MB_B\)</span>) exactly equals the marginal cost to provide it.</p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="b-private-vs.-social-choice" class="level2">
+<h2 class="anchored" data-anchor-id="b-private-vs.-social-choice">b — Private vs.&nbsp;Social Choice</h2>
+<p>Compare this to what might happen if households acted alone and only equated their <strong>own <span class="math inline">\(MB\)</span></strong> to <span class="math inline">\(MC\)</span>.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Because reliability is non-excludable, if a single household were the <strong>sole</strong> decision-maker, they would set <strong>their own</strong> <span class="math inline">\(MB_i(G)\)</span> equal to <span class="math inline">\(MC(G)\)</span>, ignoring the other’s benefit:</p>
+<ul>
+<li><p>Household A alone:<br>
+<span class="math display">\[
+40 - 2G = 10 + G \;\Rightarrow\; 30 = 3G \;\Rightarrow\; G_A = 10.
+\]</span></p></li>
+<li><p>Household B alone:<br>
+<span class="math display">\[
+30 - G = 10 + G \;\Rightarrow\; 20 = 2G \;\Rightarrow\; G_B = 10.
+\]</span></p></li>
+</ul>
+<p>Either household acting alone would choose <span class="math inline">\(G=10\)</span>, which is <strong>below</strong> the efficient <span class="math inline">\(G^*=15\)</span>, because each ignores the other’s marginal benefit. In voluntary settings with cost sharing, this logic produces <strong>underprovision</strong>: no one internalizes the full social gain from an extra unit of reliability.</p>
+<p><em>Key contrast:</em><br>
+- Socially efficient: uses <strong><span class="math inline">\(MB_A + MB_B\)</span></strong> vs.&nbsp;<span class="math inline">\(MC\)</span> <span class="math inline">\(\Rightarrow G^*=15\)</span>.<br>
+- Private acting alone: uses <strong><span class="math inline">\(MB_i\)</span></strong> vs.&nbsp;<span class="math inline">\(MC\)</span> <span class="math inline">\(\Rightarrow G=10\)</span>.</p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="c-underprovision-of-public-goods" class="level2">
+<h2 class="anchored" data-anchor-id="c-underprovision-of-public-goods">c — Underprovision of Public Goods</h2>
+<p>Explain why <strong>underprovision</strong> arises.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Because reliability is <strong>non-excludable</strong>, each household enjoys the benefits of any extra <span class="math inline">\(G\)</span> regardless of who pays. When deciding whether to pay for another unit, a private household compares <strong>its own</strong> <span class="math inline">\(MB_i\)</span> with <span class="math inline">\(MC\)</span> and ignores the other household’s benefit. As a result, the privately chosen level is where <span class="math inline">\(MB_i=MC\)</span>, not where <span class="math inline">\(MB_A+MB_B=MC\)</span>. This <strong>free-rider problem</strong> drives <span class="math inline">\(G\)</span> <strong>below</strong> the social optimum. In our numbers: private <span class="math inline">\(G=10\)</span> vs.&nbsp;efficient <span class="math inline">\(G^*=15\)</span>.</p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="d-future-reliability-with-data-center-growth" class="level2">
+<h2 class="anchored" data-anchor-id="d-future-reliability-with-data-center-growth">d — Future Reliability with Data-Center Growth</h2>
+<p>Suppose data center growth increases society’s valuation of grid reliability and alters the cost of providing it. In the future:</p>
+<ul>
+<li><span class="math inline">\(MB_{A}^{Future}(G) = 60 - 2G\)</span><br>
+</li>
+<li><span class="math inline">\(MB_{B}^{Future}(G) = 50 - G\)</span><br>
+</li>
+<li><span class="math inline">\(MC^{Future}(G) = 10 + 2G\)</span></li>
+</ul>
+<section id="d1-efficient-future-level" class="level3">
+<h3 class="anchored" data-anchor-id="d1-efficient-future-level">d1 — Efficient Future Level</h3>
+<p>Compute the efficient future level <span class="math inline">\(G^{*Future}\)</span>.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Apply Samuelson in the future scenario: <span class="math display">\[
+(60 - 2G) + (50 - G) = 10 + 2G
+\]</span> <span class="math display">\[
+110 - 3G = 10 + 2G \;\Rightarrow\; 100 = 5G \;\Rightarrow\; \boxed{G^{*Future} = 20}.
+\]</span></p>
+<p><em>Comparison:</em> <span class="math inline">\(G^{*}\)</span> rises from <span class="math inline">\(15\)</span> to <span class="math inline">\(20\)</span> despite higher <span class="math inline">\(MC\)</span> slope, because the <strong>increase in total marginal benefits</strong> (from households valuing reliability more in a data-center-dependent economy) dominates.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="d2-interpretation" class="level3">
+<h3 class="anchored" data-anchor-id="d2-interpretation">d2 — Interpretation</h3>
+<p>Briefly interpret what the change in the optimal reliability level implies for society, considering:</p>
+<ul>
+<li><strong>Investment needs</strong>: what new infrastructure or grid upgrades might be required?</li>
+<li><strong>Costs</strong>: how do higher marginal costs affect who pays (households vs.&nbsp;data centers)?</li>
+<li><strong>Benefits</strong>: how does increased reliability reduce risks (e.g., outages, health costs, lost data) for both residents and businesses?</li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Investment needs:</strong> A higher efficient level (<span class="math inline">\(G^{*Future}=20\)</span>) justifies <em>more</em> grid investment: added transmission capacity, substation upgrades, storage/batteries, advanced protection systems, hardening against weather, and faster restoration capability.</li>
+<li><strong>Costs:</strong> The future <span class="math inline">\(MC\)</span> is steeper (<span class="math inline">\(10+2G\)</span>), so each additional unit of reliability is <strong>more expensive</strong>. Cost recovery design matters:
+<ul>
+<li>Use <strong>non-distortionary components</strong> (access/connection/capacity charges) for fixed/reliability costs, keep per-kWh prices near marginal energy cost.</li>
+<li>Apply <strong>cost-causation</strong>: large new loads (e.g., data centers) should shoulder a proportionally larger share.</li>
+<li>Pair with <strong>equity protections</strong> (discounted electricity prices or income-based credits) for vulnerable households.</li>
+</ul></li>
+<li><strong>Benefits:</strong> Society is more <strong>reliability-sensitive</strong> (digital services, health, commerce). Higher <span class="math inline">\(G\)</span> reduces outage probability and severity, lowering losses from spoiled goods, lost data/transactions, health risks, and downtime for businesses and public services.</li>
+</ul>
+<p><em>Bottom line:</em> Even with higher marginal cost, the <em>social gains</em> from avoiding outages now justify a <strong>higher</strong> optimal reliability level.</p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="f-cost-sharing-debate" class="level2">
+<h2 class="anchored" data-anchor-id="f-cost-sharing-debate">f — Cost Sharing Debate</h2>
+<p>Who should bear the costs of grid expansion — households, data centers, or government? Justify.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Principle: cost causation.</strong> Entities that <strong>drive</strong> the need for expansion should cover commensurate shares (e.g., data centers with large peak demand and strict uptime requirements).</li>
+<li><strong>Households:</strong> Benefit from reliability; contribute via broad, preferably <strong>non-distortionary</strong> components (e.g., modest fixed charges), with <strong>means-tested protections</strong>.</li>
+<li><strong>Data centers:</strong> Large new loads should pay <strong>higher interconnection and capacity charges</strong>, reflecting their impact on peak capacity, redundancy, and transmission upgrades.</li>
+<li><strong>Government:</strong> May support <strong>public-good components</strong> (broad resilience, cyber/black-start) via general funds if justified by economy-wide benefits.</li>
+</ul>
+<p><strong>Recommended mix:</strong> Apply <strong>cost-causation charges</strong> to large energy users, include <strong>protections for low-income households</strong>, and maintain <strong>minimal distortion in per-kWh (volumetric) prices</strong>. Address <strong>externalities</strong> (e.g., carbon pricing) <strong>separately</strong> from the recovery of non-energy fixed costs.</p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="g-local-government-incentives" class="level2">
+<h2 class="anchored" data-anchor-id="g-local-government-incentives">g — Local Government Incentives</h2>
+<p>Why might local governments still provide subsidies to large technology companies, or approve land-use changes that allow data centers to be built, even when these projects create negative externalities?</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Economic development narrative:</strong> Large capital investment, construction jobs, and an expanded tax base are politically salient.</li>
+<li><strong>Prestige and competition:</strong> Attracting big-name firms signals a “tech hub,” fueling a <strong>race-to-the-bottom</strong> across jurisdictions.</li>
+<li><strong>Fiscal optics:</strong> Upfront incentives are visible wins; diffuse costs (higher bills, noise, water stress) are spread over residents and time.</li>
+<li><strong>Information asymmetries:</strong> Non-disclosure agreements (NDAs), opaque ownership (LLCs), and “trade secret” claims can limit scrutiny of true costs.</li>
+<li><strong>Political cycles:</strong> Short-term gains align with election timelines; externalities materialize later.</li>
+</ul>
+<p><em>Net effect:</em> Even when overall social welfare gains are limited, subsidies and approvals continue due to political incentives and regional competition for corporate projects.</p>
+</div>
+</div>
+</div>
+<p><br><br></p>
+</section>
+</section>
+<section id="question-3.-class-participation-not-graded-for-homework-2" class="level1">
+<h1>Question 3. Class Participation (Not Graded for Homework 2)</h1>
+<p>Please write one sentence for each time you participated in class (any public speaking during class time) between <strong>September 24, 2025 and October 6, 2025</strong>.</p>
+<p><strong>Examples:</strong><br>
+- “I asked a question to clarify the common-pool resource”<br>
+- “I asked how market instruments affect consumer behavior.”<br>
+- “I gave plastic pollution as an example of a negative externality.”<br>
+- “I pointed out a calculation error during the lecture.”</p>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const btn = document.querySelector('.quarto-btn-toggle');
+  if (!btn || !window.bootstrap) return;
+
+  btn.addEventListener('click', function (e) {
+    ['#quarto-sidebar', '#quarto-sidebar-glass'].forEach(sel => {
+      const el = document.querySelector(sel);
+      if (el) bootstrap.Collapse.getOrCreateInstance(el).toggle();
+    });
+  }, { capture: true });
+});
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">powered with github, quarto, and rstudio<br>byeong-hak choe, 2025</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+<div id="scroll-padding"></div>
+<script src="./assets/js/site.js"></script>
+<script src="./assets/js/posts.js"></script>
+
+
+
+</body></html>
