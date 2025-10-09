@@ -80,11 +80,6 @@ The two primary characteristics used to classify goods and resources in the tabl
 
 
 
-<!-- ## Question 4. -->
-<!-- Elinor Ostrom's work challenged the notion of the "tragedy of the commons" by showing that many communities succeed through _________________________ without needing full privatization or heavy state control. -->
-
-<!-- $\vspace{3cm}$ -->
-
 
 # Section 2. Analytical Models
 
