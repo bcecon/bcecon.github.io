@@ -111,6 +111,8 @@ Draw the **Total Benefit (TB)** and **Total Cost (TC)** curves as functions of f
 ## Part B — Marginal Curves
 On the **bottom panel**, draw the **Marginal Benefit (MB)** and **Marginal Cost (MC)** curves as functions of fishing effort $E$.  
 
+
+
 ## Part C — Efficient and Open-Access Effort Levels
 Make sure the top and bottom panels share the same horizontal scale for effort $E$, so the relationship between total and marginal spaces is consistent.
 
@@ -127,11 +129,98 @@ On both panels, **mark and label** the two benchmark effort levels using **verti
   Draw a vertical line at $E_{OA}$ on **both** panels and label it “$E_{OA}$”.
 
 
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+```{r}
+#| eval: true
+#| echo: false
+#| fig-align: center
+#| fig-width: 8
+#| fig-height: 8
+
+library(tidyverse)
+
+# --- Parameters ---
+E_max <- 1.5
+E <- seq(0, E_max, length.out = 501)
+
+# --- Define functions ---
+TB <- 1.5 * E - E^2
+TC <- 0.5 * E
+MB <- 1.5 - 2 * E
+MC_AC <- rep(0.5, length(E))
+AB <- 1.5 - E
+
+# --- Compute key benchmarks ---
+E_star <- 0.5     # Efficient effort (MB = MC)
+E_OA   <- 1.0     # Open-access effort (AB = AC)
+
+# --- Data frames ---
+df_level <- tibble(E, TB, TC) |>
+  pivot_longer(cols = c(TB, TC), names_to = "curve", values_to = "value")
+
+df_marg <- tibble(E, AB, MB, MC_AC) |>
+  pivot_longer(cols = c(AB, MB, MC_AC),
+               names_to = "curve", values_to = "value") |>
+  mutate(curve = recode(curve, "MC_AC" = "AC & MC"))
+
+# --- Plot A: Total Benefit and Total Cost ---
+p1 <- ggplot(df_level, aes(x = E, y = value, linetype = curve, color = curve)) +
+  geom_line(size = 1) +
+  geom_vline(xintercept = E_star, color = "black", linetype = "dashed") +
+  geom_vline(xintercept = E_OA, color = "black", linetype = "dashed") +
+  annotate("text", x = E_star-.05, y = .65, label = expression(E^"*"), color = "blue", vjust = -0.5) +
+  annotate("text", x = E_OA-.05, y = .65, label = expression(E["OA"]), color = "red", vjust = -0.5) +
+  labs(title = "Total Benefit and Total Cost vs. Effort",
+       x = "Effort (E)", y = "Total Value ($)", linetype = "Curve", color = "Curve") +
+  scale_color_tableau()
+
+# --- Plot B: Average/Marginal Curves ---
+p2 <- ggplot(df_marg, aes(x = E, y = value, linetype = curve, color = curve)) +
+  geom_line(size = 1) +
+  geom_vline(xintercept = E_star, color = "black", linetype = "dashed") +
+  geom_vline(xintercept = E_OA, color = "black", linetype = "dashed") +
+  annotate("text", x = E_star-.05, y = 1.1, label = expression(E^"*"), color = "blue", vjust = -0.5) +
+  annotate("text", x = E_OA-.05, y = 1.1, label = expression(E["OA"]), color = "red", vjust = -0.5) +
+  labs(title = "Average/Marginal Benefit and Cost vs. Effort",
+       x = "Effort (E)", y = "Dollars per unit of effort", linetype = "Curve", color = "Curve") +
+  scale_color_tableau()
+
+# --- Display side by side ---
+library(patchwork)
+p1 / p2
+```
+
+:::
+
 ## Part D — Intuition Behind $E^*$ and $E_{OA}$
 Explain the intuition behind these two effort levels:
 
 1. **Why does $E^*$ arise?**  
 2. **Why does $E_{OA}$ arise under open access?**  
+
+
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+#### Efficient Effort ($E^*$)
+
+- The **efficient effort** arises where the **marginal benefit (MB)** from fishing equals the **marginal cost (MC)** of fishing.  
+- At this point, the **last unit of effort** adds just as much value as it costs to provide.  
+- Any increase in effort beyond $E^*$ would add less benefit than cost, reducing total economic welfare.  
+- Thus, $E^*$ represents the **socially optimal** level of effort that maximizes **net economic benefit** (total benefit − total cost).
+
+#### Open-Access Effort ($E_{OA}$)
+
+- Under **open access**, anyone can freely enter the fishery until profits are driven to zero.  
+- Entry continues until the **average benefit (AB)** equals the **average cost (AC)** — meaning fishers just break even, with **no economic rent** remaining.  
+- At $E_{OA}$, total effort exceeds the efficient level $E^*$ because individual fishers ignore how their effort affects others and the fish stock.  
+- This leads to **overfishing** and **rent dissipation**, known as the *“tragedy of the commons.”*
+
+:::
 
 
 ## Part E — Policy Intervention with a License Fee
@@ -141,40 +230,79 @@ Explain the intuition behind these two effort levels:
 	2.	**Economic rent**: What happens to economic rents under open access when incentives are not aligned?
 	3.	**Sustainability**: Why does aligning incentives matter for the long-run health of both the fish stock and the fishing economy?
 
+::: {.callout-tip collapse="true"}
+### Show answer
+
+-	**Analytically**: A per-unit license fee raises each fisher’s private cost of fishing effort. This shifts the AC/MC curve upward, so that the new open-access equilibrium occurs at a lower effort level. The fee can be set so that the new equilibrium aligns exactly with the efficient level $E^*$.
+
+
 ```{r}
-#| eval: false
-# Load packages
+#| eval: true
+#| echo: false
+#| fig-align: center
+#| fig-width: 8
+#| fig-height: 8
+
 library(tidyverse)
 
-# Domain for effort (adjust as needed)
+# --- Parameters ---
 E_max <- 1.5
 E <- seq(0, E_max, length.out = 501)
 
-# Define functions
-TB <- 1.5*E - E^2
-TC <- 0.5*E
-MB <- 1.5 - 2*E
-MC_AC <- rep(0.5, length(E))
+# --- Define functions ---
+TB <- 1.5 * E - E^2
+TC <- 0.5 * E
+MB <- 1.5 - 2 * E
+MC_AC <- rep(.5, length(E))
+MC_AC_with_fee <- rep(1, length(E))
 AB <- 1.5 - E
 
+# --- Compute key benchmarks ---
+E_star <- 0.5     # Efficient effort (MB = MC)
+E_OA   <- 1.0     # Open-access effort (AB = AC)
 
-# Data frames
-df_level <- tibble(E, TB, TC) |> pivot_longer(cols = c(TB, TC), names_to = "curve", values_to = "value")
-df_marg  <- tibble(E, AB, MB, MC_AC) |> pivot_longer(cols = c(AB, MB, MC_AC), names_to = "curve", values_to = "value") |> mutate(curve = ifelse(curve == 'MC_AC', 'AC & MC', curve))
+# --- Data frames ---
+df_level <- tibble(E, TB, TC) |>
+  pivot_longer(cols = c(TB, TC), names_to = "curve", values_to = "value")
 
-# (a) TB vs TC
-ggplot(df_level, aes(x = E, y = value, linetype = curve)) +
+df_marg <- tibble(E, AB, MB, MC_AC, MC_AC_with_fee) |>
+  pivot_longer(cols = c(AB, MB, MC_AC, MC_AC_with_fee),
+               names_to = "curve", values_to = "value") |>
+  mutate(curve = recode(curve, "MC_AC" = "AC & MC"))
+
+# --- Plot A: Total Benefit and Total Cost ---
+p1 <- ggplot(df_level, aes(x = E, y = value, linetype = curve, color = curve)) +
   geom_line(size = 1) +
-  labs(title = "Total Benefit and Total Cost vs Effort",
-       x = "Effort (E)", y = "Dollars", linetype = "Curve") +
-  theme_minimal(base_size = 12)
+  geom_vline(xintercept = E_star, color = "black", linetype = "dashed") +
+  annotate("text", x = E_star, y = .65, label = expression(paste(E^"*", " and ", E["OA"])), color = "blue", vjust = -0.5) +
+  labs(title = "Total Benefit and Total Cost vs. Effort",
+       x = "Effort (E)", y = "Total Value ($)", linetype = "Curve", color = "Curve") +
+  scale_color_tableau()
 
-# (b) MB vs MC
-ggplot(df_marg, aes(x = E, y = value, linetype = curve)) +
+# --- Plot B: Average/Marginal Curves ---
+p2 <- ggplot(df_marg, aes(x = E, y = value, linetype = curve, color = curve)) +
   geom_line(size = 1) +
-  labs(title = "Average/Marginal Benefit and Average/Marginal Cost vs Effort",
-       x = "Effort (E)", y = "Dollars per unit of E", linetype = "Curve") +
-  theme_minimal(base_size = 12)
+  geom_vline(xintercept = E_star, color = "black", linetype = "dashed") +
+  annotate("text", x = E_star, y = 1.1, label = expression(paste(E^"*", " and ", E["OA"])), color = "blue", vjust = -0.5) +
+  annotate("text", x = 1.25, y = 0.75, label = "\u2191", size = 6) +
+  labs(title = "Average/Marginal Benefit and Cost vs. Effort",
+       x = "Effort (E)", y = "Dollars per unit of effort", linetype = "Curve", color = "Curve") +
+  scale_color_tableau()
+
+# --- Display side by side ---
+library(patchwork)
+p1 / p2
 ```
+
+
+
+-	**Intuitively**: By making it more expensive to fish, the license fee discourages excessive entry. Only fishers whose effort generates enough value to cover the fee will remain, cutting effort back to the socially optimal level.
+
+-	Why aligning incentives is crucial
+	1. **Incentive problem**: Individual fishers decide based on their own costs and benefits, ignoring the fact that their fishing reduces the stock for others. This leads to effort beyond the social optimum.
+	2. **Economic rent**: When incentives are misaligned under open access, economic rents are dissipated—profits vanish as more boats chase fewer fish.
+	3. **Sustainability**: Aligning private and social incentives ensures that the fish stock is not overharvested, protecting both the long-run ecological health of the fishery and the economic viability of the fishing community.
+
+:::
 
 
