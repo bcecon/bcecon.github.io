@@ -1,0 +1,402 @@
+---
+title: "ECON 340 — Money Growing on Trees (REDD+ PES Experiment)"
+subtitle: "Class Experiment Analysis • 2025-10-06 • Instructor: Byeong-Hak Choe"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-location: left
+    number-sections: false
+    theme: cosmo
+    code-fold: true
+    code-summary: "Show/Hide R code"
+    smooth-scroll: true
+    df-print: paged
+execute:
+  echo: false
+  warning: false
+  message: false
+  error: true
+---
+
+```{r}
+#| label: setup
+#| include: true
+# ===============================
+# Packages
+# ===============================
+library(tidyverse)
+library(janitor)
+library(stringr)
+library(gsheet)
+library(hrbrthemes)
+library(ggthemes)
+library(lubridate)
+library(readxl)
+library(DT)        # interactive data frames
+set.seed(1)
+hrbrthemes::import_roboto_condensed()  # nicer plot font if available
+theme_set(theme_ipsum() +
+            theme(legend.title = element_text(size = rel(1.05)),
+                  axis.title.x = element_text(size = rel(1.2)),
+                  axis.title.y = element_text(size = rel(1.2))))
+```
+
+# Experiment Metadata
+
+-   **Course:** ECON 340-01\
+-   **Experiment date:** 2025-10-06\
+-   **Instructor:** Byeong-Hak Choe
+
+------------------------------------------------------------------------
+
+# Data Ingest
+
+```{r}
+# Raw CSVs (hosted)
+df_0 <- read_csv("https://bcdanl.github.io/data/econ-340-redd-exp-cp0-2025-1006.csv")
+df_1 <- read_csv("https://bcdanl.github.io/data/econ-340-redd-exp-cp1-2025-1006.csv")
+df_2 <- read_csv("https://bcdanl.github.io/data/econ-340-redd-exp-cp2-2025-1006.csv")
+df_3 <- read_csv("https://bcdanl.github.io/data/econ-340-redd-exp-cp3-2025-1006.csv") |> relocate(community, .after = 2)
+df_4 <- read_csv("https://bcdanl.github.io/data/econ-340-redd-exp-cp4-2025-1006.csv") |> relocate(community, .after = 2)
+```
+
+------------------------------------------------------------------------
+
+# Transformations by Contract Period
+
+We compute **earnings** using the rules defined for each period.\
+(Recall: *Earnings = Farming Income + PES Payments + Harvest − Fines/Policing*.)
+
+## CP0 — Baseline (no PES)
+
+```{r}
+df_0 <- df_0 |>
+  mutate(
+    period = "Baseline",
+    harvest = ifelse(harvest == "No", 0, 1),
+    earning = 70 + harvest_value * harvest
+  ) |>
+  relocate(earning, .after = `submission-time`)
+```
+
+## CP1 — PES (legal PES only)
+
+```{r}
+df_1 <- df_1 |>
+  mutate(
+    period = "PES",
+    pes_payment = 50 * pes,
+    harvest_payment = harvest_value * (1 - pes),
+    earning = 70 + pes_payment + harvest_payment
+  ) |>
+  relocate(earning, .after = `submission-time`)
+```
+
+## CP2 — PES + Illegal Harvest (audit risk)
+
+If audited **and** cheating: **lose PES (50)**, **lose illegal harvest**, **pay \$70 fine**.
+
+```{r}
+df_2 <- df_2 |>
+  mutate(
+    period = "PES + Ill. Harvest",
+    pes_payment = 50 * pes,
+    harvest_payment = harvest_value * (1 - pes),
+    # audit draw only for PES participants
+    fine = ifelse(pes == 1, rbinom(n(), 1, 0.25), 0),
+    base_earn = 70 + pes_payment + harvest_payment + illegal * harvest_value,
+    penalty  = ifelse(fine == 1 & pes == 1 & illegal == 1, 50 + harvest_value + 70, 0),
+    earning  = base_earn - penalty
+  ) |>
+  relocate(earning, .after = `submission-time`)
+```
+
+## CP3 — Community PES (split rules)
+
+Each community that joins PES has a total of **\$50 × (# members)** to divide by the chosen **split rule**.
+
+```{r}
+df_3 <- df_3 |>
+  mutate(
+    period = "Community PES",
+    pes = ifelse(pes_group == "PES", 1, 0),
+    pes_payment = 50 * pes,
+    harvest_payment = harvest_value * (1 - pes)
+  ) |>
+  group_by(community) |>
+  mutate(
+    additional = case_when(
+      pes == 0 ~ 0,
+      split_rule == "equal" ~ pes_payment,
+      split_rule == "proportional_card" ~ (harvest_value + 10) * pes_payment * n() / sum(harvest_value + 10),
+      split_rule == "floor_plus_proportional" ~ 0.75 * pes_payment + 0.25 * (harvest_value + 10) * pes_payment * n() / sum(harvest_value + 10),
+      split_rule == "floor_plus_needs" ~ 0.75 * pes_payment + 0.25 * (1/(harvest_value + 10)) * pes_payment * n() / sum(1/(harvest_value + 10)),
+      is.na(split_rule) | split_rule == "no_PES" ~ 0,
+      TRUE ~ 0
+    )
+  ) |>
+  ungroup() |>
+  mutate(
+    earning = round(70 + harvest_payment + additional, 2)
+  ) |>
+  relocate(earning, .after = `submission-time`)
+```
+
+## CP4 — Community PES + Illegal Harvest (policing & audit)
+
+Two randomizations (`v1`, `v2`) illustrate different audit outcomes.
+
+```{r}
+# --- Version 1 (seed = 2) ---
+set.seed(2)
+df_4_v1 <- df_4 |>
+  mutate(
+    period = "Community PES + Ill. Harvest",
+    pes = ifelse(pes_group == "PES", 1, 0),
+    pes_payment = 50 * pes,
+    harvest_payment = harvest_value * (1 - pes)
+  ) |>
+  group_by(community) |>
+  mutate(
+    illegal_n  = sum(illegal),
+    audit_prob = pmin(0.1 * illegal_n, 1),
+    audit_draw = ifelse(pes == 1 & police == 0, rbinom(n(), 1, audit_prob), 0),
+    audit      = ifelse(sum(audit_draw) > 0, 1, 0),
+    additional = case_when(
+      pes == 0 ~ 0,
+      pes == 1 & police == 1 & split_rule %in% c("equal","compliers_only_equal","remove_benefits_illegal_equal") ~ pes_payment,
+      pes == 1 & police == 1 & split_rule == "remove_benefits_illegal_proportional" ~ pes_payment * (harvest_value+10)/sum(harvest_value+10),
+
+      audit == 0 & pes == 1 & police == 0 & split_rule == "equal" ~ pes_payment,
+      audit == 0 & pes == 1 & police == 0 & split_rule == "compliers_only_equal" ~ ifelse(illegal==0, pes_payment, 0),
+      audit == 0 & pes == 1 & police == 0 & split_rule == "remove_benefits_illegal_equal" ~ ifelse(illegal==0, pes_payment*n()/(n()-illegal_n), 0),
+      audit == 0 & pes == 1 & police == 0 & split_rule == "remove_benefits_illegal_proportional" ~ ifelse(illegal==0, pes_payment*(harvest_value+10)*n()/sum((harvest_value+10)*(1-illegal)), 0),
+
+      audit == 1 & pes == 1 & police == 0 & split_rule == "equal" ~ pes_payment,
+      audit == 1 & pes == 1 & police == 0 & split_rule == "compliers_only_equal" ~ ifelse(illegal==0, pes_payment, -(illegal*harvest_value) - 70),
+      audit == 1 & pes == 1 & police == 0 & split_rule == "remove_benefits_illegal_equal" ~ ifelse(illegal==0, pes_payment*n()/(n()-illegal_n), -(illegal*harvest_value) - 70),
+      audit == 1 & pes == 1 & police == 0 & split_rule == "remove_benefits_illegal_proportional" ~ ifelse(illegal==0, pes_payment*(harvest_value+10)*n()/sum((harvest_value+10)*(1-illegal)), -(illegal*harvest_value) - 70),
+
+      is.na(split_rule) | split_rule == "no_PES" ~ 0,
+      TRUE ~ 0
+    )
+  ) |>
+  ungroup() |>
+  mutate(
+    earning = round(70 + harvest_payment + additional + illegal*harvest_value - 5*police, 2),
+    earning = ifelse(audit == 1, 0, earning)
+  ) |>
+  relocate(earning, .after = `submission-time`)
+
+# --- Version 2 (seed = 1) for sensitivity ---
+set.seed(1)
+df_4_v2 <- df_4_v1 |>
+  select(-earning, -audit_draw, -audit, -additional) |>
+  group_by(community) |>
+  mutate(
+    illegal_n  = sum(illegal),
+    audit_prob = pmin(0.1 * illegal_n, 1),
+    audit_draw = ifelse(pes == 1 & police == 0, rbinom(n(), 1, audit_prob), 0),
+    audit      = ifelse(sum(audit_draw) > 0, 1, 0),
+    additional = case_when(
+      pes == 0 ~ 0,
+      pes == 1 & police == 1 & split_rule %in% c("equal","compliers_only_equal","remove_benefits_illegal_equal") ~ pes_payment,
+      pes == 1 & police == 1 & split_rule == "remove_benefits_illegal_proportional" ~ pes_payment * (harvest_value+10)/sum(harvest_value+10),
+
+      audit == 0 & pes == 1 & police == 0 & split_rule == "equal" ~ pes_payment,
+      audit == 0 & pes == 1 & police == 0 & split_rule == "compliers_only_equal" ~ ifelse(illegal==0, pes_payment, 0),
+      audit == 0 & pes == 1 & police == 0 & split_rule == "remove_benefits_illegal_equal" ~ ifelse(illegal==0, pes_payment*n()/(n()-illegal_n), 0),
+      audit == 0 & pes == 1 & police == 0 & split_rule == "remove_benefits_illegal_proportional" ~ ifelse(illegal==0, pes_payment*(harvest_value+10)*n()/sum((harvest_value+10)*(1-illegal)), 0),
+
+      audit == 1 & pes == 1 & police == 0 & split_rule == "equal" ~ pes_payment,
+      audit == 1 & pes == 1 & police == 0 & split_rule == "compliers_only_equal" ~ ifelse(illegal==0, pes_payment, -(illegal*harvest_value) - 70),
+      audit == 1 & pes == 1 & police == 0 & split_rule == "remove_benefits_illegal_equal" ~ ifelse(illegal==0, pes_payment*n()/(n()-illegal_n), -(illegal*harvest_value) - 70),
+      audit == 1 & pes == 1 & police == 0 & split_rule == "remove_benefits_illegal_proportional" ~ ifelse(illegal==0, pes_payment*(harvest_value+10)*n()/sum((harvest_value+10)*(1-illegal)), -(illegal*harvest_value) - 70),
+
+      is.na(split_rule) | split_rule == "no_PES" ~ 0,
+      TRUE ~ 0
+    )
+  ) |>
+  ungroup() |>
+  mutate(
+    earning = round(70 + harvest_payment + additional + illegal*harvest_value - 5*police, 2),
+    earning = ifelse(audit == 1, 0, earning)
+  )
+```
+
+------------------------------------------------------------------------
+
+# Bind & Label
+
+```{r}
+all_cp <- bind_rows(df_0, df_1, df_2, df_3, df_4_v1) |>
+  mutate(
+    diff = earning - (70 + harvest_value),  # PES vs counterfactual non-PES
+    period = factor(period,
+                    levels = c("Baseline", "PES", "PES + Ill. Harvest",
+                               "Community PES", "Community PES + Ill. Harvest"))
+  )
+
+all_cp_v2 <- bind_rows(df_0, df_1, df_2, df_3, df_4_v2) |>
+  mutate(
+    diff = earning - (70 + harvest_value),
+    period = factor(period,
+                    levels = c("Baseline", "PES", "PES + Ill. Harvest",
+                               "Community PES", "Community PES + Ill. Harvest"))
+  )
+```
+
+------------------------------------------------------------------------
+
+# Visualizations (with brief takeaways)
+
+## Illegal Harvest vs. Card Value (CP2 & CP4)
+
+Higher card values imply higher **opportunity cost of conserving**, so illegal rates often rise with card value—especially when **not policed**.
+
+```{r}
+all_cp |>
+  filter(period %in% c("PES + Ill. Harvest","Community PES + Ill. Harvest"),
+         !is.na(harvest_value)) |>
+  group_by(period, harvest_value) |>
+  summarise(illegal_rate = mean(illegal %in% TRUE, na.rm = TRUE),
+            n = n(), .groups="drop") |>
+  ggplot(aes(x = harvest_value, y = illegal_rate)) +
+  geom_col(aes(fill = period), position = position_dodge2(preserve = "single"), alpha = .67) +
+  geom_smooth(method = lm, se = FALSE, aes(color = period)) +
+  scale_color_tableau() + scale_fill_tableau() +
+  scale_y_continuous(labels = scales::percent) +
+  labs(x = "Harvest Value", y = "Illegal Rate", fill = "Period", color = "Period") +
+  theme_ipsum()
+```
+
+## Earnings vs. Harvest Value (all periods)
+
+Lines tilt up because more valuable cards boost the **outside option** (harvest), while PES flattens that slope.
+
+```{r}
+all_cp |>
+  ggplot(aes(x = harvest_value + 70, y = earning, color = period)) +
+  geom_point(alpha = 0.8) +
+  geom_smooth(se = FALSE, method = lm) +
+  scale_color_tableau() +
+  labs(title = "Earnings vs. (Farming + Harvest Value) by Policy",
+       x = "Harvest Value + Farming ($)", y = "Earnings ($)", color = "Period")
+```
+
+## “What if you joined PES?” — Earnings Differences
+
+> Right of zero = **PES helped** vs. your non-PES counterfactual.\
+> Left of zero = **PES hurt**, often due to **audits of illegal harvest**.
+
+```{r}
+all_cp |>
+  filter(period != "Baseline") |>
+  ggplot(aes(y = period, x = diff, fill = period)) +
+  geom_boxplot(alpha = 0.85, outlier.colour = 'darkred', outlier.size = rel(2)) +
+  scale_fill_tableau() +
+  scale_x_continuous(breaks = seq(-175, 75, 25)) +
+  labs(
+    title   = "💭 What If You (and Your Community) Joined the PES Program?",
+    subtitle = "Distribution of Earnings Differences Between PES Participants and Their Counterfactual / Real Non-PES Incomes",
+    x = "(PES Earnings) − (Non-PES Earnings)", y = NULL,
+    caption = "(Non-PES = Farming Income + Harvest Value)\nPES earnings can be negative when audits catch illegal harvesting."
+  ) +
+  theme(legend.position = "none")
+```
+
+------------------------------------------------------------------------
+
+# Summary (interactive tables)
+
+Below, click column headers to sort; use the search boxes to filter.
+
+## Community-level Summary (CP3–CP4)
+
+**What to look for:** Which communities joined PES more? Did policing correlate with higher average earnings?
+
+```{r}
+comm_summary <- all_cp |>
+  filter(period %in% c("Community PES", "Community PES + Ill. Harvest")) |>
+  group_by(period, community) |>
+  summarise(
+    n              = n(),
+    mean_earning   = round(mean(earning, na.rm = TRUE), 2),
+    median_earning = round(median(earning, na.rm = TRUE), 2),
+    pes_rate       = round(mean(pes, na.rm = TRUE), 3),
+    illegal_rate   = round(mean(illegal, na.rm = TRUE), 3),
+    policing_rate  = round(mean(police, na.rm = TRUE), 3),
+    mean_card      = round(mean(harvest_value, na.rm = TRUE), 2),
+    .groups = "drop"
+  )
+
+DT::datatable(comm_summary, rownames = FALSE,
+              options = list(pageLength = 10, scrollX = TRUE))
+```
+
+## Split Rule Preferences
+
+**What to look for:** Did groups favor **equal**, **proportional**, or **floor + top-up** rules?
+
+```{r}
+df_rules <- all_cp |>
+  ungroup() |>
+  select(-`id-number`) |>
+  filter(period %in% c("Community PES", "Community PES + Ill. Harvest"),
+         !is.na(split_rule)) |>
+  count(period, split_rule) |>
+  group_by(period) |>
+  mutate(pct = round(100 * n / sum(n), 1)) |>
+  arrange(period, desc(n)) |>
+  ungroup()
+
+DT::datatable(df_rules, rownames = FALSE,
+              options = list(pageLength = 10, scrollX = TRUE))
+```
+
+## Top & Bottom Earners (Total across all periods)
+
+**What to look for:** Do **high-card** players dominate, or do **PES/policing** strategies change the leaderboard?
+
+```{r}
+totals <- all_cp |>
+  group_by(`id-number`) |>
+  summarise(total_earning = sum(earning, na.rm = TRUE), .groups = "drop") |>
+  arrange(desc(total_earning)) |>
+  mutate(rank = row_number())
+
+DT::datatable(bind_rows(
+  head(totals, 5) |> mutate(group = "Top 5"),
+  tail(totals, 5) |> mutate(group = "Bottom 5")
+) |>
+  relocate(group),
+  rownames = FALSE,
+  options = list(pageLength = 10, scrollX = TRUE))
+```
+
+## Lottery (2 randomly selected students)
+
+> Real payout = **Total experimental earnings / 100** (per winner).
+
+```{r}
+lottery_pool <- all_cp |>
+  group_by(`id-number`) |>
+  summarise(real_earning = round(sum(earning, na.rm = T) / 100, 2),
+            .groups = "drop")
+
+set.seed(1)
+winners <- slice_sample(lottery_pool, n = 2)
+
+DT::datatable(winners, rownames = FALSE,
+              options = list(dom = 't', paging = FALSE))
+```
+
+------------------------------------------------------------------------
+
+# Notes on Interpretation
+
+-   **Additionality:** PES is *additional* only if it changes behavior relative to the non-PES baseline.\
+-   **Verifiability/Audits:** Illegal harvesting under PES can erase benefits (and trigger fines).\
+-   **Community governance:** Policing can deter cheating but costs resources; splitting rules shape perceptions of fairness and incentives.\
+-   **Who benefits?** High-card players often prefer harvesting; needs-based or floor-plus rules can shift surplus toward low-card members.

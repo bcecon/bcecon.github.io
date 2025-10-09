@@ -1,0 +1,223 @@
+---
+title: Classwork 7
+subtitle: Quiz 1
+date: 2025-10-08
+code-fold: true
+execute: 
+  echo: false
+  eval: true
+  warning: false
+  message: false
+from: markdown+emoji
+---
+```{r}
+#| include: false
+
+library(knitr)
+library(rmarkdown)
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+
+theme_set(theme_ipsum() +
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = element_text(size = rel(1.5)),
+                axis.title.y = element_text(size = rel(1.5)),
+                legend.title = element_text(size=rel(1.25))
+                ))
+```
+
+
+# Section 1. Multiple Choice and Filling-in-the-Blanks
+
+## Question 1. 
+The Coase Theorem states that if property rights are well defined and transaction costs are negligible, then private bargaining will lead to: 
+
+a. A more equitable distribution of wealth.
+b. The lowest possible transaction costs.
+c. Efficient allocation of resources, even with externalities.
+d. Government intervention to correct market failures.
+
+
+
+::: {.callout-tip collapse="true"}
+### Show answer
+**c.** Efficient allocation of resources, even with externalities.
+
+**Why?** With zero transaction costs and well-defined rights, parties can bargain to internalize externalities and reach the efficient outcome regardless of the initial allocation of rights.
+
+:::
+
+## Question 2.
+For a (pure) public good, individual willingness to pay (WTP) typically ____(a)____ the true Marginal Benefit (MB), resulting in ____(b)____ when provided through the market.
+
+a. (a) understates; (b) underprovision
+b. (a) overstates; (b) overprovision
+c. (a) understates; (b) overprovision
+d. (a) overstates; (b) underprovision
+
+
+::: {.callout-tip collapse="true"}
+### Show answer
+**Answer:** **a.** (a) *understates*; (b) *underprovision*.
+
+**Why?** People have an incentive to free‑ride, so their stated WTP is below their true MB. Summing private demand understates the social MB, yielding too little provision in markets.
+
+:::
+
+
+## Question 3. 
+The two primary characteristics used to classify goods and resources in the table are _________________________ (Does one user's harvest reduce what's left for others?) and _________________________ (Can users who haven't paid be kept out?). 
+
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+**Answer:** **Rivalry** and **Excludability**.
+
+:::
+
+
+
+<!-- ## Question 4. -->
+<!-- Elinor Ostrom's work challenged the notion of the "tragedy of the commons" by showing that many communities succeed through _________________________ without needing full privatization or heavy state control. -->
+
+<!-- $\vspace{3cm}$ -->
+
+
+# Section 2. Analytical Models
+
+Consider a perfectly competitive market for a good whose production generates pollution as a byproduct. The marginal cost ($MC$) of producing the good is given by 
+
+$$
+MC(Q) = 10 + 2Q,
+$$ 
+
+where $Q$ is the quantity produced. The external marginal cost ($EMC$) of pollution is given by 
+
+$$
+EMC(Q) = 2Q.
+$$ 
+
+The market demand is 
+
+$$
+MB(Q) = 70 - 2Q.
+$$
+
+
+
+## Question 4
+Draw the $MB$, $MC$, and $EMC$ curves, and label both the market equilibrium ($Q_M$ and $P_M$) and the socially optimal equilibrium ($Q^*$ and $P^*$).
+
+## Question 5
+Graphically indicate the deadweight loss (DWL) caused by the negative externality on the graph.
+
+
+## Question 6
+Calculate the optimal Pigouvian tax per unit that would lead producers to produce the socially optimal quantity.
+
+
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+**Algebra.**
+
+**Market equilibrium (ignoring externality):** set $MB(Q)=MC(Q)$:  
+  $70 - 2Q = 10 + 2Q \Rightarrow 60 = 4Q \Rightarrow \boxed{Q_M = 15}$.  
+  Price: $\boxed{P_M = MB(15) = MC(15) = 40}$.
+
+**Socially optimal equilibrium:** set $MB(Q)=SMC(Q)$:  
+  $70 - 2Q = 10 + 4Q \Rightarrow 60 = 6Q \Rightarrow \boxed{Q^* = 10}$.  
+  Consumer price at the social optimum (what demand is willing to pay): $\boxed{P^* = MB(10) = 50}$.
+
+**Pigouvian tax:** set $t^{*} = EMC(Q^{*})$:  
+  $t^{*} = EMC(Q^{*}) = 2Q^{*}. \Rightarrow t^{*} = 2Q^{*} \Rightarrow \boxed{t^{*} = 20}$.
+  
+```{r}
+#| fig-align: center
+#| fig-width: 8
+#| fig-height: 8
+
+# Functions
+MB  <- function(Q) 70 - 2*Q
+MCf <- function(Q) 10 + 2*Q
+EMC <- function(Q) 2*Q
+SMC <- function(Q) 10 + 4*Q
+
+# Key quantities
+Q_M <- 15; P_M <- MB(Q_M)
+Q_s <- 10; P_s <- MB(Q_s)
+tax_star <- EMC(Q_s)
+P_prod_star <- MCf(Q_s)
+
+# Define the demand, marginal cost, and social marginal cost functions
+x <- seq(0, 80, 10)
+
+ggplot(data = data.frame(x =x,
+                         y = x)) +
+  geom_point(aes(x=x,y=y), size = 0, color = 'white') +
+  geom_hline(yintercept = 0) +
+  geom_vline(xintercept = 0) +
+  geom_line(data = data.frame(Q = seq(0,35,5), 
+                              Demand = 70 - 2*seq(0,35,5)), 
+            aes(x = Q, y = Demand, color = 'MB'),
+            linewidth = 1.5) +
+  geom_line(data = data.frame(Q = x, 
+                              MC = 10 + 2*x), 
+            aes(x = Q, y = MC, color = 'MC'),
+            linewidth = 1.5) +
+  geom_line(
+    data = data.frame(Q = seq(0, 35, 5),
+                      EMC = 2 * seq(0, 35, 5)),
+    aes(x = Q, y = EMC, color = "EMC"),
+            linewidth = 1.5
+  ) +
+  geom_line(data = data.frame(Q = seq(0, 25, 5), 
+                              SMC = 10 + 4*seq(0,25,5)), 
+            aes(x = Q, y = SMC, color = 'SMC'),
+            linewidth = 1.5) +
+  geom_point(data = data.frame(x = 15, y = 40), aes(x = x, y = y), size = 2) +
+  geom_point(data = data.frame(x = 10, y = 50), aes(x = x, y = y), size = 2) +
+  geom_text(data = data.frame(x = 15+2.5, y = 40), 
+            aes(x = x, y = y),
+            label = expression(E_M)) +
+  geom_text(data = data.frame(x = 10+2.5, y = 50), 
+            aes(x = x, y = y),
+            label = expression(E^"*")) +
+  geom_polygon(data = data.frame(q = c(10, 15, 15), 
+                                 p = c(50, 40, 70)),
+               aes(x = q, y = p), 
+               fill = "grey", alpha = 0.5) +
+  geom_text(data = data.frame(x = 37.5, y = 50), 
+            aes(x = x, y = y),
+            label = "DWL from\n Overproduction") +
+  geom_curve(aes(x = 14, y = 56, xend = 30, yend = 50), 
+             curvature = 0.3, arrow = arrow(length = unit(0.03, "npc")),
+             size = .5) +
+  
+  geom_segment(aes(x = Q_s, xend = Q_s, y = P_prod_star, yend = P_s),
+               linewidth = 1) +
+  geom_text(aes(x = Q_s - 1, y = (P_prod_star + P_s)/2),
+            label = "t* = 20", angle = 90, vjust = 0.5, hjust = 1.1) +
+  scale_x_continuous(breaks = seq(0,80,10)) +
+  scale_y_continuous(breaks = seq(0,80,10)) +
+  scale_color_manual("", 
+                     breaks = c("MB", "MC", "EMC", "SMC"),
+                     values = c("MB" = "blue", 
+                                "MC" = "red", 
+                                "EMC" = "pink", 
+                                "SMC" = "darkred")) +
+  labs(x = 'Q', y= 'P') +
+  ylim(0,80) +
+  guides(fill = guide_legend(title.position = "top",
+                             label.position = "bottom",
+                             keywidth = 3,
+                             nrow = 1)) +
+  theme(legend.position = c(.75, .5),
+        axis.text.y = element_text(angle=90))
+```
+
+:::
