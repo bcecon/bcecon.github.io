@@ -60,7 +60,7 @@ d. (a) overstates; (b) underprovision
 
 ::: {.callout-tip collapse="true"}
 ### Show answer
-**Answer:** **a.** (a) *understates*; (b) *underprovision*.
+**a.** (a) *understates*; (b) *underprovision*.
 
 **Why?** People have an incentive to free‑ride, so their stated WTP is below their true MB. Summing private demand understates the social MB, yielding too little provision in markets.
 
@@ -74,7 +74,7 @@ The two primary characteristics used to classify goods and resources in the tabl
 ::: {.callout-tip collapse="true"}
 ### Show answer
 
-**Answer:** **Rivalry** and **Excludability**.
+**Rivalry** and **Excludability**.
 
 :::
 
