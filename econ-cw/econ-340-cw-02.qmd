@@ -2,9 +2,8 @@
 title: Classwork 2
 subtitle: Externalities
 date: 2025-09-08
-code-fold: true
 execute: 
-  echo: true
+  echo: false
   warning: false
   message: false
 from: markdown+emoji
@@ -38,3 +37,252 @@ c. Find the socially optimal equilibrium price and quantity.
 d. What is total social welfare in the market with the correct Pigouvian tax? Solve for consumer surplus, producer surplus, the externality damage, and the tax revenues algebraically. Also show these areas in your graph from part (b).
 
 <br><br>
+
+
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+```{r}
+#| warning: false
+#| message: false
+#| include: false
+
+library(ggplot2)
+library(dplyr)
+library(scales)
+
+MB  <- function(Q) 100 - 20*Q
+PMC <- function(Q) 10  + 0.5*Q
+EMC <- function(Q) 0.5*Q
+SMC <- function(Q) PMC(Q) + EMC(Q) # = 10 + Q
+
+Q_mkt <- 90/20.5
+P_mkt <- MB(Q_mkt)
+
+Q_soc <- 90/21
+P_c   <- MB(Q_soc)
+P_p   <- PMC(Q_soc)
+tax_per_unit <- P_c - P_p
+
+CS <- 0.5 * (MB(0) - P_c) * Q_soc
+PS <- 0.5 * (P_p - PMC(0)) * Q_soc
+ExternalDamage <- 0.25 * Q_soc^2
+TaxRevenue <- tax_per_unit * Q_soc
+TotalSW_with_tax <- CS + PS + TaxRevenue - ExternalDamage
+
+vals <- list(
+  Q_mkt = Q_mkt, P_mkt = P_mkt,
+  Q_soc = Q_soc, P_c = P_c, P_p = P_p,
+  tax_per_unit = tax_per_unit,
+  CS = CS, PS = PS, ExternalDamage = ExternalDamage,
+  TaxRevenue = TaxRevenue, TotalSW_with_tax = TotalSW_with_tax
+)
+str(lapply(vals, function(x) c(exact = x, numeric = as.numeric(x))), max.level = 1)
+```
+
+---
+
+## (a) Competitive Equilibrium (No Tax)
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-width: 10
+#| fig-height: 6
+library(ggplot2)
+library(dplyr)
+library(scales)
+
+# Curves
+MB  <- function(Q) 100 - 20*Q
+PMC <- function(Q) 10  + 0.5*Q
+EMC <- function(Q) 0.5*Q
+SMC <- function(Q) PMC(Q) + EMC(Q) # = 10 + Q
+
+# (a) Market equilibrium (private): MB = PMC
+Q_mkt <- 90/20.5
+P_mkt <- MB(Q_mkt)
+
+# (c) Social optimum: MB = SMC
+Q_soc <- 90/21              # = 30/7
+P_c   <- MB(Q_soc)          # consumer price with optimal tax
+P_p   <- PMC(Q_soc)         # producer price (net of tax)
+t_star <- P_c - P_p         # should equal EMC(Q_soc)
+
+# Data grid
+grid <- tibble(Q = seq(0, 6, by = 0.005)) |>
+  mutate(MB  = MB(Q),
+         PMC = PMC(Q),
+         SMC = SMC(Q))
+
+# ---- Plot (a): Competitive Equilibrium (No Tax), zoomed ----
+p_a <- ggplot(grid, aes(Q)) +
+  geom_line(aes(y = MB,  linetype = "MB = 100 - 20Q"), linewidth = 1) +
+  geom_line(aes(y = PMC, linetype = "PMC = 10 + 0.5Q"), linewidth = 1) +
+  geom_point(aes(x = Q_mkt, y = P_mkt), size = 3) +
+  geom_vline(xintercept = Q_mkt, linewidth = 0.6, alpha = 0.6) +
+  geom_hline(yintercept = P_mkt, linewidth = 0.6, alpha = 0.6) +
+  annotate("label",
+           x = Q_mkt + 0.18, y = min(39, P_mkt + 6),
+           label = sprintf("Market Eq.\nQ = %.4f\nP = %.4f", Q_mkt, P_mkt),
+           hjust = 0, size = 4, label.size = 0.15) +
+  scale_linetype_manual(values = c("MB = 100 - 20Q" = "solid",
+                                   "PMC = 10 + 0.5Q" = "dashed"),
+                        name = NULL) +
+  labs(x = "Quantity (Q)", y = "Price (P)",
+       title = "(a) Competitive Equilibrium (No Tax) — Zoomed View") +
+  coord_cartesian(xlim = c(0, 5), ylim = c(0, 40)) +
+  theme_minimal(base_size = 16) +
+  theme(
+    legend.position = "top",
+    legend.box = "horizontal",
+    legend.text = element_text(size = 13)
+  ) +
+  guides(
+    linetype = guide_legend(nrow = 2, byrow = TRUE)
+  )
+
+p_a
+```
+
+---
+
+## (b) Social Marginal Cost and (c) Social Optimum
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-width: 10
+#| fig-height: 6
+
+# Build ribbons for shaded areas at the social optimum (restrict to Q <= Q_soc)
+g_soc <- grid |>
+  filter(Q <= Q_soc) |>
+  mutate(Pc = P_c, Pp = P_p)
+
+# Shaded regions:
+# Consumer Surplus: between MB and Pc
+cs_ribbon <- g_soc |>
+  transmute(Q, ymin = Pc, ymax = pmin(MB, 40))  # cap at 40 for neat zoom
+
+# Producer Surplus: between Pp and PMC (where Pp > PMC)
+ps_ribbon <- g_soc |>
+  transmute(Q, ymin = pmin(PMC, Pp), ymax = pmax(PMC, Pp)) |>
+  filter(ymax > ymin)
+
+# Tax Revenue: between Pp and Pc
+tax_ribbon <- g_soc |>
+  transmute(Q, ymin = Pp, ymax = Pc)
+
+# External Damage (marginal): between PMC and SMC
+ed_ribbon <- g_soc |>
+  transmute(Q, ymin = PMC, ymax = SMC)
+
+p_b <- ggplot(grid, aes(Q)) +
+  # Curves
+  geom_line(aes(y = MB,  linetype = "MB = 100 - 20Q"), linewidth = 1) +
+  geom_line(aes(y = PMC, linetype = "PMC = 10 + 0.5Q"), linewidth = 1) +
+  geom_line(aes(y = SMC, linetype = "SMC = 10 + Q"), linewidth = 1) +
+
+  # Shaded areas (order: ED, Tax, PS, CS)
+  geom_ribbon(data = ed_ribbon,  aes(ymin = ymin, ymax = ymax, fill = "External Damage"), alpha = 0.25) +
+  geom_ribbon(data = tax_ribbon, aes(ymin = ymin, ymax = ymax, fill = "Tax Revenue"),     alpha = 0.25) +
+  geom_ribbon(data = ps_ribbon,  aes(ymin = ymin, ymax = ymax, fill = "Producer Surplus"), alpha = 0.35) +
+  geom_ribbon(data = cs_ribbon,  aes(ymin = ymin, ymax = ymax, fill = "Consumer Surplus"), alpha = 0.35) +
+
+  # Social optimum guides
+  geom_point(aes(x = Q_soc, y = P_c), size = 3) +
+  geom_vline(xintercept = Q_soc, linewidth = 0.6, alpha = 0.7) +
+  geom_hline(yintercept = P_c,   linewidth = 0.6, alpha = 0.7) +
+  annotate("label",
+           x = Q_soc + 0.05, y = min(39, P_c + 9),
+           label = sprintf("Social Optimum\nQ = 30/7 ≈ %.2f\nPc = 100/7 ≈ %.2f\nPp = 85/7 ≈ %.2f\nt* = 15/7 ≈ %.2f",
+                           Q_soc, P_c, P_p, t_star),
+           hjust = 0, size = 4, label.size = 0.15) +
+
+  # Separate legend names so ggplot creates two guides
+  scale_fill_manual(
+    name = "Areas",
+    values = c("Consumer Surplus" = "#66c2a5",
+               "Producer Surplus" = "#fc8d62",
+               "Tax Revenue"      = "#8da0cb",
+               "External Damage"  = "#e78ac3")
+  ) +
+  scale_linetype_manual(
+    name = "Curves",
+    values = c("MB = 100 - 20Q" = "solid",
+               "PMC = 10 + 0.5Q" = "dashed",
+               "SMC = 10 + Q"    = "dotdash")
+  ) +
+
+  # Put Areas (fills) on the first row, Curves (linetypes) on the second
+  guides(
+    fill     = guide_legend(order = 1, nrow = 1, byrow = TRUE),
+    linetype = guide_legend(order = 2, nrow = 1, byrow = TRUE)
+  ) +
+
+  labs(x = "Quantity (Q)", y = "Price (P)",
+       title = "(b) SMC and (c) Social Optimum with Pigouvian Tax — Zoomed View",
+       subtitle = "Shaded: CS (green), PS (orange), Tax (blue), External Damage (pink)") +
+  coord_cartesian(xlim = c(0, 5), ylim = c(0, 40)) +
+  theme_minimal(base_size = 16) +
+  theme(
+    legend.position = "top",
+    legend.box = "vertical"   # stack the two guides as two rows
+  )
+
+p_b
+```
+
+---
+
+
+## (d) Algebraic Results
+
+- **Consumer Surplus:**
+
+$$
+CS = \tfrac{1}{2}(100 - P_c)Q^{\text{soc}}
+= \tfrac{1}{2}\left(100 - \tfrac{100}{7}\right)\cdot \tfrac{30}{7}
+= \frac{9000}{49} \approx \mathbf{183.67}.
+$$
+
+- **Producer Surplus (with linear $PMC = 10 + 0.5Q$):**
+
+$$
+PS = \tfrac{1}{2}(P_p - 10)Q^{\text{soc}}
+= \tfrac{1}{2}\left(\tfrac{85}{7} - 10\right)\cdot \tfrac{30}{7}
+= \frac{225}{49} \approx \mathbf{4.59}.
+$$
+
+- **Externality Damage:**
+
+$$
+\text{Damage} = 0.5 \times EMC(Q^{\text{soc}}) \times Q^{\text{soc}}
+= 0.5 \times \left(0.5Q^{\text{soc}}\right) \times Q^{\text{soc}}
+= 0.25\big(Q^{\text{soc}}\big)^2
+= \frac{225}{49} \approx \mathbf{4.59}.
+$$
+
+- **Tax Revenue:**
+
+$$
+TR = t^*\cdot Q^{\text{soc}}
+= \tfrac{15}{7}\cdot \tfrac{30}{7}
+= \frac{450}{49} \approx \mathbf{9.18}.
+$$
+
+- **Total Social Welfare (including tax revenue as a transfer):**
+
+$$
+SW = CS + PS + TR - \text{Damage}
+= \frac{9000}{49} + \frac{225}{49} + \frac{450}{49} - \frac{225}{49}
+= \frac{9450}{49}
+\approx \mathbf{192.86}.
+$$
+
+
+:::

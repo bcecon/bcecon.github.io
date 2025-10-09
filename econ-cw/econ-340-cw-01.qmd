@@ -2,9 +2,8 @@
 title: Classwork 1
 subtitle: Microeconomics Review
 date: 2025-09-02
-code-fold: true
 execute: 
-  echo: true
+  echo: false
   warning: false
   message: false
 from: markdown+emoji
@@ -47,6 +46,201 @@ d. On your graph, shade and label the areas corresponding to CS and PS.
 e. Compute the **total benefit (TB)** for the equilibrium quantity and the **total variable cost (TVC)** of supplying that quantity. Indicate these areas on your graph.  
 
 
+
+::: {.callout-tip collapse="true"}
+### Show answer
+```{r}
+# ===== Given Curves (in inverse form for plotting P vs Q) =====
+# Demand: Q_D = 400 - 20P  ->  P_D(Q) = 20 - 0.05 Q
+# Supply: Q_S = 16P - 32   ->  P_S(Q) = 2 + 0.0625 Q
+P_d <- function(Q) 20 - (1/20)*Q
+P_s <- function(Q) 2 + 0.0625*Q
+
+# ===== Equilibrium =====
+# Solve 400 - 20P = 16P - 32  =>  432 = 36P  =>  P* = 12, Q* = 160
+P_star <- 12
+Q_star <- 160
+
+# Useful intercepts
+P_d0 <- P_d(0)  # demand choke price at Q=0
+P_s0 <- P_s(0)  # supply price at Q=0
+
+# ===== Surpluses and Totals (numbers) =====
+# Consumer Surplus (triangle under demand above P*)
+CS  <- 0.5 * (P_d0 - P_star) * Q_star         # = 0.5*(20-12)*160 = 640
+# Producer Surplus (triangle above supply below P*)
+PS  <- 0.5 * (P_star - P_s0) * Q_star         # = 0.5*(12-2)*160 = 800
+# Total Benefit (area under demand from 0 to Q*)
+TB  <- integrate(function(q) P_d(q), lower=0, upper=Q_star)$value  # = 2560
+# Total Variable Cost (area under supply from 0 to Q*)
+TVC <- integrate(function(q) P_s(q), lower=0, upper=Q_star)$value  # = 1120
+# Revenue check: P*Q* = 12*160 = 1920; PS = Revenue - TVC  => 800 = 1920 - 1120
+
+# tibble(
+#   `Equilibrium Price (P*)` = P_star,
+#   `Equilibrium Quantity (Q*)` = Q_star,
+#   `Consumer Surplus (CS)` = CS,
+#   `Producer Surplus (PS)` = PS,
+#   `Total Benefit (TB)` = TB,
+#   `Total Variable Cost (TVC)` = TVC
+# ) 
+
+# ===== Data for Plotting =====
+Q_max <- 220  # visible range (covers Q* = 160)
+df_curves <- tibble(
+  Q  = seq(0, Q_max, by = 1),
+  Pd = P_d(seq(0, Q_max, by = 1)),
+  Ps = P_s(seq(0, Q_max, by = 1))
+) |>
+  pivot_longer(cols = c(Pd, Ps), names_to = "curve", values_to = "P") |>
+  mutate(curve = recode(curve, Pd = "Demand", Ps = "Supply"))
+
+# Polygons for CS and PS shading (triangles)
+poly_CS <- tibble(
+  Q = c(0, 0, Q_star),
+  P = c(P_star, P_d0, P_star)
+)
+poly_PS <- tibble(
+  Q = c(0, 0, Q_star),
+  P = c(P_star, P_s0, P_star)
+)
+
+# ===== Plot A: Demand & Supply with CS/PS shaded =====
+plot_CS_PS <-
+  ggplot() +
+  # Shading (draw first)
+  geom_polygon(data = poly_CS, aes(Q, P), fill = "forestgreen", alpha = 0.25) +
+  geom_polygon(data = poly_PS, aes(Q, P), fill = "orange", alpha = 0.25) +
+  # Curves
+  geom_line(data = df_curves |> filter(curve == "Demand"),
+            aes(Q, P, color = "Demand"), linewidth = 1.1) +
+  geom_line(data = df_curves |> filter(curve == "Supply"),
+            aes(Q, P, color = "Supply"), linewidth = 1.1) +
+  # Equilibrium markers
+  geom_vline(xintercept = Q_star, linetype = 2) +
+  geom_hline(yintercept = P_star, linetype = 2) +
+  geom_point(aes(Q_star, P_star), size = 3) +
+  annotate("text", x = Q_star + 6, y = P_star + 0.6, label = "E(Q*, P*)", hjust = 0) +
+  # Labels for CS / PS
+  annotate("text", x = Q_star*0.35, y = P_star + (P_d0 - P_star)/2,
+           label = paste0("CS = ", CS), color = "forestgreen") +
+  annotate("text", x = Q_star*0.35, y = P_s0 + (P_star - P_s0)/2,
+           label = paste0("PS = ", PS), color = "orange4") +
+  scale_color_manual(values = c(Demand = "steelblue", Supply = "firebrick")) +
+  scale_x_continuous(breaks = seq(0,200,40)) +
+  coord_cartesian(xlim = c(0, Q_max), ylim = c(0, max(P_d(0), P_s(Q_max)) * 1.05)) +
+  labs(title = "Competitive Market: Demand & Supply with CS and PS",
+       x = "Quantity (Q)", y = "Price (P)", color = "Curve") +
+  theme_minimal(base_size = 13)
+
+plot_CS_PS
+
+# ===== Plot B: TB and TVC shaded (facets) =====
+# Ribbons under curves from 0..Q* to P=0
+df_TB <- tibble(Q = seq(0, Q_star, by = 1), P_top = P_d(seq(0, Q_star, by = 1)), P_bot = 0, Type = "Total Benefit (TB)")
+df_TVC <- tibble(Q = seq(0, Q_star, by = 1), P_top = P_s(seq(0, Q_star, by = 1)), P_bot = 0, Type = "Total Variable Cost (TVC)")
+df_fill <- bind_rows(df_TB, df_TVC)
+
+plot_TB_TVC <-
+  ggplot(df_fill, aes(Q)) +
+  geom_ribbon(aes(ymin = P_bot, ymax = P_top, fill = Type), alpha = 0.25) +
+  geom_line(data = df_curves |> filter(Q <= Q_star),
+            aes(Q, P, color = curve), linewidth = 1) +
+  geom_vline(xintercept = Q_star, linetype = 2) +
+  geom_hline(yintercept = 0, linetype = 1, linewidth = 0.3) +
+  facet_wrap(~ Type, ncol = 2, scales = "free_y") +
+  annotate("text", x = Q_star*0.65, y = P_d(Q_star)*0.8,
+           label = paste0("TB = ", TB), data = tibble(Type = "Total Benefit (TB)")) +
+  annotate("text", x = Q_star*0.65, y = P_s(Q_star)*0.6,
+           label = paste0("TVC = ", TVC), data = tibble(Type = "Total Variable Cost (TVC)")) +
+  scale_x_continuous(breaks = seq(0,160,40)) +
+  scale_color_manual(values = c(Demand = "steelblue", Supply = "firebrick")) +
+  scale_fill_manual(values = c("Total Benefit (TB)" = "seagreen", "Total Variable Cost (TVC)" = "goldenrod")) +
+  labs(title = "Areas Under Curves: TB (Demand) and TVC (Supply)",
+       x = "Quantity (Q)", y = "Price (P)", color = "Curve", fill = "Area") +
+  theme_minimal(base_size = 13)
+
+plot_TB_TVC
+```
+
+
+## Solution 
+
+We are given:
+
+$$
+\begin{align}
+Q_D &= 400 - 20P \\
+Q_S &= 16P - 32
+\end{align}
+$$
+This is equivalent to:
+
+
+$$
+\begin{align}
+MB(Q) &= 20 - \frac{1}{20}Q \\
+MC(Q) &= \frac{1}{16}Q + 2
+\end{align}
+$$
+
+### 1️⃣ Solve for Equilibrium
+
+At equilibrium, $Q_D = Q_S$:
+
+$$
+400 - 20P = 16P - 32
+$$
+
+$$
+432 = 36P \Rightarrow P^* = 12
+$$
+
+Substitute $P^* = 12$ into either equation:
+
+$$
+Q^* = 400 - 20(12) = 160
+$$
+
+Thus,  
+**Equilibrium Price:** $P^* = 12$  
+**Equilibrium Quantity:** $Q^* = 160$
+
+---
+
+### 2️⃣ Compute Surpluses and Totals
+
+- Demand intercept (where $Q_D = 0$):  
+  $400 - 20P = 0 \Rightarrow P = 20$
+
+- Supply intercept (where $Q_S = 0$):  
+  $16P - 32 = 0 \Rightarrow P = 2$
+
+Then:
+
+$$
+CS = \tfrac{1}{2}(P_{max} - P^*)Q^* = \tfrac{1}{2}(20 - 12)(160) = 640
+$$
+
+$$
+PS = \tfrac{1}{2}(P^* - P_{min})Q^* = \tfrac{1}{2}(12 - 2)(160) = 800
+$$
+
+Total Benefit (area under demand curve up to $Q^*$):
+
+$$
+TB = \frac{1}{2}(20 + 12)\times 160 = 2560
+$$
+
+Total Variable Cost (area under supply curve up to $Q^*$):
+
+$$
+TVC = \frac{1}{2}(2 + 12)\times 160 = 1120
+$$
+
+:::
+
+
 <br><br>
 
 <!-- ## Question 2. Externalities -->
@@ -58,3 +252,4 @@ e. Compute the **total benefit (TB)** for the equilibrium quantity and the **tot
 <!-- c. Find the socially optimal equilibrium price and quantity. -->
 
 <!-- <br><br> -->
+
