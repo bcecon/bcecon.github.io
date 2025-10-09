@@ -50,17 +50,17 @@ d. Government intervention to correct market failures.
 :::
 
 ## Question 2.
-For a (pure) public good, individual willingness to pay (WTP) typically ____(a)____ the true Marginal Benefit (MB), resulting in ____(b)____ when provided through the market.
+For a (pure) public good, individual willingness to pay (WTP) typically ____*(a)*____ the true Marginal Benefit (MB), resulting in ____*(b)*____ when provided through the market.
 
-a. (a) understates; (b) underprovision
-b. (a) overstates; (b) overprovision
-c. (a) understates; (b) overprovision
-d. (a) overstates; (b) underprovision
+a.  *(a)* understates; *(b)* underprovision
+b.  *(a)* overstates; *(b)* overprovision
+c.  *(a)* understates; *(b)* overprovision
+d.  *(a)* overstates; *(b)* underprovision
 
 
 ::: {.callout-tip collapse="true"}
 ### Show answer
-**a.** (a) *understates*; (b) *underprovision*.
+**a.** *(a)* *understates*; *(b)* *underprovision*.
 
 **Why?** People have an incentive to free‑ride, so their stated WTP is below their true MB. Summing private demand understates the social MB, yielding too little provision in markets.
 
