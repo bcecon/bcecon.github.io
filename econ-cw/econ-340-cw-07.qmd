@@ -165,8 +165,8 @@ ggplot(data = data.frame(x =x,
                               Demand = 70 - 2*seq(0,35,5)), 
             aes(x = Q, y = Demand, color = 'MB'),
             linewidth = 1.5) +
-  geom_line(data = data.frame(Q = x, 
-                              MC = 10 + 2*x), 
+  geom_line(data = data.frame(Q = seq(0, 30, 5), 
+                              MC = 10 + 2*seq(0, 30, 5)), 
             aes(x = Q, y = MC, color = 'MC'),
             linewidth = 1.5) +
   geom_line(
@@ -175,8 +175,8 @@ ggplot(data = data.frame(x =x,
     aes(x = Q, y = EMC, color = "EMC"),
             linewidth = 1.5
   ) +
-  geom_line(data = data.frame(Q = seq(0, 25, 5), 
-                              SMC = 10 + 4*seq(0,25,5)), 
+  geom_line(data = data.frame(Q = seq(0, 15, 5), 
+                              SMC = 10 + 4*seq(0,15,5)), 
             aes(x = Q, y = SMC, color = 'SMC'),
             linewidth = 1.5) +
   geom_point(data = data.frame(x = 15, y = 40), aes(x = x, y = y), size = 2) +
@@ -211,7 +211,6 @@ ggplot(data = data.frame(x =x,
                                 "EMC" = "pink", 
                                 "SMC" = "darkred")) +
   labs(x = 'Q', y= 'P') +
-  ylim(0,80) +
   guides(fill = guide_legend(title.position = "top",
                              label.position = "bottom",
                              keywidth = 3,
