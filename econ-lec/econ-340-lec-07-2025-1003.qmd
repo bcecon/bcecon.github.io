@@ -495,7 +495,7 @@ You are a **household** in rural *Ephoria*, a low-income tropical country.
 
 
 
-## 🧠 Reflective Prompts for Class Discussion
+## 🧠 Discussion
 
 - In our experiment, who gained most from PES — low-card or high-card players?  
 - Did community-level decision-making improve or reduce fairness?  
