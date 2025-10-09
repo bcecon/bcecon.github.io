@@ -49,6 +49,51 @@ e. Compute the **total benefit (TB)** for the equilibrium quantity and the **tot
 
 ::: {.callout-tip collapse="true"}
 ### Show answer
+
+
+
+We are given:
+
+$$
+\begin{align}
+Q_D &= 400 - 20P \\
+Q_S &= 16P - 32
+\end{align}
+$$
+This is equivalent to:
+
+$$
+\begin{align}
+MB(Q) &= 20 - \frac{1}{20}Q \\
+MC(Q) &= \frac{1}{16}Q + 2
+\end{align}
+$$
+
+
+
+### 1️⃣ Solve for Equilibrium
+
+At equilibrium, $Q_D = Q_S$:
+
+$$
+400 - 20P = 16P - 32
+$$
+
+$$
+432 = 36P \Rightarrow P^* = 12
+$$
+
+Substitute $P^* = 12$ into either equation:
+
+$$
+Q^* = 400 - 20(12) = 160
+$$
+
+Thus,  
+**Equilibrium Price:** $P^* = 12$  
+**Equilibrium Quantity:** $Q^* = 160$
+
+
 ```{r}
 # ===== Given Curves (in inverse form for plotting P vs Q) =====
 # Demand: Q_D = 400 - 20P  ->  P_D(Q) = 20 - 0.05 Q
@@ -164,47 +209,6 @@ plot_TB_TVC
 ```
 
 
-## Solution 
-
-We are given:
-
-$$
-\begin{align}
-Q_D &= 400 - 20P \\
-Q_S &= 16P - 32
-\end{align}
-$$
-This is equivalent to:
-
-
-$$
-\begin{align}
-MB(Q) &= 20 - \frac{1}{20}Q \\
-MC(Q) &= \frac{1}{16}Q + 2
-\end{align}
-$$
-
-### 1️⃣ Solve for Equilibrium
-
-At equilibrium, $Q_D = Q_S$:
-
-$$
-400 - 20P = 16P - 32
-$$
-
-$$
-432 = 36P \Rightarrow P^* = 12
-$$
-
-Substitute $P^* = 12$ into either equation:
-
-$$
-Q^* = 400 - 20(12) = 160
-$$
-
-Thus,  
-**Equilibrium Price:** $P^* = 12$  
-**Equilibrium Quantity:** $Q^* = 160$
 
 ---
 
