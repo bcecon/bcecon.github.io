@@ -90,18 +90,18 @@ format:
 
 
 
-## $\bullet\,$ :rocket: Lecture
+## :rocket: Lecture
 
 :::{#econ-340-lec}
 :::
 
 
-## $\bullet\,$ :keyboard: Classwork
+## :keyboard: Classwork
 
 :::{#econ-340-cw}
 :::
 
-## $\bullet\,$ :computer: Homework
+## :computer: Homework
 
 :::{#econ-340-hw}
 :::
