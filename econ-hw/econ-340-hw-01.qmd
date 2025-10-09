@@ -622,9 +622,6 @@ Propose and briefly explain two distinct public policies that could be implement
 ## **g**. 
 Suppose the government decides to impose a Pigouvian tax to internalize the external costs of oil pollution. Calculate the optimal tax rates in the present and in the future and explain how it would affect the market equilibrium and social welfare.
 
-
-**_Answer_**:
-
 **Pigouvian Tax for Oil Production:**
 
 ::: {.callout-tip collapse="true"}
