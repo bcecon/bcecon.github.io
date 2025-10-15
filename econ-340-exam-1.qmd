@@ -119,13 +119,19 @@ P_S  <- 50  # Social optimum price
 p_equil <- p +
   # Market equilibrium point EM
   geom_point(aes(x = Q_M, y = P_M), color = "black", size = 3) +
-  annotate("text", x = Q_M, y = P_M - 10, 
+  annotate("text", x = Q_M - .5, y = P_M - 10, 
            label = expression(E[M]), hjust = 0, size = 5) +
   
   # Social optimum point E*
   geom_point(aes(x = Q_S, y = P_S), color = "black", size = 3, shape = 17) +
-  annotate("text", x = Q_S, y = P_S + 12.5,
-           label = expression(E^"*"), hjust = 0, size = 5)
+  annotate("text", x = Q_S - .5, y = P_S + 12.5,
+           label = expression(E^"*"), hjust = 0, size = 5) +
+  scale_x_continuous(breaks = x,
+                     labels = c(expression(0), expression(Q^"*" == 10), expression(Q[M] == 20), expression(30), expression(40))
+                     ) +
+  scale_y_continuous(breaks = y,
+                     labels = c(expression(0), expression(10), expression(20), expression(P[M] == 30), expression(40), expression(P^"*" == 50), expression(60), expression(70), expression(80), expression(90), expression(100))
+) 
 
 ```
 
@@ -543,7 +549,7 @@ Briefly describe how **community governance** can both **address** and **create*
 ::: {.callout-tip collapse="true"}
 #### Show answer
 
-Community governance can enhance PES success by enabling local monitoring, social pressure, and rule enforcement, which reduce illegal harvesting. When communities collectively agree on conservation rules and share PES payments, peer accountability increases compliance. However, community governance can also create challenges if elite capture, unequal distribution of benefits, or lack of trust arises. If some members believe others will free-ride or illegally harvest while still sharing the PES payment, they may be discouraged from cooperating. This tension highlights the dual role of community governance as both a solution through cooperation and a potential source of conflict and enforcement difficulty.
+**Community governance** can enhance PES success by enabling **local monitoring, social pressure, and rule enforcement**, which help **reduce illegal harvesting**. When communities **agree on conservation rules** and **share PES payments**, **social pressure to follow the rules** strengthens compliance. However, challenges may arise if **elite capture**, **unequal distribution of benefits**, or **lack of trust** occurs. If some members believe others will **free-ride or harvest illegally** while still receiving PES benefits, they may become **less willing to cooperate**. This highlights the **dual role of community governance**—it can support **collective conservation**, but it can also **generate tension and enforcement difficulties** if fairness and trust break down.
 
 :::
 
@@ -699,7 +705,7 @@ df_TB <- tibble(Q = seq(0, Q_M, by = 0.1),
 p_equil + 
   geom_ribbon(data = df_TB, aes(x = Q, ymin = 0, ymax = MB),
               fill = "grey60", alpha = 0.35) +
-  annotate("text", x = Q_M*0.45, y = 45, label = "TB", fontface = "bold")
+  annotate("text", x = Q_M*0.45, y = 35, label = "TB", fontface = "bold")
 ```
 
 
@@ -729,7 +735,7 @@ df_TC <- tibble(Q = seq(0, Q_M, by = 0.1),
 p_equil +
   geom_ribbon(data = df_TC, aes(x = Q, ymin = 0, ymax = MC),
               fill = "grey40", alpha = 0.30) +
-  annotate("text", x = Q_M*0.65, y = 18, label = "TC", fontface = "bold")
+  annotate("text", x = Q_M*0.65, y = 12, label = "TC", fontface = "bold")
 ```
 
 
@@ -790,7 +796,7 @@ p_equil +
   geom_ribbon(data = df_PS, aes(x = Q, ymin = MC, ymax = Pline),
               fill = "grey50", alpha = 0.35) +
   annotate("segment", x = 0, xend = Q_M, y = P_M, yend = P_M, linetype = "dashed") +
-  annotate("text", x = Q_M*0.65, y = P_M - 8, label = "PS", fontface = "bold")
+  annotate("text", x = Q_S*0.65, y = P_M - 8, label = "PS", fontface = "bold")
 ```
 
 
@@ -823,7 +829,7 @@ df_EC <- tibble(Q = seq(0, Q_M, by = 0.1),
 p_equil +
   geom_ribbon(data = df_EC, aes(x = Q, ymin = 0, ymax = EMC),
               fill = "grey20", alpha = 0.20) +
-  annotate("text", x = Q_M*0.65, y = 28, label = "EC", fontface = "bold")
+  annotate("text", x = Q_M*0.65, y = 18, label = "EC", fontface = "bold")
 ```
 
 
@@ -857,8 +863,8 @@ df_DWL <- tibble(Q = seq(Q_star, Q_M, by = 0.1),
 
 p_equil +
   geom_ribbon(data = df_DWL, aes(x = Q, ymin = MB, ymax = SMC),
-              fill = "white", alpha = 0.0, color = "black", linetype = "dashed") +
-  annotate("text", x = (Q_star + Q_M)/2, y = 42, label = "DWL", fontface = "bold")
+              fill = "grey20", alpha = 0.20) +
+  annotate("text", x = 17.5, y = 53, label = "DWL", fontface = "bold")
 ```
 
 
@@ -884,12 +890,26 @@ $$
 
 
 
-::: {.callout-tip collapse="true"}
+:::: {.callout-tip collapse="true"}
 #### Show answer
+
+Once we identify **CS**, **PS**, and **External Cost (EC)** on the graph, we see that:
+
+$$
+SW = CS + PS - EC = 0
+$$
+
+
+
+**✅ Result:**  
+At the market equilibrium, **net social welfare is zero** once external damages are subtracted. This indicates that private gains are fully offset by environmental harm.
+
+::: callout-note
 
 **Compute Social Welfare at $E_M$**
 
-Recall:
+Recall:  
+
 - Consumer Surplus $CS = 400$
 - Producer Surplus $PS = 200$
 - External Cost $EC = 600$
@@ -899,10 +919,10 @@ $$
 SW = CS + PS - EC = 400 + 200 - 600 = 0
 $$
 
-**✅ Result:**  
-At the market equilibrium, **net social welfare is zero** once external damages are subtracted. This indicates that private gains are fully offset by environmental harm.
-
 :::
+
+
+::::
 
 
 
