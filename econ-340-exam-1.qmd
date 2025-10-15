@@ -170,6 +170,61 @@ d. The equilibrium price times quantity
 **Explanation**:  
 In welfare analysis, the **total benefit to consumers** is calculated as the **area under the demand curve** up to the quantity consumed. This area captures the **sum of individual marginal benefits ($MB$)** for each unit purchased. The **supply curve represents marginal cost**, not benefits, and **equilibrium price × quantity** represents **total expenditure**, not welfare benefit.
 
+
+#### How Total Benefit (TB) Comes from Marginal Benefit (MB) — No Calculus Needed
+
+Think of **Marginal Benefit (MB)** as the **value of each extra unit** you consume.  
+If you buy units one by one, you could make a list like:
+
+| Unit | Value (MB) |
+|------|-----------|
+| 1st unit | MB₁ |
+| 2nd unit | MB₂ |
+| 3rd unit | MB₃ |
+| ... | ... |
+
+Then your **Total Benefit (TB)** is simply:
+
+$$
+TB = MB_1 + MB_2 + MB_3 + \cdots + MB_n 
+$$
+
+That is just **adding up** the value of each unit. **No calculus — only summation.**
+
+
+#### Visual Interpretation
+
+- On a graph, we put **Quantity (Q)** on the **x-axis** and **Marginal Benefit (MB)** on the **y-axis**.
+- Each unit of Q can be drawn as a **vertical bar** whose **height** is the **MB for that unit**.
+- **Stacking these bars side by side** builds a **staircase of value**.
+- If you **shade all the bars from Q = 0 up to Q = 20**, that **entire shaded area represents TB**.
+
+> ✅ **Key Idea:**  
+> **Total Benefit is just the sum of all tiny MB rectangles**.  
+> When we draw them with bars, we can **see** TB building up **one block at a time**.
+
+
+
+#### Why economists sometimes say “area under the MB curve”
+
+If we keep making the bars **thinner and thinner** (like cutting the units into very fine pieces), the stacked bars start to look like a **smooth shaded area**.
+
+Even without using integrals, we can say:
+
+> **TB = Sum of tiny MB bars × tiny width of each bar**
+
+As the bars get thinner:
+$$
+TB(Q) \approx \sum_{i=1}^{n} MB(Q_i) \cdot \Delta Q_i
+\quad \text{(many thin bars stacked side by side)},
+$$
+
+- **$\Delta Q_i$** is the **width of that small step in quantity**.
+
+So, **“area under the MB curve” simply means “adding up the value of lots of tiny MB bars.”**
+
+
+![](tb_under_mb.gif)
 :::
 
 
@@ -199,6 +254,7 @@ In the case of a **negative externality**, the market produces **too much**, bec
 Importantly, **government tax revenue itself is not a welfare loss**.  
 
 A **price change alone does not create DWL**—DWL occurs **when markets fail to reach the socially efficient level of trade**.  
+
 - With **taxes or price controls**, this happens because **some mutually beneficial trades are prevented**.  
 - With **externalities**, buyers and sellers may still trade, but **they ignore the external cost to third parties**, leading to **too many trades** from society’s perspective, which also creates DWL.
 
@@ -305,14 +361,20 @@ b. The opportunity cost of not conserving the forest.
 c. A random environmental shock.
 d. The audit penalty applied to each household.
 
-::: {.callout-tip collapse="true"}
+:::: {.callout-tip collapse="true"}
 ### Show answer
 **b. The opportunity cost of not conserving the forest.**
 
 **Explanation**:  
 In the **REDD+ framework**, the **harvest value** represents how much income a household could earn by **illegally harvesting the forest**. Choosing conservation means **giving up that potential income**, which is the **opportunity cost** of preserving the forest. **Higher harvest values** increase the **temptation to defect**, making enforcement and cooperation more challenging.
 
+:::callout-note
+**Opportunity cost** is the **value of the next best alternative that must be given up** when a choice is made.
+
+It represents **what you forgo** in order to take a particular action — **not just the money spent, but the benefit you could have received from the best alternative option.**
 :::
+
+::::
 
 
 
@@ -641,61 +703,6 @@ p_equil +
   annotate("text", x = Q_M*0.45, y = 45, label = "TB", fontface = "bold")
 ```
 
-
-#### How Total Benefit (TB) Comes from Marginal Benefit (MB) — No Calculus Needed
-
-Think of **Marginal Benefit (MB)** as the **value of each extra unit** you consume.  
-If you buy units one by one, you could make a list like:
-
-| Unit | Value (MB) |
-|------|-----------|
-| 1st unit | MB₁ |
-| 2nd unit | MB₂ |
-| 3rd unit | MB₃ |
-| ... | ... |
-
-Then your **Total Benefit (TB)** is simply:
-
-$$
-TB = MB_1 + MB_2 + MB_3 + \cdots + MB_n 
-$$
-
-That is just **adding up** the value of each unit. **No calculus — only summation.**
-
-
-#### Visual Interpretation
-
-- On a graph, we put **Quantity (Q)** on the **x-axis** and **Marginal Benefit (MB)** on the **y-axis**.
-- Each unit of Q can be drawn as a **vertical bar** whose **height** is the **MB for that unit**.
-- **Stacking these bars side by side** builds a **staircase of value**.
-- If you **shade all the bars from Q = 0 up to Q = 20**, that **entire shaded area represents TB**.
-
-> ✅ **Key Idea:**  
-> **Total Benefit is just the sum of all tiny MB rectangles**.  
-> When we draw them with bars, we can **see** TB building up **one block at a time**.
-
-
-
-#### Why economists sometimes say “area under the MB curve”
-
-If we keep making the bars **thinner and thinner** (like cutting the units into very fine pieces), the stacked bars start to look like a **smooth shaded area**.
-
-Even without using integrals, we can say:
-
-> **TB = Sum of tiny MB bars × tiny width of each bar**
-
-As the bars get thinner:
-$$
-TB(Q) \approx \sum_{i=1}^{n} MB(Q_i) \cdot \Delta Q_i
-\quad \text{(many thin bars stacked side by side)},
-$$
-
-- **$\Delta Q_i$** is the **width of that small step in quantity**.
-
-So, **“area under the MB curve” simply means “adding up the value of lots of tiny MB bars.”**
-
-
-![](tb_under_mb.gif)
 
 
 :::

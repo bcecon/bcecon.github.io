@@ -380,6 +380,73 @@ Show answer
 <p><strong>b. The area under the demand curve</strong></p>
 <p><strong>Explanation</strong>:<br>
 In welfare analysis, the <strong>total benefit to consumers</strong> is calculated as the <strong>area under the demand curve</strong> up to the quantity consumed. This area captures the <strong>sum of individual marginal benefits (<span class="math inline">\(MB\)</span>)</strong> for each unit purchased. The <strong>supply curve represents marginal cost</strong>, not benefits, and <strong>equilibrium price × quantity</strong> represents <strong>total expenditure</strong>, not welfare benefit.</p>
+<section id="how-total-benefit-tb-comes-from-marginal-benefit-mb-no-calculus-needed" class="level4">
+<h4 class="anchored" data-anchor-id="how-total-benefit-tb-comes-from-marginal-benefit-mb-no-calculus-needed">How Total Benefit (TB) Comes from Marginal Benefit (MB) — No Calculus Needed</h4>
+<p>Think of <strong>Marginal Benefit (MB)</strong> as the <strong>value of each extra unit</strong> you consume.<br>
+If you buy units one by one, you could make a list like:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Unit</th>
+<th>Value (MB)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1st unit</td>
+<td>MB₁</td>
+</tr>
+<tr class="even">
+<td>2nd unit</td>
+<td>MB₂</td>
+</tr>
+<tr class="odd">
+<td>3rd unit</td>
+<td>MB₃</td>
+</tr>
+<tr class="even">
+<td>…</td>
+<td>…</td>
+</tr>
+</tbody>
+</table>
+<p>Then your <strong>Total Benefit (TB)</strong> is simply:</p>
+<p><span class="math display">\[
+TB = MB_1 + MB_2 + MB_3 + \cdots + MB_n
+\]</span></p>
+<p>That is just <strong>adding up</strong> the value of each unit. <strong>No calculus — only summation.</strong></p>
+</section>
+<section id="visual-interpretation" class="level4">
+<h4 class="anchored" data-anchor-id="visual-interpretation">Visual Interpretation</h4>
+<ul>
+<li>On a graph, we put <strong>Quantity (Q)</strong> on the <strong>x-axis</strong> and <strong>Marginal Benefit (MB)</strong> on the <strong>y-axis</strong>.</li>
+<li>Each unit of Q can be drawn as a <strong>vertical bar</strong> whose <strong>height</strong> is the <strong>MB for that unit</strong>.</li>
+<li><strong>Stacking these bars side by side</strong> builds a <strong>staircase of value</strong>.</li>
+<li>If you <strong>shade all the bars from Q = 0 up to Q = 20</strong>, that <strong>entire shaded area represents TB</strong>.</li>
+</ul>
+<blockquote class="blockquote">
+<p>✅ <strong>Key Idea:</strong><br>
+<strong>Total Benefit is just the sum of all tiny MB rectangles</strong>.<br>
+When we draw them with bars, we can <strong>see</strong> TB building up <strong>one block at a time</strong>.</p>
+</blockquote>
+</section>
+<section id="why-economists-sometimes-say-area-under-the-mb-curve" class="level4">
+<h4 class="anchored" data-anchor-id="why-economists-sometimes-say-area-under-the-mb-curve">Why economists sometimes say “area under the MB curve”</h4>
+<p>If we keep making the bars <strong>thinner and thinner</strong> (like cutting the units into very fine pieces), the stacked bars start to look like a <strong>smooth shaded area</strong>.</p>
+<p>Even without using integrals, we can say:</p>
+<blockquote class="blockquote">
+<p><strong>TB = Sum of tiny MB bars × tiny width of each bar</strong></p>
+</blockquote>
+<p>As the bars get thinner: <span class="math display">\[
+TB(Q) \approx \sum_{i=1}^{n} MB(Q_i) \cdot \Delta Q_i
+\quad \text{(many thin bars stacked side by side)},
+\]</span></p>
+<ul>
+<li><strong><span class="math inline">\(\Delta Q_i\)</span></strong> is the <strong>width of that small step in quantity</strong>.</li>
+</ul>
+<p>So, <strong>“area under the MB curve” simply means “adding up the value of lots of tiny MB bars.”</strong></p>
+<p><img src="tb_under_mb.gif" class="img-fluid"></p>
+</section>
 </div>
 </div>
 </div>
@@ -414,9 +481,12 @@ Show answer
 </ul>
 <p>In the case of a <strong>negative externality</strong>, the market produces <strong>too much</strong>, because <strong>private decision-makers ignore external harm</strong>, leading to a <strong>welfare loss even though trades appear privately beneficial</strong>.</p>
 <p>Importantly, <strong>government tax revenue itself is not a welfare loss</strong>.</p>
-<p>A <strong>price change alone does not create DWL</strong>—DWL occurs <strong>when markets fail to reach the socially efficient level of trade</strong>.<br>
-- With <strong>taxes or price controls</strong>, this happens because <strong>some mutually beneficial trades are prevented</strong>.<br>
-- With <strong>externalities</strong>, buyers and sellers may still trade, but <strong>they ignore the external cost to third parties</strong>, leading to <strong>too many trades</strong> from society’s perspective, which also creates DWL.</p>
+<p>A <strong>price change alone does not create DWL</strong>—DWL occurs <strong>when markets fail to reach the socially efficient level of trade</strong>.</p>
+<ul>
+<li>With <strong>taxes or price controls</strong>, this happens because <strong>some mutually beneficial trades are prevented</strong>.<br>
+</li>
+<li>With <strong>externalities</strong>, buyers and sellers may still trade, but <strong>they ignore the external cost to third parties</strong>, leading to <strong>too many trades</strong> from society’s perspective, which also creates DWL.</li>
+</ul>
 </div>
 </div>
 </div>
@@ -552,31 +622,6 @@ In an <strong>open-access</strong> resource setting, individuals continue to exp
 <li>The audit penalty applied to each household.</li>
 </ol>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Show answer
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-8" class="callout-8-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p><strong>b. The opportunity cost of not conserving the forest.</strong></p>
-<p><strong>Explanation</strong>:<br>
-In the <strong>REDD+ framework</strong>, the <strong>harvest value</strong> represents how much income a household could earn by <strong>illegally harvesting the forest</strong>. Choosing conservation means <strong>giving up that potential income</strong>, which is the <strong>opportunity cost</strong> of preserving the forest. <strong>Higher harvest values</strong> increase the <strong>temptation to defect</strong>, making enforcement and cooperation more challenging.</p>
-</div>
-</div>
-</div>
-</section>
-</section>
-<section id="section-2.-filling-in-the-blanks" class="level1">
-<h1>Section 2. Filling-in-the-Blanks</h1>
-<section id="question-9" class="level2">
-<h2 class="anchored" data-anchor-id="question-9">Question 9</h2>
-<p>The Coase Theorem states that if _________________________ are well-defined and _________________________ are negligible, private bargaining leads to efficient outcomes.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -588,16 +633,33 @@ Show answer
 </div>
 <div id="callout-9" class="callout-9-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><strong>property rights; transaction costs</strong></p>
+<p><strong>b. The opportunity cost of not conserving the forest.</strong></p>
 <p><strong>Explanation</strong>:<br>
-The <strong>Coase Theorem</strong> argues that when <strong>property rights are clearly assigned</strong> and there are <strong>no significant transaction or negotiation costs</strong>, private individuals can <strong>bargain efficiently</strong> and reach the <strong>socially optimal level of externality reduction</strong>, regardless of who initially holds the rights. The key requirements are <strong>well-defined property rights</strong> and <strong>low negotiation/enforcement costs</strong>.</p>
+In the <strong>REDD+ framework</strong>, the <strong>harvest value</strong> represents how much income a household could earn by <strong>illegally harvesting the forest</strong>. Choosing conservation means <strong>giving up that potential income</strong>, which is the <strong>opportunity cost</strong> of preserving the forest. <strong>Higher harvest values</strong> increase the <strong>temptation to defect</strong>, making enforcement and cooperation more challenging.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Opportunity cost</strong> is the <strong>value of the next best alternative that must be given up</strong> when a choice is made.</p>
+<p>It represents <strong>what you forgo</strong> in order to take a particular action — <strong>not just the money spent, but the benefit you could have received from the best alternative option.</strong></p>
+</div>
+</div>
 </div>
 </div>
 </div>
 </section>
-<section id="question-10" class="level2">
-<h2 class="anchored" data-anchor-id="question-10">Question 10</h2>
-<p>Elinor Ostrom’s work challenged the notion of the “tragedy of the commons” by showing that many communities succeed through _________________________ without needing full privatization or heavy state control.</p>
+</section>
+<section id="section-2.-filling-in-the-blanks" class="level1">
+<h1>Section 2. Filling-in-the-Blanks</h1>
+<section id="question-9" class="level2">
+<h2 class="anchored" data-anchor-id="question-9">Question 9</h2>
+<p>The Coase Theorem states that if _________________________ are well-defined and _________________________ are negligible, private bargaining leads to efficient outcomes.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -610,16 +672,16 @@ Show answer
 </div>
 <div id="callout-10" class="callout-10-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><strong>self-governance (or community-based governance)</strong></p>
+<p><strong>property rights; transaction costs</strong></p>
 <p><strong>Explanation</strong>:<br>
-<strong>Elinor Ostrom</strong> demonstrated through field research that <strong>local communities</strong> often develop their own <strong>rules, monitoring systems, and enforcement mechanisms</strong> to sustainably manage common resources <strong>without relying solely on privatization or centralized government regulation</strong>. This form of collective management is known as <strong>self-governance</strong>.</p>
+The <strong>Coase Theorem</strong> argues that when <strong>property rights are clearly assigned</strong> and there are <strong>no significant transaction or negotiation costs</strong>, private individuals can <strong>bargain efficiently</strong> and reach the <strong>socially optimal level of externality reduction</strong>, regardless of who initially holds the rights. The key requirements are <strong>well-defined property rights</strong> and <strong>low negotiation/enforcement costs</strong>.</p>
 </div>
 </div>
 </div>
 </section>
-<section id="question-11" class="level2">
-<h2 class="anchored" data-anchor-id="question-11">Question 11</h2>
-<p>In open access common-pool resources, every single user ignores the _________________________ imposed on other users and the future users.</p>
+<section id="question-10" class="level2">
+<h2 class="anchored" data-anchor-id="question-10">Question 10</h2>
+<p>Elinor Ostrom’s work challenged the notion of the “tragedy of the commons” by showing that many communities succeed through _________________________ without needing full privatization or heavy state control.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -631,6 +693,28 @@ Show answer
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>self-governance (or community-based governance)</strong></p>
+<p><strong>Explanation</strong>:<br>
+<strong>Elinor Ostrom</strong> demonstrated through field research that <strong>local communities</strong> often develop their own <strong>rules, monitoring systems, and enforcement mechanisms</strong> to sustainably manage common resources <strong>without relying solely on privatization or centralized government regulation</strong>. This form of collective management is known as <strong>self-governance</strong>.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="question-11" class="level2">
+<h2 class="anchored" data-anchor-id="question-11">Question 11</h2>
+<p>In open access common-pool resources, every single user ignores the _________________________ imposed on other users and the future users.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-12" class="callout-12-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><strong>stock externality (external cost or social cost)</strong></p>
 <p><strong>Explanation</strong>:<br>
@@ -649,27 +733,6 @@ Under <strong>open access</strong>, individuals only consider their <strong>priv
 <p>What is the definition of a <strong>positive externality</strong>?</p>
 <p><em>Write approximately 1–2 sentences.</em></p>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Show answer
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-12" class="callout-12-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>A <strong>positive externality</strong> is a <strong>positive side effect</strong> of a market transaction that <strong>benefits others who are not directly involved</strong> as buyers or sellers. As a result, the <strong>social marginal benefit (<span class="math inline">\(SMB\)</span>)</strong> is <strong>greater</strong> than the <strong>private marginal benefit (<span class="math inline">\(MB\)</span>)</strong>.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="part-b" class="level3">
-<h3 class="anchored" data-anchor-id="part-b">Part B</h3>
-<p>What is the definition of a <strong>public good</strong>?</p>
-<p><em>Write approximately 1–2 sentences.</em></p>
-<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -681,15 +744,15 @@ Show answer
 </div>
 <div id="callout-13" class="callout-13-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>A public good is a good that is non-excludable (people cannot be prevented from using it) and non-rivalrous (one person’s consumption does not reduce availability for others). Examples include clean air, climate stability, or lighthouse signals.</p>
+<p>A <strong>positive externality</strong> is a <strong>positive side effect</strong> of a market transaction that <strong>benefits others who are not directly involved</strong> as buyers or sellers. As a result, the <strong>social marginal benefit (<span class="math inline">\(SMB\)</span>)</strong> is <strong>greater</strong> than the <strong>private marginal benefit (<span class="math inline">\(MB\)</span>)</strong>.</p>
 </div>
 </div>
 </div>
 </section>
-<section id="part-c" class="level3">
-<h3 class="anchored" data-anchor-id="part-c">Part C</h3>
-<p>How is a <strong>positive externality</strong> related to a <strong>public good</strong> in the context of <strong>environmental economics</strong>?</p>
-<p><em>Write approximately 3–5 sentences.</em></p>
+<section id="part-b" class="level3">
+<h3 class="anchored" data-anchor-id="part-b">Part B</h3>
+<p>What is the definition of a <strong>public good</strong>?</p>
+<p><em>Write approximately 1–2 sentences.</em></p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -702,14 +765,14 @@ Show answer
 </div>
 <div id="callout-14" class="callout-14-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>In <strong>environmental economics</strong>, many <strong>public goods generate positive externalities</strong> because individuals or communities who contribute to their provision <strong>create benefits that extend beyond the contributor</strong>. For example, when one region <strong>preserves a forest</strong>, the <strong>carbon sequestration benefits</strong> are enjoyed globally. However, since these benefits are <strong>not priced or captured in private markets</strong>, the incentive to invest in conservation is <strong>below the socially optimal level</strong>. This leads to the <strong>under-provision of environmental public goods</strong> such as <strong>clean air</strong>, <strong>biodiversity</strong>, and <strong>climate stability</strong>.</p>
+<p>A public good is a good that is non-excludable (people cannot be prevented from using it) and non-rivalrous (one person’s consumption does not reduce availability for others). Examples include clean air, climate stability, or lighthouse signals.</p>
 </div>
 </div>
 </div>
 </section>
-<section id="part-d" class="level3">
-<h3 class="anchored" data-anchor-id="part-d">Part D</h3>
-<p>Provide one example of a <strong>positive environmental externality</strong> involving a <strong>public good</strong>, and explain why it fits this classification.</p>
+<section id="part-c" class="level3">
+<h3 class="anchored" data-anchor-id="part-c">Part C</h3>
+<p>How is a <strong>positive externality</strong> related to a <strong>public good</strong> in the context of <strong>environmental economics</strong>?</p>
 <p><em>Write approximately 3–5 sentences.</em></p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="false" aria-label="Toggle callout">
@@ -722,6 +785,27 @@ Show answer
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-15" class="callout-15-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>In <strong>environmental economics</strong>, many <strong>public goods generate positive externalities</strong> because individuals or communities who contribute to their provision <strong>create benefits that extend beyond the contributor</strong>. For example, when one region <strong>preserves a forest</strong>, the <strong>carbon sequestration benefits</strong> are enjoyed globally. However, since these benefits are <strong>not priced or captured in private markets</strong>, the incentive to invest in conservation is <strong>below the socially optimal level</strong>. This leads to the <strong>under-provision of environmental public goods</strong> such as <strong>clean air</strong>, <strong>biodiversity</strong>, and <strong>climate stability</strong>.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="part-d" class="level3">
+<h3 class="anchored" data-anchor-id="part-d">Part D</h3>
+<p>Provide one example of a <strong>positive environmental externality</strong> involving a <strong>public good</strong>, and explain why it fits this classification.</p>
+<p><em>Write approximately 3–5 sentences.</em></p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-16" class="callout-16-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>An example is <strong>mangrove restoration</strong> along coastal regions. When a community restores mangroves, it not only <strong>protects its own shoreline from erosion</strong> but also <strong>provides carbon storage, supports biodiversity, and reduces global climate risks</strong>—all of which <strong>benefit people far beyond the local community</strong>. Since <strong>no one can be excluded</strong> from enjoying a more stable climate and <strong>one person’s benefit does not reduce another’s</strong>, this is both a <strong>public good</strong> and a <strong>positive externality</strong>.</p>
 </div>
@@ -736,27 +820,6 @@ Show answer
 <p>In the context of forest-based climate mitigation, what does the acronym <strong>REDD+</strong> stand for?</p>
 <p><em>Write approximately 1–2 sentences.</em></p>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Show answer
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-16" class="callout-16-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p><strong>REDD+</strong> stands for <strong>Reducing Emissions from Deforestation and Forest Degradation</strong>, with the <strong>“+”</strong> indicating additional benefits such as <strong>conservation</strong>, <strong>sustainable forest management</strong>, and <strong>enhancement of forest carbon stocks</strong>.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="part-b-1" class="level3">
-<h3 class="anchored" data-anchor-id="part-b-1">Part B</h3>
-<p>Briefly explain how <strong>REDD+</strong> addresses the <strong>environmental externality</strong> associated with deforestation by applying the principles of <strong>Payments for Ecosystem Services (PES)</strong>.</p>
-<p><em>Write approximately 3–5 sentences.</em></p>
-<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-17-contents" aria-controls="callout-17" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -768,15 +831,15 @@ Show answer
 </div>
 <div id="callout-17" class="callout-17-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><strong>Deforestation</strong> creates a <strong>negative externality</strong> because local users receive <strong>private benefits</strong> from cutting trees, while the <strong>global community bears the cost</strong> of increased carbon emissions. <strong>REDD+</strong> applies the logic of <strong>Payments for Ecosystem Services (PES)</strong> by <strong>financially compensating</strong> communities or landowners for <strong>conserving forests instead of exploiting them</strong>. This <strong>internalizes the externality</strong> by aligning <strong>private incentives</strong> (payment received) with <strong>social benefits</strong> (carbon reduction and climate stability).</p>
+<p><strong>REDD+</strong> stands for <strong>Reducing Emissions from Deforestation and Forest Degradation</strong>, with the <strong>“+”</strong> indicating additional benefits such as <strong>conservation</strong>, <strong>sustainable forest management</strong>, and <strong>enhancement of forest carbon stocks</strong>.</p>
 </div>
 </div>
 </div>
 </section>
-<section id="part-c-1" class="level3">
-<h3 class="anchored" data-anchor-id="part-c-1">Part C</h3>
-<p>Briefly describe how <strong>community governance</strong> can both <strong>address</strong> and <strong>create</strong> challenges in implementing <strong>PES</strong>, particularly in the context of <strong>illegal harvesting behavior</strong>.</p>
-<p><em>Write approximately 5–7 sentences.</em></p>
+<section id="part-b-1" class="level3">
+<h3 class="anchored" data-anchor-id="part-b-1">Part B</h3>
+<p>Briefly explain how <strong>REDD+</strong> addresses the <strong>environmental externality</strong> associated with deforestation by applying the principles of <strong>Payments for Ecosystem Services (PES)</strong>.</p>
+<p><em>Write approximately 3–5 sentences.</em></p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-18-contents" aria-controls="callout-18" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -788,6 +851,27 @@ Show answer
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-18" class="callout-18-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Deforestation</strong> creates a <strong>negative externality</strong> because local users receive <strong>private benefits</strong> from cutting trees, while the <strong>global community bears the cost</strong> of increased carbon emissions. <strong>REDD+</strong> applies the logic of <strong>Payments for Ecosystem Services (PES)</strong> by <strong>financially compensating</strong> communities or landowners for <strong>conserving forests instead of exploiting them</strong>. This <strong>internalizes the externality</strong> by aligning <strong>private incentives</strong> (payment received) with <strong>social benefits</strong> (carbon reduction and climate stability).</p>
+</div>
+</div>
+</div>
+</section>
+<section id="part-c-1" class="level3">
+<h3 class="anchored" data-anchor-id="part-c-1">Part C</h3>
+<p>Briefly describe how <strong>community governance</strong> can both <strong>address</strong> and <strong>create</strong> challenges in implementing <strong>PES</strong>, particularly in the context of <strong>illegal harvesting behavior</strong>.</p>
+<p><em>Write approximately 5–7 sentences.</em></p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-19-contents" aria-controls="callout-19" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-19" class="callout-19-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Community governance can enhance PES success by enabling local monitoring, social pressure, and rule enforcement, which reduce illegal harvesting. When communities collectively agree on conservation rules and share PES payments, peer accountability increases compliance. However, community governance can also create challenges if elite capture, unequal distribution of benefits, or lack of trust arises. If some members believe others will free-ride or illegally harvest while still sharing the PES payment, they may be discouraged from cooperating. This tension highlights the dual role of community governance as both a solution through cooperation and a potential source of conflict and enforcement difficulty.</p>
 </div>
@@ -829,7 +913,7 @@ EMC_R(Q) = 20 + Q
 </div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-19-contents" aria-controls="callout-19" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-20-contents" aria-controls="callout-20" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -838,7 +922,7 @@ Show answer
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-19" class="callout-19-contents callout-collapse collapse">
+<div id="callout-20" class="callout-20-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <div class="cell">
 <div class="cell-output-display">
@@ -853,7 +937,7 @@ Show answer
 <h3 class="anchored" data-anchor-id="part-b-2">Part B</h3>
 <p>Show your algebraic steps to calculate the <strong>market equilibrium price and quantity</strong>, <span class="math inline">\(P_{M}\)</span> and <span class="math inline">\(Q_{M}\)</span>.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-20-contents" aria-controls="callout-20" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-21-contents" aria-controls="callout-21" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -862,7 +946,7 @@ Show answer
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-20" class="callout-20-contents callout-collapse collapse">
+<div id="callout-21" class="callout-21-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><strong>Market Equilibrium — Solve <span class="math inline">\(MB_R(Q) = MC_R(Q)\)</span></strong></p>
 <p>We set: <span class="math display">\[
@@ -886,7 +970,7 @@ P_M = MB_R(20) = 70 - 40 = 30
 <h3 class="anchored" data-anchor-id="part-c-2">Part C</h3>
 <p>Show your algebraic steps to calculate the <strong>socially optimal equilibrium price and quantity</strong>, <span class="math inline">\(P^{*}\)</span> and <span class="math inline">\(Q^{*}\)</span>.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-21-contents" aria-controls="callout-21" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-22-contents" aria-controls="callout-22" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -895,7 +979,7 @@ Show answer
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-21" class="callout-21-contents callout-collapse collapse">
+<div id="callout-22" class="callout-22-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><strong>Social Optimum — Solve <span class="math inline">\(MB_R(Q) = SMC_R(Q)\)</span></strong></p>
 <p>The social marginal cost is: <span class="math display">\[
@@ -919,97 +1003,6 @@ P^* = MB_R(10) = 70 - 20 = 50
 <h3 class="anchored" data-anchor-id="part-d-1">Part D</h3>
 <p>On the graph, clearly indicate the <strong>total benefit</strong> (<span class="math inline">\(TB\)</span>) of the plastic good at the market equilibrium point <span class="math inline">\(E_{M}\)</span>.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-22-contents" aria-controls="callout-22" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Show answer
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-22" class="callout-22-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<div class="cell">
-<div class="cell-output-display">
-<p><img src="econ-340-exam-1_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="768"></p>
-</div>
-</div>
-<section id="how-total-benefit-tb-comes-from-marginal-benefit-mb-no-calculus-needed" class="level4">
-<h4 class="anchored" data-anchor-id="how-total-benefit-tb-comes-from-marginal-benefit-mb-no-calculus-needed">How Total Benefit (TB) Comes from Marginal Benefit (MB) — No Calculus Needed</h4>
-<p>Think of <strong>Marginal Benefit (MB)</strong> as the <strong>value of each extra unit</strong> you consume.<br>
-If you buy units one by one, you could make a list like:</p>
-<table class="table">
-<thead>
-<tr class="header">
-<th>Unit</th>
-<th>Value (MB)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1st unit</td>
-<td>MB₁</td>
-</tr>
-<tr class="even">
-<td>2nd unit</td>
-<td>MB₂</td>
-</tr>
-<tr class="odd">
-<td>3rd unit</td>
-<td>MB₃</td>
-</tr>
-<tr class="even">
-<td>…</td>
-<td>…</td>
-</tr>
-</tbody>
-</table>
-<p>Then your <strong>Total Benefit (TB)</strong> is simply:</p>
-<p><span class="math display">\[
-TB = MB_1 + MB_2 + MB_3 + \cdots + MB_n
-\]</span></p>
-<p>That is just <strong>adding up</strong> the value of each unit. <strong>No calculus — only summation.</strong></p>
-</section>
-<section id="visual-interpretation" class="level4">
-<h4 class="anchored" data-anchor-id="visual-interpretation">Visual Interpretation</h4>
-<ul>
-<li>On a graph, we put <strong>Quantity (Q)</strong> on the <strong>x-axis</strong> and <strong>Marginal Benefit (MB)</strong> on the <strong>y-axis</strong>.</li>
-<li>Each unit of Q can be drawn as a <strong>vertical bar</strong> whose <strong>height</strong> is the <strong>MB for that unit</strong>.</li>
-<li><strong>Stacking these bars side by side</strong> builds a <strong>staircase of value</strong>.</li>
-<li>If you <strong>shade all the bars from Q = 0 up to Q = 20</strong>, that <strong>entire shaded area represents TB</strong>.</li>
-</ul>
-<blockquote class="blockquote">
-<p>✅ <strong>Key Idea:</strong><br>
-<strong>Total Benefit is just the sum of all tiny MB rectangles</strong>.<br>
-When we draw them with bars, we can <strong>see</strong> TB building up <strong>one block at a time</strong>.</p>
-</blockquote>
-</section>
-<section id="why-economists-sometimes-say-area-under-the-mb-curve" class="level4">
-<h4 class="anchored" data-anchor-id="why-economists-sometimes-say-area-under-the-mb-curve">Why economists sometimes say “area under the MB curve”</h4>
-<p>If we keep making the bars <strong>thinner and thinner</strong> (like cutting the units into very fine pieces), the stacked bars start to look like a <strong>smooth shaded area</strong>.</p>
-<p>Even without using integrals, we can say:</p>
-<blockquote class="blockquote">
-<p><strong>TB = Sum of tiny MB bars × tiny width of each bar</strong></p>
-</blockquote>
-<p>As the bars get thinner: <span class="math display">\[
-TB(Q) \approx \sum_{i=1}^{n} MB(Q_i) \cdot \Delta Q_i
-\quad \text{(many thin bars stacked side by side)},
-\]</span></p>
-<ul>
-<li><strong><span class="math inline">\(\Delta Q_i\)</span></strong> is the <strong>width of that small step in quantity</strong>.</li>
-</ul>
-<p>So, <strong>“area under the MB curve” simply means “adding up the value of lots of tiny MB bars.”</strong></p>
-<p><img src="tb_under_mb.gif" class="img-fluid"></p>
-</section>
-</div>
-</div>
-</div>
-</section>
-<section id="part-e" class="level3">
-<h3 class="anchored" data-anchor-id="part-e">Part E</h3>
-<p>On the graph, clearly indicate the <strong>total variable cost</strong> (<span class="math inline">\(TC\)</span>) of the plastic good at the market equilibrium point <span class="math inline">\(E_{M}\)</span>.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-23-contents" aria-controls="callout-23" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -1023,16 +1016,16 @@ Show answer
 <div class="callout-body-container callout-body">
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="econ-340-exam-1_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="768"></p>
+<p><img src="econ-340-exam-1_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="768"></p>
 </div>
 </div>
 </div>
 </div>
 </div>
 </section>
-<section id="part-f" class="level3">
-<h3 class="anchored" data-anchor-id="part-f">Part F</h3>
-<p>On the graph, clearly indicate the <strong>consumer surplus</strong> (<span class="math inline">\(CS\)</span>) associated with the market equilibrium point <span class="math inline">\(E_{M}\)</span>.</p>
+<section id="part-e" class="level3">
+<h3 class="anchored" data-anchor-id="part-e">Part E</h3>
+<p>On the graph, clearly indicate the <strong>total variable cost</strong> (<span class="math inline">\(TC\)</span>) of the plastic good at the market equilibrium point <span class="math inline">\(E_{M}\)</span>.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-24-contents" aria-controls="callout-24" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -1047,16 +1040,16 @@ Show answer
 <div class="callout-body-container callout-body">
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="econ-340-exam-1_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="768"></p>
+<p><img src="econ-340-exam-1_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="768"></p>
 </div>
 </div>
 </div>
 </div>
 </div>
 </section>
-<section id="part-g" class="level3">
-<h3 class="anchored" data-anchor-id="part-g">Part G</h3>
-<p>On the graph, clearly indicate the <strong>producer surplus</strong> (<span class="math inline">\(PS\)</span>) associated with the market equilibrium point <span class="math inline">\(E_{M}\)</span>.</p>
+<section id="part-f" class="level3">
+<h3 class="anchored" data-anchor-id="part-f">Part F</h3>
+<p>On the graph, clearly indicate the <strong>consumer surplus</strong> (<span class="math inline">\(CS\)</span>) associated with the market equilibrium point <span class="math inline">\(E_{M}\)</span>.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-25-contents" aria-controls="callout-25" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -1071,16 +1064,16 @@ Show answer
 <div class="callout-body-container callout-body">
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="econ-340-exam-1_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="768"></p>
+<p><img src="econ-340-exam-1_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="768"></p>
 </div>
 </div>
 </div>
 </div>
 </div>
 </section>
-<section id="part-h" class="level3">
-<h3 class="anchored" data-anchor-id="part-h">Part H</h3>
-<p>On the graph, clearly indicate the <strong>total external cost</strong> (<span class="math inline">\(EC\)</span>) of the plastic good associated with the market equilibrium point <span class="math inline">\(E_{M}\)</span>.</p>
+<section id="part-g" class="level3">
+<h3 class="anchored" data-anchor-id="part-g">Part G</h3>
+<p>On the graph, clearly indicate the <strong>producer surplus</strong> (<span class="math inline">\(PS\)</span>) associated with the market equilibrium point <span class="math inline">\(E_{M}\)</span>.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-26-contents" aria-controls="callout-26" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -1095,16 +1088,16 @@ Show answer
 <div class="callout-body-container callout-body">
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="econ-340-exam-1_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="768"></p>
+<p><img src="econ-340-exam-1_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="768"></p>
 </div>
 </div>
 </div>
 </div>
 </div>
 </section>
-<section id="part-i" class="level3">
-<h3 class="anchored" data-anchor-id="part-i">Part I</h3>
-<p>On the graph, clearly indicate the <strong>deadweight loss</strong> (<span class="math inline">\(DWL\)</span>) associated with the market equilibrium point <span class="math inline">\(E_{M}\)</span>.</p>
+<section id="part-h" class="level3">
+<h3 class="anchored" data-anchor-id="part-h">Part H</h3>
+<p>On the graph, clearly indicate the <strong>total external cost</strong> (<span class="math inline">\(EC\)</span>) of the plastic good associated with the market equilibrium point <span class="math inline">\(E_{M}\)</span>.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-27-contents" aria-controls="callout-27" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -1116,6 +1109,30 @@ Show answer
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-27" class="callout-27-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="econ-340-exam-1_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="768"></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="part-i" class="level3">
+<h3 class="anchored" data-anchor-id="part-i">Part I</h3>
+<p>On the graph, clearly indicate the <strong>deadweight loss</strong> (<span class="math inline">\(DWL\)</span>) associated with the market equilibrium point <span class="math inline">\(E_{M}\)</span>.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-28-contents" aria-controls="callout-28" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-28" class="callout-28-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <div class="cell">
 <div class="cell-output-display">
@@ -1140,7 +1157,7 @@ SW &amp;= CS + PS - EC
 <li><span class="math inline">\(EC\)</span>: External total cost</li>
 </ul>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-28-contents" aria-controls="callout-28" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-29-contents" aria-controls="callout-29" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -1149,7 +1166,7 @@ Show answer
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-28" class="callout-28-contents callout-collapse collapse">
+<div id="callout-29" class="callout-29-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><strong>Compute Social Welfare at <span class="math inline">\(E_M\)</span></strong></p>
 <p>Recall: - Consumer Surplus <span class="math inline">\(CS = 400\)</span> - Producer Surplus <span class="math inline">\(PS = 200\)</span> - External Cost <span class="math inline">\(EC = 600\)</span></p>
@@ -1169,7 +1186,7 @@ At the market equilibrium, <strong>net social welfare is zero</strong> once exte
 <p>Assume that Richland’s <strong>goods market</strong> outcome is determined entirely by domestic market conditions, represented by <span class="math inline">\(MB_R(Q)\)</span> and <span class="math inline">\(MC_R(Q)\)</span>.</p>
 <p>Determine Richland’s new <strong>socially optimal equilibrium</strong>, <span class="math inline">\(E^{*}_{NEW}\)</span>, at <span class="math inline">\((Q^{*}_{NEW}, P^{*}_{NEW})\)</span>.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-29-contents" aria-controls="callout-29" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-30-contents" aria-controls="callout-30" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -1178,7 +1195,7 @@ Show answer
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-29" class="callout-29-contents callout-collapse collapse">
+<div id="callout-30" class="callout-30-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>If <strong>Richland fully eliminates its domestic external cost</strong> by exporting waste, then:</p>
 <p><span class="math display">\[
@@ -1219,7 +1236,7 @@ MB = MC
 </div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-30-contents" aria-controls="callout-30" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-31-contents" aria-controls="callout-31" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -1228,7 +1245,7 @@ Show answer
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-30" class="callout-30-contents callout-collapse collapse">
+<div id="callout-31" class="callout-31-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>The economist’s argument is based on the idea that <strong>the marginal damage from plastic waste differs between Richland and Poorland</strong>. If Poorland experiences <strong>lower marginal harm</strong> from additional waste—either because of lower population density or different income-based valuations—then transferring waste from Richland to Poorland appears to <strong>reduce total global damage</strong>.</p>
 <!-- The rationale of the argument is based on two claims. First, if the **marginal damages from plastic pollution** increase with concentration, then shifting waste from already polluted regions to cleaner, less densely populated areas would reduce total global harm. Second, people in **Poorland** tend to place a **lower monetary value on environmental risks** relative to immediate economic needs. Thus, relocating plastic waste disposal from **Richland** to **Poorland** was portrayed as an **efficient reallocation of environmental burdens**, even if morally contentious -->
@@ -1246,7 +1263,7 @@ Show answer
 </ul>
 <p><em>Write approximately 5–7 sentences.</em></p>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-31-contents" aria-controls="callout-31" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-32-contents" aria-controls="callout-32" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -1255,7 +1272,7 @@ Show answer
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-31" class="callout-31-contents callout-collapse collapse">
+<div id="callout-32" class="callout-32-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>In Richland, <strong>producers and consumers benefit</strong> because they avoid domestic environmental damages while still enjoying the same production level and market price. In Poorland, <strong>some individuals who receive compensation payments may benefit</strong>, but <strong>local residents, future generations, and nearby ecosystems</strong> may still face pollution risks that they did not agree to. This means <strong>not everyone benefits equally within each country</strong>—the <strong>winners</strong> include compensated groups and Richland’s consumers, while <strong>losers</strong> can include <strong>uncompensated local communities</strong> near disposal sites, especially those with limited political voice or economic power.</p>
 <p>This argument also <strong>assumes perfect monitoring, full enforcement, and transparent compensation mechanisms</strong>, which is unrealistic given <strong>cross-border waste flows, informal labor conditions, and weak oversight institutions</strong>. <strong>Ethically</strong>, the proposal raises serious concerns about <strong>environmental justice, consent, and intergenerational fairness</strong>, especially when <strong>lower income levels are used to justify lower environmental protection standards</strong>. There is also a <strong>moral hazard problem</strong>, as Richland may become <strong>less motivated to reduce waste at its source</strong>. Finally, the idea that compensation can fix everything ignores <strong>irreversible harms</strong> such as <strong>health damage, groundwater contamination, or loss of biodiversity</strong>, which <strong>cannot be fully undone once the damage occurs</strong>.</p>
