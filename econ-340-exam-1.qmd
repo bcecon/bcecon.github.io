@@ -189,7 +189,18 @@ d. Producers always pass the full tax to consumers.
 **b. Some mutually beneficial trades no longer occur.**
 
 **Explanation**:  
-**Deadweight loss (DWL)** represents the **lost welfare** due to trades that **could have benefited both buyers and sellers** but do not take place because of some distortion (such as taxes, externalities, or price controls). The **government collecting revenue is not inherently a welfare loss**, and **price changes alone do not create DWL** unless they **prevent mutually beneficial trades** from occurring.
+**Deadweight Loss (DWL)** represents the **loss in total social welfare** caused by a **distortion that prevents the socially efficient level of trade**.
+
+- For taxes or price controls, DWL occurs because **mutually beneficial trades between buyers and sellers are blocked**.
+- For externalities, **buyers and sellers may still trade voluntarily**, but **these trades are no longer socially beneficial** once the **external cost imposed on third parties** is considered.
+
+In the case of a **negative externality**, the market produces **too much**, because **private decision-makers ignore external harm**, leading to a **welfare loss even though trades appear privately beneficial**.
+
+Importantly, **government tax revenue itself is not a welfare loss**.  
+
+A **price change alone does not create DWL**—DWL occurs **when markets fail to reach the socially efficient level of trade**.  
+- With **taxes or price controls**, this happens because **some mutually beneficial trades are prevented**.  
+- With **externalities**, buyers and sellers may still trade, but **they ignore the external cost to third parties**, leading to **too many trades** from society’s perspective, which also creates DWL.
 
 :::
 
