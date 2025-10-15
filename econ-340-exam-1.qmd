@@ -1159,10 +1159,23 @@ As shown in the figure, the **amount of waste exported by Richland** $(RC2 - RC1
 ::: {.callout-tip collapse="true"}
 #### Show answer
 
+From a **narrow efficiency perspective**, the trade could **increase global well-being** if the **marginal damage of waste disposal is genuinely lower in Poorland** and **compensation fully reflects the harm caused**. However, **real-world distributional outcomes are uneven**. 
+
 In Richland, **producers and consumers benefit** because they avoid domestic environmental damages while still enjoying the same production level and market price. In Poorland, **some individuals who receive compensation payments may benefit**, but **local residents, future generations, and nearby ecosystems** may still face pollution risks that they did not agree to. This means **not everyone benefits equally within each country**—the **winners** include compensated groups and Richland’s consumers, while **losers** can include **uncompensated local communities** near disposal sites, especially those with limited political voice or economic power.
 
 This argument also **assumes perfect monitoring, full enforcement, and transparent compensation mechanisms**, which is unrealistic given **cross-border waste flows, informal labor conditions, and weak oversight institutions**. **Ethically**, the proposal raises serious concerns about **environmental justice, consent, and intergenerational fairness**, especially when **lower income levels are used to justify lower environmental protection standards**. There is also a **moral hazard problem**, as Richland may become **less motivated to reduce waste at its source**. Finally, the idea that compensation can fix everything ignores **irreversible harms** such as **health damage, groundwater contamination, or loss of biodiversity**, which **cannot be fully undone once the damage occurs**.
 
+---
+
+A long-term solution to plastic waste trade must move **beyond simply relocating waste** and toward **reducing waste at the source** while ensuring **fair and accountable global governance**. Policies should:
+
+1. **Reduce plastic production and consumption** through taxes on virgin plastics, extended producer responsibility, and design standards that reduce single-use packaging.
+2. **Create incentives for domestic recycling and circular economy systems** so that Richland does not externalize waste to other countries.
+3. **Strengthen global environmental governance** to ensure that **no community—especially in Poorland—is forced to accept pollution without full consent and oversight**.
+4. **Require transparent compensation and monitoring** if any waste trade occurs, with **local community participation**, not just national-level agreements.
+5. **Support Poorland with technology transfer and investment in clean waste processing**, rather than transferring waste alone.
+
+> ✅ **Key idea**: Instead of asking *“Where should the waste go?”*, environmental economics shifts the question to *“How do we reduce the creation of plastic waste and ensure fairness when environmental burdens are allocated?”*
 :::
 
 
