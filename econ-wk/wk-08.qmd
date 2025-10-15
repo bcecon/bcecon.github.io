@@ -1,0 +1,106 @@
+---
+title: Week 8
+subtitle: Midterm Exam 1 Review and 
+date: 2025-10-15
+from: markdown+emoji
+---
+
+In Week 8, we will have the following schedule:
+
+- **October 15, Wednesday** — [Review Session: Midterm Exam 1](../econ-340-exam-1.html){target="blank"} 
+- **October 17, Friday** — Review Session: Market Failures and the Environment
+
+
+
+# Calculation for Total Exam Score
+
+$$
+\begin{align}
+&\quad(\text{Midterm Exam Score})\\
+&= \max\left\{0.50 \times \text{(Midterm 1 Score)} + 0.50 \times \text{(Midterm 2 Score)},\right.\\ 
+&\qquad\quad\;\;\,\left.0.33 \times \text{(Midterm 1 Score)} + 0.67 \times \text{(Midterm 2 Score)}\right\}.
+\end{align}
+$$
+
+- The Midterm Exam Score will be the **higher** of the following two calculations:  
+
+  1. The simple average of Midterm Exam 1 and Midterm Exam 2
+  2. The weighted average, with one-third weight on Midterm Exam 1 and two-thirds weight on Midterm Exam 2
+
+
+$$
+\begin{align}
+&\quad(\text{Total Exam Score})\\
+&= \max\left\{0.50 \times \text{(Midterm Exam Score)} + 0.50 \times \text{(Final Exam Score)},\right.\\ 
+&\qquad\quad\;\;\,\left.0.25 \times \text{(Midterm Exam Score)} + 0.75 \times \text{(Final Exam Score)}\right\}.
+\end{align}
+$$
+
+- The Total Exam Score will be the **higher** of the following two calculations:  
+
+  1. The simple average of Midterm Exam and Final Exam
+  2. The weighted average, with one-fourth weight on Midterm Exam and three-forth weight on Final Exam.
+  
+ 
+## How Midterm Exam 1 Contributes to Your Total Exam Score
+### Scenario 1
+  - Suppose your $(\text{Total Exam Score})$ is taken from:
+$$
+\begin{align}
+&0.33\times(\text{Midterm Exam 1}) \,+\, 0.67\times(\text{Midterm Exam 2})\\
+&0.25\times(\text{Midterm Exam}) \,+\, 0.75\times(\text{Final Exam})
+\end{align}
+$$
+  - $(\text{Midterm Exam 1})$ will then account for **8.25%** of your $(\text{Total Exam Score})$.
+
+
+### Scenario 2
+  - Suppose your $(\text{Total Exam Score})$ is taken from:
+$$
+\begin{align}
+&0.5\times(\text{Midterm Exam 1}) \,+\, 0.5\times(\text{Midterm Exam 2})\\
+&0.25\times(\text{Midterm Exam}) \,+\, 0.75\times(\text{Final Exam})
+\end{align}
+$$
+  - $(\text{Midterm Exam 1})$ will then account for **12.5%** of your $(\text{Total Exam Score})$.
+  
+
+
+### Scenario 3
+  - Suppose your $(\text{Total Exam Score})$ is taken from:
+$$
+\begin{align}
+&0.33\times(\text{Midterm Exam 1}) \,+\, 0.67\times(\text{Midterm Exam 2})\\
+&0.5\times(\text{Midterm Exam}) \,+\, 0.5\times(\text{Final Exam})
+\end{align}
+$$
+  - $(\text{Midterm Exam 1})$ will then account for **16.25%** of your $(\text{Total Exam Score})$.
+
+
+### Scenario 4
+  - Suppose your $(\text{Total Exam Score})$ is taken from:
+$$
+\begin{align}
+&0.5\times(\text{Midterm Exam 1}) \,+\, 0.5\times(\text{Midterm Exam 2})\\
+&0.5\times(\text{Midterm Exam}) \,+\, 0.5\times(\text{Final Exam})
+\end{align}
+$$
+  - $(\text{Midterm Exam 1})$ will then account for **25%** of your $(\text{Total Exam Score})$.
+  
+
+
+
+
+
+## 💬 Discussion
+
+<font size = "5">Welcome to our Week 8 Discussion Board! 👋 </font>
+
+
+This space is designed for you to engage with your classmates about the material covered in Week 8.
+
+Whether you are looking to delve deeper into the content, share insights, or have questions about the content, this is the perfect place for you.
+
+If you have any specific questions for Byeong-Hak (**@bcecon**) or peer classmate (@GitHub-Username) regarding the Week 8 materials or need clarification on any points, don't hesitate to ask here. 
+
+Let's collaborate and learn from each other!
