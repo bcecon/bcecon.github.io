@@ -440,7 +440,7 @@ What is the definition of a **positive externality**?
 ::: {.callout-tip collapse="true"}
 #### Show answer
 
-A **positive externality** is a **positive side effect** of a market transaction that **benefits others who are not directly involved** as buyers or sellers. As a result, the **social marginal benefit ($SMB$)** is **greater** than the **private marginal benefit ($MB$)**.
+A **positive externality** occurs when a market activity **creates benefits for third parties** who are **not directly involved** in the transaction. In such cases, the **social marginal benefit ($SMB$)** is **greater** than the **private marginal benefit ($MB$)** because society gains more than what the individual decision-maker considers.
 
 :::
 
@@ -458,7 +458,7 @@ What is the definition of a **public good**?
 ::: {.callout-tip collapse="true"}
 #### Show answer
 
-A public good is a good that is non-excludable (people cannot be prevented from using it) and non-rivalrous (one person’s consumption does not reduce availability for others). Examples include clean air, climate stability, or lighthouse signals.
+A **public good** is a good that is **non-excludable** (people cannot be prevented from using it) and **non-rivalrous** (one person’s consumption does not reduce its availability for others). 
 
 :::
 
@@ -474,8 +474,7 @@ How is a **positive externality** related to a **public good** in the context of
 
 ::: {.callout-tip collapse="true"}
 #### Show answer
-In **environmental economics**, many **public goods generate positive externalities** because individuals or communities who contribute to their provision **create benefits that extend beyond the contributor**. For example, when one region **preserves a forest**, the **carbon sequestration benefits** are enjoyed globally. However, since these benefits are **not priced or captured in private markets**, the incentive to invest in conservation is **below the socially optimal level**. This leads to the **under-provision of environmental public goods** such as **clean air**, **biodiversity**, and **climate stability**.
-
+In **environmental economics**, many **public goods**—such as clean air, biodiversity, and climate stability—**generate positive externalities**. When individuals or communities invest in environmental protection, they **create benefits that extend beyond themselves**. For example, if one region **preserves a forest**, the **carbon sequestration benefit** is shared globally, not just locally. However, because these external benefits are **not priced or rewarded in private markets**, people have **less incentive to conserve** than what is **socially optimal**, leading to the **under-provision of environmental public goods**.
 :::
 
 
