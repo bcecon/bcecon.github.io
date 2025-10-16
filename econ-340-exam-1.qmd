@@ -118,12 +118,12 @@ P_S  <- 50  # Social optimum price
 # Add to existing ggplot object p
 p_equil <- p +
   # Market equilibrium point EM
-  geom_point(aes(x = Q_M, y = P_M), color = "black", size = 3) +
+  geom_point(aes(x = Q_M, y = P_M), color = "black", size = .75) +
   annotate("text", x = Q_M - .5, y = P_M - 10, 
            label = expression(E[M]), hjust = 0, size = 5) +
   
   # Social optimum point E*
-  geom_point(aes(x = Q_S, y = P_S), color = "black", size = 3, shape = 17) +
+  geom_point(aes(x = Q_S, y = P_S), color = "black", size = .75) +
   annotate("text", x = Q_S - .5, y = P_S + 12.5,
            label = expression(E^"*"), hjust = 0, size = 5) +
   scale_x_continuous(breaks = x,
