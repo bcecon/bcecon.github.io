@@ -833,6 +833,22 @@ p_equil +
 ```
 
 
+```{r}
+#| echo: false
+#| eval: true
+
+Q_star <- 10
+df_EC2 <- tibble(Q = seq(0, Q_M, by = 0.1),
+                 MC  = 10 + Q,
+                 SMC = (10 + Q) + (20 + Q))  # = 30 + 2Q
+
+p_equil +
+  geom_ribbon(data = df_EC2, aes(x = Q, ymin = MC, ymax = SMC),
+              fill = "grey20", alpha = 0.20) +
+  annotate("text", x = Q_M*0.65, y = 38, label = "EC", fontface = "bold")
+```
+
+
 :::
 
 
