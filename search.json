@@ -3140,7 +3140,7 @@
     "href": "econ-lec/econ-340-lec-08-2025-1017.html#bounded-willpower-mechanisms",
     "title": "Lecture 8",
     "section": "⏳ Bounded Willpower — Mechanisms",
-    "text": "⏳ Bounded Willpower — Mechanisms\n\n\n\nNote\n\n\nA discount rate reflects how much less individuals value future outcomes compared to immediate outcomes — similar to how an interest rate reflects the cost of waiting to receive money later rather than now, based on the time value of money.\n\n\n\n\nMyopia / Present Bias\n\nIndividuals value the present disproportionately more than the future, applying a high discount rate for near-term outcomes and a lower rate for distant outcomes\nLeads to time-inconsistent preferences — immediate costs dominate future benefits\n\n\nAttitude–behavior gap\n\nDeclared environmental attitudes do not align with actual purchasing or usage behavior"
+    "text": "⏳ Bounded Willpower — Mechanisms\n\n\n\n\n\n\nNote\n\n\nA discount rate reflects how much less individuals value future outcomes compared to immediate outcomes — similar to how an interest rate reflects the cost of waiting to receive money later rather than now, based on the time value of money.\n\n\n\n\n\n\n\nMyopia / Present Bias\n\nIndividuals value the present disproportionately more than the future, applying a high discount rate to near-term outcomes and a lower rate to distant outcomes\nThis causes the first few years of future benefits to be heavily undervalued, while upfront costs are felt fully with no discounting\nAs a result, immediate costs dominate future benefits\n\nAttitude–behavior gap\n\nDeclared environmental attitudes do not align with actual purchasing or usage behavior"
   },
   {
     "objectID": "econ-lec/econ-340-lec-08-2025-1017.html#bounded-willpower-impacts",
@@ -3183,5 +3183,12 @@
     "title": "Lecture 8",
     "section": "🤝 Social Norms in Action — LPG Adoption in India",
     "text": "🤝 Social Norms in Action — LPG Adoption in India\n\n\n\n\n\n\n\n\n\n\n\n\nIn many developing regions, households continue using firewood and biomass, leading to indoor air pollution and health risks.\nAdoption of cleaner LPG fuel rises significantly when neighboring households or members of the same social network have already adopted it.\n\n\n\n\nPeer visibility and social spillovers act as positive social norms, speeding up the transition to clean energy.\nPolicy insight: Support energy transitions by activating community-level adoption signals, not only through prices or information."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-08-2025-1017.html#bounded-willpower-experiment",
+    "href": "econ-lec/econ-340-lec-08-2025-1017.html#bounded-willpower-experiment",
+    "title": "Lecture 8",
+    "section": "⏳ Bounded Willpower — Experiment",
+    "text": "⏳ Bounded Willpower — Experiment\n\n\nPoll 1 — Now vs. Soon\n\nBe honest — which one feels better right now?\n\n\nOption A: Get $5 right now at checkout\n\nOption B: Get $10 credited to your account in 1 month\n\n\n\n\nPoll 2 — Soon vs. Later\n\nNow imagine both options happen in the future — same 1-month delay.\n\n\nOption C: Get $5 in 12 months\n\nOption D: Get $10 in 13 months"
   }
 ]

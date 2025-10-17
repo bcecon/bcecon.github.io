@@ -258,15 +258,56 @@ We categorize them into **three systematic departures**:
 - **Inertia** — continued use of outdated, inefficient technologies  
 
 
+
+
+## ⏳ Bounded Willpower — Experiment
+
+::: {.columns}
+::: {.column width="50%"}
+
+### **Poll 1 — Now vs. Soon**
+
+> **Be honest — which one *feels* better right now?**
+
+- **Option A:** Get **$5 right now** at checkout  
+- **Option B:** Get **$10 credited to your account in _1 month_**
+
+<!-- 🧠 *Typical reaction:* Many choose **$5 now**, even though waiting **doubles** the payoff.   -->
+<!-- → **Reveals high discounting of the near future** -->
+
+:::
+::: {.column width="50%"}
+
+### **Poll 2 — Soon vs. Later**
+
+> **Now imagine both options happen in the future — same 1-month delay.**
+
+- **Option C:** Get **$5 in _12 months_**  
+- **Option D:** Get **$10 in _13 months_**
+
+<!-- 🔁 *Typical reaction:* Most switch to **$10 in 13 months**   -->
+<!-- → **Shows lower discounting between future periods** -->
+
+:::
+:::
+
+
+
 ## ⏳ Bounded Willpower — Mechanisms
+
+<div style="display:block; margin:-10px;"></div>
 
 ::: callout-note
 A **discount rate** reflects how much less individuals value **future outcomes** compared to **immediate outcomes** — similar to how an **interest rate** reflects the cost of waiting to receive money later rather than now, based on the **time value of money**.
 :::
 
+<div style="display:block; margin:-20px;"></div>
+
 - **Myopia / Present Bias**  
-  - Individuals value the **present disproportionately more than the future**, applying a **high discount rate for near-term outcomes** and a **lower rate for distant outcomes** 
-  - Leads to **time-inconsistent preferences** — immediate costs dominate future benefits  
+  - Individuals value the **present disproportionately more than the future**, applying a **high discount rate to near-term outcomes** and a **lower rate to distant outcomes**
+  - This causes the **first few years of future benefits to be heavily undervalued**, while **upfront costs are felt fully with no discounting**
+  - As a result, **immediate costs dominate future benefits**
+  
 - **Attitude–behavior gap**  
   - Declared environmental attitudes do **not align with actual purchasing or usage behavior**  
 
