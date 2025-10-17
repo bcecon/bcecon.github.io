@@ -1,6 +1,6 @@
 ---
 title: Lecture 8
-subtitle: Information, Incentives, and Behavioral Policy Design
+subtitle: Information, Incentives, and Behavioral Anomalies
 format:
   clean-revealjs:
     self-contained: false

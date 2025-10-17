@@ -8,7 +8,7 @@ from: markdown+emoji
 In Week 8, we will have the following schedule:
 
 - **October 15, Wednesday** — [Review Session: Midterm Exam 1](../econ-340-exam-1.html){target="blank"} 
-- **October 17, Friday** — Review Session: Market Failures and the Environment
+- **October 17, Friday** — [Information, Incentives, and Behavioral Anomalies](../econ-lec/econ-340-lec-08-2025-1017.html){target="blank"} 
 
 
 
