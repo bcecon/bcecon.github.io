@@ -125,6 +125,10 @@ p <- ggplot() +
   # equilibrium points
   geom_point(aes(Qb, Pb)) +
   geom_point(aes(Qstar, Pstar)) +
+  
+  
+  annotate("text", x = .75 * Qb, y = 1.25 * Pstar, label = "↓", size = 10) +
+  
   # guide lines (verticals to Q and Q*)
   geom_segment(aes(x = Qb, xend = Qb, y = 0, yend = Pb), linetype = 3) +
   geom_segment(aes(x = Qstar, xend = Qstar, y = 0, yend = Pstar), linetype = 3) +
@@ -356,7 +360,7 @@ p
 ::: {.column width="50%"}
 <!-- **Idea**: Demand with biases (bounded rationality/willpower) vs. rational demand -->
 
-- Biases shift demand **down/left** for energy-efficient tech (status quo, loss aversion).
+- Biases shift demand **down** for **energy-efficient products** (status quo, loss aversion).
 - Equilibrium moves from **(P\*, Q\*)** (social optimum) to **(P, Q)** (biased market) with **Q < Q\***.
 - Due to behavioral bias, how much welfare is lost relative to the rational, unbiased market outcome?
 
@@ -367,7 +371,7 @@ p
 
 <!-- - Deadweight loss here represents the **gap between what consumers would have gained under rational valuation (at Q\*)** and **what they actually gain under biased decisions (at Q),** reference to rational demand. -->
 
-- DWL here is the **difference between potential surplus at Q\*** (with rational demand) and **actual surplus at Q** (with biased demand), using **rational demand as the welfare benchmark**.
+- Behavioral DWL here is the **difference between potential surplus at Q\*** (with rational demand) and **actual surplus at Q** (with biased demand), using **rational demand as the welfare benchmark**.
 
 <!-- - How much welfare is lost compared to the outcome under rational, unbiased demand? -->
 
