@@ -191,11 +191,11 @@ p <- ggplot() +
 - **Policy responses** may include **energy labels, public energy audits, neutral advisory services, and targeted information campaigns** to correct these informational gaps.
 
 
-## Asymmetric Information in Practice
+<!-- ## Asymmetric Information in Practice -->
 
-- Heating system vendors tend to promote familiar **fossil fuel-based technologies**, downplaying efficient alternatives.
-- Sales incentives in vehicle markets encourage dealerships to favor **internal combustion engine vehicles (ICE)** over electric vehicles (EVs).
-- When information is biased or incomplete, consumers **overweight the upfront price** and **undervalue long-term lifecycle costs**.
+<!-- - Heating system vendors tend to promote familiar **fossil fuel-based technologies**, downplaying efficient alternatives. -->
+<!-- - Sales incentives in vehicle markets encourage dealerships to favor **internal combustion engine vehicles (ICE)** over electric vehicles (EVs). -->
+<!-- - When information is biased or incomplete, consumers **overweight the upfront price** and **undervalue long-term lifecycle costs**. -->
 
 
 
