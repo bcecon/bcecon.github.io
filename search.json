@@ -1271,7 +1271,7 @@
     "href": "listing-econ-340-cw.html",
     "title": "ECON 340 - Classwork",
     "section": "",
-    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 1\n\n\nMicroeconomics Review\n\n\nSeptember 2, 2025\n\n\n\n\nClasswork 2\n\n\nExternalities\n\n\nSeptember 8, 2025\n\n\n\n\nClasswork 3\n\n\nProperty Rights, the Coase Theorem, and the Environment\n\n\nSeptember 19, 2025\n\n\n\n\nClasswork 4\n\n\nOptimal Harvesting in a Common-pool Fishery\n\n\nSeptember 26, 2025\n\n\n\n\nClasswork 5\n\n\nPublic Goods in Action\n\n\nOctober 3, 2025\n\n\n\n\nClasswork 6\n\n\nREDD+ Experiment — Money Growing on Trees\n\n\nOctober 6, 2025\n\n\n\n\nClasswork 7\n\n\nQuiz 1\n\n\nOctober 8, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 1\n\n\nMicroeconomics Review\n\n\nSeptember 2, 2025\n\n\n\n\nClasswork 2\n\n\nExternalities\n\n\nSeptember 8, 2025\n\n\n\n\nClasswork 3\n\n\nProperty Rights, the Coase Theorem, and the Environment\n\n\nSeptember 19, 2025\n\n\n\n\nClasswork 4\n\n\nOptimal Harvesting in a Common-pool Fishery\n\n\nSeptember 26, 2025\n\n\n\n\nClasswork 5\n\n\nPublic Goods in Action\n\n\nOctober 3, 2025\n\n\n\n\nClasswork 6\n\n\nREDD+ Experiment — Money Growing on Trees\n\n\nOctober 6, 2025\n\n\n\n\nClasswork 7\n\n\nQuiz 1\n\n\nOctober 8, 2025\n\n\n\n\nClasswork 8\n\n\nInformation Problems and Behavioral Anomalies\n\n\nOctober 20, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "econ-hw/econ-340-hw-02.html",
@@ -1579,7 +1579,7 @@
     "href": "index.html#classwork",
     "title": "ECON 340: Environmental Economics, Fall 2025",
     "section": "⌨️ Classwork",
-    "text": "⌨️ Classwork\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 1\n\n\nMicroeconomics Review\n\n\nSeptember 2, 2025\n\n\n\n\nClasswork 2\n\n\nExternalities\n\n\nSeptember 8, 2025\n\n\n\n\nClasswork 3\n\n\nProperty Rights, the Coase Theorem, and the Environment\n\n\nSeptember 19, 2025\n\n\n\n\nClasswork 4\n\n\nOptimal Harvesting in a Common-pool Fishery\n\n\nSeptember 26, 2025\n\n\n\n\nClasswork 5\n\n\nPublic Goods in Action\n\n\nOctober 3, 2025\n\n\n\n\nClasswork 6\n\n\nREDD+ Experiment — Money Growing on Trees\n\n\nOctober 6, 2025\n\n\n\n\nClasswork 7\n\n\nQuiz 1\n\n\nOctober 8, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "⌨️ Classwork\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 1\n\n\nMicroeconomics Review\n\n\nSeptember 2, 2025\n\n\n\n\nClasswork 2\n\n\nExternalities\n\n\nSeptember 8, 2025\n\n\n\n\nClasswork 3\n\n\nProperty Rights, the Coase Theorem, and the Environment\n\n\nSeptember 19, 2025\n\n\n\n\nClasswork 4\n\n\nOptimal Harvesting in a Common-pool Fishery\n\n\nSeptember 26, 2025\n\n\n\n\nClasswork 5\n\n\nPublic Goods in Action\n\n\nOctober 3, 2025\n\n\n\n\nClasswork 6\n\n\nREDD+ Experiment — Money Growing on Trees\n\n\nOctober 6, 2025\n\n\n\n\nClasswork 7\n\n\nQuiz 1\n\n\nOctober 8, 2025\n\n\n\n\nClasswork 8\n\n\nInformation Problems and Behavioral Anomalies\n\n\nOctober 20, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#homework",
@@ -2965,7 +2965,7 @@
     "href": "econ-lec/econ-340-lec-08-2025-1017.html#behavioral-bias-market-equilibrium",
     "title": "Lecture 8",
     "section": "Behavioral Bias → Market Equilibrium",
-    "text": "Behavioral Bias → Market Equilibrium\n\n\n\n\n\n\n\n\n\n\n\n\nIdea: Demand with biases (bounded rationality/willpower) vs. rational demand\n\nBiases shift demand down/left for energy-efficient tech (status quo, loss aversion).\nEquilibrium moves from (P*, Q*) (social optimum) to (P, Q) (biased market) with Q &lt; Q*."
+    "text": "Behavioral Bias → Market Equilibrium\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBiases shift demand down/left for energy-efficient tech (status quo, loss aversion).\nEquilibrium moves from (P*, Q*) (social optimum) to (P, Q) (biased market) with Q &lt; Q*.\nDue to behavioral bias, how much welfare is lost relative to the rational, unbiased market outcome?\n\n\n\n\n\n\n\n\nDWL here is the difference between potential surplus at Q* (with rational demand) and actual surplus at Q (with biased demand), using rational demand as the welfare benchmark."
   },
   {
     "objectID": "econ-lec/econ-340-lec-08-2025-1017.html#behavioral-anomalies-firms",
@@ -3042,7 +3042,7 @@
     "href": "econ-lec/econ-340-lec-08-2025-1017.html#behavioral-anomalies-overview",
     "title": "Lecture 8",
     "section": "Behavioral Anomalies — Overview",
-    "text": "Behavioral Anomalies — Overview\nBehavioral anomalies explain why households deviate from fully rational decision-making.\nWe categorize them into three systematic departures:\n\nBounded rationality — limited cognitive processing and biased perception\n\nBounded willpower — preferences for future outcomes do not translate into present actions\n\nBounded self-interest — decisions shaped by fairness, altruism, and social norms\n\n\n\n\n\n\n\nNote\n\n\n\nOutcome: Households overweight upfront costs and undervalue future savings, resulting in under-adoption of energy-efficient technologies."
+    "text": "Behavioral Anomalies — Overview\nBehavioral anomalies explain why households and firms deviate from fully rational decision-making.\nWe categorize them into three systematic departures:\n\nBounded rationality — limited cognitive processing and biased perception\n\nBounded willpower — preferences for future outcomes do not translate into present actions\n\nBounded self-interest — decisions shaped by fairness, altruism, and social norms\n\n\n\n\n\n\n\nNote\n\n\n\nOutcome: Both households and firms tend to overweight upfront costs and undervalue future savings or efficiency gains, leading to underinvestment in energy-efficient and low-carbon technologies."
   },
   {
     "objectID": "econ-lec/econ-340-lec-08-2025-1017.html#bounded-rationality",
@@ -3112,7 +3112,7 @@
     "href": "econ-lec/econ-340-lec-08-2025-1017.html#institutions-rules-and-market-governance",
     "title": "Lecture 8",
     "section": "🏛 Institutions — Rules and Market Governance",
-    "text": "🏛 Institutions — Rules and Market Governance\n\nMinimum Energy Performance Standards (MEPS) — remove worst-performing products\nBuilding codes — enforce baseline energy efficiency and retrofit standards\nGreen leases — contractually align landlord–tenant incentives\nRegulation of natural monopolies — prevent price abuse in electricity/gas networks\nCompetition authorities — monitor oligopoly/collusion in energy technology markets"
+    "text": "🏛 Institutions — Rules and Market Governance\n\nMinimum Energy Performance Standards (MEPS) — remove worst-performing products\nBuilding codes — enforce baseline energy efficiency and retrofit standards\nGreen leases — contractually align landlord–tenant incentives\n\nCost-sharing rule: Landlord installs efficient system; tenant agrees to slight rent premium.\nEnergy savings clause: Rent adjustment linked to verified energy savings.\nSubmetering requirement: Energy billing based on individual usage."
   },
   {
     "objectID": "econ-lec/econ-340-lec-08-2025-1017.html#social-norms-activate-peer-effects",
@@ -3126,7 +3126,7 @@
     "href": "econ-lec/econ-340-lec-08-2025-1017.html#bounded-rationality-mechanisms",
     "title": "Lecture 8",
     "section": "🧠 Bounded Rationality — Mechanisms",
-    "text": "🧠 Bounded Rationality — Mechanisms\n\nCognitive limitations in processing complex evaluations\n\nLoss aversion — losses loom larger than equivalent gains\n\nStatus quo bias — preference for keeping existing technology/behavior\n\nEndowment effect — greater value attached to what one already owns\n\n\nFraming effects — decisions change depending on how information is presented\n\nLimited use of information due to:\n\nLimited attention to relevant attributes\n\nLimited salience of long-term operating costs\n\nFaulty priors/beliefs about what information matters"
+    "text": "🧠 Bounded Rationality — Mechanisms\n\nCognitive limitations in processing complex evaluations\n\nLoss aversion — losses are weighted more heavily than equivalent gains in decision-making\n\nStatus quo bias — preference for keeping existing technology/behavior\n\nEndowment effect — greater value attached to what one already owns\n\n\nFraming effects — decisions change depending on how information is presented\n\nLimited use of information due to:\n\nLimited attention to relevant attributes\n\nLimited salience of long-term operating costs\n\nFaulty priors/beliefs about what information matters"
   },
   {
     "objectID": "econ-lec/econ-340-lec-08-2025-1017.html#bounded-rationality-impacts",
@@ -3140,7 +3140,7 @@
     "href": "econ-lec/econ-340-lec-08-2025-1017.html#bounded-willpower-mechanisms",
     "title": "Lecture 8",
     "section": "⏳ Bounded Willpower — Mechanisms",
-    "text": "⏳ Bounded Willpower — Mechanisms\n\n\n\nNote\n\n\nA discount rate reflects how much less individuals value future outcomes relative to present outcomes — rooted in the time value of money.\n\n\n\n\nMyopia / Present Bias\n\nIndividuals apply high short-term discount rates and low long-term discount rates\n\nLeads to time-inconsistent preferences — immediate costs dominate future benefits\n\n\nAttitude–behavior gap\n\nDeclared environmental attitudes do not align with actual purchasing or usage behavior"
+    "text": "⏳ Bounded Willpower — Mechanisms\n\n\n\nNote\n\n\nA discount rate reflects how much less individuals value future outcomes compared to immediate outcomes — similar to how an interest rate reflects the cost of waiting to receive money later rather than now, based on the time value of money.\n\n\n\n\nMyopia / Present Bias\n\nIndividuals apply high short-term discount rates and low long-term discount rates\n\nLeads to time-inconsistent preferences — immediate costs dominate future benefits\n\n\nAttitude–behavior gap\n\nDeclared environmental attitudes do not align with actual purchasing or usage behavior"
   },
   {
     "objectID": "econ-lec/econ-340-lec-08-2025-1017.html#bounded-willpower-impacts",
@@ -3169,5 +3169,19 @@
     "title": "Lecture 8",
     "section": "Asymmetric Information in Practice",
     "text": "Asymmetric Information in Practice\n\nHeating system vendors tend to promote familiar fossil fuel-based technologies, downplaying efficient alternatives.\nSales incentives in vehicle markets encourage dealerships to favor internal combustion engine vehicles (ICE) over electric vehicles (EVs).\nWhen information is biased or incomplete, consumers overweight the upfront price and undervalue long-term lifecycle costs."
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-08.html",
+    "href": "econ-cw/econ-340-cw-08.html",
+    "title": "Classwork 8",
+    "section": "",
+    "text": "Scenario\nA rental building from the 1980s has an outdated heating system.\n\nThe landlord decides on the heating system but tenants pay the energy bills.\n\nMost tenants are unaware of efficiency ratings or lifetime energy costs.\n\nThere is no submetering — heating costs are averaged into rent.\n\n\n\n\nPart 1 — Identify the Market Failure\nTask: Identify two market failures present in this situation and briefly justify.\n\nMarket Failure 1: ___________________________________________\n\\(\\qquad\\) → Because ___________________________________________________\n\nMarket Failure 2: ___________________________________________\n\\(\\qquad\\) → Because ___________________________________________________\n\n\n\n\nPart 2 — Behavioral Lens\nTask: Identify which behavioral anomaly (bounded rationality, bounded willpower, or bounded self-interest) may prevent efficient upgrades.\n\nBehavioral factor: __________________________________________\n\\(\\qquad\\) → Manifestation in this case: ________________________________\n\n\n\n\nPart 3 — Policy Design Using the Four Pillars\nFill one policy instrument or solution under each pillar that could address this situation.\n\n\n\nPolicy Pillar\nYour Proposed Solution\n\n\n\n\n💰 Incentives\n_________________________________\n\n\n🧠 Information\n_________________________________\n\n\n🏛 Institutions\n_________________________________\n\n\n🤝 Social Norms\n_________________________________\n\n\n\n\n\n\nPart 4 — Reflection Question\nWhy might information campaigns alone be insufficient to fix this problem?\nWrite a brief explanation (2–3 sentences).\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-08-2025-1017.html#social-norms-in-action-lpg-adoption-in-india",
+    "href": "econ-lec/econ-340-lec-08-2025-1017.html#social-norms-in-action-lpg-adoption-in-india",
+    "title": "Lecture 8",
+    "section": "🤝 Social Norms in Action — LPG Adoption in India",
+    "text": "🤝 Social Norms in Action — LPG Adoption in India\n\n\n\n\n\n\n\n\n\n\n\n\nIn many developing regions, households continue using firewood and biomass, leading to indoor air pollution and health risks.\nAdoption of cleaner LPG fuel rises significantly when neighboring households or members of the same social network have already adopted it.\n\n\n\n\nPeer visibility and social spillovers act as positive social norms, speeding up the transition to clean energy.\nPolicy insight: Support energy transitions by activating community-level adoption signals, not only through prices or information."
   }
 ]

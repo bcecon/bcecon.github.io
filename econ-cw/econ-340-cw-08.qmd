@@ -1,0 +1,79 @@
+---
+title: Classwork 8
+subtitle: Information Problems and Behavioral Anomalies
+date: 2025-10-20
+code-fold: true
+execute: 
+  echo: false
+  eval: true
+  warning: false
+  message: false
+from: markdown+emoji
+---
+```{r}
+#| include: false
+
+library(knitr)
+library(rmarkdown)
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+
+theme_set(theme_ipsum() +
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = element_text(size = rel(1.5)),
+                axis.title.y = element_text(size = rel(1.5)),
+                legend.title = element_text(size=rel(1.25))
+                ))
+```
+
+
+# Scenario
+
+A rental building from the 1980s has an outdated heating system.  
+
+- The **landlord** decides on the heating system but **tenants** pay the energy bills.  
+- Most tenants are **unaware of efficiency ratings** or lifetime energy costs.  
+- There is **no submetering** — heating costs are averaged into rent.
+
+<br>
+
+# Part 1 — Identify the Market Failure
+
+**Task:** Identify **two market failures** present in this situation and briefly justify.
+
+-	Market Failure 1: ___________________________________________  
+$\qquad$ → Because ___________________________________________________  
+-	Market Failure 2: ___________________________________________  
+$\qquad$ → Because ___________________________________________________
+
+
+<br>
+
+# Part 2 — Behavioral Lens
+
+**Task:** Identify which **behavioral anomaly** (bounded rationality, bounded willpower, or bounded self-interest) may prevent efficient upgrades.
+
+-	Behavioral factor: __________________________________________  
+$\qquad$ → Manifestation in this case: ________________________________
+
+<br>
+
+# Part 3 — Policy Design Using the Four Pillars
+
+Fill one **policy instrument or solution** under each pillar that could address this situation.
+
+| Policy Pillar | Your Proposed Solution |
+|---------------|------------------------|
+| 💰 **Incentives** | _________________________________ |
+| 🧠 **Information** | _________________________________ |
+| 🏛 **Institutions** | _________________________________ |
+| 🤝 **Social Norms** | _________________________________ |
+
+<br>
+
+# Part 4 — Reflection Question
+
+**Why might information campaigns alone be insufficient to fix this problem?**  
+Write a brief explanation (2–3 sentences).
