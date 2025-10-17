@@ -348,7 +348,7 @@ To correct market failures, policy must integrate:
 
 | 💰 **Incentives** | 🧠 **Information** | 🏛 **Institutions** | 🤝 **Social Norms** |
 |------------------|------------------|--------------------|--------------------|
-| Align financial signals with efficient choices | Make efficiency visible, comparable, and easy to act on | Set rules and structures that correct split incentives and market power | Use peer effects and social signaling to shift behavior |
+| Align financial signals with efficient choices | Make efficiency visible, comparable, and easy to act on | Set rules and structures that correct split incentives | Use peer effects and social signaling to shift behavior |
 
 > **Effective policy design = Aligned incentives + Salient information + Supportive institutions + Reinforced social norms**
 
@@ -358,7 +358,7 @@ To correct market failures, policy must integrate:
 
 - **Carbon / energy taxes** — but must consider bounded rationality and present bias
 - **Combine taxes with decision aids** (e.g., tax + visible label effects)
-- **On-bill financing** — recover costs through utility bills instead of upfront CAPEX
+- **On-bill financing** — recover costs through utility bills instead of upfront capital expenditures
 - **Performance-based contracts** — repayment linked to verified energy savings
 - **Subsidies or rebates** only when paired with **salient information**
 
