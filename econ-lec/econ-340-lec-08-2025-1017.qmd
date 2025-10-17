@@ -265,7 +265,7 @@ A **discount rate** reflects how much less individuals value **future outcomes**
 :::
 
 - **Myopia / Present Bias**  
-  - Individuals apply **high short-term discount rates** and **low long-term discount rates**  
+  - Individuals value the **present disproportionately more than the future**, applying a **high discount rate for near-term outcomes** and a **lower rate for distant outcomes** 
   - Leads to **time-inconsistent preferences** — immediate costs dominate future benefits  
 - **Attitude–behavior gap**  
   - Declared environmental attitudes do **not align with actual purchasing or usage behavior**  
