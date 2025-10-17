@@ -267,10 +267,9 @@ We categorize them into **three systematic departures**:
 
 ### **Poll 1 — Now vs. Soon**
 
-> **Be honest — which one *feels* better right now?**
-
-- **Option A:** Get **$5 right now** at checkout  
-- **Option B:** Get **$10 credited to your account in _1 month_**
+- **Be honest — which one *feels* better right now?**
+  - **Option A:** Get **$5 right now** at checkout  
+  - **Option B:** Get **$8 credited to your account in _1 month_**
 
 <!-- 🧠 *Typical reaction:* Many choose **$5 now**, even though waiting **doubles** the payoff.   -->
 <!-- → **Reveals high discounting of the near future** -->
@@ -280,10 +279,9 @@ We categorize them into **three systematic departures**:
 
 ### **Poll 2 — Soon vs. Later**
 
-> **Now imagine both options happen in the future — same 1-month delay.**
-
-- **Option C:** Get **$5 in _12 months_**  
-- **Option D:** Get **$10 in _13 months_**
+- **Now imagine both options happen in the future — same 1-month delay.**
+  - **Option C:** Get **$5 in _12 months_**  
+  - **Option D:** Get **$8 in _13 months_**
 
 <!-- 🔁 *Typical reaction:* Most switch to **$10 in 13 months**   -->
 <!-- → **Shows lower discounting between future periods** -->
