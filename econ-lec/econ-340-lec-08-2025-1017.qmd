@@ -1,0 +1,655 @@
+---
+title: Lecture 8
+subtitle: Information, Incentives, and Behavioral Policy Design
+format:
+  clean-revealjs:
+    self-contained: false
+    chalkboard: true
+    incremental: true
+    code-annotations: hover
+    scrollable: false
+
+    # logo: logo-title-slide.png
+author:
+  - name: Byeong-Hak Choe
+    email: bchoe@geneseo.edu
+    affiliations: SUNY Geneseo
+date: 2025-10-17
+execute: 
+  eval: true
+  echo: false
+callout-icon: false
+
+from: markdown+emoji
+include-after-body: target-hover.html # effect.html
+
+# bibliography: refs.bib
+---
+
+```{r setup}
+#| include: false
+
+library(tidyverse)
+library(lubridate)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+library(viridis)
+library(rmarkdown)
+library(gapminder)
+library(ggrepel)
+
+theme_set(theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(10,0,0,0)),
+                axis.title.y = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(0,10,0,0)),
+                axis.text.x = element_text(size = rel(1.75)),
+                axis.text.y = element_text(size = rel(1.75)),
+                strip.text = element_text(size = rel(1.5)),
+                legend.position = "top",
+                legend.text = element_text(size = rel(1.5)),
+                legend.title = element_text(size = rel(1.5))
+                )
+          )
+
+# Set global options for color-blind-friendly scales
+# scale_colour_discrete <- function(...) scale_colour_viridis_d(...)
+
+scale_colour_discrete <- function(...) scale_color_colorblind(...)
+scale_fill_discrete <- function(...) scale_fill_colorblind(...)
+
+
+# install.packages("ggplot2") # if needed
+library(ggplot2)
+library(ggthemes)
+library(hrbrthemes)
+
+# -- Curves (choose simple linear forms) --
+# Supply:    P = a + bQ
+# Demand*:   P = c - dQ          (without bias)
+# Demand_b:  P = c2 - dQ         (with bias; parallel & lower)
+a  <- 10; 
+b <- 0.6
+c  <- 80; 
+d <- 1
+
+c2 <- 50
+
+inv_supply      <- function(Q) a + b*Q
+inv_demand_star <- function(Q) c - d*Q
+inv_demand_bias <- function(Q) c2 - d*Q
+
+# -- Intersections --
+# Equilibrium with bias (Q, P)
+Qb <- (c2 - a) / (b + d)
+Pb <- inv_supply(Qb)
+
+# Socially optimal (with unbiased demand) (Q*, P*)
+Qstar <- (c - a) / (b + d)
+Pstar <- inv_supply(Qstar)
+
+# Reference prices (to match the figure)
+P1 <- inv_demand_star(Qb)  # price on unbiased demand at Q
+P2 <- inv_supply(Qstar)    # same as Pstar here
+
+# -- Data for plotting --
+Qmax <- max(Qstar, Qb) * 1.14
+gridQ <- seq(0, Qmax, length.out = 200)
+
+curves <- rbind(
+  data.frame(Q = gridQ, P = inv_supply(gridQ),      curve = "Supply"),
+  data.frame(Q = gridQ, P = inv_demand_star(gridQ), curve = "Demand without bias"),
+  data.frame(Q = gridQ, P = inv_demand_bias(gridQ), curve = "Demand with bias")
+)
+
+# Shaded welfare-loss triangle (vertices: (Q, P1), (Q*, P*), (Q, P))
+wl_poly <- data.frame(
+  Q = c(Qb, Qstar, Qb),
+  P = c(P1, Pstar, Pb)
+)
+
+# -- Plot --
+p <- ggplot() +
+  geom_vline(xintercept = 0) +
+  geom_hline(yintercept = 0) +
+  geom_polygon(data = wl_poly, aes(Q, P), fill = "grey80", color = NA) +
+  # curves
+  geom_line(data = curves, aes(Q, P, linetype = curve, color = curve),
+            linewidth = 2) +
+  # welfare loss
+  # equilibrium points
+  geom_point(aes(Qb, Pb)) +
+  geom_point(aes(Qstar, Pstar)) +
+  # guide lines (verticals to Q and Q*)
+  geom_segment(aes(x = Qb, xend = Qb, y = 0, yend = Pb), linetype = 3) +
+  geom_segment(aes(x = Qstar, xend = Qstar, y = 0, yend = Pstar), linetype = 3) +
+  # horizontals at P, P2, P1
+  geom_segment(aes(x = 0, xend = Qb, y = Pb,    yend = Pb),    linetype = 3) +
+  geom_segment(aes(x = 0, xend = Qstar, y = P2, yend = P2),    linetype = 3) +
+  geom_segment(aes(x = 0, xend = Qb,    y = P1, yend = P1),    linetype = 3) +
+  annotate("text", x = .9*(Qb+Qstar)/2, y = (Pb+P1)/2 - 3, label = "Deadweight\nloss") +
+  # axis labels and theme
+  labs(x = "Q", y = "P", linetype = "", color = "") +
+  scale_x_continuous(breaks = c(Qb, Qstar),
+                     label = c("Q", "Q*")) +
+  scale_y_continuous(breaks = c(Pb, P2, P1),
+                     label = c("P", "P*", "")) +
+  scale_color_tableau() +
+  theme(axis.title.y = element_text(vjust = 1, angle = 0),
+        axis.title.x = element_text(hjust = 1, margin = margin(r = -10)),
+        panel.grid = element_blank(),   # ✅ Ensure no gridlines
+        panel.background = element_blank(),
+        legend.position = c(0.75, 0.85),     # ✅ place legend inside plot
+        legend.background = element_rect(color = "black", fill = "white"), # ✅ boxed legend
+        legend.title = element_blank(),
+        axis.ticks = element_blank(),
+        axis.text.x = element_text(margin = margin(t = -10)),
+        axis.text.y = element_text(margin = margin(r = -10)),
+        aspect.ratio = 1
+  ) +
+  guides(
+    color = guide_legend(nrow = 3, byrow = TRUE),  # ✅ 3 rows in legend
+    linetype = guide_legend(nrow = 3, byrow = TRUE)
+  )
+
+        
+```
+
+
+# Market Failures {background-color="#1c4982"}
+
+## Sources of Market Failure
+
+1. **Externalities** — private decisions impose unpriced costs or benefits on others  
+2. **Public Goods & Common-Pool Resources** — non-excludability leads to free-riding or overuse  
+3. **Lack of Competition** — market power (monopoly or collusive oligopoly) distorts price and quantity  
+4. **Information Problems** — imperfect or asymmetric information skews choices  
+5. **Principal–Agent Problems** — split incentives between decision-maker and payer  
+6. **Behavioral Anomalies** — bounded rationality, willpower, and social norms affect decisions  
+
+
+# Information and Principal–Agent Problems {background-color="#1c4982"}
+
+
+## Information Problems — What & Why
+
+- **Imperfect information** — consumers lack clear and accurate information about **energy-saving technologies** (appliances, vehicles, buildings, heating systems) and **energy-producing options** such as solar.
+- **Asymmetric information** — sellers possess or selectively present information that buyers cannot easily verify or compare.
+- **Consequence** — leads to **distorted decision-making**, resulting in **under-adoption of efficient technologies**, **misallocation of resources**, and **welfare loss**.
+
+- **Policy responses** may include **energy labels, public energy audits, neutral advisory services, and targeted information campaigns** to correct these informational gaps.
+
+
+## Asymmetric Information in Practice
+
+- Heating system vendors tend to promote familiar **fossil fuel-based technologies**, downplaying efficient alternatives.
+- Sales incentives in vehicle markets encourage dealerships to favor **internal combustion engine vehicles (ICE)** over electric vehicles (EVs).
+- When information is biased or incomplete, consumers **overweight the upfront price** and **undervalue long-term lifecycle costs**.
+
+
+
+## Principal–Agent Problems (Split Incentives)
+
+- **Setup**: Building **owner (agent)** chooses efficiency/heating; **tenant (principal)** pays energy bills.
+- **Externality**: Owner’s choice → tenant’s energy costs & pollution.
+- **Asymmetry**: Tenants can’t observe full tech set/quality.
+
+- **Outcomes**
+  - Owners **underinvest** in efficient/heating upgrades (high capital expenditures; they don’t pay operating expenditures).
+  - Tenants & society **lose** (higher bills, greater emissions, slow progress in energy-efficient retrofits).
+
+- **Policy fixes**
+  - **Mandatory energy certificates**, disclosure
+  - **Minimum efficiency standards**
+  - **Info** on renewables/adaptation (e.g., shading, natural ventilation)
+
+
+
+# Behavioral Anomalies {background-color="#1c4982"}
+
+## Behavioral Anomalies — Overview
+
+Behavioral anomalies explain why **households deviate from fully rational decision-making**.
+
+We categorize them into **three systematic departures**:
+
+1. **Bounded rationality** — limited cognitive processing and biased perception  
+2. **Bounded willpower** — preferences for future outcomes do not translate into present actions  
+3. **Bounded self-interest** — decisions shaped by **fairness**, **altruism**, and **social norms**
+
+<div style="display:block; margin:-10px;"></div>
+
+::: callout-note
+- **Outcome:** Households **overweight upfront costs** and **undervalue future savings**, resulting in **under-adoption of energy-efficient technologies**.
+
+:::
+
+## 🧠 Bounded Rationality — Mechanisms
+
+- **Cognitive limitations** in processing complex evaluations  
+- **Loss aversion** — losses loom larger than equivalent gains  
+  - **Status quo bias** — preference for keeping existing technology/behavior  
+  - **Endowment effect** — greater value attached to what one already owns  
+- **Framing effects** — decisions change depending on how information is presented  
+- **Limited use of information** due to:  
+  - **Limited attention** to relevant attributes  
+  - **Limited salience** of long-term operating costs  
+  - **Faulty priors/beliefs** about what information matters  
+  
+  
+
+
+## 🧠 Bounded Rationality — Impacts
+
+- Difficulty assessing **lifetime costs** of energy-consuming durables  
+- Underuse of available efficiency information due to **low salience**  
+- Reliance on **heuristics** instead of formal cost-benefit reasoning  
+- **Inertia** — continued use of outdated, inefficient technologies  
+
+
+## ⏳ Bounded Willpower — Mechanisms
+
+::: callout-note
+A **discount rate** reflects how much less individuals value **future outcomes** relative to **present outcomes** — rooted in the **time value of money**.
+:::
+
+- **Myopia / Present Bias**  
+  - Individuals apply **high short-term discount rates** and **low long-term discount rates**  
+  - Leads to **time-inconsistent preferences** — immediate costs dominate future benefits  
+- **Attitude–behavior gap**  
+  - Declared environmental attitudes do **not align with actual purchasing or usage behavior**  
+
+## ⏳ Bounded Willpower — Impacts
+
+- Environmental concern does **not translate** into efficient purchasing behavior  
+- **Upfront cost is overweighted** relative to long-term operating savings  
+- **Adaptation and efficiency decisions** are delayed or postponed  
+
+
+
+## 🤝 Bounded Self-Interest — Mechanisms
+
+- **Altruism** — willingness to act for social or environmental benefit without direct personal gain  
+- **Fairness preferences** — concern for equitable outcomes in energy and climate policy  
+- **Social norms** — behavior shaped by what is perceived as acceptable or common within peer groups  
+
+## 🤝 Bounded Self-Interest — Impacts
+
+- **Social comparison of energy use** can reduce overconsumption  
+- **Peer effects in technology adoption** — visibility of efficient choices encourages diffusion  
+- Potential for **positive spillovers** through collective behavioral change  
+
+
+
+
+## Behavioral Bias → Market Equilibrium
+
+
+:::: {.columns}
+::: {.column width="50%"}
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| out-width: 100%
+#| fig-width: 6
+#| fig-height: 6
+
+
+p
+```
+
+
+:::
+
+
+::: {.column width="50%"}
+**Idea**: Demand with biases (bounded rationality/willpower) vs. rational demand
+
+- Biases shift demand **down/left** for energy-efficient tech (status quo, loss aversion).
+- Equilibrium moves from **(P\*, Q\*)** (social optimum) to **(P, Q)** (biased market) with **Q < Q\***.
+
+:::
+::::
+
+
+# Policy Design: Putting It Together  {background-color="#1c4982"}
+
+## 🎯 Policy Design: Putting It Together
+
+To correct market failures, policy must integrate:
+
+| 💰 **Incentives** | 🧠 **Information** | 🏛 **Institutions** | 🤝 **Social Norms** |
+|------------------|------------------|--------------------|--------------------|
+| Align financial signals with efficient choices | Make efficiency visible, comparable, and easy to act on | Set rules and structures that correct split incentives and market power | Use peer effects and social signaling to shift behavior |
+
+> **Effective policy design = Aligned incentives + Salient information + Supportive institutions + Reinforced social norms**
+
+
+
+## 💰 Incentives — Align Costs and Benefits
+
+- **Carbon / energy taxes** — but must consider bounded rationality and present bias
+- **Combine taxes with decision aids** (e.g., tax + visible label effects)
+- **On-bill financing** — recover costs through utility bills instead of upfront CAPEX
+- **Performance-based contracts** — repayment linked to verified energy savings
+- **Subsidies or rebates** only when paired with **salient information**
+
+## 🧠 Information — Make the Efficient Choice Obvious
+
+- **Energy labels with lifecycle cost information**, not just efficiency class
+- **Standardized comparison tools** — appliance efficiency rankings, certification platforms
+- **Real-time consumption feedback** — smart meters, usage comparisons on bills
+- **Framing and default design** — present efficient options as the **default choice**
+- **Public reporting of building or appliance energy performance**
+
+## 🏛 Institutions — Rules and Market Governance
+
+- **Minimum Energy Performance Standards (MEPS)** — remove worst-performing products
+- **Building codes** — enforce baseline energy efficiency and retrofit standards
+- **Green leases** — contractually align landlord–tenant incentives
+- **Regulation of natural monopolies** — prevent price abuse in electricity/gas networks
+- **Competition authorities** — monitor oligopoly/collusion in energy technology markets
+
+## 🤝 Social Norms — Activate Peer Effects
+
+- **Home energy reports with neighbor comparisons** to trigger social benchmarking
+- **Public commitments** — voluntary efficiency pledges, visible certification badges
+- **Community adoption challenges** — neighborhood or campus energy competitions
+- **Visible adoption signals** — solar panels, EV chargers, energy labels as social cues
+- **Use social recognition** to reinforce efficient behavior as the norm
+
+
+<!-- <div style="display:block; margin:-50px;"></div> -->
+
+<!-- ::: callout-warning -->
+<!-- - **Policy design**: Combine **prices** (carbon/energy taxes) with **choice architecture** (labels, defaults), **info salience**, and **financing** to counter biases. -->
+<!-- ::: -->
+
+
+<!-- ## Policy Design — Information & Incentives -->
+
+<!-- **Combine price signals with behavioral sensitivity** -->
+
+<!-- - **Price signals**: Carbon or energy taxes, but must account for **bounded rationality and present bias** -->
+<!--   - Use **price + choice architecture together** — e.g., taxes + visible labels or default efficiency options -->
+
+<!-- **Make information salient and easy to act on** -->
+
+<!-- - **Energy labels** showing **lifecycle cost**, not just efficiency class -->
+<!-- - **Appliance comparison tools** and standardized disclosure formats -->
+<!-- - **Real-time consumption feedback** (smart meters, bill comparisons) -->
+
+<!-- **Use defaults and minimum standards** -->
+
+<!-- - **MEPS** — remove worst-performing products from the market -->
+<!-- - **Energy building codes** — enforce baseline retrofit levels -->
+<!-- - **Green defaults** in leases or procurement contracts -->
+
+
+<!-- ## Policy Design — Institutions & Social Mechanisms -->
+
+<!-- **Solve split-incentive problems (Principal–Agent)** -->
+
+<!-- - **On-bill financing** — spread CAPEX over utility bills instead of upfront payments -->
+<!-- - **Submetering** — make tenants pay for their own actual consumption -->
+<!-- - **Green leases** — align landlord–tenant responsibilities for efficiency upgrades -->
+<!-- - **Performance contracts** — tie investment repayment to verified energy savings -->
+
+<!-- **Address market power and maintain competition** -->
+
+<!-- - **Regulate natural monopolies** (electricity/gas networks) to prevent price abuse -->
+<!-- - **Competition authorities** to detect and prevent cartel behavior or collusion -->
+<!-- - **Encourage innovation and entry** in energy technology markets -->
+
+<!-- **Leverage social norms and peer effects** -->
+
+<!-- - **Home energy reports & neighbor comparisons** -->
+<!-- - **Public commitments and community-level adoption challenges** -->
+<!-- - **Social visibility of energy-efficient behavior** (norm activation) -->
+
+
+
+<!-- ## Behavioral Anomalies — Firms -->
+
+<!-- - **X-inefficiency / productive inefficiency** (Leibenstein, 1966): internal (motivation, incentives) & external (market pressure) factors → **costs above minimum**. -->
+<!-- - More likely where **competition is weak** (monopoly/network sectors). -->
+
+<!-- - **Evidence**: Swiss hydropower (Filippini et al., 2018) → **~21.8% cost inefficiency**. -->
+
+
+
+<!-- ## Policy Design: Putting It Together -->
+
+<!-- **Information + Incentives + Institutions** -->
+
+<!-- - **Price signals**: energy/CO₂ taxes, but don’t assume full rationality. -->
+<!--   - Combine **prices** (carbon/energy taxes) with **choice architecture** (labels, defaults) -->
+<!-- - **Information salience**: labels with **lifecycle cost**, appliance comparators, real-time feedback. -->
+<!-- - **Defaults/standards**: building codes, minimum energy performance standards, green defaults in leases. -->
+<!-- - **Split incentives**: paying costs over time, green leases, submetering, performance contracts. -->
+<!-- - **Competition & regulation**: monitor oligopolies/cartels; regulate natural monopolies; encourage entry/innovation where feasible. -->
+<!-- - **Social norms**: peer reports, public commitments, community challenges. -->
+
+
+
+<!-- ## Quick Discussion Prompts -->
+
+<!-- 1. Where would **labels** beat **subsidies**—and vice versa? -->
+<!-- 2. One concrete fix for **landlord–tenant** split incentives on heating? -->
+<!-- 3. How might you **nudge** EV adoption without new spending? -->
+<!-- 4. What’s the right **regulatory model** for your country’s electricity distribution? -->
+
+
+
+
+
+<!-- ## (Optional) Activity Slide — Diagnose the Frictions -->
+
+<!-- **Case**: 1970s rental building, owner chooses heating; tenants pay utilities.   -->
+<!-- **Task**: Identify **(a)** information gaps, **(b)** split incentives, **(c)** behavioral frictions, and **(d)** one **policy bundle** that addresses all three. -->
+
+<!-- ::: notes -->
+<!-- Look for: mandatory disclosure + green lease clauses + default efficient options + on-bill financing + social proof. -->
+<!-- ::: -->
+
+
+<!-- ## Bounded Selfishness -->
+
+<!-- - Individuals give value to altruism (doing actions that benefit other people without receiving anything in return) -->
+<!-- - Individuals give value to fairness (treating people in a fair way, free from bias or injustice) -->
+<!-- - Individuals tend to care about social norms, that is, people try to exhibit attitudes and behaviors that are considered acceptable according to the prevailing societal norms. -->
+
+<!-- ## Bounded Selfishness - Impact -->
+
+<!-- - Social comparison of energy use among households may work to reduce energy consumption (e.g., through home energy reports) -->
+<!-- - Social comparison of energy-efficient investments among households -->
+
+<!-- ### **Bounded rationality** -->
+<!-- - **Cognitive limits** — can't process complex lifetime-cost calculations -->
+<!-- - **Loss aversion** — upfront cost feels like a bigger loss than future savings feel like a gain -->
+<!-- - **Status quo bias** — prefer keeping old, inefficient technologies -->
+<!-- - **Framing effects** — decisions depend on how energy savings are presented -->
+<!-- - **Limited salience/attention** — operating costs are less visible than purchase price -->
+
+<!-- ### **Bounded willpower** -->
+<!-- - **Present bias / myopia** — immediate expenses outweigh distant savings -->
+<!-- - **Attitude–behavior gap** — values do not translate into actions (“I care about climate, but…”) -->
+
+
+
+<!-- ## Behavioral Anomalies — Key Mechanisms -->
+
+<!-- ### **Bounded rationality** -->
+<!-- - Cognitive limits → cannot calculate lifetime costs -->
+<!-- - Loss aversion → fear of high upfront cost -->
+<!-- - Status quo bias → stick with old technology -->
+<!-- - Framing & salience → message presentation changes decisions -->
+
+<!-- ### **Bounded willpower** -->
+<!-- - Present bias/myopia → immediate costs > future savings -->
+<!-- - Attitude–behavior gap → “I care about climate, but I still buy cheap appliances” -->
+
+<!-- ### **Bounded self-interest** -->
+<!-- - Altruism & fairness → some adopt clean tech for ethical reasons -->
+<!-- - Social norms → adoption influenced by what neighbors/peers do -->
+
+
+
+<!-- ## Behavioral Anomalies — Households -->
+
+<!-- **Three buckets**: -->
+
+<!-- 1. **Bounded rationality** (cognitive limits, **loss aversion**, status quo, framing, limited salience/attention). -->
+<!-- 2. **Bounded willpower** (present bias/myopia; attitude–behavior gap). -->
+<!-- 3. **Bounded self-interest** (altruism, fairness, **social norms**). -->
+
+<!-- - **Implications**: Under-adoption of efficient tech; overweight **upfront cost**; undervalue **lifetime savings**. -->
+
+
+
+<!-- ## Behavioral Anomalies: Quick Map -->
+
+<!-- | Category                | Representative Anomalies                                         | Energy Impacts                                                                 | -->
+<!-- |------------------------|------------------------------------------------------------------|-------------------------------------------------------------------------------| -->
+<!-- | **Bounded rationality** | Cognitive limits, **loss aversion**, status quo bias, framing, limited salience | Poor lifetime-cost calculation; retention of inefficient durables; heuristic decision-making | -->
+<!-- | **Bounded willpower**   | Attitude–behavior gap, **present bias**                          | Preference for low upfront cost (Capital Expenditures); undervaluation of future savings (Operating Expenditures); delayed adaptation | -->
+<!-- | **Bounded self-interest** | Altruism, fairness, **social norms**                            | Peer comparison influences energy use/adoption; potential positive spillover effects | -->
+
+
+
+<!-- ## Social Spillovers: LPG in India (Srinivasan & Carattini, 2019) -->
+
+<!-- - **Finding**: Higher village/block LPG adoption ↑ probability of household adoption; stronger within **social networks**. -->
+<!-- - **Policy**: Leverage **social learning/norms** to scale clean fuel transitions. -->
+
+
+
+
+<!-- ## Role Reversal Variant -->
+
+<!-- - If **landlord pays utilities**, **tenant** underinvests in efficient appliances or conservation. -->
+<!-- - Lesson: Align **who pays** with **who chooses**; use **contracts**, **metering**, and **incentive-compatible** mechanisms. -->
+
+
+
+<!-- ## Information Experiment in China -->
+
+<!-- - **Context**: LEDs vs incandescent over 10 years. -->
+<!-- - **Finding**: Consumers **undervalue** LED savings due to **imperfect information**. -->
+<!-- - **Treatment**: Providing savings info ↑ **WTP** for LEDs; narrows **efficiency gap**. -->
+<!-- - **Policy**: Salient, credible operating-cost info (labels, bills) to unlock adoption. -->
+
+
+
+
+<!-- # Lack of Competition {background-color="#1c4982"} -->
+
+
+<!-- ## Lack of Competition — Market Structures -->
+
+<!-- **Energy markets often depart from perfect competition**: -->
+
+<!-- - **Wholesale**: Oil & gas = **oligopoly** (collusion risk). -->
+<!-- - **Networks**: Gas & electricity **transmission/distribution** = **natural monopolies** (large fixed costs, economies of scale). -->
+<!-- - **Retail**: Mixed—some competitive, some not; varies by country, function. -->
+
+
+<!-- ::: callout-note -->
+<!-- - **Natural monopoly**: due to cost structure (declining average costs over relevant demand) → single provider more efficient than many duplicative networks. -->
+<!-- ::: -->
+
+
+<!-- ## Market Forms Snapshot -->
+
+<!-- | Resource     | Wholesale market                                      | Retail market                                                                 | -->
+<!-- |--|--|--| -->
+<!-- | **Oil**      | Oligopolistic                                          | Reasonably competitive (gasoline, heating oil)                                 | -->
+<!-- | **Gas**      | Oligopolistic                                          | **Natural monopoly**                                                           | -->
+<!-- | **Electricity** | Competitive in some; monopolistic in others           | **Monopoly** for T&D (natural monopoly); retail mixed (competitive or mono)   | -->
+<!-- | **Coal**     | Reasonably competitive                                 | Reasonably competitive                                                         | -->
+
+
+
+<!-- ## Natural Monopoly: Pricing & Regulation -->
+
+<!-- - Unregulated monopolist sets **profit-maximizing price/quantity** → **allocative inefficiency**. -->
+<!-- - **Regulation** needed (price/rate-of-return, incentive regulation) to approach **socially efficient** outcomes. -->
+
+<!-- - **Evidence**: Swiss gas distribution (Alaeifar, Farsi, Filippini, 2014)  -->
+<!--   - **Unexploited economies of scale**; cost curves ↓ with customer density (CUD) → natural monopoly. -->
+
+
+
+<!-- ## Energy Technology Markets -->
+
+<!-- - Often **oligopolistic** or **monopolistic competition** (differentiation + entry). -->
+<!-- - **Concerns**: market power → P↑, Q↓ vs. social optimum. -->
+<!-- - **Policy balance**: -->
+<!--   - **Competition authority** to deter collusion (oligopoly). -->
+<!--   - With **monopolistic competition**: weigh small firm-level power vs. **benefits of variety**. -->
+
+<!-- - **Info remedies**: **Labels**, comparison sites, disclosure rules → informed choice in complex tech markets. -->
+
+
+
+
+<!-- ## Information: Impact Factors of Household Energy-Saving Behavior -->
+
+<!-- **Question**: Can information reduce behavioral limits and improve household energy-saving? -->
+
+<!-- - Survey identifies **subjective** (attitudes, responsibility) and **external** factors shaping energy use. -->
+<!-- - **Finding**: Better energy information ↓ bounded rationality; ↑ energy-saving intentions/behaviors. -->
+<!-- - **Implication**: Pair **responsibility-framing** with **knowledge campaigns** to shift purchases. -->
+
+<!-- ::: callout-note -->
+<!-- - Link to bounded rationality: cognitive limits & limited salience of efficiency attributes. -->
+<!-- ::: -->
+<!-- ## Bounded Rationality -->
+
+<!-- - **Cognitive limitations** in evaluating complex tasks -->
+<!-- - **Loss aversion**: a pattern of preference for avoiding losses rather than acquiring equivalent gains -->
+<!--   - **Status quo bias**: a strong tendency to remain at the status quo -->
+<!--   - **Endowment effect**: humans assign greater value to specific goods that they own than to identical goods they do not own -->
+<!-- - **Framing effect**: the choices of individuals can be influenced by the manner in which the positive or negative aspects of a decision are presented. -->
+<!-- - **Limited use of information** -->
+<!--   - **Limited attention** paid to some information related to a decision -->
+<!--   - **Limited salience** of relevant information -->
+<!--   - **Faulty priors/beliefs** about which information is relevant -->
+
+
+<!-- ## Bounded Rationality - Impact -->
+<!-- - Difficulty to compute the lifetime cost of energy-consuming durables -->
+<!-- - Limited use of information that can be due to limited salience of the level of energy efficiency of a durable (cars, electrical appliances, etc.) -->
+<!-- - Heuristic decision-making (e.g., the use of a rule of thumb) instead of undertaking complex calculations -->
+<!-- - A tendency to keep old durables, to avoid changes in models and brands of durables -->
+
+
+<!-- ## Bounded Willpower -->
+
+<!-- ::: callout-note -->
+
+<!-- A **discount rate** reflects how much less individuals value **future costs or benefits** compared to those occurring now — rooted in the **time value of money**, where outcomes in the **future** are weighted less than outcomes in the **present**. -->
+
+<!-- ::: -->
+
+
+<!-- - **Myopia in intertemporal choices (Present Bias)**   -->
+<!--   - Individuals apply **higher discount rates to near-term trade-offs** and **lower discount rates to distant outcomes**, causing immediate costs to feel more significant than future benefits.   -->
+<!--   - This **time-inconsistent discounting** leads to the undervaluation of long-term energy savings relative to upfront investment costs. -->
+
+
+<!-- - **Attitude–behavior gap**   -->
+<!--   - Inconsistency between stated preferences or values and actual decision-making behavior. -->
+
+
+
+<!-- ## Bounded Willpower - Impact -->
+<!-- - Individuals value the environment; however, they keep old appliances and do not behave accordingly -->
+<!-- - Due to myopia and present bias, consumers tend to give weight to the upfront cost of a durable or of an investment in energy efficiency and undervalue its future operating cost or benefits. -->
+<!-- - Individuals may underestimate current climate risks and tend to procrastinate on the adoption of adaptation strategies. -->
