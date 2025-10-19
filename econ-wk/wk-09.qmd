@@ -8,6 +8,15 @@ from: markdown+emoji
 In **Week 9**, we will wrap up the lecture on [Information, Incentives, and Behavioral Anomalies](../econ-lec/econ-340-lec-08-2025-1017.html){target="blank"} and then transition to our new topic: **Climate Change**. This module will directly support your **Team Project – Climate Change and the Individual**, helping you apply the concepts to real-world analysis.
 
 
+
+## ✍️ Classwork
+
+- **Classwork 8: _Information Problems and Behavioral Anomalies_**  
+  [📄 View Classwork](../econ-cw/econ-340-cw-08.html){target="_blank"}  
+
+
+<br>
+
 # Team Project – Climate Change and the Individual  
 ## Team Project Schedule
 - Week 10 (October 31, Friday, 11:59 P.M.): **Project Kickoff Report**
