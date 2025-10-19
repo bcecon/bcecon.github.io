@@ -1,6 +1,6 @@
 ---
 title: Week 8
-subtitle: Midterm Exam 1 Review and 
+subtitle: Midterm Exam 1 Review; Market Failutres
 date: 2025-10-15
 from: markdown+emoji
 ---

@@ -1,0 +1,55 @@
+---
+title: Week 9
+subtitle: Information, Incentives, and Behavioral Anomalies; Climate Change
+date: 2025-10-20
+from: markdown+emoji
+---
+
+In **Week 9**, we will wrap up the lecture on [Information, Incentives, and Behavioral Anomalies](../econ-lec/econ-340-lec-08-2025-1017.html){target="blank"} and then transition to our new topic: **Climate Change**. This module will directly support your **Team Project – Climate Change and the Individual**, helping you apply the concepts to real-world analysis.
+
+
+# Team Project – Climate Change and the Individual  
+## Team Project Schedule
+- Week 10 (October 31, Friday, 11:59 P.M.): **Project Kickoff Report**
+- Week 15 (Dec 1–5): **Team Presentations**
+- Week 17 (December 16, Tuesday, 11:59 P.M.): **Project Proposal**
+
+Project topics should focus on climate change actions, advocacy, awareness, and outreach. For additional ideas, consider the [problems and possibilities](https://www.getitright.earth/problems-possibilities).  
+
+Each team will consist of **three students**. Teams must develop a clear **research question** for their term paper. The proposal may be **theoretical, empirical, or a combination of both**. For empirical work, the proposed dataset must be approved in advance by **Byeong-Hak Choe**.
+
+## Expectations for the Proposal
+Your team’s proposal should critically examine a climate change issue by:  
+1. **Explaining** the central dilemma facing society.  
+2. **Identifying** the key questions that must be addressed to develop solutions, while acknowledging the trade-offs between objectives.  
+3. **Presenting** appropriate evidence to analyze the competing interests involved.  
+4. **Formulating** policy recommendations that logically follow from your analysis.  
+
+## Evaluation Criteria  
+Team project will be evaluated on:  
+1. Quality of the research question  
+2. Quality of the oral presentation  
+3. Strength of the economic analysis  
+4. Quality of the modeling analysis  
+5. Peer evaluation of other students’ presentations  
+
+**Note:** Any change in team membership or research topic requires approval from **Byeong-Hak Choe**.  
+
+## Additional Opportunity  
+Your team is encouraged to participate in the campus-wide [Ideas that Matter Student Challenge](https://www.geneseo.edu/cil/ideas-matter-student-challenge) in Spring 2026, aligned with the 2025–26 theme *Climate Change and the Individual*. 
+
+
+
+
+## 💬 Discussion
+
+<font size = "5">Welcome to our Week 9 Discussion Board! 👋 </font>
+
+
+This space is designed for you to engage with your classmates about the material covered in Week 9.
+
+Whether you are looking to delve deeper into the content, share insights, or have questions about the content, this is the perfect place for you.
+
+If you have any specific questions for Byeong-Hak (**@bcecon**) or peer classmate (@GitHub-Username) regarding the Week 9 materials or need clarification on any points, don't hesitate to ask here. 
+
+Let's collaborate and learn from each other!
