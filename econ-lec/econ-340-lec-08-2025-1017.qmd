@@ -388,23 +388,33 @@ p
 
 ## 🎯 Policy Design: Putting It Together
 
+<div style="display:block; margin:-15px;"></div>
+
 To correct market failures, policy must integrate:
 
 | 💰 **Incentives** | 🧠 **Information** | 🏛 **Institutions** | 🤝 **Social Norms** |
 |------------------|------------------|--------------------|--------------------|
 | Align financial signals with efficient choices | Make efficiency visible, comparable, and easy to act on | Set rules and structures that correct split incentives | Use peer effects and social signaling to shift behavior |
 
+<div style="display:block; margin:-60px;"></div>
+
 > **Effective policy design = Aligned incentives + Salient information + Supportive institutions + Reinforced social norms**
 
+<div style="display:block; margin:-15px;"></div>
 
+:::callout-note
+- **Economics** is fundamentally about **policy design** — improving **human well-being** through **exchange** and **coordinated action** by designing **incentives, information, institutions**, and **social norms** so that **scarce resources and time** are used more effectively.
+
+:::
 
 ## 💰 Incentives — Align Costs and Benefits
 
-- **Carbon / energy taxes** — but must consider bounded rationality and present bias
-- **Combine taxes with decision aids** (e.g., tax + visible label effects)
-- **On-bill financing** — recover costs through utility bills instead of upfront capital expenditures
-- **Performance-based contracts** — repayment linked to verified energy savings
-- **Subsidies or rebates** only when paired with **salient information**
+- **Carbon / energy taxes** — effective in theory but require attention to **bounded rationality** and **present bias**
+  - Should be paired with **complementary decision aids** (e.g., **visible energy labels**, **default green options**, or **simplified prompts**)
+- **On-bill financing** — spreads costs over time by recovering investments through **utility bills** instead of requiring **large upfront payments**
+- **Performance-based contracts** — repayment is **tied to documented energy savings**, reducing perceived risk
+- **Subsidies or rebates** — more impactful when paired with **salient, easy-to-understand information** rather than passive financial incentives
+
 
 ## 🧠 Information — Make the Efficient Choice Obvious
 
