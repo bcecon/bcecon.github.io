@@ -310,14 +310,15 @@ A **discount rate** reflects how much less individuals value **future outcomes**
   - This causes the **first few years of future benefits to be heavily undervalued**, while **upfront costs are felt fully with no discounting**
   - As a result, **immediate costs dominate future benefits**
   
-- **Attitude–behavior gap**  
-  - Declared environmental attitudes do **not align with actual purchasing or usage behavior**  
+<!-- - **Attitude–behavior gap**   -->
+<!--   - Declared environmental attitudes do **not align with actual purchasing or usage behavior**   -->
 
 ## ⏳ Bounded Willpower — Impacts
 
-- Environmental concern does **not translate** into efficient purchasing behavior  
-- **Upfront cost is overweighted** relative to long-term operating savings  
-- **Adaptation and efficiency decisions** are delayed or postponed  
+- **Present Bias** causes a **time inconsistency problem — future actions fail to align with one's original optimal plan**
+  - Environmental concern does **not translate** into efficient purchasing behavior  
+  - **Upfront cost is overweighted** relative to long-term operating savings  
+  - **Adaptation and efficiency decisions** are delayed or postponed  
 
 
 
