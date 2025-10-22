@@ -11,8 +11,8 @@
   <meta name="generator" content="quarto-1.3.450">
 
   <meta name="author" content="Byeong-Hak Choe">
-  <meta name="dcterms.date" content="2025-08-25">
-  <title>Lecture 1</title>
+  <meta name="dcterms.date" content="2025-10-22">
+  <title>Lecture 9</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -322,25 +322,14 @@
       margin-right: 0; 
     }
   </style>
-  
-  <link href="../site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
-  <script src="../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
-  <link href="../site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
-  <script src="../site_libs/datatables-binding-0.33/datatables.js"></script>
-  <script src="../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="../site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet">
-  <link href="../site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet">
-  <script src="../site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
-  <link href="../site_libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet">
-  <script src="../site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
 </head>
 <body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Lecture 1</h1>
-  <p class="subtitle">Syllabus and Course Outline</p>
+  <h1 class="title">Lecture 9</h1>
+  <p class="subtitle">Balancing the Present and Future: The Discount Rate</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -356,381 +345,617 @@ Byeong-Hak Choe
     </div>
 </div>
 
-  <p class="date">August 25, 2025</p>
+  <p class="date">October 22, 2025</p>
 </section>
 <section>
-<section id="instructor" class="title-slide slide level1 center" data-background-color="#1c4982">
-<h1>Instructor</h1>
+<section id="the-discount-rate" class="title-slide slide level1 center" data-background-color="#1c4982">
+<h1>The Discount Rate</h1>
 
 </section>
-<section id="instructor-1" class="slide level2">
-<h2>Instructor</h2>
-<h3 id="current-appointment-education">Current Appointment &amp; Education</h3>
+<section id="why-discount-the-future" class="slide level2">
+<h2>Why Discount the Future?</h2>
 <ul>
-<li class="fragment"><p>Name: Byeong-Hak Choe.</p></li>
-<li class="fragment"><p>Assistant Professor of Data Analytics and Economics, School of Business at SUNY Geneseo.</p></li>
-<li class="fragment"><p>Ph.D.&nbsp;in Economics from University of Wyoming.</p></li>
-<li class="fragment"><p>M.S. in Economics from Arizona State University.</p></li>
-<li class="fragment"><p>M.A.&nbsp;in Economics from SUNY Stony Brook.</p></li>
-<li class="fragment"><p>B.A. in Economics &amp; B.S. in Applied Mathematics from Hanyang University at Ansan, South Korea.</p>
+<li class="fragment">In most environmental policies, <strong>costs/benefits often occur at different times</strong></li>
+<li class="fragment">Converting everything to <strong>real (inflation-adjusted) dollars</strong> handles inflation—but <strong>not time preference</strong></li>
+<li class="fragment">People (and societies) often <strong>prefer benefits now</strong> (investment opportunity, <strong>uncertainty</strong>, <strong>impatience</strong>)</li>
+<li class="fragment">Therefore we apply <strong>discounting</strong> to compare <strong>future</strong> and <strong>present</strong> values on a common basis</li>
+</ul>
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
 <ul>
-<li class="fragment">Minor in Business Administration.</li>
-<li class="fragment">Concentration in Finance.</li>
+<li class="fragment"><strong>Idea:</strong> <em>$100 today</em> can be worth the same as <em>$200 ten years from now</em> at an appropriate discount rate.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="present-value-pv-formula" class="slide level2">
+<h2>Present Value (PV) Formula</h2>
+<p>Let <span class="math inline">\(X_n\)</span> be a cost/benefit received in <span class="math inline">\(n\)</span> years and <span class="math inline">\(r\)</span> the <strong>discount rate</strong>:</p>
+<p><span class="math display">\[
+\text{PV}(X_n) \;=\; \frac{X_n}{(1+r)^{\,n}}
+\]</span></p>
+<ul>
+<li class="fragment"><strong>Further in time</strong> (<span class="math inline">\(n\uparrow\)</span>) → PV <strong>falls</strong><br>
+</li>
+<li class="fragment"><strong>Higher discount rate</strong> (<span class="math inline">\(r\uparrow\)</span>) → PV <strong>falls</strong></li>
+</ul>
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li class="fragment"><strong>Examples (for <span class="math inline">\(X_n = \$100\)</span>)</strong>
+<ul>
+<li class="fragment"><span class="math inline">\(r=3\%, n=10 \Rightarrow \text{PV}=\$74.41\)</span><br>
+</li>
+<li class="fragment"><span class="math inline">\(r=7\%, n=10 \Rightarrow \text{PV}=\$50.83\)</span></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="how-fast-does-pv-decline" class="slide level2">
+<h2>How Fast Does PV Decline?</h2>
+<ul>
+<li class="fragment"><strong>High <span class="math inline">\(r\)</span></strong> greatly devalues distant impacts
+<ul>
+<li class="fragment"><span class="math inline">\(r=7\%, n=50\Rightarrow \text{PV}=\$3.39\)</span> for $100<br>
+</li>
+<li class="fragment"><span class="math inline">\(r=10\%, n=50\Rightarrow \text{PV}=\$0.85\)</span></li>
+</ul></li>
+<li class="fragment"><strong>Small changes in <span class="math inline">\(r\)</span></strong> matter a lot over long horizons
+<ul>
+<li class="fragment">After <strong>100 years</strong>, PV at <strong>1%</strong> is about <strong>7×</strong> the PV at <strong>3%</strong></li>
 </ul></li>
 </ul>
 </section>
-<section id="instructor-2" class="slide level2">
-<h2>Instructor</h2>
-<h3 id="economics-and-data-science">Economics and Data Science</h3>
-<ul>
-<li class="fragment"><p>Choe, B.H., 2021. “<strong><em>Social Media Campaigns, Lobbying and Legislation: Evidence from #climatechange and Energy Lobbies.</em></strong>”</p></li>
-<li class="fragment"><p><strong>Question</strong>: To what extent do social media campaigns compete with fossil fuel lobbying on climate change legislation?</p></li>
-<li class="fragment"><p>Data include:</p>
-<ul>
-<li class="fragment">5.0 million tweets with #climatechange/#globalwarming around the globe;</li>
-<li class="fragment">12.0 million retweets/likes to those tweets;</li>
-<li class="fragment">0.8 million Twitter users who wrote those tweets;</li>
-<li class="fragment">1.4 million Twitter users who retweeted or liked those tweets;</li>
-<li class="fragment">0.3 million US Twitter users with their location at a city level;</li>
-<li class="fragment">Firm-level lobbying data (expenses, targeted bills, etc.).</li>
-</ul></li>
-</ul>
+<section id="pv-of-100-by-discount-rates-and-years" class="slide level2">
+<h2>PV of $100 by Discount Rates and Years</h2>
+<!-- <div style="display:block; margin:30px;"></div> -->
+<div class="cell">
+<div class="cell-output-display">
+
+<table class="table table-condensed">
+<caption>
+<b>Years into the Future</b>
+</caption>
+<thead>
+<tr>
+<th style="text-align:center;">
+Rate
+</th>
+<th style="text-align:right;">
+0
+</th>
+<th style="text-align:right;">
+10
+</th>
+<th style="text-align:right;">
+20
+</th>
+<th style="text-align:right;">
+30
+</th>
+<th style="text-align:right;">
+50
+</th>
+<th style="text-align:right;">
+75
+</th>
+<th style="text-align:right;">
+100
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">
+1%
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #4c4cad">100</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #5559b2">90.53</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #5d65b7">81.95</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #6570bb">74.19</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #7282c3">60.80</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #7f95ca">47.41</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #89a4d0">36.97</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+2%
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #4c4cad">100</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #5d65b7">82.03</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #6b79bf">67.30</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #778ac6">55.21</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #88a3d0">37.15</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #97b8d9">22.65</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #9fc4de">13.80</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+3%
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #4c4cad">100</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #646fbb">74.41</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #778ac6">55.37</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #859ece">41.20</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #96b8d9">22.81</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #a2c8df">10.89</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #a7d0e3">5.20</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+4%
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #4c4cad">100</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #6b79bf">67.56</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #8098cb">45.64</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #8facd4">30.83</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #9fc4dd">14.07</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #a7d0e2">5.28</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #abd5e4">1.98</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+5%
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #4c4cad">100</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #7182c3">61.39</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #88a3d0">37.69</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #96b7d8">23.14</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #a4cbe1">8.72</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #aad4e4">2.58</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #acd6e5">0.76</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+6%
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #4c4cad">100</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #7689c6">55.84</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #8eacd4">31.18</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #9cbfdc">17.41</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #a7d0e2">5.43</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #abd6e5">1.26</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #acd7e5">0.29</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+7%
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #4c4cad">100</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #7b90c9">50.83</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #93b3d7">25.84</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #a0c5de">13.14</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #a9d3e4">3.39</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #acd7e5">0.63</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #acd7e5">0.12</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+8%
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #4c4cad">100</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #8097cb">46.32</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #98b9d9">21.45</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #a3cae0">9.94</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #aad5e4">2.13</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #acd7e5">0.31</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #acd7e5">0.05</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+9%
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #4c4cad">100</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #849ccd">42.24</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #9bbfdb">17.84</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #a5cde1">7.54</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #abd6e5">1.34</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #acd7e5">0.16</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #acd7e5">0.02</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+10%
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #4c4cad">100</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #87a2d0">38.55</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #9ec3dd">14.86</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #a7cfe2">5.73</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #acd6e5">0.85</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #acd7e5">0.08</span>
+</td>
+<td style="text-align:right;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #add8e6">0.01</span>
+</td>
+</tr>
+</tbody>
+
+</table>
+</div>
+</div>
 </section>
-<section id="instructor-3" class="slide level2">
-<h2>Instructor</h2>
-<h3 id="economics-and-data-science-1">Economics and Data Science</h3>
+<section id="the-value-of-manhattan-island" class="slide level2">
+<h2>The Value of Manhattan Island</h2>
+<div>
 <ul>
-<li class="fragment"><p>Choe, B.H. and Ore-Monago, T., 2024. “<strong><em>Governance and Climate Finance in the Developing World</em></strong>”</p></li>
-<li class="fragment"><p><strong>Climate finance</strong> refers to the financial resources allocated for mitigating and adapting to climate change, including support for initiatives that reduce greenhouse gas emissions and enhance resilience to climate impacts.</p>
-<ul>
-<li class="fragment">We focus on <em>transnational financing</em> that rich countries provide poor countries with financial resources, in order to help them adapt to climate change and mitigate greenhouse gas (GHG) emissions.</li>
-<li class="fragment">Since the GHG emissions in developing countries are rapidly growing, it is crucial to assess the effectiveness of climate finance.</li>
-<li class="fragment">Poor governance (e.g., legal system, rule of law, and accountability) can be significant barriers to emissions reductions.</li>
-</ul></li>
+<li>The funds used to purchase Manhattan Island for $24 in 1626!</li>
 </ul>
-</section>
-<section id="instructor-4" class="slide level2">
-<h2>Instructor</h2>
-<h3 id="economics-and-data-science-2">Economics and Data Science</h3>
-<ul>
-<li class="fragment"><p>Choe, B.H. and Newbold, Steve, “<strong><em>Estimating the Value of Statistical Life (VSL) through Big Data</em></strong>”</p></li>
-<li class="fragment"><p>VSL is the monetary value associated with reducing the risk of death.</p>
-<ul>
-<li class="fragment">How much value would that be? How can we measure it?</li>
-<li class="fragment">How do government agencies use the VSL to decide which policies are worth the cost when they reduce the risk of death?</li>
-</ul></li>
-</ul>
+</div>
+<div style="text-align: center; width: 100%; margin: auto;">
+<img src="https://bcdanl.github.io/lec_figs/pv-manhattan-land.png" style="width: 100%; margin-bottom: -20px;">
+<p style="font-weight: bold;">
+</p>
+</div>
 </section></section>
 <section>
-<section id="syllabus" class="title-slide slide level1 center" data-background-color="#1c4982">
-<h1>Syllabus</h1>
+<section id="choosing-the-discount-rate-two-approaches" class="title-slide slide level1 center" data-background-color="#1c4982">
+<h1>Choosing the Discount Rate: Two Approaches</h1>
 
 </section>
-<section id="syllabus-1" class="slide level2">
-<h2>Syllabus</h2>
-<h3 id="email-class-office-hours">Email, Class &amp; Office Hours</h3>
+<section id="why-discount-the-future-1" class="slide level2">
+<h2>Why Discount the Future?</h2>
+<p>In both <strong>market-based</strong> and <strong>social</strong> approaches, the <strong>discount rate</strong> answers a fundamental question:</p>
+<blockquote>
+<p><em>At what rate should society be compensated in the future for giving up one unit of consumption today so that overall well-being is preserved?</em></p>
+</blockquote>
 <ul>
-<li class="fragment"><p>Email: <a href="bchoe@geneseo.edu">bchoe@geneseo.edu</a></p></li>
-<li class="fragment"><p>Class Websites: 1 <a href="http://bcecon.github.io/" target="_blank">GitHub Course Website</a> 2 <a href="https://mylearning.suny.edu/d2l/home/2152120" target="_blank">Brightspace Course Shell</a></p></li>
-<li class="fragment"><p>Office: South Hall 227B</p></li>
-<li class="fragment"><p>Office Hours:</p>
+<li class="fragment">This rate reflects how we <strong>value the future relative to the present</strong>, whether through:
 <ul>
-<li class="fragment">Mondays and Wednesdays 3:30 P.M.–5:00 P.M.</li>
-<li class="fragment">By appointment via email.</li>
+<li class="fragment"><strong>Ethical principles</strong> about intergenerational welfare, or</li>
+<li class="fragment"><strong>Observed market behavior</strong> (opportunity cost of capital)</li>
 </ul></li>
 </ul>
 </section>
-<section id="syllabus-2" class="slide level2">
-<h2>Syllabus</h2>
-<h3 id="course-description">Course Description</h3>
-<ul>
-<li class="fragment"><p>This course will focus on the role of the environment in the theory and practice of economics.</p></li>
-<li class="fragment"><p>Emphasis is given to the role of <strong>market failure</strong> in explaining the existence of pollution, to alternative public policies for <strong>pollution control</strong> and <strong>environmental management</strong>, and to problems associated with <strong>energy and climate change policies</strong>.</p></li>
-<li class="fragment"><p>It will make use of microeconomic analysis at the intermediate level and will incorporate real-world examples.</p></li>
-</ul>
-</section>
-<section id="syllabus-3" class="slide level2">
-<h2>Syllabus</h2>
-<h3 id="course-description-1">Course Description</h3>
-<ul>
-<li class="fragment">The class will be divided into three parts.
-<ul>
-<li class="fragment">Part I will cover <strong>the ways in which markets fail</strong> to efficiently allocate resources in the presence of pollution along with <strong>environmental policies used to correct those failures</strong>.</li>
-<li class="fragment">Part II will focus on <strong>energy policy</strong> and the basics of <strong>climate-related science, technology, and adaptation policies</strong>.</li>
-<li class="fragment">Part III will focus on <strong>measuring the benefit of environmental protection</strong>.</li>
-</ul></li>
-<li class="fragment">The course allows one to have a smart, intelligent, and informed conversation about environmental, energy, and climate change policies.</li>
-</ul>
-</section>
-<section id="syllabus-4" class="slide level2">
-<h2>Syllabus</h2>
-<h3 id="course-learning-outcomes">Course Learning Outcomes</h3>
-<ul>
-<li class="fragment">Understand the central <strong>concepts and theories of environmental economics</strong>.</li>
-<li class="fragment">Frame an <strong>environmental and energy policy</strong> question from an <strong>economist’s perspective</strong>.</li>
-<li class="fragment">Acquire a toolkit of methods for <strong>environmental and energy economics and public policies</strong>.</li>
-<li class="fragment">Understand the economic drivers and implications of climate change in order to be able to describe <strong>the whole purpose of the climate policies</strong>.</li>
-</ul>
-</section>
-<section id="syllabus-5" class="slide level2">
-<h2>Syllabus</h2>
-<h3 id="course-requirements">Course Requirements</h3>
-<ul>
-<li class="fragment"><strong>Homework</strong>: 5 assignments</li>
-<li class="fragment"><strong>Quizzes</strong>: 2 in-class quizzes</li>
-<li class="fragment"><strong>Participation</strong>: In-person and online participation</li>
-<li class="fragment"><strong>Team Project</strong>: <em>Climate Change and the Individual project</em> with team presentation and proposal</li>
-<li class="fragment"><strong>Exams</strong>: 2 midterms and 1 final</li>
-</ul>
-</section>
-<section id="syllabus-6" class="slide level2">
-<h2>Syllabus</h2>
-<h3 id="team-project-climate-change-and-the-individual">Team Project – Climate Change and the Individual</h3>
-<ul>
-<li class="fragment">Project topics should focus on <strong>climate change actions, advocacy, awareness, and outreach</strong>.
-<ul>
-<li class="fragment">For additional ideas, consider the <a href="https://www.getitright.earth/problems-possibilities">problems and possibilities</a>.</li>
-</ul></li>
-<li class="fragment">Each team will consist of <strong>three students</strong>.</li>
-<li class="fragment">Teams must develop a clear <strong>research question</strong> for their term paper.</li>
-<li class="fragment">The proposal may be <strong>theoretical, empirical, or a combination of both</strong>.
-<ul>
-<li class="fragment">For empirical work, the proposed dataset must be approved in advance by <strong>Byeong-Hak Choe</strong>.</li>
-</ul></li>
-<li class="fragment">Your team is encouraged to participate in the campus-wide <a href="https://www.geneseo.edu/cil/ideas-matter-student-challenge">Ideas that Matter Student Challenge</a> in Spring 2026.</li>
-</ul>
-</section>
-<section id="syllabus-7" class="slide level2">
-<h2>Syllabus</h2>
-<h3 id="expectations-for-the-proposal">Expectations for the Proposal</h3>
-<p>Your team’s proposal should critically examine a climate change issue by:</p>
-<ol type="1">
-<li class="fragment"><strong>Explaining</strong> the central dilemma facing society.<br>
-</li>
-<li class="fragment"><strong>Identifying</strong> the key questions that must be addressed to develop solutions, while acknowledging the trade-offs between objectives.<br>
-</li>
-<li class="fragment"><strong>Presenting</strong> appropriate evidence to analyze the competing interests involved.<br>
-</li>
-<li class="fragment"><strong>Formulating</strong> policy recommendations that logically follow from your analysis.</li>
-</ol>
-</section>
-<section id="syllabus-8" class="slide level2">
-<h2>Syllabus</h2>
-<h3 id="required-materials">Required Materials</h3>
-<p>All required books are open access with free PDF files:</p>
-<ul>
-<li class="fragment"><p><a href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/330248A5D38A65BF463C59A26E193CB7/9781009471817AR.pdf/An_Introduction_to_Energy_Economics_and_Policy.pdf?event-type=FTLA"><em>An Introduction to Energy Economics andz Policy</em></a>, by Massimo Filippini and Suchita Srinivasan (Henthforce, FS)</p></li>
-<li class="fragment"><p><a href="https://www.bu.edu/eci/files/2024/07/MicroAndtheEnvironment-2024.pdf"><em>Microeconomics and the Environment</em></a>, by Brian Roach, Erin Lennox and Anne-Marie Codur (Henceforth, RLC)</p></li>
-<li class="fragment"><p><a href="https://www.bu.edu/eci/files/2025/06/Energy-Economics-and-Policy-Module-2025.pdf"><em>Energy Economics and Policy</em></a>, by Brian Roach and Jonathan M. Harris (Henceforth, RH)</p></li>
-<li class="fragment"><p><a href="https://www.bu.edu/eci/files/2024/03/renewable-energy-econ-module-final.pdf"><em>The Economics of Renewable Energy</em></a>, by David Timmons, Jonathan Harris and Brian Roach (Henceforth, THR)</p></li>
-<li class="fragment"><p><a href="https://www.bu.edu/eci/files/2025/07/Climate-Module-2025-final.pdf"><em>The Economics of Global Climate Change</em></a>, by Jonathan M. Harris, Brian Roach and Anne-Marie Codur (Henceforth, HRC)</p></li>
-</ul>
-</section>
-<section id="syllabus-9" class="slide level2">
-<h2>Syllabus</h2>
-<h3 id="recommended-references">Recommended References</h3>
-<ul>
-<li class="fragment"><a href="https://climate-change.ivo-welch.info/home/"><em>Global Climate Change: The Pragmatist’s Guide to Moving the Needle</em></a>, by Ivo Welch and Bradford Cornell<br>
-</li>
-<li class="fragment"><a href="https://www.getitright.earth"><em>What If We Get It Right?: Visions of Climate Futures</em></a>, by Ayana Elizabeth Johnson<br>
-</li>
-<li class="fragment"><a href="https://docs.google.com/document/d/1mh6ltbYDUguee8JkPfPGGfM26Lz7cEa7/edit?usp=sharing&amp;ouid=113346383464248167416&amp;rtpof=true&amp;sd=true"><em>An Introduction to Natural Disaster Economics</em></a>, by Matthew Khan<br>
-</li>
-<li class="fragment"><strong>Markets and the Environment</strong>, by Nathaniel O. Keohane and Sheila M. Olmstead (2nd Edition)</li>
-</ul>
-</section>
-<section id="syllabus-10" class="slide level2">
-<h2>Syllabus</h2>
-<h3 id="recommended-references-1">Recommended References</h3>
-<ul>
-<li class="fragment"><strong><em>Economics and the Environment</em></strong> by Eban S. Goodstein, Jason Wong, and Stephen Polasky (10th Edition; Henthforce, GWP)<br>
-</li>
-<li class="fragment"><strong><em>Environmental and Natural Resource Economics</em></strong>, by Tom Tietenberg and Lynne Lewis (12th Edition; Henthforce, TL)<br>
-</li>
-<li class="fragment"><strong><em>Introduction to Environmental Economics</em></strong>, by Nick Hanley, Jason Shogren, and Ben White (3rd Edition; Henthforce, HSW)<br>
-</li>
-<li class="fragment"><strong><em>Environmental and Natural Resource Economics: A Contemporary Approach</em></strong>, by Jonathan Harris and Brian Roach (5th Edition)</li>
-</ul>
-</section>
-<section id="syllabus-11" class="slide level2">
-<h2>Syllabus</h2>
-<h3 id="course-contents-and-schedule">Course Contents and Schedule</h3>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
+<section id="social-discount-rate-sdr" class="slide level2">
+<h2>Social Discount Rate (SDR)</h2>
+<div style="display:block; margin:-10px;">
 
-<div class="datatables html-widget html-fill-item" id="htmlwidget-b78a6eb18aae366077b1" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-b78a6eb18aae366077b1">{"x":{"filter":"none","vertical":false,"data":[["1","2-5","6-7"],["Introduction; Microeconomics Review","Market Failures and Behavioral Anomalies","Public Goods and Common Pool Resources"],["FS Ch.1; RLC Ch.1-2; HRC","FS Ch.2; RLC Ch2-3","FS Ch.2; RLC Ch2-3"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Week<\/th>\n      <th>Content<\/th>\n      <th>Material<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","paging":false,"columnDefs":[{"targets":"_all","orderable":false},{"name":"Week","targets":0},{"name":"Content","targets":1},{"name":"Material","targets":2}],"order":[],"autoWidth":false,"orderClasses":false},"callback":"function(table) {\n\n  // Change header background and text color\n  $('thead th').css('background-color', '#1c4982');\n  $('thead th').css('color', 'white');\n\n  // Loop through each row and alternate background color\n  $('tbody tr').each(function(index) {\n    if (index % 2 == 0) {\n      $(this).css('background-color', '#d1dae6'); // Light color for even rows\n    } else {\n      $(this).css('background-color', '#9fb2cb'); // Dark color for odd rows\n    }\n  });\n\n  // Set text color for all rows\n  $('tbody tr').css('color', 'black');\n\n  // Add hover effect\n  $('tbody tr').hover(\n    function() {\n      $(this).css('background-color', '#607fa7'); // Color when mouse hovers over a row\n    }, \n    function() {\n      var index = $(this).index();\n      if (index % 2 == 0) {\n        $(this).css('background-color', '#d1dae6'); // Restore even row color\n      } else {\n        $(this).css('background-color', '#9fb2cb'); // Restore odd row color\n      }\n    }\n  );\n\n}"},"evals":["callback"],"jsHooks":[]}</script>
 </div>
-</div>
-</section>
-<section id="syllabus-12" class="slide level2">
-<h2>Syllabus</h2>
-<h3 id="course-contents-and-schedule-1">Course Contents and Schedule</h3>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
+<p><span class="math display">\[
+\text{SDR} = \rho + \varepsilon \cdot g
+\]</span></p>
+<div style="display:block; margin:-20px;">
 
-<div class="datatables html-widget html-fill-item" id="htmlwidget-e2192881039a25afaecf" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-e2192881039a25afaecf">{"x":{"filter":"none","vertical":false,"data":[["8","9-11","12","13-14","15"],["Economics of Global Climate Change","Energy Policy","Climate Change Adaptation: Floods and Wildfire","Measuring the Benefits of Environmental Protection","Team Presentations"],["HRC","FS Ch.7-8; RH; THR","TL Ch.14","GWP Ch.5; HSW Ch5",""]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Week<\/th>\n      <th>Content<\/th>\n      <th>Material<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","paging":false,"columnDefs":[{"targets":"_all","orderable":false},{"name":"Week","targets":0},{"name":"Content","targets":1},{"name":"Material","targets":2}],"order":[],"autoWidth":false,"orderClasses":false},"callback":"function(table) {\n\n  // Change header background and text color\n  $('thead th').css('background-color', '#1c4982');\n  $('thead th').css('color', 'white');\n\n  // Loop through each row and alternate background color\n  $('tbody tr').each(function(index) {\n    if (index % 2 == 0) {\n      $(this).css('background-color', '#d1dae6'); // Light color for even rows\n    } else {\n      $(this).css('background-color', '#9fb2cb'); // Dark color for odd rows\n    }\n  });\n\n  // Set text color for all rows\n  $('tbody tr').css('color', 'black');\n\n  // Add hover effect\n  $('tbody tr').hover(\n    function() {\n      $(this).css('background-color', '#607fa7'); // Color when mouse hovers over a row\n    }, \n    function() {\n      var index = $(this).index();\n      if (index % 2 == 0) {\n        $(this).css('background-color', '#d1dae6'); // Restore even row color\n      } else {\n        $(this).css('background-color', '#9fb2cb'); // Restore odd row color\n      }\n    }\n  );\n\n}"},"evals":["callback"],"jsHooks":[]}</script>
+</div>
+<ul>
+<li class="fragment"><span class="math inline">\(\rho\)</span>: <strong>pure rate of time preference</strong> — captures <strong>impatience</strong> or preference for present welfare over future welfare<br>
+</li>
+<li class="fragment"><span class="math inline">\(\varepsilon\)</span>: <strong>elasticity of marginal utility of consumption</strong> — measures how quickly <strong>the extra satisfaction (utility)</strong> from consumption <strong>declines as people become richer</strong>
+<ul>
+<li class="fragment">When people are <strong>poor</strong>, an extra dollar raises happiness a lot<br>
+</li>
+<li class="fragment">When people are <strong>richer</strong>, an extra dollar adds little<br>
+</li>
+<li class="fragment"><strong>Inequality aversion:</strong> a higher <span class="math inline">\(\varepsilon\)</span> means society is more sensitive to inequality across generations <!-- - **Inequality aversion:** a higher $\varepsilon$ means society values **additional income for poorer generations** more than for richer ones   --></li>
+</ul></li>
+<li class="fragment"><span class="math inline">\(g\)</span>: <strong>growth rate of real consumption</strong> — the expected pace of income growth over time<br>
+<!-- - **Wealth effect:** together, $\varepsilon$ and $g$ determine how **fast overall welfare grows** as society becomes wealthier --></li>
+</ul>
+</section>
+<section id="ethical-prescriptive-approach" class="slide level2">
+<h2>1️⃣ Ethical (Prescriptive) Approach</h2>
+<blockquote>
+<p>“What <em>should</em> be the fair tradeoff between present and future welfare?”</p>
+</blockquote>
+<ul>
+<li class="fragment">Sets parameters based on <strong>ethical principles</strong> of <strong>intergenerational fairness</strong>, not on market behavior
+<ul>
+<li class="fragment"><span class="math inline">\(\rho\)</span>: very low (≈ 0–0.1%) → future welfare valued almost equally to present welfare<br>
+</li>
+<li class="fragment"><span class="math inline">\(\varepsilon\)</span>: reflects <strong>inequality aversion</strong> — society places <strong>less value on extra income for richer future generations</strong><br>
+</li>
+<li class="fragment"><span class="math inline">\(g\)</span>: assumes <strong>modest long-run growth</strong> (e.g., 1–1.5%), consistent with sustainability concerns<br>
+</li>
+</ul></li>
+<li class="fragment"><strong>Result:</strong> Low SDR (≈ 1–2%) → <strong>greater weight on future generations</strong> and <strong>stronger justification for early climate action</strong></li>
+</ul>
+</section>
+<section id="market-based-descriptive-approach" class="slide level2">
+<h2>2️⃣ Market-Based (Descriptive) Approach</h2>
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>The <strong>Opportunity Cost of Capital</strong> is the <strong>return forgone</strong> when spending $1 today on a project, instead of <strong>investing that same $1 in the best available alternative</strong> (for example, in private capital markets or government bonds).</p>
 </div>
 </div>
-</section>
-<section id="syllabus-13" class="slide level2">
-<h2>Syllabus</h2>
-<h3 id="class-schedule">Class Schedule</h3>
+</div>
+<!-- - Reflects **how markets actually discount the future**, not how we *should* -->
 <ul>
-<li class="fragment"><strong>No Classes</strong>
+<li class="fragment">Set <span class="math inline">\(r \approx\)</span> <strong>low-risk market return</strong> (e.g., government bonds or average real return on capital)<br>
+</li>
+<li class="fragment"><strong>Logic:</strong> Funds spent today could have been <strong>invested</strong> — the <strong>opportunity cost of capital</strong> determines the appropriate <span class="math inline">\(r\)</span><br>
+</li>
+<li class="fragment"><strong>Idea:</strong> Society’s <strong>time preference</strong> between present and future consumption is <em>revealed</em> through <strong>saving, investment, and consumption decisions</strong>, as reflected in <strong>observed market returns</strong> and <strong>long-run economic growth</strong>.</li>
+<li class="fragment"><strong>Caveat:</strong> Market rates <strong>change over time</strong>
 <ul>
-<li class="fragment">Week 2 (Sep 1): <strong>Labor Day</strong></li>
-<li class="fragment">Week 8 (Oct 13–14): <strong>Fall Break</strong></li>
-<li class="fragment">Week 14 (Nov 26–28): <strong>Thanksgiving Break</strong></li>
+<li class="fragment">Very low in the 2020s; very high in the early 1980s</li>
 </ul></li>
 </ul>
 </section>
-<section id="syllabus-14" class="slide level2">
-<h2>Syllabus</h2>
-<h3 id="class-schedule-1">Class Schedule</h3>
+<section id="market-based-descriptive-approach-1" class="slide level2">
+<h2>💰 Market-Based (Descriptive) Approach</h2>
+<blockquote>
+<p>“How do markets <em>actually</em> value the future?”</p>
+</blockquote>
 <ul>
-<li class="fragment"><strong>Homework, Quiz, Exam &amp; Team Project</strong>
+<li class="fragment">Sets parameters based on <strong>observed economic behavior</strong>, not ethical judgments
 <ul>
-<li class="fragment">Week 4 (Sep 15–19): <strong>Homework 1</strong>:</li>
-<li class="fragment">Week 7 (Oct 6–10): <strong>Homework 2, Quiz 1 &amp; Midterm Exam 1</strong></li>
-<li class="fragment">Week 10 (October 31, Friday, 11:59 P.M.): <strong>Project Kickoff Report</strong></li>
-<li class="fragment">Week 11 (Nov 3–7): <strong>Homework 3</strong></li>
-<li class="fragment">Week 13 (Nov 17–21): <strong>Homework 4, Quiz 2, &amp; Midterm Exam 2</strong></li>
-<li class="fragment">Week 15 (Dec 1–5): <strong>Team Presentations</strong></li>
-<li class="fragment">Week 16 (Dec 8-12): <strong>Homework 5</strong></li>
-<li class="fragment">Week 16 (December 10, Wednesday, 8:30 A.M.-10:30 A.M.): <strong>Final Exam</strong></li>
-<li class="fragment">Week 17 (December 16, Tuesday, 11:59 P.M.): <strong>Project Proposal</strong></li>
+<li class="fragment"><span class="math inline">\(\rho\)</span>: <strong>higher</strong> (≈ 1–2%) — reflects society’s <strong>revealed time preference</strong> in saving and investment decisions<br>
+</li>
+<li class="fragment"><span class="math inline">\(\varepsilon\)</span>: inferred from <strong>market data</strong> — captures how people trade off <strong>consumption and risk</strong> over time<br>
+</li>
+<li class="fragment"><span class="math inline">\(g\)</span>: assumes <strong>stronger long-run growth</strong> (e.g., 2%), consistent with <strong>historical productivity trends</strong><br>
+</li>
 </ul></li>
+<li class="fragment"><strong>Result:</strong> Higher SDR (≈ 4–5%) → <strong>less weight on distant future impacts</strong> and supports relatively <strong>gradual, cost-efficient mitigation og GHG</strong></li>
 </ul>
+<!-- ::: callout-tip -->
+<!-- **Example:** Nordhaus (*DICE Model*)   -->
+<!-- $\rho = 1.5\%$, $\varepsilon = 1.5$, $g = 2\%$ → $r = 4.5\%$ -->
+<!-- ::: -->
+<!-- ## 📉 How Assumptions Shift the Discount Rate -->
+<!-- - Increasing $\rho$ (e.g., $\rho = 1.5\%$) with similar $g$ and $\varepsilon$ $\Rightarrow$ $r \approx 3.4\%$   -->
+<!-- - Over **100 years**, $r = 3.4\%$ yields a PV about **one-seventh** of that at $r = 1.4\%$   -->
+<!-- - **Implication:** The chosen discount rate can **reverse policy conclusions** for **long-horizon** issues (e.g., climate) -->
+<!-- ## Discounting Climate Change — Two Lenses -->
+<!-- ### 🧭 Prescriptive (Ethical / “Social”) — *Stern* -->
+<!-- - **Philosophy:** How much we **should** value future generations   -->
+<!-- - **Assumptions:** $\rho = 0.1\%$, $\varepsilon = 1$, $g = 1.3\%$   -->
+<!-- - **Result:** $\text{SDR} = 0.1\% + 1 \cdot 1.3\% = \mathbf{1.4\%}$   -->
+<!-- - **Implication:** **Low $r$ (≈1–2%)** $\Rightarrow$ heavy weight on future damages $\Rightarrow$ **early, aggressive mitigation of GHG** -->
+<!-- ## Discounting Climate Change — Two Lenses -->
+<!-- ### 💰 Descriptive (Market-Based) — *Nordhaus* -->
+<!-- - **Philosophy:** Use **observed market behavior** (returns on capital / bond yields)   -->
+<!-- - **Logic:** Society *reveals* time preferences via **saving, investment, consumption**   -->
+<!-- - **Assumption:** Real discount rate $\approx \mathbf{4.25\%}$ (historical returns)   -->
+<!--    -   $\rho$ and $\varepsilon$ are inferred from market behavior and historical returns. -->
+<!--    -   $g$ comes from projected economic growth  -->
+<!-- - **Implication:** **Higher $r$ (≈4–5%)** $\Rightarrow$ less weight on distant damages $\Rightarrow$ **gradual, cost-efficient mitigation of GHG** -->
 </section>
-<section id="syllabus-15" class="slide level2">
-<h2>Syllabus</h2>
-<h3 id="grading">Grading</h3>
-<p><span class="math display">\[
-\begin{align}
-\quad\\
-&amp;\text{(Total Percentage Score)} \\
-= &amp;\;\;\;\, 0.05 \times \text{(Attendance)} \\
-&amp;+ 0.05 \times \text{(Quiz &amp; Participation)}\\
-&amp;+ 0.20 \times \text{(Homework)}\\
-&amp;+ 0.20 \times \text{(Team Project)}\\
-&amp;+ 0.50 \times \text{(Exams)}
-\end{align}
-\]</span></p>
+<section id="discounting-climate-change-two-lenses" class="slide level2">
+<h2>Discounting Climate Change — Two Lenses</h2>
+<table>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Feature</th>
+<th style="text-align: left;"><strong>Ethical</strong></th>
+<th style="text-align: left;"><strong>Market-based</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Approach</td>
+<td style="text-align: left;">How we ought to value the future</td>
+<td style="text-align: left;">How markets actually value the future</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="math inline">\(\rho\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(0.1\%\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(1.5\%\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(\varepsilon\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(1.0\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(1.5\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="math inline">\(g\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(1.3\%\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(2.0\%\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Resulting rate</td>
+<td style="text-align: left;"><strong><span class="math inline">\(\approx 1.4\%\)</span></strong></td>
+<td style="text-align: left;"><strong><span class="math inline">\(\approx 4.25\%\)</span></strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Policy implication</td>
+<td style="text-align: left;">Immediate, large cuts</td>
+<td style="text-align: left;">Gradual mitigation path</td>
+</tr>
+</tbody>
+</table>
+<div style="display:block; margin:-15px;">
+
+</div>
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>Although Nordhaus assumes a higher <span class="math inline">\(\varepsilon\)</span> (greater inequality aversion),<br>
+his larger <span class="math inline">\(\rho\)</span> and <span class="math inline">\(g\)</span> dominate — resulting in a <strong>higher overall discount rate</strong>.</p>
+</div>
+</div>
+</div>
 </section>
-<section id="syllabus-16" class="slide level2">
-<h2>Syllabus</h2>
-<h3 id="grading---attendance-homework">Grading - Attendance &amp; Homework</h3>
+<section id="policy-relevance-ethics" class="slide level2">
+<h2>📊 Policy Relevance &amp; Ethics</h2>
 <ul>
-<li class="fragment"><p>You are allowed up to <strong>6 absences</strong> without penalty.</p>
+<li class="fragment"><strong>2018 Survey of Economists:</strong>
 <ul>
-<li class="fragment">Send me an email if you have standard excused reasons (illness, family emergency, transportation problems, etc.).</li>
+<li class="fragment">Mean = <strong>2.3%</strong>, Median = <strong>2.0%</strong> (real SDR for intergenerational global projects)<br>
+</li>
+<li class="fragment"><strong>68%</strong> of economists recommend a rate between <strong>1–3%</strong><br>
+</li>
+<li class="fragment"><strong>Trend:</strong> Steady shift <strong>toward lower discount rates</strong> since 2001, reflecting greater concern for long-term welfare<br>
+</li>
 </ul></li>
-<li class="fragment"><p>For each absence beyond the initial six, there will be a deduction of 1% point from the Total Percentage Grade.</p></li>
-<li class="fragment"><p>The single lowest homework score will be dropped when calculating the total homework score.</p>
+<li class="fragment"><strong>High <span class="math inline">\(r\)</span></strong> → prioritizes the <strong>present</strong>, discounting future impacts heavily<br>
+</li>
+<li class="fragment"><strong>Low <span class="math inline">\(r\)</span></strong> → gives greater <strong>weight to future generations</strong><br>
+</li>
+<li class="fragment">In <strong>environmental cost–benefit analysis</strong> (e.g., climate policy):
 <ul>
-<li class="fragment">Each homework except for the homework with the lowest score accounts for 25% of the total homework score.</li>
+<li class="fragment"><strong>Costs occur now</strong>, <strong>benefits arise later</strong> → a <strong>lower <span class="math inline">\(r\)</span></strong> supports <strong>stronger environmental protection</strong><br>
+</li>
 </ul></li>
+<li class="fragment">There is no single “correct” rate — analysts should be <strong>transparent</strong>, <strong>justify their assumptions</strong>, and <strong>test results through sensitivity analysis</strong>.</li>
 </ul>
-</section>
-<section id="syllabus-17" class="slide level2">
-<h2>Syllabus</h2>
-<h3 id="grading-1">Grading</h3>
-<p><span class="math display">\[
-\begin{align}
-&amp;\quad(\text{Midterm Exam Score})\\
-&amp;= \max\left\{0.50 \times \text{(Midterm 1 Score)} + 0.50 \times \text{(Midterm 2 Score)},\right.\\
-&amp;\qquad\quad\;\,\left.0.33 \times \text{(Midterm 1 Score)} + 0.67 \times \text{(Midterm 2 Score)}\right\}.
-\end{align}
-\]</span></p>
-<ul>
-<li class="fragment"><p>The Midterm Exam Score will be the <strong>higher</strong> of the following two calculations:</p>
-<ol type="1">
-<li class="fragment">The simple average of Midterm Exam 1 and Midterm Exam 2</li>
-<li class="fragment">The weighted average, with one-third weight on Midterm Exam 1 and two-thirds weight on Midterm Exam 2</li>
-</ol></li>
-<li class="fragment"><p>Midterm Exam 2 is cumulative.</p></li>
-</ul>
-</section>
-<section id="syllabus-18" class="slide level2">
-<h2>Syllabus</h2>
-<h3 id="grading-2">Grading</h3>
-<p><span class="math display">\[
-\begin{align}
-&amp;(\text{Total Exam Score}) \\
-=\, &amp;\text{max}\,\left\{0.50\times(\text{Midterm Exam Score}) \,+\, 0.50\times(\text{Final Exam Score})\right.,\notag\\
-&amp;\qquad\;\,\left.0.25\times(\text{Midterm Exam Score}) \,+\, 0.75\times(\text{Final Exam Score})\right\}.\notag
-\end{align}
-\]</span></p>
-<ul>
-<li class="fragment"><p>The Total Exam Score will be the <strong>higher</strong> of the following two calculations:</p>
-<ol type="1">
-<li class="fragment">The simple average of Midterm Exam and Final Exam</li>
-<li class="fragment">The weighted average, with one-fourth weight on Midterm Exam and three-forth weight on Final Exam.</li>
-</ol></li>
-<li class="fragment"><p>Final Exam is cumulative.</p></li>
-</ul>
-</section>
-<section id="syllabus-19" class="slide level2">
-<h2>Syllabus</h2>
-<h3 id="make-up-policy">Make-up Policy</h3>
-<ul>
-<li class="fragment"><p>Make-up exams will not be given unless you have either a medically verified excuse or an absence excused by the University.</p></li>
-<li class="fragment"><p>If you cannot take exams because of religious obligations, notify me by email at least two weeks in advance so that an alternative exam time may be set.</p></li>
-<li class="fragment"><p>A missed exam without an excused absence earns a grade of zero.</p></li>
-<li class="fragment"><p>Late submissions for homework assignment will be accepted with a penalty.</p></li>
-<li class="fragment"><p>A zero will be recorded for a missed assignment.</p></li>
-</ul>
-</section>
-<section id="syllabus-20" class="slide level2">
-<h2>Syllabus</h2>
-<h3 id="academic-integrity-and-plagiarism">Academic Integrity and Plagiarism</h3>
-<ul>
-<li class="fragment"><p>All homework assignments and exams must be the original work by you.</p></li>
-<li class="fragment"><p>Examples of academic dishonesty include:</p>
-<ul>
-<li class="fragment"><em>Representing the work, thoughts, and ideas of another person as your own</em></li>
-<li class="fragment"><em>Allowing others to represent your work, thoughts, or ideas as theirs</em>, and</li>
-<li class="fragment"><em>Being complicit in academic dishonesty by suspecting or knowing of it and not taking action</em>.</li>
-</ul></li>
-<li class="fragment"><p>Geneseo’s Library offers frequent workshops to help you understand how to <strong>paraphrase</strong>, <strong>quote</strong>, and <strong>cite</strong> outside sources properly.</p>
-<ul>
-<li class="fragment">See <a href="https://www.geneseo.edu/library/library-workshops" target="_blank">https://www.geneseo.edu/library/library-workshops</a>.</li>
-</ul></li>
-</ul>
-</section>
-<section id="syllabus-21" class="slide level2">
-<h2>Syllabus</h2>
-<h3 id="artificial-intelligence-ai-policy">Artificial Intelligence (AI) Policy</h3>
-<ul>
-<li class="fragment"><p>Unless AI tools are explicitly permitted for homework or in-class quizzes, you must complete your work independently.</p></li>
-<li class="fragment"><p>This means you should not use tools like ChatGPT for any aspect of our coursework.</p></li>
-<li class="fragment"><p>Such use is a form of academic dishonesty. Use of such tools is not only cheating, it will also cheat you of the opportunity to learn and develop your own skills.</p></li>
-<li class="fragment"><p>While AI will undoubtedly play important roles in our future society, you will be better able to utilize AI if you have developed your own critical thinking, writing, and analytical skills by doing your own work.</p></li>
-<li class="fragment"><p>If you have any questions about this, please ask.</p></li>
-</ul>
-</section>
-<section id="syllabus-22" class="slide level2">
-<h2>Syllabus</h2>
-<h3 id="accessibility">Accessibility</h3>
-<ul>
-<li class="fragment"><p>The Office of Accessibility will coordinate reasonable accommodations for persons with physical, emotional, or cognitive disabilities to ensure equal access to academic programs, activities, and services at Geneseo.</p></li>
-<li class="fragment"><p>Please contact me and the Office of Accessibility Services for questions related to access and accommodations.</p></li>
-</ul>
-</section>
-<section id="syllabus-23" class="slide level2">
-<h2>Syllabus</h2>
-<h3 id="career-design">Career Design</h3>
-<ul>
-<li class="fragment"><p>To get information about career development, you can visit the Career Development Events Calendar (<a href="https://www.geneseo.edu/career_development/events/calendar" target="_blank">https://www.geneseo.edu/career_development/events/calendar</a>).</p></li>
-<li class="fragment"><p>You can stop by South 112 to get assistance in completing your Handshake Profile <a href="https://app.joinhandshake.com/login" target="_blank">https://app.joinhandshake.com/login</a>.</p>
-<ul>
-<li class="fragment">Handshake is ranked #1 by students as the best place to find full-time jobs.</li>
-<li class="fragment">50% of the 2018-2020 graduates received a job or internship offer on Handshake.</li>
-<li class="fragment">Handshake is trusted by all 500 of the Fortune 500.</li>
-</ul></li>
-</ul>
+<!-- ## 🧮 Quick Checks & Exercises -->
+<!-- 1. Compute $\text{PV}(\$100, n=10)$ at $r=2\%, 5\%, 8\%$.   -->
+<!-- 2. For which $r$ does $\text{PV}(\$100, n=50) < \$1$?   -->
+<!-- 3. Using SDR, try $\rho=0.1\%, \varepsilon=1.5, g=1.2\%$. What $r$ do you obtain? -->
+<!-- ::: callout-note -->
+<!-- - **Sensitivity is essential:** always report results across a **range of plausible $r$** values. -->
+<!-- ::: -->
 
 <div class="footer footer-default">
 

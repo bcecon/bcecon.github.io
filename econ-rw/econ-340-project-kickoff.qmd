@@ -1,0 +1,199 @@
+---
+title: 🌍 Research Project Guide — Climate Change and the Individual
+subtitle: Research Kickoff Report
+author: Byeong-Hak Choe
+institute: SUNY Geneseo
+date: 2025-10-22
+
+# toc: true
+# toc-depth: 2
+# toc-expand: true
+# toc-title: Contents
+# number-sections: false
+# number-depth: 3
+
+code-fold: false
+
+execute:
+  echo: true
+  eval: true
+  message: false
+  warning: false
+  fig-width: 9
+  fig-height: 6
+---
+
+## 🌍 Overview
+
+This semester-long project explores **the economics of climate change from the perspective of the individual**.
+
+> **Theme:** *Climate Change and the Individual*  
+> Your goal is to analyze how individuals perceive, respond to, or contribute to climate change — through the lens of **economic reasoning**.
+
+You’ll complete the project in **three-four stages**:  
+1. 🧾 **Research Kick-off Report** — preliminary proposal *(about 2 weeks from today)*  
+2. 🗣️ **Final Presentation** — share insights during the last week of class  
+3. 📄 **Final Proposal** — polished written proposal due at the end of the semester  
+4. 📘 (Optional) **Ideas that Matter Student Challenge** — GREAT Day presentation/poster and/or research paper in **Spring 2026**
+
+### 👥 Team Formation
+
+Each project will be completed in **teams of three students** (approximately 9–10 teams in total).  
+This team size provides a strong balance between collaboration and accountability — allowing members to divide responsibilities across research design, data analysis, writing, and presentation.
+
+- One or two teams may have **two or four members**.
+- Every team member is expected to contribute actively and understand the entire project.  
+- Teams should be formed by **Monday, October 27, 11:59 P.M.**, and a representative must report the members to **Prof. Choe** at [bchoe@geneseo.edu](mailto:bchoe@geneseo.edu), **cc-ing all team members**.  
+  - If any students are **not assigned to a team** by that deadline, **Prof. Choe will assign them** to teams with fewer than three members or create a new team as needed.
+
+
+
+## ⏰ Project Timeline
+
+| Component | Description | Due Date |
+|------------|--------------|-----------|
+| 🧾 **Research Kick-off Report** | Preliminary proposal — define your question, motivation, and framework | **Saturday, November 1, 2025** |
+| 🗣️ **Final Presentation** |10–15 minute team presentation (Week of Dec 1) | *Last week of class* |
+| 📄 **Final Proposal** | Expanded 5–7 page final proposal paper | **Tuesday, December 16, 2025** |
+
+---
+
+## 📘 Connecting Theory to Practice
+
+So far, we have studied **why environmental markets fail**:
+- Externalities 
+- Public goods and common-pool resources
+- Information problems and principal-agent problems
+- Behavioral anomalies
+
+Now, we extend these ideas to **the economics of climate change**, where individual decisions aggregate into global consequences.
+
+### 🧠 Key analytical tools we will further discuss include:
+- **Dynamic efficiency and discounting** — balancing present and future well-being  
+- **Risk and uncertainty** — understanding behavior and policy decisions when information is imperfect or incomplete  
+- **Strategic interaction and game theory** — analyzing incentives, cooperation, and negotiation in international environmental agreements (IEAs)  
+
+---
+
+## 🧾 Research Kick-off Report — Structure
+
+Your **Research Kick-off Report** (2–3 pages) is a concise proposal that outlines *what you plan to study, why it matters economically, and how you might study it.*
+
+It should include the following sections:
+
+1. **Title & Connection to Theme**  
+   - Provide a clear, descriptive title.  
+   - Explain how your topic fits within *“Climate Change and the Individual.”*
+
+2. **Research Question & Motivation**  
+   - State your central research question clearly.  
+   - Explain why this question is economically meaningful or policy relevant.  
+   - Highlight the underlying issue (e.g., externality, behavioral bias, or coordination problem).
+
+3. **Conceptual Framework**  
+   - Identify the key *economic mechanism* or *theoretical idea* behind your question.  
+   - Specify whether it involves **market failure**, **behavioral economics**, or **strategic interaction**.  
+   - Mention relevant analytical tools (e.g., **discounting**, **dynamic efficiency**, **SCC**, or **risk**).
+
+4. **Proposed Data or Methodology**  
+   - Describe how you would study your question — using surveys, experiments, secondary data, or conceptual analysis.  
+   - Clarify what kind of evidence or reasoning you would use to support your claims.
+
+5. **Expected Insights or Policy Implications**  
+   - Summarize what findings or implications you anticipate.  
+   - Discuss how your analysis might inform individual behavior, firm decisions, or public policy.
+
+::: callout-note
+💡 Think of this report as your **research blueprint**, not a finished paper.  
+Your goal is to define *a focused, economically grounded question* and *a feasible approach* — not to produce results yet.
+:::
+
+
+
+## 💡 Brainstorming Ideas
+
+| Theme | Example Research Question | Economic Concept | Policy Levers |
+|-------|----------------------------|------------------|---------------|
+| Energy Behavior | Why do households underinvest in energy-efficient appliances? | Myopia / bounded rationality | 💰 **Incentives** – Align financial signals with efficient choices |
+| Transportation | How do zoning or parking policies shape individual transportation choices and emissions? | Institutions / externalities | 🏛 **Institutions** – Reform parking minimums and zoning rules to reduce car dependency |
+| Consumption | Do “low-carbon” labels affect purchasing choices? | Information asymmetry | 🧠 **Information** – Make efficiency visible, comparable, and easy to act on |
+| Insurance & Risk | How does climate risk perception affect home insurance demand? | Risk aversion / misperception | 💰 **Incentives** – Price risk accurately through insurance and disclosure |
+| Social Norms | Do peer effects influence willingness to offset emissions? | Externalities / social norms | 🤝 **Social Norms** – Use peer effects and social signaling to shift behavior |
+| Adaptation | How do individuals discount future flood or heat risks? | Time preference / discounting | 🧠 **Information** + 💰 **Incentives** – Make future risks salient and reward long-term choices |
+
+> Effective climate policy often combines multiple levers — for example, **tax + label + social norm feedback** — to align private and social incentives.
+
+---
+
+## 🧭 Research Idea Logic
+
+Your project does not require advanced modeling or econometrics — but it must demonstrate **economic reasoning** and, ideally, use **real-world data**.
+
+> Think like an economist: focus on **incentives, information, and trade-offs**, and support your reasoning with **evidence**, even if it’s simple.
+
+| Type | Purpose | Example Question |
+|------|----------|------------------|
+| **Descriptive** | Identify or illustrate a real-world pattern | “Who installs rooftop solar panels?” |
+| **Explanatory (Positive)** | Explain *why* something happens using reasoning or basic evidence | “Why do some households adopt solar while others don’t?” |
+| **Conceptual / Mechanism-Based** | Use an economic idea to describe *how* incentives or information shape behavior | “How could rebates or information programs increase solar adoption?” |
+| **Normative / Policy-Oriented** | Explore *what should happen* to improve welfare or efficiency | “Should carbon rebates target renters or homeowners?” |
+
+---
+
+### 💾 Using Data Effectively
+
+You are encouraged to:
+- Look for **public datasets** related to your topic (energy use, weather, attitudes, emissions, adaptation behavior, etc.).  
+- Use **simple summaries** — such as tables, graphs, or averages — to describe your findings.  
+  - **Formal regression analysis is optional**, and recommended only if you feel comfortable and have the time to do it carefully.  
+  - 💬 **Ask Prof. Choe for help with any data work!** Guidance is available for data search, cleaning, and visualization.  
+- Combine **qualitative insights** (e.g., survey reports, interviews, case studies) with **quantitative evidence** when possible.  
+- Always **cite your data sources** clearly — e.g., *EPA, NOAA, World Bank, Our World in Data, U.S. Census, academic studies.*
+
+> “You don’t need complex statistics to do good economics — but you do need **data and reasoning** to support your argument.”
+
+
+### 🌐 Recommended Open Data Sources
+
+| Source | Description |
+|---------|-------------|
+| 🌍 [Our World in Data](https://ourworldindata.org/) | Cross-country datasets on CO₂ emissions, energy use, and climate impacts. |
+| 📊 [**Statista**](https://library.geneseo.edu/statista) | Statistics portal covering energy, environment, and sustainability topics. *(Access available through SUNY Geneseo library subscription.)* |
+| 🌡 [NOAA Climate Data Online](https://www.ncei.noaa.gov/cdo-web/) | Temperature, precipitation, and extreme weather records for U.S. and global stations. |
+| ⚡ [U.S. Energy Information Administration (EIA)](https://www.eia.gov/opendata/) | Data on energy production, consumption, and fuel prices. |
+| 🌾 [FAOSTAT (UN Food and Agriculture Organization)](https://www.fao.org/faostat/en/#home) | Global data on agriculture, food systems, land use, and greenhouse gas emissions by sector and country. |
+| 💰 [World Bank Data Catalog](https://data.worldbank.org/) | Global indicators for environment, economics, and public policy. |
+| 🌦 [PRISM Climate Group (Oregon State University)](https://prism.oregonstate.edu/) | High-resolution U.S. climate data (temperature, precipitation, and normals) for local and regional analysis. |
+| 🔋 [IEA (International Energy Agency)](https://www.iea.org/data-and-statistics) | Global datasets on energy production, consumption, efficiency, and emissions by sector and country. |
+| 🌎 [UNEP Environment Data Explorer](https://data.unep.org/app/) | World Environment Situation Room (WESR), an open data platform by the UN Environment Programme (UNEP). |
+| 🧭 [OECD Environment Statistics](https://data-explorer.oecd.org) | Data on environmental performance, green growth, energy intensity, and environmental taxes for OECD countries. |
+| 🧮 [Global Carbon Budget Office](https://globalcarbonbudget.org/gcb-2024/) | Annual data on global carbon emissions and carbon budget analysis. |
+| ♻️ [UN SDG Indicators Database](https://unstats.un.org/sdgs/dataportal) | Official UN indicators tracking global sustainability goals. |
+| 💧 [AQUASTAT (FAO Water Data)](https://www.fao.org/aquastat/en/) | Global data on water resources, irrigation, and agricultural water management. |
+| 🌡️ [Berkeley Earth](https://berkeleyearth.org/data/) | Long-term global datasets on temperature, air quality, and climate change. |
+| 🏠 [U.S. Census Bureau - Natural & Built Environments](https://opportunity.census.gov/data/natural-built/) | Datasets on the natural and built environment including: pollution, agriculture, transportation emissions, recycling, economic self-sufficiency, resources for refugees, rural economic development, and disaster spending. |
+| 🎓 [Harvard Dataverse](https://dataverse.harvard.edu/) | Repository for academic datasets across disciplines, including environment and policy. |
+| 🧩 [Open ICPSR](https://www.openicpsr.org/openicpsr/) | Open-access social science data archive with economic and behavioral studies. |
+
+
+---
+
+## ✅ Checklist
+
+Before submitting your **Research Kick-off Report**:
+
+- [ ] Topic fits the theme *Climate Change and the Individual*  
+- [ ] Clear, well-defined research question  
+- [ ] Economic mechanism or concept identified  
+- [ ] Data source or method described  
+- [ ] Expected insight or policy takeaway  
+- [ ] 2–3 pages, professional formatting  
+- [ ] Submitted via Brightspace by **Saturday, November 1, 2025 (11:59 PM)**
+
+---
+
+## 🌱 Closing Thought
+
+> “Climate change is global — it demands coordinated, systemic change across the world.  
+> Yet meaningful progress also begins with individual decisions.  
+> Economics helps us understand how incentives and information connect the two — linking personal behavior with collective solutions.”

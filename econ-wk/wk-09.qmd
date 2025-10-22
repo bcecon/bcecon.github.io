@@ -43,12 +43,30 @@ Team project will be evaluated on:
 4. Quality of the modeling analysis  
 5. Peer evaluation of other students’ presentations  
 
+- **Team Project Score**
+$$
+\begin{align}
+&\quad\text{(Team Project Score)}\\
+&= \;\;\; 0.05 \times \text{(Peer Evaluation)}\\
+&\quad + 0.10 \times \text{(Project Kickoff Report)}\\
+&\quad + 0.50 \times \text{(Presentation)}\\
+&\quad + 0.35 \times \text{(Proposal)}.
+\end{align}
+$$
+
 **Note:** Any change in team membership or research topic requires approval from **Byeong-Hak Choe**.  
 
 ## Additional Opportunity  
 Your team is encouraged to participate in the campus-wide [Ideas that Matter Student Challenge](https://www.geneseo.edu/cil/ideas-matter-student-challenge) in Spring 2026, aligned with the 2025–26 theme *Climate Change and the Individual*. 
 
 
+<br>
+
+
+## 📚 Recommended Reading
+
+- The following course material summarizes the science of climate change and its impact on the Earth:
+  - [Earth 103: Earth in the Future](https://www.e-education.psu.edu/earth103/), Pennsylvania State University
 
 
 ## 💬 Discussion

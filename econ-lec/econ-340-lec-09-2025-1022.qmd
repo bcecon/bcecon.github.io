@@ -1,0 +1,312 @@
+---
+title: Lecture 9
+subtitle: "Balancing the Present and Future: The Discount Rate"
+format:
+  clean-revealjs:
+    self-contained: false
+    chalkboard: true
+    incremental: true
+    code-annotations: hover
+    scrollable: false
+
+    # logo: logo-title-slide.png
+author:
+  - name: Byeong-Hak Choe
+    email: bchoe@geneseo.edu
+    affiliations: SUNY Geneseo
+date: 2025-10-22
+execute: 
+  eval: true
+  echo: false
+callout-icon: false
+
+from: markdown+emoji
+include-after-body: target-hover.html # effect.html
+
+# bibliography: refs.bib
+---
+
+```{r setup}
+#| include: false
+
+library(tidyverse)
+library(lubridate)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+library(viridis)
+library(rmarkdown)
+library(gapminder)
+library(ggrepel)
+library(formattable)
+
+theme_set(theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(10,0,0,0)),
+                axis.title.y = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(0,10,0,0)),
+                axis.text.x = element_text(size = rel(1.75)),
+                axis.text.y = element_text(size = rel(1.75)),
+                strip.text = element_text(size = rel(1.5)),
+                legend.position = "top",
+                legend.text = element_text(size = rel(1.5)),
+                legend.title = element_text(size = rel(1.5))
+                )
+          )
+
+# Set global options for color-blind-friendly scales
+# scale_colour_discrete <- function(...) scale_colour_viridis_d(...)
+
+scale_colour_discrete <- function(...) scale_color_colorblind(...)
+scale_fill_discrete <- function(...) scale_fill_colorblind(...)
+
+rates <- seq(0.01, 0.10, by = 0.01)
+years <- c(0, 10, 20, 30, 50, 75, 100)
+
+pv_tbl <- expand.grid(r = rates, n = years) |>
+  mutate(PV = 100 / (1 + r)^n) |>
+  mutate(PV = round(PV, 2),
+         r = r*100) |>
+  select(`Rate` = r, Years = n, PV)
+
+pv_wide <- pv_tbl |>
+  pivot_wider(names_from = Years, values_from = PV) |>
+  arrange(`Rate`) |> 
+  mutate(`Rate` = paste0(sprintf("%.0f", `Rate`), "%"))
+
+```
+
+
+# The Discount Rate {background-color="#1c4982"}
+
+## Why Discount the Future?
+
+- In most environmental policies, **costs/benefits often occur at different times**
+- Converting everything to **real (inflation-adjusted) dollars** handles inflation—but **not time preference**
+- People (and societies) often **prefer benefits now** (investment opportunity, **uncertainty**, **impatience**)
+- Therefore we apply **discounting** to compare **future** and **present** values on a common basis
+
+::: callout-note
+- **Idea:** *$100 today* can be worth the same as *$200 ten years from now* at an appropriate discount rate.
+:::
+
+
+
+## Present Value (PV) Formula
+
+Let $X_n$ be a cost/benefit received in $n$ years and $r$ the **discount rate**:
+
+$$
+\text{PV}(X_n) \;=\; \frac{X_n}{(1+r)^{\,n}}
+$$
+
+- **Further in time** ($n\uparrow$) → PV **falls**  
+- **Higher discount rate** ($r\uparrow$) → PV **falls**
+
+::: callout-tip
+- **Examples (for $X_n = \$100$)**  
+  - $r=3\%, n=10 \Rightarrow \text{PV}=\$74.41$  
+  - $r=7\%, n=10 \Rightarrow \text{PV}=\$50.83$
+:::
+
+
+
+
+
+
+## How Fast Does PV Decline?
+
+- **High $r$** greatly devalues distant impacts  
+  - $r=7\%, n=50\Rightarrow \text{PV}=\$3.39$ for \$100  
+  - $r=10\%, n=50\Rightarrow \text{PV}=\$0.85$
+- **Small changes in $r$** matter a lot over long horizons  
+  - After **100 years**, PV at **1%** is about **7×** the PV at **3%**
+
+
+
+## PV of $100 by Discount Rates and Years
+
+<!-- <div style="display:block; margin:30px;"></div> -->
+
+```{r}
+formattable(
+  pv_wide,
+  list(
+    area(col = -1) ~ color_tile("lightblue", "#4C4CAD")
+  ),
+  align = c("c", rep("r", ncol(pv_wide) - 1)),
+  caption = "<b>Years into the Future</b>"
+)
+```
+
+
+## The Value of Manhattan Island
+
+:::{.nonincremental}
+
+- The funds used to purchase Manhattan Island for $24 in 1626!
+
+:::
+
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/pv-manhattan-land.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+
+
+
+# Choosing the Discount Rate: Two Approaches {background-color="#1c4982"}
+
+## Why Discount the Future?
+
+
+In both **market-based** and **social** approaches, the **discount rate** answers a fundamental question:  
+
+> *At what rate should society be compensated in the future for giving up one unit of consumption today so that overall well-being is preserved?*
+
+- This rate reflects how we **value the future relative to the present**, whether through:
+  - **Ethical principles** about intergenerational welfare, or
+  - **Observed market behavior** (opportunity cost of capital)
+
+
+## Social Discount Rate (SDR)
+
+<div style="display:block; margin:-10px;"></div>
+
+$$
+\text{SDR} = \rho + \varepsilon \cdot g
+$$
+
+<div style="display:block; margin:-20px;"></div>
+
+- $\rho$: **pure rate of time preference** — captures **impatience** or preference for present welfare over future welfare  
+- $\varepsilon$: **elasticity of marginal utility of consumption** — measures how quickly **the extra satisfaction (utility)** from consumption **declines as people become richer**  
+  - When people are **poor**, an extra dollar raises happiness a lot  
+  - When people are **richer**, an extra dollar adds little  
+  - **Inequality aversion:** a higher $\varepsilon$ means society is more sensitive to inequality across generations
+  <!-- - **Inequality aversion:** a higher $\varepsilon$ means society values **additional income for poorer generations** more than for richer ones   -->
+- $g$: **growth rate of real consumption** — the expected pace of income growth over time  
+<!-- - **Wealth effect:** together, $\varepsilon$ and $g$ determine how **fast overall welfare grows** as society becomes wealthier -->
+
+
+
+## 1️⃣ Ethical (Prescriptive) Approach
+
+> “What *should* be the fair tradeoff between present and future welfare?”
+
+- Sets parameters based on **ethical principles** of **intergenerational fairness**, not on market behavior  
+  - $\rho$: very low (≈ 0–0.1%) → future welfare valued almost equally to present welfare  
+  - $\varepsilon$: reflects **inequality aversion** — society places **less value on extra income for richer future generations**  
+  - $g$: assumes **modest long-run growth** (e.g., 1–1.5%), consistent with sustainability concerns  
+- **Result:** Low SDR (≈ 1–2%) → **greater weight on future generations** and **stronger justification for early climate action**
+
+
+
+
+## 2️⃣  Market-Based (Descriptive) Approach
+
+::: callout-note
+The **Opportunity Cost of Capital** is the **return forgone** when spending \$1 today on a project, instead of **investing that same \$1 in the best available alternative** (for example, in private capital markets or government bonds).
+:::
+
+<!-- - Reflects **how markets actually discount the future**, not how we *should* -->
+
+- Set $r \approx$ **low-risk market return** (e.g., government bonds or average real return on capital)  
+- **Logic:** Funds spent today could have been **invested** — the **opportunity cost of capital** determines the appropriate $r$  
+- **Idea:** Society’s **time preference** between present and future consumption is *revealed* through **saving, investment, and consumption decisions**, as reflected in **observed market returns** and **long-run economic growth**.
+- **Caveat:** Market rates **change over time**  
+  - Very low in the 2020s; very high in the early 1980s  
+
+
+
+## 💰 Market-Based (Descriptive) Approach
+
+> “How do markets *actually* value the future?”
+
+- Sets parameters based on **observed economic behavior**, not ethical judgments  
+  - $\rho$: **higher** (≈ 1–2%) — reflects society’s **revealed time preference** in saving and investment decisions  
+  - $\varepsilon$: inferred from **market data** — captures how people trade off **consumption and risk** over time  
+  - $g$: assumes **stronger long-run growth** (e.g., 2%), consistent with **historical productivity trends**  
+- **Result:** Higher SDR (≈ 4–5%) → **less weight on distant future impacts** and supports  relatively **gradual, cost-efficient mitigation og GHG**
+
+<!-- ::: callout-tip -->
+<!-- **Example:** Nordhaus (*DICE Model*)   -->
+<!-- $\rho = 1.5\%$, $\varepsilon = 1.5$, $g = 2\%$ → $r = 4.5\%$ -->
+<!-- ::: -->
+
+
+<!-- ## 📉 How Assumptions Shift the Discount Rate -->
+
+<!-- - Increasing $\rho$ (e.g., $\rho = 1.5\%$) with similar $g$ and $\varepsilon$ $\Rightarrow$ $r \approx 3.4\%$   -->
+<!-- - Over **100 years**, $r = 3.4\%$ yields a PV about **one-seventh** of that at $r = 1.4\%$   -->
+<!-- - **Implication:** The chosen discount rate can **reverse policy conclusions** for **long-horizon** issues (e.g., climate) -->
+
+
+
+<!-- ## Discounting Climate Change — Two Lenses -->
+
+<!-- ### 🧭 Prescriptive (Ethical / “Social”) — *Stern* -->
+<!-- - **Philosophy:** How much we **should** value future generations   -->
+<!-- - **Assumptions:** $\rho = 0.1\%$, $\varepsilon = 1$, $g = 1.3\%$   -->
+<!-- - **Result:** $\text{SDR} = 0.1\% + 1 \cdot 1.3\% = \mathbf{1.4\%}$   -->
+<!-- - **Implication:** **Low $r$ (≈1–2%)** $\Rightarrow$ heavy weight on future damages $\Rightarrow$ **early, aggressive mitigation of GHG** -->
+
+
+<!-- ## Discounting Climate Change — Two Lenses -->
+
+<!-- ### 💰 Descriptive (Market-Based) — *Nordhaus* -->
+<!-- - **Philosophy:** Use **observed market behavior** (returns on capital / bond yields)   -->
+<!-- - **Logic:** Society *reveals* time preferences via **saving, investment, consumption**   -->
+<!-- - **Assumption:** Real discount rate $\approx \mathbf{4.25\%}$ (historical returns)   -->
+<!-- 	-	$\rho$ and $\varepsilon$ are inferred from market behavior and historical returns. -->
+<!-- 	-	$g$ comes from projected economic growth  -->
+<!-- - **Implication:** **Higher $r$ (≈4–5%)** $\Rightarrow$ less weight on distant damages $\Rightarrow$ **gradual, cost-efficient mitigation of GHG** -->
+
+
+## Discounting Climate Change — Two Lenses
+
+| Feature | **Ethical** | **Market-based** |
+|:--|:--|:--|
+| Approach |  How we ought to value the future |  How markets actually value the future |
+| $\rho$ | $0.1\%$ | $1.5\%$ |
+| $\varepsilon$ | $1.0$ | $1.5$ |
+| $g$ | $1.3\%$ | $2.0\%$ |
+| Resulting rate | **$\approx 1.4\%$** | **$\approx 4.25\%$** |
+| Policy implication | Immediate, large cuts | Gradual mitigation path |
+
+<div style="display:block; margin:-15px;"></div>
+
+::: callout-note
+Although Nordhaus assumes a higher $\varepsilon$ (greater inequality aversion),  
+his larger $\rho$ and $g$ dominate — resulting in a **higher overall discount rate**.
+:::
+
+
+## 📊 Policy Relevance & Ethics
+
+- **2018 Survey of Economists:**  
+  - Mean = **2.3%**, Median = **2.0%** (real SDR for intergenerational global projects)  
+  - **68%** of economists recommend a rate between **1–3%**  
+  - **Trend:** Steady shift **toward lower discount rates** since 2001, reflecting greater concern for long-term welfare  
+- **High $r$** → prioritizes the **present**, discounting future impacts heavily  
+- **Low $r$** → gives greater **weight to future generations**  
+- In **environmental cost–benefit analysis** (e.g., climate policy):  
+  - **Costs occur now**, **benefits arise later** → a **lower $r$** supports **stronger environmental protection**  
+- There is no single “correct” rate — analysts should be **transparent**, **justify their assumptions**, and **test results through sensitivity analysis**.
+
+
+<!-- ## 🧮 Quick Checks & Exercises -->
+
+<!-- 1. Compute $\text{PV}(\$100, n=10)$ at $r=2\%, 5\%, 8\%$.   -->
+<!-- 2. For which $r$ does $\text{PV}(\$100, n=50) < \$1$?   -->
+<!-- 3. Using SDR, try $\rho=0.1\%, \varepsilon=1.5, g=1.2\%$. What $r$ do you obtain? -->
+
+<!-- ::: callout-note -->
+<!-- - **Sensitivity is essential:** always report results across a **range of plausible $r$** values. -->
+<!-- ::: -->
