@@ -41,7 +41,7 @@ A rental building from the 1980s has an outdated heating system.
 
 # Part 1 — Identify the Market Failure
 
-**Task:** Identify **two market failures** present in this situation and briefly justify.
+**Task:** Identify **two market failures** (excluding behavioral anomalies) present in this situation and briefly justify.
 
 -	Market Failure 1: ___________________________________________  
 $\qquad$ → Because ___________________________________________________  
