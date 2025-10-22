@@ -109,7 +109,7 @@ It should include the following sections:
    - For **online sources**, include the **URL** and the **date and time of access**.
 
 ::: callout-note
-💡 Think of this report as your **research blueprint**, not a finished paper.  
+💡 Think of this report as your **research blueprint**, not a finished proposal.  
 Your goal is to define *a focused, economically grounded question* and *a feasible approach* — not to produce results yet.
 :::
 
@@ -163,7 +163,7 @@ You are encouraged to:
 | Source | Description |
 |---------|-------------|
 | 🌍 [Our World in Data](https://ourworldindata.org/) | Cross-country datasets on CO₂ emissions, energy use, and climate impacts. |
-| 📊 [**Statista**](https://library.geneseo.edu/statista) | Statistics portal covering energy, environment, and sustainability topics. *(Access available through SUNY Geneseo library subscription.)* |
+| 📊 [Statista](https://library.geneseo.edu/statista) | Statistics portal covering energy, environment, and sustainability topics. *(Access available through SUNY Geneseo library subscription.)* |
 | 🌡 [NOAA Climate Data Online](https://www.ncei.noaa.gov/cdo-web/) | Temperature, precipitation, and extreme weather records for U.S. and global stations. |
 | ⚡ [U.S. Energy Information Administration (EIA)](https://www.eia.gov/opendata/) | Data on energy production, consumption, and fuel prices. |
 | 🌾 [FAOSTAT (UN Food and Agriculture Organization)](https://www.fao.org/faostat/en/#home) | Global data on agriculture, food systems, land use, and greenhouse gas emissions by sector and country. |
