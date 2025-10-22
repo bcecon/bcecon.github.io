@@ -61,6 +61,7 @@ This team size provides a strong balance between collaboration and accountabilit
 ## 📘 Connecting Theory to Practice
 
 So far, we have studied **why environmental markets fail**:
+
 - Externalities 
 - Public goods and common-pool resources
 - Information problems and principal-agent problems
@@ -93,7 +94,7 @@ It should include the following sections:
 3. **Conceptual Framework**  
    - Identify the key *economic mechanism* or *theoretical idea* behind your question.  
    - Specify whether it involves **market failure**, **behavioral economics**, or **strategic interaction**.  
-   - Mention relevant analytical tools (e.g., **discounting**, **dynamic efficiency**, **SCC**, or **risk**).
+   - Mention relevant analytical tools (e.g., **dynamic efficiency**, **externalities**, **incentives**, or **risk**).
 
 4. **Proposed Data or Methodology**  
    - Describe how you would study your question — using surveys, experiments, secondary data, or conceptual analysis.  
