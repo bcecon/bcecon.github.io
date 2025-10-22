@@ -103,6 +103,10 @@ It should include the following sections:
 5. **Expected Insights or Policy Implications**  
    - Summarize what findings or implications you anticipate.  
    - Discuss how your analysis might inform individual behavior, firm decisions, or public policy.
+   
+6. **Reference**  
+   - Use a **consistent citation format** throughout.  
+   - For **online sources**, include the **URL** and the **date and time of access**.
 
 ::: callout-note
 💡 Think of this report as your **research blueprint**, not a finished paper.  
