@@ -39,7 +39,7 @@ You’ll complete the project in **three-four stages**:
 ### 👥 Team Formation
 
 Each project will be completed in **teams of three students** (approximately 9–10 teams in total).  
-This team size provides a strong balance between collaboration and accountability — allowing members to divide responsibilities across research design, data analysis, writing, and presentation.
+This team size provides a strong balance between collaboration and accountability — allowing members to divide responsibilities across research design, data analysis, and writing.
 
 - One or two teams may have **two or four members**.
 - Every team member is expected to contribute actively and understand the entire project.  
