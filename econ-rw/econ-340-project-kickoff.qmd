@@ -168,13 +168,16 @@ You are encouraged to:
 | ⚡ [U.S. Energy Information Administration (EIA)](https://www.eia.gov/opendata/) | Data on energy production, consumption, and fuel prices. |
 | 🌾 [FAOSTAT (UN Food and Agriculture Organization)](https://www.fao.org/faostat/en/#home) | Global data on agriculture, food systems, land use, and greenhouse gas emissions by sector and country. |
 | 💰 [World Bank Data Catalog](https://data.worldbank.org/) | Global indicators for environment, economics, and public policy. |
+| 🌐 [World Bank Climate Change Knowledge Portal](https://climateknowledgeportal.worldbank.org) | The hub for global, climate-related data on historical and future climate, vulnerabilities, and impacts. |
 | 🌦 [PRISM Climate Group (Oregon State University)](https://prism.oregonstate.edu/) | High-resolution U.S. climate data (temperature, precipitation, and normals) for local and regional analysis. |
 | 🔋 [IEA (International Energy Agency)](https://www.iea.org/data-and-statistics) | Global datasets on energy production, consumption, efficiency, and emissions by sector and country. |
 | 🌎 [UNEP Environment Data Explorer](https://data.unep.org/app/) | World Environment Situation Room (WESR), an open data platform by the UN Environment Programme (UNEP). |
 | 🧭 [OECD Environment Statistics](https://data-explorer.oecd.org) | Data on environmental performance, green growth, energy intensity, and environmental taxes for OECD countries. |
 | 🧮 [Global Carbon Budget Office](https://globalcarbonbudget.org/gcb-2024/) | Annual data on global carbon emissions and carbon budget analysis. |
 | ♻️ [UN SDG Indicators Database](https://unstats.un.org/sdgs/dataportal) | Official UN indicators tracking global sustainability goals. |
+| 🌐️ [IMF Data](https://climatedata.imf.org) | Official IMF Macroeconomic Climate Indicators. |
 | 💧 [AQUASTAT (FAO Water Data)](https://www.fao.org/aquastat/en/) | Global data on water resources, irrigation, and agricultural water management. |
+| 🗺️ [Yale Climate Opinion Map](https://climatecommunication.yale.edu/visualizations-data/ycom-us/) | American's climate change beliefs, attitudes, policy support, and behaviors. |
 | 🌡️ [Berkeley Earth](https://berkeleyearth.org/data/) | Long-term global datasets on temperature, air quality, and climate change. |
 | 🏠 [U.S. Census Bureau - Natural & Built Environments](https://opportunity.census.gov/data/natural-built/) | Datasets on the natural and built environment including: pollution, agriculture, transportation emissions, recycling, economic self-sufficiency, resources for refugees, rural economic development, and disaster spending. |
 | 🎓 [Harvard Dataverse](https://dataverse.harvard.edu/) | Repository for academic datasets across disciplines, including environment and policy. |
