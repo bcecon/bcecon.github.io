@@ -148,6 +148,7 @@ Your project does not require advanced modeling or econometrics — but it must 
 ### 💾 Using Data Effectively
 
 You are encouraged to:
+
 - Look for **public datasets** related to your topic (energy use, weather, attitudes, emissions, adaptation behavior, etc.).  
 - Use **simple summaries** — such as tables, graphs, or averages — to describe your findings.  
   - **Formal regression analysis is optional**, and recommended only if you feel comfortable and have the time to do it carefully.  
