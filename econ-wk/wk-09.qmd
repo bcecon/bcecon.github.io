@@ -5,7 +5,7 @@ date: 2025-10-20
 from: markdown+emoji
 ---
 
-In **Week 9**, we will wrap up the lecture on [Information, Incentives, and Behavioral Anomalies](../econ-lec/econ-340-lec-08-2025-1017.html){target="blank"} and then transition to our new topic: **Climate Change**. This module will directly support your **Team Project – Climate Change and the Individual**, helping you apply the concepts to real-world analysis.
+In **Week 9**, we will wrap up the lecture on [Information, Incentives, and Behavioral Anomalies](../econ-lec/econ-340-lec-08-2025-1017.html){target="blank"} and then  transition to our new topic: [Balancing the Present and Future: The Discount Rate](../econ-lec/econ-340-lec-09-2025-1022.html){target="blank"}. This module will directly support your **Team Project – Climate Change and the Individual**, helping you apply the concepts to real-world analysis.
 
 
 
