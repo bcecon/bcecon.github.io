@@ -3623,7 +3623,7 @@
     "href": "econ-lec/econ-340-lec-09-2025-1024.html#present-value-pv-formula",
     "title": "Lecture 9",
     "section": "Present Value (PV) Formula",
-    "text": "Present Value (PV) Formula\nLet \\(X_n\\) be a cost/benefit received in \\(t\\) years and \\(r\\) the discount rate:\n\\[\n\\text{PV}(X_t) \\;=\\; \\frac{X_t}{(1+r)^{\\,t}}\n\\]\n\nFurther in time (\\(t\\uparrow\\)) → PV falls\n\nHigher discount rate (\\(r\\uparrow\\)) → PV falls\n\n\n\n\nTip\n\n\n\nExamples (for \\(X_t = \\$100\\))\n\n\\(r=3\\%, t=10 \\Rightarrow \\text{PV}=\\$74.41\\)\n\n\\(r=7\\%, t=10 \\Rightarrow \\text{PV}=\\$50.83\\)"
+    "text": "Present Value (PV) Formula\nLet \\(X_t\\) be a cost/benefit received in \\(t\\) years and \\(r\\) the discount rate:\n\\[\n\\text{PV}(X_t) \\;=\\; \\frac{X_t}{(1+r)^{\\,t}}\n\\]\n\nFurther in time (\\(t\\uparrow\\)) → PV falls\n\nHigher discount rate (\\(r\\uparrow\\)) → PV falls\n\n\n\n\nTip\n\n\n\nExamples (for \\(X_t = \\$100\\))\n\n\\(r=3\\%, t=10 \\Rightarrow \\text{PV}=\\$74.41\\)\n\n\\(r=7\\%, t=10 \\Rightarrow \\text{PV}=\\$50.83\\)"
   },
   {
     "objectID": "econ-lec/econ-340-lec-09-2025-1024.html#how-fast-does-pv-decline",

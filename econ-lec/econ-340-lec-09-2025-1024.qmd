@@ -98,7 +98,7 @@ pv_wide <- pv_tbl |>
 
 ## Present Value (PV) Formula
 
-Let $X_n$ be a cost/benefit received in $t$ years and $r$ the **discount rate**:
+Let $X_t$ be a cost/benefit received in $t$ years and $r$ the **discount rate**:
 
 $$
 \text{PV}(X_t) \;=\; \frac{X_t}{(1+r)^{\,t}}
