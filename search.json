@@ -3791,13 +3791,34 @@
     "href": "econ-lec/econ-340-lec-09-2025-1024.html#linking-eta-diminishing-utility-and-fairness",
     "title": "Lecture 9",
     "section": "Linking \\(\\eta\\), Diminishing Utility, and Fairness",
-    "text": "Linking \\(\\eta\\), Diminishing Utility, and Fairness\n\n\n\n\n\n\n\n\n\nHigher \\(\\eta\\) → Faster Diminishing Marginal Utility\n\nThe extra satisfaction from each additional dollar drops faster as consumption rises.\n\nA dollar means less to someone already well-off.\n\nHigher \\(\\eta\\) → Stronger Concern for Equality\n\nSince extra consumption benefits the poor more than the rich, society with a higher \\(\\eta\\) places more weight on poorer or earlier generations."
+    "text": "Linking \\(\\eta\\), Diminishing Utility, and Fairness\n\n\n\n\n\n\n\n\n\n\n\n\n\nHigher \\(\\eta\\) → Faster Diminishing Marginal Utility\n\nThe extra satisfaction from each additional dollar drops faster as consumption rises.\n\nHigher \\(\\eta\\) → Stronger Concern for Equality\n \n\nBecause extra consumption benefits the poor more than the rich, a higher \\(\\eta\\) means society places greater weight on poorer or earlier generations when choosing how to allocate resources (\\(C_{t}\\) and \\(I_{t}\\)) over time."
   },
   {
     "objectID": "econ-lec/econ-340-lec-09-2025-1024.html#sdr-linking-eta-diminishing-utility-and-fairness",
     "href": "econ-lec/econ-340-lec-09-2025-1024.html#sdr-linking-eta-diminishing-utility-and-fairness",
     "title": "Lecture 9",
     "section": "SDR — Linking \\(\\eta\\), Diminishing Utility, and Fairness",
-    "text": "SDR — Linking \\(\\eta\\), Diminishing Utility, and Fairness\n\n\n\n\n\n\n\n\n\n\nHigher \\(\\eta\\) → Faster Diminishing Marginal Utility\n\nThe extra satisfaction from each additional dollar drops faster as consumption rises.\n\nHigher \\(\\eta\\) → Stronger Concern for Equality\n\nSince extra consumption benefits the poor more than the rich, society with a higher \\(\\eta\\) places more weight on poorer or earlier generations."
+    "text": "SDR — Linking \\(\\eta\\), Diminishing Utility, and Fairness\n\n\n\n\n\n\n\n\n\n\n\n\n\nHigher \\(\\eta\\) → Faster Diminishing Marginal Utility\n\nThe extra satisfaction from each additional dollar drops faster as consumption rises.\n\nHigher \\(\\eta\\) → Stronger Concern for Equality\n \n\nBecause extra consumption benefits the poor more than the rich, a higher \\(\\eta\\) means society places greater weight on poorer or earlier generations when choosing how to allocate resources (\\(C_{t}\\) and \\(I_{t}\\)) over time."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-09-2025-1024.html#dynamic-efficiency-and-resource-allocation",
+    "href": "econ-lec/econ-340-lec-09-2025-1024.html#dynamic-efficiency-and-resource-allocation",
+    "title": "Lecture 9",
+    "section": "⚖️ Dynamic Efficiency and Resource Allocation",
+    "text": "⚖️ Dynamic Efficiency and Resource Allocation\n\n\n\n\\[\n  U(C_{t}) = \\frac{C_{t}^{1-\\eta} - 1}{1 - \\eta} \\qquad\\text{and}\\qquad    C_t + I_t = Y_t\n  \\]\n\nIn each period \\(t\\), total output (\\(Y_t\\)) can be used for consumption or investment:\n\nConsumption (\\(C_t\\)): provides immediate welfare for the current generation\n\nInvestment (\\(I_t\\)): builds future productive capacity, benefiting future generations\n\n\n\n\n\nSustainability: To maximize overall well-being across generations, dynamic efficiency seeks a path that balances present and future welfare —\n\nHow much of today’s output should we consume now versus invest for the future (e.g., in renewable energy or infrastructure)?"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-09-2025-1024.html#sustainability-dynamic-efficiency-and-resource-allocation",
+    "href": "econ-lec/econ-340-lec-09-2025-1024.html#sustainability-dynamic-efficiency-and-resource-allocation",
+    "title": "Lecture 9",
+    "section": "🌱 Sustainability, Dynamic Efficiency, and Resource Allocation",
+    "text": "🌱 Sustainability, Dynamic Efficiency, and Resource Allocation\n\n\n\n\\[\n  U(C_{t}) = \\frac{C_{t}^{1-\\eta} - 1}{1 - \\eta} \\qquad\\text{and}\\qquad    C_t + I_t = Y_t\n  \\]\n\nIn each period \\(t\\), total output (\\(Y_t\\)) can be used for consumption or investment:\n\nConsumption (\\(C_t\\)): provides immediate welfare for the current generation\n\nInvestment (\\(I_t\\)): builds future productive capacity, benefiting future generations\n\n\n\n\n\nSustainability: To maximize overall well-being across generations, dynamic efficiency seeks a path that balances present and future welfare:\n\nHow much of today’s output should we consume now versus invest for the future (e.g., in renewable energy or infrastructure)?"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-09-2025-1024.html#sustainability-and-dynamic-efficiency",
+    "href": "econ-lec/econ-340-lec-09-2025-1024.html#sustainability-and-dynamic-efficiency",
+    "title": "Lecture 9",
+    "section": "🌱 Sustainability and Dynamic Efficiency",
+    "text": "🌱 Sustainability and Dynamic Efficiency\n\n\n\n\\[\n  U(C_{t}) = \\frac{C_{t}^{1-\\eta} - 1}{1 - \\eta} \\qquad\\text{and}\\qquad    C_t + I_t = Y_t\n  \\]\n\n\n\n\nResource Allocation Across Generations: In each period \\(t\\), total output (\\(Y_t\\)) can be used for consumption or investment:\n\nConsumption (\\(C_t\\)): provides immediate welfare for the current generation\n\nInvestment (\\(I_t\\)): builds future productive capacity, benefiting future generations\n\n\n\n\n\nSustainability: To maximize overall well-being across generations, dynamic efficiency seeks a path that balances present and future welfare:\n\nHow much of today’s output should we consume now versus invest for the future (e.g., in renewable energy or infrastructure)?"
   }
 ]
