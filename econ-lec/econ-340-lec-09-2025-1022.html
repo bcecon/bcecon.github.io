@@ -722,8 +722,42 @@ Rate
 </div>
 </div>
 </section>
-<section id="the-value-of-manhattan-island" class="slide level2">
-<h2>The Value of Manhattan Island</h2>
+<section id="pv-of-500-billion-comparing-discount-rates" class="slide level2">
+<h2>PV of $500 Billion — Comparing Discount Rates</h2>
+<div style="display:block; margin:-5px;">
+
+</div>
+<div>
+<ul>
+<li><strong>Question</strong>
+<ul>
+<li>Discount rates play a critical role in evaluating long-term issues such as <strong>climate change</strong>.<br>
+</li>
+<li>Suppose a climate policy <strong>implemented today</strong> will <strong>reduce future damages by $500 billion</strong>, occurring <strong>50 years from now</strong>.<br>
+</li>
+<li>Two present values of this damage reduction are shown below.<br>
+</li>
+<li>Which value corresponds to a <strong>2% discount rate</strong>, and which corresponds to a <strong>5% discount rate</strong>?</li>
+</ul></li>
+</ul>
+<div style="display:block; margin:-10px;">
+
+</div>
+<ol type="a">
+<li><strong>$185,763,941,063</strong><br>
+</li>
+<li><strong>$ 43,601,863,486</strong></li>
+</ol>
+</div>
+<div style="display:block; margin:-10px;">
+
+</div>
+<ul>
+<li class="fragment">💡 <strong>Why it matters:</strong> Even small differences in the discount rate can <strong>dramatically change how much we value the future</strong> — and therefore, how much we act today.</li>
+</ul>
+</section>
+<section id="quick-detour-the-value-of-manhattan-island" class="slide level2">
+<h2>💡 Quick Detour: The Value of Manhattan Island</h2>
 <div>
 <ul>
 <li>The funds used to purchase Manhattan Island for $24 in 1626!</li>
@@ -734,6 +768,27 @@ Rate
 <p style="font-weight: bold;">
 </p>
 </div>
+</section>
+<section id="quick-detour-the-rule-of-72" class="slide level2">
+<h2>💡 Quick Detour: The Rule of 72</h2>
+<p>A simple way to <strong>estimate how long it takes for a value to double</strong> given a fixed annual growth (or interest) rate.</p>
+<div style="display:block; margin:-10px;">
+
+</div>
+<p><span class="math display">\[
+\text{Years to Double} \approx \frac{72}{r}
+\]</span></p>
+<p>where <span class="math inline">\(r\)</span> is the <strong>annual percentage rate</strong> (not in decimal form).</p>
+<ul>
+<li class="fragment">The higher the rate of return, the <strong>faster</strong> the doubling.<br>
+</li>
+<li class="fragment">Works well for rates between <strong>2% and 15%</strong>.<br>
+</li>
+<li class="fragment">Useful for understanding <strong>economic/financial growth</strong>, <strong>inflation</strong>, or <strong>discounting</strong>.
+<ul>
+<li class="fragment"><em>Example</em>: If the economy grows at <strong>3% per year</strong>, its size <strong>doubles in about 24 years</strong>.</li>
+</ul></li>
+</ul>
 </section></section>
 <section>
 <section id="choosing-the-discount-rate-two-approaches" class="title-slide slide level1 center" data-background-color="#1c4982">
@@ -742,15 +797,16 @@ Rate
 </section>
 <section id="why-discount-the-future-1" class="slide level2">
 <h2>Why Discount the Future?</h2>
-<p>In both <strong>market-based</strong> and <strong>social</strong> approaches, the <strong>discount rate</strong> answers a fundamental question:</p>
+<p>The <strong>discount rate</strong> answers a fundamental question:</p>
 <blockquote>
-<p><em>At what rate should society be compensated in the future for giving up one unit of consumption today so that overall well-being is preserved?</em></p>
+<p><em>At what rate should society <strong>discount future benefits</strong> so that <strong>sacrificing one unit of consumption today</strong> is <strong>fairly balanced by gains to future well-being</strong>?</em></p>
 </blockquote>
 <ul>
-<li class="fragment">This rate reflects how we <strong>value the future relative to the present</strong>, whether through:
+<li class="fragment">This rate reflects how we <strong>value the future relative to the present</strong>, and it can be determined in two main ways:
 <ul>
-<li class="fragment"><strong>Ethical principles</strong> about intergenerational welfare, or</li>
-<li class="fragment"><strong>Observed market behavior</strong> (opportunity cost of capital)</li>
+<li class="fragment">Through <strong>ethical principles</strong> about intergenerational welfare → the <strong>social (prescriptive)</strong> approach<br>
+</li>
+<li class="fragment">Through <strong>observed market behavior</strong> and the <strong>opportunity cost of capital</strong> → the <strong>market-based (descriptive)</strong> approach</li>
 </ul></li>
 </ul>
 </section>
@@ -760,7 +816,7 @@ Rate
 
 </div>
 <p><span class="math display">\[
-\text{SDR} = \rho + \varepsilon \cdot g
+\text{SDR} = \rho + \eta \cdot g
 \]</span></p>
 <div style="display:block; margin:-20px;">
 
@@ -768,16 +824,16 @@ Rate
 <ul>
 <li class="fragment"><span class="math inline">\(\rho\)</span>: <strong>pure rate of time preference</strong> — captures <strong>impatience</strong> or preference for present welfare over future welfare<br>
 </li>
-<li class="fragment"><span class="math inline">\(\varepsilon\)</span>: <strong>elasticity of marginal utility of consumption</strong> — measures how quickly <strong>the extra satisfaction (utility)</strong> from consumption <strong>declines as people become richer</strong>
+<li class="fragment"><span class="math inline">\(\eta\)</span>: <strong>elasticity of marginal utility of consumption</strong> — measures how quickly <strong>the extra satisfaction (utility)</strong> from consumption <strong>declines as people become richer</strong>
 <ul>
 <li class="fragment">When people are <strong>poor</strong>, an extra dollar raises happiness a lot<br>
 </li>
 <li class="fragment">When people are <strong>richer</strong>, an extra dollar adds little<br>
 </li>
-<li class="fragment"><strong>Inequality aversion:</strong> a higher <span class="math inline">\(\varepsilon\)</span> means society is more sensitive to inequality across generations <!-- - **Inequality aversion:** a higher $\varepsilon$ means society values **additional income for poorer generations** more than for richer ones   --></li>
+<li class="fragment"><strong>Inequality aversion:</strong> a higher <span class="math inline">\(\eta\)</span> means society is more sensitive to inequality across generations <!-- - **Inequality aversion:** a higher $\eta$ means society values **additional income for poorer generations** more than for richer ones   --></li>
 </ul></li>
 <li class="fragment"><span class="math inline">\(g\)</span>: <strong>growth rate of real consumption</strong> — the expected pace of income growth over time<br>
-<!-- - **Wealth effect:** together, $\varepsilon$ and $g$ determine how **fast overall welfare grows** as society becomes wealthier --></li>
+<!-- - **Wealth effect:** together, $\eta$ and $g$ determine how **fast overall welfare grows** as society becomes wealthier --></li>
 </ul>
 </section>
 <section id="ethical-prescriptive-approach" class="slide level2">
@@ -790,7 +846,7 @@ Rate
 <ul>
 <li class="fragment"><span class="math inline">\(\rho\)</span>: very low (≈ 0–0.1%) → future welfare valued almost equally to present welfare<br>
 </li>
-<li class="fragment"><span class="math inline">\(\varepsilon\)</span>: reflects <strong>inequality aversion</strong> — society places <strong>less value on extra income for richer future generations</strong><br>
+<li class="fragment"><span class="math inline">\(\eta\)</span>: reflects <strong>inequality aversion</strong> — society places <strong>less value on extra income for richer future generations</strong><br>
 </li>
 <li class="fragment"><span class="math inline">\(g\)</span>: assumes <strong>modest long-run growth</strong> (e.g., 1–1.5%), consistent with sustainability concerns<br>
 </li>
@@ -824,7 +880,7 @@ Rate
 </ul>
 </section>
 <section id="market-based-descriptive-approach-1" class="slide level2">
-<h2>💰 Market-Based (Descriptive) Approach</h2>
+<h2>2️⃣ Market-Based (Descriptive) Approach</h2>
 <blockquote>
 <p>“How do markets <em>actually</em> value the future?”</p>
 </blockquote>
@@ -833,7 +889,7 @@ Rate
 <ul>
 <li class="fragment"><span class="math inline">\(\rho\)</span>: <strong>higher</strong> (≈ 1–2%) — reflects society’s <strong>revealed time preference</strong> in saving and investment decisions<br>
 </li>
-<li class="fragment"><span class="math inline">\(\varepsilon\)</span>: inferred from <strong>market data</strong> — captures how people trade off <strong>consumption and risk</strong> over time<br>
+<li class="fragment"><span class="math inline">\(\eta\)</span>: inferred from <strong>market data</strong> — captures how people trade off <strong>consumption and risk</strong> over time<br>
 </li>
 <li class="fragment"><span class="math inline">\(g\)</span>: assumes <strong>stronger long-run growth</strong> (e.g., 2%), consistent with <strong>historical productivity trends</strong><br>
 </li>
@@ -842,16 +898,16 @@ Rate
 </ul>
 <!-- ::: callout-tip -->
 <!-- **Example:** Nordhaus (*DICE Model*)   -->
-<!-- $\rho = 1.5\%$, $\varepsilon = 1.5$, $g = 2\%$ → $r = 4.5\%$ -->
+<!-- $\rho = 1.5\%$, $\eta = 1.5$, $g = 2\%$ → $r = 4.5\%$ -->
 <!-- ::: -->
 <!-- ## 📉 How Assumptions Shift the Discount Rate -->
-<!-- - Increasing $\rho$ (e.g., $\rho = 1.5\%$) with similar $g$ and $\varepsilon$ $\Rightarrow$ $r \approx 3.4\%$   -->
+<!-- - Increasing $\rho$ (e.g., $\rho = 1.5\%$) with similar $g$ and $\eta$ $\Rightarrow$ $r \approx 3.4\%$   -->
 <!-- - Over **100 years**, $r = 3.4\%$ yields a PV about **one-seventh** of that at $r = 1.4\%$   -->
 <!-- - **Implication:** The chosen discount rate can **reverse policy conclusions** for **long-horizon** issues (e.g., climate) -->
 <!-- ## Discounting Climate Change — Two Lenses -->
 <!-- ### 🧭 Prescriptive (Ethical / “Social”) — *Stern* -->
 <!-- - **Philosophy:** How much we **should** value future generations   -->
-<!-- - **Assumptions:** $\rho = 0.1\%$, $\varepsilon = 1$, $g = 1.3\%$   -->
+<!-- - **Assumptions:** $\rho = 0.1\%$, $\eta = 1$, $g = 1.3\%$   -->
 <!-- - **Result:** $\text{SDR} = 0.1\% + 1 \cdot 1.3\% = \mathbf{1.4\%}$   -->
 <!-- - **Implication:** **Low $r$ (≈1–2%)** $\Rightarrow$ heavy weight on future damages $\Rightarrow$ **early, aggressive mitigation of GHG** -->
 <!-- ## Discounting Climate Change — Two Lenses -->
@@ -859,7 +915,7 @@ Rate
 <!-- - **Philosophy:** Use **observed market behavior** (returns on capital / bond yields)   -->
 <!-- - **Logic:** Society *reveals* time preferences via **saving, investment, consumption**   -->
 <!-- - **Assumption:** Real discount rate $\approx \mathbf{4.25\%}$ (historical returns)   -->
-<!--    -   $\rho$ and $\varepsilon$ are inferred from market behavior and historical returns. -->
+<!--    -   $\rho$ and $\eta$ are inferred from market behavior and historical returns. -->
 <!--    -   $g$ comes from projected economic growth  -->
 <!-- - **Implication:** **Higher $r$ (≈4–5%)** $\Rightarrow$ less weight on distant damages $\Rightarrow$ **gradual, cost-efficient mitigation of GHG** -->
 </section>
@@ -890,7 +946,7 @@ Rate
 <td style="text-align: left;"><span class="math inline">\(1.5\%\)</span></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span class="math inline">\(\varepsilon\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(\eta\)</span></td>
 <td style="text-align: left;"><span class="math inline">\(1.0\)</span></td>
 <td style="text-align: left;"><span class="math inline">\(1.5\)</span></td>
 </tr>
@@ -920,7 +976,7 @@ Rate
 <p><strong>Note</strong></p>
 </div>
 <div class="callout-content">
-<p>Although Nordhaus assumes a higher <span class="math inline">\(\varepsilon\)</span> (greater inequality aversion),<br>
+<p>Although Nordhaus assumes a higher <span class="math inline">\(\eta\)</span> (greater inequality aversion),<br>
 his larger <span class="math inline">\(\rho\)</span> and <span class="math inline">\(g\)</span> dominate — resulting in a <strong>higher overall discount rate</strong>.</p>
 </div>
 </div>
@@ -949,13 +1005,232 @@ his larger <span class="math inline">\(\rho\)</span> and <span class="math inlin
 </ul></li>
 <li class="fragment">There is no single “correct” rate — analysts should be <strong>transparent</strong>, <strong>justify their assumptions</strong>, and <strong>test results through sensitivity analysis</strong>.</li>
 </ul>
-<!-- ## 🧮 Quick Checks & Exercises -->
-<!-- 1. Compute $\text{PV}(\$100, n=10)$ at $r=2\%, 5\%, 8\%$.   -->
-<!-- 2. For which $r$ does $\text{PV}(\$100, n=50) < \$1$?   -->
-<!-- 3. Using SDR, try $\rho=0.1\%, \varepsilon=1.5, g=1.2\%$. What $r$ do you obtain? -->
-<!-- ::: callout-note -->
-<!-- - **Sensitivity is essential:** always report results across a **range of plausible $r$** values. -->
-<!-- ::: -->
+</section></section>
+<section>
+<section id="costbenefit-analysis" class="title-slide slide level1 center" data-background-color="#1c4982">
+<h1>Cost–Benefit Analysis</h1>
+
+</section>
+<section id="what-is-costbenefit-analysis-cba" class="slide level2">
+<h2>What Is Cost–Benefit Analysis (CBA)?</h2>
+<blockquote>
+<p><strong>CBA</strong> evaluates whether the <strong>present value of benefits</strong> exceeds the <strong>present value of costs</strong> for a project or policy.</p>
+</blockquote>
+<ul>
+<li class="fragment">All costs and benefits are expressed in <strong>today’s dollars</strong> using a <strong>discount rate (<span class="math inline">\(r\)</span>)</strong><br>
+</li>
+<li class="fragment">Enables meaningful comparison of outcomes occurring at <strong>different times</strong><br>
+</li>
+<li class="fragment">Helps allocate <strong>scarce resources</strong> efficiently across competing alternatives</li>
+</ul>
+</section>
+<section id="cba-in-government-decision-making" class="slide level2">
+<h2>CBA in Government Decision-Making</h2>
+<p>Governments use CBA to decide:</p>
+<ul>
+<li class="fragment">Which projects should be funded under <strong>budget constraints</strong></li>
+<li class="fragment">How to balance <strong>economic, health, and environmental</strong> goals</li>
+<li class="fragment">Whether policy benefits justify the <strong>present value of implementation costs</strong></li>
+</ul>
+</section>
+<section id="example-regulating-ozone-pollution" class="slide level2">
+<h2>Example: Regulating Ozone Pollution</h2>
+<blockquote>
+<p>The U.S. Environmental Protection Agency (EPA) must decide:<br>
+Should the national standard for <strong>ground-level ozone</strong> be tightened?</p>
+</blockquote>
+<ul>
+<li class="fragment">Ozone affects:
+<ul>
+<li class="fragment">Human health (asthma, emphysema)</li>
+<li class="fragment">Crop and vegetation damage<br>
+</li>
+</ul></li>
+<li class="fragment">Stricter standards → <strong>higher abatement costs now</strong>, <strong>health benefits later</strong></li>
+</ul>
+</section>
+<section id="example-regulating-ozone-pollution-1" class="slide level2">
+<h2>Example: Regulating Ozone Pollution</h2>
+<h3 id="hypothetical-scenario-present-value-terms">Hypothetical Scenario (Present Value Terms)</h3>
+<table>
+<colgroup>
+<col style="width: 26%">
+<col style="width: 34%">
+<col style="width: 38%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Option</th>
+<th>PV of Costs (Billion $)</th>
+<th>PV of Benefits (Billion $)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Maintain 75 ppb</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td>Tighten to 70 ppb</td>
+<td><strong>16</strong></td>
+<td><strong>24</strong></td>
+</tr>
+</tbody>
+</table>
+<p><span class="math display">\[
+PV_{NB} = PV_B - PV_C = 24 - 16 = 8 \text{ billion}
+\]</span></p>
+<p><span class="math display">\[
+PV_{B/C} = \frac{PV_B}{PV_C} = \frac{24}{16} = 1.5
+\]</span></p>
+<p>✅ <strong>Positive PV net benefits</strong> and <strong><span class="math inline">\(PV_{B/C} &gt; 1\)</span></strong> → Economically justified.</p>
+</section>
+<section id="example-regulating-ozone-pollution-2" class="slide level2">
+<h2>Example: Regulating Ozone Pollution</h2>
+<h3 id="the-real-epa-decision">The Real EPA Decision</h3>
+<ul>
+<li class="fragment">EPA lowered ozone standard <strong>from 75 → 70 ppb</strong></li>
+<li class="fragment"><strong>Industry:</strong> “Too costly — burdensome for economy”<br>
+</li>
+<li class="fragment"><strong>Environmentalists:</strong> “Too weak — thousands of preventable deaths remain”</li>
+</ul>
+</section>
+<section id="example-regulating-ozone-pollution-3" class="slide level2">
+<h2>Example: Regulating Ozone Pollution</h2>
+<h3 id="epas-present-value-estimates">EPA’s Present Value Estimates</h3>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 25%">
+<col style="width: 28%">
+<col style="width: 31%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Standard (ppb)</th>
+<th>PV of Costs (Billion $)</th>
+<th>PV of Benefits (Billion $)</th>
+<th>PV of Net Benefits (Billion $)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>70</td>
+<td>~5</td>
+<td>10–22</td>
+<td>+5–17</td>
+</tr>
+<tr class="even">
+<td>65</td>
+<td>~15</td>
+<td>18–35</td>
+<td>+3–20</td>
+</tr>
+<tr class="odd">
+<td>60</td>
+<td>~40</td>
+<td>25–50</td>
+<td>–15–10</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>Interpretation:</strong><br>
+The 70 ppb standard produced <strong>positive PV net benefits</strong>.<br>
+Lower standards (65 or 60 ppb) have <strong>higher potential PV benefits</strong>, but with more uncertainty.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="steps-in-conducting-a-pv-based-cba" class="slide level2">
+<h2>Steps in Conducting a PV-Based CBA</h2>
+<div>
+<ol type="1">
+<li><strong>List</strong> all costs and benefits over time<br>
+</li>
+<li><strong>Quantify</strong> each stream in monetary terms<br>
+</li>
+<li><strong>Discount</strong> each future value to its <strong>present value</strong> using rate <span class="math inline">\(r\)</span><br>
+</li>
+<li>Sum PVs of costs and benefits:</li>
+</ol>
+<p><span class="math display">\[
+PV_B = \sum_t \frac{B_t}{(1 + r)^t}, \qquad PV_C = \sum_t \frac{C_t}{(1 + r)^t}
+\]</span></p>
+<ol start="5" type="1">
+<li>Compute <strong>PV Net Benefits</strong> and <strong>PV Benefit–Cost Ratio</strong><br>
+</li>
+<li>Compare across <strong>policy alternatives</strong>, including a <strong>baseline (no action)</strong></li>
+</ol>
+</div>
+</section>
+<section id="decision-criteria-using-present-value" class="slide level2">
+<h2>🧮 Decision Criteria (Using Present Value)</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="pv-of-net-benefits">1️⃣ PV of Net Benefits</h3>
+<p><span class="math display">\[
+PV_{NB} = PV_B - PV_C
+\]</span></p>
+<ul>
+<li class="fragment"><strong><span class="math inline">\(PV_{NB}\)</span></strong> (<em>Present Value of Net Benefits</em>) measures total welfare change in today’s dollars.
+<ul>
+<li class="fragment">Adds up all <strong>future benefits (<span class="math inline">\(B_t\)</span>)</strong> and <strong>costs (<span class="math inline">\(C_t\)</span>)</strong>, converted into <strong>present value</strong> using the <strong>discount rate (<span class="math inline">\(r\)</span>)</strong>. <!-- $$ --> <!-- PV_{NB} = \sum_{t=0}^{N} \frac{B_t - C_t}{(1 + r)^t} --> <!-- $$   --></li>
+</ul></li>
+<li class="fragment">If <span class="math inline">\(PV_{NB} &gt; 0\)</span>, <strong>benefits exceed costs</strong> → policy <strong>improves total welfare</strong> and is <strong>worth undertaking</strong>.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<h3 id="pv-benefitcost-ratio">2️⃣ PV Benefit–Cost Ratio</h3>
+<p><span class="math display">\[
+PV_{B/C} = \frac{PV_B}{PV_C}
+\]</span></p>
+<ul>
+<li class="fragment">Compares the <strong>relative size</strong> of discounted benefits and costs.<br>
+</li>
+<li class="fragment">If <span class="math inline">\(PV_{B/C} &gt; 1\)</span>, <strong>benefits outweigh costs</strong> in present-value terms.<br>
+</li>
+<li class="fragment">Useful for comparing <strong>multiple projects</strong> when budgets are limited.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="opportunity-cost-and-dynamic-efficiency" class="slide level2">
+<h2>Opportunity Cost and Dynamic Efficiency</h2>
+<p>Even if <span class="math inline">\(PV_{NB} &gt; 0\)</span>:</p>
+<ul>
+<li class="fragment">Another policy might yield a <strong>higher <span class="math inline">\(PV_{NB}\)</span></strong></li>
+<li class="fragment">Always consider the <strong>opportunity cost</strong> of choosing one project over another</li>
+<li class="fragment">Economics seeks to <strong>maximize <span class="math inline">\(PV_{NB}\)</span></strong> — the condition for <strong>dynamic efficiency</strong>
+<ul>
+<li class="fragment">Dynamic efficiency is achieved when the allocation of resources <strong>over time</strong> maximizes the <strong>present value of net benefits</strong> to society.</li>
+</ul></li>
+</ul>
+<!-- - Dynamic efficiency guides how much to **invest now** (e.g., in renewable energy, conservation, or infrastructure) versus how much to **consume now**, recognizing that resources used today cannot be used tomorrow. -->
+<ul>
+<li class="fragment"><strong>Dynamic efficiency</strong> helps decide how much to <strong>use today</strong> and how much to <strong>save or invest for the future</strong> (e.g., in renewable energy, conservation, or infrastructure), since resources spent now can’t be used later.</li>
+</ul>
+<!-- ### Understanding Dynamic Efficiency -->
+<!-- - It ensures that society’s **intertemporal welfare** is as high as possible, not just at a single point in time.   -->
+<!-- - If the marginal net benefit of an additional dollar spent today exceeds that of a dollar spent in the future (after discounting), the allocation is **not dynamically efficient**.  -->
+</section>
+<section id="distributional-and-ethical-issues" class="slide level2">
+<h2>Distributional and Ethical Issues ⚖️</h2>
+<ul>
+<li class="fragment">CBA aggregates all PV benefits and costs across society<br>
+→ ignores <strong>who gains</strong> and <strong>who bears the costs</strong></li>
+<li class="fragment">Example:
+<ul>
+<li class="fragment">PV benefits → wealthier households (longer lifespan, better access)</li>
+<li class="fragment">PV costs → lower-income communities (energy price hikes)</li>
+</ul></li>
+<li class="fragment">Even with positive <span class="math inline">\(PV_{NB}\)</span>, may still be <strong>inequitable</strong></li>
+</ul>
 
 <div class="footer footer-default">
 

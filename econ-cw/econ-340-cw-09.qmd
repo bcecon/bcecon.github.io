@@ -1,0 +1,192 @@
+---
+title: Classwork 9
+subtitle: Dynamic Efficiency and Discounting
+date: 2025-10-24
+code-fold: true
+execute:
+  echo: false
+  eval: true
+  warning: false
+  message: false
+from: markdown+emoji
+---
+```{r}
+#| include: false
+
+library(knitr)
+library(rmarkdown)
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+
+theme_set(theme_ipsum() +
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = element_text(size = rel(1.5)),
+                axis.title.y = element_text(size = rel(1.5)),
+                legend.title = element_text(size=rel(1.25))
+                ))
+```
+
+
+
+## 1) Multiple-Choice
+
+### Q1. Why do we discount future outcomes?
+<div class="mcq" data-name="q1" data-correct="b">
+  <label><input type="radio" name="q1" value="a"> a) Future generations matter less</label><br>
+  <label><input type="radio" name="q1" value="b"> b) Resources today have opportunity cost (consume/save/invest)</label><br>
+  <label><input type="radio" name="q1" value="c"> c) We can’t measure the future</label><br>
+  <label><input type="radio" name="q1" value="d"> d) Future values are always smaller</label>
+  <div class="feedback mt-2"></div>
+</div>
+
+---
+
+### Q2. Which example is **dynamically inefficient**?
+<div class="mcq" data-name="q2" data-correct="b">
+  <label><input type="radio" name="q2" value="a"> a) Investing in flood barriers with decades of protection</label><br>
+  <label><input type="radio" name="q2" value="b"> b) Overharvesting a fishery, cutting future yields</label><br>
+  <label><input type="radio" name="q2" value="c"> c) Planting trees that mature over 20 years</label><br>
+  <label><input type="radio" name="q2" value="d"> d) Funding early education with long-run gains</label>
+  <div class="feedback mt-2"></div>
+</div>
+
+---
+
+### Q3. If the discount rate is **very high**, which project type becomes least attractive?
+<div class="mcq" data-name="q3" data-correct="a">
+  <label><input type="radio" name="q3" value="a"> a) Long-term benefit projects</label><br>
+  <label><input type="radio" name="q3" value="b"> b) Short-term payoff projects</label><br>
+  <label><input type="radio" name="q3" value="c"> c) Projects with immediate costs</label><br>
+  <label><input type="radio" name="q3" value="d"> d) Any project with public funding</label>
+  <div class="feedback mt-2"></div>
+</div>
+
+---
+
+### Q4. Project A pays mostly now; Project B pays more but in 20 years. Which factor determines which looks “efficient”?
+<div class="mcq" data-name="q4" data-correct="c">
+  <label><input type="radio" name="q4" value="a"> a) The project titles</label><br>
+  <label><input type="radio" name="q4" value="b"> b) Whether costs are public or private</label><br>
+  <label><input type="radio" name="q4" value="c"> c) The chosen discount rate</label><br>
+  <label><input type="radio" name="q4" value="d"> d) The number of stakeholders</label>
+  <div class="feedback mt-2"></div>
+</div>
+
+---
+
+### Q5. A climate policy looks good at **1%** but not at **7%**. What does that reveal?
+<div class="mcq" data-name="q5" data-correct="b">
+  <label><input type="radio" name="q5" value="a"> a) It has only short-term benefits</label><br>
+  <label><input type="radio" name="q5" value="b"> b) Its value is driven by long-term benefits</label><br>
+  <label><input type="radio" name="q5" value="c"> c) Costs are far in the future</label><br>
+  <label><input type="radio" name="q5" value="d"> d) It’s unethical</label>
+  <div class="feedback mt-2"></div>
+</div>
+
+---
+
+### Q6. Which approach gives **more weight** to future generations?
+<div class="mcq" data-name="q6" data-correct="a">
+  <label><input type="radio" name="q6" value="a"> a) Ethical / Prescriptive</label><br>
+  <label><input type="radio" name="q6" value="b"> b) Market-Based / Descriptive</label><br>
+  <label><input type="radio" name="q6" value="c"> c) They’re identical</label><br>
+  <label><input type="radio" name="q6" value="d"> d) Neither</label>
+  <div class="feedback mt-2"></div>
+</div>
+
+---
+
+### Q7. Town sea wall: costly now, prevents big losses later. With a **high** discount rate, the town will likely…
+<div class="mcq" data-name="q7" data-correct="b">
+  <label><input type="radio" name="q7" value="a"> a) Build now</label><br>
+  <label><input type="radio" name="q7" value="b"> b) Delay or skip building</label><br>
+  <label><input type="radio" name="q7" value="c"> c) Build it twice as tall</label><br>
+  <label><input type="radio" name="q7" value="d"> d) Ban waterfront living</label>
+  <div class="feedback mt-2"></div>
+</div>
+
+---
+
+### Q8. If policymakers **ignored discounting entirely**, they would tend to…
+<div class="mcq" data-name="q8" data-correct="a">
+  <label><input type="radio" name="q8" value="a"> a) Overinvest in very long-term projects</label><br>
+  <label><input type="radio" name="q8" value="b"> b) Underinvest in very long-term projects</label><br>
+  <label><input type="radio" name="q8" value="c"> c) Make no difference</label><br>
+  <label><input type="radio" name="q8" value="d"> d) Always choose the cheaper project</label>
+  <div class="feedback mt-2"></div>
+</div>
+
+---
+
+### Q9. Which statement best captures **dynamic efficiency**?
+<div class="mcq" data-name="q9" data-correct="c">
+  <label><input type="radio" name="q9" value="a"> a) Choose the cheapest project now</label><br>
+  <label><input type="radio" name="q9" value="b"> b) Maximize benefits this year only</label><br>
+  <label><input type="radio" name="q9" value="c"> c) Maximize total net benefits across time</label><br>
+  <label><input type="radio" name="q9" value="d"> d) Always delay decisions</label>
+  <div class="feedback mt-2"></div>
+</div>
+
+---
+
+### Q10. A lower social discount rate (e.g., 1–2%) generally…
+<div class="mcq" data-name="q10" data-correct="d">
+  <label><input type="radio" name="q10" value="a"> a) Devalues future outcomes</label><br>
+  <label><input type="radio" name="q10" value="b"> b) Treats future as irrelevant</label><br>
+  <label><input type="radio" name="q10" value="c"> c) Always rejects climate projects</label><br>
+  <label><input type="radio" name="q10" value="d"> d) Gives more weight to long-run benefits</label>
+  <div class="feedback mt-2"></div>
+</div>
+
+<button class="btn btn-primary mt-3" onclick="gradeQuiz()">Grade</button>
+<p id="score" class="mt-3 h5"></p>
+
+
+
+## 2) Short-Answer
+
+- **S1.** Why might a government choose a **lower** discount rate for climate policy than for ordinary investment projects? Mention intergenerational equity and uncertainty (3–4 sentences).
+
+- **S2.** Do you support using a very low social discount rate (≈1–2%) for long-run environmental policy? Defend your position (4–5 sentences).
+
+
+## 3) Reflection
+
+- Why is it hard to agree on a single “right” discount rate?  
+<!-- - How might uncertainty (e.g., climate damages, tech change) affect the choice of discount rate?   -->
+- In your view, how should economists balance **efficiency** and **fairness** between generations?
+
+
+
+<script>
+      // Simple MCQ grader: marks answers and shows score, no auto scroll.
+      function gradeQuiz() {
+        const questions = document.querySelectorAll('.mcq');
+        let correct = 0, total = questions.length;
+        questions.forEach((q) => {
+          const chosen = q.querySelector('input[type=radio]:checked');
+          const fb = q.querySelector('.feedback');
+          const key = (q.getAttribute('data-correct') || '').trim().toLowerCase();
+          if (!fb) return;
+          if (!chosen) {
+            fb.textContent = '⚠️ Please select an option.';
+            fb.className = 'feedback text-warning';
+            return;
+          }
+          const val = chosen.value.toLowerCase();
+          if (val === key) {
+            correct += 1;
+            fb.textContent = '✅ Correct.';
+            fb.className = 'feedback text-success';
+          } else {
+            fb.textContent = '❌ Incorrect.';
+            fb.className = 'feedback text-danger';
+          }
+        });
+        const score = document.getElementById('score');
+        if (score) score.innerHTML = `Score: <strong>${correct}/${total}</strong>`;
+      }
+</script>
+      

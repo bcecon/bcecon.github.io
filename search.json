@@ -1544,7 +1544,7 @@
     "href": "index.html#classwork",
     "title": "ECON 340: Environmental Economics, Fall 2025",
     "section": "⌨️ Classwork",
-    "text": "⌨️ Classwork\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 1\n\n\nMicroeconomics Review\n\n\nSeptember 2, 2025\n\n\n\n\nClasswork 2\n\n\nExternalities\n\n\nSeptember 8, 2025\n\n\n\n\nClasswork 3\n\n\nProperty Rights, the Coase Theorem, and the Environment\n\n\nSeptember 19, 2025\n\n\n\n\nClasswork 4\n\n\nOptimal Harvesting in a Common-pool Fishery\n\n\nSeptember 26, 2025\n\n\n\n\nClasswork 5\n\n\nPublic Goods in Action\n\n\nOctober 3, 2025\n\n\n\n\nClasswork 6\n\n\nREDD+ Experiment — Money Growing on Trees\n\n\nOctober 6, 2025\n\n\n\n\nClasswork 7\n\n\nQuiz 1\n\n\nOctober 8, 2025\n\n\n\n\nClasswork 8\n\n\nInformation Problems and Behavioral Anomalies\n\n\nOctober 20, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "⌨️ Classwork\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 1\n\n\nMicroeconomics Review\n\n\nSeptember 2, 2025\n\n\n\n\nClasswork 2\n\n\nExternalities\n\n\nSeptember 8, 2025\n\n\n\n\nClasswork 3\n\n\nProperty Rights, the Coase Theorem, and the Environment\n\n\nSeptember 19, 2025\n\n\n\n\nClasswork 4\n\n\nOptimal Harvesting in a Common-pool Fishery\n\n\nSeptember 26, 2025\n\n\n\n\nClasswork 5\n\n\nPublic Goods in Action\n\n\nOctober 3, 2025\n\n\n\n\nClasswork 6\n\n\nREDD+ Experiment — Money Growing on Trees\n\n\nOctober 6, 2025\n\n\n\n\nClasswork 7\n\n\nQuiz 1\n\n\nOctober 8, 2025\n\n\n\n\nClasswork 9\n\n\nDynamic Efficiency and Discounting\n\n\nOctober 24, 2025\n\n\n\n\nClasswork 9\n\n\nDynamic Efficiency and Discounting\n\n\nOctober 24, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#homework",
@@ -1703,7 +1703,7 @@
   {
     "objectID": "econ-cw/econ-340-cw-08.html",
     "href": "econ-cw/econ-340-cw-08.html",
-    "title": "Classwork 8",
+    "title": "Classwork 9",
     "section": "",
     "text": "Scenario\nA rental building from the 1980s has an outdated heating system.\n\nThe landlord decides on the heating system but tenants pay the energy bills.\n\nMost tenants are unaware of efficiency ratings or lifetime energy costs.\n\nThere is no submetering — heating costs are averaged into rent.\n\n\n\n\nPart 1 — Identify the Market Failure\nTask: Identify two market failures (excluding behavioral anomalies) present in this situation and briefly justify.\n\nMarket Failure 1: ___________________________________________\n\\(\\qquad\\) → Because ___________________________________________________\n\nMarket Failure 2: ___________________________________________\n\\(\\qquad\\) → Because ___________________________________________________\n\n\n\n\nPart 2 — Behavioral Lens\nTask: Identify which behavioral anomaly (bounded rationality, bounded willpower, or bounded self-interest) may prevent efficient upgrades.\n\nBehavioral factor: __________________________________________\n\\(\\qquad\\) → Manifestation in this case: ________________________________\n\n\n\n\nPart 3 — Policy Design Using the Four Pillars\nFill one policy instrument or solution under each pillar that could address this situation.\n\n\n\nPolicy Pillar\nYour Proposed Solution\n\n\n\n\n💰 Incentives\n_________________________________\n\n\n🧠 Information\n_________________________________\n\n\n🏛 Institutions\n_________________________________\n\n\n🤝 Social Norms\n_________________________________\n\n\n\n\n\n\nPart 4 — Reflection Question\nWhy might information campaigns alone be insufficient to fix this problem?\nWrite a brief explanation (2–3 sentences).\n\n\n\n\n Back to top"
   },
@@ -3238,7 +3238,7 @@
     "href": "econ-lec/econ-340-lec-09-2025-1022.html#social-discount-rate-sdr",
     "title": "Lecture 9",
     "section": "Social Discount Rate (SDR)",
-    "text": "Social Discount Rate (SDR)\n\n\n\n\\[\n\\text{SDR} = \\rho + \\varepsilon \\cdot g\n\\]\n\n\n\n\n\\(\\rho\\): pure rate of time preference — captures impatience or preference for present welfare over future welfare\n\n\\(\\varepsilon\\): elasticity of marginal utility of consumption — measures how quickly the extra satisfaction (utility) from consumption declines as people become richer\n\nWhen people are poor, an extra dollar raises happiness a lot\n\nWhen people are richer, an extra dollar adds little\n\nInequality aversion: a higher \\(\\varepsilon\\) means society is more sensitive to inequality across generations \n\n\\(g\\): growth rate of real consumption — the expected pace of income growth over time"
+    "text": "Social Discount Rate (SDR)\n\n\n\n\\[\n\\text{SDR} = \\rho + \\eta \\cdot g\n\\]\n\n\n\n\n\\(\\rho\\): pure rate of time preference — captures impatience or preference for present welfare over future welfare\n\n\\(\\eta\\): elasticity of marginal utility of consumption — measures how quickly the extra satisfaction (utility) from consumption declines as people become richer\n\nWhen people are poor, an extra dollar raises happiness a lot\n\nWhen people are richer, an extra dollar adds little\n\nInequality aversion: a higher \\(\\eta\\) means society is more sensitive to inequality across generations \n\n\\(g\\): growth rate of real consumption — the expected pace of income growth over time"
   },
   {
     "objectID": "econ-lec/econ-340-lec-09-2025-1022.html#discounting-and-climate-policy",
@@ -3280,7 +3280,7 @@
     "href": "econ-lec/econ-340-lec-09-2025-1022.html#why-discount-the-future-1",
     "title": "Lecture 9",
     "section": "Why Discount the Future?",
-    "text": "Why Discount the Future?\nIn both market-based and social approaches, the discount rate answers a fundamental question:\n\nAt what rate should society be compensated in the future for giving up one unit of consumption today so that overall well-being is preserved?\n\n\nThis rate reflects how we value the future relative to the present, whether through:\n\nEthical principles about intergenerational welfare, or\nObserved market behavior (opportunity cost of capital)"
+    "text": "Why Discount the Future?\nThe discount rate answers a fundamental question:\n\nAt what rate should society discount future benefits so that sacrificing one unit of consumption today is fairly balanced by gains to future well-being?\n\n\nThis rate reflects how we value the future relative to the present, and it can be determined in two main ways:\n\nThrough ethical principles about intergenerational welfare → the social (prescriptive) approach\n\nThrough observed market behavior and the opportunity cost of capital → the market-based (descriptive) approach"
   },
   {
     "objectID": "econ-lec/econ-340-lec-09-2025-1022.html#how-assumptions-shift-the-discount-rate",
@@ -3294,7 +3294,7 @@
     "href": "econ-lec/econ-340-lec-09-2025-1022.html#discounting-climate-change-two-lenses",
     "title": "Lecture 9",
     "section": "Discounting Climate Change — Two Lenses",
-    "text": "Discounting Climate Change — Two Lenses\n\n\n\n\n\n\n\n\nFeature\nEthical\nMarket-based\n\n\n\n\nApproach\nHow we ought to value the future\nHow markets actually value the future\n\n\n\\(\\rho\\)\n\\(0.1\\%\\)\n\\(1.5\\%\\)\n\n\n\\(\\varepsilon\\)\n\\(1.0\\)\n\\(1.5\\)\n\n\n\\(g\\)\n\\(1.3\\%\\)\n\\(2.0\\%\\)\n\n\nResulting rate\n\\(\\approx 1.4\\%\\)\n\\(\\approx 4.25\\%\\)\n\n\nPolicy implication\nImmediate, large cuts\nGradual mitigation path\n\n\n\n\n\n\n\n\n\nNote\n\n\nAlthough Nordhaus assumes a higher \\(\\varepsilon\\) (greater inequality aversion),\nhis larger \\(\\rho\\) and \\(g\\) dominate — resulting in a higher overall discount rate."
+    "text": "Discounting Climate Change — Two Lenses\n\n\n\n\n\n\n\n\nFeature\nEthical\nMarket-based\n\n\n\n\nApproach\nHow we ought to value the future\nHow markets actually value the future\n\n\n\\(\\rho\\)\n\\(0.1\\%\\)\n\\(1.5\\%\\)\n\n\n\\(\\eta\\)\n\\(1.0\\)\n\\(1.5\\)\n\n\n\\(g\\)\n\\(1.3\\%\\)\n\\(2.0\\%\\)\n\n\nResulting rate\n\\(\\approx 1.4\\%\\)\n\\(\\approx 4.25\\%\\)\n\n\nPolicy implication\nImmediate, large cuts\nGradual mitigation path\n\n\n\n\n\n\n\n\n\nNote\n\n\nAlthough Nordhaus assumes a higher \\(\\eta\\) (greater inequality aversion),\nhis larger \\(\\rho\\) and \\(g\\) dominate — resulting in a higher overall discount rate."
   },
   {
     "objectID": "econ-lec/econ-340-lec-09-2025-1022.html#stern-vs.-nordhaus-side-by-side",
@@ -3336,7 +3336,7 @@
     "href": "econ-lec/econ-340-lec-09-2025-1022.html#ethical-prescriptive-approach",
     "title": "Lecture 9",
     "section": "1️⃣ Ethical (Prescriptive) Approach",
-    "text": "1️⃣ Ethical (Prescriptive) Approach\n\n“What should be the fair tradeoff between present and future welfare?”\n\n\nSets parameters based on ethical principles of intergenerational fairness, not on market behavior\n\n\\(\\rho\\): very low (≈ 0–0.1%) → future welfare valued almost equally to present welfare\n\n\\(\\varepsilon\\): reflects inequality aversion — society places less value on extra income for richer future generations\n\n\\(g\\): assumes modest long-run growth (e.g., 1–1.5%), consistent with sustainability concerns\n\n\nResult: Low SDR (≈ 1–2%) → greater weight on future generations and stronger justification for early climate action"
+    "text": "1️⃣ Ethical (Prescriptive) Approach\n\n“What should be the fair tradeoff between present and future welfare?”\n\n\nSets parameters based on ethical principles of intergenerational fairness, not on market behavior\n\n\\(\\rho\\): very low (≈ 0–0.1%) → future welfare valued almost equally to present welfare\n\n\\(\\eta\\): reflects inequality aversion — society places less value on extra income for richer future generations\n\n\\(g\\): assumes modest long-run growth (e.g., 1–1.5%), consistent with sustainability concerns\n\n\nResult: Low SDR (≈ 1–2%) → greater weight on future generations and stronger justification for early climate action"
   },
   {
     "objectID": "econ-lec/econ-340-lec-09-2025-1022.html#market-based-descriptive-approach",
@@ -3349,7 +3349,266 @@
     "objectID": "econ-lec/econ-340-lec-09-2025-1022.html#market-based-descriptive-approach-1",
     "href": "econ-lec/econ-340-lec-09-2025-1022.html#market-based-descriptive-approach-1",
     "title": "Lecture 9",
-    "section": "💰 Market-Based (Descriptive) Approach",
-    "text": "💰 Market-Based (Descriptive) Approach\n\n“How do markets actually value the future?”\n\n\nSets parameters based on observed economic behavior, not ethical judgments\n\n\\(\\rho\\): higher (≈ 1–2%) — reflects society’s revealed time preference in saving and investment decisions\n\n\\(\\varepsilon\\): inferred from market data — captures how people trade off consumption and risk over time\n\n\\(g\\): assumes stronger long-run growth (e.g., 2%), consistent with historical productivity trends\n\n\nResult: Higher SDR (≈ 4–5%) → less weight on distant future impacts and supports relatively gradual, cost-efficient mitigation og GHG"
+    "section": "2️⃣ Market-Based (Descriptive) Approach",
+    "text": "2️⃣ Market-Based (Descriptive) Approach\n\n“How do markets actually value the future?”\n\n\nSets parameters based on observed economic behavior, not ethical judgments\n\n\\(\\rho\\): higher (≈ 1–2%) — reflects society’s revealed time preference in saving and investment decisions\n\n\\(\\eta\\): inferred from market data — captures how people trade off consumption and risk over time\n\n\\(g\\): assumes stronger long-run growth (e.g., 2%), consistent with historical productivity trends\n\n\nResult: Higher SDR (≈ 4–5%) → less weight on distant future impacts and supports relatively gradual, cost-efficient mitigation og GHG"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-09-2025-1022.html#pv-of-500-billion-comparing-discount-rates",
+    "href": "econ-lec/econ-340-lec-09-2025-1022.html#pv-of-500-billion-comparing-discount-rates",
+    "title": "Lecture 9",
+    "section": "PV of $500 Billion — Comparing Discount Rates",
+    "text": "PV of $500 Billion — Comparing Discount Rates\n\n\n\n\n\nQuestion\n\nDiscount rates play a critical role in evaluating long-term issues such as climate change.\n\nSuppose a climate policy implemented today will reduce future damages by $500 billion, occurring 50 years from now.\n\nTwo present values of this damage reduction are shown below.\n\nWhich value corresponds to a 2% discount rate, and which corresponds to a 5% discount rate?\n\n\n\n\n\n\n$185,763,941,063\n\n$ 43,601,863,486\n\n\n\n\n\n\n💡 Why it matters: Even small differences in the discount rate can dramatically change how much we value the future — and therefore, how much we act today."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-09-2025-1022.html#the-rule-of-72",
+    "href": "econ-lec/econ-340-lec-09-2025-1022.html#the-rule-of-72",
+    "title": "Lecture 9",
+    "section": "💡 The Rule of 72",
+    "text": "💡 The Rule of 72\nA simple way to estimate how long it takes for a value to double given a fixed annual growth (or interest) rate.\n\n\n\n\\[\n\\text{Years to Double} \\approx \\frac{72}{r}\n\\]\nwhere \\(r\\) is the annual percentage rate (not in decimal form).\n\nThe higher the rate of return, the faster the doubling.\n\nWorks well for rates between 2% and 15%.\n\nUseful for understanding economic/financial growth, inflation, or discounting.\n\nExample: If the economy grows at 3% per year, its size doubles in about 24 years."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-09-2025-1022.html#quick-detour-the-rule-of-72",
+    "href": "econ-lec/econ-340-lec-09-2025-1022.html#quick-detour-the-rule-of-72",
+    "title": "Lecture 9",
+    "section": "💡 Quick Detour: The Rule of 72",
+    "text": "💡 Quick Detour: The Rule of 72\nA simple way to estimate how long it takes for a value to double given a fixed annual growth (or interest) rate.\n\n\n\n\\[\n\\text{Years to Double} \\approx \\frac{72}{r}\n\\]\nwhere \\(r\\) is the annual percentage rate (not in decimal form).\n\nThe higher the rate of return, the faster the doubling.\n\nWorks well for rates between 2% and 15%.\n\nUseful for understanding economic/financial growth, inflation, or discounting.\n\nExample: If the economy grows at 3% per year, its size doubles in about 24 years."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-09-2025-1022.html#quick-detour-the-value-of-manhattan-island",
+    "href": "econ-lec/econ-340-lec-09-2025-1022.html#quick-detour-the-value-of-manhattan-island",
+    "title": "Lecture 9",
+    "section": "💡 Quick Detour: The Value of Manhattan Island",
+    "text": "💡 Quick Detour: The Value of Manhattan Island\n\n\nThe funds used to purchase Manhattan Island for $24 in 1626!"
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-09.html",
+    "href": "econ-cw/econ-340-cw-09.html",
+    "title": "Classwork 9",
+    "section": "",
+    "text": "a) Future generations matter less  b) Resources today have opportunity cost (consume/save/invest)  c) We can’t measure the future  d) Future values are always smaller\n\n\n\n\n\n\n\n\n\n a) Investing in flood barriers with decades of protection  b) Overharvesting a fishery, cutting future yields  c) Planting trees that mature over 20 years  d) Funding early education with long-run gains\n\n\n\n\n\n\n\n\n\n a) Long-term benefit projects  b) Short-term payoff projects  c) Projects with immediate costs  d) Any project with public funding\n\n\n\n\n\n\n\n\n\n a) The project titles  b) Whether costs are public or private  c) The chosen discount rate  d) The number of stakeholders\n\n\n\n\n\n\n\n\n\n a) It has only short-term benefits  b) Its value is driven by long-term benefits  c) Costs are far in the future  d) It’s unethical\n\n\n\n\n\n\n\n\n\n a) Ethical / Prescriptive  b) Market-Based / Descriptive  c) They’re identical  d) Neither\n\n\n\n\n\n\n\n\n\n a) Build now  b) Delay or skip building  c) Build it twice as tall  d) Ban waterfront living\n\n\n\n\n\n\n\n\n\n a) Overinvest in very long-term projects  b) Underinvest in very long-term projects  c) Make no difference  d) Always choose the cheaper project\n\n\n\n\n\n\n\n\n\n a) Choose the cheapest project now  b) Maximize benefits this year only  c) Maximize total net benefits across time  d) Always delay decisions\n\n\n\n\n\n\n\n\n\n a) Devalues future outcomes  b) Treats future as irrelevant  c) Always rejects climate projects  d) Gives more weight to long-run benefits\n\n\n\n\n\nGrade"
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-09.html#what-youll-practice-no-algebra",
+    "href": "econ-cw/econ-340-cw-09.html#what-youll-practice-no-algebra",
+    "title": "Classwork 9",
+    "section": "",
+    "text": "Intuition for dynamic efficiency (balancing now vs. later)\nWhy we discount future outcomes\nHow higher vs. lower discount rates sway decisions\nEthical vs. market perspectives on valuing the future\n\n\nDirections. Answer the MCQs below and press Grade at the end. Each MCQ shows detailed feedback. Then write short answers using the models/rubric as guidance."
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-09.html#multiple-choice-auto-graded",
+    "href": "econ-cw/econ-340-cw-09.html#multiple-choice-auto-graded",
+    "title": "Classwork 9",
+    "section": "",
+    "text": "a) Future generations matter less  b) Resources today have opportunity cost (consume/save/invest)  c) We can’t measure the future  d) Future values are always smaller\n\n\n\n\n\n\n\n\n\n a) Investing in flood barriers with decades of protection  b) Overharvesting a fishery, cutting future yields  c) Planting trees that mature over 20 years  d) Funding early education with long-run gains\n\n\n\n\n\n\n\n\n\n a) Long-term benefit projects  b) Short-term payoff projects  c) Projects with immediate costs  d) Any project with public funding\n\n\n\n\n\n\n\n\n\n a) The project titles  b) Whether costs are public or private  c) The chosen discount rate  d) The number of stakeholders\n\n\n\n\n\n\n\n\n\n a) It has only short-term benefits  b) Its value is driven by long-term benefits  c) Costs are far in the future  d) It’s unethical\n\n\n\n\n\n\n\n\n\n a) Ethical / Prescriptive  b) Market-Based / Descriptive  c) They’re identical  d) Neither\n\n\n\n\n\n\n\n\n\n a) Build now  b) Delay or skip building  c) Build it twice as tall  d) Ban waterfront living\n\n\n\n\n\n\n\n\n\n a) Overinvest in very long-term projects  b) Underinvest in very long-term projects  c) Make no difference  d) Always choose the cheaper project\n\n\n\n\n\n\n\n\n\n a) Choose the cheapest project now  b) Maximize benefits this year only  c) Maximize total net benefits across time  d) Always delay decisions\n\n\n\n\n\n\n\n\n\n a) Devalues future outcomes  b) Treats future as irrelevant  c) Always rejects climate projects  d) Gives more weight to long-run benefits\n\n\n\n\n\nGrade"
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-09.html#short-answer-not-auto-graded-include-in-brightspace-submission",
+    "href": "econ-cw/econ-340-cw-09.html#short-answer-not-auto-graded-include-in-brightspace-submission",
+    "title": "Classwork 9",
+    "section": "2) Short-Answer (Not auto-graded; include in Brightspace submission)",
+    "text": "2) Short-Answer (Not auto-graded; include in Brightspace submission)\nS1. Give one real-world policy example where decision-makers trade off present vs. future benefits.\nModel answer (2–3 sentences):\nExamples include climate mitigation (upfront costs vs. future damage reduction), resilient infrastructure (today’s spending vs. future avoided losses), conservation set-asides (foregone current use vs. future ecosystem services). Good responses name the policy, the near-term cost/benefit, and the long-term effect.\nS2. Why might a government choose a lower discount rate for climate policy than for ordinary investment projects?\nModel answer (3–4 sentences):\nBecause climate damages unfold over long horizons, involve intergenerational equity, and may carry catastrophic tail risks; a lower rate avoids excessively penalizing far-future benefits. It aligns with ethical (prescriptive) reasoning and uncertainty-adjusted approaches (declining SDRs). A strong answer mentions fairness across generations and risk/uncertainty.\nS3. Do you support using a very low social discount rate (≈1–2%) for long-run environmental policy? Why or why not?\nModel answer outline (4–5 sentences):\n- For: values future generations, captures irreversible losses, supports early action.\n- Against: may overcommit to distant benefits if opportunity costs are high; market rates reflect observed preferences.\n- Strong responses acknowledge both, then argue a position (or hybrid like declining rates).\n\nGrading rubric (short answers)\n\nClarity & relevance (40%): Addresses the prompt with concrete policy or mechanism.\n\nIntertemporal reasoning (40%): Shows how timing/discounting changes evaluation.\n\nDepth (20%): Mentions equity/uncertainty/irreversibility where appropriate."
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-09.html#takeaways",
+    "href": "econ-cw/econ-340-cw-09.html#takeaways",
+    "title": "Classwork 9",
+    "section": "✅ Takeaways",
+    "text": "✅ Takeaways\n\nDynamic efficiency = maximize net benefits across time, not only today.\n\nDiscounting translates future outcomes into today’s terms; the rate choice can flip decisions.\n\nLower SDRs emphasize long-run welfare and equity; higher rates favor the present.\n\n\n“Small differences in discount rates can lead to big differences in long-horizon environmental policy.”"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-09-2025-1022.html",
+    "href": "econ-lec/econ-340-lec-09-2025-1022.html",
+    "title": "Lecture 9",
+    "section": "",
+    "text": "In most environmental policies, costs/benefits often occur at different times\nConverting everything to real (inflation-adjusted) dollars handles inflation—but not time preference\nPeople (and societies) often prefer benefits now (investment opportunity, uncertainty, impatience)\nTherefore we apply discounting to compare future and present values on a common basis\n\n\n\n\n\n\n\nNote\n\n\n\n\nIdea: $100 today can be worth the same as $200 ten years from now at an appropriate discount rate.\n\n\n\n\n\n\nLet \\(X_n\\) be a cost/benefit received in \\(n\\) years and \\(r\\) the discount rate:\n\\[\n\\text{PV}(X_n) \\;=\\; \\frac{X_n}{(1+r)^{\\,n}}\n\\]\n\nFurther in time (\\(n\\uparrow\\)) → PV falls\n\nHigher discount rate (\\(r\\uparrow\\)) → PV falls\n\n\n\n\n\n\n\nTip\n\n\n\n\nExamples (for \\(X_n = \\$100\\))\n\n\\(r=3\\%, n=10 \\Rightarrow \\text{PV}=\\$74.41\\)\n\n\\(r=7\\%, n=10 \\Rightarrow \\text{PV}=\\$50.83\\)\n\n\n\n\n\n\n\n\nHigh \\(r\\) greatly devalues distant impacts\n\n\\(r=7\\%, n=50\\Rightarrow \\text{PV}=\\$3.39\\) for $100\n\n\\(r=10\\%, n=50\\Rightarrow \\text{PV}=\\$0.85\\)\n\nSmall changes in \\(r\\) matter a lot over long horizons\n\nAfter 100 years, PV at 1% is about 7× the PV at 3%\n\n\n\n\n\n\n\n\n\n\n\nYears into the Future\n\n\n\n\nRate\n\n\n0\n\n\n10\n\n\n20\n\n\n30\n\n\n50\n\n\n75\n\n\n100\n\n\n\n\n\n\n1%\n\n\n100\n\n\n90.53\n\n\n81.95\n\n\n74.19\n\n\n60.80\n\n\n47.41\n\n\n36.97\n\n\n\n\n2%\n\n\n100\n\n\n82.03\n\n\n67.30\n\n\n55.21\n\n\n37.15\n\n\n22.65\n\n\n13.80\n\n\n\n\n3%\n\n\n100\n\n\n74.41\n\n\n55.37\n\n\n41.20\n\n\n22.81\n\n\n10.89\n\n\n5.20\n\n\n\n\n4%\n\n\n100\n\n\n67.56\n\n\n45.64\n\n\n30.83\n\n\n14.07\n\n\n5.28\n\n\n1.98\n\n\n\n\n5%\n\n\n100\n\n\n61.39\n\n\n37.69\n\n\n23.14\n\n\n8.72\n\n\n2.58\n\n\n0.76\n\n\n\n\n6%\n\n\n100\n\n\n55.84\n\n\n31.18\n\n\n17.41\n\n\n5.43\n\n\n1.26\n\n\n0.29\n\n\n\n\n7%\n\n\n100\n\n\n50.83\n\n\n25.84\n\n\n13.14\n\n\n3.39\n\n\n0.63\n\n\n0.12\n\n\n\n\n8%\n\n\n100\n\n\n46.32\n\n\n21.45\n\n\n9.94\n\n\n2.13\n\n\n0.31\n\n\n0.05\n\n\n\n\n9%\n\n\n100\n\n\n42.24\n\n\n17.84\n\n\n7.54\n\n\n1.34\n\n\n0.16\n\n\n0.02\n\n\n\n\n10%\n\n\n100\n\n\n38.55\n\n\n14.86\n\n\n5.73\n\n\n0.85\n\n\n0.08\n\n\n0.01\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuestion\n\nDiscount rates play a critical role in evaluating long-term issues such as climate change.\n\nSuppose a climate policy implemented today will reduce future damages by $500 billion, occurring 50 years from now.\n\nTwo present values of this damage reduction are shown below.\n\nWhich value corresponds to a 2% discount rate, and which corresponds to a 5% discount rate?\n\n\n\n\n\n\n$185,763,941,063\n\n$ 43,601,863,486\n\n\n\n\n\n\n💡 Why it matters: Even small differences in the discount rate can dramatically change how much we value the future — and therefore, how much we act today.\n\n\n\n\n\n\nThe funds used to purchase Manhattan Island for $24 in 1626!\n\n\n\n\n\n\n\n\n\n\nA simple way to estimate how long it takes for a value to double given a fixed annual growth (or interest) rate.\n\n\n\n\\[\n\\text{Years to Double} \\approx \\frac{72}{r}\n\\]\nwhere \\(r\\) is the annual percentage rate (not in decimal form).\n\nThe higher the rate of return, the faster the doubling.\n\nWorks well for rates between 2% and 15%.\n\nUseful for understanding economic/financial growth, inflation, or discounting.\n\nExample: If the economy grows at 3% per year, its size doubles in about 24 years."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-09-2025-1022.html#what-is-costbenefit-analysis-cba",
+    "href": "econ-lec/econ-340-lec-09-2025-1022.html#what-is-costbenefit-analysis-cba",
+    "title": "Lecture 9",
+    "section": "What Is Cost–Benefit Analysis (CBA)?",
+    "text": "What Is Cost–Benefit Analysis (CBA)?\n\nCBA evaluates whether the present value of benefits exceeds the present value of costs for a project or policy.\n\n\nAll costs and benefits are expressed in today’s dollars using a discount rate (\\(r\\))\n\nEnables meaningful comparison of outcomes occurring at different times\n\nHelps allocate scarce resources efficiently across competing alternatives"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-09-2025-1022.html#cba-in-government-decision-making",
+    "href": "econ-lec/econ-340-lec-09-2025-1022.html#cba-in-government-decision-making",
+    "title": "Lecture 9",
+    "section": "CBA in Government Decision-Making",
+    "text": "CBA in Government Decision-Making\nGovernments use CBA to decide:\n\nWhich projects should be funded under budget constraints\nHow to balance economic, health, and environmental goals\nWhether policy benefits justify the present value of implementation costs"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-09-2025-1022.html#example-regulating-ozone-pollution",
+    "href": "econ-lec/econ-340-lec-09-2025-1022.html#example-regulating-ozone-pollution",
+    "title": "Lecture 9",
+    "section": "Example: Regulating Ozone Pollution",
+    "text": "Example: Regulating Ozone Pollution\n\nThe U.S. Environmental Protection Agency (EPA) must decide:\nShould the national standard for ground-level ozone be tightened?\n\n\nOzone affects:\n\nHuman health (asthma, emphysema)\nCrop and vegetation damage\n\n\nStricter standards → higher abatement costs now, health benefits later"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-09-2025-1022.html#the-real-epa-decision-regulating-ozone-pollution",
+    "href": "econ-lec/econ-340-lec-09-2025-1022.html#the-real-epa-decision-regulating-ozone-pollution",
+    "title": "Lecture 9",
+    "section": "The Real EPA Decision — Regulating Ozone Pollution",
+    "text": "The Real EPA Decision — Regulating Ozone Pollution\n\nEPA lowered ozone standard from 75 → 70 ppb\nIndustry: “Too costly — burdensome for economy”\n\nEnvironmentalists: “Too weak — thousands of preventable deaths remain”\n\nEPA’s Present Value Estimates\n\n\n\n\n\n\n\n\n\nStandard (ppb)\nPV of Costs (Billion $)\nPV of Benefits (Billion $)\nPV of Net Benefits (Billion $)\n\n\n\n\n70\n~5\n10–22\n+5–17\n\n\n65\n~15\n18–35\n+3–20\n\n\n60\n~40\n25–50\n–15–10\n\n\n\n\n\n\nNote\n\n\nInterpretation:\nThe 70 ppb standard produced positive PV net benefits.\nLower standards (65 or 60 ppb) have higher potential PV benefits, but with more uncertainty."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-09-2025-1022.html#steps-in-conducting-a-pv-based-cba",
+    "href": "econ-lec/econ-340-lec-09-2025-1022.html#steps-in-conducting-a-pv-based-cba",
+    "title": "Lecture 9",
+    "section": "Steps in Conducting a PV-Based CBA",
+    "text": "Steps in Conducting a PV-Based CBA\n\n\nList all costs and benefits over time\n\nQuantify each stream in monetary terms\n\nDiscount each future value to its present value using rate \\(r\\)\n\nSum PVs of costs and benefits:\n\n\\[\nPV_B = \\sum_t \\frac{B_t}{(1 + r)^t}, \\qquad PV_C = \\sum_t \\frac{C_t}{(1 + r)^t}\n\\]\n\nCompute PV Net Benefits and PV Benefit–Cost Ratio\n\nCompare across policy alternatives, including a baseline (no action)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-09-2025-1022.html#decision-criteria-using-present-value",
+    "href": "econ-lec/econ-340-lec-09-2025-1022.html#decision-criteria-using-present-value",
+    "title": "Lecture 9",
+    "section": "🧮 Decision Criteria (Using Present Value)",
+    "text": "🧮 Decision Criteria (Using Present Value)\n\n\n1️⃣ PV of Net Benefits\n\\[\nPV_{NB} = PV_B - PV_C\n\\]\n\n\\(PV_{NB}\\) (Present Value of Net Benefits) measures total welfare change in today’s dollars.\n\nAdds up all future benefits (\\(B_t\\)) and costs (\\(C_t\\)), converted into present value using the discount rate (\\(r\\)).   \n\nIf \\(PV_{NB} &gt; 0\\), benefits exceed costs → policy improves total welfare and is worth undertaking.\n\n\n2️⃣ PV Benefit–Cost Ratio\n\\[\nPV_{B/C} = \\frac{PV_B}{PV_C}\n\\]\n\nCompares the relative size of discounted benefits and costs.\n\nIf \\(PV_{B/C} &gt; 1\\), benefits outweigh costs in present-value terms.\n\nUseful for comparing multiple projects when budgets are limited."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-09-2025-1022.html#opportunity-cost-and-efficiency",
+    "href": "econ-lec/econ-340-lec-09-2025-1022.html#opportunity-cost-and-efficiency",
+    "title": "Lecture 9",
+    "section": "Opportunity Cost and Efficiency",
+    "text": "Opportunity Cost and Efficiency\nEven if \\(PV_{NB} &gt; 0\\):\n\nAnother policy might yield a higher \\(PV_{NB}\\)\n\nAlways consider the opportunity cost of choosing one project over another\n\nEconomics seeks to maximize \\(PV_{NB}\\) — the condition for dynamic efficiency"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-09-2025-1022.html#distributional-and-ethical-issues",
+    "href": "econ-lec/econ-340-lec-09-2025-1022.html#distributional-and-ethical-issues",
+    "title": "Lecture 9",
+    "section": "Distributional and Ethical Issues ⚖️",
+    "text": "Distributional and Ethical Issues ⚖️\n\nCBA aggregates all PV benefits and costs across society\n→ ignores who gains and who bears the costs\nExample:\n\nPV benefits → wealthier households (longer lifespan, better access)\nPV costs → lower-income communities (energy price hikes)\n\nEven with positive \\(PV_{NB}\\), may still be inequitable"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-09-2025-1022.html#example-regulating-ozone-pollution-1",
+    "href": "econ-lec/econ-340-lec-09-2025-1022.html#example-regulating-ozone-pollution-1",
+    "title": "Lecture 9",
+    "section": "Example: Regulating Ozone Pollution",
+    "text": "Example: Regulating Ozone Pollution\nHypothetical Scenario (Present Value Terms)\n\n\n\n\n\n\n\n\nOption\nPV of Costs (Billion $)\nPV of Benefits (Billion $)\n\n\n\n\nMaintain 75 ppb\n—\n—\n\n\nTighten to 70 ppb\n16\n24\n\n\n\n\\[\nPV_{NB} = PV_B - PV_C = 24 - 16 = 8 \\text{ billion}\n\\]\n\\[\nPV_{B/C} = \\frac{PV_B}{PV_C} = \\frac{24}{16} = 1.5\n\\]\n✅ Positive PV net benefits and \\(PV_{B/C} &gt; 1\\) → Economically justified."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-09-2025-1022.html#example-regulating-ozone-pollution-2",
+    "href": "econ-lec/econ-340-lec-09-2025-1022.html#example-regulating-ozone-pollution-2",
+    "title": "Lecture 9",
+    "section": "Example: Regulating Ozone Pollution",
+    "text": "Example: Regulating Ozone Pollution\nThe Real EPA Decision\n\nEPA lowered ozone standard from 75 → 70 ppb\nIndustry: “Too costly — burdensome for economy”\n\nEnvironmentalists: “Too weak — thousands of preventable deaths remain”"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-09-2025-1022.html#example-regulating-ozone-pollution-3",
+    "href": "econ-lec/econ-340-lec-09-2025-1022.html#example-regulating-ozone-pollution-3",
+    "title": "Lecture 9",
+    "section": "Example: Regulating Ozone Pollution",
+    "text": "Example: Regulating Ozone Pollution\nEPA’s Present Value Estimates\n\n\n\n\n\n\n\n\n\nStandard (ppb)\nPV of Costs (Billion $)\nPV of Benefits (Billion $)\nPV of Net Benefits (Billion $)\n\n\n\n\n70\n~5\n10–22\n+5–17\n\n\n65\n~15\n18–35\n+3–20\n\n\n60\n~40\n25–50\n–15–10\n\n\n\n\n\n\nNote\n\n\nInterpretation:\nThe 70 ppb standard produced positive PV net benefits.\nLower standards (65 or 60 ppb) have higher potential PV benefits, but with more uncertainty."
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-09.html#multiple-choice-circle-one",
+    "href": "econ-cw/econ-340-cw-09.html#multiple-choice-circle-one",
+    "title": "Classwork 9",
+    "section": "",
+    "text": "Q1. Why do we discount future outcomes?\na) Future generations matter less\nb) Resources today have opportunity cost (consume/save/invest)\nc) We can’t measure the future\nd) Future values are always smaller\n\nQ2. Which example is dynamically inefficient?\na) Investing in flood barriers with decades of protection\nb) Overharvesting a fishery, reducing future yields\nc) Planting trees that mature over 20 years\nd) Funding early education with long-run gains\n\nQ3. If the discount rate is very high, which project type becomes least attractive?\na) Long-term benefit projects\nb) Short-term payoff projects\nc) Projects with immediate costs\nd) Any project with public funding\n\nQ4. Project A pays mostly now; Project B pays more but in 20 years. What factor most determines which looks “efficient”?\na) The project titles\nb) Whether costs are public or private\nc) The chosen discount rate\nd) The number of stakeholders\n\nQ5. A climate policy looks good at 1%** but not at 7%. What does that suggest?**\na) It has only short-term benefits\nb) Its value is driven by long-term benefits\nc) Its costs occur far in the future\nd) It is unethical\n\nQ6. Which approach gives more weight** to future generations?**\na) Ethical / Prescriptive\nb) Market-Based / Descriptive\nc) They are identical\nd) Neither\n\nQ7. Sea wall: costly now, avoids large future losses. With a high** discount rate, the town will likely…**\na) Build now\nb) Delay or skip building\nc) Build it twice as tall\nd) Ban waterfront living\n\nQ8. If policymakers ignored discounting** entirely, they would tend to…**\na) Overinvest in very long-term projects\nb) Underinvest in very long-term projects\nc) Make no difference\nd) Always choose the cheaper project\n\nQ9. Which statement best captures dynamic efficiency?\na) Choose the cheapest project now\nb) Maximize benefits this year only\nc) Maximize total net benefits across time\nd) Always delay decisions\n\nQ10. A lower** social discount rate (e.g., 1–2%) generally…**\na) Devalues future outcomes\nb) Treats the future as irrelevant\nc) Always rejects climate projects\nd) Gives more weight to long-run benefits"
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-09.html#short-answer-25-sentences-each",
+    "href": "econ-cw/econ-340-cw-09.html#short-answer-25-sentences-each",
+    "title": "Classwork 9",
+    "section": "2) Short-Answer (2–5 sentences each)",
+    "text": "2) Short-Answer (2–5 sentences each)\nS1. Give one real-world policy where decision-makers trade off present vs. future benefits. Briefly explain the near-term and long-term effects.\nS2. Why might a government choose a lower discount rate for climate policy than for ordinary investment projects? Mention intergenerational equity and uncertainty.\nS3. Do you support using a very low social discount rate (≈1–2%) for long-run environmental policy? Defend your position."
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-09.html#reflection",
+    "href": "econ-cw/econ-340-cw-09.html#reflection",
+    "title": "Classwork 9",
+    "section": "3) Reflection",
+    "text": "3) Reflection\n\nWhy is it hard to agree on a single “right” discount rate?\n\nIn your view, how should economists balance efficiency and fairness between generations?"
+  },
+  {
+    "objectID": "econ-340-cw-09a.html",
+    "href": "econ-340-cw-09a.html",
+    "title": "Classwork 9",
+    "section": "",
+    "text": "Intuition for dynamic efficiency (balancing now vs. later)\nWhy we discount future outcomes\nHow higher vs. lower discount rates sway decisions\nEthical vs. market perspectives on valuing the future\n\n\nDirections. Answer the MCQs below and press Grade at the end. Each MCQ shows detailed feedback. Then write short answers using the models/rubric as guidance."
+  },
+  {
+    "objectID": "econ-340-cw-09a.html#what-youll-practice-no-algebra",
+    "href": "econ-340-cw-09a.html#what-youll-practice-no-algebra",
+    "title": "Classwork 9",
+    "section": "",
+    "text": "Intuition for dynamic efficiency (balancing now vs. later)\nWhy we discount future outcomes\nHow higher vs. lower discount rates sway decisions\nEthical vs. market perspectives on valuing the future\n\n\nDirections. Answer the MCQs below and press Grade at the end. Each MCQ shows detailed feedback. Then write short answers using the models/rubric as guidance."
+  },
+  {
+    "objectID": "econ-340-cw-09a.html#multiple-choice-auto-graded",
+    "href": "econ-340-cw-09a.html#multiple-choice-auto-graded",
+    "title": "Classwork 9",
+    "section": "1) Multiple-Choice (Auto-Graded)",
+    "text": "1) Multiple-Choice (Auto-Graded)\n\nQ1. Why do we discount future outcomes?\n\n a) Future generations matter less  b) Resources today have opportunity cost (consume/save/invest)  c) We can’t measure the future  d) Future values are always smaller\n\n\n\n\nTreating future people as “less valuable” is an ethical claim, not the core economic reason. Discounting reflects opportunity cost and time preference.\n\n\nYes. A dollar (or benefit) today can be invested or used; delaying payoffs has an opportunity cost.\n\n\nUncertainty matters, but we still discount even when the future is measurable.\n\n\nThey aren’t “always smaller”—discounting makes us compare them on a common present-value basis.\n\n\n\n\n\nQ2. Which example is dynamically inefficient?\n\n a) Investing in flood barriers with decades of protection  b) Overharvesting a fishery, cutting future yields  c) Planting trees that mature over 20 years  d) Funding early education with long-run gains\n\n\n\n\nCorrect. It boosts the present at the expense of future benefits, failing to balance across time.\n\n\nLikely dynamically efficient if benefits exceed costs over time.\n\n\nIntertemporal investment that can be dynamically efficient.\n\n\nAlso an intertemporal investment that may raise lifetime net benefits.\n\n\n\n\n\nQ3. If the discount rate is very high, which project type becomes least attractive?\n\n a) Long-term benefit projects  b) Short-term payoff projects  c) Projects with immediate costs  d) Any project with public funding\n\n\n\n\nCorrect. High rates shrink future benefits heavily, penalizing long-run projects.\n\n\nShort-term payoffs are less sensitive to discounting.\n\n\nImmediate costs matter, but the key effect is on far-future benefits.\n\n\nFunding source isn’t the mechanism—time horizon is.\n\n\n\n\n\nQ4. Project A pays mostly now; Project B pays more but in 20 years. Which factor determines which looks “efficient”?\n\n a) The project titles  b) Whether costs are public or private  c) The chosen discount rate  d) The number of stakeholders\n\n\n\n\nCorrect. The discount rate converts future outcomes to present terms; small changes swing rankings.\n\n\nIncidence matters, but time preference is decisive here.\n\n\nNames don’t affect efficiency.\n\n\nParticipation matters politically, not directly for intertemporal valuation.\n\n\n\n\n\nQ5. A climate policy looks good at 1% but not at 7%. What does that reveal?\n\n a) It has only short-term benefits  b) Its value is driven by long-term benefits  c) Costs are far in the future  d) It’s unethical\n\n\n\n\nCorrect. Higher rates compress far-future gains; low rates preserve them.\n\n\nOpposite: sensitivity to discounting signals long-run payoffs.\n\n\nCould be true in other cases, but not implied here.\n\n\nEfficiency ≠ ethics judgment by itself.\n\n\n\n\n\nQ6. Which approach gives more weight to future generations?\n\n a) Ethical / Prescriptive  b) Market-Based / Descriptive  c) They’re identical  d) Neither\n\n\n\n\nCorrect. Lower chosen rates (e.g., 1–2%) heighten future weight and intergenerational equity.\n\n\nMarket rates are typically higher, discounting the future more.\n\n\n\n\n\nQ7. Town sea wall: costly now, prevents big losses later. With a high discount rate, the town will likely…\n\n a) Build now  b) Delay or skip building  c) Build it twice as tall  d) Ban waterfront living\n\n\n\n\nCorrect. High rates downplay future avoided damages.\n\n\n\n\n\nQ8. If policymakers ignored discounting entirely, they would tend to…\n\n a) Overinvest in very long-term projects  b) Underinvest in very long-term projects  c) Make no difference  d) Always choose the cheaper project\n\n\n\n\nCorrect. Treating a dollar in 50 years like a dollar today over-weights distant benefits.\n\n\n\n\n\nQ9. Which statement best captures dynamic efficiency?\n\n a) Choose the cheapest project now  b) Maximize benefits this year only  c) Maximize total net benefits across time  d) Always delay decisions\n\n\n\n\nCorrect. It’s an intertemporal criterion: balance present and future systematically.\n\n\n\n\n\nQ10. A lower social discount rate (e.g., 1–2%) generally…\n\n a) Devalues future outcomes  b) Treats future as irrelevant  c) Always rejects climate projects  d) Gives more weight to long-run benefits\n\n\n\n\nCorrect. Lower rates shrink future benefits less, strengthening cases for long-horizon policies.\n\n\n\n\nGrade"
+  },
+  {
+    "objectID": "econ-340-cw-09a.html#short-answer-not-auto-graded-include-in-brightspace-submission",
+    "href": "econ-340-cw-09a.html#short-answer-not-auto-graded-include-in-brightspace-submission",
+    "title": "Classwork 9",
+    "section": "2) Short-Answer (Not auto-graded; include in Brightspace submission)",
+    "text": "2) Short-Answer (Not auto-graded; include in Brightspace submission)\nS1. Give one real-world policy example where decision-makers trade off present vs. future benefits.\nModel answer (2–3 sentences):\nExamples include climate mitigation (upfront costs vs. future damage reduction), resilient infrastructure (today’s spending vs. future avoided losses), conservation set-asides (foregone current use vs. future ecosystem services). Good responses name the policy, the near-term cost/benefit, and the long-term effect.\nS2. Why might a government choose a lower discount rate for climate policy than for ordinary investment projects?\nModel answer (3–4 sentences):\nBecause climate damages unfold over long horizons, involve intergenerational equity, and may carry catastrophic tail risks; a lower rate avoids excessively penalizing far-future benefits. It aligns with ethical (prescriptive) reasoning and uncertainty-adjusted approaches (declining SDRs). A strong answer mentions fairness across generations and risk/uncertainty.\nS3. Do you support using a very low social discount rate (≈1–2%) for long-run environmental policy? Why or why not?\nModel answer outline (4–5 sentences):\n- For: values future generations, captures irreversible losses, supports early action.\n- Against: may overcommit to distant benefits if opportunity costs are high; market rates reflect observed preferences.\n- Strong responses acknowledge both, then argue a position (or hybrid like declining rates)."
+  },
+  {
+    "objectID": "econ-340-cw-09a.html#takeaways",
+    "href": "econ-340-cw-09a.html#takeaways",
+    "title": "Classwork 9",
+    "section": "✅ Takeaways",
+    "text": "✅ Takeaways\n\nDynamic efficiency = maximize net benefits across time, not only today.\n\nDiscounting translates future outcomes into today’s terms; the rate choice can flip decisions.\n\nLower SDRs emphasize long-run welfare and equity; higher rates favor the present.\n\n\n“Small differences in discount rates can lead to big differences in long-horizon environmental policy.”"
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-09.html#short-answer",
+    "href": "econ-cw/econ-340-cw-09.html#short-answer",
+    "title": "Classwork 9",
+    "section": "2) Short-Answer",
+    "text": "2) Short-Answer\n\nS1. Why might a government choose a lower discount rate for climate policy than for ordinary investment projects? Mention intergenerational equity and uncertainty (3–4 sentences).\nS2. Do you support using a very low social discount rate (≈1–2%) for long-run environmental policy? Defend your position (4–5 sentences)."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-09-2025-1022.html#opportunity-cost-and-dynamic-efficiency",
+    "href": "econ-lec/econ-340-lec-09-2025-1022.html#opportunity-cost-and-dynamic-efficiency",
+    "title": "Lecture 9",
+    "section": "Opportunity Cost and Dynamic Efficiency",
+    "text": "Opportunity Cost and Dynamic Efficiency\nEven if \\(PV_{NB} &gt; 0\\):\n\nAnother policy might yield a higher \\(PV_{NB}\\)\nAlways consider the opportunity cost of choosing one project over another\nEconomics seeks to maximize \\(PV_{NB}\\) — the condition for dynamic efficiency\n\nDynamic efficiency is achieved when the allocation of resources over time maximizes the present value of net benefits to society.\n\n\n\n\nDynamic efficiency helps decide how much to use today and how much to save or invest for the future (e.g., in renewable energy, conservation, or infrastructure), since resources spent now can’t be used later."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-09-2025-1022.html#what-dynamic-efficiency-means",
+    "href": "econ-lec/econ-340-lec-09-2025-1022.html#what-dynamic-efficiency-means",
+    "title": "Lecture 9",
+    "section": "What Dynamic Efficiency Means",
+    "text": "What Dynamic Efficiency Means\n\nDynamic efficiency means using resources over time in a way that gives society the greatest total benefit, after accounting for all costs and discounting the future.\n\nIt’s about finding the right balance between using resources today and saving or investing for tomorrow.\n\nBecause resources are limited, spending more today means less available later — and vice versa.\nDynamic efficiency helps decide how much to invest now in things like renewable energy, infrastructure, or conservation versus how much to consume now for immediate satisfaction.\n\nIt ensures society gets the best overall outcome through time, not just the biggest short-term gain.\n\n\nIn short:\nA policy is dynamically efficient if there’s no better way to spread costs and benefits over time that would give society a higher total present value of welfare."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-09-2025-1022.html#opportunity-cost-and-dynamic-efficiency-1",
+    "href": "econ-lec/econ-340-lec-09-2025-1022.html#opportunity-cost-and-dynamic-efficiency-1",
+    "title": "Lecture 9",
+    "section": "Opportunity Cost and Dynamic Efficiency",
+    "text": "Opportunity Cost and Dynamic Efficiency\nEven if \\(PV_{NB} &gt; 0\\):\n\nAnother policy might yield a higher \\(PV_{NB}\\)\nAlways consider the opportunity cost of choosing one project over another\nEconomics seeks to maximize \\(PV_{NB}\\) — the condition for dynamic efficiency\n\nDynamic efficiency is achieved when the allocation of resources over time maximizes the present value of net benefits to society.\n\nIn practice, dynamic efficiency guides how much to invest now (e.g., in renewable energy, conservation, or infrastructure) versus how much to consume now, recognizing that resources used today cannot be used tomorrow.\n\n\nA policy is dynamically efficient if no other feasible allocation of costs and benefits across time could yield a higher total present value of welfare."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-09-2025-1022.html#what-is-pv_nb",
+    "href": "econ-lec/econ-340-lec-09-2025-1022.html#what-is-pv_nb",
+    "title": "Lecture 9",
+    "section": "🧮 What Is \\(PV_{NB}\\)?",
+    "text": "🧮 What Is \\(PV_{NB}\\)?\n\n\\(PV_{NB}\\) = Present Value of Net Benefits\n\nAdds up all future benefits (\\(B_t\\)) and costs (\\(C_t\\)), converting them into today’s value using the discount rate (\\(r\\))\n\nFormula:\n\\[\nPV_{NB} = \\sum_{t=0}^{N} \\frac{B_t - C_t}{(1 + r)^t}\n\\]\n\nIf \\(PV_{NB} &gt; 0\\), the project’s discounted benefits exceed its discounted costs, meaning it is worth undertaking in present-value terms."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-09-2025-1022.html#decision-criteria-using-present-value-1",
+    "href": "econ-lec/econ-340-lec-09-2025-1022.html#decision-criteria-using-present-value-1",
+    "title": "Lecture 9",
+    "section": "🧮 Decision Criteria (Using Present Value)",
+    "text": "🧮 Decision Criteria (Using Present Value)\n\n\n1️⃣ PV of Net Benefits\n\\[\nPV_{NB} = PV_B - PV_C\n\\]\nIf \\(PV_{NB} &gt; 0\\), policy increases total welfare.\n\nAdds up all future benefits (\\(B_t\\)) and costs (\\(C_t\\)), converting them into today’s value using the discount rate (\\(r\\))\nIf \\(PV_{NB} &gt; 0\\), the project’s discounted benefits exceed its discounted costs, meaning it is worth undertaking in present-value terms.\n\n\n2️⃣ PV Benefit–Cost Ratio\n\\[\nPV_{B/C} = \\frac{PV_B}{PV_C}\n\\]\nIf \\(PV_{B/C} &gt; 1\\), benefits exceed costs in present value terms."
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-09.html#multiple-choice",
+    "href": "econ-cw/econ-340-cw-09.html#multiple-choice",
+    "title": "Classwork 9",
+    "section": "",
+    "text": "a) Future generations matter less  b) Resources today have opportunity cost (consume/save/invest)  c) We can’t measure the future  d) Future values are always smaller\n\n\n\n\n\n\n\n\n\n a) Investing in flood barriers with decades of protection  b) Overharvesting a fishery, cutting future yields  c) Planting trees that mature over 20 years  d) Funding early education with long-run gains\n\n\n\n\n\n\n\n\n\n a) Long-term benefit projects  b) Short-term payoff projects  c) Projects with immediate costs  d) Any project with public funding\n\n\n\n\n\n\n\n\n\n a) The project titles  b) Whether costs are public or private  c) The chosen discount rate  d) The number of stakeholders\n\n\n\n\n\n\n\n\n\n a) It has only short-term benefits  b) Its value is driven by long-term benefits  c) Costs are far in the future  d) It’s unethical\n\n\n\n\n\n\n\n\n\n a) Ethical / Prescriptive  b) Market-Based / Descriptive  c) They’re identical  d) Neither\n\n\n\n\n\n\n\n\n\n a) Build now  b) Delay or skip building  c) Build it twice as tall  d) Ban waterfront living\n\n\n\n\n\n\n\n\n\n a) Overinvest in very long-term projects  b) Underinvest in very long-term projects  c) Make no difference  d) Always choose the cheaper project\n\n\n\n\n\n\n\n\n\n a) Choose the cheapest project now  b) Maximize benefits this year only  c) Maximize total net benefits across time  d) Always delay decisions\n\n\n\n\n\n\n\n\n\n a) Devalues future outcomes  b) Treats future as irrelevant  c) Always rejects climate projects  d) Gives more weight to long-run benefits\n\n\n\n\n\nGrade"
+  },
+  {
+    "objectID": "econ-340-cw-09a.html#reflection-sample-answer",
+    "href": "econ-340-cw-09a.html#reflection-sample-answer",
+    "title": "Classwork 9",
+    "section": "3) Reflection — Sample Answer",
+    "text": "3) Reflection — Sample Answer\n\nWhy is it hard to agree on a single “right” discount rate?\n\nIt’s hard to agree on a single “right” discount rate because it reflects both ethical values and empirical assumptions.\nEthically, people disagree on how much to value future generations; empirically, economists differ on expected growth, risk, and opportunity cost of capital.\n\nHow might uncertainty (e.g., climate damages, tech change) affect the choice of discount rate?\n\nUncertainty about climate damages or technological change often leads to using a lower or declining discount rate, since future outcomes could be much worse (or better) than expected, and society may want to hedge against catastrophic risks.\n\nIn your view, how should economists balance efficiency and fairness between generations?\n\nEconomists should balance efficiency (maximizing total welfare) with fairness (ensuring future generations are not undervalued).\nThis means giving sufficient weight to the future — using discount rates that reflect both economic realities and intergenerational responsibility.\nEconomists should balance efficiency and fairness by recognizing that market-based efficiency alone often underrepresents future generations, who have no voice in current decisions.\nPurely efficiency-focused models discount the future heavily, favoring short-term gains, while fairness requires giving moral weight to people who will live decades from now.\nA balanced approach would use efficiency to guide resource allocation within generations, but apply ethical or declining discount rates to account for long-term sustainability and irreversible environmental losses.\nThis means accepting slightly lower present efficiency if it prevents large welfare losses or ecological risks for future generations — a tradeoff that aligns with the idea of intergenerational equity.\n\nGrading rubric (short answers)\n\nClarity & relevance (40%): Addresses the prompt with concrete policy or mechanism.\n\nIntertemporal reasoning (40%): Shows how timing/discounting changes evaluation.\n\nDepth (20%): Mentions equity/uncertainty/irreversibility where appropriate."
   }
 ]

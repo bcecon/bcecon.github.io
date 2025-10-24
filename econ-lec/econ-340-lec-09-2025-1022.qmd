@@ -144,7 +144,29 @@ formattable(
 ```
 
 
-## The Value of Manhattan Island
+## PV of \$500 Billion — Comparing Discount Rates
+<div style="display:block; margin:-5px;"></div>
+
+:::{.nonincremental}
+- **Question**  
+  - Discount rates play a critical role in evaluating long-term issues such as **climate change**.  
+  - Suppose a climate policy **implemented today** will **reduce future damages by \$500 billion**, occurring **50 years from now**.  
+  - Two present values of this damage reduction are shown below.  
+  - Which value corresponds to a **2% discount rate**, and which corresponds to a **5% discount rate**?
+  
+<div style="display:block; margin:-10px;"></div>
+
+a. **\$185,763,941,063**  
+b. **\$  43,601,863,486**
+
+:::
+<div style="display:block; margin:-10px;"></div>
+
+- 💡 **Why it matters:** Even small differences in the discount rate can **dramatically change how much we value the future** — and therefore, how much we act today.
+
+
+
+## 💡 Quick Detour: The Value of Manhattan Island
 
 :::{.nonincremental}
 
@@ -160,39 +182,58 @@ formattable(
 
 
 
+## 💡 Quick Detour: The Rule of 72
+
+A simple way to **estimate how long it takes for a value to double** given a fixed annual growth (or interest) rate.  
+
+<div style="display:block; margin:-10px;"></div>
+
+$$
+\text{Years to Double} \approx \frac{72}{r}
+$$
+
+where $r$ is the **annual percentage rate** (not in decimal form).
+
+- The higher the rate of return, the **faster** the doubling.  
+- Works well for rates between **2% and 15%**.  
+- Useful for understanding **economic/financial growth**, **inflation**, or **discounting**.
+  - _Example_: If the economy grows at **3% per year**, its size **doubles in about 24 years**.
+
+
 
 # Choosing the Discount Rate: Two Approaches {background-color="#1c4982"}
 
 ## Why Discount the Future?
 
 
-In both **market-based** and **social** approaches, the **discount rate** answers a fundamental question:  
+The **discount rate** answers a fundamental question:  
 
-> *At what rate should society be compensated in the future for giving up one unit of consumption today so that overall well-being is preserved?*
+> _At what rate should society **discount future benefits** so that **sacrificing one unit of consumption today** is **fairly balanced by gains to future well-being**?_
 
-- This rate reflects how we **value the future relative to the present**, whether through:
-  - **Ethical principles** about intergenerational welfare, or
-  - **Observed market behavior** (opportunity cost of capital)
+- This rate reflects how we **value the future relative to the present**, and it can be determined in two main ways:
+  - Through **ethical principles** about intergenerational welfare → the **social (prescriptive)** approach  
+  - Through **observed market behavior** and the **opportunity cost of capital** → the **market-based (descriptive)** approach
 
+  
 
 ## Social Discount Rate (SDR)
 
 <div style="display:block; margin:-10px;"></div>
 
 $$
-\text{SDR} = \rho + \varepsilon \cdot g
+\text{SDR} = \rho + \eta \cdot g
 $$
 
 <div style="display:block; margin:-20px;"></div>
 
 - $\rho$: **pure rate of time preference** — captures **impatience** or preference for present welfare over future welfare  
-- $\varepsilon$: **elasticity of marginal utility of consumption** — measures how quickly **the extra satisfaction (utility)** from consumption **declines as people become richer**  
+- $\eta$: **elasticity of marginal utility of consumption** — measures how quickly **the extra satisfaction (utility)** from consumption **declines as people become richer**  
   - When people are **poor**, an extra dollar raises happiness a lot  
   - When people are **richer**, an extra dollar adds little  
-  - **Inequality aversion:** a higher $\varepsilon$ means society is more sensitive to inequality across generations
-  <!-- - **Inequality aversion:** a higher $\varepsilon$ means society values **additional income for poorer generations** more than for richer ones   -->
+  - **Inequality aversion:** a higher $\eta$ means society is more sensitive to inequality across generations
+  <!-- - **Inequality aversion:** a higher $\eta$ means society values **additional income for poorer generations** more than for richer ones   -->
 - $g$: **growth rate of real consumption** — the expected pace of income growth over time  
-<!-- - **Wealth effect:** together, $\varepsilon$ and $g$ determine how **fast overall welfare grows** as society becomes wealthier -->
+<!-- - **Wealth effect:** together, $\eta$ and $g$ determine how **fast overall welfare grows** as society becomes wealthier -->
 
 
 
@@ -202,7 +243,7 @@ $$
 
 - Sets parameters based on **ethical principles** of **intergenerational fairness**, not on market behavior  
   - $\rho$: very low (≈ 0–0.1%) → future welfare valued almost equally to present welfare  
-  - $\varepsilon$: reflects **inequality aversion** — society places **less value on extra income for richer future generations**  
+  - $\eta$: reflects **inequality aversion** — society places **less value on extra income for richer future generations**  
   - $g$: assumes **modest long-run growth** (e.g., 1–1.5%), consistent with sustainability concerns  
 - **Result:** Low SDR (≈ 1–2%) → **greater weight on future generations** and **stronger justification for early climate action**
 
@@ -225,25 +266,25 @@ The **Opportunity Cost of Capital** is the **return forgone** when spending \$1 
 
 
 
-## 💰 Market-Based (Descriptive) Approach
+## 2️⃣  Market-Based (Descriptive) Approach
 
 > “How do markets *actually* value the future?”
 
 - Sets parameters based on **observed economic behavior**, not ethical judgments  
   - $\rho$: **higher** (≈ 1–2%) — reflects society’s **revealed time preference** in saving and investment decisions  
-  - $\varepsilon$: inferred from **market data** — captures how people trade off **consumption and risk** over time  
+  - $\eta$: inferred from **market data** — captures how people trade off **consumption and risk** over time  
   - $g$: assumes **stronger long-run growth** (e.g., 2%), consistent with **historical productivity trends**  
 - **Result:** Higher SDR (≈ 4–5%) → **less weight on distant future impacts** and supports  relatively **gradual, cost-efficient mitigation og GHG**
 
 <!-- ::: callout-tip -->
 <!-- **Example:** Nordhaus (*DICE Model*)   -->
-<!-- $\rho = 1.5\%$, $\varepsilon = 1.5$, $g = 2\%$ → $r = 4.5\%$ -->
+<!-- $\rho = 1.5\%$, $\eta = 1.5$, $g = 2\%$ → $r = 4.5\%$ -->
 <!-- ::: -->
 
 
 <!-- ## 📉 How Assumptions Shift the Discount Rate -->
 
-<!-- - Increasing $\rho$ (e.g., $\rho = 1.5\%$) with similar $g$ and $\varepsilon$ $\Rightarrow$ $r \approx 3.4\%$   -->
+<!-- - Increasing $\rho$ (e.g., $\rho = 1.5\%$) with similar $g$ and $\eta$ $\Rightarrow$ $r \approx 3.4\%$   -->
 <!-- - Over **100 years**, $r = 3.4\%$ yields a PV about **one-seventh** of that at $r = 1.4\%$   -->
 <!-- - **Implication:** The chosen discount rate can **reverse policy conclusions** for **long-horizon** issues (e.g., climate) -->
 
@@ -253,7 +294,7 @@ The **Opportunity Cost of Capital** is the **return forgone** when spending \$1 
 
 <!-- ### 🧭 Prescriptive (Ethical / “Social”) — *Stern* -->
 <!-- - **Philosophy:** How much we **should** value future generations   -->
-<!-- - **Assumptions:** $\rho = 0.1\%$, $\varepsilon = 1$, $g = 1.3\%$   -->
+<!-- - **Assumptions:** $\rho = 0.1\%$, $\eta = 1$, $g = 1.3\%$   -->
 <!-- - **Result:** $\text{SDR} = 0.1\% + 1 \cdot 1.3\% = \mathbf{1.4\%}$   -->
 <!-- - **Implication:** **Low $r$ (≈1–2%)** $\Rightarrow$ heavy weight on future damages $\Rightarrow$ **early, aggressive mitigation of GHG** -->
 
@@ -264,7 +305,7 @@ The **Opportunity Cost of Capital** is the **return forgone** when spending \$1 
 <!-- - **Philosophy:** Use **observed market behavior** (returns on capital / bond yields)   -->
 <!-- - **Logic:** Society *reveals* time preferences via **saving, investment, consumption**   -->
 <!-- - **Assumption:** Real discount rate $\approx \mathbf{4.25\%}$ (historical returns)   -->
-<!-- 	-	$\rho$ and $\varepsilon$ are inferred from market behavior and historical returns. -->
+<!-- 	-	$\rho$ and $\eta$ are inferred from market behavior and historical returns. -->
 <!-- 	-	$g$ comes from projected economic growth  -->
 <!-- - **Implication:** **Higher $r$ (≈4–5%)** $\Rightarrow$ less weight on distant damages $\Rightarrow$ **gradual, cost-efficient mitigation of GHG** -->
 
@@ -275,7 +316,7 @@ The **Opportunity Cost of Capital** is the **return forgone** when spending \$1 
 |:--|:--|:--|
 | Approach |  How we ought to value the future |  How markets actually value the future |
 | $\rho$ | $0.1\%$ | $1.5\%$ |
-| $\varepsilon$ | $1.0$ | $1.5$ |
+| $\eta$ | $1.0$ | $1.5$ |
 | $g$ | $1.3\%$ | $2.0\%$ |
 | Resulting rate | **$\approx 1.4\%$** | **$\approx 4.25\%$** |
 | Policy implication | Immediate, large cuts | Gradual mitigation path |
@@ -283,7 +324,7 @@ The **Opportunity Cost of Capital** is the **return forgone** when spending \$1 
 <div style="display:block; margin:-15px;"></div>
 
 ::: callout-note
-Although Nordhaus assumes a higher $\varepsilon$ (greater inequality aversion),  
+Although Nordhaus assumes a higher $\eta$ (greater inequality aversion),  
 his larger $\rho$ and $g$ dominate — resulting in a **higher overall discount rate**.
 :::
 
@@ -301,12 +342,162 @@ his larger $\rho$ and $g$ dominate — resulting in a **higher overall discount 
 - There is no single “correct” rate — analysts should be **transparent**, **justify their assumptions**, and **test results through sensitivity analysis**.
 
 
-<!-- ## 🧮 Quick Checks & Exercises -->
+# Cost–Benefit Analysis {background-color="#1c4982"}
 
-<!-- 1. Compute $\text{PV}(\$100, n=10)$ at $r=2\%, 5\%, 8\%$.   -->
-<!-- 2. For which $r$ does $\text{PV}(\$100, n=50) < \$1$?   -->
-<!-- 3. Using SDR, try $\rho=0.1\%, \varepsilon=1.5, g=1.2\%$. What $r$ do you obtain? -->
 
-<!-- ::: callout-note -->
-<!-- - **Sensitivity is essential:** always report results across a **range of plausible $r$** values. -->
-<!-- ::: -->
+## What Is Cost–Benefit Analysis (CBA)?
+
+> **CBA** evaluates whether the **present value of benefits** exceeds the **present value of costs** for a project or policy.
+
+- All costs and benefits are expressed in **today’s dollars** using a **discount rate ($r$)**  
+- Enables meaningful comparison of outcomes occurring at **different times**  
+- Helps allocate **scarce resources** efficiently across competing alternatives
+
+
+
+## CBA in Government Decision-Making
+
+Governments use CBA to decide:
+
+- Which projects should be funded under **budget constraints**
+- How to balance **economic, health, and environmental** goals
+- Whether policy benefits justify the **present value of implementation costs**
+
+
+
+## Example: Regulating Ozone Pollution
+
+> The U.S. Environmental Protection Agency (EPA) must decide:  
+> Should the national standard for **ground-level ozone** be tightened?
+
+- Ozone affects:
+  - Human health (asthma, emphysema)
+  - Crop and vegetation damage  
+- Stricter standards → **higher abatement costs now**, **health benefits later**
+
+
+## Example: Regulating Ozone Pollution
+### Hypothetical Scenario (Present Value Terms)
+
+| Option             | PV of Costs (Billion $) | PV of Benefits (Billion $) |
+|--------------------|--------------------------|-----------------------------|
+| Maintain 75 ppb    | —                        | —                           |
+| Tighten to 70 ppb  | **16**                   | **24**                      |
+
+$$
+PV_{NB} = PV_B - PV_C = 24 - 16 = 8 \text{ billion}
+$$
+
+$$
+PV_{B/C} = \frac{PV_B}{PV_C} = \frac{24}{16} = 1.5
+$$
+
+✅ **Positive PV net benefits** and **$PV_{B/C} > 1$** → Economically justified.
+
+
+
+## Example: Regulating Ozone Pollution
+### The Real EPA Decision
+
+- EPA lowered ozone standard **from 75 → 70 ppb**
+- **Industry:** “Too costly — burdensome for economy”  
+- **Environmentalists:** “Too weak — thousands of preventable deaths remain”
+
+
+## Example: Regulating Ozone Pollution
+### EPA’s Present Value Estimates
+
+| Standard (ppb) | PV of Costs (Billion $) | PV of Benefits (Billion $) | PV of Net Benefits (Billion $) |
+|----------------|--------------------------|-----------------------------|--------------------------------|
+| 70             | ~5                       | 10–22                       | +5–17                         |
+| 65             | ~15                      | 18–35                       | +3–20                         |
+| 60             | ~40                      | 25–50                       | –15–10                        |
+
+::: callout-note
+**Interpretation:**  
+The 70 ppb standard produced **positive PV net benefits**.  
+Lower standards (65 or 60 ppb) have **higher potential PV benefits**, but with more uncertainty.
+:::
+
+
+
+## Steps in Conducting a PV-Based CBA
+
+:::{.nonincremental}
+1. **List** all costs and benefits over time  
+2. **Quantify** each stream in monetary terms  
+3. **Discount** each future value to its **present value** using rate $r$  
+4. Sum PVs of costs and benefits:
+
+$$
+PV_B = \sum_t \frac{B_t}{(1 + r)^t}, \qquad PV_C = \sum_t \frac{C_t}{(1 + r)^t}
+$$
+
+5. Compute **PV Net Benefits** and **PV Benefit–Cost Ratio**  
+6. Compare across **policy alternatives**, including a **baseline (no action)**
+
+:::
+
+
+## 🧮 Decision Criteria (Using Present Value)
+
+::::{.columns}
+::: {.column width="50%"}
+
+### 1️⃣ PV of Net Benefits
+$$
+PV_{NB} = PV_B - PV_C
+$$
+
+- **$PV_{NB}$** (*Present Value of Net Benefits*) measures total welfare change in today’s dollars.  
+  - Adds up all **future benefits ($B_t$)** and **costs ($C_t$)**, converted into **present value** using the **discount rate ($r$)**. 
+  <!-- $$ -->
+  <!-- PV_{NB} = \sum_{t=0}^{N} \frac{B_t - C_t}{(1 + r)^t} -->
+  <!-- $$   -->
+- If $PV_{NB} > 0$, **benefits exceed costs** → policy **improves total welfare** and is **worth undertaking**.
+
+:::
+::: {.column width="50%"}
+
+### 2️⃣ PV Benefit–Cost Ratio
+$$
+PV_{B/C} = \frac{PV_B}{PV_C}
+$$
+
+- Compares the **relative size** of discounted benefits and costs.  
+- If $PV_{B/C} > 1$, **benefits outweigh costs** in present-value terms.  
+- Useful for comparing **multiple projects** when budgets are limited.
+
+:::
+::::
+
+
+
+## Opportunity Cost and Dynamic Efficiency
+
+Even if $PV_{NB} > 0$:
+
+- Another policy might yield a **higher $PV_{NB}$**
+- Always consider the **opportunity cost** of choosing one project over another
+- Economics seeks to **maximize $PV_{NB}$** — the condition for **dynamic efficiency**
+  - Dynamic efficiency is achieved when the allocation of resources **over time** maximizes the **present value of net benefits** to society.
+
+<!-- - Dynamic efficiency guides how much to **invest now** (e.g., in renewable energy, conservation, or infrastructure) versus how much to **consume now**, recognizing that resources used today cannot be used tomorrow. -->
+
+- **Dynamic efficiency** helps decide how much to **use today** and how much to **save or invest for the future** (e.g., in renewable energy, conservation, or infrastructure), since resources spent now can’t be used later.
+
+
+<!-- ### Understanding Dynamic Efficiency -->
+<!-- - It ensures that society’s **intertemporal welfare** is as high as possible, not just at a single point in time.   -->
+<!-- - If the marginal net benefit of an additional dollar spent today exceeds that of a dollar spent in the future (after discounting), the allocation is **not dynamically efficient**.  -->
+
+
+
+## Distributional and Ethical Issues ⚖️
+
+- CBA aggregates all PV benefits and costs across society  
+  → ignores **who gains** and **who bears the costs**
+- Example:
+  - PV benefits → wealthier households (longer lifespan, better access)
+  - PV costs → lower-income communities (energy price hikes)
+- Even with positive $PV_{NB}$, may still be **inequitable**

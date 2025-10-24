@@ -1,7 +1,7 @@
 ---
-title: Classwork 8
-subtitle: Information Problems and Behavioral Anomalies
-date: 2025-10-20
+title: Classwork 9
+subtitle: Dynamic Efficiency and Discounting
+date: 2025-10-24
 code-fold: true
 execute: 
   echo: false
