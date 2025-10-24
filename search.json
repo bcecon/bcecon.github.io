@@ -3700,7 +3700,7 @@
     "href": "econ-lec/econ-340-lec-09-2025-1024.html#discounting-climate-change-two-lenses",
     "title": "Lecture 9",
     "section": "Discounting Climate Change — Two Lenses",
-    "text": "Discounting Climate Change — Two Lenses\n\n\n\n\n\n\n\n\nFeature\nEthical\nMarket-based\n\n\n\n\nApproach\nHow we ought to value the future\nHow markets actually value the future\n\n\n\\(\\rho\\)\n\\(0.1\\%\\)\n\\(1.5\\%\\)\n\n\n\\(\\eta\\)\n\\(1.0\\)\n\\(1.5\\)\n\n\n\\(g\\)\n\\(1.3\\%\\)\n\\(2.0\\%\\)\n\n\nResulting rate\n\\(\\approx 1.4\\%\\)\n\\(\\approx 4.25\\%\\)\n\n\nPolicy implication\nStrong case for immediate, large cuts — low SDR gives high present value to avoiding long-term damages\nSupports gradual mitigation — high SDR discounts future damages more heavily, making near-term action seem less urgent"
+    "text": "Discounting Climate Change — Two Lenses\n\n\n\n\n\n\n\n\nFeature\nMarket-based\nEthical\n\n\n\n\nApproach\nHow markets actually value the future\nHow we ought to value the future\n\n\n\\(\\rho\\)\n\\(1.5\\%\\)\n\\(0.1\\%\\)\n\n\n\\(\\eta\\)\n\\(1.5\\)\n\\(1.0\\)\n\n\n\\(g\\)\n\\(2.0\\%\\)\n\\(1.3\\%\\)\n\n\nResulting rate\n\\(\\approx 4.25\\%\\)\n\\(\\approx 1.4\\%\\)\n\n\nPolicy implication\nSupports gradual mitigation — high SDR discounts future damages more heavily, making near-term action seem less urgent\nStrong case for immediate, large cuts — low SDR gives high present value to avoiding long-term damages"
   },
   {
     "objectID": "econ-lec/econ-340-lec-09-2025-1024.html#policy-relevance-ethics",
@@ -3798,6 +3798,6 @@
     "href": "econ-lec/econ-340-lec-09-2025-1024.html#sdr-linking-eta-diminishing-utility-and-fairness",
     "title": "Lecture 9",
     "section": "SDR — Linking \\(\\eta\\), Diminishing Utility, and Fairness",
-    "text": "SDR — Linking \\(\\eta\\), Diminishing Utility, and Fairness\n\n\n\n\n\n\n\n\n\nHigher \\(\\eta\\) → Faster Diminishing Marginal Utility\n\nThe extra satisfaction from each additional dollar drops faster as consumption rises.\n\nA dollar means less to someone already well-off.\n\nHigher \\(\\eta\\) → Stronger Concern for Equality\n\nSince extra consumption benefits the poor more than the rich, society with a higher \\(\\eta\\) places more weight on poorer or earlier generations."
+    "text": "SDR — Linking \\(\\eta\\), Diminishing Utility, and Fairness\n\n\n\n\n\n\n\n\n\n\nHigher \\(\\eta\\) → Faster Diminishing Marginal Utility\n\nThe extra satisfaction from each additional dollar drops faster as consumption rises.\n\nHigher \\(\\eta\\) → Stronger Concern for Equality\n\nSince extra consumption benefits the poor more than the rich, society with a higher \\(\\eta\\) places more weight on poorer or earlier generations."
   }
 ]
