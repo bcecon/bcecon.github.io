@@ -275,7 +275,7 @@ We categorize them into **three systematic departures**:
   - **Option A:** Get **$5 right now** at checkout  
   - **Option B:** Get **$8 credited to your account in _1 month_**
 
-<!-- 🧠 *Typical reaction:* Many choose **$5 now**, even though waiting **doubles** the payoff.   -->
+<!-- 🧠 *Typical reaction:* Many choose **$5 now**, even though waiting **doubles** the payoff. -->
 <!-- → **Reveals high discounting of the near future** -->
 
 :::
@@ -287,12 +287,18 @@ We categorize them into **three systematic departures**:
   - **Option C:** Get **$5 in _12 months_**  
   - **Option D:** Get **$8 in _13 months_**
 
-<!-- 🔁 *Typical reaction:* Most switch to **$10 in 13 months**   -->
-<!-- → **Shows lower discounting between future periods** -->
+<!-- 🔁 *Typical reaction:* Most switch to **$10 in 13 months** -->
+<!-- → **Shows lower discounting between future periods**   -->
+
 
 :::
 :::
 
+<!-- For those who choose **Option A** and **Option D**, their future-selves in 12 months want **Option C** over **Option D** -->
+
+- Those who choose **A** in Poll 1 but **D** in Poll 2 reveal a **time-inconsistent preference**
+  - Their *future selves* would rather wait, but their *present selves* can’t resist **immediate gratification**.
+  
 
 
 ## ⏳ Bounded Willpower — Mechanisms
