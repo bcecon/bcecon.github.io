@@ -98,19 +98,19 @@ pv_wide <- pv_tbl |>
 
 ## Present Value (PV) Formula
 
-Let $X_n$ be a cost/benefit received in $n$ years and $r$ the **discount rate**:
+Let $X_n$ be a cost/benefit received in $t$ years and $r$ the **discount rate**:
 
 $$
-\text{PV}(X_n) \;=\; \frac{X_n}{(1+r)^{\,n}}
+\text{PV}(X_t) \;=\; \frac{X_t}{(1+r)^{\,t}}
 $$
 
-- **Further in time** ($n\uparrow$) → PV **falls**  
+- **Further in time** ($t\uparrow$) → PV **falls**  
 - **Higher discount rate** ($r\uparrow$) → PV **falls**
 
 ::: callout-tip
-- **Examples (for $X_n = \$100$)**  
-  - $r=3\%, n=10 \Rightarrow \text{PV}=\$74.41$  
-  - $r=7\%, n=10 \Rightarrow \text{PV}=\$50.83$
+- **Examples (for $X_t = \$100$)**  
+  - $r=3\%, t=10 \Rightarrow \text{PV}=\$74.41$  
+  - $r=7\%, t=10 \Rightarrow \text{PV}=\$50.83$
 :::
 
 
@@ -121,10 +121,10 @@ $$
 ## How Fast Does PV Decline?
 
 - **High $r$** greatly devalues distant impacts  
-  - $r=7\%, n=50\Rightarrow \text{PV}=\$3.39$ for \$100  
-  - $r=10\%, n=50\Rightarrow \text{PV}=\$0.85$
+  - $r=7\%, t=50\Rightarrow \text{PV}=\$3.39$ for \$100  
+  - $r=10\%, t=50\Rightarrow \text{PV}=\$0.85$
 - **Small changes in $r$** matter a lot over long horizons  
-  - After **100 years**, PV at **1%** is about **7×** the PV at **3%**
+  - After **100 years**, PV at **1%** is about **seven times greater than** the PV at **3%**
 
 
 
@@ -139,7 +139,7 @@ formattable(
     area(col = -1) ~ color_tile("lightblue", "#4C4CAD")
   ),
   align = c("c", rep("r", ncol(pv_wide) - 1)),
-  caption = "<b>Years into the Future</b>"
+  caption = "<b>Years into the Future (t)</b>"
 )
 ```
 
@@ -211,8 +211,8 @@ The **discount rate** answers a fundamental question:
 > _At what rate should society **discount future benefits** so that **sacrificing one unit of consumption today** is **fairly balanced by gains to future well-being**?_
 
 - This rate reflects how we **value the future relative to the present**, and it can be determined in two main ways:
+  - Through **observed market outcomes** → the **market-based (descriptive)** approach
   - Through **ethical principles** about intergenerational welfare → the **social (prescriptive)** approach  
-  - Through **observed market behavior** and the **opportunity cost of capital** → the **market-based (descriptive)** approach
 
   
 
@@ -227,30 +227,51 @@ $$
 <div style="display:block; margin:-20px;"></div>
 
 - $\rho$: **pure rate of time preference** — captures **impatience** or preference for present welfare over future welfare  
+- $g$: **growth rate of real consumption** — reflects how **average living standards** or **income per person** grow over time
 - $\eta$: **elasticity of marginal utility of consumption** — measures how quickly **the extra satisfaction (utility)** from consumption **declines as people become richer**  
-  - When people are **poor**, an extra dollar raises happiness a lot  
-  - When people are **richer**, an extra dollar adds little  
-  - **Inequality aversion:** a higher $\eta$ means society is more sensitive to inequality across generations
+- **Welfare growth effect:** $\eta$ and $g$ together determine how the growth in income ($g$) translates into growth in **social welfare**.  
+  - $g$ drives the rise in **consumption**
+  - $\eta$ adjusts how much **extra happiness** that additional consumption brings.
+
+<!-- - **Wealth effect:** $\eta$ and $g$ together determine how **fast overall welfare grows** as society becomes wealthier -->
+
+
+  <!-- - When people are **poor**, an extra dollar raises happiness a lot   -->
+  <!-- - When people are **richer**, an extra dollar adds little -->
+  <!-- - **Inequality aversion:** a higher $\eta$ means society **cares more about equalizing well-being** across generations — but it also **raises the SDR** if future generations are expected to be richer -->
   <!-- - **Inequality aversion:** a higher $\eta$ means society values **additional income for poorer generations** more than for richer ones   -->
-- $g$: **growth rate of real consumption** — the expected pace of income growth over time  
-<!-- - **Wealth effect:** together, $\eta$ and $g$ determine how **fast overall welfare grows** as society becomes wealthier -->
+  
+
+## SDR — Linking $\eta$, Diminishing Utility, and Fairness
 
 
+::::{.columns}
+::: {.column width="50%"}
 
-## 1️⃣ Ethical (Prescriptive) Approach
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/utility-eta.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
 
-> “What *should* be the fair tradeoff between present and future welfare?”
+:::
 
-- Sets parameters based on **ethical principles** of **intergenerational fairness**, not on market behavior  
-  - $\rho$: very low (≈ 0–0.1%) → future welfare valued almost equally to present welfare  
-  - $\eta$: reflects **inequality aversion** — society places **less value on extra income for richer future generations**  
-  - $g$: assumes **modest long-run growth** (e.g., 1–1.5%), consistent with sustainability concerns  
-- **Result:** Low SDR (≈ 1–2%) → **greater weight on future generations** and **stronger justification for early climate action**
+::: {.column width="50%"}
+- **Higher $\eta$ → Faster Diminishing Marginal Utility**  
+  - The **extra satisfaction** from each additional dollar **drops faster** as consumption rises.  
+  - A dollar means **less** to someone already well-off.
+
+- **Higher $\eta$ → Stronger Concern for Equality**  
+  - Since extra consumption benefits the poor **more than** the rich, society with a higher $\eta$ places **more weight on poorer or earlier generations.**
+
+<!-- - 💡 **Connection:**   -->
+<!--   > A high $\eta$ captures both **how quickly utility declines with wealth**   -->
+<!--   > **and** how much society values **fairness across individuals and generations.** -->
+
+:::
+::::
 
 
-
-
-## 2️⃣  Market-Based (Descriptive) Approach
+## 1️⃣  Market-Based (Descriptive) Approach
 
 ::: callout-note
 The **Opportunity Cost of Capital** is the **return forgone** when spending \$1 today on a project, instead of **investing that same \$1 in the best available alternative** (for example, in private capital markets or government bonds).
@@ -266,15 +287,30 @@ The **Opportunity Cost of Capital** is the **return forgone** when spending \$1 
 
 
 
-## 2️⃣  Market-Based (Descriptive) Approach
+## 1️⃣  Market-Based (Descriptive) Approach
 
 > “How do markets *actually* value the future?”
 
 - Sets parameters based on **observed economic behavior**, not ethical judgments  
   - $\rho$: **higher** (≈ 1–2%) — reflects society’s **revealed time preference** in saving and investment decisions  
-  - $\eta$: inferred from **market data** — captures how people trade off **consumption and risk** over time  
+  - $\eta$ (**Higher**, ≈ 1.5, inferred from **market data**) — means society places **greater weight on poorer or earlier generations**, reflecting stronger concern for **intergenerational fairness.**
   - $g$: assumes **stronger long-run growth** (e.g., 2%), consistent with **historical productivity trends**  
 - **Result:** Higher SDR (≈ 4–5%) → **less weight on distant future impacts** and supports  relatively **gradual, cost-efficient mitigation og GHG**
+
+
+## 2️⃣ Ethical (Prescriptive) Approach
+
+> “What *should* be the fair tradeoff between present and future welfare?”
+
+- Parameters are chosen based on **ethical reasoning** about **intergenerational fairness**, rather than market behavior  
+  - $\rho$: **very low** (≈ 0–0.1%) → future welfare is valued almost equally to present welfare  
+  - $\eta$: **low** (≈ 1) → society gives **less additional value** to income gains for **richer future generations**, emphasizing fairness  
+  - $g$: assumes **modest long-run growth** (≈ 1–1.5%), consistent with **sustainability goals**  
+- **Result:** Low **Social Discount Rate (SDR)** (≈ 1–2%) → places **greater weight on future generations** and **stronger justification for early climate action**
+
+
+
+
 
 <!-- ::: callout-tip -->
 <!-- **Example:** Nordhaus (*DICE Model*)   -->
@@ -319,14 +355,15 @@ The **Opportunity Cost of Capital** is the **return forgone** when spending \$1 
 | $\eta$ | $1.0$ | $1.5$ |
 | $g$ | $1.3\%$ | $2.0\%$ |
 | Resulting rate | **$\approx 1.4\%$** | **$\approx 4.25\%$** |
-| Policy implication | Immediate, large cuts | Gradual mitigation path |
-
+| Policy implication | **Strong case for immediate, large cuts** — low SDR gives high present value to avoiding long-term damages | **Supports gradual mitigation** — high SDR discounts future damages more heavily, making near-term action seem less urgent |
 <div style="display:block; margin:-15px;"></div>
 
-::: callout-note
-Although Nordhaus assumes a higher $\eta$ (greater inequality aversion),  
-his larger $\rho$ and $g$ dominate — resulting in a **higher overall discount rate**.
-:::
+
+
+<!-- ::: callout-note -->
+<!-- Although market assumes a higher $\eta$ (greater inequality aversion),   -->
+<!-- his larger $\rho$ and $g$ dominate — resulting in a **higher overall discount rate**. -->
+<!-- ::: -->
 
 
 ## 📊 Policy Relevance & Ethics
