@@ -292,9 +292,9 @@ The **Opportunity Cost of Capital** is the **return forgone** when spending \$1 
 
 > “How do markets *actually* value the future?”
 
-- Sets parameters based on **observed economic behavior**, not ethical judgments  
+- Sets parameters based on **observed market behavior**, not ethical judgments  
   - $\rho$: **higher** (≈ 1–2%) — reflects society’s **revealed time preference** in saving and investment decisions  
-  - $\eta$ (**Higher**, ≈ 1.5, inferred from **market data**) — means society places **greater weight on poorer or earlier generations**
+  - $\eta$ (**Higher**, ≈ 1.5) — means society places **greater weight on poorer or earlier generations**
   - $g$: assumes **stronger long-run growth** (e.g., 2%), consistent with **historical productivity trends**  
 - **Result:** Higher SDR (≈ 4–5%) → **less weight on distant future impacts** and supports  relatively **gradual, cost-efficient mitigation og GHG**
 
