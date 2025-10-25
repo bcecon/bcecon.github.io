@@ -214,7 +214,7 @@ The **discount rate** answers a fundamental question:
   - Through **observed market outcomes** → the **market-based (descriptive)** approach
   - Through **ethical principles** about intergenerational welfare → the **social (prescriptive)** approach  
 
-## 🌱 Sustainability and Dynamic Efficiency
+## ⚖️ Dynamic Efficiency and Resource Allocation
 
 <div style="display:block; margin:-15px;"></div>
 
@@ -231,7 +231,7 @@ The **discount rate** answers a fundamental question:
 <!--   - <u>How much of today’s output should we **consume now** versus **invest for the future** (e.g., in renewable energy or infrastructure)</u>? -->
 
 
-- **Sustainability**: To maximize **overall well-being across generations**, **dynamic efficiency** seeks a path that **balances** present and future welfare:
+- To maximize **overall well-being across generations**, **dynamic efficiency** seeks a path that **balances** present and future welfare:
   - <u>How much of today’s output should we **consume now** versus **invest for the future** (e.g., in renewable energy or infrastructure)?</u>
 
 
