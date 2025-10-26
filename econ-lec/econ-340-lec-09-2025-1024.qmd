@@ -205,7 +205,6 @@ where $r$ is the **annual percentage rate** (not in decimal form).
 
 ## Why Discount the Future?
 
-
 The **discount rate** answers a fundamental question:  
 
 > _At what rate should society **discount future benefits** so that **sacrificing one unit of consumption today** is **fairly balanced by gains to future well-being**?_
@@ -214,32 +213,35 @@ The **discount rate** answers a fundamental question:
   - Through **observed market outcomes** → the **market-based (descriptive)** approach
   - Through **ethical principles** about intergenerational welfare → the **social (prescriptive)** approach  
 
-## ⚖️ Dynamic Efficiency and Resource Allocation
-
-<div style="display:block; margin:-15px;"></div>
-
-  $$
-  U(C_{t}) = \frac{C_{t}^{1-\eta} - 1}{1 - \eta} \qquad\text{and}\qquad    C_t + I_t = Y_t
-  $$
-<div style="display:block; margin:-15px;"></div>
-
-- **Resource Allocation Across Generations**: In each period $t$, total output ($Y_t$) can be used for **consumption** or **investment**:   
-  - **Consumption ($C_t$):** provides **immediate welfare** for the current generation   
-  - **Investment ($I_t$):** builds **future productive capacity**, benefiting future generations  
-
-<!-- - To maximize overall well-being across generations, **dynamic efficiency** asks for efficient path that **balances** present and future welfare   —    -->
-<!--   - <u>How much of today’s output should we **consume now** versus **invest for the future** (e.g., in renewable energy or infrastructure)</u>? -->
 
 
-- To maximize **overall well-being across generations**, **dynamic efficiency** seeks a path that **balances** present and future welfare:
-  - <u>How much of today’s output should we **consume now** versus **invest for the future** (e.g., in renewable energy or infrastructure)?</u>
+## Social Discount Rate (SDR)
+
+<div style="display:block; margin:-10px;"></div>
+
+$$
+\text{SDR} = \color{#d55e00}{\rho} + \color{#0072b2}{\eta}\cdot \color{#009e73}{g}
+$$
+
+<div style="display:block; margin:-20px;"></div>
+
+- $\color{#d55e00}{\rho}$: <u>**pure rate of time preference**</u> — captures **impatience** or preference for present welfare over future welfare  
+- $\color{#009e73}{g}$: <u>**growth rate of consumption**</u> — reflects how **average living standards** or **income per person** grow over time
+- $\color{#0072b2}{\eta}$: <u>**elasticity of marginal utility of consumption**</u> — measures how quickly **the extra satisfaction (utility)** from consumption **declines as people become richer**  
+- **Welfare growth effect:** $\color{#0072b2}{\eta}$ and $\color{#009e73}{g}$ together determine how the growth in income ($\color{#009e73}{g}$) translates into growth in **social welfare**.  
+  - $\color{#009e73}{g}$ drives the rise in **consumption**
+  - $\color{#0072b2}{\eta}$ adjusts how much **extra happiness** that additional consumption brings.
+
+<!-- - **Wealth effect:** $\color{#0072b2}{\eta}$ and $\color{#009e73}{g}$ together determine how **fast overall welfare grows** as society becomes wealthier -->
 
 
-<!-- - A dynamically  —   -->
-<!--   using resources so that **no generation’s well-being can be improved** without **reducing another’s.** -->
+  <!-- - When people are **poor**, an extra dollar raises happiness a lot   -->
+  <!-- - When people are **richer**, an extra dollar adds little -->
+  <!-- - **Inequality aversion:** a higher $\color{#0072b2}{\eta}$ means society **cares more about equalizing well-being** across generations — but it also **raises the SDR** if future generations are expected to be richer -->
+  <!-- - **Inequality aversion:** a higher $\color{#0072b2}{\eta}$ means society values **additional income for poorer generations** more than for richer ones   -->
   
-  
-## Linking $\eta$, Diminishing Utility, and Fairness
+
+## Linking $\color{#0072b2}{\eta}$, Diminishing Utility, and Fairness
 
 
 ::::{.columns}
@@ -256,47 +258,49 @@ The **discount rate** answers a fundamental question:
   <!-- - A dollar means **less** to someone already well-off. -->
 <div style="display:block; margin:-5px;"></div>
 
-- **Higher $\eta$ → Faster Diminishing Marginal Utility**  
+- **Higher $\color{#0072b2}{\eta}$ → Faster Diminishing Marginal Utility**  
   - The **extra satisfaction** from each additional dollar **drops faster** as consumption rises.  
 
-- **Higher $\eta$ → Stronger Concern for Equality**  
-  <!-- - Since extra consumption benefits the poor **more than** the rich, when resources are allocated over time, society with a higher $\eta$ places **more weight on poorer or earlier generations.** -->
-  <!-- - Since an additional unit of consumption increases well-being **more for the poor than for the rich**, a society with a higher $\eta$ places **greater weight on poorer or earlier generations** when allocating consumptions over time. -->
-  - Because extra consumption benefits the poor **more than** the rich, a higher $\eta$ means society places **greater weight on poorer or earlier generations** when choosing how to allocate resources ($C_{t}$ and $I_{t}$) over time.
+- **Higher $\color{#0072b2}{\eta}$ → Stronger Concern for Equality**  
+  <!-- - Since extra consumption benefits the poor **more than** the rich, when resources are allocated over time, society with a higher $\color{#0072b2}{\eta}$ places **more weight on poorer or earlier generations.** -->
+  <!-- - Since an additional unit of consumption increases well-being **more for the poor than for the rich**, a society with a higher $\color{#0072b2}{\eta}$ places **greater weight on poorer or earlier generations** when allocating consumptions over time. -->
+  - Because extra consumption benefits the poor **more than** the rich, a higher $\color{#0072b2}{\eta}$ means society places **greater weight on poorer or earlier generations** when choosing how to allocate resources ($C_{t}$ and $I_{t}$) over time.
   
   
 <!-- - 💡 **Connection:**   -->
-<!--   > A high $\eta$ captures both **how quickly utility declines with wealth**   -->
+<!--   > A high $\color{#0072b2}{\eta}$ captures both **how quickly utility declines with wealth**   -->
 <!--   > **and** how much society values **fairness across individuals and generations.** -->
 
 :::
 ::::
   
 
-## Social Discount Rate (SDR)
-
-<div style="display:block; margin:-10px;"></div>
-
-$$
-\text{SDR} = \rho + \eta \cdot g
-$$
+## ⚖️ Dynamic Efficiency and Resource Allocation
 
 <div style="display:block; margin:-20px;"></div>
 
-- $\rho$: **pure rate of time preference** — captures **impatience** or preference for present welfare over future welfare  
-- $g$: **growth rate of real consumption** — reflects how **average living standards** or **income per person** grow over time
-- $\eta$: **elasticity of marginal utility of consumption** — measures how quickly **the extra satisfaction (utility)** from consumption **declines as people become richer**  
-- **Welfare growth effect:** $\eta$ and $g$ together determine how the growth in income ($g$) translates into growth in **social welfare**.  
-  - $g$ drives the rise in **consumption**
-  - $\eta$ adjusts how much **extra happiness** that additional consumption brings.
+$$
+  \overbrace{U(C_{t})}^{\text{utility}} = \frac{C_{t}^{1-\eta} - 1}{1 - \eta} \qquad\text{and}\qquad    \overbrace{C_t + I_t = Y_t}^{\text{reseource allocation}}\qquad\text{in time } t
+$$
+<div style="display:block; margin:-20px;"></div>
 
-<!-- - **Wealth effect:** $\eta$ and $g$ together determine how **fast overall welfare grows** as society becomes wealthier -->
+- **Resource Allocation Across Generations**: In each period $t$, total income ($Y_t$) can be used for **consumption** or **investment**:   
+  - **Consumption ($C_t$):** provides **immediate welfare** for the current generation   
+  - **Investment ($I_t$):** builds **future productive capacity**, benefiting future generations  
+
+<!-- - To maximize overall well-being across generations, **dynamic efficiency** asks for efficient path that **balances** present and future welfare   —    -->
+<!--   - <u>How much of today’s output should we **consume now** versus **invest for the future** (e.g., in renewable energy or infrastructure)</u>? -->
+
+<div style="display:block; margin:-15px;"></div>
+
+- To maximize **well-being across generations**, **dynamic efficiency** seeks a path that **balances** present and future welfare:
+  - <u>How much of today’s output should we **consume now** versus **invest for the future** (e.g., in renewable energy or infrastructure)?</u>
+    - The $\text{SDR} = \color{#d55e00}{\rho} + \color{#0072b2}{\eta}\cdot \color{#009e73}{g}$ provides the answer.
 
 
-  <!-- - When people are **poor**, an extra dollar raises happiness a lot   -->
-  <!-- - When people are **richer**, an extra dollar adds little -->
-  <!-- - **Inequality aversion:** a higher $\eta$ means society **cares more about equalizing well-being** across generations — but it also **raises the SDR** if future generations are expected to be richer -->
-  <!-- - **Inequality aversion:** a higher $\eta$ means society values **additional income for poorer generations** more than for richer ones   -->
+<!-- - A dynamically  —   -->
+<!--   using resources so that **no generation’s well-being can be improved** without **reducing another’s.** -->
+  
   
 
 
@@ -306,8 +310,8 @@ $$
 |:--|:--|:--|
 | Approach | How markets actually value the future | How we ought to value the future |
 | $\rho$ | $1.5\%$ | $0.1\%$ |
-| $\eta$ | $1.5$ | $1.0$ |
-| $g$ | $2.0\%$ | $1.3\%$ |
+| $\color{#0072b2}{\eta}$ | $1.5$ | $1.0$ |
+| $\color{#009e73}{g}$ | $2.0\%$ | $1.3\%$ |
 | Resulting rate | **$\approx 4.25\%$** | **$\approx 1.4\%$** |
 | Policy implication | **Supports gradual mitigation** — high SDR discounts future damages more heavily, making near-term action seem less urgent | **Strong case for immediate, large cuts** — low SDR gives high present value to avoiding long-term damages |
 
@@ -316,8 +320,8 @@ $$
 
 
 <!-- ::: callout-note -->
-<!-- Although market assumes a higher $\eta$ (greater inequality aversion),   -->
-<!-- his larger $\rho$ and $g$ dominate — resulting in a **higher overall discount rate**. -->
+<!-- Although market assumes a higher $\color{#0072b2}{\eta}$ (greater inequality aversion),   -->
+<!-- his larger $\rho$ and $\color{#009e73}{g}$ dominate — resulting in a **higher overall discount rate**. -->
 <!-- ::: -->
 
 
@@ -332,8 +336,8 @@ The **Opportunity Cost of Capital** is the **return forgone** when spending \$1 
 <!-- what you give up by choosing one investment over another -->
 <!-- - Reflects **how markets actually discount the future**, not how we *should* -->
 
-- Set $\text{SDR} \approx$ **low-risk market return** (e.g., government bonds or average real return on capital)  
-- **Logic:** Funds spent today could have been **invested** — the **opportunity cost of capital** determines the appropriate $\text{SDR}$  
+- Set **SDR** $\approx$ **low-risk market return** (e.g., government bonds or average real return on capital)  
+- **Logic:** Funds spent today could have been **invested** — the **opportunity cost of capital** determines the appropriate **SDR**  
 - **Idea:** Society’s **time preference** between present and future consumption is *revealed* through **saving, investment, and consumption decisions**, as reflected in **observed market returns** and **long-run economic growth**.
 - **Caveat:** Market rates **change over time**  
   - Very low in the 2020s; very high in the early 1980s  
@@ -345,9 +349,9 @@ The **Opportunity Cost of Capital** is the **return forgone** when spending \$1 
 > “How do markets *actually* value the future?”
 
 - Sets parameters based on **observed market behavior**, not ethical judgments  
-  - $\rho$: **higher** (≈ 1–2%) — reflects society’s **revealed time preference** in saving and investment decisions  
-  - $\eta$ (**Higher**, ≈ 1.5) — means society places **greater weight on poorer or earlier generations**
-  - $g$: assumes **stronger long-run growth** (e.g., 2%), consistent with **historical productivity trends**  
+  - $\color{#d55e00}{\rho}$: **higher** (≈ 1–2%) — reflects society’s **revealed time preference** in saving and investment decisions  
+  - $\color{#0072b2}{\eta}$ (**Higher**, ≈ 1.5) — means society places **greater weight on poorer or earlier generations**
+  - $\color{#009e73}{g}$: assumes **stronger long-run growth** (e.g., 2%), consistent with **historical productivity trends**  
 - **Result:** Higher SDR (≈ 4–5%) → **less weight on distant future impacts** and supports  relatively **gradual, cost-efficient mitigation og GHG**
 
 
@@ -356,9 +360,9 @@ The **Opportunity Cost of Capital** is the **return forgone** when spending \$1 
 > “What *should* be the fair tradeoff between present and future welfare?”
 
 - Parameters are chosen based on **ethical reasoning** about **intergenerational fairness**, rather than market behavior  
-  - $\rho$: **very low** (≈ 0–0.1%) → future welfare is valued almost equally to present welfare  
-  - $\eta$: **low** (≈ 1) → society gives **less additional value** to income gains for **richer future generations**  
-  - $g$: assumes **modest long-run growth** (≈ 1–1.5%), consistent with **sustainability goals**  
+  - $\color{#d55e00}{\rho}$: **very low** (≈ 0–0.1%) → future welfare is valued almost equally to present welfare  
+  - $\color{#0072b2}{\eta}$: **low** (≈ 1) → society gives **less additional value** to income gains for **richer future generations**  
+  - $\color{#009e73}{g}$: assumes **modest long-run growth** (≈ 1–1.5%), consistent with **sustainability goals**  
 - **Result:** Low **Social Discount Rate (SDR)** (≈ 1–2%) → places **greater weight on future generations** and **stronger justification for early climate action**
 
 
@@ -373,7 +377,7 @@ The **Opportunity Cost of Capital** is the **return forgone** when spending \$1 
 
 <!-- ## 📉 How Assumptions Shift the Discount Rate -->
 
-<!-- - Increasing $\rho$ (e.g., $\rho = 1.5\%$) with similar $g$ and $\eta$ $\Rightarrow$ $r \approx 3.4\%$   -->
+<!-- - Increasing $\rho$ (e.g., $\rho = 1.5\%$) with similar $\color{#009e73}{g}$ and $\color{#0072b2}{\eta}$ $\Rightarrow$ $r \approx 3.4\%$   -->
 <!-- - Over **100 years**, $r = 3.4\%$ yields a PV about **one-seventh** of that at $r = 1.4\%$   -->
 <!-- - **Implication:** The chosen discount rate can **reverse policy conclusions** for **long-horizon** issues (e.g., climate) -->
 
@@ -394,8 +398,8 @@ The **Opportunity Cost of Capital** is the **return forgone** when spending \$1 
 <!-- - **Philosophy:** Use **observed market behavior** (returns on capital / bond yields)   -->
 <!-- - **Logic:** Society *reveals* time preferences via **saving, investment, consumption**   -->
 <!-- - **Assumption:** Real discount rate $\approx \mathbf{4.25\%}$ (historical returns)   -->
-<!-- 	-	$\rho$ and $\eta$ are inferred from market behavior and historical returns. -->
-<!-- 	-	$g$ comes from projected economic growth  -->
+<!-- 	-	$\rho$ and $\color{#0072b2}{\eta}$ are inferred from market behavior and historical returns. -->
+<!-- 	-	$\color{#009e73}{g}$ comes from projected economic growth  -->
 <!-- - **Implication:** **Higher $r$ (≈4–5%)** $\Rightarrow$ less weight on distant damages $\Rightarrow$ **gradual, cost-efficient mitigation of GHG** -->
 
 
@@ -403,13 +407,13 @@ The **Opportunity Cost of Capital** is the **return forgone** when spending \$1 
 ## 📊 Policy Relevance & Ethics
 
 - **2018 Survey of Economists:**  
-  - Mean = **2.3%**, Median = **2.0%** (real SDR for intergenerational global projects)  
+  - Mean = **2.3%**, Median = **2.0%** (**SDR** for intergenerational global projects)  
   - **68%** of economists recommend a rate between **1–3%**  
-  - **Trend:** Steady shift **toward lower discount rates** since 2001, reflecting greater concern for long-term welfare  
-- **High $r$** → prioritizes the **present**, discounting future impacts heavily  
-- **Low $r$** → gives greater **weight to future generations**  
+  - **Trend:** Steady shift **toward lower SDR** since 2001, reflecting greater concern for long-term welfare  
+- **High SDR** → prioritizes the **present**, discounting future impacts heavily  
+- **Low SDR** → gives greater **weight to future generations**  
 - In **environmental cost–benefit analysis** (e.g., climate policy):  
-  - **Costs occur now**, **benefits arise later** → a **lower $r$** supports **stronger environmental protection**  
+  - **Costs occur now**, **benefits arise later** → a **lower SDR** supports **stronger environmental protection**  
 - There is no single “correct” rate — analysts should be **transparent**, **justify their assumptions**, and **test results through sensitivity analysis**.
 
 
@@ -564,7 +568,7 @@ Even if $PV_{NB} > 0$:
 
 
 
-## Distributional and Ethical Issues ⚖️
+##  ⚖️ Distributional and Ethical Issues
 
 - CBA aggregates all PV benefits and costs across society  
   → ignores **who gains** and **who bears the costs**

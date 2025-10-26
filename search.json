@@ -3672,42 +3672,42 @@
     "href": "econ-lec/econ-340-lec-09-2025-1024.html#social-discount-rate-sdr",
     "title": "Lecture 9",
     "section": "Social Discount Rate (SDR)",
-    "text": "Social Discount Rate (SDR)\n\n\n\n\\[\n\\text{SDR} = \\rho + \\eta \\cdot g\n\\]\n\n\n\n\n\\(\\rho\\): pure rate of time preference — captures impatience or preference for present welfare over future welfare\n\n\\(g\\): growth rate of real consumption — reflects how average living standards or income per person grow over time\n\\(\\eta\\): elasticity of marginal utility of consumption — measures how quickly the extra satisfaction (utility) from consumption declines as people become richer\n\nWelfare growth effect: \\(\\eta\\) and \\(g\\) together determine how the growth in income (\\(g\\)) translates into growth in social welfare.\n\n\\(g\\) drives the rise in consumption\n\\(\\eta\\) adjusts how much extra happiness that additional consumption brings."
+    "text": "Social Discount Rate (SDR)\n\n\n\n\\[\n\\text{SDR} = \\color{#d55e00}{\\rho} + \\color{#0072b2}{\\eta}\\cdot \\color{#009e73}{g}\n\\]\n\n\n\n\n\\(\\color{#d55e00}{\\rho}\\): pure rate of time preference — captures impatience or preference for present welfare over future welfare\n\n\\(\\color{#009e73}{g}\\): growth rate of consumption — reflects how average living standards or income per person grow over time\n\\(\\color{#0072b2}{\\eta}\\): elasticity of marginal utility of consumption — measures how quickly the extra satisfaction (utility) from consumption declines as people become richer\n\nWelfare growth effect: \\(\\color{#0072b2}{\\eta}\\) and \\(\\color{#009e73}{g}\\) together determine how the growth in income (\\(\\color{#009e73}{g}\\)) translates into growth in social welfare.\n\n\\(\\color{#009e73}{g}\\) drives the rise in consumption\n\\(\\color{#0072b2}{\\eta}\\) adjusts how much extra happiness that additional consumption brings."
   },
   {
     "objectID": "econ-lec/econ-340-lec-09-2025-1024.html#ethical-prescriptive-approach",
     "href": "econ-lec/econ-340-lec-09-2025-1024.html#ethical-prescriptive-approach",
     "title": "Lecture 9",
     "section": "2️⃣ Ethical (Prescriptive) Approach",
-    "text": "2️⃣ Ethical (Prescriptive) Approach\n\n“What should be the fair tradeoff between present and future welfare?”\n\n\nParameters are chosen based on ethical reasoning about intergenerational fairness, rather than market behavior\n\n\\(\\rho\\): very low (≈ 0–0.1%) → future welfare is valued almost equally to present welfare\n\n\\(\\eta\\): low (≈ 1) → society gives less additional value to income gains for richer future generations\n\n\\(g\\): assumes modest long-run growth (≈ 1–1.5%), consistent with sustainability goals\n\n\nResult: Low Social Discount Rate (SDR) (≈ 1–2%) → places greater weight on future generations and stronger justification for early climate action"
+    "text": "2️⃣ Ethical (Prescriptive) Approach\n\n“What should be the fair tradeoff between present and future welfare?”\n\n\nParameters are chosen based on ethical reasoning about intergenerational fairness, rather than market behavior\n\n\\(\\color{#d55e00}{\\rho}\\): very low (≈ 0–0.1%) → future welfare is valued almost equally to present welfare\n\n\\(\\color{#0072b2}{\\eta}\\): low (≈ 1) → society gives less additional value to income gains for richer future generations\n\n\\(\\color{#009e73}{g}\\): assumes modest long-run growth (≈ 1–1.5%), consistent with sustainability goals\n\n\nResult: Low Social Discount Rate (SDR) (≈ 1–2%) → places greater weight on future generations and stronger justification for early climate action"
   },
   {
     "objectID": "econ-lec/econ-340-lec-09-2025-1024.html#market-based-descriptive-approach",
     "href": "econ-lec/econ-340-lec-09-2025-1024.html#market-based-descriptive-approach",
     "title": "Lecture 9",
     "section": "1️⃣ Market-Based (Descriptive) Approach",
-    "text": "1️⃣ Market-Based (Descriptive) Approach\n\n\n\nNote\n\n\nThe Opportunity Cost of Capital is the return forgone when spending $1 today on a project, instead of investing that same $1 in the best available alternative (for example, in private capital markets or government bonds).\n\n\n\n\n\n\nSet \\(\\text{SDR} \\approx\\) low-risk market return (e.g., government bonds or average real return on capital)\n\nLogic: Funds spent today could have been invested — the opportunity cost of capital determines the appropriate \\(\\text{SDR}\\)\n\nIdea: Society’s time preference between present and future consumption is revealed through saving, investment, and consumption decisions, as reflected in observed market returns and long-run economic growth.\nCaveat: Market rates change over time\n\nVery low in the 2020s; very high in the early 1980s"
+    "text": "1️⃣ Market-Based (Descriptive) Approach\n\n\n\nNote\n\n\nThe Opportunity Cost of Capital is the return forgone when spending $1 today on a project, instead of investing that same $1 in the best available alternative (for example, in private capital markets or government bonds).\n\n\n\n\n\n\nSet SDR \\(\\approx\\) low-risk market return (e.g., government bonds or average real return on capital)\n\nLogic: Funds spent today could have been invested — the opportunity cost of capital determines the appropriate SDR\n\nIdea: Society’s time preference between present and future consumption is revealed through saving, investment, and consumption decisions, as reflected in observed market returns and long-run economic growth.\nCaveat: Market rates change over time\n\nVery low in the 2020s; very high in the early 1980s"
   },
   {
     "objectID": "econ-lec/econ-340-lec-09-2025-1024.html#market-based-descriptive-approach-1",
     "href": "econ-lec/econ-340-lec-09-2025-1024.html#market-based-descriptive-approach-1",
     "title": "Lecture 9",
     "section": "1️⃣ Market-Based (Descriptive) Approach",
-    "text": "1️⃣ Market-Based (Descriptive) Approach\n\n“How do markets actually value the future?”\n\n\nSets parameters based on observed market behavior, not ethical judgments\n\n\\(\\rho\\): higher (≈ 1–2%) — reflects society’s revealed time preference in saving and investment decisions\n\n\\(\\eta\\) (Higher, ≈ 1.5) — means society places greater weight on poorer or earlier generations\n\\(g\\): assumes stronger long-run growth (e.g., 2%), consistent with historical productivity trends\n\n\nResult: Higher SDR (≈ 4–5%) → less weight on distant future impacts and supports relatively gradual, cost-efficient mitigation og GHG"
+    "text": "1️⃣ Market-Based (Descriptive) Approach\n\n“How do markets actually value the future?”\n\n\nSets parameters based on observed market behavior, not ethical judgments\n\n\\(\\color{#d55e00}{\\rho}\\): higher (≈ 1–2%) — reflects society’s revealed time preference in saving and investment decisions\n\n\\(\\color{#0072b2}{\\eta}\\) (Higher, ≈ 1.5) — means society places greater weight on poorer or earlier generations\n\\(\\color{#009e73}{g}\\): assumes stronger long-run growth (e.g., 2%), consistent with historical productivity trends\n\n\nResult: Higher SDR (≈ 4–5%) → less weight on distant future impacts and supports relatively gradual, cost-efficient mitigation og GHG"
   },
   {
     "objectID": "econ-lec/econ-340-lec-09-2025-1024.html#discounting-climate-change-two-lenses",
     "href": "econ-lec/econ-340-lec-09-2025-1024.html#discounting-climate-change-two-lenses",
     "title": "Lecture 9",
     "section": "Discounting Climate Change — Two Lenses",
-    "text": "Discounting Climate Change — Two Lenses\n\n\n\n\n\n\n\n\nFeature\nMarket-based\nEthical\n\n\n\n\nApproach\nHow markets actually value the future\nHow we ought to value the future\n\n\n\\(\\rho\\)\n\\(1.5\\%\\)\n\\(0.1\\%\\)\n\n\n\\(\\eta\\)\n\\(1.5\\)\n\\(1.0\\)\n\n\n\\(g\\)\n\\(2.0\\%\\)\n\\(1.3\\%\\)\n\n\nResulting rate\n\\(\\approx 4.25\\%\\)\n\\(\\approx 1.4\\%\\)\n\n\nPolicy implication\nSupports gradual mitigation — high SDR discounts future damages more heavily, making near-term action seem less urgent\nStrong case for immediate, large cuts — low SDR gives high present value to avoiding long-term damages"
+    "text": "Discounting Climate Change — Two Lenses\n\n\n\n\n\n\n\n\nFeature\nMarket-based\nEthical\n\n\n\n\nApproach\nHow markets actually value the future\nHow we ought to value the future\n\n\n\\(\\rho\\)\n\\(1.5\\%\\)\n\\(0.1\\%\\)\n\n\n\\(\\color{#0072b2}{\\eta}\\)\n\\(1.5\\)\n\\(1.0\\)\n\n\n\\(\\color{#009e73}{g}\\)\n\\(2.0\\%\\)\n\\(1.3\\%\\)\n\n\nResulting rate\n\\(\\approx 4.25\\%\\)\n\\(\\approx 1.4\\%\\)\n\n\nPolicy implication\nSupports gradual mitigation — high SDR discounts future damages more heavily, making near-term action seem less urgent\nStrong case for immediate, large cuts — low SDR gives high present value to avoiding long-term damages"
   },
   {
     "objectID": "econ-lec/econ-340-lec-09-2025-1024.html#policy-relevance-ethics",
     "href": "econ-lec/econ-340-lec-09-2025-1024.html#policy-relevance-ethics",
     "title": "Lecture 9",
     "section": "📊 Policy Relevance & Ethics",
-    "text": "📊 Policy Relevance & Ethics\n\n2018 Survey of Economists:\n\nMean = 2.3%, Median = 2.0% (real SDR for intergenerational global projects)\n\n68% of economists recommend a rate between 1–3%\n\nTrend: Steady shift toward lower discount rates since 2001, reflecting greater concern for long-term welfare\n\n\nHigh \\(r\\) → prioritizes the present, discounting future impacts heavily\n\nLow \\(r\\) → gives greater weight to future generations\n\nIn environmental cost–benefit analysis (e.g., climate policy):\n\nCosts occur now, benefits arise later → a lower \\(r\\) supports stronger environmental protection\n\n\nThere is no single “correct” rate — analysts should be transparent, justify their assumptions, and test results through sensitivity analysis."
+    "text": "📊 Policy Relevance & Ethics\n\n2018 Survey of Economists:\n\nMean = 2.3%, Median = 2.0% (SDR for intergenerational global projects)\n\n68% of economists recommend a rate between 1–3%\n\nTrend: Steady shift toward lower SDR since 2001, reflecting greater concern for long-term welfare\n\n\nHigh SDR → prioritizes the present, discounting future impacts heavily\n\nLow SDR → gives greater weight to future generations\n\nIn environmental cost–benefit analysis (e.g., climate policy):\n\nCosts occur now, benefits arise later → a lower SDR supports stronger environmental protection\n\n\nThere is no single “correct” rate — analysts should be transparent, justify their assumptions, and test results through sensitivity analysis."
   },
   {
     "objectID": "econ-lec/econ-340-lec-09-2025-1024.html#what-is-costbenefit-analysis-cba",
@@ -3776,8 +3776,8 @@
     "objectID": "econ-lec/econ-340-lec-09-2025-1024.html#distributional-and-ethical-issues",
     "href": "econ-lec/econ-340-lec-09-2025-1024.html#distributional-and-ethical-issues",
     "title": "Lecture 9",
-    "section": "Distributional and Ethical Issues ⚖️",
-    "text": "Distributional and Ethical Issues ⚖️\n\nCBA aggregates all PV benefits and costs across society\n→ ignores who gains and who bears the costs\nExample:\n\nPV benefits → wealthier households (longer lifespan, better access)\nPV costs → lower-income communities (energy price hikes)\n\nEven with positive \\(PV_{NB}\\), may still be inequitable"
+    "section": "⚖️ Distributional and Ethical Issues",
+    "text": "⚖️ Distributional and Ethical Issues\n\nCBA aggregates all PV benefits and costs across society\n→ ignores who gains and who bears the costs\nExample:\n\nPV benefits → wealthier households (longer lifespan, better access)\nPV costs → lower-income communities (energy price hikes)\n\nEven with positive \\(PV_{NB}\\), may still be inequitable"
   },
   {
     "objectID": "econ-lec/econ-340-lec-09-2025-1024.html#social-discount-rate-sdr-1",
@@ -3805,7 +3805,7 @@
     "href": "econ-lec/econ-340-lec-09-2025-1024.html#dynamic-efficiency-and-resource-allocation",
     "title": "Lecture 9",
     "section": "⚖️ Dynamic Efficiency and Resource Allocation",
-    "text": "⚖️ Dynamic Efficiency and Resource Allocation\n\n\n\n\\[\n  U(C_{t}) = \\frac{C_{t}^{1-\\eta} - 1}{1 - \\eta} \\qquad\\text{and}\\qquad    C_t + I_t = Y_t\n  \\]\n\n\n\n\nResource Allocation Across Generations: In each period \\(t\\), total output (\\(Y_t\\)) can be used for consumption or investment:\n\nConsumption (\\(C_t\\)): provides immediate welfare for the current generation\n\nInvestment (\\(I_t\\)): builds future productive capacity, benefiting future generations\n\n\n\n\n\nTo maximize overall well-being across generations, dynamic efficiency seeks a path that balances present and future welfare:\n\nHow much of today’s output should we consume now versus invest for the future (e.g., in renewable energy or infrastructure)?"
+    "text": "⚖️ Dynamic Efficiency and Resource Allocation\n\n\n\n\\[\n  \\overbrace{U(C_{t})}^{\\text{utility}} = \\frac{C_{t}^{1-\\eta} - 1}{1 - \\eta} \\qquad\\text{and}\\qquad    \\overbrace{C_t + I_t = Y_t}^{\\text{reseource allocation}}\\qquad\\text{in time } t\n\\]\n\n\n\n\nResource Allocation Across Generations: In each period \\(t\\), total income (\\(Y_t\\)) can be used for consumption or investment:\n\nConsumption (\\(C_t\\)): provides immediate welfare for the current generation\n\nInvestment (\\(I_t\\)): builds future productive capacity, benefiting future generations\n\n\n\n\n\n\n\n\nTo maximize well-being across generations, dynamic efficiency seeks a path that balances present and future welfare:\n\nHow much of today’s output should we consume now versus invest for the future (e.g., in renewable energy or infrastructure)?\n\nThe \\(\\text{SDR} = \\color{#d55e00}{\\rho} + \\color{#0072b2}{\\eta}\\cdot \\color{#009e73}{g}\\) provides the answer."
   },
   {
     "objectID": "econ-lec/econ-340-lec-09-2025-1024.html#sustainability-dynamic-efficiency-and-resource-allocation",
@@ -3820,5 +3820,12 @@
     "title": "Lecture 9",
     "section": "🌱 Sustainability and Dynamic Efficiency",
     "text": "🌱 Sustainability and Dynamic Efficiency\n\n\n\n\\[\n  U(C_{t}) = \\frac{C_{t}^{1-\\eta} - 1}{1 - \\eta} \\qquad\\text{and}\\qquad    C_t + I_t = Y_t\n  \\]\n\n\n\n\nResource Allocation Across Generations: In each period \\(t\\), total output (\\(Y_t\\)) can be used for consumption or investment:\n\nConsumption (\\(C_t\\)): provides immediate welfare for the current generation\n\nInvestment (\\(I_t\\)): builds future productive capacity, benefiting future generations\n\n\n\n\n\nSustainability: To maximize overall well-being across generations, dynamic efficiency seeks a path that balances present and future welfare:\n\nHow much of today’s output should we consume now versus invest for the future (e.g., in renewable energy or infrastructure)?"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-09-2025-1024.html#linking-color0072b2eta-diminishing-utility-and-fairness",
+    "href": "econ-lec/econ-340-lec-09-2025-1024.html#linking-color0072b2eta-diminishing-utility-and-fairness",
+    "title": "Lecture 9",
+    "section": "Linking \\(\\color{#0072b2}{\\eta}\\), Diminishing Utility, and Fairness",
+    "text": "Linking \\(\\color{#0072b2}{\\eta}\\), Diminishing Utility, and Fairness\n\n\n\n\n\n\n\n\n\n\n\n\n\nHigher \\(\\color{#0072b2}{\\eta}\\) → Faster Diminishing Marginal Utility\n\nThe extra satisfaction from each additional dollar drops faster as consumption rises.\n\nHigher \\(\\color{#0072b2}{\\eta}\\) → Stronger Concern for Equality\n \n\nBecause extra consumption benefits the poor more than the rich, a higher \\(\\color{#0072b2}{\\eta}\\) means society places greater weight on poorer or earlier generations when choosing how to allocate resources (\\(C_{t}\\) and \\(I_{t}\\)) over time."
   }
 ]
