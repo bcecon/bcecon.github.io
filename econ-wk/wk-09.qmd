@@ -1,11 +1,11 @@
 ---
 title: Week 9
-subtitle: Information, Incentives, and Behavioral Anomalies; Climate Change
+subtitle: Information, Incentives, and Behavioral Anomalies; Discount Rates
 date: 2025-10-20
 from: markdown+emoji
 ---
 
-In **Week 9**, we will wrap up the lecture on [Information, Incentives, and Behavioral Anomalies](../econ-lec/econ-340-lec-08-2025-1017.html){target="blank"} and then  transition to our new topic: [Balancing the Present and Future: The Discount Rate](../econ-lec/econ-340-lec-09-2025-1022.html){target="blank"}. This module will directly support your **Team Project – Climate Change and the Individual**, helping you apply the concepts to real-world analysis.
+In **Week 9**, we will wrap up the lecture on [Information, Incentives, and Behavioral Anomalies](../econ-lec/econ-340-lec-08-2025-1017.html){target="blank"} and then  transition to our new topic: [Balancing the Present and Future: The Discount Rate](../econ-lec/econ-340-lec-09-2025-1022.html){target="blank"}.
 
 
 
@@ -19,8 +19,8 @@ In **Week 9**, we will wrap up the lecture on [Information, Incentives, and Beha
 
 # Team Project – Climate Change and the Individual  
 ## Team Project Schedule
-- Week 10 (October 31, Friday, 11:59 P.M.): **Project Kickoff Report**
-- Week 15 (Dec 1–5): **Team Presentations**
+- Week 10 (November 1, Saturday, 11:59 P.M.): **Project Kickoff Report**
+- Week 15 (Dec 3–8): **Team Presentations**
 - Week 17 (December 16, Tuesday, 11:59 P.M.): **Project Proposal**
 
 Project topics should focus on climate change actions, advocacy, awareness, and outreach. For additional ideas, consider the [problems and possibilities](https://www.getitright.earth/problems-possibilities).  
@@ -62,11 +62,6 @@ Your team is encouraged to participate in the campus-wide [Ideas that Matter Stu
 
 <br>
 
-
-## 📚 Recommended Reading
-
-- The following course material summarizes the science of climate change and its impact on the Earth:
-  - [Earth 103: Earth in the Future](https://www.e-education.psu.edu/earth103/), Pennsylvania State University
 
 
 ## 💬 Discussion

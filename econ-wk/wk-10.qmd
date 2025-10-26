@@ -1,0 +1,39 @@
+---
+title: Week 10
+subtitle: Information, Incentives, and Behavioral Anomalies; Climate Change
+date: 2025-10-27
+from: markdown+emoji
+---
+
+In **Week 10**, we will wrap up the lecture on [Balancing the Present and Future: The Discount Rate](../econ-lec/econ-340-lec-09-2025-1022.html){target="blank"}. This module will directly support your **Team Project – Climate Change and the Individual**, helping you apply the concepts to real-world analysis.
+
+
+
+## ✍️ Classwork
+
+- **Classwork 9: _Dynamic Efficiency and Discounting_**  
+  [📄 View Classwork](../econ-cw/econ-340-cw-09.html){target="_blank"}  
+
+
+<br>
+
+
+
+## 📚 Recommended Reading
+
+- The following material summarizes the science of climate change and its impact on the Earth:
+  - [Earth 103: Earth in the Future](https://www.e-education.psu.edu/earth103/), Pennsylvania State University
+
+
+## 💬 Discussion
+
+<font size = "5">Welcome to our Week 10 Discussion Board! 👋 </font>
+
+
+This space is designed for you to engage with your classmates about the material covered in Week 10.
+
+Whether you are looking to delve deeper into the content, share insights, or have questions about the content, this is the perfect place for you.
+
+If you have any specific questions for Byeong-Hak (**@bcecon**) or peer classmate (@GitHub-Username) regarding the Week 10 materials or need clarification on any points, don't hesitate to ask here. 
+
+Let's collaborate and learn from each other!

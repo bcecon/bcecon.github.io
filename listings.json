@@ -1,23 +1,16 @@
 [
   {
-    "listing": "/listing-econ-340-hw.html",
+    "listing": "/listing-econ-340-cw.html",
     "items": [
-      "/econ-hw/econ-340-hw-02.html",
-      "/econ-hw/econ-340-hw-01.html"
-    ]
-  },
-  {
-    "listing": "/listing-econ-340-lec.html",
-    "items": [
-      "/econ-lec/econ-340-lec-01-2025-0825.html",
-      "/econ-lec/econ-340-lec-02-2025-0827.html",
-      "/econ-lec/econ-340-lec-03-2025-0829.html",
-      "/econ-lec/econ-340-lec-04-2025-0905.html",
-      "/econ-lec/econ-340-lec-05-2025-0915.html",
-      "/econ-lec/econ-340-lec-06-2025-0926.html",
-      "/econ-lec/econ-340-lec-07-2025-1003.html",
-      "/econ-lec/econ-340-lec-08-2025-1017.html",
-      "/econ-lec/econ-340-lec-09-2025-1022.html"
+      "/econ-cw/econ-340-cw-01.html",
+      "/econ-cw/econ-340-cw-02.html",
+      "/econ-cw/econ-340-cw-03.html",
+      "/econ-cw/econ-340-cw-04.html",
+      "/econ-cw/econ-340-cw-05.html",
+      "/econ-cw/econ-340-cw-06.html",
+      "/econ-cw/econ-340-cw-07.html",
+      "/econ-cw/econ-340-cw-08.html",
+      "/econ-cw/econ-340-cw-09.html"
     ]
   },
   {
@@ -50,16 +43,24 @@
     ]
   },
   {
-    "listing": "/listing-econ-340-cw.html",
+    "listing": "/listing-econ-340-lec.html",
     "items": [
-      "/econ-cw/econ-340-cw-01.html",
-      "/econ-cw/econ-340-cw-02.html",
-      "/econ-cw/econ-340-cw-03.html",
-      "/econ-cw/econ-340-cw-04.html",
-      "/econ-cw/econ-340-cw-05.html",
-      "/econ-cw/econ-340-cw-06.html",
-      "/econ-cw/econ-340-cw-07.html",
-      "/econ-cw/econ-340-cw-08.html"
+      "/econ-lec/econ-340-lec-01-2025-0825.html",
+      "/econ-lec/econ-340-lec-02-2025-0827.html",
+      "/econ-lec/econ-340-lec-03-2025-0829.html",
+      "/econ-lec/econ-340-lec-04-2025-0905.html",
+      "/econ-lec/econ-340-lec-05-2025-0915.html",
+      "/econ-lec/econ-340-lec-06-2025-0926.html",
+      "/econ-lec/econ-340-lec-07-2025-1003.html",
+      "/econ-lec/econ-340-lec-08-2025-1017.html",
+      "/econ-lec/econ-340-lec-09-2025-1024.html"
+    ]
+  },
+  {
+    "listing": "/listing-econ-340-hw.html",
+    "items": [
+      "/econ-hw/econ-340-hw-02.html",
+      "/econ-hw/econ-340-hw-01.html"
     ]
   }
 ]
