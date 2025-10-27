@@ -220,16 +220,16 @@ The **discount rate** answers a fundamental question:
 <div style="display:block; margin:-10px;"></div>
 
 $$
-\text{SDR} = \color{#d55e00}{\rho} + \color{#0072b2}{\eta}\cdot \color{#009e73}{g}
+\text{SDR}_{t} = \color{#d55e00}{\rho} + \color{#0072b2}{\eta}\cdot \color{#009e73}{g}_{t}
 $$
 
 <div style="display:block; margin:-20px;"></div>
 
 - $\color{#d55e00}{\rho}$: <u>**pure rate of time preference**</u> — captures **impatience** or preference for present welfare over future welfare  
-- $\color{#009e73}{g}$: <u>**growth rate of consumption**</u> — reflects how **average living standards** or **income per person** grow over time
+- $\color{#009e73}{g}_{t}$: <u>**growth rate of consumption**</u> — reflects how **average living standards** grow over time
 - $\color{#0072b2}{\eta}$: <u>**elasticity of marginal utility of consumption**</u> — measures how quickly **the extra satisfaction (utility)** from consumption **declines as people become richer**  
-- **Welfare growth effect:** $\color{#0072b2}{\eta}$ and $\color{#009e73}{g}$ together determine how the growth in income ($\color{#009e73}{g}$) translates into growth in **social welfare**.  
-  - $\color{#009e73}{g}$ drives the rise in **consumption**
+- **Welfare growth effect:** $\color{#0072b2}{\eta}$ and $\color{#009e73}{g}_{t}$ together determine how the growth in consumption ($\color{#009e73}{g}_{t}$) translates into growth in **social welfare**.  
+  - $\color{#009e73}{g}_{t}$ drives the rise in **consumption**
   - $\color{#0072b2}{\eta}$ adjusts how much **extra happiness** that additional consumption brings.
 
 <!-- - **Wealth effect:** $\color{#0072b2}{\eta}$ and $\color{#009e73}{g}$ together determine how **fast overall welfare grows** as society becomes wealthier -->
@@ -295,7 +295,7 @@ $$
 
 - To maximize **well-being across generations**, **dynamic efficiency** seeks a path that **balances** present and future welfare:
   - <u>How much of today’s output should we **consume now** versus **invest for the future** (e.g., in renewable energy or infrastructure)?</u>
-    - The $\text{SDR} = \color{#d55e00}{\rho} + \color{#0072b2}{\eta}\cdot \color{#009e73}{g}$ provides the answer.
+    - The $\text{SDR}_{t} = \color{#d55e00}{\rho} + \color{#0072b2}{\eta}\cdot \color{#009e73}{g}_{t}$ provides the answer.
 
 
 <!-- - A dynamically  —   -->
@@ -309,10 +309,10 @@ $$
 | Feature | **Market-based** | **Ethical** |
 |:--|:--|:--|
 | Approach | How markets actually value the future | How we ought to value the future |
-| $\rho$ | $1.5\%$ | $0.1\%$ |
+| $\rho$ | $1\%$ | $0.1\%$ |
 | $\color{#0072b2}{\eta}$ | $1.5$ | $1.0$ |
-| $\color{#009e73}{g}$ | $2.0\%$ | $1.3\%$ |
-| Resulting rate | **$\approx 4.25\%$** | **$\approx 1.4\%$** |
+| $\color{#009e73}{g}$ | $2.25\%$ | $1.3\%$ |
+| Resulting rate | **$\approx 4.4\%$** | **$\approx 1.4\%$** |
 | Policy implication | **Supports gradual mitigation** — high SDR discounts future damages more heavily, making near-term action seem less urgent | **Strong case for immediate, large cuts** — low SDR gives high present value to avoiding long-term damages |
 
 <div style="display:block; margin:-15px;"></div>
@@ -346,24 +346,25 @@ The **Opportunity Cost of Capital** is the **return forgone** when spending \$1 
 
 ## 1️⃣  Market-Based (Descriptive) Approach
 
-> “How do markets *actually* value the future?”
+> “What do *markets reveal* about valuing the future?”
 
 - Sets parameters based on **observed market behavior**, not ethical judgments  
-  - $\color{#d55e00}{\rho}$: **higher** (≈ 1–2%) — reflects society’s **revealed time preference** in saving and investment decisions  
+  - $\color{#d55e00}{\rho}$: **higher** (≈ 1%) — reflects society’s **revealed time preference** in saving and investment decisions  
   - $\color{#0072b2}{\eta}$ (**Higher**, ≈ 1.5) — means society places **greater weight on poorer or earlier generations**
-  - $\color{#009e73}{g}$: assumes **stronger long-run growth** (e.g., 2%), consistent with **historical productivity trends**  
-- **Result:** Higher SDR (≈ 4–5%) → **less weight on distant future impacts** and supports  relatively **gradual, cost-efficient mitigation og GHG**
+  - $\color{#009e73}{g}$: assumes **stronger long-run growth** (e.g., 2.25%), consistent with **historical productivity trends**  
+- **Result:** Higher **SDR** (≈ 4.4%) → **less weight on distant future impacts** and supports  relatively **gradual, cost-efficient mitigation of GHG**
 
 
 ## 2️⃣ Ethical (Prescriptive) Approach
 
-> “What *should* be the fair tradeoff between present and future welfare?”
+> “How *should* markets *actually* value the future?”
 
 - Parameters are chosen based on **ethical reasoning** about **intergenerational fairness**, rather than market behavior  
   - $\color{#d55e00}{\rho}$: **very low** (≈ 0–0.1%) → future welfare is valued almost equally to present welfare  
   - $\color{#0072b2}{\eta}$: **low** (≈ 1) → society gives **less additional value** to income gains for **richer future generations**  
-  - $\color{#009e73}{g}$: assumes **modest long-run growth** (≈ 1–1.5%), consistent with **sustainability goals**  
-- **Result:** Low **Social Discount Rate (SDR)** (≈ 1–2%) → places **greater weight on future generations** and **stronger justification for early climate action**
+  - $\color{#009e73}{g}_{t}$: assumes **modest long-run growth** (≈ 1.3%), which reflects:  
+    - **Gradual improvements in living standards** without relying on **unsustainably rapid innovation** or **excessive resource use**
+- **Result:** Low **SDR** (≈ 1.4%) → places **greater weight on future generations** and **stronger justification for early climate action**
 
 
 
@@ -406,8 +407,8 @@ The **Opportunity Cost of Capital** is the **return forgone** when spending \$1 
 
 ## 📊 Policy Relevance & Ethics
 
-- **2018 Survey of Economists:**  
-  - Mean = **2.3%**, Median = **2.0%** (**SDR** for intergenerational global projects)  
+- **2018 Survey of Economists on the SDR for Intergenerational Global Projects:**  
+  - Mean = **2.3%**, Median = **2.0%**
   - **68%** of economists recommend a rate between **1–3%**  
   - **Trend:** Steady shift **toward lower SDR** since 2001, reflecting greater concern for long-term welfare  
 - **High SDR** → prioritizes the **present**, discounting future impacts heavily  
@@ -576,3 +577,29 @@ Even if $PV_{NB} > 0$:
   - PV benefits → wealthier households (longer lifespan, better access)
   - PV costs → lower-income communities (energy price hikes)
 - Even with positive $PV_{NB}$, may still be **inequitable**
+  - **Efficiency alone is not sufficient** — a policy can maximize total welfare ($PV_{NB} > 0$), while still being **unfair or socially unacceptable**.
+  
+## ⚖️ Why Do Equity Concerns Matter?
+
+- **Efficiency** focuses only on the *size* of the total pie, not on **how the pie is divided**.  
+- Without considering **equity**, benefits may concentrate among the wealthy, while costs fall on vulnerable or marginalized groups.  
+  - Because **market power, wealth, and access to information** often allow higher-income groups to capture more of the benefits and avoid much of the burden. 
+- Ignoring fairness can lead to **social resistance**, **political backlash**,  
+  and **reduced legitimacy** of otherwise efficient policies.  
+- **Equity ensures inclusiveness** — that economic progress also supports  
+  justice, opportunity, and shared well-being.
+
+<div style="display:block; margin:-20px;"></div>
+
+:::callout-note
+- ✅  **Efficiency** tells us **how to grow the pie**;  **equity** tells us **how to share it fairly.**
+:::
+
+## 💡 How Can We Address Equity Concerns?
+
+Economists can address equity concerns by:
+
+1. **Applying distributional weights** — give higher social value to welfare gains for lower-income groups  
+2. **Reporting disaggregated impacts** — show who gains and who loses (by income, region, or demographic)  
+3. **Designing compensatory measures** — use transfers or tax rebates to offset burdens on disadvantaged groups  
+4. **Embedding ethical judgment** — recognize that efficiency alone does not ensure fairness or justice
