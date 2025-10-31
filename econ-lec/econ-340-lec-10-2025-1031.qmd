@@ -1,6 +1,7 @@
 ---
 title: Lecture 10
-subtitle: Climate Change and The Social Cost of Carbon
+subtitle: Understanding Climate Impacts and the Social Cost of Carbon
+
 format:
   clean-revealjs:
     self-contained: false

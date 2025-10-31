@@ -1,6 +1,6 @@
 ---
 title: Classwork 9
-subtitle: Dynamic Efficiency and Discounting
+subtitle: Dynamic Efficiency, Discounting, and the SCC
 date: 2025-10-24
 code-fold: true
 execute:
