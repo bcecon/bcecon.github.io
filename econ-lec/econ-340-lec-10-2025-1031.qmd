@@ -77,7 +77,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 ## 🌐 The IPCC: Scientific Foundation
 
-- The **Intergovernmental Panel on Climate Change (IPCC)** is the **United Nations body** that assesses climate science.  
+- The **Intergovernmental Panel on Climate Change (IPCC)** is the **United Nations body** that provides policymakers with regular scientific assessments on climate change.  
 - It **synthesizes** findings from thousands of peer-reviewed studies — it does **not conduct original research**.  
 - Its reports provide the **scientific foundation** for international agreements like the **Paris Agreement**.  
 - [IPCC AR6 (2021)](https://www.ipcc.ch/report/ar6/wg1/) confirms:  
@@ -132,11 +132,13 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
  
 
-## ☀️ Forcing Levels: 1.9, 2.6, 4.5, 7.0, 8.5
+## ☀️ SSP with Forcing Levels: 1.9, 2.6, 4.5, 7.0, 8.5
 
-<div style="display:block; margin:10px;"></div>
+A **forcing level** tells us _how much additional heat energy_ the Earth retains due to human activities compared with preindustrial conditions.
 
-<div style="font-size:1.5rem; max-width:1000px; margin:0.5rem auto;">
+<div style="display:block; margin:20px;"></div>
+
+<div style="font-size:1.4rem; max-width:1000px; margin:0.5rem auto;">
 
 | **Scenario** | **Forcing (W/m²)** | **Approx. Warming by 2100** | **Description** |
 |:--|:--:|:--:|:--|
