@@ -1,0 +1,740 @@
+---
+title: Lecture 10
+subtitle: Climate Change and The Social Cost of Carbon
+format:
+  clean-revealjs:
+    self-contained: false
+    chalkboard: true
+    incremental: true
+    code-annotations: hover
+    scrollable: false
+
+    # logo: logo-title-slide.png
+author:
+  - name: Byeong-Hak Choe
+    email: bchoe@geneseo.edu
+    affiliations: SUNY Geneseo
+date: 2025-10-31
+execute: 
+  eval: true
+  echo: false
+callout-icon: false
+
+from: markdown+emoji
+include-after-body: target-hover.html # effect.html
+
+# bibliography: refs.bib
+---
+
+```{r setup}
+#| include: false
+
+library(tidyverse)
+library(lubridate)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+library(viridis)
+library(rmarkdown)
+library(gapminder)
+library(ggrepel)
+library(formattable)
+
+theme_set(theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(10,0,0,0)),
+                axis.title.y = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(0,10,0,0)),
+                axis.text.x = element_text(size = rel(1.75)),
+                axis.text.y = element_text(size = rel(1.75)),
+                strip.text = element_text(size = rel(1.5)),
+                legend.position = "top",
+                legend.text = element_text(size = rel(1.5)),
+                legend.title = element_text(size = rel(1.5))
+                )
+          )
+
+# Set global options for color-blind-friendly scales
+# scale_colour_discrete <- function(...) scale_colour_viridis_d(...)
+
+scale_colour_discrete <- function(...) scale_color_colorblind(...)
+scale_fill_discrete <- function(...) scale_fill_colorblind(...)
+
+
+```
+
+
+# 🌍 Climate Change {background-color="#1c4982"}
+
+> <span style="color:#b7e4c7; font-style:italic;">*"The evidence for human-caused climate change is overwhelming, and the consequences are real and serious."*</span>  
+> <span style="color:#b7e4c7; font-style:italic;">— **Intergovernmental Panel on Climate Change (IPCC, 2021)**</span>
+
+
+
+## 🌐 The IPCC: Scientific Foundation
+
+- The **Intergovernmental Panel on Climate Change (IPCC)** is the **United Nations body** that assesses climate science.  
+- It **synthesizes** findings from thousands of peer-reviewed studies — it does **not conduct original research**.  
+- Its reports provide the **scientific foundation** for international agreements like the **Paris Agreement**.  
+- [IPCC AR6 (2021)](https://www.ipcc.ch/report/ar6/wg1/) confirms:  
+
+<div class="fragment" style="font-size:1.75rem; text-align:center; margin-top:1.5rem;">
+  <blockquote>
+    “Human influence has unequivocally warmed the atmosphere, ocean, and land.”
+    <br><span style="font-size:1.5rem;">— IPCC AR6 (2021)</span>
+  </blockquote>
+</div>
+
+
+
+## 🔮 How the IPCC Projects the Future
+
+- The IPCC combines:
+  1. **Climate Models** → simulate how greenhouse gases affect temperature and sea level.  
+  2. **Socioeconomic Scenarios** → describe how population, energy, and policy evolve.  
+
+
+
+<div class="fragment" style="font-size:1.75rem; text-align:center; margin-top:1.5rem;">
+  <blockquote>
+    Together, these form the **Shared Socioeconomic Pathways (SSPs)** — “what if” futures ranging from rapid decarbonization to continued fossil dependence.
+  </blockquote>
+</div>
+ 
+
+## 🌏 Shared Socioeconomic Pathways (SSPs)
+
+<div style="display:block; margin:10px;"></div>
+
+<div style="font-size:1.7rem; max-width:1000px; margin:0.5rem auto;">
+
+| **SSP** | **Name / Description** | **Socioeconomic Theme** |
+|:--:|:--|:--|
+| **SSP1** | *Sustainability* | Green growth, equity, rapid decarbonization |
+| **SSP2** | *Middle of the Road* | Continuation of current trends |
+| **SSP3** | *Regional Rivalry* | Fragmented world, low cooperation |
+| **SSP4** | *Inequality* | Unequal access to technology and adaptation |
+| **SSP5** | *Fossil-Fueled Development* | High growth, carbon-intensive economy |
+
+</div>
+
+<div class="fragment" style="font-size:1.75rem; text-align:center; margin-top:1.5rem;">
+  <blockquote>
+    Each SSP represents a possible pathway for human and economic development.
+  </blockquote>
+</div>
+ 
+ 
+
+ 
+
+## ☀️ Forcing Levels: 1.9, 2.6, 4.5, 7.0, 8.5
+
+<div style="display:block; margin:10px;"></div>
+
+<div style="font-size:1.5rem; max-width:1000px; margin:0.5rem auto;">
+
+| **Scenario** | **Forcing (W/m²)** | **Approx. Warming by 2100** | **Description** |
+|:--|:--:|:--:|:--|
+| **SSP1-1.9** | 1.9 | ~1.4 °C | Net-zero by 2050; 1.5 °C goal (Paris) |
+| **SSP1-2.6** | 2.6 | ~1.8 °C | Strong mitigation |
+| **SSP2-4.5** | 4.5 | ~2.7 °C | Intermediate; moderate policy action |
+| **SSP3-7.0** | 7.0 | ~3.6 °C | High emissions; limited cooperation |
+| **SSP5-8.5** | 8.5 | ~4.4 °C | Fossil-fueled growth; extreme warming |
+
+</div>
+
+
+<div class="fragment" style="font-size:1.75rem; text-align:center; margin-top:1.5rem;">
+  <blockquote>
+    Higher numbers = higher greenhouse forcing → greater warming and impacts.
+  </blockquote>
+</div>
+
+
+ 
+ 
+
+## 📈 Every Tonne Adds Warming
+
+<div style="display:block; margin:-30px;"></div>
+
+:::: {.columns}
+::: {.column width="72.5%"}
+
+<div style="text-align:center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/SRL-image-10.png" alt="Observed vs reconstructed warming; attribution with human & natural vs natural-only forcing" style="max-width: 1000px; width: 100%; border-radius: 10px; box-shadow: 0 0 12px rgba(0,0,0,.15);">
+</div>
+
+:::
+
+::: {.column width="27.5%"}
+
+<div style="display:block; margin:30px;"></div>
+
+- **Near-linear** link between **cumulative CO₂** and **global warming**  
+- Future warming depends on **emissions pathway** (SSP1-1.9 → SSP5-8.5)  
+- Implication: **Cut cumulative emissions** to limit warming
+
+:::
+::::
+
+<!-- ## 📜 Unprecedented Warming & Human Attribution -->
+
+<!-- <div style="display:block; margin:-30px;"></div> -->
+
+<!-- :::: {.columns} -->
+<!-- ::: {.column width="72.5%"} -->
+
+<!-- <div style="text-align:center; width: 100%; margin: auto;"> -->
+<!--   <img src="https://bcdanl.github.io/lec_figs/SRL-image-0.png" alt="Near-linear relationship between cumulative CO₂ and warming with SSP pathways" style="max-width: 1000px; width: 100%; border-radius: 10px; box-shadow: 0 0 12px rgba(0,0,0,.15);"> -->
+<!-- </div> -->
+
+
+<!-- ::: -->
+
+<!-- ::: {.column width="27.5%"} -->
+
+<!-- <div style="display:block; margin:30px;"></div> -->
+
+<!-- - Current warming is **unprecedented in 2,000 years**   -->
+<!-- - Models with **human + natural** forcings match observations; **natural-only** do not   -->
+
+<!-- ::: -->
+<!-- :::: -->
+
+
+
+
+## 📜 Unprecedented Warming & Human Attribution
+
+<div style="display:block; margin:-32.5px;"></div>
+
+<div style="text-align: center; width: 80%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/SRL-image-0.png" alt="Near-linear relationship between cumulative CO₂ and warming with SSP pathways" style="max-width: 1000px; width: 100%; border-radius: 10px; box-shadow: 0 0 12px rgba(0,0,0,.15);">
+</div>
+
+<div style="display:block; margin:-32.5px;"></div>
+
+- Current warming is **unprecedented in 2,000 years**  
+- Models with **human + natural** forcings match observations; **natural-only** do not  
+
+
+
+
+## 🌍 Evidence of a Changing Planet
+
+<div style="font-size:1.75rem; max-width:1000px; margin:0.5rem auto;">
+
+| **Indicator** | **Trend** | **Key Evidence** |
+|:--|:--:|:--|
+| 💨 **CO₂ Concentration** | ⬆️ | From 280 ppm (1850) → 420 ppm (2025) |
+| 🌡 **Global Temperature** | ⬆️ | ~1.2 °C warmer since pre-industrial times |
+| 🌊 **Sea Level** | ⬆️ | Rising ~3.4 mm per year since 1990 |
+| 🧊 **Arctic Ice** | ⬇️ | Summer sea ice down >40% since 1980 |
+| 🔥 **Extreme Events** | ⬆️ | More frequent heatwaves, floods, droughts |
+
+
+<div class="fragment" style="font-size:2rem; text-align:center; margin-top:1.5rem;">
+  <blockquote>
+    The warming trend is clear across multiple independent datasets — atmosphere, oceans, cryosphere, and biosphere.
+  </blockquote>
+</div>
+
+
+
+## 📈 Rising CO₂ in Earth’s Atmosphere
+
+<div align="center">
+{{< video https://youtu.be/8KrgPPO1h0A?si=9V1ZV5XCUlxU1FLh width="1000" height="500" >}}
+</div>
+
+<div style="display:block; margin:-30px;"></div>
+
+<div class="fragment" style="font-size:2rem; text-align:center; margin-top:1.5rem;">
+  <blockquote>
+    The Keeling Curve shows an unbroken rise in CO₂ — the fundamental driver of modern climate change.
+  </blockquote>
+</div>
+
+
+## 🌡 **Observable Impacts**
+<div style="display:block; margin:-10px;"></div>
+
+:::: {.columns}
+::: {.column width="50%"}
+
+### ☀️ **Warming and Heat Extremes**
+- **Record-breaking heatwaves** across **North America, Europe, and Asia**.  
+- **Higher average temperatures** increase **mortality** and reduce **labor productivity**.  
+
+### 💧 **Droughts and Flooding**
+- Intensified **hydrological cycle** — some regions get **drier**, others **wetter**.  
+- **Greater rainfall variability** increases **agricultural** and **water supply risks**.  
+
+:::
+::: {.column width="50%"}
+
+### 🌊 **Sea Level Rise**
+- **Melting ice sheets** + **thermal expansion** = **flooding** in **low-lying cities** and **islands**.  
+- **Coastal infrastructure** and **ecosystems** are under **growing threat**.  
+
+### 🪸 **Ocean Acidification**
+- **Oceans absorb ~25% of emitted CO₂** → **lower pH** → harms **coral reefs** and **shellfish**.  
+
+<div style="display:block; margin:-30px;"></div>
+
+<div class="fragment" style="font-size:1.85rem; text-align:center; margin-top:1.5rem;">
+  <blockquote>
+    <strong>These impacts are already being observed — not just projections.</strong>
+  </blockquote>
+</div>
+
+:::
+::::
+ 
+
+<!-- ## 🧭 Why It Matters -->
+
+<!-- - These scenarios guide projections of: -->
+<!--   - 🌡 **Future temperature and sea level rise** -->
+<!--   - 🌾 **Agricultural productivity and water stress** -->
+<!--   - 💵 **Economic damages and adaptation costs** -->
+<!-- - They form the **scientific and economic basis** for estimating the **Social Cost of Carbon (SCC)**.   -->
+
+<!-- > *Climate change is not a distant threat — its evidence is visible, measurable, and growing stronger each year.* -->
+
+ 
+
+
+# **The Social Cost of Carbon (SCC)** {background-color="#1c4982"}
+
+
+
+## 💰 Unpacking the Social Cost of Carbon
+
+<div align="center">
+
+{{< video https://youtu.be/nDuDUPfJLU0?si=AD0kT4kxeHjpIWCp width="1200" height="600" >}}
+
+</div>
+
+
+## 🌎 What Is the Social Cost of Carbon?
+
+> **Definition:**  
+> The **Social Cost of Carbon (SCC)** is the **monetary estimate** of the economic damages caused by emitting **one additional ton of CO₂** into the atmosphere.
+
+- The "**social cost of carbon**" (SCC) is the present value of future damages from one additional ton of CO2 emissions.
+  - Central tool in **Cost-Benefit Analysis** of regulations  
+  - Expressed in **\$ per ton of CO₂**
+  - Links **climate impacts** to **economic valuation**
+  - Used by **governments and firms** to guide **climate-related policy and investment decisions**
+
+
+## 🧮 How the SCC Is Used in Policy
+
+<div style="text-align: center; width: 77.5%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/scc_explainer.png" alt="Source: Resources for the Future" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+<div style="display:block; margin:-30px;"></div>
+
+
+::::{.columns}
+::: {.column width="50%"}
+#### **If emissions increase...**
+→ Multiply extra tons of CO₂ by the SCC  
+→ Add to **policy costs**
+:::
+::: {.column width="50%"}
+#### **If emissions decrease...**
+→ Multiply reduced tons of CO₂ by the SCC  
+→ Add to **policy benefits**
+:::
+::::
+
+:::
+
+
+
+
+
+<!-- 📘 **Example:**   -->
+<!-- Cleaner air regulations → reduced CO₂ emissions → higher net benefits via SCC valuation. -->
+
+ 
+
+## ⚙️ How the SCC Is Calculated
+
+<div style="font-size:2rem; max-width:1000px; margin:0.5rem auto;">
+
+<table style="width:100%;">
+  <colgroup>
+    <col style="width:10%;">
+    <col style="width:45%;">
+    <col style="width:45%;">
+  </colgroup>
+  <thead>
+    <tr>
+      <th>**Step**</th>
+      <th>**Process**</th>
+      <th>**Purpose**</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="fragment">**1️⃣**</span></td>
+      <td><span class="fragment">Project future **emissions**</span></td>
+      <td><span class="fragment">Based on population, GDP, and energy use</span></td>
+    </tr>
+    <tr>
+      <td><span class="fragment">**2️⃣**</span></td>
+      <td><span class="fragment">Model **climate response**</span></td>
+      <td><span class="fragment">e.g., temperature increase and sea level rise</span></td>
+    </tr>
+    <tr>
+      <td><span class="fragment">**3️⃣**</span></td>
+      <td><span class="fragment">Estimate **economic & social impacts**</span></td>
+      <td><span class="fragment">Agriculture, health, energy, and infrastructure</span></td>
+    </tr>
+    <tr>
+      <td><span class="fragment">**4️⃣**</span></td>
+      <td><span class="fragment">**Discount** future damages</span></td>
+      <td><span class="fragment">Convert to **present-day values**</span></td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+<!-- - 🧩 SCC = Difference in total damages **with vs. without** an extra ton of CO₂ -->
+
+<div style="display:block; margin:20px;"></div>
+
+- 🧮 Computed through **Integrated Assessment Models (IAMs)** that combine **climate science**, **economics**, and **policy responses** in a single framework.  
+  - 💻 Thousands of simulations account for **uncertainty**.
+
+
+
+## 🧩 Seven Key Ingredients of the SCC
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/scc.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+
+## 🔍 Seven Key Ingredients Explained
+
+<span class="fragment">
+1️⃣ **Socioeconomic and Emissions Pathways**  
+   Project how the global economy and emissions evolve under different scenarios.    
+</span>
+
+<span class="fragment">
+2️⃣ **Climate Model**  
+   Quantifies how additional CO₂ affects temperature and sea level.    
+</span>
+
+<span class="fragment">
+3️⃣ **Damage Function**  
+   Links physical climate impacts to economic outcomes—agriculture, health, energy, and property losses.    
+</span>
+
+<span class="fragment">
+4️⃣ **Discounting**  
+   Converts future damages into today’s monetary value; the discount rate reflects how we value future generations.    
+</span>
+
+## 🔍 Seven Key Ingredients Explained
+
+<span class="fragment">
+5️⃣ **Equity**  
+   Accounts for how climate damages affect regions and income groups differently.  
+</span>  
+
+<span class="fragment">
+6️⃣ **Global vs. Domestic Damages**  
+   Determines whether to value global harms or focus only on national impacts—an ethical and policy choice.  
+</span>
+
+<span class="fragment">
+7️⃣ **Uncertainty**  
+   Reflects the wide range of possible outcomes from complex climate and economic systems.   
+</span> 
+
+
+
+## 🔬 Modern IAM Models
+
+- Several major **Integrated Assessment Models (IAMs)** are used to estimate the SCC — including **DICE**, **FUND**, and **PAGE**.  
+- A new-generation IAM, the **Greenhouse Gas Impact Value Estimator (GIVE)**, was developed by **Resources for the Future (RFF)** and **UC Berkeley** (Rennert et al., *Nature*, 2022).  
+- The GIVE model integrates the latest data on **climate science**, **economic damages**, and **discounting**.  
+- Updated estimate:  
+<div style="display:block; margin:-30px;"></div>
+
+  $$ \text{SCC} = \$185\ \text{per ton CO₂} $$
+- Adopted by the **U.S. EPA (2023)** as the central value → **≈ \$190 per ton**.  
+<!-- - This marks a **major increase** from earlier federal estimates (≈ \$50 per ton). -->
+
+- 🔺 [A recent 2025 study](https://sites.google.com/site/adrienbilal) finds SCC values approaching **\$1,500 per ton** (at a 2% discount rate) when accounting for **global temperature shocks**, far significantly higher than previous work.
+
+
+## 💰 The Social Cost of Carbon in Everyday Life
+<div style="display:block; margin:-5px;"></div>
+
+<div style="font-size:1.75rem; max-width:1100px; margin:auto;">
+
+| **Example** | **CO₂ (tons, per year)** | **Social Damage (\$ @ \$190/ton)** |
+|:--|--:|--:|
+| <span class="fragment">🚗 1 car</span> | <span class="fragment">4.6</span> | <span class="fragment">≈ \$874</span> |
+| <span class="fragment">⛽ 1 gallon of gasoline</span> | <span class="fragment">0.0089</span> | <span class="fragment">≈ \$1.69</span> |
+| <span class="fragment">✈️ NYC–LA flight (1 passenger)</span> | <span class="fragment">1.0</span> | <span class="fragment">≈ \$190</span> |
+| <span class="fragment">💡 Typical U.S. home electricity (per year)</span> | <span class="fragment">4.0</span> | <span class="fragment">≈ \$760</span> |
+| <span class="fragment">🏠 Average U.S. household (4 people)</span> | <span class="fragment">—</span> | <span class="fragment">≈ **\$6,000 annual income loss (permanent)** by 2100*</span> |
+| <span class="fragment">🌎 Global Recession Comparison</span> | <span class="fragment">—</span> | <span class="fragment">A **10% GDP drop** ≈ a **permanent global recession** twice larger than 2008</span> |
+
+</div>
+
+<div style="display:block; margin:-34px;"></div>
+
+<div style="font-size:1.4rem; margin-top:0.5rem; color:gray; text-align:center;">
+*Represents GDP about 10% lower **in 2100** than without climate change (~\$15 T loss total, ≈ \$1,500 per person annually).
+</div>
+
+
+## 🇺🇸 The U.S. Cost of Climate Inaction
+
+- Climate damages are projected to cost the U.S. economy **~1–4% of GDP annually by 2100** — equivalent to **\$250 billion–\$1 trillion per year (in today’s dollars)**.  
+- That’s **comparable to, or larger than, the entire U.S. defense budget**.  
+- Even now, **weather and climate disasters already exceed \$100 billion per year** (NOAA).  
+- With unchecked warming, these losses will **multiply**, turning today’s “catastrophic” events into the **new normal**.
+
+<div class="fragment" style="font-size:1.75rem; text-align:center; margin-top:1.5rem;">
+  <blockquote>
+    💬 *The extraordinary becomes ordinary — and the cost of inaction is measured in trillions.*
+  </blockquote>
+</div>
+
+
+
+<!-- ## 🏛️ Where SCC Is Applied -->
+
+<!-- **United States** -->
+
+<!-- - EPA & federal agencies: regulatory analysis   -->
+<!-- - States like **NY, IL** – basis for “zero-emission credits”   -->
+<!-- - **CO, MN, WA** – utility resource planning   -->
+<!-- - **CA** – required in state policy analysis   -->
+
+<!-- **International** -->
+
+<!-- - **Canada (2023)** – adopted EPA’s SCC   -->
+<!-- - **Germany (2024)** – adopted GIVE model with local calibration   -->
+
+<!-- 💡 Even some **carbon tax proposals** in Congress use SCC as the benchmark rate. -->
+
+ 
+## 🧭 How the Discount Rate Shapes Policy
+
+<!-- Determines how much **future climate damages** are valued in **today’s dollars**. -->
+
+<div style="display:block; margin:15px;"></div>
+
+<div style="font-size:1.75rem; max-width:1000px; margin:0.5rem auto;">
+
+| **SDR (%)** | **SCC (US\$ per Ton CO₂)** |
+|:----------------------:|:-------------------------------------------:|
+| **1.5%** | \$308 |
+| **2.0%** | \$185 |
+| **2.5%** | \$118 |
+| **3.0%** | \$80 |
+
+<div style="text-align:center; font-size:0.9rem; color:#666;">
+SCC estimates are based on the <strong>GIVE model</strong> (RFF & UC Berkeley, 2022)
+</div>
+
+| **SDR** | **Interpretation** | **Effect on SCC** |
+|:--|:--|:--|
+| **High** | Values the future much less than the present | ⬇️ Lower SCC |
+| **Low** | Values future generations almost equally | ⬆️ Higher SCC |
+
+</div>
+
+<div style="display:block; margin:15px;"></div>
+
+<div class="fragment" style="font-size:1.75rem; text-align:center; margin-top:1.5rem;">
+  <blockquote>
+    🧠 The choice of SDR reflects both **empirical evidence** *(expected economic growth, market returns)* and **ethical judgment** *(how much we value future well-being)*.
+  </blockquote>
+</div>
+
+ 
+
+## 🌎 Global vs. Domestic Damages
+
+- **Global SCC:** Reflects worldwide climate impacts  
+- **Domestic SCC:** Includes only **U.S. (or national)** damages  
+- Because **CO₂ mixes globally**, every ton emitted anywhere affects the whole planet.  
+- A **domestic-only** approach captures only **10–20%** of total global damages.  
+
+<span class="fragment">
+→ Choice of scope reflects **policy values**:  
+Do we count only national welfare, or **shared global responsibility**?
+</span>
+
+
+## ⚖️ Ethical and Policy Implications
+<div style="display:block; margin:25px;"></div>
+
+### 🌍 Global Approach
+- Recognizes the **shared nature of the atmosphere**  
+- Aligns with **international cooperation** (e.g., Paris Agreement)  
+- Justifies **stronger domestic action**, since it values global welfare  
+
+<div style="display:block; margin:25px;"></div>
+
+### 🇺🇸 Domestic Approach
+- Focuses narrowly on **national self-interest**  
+- Yields **lower SCC values** and weaker incentives to cut emissions  
+- Often used for **legal or regulatory consistency** in federal rulemaking  
+
+
+## 🌍 Why a Global Perspective Matters
+
+> “CO₂ knows no borders.  
+> A ton emitted in New York warms the planet just as much as one emitted in New Delhi.  
+> The true cost of carbon is **global**, even when policies are made domestically.”
+
+- **Global SCC ≈ \$190/ton** (EPA, 2023)  
+- **U.S.-only SCC ≈ \$20–\$40/ton** — just a small share of total global harm  
+- Because climate impacts are **shared worldwide**, no nation bears the full cost of its own emissions  
+<span class="fragment">
+→ **Global cooperation is essential** for efficient and fair climate policy
+</span>
+
+## ⚠️ Uncertainty
+
+
+<div style="text-align:center; width: 66.7%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/give-sdr-dist.png" alt="Observed vs reconstructed warming; attribution with human & natural vs natural-only forcing" style="max-width: 1000px; width: 100%;">
+</div>
+
+<div style="display:block; margin:-20px;"></div>
+
+Because climate, economic growth, and technology are unpredictable:
+
+- Models simulate **thousands of futures**  
+- SCC is best viewed as a **range** rather than a single value  
+- Analysts often use a **central case** + “high-impact scenario”
+
+
+
+## 🧭 Policy Evolution of the SCC
+<div style="display:block; margin:-12.5px;"></div>
+
+- **1981:** Benefit–cost analysis **required for all major federal rules**  
+- **2008:** Courts ruled that agencies **must include the SCC** ([*Center for Biological Diversity v. NHTSA*](https://caselaw.findlaw.com/court/us-9th-circuit/1024716.html))  
+- **2010–2016:** **Obama administration** established the **Interagency Working Group (IWG)** → developed a **global SCC** (≈ **\$50/ton CO₂**) with SDRs of **2.5%, 3%, and 5%**
+- **2017:** **Trump administration** **disbanded the IWG** → adopted **U.S.-only SCC** with **high SDRs (3% & 7%)**, lowering values to **\$1–\$7 per ton**
+- **2021:** **Biden administration** **restored the IWG** and reinstated the **interim global SCC = \$51/ton** (2016 value, inflation-adjusted)  
+- **2023:** **EPA updated** the estimate to **\$190/ton** using the **GIVE model**  
+- **2025:** **Trump administration initiated a major rollback** of SCC methodology under a broader **energy deregulation agenda**  
+
+<!-- <div style="display:block; margin:-15px;"></div> -->
+
+<!-- <div style="font-size:1.75rem; margin-left:1.5rem;"> -->
+<!--   • [*Unleashing American Energy*](https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/)   -->
+<!--   • [*Biggest Deregulatory Action in U.S. History*](https://www.epa.gov/newsreleases/epa-launches-biggest-deregulatory-action-us-history) -->
+<!-- </div> -->
+<!-- ## 🧩 Why SCC Matters -->
+
+<!-- - Turns **climate science → economic signal**   -->
+<!-- - Provides a **unified metric** for evaluating policies   -->
+<!-- - Encourages **carbon pricing** and efficient regulation   -->
+<!-- - Frames climate policy as **investment in avoided damages** -->
+
+<!-- <div class="fragment" style="font-size:1.75rem; text-align:center; margin-top:1.5rem;"> -->
+<!--   <blockquote> -->
+<!--     “Every ton of CO₂ has a cost — even if it isn’t on the price tag.” 🌍💵 -->
+<!--   </blockquote> -->
+<!-- </div> -->
+ 
+
+
+
+
+
+<!-- ## 🌎 Global Recession Comparison -->
+
+<!-- - The **2008 financial crisis** wiped out about **5% of global GDP** at its peak.   -->
+<!-- - Severe climate change could cause **double or more of that loss every single year by 2100**.   -->
+<!-- - So it’s like living through **two Great Recessions every year — indefinitely.** -->
+
+ 
+
+<!-- ## 🏠 Household-Level Impact -->
+
+<!-- - If global GDP losses reach **~10% by 2100**, and global income ≈ **\$150 trillion**,   -->
+<!--   → That’s **\$15 trillion** in annual damages.   -->
+<!-- - Spread across **~10 billion people**, that’s about **\$1,500 per person per year**.   -->
+<!-- - For a **U.S. household of four**, that’s like losing **\$6,000 every year** in income and damages.   -->
+
+
+<!-- <div class="fragment" style="font-size:1.75rem; text-align:center; margin-top:1.5rem;"> -->
+<!--   <blockquote> -->
+<!--     Climate change quietly erodes household welfare — even without a single visible disaster. -->
+<!--   </blockquote> -->
+<!-- </div> -->
+
+
+
+<!-- ## 🇺🇸 U.S. Perspective -->
+
+<!-- - Studies estimate climate damages could cost the U.S. economy **~1–4% of GDP annually by 2100**.   -->
+<!-- - In today’s dollars, that’s **\$250 billion – \$1 trillion per year**.   -->
+<!-- - That’s comparable to, or larger than, the **entire U.S. defense budget**.   -->
+
+
+<!-- <div class="fragment" style="font-size:1.75rem; text-align:center; margin-top:1.5rem;"> -->
+<!--   <blockquote> -->
+<!--     💬 *The cost of inaction is measured in trillions — every decade.* -->
+<!--   </blockquote> -->
+<!-- </div> -->
+
+<!-- ## 🌪 Insurance & Disaster Costs -->
+
+<!-- - Already, U.S. weather disasters cause **\$100+ billion annually** (NOAA data).   -->
+<!-- - With unchecked warming, those damages will **multiply several times over**, normalizing what today we’d call **“catastrophic” losses**.   -->
+
+<!-- <div class="fragment" style="font-size:1.75rem; text-align:center; margin-top:1.5rem;"> -->
+<!--   <blockquote> -->
+<!--     The extraordinary becomes ordinary in a hotter world. -->
+<!--   </blockquote> -->
+<!-- </div> -->
+
+ 
+<!-- ## 🧭 Takeaway -->
+
+<!-- - The numbers are **large enough to matter** and **personal enough to feel**.   -->
+<!-- - A single household’s footprint adds thousands in hidden damages each year.   -->
+<!-- - Scaled globally, the cost of inaction equals **multiple recessions per generation**.   -->
+
+
+<!-- <div class="fragment" style="font-size:1.75rem; text-align:center; margin-top:1.5rem;"> -->
+<!--   <blockquote> -->
+<!--     *Economics and data make the climate crisis measurable — and solvable.* -->
+<!--   </blockquote> -->
+<!-- </div> -->
+
+
+
+
+
+

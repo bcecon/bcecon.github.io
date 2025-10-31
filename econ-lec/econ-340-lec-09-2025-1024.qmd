@@ -81,7 +81,7 @@ pv_wide <- pv_tbl |>
 ```
 
 
-# The Discount Rate {background-color="#1c4982"}
+# **The Discount Rate** {background-color="#1c4982"}
 
 ## Why Discount the Future?
 
@@ -201,7 +201,7 @@ where $r$ is the **annual percentage rate** (not in decimal form).
 
 
 
-# Choosing the Discount Rate: Two Approaches {background-color="#1c4982"}
+# **Choosing the Discount Rate: Two Approaches** {background-color="#1c4982"}
 
 ## Why Discount the Future?
 
