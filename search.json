@@ -927,50 +927,50 @@
     "objectID": "econ-lec/econ-340-lec-09-2025-1024.html#why-discount-the-future",
     "href": "econ-lec/econ-340-lec-09-2025-1024.html#why-discount-the-future",
     "title": "Lecture 9",
-    "section": "",
-    "text": "In most environmental policies, costs/benefits often occur at different times\nConverting everything to real (inflation-adjusted) dollars handles inflation—but not time preference\nPeople (and societies) often prefer benefits now (investment opportunity, uncertainty, impatience)\nTherefore we apply discounting to compare future and present values on a common basis\n\n\n\n\n\n\n\nNote\n\n\n\n\nIdea: $100 today can be worth the same as $200 ten years from now at an appropriate discount rate."
+    "section": "Why Discount the Future?",
+    "text": "Why Discount the Future?\n\nIn most environmental policies, costs/benefits often occur at different times\nConverting everything to real (inflation-adjusted) dollars handles inflation—but not time preference\nPeople (and societies) often prefer benefits now (investment opportunity, uncertainty, impatience)\nTherefore we apply discounting to compare future and present values on a common basis\n\n\n\n\nNote\n\n\n\nIdea: $100 today can be worth the same as $200 ten years from now at an appropriate discount rate."
   },
   {
     "objectID": "econ-lec/econ-340-lec-09-2025-1024.html#present-value-pv-formula",
     "href": "econ-lec/econ-340-lec-09-2025-1024.html#present-value-pv-formula",
     "title": "Lecture 9",
-    "section": "",
-    "text": "Let \\(X_t\\) be a cost/benefit received in \\(t\\) years and \\(r\\) the discount rate:\n\\[\n\\text{PV}(X_t) \\;=\\; \\frac{X_t}{(1+r)^{\\,t}}\n\\]\n\nFurther in time (\\(t\\uparrow\\)) → PV falls\n\nHigher discount rate (\\(r\\uparrow\\)) → PV falls\n\n\n\n\n\n\n\nTip\n\n\n\n\nExamples (for \\(X_t = \\$100\\))\n\n\\(r=3\\%, t=10 \\Rightarrow \\text{PV}=\\$74.41\\)\n\n\\(r=7\\%, t=10 \\Rightarrow \\text{PV}=\\$50.83\\)"
+    "section": "Present Value (PV) Formula",
+    "text": "Present Value (PV) Formula\nLet \\(X_t\\) be a cost/benefit received in \\(t\\) years and \\(r\\) the discount rate:\n\\[\n\\text{PV}(X_t) \\;=\\; \\frac{X_t}{(1+r)^{\\,t}}\n\\]\n\nFurther in time (\\(t\\uparrow\\)) → PV falls\n\nHigher discount rate (\\(r\\uparrow\\)) → PV falls\n\n\n\n\nTip\n\n\n\nExamples (for \\(X_t = \\$100\\))\n\n\\(r=3\\%, t=10 \\Rightarrow \\text{PV}=\\$74.41\\)\n\n\\(r=7\\%, t=10 \\Rightarrow \\text{PV}=\\$50.83\\)"
   },
   {
     "objectID": "econ-lec/econ-340-lec-09-2025-1024.html#how-fast-does-pv-decline",
     "href": "econ-lec/econ-340-lec-09-2025-1024.html#how-fast-does-pv-decline",
     "title": "Lecture 9",
-    "section": "",
-    "text": "High \\(r\\) greatly devalues distant impacts\n\n\\(r=7\\%, t=50\\Rightarrow \\text{PV}=\\$3.39\\) for $100\n\n\\(r=10\\%, t=50\\Rightarrow \\text{PV}=\\$0.85\\)\n\nSmall changes in \\(r\\) matter a lot over long horizons\n\nAfter 100 years, PV at 1% is about seven times greater than the PV at 3%"
+    "section": "How Fast Does PV Decline?",
+    "text": "How Fast Does PV Decline?\n\nHigh \\(r\\) greatly devalues distant impacts\n\n\\(r=7\\%, t=50\\Rightarrow \\text{PV}=\\$3.39\\) for $100\n\n\\(r=10\\%, t=50\\Rightarrow \\text{PV}=\\$0.85\\)\n\nSmall changes in \\(r\\) matter a lot over long horizons\n\nAfter 100 years, PV at 1% is about seven times greater than the PV at 3%"
   },
   {
     "objectID": "econ-lec/econ-340-lec-09-2025-1024.html#pv-of-100-by-discount-rates-and-years",
     "href": "econ-lec/econ-340-lec-09-2025-1024.html#pv-of-100-by-discount-rates-and-years",
     "title": "Lecture 9",
-    "section": "",
-    "text": "Years into the Future (t)\n\n\n\n\nRate\n\n\n0\n\n\n10\n\n\n20\n\n\n30\n\n\n50\n\n\n75\n\n\n100\n\n\n\n\n\n\n1%\n\n\n100\n\n\n90.53\n\n\n81.95\n\n\n74.19\n\n\n60.80\n\n\n47.41\n\n\n36.97\n\n\n\n\n2%\n\n\n100\n\n\n82.03\n\n\n67.30\n\n\n55.21\n\n\n37.15\n\n\n22.65\n\n\n13.80\n\n\n\n\n3%\n\n\n100\n\n\n74.41\n\n\n55.37\n\n\n41.20\n\n\n22.81\n\n\n10.89\n\n\n5.20\n\n\n\n\n4%\n\n\n100\n\n\n67.56\n\n\n45.64\n\n\n30.83\n\n\n14.07\n\n\n5.28\n\n\n1.98\n\n\n\n\n5%\n\n\n100\n\n\n61.39\n\n\n37.69\n\n\n23.14\n\n\n8.72\n\n\n2.58\n\n\n0.76\n\n\n\n\n6%\n\n\n100\n\n\n55.84\n\n\n31.18\n\n\n17.41\n\n\n5.43\n\n\n1.26\n\n\n0.29\n\n\n\n\n7%\n\n\n100\n\n\n50.83\n\n\n25.84\n\n\n13.14\n\n\n3.39\n\n\n0.63\n\n\n0.12\n\n\n\n\n8%\n\n\n100\n\n\n46.32\n\n\n21.45\n\n\n9.94\n\n\n2.13\n\n\n0.31\n\n\n0.05\n\n\n\n\n9%\n\n\n100\n\n\n42.24\n\n\n17.84\n\n\n7.54\n\n\n1.34\n\n\n0.16\n\n\n0.02\n\n\n\n\n10%\n\n\n100\n\n\n38.55\n\n\n14.86\n\n\n5.73\n\n\n0.85\n\n\n0.08\n\n\n0.01"
+    "section": "PV of $100 by Discount Rates and Years",
+    "text": "PV of $100 by Discount Rates and Years\n\n\n\n\n\n\nYears into the Future (t)\n\n\n\n\nRate\n\n\n0\n\n\n10\n\n\n20\n\n\n30\n\n\n50\n\n\n75\n\n\n100\n\n\n\n\n\n\n1%\n\n\n100\n\n\n90.53\n\n\n81.95\n\n\n74.19\n\n\n60.80\n\n\n47.41\n\n\n36.97\n\n\n\n\n2%\n\n\n100\n\n\n82.03\n\n\n67.30\n\n\n55.21\n\n\n37.15\n\n\n22.65\n\n\n13.80\n\n\n\n\n3%\n\n\n100\n\n\n74.41\n\n\n55.37\n\n\n41.20\n\n\n22.81\n\n\n10.89\n\n\n5.20\n\n\n\n\n4%\n\n\n100\n\n\n67.56\n\n\n45.64\n\n\n30.83\n\n\n14.07\n\n\n5.28\n\n\n1.98\n\n\n\n\n5%\n\n\n100\n\n\n61.39\n\n\n37.69\n\n\n23.14\n\n\n8.72\n\n\n2.58\n\n\n0.76\n\n\n\n\n6%\n\n\n100\n\n\n55.84\n\n\n31.18\n\n\n17.41\n\n\n5.43\n\n\n1.26\n\n\n0.29\n\n\n\n\n7%\n\n\n100\n\n\n50.83\n\n\n25.84\n\n\n13.14\n\n\n3.39\n\n\n0.63\n\n\n0.12\n\n\n\n\n8%\n\n\n100\n\n\n46.32\n\n\n21.45\n\n\n9.94\n\n\n2.13\n\n\n0.31\n\n\n0.05\n\n\n\n\n9%\n\n\n100\n\n\n42.24\n\n\n17.84\n\n\n7.54\n\n\n1.34\n\n\n0.16\n\n\n0.02\n\n\n\n\n10%\n\n\n100\n\n\n38.55\n\n\n14.86\n\n\n5.73\n\n\n0.85\n\n\n0.08\n\n\n0.01"
   },
   {
     "objectID": "econ-lec/econ-340-lec-09-2025-1024.html#pv-of-500-billion-comparing-discount-rates",
     "href": "econ-lec/econ-340-lec-09-2025-1024.html#pv-of-500-billion-comparing-discount-rates",
     "title": "Lecture 9",
-    "section": "",
-    "text": "Question\n\nDiscount rates play a critical role in evaluating long-term issues such as climate change.\n\nSuppose a climate policy implemented today will reduce future damages by $500 billion, occurring 50 years from now.\n\nTwo present values of this damage reduction are shown below.\n\nWhich value corresponds to a 2% discount rate, and which corresponds to a 5% discount rate?\n\n\n\n\n\n\n$185,763,941,063\n\n$ 43,601,863,486\n\n\n\n\n\n\n💡 Why it matters: Even small differences in the discount rate can dramatically change how much we value the future — and therefore, how much we act today."
+    "section": "PV of $500 Billion — Comparing Discount Rates",
+    "text": "PV of $500 Billion — Comparing Discount Rates\n\n\n\n\n\nQuestion\n\nDiscount rates play a critical role in evaluating long-term issues such as climate change.\n\nSuppose a climate policy implemented today will reduce future damages by $500 billion, occurring 50 years from now.\n\nTwo present values of this damage reduction are shown below.\n\nWhich value corresponds to a 2% discount rate, and which corresponds to a 5% discount rate?\n\n\n\n\n\n\n$185,763,941,063\n\n$ 43,601,863,486\n\n\n\n\n\n\n💡 Why it matters: Even small differences in the discount rate can dramatically change how much we value the future — and therefore, how much we act today."
   },
   {
     "objectID": "econ-lec/econ-340-lec-09-2025-1024.html#quick-detour-the-value-of-manhattan-island",
     "href": "econ-lec/econ-340-lec-09-2025-1024.html#quick-detour-the-value-of-manhattan-island",
     "title": "Lecture 9",
-    "section": "",
-    "text": "The funds used to purchase Manhattan Island for $24 in 1626!"
+    "section": "💡 Quick Detour: The Value of Manhattan Island",
+    "text": "💡 Quick Detour: The Value of Manhattan Island\n\n\nThe funds used to purchase Manhattan Island for $24 in 1626!"
   },
   {
     "objectID": "econ-lec/econ-340-lec-09-2025-1024.html#quick-detour-the-rule-of-72",
     "href": "econ-lec/econ-340-lec-09-2025-1024.html#quick-detour-the-rule-of-72",
     "title": "Lecture 9",
-    "section": "",
-    "text": "A simple way to estimate how long it takes for a value to double given a fixed annual growth (or interest) rate.\n\n\n\n\\[\n\\text{Years to Double} \\approx \\frac{72}{r}\n\\]\nwhere \\(r\\) is the annual percentage rate (not in decimal form).\n\nThe higher the rate of return, the faster the doubling.\n\nWorks well for rates between 2% and 15%.\n\nUseful for understanding economic/financial growth, inflation, or discounting.\n\nExample: If the economy grows at 3% per year, its size doubles in about 24 years."
+    "section": "💡 Quick Detour: The Rule of 72",
+    "text": "💡 Quick Detour: The Rule of 72\nA simple way to estimate how long it takes for a value to double given a fixed annual growth (or interest) rate.\n\n\n\n\\[\n\\text{Years to Double} \\approx \\frac{72}{r}\n\\]\nwhere \\(r\\) is the annual percentage rate (not in decimal form).\n\nThe higher the rate of return, the faster the doubling.\n\nWorks well for rates between 2% and 15%.\n\nUseful for understanding economic/financial growth, inflation, or discounting.\n\nExample: If the economy grows at 3% per year, its size doubles in about 24 years."
   },
   {
     "objectID": "econ-lec/econ-340-lec-09-2025-1024.html#why-discount-the-future-1",
@@ -1012,7 +1012,7 @@
     "href": "econ-lec/econ-340-lec-09-2025-1024.html#market-based-descriptive-approach",
     "title": "Lecture 9",
     "section": "1️⃣ Market-Based (Descriptive) Approach",
-    "text": "1️⃣ Market-Based (Descriptive) Approach\n\n\n\n\n\n\nNote\n\n\n\nThe Opportunity Cost of Capital is the return forgone when spending $1 today on a project, instead of investing that same $1 in the best available alternative (for example, in private capital markets or government bonds).\n\n\n\n\n\nSet SDR \\(\\approx\\) low-risk market return (e.g., government bonds or average real return on capital)\n\nLogic: Funds spent today could have been invested — the opportunity cost of capital determines the appropriate SDR\n\nIdea: Society’s time preference between present and future consumption is revealed through saving, investment, and consumption decisions, as reflected in observed market returns and long-run economic growth.\nCaveat: Market rates change over time\n\nVery low in the 2020s; very high in the early 1980s"
+    "text": "1️⃣ Market-Based (Descriptive) Approach\n\n\n\nNote\n\n\nThe Opportunity Cost of Capital is the return forgone when spending $1 today on a project, instead of investing that same $1 in the best available alternative (for example, in private capital markets or government bonds).\n\n\n\n\n\n\nSet SDR \\(\\approx\\) low-risk market return (e.g., government bonds or average real return on capital)\n\nLogic: Funds spent today could have been invested — the opportunity cost of capital determines the appropriate SDR\n\nIdea: Society’s time preference between present and future consumption is revealed through saving, investment, and consumption decisions, as reflected in observed market returns and long-run economic growth.\nCaveat: Market rates change over time\n\nVery low in the 2020s; very high in the early 1980s"
   },
   {
     "objectID": "econ-lec/econ-340-lec-09-2025-1024.html#market-based-descriptive-approach-1",
@@ -1061,21 +1061,21 @@
     "href": "econ-lec/econ-340-lec-09-2025-1024.html#example-regulating-ozone-pollution-1",
     "title": "Lecture 9",
     "section": "Example: Regulating Ozone Pollution",
-    "text": "Example: Regulating Ozone Pollution\n\nHypothetical Scenario (Present Value Terms)\n\n\n\n\n\n\n\n\nOption\nPV of Costs (Billion $)\nPV of Benefits (Billion $)\n\n\n\n\nMaintain 75 ppb\n—\n—\n\n\nTighten to 70 ppb\n16\n24\n\n\n\n\\[\nPV_{NB} = PV_B - PV_C = 24 - 16 = 8 \\text{ billion}\n\\]\n\\[\nPV_{B/C} = \\frac{PV_B}{PV_C} = \\frac{24}{16} = 1.5\n\\]\n✅ Positive PV net benefits and \\(PV_{B/C} &gt; 1\\) → Economically justified."
+    "text": "Example: Regulating Ozone Pollution\nHypothetical Scenario (Present Value Terms)\n\n\n\n\n\n\n\n\nOption\nPV of Costs (Billion $)\nPV of Benefits (Billion $)\n\n\n\n\nMaintain 75 ppb\n—\n—\n\n\nTighten to 70 ppb\n16\n24\n\n\n\n\\[\nPV_{NB} = PV_B - PV_C = 24 - 16 = 8 \\text{ billion}\n\\]\n\\[\nPV_{B/C} = \\frac{PV_B}{PV_C} = \\frac{24}{16} = 1.5\n\\]\n✅ Positive PV net benefits and \\(PV_{B/C} &gt; 1\\) → Economically justified."
   },
   {
     "objectID": "econ-lec/econ-340-lec-09-2025-1024.html#example-regulating-ozone-pollution-2",
     "href": "econ-lec/econ-340-lec-09-2025-1024.html#example-regulating-ozone-pollution-2",
     "title": "Lecture 9",
     "section": "Example: Regulating Ozone Pollution",
-    "text": "Example: Regulating Ozone Pollution\n\nThe Real EPA Decision\n\nEPA lowered ozone standard from 75 → 70 ppb\nIndustry: “Too costly — burdensome for economy”\n\nEnvironmentalists: “Too weak — thousands of preventable deaths remain”"
+    "text": "Example: Regulating Ozone Pollution\nThe Real EPA Decision\n\nEPA lowered ozone standard from 75 → 70 ppb\nIndustry: “Too costly — burdensome for economy”\n\nEnvironmentalists: “Too weak — thousands of preventable deaths remain”"
   },
   {
     "objectID": "econ-lec/econ-340-lec-09-2025-1024.html#example-regulating-ozone-pollution-3",
     "href": "econ-lec/econ-340-lec-09-2025-1024.html#example-regulating-ozone-pollution-3",
     "title": "Lecture 9",
     "section": "Example: Regulating Ozone Pollution",
-    "text": "Example: Regulating Ozone Pollution\n\nEPA’s Present Value Estimates\n\n\n\n\n\n\n\n\n\nStandard (ppb)\nPV of Costs (Billion $)\nPV of Benefits (Billion $)\nPV of Net Benefits (Billion $)\n\n\n\n\n70\n~5\n10–22\n+5–17\n\n\n65\n~15\n18–35\n+3–20\n\n\n60\n~40\n25–50\n–15–10\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nInterpretation:\nThe 70 ppb standard produced positive PV net benefits.\nLower standards (65 or 60 ppb) have higher potential PV benefits, but with more uncertainty."
+    "text": "Example: Regulating Ozone Pollution\nEPA’s Present Value Estimates\n\n\n\n\n\n\n\n\n\nStandard (ppb)\nPV of Costs (Billion $)\nPV of Benefits (Billion $)\nPV of Net Benefits (Billion $)\n\n\n\n\n70\n~5\n10–22\n+5–17\n\n\n65\n~15\n18–35\n+3–20\n\n\n60\n~40\n25–50\n–15–10\n\n\n\n\n\n\nNote\n\n\nInterpretation:\nThe 70 ppb standard produced positive PV net benefits.\nLower standards (65 or 60 ppb) have higher potential PV benefits, but with more uncertainty."
   },
   {
     "objectID": "econ-lec/econ-340-lec-09-2025-1024.html#steps-in-conducting-a-pv-based-cba",
@@ -1089,7 +1089,7 @@
     "href": "econ-lec/econ-340-lec-09-2025-1024.html#decision-criteria-using-present-value",
     "title": "Lecture 9",
     "section": "🧮 Decision Criteria (Using Present Value)",
-    "text": "🧮 Decision Criteria (Using Present Value)\n\n\n\n1️⃣ PV of Net Benefits\n\\[\nPV_{NB} = PV_B - PV_C\n\\]\n\n\\(PV_{NB}\\) (Present Value of Net Benefits) measures total welfare change in today’s dollars.\n\nAdds up all future benefits (\\(B_t\\)) and costs (\\(C_t\\)), converted into present value using the discount rate (\\(r\\)).   \n\nIf \\(PV_{NB} &gt; 0\\), benefits exceed costs → policy improves total welfare and is worth undertaking.\n\n\n\n\n2️⃣ PV Benefit–Cost Ratio\n\\[\nPV_{B/C} = \\frac{PV_B}{PV_C}\n\\]\n\nCompares the relative size of discounted benefits and costs.\n\nIf \\(PV_{B/C} &gt; 1\\), benefits outweigh costs in present-value terms.\n\nUseful for comparing multiple projects when budgets are limited."
+    "text": "🧮 Decision Criteria (Using Present Value)\n\n\n1️⃣ PV of Net Benefits\n\\[\nPV_{NB} = PV_B - PV_C\n\\]\n\n\\(PV_{NB}\\) (Present Value of Net Benefits) measures total welfare change in today’s dollars.\n\nAdds up all future benefits (\\(B_t\\)) and costs (\\(C_t\\)), converted into present value using the discount rate (\\(r\\)).   \n\nIf \\(PV_{NB} &gt; 0\\), benefits exceed costs → policy improves total welfare and is worth undertaking.\n\n\n2️⃣ PV Benefit–Cost Ratio\n\\[\nPV_{B/C} = \\frac{PV_B}{PV_C}\n\\]\n\nCompares the relative size of discounted benefits and costs.\n\nIf \\(PV_{B/C} &gt; 1\\), benefits outweigh costs in present-value terms.\n\nUseful for comparing multiple projects when budgets are limited."
   },
   {
     "objectID": "econ-lec/econ-340-lec-09-2025-1024.html#opportunity-cost-and-dynamic-efficiency",
@@ -3392,7 +3392,7 @@
     "href": "econ-lec/econ-340-lec-09-2025-1024.html#why-do-equity-concerns-matter",
     "title": "Lecture 9",
     "section": "⚖️ Why Do Equity Concerns Matter?",
-    "text": "⚖️ Why Do Equity Concerns Matter?\n\nEfficiency focuses only on the size of the total pie, not on how the pie is divided.\n\nWithout considering equity, benefits may concentrate among the wealthy, while costs fall on vulnerable or marginalized groups.\n\nBecause market power, wealth, and access to information often allow higher-income groups to capture more of the benefits and avoid much of the burden.\n\nIgnoring fairness can lead to social resistance, political backlash,\nand reduced legitimacy of otherwise efficient policies.\n\nEquity ensures inclusiveness — that economic progress also supports\njustice, opportunity, and shared well-being.\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\n\n✅ Efficiency tells us how to grow the pie; equity tells us how to share it fairly."
+    "text": "⚖️ Why Do Equity Concerns Matter?\n\nEfficiency focuses only on the size of the total pie, not on how the pie is divided.\n\nWithout considering equity, benefits may concentrate among the wealthy, while costs fall on vulnerable or marginalized groups.\n\nBecause market power, wealth, and access to information often allow higher-income groups to capture more of the benefits and avoid much of the burden.\n\nIgnoring fairness can lead to social resistance, political backlash,\nand reduced legitimacy of otherwise efficient policies.\n\nEquity ensures inclusiveness — that economic progress also supports\njustice, opportunity, and shared well-being.\n\n\n\n\n\n\n\nNote\n\n\n\n✅ Efficiency tells us how to grow the pie; equity tells us how to share it fairly."
   },
   {
     "objectID": "econ-lec/econ-340-lec-09-2025-1024.html#what-should-we-do-to-address-equity-concerns",
