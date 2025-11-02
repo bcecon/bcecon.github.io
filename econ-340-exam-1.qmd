@@ -1183,6 +1183,11 @@ The economist's argument is **problematic in practice**. It **assumes perfect mo
 
 **Ethically**, the proposal raises serious concerns about **environmental justice, consent, and intergenerational fairness**, especially when **lower income levels are used to justify lower environmental protection standards**. There is also a **moral hazard problem**, as Richland may become **less motivated to reduce waste at its source**. 
 
+:::callout-note
+**Moral Hazard**  
+Moral hazard is an **economic problem** that occurs when one party engages in **riskier or less responsible behavior** because they **do not bear the full consequences** of their actions.  
+It typically arises when there is **asymmetric information** — one side cannot fully observe the other’s behavior — such as in insurance, lending, or policy contexts.  
+:::
 ---
 
 A long-term solution to plastic waste trade must move **beyond simply relocating waste** and toward **reducing waste at the source** while ensuring **fair and accountable global governance**. Policies should:
