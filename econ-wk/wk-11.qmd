@@ -1,0 +1,62 @@
+---
+title: Week 11
+subtitle: Understanding Climate Change and the Social Cost of Carbon
+date: 2025-11-03
+from: markdown+emoji
+---
+
+In **Week 11**, we continue to discuss the social cost of carbon. We will then move to the topics in policies and regulations to address climate change problems.
+
+
+## ✍️ Classwork
+
+- **Classwork 9: _Dynamic Efficiency, Discounting, and the SCC_**  
+  [📄 View Classwork](../econ-cw/econ-340-cw-09.html){target="_blank"}  
+
+
+<br>
+
+
+
+## 📚 Recommended Reading
+
+- The following material summarizes the science of climate change and its impact on the Earth:
+  - [Earth 103: Earth in the Future](https://www.e-education.psu.edu/earth103/), Pennsylvania State University
+
+- [Social Cost of Carbon 101](https://www.rff.org/publications/explainers/social-cost-carbon-101/), Resources for the Future, March 13, 2025
+
+
+### 🔍 References for the Evolution of the U.S. Social Cost of Carbon (SCC)
+
+- **Obama Administration (2010 – 2016)**  
+  - Interagency Working Group on Social Cost of Greenhouse Gases (IWG). (2010, 2013, 2016). [*Technical Support Document: Social Cost of Carbon for Regulatory Impact Analysis.*](https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/inforeg/technical-update-social-cost-of-carbon-for-regulator-impact-analysis.pdf)  
+  → Central SCC ≈ \$50 / ton (2020 USD) at **3 % discount rate**, with sensitivity at 2.5 % and 5 %.
+
+---
+
+- **Trump Administration (2017 – 2020)**  
+  - Columbia University Center on Global Energy Policy. (2020). [*Trump vs. Obama: The Social Cost of Carbon and Why It Matters.*](https://www.energypolicy.columbia.edu/publications/trump-vs-obama-social-cost-carbon-and-why-it-matters)  
+  → SCC reduced to **\$1 – \$7 / ton**, using **3 %–7 % discount rates** and **domestic-only damages**.
+
+---
+
+- **Biden Administration (2021 – 2025)**  
+  - U.S. Environmental Protection Agency (EPA). (2023). [*Report on the Social Cost of Greenhouse Gases: Estimates Incorporating Recent Scientific Advances.*](https://www.epa.gov/system/files/documents/2023-12/epa_scghg_2023_report_final.pdf)  
+  → Updated **global SCC ≈ \$190 / ton**, using **declining near-term discount rates (~2 % → 1 %)** based on the RFF GIVE model.  
+  - Resources for the Future (2022). [*The US Environmental Protection Agency Introduces a New Social Cost of Carbon for Public Comment*](https://www.resources.org/common-resources/the-us-environmental-protection-agency-introduces-a-new-social-cost-of-carbon-for-public-comment/)
+  - Nature. (2022). [*Comprehensive evidence implies a higher social cost of CO2*](https://www.nature.com/articles/s41586-022-05224-9)
+
+
+
+## 💬 Discussion
+
+<font size = "5">Welcome to our Week 11 Discussion Board! 👋 </font>
+
+
+This space is designed for you to engage with your classmates about the material covered in Week 11.
+
+Whether you are looking to delve deeper into the content, share insights, or have questions about the content, this is the perfect place for you.
+
+If you have any specific questions for Byeong-Hak (**@bcecon**) or peer classmate (@GitHub-Username) regarding the Week 11 materials or need clarification on any points, don't hesitate to ask here. 
+
+Let's collaborate and learn from each other!
