@@ -1,0 +1,255 @@
+---
+title: Lecture 10
+subtitle: Cost–Benefit Analysis
+format:
+  clean-revealjs:
+    self-contained: false
+    chalkboard: true
+    incremental: true
+    code-annotations: hover
+    scrollable: false
+
+    # logo: logo-title-slide.png
+author:
+  - name: Byeong-Hak Choe
+    email: bchoe@geneseo.edu
+    affiliations: SUNY Geneseo
+date: 2025-10-24
+execute: 
+  eval: true
+  echo: false
+callout-icon: false
+
+from: markdown+emoji
+include-after-body: target-hover.html # effect.html
+
+# bibliography: refs.bib
+---
+
+```{r setup}
+#| include: false
+
+library(tidyverse)
+library(lubridate)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+library(viridis)
+library(rmarkdown)
+library(gapminder)
+library(ggrepel)
+library(formattable)
+
+theme_set(theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(10,0,0,0)),
+                axis.title.y = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(0,10,0,0)),
+                axis.text.x = element_text(size = rel(1.75)),
+                axis.text.y = element_text(size = rel(1.75)),
+                strip.text = element_text(size = rel(1.5)),
+                legend.position = "top",
+                legend.text = element_text(size = rel(1.5)),
+                legend.title = element_text(size = rel(1.5))
+                )
+          )
+
+# Set global options for color-blind-friendly scales
+# scale_colour_discrete <- function(...) scale_colour_viridis_d(...)
+
+scale_colour_discrete <- function(...) scale_color_colorblind(...)
+scale_fill_discrete <- function(...) scale_fill_colorblind(...)
+
+
+```
+
+
+# **Cost–Benefit Analysis** {background-color="#1c4982"}
+
+
+## What Is Cost–Benefit Analysis (CBA)?
+
+> **CBA** evaluates whether the **present value of benefits** exceeds the **present value of costs** for a project or policy.
+
+- All costs and benefits are expressed in **today’s dollars** using a **discount rate ($r$)**  
+- Enables meaningful comparison of outcomes occurring at **different times**  
+- Helps allocate **scarce resources** efficiently across competing alternatives
+
+
+
+## CBA in Government Decision-Making
+
+Governments use CBA to decide:
+
+- Which projects should be funded under **budget constraints**
+- How to balance **economic, health, and environmental** goals
+- Whether policy benefits justify the **present value of implementation costs**
+
+
+
+## Example: Regulating Ozone Pollution
+
+> The U.S. Environmental Protection Agency (EPA) must decide:  
+> Should the national standard for **ground-level ozone** be tightened?
+
+- Ozone affects:
+  - Human health (asthma, emphysema)
+  - Crop and vegetation damage  
+- Stricter standards → **higher abatement costs now**, **health benefits later**
+
+
+## Example: Regulating Ozone Pollution
+### Hypothetical Scenario (Present Value Terms)
+
+| Option             | PV of Costs (Billion $) | PV of Benefits (Billion $) |
+|--------------------|--------------------------|-----------------------------|
+| Maintain 75 ppb    | —                        | —                           |
+| Tighten to 70 ppb  | **16**                   | **24**                      |
+
+$$
+PV_{NB} = PV_B - PV_C = 24 - 16 = 8 \text{ billion}
+$$
+
+$$
+PV_{B/C} = \frac{PV_B}{PV_C} = \frac{24}{16} = 1.5
+$$
+
+✅ **Positive PV net benefits** and **$PV_{B/C} > 1$** → Economically justified.
+
+
+
+## Example: Regulating Ozone Pollution
+### The Real EPA Decision
+
+- EPA lowered ozone standard **from 75 → 70 ppb**
+- **Industry:** “Too costly — burdensome for economy”  
+- **Environmentalists:** “Too weak — thousands of preventable deaths remain”
+
+
+## Example: Regulating Ozone Pollution
+### EPA’s Present Value Estimates
+
+| Standard (ppb) | PV of Costs (Billion $) | PV of Benefits (Billion $) | PV of Net Benefits (Billion $) |
+|----------------|--------------------------|-----------------------------|--------------------------------|
+| 70             | ~5                       | 10–22                       | +5–17                         |
+| 65             | ~15                      | 18–35                       | +3–20                         |
+| 60             | ~40                      | 25–50                       | –15–10                        |
+
+::: callout-note
+**Interpretation:**  
+The 70 ppb standard produced **positive PV net benefits**.  
+Lower standards (65 or 60 ppb) have **higher potential PV benefits**, but with more uncertainty.
+:::
+
+
+
+## Steps in Conducting a PV-Based CBA
+
+:::{.nonincremental}
+1. **List** all costs and benefits over time  
+2. **Quantify** each stream in monetary terms  
+3. **Discount** each future value to its **present value** using rate $r$  
+4. Sum PVs of costs and benefits:
+
+$$
+PV_B = \sum_t \frac{B_t}{(1 + r)^t}, \qquad PV_C = \sum_t \frac{C_t}{(1 + r)^t}
+$$
+
+5. Compute **PV Net Benefits** and **PV Benefit–Cost Ratio**  
+6. Compare across **policy alternatives**, including a **baseline (no action)**
+
+:::
+
+
+## 🧮 Decision Criteria (Using Present Value)
+
+::::{.columns}
+::: {.column width="50%"}
+
+### 1️⃣ PV of Net Benefits
+$$
+PV_{NB} = PV_B - PV_C
+$$
+
+- **$PV_{NB}$** (*Present Value of Net Benefits*) measures total welfare change in today’s dollars.  
+  - Adds up all **future benefits ($B_t$)** and **costs ($C_t$)**, converted into **present value** using the **discount rate ($r$)**. 
+  <!-- $$ -->
+  <!-- PV_{NB} = \sum_{t=0}^{N} \frac{B_t - C_t}{(1 + r)^t} -->
+  <!-- $$   -->
+- If $PV_{NB} > 0$, **benefits exceed costs** → policy **improves total welfare** and is **worth undertaking**.
+
+:::
+::: {.column width="50%"}
+
+### 2️⃣ PV Benefit–Cost Ratio
+$$
+PV_{B/C} = \frac{PV_B}{PV_C}
+$$
+
+- Compares the **relative size** of discounted benefits and costs.  
+- If $PV_{B/C} > 1$, **benefits outweigh costs** in present-value terms.  
+- Useful for comparing **multiple projects** when budgets are limited.
+
+:::
+::::
+
+
+
+## Opportunity Cost and Dynamic Efficiency
+
+Even if $PV_{NB} > 0$:
+
+- Another policy might yield a **higher $PV_{NB}$**
+- Always consider the **opportunity cost** of choosing one project over another
+- Economics seeks to **maximize $PV_{NB}$** — the condition for **dynamic efficiency**
+  - Dynamic efficiency is achieved when the allocation of resources **over time** maximizes the **present value of net benefits** to society.
+
+<!-- - Dynamic efficiency guides how much to **invest now** (e.g., in renewable energy, conservation, or infrastructure) versus how much to **consume now**, recognizing that resources used today cannot be used tomorrow. -->
+
+- **Dynamic efficiency** helps decide how much to **use today** and how much to **save or invest for the future** (e.g., in renewable energy, conservation, or infrastructure), since resources spent now can’t be used later.
+
+
+<!-- ### Understanding Dynamic Efficiency -->
+<!-- - It ensures that society’s **intertemporal welfare** is as high as possible, not just at a single point in time.   -->
+<!-- - If the marginal net benefit of an additional dollar spent today exceeds that of a dollar spent in the future (after discounting), the allocation is **not dynamically efficient**.  -->
+
+
+
+##  ⚖️ Distributional and Ethical Issues
+
+- CBA aggregates all PV benefits and costs across society  
+  → ignores **who gains** and **who bears the costs**
+- Example:
+  - PV benefits → wealthier households (longer lifespan, better access)
+  - PV costs → lower-income communities (energy price hikes)
+- Even with positive $PV_{NB}$, may still be **inequitable**
+  - **Efficiency alone is not sufficient** — a policy can maximize total welfare ($PV_{NB} > 0$), while still being **unfair or socially unacceptable**.
+  
+## ⚖️ Why Do Equity Concerns Matter?
+
+- **Efficiency** focuses only on the *size* of the total pie, not on **how the pie is divided**.  
+- Without considering **equity**, benefits may concentrate among the wealthy, while costs fall on vulnerable or marginalized groups.  
+  - Because **market power, wealth, and access to information** often allow higher-income groups to capture more of the benefits and avoid much of the burden. 
+- Ignoring fairness can lead to **social resistance**, **political backlash**,  
+  and **reduced legitimacy** of otherwise efficient policies.  
+- **Equity ensures inclusiveness** — that economic progress also supports  
+  justice, opportunity, and shared well-being.
+
+<div style="display:block; margin:-20px;"></div>
+
+:::callout-note
+- ✅  **Efficiency** tells us **how to grow the pie**;  **equity** tells us **how to share it fairly.**
+:::
+
+## 💡 How Can We Address Equity Concerns?
+
+Economists can address equity concerns by:
+
+1. **Applying distributional weights** — give higher social value to welfare gains for lower-income groups  
+2. **Reporting disaggregated impacts** — show who gains and who loses (by income, region, or demographic)  
+3. **Designing compensatory measures** — use transfers or tax rebates to offset burdens on disadvantaged groups  
+4. **Embedding ethical judgment** — recognize that efficiency alone does not ensure fairness or justice

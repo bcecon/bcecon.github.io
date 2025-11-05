@@ -1,5 +1,5 @@
 ---
-title: Lecture 10
+title: Lecture 11
 subtitle: Understanding Climate Impacts and the Social Cost of Carbon
 
 format:

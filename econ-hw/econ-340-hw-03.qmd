@@ -62,7 +62,7 @@ df <- data.frame(
 - **Allowed Tools**: You **must use a calculator or computational tool** such as **R, Python, or Excel** to perform the required cost–benefit and $\text{PV}_{NB}$ calculations.  
   - Show your **intermediate steps with formula** and **final numeric results** clearly.  
 
-- **Deadline**: **Wednesday, November 12, 2025, at 11:59 P.M.**
+- **Deadline**: **Wednesday, November 12, 2025, at 10:30 A.M.**
 
 ---
 
