@@ -200,7 +200,7 @@
     "href": "listing-econ-340-hw.html",
     "title": "ECON 340 - Homework",
     "section": "",
-    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 2\n\n\nExternalities; Common Pool Resources; Public Goods\n\n\nOctober 8, 2025\n\n\n\n\nHomework 1\n\n\nExternalities; EPA Edangerment Finding on GHG Emissions; Coase Theorem\n\n\nOctober 9, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\nExternalities; EPA Edangerment Finding on GHG Emissions; Coase Theorem\n\n\nOctober 9, 2025\n\n\n\n\nHomework 2\n\n\nExternalities; Common Pool Resources; Public Goods\n\n\nNovember 4, 2025\n\n\n\n\nHomework 3\n\n\nCost–Benefit Analysis of Investment in CCUS\n\n\nNovember 4, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "listing-econ-340-lec.html",
@@ -1677,7 +1677,7 @@
     "href": "index.html#homework",
     "title": "ECON 340: Environmental Economics, Fall 2025",
     "section": "💻 Homework",
-    "text": "💻 Homework\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\nExternalities; EPA Edangerment Finding on GHG Emissions; Coase Theorem\n\n\nOctober 9, 2025\n\n\n\n\nHomework 2\n\n\nExternalities; Common Pool Resources; Public Goods\n\n\nOctober 8, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "💻 Homework\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\nExternalities; EPA Edangerment Finding on GHG Emissions; Coase Theorem\n\n\nOctober 9, 2025\n\n\n\n\nHomework 2\n\n\nExternalities; Common Pool Resources; Public Goods\n\n\nNovember 4, 2025\n\n\n\n\nHomework 3\n\n\nCost–Benefit Analysis of Investment in CCUS\n\n\nNovember 4, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "econ-rw/econ-340-project-kickoff.html",
@@ -1957,14 +1957,14 @@
     "href": "econ-hw/econ-340-hw-02.html",
     "title": "Homework 2",
     "section": "",
-    "text": "No Generative AI: You are not allowed to use generative AI tools for Homework Assignment 1, except for part d2 in Question 1\nDeadlines: Wednesday, October 8, 2025 at 10:30 A.M.\n\nHand in your written answers on paper to Prof. Choe at the beginning of class."
+    "text": "No Generative AI: You are not allowed to use generative AI tools for Homework Assignment 2, except for part d2 in Question 1\nDeadlines: Wednesday, October 8, 2025 at 10:30 A.M.\n\nHand in your written answers on paper to Prof. Choe at the beginning of class."
   },
   {
     "objectID": "econ-hw/econ-340-hw-02.html#homework-instructions",
     "href": "econ-hw/econ-340-hw-02.html#homework-instructions",
     "title": "Homework 2",
     "section": "",
-    "text": "No Generative AI: You are not allowed to use generative AI tools for Homework Assignment 1, except for part d2 in Question 1\nDeadlines: Wednesday, October 8, 2025 at 10:30 A.M.\n\nHand in your written answers on paper to Prof. Choe at the beginning of class."
+    "text": "No Generative AI: You are not allowed to use generative AI tools for Homework Assignment 2, except for part d2 in Question 1\nDeadlines: Wednesday, October 8, 2025 at 10:30 A.M.\n\nHand in your written answers on paper to Prof. Choe at the beginning of class."
   },
   {
     "objectID": "econ-hw/econ-340-hw-02.html#a-total-curves-top-panel",
@@ -3463,5 +3463,131 @@
     "title": "Week 9",
     "section": "💬 Discussion",
     "text": "💬 Discussion\nWelcome to our Week 9 Discussion Board! 👋 \nThis space is designed for you to engage with your classmates about the material covered in Week 9.\nWhether you are looking to delve deeper into the content, share insights, or have questions about the content, this is the perfect place for you.\nIf you have any specific questions for Byeong-Hak (@bcecon) or peer classmate (@GitHub-Username) regarding the Week 9 materials or need clarification on any points, don’t hesitate to ask here.\nLet’s collaborate and learn from each other!"
+  },
+  {
+    "objectID": "econ-hw/econ-340-hw-03.html",
+    "href": "econ-hw/econ-340-hw-03.html",
+    "title": "Homework 3",
+    "section": "",
+    "text": "No Generative AI: You are not allowed to use generative AI tools for Homework Assignment 3.\nAllowed Tools: You must use a calculator or computational tool such as R, Python, or Excel to perform the required cost–benefit and \\(\\text{PV}_{NB}\\) calculations.\n\nShow your intermediate steps with formula and final numeric results clearly.\n\nDeadline: Wednesday, November 12, 2025, at 11:59 P.M.\n\n\nA mid-sized energy company is considering investing in Carbon Capture, Utilization, and Storage (CCUS) at one of its gas-fired power plants.\nThe project would allow the company to capture carbon dioxide (CO₂) before it reaches the atmosphere, then transport and store it underground or sell it to industrial users for other applications.\nThe total investment cost is $500 million, paid at the start of the project (Year 0).\nOnce operational, the system can capture 1 million metric tons of CO₂ per year.\nThe company’s cost of capital (discount rate) is 4%, and the Social Cost of Carbon (SCC) is $190 per metric ton of CO₂."
+  },
+  {
+    "objectID": "econ-hw/econ-340-hw-03.html#homework-instructions",
+    "href": "econ-hw/econ-340-hw-03.html#homework-instructions",
+    "title": "Homework 3",
+    "section": "",
+    "text": "No Generative AI: You are not allowed to use generative AI tools for Homework Assignment 3.\nDeadlines: Wednesday, November 12, 2025 at 11:59 P.M."
+  },
+  {
+    "objectID": "econ-hw/econ-340-hw-03.html#part-a",
+    "href": "econ-hw/econ-340-hw-03.html#part-a",
+    "title": "Homework 3",
+    "section": "Part A",
+    "text": "Part A\nCalculate the Present Value of Net Benefits (\\(PV_{NB}\\)) for each project — (1) Gas-fired power plant and (2) Hydro power plant — from today through the end of the operating period shown."
+  },
+  {
+    "objectID": "econ-hw/econ-340-hw-03.html#part-b",
+    "href": "econ-hw/econ-340-hw-03.html#part-b",
+    "title": "Homework 3",
+    "section": "Part B",
+    "text": "Part B\nGiven the information above, calculate the internal rate of return (IRR) of the two projects.\n\n\n\n\n\n\n💰 Internal Rate of Return (IRR)\n\n\n\n\nThe Internal Rate of Return (IRR) is the discount rate that makes the Present Value of Net Benefit (\\(\\text{PV}_{NB}\\)) of a project equal to zero:\n\n\\[\n\\text{IRR}\\quad \\text{ is such that }\\quad \\text{PV}_{NB} = \\sum_{t=0}^{T} \\frac{B_t - C_t}{(1 + \\text{IRR})^t} = 0\n\\]\nwhere:\n\n\\(B_t\\) = benefit at time \\(t\\)\n\n\\(C_t\\) = cost at time \\(t\\)\n\n\\(\\text{IRR}\\) = internal rate of return\n\\(T\\) = number of time periods\n\n\n🧠 Intuition\n\nIRR represents the rate of return a project earns on its invested capital.\n\nA higher IRR means the project is more profitable because it indicates that the project’s stream of benefits grows faster relative to its costs.\n\nIn cost–benefit analysis, the IRR represents the discount rate at which the present value of total benefits equals the present value of total costs.\n\nTherefore, a higher IRR implies that benefits exceed costs by a larger margin at lower discount rates, signaling a more economically efficient investment.\nDecision rule:\n\nA project is financially worthwhile if its IRR exceeds the cost of capital, or if its \\(\\text{PV}_{NB}\\) is positive when discounted at the cost of capital.\n\nIn short, the cost of capital is the benchmark used to evaluate whether the expected benefits of an investment outweigh its costs over time."
+  },
+  {
+    "objectID": "econ-hw/econ-340-hw-03.html#part-c",
+    "href": "econ-hw/econ-340-hw-03.html#part-c",
+    "title": "Homework 3",
+    "section": "Part C",
+    "text": "Part C\nThe gas and hydro power plants have a far longer life time than just five years.\nWould your preference for one of the projects change if you take into account the whole life time of the plants of 20 years after construction?\nAssume that the benefit and cost flows of the sixth year of operation onwards are equal to the benefit and cost flows of the fifth year.\n\n\\(\\text{PV}_{NB}\\) of gas plant becomes approximately $256 million and the \\(\\text{PV}_{NB}\\) of the hydro plant approximately $222 million The gas plant is now preferable.\n\\(\\text{PV}_{NB}\\) of gas plant becomes approximately $256 million and the \\(\\text{PV}_{NB}\\) of the hydro plant approximately $470 million. The hydro plant is now preferable."
+  },
+  {
+    "objectID": "econ-hw/econ-340-hw-03.html#part-d",
+    "href": "econ-hw/econ-340-hw-03.html#part-d",
+    "title": "Homework 3",
+    "section": "Part D",
+    "text": "Part D\nGiven your calculations, in which time horizon is each project preferable given its \\(\\text{PV}_{NB}\\) (assuming that the benefit and cost flows of the sixth year of operation onwards are equal to the benefit and cost flows of the fifth year)?\n\nThe gas plant is preferable up to a time horizon of 7 years. From the 8th year the hydro plant has a higher \\(\\text{PV}_{NB}\\).\nThe gas plant is preferable up to a time horizon of 21 years. From the 22nd year the hydro plant has a higher \\(\\text{PV}_{NB}\\).\nThe gas plant is preferable up to a time horizon of 14 years. From the 15th year the hydro plant has a higher \\(\\text{PV}_{NB}\\)."
+  },
+  {
+    "objectID": "econ-hw/econ-340-hw-03.html#project-details",
+    "href": "econ-hw/econ-340-hw-03.html#project-details",
+    "title": "Homework 3",
+    "section": "⚙️ Project Details",
+    "text": "⚙️ Project Details\n\nConstruction and Operation Timeline\n\nInvestment (Capital Outlay): Year 0\n\nOperation: 5 years (Years 1–5) for this exercise\n\nProject Lifetime: 20+ years (only the first 5 years are analyzed)"
+  },
+  {
+    "objectID": "econ-hw/econ-340-hw-03.html#expected-annual-net-benefits-private-before-discounting",
+    "href": "econ-hw/econ-340-hw-03.html#expected-annual-net-benefits-private-before-discounting",
+    "title": "Homework 3",
+    "section": "💰 Expected Annual Net Benefits (Private, before discounting)",
+    "text": "💰 Expected Annual Net Benefits (Private, before discounting)\nThe company estimates the following annual net benefits (in millions of dollars), after paying all operating costs but before discounting.\n\n\n\n\n\n\n\n\nYear of Operation\nNet Benefit (Million $)\nMain Sources of Benefit\n\n\n\n\n1\n70\nRamp-up phase and partial 45Q credit\n\n\n2\n95\nFull CO₂ capture, full 45Q credit, CO₂ sales\n\n\n3\n95\nContinued steady operation\n\n\n4\n95\nSame as above\n\n\n5\n90\nSlight drop due to maintenance and reduced output"
+  },
+  {
+    "objectID": "econ-hw/econ-340-hw-03.html#investment-cost",
+    "href": "econ-hw/econ-340-hw-03.html#investment-cost",
+    "title": "Homework 3",
+    "section": "🏗️ Investment Cost",
+    "text": "🏗️ Investment Cost\n\n\n\nYear\nInvestment Outlay (Million $)\n\n\n\n\n0\n500\n\n\nTotal\n500"
+  },
+  {
+    "objectID": "econ-hw/econ-340-hw-03.html#the-cost-of-capital",
+    "href": "econ-hw/econ-340-hw-03.html#the-cost-of-capital",
+    "title": "Homework 3",
+    "section": "🏦 The Cost of Capital",
+    "text": "🏦 The Cost of Capital\n\nThe cost of capital (4%) is the company’s required rate of return — what investors expect to earn.\n\nIt also serves as the discount rate that a company uses to determine the present value of its future benefits and costs.\n\nThis rate reflects the opportunity cost of money — the return they could earn from alternative investments.\n\nA project must earn at least this rate to be financially worthwhile."
+  },
+  {
+    "objectID": "econ-hw/econ-340-hw-03.html#question-1.-private-net-present-value-npv",
+    "href": "econ-hw/econ-340-hw-03.html#question-1.-private-net-present-value-npv",
+    "title": "Homework 3",
+    "section": "Question 1. Private Net Present Value (NPV)",
+    "text": "Question 1. Private Net Present Value (NPV)\n\nUse the annual benefits table to calculate the Present Value (PV) of benefits at 4%.\n\nSubtract the $500 million investment to find the Private NPV.\n\nInterpret whether the project is financially attractive for the company.\n\n\n\n\n\n\n\n\n\n\nDiscount Rate\nPV of Benefits\nPV of Costs\nPrivate NPV\n\n\n\n\n4%\n\n500"
+  },
+  {
+    "objectID": "econ-hw/econ-340-hw-03.html#question-2.-add-the-social-value-of-carbon-scc-190tco₂",
+    "href": "econ-hw/econ-340-hw-03.html#question-2.-add-the-social-value-of-carbon-scc-190tco₂",
+    "title": "Homework 3",
+    "section": "Question 2. Add the Social Value of Carbon (SCC = $190/tCO₂)",
+    "text": "Question 2. Add the Social Value of Carbon (SCC = $190/tCO₂)\nEach year, CCUS prevents 1 million metric tons of CO₂, avoiding $190 million in climate damages.\n\nAdd $190 million per year to each annual benefit.\n\nRecalculate the Social \\(\\text{PV}_{NB}\\) at 4%.\n\nCompare your results and discuss what changes.\n\n\n\n\n\n\n\n\n\n\nDiscount Rate\nPV of Benefits (Private + SCC)\nPV of Costs\nSocial \\(\\text{PV}_{NB}\\)\n\n\n\n\n4%\n\n500"
+  },
+  {
+    "objectID": "econ-hw/econ-340-hw-03.html#question-3.-how-large-should-the-45q-credit-be-realism-check",
+    "href": "econ-hw/econ-340-hw-03.html#question-3.-how-large-should-the-45q-credit-be-realism-check",
+    "title": "Homework 3",
+    "section": "Question 3. How Large Should the 45Q Credit Be? (Realism Check)",
+    "text": "Question 3. How Large Should the 45Q Credit Be? (Realism Check)\n\nPart A\nUsing your \\(\\text{PV}_{NB}\\) setup from Question 1 (at 4%), show that the project’s Private \\(\\text{PV}_{NB}\\) with the current $85/t credit is negative.\n\n\nPart B\nCalculate the minimum 45Q credit per ton needed to make the Private \\(\\text{PV}_{NB}\\) ≈ 0 (breakeven).\n\n\n\n\n\n\n\n\n\nScenario\nCredit per ton ($)\nPrivate \\(\\text{PV}_{NB}\\) @ 4% (Million $)\nInvestment Decision\n\n\n\n\nCurrent policy\n85\nNegative\nNot attractive\n\n\nBreakeven (your estimate)\n\n≈ 0\nBorderline\n\n\nAbove breakeven\n\nPositive\nAttractive"
+  },
+  {
+    "objectID": "econ-hw/econ-340-hw-03.html#question-4.-short-answer",
+    "href": "econ-hw/econ-340-hw-03.html#question-4.-short-answer",
+    "title": "Homework 3",
+    "section": "Question 4. Short Answer",
+    "text": "Question 4. Short Answer\n\nPart A\nExplain how per-ton tax credits (like 45Q) help align private and social goals. Why might higher per-ton credits be economically justified beyond simply achieving a positive social \\(\\text{PV}_{NB}\\)? In your answer, discuss the underlying economic mechanisms and sources of market failure.\n\n\nPart B\nWhy might private investors hesitate to build CCUS projects without government incentives?"
+  },
+  {
+    "objectID": "econ-hw/econ-340-hw-03.html#section-45q-tax-credit",
+    "href": "econ-hw/econ-340-hw-03.html#section-45q-tax-credit",
+    "title": "Homework 3",
+    "section": "🏛️ Section 45Q Tax Credit",
+    "text": "🏛️ Section 45Q Tax Credit\nThe Section 45Q tax credit was first created under the Energy Improvement and Extension Act of 2008 (Division B of the Emergency Economic Stabilization Act of 2008, Public Law 110–343) and later expanded under the Inflation Reduction Act of 2022.\nIn this homework, we refer to the updated policy framework as the One Big Beautiful Bill Act, which broadened support for both utilization and storage under Section 45Q by equalizing credit values across different CO₂ end uses and expanding eligibility for utilization projects."
+  },
+  {
+    "objectID": "econ-hw/econ-340-hw-03.html#expected-annual-net-benefits-private-before-discounting-and-45q-tax-credits",
+    "href": "econ-hw/econ-340-hw-03.html#expected-annual-net-benefits-private-before-discounting-and-45q-tax-credits",
+    "title": "Homework 3",
+    "section": "💰 Expected Annual Net Benefits (Private, before discounting and 45Q tax credits)",
+    "text": "💰 Expected Annual Net Benefits (Private, before discounting and 45Q tax credits)\nThe company estimates the following annual net benefits (in millions of dollars), after paying all operating costs but before discounting.\n\n\n\n\n\n\n\n\nYear of Operation\nNet Benefit (Million $)\nMain Sources of Benefit\n\n\n\n\n1\n-15\nRamp-up phase, limited CO₂ sales, no full-scale operation\n\n\n\n\n\n\n\n2\n10\nFull CO₂ capture, CO₂ sales\n\n\n3\n10\nContinued steady operation\n\n\n4\n10\nSame as above\n\n\n5\n5\nSlight drop due to maintenance and reduced output"
+  },
+  {
+    "objectID": "econ-hw/econ-340-hw-03.html#expected-annual-net-benefits-private-before-discounting-and-without-45q-tax-credits",
+    "href": "econ-hw/econ-340-hw-03.html#expected-annual-net-benefits-private-before-discounting-and-without-45q-tax-credits",
+    "title": "Homework 3",
+    "section": "💰 Expected Annual Net Benefits (Private, before discounting and without 45Q tax credits)",
+    "text": "💰 Expected Annual Net Benefits (Private, before discounting and without 45Q tax credits)\nThe company estimates the following annual net benefits (in millions of dollars), after paying all operating costs but before discounting.\n\n\n\n\n\n\n\n\nYear of Operation\nNet Benefit (Million $)\nMain Sources of Benefit\n\n\n\n\n1\n-15\nRamp-up phase, limited CO₂ sales, no full-scale operation\n\n\n\n\n\n\n\n2\n10\nFull CO₂ capture, CO₂ sales\n\n\n3\n10\nContinued steady operation\n\n\n4\n10\nSame as above\n\n\n5\n5\nSlight drop due to maintenance and reduced output"
+  },
+  {
+    "objectID": "econ-hw/econ-340-hw-03.html#question-1.-private-present-value-of-net-benefit-textpv_nb",
+    "href": "econ-hw/econ-340-hw-03.html#question-1.-private-present-value-of-net-benefit-textpv_nb",
+    "title": "Homework 3",
+    "section": "Question 1. Private Present Value OF Net Benefit (\\(\\text{PV}_{NB}\\))",
+    "text": "Question 1. Private Present Value OF Net Benefit (\\(\\text{PV}_{NB}\\))\n\nUse the annual benefits table to calculate the Present Value (PV) of benefits at 4%.\n\nSubtract the $500 million investment to find the Private \\(\\text{PV}_{NB}\\).\n\nInterpret whether the project is financially attractive for the company.\n\n\n\n\n\n\n\n\n\n\nDiscount Rate\nPV of Benefits\nPV of Costs\nPrivate \\(\\text{PV}_{NB}\\)\n\n\n\n\n4%\n\n500"
   }
 ]

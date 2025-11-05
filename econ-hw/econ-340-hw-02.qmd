@@ -57,7 +57,7 @@ df <- data.frame(
 
 ## Homework Instructions
 
-- **No Generative AI**: You are **not** allowed to use generative AI tools for Homework Assignment 1, except for part **d2 in Question 1**
+- **No Generative AI**: You are **not** allowed to use generative AI tools for Homework Assignment 2, except for part **d2 in Question 1**
 
 - **Deadlines**: **Wednesday, October 8, 2025 at 10:30 A.M.**  
     - Hand in your written answers on paper to Prof. Choe at the beginning of class.
