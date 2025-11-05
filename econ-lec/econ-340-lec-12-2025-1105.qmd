@@ -234,9 +234,9 @@ If each individual in a population of **100,000** is willing to pay **$100** for
 
 ## 📊 Empirical Estimates of the VSL
 
-<div style="display:block; margin:20px;"></div>
+<!-- <div style="display:block; margin:20px;"></div> -->
 
-<div style="font-size:1.8rem; text-align:center; margin-top:1.5rem;">
+<div style="font-size:1.5rem; text-align:center; margin-top:1.5rem;">
 
 | **Study / Source** | **Period** | **Estimated Range (USD, millions)** | **Central Estimate (USD, millions)** |
 |--------------------|------------|-----------------------------------:|------------------------------------:|
@@ -245,22 +245,33 @@ If each individual in a population of **100,000** is willing to pay **$100** for
 
 </div>
 
-<div style="display:block; margin:20px;"></div>
+<div style="display:block; margin:5px;"></div>
 
-- Across studies, VSL estimates typically range from **$3–12 million**.  
+:::{.nonincremental}
 - The **EPA’s benchmark value** is **$7.4 million (in 2006 dollars)**, commonly used in **U.S. policy analysis**.
+:::
+
+<div style="display:block; margin:-15px;"></div>
+
+
+- The **most common approach** to estimate the VSL is **wage–risk analysis**.  
+- Statistical models estimate the **extra pay** needed to attract workers to **riskier jobs** (e.g., loggers, pilots, fishermen), controlling for skill and other job characteristics.  
+- This approach reveals how much people **implicitly value small reductions in fatality risk** based on real-world labor market choices.
+
+
+<!-- - Across studies, VSL estimates typically range from **$3–12 million**.   -->
 
 
 
 ## 👥 Factors Influencing VSL — Age
 
-<div style="font-size:1.8rem; text-align:center; margin-top:1.5rem;">
+<div style="font-size:1.7rem; text-align:center; margin-top:1.5rem;">
 
-| **Age Group** | **Estimated VSL (USD, millions)** |
-|---------------|----------------------------------:|
-| 18–24 | 3.7 |
-| 35–44 *(peak)* | 9.7 |
-| 55–62 | 3.4 |
+| **Age Group** | **Estimated VSL (USD, millions)** | **Typical Pattern** | **Economic Reason** |
+|:--|--:|:--:|:--|
+| **18–24 (Young adults)** | 3.7 | Increasing | Rising income and strong future life value |
+| **35–44 (Middle-aged)** | 9.7 *(peak)* | Peak | High income and many remaining productive years |
+| **55–62 (Older adults)** | 3.4 | Decline | Fewer expected years left, lower WTP for small risk reductions |
 
 </div>
 

@@ -4204,7 +4204,7 @@
     "href": "econ-lec/econ-340-lec-12-2025-1105.html#factors-influencing-vsl-age",
     "title": "Lecture 12",
     "section": "👥 Factors Influencing VSL — Age",
-    "text": "👥 Factors Influencing VSL — Age\n\n\n\n\nAge Group\nEstimated VSL (USD, millions)\n\n\n\n\n18–24\n3.7\n\n\n35–44 (peak)\n9.7\n\n\n55–62\n3.4\n\n\n\n\n\nResearch suggests an inverted U-shaped relationship between age and VSL.\n\nVSL peaks in mid-adulthood when both income and risk exposure tend to be highest."
+    "text": "👥 Factors Influencing VSL — Age\n\n\n\n\n\n\n\n\n\n\nAge Group\nEstimated VSL (USD, millions)\nTypical Pattern\nEconomic Reason\n\n\n\n\n18–24 (Young adults)\n3.7\nIncreasing\nRising income and strong future life value\n\n\n35–44 (Middle-aged)\n9.7 (peak)\nPeak\nHigh income and many remaining productive years\n\n\n55–62 (Older adults)\n3.4\nDecline\nFewer expected years left, lower WTP for small risk reductions\n\n\n\n\n\nResearch suggests an inverted U-shaped relationship between age and VSL.\n\nVSL peaks in mid-adulthood when both income and risk exposure tend to be highest."
   },
   {
     "objectID": "econ-lec/econ-340-lec-12-2025-1105.html#factors-influencing-vsl-income-region",
@@ -4316,7 +4316,7 @@
     "href": "econ-lec/econ-340-lec-12-2025-1105.html#empirical-estimates-of-the-vsl",
     "title": "Lecture 12",
     "section": "📊 Empirical Estimates of the VSL",
-    "text": "📊 Empirical Estimates of the VSL\n\n\n\n\n\n\n\n\n\n\n\n\n\nStudy / Source\nPeriod\nEstimated Range (USD, millions)\nCentral Estimate (USD, millions)\n\n\n\n\nViscusi (1996)\n1986 dollars\n3 – 7\n5\n\n\nBanzhaf (2021, meta-analysis)\nRecent\n3.7 – 12.3\n7\n\n\n\n\n\n\n\n\nAcross studies, VSL estimates typically range from $3–12 million.\n\nThe EPA’s benchmark value is $7.4 million (in 2006 dollars), commonly used in U.S. policy analysis."
+    "text": "📊 Empirical Estimates of the VSL\n\n\n\n\n\n\n\n\n\n\n\nStudy / Source\nPeriod\nEstimated Range (USD, millions)\nCentral Estimate (USD, millions)\n\n\n\n\nViscusi (1996)\n1986 dollars\n3 – 7\n5\n\n\nBanzhaf (2021, meta-analysis)\nRecent\n3.7 – 12.3\n7\n\n\n\n\n\n\n\n\n\nThe EPA’s benchmark value is $7.4 million (in 2006 dollars), commonly used in U.S. policy analysis.\n\n\n\n\n\n\nThe most common approach to estimate the VSL is wage–risk analysis.\n\nStatistical models estimate the extra pay needed to attract workers to riskier jobs (e.g., loggers, pilots, fishermen), controlling for skill and other job characteristics.\n\nThis approach reveals how much people implicitly value small reductions in fatality risk based on real-world labor market choices."
   },
   {
     "objectID": "econ-lec/econ-340-lec-12-2025-1105.html#historical-shifts-in-u.s.-agency-vsls",
