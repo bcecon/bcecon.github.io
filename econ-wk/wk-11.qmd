@@ -68,7 +68,7 @@ It is not a panacea and must be part of a **broader portfolio of solutions**.
 
 1. **Captures CO₂ from hard-to-abate sectors**  
    - Targets industrial sources (cement, steel, chemicals) where emissions are **process-based**, not just from fuel.  
-   - Supported by the **IEA** and **C2ES** as essential for net-zero pathways.  
+   - Supported by the **International Energy Agency (IEA)** and **Center for Climate and Energy Solutions (C2ES)** as essential for net-zero pathways.  
    - [IEA: CCUS Overview](https://www.iea.org/energy-system/carbon-capture-utilisation-and-storage)
 
 2. **Enables both mitigation and removal**  
