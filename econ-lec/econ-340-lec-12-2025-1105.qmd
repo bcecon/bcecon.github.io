@@ -272,18 +272,32 @@ If each individual in a population of **100,000** is willing to pay **$100** for
 
 ## 🌍 Factors Influencing VSL — Income & Region
 
-<div style="display:block; margin:-10px;"></div>
+
+
+::::{.columns}
+::: {.column width="40%"}
 
 <div style="font-size:1.5rem; text-align:center; margin-top:1.5rem;">
 
+
+| **Income / Region** | **Estimated VSL (USD, millions)** |
+|---------------|----------------------------------:|
 | **European Union** | 1.7 – 3.6 |
-|:-------------------|----------:|
-| **OECD Average**   | **2.2 – 4.1** |
-| **India**          | **~ 0.6**     |
+| **OECD Average**   | 2.2 – 4.1 |
+| **India**          | 0.5 – 0.6 |
 
 </div>
 
+:::
+::: {.column width="60%"}
+
+<div style="display:block; margin:40px;"></div>
+
 - **Income elasticity of VSL** measures how the **VSL** changes in response to **income growth** — that is, the **percentage change in VSL** for a **1% change in income**.  
+
+:::
+::::
+
 - The **estimated elasticity** tends to be **higher in lower-income countries**, reflecting greater sensitivity of WTP to income changes.  
 - Analysts use these estimates to **adjust VSL values across countries or over time** as income levels change.  
 - <u>Typical ranges</u>: **>1.0** in lower-income contexts, and **0.4–0.6** for U.S. and other high-income countries.  
