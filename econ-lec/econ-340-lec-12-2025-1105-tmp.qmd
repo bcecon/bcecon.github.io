@@ -1,0 +1,272 @@
+---
+title: Lecture 12
+subtitle: Valuing Human Life
+
+format:
+  clean-revealjs:
+    self-contained: false
+    chalkboard: true
+    incremental: true
+    code-annotations: hover
+    scrollable: false
+
+    # logo: logo-title-slide.png
+author:
+  - name: Byeong-Hak Choe
+    email: bchoe@geneseo.edu
+    affiliations: SUNY Geneseo
+date: 2025-10-31
+execute: 
+  eval: true
+  echo: false
+callout-icon: false
+
+from: markdown+emoji
+include-after-body: target-hover.html # effect.html
+
+# bibliography: refs.bib
+---
+
+```{r setup}
+#| include: false
+
+library(tidyverse)
+library(lubridate)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+library(viridis)
+library(rmarkdown)
+library(gapminder)
+library(ggrepel)
+library(formattable)
+
+theme_set(theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(10,0,0,0)),
+                axis.title.y = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(0,10,0,0)),
+                axis.text.x = element_text(size = rel(1.75)),
+                axis.text.y = element_text(size = rel(1.75)),
+                strip.text = element_text(size = rel(1.5)),
+                legend.position = "top",
+                legend.text = element_text(size = rel(1.5)),
+                legend.title = element_text(size = rel(1.5))
+                )
+          )
+
+# Set global options for color-blind-friendly scales
+# scale_colour_discrete <- function(...) scale_colour_viridis_d(...)
+
+scale_colour_discrete <- function(...) scale_color_colorblind(...)
+scale_fill_discrete <- function(...) scale_fill_colorblind(...)
+
+
+```
+
+
+# 💵 **Valuing Human Life** {background-color="#1c4982"}
+
+## Why VSL Matters
+
+- Significance: Policies on air quality, drinking water, and safety affect mortality risks.  
+- Constraint: Life is priceless, but resources are scarce → trade-offs are unavoidable.  
+- Core Question: How much should society pay for small reductions in mortality risk?
+
+
+
+## ⚖️ Economic Approach
+
+- We do not price a life; we value small risk changes.  
+- Value of Reduced Mortality Risk  
+  - Individual WTP for a small change in death risk.  
+  - MRS between money and risk.  
+  - Aggregated to the Value of a Statistical Life (VSL) = $ per one expected death avoided.
+
+::: callout-note
+Rule of thumb: VSL is an average WTP-based measure; it is not what any one person’s life “is worth.”
+:::
+
+
+
+## 💡 CV Example → VSL
+
+Air Quality Policy  
+- Cost = $500M, deaths reduced by 50/year.  
+- If 100M households each WTP $10/year:
+
+$$
+\text{Total WTP} = 100{,}000{,}000 \times 10 = $1\text{B}, \quad
+\text{VSL} = \frac{$1\text{B}}{50} = $20\text{M per death}
+$$
+
+::: {.fragment}
+Interpretation: Society implicitly values one avoided statistical death at $20M in this context.
+:::
+
+
+
+## 💼 Wage–Risk Approach
+
+- Observe wage premia for riskier jobs (loggers, pilots, fishers), controlling for skills and job traits.  
+- Assumptions: workers know risks and have choice across jobs.
+
+Back-of-the-envelope  
+- Extra pay = $700/year, excess fatal risk = 1/10,000  
+$$
+\text{VSL} = \frac{700}{1/10{,}000} = $7{,}000{,}000
+$$
+
+::: callout-note
+Caveats: Selection into risky jobs, limited options, risk perception, male-dominated samples → external validity concerns.
+:::
+
+
+
+## 📊 Meta-Study Benchmarks
+
+| Study | Scope | Mean VSL (USD, $M) | Notes |
+|:--|:--|:--:|:--|
+| Viscusi (1996) | U.S. wage-risk | ~5.0 (1986 $) | Early synthesis |
+| Doucouliagos et al. (2009) | 32 studies | 8.4 (SD 7.9) | Wide range |
+| Lindhjem et al. (2018) | 68 studies | 8.1–11.4 | Recent meta |
+
+::: {.fragment}
+Pattern: VSL rises with income and over time (inflation + real income growth).
+:::
+
+
+
+## 🌍 Income & Regional Differences
+
+:::: {.columns}
+::: {.column width="50%"}
+Developed  
+- US EPA ≈ $9.7M  
+- US DOT ≈ $10.3M  
+- OECD ≈ $3–4M
+:::
+::: {.column width="50%"}
+Developing  
+- China (rural CV) ≈ $50–100k  
+- Bangladesh (CV) ≈ $5k  
+- Pakistan < $0.3M
+:::
+::::
+
+- Income elasticity ≈ 1 → VSL ∝ GDP per capita.  
+- Equity tension: Should global CBAs down-weight lives in poorer countries?
+
+
+
+## 🧠 Age & Risk Context
+
+- Inverted U-shape in age–VSL (e.g., Viscusi 2008):  
+  - 18–24 ≈ $3.7M → 35–44 peak ≈ $9.7M → 55–62 ≈ $3.4M.  
+- Risk type matters: Cancer risks often valued higher than accident risks.  
+- Policy practice: Proposals for “cancer differential” (higher VSL for carcinogens).
+
+
+
+## 🏛️ Politics of VSL (Box 7.2)
+
+| Period / Agency | Approx. VSL (USD, $M) | Notes |
+|:--|:--:|:--|
+| 1980s (early CBA) | 2–3 | Reagan/Bush Sr. era |
+| G.W. Bush EPA | 6.8 | Criticized as low |
+| Obama EPA (2010→2013) | 9.1 → 9.7 | Raised across agencies |
+| Trump era | ~9 (inflation adj.) | Largely unchanged |
+| NRC pre-2015 | 3 | Later raised to 9 after critique |
+
+::: callout-note
+Takeaway: VSL is technocratic yet political—it shifts which rules pass CBA.
+:::
+
+
+
+## 🧩 Applications
+
+- Environmental rules: Mortality benefits dominate CBAs  
+  - Clean Air Act (US): >90% of total benefits from mortality risk reductions.  
+  - EU Clean Air Package: ~70%.  
+- Climate: Heat-related deaths (≈ 9,700/year in US) → influences SCC.  
+- Transport: Airbags, roof strength, speed design.  
+- Public Health: Pandemic policy appraisal (NPIs, vaccination).
+
+
+
+## 🦠 COVID-19 Illustration
+
+- Using VSL ≈ $10M → social distancing benefits estimated in trillions (US).  
+- 1918 flu evidence: Early interventions → lower mortality & better recovery.  
+- Lesson: Public-health measures can be ethically right and economically efficient.
+
+
+
+## 🐦 Ecosystem Services Case: Vultures (India)
+
+- Keystone scavengers nearly collapsed (1990s) due to diclofenac in cattle.  
+- Result: Carcass decay → disease spread → ≈ 100,000 extra deaths/year (2000–2005).  
+- With India-adjusted VSL, mortality damages ≈ $69.4B/year.  
+- Insight: Biodiversity loss can be valued via human mortality, strengthening conservation CBAs.
+
+
+
+## 🧭 Ethics: Critique vs. Defense
+
+::: {.columns}
+::: {.column width="50%"}
+###### Critiques
+- Life is priceless; monetization is offensive.  
+- Rights-based view: deaths from pollution are not tradable.  
+- Excludes vulnerable voices; WTP reflects ability to pay.
+:::
+::: {.column width="50%"}
+###### Defenses
+- Scarcity: ignoring benefits is itself immoral.  
+- CBA = transparent prioritization (more lives per $).  
+- Society already trades off risk vs. money daily.
+:::
+::::
+
+
+
+## 🧮 Classroom Q&A: Quick VSL Calc
+
+Scenario 1 (Wage–risk): Police premium $700/year; extra risk 1/10,000  
+$$
+\text{VSL}=\frac{700}{1/10{,}000}=$7{,}000{,}000
+$$
+
+Scenario 2 (Policy WTP):  
+- Risk falls from 1/100{,}000 → 1/150{,}000 for 1,000,000 people  
+- Expected deaths: 10 → 6.67 (↓ 3.33)  
+- WTP per person = $5 → Total WTP = $5M  
+$$
+\text{VSL}=\frac{$5\text{M}}{3.33}\approx $1.5\text{M}
+\quad\text{or}\quad
+\text{VSL}=\frac{$5}{(1/150{,}000-1/100{,}000)}
+$$
+
+
+
+## 🗣️ Discussion Prompts
+
+1. Should VSL vary by age, income, or risk type?  
+2. How should agencies communicate VSL without seeming to “price lives”?  
+3. What complements to CBA could address equity/rights concerns?  
+4. Implications for SCC when VSL and income differ across countries?
+
+
+
+## 📌 Takeaways
+
+- VSL = WTP-based value for small mortality risk changes.  
+- Estimates vary by income, age, context, and politics.  
+- Used across environmental, transport, and health policies.  
+- Goal is not to price life, but to allocate scarce resources to save more life-years effectively.
+

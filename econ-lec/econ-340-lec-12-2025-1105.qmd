@@ -1,0 +1,406 @@
+---
+title: Lecture 12
+subtitle: Value of Statistical Life
+
+format:
+  clean-revealjs:
+    self-contained: false
+    chalkboard: true
+    incremental: true
+    code-annotations: hover
+    scrollable: false
+
+    # logo: logo-title-slide.png
+author:
+  - name: Byeong-Hak Choe
+    email: bchoe@geneseo.edu
+    affiliations: SUNY Geneseo
+date: 2025-11-05
+execute: 
+  eval: true
+  echo: false
+callout-icon: false
+
+from: markdown+emoji
+include-after-body: target-hover.html # effect.html
+
+# bibliography: refs.bib
+---
+
+```{r setup}
+#| include: false
+
+library(tidyverse)
+library(lubridate)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+library(viridis)
+library(rmarkdown)
+library(gapminder)
+library(ggrepel)
+library(formattable)
+
+theme_set(theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(10,0,0,0)),
+                axis.title.y = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(0,10,0,0)),
+                axis.text.x = element_text(size = rel(1.75)),
+                axis.text.y = element_text(size = rel(1.75)),
+                strip.text = element_text(size = rel(1.5)),
+                legend.position = "top",
+                legend.text = element_text(size = rel(1.5)),
+                legend.title = element_text(size = rel(1.5))
+                )
+          )
+
+# Set global options for color-blind-friendly scales
+# scale_colour_discrete <- function(...) scale_colour_viridis_d(...)
+
+scale_colour_discrete <- function(...) scale_color_colorblind(...)
+scale_fill_discrete <- function(...) scale_fill_colorblind(...)
+
+
+```
+
+
+# 💡 **Value of Statistical Life** {background-color="#1c4982"}
+
+## ⚖️ How Should Society Value Life-Saving Policies?
+
+<div style="display:block; margin:-5px;"></div>
+
+:::{.callout-note title="🌍 Policy Context"}
+Public policies on **air quality**, **drinking water**, **climate change**, and **safety standards** directly affect **mortality risks** — for example, by reducing deaths from **pollution exposure**, **unsafe water**, or **extreme weather events**.
+:::
+
+<div style="display:block; margin:-10px;"></div>
+
+- Although **human life cannot be priced**, **resources are limited** — forcing society to make **trade-offs** in efforts to reduce risks.  
+
+- **Significance:** Estimating the <u>*value of human life*</u> is crucial for allocating limited resources across programs that aim to **save lives** and **reduce illness**.  
+
+- **Core Dilemma:** Because life is **priceless** yet **resources are scarce**, policymakers must determine **how much to spend** for incremental reductions in mortality risk.  
+
+<div style="display:block; margin:-35px;"></div>
+
+<div class="fragment" style="font-size:1.8rem; text-align:center; margin-top:1.5rem;">
+  <blockquote>
+    *How much should society be willing to pay for small reductions in the risk of death?*
+  </blockquote>
+</div>
+
+
+## 🧮 Economic Approach to Valuing Life
+
+- **Focus:** Economists value **reductions in mortality risk**, not life itself.  
+- **Concept:** The **Value of a Statistical Life (VSL)** represents the *aggregate willingness to pay (WTP)* for small reductions in mortality risk that sum to "*one statistical life*" saved.  
+- **Calculation:**  
+  - Based on the **marginal rate of substitution** between money and mortality risk.  
+  - Reflects individuals’ trade-offs between income and risk reduction.
+
+
+## 🧩 Calculating VSL
+
+
+**Scenario:**  
+Police officers receive an extra pay of **$700 per year** for an **excess fatality risk of 1/10,000** annually.  
+
+What is the implied VSL?
+
+
+1. Extra Pay = **$700 per year**  
+2. Change in Mortality Risk = **1/10,000**  
+3.  
+$$
+\text{VSL} = \frac{\text{Extra WTP}}{\text{Change in Mortality Risk}} = \frac{700}{1/10{,}000} = 700 \times 10{,}000 = \$7{,}000{,}000
+$$
+
+<div style="display:block; margin:-25px;"></div>
+
+<div class="fragment" style="font-size:1.8rem; text-align:center;">
+
+**Result:** The Value of Statistical Life is **$7 million**.
+
+</div>
+
+- **Interpretation**: 10,000 officers collectively value the prevention of "one statistical death" at **$7 million**.
+
+
+## 🧮 Calculating VSL for a Policy Scenario
+
+A new safety policy lowers the annual risk of death from **1 in 100,000** to **1 in 150,000** for **1 million people**.
+
+:::{.fragment}
+- **Expected deaths before policy:** 10  
+- **Expected deaths after policy:** 6.67  
+- **Lives saved:** ≈ 3.33  
+- **Each person’s WTP:** $5 → **Total WTP = $5 million**
+:::
+
+<div style="display:block; margin:-15px;"></div>
+
+:::{.fragment}
+**Question:** What is the implied Value of a Statistical Life (VSL)?
+:::
+
+::::{.columns}
+::: {.column width="45%"}
+:::{.fragment}
+$$
+\text{VSL} 
+= \frac{\text{Total WTP}}{\text{Lives Saved}} 
+$$
+:::
+:::
+::: {.column width="5%"}
+:::{.fragment}
+<div style="display:block; margin:55px;"></div>
+or
+:::
+:::
+::: {.column width="45%"}
+:::{.fragment}
+$$
+\text{VSL} 
+= \frac{\text{Individual WTP}}{\text{Change in Risk}} 
+$$
+:::
+:::
+::::
+
+<div style="display:block; margin:-20px;"></div>
+
+<div class="fragment" style="font-size:1.7rem; text-align:center; margin-top:1rem;">
+💡 **Result:** The implied Value of a Statistical Life (VSL) is approximately **$1.5 million**.
+</div>
+
+
+
+## 🧮 Calculating VSL: Alternative Scenario
+
+:::{.fragment}
+A new **vehicle safety feature** reduces the annual risk of a fatal accident by **1 in 100,000 (0.001%)**.  
+:::
+
+<div style="display:block; margin:-20px;"></div>
+
+:::{.fragment}
+If each individual in a population of **100,000** is willing to pay **$100** for this risk reduction, what is the implied Value of a Statistical Life (VSL)?
+:::
+
+<!-- :::{.fragment} -->
+<!-- $$ -->
+<!-- \text{VSL}  -->
+<!-- = \frac{\text{Individual WTP}}{\text{Change in Risk}}  -->
+<!-- = \frac{100}{1/100{,}000}  -->
+<!-- = 100 \times 100{,}000  -->
+<!-- = \$10{,}000{,}000 -->
+<!-- $$ -->
+<!-- ::: -->
+
+<!-- <div class="fragment" style="font-size:1.8rem; text-align:center; margin-top:1rem;"> -->
+<!-- 💡 **Result:** The implied Value of a Statistical Life (VSL) is **$10 million**. -->
+<!-- </div> -->
+
+
+
+## ⚖️ Is Valuing Human Life Immoral?
+
+- **Moral Objections:**  
+  - Critics contend that placing a **monetary value on human life** is inherently **immoral**.  
+  - Doing so may undermine the **absolute right** to live free from pollution-induced harm.  
+  - Regulations that **permit some deaths** for the sake of **cost efficiency** raise serious **ethical concerns**.
+
+<div style="display:block; margin:-10px;"></div>
+
+## 🛠️ Defense of Benefit–Cost Analysis
+
+- **Resource Reality:** When resources are limited, *ignoring* the benefits of lifesaving measures would itself be **unethical**.  
+- **Inevitable Trade-offs:** Completely eliminating pollution or risk is **technically impossible** and **economically unsustainable**.  
+- **Everyday Precedent:** Individuals routinely balance **risk and cost** (e.g., driving speed, diet, medical decisions).  
+- **Democratic Fairness:** Transparent benefit–cost analysis ensures that **public preferences** and **opportunity costs** are openly considered.
+
+<div style="display:block; margin:-10px;"></div>
+
+<div class="fragment" style="font-size:2rem; text-align:center; margin-top:1rem;">
+💡 **Conclusion:**  
+While imperfect, **benefit–cost analysis** offers a **transparent and pragmatic framework** for guiding policy decisions that seek to improve overall welfare.
+</div>
+
+## 📊 Empirical Estimates of the VSL
+
+<div style="display:block; margin:20px;"></div>
+
+| **Study / Source** | **Period** | **Estimated Range (USD, millions)** | **Central Estimate (USD, millions)** |
+|--------------------|------------|-----------------------------------:|------------------------------------:|
+| Viscusi (1996)     | 1986 dollars | 3 – 7 | 5 |
+| Banzhaf (2021, meta-analysis) | Recent | 3.7 – 12.3 | 7 |
+
+
+<div style="display:block; margin:20px;"></div>
+
+- Across studies, VSL estimates typically range from **$3–12 million**, with **$7.4 million (in 2006 dollars)** often used as a benchmark in U.S. policy analysis.
+
+
+
+
+## 👥 Factors Influencing VSL — Age
+
+
+- Research suggests an **inverted U-shaped relationship** between age and VSL (Viscusi, 2008).  
+- VSL peaks in mid-adulthood when both **income** and **risk exposure** tend to be highest.
+
+
+
+<div style="margin-top:0.5rem;"></div>
+
+:::{.fragment}
+| **Age Group** | **Estimated VSL (USD, millions)** |
+|---------------|----------------------------------:|
+| 18–24 | 3.7 |
+| 35–44 *(peak)* | 9.7 |
+| 55–62 | 3.4 |
+:::
+
+
+## 🌍 Factors Influencing VSL — Income & Region
+
+<div style="display:block; margin:-10px;"></div>
+
+<div style="font-size:1.5rem; text-align:center; margin-top:1.5rem;">
+
+| **European Union** | 1.7 – 3.6 |
+|:-------------------|----------:|
+| **OECD Average**   | **2.2 – 4.1** |
+| **India**          | **~ 0.6**     |
+
+</div>
+
+- **Income Elasticity of VSL** measures how the **value of statistical life (VSL)** changes in response to **income growth** — that is, the **percentage change in VSL** for a **1% change in income**.  
+- The **estimated elasticity** tends to be **higher in lower-income countries**, reflecting greater sensitivity of WTP to income changes.  
+- Analysts use these estimates to **adjust VSL values across countries or over time** as income levels change.  
+- <u>Typical ranges</u>: **>1.0** in lower-income contexts, and **0.4–0.6** for U.S. and other high-income countries.  
+  - When income falls, WTP tends to drop **sharply** (because basic needs dominate spending).
+  
+
+
+## 🇺🇸️ Historical Shifts in U.S. Agency VSLs
+- **George W. Bush administration:** EPA’s VSL fell to **$6.8 million**.  
+- **Obama administration:**  
+  - EPA raised its VSL to **$9.1 million (2010)** and **$9.7 million (2013)**.  
+  - FDA increased its VSL from **$5 million (2008)** → **$7.9 million (2010)** → **$9.3 million (2015)**.  
+  - DOT adopted stronger safety rules (e.g., car roof standards) once higher VSLs justified their cost.  
+- **Trump and Biden administrations:** VSL values remained **largely unchanged**, adjusted only for inflation and income growth.
+  - **$10.7 million (2022 dollars)**
+
+
+
+## 🏛️ VSL Across U.S. Government Agencies
+
+<div style="display:block; margin:-10px;"></div>
+
+<div style="font-size:1.5rem; text-align:center; margin-top:1.5rem;">
+
+| **Agency**                                   | **Recent / Historical VSL (USD, millions)** |
+|:---------------------------------------------|-------------------------------------------:|
+| **Environmental Protection Agency (EPA)**    | 9.38 |
+| **Food and Drug Administration (FDA)**       | 9.82 |
+| **Department of Transportation / Homeland Security (DOT / DHS)** | 10.32 |
+| **Nuclear Regulatory Commission (NRC)**      | 3.0 → 9.0 (2015 recommendation) |
+
+</div>
+<div style="display:block; margin:15px;"></div>
+
+- Differences in VSL estimates among U.S. agencies reflect **updates in data and methods**, **administrative and policy decisions**, and **evolving approaches to valuing risk reduction**.
+
+- Critics argued that the NRC’s low VSL **undervalued human life** and **discouraged safety improvements** at nuclear facilities.  
+- Economist **Kip Viscusi** called the NRC figure *“outrageously low and out of line with both agency practices and the economics literature.”*  
+- In **2015**, the NRC raised its VSL to **$9 million** for future analyses.
+
+
+## ⚙️ Applications of the VSL
+
+- **Environmental Regulation — U.S. Clean Air Act (1990–2020):**  
+  - The **EPA** estimates the Act has prevented **over 230,000 premature deaths annually**.  
+  - About **85%** of total benefits stem from **mortality risk reductions** valued using the **VSL**.  
+  - The **annual benefits (~$2 trillion)** outweigh costs by a factor of **over 30 to 1**.  
+
+- **Climate Change Policy:**  
+  - The VSL is used to value mortality from **heat-related deaths (~9,700 per year in the U.S.)**, which informs estimates of the **SCC**.  
+
+- **Public Health Decisions:**  
+  - Used to assess trade-offs between **economic costs** and **lives saved**, such as in **safety standards**, **air quality**, or **pandemic policies**.
+
+## 🦠 Case Study: COVID-19 and the Value of Life
+
+- **Economic Impact:**  
+  - Social distancing generated an estimated **$8 trillion** in avoided mortality in the U.S.  
+  - Total **U.S. mortality costs** ≈ **$1.4 trillion** (first half of 2020).  
+  - **Global mortality costs** ≈ **$3.5 trillion** by mid-2020.  
+
+- **Historical Insight:**  
+  - Cities with stronger **1918 flu interventions** recovered **faster economically**, showing that saving lives and economic resilience can go hand in hand.  
+
+- **Key Takeaway:**  
+  - Public health measures can **simultaneously improve health and economic outcomes**.  
+  - The supposed “**lives vs. economy**” trade-off is **largely misleading**.  
+  
+  <!-- - **Benefit–cost analysis** helps evaluate these interventions, though results depend on **uncertainty** and **distributional impacts** across populations. -->
+  
+
+## 🪶 Vultures in India — Valuing Keystone Species
+
+
+
+
+::::{.columns}
+::: {.column width="40%"}
+
+<div style="display:block; margin:-30px;"></div>
+
+<div style="text-align:center; width:100%; margin:auto;">
+  <img src="https://bcdanl.github.io/lec_figs/vulture.jpeg" style="width:100%; margin-bottom:-20px;">
+</div>
+
+
+:::
+::: {.column width="60%"}
+
+- Vultures are **keystone scavengers** whose carcass removal prevents **disease transmission** and supports **ecosystem health**.  
+- Their value reflects the **economic benefits of this ecological role** — captured through **avoided mortality**, **reduced disease**, and **sustained productivity**.
+
+:::
+::::
+
+
+- **Crisis:**  
+  Populations collapsed in the 1990s due to **diclofenac**, a veterinary anti-inflammatory drug toxic to vultures.  
+- **Consequence:**  
+  Decomposition slowed, leading to more **rotting carcasses** and **disease transmission**.
+  
+## 📉 Mortality Impacts of Vulture Decline
+
+<div style="display:block; margin:-10px;"></div>
+
+<div style="text-align:center; width:77.5%; margin:auto;">
+  <img src="https://bcdanl.github.io/lec_figs/vulture.png" style="width:100%; margin-bottom:-20px;">
+</div>
+
+- Between **2000–2005**, the loss of vultures caused roughly **100,000 additional human deaths per year** in India.  
+- Estimated **mortality damages**: **$69.4 billion per year**, based on Indian VSL estimates.
+
+
+
+
+
+
+
+
+
+
