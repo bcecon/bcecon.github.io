@@ -111,7 +111,11 @@ Governments use CBA to decide:
 | Tighten to 70 ppb  | **16**                   | **24**                      |
 
 $$
-PV_{NB} = PV_B - PV_C = 24 - 16 = 8 \text{ billion}
+\begin{aligned}
+PV_{NB} &= PV_B - PV_C\\ 
+&= 24 - 16\\
+&= 8 \text{ billion}
+\end{aligned}
 $$
 
 $$

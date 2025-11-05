@@ -3616,7 +3616,7 @@
     "href": "econ-lec/econ-340-lec-10-2025-1029.html#example-regulating-ozone-pollution-1",
     "title": "Lecture 10",
     "section": "Example: Regulating Ozone Pollution",
-    "text": "Example: Regulating Ozone Pollution\nHypothetical Scenario (Present Value Terms)\n\n\n\n\n\n\n\n\nOption\nPV of Costs (Billion $)\nPV of Benefits (Billion $)\n\n\n\n\nMaintain 75 ppb\n—\n—\n\n\nTighten to 70 ppb\n16\n24\n\n\n\n\\[\nPV_{NB} = PV_B - PV_C = 24 - 16 = 8 \\text{ billion}\n\\]\n\\[\nPV_{B/C} = \\frac{PV_B}{PV_C} = \\frac{24}{16} = 1.5\n\\]\n✅ Positive PV net benefits and \\(PV_{B/C} &gt; 1\\) → Economically justified."
+    "text": "Example: Regulating Ozone Pollution\nHypothetical Scenario (Present Value Terms)\n\n\n\n\n\n\n\n\nOption\nPV of Costs (Billion $)\nPV of Benefits (Billion $)\n\n\n\n\nMaintain 75 ppb\n—\n—\n\n\nTighten to 70 ppb\n16\n24\n\n\n\n\\[\n\\begin{aligned}\nPV_{NB} &= PV_B - PV_C\\\\\n&= 24 - 16\\\\\n&= 8 \\text{ billion}\n\\end{aligned}\n\\]\n\\[\nPV_{B/C} = \\frac{PV_B}{PV_C} = \\frac{24}{16} = 1.5\n\\]\n✅ Positive PV net benefits and \\(PV_{B/C} &gt; 1\\) → Economically justified."
   },
   {
     "objectID": "econ-lec/econ-340-lec-10-2025-1029.html#example-regulating-ozone-pollution-2",
