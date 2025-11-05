@@ -1,12 +1,11 @@
 ---
 title: Week 11
-subtitle: Understanding Climate Change and the Social Cost of Carbon
+subtitle: "Valuing Climate and Human Welfare: SCC, VSL, and Policy Responses"
 date: 2025-11-03
 from: markdown+emoji
 ---
 
-In **Week 11**, we continue to discuss the social cost of carbon. We will then move to the topics in policies and regulations to address climate change problems.
-
+In **Week 11**, we will continue our discussion on the **Social Cost of Carbon (SCC)** and then move on to explore the **Value of Statistical Life (VSL)** as well as key **policies and regulations** designed to address **climate change challenges**.
 
 # ✍️ Classwork
 
