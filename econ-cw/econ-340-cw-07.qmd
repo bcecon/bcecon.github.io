@@ -179,12 +179,6 @@ Farming income of **\$70** is automatically granted to every household each peri
 If total earnings < \$75, your family cannot eat for a day (conceptually unpleasant!).
 </p>
 
----
-
-
-# Experiment Results
-
-
 ## Contract Periods (Treatments)
 
 | Period | Policy Context            | Key Feature                         |
@@ -194,6 +188,12 @@ If total earnings < \$75, your family cannot eat for a day (conceptually unpleas
 | **2**  | PES + Illegal Harvest      | Can cheat; subject to random audit  |
 | **3**  | Community PES              | Group decision and shared payment   |
 | **4**  | Community + Illegal Harvest| Group and individual enforcement    |
+
+
+---
+
+
+# Experiment Results
 
 
 ## Experiment Data
