@@ -229,44 +229,45 @@ If each individual in a population of **100,000** is willing to pay **$100** for
 <div style="display:block; margin:-10px;"></div>
 
 <div class="fragment" style="font-size:2rem; text-align:center; margin-top:1rem;">
-💡 **Conclusion:**  
-While imperfect, **benefit–cost analysis** offers a **transparent and pragmatic framework** for guiding policy decisions that seek to improve overall welfare.
+💡 While imperfect, **benefit–cost analysis using the VSL** provides a **transparent and pragmatic framework** for evaluating how policies improve overall welfare
 </div>
 
 ## 📊 Empirical Estimates of the VSL
 
 <div style="display:block; margin:20px;"></div>
 
+<div style="font-size:1.8rem; text-align:center; margin-top:1.5rem;">
+
 | **Study / Source** | **Period** | **Estimated Range (USD, millions)** | **Central Estimate (USD, millions)** |
 |--------------------|------------|-----------------------------------:|------------------------------------:|
 | Viscusi (1996)     | 1986 dollars | 3 – 7 | 5 |
 | Banzhaf (2021, meta-analysis) | Recent | 3.7 – 12.3 | 7 |
 
+</div>
 
 <div style="display:block; margin:20px;"></div>
 
-- Across studies, VSL estimates typically range from **$3–12 million**, with **$7.4 million (in 2006 dollars)** often used as a benchmark in U.S. policy analysis.
-
+- Across studies, VSL estimates typically range from **$3–12 million**.  
+- The **EPA’s benchmark value** is **$7.4 million (in 2006 dollars)**, commonly used in **U.S. policy analysis**.
 
 
 
 ## 👥 Factors Influencing VSL — Age
 
+<div style="font-size:1.8rem; text-align:center; margin-top:1.5rem;">
 
-- Research suggests an **inverted U-shaped relationship** between age and VSL (Viscusi, 2008).  
-- VSL peaks in mid-adulthood when both **income** and **risk exposure** tend to be highest.
-
-
-
-<div style="margin-top:0.5rem;"></div>
-
-:::{.fragment}
 | **Age Group** | **Estimated VSL (USD, millions)** |
 |---------------|----------------------------------:|
 | 18–24 | 3.7 |
 | 35–44 *(peak)* | 9.7 |
 | 55–62 | 3.4 |
-:::
+
+</div>
+
+- Research suggests an **inverted U-shaped relationship** between age and VSL.  
+- VSL peaks in mid-adulthood when both **income** and **risk exposure** tend to be highest.
+
+
 
 
 ## 🌍 Factors Influencing VSL — Income & Region
@@ -282,7 +283,7 @@ While imperfect, **benefit–cost analysis** offers a **transparent and pragmati
 
 </div>
 
-- **Income Elasticity of VSL** measures how the **value of statistical life (VSL)** changes in response to **income growth** — that is, the **percentage change in VSL** for a **1% change in income**.  
+- **Income elasticity of VSL** measures how the **VSL** changes in response to **income growth** — that is, the **percentage change in VSL** for a **1% change in income**.  
 - The **estimated elasticity** tends to be **higher in lower-income countries**, reflecting greater sensitivity of WTP to income changes.  
 - Analysts use these estimates to **adjust VSL values across countries or over time** as income levels change.  
 - <u>Typical ranges</u>: **>1.0** in lower-income contexts, and **0.4–0.6** for U.S. and other high-income countries.  
