@@ -364,14 +364,49 @@ $$
 ## 🏭 Heterogeneous Plants: Quantity with Flexibility
 
 - The government sets a **total emissions cap** (e.g., 200 permits) and lets firms **trade** them. <span class="fragment">(**Coase Theorem!**)</span>  
-- Each permit allows one unit of pollution.  
-- **Low-cost firms** can reduce emissions cheaply, so they **cut more** and **sell permits**.  
-- **High-cost firms** find abatement expensive, so they **buy permits** instead of cutting as much.  
-- Trading continues until  
-  **MCₐ(Qₐ) = MCᵦ(Qᵦ) = permit price = MD**,  
-  meaning all firms face the **same marginal cost** of abatement.  
-- <u>The result</u>: the **pollution target is met** at the **lowest total cost**.  
-- Works just like a **carbon tax**, but the **price** emerges from the **permit market** instead of being set by the government.
+- Each permit allows **one unit of pollution**.  
+
+- **A firm will:**
+  - **Abate** if its **MC** is **less than the permit price** → cheaper to clean than to buy.  
+  - **Buy permits** if its **MC** is **greater than the permit price** → cheaper to pollute than to clean.  
+  - Trading continues until **no further mutually beneficial trades exist** — just like in a *Coase bargain*.  
+
+<div style="display:block; margin:-35px;"></div>
+
+<div class="fragment" style="font-size:1.75rem; text-align:center; margin-top:1rem; margin-bottom:1rem; color:#0072B2;">
+
+**MCₐ(Qₐ) = MCᵦ(Qᵦ) = Permit Price = MD <span class="fragment">(= τ)</span>**
+
+</div>
+<div style="display:block; margin:-10px;"></div>
+
+
+- <u>The result</u>: the **pollution target is met** at the **lowest total cost**,  
+  as all firms face the **same marginal cost of abatement**.
+  
+<!-- ## 🏭 Heterogeneous Plants: Quantity with Flexibility -->
+
+<!-- - The government sets a **total emissions cap** (e.g., 200 permits) and lets firms **trade** them. <span class="fragment">(**Coase Theorem!**)</span>   -->
+<!-- - Each permit allows one unit of pollution.   -->
+<!-- <!-- - **Low-cost firms** can reduce emissions cheaply, so they **cut more** and **sell permits**.   --> -->
+<!-- <!-- - **High-cost firms** find abatement expensive, so they **buy permits** instead of cutting as much.   --> -->
+<!-- <!-- - Trading continues until   --> -->
+<!-- <!--   **MCₐ(Qₐ) = MCᵦ(Qᵦ) = permit price = MD**,   --> -->
+<!-- <!--   meaning all firms face the **same marginal cost** of abatement.   --> -->
+
+<!-- - **A firm will:** -->
+<!--   - **Abate** if its MC is **less than the permit price** (cheaper to clean than buy). -->
+<!--   - **Buy permits** if its MC is **greater than the permit price** (cheaper to pollute than clean). -->
+<!--   - This trading continues until **no further mutually beneficial trades exist:**. -->
+
+<!-- <div style="font-size:1.5rem; text-align="center"> -->
+
+<!-- **MCₐ(Qₐ) = MCᵦ(Qᵦ) = permit price = MD** -->
+
+<!-- <div> -->
+
+<!-- - <u>The result</u>: the **pollution target is met** at the **lowest total cost**.   -->
+<!-- - Works just like a **carbon tax**, but the **price** emerges from the **permit market** instead of being set by the government. -->
 
 <!-- ## 🏭 Heterogeneous Plants: Quantity with Flexibility -->
 
