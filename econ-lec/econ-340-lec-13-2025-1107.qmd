@@ -434,7 +434,7 @@ $$
 
 <div class="fragment" style="font-size:2rem; text-align:center; margin-top:1rem;">
 - ⚖️ **Command-and-control** is simple but costly.  
-- 💡 Allowing firms to choose **how much to abate** based on their own costs leads **MCs to equalize across firms**, resulting in an **efficient allocation of abatement**.
+- 💡 Allowing firms to choose **how much to abate** based on their own costs leads **MCs to equalize across firms**, resulting in an **efficient allocation of abatement** (<u>*Cost-Effectiveness Equimarginal Principle*</u>).
 - ✅ **Carbon taxes** and **cap-and-trade** reach the same environmental target **at lower total cost** than uniform regulations.
 </div>
 
