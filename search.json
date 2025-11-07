@@ -200,7 +200,7 @@
     "href": "listing-econ-340-hw.html",
     "title": "ECON 340 - Homework",
     "section": "",
-    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\nExternalities; EPA Edangerment Finding on GHG Emissions; Coase Theorem\n\n\nOctober 9, 2025\n\n\n\n\nHomework 2\n\n\nExternalities; Common Pool Resources; Public Goods\n\n\nNovember 4, 2025\n\n\n\n\nHomework 3\n\n\nCost–Benefit Analysis of Investment in CCUS\n\n\nNovember 5, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\nExternalities; EPA Edangerment Finding on GHG Emissions; Coase Theorem\n\n\nOctober 9, 2025\n\n\n\n\nHomework 2\n\n\nExternalities; Common Pool Resources; Public Goods\n\n\nNovember 4, 2025\n\n\n\n\nHomework 3\n\n\nCost–Benefit Analysis of Investment in CCUS\n\n\nNovember 7, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "listing-econ-340-lec.html",
@@ -1677,7 +1677,7 @@
     "href": "index.html#homework",
     "title": "ECON 340: Environmental Economics, Fall 2025",
     "section": "💻 Homework",
-    "text": "💻 Homework\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\nExternalities; EPA Edangerment Finding on GHG Emissions; Coase Theorem\n\n\nOctober 9, 2025\n\n\n\n\nHomework 2\n\n\nExternalities; Common Pool Resources; Public Goods\n\n\nNovember 4, 2025\n\n\n\n\nHomework 3\n\n\nCost–Benefit Analysis of Investment in CCUS\n\n\nNovember 5, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "💻 Homework\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\nExternalities; EPA Edangerment Finding on GHG Emissions; Coase Theorem\n\n\nOctober 9, 2025\n\n\n\n\nHomework 2\n\n\nExternalities; Common Pool Resources; Public Goods\n\n\nNovember 4, 2025\n\n\n\n\nHomework 3\n\n\nCost–Benefit Analysis of Investment in CCUS\n\n\nNovember 7, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "econ-rw/econ-340-project-kickoff.html",
@@ -3546,7 +3546,7 @@
     "href": "econ-hw/econ-340-hw-03.html#question-2.-add-the-social-value-of-carbon-scc-190tco₂",
     "title": "Homework 3",
     "section": "Question 2. Add the Social Value of Carbon (SCC = $190/tCO₂)",
-    "text": "Question 2. Add the Social Value of Carbon (SCC = $190/tCO₂)\nEach year, CCUS prevents 1 million metric tons of CO₂, avoiding $190 million in climate damages.\n\nAdd $190 million per year to each annual benefit.\n\nRecalculate the Social \\(\\text{PV}_{NB}\\) at 4%.\n\nCompare your results and discuss what changes.\n\n\n\n\n\n\n\n\n\n\nDiscount Rate\nPV of Benefits (Private + SCC)\nPV of Costs\nSocial \\(\\text{PV}_{NB}\\)\n\n\n\n\n4%\n\n500"
+    "text": "Question 2. Add the Social Value of Carbon (SCC = $190/tCO₂)\nEach year, CCUS prevents 1 million metric tons of CO₂, avoiding $190 million in climate damages.\n\nAdd $190 million per year to each annual benefit.\n\nRecalculate the Social \\(\\text{PV}_{NB}\\) at 4%.\n\nCompare your results and discuss what changes.\n\n\n\n\n\n\n\n\n\n\nPV of Total Benefits (Private + SCC) (Million $) \nPV of Costs (Million $)\nSocial \\(\\text{PV}_{NB}\\) (Million $)\n\n\n\n\n\n500"
   },
   {
     "objectID": "econ-hw/econ-340-hw-03.html#question-3.-how-large-should-the-45q-credit-be-realism-check",
@@ -3588,7 +3588,7 @@
     "href": "econ-hw/econ-340-hw-03.html#question-1.-private-present-value-of-net-benefit-textpv_nb",
     "title": "Homework 3",
     "section": "Question 1. Private Present Value OF Net Benefit (\\(\\text{PV}_{NB}\\))",
-    "text": "Question 1. Private Present Value OF Net Benefit (\\(\\text{PV}_{NB}\\))\n\nUse the annual benefits table to calculate the Present Value (PV) of benefits at 4%.\n\nSubtract the $500 million investment to find the Private \\(\\text{PV}_{NB}\\).\n\nInterpret whether the project is financially attractive for the company.\n\n\n\n\n\n\n\n\n\n\nDiscount Rate\nPV of Benefits\nPV of Costs\nPrivate \\(\\text{PV}_{NB}\\)\n\n\n\n\n4%\n\n500"
+    "text": "Question 1. Private Present Value OF Net Benefit (\\(\\text{PV}_{NB}\\))\n\nUse the annual benefits table to calculate the Present Value (PV) of benefits at 4%.\n\nSubtract the $500 million investment to find the Private \\(\\text{PV}_{NB}\\).\n\nInterpret whether the project is financially attractive for the company.\n\n\n\n\n\n\n\n\n\nPV of Total Benefits (Million $)\nPV of Costs (Million $)\nPrivate \\(\\text{PV}_{NB}\\) (Million $)\n\n\n\n\n\n500"
   },
   {
     "objectID": "econ-lec/econ-340-lec-10-2025-1029.html#what-is-costbenefit-analysis-cba",

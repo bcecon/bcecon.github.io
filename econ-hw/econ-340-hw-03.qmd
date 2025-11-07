@@ -174,9 +174,9 @@ The company estimates the following **annual net benefits** (in **millions of do
 2. Subtract the \$500 million investment to find the **Private $\text{PV}_{NB}$**.  
 3. Interpret whether the project is financially attractive for the company.
 
-| **Discount Rate** | **PV of Benefits** | **PV of Costs** | **Private $\text{PV}_{NB}$** |
-|--------------------|------------------:|----------------:|----------------:|
-| 4% |  | 500 |  |
+**PV of Total Benefits (Million \$)** | **PV of Costs (Million \$)** | **Private $\text{PV}_{NB}$ (Million \$)** |
+|------------------------|------------------:|-------------------:|
+|  | 500 |  |
 
 
 <br>
@@ -189,9 +189,11 @@ Each year, CCUS prevents **1 million metric tons of CO₂**, avoiding **\$190 mi
 2. Recalculate the **Social $\text{PV}_{NB}$** at 4%.  
 3. Compare your results and discuss what changes.
 
-| **Discount Rate** | **PV of Benefits (Private + SCC)** | **PV of Costs** | **Social $\text{PV}_{NB}$** |
-|--------------------|------------------------------------:|----------------:|----------------:|
-| 4% |  | 500 |  |
+<!-- | **Discount Rate** | **PV of Benefits (Private + SCC)** | **PV of Costs** | **Social $\text{PV}_{NB}$** | -->
+
+| **PV of Total Benefits (Private + SCC) (Million \$) ** | **PV of Costs (Million \$)** | **Social $\text{PV}_{NB}$ (Million \$)** |
+|--------------------------------|---------------------:|-------------------:|
+|  | 500 |  |
 
 
 <br>
