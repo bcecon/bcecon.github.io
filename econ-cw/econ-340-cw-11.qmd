@@ -1,0 +1,73 @@
+---
+title: Classwork 11
+subtitle: Market for Pollution
+date: 2025-11-07
+code-fold: true
+execute:
+  echo: false
+  eval: true
+  warning: false
+  message: false
+from: markdown+emoji
+---
+```{r}
+#| include: false
+
+library(knitr)
+library(rmarkdown)
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+
+theme_set(theme_ipsum() +
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = element_text(size = rel(1.5)),
+                axis.title.y = element_text(size = rel(1.5)),
+                legend.title = element_text(size=rel(1.25))
+                ))
+```
+
+
+# Question 1
+
+Firms A and B each produce 80 units of pollution. The federal government wants to reduce pollution levels. The marginal costs associated with pollution reduction are: 
+$$
+\begin{aligned}
+MC_A = 50 + 3Q_A \qquad\text{for firm A} \\ 
+MC_B = 20 + 6Q_B \qquad\text{for firm B}
+\end{aligned}
+$$
+
+where $Q_A$ and $Q_B$ are the quantities of pollution reduced by each firm. Society’s marginal benefit from pollution reduction is given by 
+$$
+MB = 590 – 3Q_{T}
+$$
+
+where $Q_{T} = Q_A + Q_B$ is the total reduction in pollution.
+
+
+## Part A
+What is the socially optimal level of each firm’s pollution reduction?
+
+<br>
+
+## Part B
+How much total pollution is there in the social optimum?
+
+<br>
+
+
+## Part C
+Explain why it is inefficient to give each firm an equal number of pollution permits (if they are not allowed to trade them).
+
+<br>
+
+## Part D
+Explain how the social optimum can be achieved if firms are given equal numbers of pollution permits but are allowed to trade them.
+
+<br>
+
+## Part E
+Can the social optimum be achieved using a tax on pollution?
+
