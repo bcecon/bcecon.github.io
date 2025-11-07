@@ -4722,7 +4722,7 @@
     "href": "econ-lec/econ-340-lec-13-2025-1107.html#heterogeneous-plants-price-regulation",
     "title": "Lecture 13",
     "section": "🏭 Heterogeneous Plants: Price Regulation",
-    "text": "🏭 Heterogeneous Plants: Price Regulation\n\n\n\n\n\n\n\n\n\nUnder a Pigouvian tax (τ = MD), each firm decides how much to reduce pollution.\n\nFirms abate until their marginal cost (MC) equals the tax rate (τ).\n\n\n\n\n\n\n\nTotal Cost of Pollution Reduction\n\n\n\n\n\n\\[\n\\begin{aligned}\n\\underbrace{\\frac{1}{2}\\times(150-50)\\times100}_{\\text{Plant A}} + \\underbrace{\\frac{1}{2}\\times50\\times100}_{\\text{Plant B}} = \\$7,500\n\\end{aligned}\n\\]"
+    "text": "🏭 Heterogeneous Plants: Price Regulation\n\n\n\n\n\n\n\n\n\nUnder a Pigouvian tax (τ = MD), each firm decides how much to reduce pollution.\n\nFirms abate until their marginal cost (MC) equals the tax rate (τ).\n\n\n\n\n\n\n\nTotal Social Cost of Pollution Reduction\n\n\n\n\n\n\\[\n\\begin{aligned}\n\\underbrace{\\frac{1}{2}\\times(150-50)\\times100}_{\\text{Plant A}} + \\underbrace{\\frac{1}{2}\\times50\\times100}_{\\text{Plant B}} = \\$7,500\n\\end{aligned}\n\\]"
   },
   {
     "objectID": "econ-lec/econ-340-lec-13-2025-1107.html#heterogeneous-plants-quantity-with-flexibility",
@@ -4743,7 +4743,7 @@
     "href": "econ-lec/econ-340-lec-13-2025-1107.html#heterogeneous-plants-command-and-control",
     "title": "Lecture 13",
     "section": "🏭 Heterogeneous Plants: Command-and-Control",
-    "text": "🏭 Heterogeneous Plants: Command-and-Control\n\n\n\n\n\n\n\n\n\nEqual command-and-control cuts (e.g., 100 units each) simplifies enforcement and compliance — every firm follows the same rule.\n\n\n\n\n\n\n\nTotal Cost of Pollution Reduction\n\n\n\n\n\n\\[\n\\underbrace{\\frac{1}{2}\\times(100-50)\\times50}_{\\text{Plant A}} + \\underbrace{\\frac{1}{2}\\times100\\times200}_{\\text{Plant B}} = \\$11,250\n\\]"
+    "text": "🏭 Heterogeneous Plants: Command-and-Control\n\n\n\n\n\n\n\n\n\nEqual command-and-control cuts (e.g., 100 units each) simplifies enforcement and compliance — every firm follows the same rule.\n\n\n\n\n\n\n\nTotal Social Cost of Pollution Reduction\n\n\n\n\n\n\\[\n\\underbrace{\\frac{1}{2}\\times(100-50)\\times50}_{\\text{Plant A}} + \\underbrace{\\frac{1}{2}\\times100\\times200}_{\\text{Plant B}} = \\$11,250\n\\]"
   },
   {
     "objectID": "econ-cw/econ-340-cw-11.html",

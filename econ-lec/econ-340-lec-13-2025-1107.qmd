@@ -308,7 +308,7 @@ We now consider a case with **two plants** that have **different marginal abatem
 
 <div style="display:block; margin:-30px;"></div>
 
-- Total Cost of Pollution Reduction
+- Total Social Cost of Pollution Reduction
 
 <div class="fragment" style="font-size:2rem; text-align:center; margin-top:1.5rem;">
 
@@ -346,7 +346,7 @@ $$
 
 <div style="display:block; margin:-30px;"></div>
 
-- Total Cost of Pollution Reduction
+- Total Social Cost of Pollution Reduction
 
 <div class="fragment" style="font-size:2rem; text-align:center; margin-top:1.5rem;">
 
