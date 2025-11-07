@@ -165,7 +165,7 @@ To compare **price** and **quantity** approaches effectively, we must shift focu
 ::: {.column width="72.5%"}
 
 <div style="display:block; margin:-180px;"></div>
-- **$A$**: **Market outcome** occurs where **PMC = PMB** — with **no incentive** to reduce pollution.
+- **$A$**: **Free market outcome** occurs where **PMC = PMB** — with **no incentive** to reduce pollution.
 - **$B$**: **Optimal outcome** occurs where **SMC = SMB**.
 
 <!-- - The **market outcome** occurs where **PMC = PMB** — with no incentive to reduce pollution.   -->
