@@ -375,14 +375,22 @@ $$
 
 <div class="fragment" style="font-size:1.75rem; text-align:center; margin-top:1rem; margin-bottom:1rem; color:#0072B2;">
 
-**MCₐ(Qₐ) = MCᵦ(Qᵦ) = Permit Price = MD <span class="fragment">(= τ)</span>**
+**MC<sub>A</sub>(Q<sub>A</sub>) = MC<sub>B</sub>(Q<sub>B</sub>) = Permit Price**. 
+
+</div>
+
+<div style="display:block; margin:-35px;"></div>
+
+<div class="fragment" style="font-size:1.75rem; text-align:center; margin-top:1rem; margin-bottom:1rem; color:#0072B2;">
+
+<span class="fragment">(Because the cap is the socially optimal level,)</span> **Permit Price = MD**.$\qquad\qquad\quad\;$
 
 </div>
 <div style="display:block; margin:-10px;"></div>
 
 
-- <u>The result</u>: the **pollution target is met** at the **lowest total cost**,  
-  as all firms face the **same marginal cost of abatement**.
+- <u>The result</u>: the **pollution target is met** at the **lowest total cost**.
+  <!-- as all firms face the **same marginal cost of abatement**. -->
   
 <!-- ## 🏭 Heterogeneous Plants: Quantity with Flexibility -->
 
