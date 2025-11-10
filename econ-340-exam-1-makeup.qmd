@@ -1,0 +1,642 @@
+---
+title: "ECON 340 - Make-up Midterm Exam I"
+subtitle: "SUNY Geneseo, Fall 2025"
+date: 2025-11-03
+execute:
+  echo: false
+  eval: true
+  message: false
+  warning: false
+  fig-width: 8
+  fig-height: 8
+
+toc: true
+toc-depth: 6
+---
+```{r}
+#| include: false
+
+library(tidyverse)
+library(skimr)
+library(lubridate)
+library(stargazer)
+library(broom)
+library(hrbrthemes)
+library(grid)
+# theme_set(theme_ipsum())
+
+# knitr::opts_chunk$set(fig.width=6, fig.height=6)  
+
+theme_set(theme_minimal(base_family = "Helvetica") +
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = element_text(size = rel(1.25), hjust = 1 ),
+                axis.title.y = element_text(size = rel(1.25), 
+                                            angle = 0,
+                                            margin = margin(0,10,0,0)))
+          )
+
+
+x <- seq(0, 40, 10)
+y <- seq(0, 100, 10)
+
+make_df <- function(theta = 0){
+  Q <- seq(0, 35, 5)
+  MB  <- 70 - 2*Q
+  MC  <- 10 + Q
+  EMC <- (1 - theta)*(20 + Q)
+  SMC <- MC + EMC
+  data.frame(Q, MB, MC, EMC, SMC, theta = theta)
+}
+
+df0 <- make_df(theta = 0.0)  # no export
+df5 <- make_df(theta = 1)  # 10% export (illustrative)
+
+
+p <- ggplot(data = data.frame(x = x,
+                         y = x)) +
+  geom_point(aes(x=x,y=y), size = 0, color = 'white') +
+  geom_vline(xintercept = 10, color = 'grey80') +
+  geom_vline(xintercept = 20, color = 'grey80') +
+  geom_vline(xintercept = 30, color = 'grey80') +
+  geom_vline(xintercept = 40, color = 'grey80') +
+  geom_hline(yintercept = 20, color = 'grey80') +
+  geom_hline(yintercept = 10, color = 'grey80') +
+  geom_hline(yintercept = 20, color = 'grey80') +
+  geom_hline(yintercept = 30, color = 'grey80') +
+  geom_hline(yintercept = 40, color = 'grey80') +
+  geom_hline(yintercept = 50, color = 'grey80') +
+  geom_hline(yintercept = 60, color = 'grey80') +
+  geom_hline(yintercept = 70, color = 'grey80') +
+  geom_hline(yintercept = 80, color = 'grey80') +
+  geom_hline(yintercept = 90, color = 'grey80') +
+  geom_hline(yintercept = 100, color = 'grey80') +
+  geom_hline(yintercept = 0) +
+  geom_vline(xintercept = 0) +
+  geom_line(data = df0, aes(Q, MB), linetype = "solid") +
+  geom_line(data = df0, aes(Q, MC), linetype = "solid") +
+  geom_line(data = df0, aes(Q, EMC), linetype = "solid") +
+  geom_line(data = df0, aes(Q, SMC), linetype = "solid") +
+  geom_rect(aes(xmin = 10-2.5, xmax = 15-2.5, ymin = 60, ymax = 65),
+          color = "grey20", fill = "white", linetype = "dashed", alpha = 0) +
+  annotate("segment",
+         x = 10, y = 60,        # arrow starts here
+         xend = 10, yend = 50.5, # arrow points here
+         color = "black",
+         arrow = arrow(length = unit(0.25, "cm"), type = "closed"),
+         size = 0.8) +
+  
+  geom_rect(aes(xmin = 20 - 2.5, xmax = 20 + 2.5, ymin = 17.5, ymax = 22.5),
+          color = "grey20", fill = "white", linetype = "dashed", alpha = 0) +
+  annotate("segment",
+         x = 20, y = 22.5,        # arrow starts here
+         xend = 20, yend = 29.5, # arrow points here
+         color = "black",
+         arrow = arrow(length = unit(0.25, "cm"), type = "closed"),
+         size = 0.8) +
+  
+  geom_rect(aes(xmin = 50/3 -2.5, xmax = 50/3 + 2.5, ymin = 45, ymax = 50),
+          color = "grey20", fill = "white", linetype = "dashed", alpha = 0) +
+  annotate("segment",
+         x = 50/3, y = 45,        # arrow starts here
+         xend = 50/3, yend = 20 + 50/3 + 0.5, # arrow points here
+         color = "black",
+         arrow = arrow(length = unit(0.25, "cm"), type = "closed"),
+         size = 0.8) +
+  scale_x_continuous(breaks = x,
+                     labels = x) +
+  scale_y_continuous(breaks = y,
+                     labels = y) +
+  labs(x = 'Q', y= 'P')
+```
+
+
+
+
+# Section 1. Multiple Choice
+
+
+## Question 1
+When a per-unit tax is imposed on sellers, which of the following statements is true?
+
+a. The supply curve shifts downward by the amount of the tax.  
+b. The demand curve shifts upward by the amount of the tax.  
+c. The supply curve shifts upward by the amount of the tax.  
+d. Neither demand nor supply shifts; only equilibrium changes.
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+**c**
+
+**Explanation**: A tax on sellers increases production cost, shifting supply upward.
+:::
+
+
+## Question 2
+A tax on raw inputs like crude oil to internalize pollution is called a(n):
+
+a. Upstream tax  
+b. Downstream tax  
+c. Output tax  
+d. Marginal tax
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+**a**
+
+**Explanation**: An upstream tax is levied early in the production chain on inputs.
+:::
+
+
+## Question 3
+Matching grants are most effective when:
+
+a. Private giving is inelastic  
+b. Public funds leverage private contributions toward shared goals  
+c. Tax rates are high  
+d. Free-riding is impossible
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+**b**
+
+**Explanation**: Matching grants work best when they crowd-in private giving.
+:::
+
+
+## Question 4
+Which statement best captures the equity implication of the Coase Theorem in the presence of well-defined property rights but unequal bargaining power?
+
+a. Efficiency ensures fairness as long as property rights are assigned efficiently.  
+b. Assigning rights to polluters lowers both efficiency and fairness because total surplus shrinks.  
+c. Government taxation is always required to restore both efficiency and equity once rights are defined.  
+d. The final allocation of resources is independent of rights, but the distribution of gains depends on who holds them.
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+**d**
+
+**Explanation**: Coase Theorem ensures efficiency but not equity; distribution depends on rights.
+:::
+
+
+## Question 5
+Which side of the market bears more of a tax burden?
+
+a. The more elastic side  
+b. The less elastic side  
+c. The side with more substitutes  
+d. The side with higher income
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+**b**
+
+**Explanation**: The side with lower elasticity bears more burden.
+:::
+
+
+## Question 6
+Elinor Ostrom’s research primarily challenged which prevailing belief?
+
+a. Only privatization can solve environmental externalities.  
+b. Markets are the most efficient governance system.  
+c. Common property is inherently inefficient.  
+d. State control maximizes social welfare.
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+**c**
+
+**Explanation**: Ostrom showed communities can manage commons sustainably without privatization/state control.
+:::
+
+
+## Question 7
+When aggregating marginal benefits for a public good, economists use:
+
+a. Horizontal summation  
+b. Vertical summation  
+c. Marginal cost integration  
+d. Pareto aggregation
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+**b**
+
+**Explanation**: Public goods require vertical summation—add willingness to pay at each quantity.
+:::
+
+
+## Question 8
+The additionality criterion in Payments for Ecosystem Services (PES) programs ensures that:
+
+a. Payments go only to landowners with legal titles  
+b. Forests are always replanted after harvest  
+c. The payment causes real behavioral change compared to the baseline  
+d. Contracts last for more than five years
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+**c**
+
+**Explanation**: Additionality means outcomes must be above what would have happened anyway.
+:::
+
+
+
+# Section 2. Filling-in-the-Blanks
+## Question 9
+_________________________ refers to confirming that forests were genuinely conserved, avoiding fraud or double counting.
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+**Verification**
+
+**Explanation**: Verification ensures projects truly deliver conservation outcomes and prevents double counting.
+:::
+
+
+## Question 10
+_________________________ represents the extra return to a resource above the minimum payment necessary to keep it in use.
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+**Economic rent**
+
+**Explanation**: Economic rent is the surplus above the minimum amount required to maintain current use.
+:::
+
+
+## Question 11
+Market failure in public goods arises on the _________________________ side of the market.
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+**demand**
+
+**Explanation**: Public goods suffer from demand-side market failure because individuals under-reveal willingness to pay.
+:::
+
+
+
+
+# Section 3. Short Answers
+## Question 12
+
+### Part A 
+Briefly define rivalry and excludability and explain how these concepts help classify common property-right regimes.  
+*Write approximately 3–5 sentences.*
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+**Answer:**  
+Rivalry refers to whether one person’s use reduces the amount available to others, while excludability refers to whether access can be restricted. These two characteristics determine whether a good is private, public, common-pool, or club-type. Common property resources (e.g., fisheries or grazing land) are typically rival but non-excludable. This classification highlights why managing them is difficult: people can overuse them without bearing full consequences.
+:::
+
+
+### Part B 
+Explain how common property can fail, using an example.  
+*Write approximately 3–5 sentences.*
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+**Answer:**  
+Common property can fail when users lack coordination and exploit the resource faster than it can regenerate, leading to depletion. A classic example is open-access fisheries, where each fisher has an incentive to catch as much as possible before others do. This results in overfishing and declining stocks. Because no single individual has secure rights, the resource becomes a race to the bottom.
+:::
+
+
+### Part C 
+Explain how common property can succeed, using an example.  
+*Write approximately 3–5 sentences.*
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+**Answer:**  
+Common property can succeed when local users create clear rules, monitor resource use, and maintain strong social norms that support cooperation. In the Swiss Alpine Meadows, grazing lands have been treated as common property for centuries, with user associations setting strict stocking rules. Stable membership and long-standing relationships foster reciprocity and trust, which discourages overuse. As a result, compliance remains high and meadow productivity is sustained across generations.
+:::
+
+
+### Part D
+Discuss how government policy can help prevent the overuse of common-pool resources. Provide one concrete policy example and explain how it changes user incentives.  
+*Write approximately 3–5 sentences.*
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+**Answer:**  
+Government policies can reduce overuse by restricting access, regulating use, or aligning private incentives with social goals. A concrete example is Individual Transferable Quotas (ITQs) in fisheries, where each fisher receives a share of the allowable catch. This turns the resource into a managed system where overfishing becomes costly and long-term sustainability becomes profitable. By giving fishers rights and responsibilities, the policy aligns incentives with conservation.
+:::
+
+
+
+
+## Question 13
+
+### Part A
+What is the free-rider problem in Coasean negotiations involving multiple parties?  
+*Write approximately 3–5 sentences.*
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+**Answer:**  
+The free-rider problem arises when many affected parties rely on others to pay for the negotiated solution. In Coasean bargaining, individuals may hope that others will contribute compensation to reduce pollution or secure a more efficient outcome. As more people free-ride, the total contribution falls short. Coordination becomes difficult, and the bargaining process collapses, preventing efficient agreements.
+:::
+
+
+### Part B
+How does the “bargaining breakdown” effect (holdout effect) further complicate collective agreements?  
+*Write approximately 3–5 sentences.*
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+**Answer:**  
+The holdout effect occurs when a single party delays or refuses to agree unless they receive a larger share of the benefits. Knowing their participation is essential, they strategically hold out for more. This creates bargaining gridlock and prevents timely agreements. Even if all parties collectively value reaching an efficient outcome, strategic behavior undermines cooperation and destroys surplus.
+:::
+
+### Part C
+Beyond the free-rider problem and the holdout effect, identify and discuss at least two additional limitations of the Coase Theorem. Explain how these factors can prevent Coasean bargaining from achieving efficient or equitable environmental outcomes.  
+
+*Write approximately 5–7 sentences.*
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+**Answer:**  
+Several additional limitations hinder the effectiveness of Coasean bargaining:
+
+1. **Ecosystem and nonhuman impacts**  
+   Many environmental damages fall on ecosystems, wildlife, and nonhuman species that cannot express preferences or negotiate. Without clear rights-holders, damages remain unrepresented, leading to underprotection of habitats and biodiversity.
+
+2. **Future generations cannot participate**  
+   Environmental problems such as climate change, soil degradation, and biodiversity loss impose costs on future individuals who do not have a voice in current bargaining. As a result, Coasean solutions tend to prioritize short-term benefits over long-term sustainability.
+
+3. **Equity and power imbalances**  
+   Bargaining outcomes depend on economic resources and influence. Poor communities may lack the ability to “buy out” polluters or negotiate for safer environmental conditions, leading to inequitable outcomes even when the result is technically efficient. Wealthier groups can impose their preferences simply because they can afford to do so.
+
+Taken together, these limitations prevent Coasean bargaining from reliably producing efficient, fair, or environmentally sustainable outcomes, especially for large-scale ecological and intergenerational challenges.
+:::
+
+
+# Section 4. Analytical Modeling & Critique
+
+## Question 14
+
+Consider a perfectly competitive market for **solar energy** that generates **positive externalities** such as reduced carbon emissions and knowledge spillovers.  
+The **private marginal benefit (PMB)** and **marginal cost (MC)** of solar production are:
+
+$$
+\begin{aligned}
+PMB(Q) &= 110 - 2Q,\\
+MC(Q)  &= 20 + Q
+\end{aligned}
+$$
+
+and the **external marginal benefit (EMB)** is:
+$$
+EMB(Q)=60.
+$$
+
+
+
+### Part A
+Find the **market equilibrium** quantity $Q_M$ and price $P_M$. Show all steps.
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+Set $PMB(Q)=MC(Q)$:
+
+$$
+110-2Q = 20+Q \;\Rightarrow\; 90 = 3Q \;\Rightarrow\; Q_M = 30.
+$$
+
+Market price:
+$$
+P_M = MC(30) = 20+30 = 50 \quad(\text{equals } PMB(30)=110-2\cdot30=50).
+$$
+:::
+
+
+
+### Part B
+Compute the **social marginal benefit (SMB)** function.
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+$$
+SMB(Q) = PMB(Q) + EMB(Q) = (110-2Q) + 60 = 170 - 2Q.
+$$
+:::
+
+
+
+### Part C
+Find the **socially optimal output** $Q^*$ and price $P^*$.
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+Set $SMB(Q)=MC(Q)$:
+
+$$
+170-2Q = 20+Q \;\Rightarrow\; 150 = 3Q \;\Rightarrow\; Q^* = 50.
+$$
+
+Socially efficient price (on the cost side):
+$$
+P^* = MC(50) = 20+50 = 70 \quad(\text{and } SMB(50)=70).
+$$
+:::
+
+
+
+### Part D
+- Graph the $PMB$, $SMB$, and $MC$ curves.  
+  - Label both the **market equilibrium** $(Q_M, P_M)$ and the **socially optimal equilibrium** $(Q^*, P^*)$.
+- Shade and label the **deadweight loss (DWL)** from the positive externality.
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+Key labels if drawn later:
+
+- $PMB: P=110-2Q$; $SMB: P=170-2Q$; $MC: P=20+Q$.  
+- Market: $(Q_M,P_M)=(30,50)$; Social: $(Q^*,P^*)=(50,70)$.  
+- DWL is the triangle between $SMB$ and $MC$ from $Q=30$ to $Q=50$, with area  
+  $\frac{1}{2}\times(50-30)\times[SMB(30)-MC(30)] = \tfrac12\times20\times60 = 600.$
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(ggplot2)
+library(dplyr)
+library(hrbrthemes)
+
+# Define functions
+PMB  <- function(Q) 110 - 2*Q
+SMB  <- function(Q) 170 - 2*Q
+MC   <- function(Q) 20 + Q
+
+# Equilibrium values
+Q_M  <- 30
+P_M  <- PMB(Q_M)
+
+Q_star <- 50
+P_star <- MC(Q_star)
+
+# Data frame for curves
+df <- data.frame(
+  Q = seq(0, 90, length.out = 400)
+) |>
+  mutate(
+    PMB = PMB(Q),
+    SMB = SMB(Q),
+    MC  = MC(Q)
+  )
+
+# DWL polygon (triangle between Q_M and Q_star)
+dwl_df <- data.frame(
+  Q = c(Q_M, Q_star, Q_M),
+  P = c(MC(Q_M), MC(Q_star), SMB(Q_M))
+)
+
+ggplot(df, aes(Q)) +
+  
+  geom_line(aes(y = PMB, color = "PMB", linetype = "PMB"), size = 1) +
+  geom_line(aes(y = SMB, color = "SMB", linetype = "SMB"), size = 1) +
+  geom_line(aes(y = MC,  color = "MC",  linetype = "MC"),  size = 1) +
+  
+  # DWL shading
+  geom_polygon(data = dwl_df,
+               aes(x = Q, y = P),
+               fill = "lightblue", alpha = 0.4, color = NA) +
+  
+  # Equilibria points
+  geom_point(aes(x = Q_M, y = P_M), size = 3) +
+  geom_point(aes(x = Q_star, y = P_star), size = 3) +
+  
+  # Labels for points
+  geom_text(aes(x = Q_M, y = P_M, 
+                label = "(Q_M, P_M)"), vjust = -1) +
+  geom_text(aes(x = Q_star, y = P_star, 
+                label = "(Q*, P*)"), vjust = -1) +
+  
+  geom_hline(yintercept = 0) +
+  geom_vline(xintercept = 0) +
+  
+  scale_linetype_manual(values = c(
+    "PMB" = "dotted",
+    "SMB" = "dashed",
+    "MC"  = "solid"
+  )) +
+  
+  scale_color_manual(values = c(
+    "PMB" = "black",
+    "SMB" = "blue",
+    "MC"  = "red"
+  )) +
+  
+  labs(
+    x = "Quantity (Q)",
+    y = "Price (P)",
+    color = "Curves",
+    linetype = "Curves",
+    title = "PMB, SMB, and MC with Deadweight Loss"
+  ) +
+  
+  scale_x_continuous(breaks = seq(0,90,10))+
+  scale_y_continuous(breaks = seq(0,180,10))+
+  coord_cartesian(xlim = c(0,90), ylim = c(0,180)) +
+  theme_ipsum()
+
+```
+
+
+:::
+
+
+
+### Part E
+How does the concept of **public goods** relate to this example?
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+Solar energy creates **non-rival, non-excludable** benefits like cleaner air and climate stability. Because individuals and firms cannot fully exclude others from these benefits, many **free ride** on others’ investments. As a result, private decisions based on $PMB$ understate true social value $SMB$, yielding **underinvestment** relative to the social optimum.
+:::
+
+
+
+### Part F
+Explain how **subsidy programs** (e.g., per-kWh payments) help overcome the public-goods problem and how the **optimal subsidy** mirrors a **Pigouvian tax**.
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+A per-unit subsidy raises private incentives toward the social benefit by effectively adding the **external marginal benefit** to private marginal benefit. Setting the subsidy equal to $EMB$ makes firms/consumers internalize the externality: the new condition $PMB+s = MC$ reproduces $SMB=MC$. This mirrors a **Pigouvian tax** (which subtracts external marginal damage for negative externalities), but here it **adds** the missing positive spillover.
+:::
+
+
+
+### Part G
+Calculate the **optimal per-unit subsidy** that achieves the social optimum.
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+$$
+s^* = EMB = 60.
+$$
+
+Verification: with subsidy $s$, equilibrium satisfies $PMB(Q)+s=MC(Q)\Rightarrow 110-2Q+60=20+Q\Rightarrow Q=50=Q^*.$
+:::
+
+
+
+### Part H
+Compute the **market price with the subsidy**—the price **paid by consumers** and the price **received by producers**.
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+At $Q^*=50$:
+
+- Consumer price: $P_c = PMB(50) = 110-2\cdot50 = 10.$  
+- Producer price: $P_p = MC(50) = 70 = P_c + s^* = 10 + 60.$
+:::
+
+
+
+### Part I
+Compute the **subsidy expenditure** and the **change in total welfare** from implementing the policy.
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+- **Subsidy expenditure:** $s^* \times Q^* = 60 \times 50 = 3{,}000.$  
+- **Change in total welfare (including external benefits and net of fiscal cost):** equals the eliminated DWL = **$600$**.
+
+Check via components:  
+Baseline ($Q=30$): $CS=900,\; PS=450,\; EB=60\cdot30=1{,}800\Rightarrow W=3{,}150.$  
+With subsidy ($Q=50$): $CS=2{,}500,\; PS=1{,}250,\; EB=60\cdot50=3{,}000,\; GE=3{,}000\Rightarrow W=2{,}500+1{,}250+3{,}000-3{,}000=3{,}750.$  
+$\Delta W = 3{,}750-3{,}150 = \boxed{600}.$
+:::

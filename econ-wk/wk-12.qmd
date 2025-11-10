@@ -1,0 +1,165 @@
+---
+title: Week 12
+subtitle: "Carbon Pricing; International Climate Change Agreement"
+date: 2025-11-10
+from: markdown+emoji
+---
+
+In **Week 12**, we will continue our discussion on the **Carbon Pricing** and then move on to explore various issues in **Climate Change Agreement**.
+
+# ✍️ Classwork
+
+- **Classwork 11: _Market for Pollution_**  
+  [📄 View Classwork](../econ-cw/econ-340-cw-11.html){target="_blank"}  
+
+
+<br>
+
+
+
+# 📚 Recommended Reading
+
+- [State and Trends of Carbon Pricing 2025](https://www.worldbank.org/en/publication/state-and-trends-of-carbon-pricing), The World Bank Group, 2025.
+
+
+## 🔍 References for the Evolution of the U.S. Social Cost of Carbon (SCC)
+
+- **Obama Administration (2010 – 2016)**  
+  - Interagency Working Group on Social Cost of Greenhouse Gases (IWG). (2010, 2013, 2016). [*Technical Support Document: Social Cost of Carbon for Regulatory Impact Analysis.*](https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/inforeg/technical-update-social-cost-of-carbon-for-regulator-impact-analysis.pdf)  
+  → Central SCC ≈ \$50 / ton (2020 USD) at **3 % discount rate**, with sensitivity at 2.5 % and 5 %.
+
+---
+
+- **Trump Administration (2017 – 2020)**  
+  - Columbia University Center on Global Energy Policy. (2020). [*Trump vs. Obama: The Social Cost of Carbon and Why It Matters.*](https://www.energypolicy.columbia.edu/publications/trump-vs-obama-social-cost-carbon-and-why-it-matters)  
+  → SCC reduced to **\$1 – \$7 / ton**, using **3 %–7 % discount rates** and **domestic-only damages**.
+
+---
+
+- **Biden Administration (2021 – 2025)**  
+  - U.S. Environmental Protection Agency (EPA). (2023). [*Report on the Social Cost of Greenhouse Gases: Estimates Incorporating Recent Scientific Advances.*](https://www.epa.gov/system/files/documents/2023-12/epa_scghg_2023_report_final.pdf)  
+  → Updated **global SCC ≈ \$190 / ton**, using **declining near-term discount rates (~2 % → 1 %)** based on the RFF GIVE model.  
+  - Resources for the Future (2022). [*The US Environmental Protection Agency Introduces a New Social Cost of Carbon for Public Comment*](https://www.resources.org/common-resources/the-us-environmental-protection-agency-introduces-a-new-social-cost-of-carbon-for-public-comment/)
+  - Nature. (2022). [*Comprehensive evidence implies a higher social cost of CO2*](https://www.nature.com/articles/s41586-022-05224-9)
+
+
+---
+
+- **Trump Administration (2025 – )**  
+  - The White House. (2025). [*Executive Orders - Unleashing American Energy*](https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/)  
+  → _"The Interagency Working Group on the Social Cost of Greenhouse Gases (IWG), which was established pursuant to Executive Order 13990, is hereby disbanded"_  
+  → _'The calculation of the “social cost of carbon” is marked by logical deficiencies, a poor basis in empirical science, politicization, and the absence of a foundation in legislation.'_
+  - The EPA (2025). [*EPA Launches Biggest Deregulatory Action in U.S. History*](https://www.epa.gov/newsreleases/epa-launches-biggest-deregulatory-action-us-history?utm_source=chatgpt.com)  
+  → _"Today is the greatest day of deregulation our nation has seen. We are driving a dagger straight into the heart of the climate change religion to drive down cost of living for American families, unleash American energy, bring auto jobs back to the U.S. and more"_
+
+<br>
+
+---
+
+## 🧪 References for Carbon Capture, Utilization, and Storage (CCUS)
+
+CCUS is *one of the most relevant clean technologies* to address climate change —  
+but it comes with **important caveats**.  
+It is not a panacea and must be part of a **broader portfolio of solutions**.
+
+---
+
+### 🌍 Why CCUS Is Highly Relevant
+
+1. **Captures CO₂ from hard-to-abate sectors**  
+   - Targets industrial sources (cement, steel, chemicals) where emissions are **process-based**, not just from fuel.  
+   - Supported by the **International Energy Agency (IEA)** and **Center for Climate and Energy Solutions (C2ES)** as essential for net-zero pathways.  
+   - [IEA: CCUS Overview](https://www.iea.org/energy-system/carbon-capture-utilisation-and-storage)
+
+2. **Enables both mitigation and removal**  
+   - Can **capture current emissions** and enable **negative emissions** (e.g., BECCS (Bioenergy with Carbon Capture and Storage), DACCS (Direct Air Carbon Capture and Storage)).  
+   - Addresses both the *flow* and *stock* of CO₂ externalities.
+
+3. **Large-scale potential**  
+   - Featured in nearly all **1.5 °C / 2 °C scenarios**.  
+   - Over **30 commercial-scale projects** are already operating globally.  
+   - [C2ES: Carbon Capture](https://www.c2es.org/content/carbon-capture)
+
+4. **Complementary to other clean technologies**  
+   - Supports decarbonization where **electrification is difficult**.  
+   - Works best **alongside renewables**, not instead of them.
+
+---
+
+### ⚙️ Where CCUS Adds the Most Value
+
+- **Heavy industries**: cement, steel, fertilizer, chemical plants.  
+- **Existing fossil infrastructure**: retrofits reduce emissions during transition.  
+- **Regions with storage potential**: saline aquifers, depleted reservoirs.  
+- **Negative-emissions systems**: BECCS and DACCS integration.
+
+---
+
+### ⚠️ Limitations and Caveats
+
+1. **High cost and energy penalty**  
+   - Capture and compression are expensive and energy-intensive.  
+   - May offer lower cost-effectiveness than renewables in some cases.
+
+2. **Storage feasibility and safety**  
+   - Long-term monitoring and liability remain concerns.  
+   - Requires strict regulations for storage integrity.
+
+3. **Risk of fossil-fuel lock-in**  
+   - Over-reliance could **delay energy transition**.  
+   - May allow fossil firms to justify extended operations.
+
+4. **Scale and timing challenge**  
+   - Deployment lags far behind modeled requirements for net-zero.  
+   - Early deployment is crucial to avoid cumulative emissions.
+
+5. **Utilization vs. storage trade-offs**  
+   - Using CO₂ to make fuels often re-releases it later.  
+   - Permanent storage provides stronger climate benefit.
+
+---
+
+### 🧭 Policy and Economic Perspective
+
+- **Essential but conditional**: Needed for deep decarbonization but not sufficient.  
+- **Strategic value**: Best deployed where emissions are hardest to eliminate.  
+- **Economic design**: Requires carbon pricing, tax credits (e.g., 45Q), or subsidies.  
+- **Distributional implications**: Who pays, who benefits, and local justice concerns.
+
+---
+
+### 🧩 Summary
+
+| **Dimension** | **Assessment** |
+|----------------|----------------|
+| Climate relevance | 🔹 **High** — critical for hard-to-abate sectors |
+| Cost-effectiveness | ⚖️ **Moderate** — improving but still expensive |
+| Risks | ⚠️ Fossil lock-in, leakage, monitoring burden |
+| Policy role | 🧭 Part of a diverse mitigation portfolio |
+
+**In short:**  
+CCUS is **very relevant** for climate mitigation — especially for industrial and negative-emission pathways —  
+but its success depends on **cost reduction, regulation, and integration** with broader decarbonization efforts.
+
+---
+
+#### 🔍 References
+
+- [International Energy Agency (IEA): CCUS](https://www.iea.org/energy-system/carbon-capture-utilisation-and-storage)  
+- [C2ES: Carbon Capture](https://www.c2es.org/content/carbon-capture)  
+- [Nature Climate Change (2024): Role of CCUS in 1.5°C pathways](https://www.nature.com/articles/s41558-024-02104-0)  
+- [Third Way: Science-Based Case for CCUS](https://www.thirdway.org/memo/the-science-based-case-for-ccus)  
+- [Earthjustice: Critiques of CCUS](https://earthjustice.org/article/carbon-capture-the-fossil-fuel-industrys-false-climate-solution)
+
+# 💬 Discussion
+
+<font size = "5">Welcome to our Week 11 Discussion Board! 👋 </font>
+
+
+This space is designed for you to engage with your classmates about the material covered in Week 11.
+
+Whether you are looking to delve deeper into the content, share insights, or have questions about the content, this is the perfect place for you.
+
+If you have any specific questions for Byeong-Hak (**@bcecon**) or peer classmate (@GitHub-Username) regarding the Week 11 materials or need clarification on any points, don't hesitate to ask here. 
+
+Let's collaborate and learn from each other!

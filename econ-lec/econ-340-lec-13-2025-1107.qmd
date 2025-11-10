@@ -69,7 +69,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 ```
 
 
-# **Price vs. Quantity** {background-color="#1c4982"}
+# **Market for Pollution: Price vs. Quantity Approaches** {background-color="#1c4982"}
 
 ## ❓ Why Not Just Regulate?
 
@@ -252,6 +252,9 @@ To compare **price** and **quantity** approaches effectively, we must shift focu
 <!-- </div> -->
 
 
+# **Heterogeneous Plants** {background-color="#1c4982"}
+
+
 ## 🏭 Heterogeneous Plants
 <div style="display:block; margin:-20px;"></div>
 
@@ -429,22 +432,30 @@ $$
 
 ## 🏭 Heterogeneous Plants: Summary
 
-<div style="font-size:1.5rem; max-width:1000px; margin:0.5rem auto;">
+<div style="font-size:1.4rem; max-width:1000px; margin:0.5rem auto;">
 
-| **Policy Type** | **Control Variable** | **Who Decides Reduction?** | **Efficiency** | 
+| **Policy Type** | **What Is Set (Policy Lever)** | **Who Decides Reduction?** | **Efficiency** | 
 |---|---|---|---|
-| **Command-and-control** | <span class="fragment">Fixed **reduction amount** (e.g., 100 each)</span> | <span class="fragment">**Government mandates** cuts</span> | <span class="fragment">❌ *Inefficient* if abatement costs differ</span> | 
-| **Price Regulation (Tax)** | <span class="fragment">Fixed **price per unit (τ)**</span> | <span class="fragment">**Firms choose** abatement</span> | <span class="fragment">✅ *Efficient* — firms reduce until **MC = τ**</span> | 
-| **Cap-and-Trade** | <span class="fragment">Fixed **total emissions cap**</span> | <span class="fragment">**Firms trade permits**</span> | <span class="fragment">✅ *Efficient* — firms trade until **MCₐ = MCᵦ = permit price**</span> | 
+| **Command-and-control** | <span class="fragment">Set **reduction amount** (e.g., 100 each)</span> | <span class="fragment">**Government mandates** cuts</span> | <span class="fragment">❌ *Inefficient* if abatement costs differ</span> | 
+| **Price Regulation (Tax)** | <span class="fragment">Set **price per unit (τ)**</span> | <span class="fragment">**Firms choose** abatement</span> | <span class="fragment">✅ *Efficient* — firms reduce until **MC = τ**</span> | 
+| **Cap-and-Trade** | <span class="fragment">Set **total emissions cap**</span> | <span class="fragment">**Firms trade permits**</span> | <span class="fragment">✅ *Efficient* — firms trade until **MCₐ = MCᵦ = permit price**</span> | 
 
 
 </div>
 
-<div class="fragment" style="font-size:2rem; text-align:center; margin-top:1rem;">
-- ⚖️ **Command-and-control** is simple but costly.  
-- 💡 Allowing firms to choose **how much to abate** based on their own costs leads **MCs to equalize across firms**, resulting in an **efficient allocation of abatement**. <span class="fragment">(<u>*Cost-Effectiveness Equimarginal Principle*</u>)</span>
-- ✅ **Carbon taxes** and **cap-and-trade** reach the same environmental target **at lower total cost** than uniform regulations.
-</div>
+<div style="display:block; margin:-15px;"></div>
+
+
+- ⚖️ **Command-and-control** regulations are **simple but often inefficient**.  
+- 💡 **Market-based instruments** — such as **carbon taxes** and **cap-and-trade** — let firms decide **how much to abate** based on their own costs.  
+- This flexibility ensures the <span style="color:#009E73; font-weight:bold;">Cost-Effectiveness (Equimarginal) Principle</span> holds: <span class="fragment">**MCs** become **equalized across firms**</span><span class="fragment">, leading to an **efficient allocation of abatement**.</span>
+- ✅ <u>Result</u>: the **climate target is achieved at the lowest total social cost**.
+
+<!-- <div class="fragment" style="font-size:2rem; text-align:center; margin-top:1rem;"> -->
+<!-- - ⚖️ **Command-and-control** is simple but inefficient.   -->
+<!-- - 💡 Allowing firms to choose **how much to abate** based on their own costs leads Cost-Effectiveness Equimarginal Principle **MCs to equalize across firms**, resulting in an **efficient allocation of abatement**. <span class="fragment">(<u>*Cost-Effectiveness Equimarginal Principle*</u>)</span> -->
+<!-- - ✅ **Carbon taxes** and **cap-and-trade** reach the same environmental target **at the lowest total cost**. -->
+<!-- </div> -->
 
 
 <!-- - However, this approach **ignores differences in abatement costs** across firms. -->
@@ -480,129 +491,239 @@ $$
 <!-- | 🌡 Global warming | **Flat** (benefits change slowly) | **Price (tax)** | Avoid massive cost blowups if MC is higher than expected; quantity mistakes are less costly. | -->
 <!-- | ☢️ Nuclear leakage | **Steep** (benefits change sharply) | **Quantity (cap/standard)** | Must **hit the quantity target**; under-abatement is very costly. | -->
 
-## 🌫️ Uncertainty About Costs of Reduction
 
-- So far, we assumed the government **knows the true costs** of pollution reduction.  
-- In reality, **marginal abatement costs (MC)** are **uncertain** — firms and regulators may not know the exact cost of cutting pollution.  
-- Under uncertainty, the **choice between price and quantity instruments** depends on the **shape of the marginal benefit (MD)** curve.
+# **Uncertainty about Costs of Reduction** {background-color="#1c4982"}
+
+## 🌫️ Uncertainty about Costs of Reduction
+
+- In reality, **marginal abatement costs (MC)** are **uncertain** — policymakers may not know the exact cost of cutting pollution.  
+  - They can estimate the overall **MC curve**, but cannot know its exact **slope or position** when designing policy.
+- This uncertainty means the **actual abatement level** may differ from what policymakers intended — the **socially optimal level**.
+- The **welfare loss from being wrong** depends on how **sensitive marginal damages (MD)** are to changes in emissions.  
+- Under uncertainty, the **preferred policy instrument** — **price (tax)** or **quantity (cap)** — depends on the **slope of the MD curve**:
+  - If **MD is steep**, errors in abatement lead to **large welfare losses**. 
+  - If **MD is flat**, errors in abatement cause **only minor welfare impacts**.
+  
+  
+  
+## Case 1: Flat Marginal Damage - Tax
+
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/p-v-q-flat-dwl-p.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+## Case 1: Flat Marginal Damage - Cap-and-Trade
+
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/p-v-q-flat-dwl-q.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
 
 
 
-## Case 1: Steep Marginal Damage
+## Case 1: Flat Marginal Damage
 
 
 :::: {.columns}
 
 ::: {.column width="50%"}
-$MC_{1}$: Estimated $MC$
-
-$MC_{2}$: True $MC$
-
-
-$DWL_{1}$: DWL from Cap-and-Trade
-
-$DWL_{2}$: DWL from Pollution Taxes
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/p-v-q-flat-dwl-p.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
 
 :::
 ::: {.column width="50%"}
 
-<div style="display:block; margin:-2px;"></div>
-<div style="text-align: center; width: 99%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/p-v-q-1.png" style="width: 80%; margin-bottom: -20px;">
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/p-v-q-flat-dwl-q.png" style="width: 100%; margin-bottom: -20px;">
   <p style="font-weight: bold;"></p>
 </div>
 :::
 ::::
 
-  - When the $MD$ curve is relatively **steeper** than the $MC$ curve, a marketable permit system is preferred to a pollution tax because of the costs of being wrong.
+- If the **marginal damage (MD)** curve is **flat** (damage changes little with small emission changes)  
+  → **Taxes (price instruments)** are preferred.  
+  
+<!-- - If **MD is flat**, damages change little with small emission differences → society values **price stability** → **carbon tax** is better. -->
+
+## Case 2: Steep Marginal Damage - Tax
 
 
-## Case 2: Flat Marginal Damage
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/p-v-q-steep-dwl-p.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+## Case 2: Steep Marginal Damage - Cap-and-Trade
+
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/p-v-q-steep-dwl-q.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
+
+
+## Case 2: Steep Marginal Damage
 
 
 :::: {.columns}
 
-::: {.column width="54%"}
-$MC_{1}$: Estimated $MC$
-
-$MC_{2}$: True $MC$
-
-
-$DWL_{1}$: DWL from Cap-and-Trade
-
-$DWL_{2}$: DWL from Pollution Taxes
-
+::: {.column width="50%"}
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/p-v-q-steep-dwl-p.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;"></p>
+</div>
 
 :::
-::: {.column width="46%"}
+::: {.column width="50%"}
 
 <div style="text-align: center; width: 100%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/p-v-q-2.png" style="width: 100%; margin-bottom: -20px;">
+  <img src="https://bcdanl.github.io/lec_figs/p-v-q-steep-dwl-q.png" style="width: 100%; margin-bottom: -20px;">
   <p style="font-weight: bold;"></p>
 </div>
 :::
 ::::
 
-  - When the $MD$ curve is relatively **flatter** than the $MC$ curve, a pollution tax is preferred to a marketable permit system because of the costs of being wrong.
 
+- If the **MD** curve is **steep** (damages rise sharply with small emission increases)  
+  → **Quotas or cap-and-trade (quantity instruments)** are preferred. 
 
-## Carbon Tax vs. Cap-and-Trade 
+<!-- - If the **MD curve is steep**, a small increase in emissions causes **large damages** → society cares a lot about the *quantity* of emissions.   -->
 
-<div style="text-align: center; width: 100%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/stock-flow-co2.jpg" style="width: 60%; margin-bottom: -20px;">
+<!-- - If **MD is steep**, errors in emissions are very costly → **quantity control (cap-and-trade)** is better.   -->
+
+## 🌍 Climate Change and Policy Design: 
+### Stock vs. Flow
+<div style="text-align: center; width: 50%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/stock-flow-co2.jpg" style="width: 100%; margin-bottom: -20px;">
   <p style="font-weight: bold;"></p>
 </div>
 
 :::{.nonincremental}
-- **Q.** Which case does correspond to climate change?
-
+- **Question:** Under uncertainty, consider two cases —  
+  a **flat marginal damage (MD)** curve vs. a **steep MD** curve.  
+- 👉 **Which case best represents climate change?**  
+  (Hint: the **benefits of emission reductions** depend on the **stock** of CO₂, not short-term fluctuations in flow.)
 :::
 
-## Price vs. Quantity
-
-- **In Practice:**
-  - The instrument choice depends on whether the government wants to get the amount of pollution reduction right or whether it wants to minimize costs to firms.
-  - Quantity regulations ensure environmental protection, but at a variable cost to firms, while price regulations ensure the cost to the firms, but at a variable level of environmental protection
+  
 
 
+## 🌍 Climate Change and Policy Design
+### Carbon Tax vs. Cap-and-Trade
 
+- The **benefits** of emissions reductions are linked to the **stock of greenhouse gases** in the atmosphere.  
+  - What matters for climate damage is the **total accumulated CO₂**, not short-term fluctuations.
 
-## 🧠 Instrument Choice: What Are We Controlling?
+- The **costs** of emissions reductions are tied to the **flow of emissions** —  
+  how much we cut **this year** or **in the near term**.  
 
-| **Objective** | **Use…** | **Why** |
-|---|---|---|
-| **Cost certainty** | Carbon Tax | Caps **marginal cost** per ton; quantity flexes. |
-| **Environmental certainty** | Cap & Trade / Standard | Hits **emission quantity**; cost may vary. |
-| **Both** | Hybrid (price floor/ceiling) | Creates a **price corridor** around a cap. |
+<div style="display:block; margin:-30px;"></div>
 
+<div class="fragment" style="text-align:center; font-size:2rem; color:#0072B2; margin-top:1rem;">
 
+💡 The **marginal benefits** of emission reductions are **insensitive** to the current level of abatement  
+→ small short-run emission changes have little effect on total warming.
 
+</div>
 
-<!-- ## 🧪 Classroom Prompts -->
-
-<!-- 1. Suppose unexpected supply-chain shocks raise abatement costs. Which instrument is **safer** for the economy? Why?   -->
-<!-- 2. If a pollutant has **threshold damages** (very steep MD near a limit), which instrument would you choose?   -->
-<!-- 3. How do **permit auctions**, **free allocation**, and **revenue recycling** change equity and efficiency? -->
+- Under **uncertainty about abatement costs**, a **carbon tax** is preferred to **cap-and-trade** for **stock pollutants** like CO₂ <span class="fragment">, because **emission errors are low-cost**, while **price errors can be large**.</span>
 
 
 
 
-<!-- ## 🧩 Summary: Price vs. Quantity -->
-
-<!-- | **Aspect** | **Carbon Tax (Price)** | **Cap-and-Trade (Quantity)** | -->
-<!-- |---|---|---| -->
-<!-- | Control variable | Price | Quantity | -->
-<!-- | Certainty | **Cost** | **Emissions** | -->
-<!-- | Flexibility | High (firms optimize) | High (with trading) | -->
-<!-- | Information needs | MD (and rough MC) | Cap level; market reveals price | -->
-<!-- | Policy risks | Emissions uncertain | Price volatility | -->
-<!-- | Implementation | Tax law, admin capacity | Market rules, MRV systems | -->
+# 🌍 Carbon Pricing in Practice: Carbon Tax vs. Cap-and-Trade  {background-color="#1c4982"}
 
 
+## ⚖️ Price vs. Quantity: The Policy Trade-off
+
+- Policymakers face a fundamental trade-off between:
+  - Achieving a **specific emissions target** with certainty, and  
+  - Ensuring **stable and predictable costs** for firms and consumers.
 
 
-<!-- ## 🔍 References -->
+:::: {.columns}
+::: {.column width="50%"}
+### **Carbon Tax**
+- Provides **price certainty** — firms know exactly what a ton of CO₂ costs.
+- But **emissions outcomes** can fluctuate with energy demand and economic cycles.
 
-<!-- - Gruber, J. (2016). *Public Finance and Public Policy*, 5th ed., Chapter 5, pp. 139–148. -->
-<!-- - Weitzman, M. (1974). “Prices vs. Quantities.” *Review of Economic Studies*, 41(4).   -->
-<!-- - World Bank. *State and Trends of Carbon Pricing* (latest edition). -->
+:::
+::: {.column width="50%"}
+### **Cap-and-Trade**
+- Provides **environmental certainty** — a fixed cap on total emissions.
+- But **abatement costs** can vary widely depending on shocks and economic conditions.
+
+:::
+::::
+
+## 📄 Carbon Tax — Big Advantages
+
+- **Simple & Transparent**
+  - Clear structure; easy to understand and implement.
+  - Requires fewer new institutions and administrative layers.
+
+- **Price Certainty**
+  - **Stable, predictable prices** support long-term planning for firms and households.
+
+- **Adapts to Technological Change**
+  - If abatement costs fall or cleaner technologies become cheaper, **a carbon tax automatically delivers greater emissions reductions** because firms reduce more wherever it's economically efficient.
+  - Under **cap-and-trade**, lower abatement costs simply **drive down permit prices**, meaning total emissions remain fixed at the cap, and some firms may even emit more as compliance becomes cheaper.
+
+
+<!-- - **Adapts to Technological Change** -->
+<!--   - If abatement costs fall, **emissions fall automatically** under a tax. -->
+<!--   - Under cap-and-trade, falling costs simply **lower permit prices**, not emissions. -->
+
+## 🎯 Cap-and-Trade — Big Advantages
+
+<div class="fragment" style="font-size:1.75rem; margin-top:1.5rem;">
+  <blockquote>
+    _“It has become too politically divisive and a distraction from the important issues we are tackling.”_ Government of British Colombia, “B.C. Eliminates Carbon Tax,” (March 31, 2025)
+  </blockquote>
+</div>
+
+
+- **Political Acceptability**
+  - Avoids the word “tax,” which reduces resistance from voters and interest groups.
+
+- **Transition Options for Firms**
+  - Free permit allocations can **soften early costs** and increase industry support.
+
+- **Emissions Certainty**
+  - The cap **fixes total emissions** directly, achieving a defined pathway without needing to adjust tax rates.
+
+## 📊 Share of Global GHG Emissions Covered by an ETS or Carbon Tax
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/wb-carbon-tax-cap-and-trade.png" style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold;">Source: World Bank (2025)</p>
+</div>
+
+## Why Cap-and-Trade Is More Popular in Practice
+<div style="display:block; margin:-10px;"></div>
+
+- Even though economists often prefer **carbon taxes** (price stability + administrative simplicity), **cap-and-trade** is more politically feasible:
+  - It avoids the politically sensitive term **“tax,”** reducing public resistance.
+    - Introducing a new tax is often **politically infeasible**, even when it is economically efficient.
+  - It enables governments to **grant free permits** in the early stages, helping secure industry buy-in.
+  - It is presented as a **flexible, market-driven mechanism**, which appeals to policymakers and firms.
+  - It provides **clear, measurable emissions targets**, allowing politicians and environmental groups to easily track and communicate progress.
+
+<!-- ## Why Cap-and-Trade Is More Popular in Practice -->
+
+<!-- - Even though economists often prefer **carbon taxes** (price stability + administrative simplicity), cap-and-trade is more politically feasible because: -->
+<!--   - It **avoids the politically sensitive term** “tax.” -->
+<!--   - It allows governments to **distribute free permits**, which builds business support. -->
+<!--   - It is framed as **flexible and market-based**, appealing to policy makers and firms. -->
+<!--   - It provides **visible control over emissions**, which is attractive to environmental groups. -->
+<!--   - Politicians can point to a clear **emissions target** (the cap) and show progress. -->
+<!--   - New taxes are often not an option, even if economically efficient. -->
+
+<!-- - Theoretical preference: **Carbon Tax** → simplicity + price certainty. -->
+<!-- - Practical reality: **Cap-and-Trade** → political acceptability + emissions certainty. -->
+
+
