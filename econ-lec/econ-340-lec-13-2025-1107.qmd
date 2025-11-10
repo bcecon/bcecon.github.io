@@ -667,51 +667,54 @@ $$
   - Clear structure; easy to understand and implement.
   - Requires fewer new institutions and administrative layers.
 
-- **Price Certainty**
-  - **Stable, predictable prices** support long-term planning for firms and households.
+<!-- - **Price Certainty** -->
+<!--   - **Stable, predictable prices** support long-term planning for firms and households. -->
 
 - **Adapts to Technological Change**
   - If abatement costs fall or cleaner technologies become cheaper, **a carbon tax automatically delivers greater emissions reductions** because firms reduce more wherever it's economically efficient.
-  - Under **cap-and-trade**, lower abatement costs simply **drive down permit prices**, meaning total emissions remain fixed at the cap, and some firms may even emit more as compliance becomes cheaper.
+  - Under **cap-and-trade**, lower abatement costs simply **drive down permit prices**.   
+    - Total emissions remain fixed at the cap, and some firms may even emit more as compliance becomes cheaper.
 
 
 <!-- - **Adapts to Technological Change** -->
 <!--   - If abatement costs fall, **emissions fall automatically** under a tax. -->
 <!--   - Under cap-and-trade, falling costs simply **lower permit prices**, not emissions. -->
 
-## 🎯 Cap-and-Trade — Big Advantages
+<!-- ## Cap-and-Trade — Big Advantages -->
 
+
+<!-- - **Political Acceptability** -->
+<!--   - Avoids the word “tax,” which reduces resistance from voters and interest groups. -->
+
+<!-- - **Transition Options for Firms** -->
+<!--   - Free permit allocations can **soften early costs** and increase industry support. -->
+
+<!-- - **Emissions Certainty** -->
+<!--   - The cap **fixes total emissions** directly, achieving a defined pathway without needing to adjust tax rates. -->
+
+## 📊 Share of Global GHG Emissions Covered by an ETS or Carbon Tax
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/wb-carbon-tax-cap-and-trade.png" style="width: 100%; margin-bottom: -30px;">
+  <p style="font-weight: bold;">
+Source: <a href="https://www.worldbank.org/en/publication/state-and-trends-of-carbon-pricing" target="_blank">World Bank (2025)</a>
+</p>
+</div>
+
+## 🎯 Why Cap-and-Trade Is More Popular in Practice
+<div style="display:block; margin:-10px;"></div>
 <div class="fragment" style="font-size:1.75rem; margin-top:1.5rem;">
   <blockquote>
     _“It has become too politically divisive and a distraction from the important issues we are tackling.”_ Government of British Colombia, “B.C. Eliminates Carbon Tax,” (March 31, 2025)
   </blockquote>
 </div>
 
-
-- **Political Acceptability**
-  - Avoids the word “tax,” which reduces resistance from voters and interest groups.
-
-- **Transition Options for Firms**
-  - Free permit allocations can **soften early costs** and increase industry support.
-
-- **Emissions Certainty**
-  - The cap **fixes total emissions** directly, achieving a defined pathway without needing to adjust tax rates.
-
-## 📊 Share of Global GHG Emissions Covered by an ETS or Carbon Tax
-<div style="text-align: center; width: 100%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/wb-carbon-tax-cap-and-trade.png" style="width: 100%; margin-bottom: -20px;">
-  <p style="font-weight: bold;">Source: World Bank (2025)</p>
-</div>
-
-## Why Cap-and-Trade Is More Popular in Practice
-<div style="display:block; margin:-10px;"></div>
-
 - Even though economists often prefer **carbon taxes** (price stability + administrative simplicity), **cap-and-trade** is more politically feasible:
   - It avoids the politically sensitive term **“tax,”** reducing public resistance.
     - Introducing a new tax is often **politically infeasible**, even when it is economically efficient.
   - It enables governments to **grant free permits** in the early stages, helping secure industry buy-in.
   - It is presented as a **flexible, market-driven mechanism**, which appeals to policymakers and firms.
-  - It provides **clear, measurable emissions targets**, allowing politicians and environmental groups to easily track and communicate progress.
+  
+  <!-- - It provides **clear, measurable emissions targets**, allowing politicians and environmental groups to easily track and communicate progress. -->
 
 <!-- ## Why Cap-and-Trade Is More Popular in Practice -->
 
