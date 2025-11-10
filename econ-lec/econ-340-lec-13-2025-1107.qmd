@@ -531,16 +531,16 @@ $$
 
 ::: {.column width="50%"}
 <div style="text-align: center; width: 100%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/p-v-q-flat-dwl-p.png" style="width: 100%; margin-bottom: -20px;">
-  <p style="font-weight: bold;"></p>
+  <img src="https://bcdanl.github.io/lec_figs/p-v-q-flat-dwl-p.png" style="width: 100%; margin-bottom: -30px;">
+  <p style="font-weight: bold;">Tax</p>
 </div>
 
 :::
 ::: {.column width="50%"}
 
 <div style="text-align: center; width: 100%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/p-v-q-flat-dwl-q.png" style="width: 100%; margin-bottom: -20px;">
-  <p style="font-weight: bold;"></p>
+  <img src="https://bcdanl.github.io/lec_figs/p-v-q-flat-dwl-q.png" style="width: 100%; margin-bottom: -30px;">
+  <p style="font-weight: bold;">Cap-and-Trade</p>
 </div>
 :::
 ::::
@@ -574,16 +574,16 @@ $$
 
 ::: {.column width="50%"}
 <div style="text-align: center; width: 100%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/p-v-q-steep-dwl-p.png" style="width: 100%; margin-bottom: -20px;">
-  <p style="font-weight: bold;"></p>
+  <img src="https://bcdanl.github.io/lec_figs/p-v-q-steep-dwl-p.png" style="width: 100%; margin-bottom: -30px;">
+  <p style="font-weight: bold;">Tax</p>
 </div>
 
 :::
 ::: {.column width="50%"}
 
 <div style="text-align: center; width: 100%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/p-v-q-steep-dwl-q.png" style="width: 100%; margin-bottom: -20px;">
-  <p style="font-weight: bold;"></p>
+  <img src="https://bcdanl.github.io/lec_figs/p-v-q-steep-dwl-q.png" style="width: 100%; margin-bottom: -30px;">
+  <p style="font-weight: bold;">Cap-and-Trade</p>
 </div>
 :::
 ::::
