@@ -692,9 +692,20 @@ $$
 <!-- - **Emissions Certainty** -->
 <!--   - The cap **fixes total emissions** directly, achieving a defined pathway without needing to adjust tax rates. -->
 
-## 📊 Share of Global GHG Emissions Covered by an ETS or Carbon Tax
+## 📊 Share of Global GHG Emissions Covered by an Emission Trading System (ETS) or Carbon Tax
 <div style="text-align: center; width: 100%; margin: auto;">
   <img src="https://bcdanl.github.io/lec_figs/wb-carbon-tax-cap-and-trade.png" style="width: 100%; margin-bottom: -30px;">
+  <p style="font-weight: bold;">
+Source: <a href="https://www.worldbank.org/en/publication/state-and-trends-of-carbon-pricing" target="_blank">World Bank (2025)</a>
+</p>
+</div>
+
+
+## 🗺️ Global Map of ETS and Carbon Taxes
+<div style="display:block; margin:-10px;"></div>
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/wb-carbon-tax-cap-and-trade-map.png" style="width: 100%; margin-bottom: -30px;">
   <p style="font-weight: bold;">
 Source: <a href="https://www.worldbank.org/en/publication/state-and-trends-of-carbon-pricing" target="_blank">World Bank (2025)</a>
 </p>
