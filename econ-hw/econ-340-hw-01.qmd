@@ -1,7 +1,7 @@
 ---
 title: Homework 1
 subtitle: Externalities; EPA Edangerment Finding on GHG Emissions; Coase Theorem
-date: last-modified
+date: 2025-09-14
 from: markdown+emoji
 comments: false
 echo: false

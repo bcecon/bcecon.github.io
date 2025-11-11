@@ -1,7 +1,7 @@
 ---
 title: Homework 3
 subtitle: Cost–Benefit Analysis of Investment in CCUS
-date: last-modified
+date: 2025-11-05
 from: markdown+emoji
 comments: false
 echo: false
