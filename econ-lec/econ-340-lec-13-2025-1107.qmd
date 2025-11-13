@@ -295,7 +295,7 @@ We now consider a case with **two plants** that have **different marginal abatem
 :::: {.columns}
 ::: {.column width="72.5%"}
 <div style="text-align: center; width: 100%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/mkt-pollution-firms-q.png" style="width: 100%; margin-bottom: -20px;">
+  <img src="https://bcdanl.github.io/lec_figs/mkt-pollution-firms-q-v2.png" style="width: 100%; margin-bottom: -20px;">
   <p style="font-weight: bold;"></p>
 </div>
 
@@ -330,7 +330,7 @@ $$
 :::: {.columns}
 ::: {.column width="72.5%"}
 <div style="text-align: center; width: 100%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/mkt-pollution-firms-p2.png" style="width: 100%; margin-bottom: -20px;">
+  <img src="https://bcdanl.github.io/lec_figs/mkt-pollution-firms-p2-v2.png" style="width: 100%; margin-bottom: -20px;">
   <p style="font-weight: bold;"></p>
 </div>
 
@@ -366,7 +366,7 @@ $$
 
 ## 🏭 Heterogeneous Plants: Quantity with Flexibility
 
-- The government sets a **total emissions cap** (e.g., 200 permits) and lets firms **trade** them.   
+- The government sets a **total emissions cap** (e.g., 200 permits; 400 uncontrolled emissions) and lets firms **trade** them.   
   - Each permit allows **one unit of pollution**. <span class="fragment">(**Coase Theorem!**)</span>
 
 - **A firm will:**
@@ -647,17 +647,23 @@ $$
 
 
 :::: {.columns}
+
 ::: {.column width="50%"}
+:::{.fragment}
 ### **Carbon Tax**
 - Provides **price certainty** — firms know exactly what a ton of CO₂ costs.
 - But **emissions outcomes** can fluctuate with energy demand and economic cycles.
 
 :::
+:::
+
 ::: {.column width="50%"}
+:::{.fragment}
 ### **Cap-and-Trade**
 - Provides **environmental certainty** — a fixed cap on total emissions.
 - But **abatement costs** can vary widely depending on shocks and economic conditions.
 
+:::
 :::
 ::::
 
@@ -705,7 +711,7 @@ Source: <a href="https://www.worldbank.org/en/publication/state-and-trends-of-ca
 <div style="display:block; margin:-10px;"></div>
 
 <div style="text-align: center; width: 100%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/wb-carbon-tax-cap-and-trade-map.png" style="width: 100%; margin-bottom: -30px;">
+  <img src="https://bcdanl.github.io/lec_figs/wb-carbon-tax-cap-and-trade-map.png" style="width: 100%; margin-bottom: -32px;">
   <p style="font-weight: bold;">
 Source: <a href="https://www.worldbank.org/en/publication/state-and-trends-of-carbon-pricing" target="_blank">World Bank (2025)</a>
 </p>

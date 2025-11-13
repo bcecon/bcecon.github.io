@@ -312,7 +312,7 @@
     "href": "listing-econ-340-hw.html",
     "title": "ECON 340 - Homework",
     "section": "",
-    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\nExternalities; EPA Edangerment Finding on GHG Emissions; Coase Theorem\n\n\nSeptember 14, 2025\n\n\n\n\nHomework 2\n\n\nExternalities; Common Pool Resources; Public Goods\n\n\nSeptember 29, 2025\n\n\n\n\nHomework 3\n\n\nCost–Benefit Analysis of Investment in CCUS\n\n\nNovember 5, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\nExternalities; EPA Edangerment Finding on GHG Emissions; Coase Theorem\n\n\nSeptember 14, 2025\n\n\n\n\nHomework 2\n\n\nExternalities; Common Pool Resources; Public Goods\n\n\nSeptember 29, 2025\n\n\n\n\nHomework 3\n\n\nCost–Benefit Analysis of Investment in CCUS\n\n\nNovember 5, 2025\n\n\n\n\nHomework 4\n\n\nClimate Policy and Carbon Market Analysis\n\n\nNovember 13, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "listing-econ-340-lec.html",
@@ -1166,7 +1166,7 @@
     "href": "econ-lec/econ-340-lec-13-2025-1107.html#heterogeneous-plants-quantity-with-flexibility",
     "title": "Lecture 13",
     "section": "🏭 Heterogeneous Plants: Quantity with Flexibility",
-    "text": "🏭 Heterogeneous Plants: Quantity with Flexibility\n\nThe government sets a total emissions cap (e.g., 200 permits) and lets firms trade them.\n\nEach permit allows one unit of pollution. (Coase Theorem!)\n\nA firm will:\n\nAbate if its MC is less than the permit price → cheaper to clean than to buy.\n\nBuy permits if its MC is greater than the permit price → cheaper to pollute than to clean.\n\nTrading continues until no further mutually beneficial trades exist — just like in a Coase bargain.\n\n\n\n\n\n\nMCA(QA) = MCB(QB) = Permit Price.\n\n\n\n\n\n(Because the cap is the socially optimal level,) Permit Price = MD.\\(\\qquad\\qquad\\quad\\;\\)\n\n\n\n\n\nThe result: the pollution target is met at the lowest total cost. \n\n\n\n\n\n–&gt;  –&gt;  –&gt;  –&gt;  –&gt;"
+    "text": "🏭 Heterogeneous Plants: Quantity with Flexibility\n\nThe government sets a total emissions cap (e.g., 200 permits; 400 uncontrolled emissions) and lets firms trade them.\n\nEach permit allows one unit of pollution. (Coase Theorem!)\n\nA firm will:\n\nAbate if its MC is less than the permit price → cheaper to clean than to buy.\n\nBuy permits if its MC is greater than the permit price → cheaper to pollute than to clean.\n\nTrading continues until no further mutually beneficial trades exist — just like in a Coase bargain.\n\n\n\n\n\n\nMCA(QA) = MCB(QB) = Permit Price.\n\n\n\n\n\n(Because the cap is the socially optimal level,) Permit Price = MD.\\(\\qquad\\qquad\\quad\\;\\)\n\n\n\n\n\nThe result: the pollution target is met at the lowest total cost. \n\n\n\n\n\n–&gt;  –&gt;  –&gt;  –&gt;  –&gt;"
   },
   {
     "objectID": "econ-lec/econ-340-lec-13-2025-1107.html#heterogeneous-plants-summary",
@@ -1243,7 +1243,7 @@
     "href": "econ-lec/econ-340-lec-13-2025-1107.html#price-vs.-quantity-the-policy-trade-off",
     "title": "Lecture 13",
     "section": "⚖️ Price vs. Quantity: The Policy Trade-off",
-    "text": "⚖️ Price vs. Quantity: The Policy Trade-off\n\nPolicymakers face a fundamental trade-off between:\n\nAchieving a specific emissions target with certainty, and\n\nEnsuring stable and predictable costs for firms and consumers.\n\n\n\n\nCarbon Tax\n\nProvides price certainty — firms know exactly what a ton of CO₂ costs.\nBut emissions outcomes can fluctuate with energy demand and economic cycles.\n\n\nCap-and-Trade\n\nProvides environmental certainty — a fixed cap on total emissions.\nBut abatement costs can vary widely depending on shocks and economic conditions."
+    "text": "⚖️ Price vs. Quantity: The Policy Trade-off\n\nPolicymakers face a fundamental trade-off between:\n\nAchieving a specific emissions target with certainty, and\n\nEnsuring stable and predictable costs for firms and consumers.\n\n\n\n\n\n\nCarbon Tax\n\nProvides price certainty — firms know exactly what a ton of CO₂ costs.\nBut emissions outcomes can fluctuate with energy demand and economic cycles.\n\n\n\n\n\nCap-and-Trade\n\nProvides environmental certainty — a fixed cap on total emissions.\nBut abatement costs can vary widely depending on shocks and economic conditions."
   },
   {
     "objectID": "econ-lec/econ-340-lec-13-2025-1107.html#policy-intuition-what-are-we-controlling",
@@ -1796,7 +1796,7 @@
     "href": "index.html#homework",
     "title": "ECON 340: Environmental Economics, Fall 2025",
     "section": "💻 Homework",
-    "text": "💻 Homework\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\nExternalities; EPA Edangerment Finding on GHG Emissions; Coase Theorem\n\n\nSeptember 14, 2025\n\n\n\n\nHomework 2\n\n\nExternalities; Common Pool Resources; Public Goods\n\n\nSeptember 29, 2025\n\n\n\n\nHomework 3\n\n\nCost–Benefit Analysis of Investment in CCUS\n\n\nNovember 5, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "💻 Homework\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\nExternalities; EPA Edangerment Finding on GHG Emissions; Coase Theorem\n\n\nSeptember 14, 2025\n\n\n\n\nHomework 2\n\n\nExternalities; Common Pool Resources; Public Goods\n\n\nSeptember 29, 2025\n\n\n\n\nHomework 3\n\n\nCost–Benefit Analysis of Investment in CCUS\n\n\nNovember 5, 2025\n\n\n\n\nHomework 4\n\n\nClimate Policy and Carbon Market Analysis\n\n\nNovember 13, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "econ-rw/econ-340-project-kickoff.html",
@@ -4016,5 +4016,61 @@
     "title": "Lecture 13",
     "section": "📊 Share of Global GHG Emissions Covered by an Emission Trading System (ETS) or Carbon Tax",
     "text": "📊 Share of Global GHG Emissions Covered by an Emission Trading System (ETS) or Carbon Tax\n\n\n\nSource: World Bank (2025)"
+  },
+  {
+    "objectID": "econ-hw/econ-340-hw-04.html",
+    "href": "econ-hw/econ-340-hw-04.html",
+    "title": "Homework 4",
+    "section": "",
+    "text": "No Generative AI: You are not allowed to use generative AI tools for Homework Assignment 4, except for part d2 in Question 1\nDeadlines: Wednesday, November 19, 2025 at 10:30 A.M.\n\nHand in your written answers on paper to Prof. Choe at the beginning of class."
+  },
+  {
+    "objectID": "econ-hw/econ-340-hw-04.html#homework-instructions",
+    "href": "econ-hw/econ-340-hw-04.html#homework-instructions",
+    "title": "Homework 4",
+    "section": "",
+    "text": "No Generative AI: You are not allowed to use generative AI tools for Homework Assignment 4, except for part d2 in Question 1\nDeadlines: Wednesday, November 19, 2025 at 10:30 A.M.\n\nHand in your written answers on paper to Prof. Choe at the beginning of class."
+  },
+  {
+    "objectID": "econ-hw/econ-340-hw-04.html#part-a",
+    "href": "econ-hw/econ-340-hw-04.html#part-a",
+    "title": "Homework 4",
+    "section": "Part A",
+    "text": "Part A\nHow many statistical lives per year would this policy save?"
+  },
+  {
+    "objectID": "econ-hw/econ-340-hw-04.html#part-b",
+    "href": "econ-hw/econ-340-hw-04.html#part-b",
+    "title": "Homework 4",
+    "section": "Part B",
+    "text": "Part B\nUsing a Value of a Statistical Life (VSL) of $7 million, what is the maximum annual cost society should be willing to pay for this policy based on mortality-risk reduction alone?"
+  },
+  {
+    "objectID": "econ-hw/econ-340-hw-04.html#part-a-1",
+    "href": "econ-hw/econ-340-hw-04.html#part-a-1",
+    "title": "Homework 4",
+    "section": "Part A",
+    "text": "Part A\nBefore linking the two carbon markets, what would be the permit prices in each country, and how much CO₂ abatement would each country undertake domestically?"
+  },
+  {
+    "objectID": "econ-hw/econ-340-hw-04.html#part-b-1",
+    "href": "econ-hw/econ-340-hw-04.html#part-b-1",
+    "title": "Homework 4",
+    "section": "Part B",
+    "text": "Part B\nIf the two countries link their cap-and-trade systems, allowing carbon allowances to trade freely across borders:\n\nWhat would be the common permit price in the integrated carbon market?\n\nHow much carbon would each country abate?\n\nWould any allowance trading occur between countries? If yes, describe the direction and amount of the transfer."
+  },
+  {
+    "objectID": "econ-hw/econ-340-hw-04.html#part-a-2",
+    "href": "econ-hw/econ-340-hw-04.html#part-a-2",
+    "title": "Homework 4",
+    "section": "Part A",
+    "text": "Part A\nBefore linkage what would be the prices in the two separate markets and how much abatement would each country choose?"
+  },
+  {
+    "objectID": "econ-hw/econ-340-hw-04.html#part-b-2",
+    "href": "econ-hw/econ-340-hw-04.html#part-b-2",
+    "title": "Homework 4",
+    "section": "Part B",
+    "text": "Part B\nIf these two markets were linked by allowing each country to buy from and sell allowances to the other, what would be the prices in the two markets? How much would each country abate? Describe the transfer of allowances, if any, that would take place between the two countries."
   }
 ]

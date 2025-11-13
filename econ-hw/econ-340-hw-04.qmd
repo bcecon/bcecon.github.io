@@ -1,0 +1,134 @@
+---
+title: Homework 4
+subtitle: Climate Policy and Carbon Market Analysis
+date: 2025-11-13
+from: markdown+emoji
+comments: false
+echo: false
+code-fold: false
+
+toc: true
+toc-depth: 6
+toc-expand: 3
+
+execute: 
+  warning: false
+  message: false
+  fig-width: 9
+  fig-height: 7
+  fig-align: center
+
+---
+```{r}
+#| include: false
+
+library(tidyverse)
+library(skimr)
+library(DT)
+library(hrbrthemes)
+library(ggthemes)
+
+theme_set(theme_ipsum() +
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = element_text(size = rel(1.5),),
+                axis.title.y = element_text(size = rel(1.5),
+                                            angle = 360),
+                legend.title = element_text(size=rel(1.25))
+                ))
+
+
+df <- data.frame(
+  q = seq(0,4,.25),
+  mb_p = 4 - seq(0,4,.25),
+  mc = seq(0,4,.25) + 2
+) |> 
+  pivot_longer(cols = mb_p:mc,
+               names_to = 'type',
+               values_to = 'p') |> 
+  mutate(type = factor(type, labels = c('mb_p',
+                                        'mc')),
+         label = recode(type, 'mb_p' = "MB today", 'mc' = "MC"),
+         group = interaction(type, label)  # Creating a unique identifier for color and linetype
+  )
+
+```
+
+
+
+## Homework Instructions
+
+- **No Generative AI**: You are **not** allowed to use generative AI tools for Homework Assignment 4, except for part **d2 in Question 1**
+
+- **Deadlines**: **Wednesday, November 19, 2025 at 10:30 A.M.**  
+    - Hand in your written answers on paper to Prof. Choe at the beginning of class.
+
+
+# Question 1. Evaluating Climate Adaptation Benefits: Heatwave Mortality
+A proposed **climate adaptation policy**—such as expanding cooling centers and improving heat-alert systems—is expected to reduce the annual mortality risk from extreme heat exposure from **6 in 100,000** to **2 in 100,000** for a population of **4 million** residents.
+
+
+<br>
+
+## Part A
+How many **statistical lives per year** would this policy save?  
+
+<br>
+
+## Part B
+Using a **Value of a Statistical Life (VSL)** of **$7 million**, what is the **maximum annual cost** society should be willing to pay for this policy based on mortality-risk reduction alone?
+
+
+
+<br><br>
+
+# Question 2. Linking International Carbon Markets
+Two countries operate their own **domestic cap-and-trade systems** to limit carbon dioxide emissions.
+
+- **Country A**  
+  - Uncontrolled CO₂ emissions: 60 tons  
+  - Emissions cap: 20 tons  
+  - Marginal abatement cost: $MC_A = 10$
+
+- **Country B**  
+  - Uncontrolled CO₂ emissions: 80 tons  
+  - Emissions cap: 40 tons  
+  - Marginal abatement cost: $MC_B(q) = q$, where where $q$ is the tons of emission abatement.
+
+::: callout-note
+**Uncontrolled CO₂ emissions** refer to the amount of CO₂ a country or firm would emit **in the absence of any climate policy**, such as taxes, cap-and-trade, or regulations. It represents the baseline level of emissions if no abatement efforts were taken.
+:::
+
+The two countries are considering whether to **link their carbon markets** to improve cost-effectiveness and enhance cooperation on climate mitigation.
+
+
+<br>
+
+## Part A
+Before linking the two carbon markets, what would be the **permit prices** in each country, and how much **CO₂ abatement** would each country undertake domestically?
+
+
+<br>
+
+## Part B
+If the two countries **link their cap-and-trade systems**, allowing carbon allowances to trade freely across borders:
+
+- What would be the **common permit price** in the integrated carbon market?  
+- How much carbon would each country abate?  
+- Would any **allowance trading** occur between countries? If yes, describe the **direction and amount** of the transfer.
+
+
+
+<br><br>
+
+# Question 3. Class Participation (Not Graded for Homework 4)
+
+Please write one sentence for each time you participated in class (any public speaking during class time) between **October 13, 2025 and November 10, 2025**.  
+
+**Examples:**  
+- “I asked a question to clarify the common-pool resource”  
+- “I asked how market instruments affect consumer behavior.”  
+- “I gave plastic pollution as an example of a negative externality.”  
+- “I pointed out a calculation error during the lecture.”  
+ 
+
+
