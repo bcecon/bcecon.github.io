@@ -4057,7 +4057,7 @@
     "href": "econ-hw/econ-340-hw-04.html#part-b-1",
     "title": "Homework 4",
     "section": "Part B",
-    "text": "Part B\nIf the two countries link their cap-and-trade systems, allowing carbon allowances to trade freely across borders:\n\nWhat would be the common permit price in the integrated carbon market?\n\nHow much carbon would each country abate?\n\nWould any allowance trading occur between countries? If yes, describe the direction and amount of the transfer."
+    "text": "Part B\nIf the two countries link their cap-and-trade systems, carbon allowances can trade freely across borders. In the linked system:\n\nTotal Uncontrolled CO₂ Emissions:\n\\(140\\) tons = \\(60 + 80\\)\nTotal Emissions Cap:\n\\(60\\) tons = \\(20 + 40\\)\nInitial Allowance Allocation:\n\nCountry A: 20 allowances\n\nCountry B: 40 allowances\n\n\nWith linkage, both countries face a single, common permit price. Each country buys or sells allowances to the other depending on whether they emit more or less than their initial allocation.\n\nWhat is the common permit price in the integrated carbon market?\n\nHow much CO₂ does each country abate under the linked system?\n\nDoes allowance trading occur between countries?\n\nIf so, describe which country buys or sells allowances and the number of allowances traded.\n\n\n\n\n\n\n\n\nTip\n\n\n\nLet \\(p\\) be the common permit price. If \\(p\\) &gt; 10, it is profitable for Country A to reduce emissions as much as possible (up to 60 tons) and sell extra allowances to Country B."
   },
   {
     "objectID": "econ-hw/econ-340-hw-04.html#part-a-2",
@@ -4071,6 +4071,6 @@
     "href": "econ-hw/econ-340-hw-04.html#part-b-2",
     "title": "Homework 4",
     "section": "Part B",
-    "text": "Part B\nIf these two markets were linked by allowing each country to buy from and sell allowances to the other, what would be the prices in the two markets? How much would each country abate? Describe the transfer of allowances, if any, that would take place between the two countries."
+    "text": "Part B\nIf the two countries link their cap-and-trade systems, carbon allowances can trade freely across borders. In the linked system:\n\nTotal Uncontrolled CO₂ Emissions:\n\\(140\\) tons = \\(60 + 80\\)\nTotal Emissions Cap:\n\\(60\\) tons = \\(20 + 40\\)\nInitial Allowance Allocation:\n\nCountry A: 20 allowances\n\nCountry B: 40 allowances\n\n\nWith linkage, both countries face a single, common permit price. Firms in each country buy or sell allowances depending on whether they emit more or less than their initial allocation.\n\nWhat is the common permit price in the integrated carbon market?\n\nHow much CO₂ does each country abate under the linked system?\n\nDoes allowance trading occur between countries?\n\nIf so, describe which country buys or sells allowances and the number of allowances traded."
   }
 ]

@@ -110,11 +110,46 @@ Before linking the two carbon markets, what would be the **permit prices** in ea
 <br>
 
 ## Part B
-If the two countries **link their cap-and-trade systems**, allowing carbon allowances to trade freely across borders:
+If the two countries **link their cap-and-trade systems**, carbon allowances can trade freely across borders. In the linked system:
 
-- What would be the **common permit price** in the integrated carbon market?  
-- How much carbon would each country abate?  
-- Would any **allowance trading** occur between countries? If yes, describe the **direction and amount** of the transfer.
+- **Total Uncontrolled CO₂ Emissions**:  
+  $140$ tons = $60 + 80$
+
+- **Total Emissions Cap**:  
+  $60$ tons = $20 + 40$
+
+- **Initial Allowance Allocation**:  
+  - **Country A**: 20 allowances  
+  - **Country B**: 40 allowances  
+
+With linkage, both countries face a **single, common permit price**. Each country buys or sells allowances to the other depending on whether they emit more or less than their initial allocation.
+
+- What is the **common permit price** in the integrated carbon market?  
+- How much CO₂ does each country abate under the linked system?  
+- Does **allowance trading** occur between countries?  
+  - If so, describe **which country buys or sells allowances** and **the number of allowances traded**.
+
+
+::: callout-tip
+Let $p$ be the common permit price. If $p$ > 10, it is profitable for Country A to reduce emissions as much as possible (up to 60 tons) and sell extra allowances to Country B.
+
+:::
+
+
+
+<!-- If the two countries **link their cap-and-trade systems**, allowing carbon allowances to trade freely across borders: -->
+
+<!-- - **Linked Cap-and-Trade System**   -->
+<!--   - Total Uncontrolled CO₂ emissions: 140 tons = 60 + 80 -->
+<!--   - Total Emissions cap: 60 tons = 20 + 40   -->
+<!--   - Initial Allowances: -->
+<!--     - **Country A**: 20 -->
+<!--     - **Country B**: 40 -->
+
+
+<!-- - What would be the **common permit price** in the integrated carbon market?   -->
+<!-- - How much carbon would each country abate?   -->
+<!-- - Would any **allowance trading** occur between countries? If yes, describe the **direction and amount** of the transfer. -->
 
 
 
