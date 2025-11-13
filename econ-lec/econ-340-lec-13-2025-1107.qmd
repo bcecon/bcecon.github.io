@@ -366,7 +366,7 @@ $$
 
 ## 🏭 Heterogeneous Plants: Quantity with Flexibility
 
-- The government sets a **total emissions cap** (e.g., 200 permits; 400 uncontrolled emissions) and lets firms **trade** them.   
+- The government sets a **total emissions cap** (e.g., 200 permits, socially optimal level of pollution) and lets firms **trade** them.   
   - Each permit allows **one unit of pollution**. <span class="fragment">(**Coase Theorem!**)</span>
 
 - **A firm will:**
