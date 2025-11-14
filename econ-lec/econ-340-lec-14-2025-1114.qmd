@@ -73,7 +73,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 ## Why Do We Need International Climate Agreements?
 
-- Climate change is a **global** public good problem
+- Climate change is a market failure on a **global** scale.
 
 - Because the benefits of climate action are **shared globally**, but the costs are **borne locally**, cooperation is essential.
 
