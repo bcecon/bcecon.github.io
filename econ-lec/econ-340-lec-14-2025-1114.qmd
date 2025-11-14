@@ -163,8 +163,8 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 ### Transparency & Accountability in the Paris Agreement
 <div style="display:block; margin:-10px;"></div>
 
-- Every 5 years, **Global Stocktake** evaluates collective progress  
-- Transparency system tracks actions but has no penalties  
+- Every 5 years, **Global Stocktake** evaluates collective progress and informs the next round of **NDCs**. 
+- Transparency system tracks actions but has **no formal penalties**.
 :::
 
 <!-- :::{.fragment} -->
