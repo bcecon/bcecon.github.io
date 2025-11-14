@@ -1,0 +1,397 @@
+---
+title: Lecture 14
+subtitle: "International Climate Agreements: Institutions, Incentives, and Strategic Cooperation"
+
+format:
+  clean-revealjs:
+    self-contained: false
+    chalkboard: true
+    incremental: true
+    code-annotations: hover
+    scrollable: false
+
+    # logo: logo-title-slide.png
+author:
+  - name: Byeong-Hak Choe
+    email: bchoe@geneseo.edu
+    affiliations: SUNY Geneseo
+date: 2025-11-14
+execute: 
+  eval: true
+  echo: false
+callout-icon: false
+
+from: markdown+emoji
+include-after-body: target-hover.html # effect.html
+
+# bibliography: refs.bib
+---
+
+```{r setup}
+#| include: false
+
+library(tidyverse)
+library(lubridate)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+library(viridis)
+library(rmarkdown)
+library(gapminder)
+library(ggrepel)
+library(formattable)
+
+theme_set(theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(10,0,0,0)),
+                axis.title.y = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(0,10,0,0)),
+                axis.text.x = element_text(size = rel(1.75)),
+                axis.text.y = element_text(size = rel(1.75)),
+                strip.text = element_text(size = rel(1.5)),
+                legend.position = "top",
+                legend.text = element_text(size = rel(1.5)),
+                legend.title = element_text(size = rel(1.5))
+                )
+          )
+
+# Set global options for color-blind-friendly scales
+# scale_colour_discrete <- function(...) scale_colour_viridis_d(...)
+
+scale_colour_discrete <- function(...) scale_color_colorblind(...)
+scale_fill_discrete <- function(...) scale_fill_colorblind(...)
+
+
+```
+
+
+# 🌐 **From UNFCCC to Paris: The Global Climate Framework** {background-color="#1c4982"}
+
+## Why Do We Need International Climate Agreements?
+
+- Climate change is a **global** public good problem
+
+- Because the benefits of climate action are **shared globally**, but the costs are **borne locally**, cooperation is essential.
+
+- International climate agreements aim to:
+  - Coordinate actions  
+  - Set shared goals  
+  - Build transparency and trust  
+  - Limit free-riding  
+
+## Key Actors in Global Climate Governance
+
+- [**UNFCCC (1992)**](https://unfccc.int)  
+  - The United Nations Framework Convention on Climate Change.  
+  - It provides the overall framework for coordinating global climate action.
+
+- [**COP — Conference of the Parties**](https://unfccc.int/process/bodies/supreme-bodies/conference-of-the-parties-cop)  
+  - The annual meeting of all UNFCCC member countries.  
+  - The main global forum where international climate decisions are made.
+  
+- At the COP, countries:
+  - Negotiate climate agreements  
+  - Review progress; Update rules and commitments  
+  - Oversee implementation of **the Paris Agreement (2015)**
+
+
+
+## From UNFCCC to Paris: A Brief Timeline
+
+<div style="display:block; margin:-20px;"></div>
+**<span class="fragment">1992 — UNFCCC Established</span>**  
+<span class="fragment">Countries agree climate change is a global problem requiring coordinated action.</span>
+
+<div style="display:block; margin:-20px;"></div>
+**<span class="fragment">1997 — Kyoto Protocol (COP3)</span>**  
+<span class="fragment">Binding emission targets for developed countries only.</span>  
+<span class="fragment">Limited participation; U.S. never ratified; major emitters had no obligations.</span>
+
+<div style="display:block; margin:-20px;"></div>
+**<span class="fragment">2009–2014 — Negotiation Failures & Rising Urgency</span>**  
+<span class="fragment">2009 - Copenhagen (COP15) fails to deliver binding global targets.</span>  
+<span class="fragment">Scientific evidence strengthens; pressure for a new model increases.</span>
+
+<div style="display:block; margin:-20px;"></div>
+**<span class="fragment">2015 — Paris Agreement (COP21)</span>**  
+<span class="fragment">Nearly all countries (195 countries) adopt a universal climate framework.</span>
+
+<div style="display:block; margin:-20px;"></div>
+**<span class="fragment">Today under the Paris Agreement</span>**  
+<span class="fragment">Focus on raising ambition, transparency, and implementation of **Nationally Determined Contributions (NDCs)**</span>
+
+
+## How the Paris Agreement Differs from Kyoto
+
+:::: {.columns}
+
+::: {.column width="40%"}
+::: {.fragment}
+### Kyoto Protocol
+<div style="display:block; margin:-10px;"></div>
+
+- Binding targets for **developed countries** only  
+- Targets were assigned to countries  
+- Weak enforcement → limited impact  
+:::
+:::
+
+
+::: {.column width="60%"}
+:::{.fragment}
+### Paris Agreement
+<div style="display:block; margin:-10px;"></div>
+
+- Universal participation: all countries submit plans  
+- Uses [**Nationally Determined Contributions (NDCs)**](https://unfccc.int/process-and-meetings/the-paris-agreement/nationally-determined-contributions-ndcs):  
+  - Each country sets their own targets  
+  - Targets must strengthen over time  
+
+- Ambition is high, but actions are voluntary  
+
+:::
+:::
+::::
+
+<!-- <div style="display:block; margin:-20px;"></div> -->
+
+:::{.fragment}
+### Transparency & Accountability in the Paris Agreement
+<div style="display:block; margin:-10px;"></div>
+
+- Every 5 years, **Global Stocktake** evaluates collective progress  
+- Transparency system tracks actions but has no penalties  
+:::
+
+<!-- :::{.fragment} -->
+<!-- Paris shifts from a binding, top-down model to a voluntary, bottom-up system built on transparency and peer pressure.   -->
+<!-- ::: -->
+
+
+# 🌍🤝 **Economics of Global Climate Cooperation** {background-color="#1c4982"}
+
+
+## The Free-Rider Problem
+
+Climate mitigation is a **global public good**:
+
+- Benefits are **shared globally**, regardless of who pays  
+- Costs of abatement are **borne locally**  
+- Benefits are **non-rival** (one country’s gain doesn’t reduce another’s)  
+- Benefits are **non-excludable** (no country can be excluded)
+
+<div style="display:block; margin:-40px;"></div>
+<span class="fragment">**Implications**</span>
+
+- Countries consider only their **private MB**, not the **social MB**  
+- They reduce emissions until **MC = private MB**  
+- Efficient global mitigation requires **MC = social MB**  
+- Since **private MB < social MB**:
+  - **Mitigation is under-provided**; **Global emissions remain too high**  
+
+
+## Why Cooperation Is So Hard
+
+Climate change is one of the **hardest collective action problems in human history**.
+
+- Global public goods create strong **free-rider incentives**  
+- Climate benefits occur over **long time horizons**  
+- Future damages and benefits are **uncertain**  
+- Countries face **asymmetric climate risks and costs**  
+- No **supranational authority** can enforce cooperation
+
+
+
+<!-- ## The Free-Rider Problem -->
+
+<!-- Climate mitigation is a **global public good**: -->
+
+<!-- - All nations benefit from reduced emissions   -->
+<!-- - Each nation bears its own abatement cost   -->
+<!-- - Benefits are **non-rival** and **non-excludable** -->
+
+<!-- Therefore: -->
+
+<!-- - **Private MB < Social MB**   -->
+<!-- - Countries reduce emissions until   -->
+<!--   - $MC = \text{private MB}$   -->
+<!-- - But the efficient global outcome requires   -->
+<!--   - $MC = \text{social MB}$   -->
+
+<!-- 👉 Result: **under-provision of mitigation** and **excess global emissions**. -->
+
+
+<!-- ## Why Cooperation Is So Hard -->
+
+<!-- - Global public good → strong **free-rider incentives**   -->
+<!-- - Long time horizons   -->
+<!-- - Uncertain future benefits   -->
+<!-- - Different countries face different climate risks   -->
+<!-- - No supranational enforcement authority   -->
+
+<!-- **Conclusion:**   -->
+<!-- Climate change is one of the **most difficult collective action problems in human history**. -->
+
+
+
+## Key Features of Climate Agreements
+<div style="display:block; margin:-15px;"></div>
+
+Effective **international agreements** require the right incentive structure.
+
+<div style="display:block; margin:25px;"></div>
+:::: {.columns}
+
+::: {.column width="50%"}
+::: {.fragment}
+### Incentive-Compatible
+
+<div style="display:block; margin:-25px;"></div>
+
+Each country has a **self-interested reason** to:  
+
+- **Join** the agreement  
+- **Comply** with the agreement’s rules once they join  
+
+
+<!-- - no nation can be forced to sign, and   -->
+<!-- - any signatory can withdraw later.   -->
+:::
+:::
+
+::: {.column width="50%"}
+::: {.fragment}
+### Self-Enforcing
+
+<div style="display:block; margin:-25px;"></div>
+
+When incentives are aligned, the agreement becomes **self-enforcing**:
+
+- Countries voluntarily **join, stay, and comply** without external enforcement  
+- The coalition remains stable **over time**  
+- Reward/punishment strategies discourage withdrawal  
+
+:::
+:::
+::::
+
+<div style="display:block; margin:-50px;"></div>
+<span class="fragment">Global cooperation is challenging, and **game theory** helps explain why.</span>
+
+
+
+
+
+## Game Theory and Collective Action
+
+- **Game theory** analyzes situations where a player’s payoff depends on both their own actions and the actions of others.  
+- Climate mitigation is a classic example of **strategic interdependence**:
+  - Benefits of reduced emissions are **global**
+  - Costs of abatement are **local**
+- Thus, each country’s payoff depends on what **other countries** choose to do.  
+
+
+## A Climate Game: Cooperation vs. Defection
+
+|               |               | **Country B**      |               |
+|---------------|---------------|--------------------|---------------|
+|               |               | **Cooperate**      | **Defect**    |
+| **Country A** | **Cooperate** |     (3, 3)         |    (1, 4)     |
+|               | **Defect**    |     (4, 1)         |    (2, 2)     |
+|               |               |                    |               |
+
+
+- **Players**
+  - Two countries: **Country A** and **Country B**.
+
+- **Strategies**
+  - **Cooperate** → reduce GHG emissions  
+  - **Defect** → avoid abatement costs  
+
+- **Payoffs**
+  - Higher values = better economic outcome 
+  - Format: **(A’s payoff, B’s payoff)**
+
+
+
+## Nash Equilibrium in the Climate Game
+
+
+|               |               | **Country B**      |               |
+|---------------|---------------|--------------------|---------------|
+|               |               | **Cooperate**      | **Defect**    |
+| **Country A** | **Cooperate** |     (3, 3)         |    (1, 4)     |
+|               | **Defect**    |     (4, 1)         |    (2, 2)     |
+|               |               |                    |               |
+
+
+- In a **Nash Equilibrium (NE)**, each player’s chosen strategy is the best response to the other player’s strategy.
+  - A **NE** occurs when no player can improve their payoff by changing strategy unilaterally.
+
+- What is the NE in this game?
+  - That is, to find what strategy each player plays in the NE.
+
+
+
+## Nash Equilibrium in the Climate Game
+
+|               |               | **Country B**      |               |
+|---------------|---------------|--------------------|---------------|
+|               |               | **Cooperate**      | **Defect**    |
+| **Country A** | **Cooperate** |     (3, 3)         |    (1, 4)     |
+|               | **Defect**    |     (4, 1)         |    (2, 2)     |
+|               |               |                    |               |
+
+
+- If B cooperates → A prefers **Defect** ($4 > 3$)  
+- If B defects → A prefers **Defect** ($2 > 1$)  
+- If A cooperates → B prefers **Defect** ($4 > 3$)  
+- If A defects → B prefers **Defect** ($2 > 1$)
+
+<div style="display:block; margin:-30px;"></div>
+<span class="fragment">👉 **NE = (Defect, Defect)** — even though both prefer $(3,3)$.</span>  
+
+- This is the classic **Prisoner’s Dilemma**.  
+<span class="fragment">Free-riding incentives push both countries toward **mutual defection**.</span>  
+
+
+## The Climate Game with CBAMs
+
+|               |               | **Country B**                |                   |
+|---------------|---------------|------------------------------|-------------------|
+|               |               | **Cooperate**                | **Defect**        |
+| **Country A** | **Cooperate** | (3, 3)                       | (1, 2)            |
+|               | **Defect**    | (2, 1)                       | (1, 1)            |
+
+- Importers impose a carbon border fee on high-emission producers.
+- Defection becomes costly due to border tariffs:
+  - A’s payoff from defection drops: $2 < 3$  
+  - B’s payoff from defection drops: $2 < 3$
+
+<div style="display:block; margin:-30px;"></div>
+<span class="fragment">CBAMs **internalize the competitiveness problem**, removing the free-rider reward and making **Cooperate → better response**.</span>
+
+
+## The Climate Game with Climate Clubs
+
+
+|               |               | **Country B**            |                   |
+|---------------|---------------|--------------------------|-------------------|
+|               |               | **Join (Cooperate)**     | **Stay Out (Defect)** |
+| **Country A** | **Join**      | (4, 4)                   | (2, 1)            |
+|               | **Stay Out**  | (1, 2)                   | (1, 1)            |
+
+
+
+- Climate Clubs (Nordhaus) impose **uniform tariffs** on non-members.
+<!-- - Let the climate club impose a tariff penalty $T$ on defectors. -->
+- **Mutual cooperation (join the club)** yields the highest payoff.  
+- **Staying out** triggers tariff penalties → reduces payoff.  
+- Without club: Defecting unilateral payoff > cooperating
+- With club: $4 > 2$ and $4 > 1$ → both prefer **Join**
+- Climate Clubs **punish free-riding**, turning cooperation into each country's **dominant strategy**.
+

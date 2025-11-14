@@ -393,7 +393,8 @@ $$
 
 
 - <u>The result</u>: the **pollution target is met** at the **lowest total cost**.
-  <!-- as all firms face the **same marginal cost of abatement**. -->
+
+<!-- as all firms face the **same marginal cost of abatement**. -->
   
 <!-- ## 🏭 Heterogeneous Plants: Quantity with Flexibility -->
 
@@ -670,16 +671,21 @@ $$
 ## 📄 Carbon Tax — Big Advantages
 
 - **Simple & Transparent**
-  - Clear structure; easy to understand and implement.
-  - Requires fewer new institutions and administrative layers.
+  <!-- - Clear structure; easy to understand and implement. -->
+  - Requires fewer new institutions and less administrative complexity.
 
-<!-- - **Price Certainty** -->
-<!--   - **Stable, predictable prices** support long-term planning for firms and households. -->
 
 - **Adapts to Technological Change**
-  - If abatement costs fall or cleaner technologies become cheaper, **a carbon tax automatically delivers greater emissions reductions** because firms reduce more wherever it's economically efficient.
-  - Under **cap-and-trade**, lower abatement costs simply **drive down permit prices**.   
-    - Total emissions remain fixed at the cap, and some firms may even emit more as compliance becomes cheaper.
+  - If abatement costs fall or cleaner technologies become cheaper, **a carbon tax leads to greater emissions reductions** because firms cut more whenever it becomes cost-effective.
+  - Under **cap-and-trade**, lower abatement costs simply **push permit prices downward**:
+    - Demand for permits falls, but supply is fixed → **permit prices drop**.
+    - **Total emissions stay capped**, so the overall quantity doesn’t fall—and some firms may even emit more because compliance has become cheaper.
+    
+<!-- - **Adapts to Technological Change** -->
+<!--   - If abatement costs fall or cleaner technologies become cheaper, **a carbon tax automatically delivers greater emissions reductions** because firms reduce more wherever it's economically efficient. -->
+<!--   - Under **cap-and-trade**, lower abatement costs simply **drive down permit prices**.    -->
+<!--     - Demand for permits falls, but the supply of permits is fixed → permit prices drop. -->
+<!--     - Total emissions remain fixed at the cap, and some firms may even emit more as compliance becomes cheaper. -->
 
 
 <!-- - **Adapts to Technological Change** -->
@@ -698,6 +704,17 @@ $$
 <!-- - **Emissions Certainty** -->
 <!--   - The cap **fixes total emissions** directly, achieving a defined pathway without needing to adjust tax rates. -->
 
+
+## 🗺️ Global Map of ETS and Carbon Taxes
+<div style="display:block; margin:-10px;"></div>
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/wb-carbon-tax-cap-and-trade-map.png" style="width: 100%; margin-bottom: -32px;">
+  <p style="font-weight: bold;">
+Source: <a href="https://carbonpricingdashboard.worldbank.org" target="_blank">World Bank (2025)</a>
+</p>
+</div>
+
 ## 📊 Share of Global GHG Emissions Covered by an Emission Trading System (ETS) or Carbon Tax
 <div style="text-align: center; width: 100%; margin: auto;">
   <img src="https://bcdanl.github.io/lec_figs/wb-carbon-tax-cap-and-trade.png" style="width: 100%; margin-bottom: -30px;">
@@ -707,15 +724,18 @@ Source: <a href="https://www.worldbank.org/en/publication/state-and-trends-of-ca
 </div>
 
 
-## 🗺️ Global Map of ETS and Carbon Taxes
-<div style="display:block; margin:-10px;"></div>
 
-<div style="text-align: center; width: 100%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/wb-carbon-tax-cap-and-trade-map.png" style="width: 100%; margin-bottom: -32px;">
+
+## 🌍💰️ Emission Coverage and Pricing Level
+<div style="display:block; margin:-15px;"></div>
+
+<div style="text-align: center; width: 80%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/wb-carbon-pricing-coverage-by-country.png" style="width: 100%; margin-bottom: -32px;">
   <p style="font-weight: bold;">
 Source: <a href="https://www.worldbank.org/en/publication/state-and-trends-of-carbon-pricing" target="_blank">World Bank (2025)</a>
 </p>
 </div>
+
 
 ## 🎯 Why Cap-and-Trade Is More Popular in Practice
 <div style="display:block; margin:-10px;"></div>
