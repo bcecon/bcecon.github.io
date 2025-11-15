@@ -334,7 +334,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">November 11, 2025</p>
+      <p class="date-modified">November 15, 2025</p>
     </div>
   </div>
     
@@ -592,6 +592,29 @@ In this homework, we refer to the updated policy framework as the <strong>One Bi
 </tr>
 </tbody>
 </table>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><span class="math display">\[
+\text{PV}_B(4\%) = \frac{70}{1+0.04} + \frac{95}{(1+0.04)^2} + \frac{95}{(1+0.04)^3} + \frac{95}{(1+0.04)^4} + \frac{90}{(1+0.04)^5}
+\]</span></p>
+<p><span class="math display">\[
+\text{PV}_B(4\%) \approx 394.78 \quad \Rightarrow \quad \text{Private PV}_{NB} = -500 + 394.78 = \mathbf{-105.22\text{ million}}
+\]</span></p>
+<p><strong>Interpretation:</strong><br>
+At a 4% discount rate, the private <span class="math inline">\(\text{PV}_{NB}\)</span> is <strong>negative</strong>, meaning the company would <strong>not invest</strong> in CCUS without additional incentives.</p>
+</div>
+</div>
+</div>
 <p><br></p>
 </section>
 <section id="question-2.-add-the-social-value-of-carbon-scc-190tco₂" class="level2">
@@ -626,6 +649,79 @@ In this homework, we refer to the updated policy framework as the <strong>One Bi
 </tr>
 </tbody>
 </table>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Baseline private net benefits (excluding 45Q):</strong><br>
+<span class="math inline">\((-15,\; 10,\; 10,\; 10,\; 5)\)</span> million dollars.</p>
+<p><strong>Add SCC = $190 million per year:</strong><br>
+<span class="math inline">\((-15+190,\; 10+190,\; 10+190,\; 10+190,\; 5+190) = (175,\; 200,\; 200,\; 200,\; 195).\)</span></p>
+<p><strong>Compute PV of benefits at 4%:</strong></p>
+<p><span class="math display">\[
+\text{PV}_B(4\%) =
+\frac{175}{1.04}
++ \frac{200}{1.04^2}
++ \frac{200}{1.04^3}
++ \frac{200}{1.04^4}
++ \frac{195}{1.04^5}.
+\]</span></p>
+<p><strong>Then Social NPV:</strong></p>
+<p><span class="math display">\[
+\text{Social PV}_{NB}(4\%) =
+-500
++ \left(
+\frac{175}{1.04}
++ \frac{200}{1.04^2}
++ \frac{200}{1.04^3}
++ \frac{200}{1.04^4}
++ \frac{195}{1.04^5}
+\right).
+\]</span></p>
+<p><strong>Numerical results (millions):</strong></p>
+<p><span class="math display">\[
+\text{PV}_B(4\%) \approx 862.22
+\quad\Rightarrow\quad
+\text{Social PV}_{NB}(4\%) \approx -500 + 862.22
+= \mathbf{+362.22}.
+\]</span></p>
+<table class="table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;"><strong>Discount Rate</strong></th>
+<th style="text-align: right;"><strong>PV of Benefits (Private excl. 45Q + SCC)</strong></th>
+<th style="text-align: right;"><strong>PV of Costs</strong></th>
+<th style="text-align: right;"><strong>Social <span class="math inline">\(\text{PV}_{NB}\)</span></strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">4%</td>
+<td style="text-align: right;">862.22</td>
+<td style="text-align: right;">500</td>
+<td style="text-align: right;"><strong>+362.22</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Interpretation:</strong><br>
+Even without counting the 45Q credit, adding the <strong>social value of avoided CO₂</strong> makes the project <strong>strongly positive</strong> from a social perspective at 4%.</p>
+</div>
+</div>
+</div>
 <p><br></p>
 </section>
 <section id="question-3.-how-large-should-the-45q-credit-be-realism-check" class="level2">
@@ -633,6 +729,38 @@ In this homework, we refer to the updated policy framework as the <strong>One Bi
 <section id="part-a" class="level3">
 <h3 class="anchored" data-anchor-id="part-a">Part A</h3>
 <p>Using your <span class="math inline">\(\text{PV}_{NB}\)</span> setup from Question 1 (at 4%), show that the project’s <strong>Private <span class="math inline">\(\text{PV}_{NB}\)</span></strong> with the current <strong>$85/t</strong> credit is negative.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Using the <strong>benefit stream that excludes 45Q</strong> from Q1, <span class="math inline">\((-15,\,10,\,10,\,10,\,5)\)</span> (in millions), adding the existing 45Q credit contributes <strong>$85 million per year</strong> (since capture is 1 Mt/yr). The NPV at <span class="math inline">\(r=4\%\)</span> is:</p>
+<p><span class="math display">\[
+\text{Private PV}_{NB}(4\%) \;=\;
+-500
++ \left(\frac{-15}{1.04} + \frac{10}{1.04^2} + \frac{10}{1.04^3} + \frac{10}{1.04^4} + \frac{5}{1.04^5}\right)
++ \left(\frac{85}{1.04} + \frac{85}{1.04^2} + \frac{85}{1.04^3} + \frac{85}{1.04^4} + \frac{85}{1.04^5}\right).
+\]</span></p>
+<p>Numerically (millions):</p>
+<ul>
+<li>Baseline PV (excl. 45Q): <span class="math inline">\(\approx 16.37\)</span><br>
+</li>
+<li>PV of $85/t credit: <span class="math inline">\(85 \times \left(\frac{1}{1.04} + \cdots + \frac{1}{1.04^5}\right) \approx 85 \times 4.4518 \approx 378.41\)</span></li>
+</ul>
+<p>So <span class="math display">\[
+\text{Private PV}_{NB}(4\%) \approx -500 + 16.37 + 378.41 \;=\; \mathbf{-105.23} \;&lt;\; 0.
+\]</span></p>
+<p><strong>Conclusion:</strong> With the current $85/t credit, the <strong>private NPV is negative</strong> at 4%.</p>
+</div>
+</div>
+</div>
 </section>
 <section id="part-b" class="level3">
 <h3 class="anchored" data-anchor-id="part-b">Part B</h3>
@@ -673,6 +801,75 @@ In this homework, we refer to the updated policy framework as the <strong>One Bi
 </tr>
 </tbody>
 </table>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Let <span class="math inline">\(p_{\text{total}}\)</span> be the <strong>total</strong> credit per ton (in $). Since 1 Mt is captured each year, this adds <span class="math inline">\(p_{\text{total}}\)</span> million per year. Set NPV to zero:</p>
+<p><span class="math display">\[
+0 \;=\;
+-500
++ \underbrace{\left(\frac{-15}{1.04} + \frac{10}{1.04^2} + \frac{10}{1.04^3} + \frac{10}{1.04^4} + \frac{5}{1.04^5}\right)}_{\approx\,16.37}
++ \; p_{\text{total}} \!\!\left(\frac{1}{1.04} + \frac{1}{1.04^2} + \frac{1}{1.04^3} + \frac{1}{1.04^4} + \frac{1}{1.04^5}\right).
+\]</span></p>
+<p>The sum of discount factors is <span class="math display">\[
+\frac{1}{1.04} + \frac{1}{1.04^2} + \frac{1}{1.04^3} + \frac{1}{1.04^4} + \frac{1}{1.04^5}
+\;\approx\; 4.4518.
+\]</span></p>
+<p>Solve for <span class="math inline">\(p_{\text{total}}\)</span>: <span class="math display">\[
+p_{\text{total}} \;=\; \frac{500 - 16.37}{4.4518} \;\approx\; \mathbf{108.64\ \text{dollars per ton}}.
+\]</span></p>
+<p>So a <strong>total</strong> credit of about <strong>$109/t</strong> is needed for breakeven at 4% (which implies an <strong>incremental</strong> <span class="math inline">\(\Delta p \approx \$24/t\)</span> above today’s $85/t).</p>
+<section id="decision-table-at-4" class="level4">
+<h4 class="anchored" data-anchor-id="decision-table-at-4">Decision Table (at 4%)</h4>
+<table class="table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 22%">
+<col style="width: 32%">
+<col style="width: 23%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Scenario</strong></th>
+<th style="text-align: right;"><strong>Credit per ton ($)</strong></th>
+<th style="text-align: right;"><strong>Private NPV @ 4% (Million $)</strong></th>
+<th><strong>Investment Decision</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Current policy</td>
+<td style="text-align: right;">85</td>
+<td style="text-align: right;">-105.23</td>
+<td>Not attractive</td>
+</tr>
+<tr class="even">
+<td>Breakeven (rounded)</td>
+<td style="text-align: right;">109</td>
+<td style="text-align: right;">≈ 0.00</td>
+<td>Borderline</td>
+</tr>
+<tr class="odd">
+<td>Above breakeven (ex.)</td>
+<td style="text-align: right;">120</td>
+<td style="text-align: right;">+50.59</td>
+<td>Attractive</td>
+</tr>
+</tbody>
+</table>
+</section>
+</div>
+</div>
+</div>
 <p><br></p>
 </section>
 </section>
@@ -681,10 +878,64 @@ In this homework, we refer to the updated policy framework as the <strong>One Bi
 <section id="part-a-1" class="level3">
 <h3 class="anchored" data-anchor-id="part-a-1">Part A</h3>
 <p>Explain how per-ton tax credits (like 45Q) help align private and social goals. Why might <em>higher</em> per-ton credits be economically justified beyond simply achieving a positive social <span class="math inline">\(\text{PV}_{NB}\)</span>? In your answer, discuss the underlying economic mechanisms and sources of market failure.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Per-ton tax credits (like <strong>45Q</strong>) internalize the <strong>positive externality</strong> of carbon removal/storage by paying firms for the <strong>social benefit</strong> their actions create but cannot monetize privately. By raising the private return, the credit aligns <strong>private incentives</strong> with <strong>socially efficient levels</strong> of abatement or carbon storage.</p>
+<p>Higher per-ton credits can be justified when there are <strong>additional market failures</strong> beyond the carbon externality itself. These include:</p>
+<ul>
+<li><strong>Learning-by-doing and technology spillovers</strong>: Early CCUS deployment lowers future costs, but firms cannot capture these spillover benefits.<br>
+</li>
+<li><strong>Capital market failures and risk premiums</strong>: Long-lived, uncertain CCUS projects face financing frictions that suppress investment below the social optimum.<br>
+</li>
+<li><strong>Coordination failures</strong> (e.g., shared transport/storage infrastructure): Private actors underinvest when projects depend on complementary assets.<br>
+</li>
+<li><strong>Policy uncertainty</strong>: Expectations of future political reversal reduce investment; higher credits can counter this risk discount.</li>
+</ul>
+<p>Thus, credits may need to exceed the “Pigouvian” level implied by social <span class="math inline">\(\text{PV}_{NB}\)</span> to overcome compounded market failures and unlock socially optimal deployment.</p>
+</div>
+</div>
+</div>
 </section>
 <section id="part-b-1" class="level3">
 <h3 class="anchored" data-anchor-id="part-b-1">Part B</h3>
 <p>Why might private investors hesitate to build CCUS projects without government incentives?</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Private investors hesitate because CCUS projects involve <strong>high upfront capital costs</strong>, <strong>long payback periods</strong>, and <strong>uncertain revenue streams</strong>—especially when the market does not pay for avoided emissions. Carbon storage provides <strong>public benefits</strong> but generates little to no private cash flow.</p>
+<p>Additional barriers include:</p>
+<ul>
+<li><strong>Policy and regulatory uncertainty</strong> about future carbon credit rules or liability for stored CO₂.<br>
+</li>
+<li><strong>Technological and operational risks</strong>, which raise the required rate of return.<br>
+</li>
+<li><strong>Lack of pipeline and storage infrastructure</strong>, making early projects risky and expensive.<br>
+</li>
+<li><strong>No natural market demand</strong> for CO₂ storage, so without incentives there is no revenue model.</li>
+</ul>
+<p>Because private returns are far below social returns, investors rationally underinvest absent government support.</p>
+</div>
+</div>
+</div>
 
 
 </section>

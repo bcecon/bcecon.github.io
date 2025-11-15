@@ -179,6 +179,23 @@ The company estimates the following **annual net benefits** (in **millions of do
 |  | 500 |  |
 
 
+::: {.callout-tip collapse="true"}
+### Show answer
+
+$$
+\text{PV}_B(4\%) = \frac{70}{1+0.04} + \frac{95}{(1+0.04)^2} + \frac{95}{(1+0.04)^3} + \frac{95}{(1+0.04)^4} + \frac{90}{(1+0.04)^5}
+$$
+
+$$
+\text{PV}_B(4\%) \approx 394.78 \quad \Rightarrow \quad \text{Private PV}_{NB} = -500 + 394.78 = \mathbf{-105.22\text{ million}}
+$$
+
+**Interpretation:**  
+At a 4% discount rate, the private $\text{PV}_{NB}$ is **negative**, meaning the company would **not invest** in CCUS without additional incentives.
+
+
+:::
+
 <br>
 
 ## Question 2. Add the Social Value of Carbon (SCC = \$190/tCO₂)
@@ -196,12 +213,95 @@ Each year, CCUS prevents **1 million metric tons of CO₂**, avoiding **\$190 mi
 |  | 500 |  |
 
 
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+**Baseline private net benefits (excluding 45Q):**  
+$(-15,\; 10,\; 10,\; 10,\; 5)$ million dollars.
+
+**Add SCC = \$190 million per year:**  
+$(-15+190,\; 10+190,\; 10+190,\; 10+190,\; 5+190)
+= (175,\; 200,\; 200,\; 200,\; 195).$
+
+**Compute PV of benefits at 4%:**
+
+$$
+\text{PV}_B(4\%) =
+\frac{175}{1.04}
++ \frac{200}{1.04^2}
++ \frac{200}{1.04^3}
++ \frac{200}{1.04^4}
++ \frac{195}{1.04^5}.
+$$
+
+**Then Social NPV:**
+
+$$
+\text{Social PV}_{NB}(4\%) =
+-500
++ \left(
+\frac{175}{1.04}
++ \frac{200}{1.04^2}
++ \frac{200}{1.04^3}
++ \frac{200}{1.04^4}
++ \frac{195}{1.04^5}
+\right).
+$$
+
+**Numerical results (millions):**
+
+$$
+\text{PV}_B(4\%) \approx 862.22
+\quad\Rightarrow\quad
+\text{Social PV}_{NB}(4\%) \approx -500 + 862.22
+= \mathbf{+362.22}.
+$$
+
+| **Discount Rate** | **PV of Benefits (Private excl. 45Q + SCC)** | **PV of Costs** | **Social $\text{PV}_{NB}$** |
+|---:|---:|---:|---:|
+| 4% | 862.22 | 500 | **+362.22** |
+
+**Interpretation:**  
+Even without counting the 45Q credit, adding the **social value of avoided CO₂** makes the project **strongly positive** from a social perspective at 4%.
+
+:::
+
+
 <br>
 
 ## Question 3. How Large Should the 45Q Credit Be? (Realism Check)
 
 ### Part A
 Using your $\text{PV}_{NB}$ setup from Question 1 (at 4%), show that the project’s **Private $\text{PV}_{NB}$** with the current **\$85/t** credit is negative.  
+
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+Using the **benefit stream that excludes 45Q** from Q1, $(-15,\,10,\,10,\,10,\,5)$ (in millions), adding the existing 45Q credit contributes **\$85 million per year** (since capture is 1 Mt/yr). The NPV at $r=4\%$ is:
+
+$$
+\text{Private PV}_{NB}(4\%) \;=\;
+-500
++ \left(\frac{-15}{1.04} + \frac{10}{1.04^2} + \frac{10}{1.04^3} + \frac{10}{1.04^4} + \frac{5}{1.04^5}\right)
++ \left(\frac{85}{1.04} + \frac{85}{1.04^2} + \frac{85}{1.04^3} + \frac{85}{1.04^4} + \frac{85}{1.04^5}\right).
+$$
+
+Numerically (millions):
+
+- Baseline PV (excl. 45Q): $\approx 16.37$  
+- PV of \$85/t credit: $85 \times \left(\frac{1}{1.04} + \cdots + \frac{1}{1.04^5}\right) \approx 85 \times 4.4518 \approx 378.41$
+
+So
+$$
+\text{Private PV}_{NB}(4\%) \approx -500 + 16.37 + 378.41 \;=\; \mathbf{-105.23} \;<\; 0.
+$$
+
+**Conclusion:** With the current \$85/t credit, the **private NPV is negative** at 4%.
+
+:::
+
 
 ### Part B
 Calculate the **minimum 45Q credit per ton** needed to make the **Private $\text{PV}_{NB}$ ≈ 0** (breakeven).  
@@ -213,6 +313,45 @@ Calculate the **minimum 45Q credit per ton** needed to make the **Private $\text
 | Above breakeven |  | Positive | Attractive |
 
 
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+Let $p_{\text{total}}$ be the **total** credit per ton (in \$). Since 1 Mt is captured each year, this adds $p_{\text{total}}$ million per year. Set NPV to zero:
+
+$$
+0 \;=\;
+-500
++ \underbrace{\left(\frac{-15}{1.04} + \frac{10}{1.04^2} + \frac{10}{1.04^3} + \frac{10}{1.04^4} + \frac{5}{1.04^5}\right)}_{\approx\,16.37}
++ \; p_{\text{total}} \!\!\left(\frac{1}{1.04} + \frac{1}{1.04^2} + \frac{1}{1.04^3} + \frac{1}{1.04^4} + \frac{1}{1.04^5}\right).
+$$
+
+The sum of discount factors is
+$$
+\frac{1}{1.04} + \frac{1}{1.04^2} + \frac{1}{1.04^3} + \frac{1}{1.04^4} + \frac{1}{1.04^5}
+\;\approx\; 4.4518.
+$$
+
+Solve for $p_{\text{total}}$:
+$$
+p_{\text{total}} \;=\; \frac{500 - 16.37}{4.4518} \;\approx\; \mathbf{108.64\ \text{dollars per ton}}.
+$$
+
+So a **total** credit of about **\$109/t** is needed for breakeven at 4% (which implies an **incremental** $\Delta p \approx \$24/t$ above today’s \$85/t).
+
+
+#### Decision Table (at 4%)
+
+| **Scenario**            | **Credit per ton (\$)** | **Private NPV @ 4% (Million \$)** | **Investment Decision** |
+|-------------------------|------------------------:|-----------------------------------:|--------------------------|
+| Current policy          | 85                      | -105.23                            | Not attractive           |
+| Breakeven (rounded)     | 109                     | ≈ 0.00                              | Borderline               |
+| Above breakeven (ex.)   | 120                     | +50.59                              | Attractive               |
+
+
+
+:::
+
+
 <br>
 
 ## Question 4. Short Answer
@@ -222,10 +361,45 @@ Explain how per-ton tax credits (like 45Q) help align private and social goals. 
 
 
 
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+Per-ton tax credits (like **45Q**) internalize the **positive externality** of carbon removal/storage by paying firms for the **social benefit** their actions create but cannot monetize privately. By raising the private return, the credit aligns **private incentives** with **socially efficient levels** of abatement or carbon storage.
+
+Higher per-ton credits can be justified when there are **additional market failures** beyond the carbon externality itself. These include:  
+
+- **Learning-by-doing and technology spillovers**: Early CCUS deployment lowers future costs, but firms cannot capture these spillover benefits.  
+- **Capital market failures and risk premiums**: Long-lived, uncertain CCUS projects face financing frictions that suppress investment below the social optimum.  
+- **Coordination failures** (e.g., shared transport/storage infrastructure): Private actors underinvest when projects depend on complementary assets.  
+- **Policy uncertainty**: Expectations of future political reversal reduce investment; higher credits can counter this risk discount.  
+
+Thus, credits may need to exceed the “Pigouvian” level implied by social $\text{PV}_{NB}$ to overcome compounded market failures and unlock socially optimal deployment.
+
+:::
+
+
+
 
 ### Part B
 Why might private investors hesitate to build CCUS projects without government incentives?
 
+
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+Private investors hesitate because CCUS projects involve **high upfront capital costs**, **long payback periods**, and **uncertain revenue streams**—especially when the market does not pay for avoided emissions. Carbon storage provides **public benefits** but generates little to no private cash flow.
+
+Additional barriers include:  
+
+- **Policy and regulatory uncertainty** about future carbon credit rules or liability for stored CO₂.  
+- **Technological and operational risks**, which raise the required rate of return.  
+- **Lack of pipeline and storage infrastructure**, making early projects risky and expensive.  
+- **No natural market demand** for CO₂ storage, so without incentives there is no revenue model.  
+
+Because private returns are far below social returns, investors rationally underinvest absent government support.
+
+:::
 
 
 
