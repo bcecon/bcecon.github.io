@@ -314,7 +314,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">November 7, 2025</p>
+      <p class="date-modified">November 15, 2025</p>
     </div>
   </div>
     
@@ -338,26 +338,220 @@ MB = 590 – 3Q_{T}
 <section id="part-a" class="level2">
 <h2 class="anchored" data-anchor-id="part-a">Part A</h2>
 <p>What is the socially optimal level of each firm’s pollution reduction?</p>
-<p><br></p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>At the social optimum, we need <strong>cost-effectiveness</strong> and <strong>efficiency</strong>:</p>
+<ol type="1">
+<li><strong>Cost-effectiveness</strong>: <span class="math inline">\(MC_A = MC_B\)</span><br>
+</li>
+<li><strong>Efficiency</strong>: <span class="math inline">\(MC_A = MC_B = MB\)</span></li>
+</ol>
+<p>Solve:</p>
+<ul>
+<li><p>Set <span class="math inline">\(MC_A = MC_B\)</span>:<br>
+<span class="math display">\[
+50 + 3Q_A = 20 + 6Q_B
+\Rightarrow 3Q_A = -30 + 6Q_B
+\Rightarrow Q_A = -10 + 2Q_B
+\]</span></p></li>
+<li><p>Set <span class="math inline">\(MC_A = MB\)</span>:<br>
+<span class="math display">\[
+\begin{aligned}
+50 + 3Q_A &amp;= 590 - 3(Q_A + Q_B)\\
+\Rightarrow\quad 6Q_A + 3Q_B &amp;= 540
+\end{aligned}
+\]</span></p></li>
+</ul>
+<p>Substitute <span class="math inline">\(Q_A = -10 + 2Q_B\)</span> into <span class="math inline">\(6Q_A + 3Q_B = 540\)</span>: <span class="math display">\[
+\begin{aligned}
+6(-10 + 2Q_B) + 3Q_B &amp;= 540\\
+\Rightarrow\quad -60 + 12Q_B + 3Q_B &amp;= 540\\
+\Rightarrow\quad\quad\quad\quad\quad\quad\quad 15Q_B &amp;= 600\\
+\Rightarrow\quad\quad\quad\quad\quad\quad\quad\quad Q_B^* &amp;= 40\\
+\end{aligned}
+\]</span> <span class="math display">\[
+Q_A^* = -10 + 2(40) = 70
+\]</span></p>
+<p><strong>Socially optimal reductions:</strong></p>
+<ul>
+<li>Firm A: <span class="math inline">\(\boxed{Q_A^* = 70}\)</span><br>
+</li>
+<li>Firm B: <span class="math inline">\(\boxed{Q_B^* = 40}\)</span></li>
+</ul>
+<p>Total reduction: <span class="math inline">\(Q_T^* = 70 + 40 = 110\)</span>.</p>
+</div>
+</div>
+</div>
 </section>
 <section id="part-b" class="level2">
 <h2 class="anchored" data-anchor-id="part-b">Part B</h2>
 <p>How much total pollution is there in the social optimum?</p>
-<p><br></p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Each firm initially emits <strong>80 units</strong>, so initial total pollution is: <span class="math display">\[
+80 + 80 = 160
+\]</span></p>
+<p>At the optimum, total reduction is <span class="math inline">\(Q_T^* = 110\)</span> units, so <strong>remaining pollution</strong> is: <span class="math display">\[
+160 - 110 = 50
+\]</span></p>
+<p>We can also see the distribution:</p>
+<ul>
+<li>Firm A reduces 70 → emits <span class="math inline">\(80 - 70 = 10\)</span><br>
+</li>
+<li>Firm B reduces 40 → emits <span class="math inline">\(80 - 40 = 40\)</span></li>
+</ul>
+<p>So total pollution in the social optimum is: <span class="math display">\[
+\boxed{50 \text{ units of pollution}}
+\]</span></p>
+</div>
+</div>
+</div>
 </section>
 <section id="part-c" class="level2">
 <h2 class="anchored" data-anchor-id="part-c">Part C</h2>
 <p>Explain why it is inefficient to give each firm an equal number of pollution permits (if they are not allowed to trade them).</p>
-<p><br></p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>If each firm gets the <strong>same number of permits</strong> and <strong>cannot trade</strong>, they must reduce <strong>the same amount</strong> of pollution (say 55 units each if total reduction is 110).</p>
+<p>Check marginal costs at <span class="math inline">\(Q_A = Q_B = 55\)</span>:</p>
+<ul>
+<li><span class="math inline">\(MC_A(55) = 50 + 3(55) = 215\)</span><br>
+</li>
+<li><span class="math inline">\(MC_B(55) = 20 + 6(55) = 350\)</span><br>
+</li>
+<li><span class="math inline">\(MB(110) = 590 - 3(110) = 260\)</span></li>
+</ul>
+<p>We have: <span class="math display">\[
+MC_A = 215 &lt; MB = 260 &lt; MC_B = 350
+\]</span></p>
+<p>This means:</p>
+<ul>
+<li>Firm B is forced to undertake <strong>too much</strong> expensive abatement (its <span class="math inline">\(MC_B &gt; MB\)</span>).</li>
+<li>Firm A does <strong>too little</strong> abatement (its <span class="math inline">\(MC_A &lt; MB\)</span>).</li>
+</ul>
+<p>We could <strong>lower total cost</strong> by shifting some abatement from firm B to firm A (e.g., one unit):</p>
+<ul>
+<li>Increasing A’s abatement by 1 costs about 215<br>
+</li>
+<li>Decreasing B’s abatement by 1 saves about 350</li>
+</ul>
+<p>Net gain ≈ 350 − 215 = 135.<br>
+So equal, non-tradable permits <strong>violate the equimarginal principle</strong> (MCs are not equal), making the allocation <strong>cost-inefficient</strong>.</p>
+</div>
+</div>
+</div>
 </section>
 <section id="part-d" class="level2">
 <h2 class="anchored" data-anchor-id="part-d">Part D</h2>
 <p>Explain how the social optimum can be achieved if firms are given equal numbers of pollution permits but are allowed to trade them.</p>
-<p><br></p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>If total permits are set so that <strong>total pollution = 50</strong> (i.e., total reduction = 110), and firms can <strong>trade permits</strong>:</p>
+<ul>
+<li>A <strong>market price for permits</strong> will emerge.<br>
+</li>
+<li>Each firm chooses its abatement until: <span class="math display">\[
+MC_i = \text{permit price}
+\]</span></li>
+<li>In equilibrium, both firms have the <strong>same marginal cost</strong>, which equals the <strong>marginal benefit</strong> at the optimum: <span class="math display">\[
+MC_A = MC_B = MB = 260
+\]</span></li>
+</ul>
+<p>Solving:</p>
+<ul>
+<li><span class="math inline">\(50 + 3Q_A = 260 \Rightarrow Q_A^* = 70\)</span><br>
+</li>
+<li><span class="math inline">\(20 + 6Q_B = 260 \Rightarrow Q_B^* = 40\)</span></li>
+</ul>
+<p>Firm A, with the <strong>lower marginal cost</strong>, finds it cheaper to abate more and <strong>sell</strong> permits.<br>
+Firm B, with the <strong>higher marginal cost</strong>, finds it cheaper to <strong>buy</strong> permits and abate less.</p>
+<p>Thus, <strong>trading reallocates abatement</strong> between firms so that:</p>
+<ul>
+<li>Total emissions still equal the cap (50 units), and<br>
+</li>
+<li><span class="math inline">\(MC_A = MC_B\)</span>, achieving the <strong>socially optimal allocation</strong> at <strong>minimum total cost</strong>.</li>
+</ul>
+</div>
+</div>
+</div>
 </section>
 <section id="part-e" class="level2">
 <h2 class="anchored" data-anchor-id="part-e">Part E</h2>
 <p>Can the social optimum be achieved using a tax on pollution?</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Yes. A <strong>Pigouvian tax</strong> on pollution can achieve the social optimum.</p>
+<p>Set a per-unit tax <span class="math inline">\(\tau\)</span> equal to the <strong>socially optimal marginal damage</strong>, which at the optimum equals the common marginal cost and marginal benefit: <span class="math display">\[
+\tau = MB(Q_T^*) = MC_A(Q_A^*) = MC_B(Q_B^*) = 260
+\]</span></p>
+<p>Each firm then chooses its own optimal abatement by setting: <span class="math display">\[
+MC_i(Q_i) = \tau
+\]</span></p>
+<ul>
+<li>Firm A:<br>
+<span class="math display">\[
+50 + 3Q_A = 260 \Rightarrow Q_A^* = 70
+\]</span></li>
+<li>Firm B:<br>
+<span class="math display">\[
+20 + 6Q_B = 260 \Rightarrow Q_B^* = 40
+\]</span></li>
+</ul>
+<p>Total reduction is <span class="math inline">\(70 + 40 = 110\)</span>, and remaining pollution is 50 units — exactly the social optimum.</p>
+<p>So, a <strong>uniform pollution tax of $260 per unit</strong> induces firms to <strong>self-select</strong> the cost-effective allocation and achieves the <strong>same outcome</strong> as the optimal cap-and-trade system.</p>
+</div>
+</div>
+</div>
 
 
 </section>

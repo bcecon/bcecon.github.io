@@ -32,134 +32,296 @@ theme_set(theme_ipsum() +
 
 ## 1) Multiple-Choice
 
-### Q1. Why do we discount future outcomes?
-<div class="mcq" data-name="q1" data-correct="b">
-  <label><input type="radio" name="q1" value="a"> a) Future generations matter less</label><br>
-  <label><input type="radio" name="q1" value="b"> b) Resources today have opportunity cost (consume/save/invest)</label><br>
-  <label><input type="radio" name="q1" value="c"> c) We can’t measure the future</label><br>
-  <label><input type="radio" name="q1" value="d"> d) Future values are always smaller</label>
-  <div class="feedback mt-2"></div>
-</div>
+### Q1  
+Why do we discount future outcomes?
 
----
+a. Future generations matter less  
+b. Resources today have opportunity cost (consume/save/invest)  
+c. We can’t measure the future  
+d. Future values are always smaller  
 
-### Q2. Which example is **dynamically inefficient**?
-<div class="mcq" data-name="q2" data-correct="b">
-  <label><input type="radio" name="q2" value="a"> a) Investing in flood barriers with decades of protection</label><br>
-  <label><input type="radio" name="q2" value="b"> b) Overharvesting a fishery, cutting future yields</label><br>
-  <label><input type="radio" name="q2" value="c"> c) Planting trees that mature over 20 years</label><br>
-  <label><input type="radio" name="q2" value="d"> d) Funding early education with long-run gains</label>
-  <div class="feedback mt-2"></div>
-</div>
+::: {.callout-tip collapse="true"}
+### Show answer
+**Option (b)** is correct.  
+We discount because **resources today have opportunity costs** — we can consume, save, or invest them.  
+Discounting is about opportunity cost, not about valuing future people less.
+:::
 
----
 
-### Q3. If the discount rate is **very high**, which project type becomes least attractive?
-<div class="mcq" data-name="q3" data-correct="a">
-  <label><input type="radio" name="q3" value="a"> a) Long-term benefit projects</label><br>
-  <label><input type="radio" name="q3" value="b"> b) Short-term payoff projects</label><br>
-  <label><input type="radio" name="q3" value="c"> c) Projects with immediate costs</label><br>
-  <label><input type="radio" name="q3" value="d"> d) Any project with public funding</label>
-  <div class="feedback mt-2"></div>
-</div>
 
----
+### Q2  
+Which example is **dynamically inefficient**?
 
-### Q4. Project A pays mostly now; Project B pays more but in 20 years. Which factor determines which looks “efficient”?
-<div class="mcq" data-name="q4" data-correct="c">
-  <label><input type="radio" name="q4" value="a"> a) The project titles</label><br>
-  <label><input type="radio" name="q4" value="b"> b) Whether costs are public or private</label><br>
-  <label><input type="radio" name="q4" value="c"> c) The chosen discount rate</label><br>
-  <label><input type="radio" name="q4" value="d"> d) The number of stakeholders</label>
-  <div class="feedback mt-2"></div>
-</div>
+a. Investing in flood barriers with decades of protection  
+b. Overharvesting a fishery, cutting future yields  
+c. Planting trees that mature over 20 years  
+d. Funding early education with long-run gains  
 
----
+::: {.callout-tip collapse="true"}
+### Show answer
+**Option (b)** is correct.  
+Overharvesting boosts present consumption but harms future yields — a failure of intertemporal efficiency.
+:::
 
-### Q5. A climate policy looks good at **1%** but not at **7%**. What does that reveal?
-<div class="mcq" data-name="q5" data-correct="b">
-  <label><input type="radio" name="q5" value="a"> a) It has only short-term benefits</label><br>
-  <label><input type="radio" name="q5" value="b"> b) Its value is driven by long-term benefits</label><br>
-  <label><input type="radio" name="q5" value="c"> c) Costs are far in the future</label><br>
-  <label><input type="radio" name="q5" value="d"> d) It’s unethical</label>
-  <div class="feedback mt-2"></div>
-</div>
 
----
 
-### Q6. Which approach gives **more weight** to future generations?
-<div class="mcq" data-name="q6" data-correct="a">
-  <label><input type="radio" name="q6" value="a"> a) Ethical / Prescriptive</label><br>
-  <label><input type="radio" name="q6" value="b"> b) Market-Based / Descriptive</label><br>
-  <label><input type="radio" name="q6" value="c"> c) They’re identical</label><br>
-  <label><input type="radio" name="q6" value="d"> d) Neither</label>
-  <div class="feedback mt-2"></div>
-</div>
+### Q3  
+If the discount rate is **very high**, which project becomes least attractive?
 
----
+a. Long-term benefit projects  
+b. Short-term payoff projects  
+c. Projects with immediate costs  
+d. Any project with public funding  
 
-### Q7. Town sea wall: costly now, prevents big losses later. With a **high** discount rate, the town will likely…
-<div class="mcq" data-name="q7" data-correct="b">
-  <label><input type="radio" name="q7" value="a"> a) Build now</label><br>
-  <label><input type="radio" name="q7" value="b"> b) Delay or skip building</label><br>
-  <label><input type="radio" name="q7" value="c"> c) Build it twice as tall</label><br>
-  <label><input type="radio" name="q7" value="d"> d) Ban waterfront living</label>
-  <div class="feedback mt-2"></div>
-</div>
+::: {.callout-tip collapse="true"}
+### Show answer
+**Option (a)** is correct.  
+High discount rates heavily shrink far‐future benefits, making long-run projects look unattractive.
+:::
 
----
 
-### Q8. If policymakers **ignored discounting entirely**, they would tend to…
-<div class="mcq" data-name="q8" data-correct="a">
-  <label><input type="radio" name="q8" value="a"> a) Overinvest in very long-term projects</label><br>
-  <label><input type="radio" name="q8" value="b"> b) Underinvest in very long-term projects</label><br>
-  <label><input type="radio" name="q8" value="c"> c) Make no difference</label><br>
-  <label><input type="radio" name="q8" value="d"> d) Always choose the cheaper project</label>
-  <div class="feedback mt-2"></div>
-</div>
 
----
+### Q4  
+Project A pays mostly now; Project B pays more but in 20 years. What determines which looks “efficient”?
 
-### Q9. Which statement best captures **dynamic efficiency**?
-<div class="mcq" data-name="q9" data-correct="c">
-  <label><input type="radio" name="q9" value="a"> a) Choose the cheapest project now</label><br>
-  <label><input type="radio" name="q9" value="b"> b) Maximize benefits this year only</label><br>
-  <label><input type="radio" name="q9" value="c"> c) Maximize total net benefits across time</label><br>
-  <label><input type="radio" name="q9" value="d"> d) Always delay decisions</label>
-  <div class="feedback mt-2"></div>
-</div>
+a. The project titles  
+b. Whether costs are public or private  
+c. The chosen discount rate  
+d. The number of stakeholders  
 
----
+::: {.callout-tip collapse="true"}
+### Show answer
+**Option (c)** is correct.  
+The discount rate converts future outcomes into present value. Small changes can flip which project looks better.
+:::
 
-### Q10. A lower social discount rate (e.g., 1–2%) generally…
-<div class="mcq" data-name="q10" data-correct="d">
-  <label><input type="radio" name="q10" value="a"> a) Devalues future outcomes</label><br>
-  <label><input type="radio" name="q10" value="b"> b) Treats future as irrelevant</label><br>
-  <label><input type="radio" name="q10" value="c"> c) Always rejects climate projects</label><br>
-  <label><input type="radio" name="q10" value="d"> d) Gives more weight to long-run benefits</label>
-  <div class="feedback mt-2"></div>
-</div>
 
-<button class="btn btn-primary mt-3" onclick="gradeQuiz()">Grade</button>
-<p id="score" class="mt-3 h5"></p>
 
+### Q5  
+A climate policy looks good at **1%** but not at **7%**. What does that reveal?
+
+a. It has only short-term benefits  
+b. Its value is driven by long-term benefits  
+c. Costs are far in the future  
+d. It’s unethical  
+
+::: {.callout-tip collapse="true"}
+### Show answer
+**Option (b)** is correct.  
+Sensitivity to discounting reveals that most benefits occur far in the future.
+:::
+
+
+
+### Q6  
+Which approach gives **more weight** to future generations?
+
+a. Ethical / Prescriptive  
+b. Market-Based / Descriptive  
+c. They’re identical  
+d. Neither  
+
+::: {.callout-tip collapse="true"}
+### Show answer
+**Option (a)** is correct.  
+Ethical/prescriptive approaches often use lower discount rates, giving more weight to future generations.
+:::
+
+
+
+### Q7  
+Town sea wall: costly now, prevents big losses later. With a **high** discount rate, the town will likely…
+
+a. Build now  
+b. Delay or skip building  
+c. Build it twice as tall  
+d. Ban waterfront living  
+
+::: {.callout-tip collapse="true"}
+### Show answer
+**Option (b)** is correct.  
+High discount rates downplay future avoided damages, making prevention look less worthwhile.
+:::
+
+
+
+### Q8  
+If policymakers **ignored discounting entirely**, they would tend to…
+
+a. Overinvest in very long-term projects  
+b. Underinvest in very long-term projects  
+c. Make no difference  
+d. Always choose the cheaper project  
+
+::: {.callout-tip collapse="true"}
+### Show answer
+**Option (a)** is correct.  
+Treating all future benefits as equal to today’s inflates the value of distant payoffs.
+:::
+
+
+
+### Q9  
+Which statement best captures **dynamic efficiency**?
+
+a. Choose the cheapest project now  
+b. Maximize benefits this year only  
+c. Maximize total net benefits across time  
+d. Always delay decisions  
+
+::: {.callout-tip collapse="true"}
+### Show answer
+**Option (c)** is correct.  
+Dynamic efficiency balances present and future to maximize total intertemporal net benefits.
+:::
+
+
+
+### Q10  
+A lower social discount rate (e.g., 1–2%) generally…
+
+a. Devalues future outcomes  
+b. Treats future as irrelevant  
+c. Always rejects climate projects  
+d. Gives more weight to long-run benefits  
+
+::: {.callout-tip collapse="true"}
+### Show answer
+**Option (d)** is correct.  
+Lower discount rates shrink future benefits less, increasing support for long-horizon projects.
+:::
+
+
+<br><br>
 
 
 ## 2) Short-Answer
 
-<!-- - **S1.** Why might a government choose a **lower** discount rate for climate policy than for ordinary investment projects? Mention intergenerational equity and uncertainty (3–4 sentences). -->
-
-<!-- - **S2.** Do you support using a very low social discount rate (≈1–2%) for long-run environmental policy? Defend your position (4–5 sentences). -->
-<!-- - How might uncertainty (e.g., climate damages, tech change) affect the choice of discount rate?   -->
-
-
 - Why is it difficult to agree on a single “right” discount rate, and how does this choice reflect **ethical judgments** about future generations?
+
+::: {.callout-tip collapse="true"}
+### Show answer
+It is difficult to agree on a single “right” discount rate because it depends on **how we value the future relative to the present**.  
+- A **low discount rate** gives more weight to future generations, implying a strong ethical commitment to long-term sustainability.  
+- A **high discount rate** prioritizes current economic activity, reflecting the view that future generations will be richer and better equipped to handle costs.  
+Thus, the discount rate is not just a technical input — it embodies **ethical judgments about intergenerational responsibility**.
+
+:::
+
 
 - How should economists and policymakers balance **economic efficiency** with **intergenerational fairness** when evaluating climate policies?
 
+::: {.callout-tip collapse="true"}
+### Show answer
+Economists seek **efficiency** by maximizing total net benefits, but **fairness** asks *who* gains and *who* bears the costs.  
+- Policies that are efficient may still be **inequitable** if they burden poorer or future populations.  
+- Balancing both requires tools like **distributional weighting**, **targeted transfers**, or **progressive climate investments** that ensure efficiency gains do not come at the expense of justice.  
+The goal is a path that is both **dynamically efficient** and **socially fair** across generations.
+
+:::
+
+
 - Should the Social Cost of Carbon (SCC) reflect **global** climate damages or only **domestic** ones? What are the ethical and policy implications of each approach?
 
+
+::: {.callout-tip collapse="true"}
+### Show answer
+Climate change is a **global externality** — emissions anywhere affect people everywhere.  
+- A **global SCC** captures worldwide damages and supports **international cooperation** and **shared responsibility**.  
+- A **domestic SCC** focuses only on national impacts, aligning with **legal and political mandates** for domestic cost-benefit analysis.  
+Ethically, a global SCC recognizes that the U.S. benefits from collective mitigation, while politically, a domestic SCC may be more acceptable but **undervalues global harm**.
+
+:::
+
+
 - Why might different administrations adopt **different SCC values** or modeling assumptions? What does this reveal about the role of **value judgments and policy priorities** in economic analysis?
+
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+Different administrations adopt different SCC values because they make **different choices about key assumptions** — discount rates, damage functions, risk treatment, and whether to count **global** or **domestic-only** impacts. These choices reflect **how policymakers see the world**, not purely scientific facts.
+
+
+
+### **1. Normative Value Judgments (What We *Choose* to Care About)**  
+- **Discount rate**:  
+
+  - Low rate → future generations matter greatly  
+  - High rate → present benefits prioritized  
+- **Global vs. domestic damages**: reveals whether the administration values **global welfare** or **national-only** impacts.  
+- **Risk tolerance**: some administrations hedge against catastrophic “tail risks”; others downplay them.
+
+These assumptions are **ethical choices**, not just technical inputs.
+
+
+
+### **2. Policy Priorities and Ideological Views**  
+- Administrations focused on **climate action** → tend to choose assumptions producing a **higher SCC**.  
+- Administrations focused on **deregulation or short-term growth** → often adopt **lower SCC** values.
+
+SCC choices become a reflection of **policy philosophy**.
+
+
+
+### **3. Distrust in Science & Selective Use of Evidence**  
+Some administrations exhibit **distrust of climate science** or highlight uncertainty to weaken climate policy:  
+
+- Emphasizing model uncertainty to justify a **very low SCC**  
+- Ignoring evidence that uncertainty actually argues for a **higher SCC**  
+
+Others embrace mainstream science and choose assumptions aligned with consensus projections.
+
+
+
+### **4. Willful Ignorance**  
+A low SCC can reflect **willful ignorance**, including:  
+
+- Downplaying well-documented climate risks  
+- Ignoring non-market damages (ecosystems, mortality, migration)  
+- Selecting narrow or outdated models to minimize the number  
+
+This is not scientific disagreement — it is a **strategic choice** to overlook inconvenient evidence.
+
+
+
+### **5. Industry Pressure & Regulatory Strategy**  
+- A **low SCC** weakens justification for environmental regulations.  
+- Helps ease compliance costs for fossil-fuel or industrial sectors.  
+- Fits political strategies aimed at deregulation.
+
+Conversely, a **high SCC** supports stricter emissions rules.
+
+
+
+### **6. Political Signaling & Public Messaging**  
+SCC values carry symbolic meaning:  
+
+- **High SCC** → signals seriousness about climate action  
+- **Low SCC** → signals skepticism about regulation or climate risks  
+
+The SCC becomes both a **technical figure** and a **political message**.
+
+
+
+### **7. What This Reveals About Economic Analysis**  
+All of this shows that economic analysis is:  
+
+- **Not purely objective**  
+- **Shaped by value judgments, priorities, and beliefs about risk**  
+- Guided by assumptions about whose welfare counts and how much the future matters  
+
+Economists can estimate models, but the **final SCC value** ultimately depends on:
+
+- Ethical choices  
+- Worldviews  
+- Policy preferences  
+- How much weight we place on uncertain but catastrophic risks  
+
+**In short:**  
+The SCC is both an **economic calculation** and a **moral-political statement**. Differences across administrations reveal how deeply value judgments influence climate economics.
+
+:::
 
 
 <script>

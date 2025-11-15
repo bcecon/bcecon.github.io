@@ -49,6 +49,17 @@ $\qquad$ → Because ___________________________________________________
 $\qquad$ → Because ___________________________________________________
 
 
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+| Likely Market Failure               | Justification |
+|----------------------------------|-------------|
+| **Principal–Agent Problem / Split Incentive** | Decision-maker (landlord) does not bear energy cost, so underinvests in efficiency. |
+| **Information Asymmetry / Imperfect Information** | Tenants cannot observe true efficiency or operating cost difference. |
+| **Externality** | Landlord’s decision imposes external costs (higher energy use/emissions) on tenants and society. |
+:::
+
 <br>
 
 # Part 2 — Behavioral Lens
@@ -57,6 +68,20 @@ $\qquad$ → Because ___________________________________________________
 
 -	Behavioral factor: __________________________________________  
 $\qquad$ → Manifestation in this case: ________________________________
+
+
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+| Behavioral Category     | Description |
+|------------------------|--------------|
+| **Bounded Rationality** | Tenants do not process long-term efficiency info (lifecycle cost). |
+| **Present Bias (Bounded Willpower)** | Tenants/owners overweight upfront cost relative to future savings. |
+| **Status Quo Bias**     | "Old system works fine" → default persistence. |
+| **Social Norms** | No visible norm or peer pressure to retrofit → low adoption. |
+:::
+
 
 <br>
 
@@ -71,9 +96,33 @@ Fill one **policy instrument or solution** under each pillar that could address 
 | 🏛 **Institutions** | _________________________________ |
 | 🤝 **Social Norms** | _________________________________ |
 
+
+
+::: {.callout-tip collapse="true"}
+### Show answer
+| Pillar                  | Example Policy Response |
+|------------------------|------------------------|
+| 💰 **Incentives**       | On-bill financing, retrofit subsidies, carbon/energy price |
+| 🧠 **Information**      | Energy performance certificates, lifecycle cost labels, public audits |
+| 🏛 **Institutions**     | Mandatory energy disclosure, mandatory efficiency requirements, green lease clauses, submetering regulation |
+| 🤝 **Social Norms**     | Publishing building energy ratings, neighborhood retrofit challenges, public recognition campaigns |
+:::
+
 <br>
 
 # Part 4 — Reflection Question
 
 **Why might information campaigns alone be insufficient to fix this problem?**  
 Write a brief explanation (2–3 sentences).
+
+
+
+::: {.callout-tip collapse="true"}
+### Show answer
+- Information does not resolve the **split incentive problem** — even if tenants know how much energy they could save, the landlord still has no financial reason to invest in efficiency.  
+  - Behavioral barriers such as **present bias, inattention, and status quo bias** mean that people often fail to act on information even when benefits are clear.  
+- Solving the issue may require **changing institutional or contractual arrangements** (e.g., aligning costs and benefits, sub-metering, incentive programs), not just providing facts.
+
+:::
+
+
