@@ -61,9 +61,11 @@ Solve:
 
 - Set $MC_A = MC_B$:  
 $$
-  50 + 3Q_A = 20 + 6Q_B
-  \Rightarrow 3Q_A = -30 + 6Q_B
-  \Rightarrow Q_A = -10 + 2Q_B
+\begin{aligned}
+  50 + 3Q_A &= 20 + 6Q_B\\
+  \Rightarrow\quad\quad\;\; 3Q_A &= -30 + 6Q_B\\
+  \Rightarrow\quad\quad\quad Q_A &= -10 + 2Q_B
+\end{aligned}
 $$
 
 - Set $MC_A = MB$:  
