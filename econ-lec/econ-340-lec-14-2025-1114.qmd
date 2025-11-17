@@ -700,19 +700,35 @@ Their interaction on **carbon pricing**, **subsidy policy**, **border adjustment
 # 🌍♟️ **Game Theory of Global Climate Cooperation** {background-color="#1c4982"}
 
 
+
 ## Collective Action and Game Theory
 
-- An agreement is **incentive-compatible** when **acting responsibly is each country's best response**, given what others are doing.
+- Climate mitigation is a classic case of **strategic interdependence**:
+  - The **benefits** of reduced emissions are **global** and shared by all.
+  - The **costs** of abatement are **local** and borne individually.  
+  <div style="display:block; margin:5px;"></div>
+  <span class="fragment">→ Each country’s payoff depends on what **other countries** decide to do.</span>
+- Because countries affect one another’s outcomes, **incentive design** becomes central to climate cooperation:
+  - Agreements must be **incentive-compatible** (acting responsibly is each country's best response).
+  - Agreements must be **self-enforcing** (no country wants to cheat or exit).
+- This is exactly what **game theory** studies: <span class="fragment">how each player’s payoff depends on **their own actions** *and* the actions of **others**.</span>
+  
+<!-- - Climate mitigation is a classic example of **strategic interdependence**, meaning that each country’s payoff depends on what **other countries** choose to do: -->
+<!--   - Benefits of reduced emissions are **global** -->
+<!--   - Costs of abatement are **local** -->
 
-- A **self-enforcing** agreement is one where **no country wants to leave or cheat**, because doing so would make it worse off.
+<!-- - Because of this interdependence, **game theory** helps explain why incentives matter so much. -->
 
-- Global cooperation is challenging, and **game theory** helps explain why incentives matter so much.
+<!-- - **Game theory** analyzes situations where a player’s payoff depends on both their own actions and the actions of others.   -->
 
-- **Game theory** analyzes situations where a player’s payoff depends on both their own actions and the actions of others.  
-- Climate mitigation is a classic example of **strategic interdependence**:
-  - Benefits of reduced emissions are **global**
-  - Costs of abatement are **local**
-- Thus, each country’s payoff depends on what **other countries** choose to do.  
+
+<!-- - An agreement is **incentive-compatible** when **acting responsibly is each country's best response**, given what others are doing. -->
+
+<!-- - A **self-enforcing** agreement is one where **no country wants to leave or cheat**, because doing so would make it worse off. -->
+
+
+
+
 
 
 ## A Climate Game: Cooperation vs. Defection
