@@ -806,28 +806,27 @@ Their interaction on **carbon pricing**, **subsidy policy**, **border adjustment
 |               |               |                    |               |
 
 
-
 - **What the strategies mean under CBAM:**  
-  - **Cooperate** → adopt strong climate policy (abate)  
-  - **Defect** → keep weak policy (under-price carbon)  
-- The strategic advantage of under-pricing disappears:
-  - If B abates (Cooperate) → A prefers **Abate** (3 > 1)
-  - If B under-prices (Defect) → A prefers **Abate** (2 > 1)
+  - **Cooperate** → adopt a strong domestic climate policy (abate emissions).  
+  - **Defect** → keep a weak policy (under-price carbon) and face CBAM tariffs on exports.  
+    - The tariff removes the **competitiveness advantage** of weak policy.
 
-<div style="display:block; margin:-40px;"></div>
-<span class="fragment">👉 CBAMs **internalize the competitiveness problem**, removing the free-rider reward and making **Cooperate → better response**.</span>
+<div style="display:block; margin:-50px;"></div>
+<span class="fragment">👉 CBAMs **internalize the competitiveness problem**, eliminating the gain from under-pricing and making **Cooperate → the dominant strategy**.</span>
 
-<!-- - Under CBAM, *defecting* triggers **border fees** that eliminate the competitiveness advantage of weak policy. -->
 
-<!-- - Best responses:   -->
-<!--   - If B cooperates → A prefers **Cooperate** (3 > 1)   -->
-<!--   - If B defects → A prefers **Cooperate** (2 > 1) -->
 
-<!-- :::{fragment} -->
-<!-- 👉 **Unique NE = (Cooperate, Cooperate)**   -->
-<!-- CBAMs **remove the free-rider reward** and make cooperation each country’s best response. -->
+<!-- - **What the strategies mean under CBAM:**   -->
+<!--   - **Cooperate** → adopt strong climate policy (abate)  -->
+<!--   - **Defect** → keep weak policy (under-price carbon; pay tariff)   -->
+<!--     - The strategic advantage of under-pricing disappears due to the tariff. -->
 
-<!-- ::: -->
+  <!-- - If B abates (Cooperate) → A prefers **Abate** (3 > 1) -->
+  <!-- - If B under-prices (Defect) → A prefers **Abate** (2 > 1) -->
+
+<!-- <div style="display:block; margin:-40px;"></div> -->
+<!-- <span class="fragment">👉 CBAMs **internalize the competitiveness problem**, removing the free-rider reward and making **Cooperate → better response**.</span> -->
+
 
 
 
@@ -841,16 +840,24 @@ Their interaction on **carbon pricing**, **subsidy policy**, **border adjustment
 |               | **Defect**    |     (1, 2)         |    (1, 1)     |
 |               |               |                    |               |
 
-
 - **What the strategies mean under Climate Clubs:**  
-  - **Cooperate** → join the club (adopt high-ambition climate policy)  
-  - **Defect** → stay out (keep weaker policy)  
-- Staying out triggers **club-wide tariffs** that punish defectors.
-  - If B cooperates → A prefers **Cooperate** (4 > 1)  
-  - If B defects → A prefers **Cooperate** (2 > 1)
+  - **Cooperate** → join the club (adopt high-ambition policy; gain **tariff-free access**, **shared standards**, and **technology cooperation**).  
+  - **Defect** → stay out (keep weaker policy; face club-wide external tariffs).  
+    - Staying out results in **tariff penalties** and loss of club benefits.
 
-<div style="display:block; margin:-40px;"></div>
-<span class="fragment">👉 Climate Clubs **flip incentives**, making high-ambition policy a **dominant strategy**.</span>
+<div style="display:block; margin:-45px;"></div>
+<span class="fragment">👉 Climate Clubs **flip the incentives**: joining the club yields the highest payoff, making high-ambition climate policy a **dominant strategy**.</span>
+
+<!-- - **What the strategies mean under Climate Clubs:**   -->
+<!--   - **Cooperate** → join the club (adopt high-ambition climate policy; enjoy **tariff-free trade**, **technology sharing**, and **reduced competitiveness pressure**)   -->
+<!--   - **Defect** → stay out (keep weaker policy; pay tariffs)   -->
+<!--     - Staying out triggers **club-wide tariffs** that punish defectors. -->
+
+  <!-- - If B cooperates → A prefers **Cooperate** (4 > 1)   -->
+  <!-- - If B defects → A prefers **Cooperate** (2 > 1) -->
+
+<!-- <div style="display:block; margin:-40px;"></div> -->
+<!-- <span class="fragment">👉 Climate Clubs **flip incentives**, making high-ambition policy a **dominant strategy**.</span> -->
 
 
 <!-- - Climate Clubs (Nordhaus) impose **uniform tariffs** on non-members. -->
@@ -860,4 +867,15 @@ Their interaction on **carbon pricing**, **subsidy policy**, **border adjustment
 <!-- - Without club: Defecting unilateral payoff > cooperating -->
 <!-- - With club: $4 > 2$ and $4 > 1$ → both prefer **Join** -->
 <!-- - Climate Clubs **punish free-riding**, turning cooperation into each country's **dominant strategy**. -->
+<!-- - Under CBAM, *defecting* triggers **border fees** that eliminate the competitiveness advantage of weak policy. -->
+
+<!-- - Best responses:   -->
+<!--   - If B cooperates → A prefers **Cooperate** (3 > 1)   -->
+<!--   - If B defects → A prefers **Cooperate** (2 > 1) -->
+
+<!-- :::{fragment} -->
+<!-- 👉 **Unique NE = (Cooperate, Cooperate)**   -->
+<!-- CBAMs **remove the free-rider reward** and make cooperation each country’s best response. -->
+
+<!-- ::: -->
 

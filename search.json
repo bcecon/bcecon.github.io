@@ -1936,14 +1936,14 @@
     "href": "econ-lec/econ-340-lec-14-2025-1114.html#the-climate-game-with-cbams",
     "title": "Lecture 14",
     "section": "The Climate Game with CBAMs",
-    "text": "The Climate Game with CBAMs\n\n\n\n\n\nCountry B\n\n\n\n\n\n\n\nCooperate\nDefect\n\n\nCountry A\nCooperate\n(3, 3)\n(2, 1)\n\n\n\nDefect\n(1, 2)\n(1, 1)\n\n\n\n\n\n\n\n\n\n\nWhat the strategies mean under CBAM:\n\nCooperate → adopt strong climate policy (abate)\n\nDefect → keep weak policy (under-price carbon)\n\n\nThe strategic advantage of under-pricing disappears:\n\nIf B abates (Cooperate) → A prefers Abate (3 &gt; 1)\nIf B under-prices (Defect) → A prefers Abate (2 &gt; 1)\n\n\n\n\n\n👉 CBAMs internalize the competitiveness problem, removing the free-rider reward and making Cooperate → better response."
+    "text": "The Climate Game with CBAMs\n\n\n\n\n\nCountry B\n\n\n\n\n\n\n\nCooperate\nDefect\n\n\nCountry A\nCooperate\n(3, 3)\n(2, 1)\n\n\n\nDefect\n(1, 2)\n(1, 1)\n\n\n\n\n\n\n\n\n\n\nWhat the strategies mean under CBAM:\n\nCooperate → adopt a strong domestic climate policy (abate emissions).\n\nDefect → keep a weak policy (under-price carbon) and face CBAM tariffs on exports.\n\nThe tariff removes the competitiveness advantage of weak policy.\n\n\n\n\n\n\n👉 CBAMs internalize the competitiveness problem, eliminating the gain from under-pricing and making Cooperate → the dominant strategy."
   },
   {
     "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#the-climate-game-with-climate-clubs",
     "href": "econ-lec/econ-340-lec-14-2025-1114.html#the-climate-game-with-climate-clubs",
     "title": "Lecture 14",
     "section": "The Climate Game with Climate Clubs",
-    "text": "The Climate Game with Climate Clubs\n\n\n\n\n\nCountry B\n\n\n\n\n\n\n\nCooperate\nDefect\n\n\nCountry A\nCooperate\n(4, 4)\n(2, 1)\n\n\n\nDefect\n(1, 2)\n(1, 1)\n\n\n\n\n\n\n\n\n\n\nWhat the strategies mean under Climate Clubs:\n\nCooperate → join the club (adopt high-ambition climate policy)\n\nDefect → stay out (keep weaker policy)\n\n\nStaying out triggers club-wide tariffs that punish defectors.\n\nIf B cooperates → A prefers Cooperate (4 &gt; 1)\n\nIf B defects → A prefers Cooperate (2 &gt; 1)\n\n\n\n\n\n👉 Climate Clubs flip incentives, making high-ambition policy a dominant strategy.\n\n\n–&gt;"
+    "text": "The Climate Game with Climate Clubs\n\n\n\n\n\nCountry B\n\n\n\n\n\n\n\nCooperate\nDefect\n\n\nCountry A\nCooperate\n(4, 4)\n(2, 1)\n\n\n\nDefect\n(1, 2)\n(1, 1)\n\n\n\n\n\n\n\n\n\n\nWhat the strategies mean under Climate Clubs:\n\nCooperate → join the club (adopt high-ambition policy; gain tariff-free access, shared standards, and technology cooperation).\n\nDefect → stay out (keep weaker policy; face club-wide external tariffs).\n\nStaying out results in tariff penalties and loss of club benefits.\n\n\n\n\n\n\n👉 Climate Clubs flip the incentives: joining the club yields the highest payoff, making high-ambition climate policy a dominant strategy.\n\n\n\n\n \n\n\n\n\n–&gt;"
   },
   {
     "objectID": "listing-econ-340-cw.html",
