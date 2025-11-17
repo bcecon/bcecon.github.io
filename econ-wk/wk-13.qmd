@@ -1,0 +1,121 @@
+---
+title: Week 13
+subtitle: "International Climate Change Agreement"
+date: 2025-11-17
+from: markdown+emoji
+---
+
+In **Week 13**, we will continue our discussion on the **Climate Change Agreement**.
+
+# ✍️ Classwork
+
+- **Classwork 12: _Market for Pollution_**  
+  [📄 View Classwork](../econ-cw/econ-340-cw-12.html){target="_blank"}  
+
+
+<br>
+
+
+
+# 📚 Recommended Reading
+
+- Clausing, Kimberly A., and Catherine Wolfram. 2023. ["Carbon Border Adjustments, Climate Clubs, and Subsidy Races When Climate Policies Vary"](https://www.aeaweb.org/articles?id=10.1257/jep.37.3.137), _Journal of Economic Perspectives_ 37 (3): 137–62.
+
+## 🇺🇸 Inflation Reduction Act (IRA): Paraphrased Summary
+
+Before the IRA, roughly **85% of U.S. federal energy subsidies** went to fossil fuels and nuclear power.  
+The 2022 IRA dramatically shifts this balance: by 2032, support for renewables, EVs, and storage is expected to total **$800 billion–$1 trillion** (about **$100 billion per year**).
+
+### 1. Clean Energy Tax Incentives
+- Expands long-term tax credits for **wind, solar, geothermal, and hydropower**.
+- Strengthens the **Production (PTC)** and **Investment (ITC)** tax credits, with extra benefits for projects meeting labor standards.
+- Adds new credits to keep **existing nuclear plants** online.
+
+- **PTC — Production Tax Credit**  
+  A federal tax credit that rewards **each unit of electricity generated** from eligible renewable sources (e.g., wind, geothermal, biomass).  
+  - Paid per kWh produced  
+  - Strong incentive for **high-output renewable projects**
+
+- **ITC — Investment Tax Credit**  
+  A federal tax credit that covers a percentage of the **upfront cost** of installing renewable energy systems (e.g., solar, fuel cells, small wind).  
+  - Reduces capital cost directly  
+  - Particularly important for **solar power**, which relies heavily on ITC support
+  
+### 2. Electric Vehicle (EV) Support
+- Offers **up to $7,500** for new EV purchases and **$4,000** for used EVs.
+- Provides grants and loans to expand **domestic EV and battery manufacturing**.
+
+### 3. Energy Efficiency & Electrification
+- Rebates and credits for home improvements such as **heat pumps, insulation**, and other efficiency upgrades.
+- Incentives for businesses to adopt **energy-efficient technologies**.
+
+### 4. Clean Energy Manufacturing
+- Major investments in U.S. production of **solar panels, wind turbines, batteries**, and other clean-tech components.
+- Creates an **Advanced Manufacturing Credit** for producing key inputs domestically.
+
+### 5. Carbon Capture, Utilization & Storage (CCUS)
+- Increases tax credits for **carbon capture projects**, making CO₂ capture and storage more financially viable.
+
+### 6. Climate Resilience & Conservation
+- Funds **forest restoration, coastal protection, sustainable agriculture**, and other programs to strengthen natural carbon sinks.
+- Includes fees and grants aimed at reducing **methane emissions** from oil and gas systems.
+
+### 7. Environmental Justice Investments
+- Directs funding to **low-income and disadvantaged communities** to support an equitable clean-energy transition.
+
+---
+
+### Expected Impact
+Together, these measures aim to reduce U.S. greenhouse gas emissions to **40% below 2005 levels by 2030** and to expand domestic clean-energy industries.  
+By 2024, the IRA had already attracted **over $240 billion** in private clean-energy investments—roughly **$5 in private money for every $1 of federal tax credit**.
+
+---
+
+### Implementation Challenges
+- **Free-riding:** Some households or firms may claim subsidies for upgrades they would have adopted anyway.
+- **Rebound effects:** Lower energy costs (e.g., from EVs or home weatherization) may lead to **more driving or higher electricity use**, partially offsetting emissions reductions.
+  - Evidence suggests rebound effects around **10%**.
+
+---
+
+### Interaction with Fossil Fuel Externalities
+- An IMF study finds global fossil-fuel externalities total **$5.2 trillion annually**, far exceeding direct fossil subsidies.
+- Full internalization of damages would require **doubling** the market price of coal power, natural-gas electricity, gasoline, and diesel in the U.S.
+- Federal regulations have tightened and loosened repeatedly across administrations (Obama → Trump → Biden), especially for **coal plants**, **mercury rules**, and **methane leakage**.
+
+If current EPA rules survive beyond 2024:
+- Renewable power will compete on a more **level playing field**.
+- Fossil-fuel externalities will be **partially internalized**, especially for coal and natural gas.
+
+---
+
+### Broader Clean-Energy Promotion
+States continue to complement federal policy with:
+- **Renewable Portfolio Standards (RPS)**  
+- **Cap-and-trade systems** (e.g., RGGI)  
+- **Offshore wind investment** via ORECs  
+- **On-Bill Recovery** and **PACE** financing tools  
+
+- **RGGI (Regional Greenhouse Gas Initiative):**  
+  A multi-state **cap-and-trade system** for CO₂ emissions in the Northeastern U.S.
+
+- **ORECs (Ocean Renewable Energy Credits):**  
+  Credits states require utilities to buy to finance **offshore wind** development.
+
+- **PACE (Property Assessed Clean Energy):**  
+  A financing tool allowing homeowners to fund **energy-efficiency or solar improvements** via their property tax bill.
+  
+These policies help accelerate clean-energy deployment and support state-level goals such as **100% clean electricity by 2040–2050**.
+
+# 💬 Discussion
+
+<font size = "5">Welcome to our Week 13 Discussion Board! 👋 </font>
+
+
+This space is designed for you to engage with your classmates about the material covered in Week 13.
+
+Whether you are looking to delve deeper into the content, share insights, or have questions about the content, this is the perfect place for you.
+
+If you have any specific questions for Byeong-Hak (**@bcecon**) or peer classmate (@GitHub-Username) regarding the Week 13 materials or need clarification on any points, don't hesitate to ask here. 
+
+Let's collaborate and learn from each other!
