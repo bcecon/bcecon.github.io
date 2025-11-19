@@ -2398,7 +2398,7 @@
     "href": "index.html#classwork",
     "title": "ECON 340: Environmental Economics, Fall 2025",
     "section": "⌨️ Classwork",
-    "text": "⌨️ Classwork\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 1\n\n\nMicroeconomics Review\n\n\nSeptember 2, 2025\n\n\n\n\nClasswork 2\n\n\nExternalities\n\n\nSeptember 8, 2025\n\n\n\n\nClasswork 3\n\n\nProperty Rights, the Coase Theorem, and the Environment\n\n\nSeptember 19, 2025\n\n\n\n\nClasswork 4\n\n\nOptimal Harvesting in a Common-pool Fishery\n\n\nSeptember 26, 2025\n\n\n\n\nClasswork 5\n\n\nPublic Goods in Action\n\n\nOctober 3, 2025\n\n\n\n\nClasswork 6\n\n\nREDD+ Experiment — Money Growing on Trees\n\n\nOctober 6, 2025\n\n\n\n\nClasswork 7\n\n\nREDD+ Experiment Results — Money Growing on Trees\n\n\nOctober 8, 2025\n\n\n\n\nClasswork 8\n\n\nQuiz 1\n\n\nOctober 8, 2025\n\n\n\n\nClasswork 9\n\n\nInformation and Behavioral Anomalies\n\n\nOctober 22, 2025\n\n\n\n\nClasswork 10\n\n\nDynamic Efficiency, Discounting, and the SCC\n\n\nOctober 24, 2025\n\n\n\n\nClasswork 11\n\n\nMarket for Pollution\n\n\nNovember 7, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "⌨️ Classwork\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 1\n\n\nMicroeconomics Review\n\n\nSeptember 2, 2025\n\n\n\n\nClasswork 2\n\n\nExternalities\n\n\nSeptember 8, 2025\n\n\n\n\nClasswork 3\n\n\nProperty Rights, the Coase Theorem, and the Environment\n\n\nSeptember 19, 2025\n\n\n\n\nClasswork 4\n\n\nOptimal Harvesting in a Common-pool Fishery\n\n\nSeptember 26, 2025\n\n\n\n\nClasswork 5\n\n\nPublic Goods in Action\n\n\nOctober 3, 2025\n\n\n\n\nClasswork 6\n\n\nREDD+ Experiment — Money Growing on Trees\n\n\nOctober 6, 2025\n\n\n\n\nClasswork 7\n\n\nREDD+ Experiment Results — Money Growing on Trees\n\n\nOctober 8, 2025\n\n\n\n\nClasswork 8\n\n\nQuiz 1\n\n\nOctober 8, 2025\n\n\n\n\nClasswork 9\n\n\nInformation and Behavioral Anomalies\n\n\nOctober 22, 2025\n\n\n\n\nClasswork 10\n\n\nDynamic Efficiency, Discounting, and the SCC\n\n\nOctober 24, 2025\n\n\n\n\nClasswork 11\n\n\nMarket for Pollution\n\n\nNovember 7, 2025\n\n\n\n\nClasswork 12\n\n\nInternational Climate Agreements\n\n\nNovember 19, 2025\n\n\n\n\nClasswork 13\n\n\nSelf-test for Midterm Exam II\n\n\nNovember 19, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#homework",
@@ -4247,5 +4247,201 @@
     "title": "Lecture 14",
     "section": "Collective Action and Game Theory",
     "text": "Collective Action and Game Theory\n\nClimate mitigation is a classic case of strategic interdependence:\n\nThe benefits of reduced emissions are global and shared by all.\nThe costs of abatement are local and borne individually.\n→ Each country’s payoff depends on what other countries decide to do.\n\nBecause countries influence one another’s outcomes, incentives become central to understanding cooperation.\nThis is exactly what game theory studies:\nhow each player’s payoff depends on their own actions and the actions of others."
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-12.html",
+    "href": "econ-cw/econ-340-cw-12.html",
+    "title": "Classwork 12",
+    "section": "",
+    "text": "Consider two major economies, Country A and Country B, deciding whether to implement strict mitigation policies. Each country can choose to either “Reduce Emissions” or “Continue Business as Usual (BAU).” The payoff matrix below shows the economic benefits (in billions of dollars) for each country over a 10-year period."
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-12.html#question-1",
+    "href": "econ-cw/econ-340-cw-12.html#question-1",
+    "title": "Classwork 12",
+    "section": "Question 1",
+    "text": "Question 1\nWhat is the Nash equilibrium (or equilibria) in this game? Show your work."
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-12.html#question-2",
+    "href": "econ-cw/econ-340-cw-12.html#question-2",
+    "title": "Classwork 12",
+    "section": "Question 2",
+    "text": "Question 2\nExplain why this game represents a Prisoner’s Dilemma in the context of climate change policy."
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-12.html#question-3",
+    "href": "econ-cw/econ-340-cw-12.html#question-3",
+    "title": "Classwork 12",
+    "section": "Question 3",
+    "text": "Question 3\nIf the payoffs represent only economic benefits and ignore environmental costs:\n\nWhat would be the socially optimal outcome?\nWhy do countries tend to deviate from this outcome?"
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-12.html#question-4",
+    "href": "econ-cw/econ-340-cw-12.html#question-4",
+    "title": "Classwork 12",
+    "section": "Question 4",
+    "text": "Question 4\nConsider implementing a policy mechanism to modify the payoff structure of this climate agreement game.\n\nSuggest and explain a specific policy mechanism (e.g., carbon border adjustments, trade sanctions, or technology subsidies) that could alter the payoffs.\nProvide a new payoff matrix that incorporates your suggested policy mechanism. Show all calculations for the modified payoffs.\nProve that under your proposed policy:\n\n\nThe socially optimal outcome (Reduce, Reduce) becomes a Nash equilibrium\n\n\nDiscuss one potential challenge in implementing your proposed policy mechanism in the real world."
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-12.html#part-a",
+    "href": "econ-cw/econ-340-cw-12.html#part-a",
+    "title": "Classwork 12",
+    "section": "Part A",
+    "text": "Part A\nWhat would be the socially optimal outcome?"
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-12.html#part-b",
+    "href": "econ-cw/econ-340-cw-12.html#part-b",
+    "title": "Classwork 12",
+    "section": "Part B",
+    "text": "Part B\nWhy do countries tend to deviate from this outcome?"
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-12.html#part-a-1",
+    "href": "econ-cw/econ-340-cw-12.html#part-a-1",
+    "title": "Classwork 12",
+    "section": "Part A",
+    "text": "Part A\nSuggest and explain a specific policy mechanism (e.g., carbon border adjustments, trade sanctions, or technology subsidies) that could alter the payoffs."
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-12.html#part-b-1",
+    "href": "econ-cw/econ-340-cw-12.html#part-b-1",
+    "title": "Classwork 12",
+    "section": "Part B",
+    "text": "Part B\nProvide a new payoff matrix that incorporates your suggested policy mechanism. Show all calculations for the modified payoffs."
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-12.html#part-c",
+    "href": "econ-cw/econ-340-cw-12.html#part-c",
+    "title": "Classwork 12",
+    "section": "Part C",
+    "text": "Part C\nProve that under your proposed policy:\n\nThe socially optimal outcome (Reduce, Reduce) becomes a Nash equilibrium"
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-12.html#part-d",
+    "href": "econ-cw/econ-340-cw-12.html#part-d",
+    "title": "Classwork 12",
+    "section": "Part D",
+    "text": "Part D\nDiscuss one potential challenge in implementing your proposed policy mechanism in the real world."
+  },
+  {
+    "objectID": "econ-340-hw-04-a.html",
+    "href": "econ-340-hw-04-a.html",
+    "title": "Homework 4",
+    "section": "",
+    "text": "No Generative AI: You are not allowed to use generative AI tools for Homework Assignment 4, except for part d2 in Question 1\nDeadlines: Wednesday, November 19, 2025 at 10:30 A.M.\n\nHand in your written answers on paper to Prof. Choe at the beginning of class."
+  },
+  {
+    "objectID": "econ-340-hw-04-a.html#homework-instructions",
+    "href": "econ-340-hw-04-a.html#homework-instructions",
+    "title": "Homework 4",
+    "section": "",
+    "text": "No Generative AI: You are not allowed to use generative AI tools for Homework Assignment 4, except for part d2 in Question 1\nDeadlines: Wednesday, November 19, 2025 at 10:30 A.M.\n\nHand in your written answers on paper to Prof. Choe at the beginning of class."
+  },
+  {
+    "objectID": "econ-340-hw-04-a.html#part-a",
+    "href": "econ-340-hw-04-a.html#part-a",
+    "title": "Homework 4",
+    "section": "Part A",
+    "text": "Part A\nHow many statistical lives per year would this policy save?\n\n\n\n\n\n\nShow answer\n\n\n\n\n\nChange in individual annual risk:\n\\(\\Delta \\text{risk} = \\dfrac{6}{100000} - \\dfrac{2}{100000} = \\dfrac{4}{100000} = 4 \\times 10^{-5}\\)\nPopulation size: \\(4{,}000{,}000\\)\nExpected number of statistical lives saved per year:\n\\(\\text{Lives saved} = 4{,}000{,}000 \\times 4 \\times 10^{-5} = 160\\)\nAnswer: The policy saves 160 statistical lives per year."
+  },
+  {
+    "objectID": "econ-340-hw-04-a.html#part-b",
+    "href": "econ-340-hw-04-a.html#part-b",
+    "title": "Homework 4",
+    "section": "Part B",
+    "text": "Part B\nUsing a Value of a Statistical Life (VSL) of $7 million, what is the maximum annual cost society should be willing to pay for this policy based on mortality-risk reduction alone?\n\n\n\n\n\n\nShow answer\n\n\n\n\n\nVSL: \\(\\$7{,}000{,}000\\) per statistical life\nAnnual benefit from reduced mortality:\n\\(\\text{Annual benefit} = 160 \\times 7{,}000{,}000 = 1{,}120{,}000{,}000\\)\nSo the benefit is \\(\\$1.12\\) billion per year.\nAnswer: The maximum annual cost that can be justified based on mortality-risk reduction alone is \\(\\$1.12\\) billion per year."
+  },
+  {
+    "objectID": "econ-340-hw-04-a.html#part-a-1",
+    "href": "econ-340-hw-04-a.html#part-a-1",
+    "title": "Homework 4",
+    "section": "Part A",
+    "text": "Part A\nBefore linking the two carbon markets, what would be the permit prices in each country, and how much CO₂ abatement would each country undertake domestically?\n\n\n\n\n\n\nShow answer\n\n\n\n\n\nCountry A\nRequired abatement:\n\\(q_A = \\text{uncontrolled emissions} - \\text{cap} = 60 - 20 = 40 \\text{ tons}\\)\nMarginal abatement cost is constant: \\(MC_A = 10\\).\nIn a competitive permit market, the permit price equals marginal abatement cost at the chosen abatement level:\n\\(p_A = 10\\)\nSo:\n\nCountry A abatement: \\(q_A = 40\\) tons\n\nCountry A permit price: \\(p_A = \\$10\\) per ton\n\n\nCountry B\nRequired abatement:\n\\(q_B = 80 - 40 = 40 \\text{ tons}\\)\nMarginal abatement cost: \\(MC_B(q_B) = q_B\\).\nAt the required abatement:\n\\(p_B = MC_B(40) = 40\\)\nSo:\n\nCountry B abatement: \\(q_B = 40\\) tons\n\nCountry B permit price: \\(p_B = \\$40\\) per ton\n\nAnswer:\n\nCountry A: \\(q_A = 40\\) tons, \\(p_A = \\$10\\) per ton\n\nCountry B: \\(q_B = 40\\) tons, \\(p_B = \\$40\\) per ton"
+  },
+  {
+    "objectID": "econ-340-hw-04-a.html#part-b-1",
+    "href": "econ-340-hw-04-a.html#part-b-1",
+    "title": "Homework 4",
+    "section": "Part B",
+    "text": "Part B\nIf the two countries link their cap-and-trade systems, carbon allowances can trade freely across borders. In the linked system:\n\nTotal Uncontrolled CO₂ Emissions:\n\\(140\\) tons = \\(60 + 80\\)\nTotal Emissions Cap:\n\\(60\\) tons = \\(20 + 40\\)\nInitial Allowance Allocation:\n\nCountry A: 20 allowances\n\nCountry B: 40 allowances\n\n\nWith linkage, both countries face a single, common permit price. Each country buys or sells allowances to the other depending on whether they emit more or less than their initial allocation.\n\nWhat is the common permit price in the integrated carbon market?\n\nHow much CO₂ does each country abate under the linked system?\n\nDoes allowance trading occur between countries?\n\nIf so, describe which country buys or sells allowances and the number of allowances traded.\n\n\n\n\n\n\n\n\nTip\n\n\n\nLet \\(p\\) be the common permit price. If \\(p\\) &gt; 10, it is profitable for Country A to reduce emissions as much as possible (up to 60 tons) and sell extra allowances to Country B.\n\n\n\n\n\n\n\n\nShow answer\n\n\n\n\n\nStep 1: Total required abatement\nTotal uncontrolled emissions:\n\\(E_{\\text{uncontrolled}} = 60 + 80 = 140 \\text{ tons}\\)\nTotal cap (total allowances):\n\\(E_{\\text{cap}} = 20 + 40 = 60 \\text{ tons}\\)\nTotal abatement required:\n\\(q_{\\text{total}} = 140 - 60 = 80 \\text{ tons}\\)\n\nStep 2: Abatement behavior in the linked market\nLet \\(p\\) be the common permit price.\n\nCountry A:\n\\(MC_A = 10\\) (constant).\nIf \\(p &gt; 10\\), it is profitable for A to abate as much as possible (up to 60 tons) and sell extra allowances.\nCountry B:\n\\(MC_B(q_B) = q_B\\).\nB chooses abatement \\(q_B\\) such that \\(MC_B = p\\), so: \\(q_B = p\\).\n\n\nStep 3: Allowance trading and market equilibrium (supply = demand)\nInitial allowances:\n\nCountry A: 20 allowances\n\nCountry B: 40 allowances\n\nAssume \\(p &gt; 10\\) so that A fully abates:\nCountry A:\n\nAbatement: \\(q_A = 60\\)\n\nEmissions: \\(E_A = 60 - 60 = 0\\)\n\nAllowances used: 0\n\nAllowances available to sell: \\(20\\) (Supply of allowances)\n\n\nCountry B:\n\nAbatement: \\(q_B = p\\)\n\nEmissions: \\(E_B = 80 - q_B = 80 - p\\)\n\nAllowances needed: \\(80 - p\\)\n\n\nCountry B starts with 40 allowances, so its net demand for allowances is:\n\\[\n\\begin{aligned}\n\\text{Net demand}_B &= (80 - p) - 40 \\\\\n&= 40 - p\n\\end{aligned}\n\\]\nAt the market equilibrium, quantity supplied is equal to quantity demanded: \\[\n\\begin{aligned}\n\\text{Allowances supplied by A} &= \\text{Net demand by B} \\\\\n20 &= 40 - p\n\\end{aligned}\n\\] Solve for \\(p\\):\n\\(p = 20\\)\nThen:\n\\(q_B = p = 20 \\text{ tons of abatement}\\)\nCheck totals:\n\nTotal abatement: \\(q_A + q_B = 60 + 20 = 80\\) (matches required total abatement)\n\nTotal emissions: \\(E_A + E_B = 0 + (80 - 20) = 60\\) (matches total cap)\n\n\nSummary\n\nCommon permit price:\n\\(p = \\$20\\) per ton\nAbatement:\n\nCountry A: \\(q_A = 60\\) tons (emits 0).\n\nCountry B: \\(q_B = 20\\) tons (emits 60 tons).\n\nAllowance trading:\n\nCountry A uses 0 allowances and sells 20 allowances\n\nCountry B buys 20 allowances to reach its needed 60 allowances"
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-13.html",
+    "href": "econ-cw/econ-340-cw-13.html",
+    "title": "Classwork 13",
+    "section": "",
+    "text": "What is the core mechanism behind bounded willpower?\n\nSocial comparison\nLoss aversion\nPresent bias causing time-inconsistent preferences\nFailure to understand operating-cost differences\n\n\n\n\n\nA $250 benefit arrives 20 years in the future. All else equal, which change will increase its present value?\n\nIncreasing the discount rate from 3% to 5%\nShortening the time horizon from 20 years to 10 years\nMoving from real to nominal dollars\nConverting the benefit into a cost\n\n\n\n\n\nWhich statement is most accurate?\n\nA policy with positive \\(PV_{NB}\\) must be both efficient and equitable\nA policy with negative \\(PV_{NB}\\) can still be equitable\nEfficiency always implies equity\nEquity is automatically satisfied when the B/C ratio exceeds 1\n\n\n\n\n\nIn a cost-effective pollution reduction policy with multiple firms:\n\nAll firms must abate the same quantity.\nEach firm must face the same average abatement cost.\nTotal abatement is zero.\nThe marginal abatement costs are equalized across firms.\n\n\n\n\n\nWhich of the following most directly describes carbon leakage?\n\nEmissions reductions that occur due to innovation spillovers.\nEmissions being shifted abroad when production relocates to countries with weaker climate policy.\nEmissions reductions concentrated in non-traded sectors.\nThe leakage of methane from oil and gas wells."
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-13.html#question-14",
+    "href": "econ-cw/econ-340-cw-13.html#question-14",
+    "title": "Classwork 13",
+    "section": "",
+    "text": "Consider a perfectly competitive market for solar energy that generates positive externalities such as reduced carbon emissions and knowledge spillovers.\nThe private marginal benefit (PMB) and marginal cost (MC) of solar production are:\n\\[\n\\begin{aligned}\nPMB(Q) &= 110 - 2Q\\\\\nMC(Q) &= 20 + Q\n\\end{aligned}\n\\]\nand the external marginal benefit (EMB) is:\n\\[\nEMB(Q) = 60\n\\]\n\n\nFind the market equilibrium quantity \\(Q_M\\) and price \\(P_M\\).\nShow all steps.\n\n\n\n\nCompute the social marginal benefit (SMB) function.\n\n\n\n\nFind the socially optimal output \\(Q^*\\) and price \\(P^*\\).\n\n\n\n\n\nGraph the \\(PMB\\), \\(SMB\\), and \\(MC\\) curves.\n\nLabel both the market equilibrium (\\(Q_M, P_M\\)) and the socially optimal equilibrium (\\(Q^*, P^*\\)).\n\nGraphically shade and label the deadweight loss (DWL) caused by the positive externality on the graph.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCalculate the optimal per-unit subsidy that would achieve the socially efficient outcome.\n\n\n\n\nCompute the market price with the subsidy, i.e., the prices received by producers and paid by consumers.\n\n\n\n\nCompute the subsidy expenditure and the change in total welfare from implementing the policy.\n\nSubsidy expenditure represents the total fiscal cost to the government of providing the per-unit subsidy."
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-13.html#question-1",
+    "href": "econ-cw/econ-340-cw-13.html#question-1",
+    "title": "Classwork 13",
+    "section": "",
+    "text": "What is the core mechanism behind bounded willpower?\n\nSocial comparison\nLoss aversion\nPresent bias causing time-inconsistent preferences\nFailure to understand operating-cost differences"
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-13.html#question-2",
+    "href": "econ-cw/econ-340-cw-13.html#question-2",
+    "title": "Classwork 13",
+    "section": "",
+    "text": "A $250 benefit arrives 20 years in the future. All else equal, which change will increase its present value?\n\nIncreasing the discount rate from 3% to 5%\nShortening the time horizon from 20 years to 10 years\nMoving from real to nominal dollars\nConverting the benefit into a cost"
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-13.html#question-3",
+    "href": "econ-cw/econ-340-cw-13.html#question-3",
+    "title": "Classwork 13",
+    "section": "",
+    "text": "Which statement is most accurate?\n\nA policy with positive \\(PV_{NB}\\) must be both efficient and equitable\nA policy with negative \\(PV_{NB}\\) can still be equitable\nEfficiency always implies equity\nEquity is automatically satisfied when the B/C ratio exceeds 1"
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-13.html#question-4",
+    "href": "econ-cw/econ-340-cw-13.html#question-4",
+    "title": "Classwork 13",
+    "section": "",
+    "text": "In a cost-effective pollution reduction policy with multiple firms:\n\nAll firms must abate the same quantity.\nEach firm must face the same average abatement cost.\nTotal abatement is zero.\nThe marginal abatement costs are equalized across firms."
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-13.html#question-5",
+    "href": "econ-cw/econ-340-cw-13.html#question-5",
+    "title": "Classwork 13",
+    "section": "",
+    "text": "Which of the following most directly describes carbon leakage?\n\nEmissions reductions that occur due to innovation spillovers.\nEmissions being shifted abroad when production relocates to countries with weaker climate policy.\nEmissions reductions concentrated in non-traded sectors.\nThe leakage of methane from oil and gas wells."
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-13.html#question-6",
+    "href": "econ-cw/econ-340-cw-13.html#question-6",
+    "title": "Classwork 13",
+    "section": "Question 6",
+    "text": "Question 6\nEffective policy design requires integrating four components: Incentives, ________, Institutions, and ________."
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-13.html#question-7",
+    "href": "econ-cw/econ-340-cw-13.html#question-7",
+    "title": "Classwork 13",
+    "section": "Question 7",
+    "text": "Question 7\nThe IPCC combines Climate Models (physical simulations) with Socioeconomic Scenarios to form ________________________, which represent different “what if” futures ranging from sustainability to fossil-fueled development."
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-13.html#question-8",
+    "href": "econ-cw/econ-340-cw-13.html#question-8",
+    "title": "Classwork 13",
+    "section": "Question 8",
+    "text": "Question 8\nThe Paris Agreement includes a mechanism called the ________________________, occurring every 5 years, which evaluates collective progress to inform the next round of Nationally Determined Contributions (NDCs)."
+  },
+  {
+    "objectID": "econ-cw/econ-340-cw-13.html#question-9",
+    "href": "econ-cw/econ-340-cw-13.html#question-9",
+    "title": "Classwork 13",
+    "section": "Question 9",
+    "text": "Question 9\nConsider a perfectly competitive market for solar energy that generates positive externalities such as reduced carbon emissions and knowledge spillovers.\nThe private marginal benefit (PMB) and marginal cost (MC) of solar production are:\n\\[\n\\begin{aligned}\nPMB(Q) &= 110 - 2Q\\\\\nMC(Q) &= 20 + Q\n\\end{aligned}\n\\]\nand the external marginal benefit (EMB) is:\n\\[\nEMB(Q) = 60\n\\]\n\nPart A\nFind the market equilibrium quantity \\(Q_M\\) and price \\(P_M\\).\nShow all steps.\n\n\n\nPart B\nCompute the social marginal benefit (SMB) function.\n\n\n\nPart C\nFind the socially optimal output \\(Q^*\\) and price \\(P^*\\).\n\n\n\nPart D\n\nGraph the \\(PMB\\), \\(SMB\\), and \\(MC\\) curves.\n\nLabel both the market equilibrium (\\(Q_M, P_M\\)) and the socially optimal equilibrium (\\(Q^*, P^*\\)).\n\nGraphically shade and label the deadweight loss (DWL) caused by the positive externality on the graph.\n\n\n\n\n\n\n\n\n\n\n\n\n\nPart E\nCalculate the optimal per-unit subsidy that would achieve the socially efficient outcome.\n\n\n\nPart F\nCompute the market price with the subsidy, i.e., the prices received by producers and paid by consumers.\n\n\n\nPart G\nCompute the subsidy expenditure and the change in total welfare from implementing the policy.\n\nSubsidy expenditure represents the total fiscal cost to the government of providing the per-unit subsidy."
   }
 ]

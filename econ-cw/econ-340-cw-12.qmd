@@ -1,0 +1,118 @@
+---
+title: Classwork 12
+subtitle: International Climate Agreements
+date: 2025-11-19
+code-fold: true
+execute:
+  echo: false
+  eval: true
+  warning: false
+  message: false
+from: markdown+emoji
+---
+```{r}
+#| include: false
+
+library(knitr)
+library(rmarkdown)
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+
+theme_set(theme_ipsum() +
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = element_text(size = rel(1.5)),
+                axis.title.y = element_text(size = rel(1.5)),
+                legend.title = element_text(size=rel(1.25))
+                ))
+```
+
+
+Consider two major economies, Country A and Country B, deciding whether to implement strict mitigation policies. Each country can choose to either "Reduce Emissions" or "Continue Business as Usual (BAU)." The payoff matrix below shows the economic benefits (in billions of dollars) for each country over a 10-year period.
+
+```{=html}
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-9wq8{border-color:inherit;text-align:center;vertical-align:middle}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-c3ow" colspan="2" rowspan="2"></th>
+    <th class="tg-c3ow" colspan="2">Country B</th>
+  </tr>
+  <tr>
+    <th class="tg-c3ow">Reduce</th>
+    <th class="tg-c3ow">BAU</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">Country A</td>
+    <td class="tg-c3ow">Reduce</td>
+    <td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none">(5,5)</span></td>
+    <td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none">(-2,8)</span></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">BAU</td>
+    <td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none">(8,-2)</span></td>
+    <td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none">(1,1)</span></td>
+  </tr>
+</tbody>
+</table>
+```
+
+# Question 1
+What is the Nash equilibrium (or equilibria) in this game? Show your work.
+
+
+<br>
+
+# Question 2
+Explain why this game represents a Prisoner's Dilemma in the context of climate change policy.
+
+
+<br>
+
+# Question 3
+If the payoffs represent only economic benefits and ignore environmental costs:
+
+## Part A
+What would be the socially optimal outcome?
+<br>
+
+## Part B
+Why do countries tend to deviate from this outcome?
+
+<br>
+
+# Question 4
+Consider implementing a policy mechanism to modify the payoff structure of this climate agreement game.
+
+## Part A
+Suggest and explain a specific policy mechanism (e.g., carbon border adjustments, trade sanctions, or technology subsidies) that could alter the payoffs.
+
+<br>
+
+## Part B
+Provide a new payoff matrix that incorporates your suggested policy mechanism. Show all calculations for the modified payoffs.
+
+<br>
+
+## Part C
+Prove that under your proposed policy:
+
+- The socially optimal outcome (Reduce, Reduce) becomes a Nash equilibrium
+
+<br>
+
+## Part D
+Discuss one potential challenge in implementing your proposed policy mechanism in the real world.
+
+
+<br>
+

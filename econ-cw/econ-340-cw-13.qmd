@@ -1,0 +1,241 @@
+---
+title: Classwork 13
+subtitle: Self-test for Midterm Exam II
+date: 2025-11-19
+code-fold: true
+execute:
+  echo: false
+  eval: true
+  warning: false
+  message: false
+from: markdown+emoji
+---
+```{r}
+#| include: false
+
+library(knitr)
+library(rmarkdown)
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+
+theme_set(theme_ipsum() +
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = element_text(size = rel(1.5)),
+                axis.title.y = element_text(size = rel(1.5)),
+                legend.title = element_text(size=rel(1.25))
+                ))
+```
+
+# Section 1. Multiple Choice
+
+## Question 1
+What is the core mechanism behind bounded willpower?
+
+a. Social comparison
+b. Loss aversion
+c. Present bias causing time-inconsistent preferences
+d. Failure to understand operating-cost differences
+
+<br>
+
+## Question 2
+A $250 benefit arrives 20 years in the future. All else equal, which change will increase its present value?
+
+a. Increasing the discount rate from 3% to 5%
+b. Shortening the time horizon from 20 years to 10 years
+c. Moving from real to nominal dollars
+d. Converting the benefit into a cost
+
+<br>
+
+## Question 3
+Which statement is most accurate?
+
+a. A policy with positive $PV_{NB}$ must be both efficient and equitable
+b. A policy with negative $PV_{NB}$ can still be equitable
+c. Efficiency always implies equity
+d. Equity is automatically satisfied when the B/C ratio exceeds 1
+
+
+<br>
+
+## Question 4
+In a cost-effective pollution reduction policy with multiple firms:
+
+a. All firms must abate the same quantity.
+b. Each firm must face the same average abatement cost.
+c. Total abatement is zero.
+d. The marginal abatement costs are equalized across firms.
+
+
+<br>
+
+## Question 5
+Which of the following most directly describes carbon leakage?
+
+a. Emissions reductions that occur due to innovation spillovers.
+b. Emissions being shifted abroad when production relocates to countries with weaker climate policy.
+c. Emissions reductions concentrated in non-traded sectors.
+d. The leakage of methane from oil and gas wells.
+
+
+<br>
+
+
+
+# Section 2. Filling-in-the-Blanks
+
+## Question 6
+Effective policy design requires integrating four components: Incentives, ________, Institutions, and ________.
+
+
+<br>
+
+
+## Question 7
+The IPCC combines Climate Models (physical simulations) with Socioeconomic Scenarios to form ________________________, which represent different "what if" futures ranging from sustainability to fossil-fueled development.
+
+<br>
+
+
+## Question 8
+The Paris Agreement includes a mechanism called the ________________________, occurring every 5 years, which evaluates collective progress to inform the next round of Nationally Determined Contributions (NDCs).
+
+<br>
+
+
+# Section 4. Analytical Modeling & Critique
+
+## Question 9
+
+Consider a perfectly competitive market for **solar energy** that generates **positive externalities** such as reduced carbon emissions and knowledge spillovers.  
+The **private marginal benefit (PMB)** and **marginal cost (MC)** of solar production are:
+
+$$
+\begin{aligned}
+PMB(Q) &= 110 - 2Q\\
+MC(Q) &= 20 + Q
+\end{aligned}
+$$
+
+and the **external marginal benefit (EMB)** is:
+
+$$
+EMB(Q) = 60
+$$
+
+
+
+### Part A
+Find the **market equilibrium** quantity $Q_M$ and price $P_M$.  
+Show all steps.
+
+<br>
+
+### Part B
+Compute the **social marginal benefit (SMB)** function.
+
+<br>
+
+
+### Part C
+Find the **socially optimal output** $Q^*$ and price $P^*$.
+
+<br>
+
+
+### Part D
+- Graph the $PMB$, $SMB$, and $MC$ curves.  
+  - Label both the **market equilibrium** ($Q_M, P_M$) and the **socially optimal equilibrium** ($Q^*, P^*$).
+
+- Graphically shade and label the **deadweight loss (DWL)**  caused by the positive externality on the graph.
+
+
+```{r}
+#| fig-width: 7
+#| fig-height: 6
+#| fig-align: center
+#| echo: false
+
+x <- seq(0, 90, 10)
+y <- seq(0, 180, 20)
+ggplot(data = data.frame(x =x,
+                         y = x)) +
+  geom_point(aes(x=x,y=y), size = 0, color = 'white') +
+  geom_vline(xintercept = 5, color = 'grey80') +
+  geom_vline(xintercept = 10, color = 'grey80') +
+  geom_vline(xintercept = 15, color = 'grey80') +
+  geom_vline(xintercept = 20, color = 'grey80') +
+  geom_vline(xintercept = 25, color = 'grey80') +
+  geom_vline(xintercept = 30, color = 'grey80') +
+  geom_vline(xintercept = 35, color = 'grey80') +
+  geom_vline(xintercept = 40, color = 'grey80') +
+  geom_vline(xintercept = 45, color = 'grey80') +
+  geom_vline(xintercept = 50, color = 'grey80') +
+  geom_vline(xintercept = 55, color = 'grey80') +
+  geom_vline(xintercept = 60, color = 'grey80') +
+  geom_vline(xintercept = 65, color = 'grey80') +
+  geom_vline(xintercept = 70, color = 'grey80') +
+  geom_vline(xintercept = 75, color = 'grey80') +
+  geom_vline(xintercept = 80, color = 'grey80') +
+  geom_vline(xintercept = 85, color = 'grey80') +
+  geom_vline(xintercept = 90, color = 'grey80') +
+  geom_hline(yintercept = 10, color = 'grey80') +
+  geom_hline(yintercept = 20, color = 'grey80') +
+  geom_hline(yintercept = 30, color = 'grey80') +
+  geom_hline(yintercept = 40, color = 'grey80') +
+  geom_hline(yintercept = 50, color = 'grey80') +
+  geom_hline(yintercept = 60, color = 'grey80') +
+  geom_hline(yintercept = 70, color = 'grey80') +
+  geom_hline(yintercept = 80, color = 'grey80') +
+  geom_hline(yintercept = 90, color = 'grey80') +
+  geom_hline(yintercept = 100, color = 'grey80') +
+  geom_hline(yintercept = 110, color = 'grey80') +
+  geom_hline(yintercept = 120, color = 'grey80') +
+  geom_hline(yintercept = 130, color = 'grey80') +
+  geom_hline(yintercept = 140, color = 'grey80') +
+  geom_hline(yintercept = 150, color = 'grey80') +
+  geom_hline(yintercept = 160, color = 'grey80') +
+  geom_hline(yintercept = 170, color = 'grey80') +
+  geom_hline(yintercept = 180, color = 'grey80') +
+  geom_hline(yintercept = 0) +
+  geom_vline(xintercept = 0) +
+  scale_x_continuous(breaks = x,
+                     labels = x) +
+  scale_y_continuous(breaks = y,
+                     labels = y) +
+  labs(x = 'Q', y= 'P') 
+```
+
+
+
+<br>
+
+### Part E
+
+Calculate the **optimal per-unit subsidy** that would achieve the socially efficient outcome.
+
+<br>
+
+
+
+### Part F
+
+Compute the **market price with the subsidy**, i.e., the prices received by producers and paid by consumers.
+
+
+
+<br>
+
+
+
+### Part G
+Compute the **subsidy expenditure** and the **change in total welfare** from implementing the policy.
+
+- Subsidy expenditure represents the **total fiscal cost** to the government of providing the per-unit subsidy.  
+
+
+
+<br>

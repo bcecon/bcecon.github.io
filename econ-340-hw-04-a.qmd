@@ -1,0 +1,357 @@
+---
+title: Homework 4
+subtitle: Climate Policy and Carbon Market Analysis
+date: 2025-11-13
+from: markdown+emoji
+comments: false
+echo: false
+code-fold: false
+
+toc: true
+toc-depth: 6
+toc-expand: 3
+
+execute: 
+  warning: false
+  message: false
+  fig-width: 9
+  fig-height: 7
+  fig-align: center
+
+---
+```{r}
+#| include: false
+
+library(tidyverse)
+library(skimr)
+library(DT)
+library(hrbrthemes)
+library(ggthemes)
+
+theme_set(theme_ipsum() +
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = element_text(size = rel(1.5),),
+                axis.title.y = element_text(size = rel(1.5),
+                                            angle = 360),
+                legend.title = element_text(size=rel(1.25))
+                ))
+
+
+df <- data.frame(
+  q = seq(0,4,.25),
+  mb_p = 4 - seq(0,4,.25),
+  mc = seq(0,4,.25) + 2
+) |> 
+  pivot_longer(cols = mb_p:mc,
+               names_to = 'type',
+               values_to = 'p') |> 
+  mutate(type = factor(type, labels = c('mb_p',
+                                        'mc')),
+         label = recode(type, 'mb_p' = "MB today", 'mc' = "MC"),
+         group = interaction(type, label)  # Creating a unique identifier for color and linetype
+  )
+
+```
+
+
+
+## Homework Instructions
+
+- **No Generative AI**: You are **not** allowed to use generative AI tools for Homework Assignment 4, except for part **d2 in Question 1**
+
+- **Deadlines**: **Wednesday, November 19, 2025 at 10:30 A.M.**  
+    - Hand in your written answers on paper to Prof. Choe at the beginning of class.
+
+
+# Question 1. Evaluating Climate Adaptation Benefits: Heatwave Mortality
+A proposed **climate adaptation policy**—such as expanding cooling centers and improving heat-alert systems—is expected to reduce the annual mortality risk from extreme heat exposure from **6 in 100,000** to **2 in 100,000** for a population of **4 million** residents.
+
+
+<br>
+
+## Part A
+How many **statistical lives per year** would this policy save?  
+
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+Change in individual annual risk:
+
+$\Delta \text{risk} = \dfrac{6}{100000} - \dfrac{2}{100000} = \dfrac{4}{100000} = 4 \times 10^{-5}$
+
+Population size: $4{,}000{,}000$
+
+Expected number of statistical lives saved per year:
+
+$\text{Lives saved} = 4{,}000{,}000 \times 4 \times 10^{-5} = 160$
+
+**Answer:** The policy saves **160 statistical lives per year**.
+
+:::
+
+<br>
+
+## Part B
+Using a **Value of a Statistical Life (VSL)** of **$7 million**, what is the **maximum annual cost** society should be willing to pay for this policy based on mortality-risk reduction alone?
+
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+VSL: $\$7{,}000{,}000$ per statistical life
+
+Annual benefit from reduced mortality:
+
+$\text{Annual benefit} = 160 \times 7{,}000{,}000 = 1{,}120{,}000{,}000$
+
+So the benefit is $\$1.12$ billion per year.
+
+**Answer:** The maximum annual cost that can be justified based on mortality-risk reduction alone is **$\$1.12$ billion per year**.
+
+:::
+
+
+
+
+<br><br>
+
+# Question 2. Linking International Carbon Markets
+Two countries operate their own **domestic cap-and-trade systems** to limit carbon dioxide emissions.
+
+- **Country A**  
+  - Uncontrolled CO₂ emissions: 60 tons  
+  - Emissions cap: 20 tons  
+  - Marginal abatement cost: $MC_A = 10$
+
+- **Country B**  
+  - Uncontrolled CO₂ emissions: 80 tons  
+  - Emissions cap: 40 tons  
+  - Marginal abatement cost: $MC_B(q) = q$, where where $q$ is the tons of emission abatement.
+
+::: callout-note
+**Uncontrolled CO₂ emissions** refer to the amount of CO₂ a country or firm would emit **in the absence of any climate policy**, such as taxes, cap-and-trade, or regulations. It represents the baseline level of emissions if no abatement efforts were taken.
+:::
+
+The two countries are considering whether to **link their carbon markets** to improve cost-effectiveness and enhance cooperation on climate mitigation.
+
+
+<br>
+
+## Part A
+Before linking the two carbon markets, what would be the **permit prices** in each country, and how much **CO₂ abatement** would each country undertake domestically?
+
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+**Country A**
+
+Required abatement:
+
+$q_A = \text{uncontrolled emissions} - \text{cap} = 60 - 20 = 40 \text{ tons}$
+
+Marginal abatement cost is constant: $MC_A = 10$.
+
+In a competitive permit market, the permit price equals marginal abatement cost at the chosen abatement level:
+
+$p_A = 10$
+
+So:
+
+- Country A abatement: $q_A = 40$ tons  
+- Country A permit price: $p_A = \$10$ per ton  
+
+---
+
+**Country B**
+
+Required abatement:
+
+$q_B = 80 - 40 = 40 \text{ tons}$
+
+Marginal abatement cost: $MC_B(q_B) = q_B$.
+
+At the required abatement:
+
+$p_B = MC_B(40) = 40$
+
+So:
+
+- Country B abatement: $q_B = 40$ tons  
+- Country B permit price: $p_B = \$40$ per ton  
+
+**Answer:**
+
+- Country A: $q_A = 40$ tons, $p_A = \$10$ per ton  
+- Country B: $q_B = 40$ tons, $p_B = \$40$ per ton
+
+:::
+
+
+
+<br>
+
+## Part B
+If the two countries **link their cap-and-trade systems**, carbon allowances can trade freely across borders. In the linked system:
+
+- **Total Uncontrolled CO₂ Emissions**:  
+  $140$ tons = $60 + 80$
+
+- **Total Emissions Cap**:  
+  $60$ tons = $20 + 40$
+
+- **Initial Allowance Allocation**:  
+  - **Country A**: 20 allowances  
+  - **Country B**: 40 allowances  
+
+With linkage, both countries face a **single, common permit price**. Each country buys or sells allowances to the other depending on whether they emit more or less than their initial allocation.
+
+- What is the **common permit price** in the integrated carbon market?  
+- How much CO₂ does each country abate under the linked system?  
+- Does **allowance trading** occur between countries?  
+  - If so, describe **which country buys or sells allowances** and **the number of allowances traded**.
+
+
+::: callout-tip
+Let $p$ be the common permit price. If $p$ > 10, it is profitable for Country A to reduce emissions as much as possible (up to 60 tons) and sell extra allowances to Country B.
+
+:::
+
+
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+**Step 1: Total required abatement**
+
+Total uncontrolled emissions:
+
+$E_{\text{uncontrolled}} = 60 + 80 = 140 \text{ tons}$
+
+Total cap (total allowances):
+
+$E_{\text{cap}} = 20 + 40 = 60 \text{ tons}$
+
+Total abatement required:
+
+$q_{\text{total}} = 140 - 60 = 80 \text{ tons}$
+
+---
+
+**Step 2: Abatement behavior in the linked market**
+
+Let $p$ be the common permit price.
+
+- **Country A:**  
+  $MC_A = 10$ (constant).  
+  If $p > 10$, it is profitable for A to abate as much as possible (up to 60 tons) and sell extra allowances.  
+
+- **Country B:**  
+  $MC_B(q_B) = q_B$.  
+  B chooses abatement $q_B$ such that $MC_B = p$, so:
+  $q_B = p$.
+
+---
+
+**Step 3: Allowance trading and market equilibrium (supply = demand)**
+
+Initial allowances:
+
+- Country A: 20 allowances  
+- Country B: 40 allowances  
+
+Assume $p > 10$ so that A fully abates:
+
+Country A:
+
+- Abatement: $q_A = 60$  
+- Emissions: $E_A = 60 - 60 = 0$  
+  - Allowances used: 0  
+  - Allowances available to sell: $20$  (Supply of allowances)
+
+Country B:
+
+- Abatement: $q_B = p$  
+- Emissions: $E_B = 80 - q_B = 80 - p$  
+  - Allowances needed: $80 - p$
+
+Country B starts with 40 allowances, so its **net demand** for allowances is:
+
+$$
+\begin{aligned}
+\text{Net demand}_B &= (80 - p) - 40 \\
+&= 40 - p
+\end{aligned}
+$$
+
+
+At the market equilibrium, quantity supplied is equal to quantity demanded:
+$$
+\begin{aligned}
+\text{Allowances supplied by A} &= \text{Net demand by B} \\
+20 &= 40 - p
+\end{aligned}
+$$
+Solve for $p$:
+
+$p = 20$
+
+Then:
+
+$q_B = p = 20 \text{ tons of abatement}$
+
+Check totals:
+
+- Total abatement: $q_A + q_B = 60 + 20 = 80$ (matches required total abatement)  
+- Total emissions: $E_A + E_B = 0 + (80 - 20) = 60$ (matches total cap)
+
+---
+
+**Summary**
+
+- **Common permit price:**  
+  $p = \$20$ per ton  
+
+- **Abatement:**  
+  - Country A: $q_A = 60$ tons (emits 0).  
+  - Country B: $q_B = 20$ tons (emits 60 tons).  
+
+- **Allowance trading:**  
+  - Country A uses 0 allowances and **sells 20** allowances   
+  - Country B **buys 20** allowances to reach its needed 60 allowances  
+
+:::
+
+
+
+<!-- If the two countries **link their cap-and-trade systems**, allowing carbon allowances to trade freely across borders: -->
+
+<!-- - **Linked Cap-and-Trade System**   -->
+<!--   - Total Uncontrolled CO₂ emissions: 140 tons = 60 + 80 -->
+<!--   - Total Emissions cap: 60 tons = 20 + 40   -->
+<!--   - Initial Allowances: -->
+<!--     - **Country A**: 20 -->
+<!--     - **Country B**: 40 -->
+
+
+<!-- - What would be the **common permit price** in the integrated carbon market?   -->
+<!-- - How much carbon would each country abate?   -->
+<!-- - Would any **allowance trading** occur between countries? If yes, describe the **direction and amount** of the transfer. -->
+
+
+
+<br><br>
+
+# Question 3. Class Participation (Not Graded for Homework 4)
+
+Please write one sentence for each time you participated in class (any public speaking during class time) between **October 13, 2025 and November 10, 2025**.  
+
+**Examples:**  
+- “I asked a question to clarify the common-pool resource”  
+- “I asked how market instruments affect consumer behavior.”  
+- “I gave plastic pollution as an example of a negative externality.”  
+- “I pointed out a calculation error during the lecture.”  
+ 
+
+
