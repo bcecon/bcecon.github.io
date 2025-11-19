@@ -63,6 +63,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../styles.css">
 <link rel="stylesheet" href="../assets/css/font.css">
@@ -372,11 +374,137 @@ ul.task-list li input[type="checkbox"] {
 <section id="question-1" class="level1">
 <h1>Question 1</h1>
 <p>What is the Nash equilibrium (or equilibria) in this game? Show your work.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>We look for each country’s <strong>best response</strong> to the other country’s action.</p>
+<hr>
+<section id="step-1-best-responses-for-country-a" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-best-responses-for-country-a"><strong>Step 1: Best responses for Country A</strong></h3>
+<ul>
+<li><strong>If Country B chooses “Reduce”:</strong>
+<ul>
+<li>A’s payoff from <strong>Reduce</strong> = <span class="math inline">\(5\)</span><br>
+</li>
+<li>A’s payoff from <strong>BAU</strong> = <span class="math inline">\(8\)</span><br>
+</li>
+<li>Since <span class="math inline">\(8 &gt; 5\)</span>, A prefers <strong>BAU</strong>.</li>
+</ul></li>
+<li><strong>If Country B chooses “BAU”:</strong>
+<ul>
+<li>A’s payoff from <strong>Reduce</strong> = <span class="math inline">\(-2\)</span><br>
+</li>
+<li>A’s payoff from <strong>BAU</strong> = <span class="math inline">\(1\)</span><br>
+</li>
+<li>Since <span class="math inline">\(1 &gt; -2\)</span>, A again prefers <strong>BAU</strong>.</li>
+</ul></li>
+</ul>
+<p><strong>Conclusion for A:</strong><br>
+No matter what B does, A’s best response is <strong>BAU</strong>.<br>
+👉 <strong>BAU is a dominant strategy for Country A.</strong></p>
+<hr>
+</section>
+<section id="step-2-best-responses-for-country-b" class="level3">
+<h3 class="anchored" data-anchor-id="step-2-best-responses-for-country-b"><strong>Step 2: Best responses for Country B</strong></h3>
+<ul>
+<li><strong>If Country A chooses “Reduce”:</strong>
+<ul>
+<li>B’s payoff from <strong>Reduce</strong> = <span class="math inline">\(5\)</span><br>
+</li>
+<li>B’s payoff from <strong>BAU</strong> = <span class="math inline">\(8\)</span><br>
+</li>
+<li>Since <span class="math inline">\(8 &gt; 5\)</span>, B prefers <strong>BAU</strong>.</li>
+</ul></li>
+<li><strong>If Country A chooses “BAU”:</strong>
+<ul>
+<li>B’s payoff from <strong>Reduce</strong> = <span class="math inline">\(-2\)</span><br>
+</li>
+<li>B’s payoff from <strong>BAU</strong> = <span class="math inline">\(1\)</span><br>
+</li>
+<li>Since <span class="math inline">\(1 &gt; -2\)</span>, B again prefers <strong>BAU</strong>.</li>
+</ul></li>
+</ul>
+<p><strong>Conclusion for B:</strong><br>
+No matter what A does, B’s best response is <strong>BAU</strong>.<br>
+👉 <strong>BAU is a dominant strategy for Country B.</strong></p>
+<hr>
+</section>
+<section id="step-3-nash-equilibrium" class="level3">
+<h3 class="anchored" data-anchor-id="step-3-nash-equilibrium"><strong>Step 3: Nash equilibrium</strong></h3>
+<p>A Nash equilibrium occurs where <strong>each country is playing a best response</strong> to the other.</p>
+<ul>
+<li>A’s dominant strategy → <strong>BAU</strong><br>
+</li>
+<li>B’s dominant strategy → <strong>BAU</strong></li>
+</ul>
+<p>So the strategy profile <strong>(BAU, BAU)</strong> is a Nash equilibrium, with payoffs:</p>
+<p><span class="math display">\[
+(\pi_A, \pi_B) = (1, 1)
+\]</span></p>
+<p>There is <strong>no other</strong> Nash equilibrium because any outcome with at least one country choosing “Reduce” gives that country an incentive to deviate to <strong>BAU</strong> and increase its payoff.</p>
+<hr>
+<p>Therefore, the <strong>unique Nash equilibrium</strong> is <strong>(BAU, BAU)</strong> with payoff <strong><span class="math inline">\((1, 1)\)</span></strong>.</p>
+</section>
+</div>
+</div>
+</div>
 <p><br></p>
 </section>
 <section id="question-2" class="level1">
 <h1>Question 2</h1>
 <p>Explain why this game represents a Prisoner’s Dilemma in the context of climate change policy.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>This game has the <strong>three key features</strong> of a classic Prisoner’s Dilemma:</p>
+<ol type="1">
+<li><strong>Individual dominant strategies lead to mutual defection</strong>
+<ul>
+<li>For each country individually, choosing <strong>BAU</strong> yields a higher payoff regardless of what the other country does:
+<ul>
+<li>If the other reduces, you get <span class="math inline">\(8\)</span> (instead of <span class="math inline">\(5\)</span>) by doing <strong>BAU</strong>.</li>
+<li>If the other does <strong>BAU</strong>, you get <span class="math inline">\(1\)</span> (instead of <span class="math inline">\(-2\)</span>) by doing <strong>BAU</strong>.</li>
+</ul></li>
+<li>So <strong>BAU is a dominant strategy</strong> for both A and B.</li>
+</ul></li>
+<li><strong>Mutual defection is worse than mutual cooperation</strong>
+<ul>
+<li>If both cooperate <span class="math inline">\((\text{Reduce}, \text{Reduce}) \Rightarrow\)</span> payoffs <span class="math inline">\(= (5, 5)\)</span></li>
+<li>If both defect <span class="math inline">\((\text{BAU}, \text{BAU}) \Rightarrow\)</span> payoffs <span class="math inline">\(= (1, 1)\)</span></li>
+<li>Each country would be <strong>better off</strong> in the cooperative outcome (since <span class="math inline">\(5 &gt; 1\)</span>), but they still end up in <span class="math inline">\((\text{BAU}, \text{BAU})\)</span> when they act in their own narrow self-interest.</li>
+</ul></li>
+<li><strong>Conflict between individual rationality and collective welfare</strong>
+<ul>
+<li>From a <strong>global perspective</strong>, <span class="math inline">\((\text{Reduce}, \text{Reduce})\)</span> is clearly better: higher total payoff and lower climate damages.</li>
+<li>From the perspective of each <strong>individual country</strong>, there is a strong incentive to <strong>free-ride</strong>:
+<ul>
+<li>Enjoy the global climate benefits created by the other country’s mitigation while avoiding domestic mitigation costs.</li>
+</ul></li>
+</ul></li>
+</ol>
+<p><strong>In the climate policy context:</strong><br>
+This captures the real-world problem that even though <strong>global cooperation on climate</strong> (strong mitigation by all) is collectively optimal, each country has a <strong>temptation to under-mitigate and free-ride</strong> on others’ efforts. Hence, the game is a <strong>Prisoner’s Dilemma applied to climate change</strong>.</p>
+</div>
+</div>
+</div>
 <p><br></p>
 </section>
 <section id="question-3" class="level1">
@@ -385,10 +513,80 @@ ul.task-list li input[type="checkbox"] {
 <section id="part-a" class="level2">
 <h2 class="anchored" data-anchor-id="part-a">Part A</h2>
 <p>What would be the socially optimal outcome? <br></p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>To find the <strong>socially optimal outcome</strong>, we maximize the <strong>sum of payoffs</strong> to both countries:</p>
+<ul>
+<li><span class="math inline">\((\text{Reduce}, \text{Reduce})\)</span>: total <span class="math inline">\(= 5 + 5 = 10\)</span><br>
+</li>
+<li><span class="math inline">\((\text{Reduce}, \text{BAU})\)</span>: total <span class="math inline">\(= -2 + 8 = 6\)</span><br>
+</li>
+<li><span class="math inline">\((\text{BAU}, \text{Reduce})\)</span>: total <span class="math inline">\(= 8 + (-2) = 6\)</span><br>
+</li>
+<li><span class="math inline">\((\text{BAU}, \text{BAU})\)</span>: total <span class="math inline">\(= 1 + 1 = 2\)</span></li>
+</ul>
+<p>The <strong>largest total payoff is <span class="math inline">\(10\)</span></strong>, which occurs under <strong><span class="math inline">\((\text{Reduce}, \text{Reduce})\)</span></strong>.</p>
+<p>So, even <em>ignoring</em> environmental damages, the outcome where both countries <strong>reduce emissions</strong> already maximizes joint economic benefits in this stylized model.</p>
+<p>If we then <strong>add environmental benefits</strong> (avoided climate damages, improved health, reduced disaster risk), <span class="math inline">\((\text{Reduce}, \text{Reduce})\)</span> becomes even more strongly socially optimal.</p>
+<p>Therefore, the socially optimal outcome is <strong><span class="math inline">\((\text{Reduce}, \text{Reduce})\)</span></strong>.</p>
+</div>
+</div>
+</div>
 </section>
 <section id="part-b" class="level2">
 <h2 class="anchored" data-anchor-id="part-b">Part B</h2>
 <p>Why do countries tend to deviate from this outcome?</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Even though <span class="math inline">\((\text{Reduce}, \text{Reduce})\)</span> is socially optimal, countries may deviate because of several incentives and constraints:</p>
+<ul>
+<li><strong>Free-rider problem</strong>
+<ul>
+<li>Climate mitigation is a <strong>global public good</strong>: one country’s emission cuts benefit everyone.</li>
+<li>Each country is tempted to <strong>enjoy the benefits of others’ reductions</strong> while avoiding its own costs.</li>
+<li>This creates a strong incentive to choose <strong>BAU</strong> while hoping others will reduce.</li>
+</ul></li>
+<li><strong>Short-term vs.&nbsp;long-term trade-offs</strong>
+<ul>
+<li>Mitigation often involves <strong>upfront costs</strong> (e.g., clean energy investment, phasing out coal).</li>
+<li>Political leaders may prioritize <strong>short-term GDP growth, jobs, and re-election</strong> over long-term climate benefits.</li>
+<li>This short-run bias makes <strong>BAU politically attractive</strong>, even if worse in the long run.</li>
+</ul></li>
+<li><strong>Lack of enforcement mechanisms</strong>
+<ul>
+<li>There is <strong>no global government</strong> to impose binding penalties for non-compliance.</li>
+<li>International climate agreements rely on <strong>voluntary pledges</strong> and <strong>peer pressure</strong>, which may be insufficient to sustain cooperation.</li>
+</ul></li>
+<li><strong>Distributional and fairness concerns</strong>
+<ul>
+<li>Countries may feel climate responsibilities are <strong>unequally shared</strong> (e.g., historical emitters vs.&nbsp;developing nations).</li>
+<li>Perceived unfairness weakens willingness to cooperate, making <strong>unilateral BAU</strong> more politically acceptable.</li>
+</ul></li>
+</ul>
+<p>Because of these forces, countries often behave according to <strong>individual rationality</strong> (choosing BAU) rather than <strong>collective rationality</strong> (mutual reduction).</p>
+</div>
+</div>
+</div>
 <p><br></p>
 </section>
 </section>
@@ -398,11 +596,244 @@ ul.task-list li input[type="checkbox"] {
 <section id="part-a-1" class="level2">
 <h2 class="anchored" data-anchor-id="part-a-1">Part A</h2>
 <p>Suggest and explain a specific policy mechanism (e.g., carbon border adjustments, trade sanctions, or technology subsidies) that could alter the payoffs.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<section id="cbam" class="level5">
+<h5 class="anchored" data-anchor-id="cbam">CBAM</h5>
+<p>One concrete mechanism is a <strong>Carbon Border Adjustment Mechanism (CBAM)</strong> combined with <strong>climate penalties</strong> for persistent BAU:</p>
+<ul>
+<li><strong>Basic idea:</strong>
+<ul>
+<li>Countries that <strong>Reduce</strong> emissions can impose a <strong>carbon tariff</strong> on imports from countries that remain in <strong>BAU</strong>.</li>
+<li>Revenue from this tariff can be partly used to <strong>compensate reducing countries</strong> for their mitigation costs.</li>
+<li>If <em>both</em> stay in BAU, they face <strong>higher climate-related damages</strong> (e.g., storms, heat waves, sea-level rise) and possibly <strong>coordinated sanctions</strong> from a “climate club.”</li>
+</ul></li>
+<li><strong>Effects on payoffs:</strong>
+<ul>
+<li>A country that chooses <strong>BAU</strong> while its partner reduces:
+<ul>
+<li>Loses market access and faces <strong>border tariffs</strong>, lowering its net economic gains.</li>
+<li>Faces <strong>reputational and diplomatic costs</strong> (reduced cooperation in other policy areas).</li>
+</ul></li>
+<li>A country that chooses <strong>Reduce</strong> while its partner stays in BAU:
+<ul>
+<li>Receives <strong>tariff revenue transfers</strong>, helping to offset mitigation costs.</li>
+<li>Suffers less from <strong>carbon leakage</strong>, because high-emission imports are taxed.</li>
+</ul></li>
+<li>If <strong>both stay in BAU</strong>:
+<ul>
+<li>There are <strong>no tariff revenues</strong>, but both suffer <strong>larger climate damages</strong> and may face <strong>joint sanctions</strong> from a climate club.</li>
+</ul></li>
+</ul></li>
+</ul>
+<p>By designing the CBAM and penalty structure appropriately, we can <strong>raise the cost of BAU</strong> and <strong>reduce the cost of reducing</strong>, so that <span class="math inline">\((\text{Reduce}, \text{Reduce})\)</span> becomes <strong>individually rational</strong> as well as <strong>socially optimal</strong>.</p>
+</section>
+<section id="climate-club" class="level5">
+<h5 class="anchored" data-anchor-id="climate-club">Climate Club</h5>
+<p>Another powerful mechanism is forming an <strong>International Climate Club</strong> that uses coordinated incentives and penalties to shift countries toward cooperation:</p>
+<ul>
+<li><strong>Basic idea of a Climate Club:</strong>
+<ul>
+<li>A group of countries commits to <strong>strong emission reductions</strong> and agrees on a <strong>minimum carbon price</strong> (e.g., $75/ton).</li>
+<li>Club members grant <strong>mutual benefits</strong> to each other—such as free trade in low-carbon products, technology sharing, or clean-energy investment financing.</li>
+<li>Non-members face <strong>common external tariffs</strong> on carbon-intensive goods when exporting to club members.</li>
+</ul></li>
+<li><strong>Effects on incentives:</strong>
+<ul>
+<li>Joining the club becomes <strong>beneficial</strong> because members enjoy:
+<ul>
+<li>Preferential market access<br>
+</li>
+<li>Lower trade barriers<br>
+</li>
+<li>Access to shared clean-tech innovation<br>
+</li>
+<li>Financial and technical support for decarbonization<br>
+</li>
+</ul></li>
+<li>Staying outside the club becomes <strong>costly</strong> because:
+<ul>
+<li>Non-members face <strong>uniform tariffs</strong> on exports to all club members.</li>
+<li>They risk losing competitiveness in global markets.</li>
+<li>They receive no access to green financing or technology pools.</li>
+<li>They suffer larger climate damages as decarbonization is delayed.</li>
+</ul></li>
+</ul></li>
+<li><strong>Why it changes payoffs:</strong>
+<ul>
+<li>A country choosing <strong>BAU</strong> while others reduce:
+<ul>
+<li>Pays <strong>external club tariffs</strong>, making BAU significantly less profitable.</li>
+<li>Loses access to club benefits, technology, and markets.</li>
+</ul></li>
+<li>A country choosing <strong>Reduce</strong>:
+<ul>
+<li>Gains entry into the club and enjoys <strong>higher net economic returns</strong> through trade advantages and coordinated investments.</li>
+</ul></li>
+<li>If both countries stay in <strong>BAU</strong>:
+<ul>
+<li>Both remain outside the club and face <strong>greater climate damages</strong> and loss of competitiveness.</li>
+</ul></li>
+</ul></li>
+</ul>
+<p>By establishing a Climate Club with shared standards and unified penalties, the international community can <strong>reshape incentives</strong> so that global cooperation—<span class="math inline">\((\text{Reduce}, \text{Reduce})\)</span>—becomes attractive and <strong>individually rational</strong>, rather than relying on voluntary goodwill alone.</p>
+</section>
+</div>
+</div>
+</div>
 <p><br></p>
 </section>
 <section id="part-b-1" class="level2">
 <h2 class="anchored" data-anchor-id="part-b-1">Part B</h2>
 <p>Provide a new payoff matrix that incorporates your suggested policy mechanism. Show all calculations for the modified payoffs.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<section id="new-payoff-matrix-with-policy" class="level5">
+<h5 class="anchored" data-anchor-id="new-payoff-matrix-with-policy">New Payoff Matrix with Policy</h5>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-9wq8{border-color:inherit;text-align:center;vertical-align:middle}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+</style>
+
+<table class="tg table" data-quarto-postprocess="true">
+<thead>
+<tr class="header">
+<th colspan="2" rowspan="2" class="tg-c3ow" data-quarto-table-cell-role="th"></th>
+<th colspan="2" class="tg-c3ow" data-quarto-table-cell-role="th">Country B</th>
+</tr>
+<tr class="odd">
+<th class="tg-c3ow" data-quarto-table-cell-role="th">Reduce</th>
+<th class="tg-c3ow" data-quarto-table-cell-role="th">BAU</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td rowspan="2" class="tg-9wq8">Country A</td>
+<td class="tg-c3ow">Reduce</td>
+<td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none">(5,5)</span></td>
+<td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none">(0,4)</span></td>
+</tr>
+<tr class="even">
+<td class="tg-c3ow">BAU</td>
+<td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none">(4,0)</span></td>
+<td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none">(-3,-3)</span></td>
+</tr>
+</tbody>
+</table>
+<p>We start from the <strong>original payoffs</strong> and then adjust them to reflect:</p>
+<ul>
+<li>Tariffs and penalties on <strong>BAU</strong> when the other country reduces.<br>
+</li>
+<li>Additional <strong>climate damages / sanctions</strong> when both stay in BAU.<br>
+</li>
+<li><strong>Compensation</strong> to reducers via tariff revenues.</li>
+</ul>
+<hr>
+</section>
+<section id="step-1-original-payoff-matrix-for-reference" class="level5">
+<h5 class="anchored" data-anchor-id="step-1-original-payoff-matrix-for-reference"><strong>Step 1: Original payoff matrix (for reference)</strong></h5>
+<ul>
+<li><span class="math inline">\((\text{Reduce}, \text{Reduce}): (5, 5)\)</span><br>
+</li>
+<li><span class="math inline">\((\text{Reduce}, \text{BAU}): (-2, 8)\)</span><br>
+</li>
+<li><span class="math inline">\((\text{BAU}, \text{Reduce}): (8, -2)\)</span><br>
+</li>
+<li><span class="math inline">\((\text{BAU}, \text{BAU}): (1, 1)\)</span></li>
+</ul>
+<hr>
+</section>
+<section id="step-2-introduce-cbam-and-penalties" class="level5">
+<h5 class="anchored" data-anchor-id="step-2-introduce-cbam-and-penalties"><strong>Step 2: Introduce CBAM and penalties</strong></h5>
+<section id="case-textreduce-textreduce" class="level6">
+<h6 class="anchored" data-anchor-id="case-textreduce-textreduce"><strong>1. Case <span class="math inline">\((\text{Reduce}, \text{Reduce})\)</span></strong></h6>
+<ul>
+<li>Both countries reduce, so no CBAM applies.</li>
+<li>Cooperative outcome remains unchanged:</li>
+</ul>
+<p><span class="math display">\[
+(5, 5) \quad \text{(no change)}
+\]</span></p>
+<hr>
+</section>
+<section id="case-textreduce-textbau-a-reduces-b-remains-bau" class="level6">
+<h6 class="anchored" data-anchor-id="case-textreduce-textbau-a-reduces-b-remains-bau"><strong>2. Case <span class="math inline">\((\text{Reduce}, \text{BAU})\)</span> — A reduces, B remains BAU</strong></h6>
+<ul>
+<li>Country B faces a <strong>carbon border tariff + penalties</strong> equivalent to <span class="math inline">\(4\)</span> units:
+<ul>
+<li>B’s payoff: <span class="math inline">\(8 - 4 = 4\)</span></li>
+</ul></li>
+<li>Part of tariff revenue (<span class="math inline">\(2\)</span> units) is transferred to A to help offset mitigation costs:
+<ul>
+<li>A’s payoff: <span class="math inline">\(-2 + 2 = 0\)</span></li>
+</ul></li>
+<li>Remaining <span class="math inline">\(2\)</span> units may go to administrative or global climate funds.</li>
+</ul>
+<p><strong>New payoffs:</strong></p>
+<p><span class="math display">\[
+(\text{Reduce}, \text{BAU}) : (0, 4)
+\]</span></p>
+<hr>
+</section>
+<section id="case-textbau-textreduce-a-is-bau-b-reduces" class="level6">
+<h6 class="anchored" data-anchor-id="case-textbau-textreduce-a-is-bau-b-reduces"><strong>3. Case <span class="math inline">\((\text{BAU}, \text{Reduce})\)</span> — A is BAU, B reduces</strong></h6>
+<p>By symmetry:</p>
+<ul>
+<li>A (BAU) pays <span class="math inline">\(4\)</span> in penalties: <span class="math inline">\(8 - 4 = 4\)</span><br>
+</li>
+<li>B (Reduce) receives <span class="math inline">\(2\)</span> in compensation: <span class="math inline">\(-2 + 2 = 0\)</span></li>
+</ul>
+<p><strong>New payoffs:</strong></p>
+<p><span class="math display">\[
+(\text{BAU}, \text{Reduce}) : (4, 0)
+\]</span></p>
+<hr>
+</section>
+<section id="case-textbau-textbau-both-stay-in-bau" class="level6">
+<h6 class="anchored" data-anchor-id="case-textbau-textbau-both-stay-in-bau"><strong>4. Case <span class="math inline">\((\text{BAU}, \text{BAU})\)</span> — both stay in BAU</strong></h6>
+<ul>
+<li><p>No tariff revenue.<br>
+</p></li>
+<li><p>Both face <strong>higher climate damages</strong> and potential <strong>climate-club sanctions</strong>.</p></li>
+<li><p>Total costs reduce each payoff by <span class="math inline">\(4\)</span>:</p></li>
+<li><p>A: <span class="math inline">\(1 - 4 = -3\)</span><br>
+</p></li>
+<li><p>B: <span class="math inline">\(1 - 4 = -3\)</span></p></li>
+</ul>
+<p><strong>New payoffs:</strong></p>
+<p><span class="math display">\[
+(\text{BAU}, \text{BAU}) : (-3, -3)
+\]</span></p>
+</section>
+</section>
+</div>
+</div>
+</div>
 <p><br></p>
 </section>
 <section id="part-c" class="level2">
@@ -411,11 +842,133 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>The socially optimal outcome (Reduce, Reduce) becomes a Nash equilibrium</li>
 </ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Show answer</strong></p>
+<p>We now analyze best responses using the <strong>modified payoff matrix</strong>.</p>
+<hr>
+<section id="step-1-best-responses-for-country-a-1" class="level5">
+<h5 class="anchored" data-anchor-id="step-1-best-responses-for-country-a-1"><strong>Step 1: Best responses for Country A</strong></h5>
+<ul>
+<li><strong>If B chooses “Reduce”:</strong>
+<ul>
+<li>A’s payoff from <strong>Reduce</strong> = <span class="math inline">\(5\)</span><br>
+</li>
+<li>A’s payoff from <strong>BAU</strong> = <span class="math inline">\(4\)</span><br>
+</li>
+<li>Since <span class="math inline">\(5 &gt; 4\)</span>, A’s best response is <strong>Reduce</strong>.</li>
+</ul></li>
+<li><strong>If B chooses “BAU”:</strong>
+<ul>
+<li>A’s payoff from <strong>Reduce</strong> = <span class="math inline">\(0\)</span><br>
+</li>
+<li>A’s payoff from <strong>BAU</strong> = <span class="math inline">\(-3\)</span><br>
+</li>
+<li>Since <span class="math inline">\(0 &gt; -3\)</span>, A’s best response is again <strong>Reduce</strong>.</li>
+</ul></li>
+</ul>
+<p>👉 <strong>Reduce is now a dominant strategy for Country A.</strong></p>
+<hr>
+</section>
+<section id="step-2-best-responses-for-country-b-1" class="level5">
+<h5 class="anchored" data-anchor-id="step-2-best-responses-for-country-b-1"><strong>Step 2: Best responses for Country B</strong></h5>
+<p>By symmetry:</p>
+<ul>
+<li><strong>If A chooses “Reduce”:</strong>
+<ul>
+<li>B’s payoff from <strong>Reduce</strong> = <span class="math inline">\(5\)</span><br>
+</li>
+<li>B’s payoff from <strong>BAU</strong> = <span class="math inline">\(4\)</span><br>
+</li>
+<li>Best response: <strong>Reduce</strong>.</li>
+</ul></li>
+<li><strong>If A chooses “BAU”:</strong>
+<ul>
+<li>B’s payoff from <strong>Reduce</strong> = <span class="math inline">\(0\)</span><br>
+</li>
+<li>B’s payoff from <strong>BAU</strong> = <span class="math inline">\(-3\)</span><br>
+</li>
+<li>Best response: <strong>Reduce</strong>.</li>
+</ul></li>
+</ul>
+<p>👉 <strong>Reduce is also a dominant strategy for Country B.</strong></p>
+<hr>
+</section>
+<section id="step-3-nash-equilibrium-and-social-optimality" class="level5">
+<h5 class="anchored" data-anchor-id="step-3-nash-equilibrium-and-social-optimality"><strong>Step 3: Nash equilibrium and social optimality</strong></h5>
+<ul>
+<li>Both countries’ dominant strategy is now <strong>Reduce</strong>.<br>
+</li>
+<li>The unique Nash equilibrium is:</li>
+</ul>
+<p><span class="math display">\[
+(\text{Reduce}, \text{Reduce}) \quad \text{with payoff} \quad (5, 5)
+\]</span></p>
+<ul>
+<li>This is also the <strong>socially optimal outcome</strong>: it maximizes total payoff and minimizes climate damages.</li>
+</ul>
+<hr>
+</section>
+<section id="conclusion" class="level5">
+<h5 class="anchored" data-anchor-id="conclusion"><strong>Conclusion</strong></h5>
+<p>The policy (CBAM + penalties) changes the incentive structure so that the socially optimal cooperative outcome <span class="math inline">\((\text{Reduce}, \text{Reduce})\)</span> is also a <strong>Nash equilibrium</strong>.<br>
+<strong>Individual rationality and collective welfare are now aligned.</strong></p>
+</section>
+</div>
+</div>
+</div>
 <p><br></p>
 </section>
 <section id="part-d" class="level2">
 <h2 class="anchored" data-anchor-id="part-d">Part D</h2>
 <p>Discuss one potential challenge in implementing your proposed policy mechanism in the real world.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>A major challenge is designing and enforcing the <strong>climate club and its penalty system</strong> in a politically and legally feasible way:</p>
+<ul>
+<li><strong>Political resistance and trade tensions</strong>
+<ul>
+<li>Countries targeted by club tariffs or exclusion measures may view them as <strong>disguised protectionism</strong> rather than legitimate climate policy.</li>
+<li>This can trigger <strong>retaliatory tariffs</strong>, trade disputes, and undermine international cooperation.</li>
+<li>Governments face strong <strong>domestic lobbying</strong> from carbon-intensive industries that fear losing competitiveness.</li>
+</ul></li>
+<li><strong>Measurement and verification problems</strong>
+<ul>
+<li>Fair implementation requires <strong>reliable, comparable data</strong> on the carbon content of goods and production processes.</li>
+<li>Many countries lack robust <strong>MRV (Measurement, Reporting, and Verification)</strong> systems.</li>
+<li>Disagreements about data, methodologies, and baselines can <strong>erode trust</strong> and delay enforcement.</li>
+</ul></li>
+<li><strong>Legal constraints (e.g., WTO rules)</strong>
+<ul>
+<li>Climate clubs often rely on <strong>common external tariffs</strong> or preferential treatment for members—actions that may conflict with <strong>WTO non-discrimination principles</strong> (Most-Favored Nation and National Treatment).</li>
+<li>Unless carefully designed, a climate club could be viewed as violating WTO rules, especially if penalties discriminate between members and non-members.</li>
+<li>If challenged successfully at the WTO, the mechanism might be weakened, forced to change, or suspended.</li>
+</ul></li>
+</ul>
+<p>Even though the <strong>theoretical incentive structure</strong> of a climate club can make <strong>Reduce</strong> a dominant strategy, these <strong>practical political and legal barriers</strong> can limit the club’s effectiveness or prevent full implementation in real-world climate governance.</p>
+</div>
+</div>
+</div>
 <p><br></p>
 
 

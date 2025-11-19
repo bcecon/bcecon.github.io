@@ -8,6 +8,9 @@ execute:
   eval: true
   warning: false
   message: false
+  
+toc-depth: 5
+
 from: markdown+emoji
 ---
 ```{r}
@@ -33,54 +36,132 @@ theme_set(theme_ipsum() +
 ## Question 1
 What is the core mechanism behind bounded willpower?
 
-a. Social comparison
-b. Loss aversion
-c. Present bias causing time-inconsistent preferences
-d. Failure to understand operating-cost differences
+a. Social comparison  
+b. Loss aversion  
+c. Present bias causing time-inconsistent preferences  
+d. Failure to understand operating-cost differences  
+
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+**Correct answer:** **c**
+
+**Explanation:**  
+Bounded willpower refers to the idea that people often **intend** to act in a certain way in the future (e.g., save more, diet, study) but **fail to follow through** when the time comes. This is driven by **present bias**, where individuals place disproportionately high weight on immediate costs and benefits relative to future ones, leading to **time-inconsistent preferences**.  
+
+- (a) Social comparison relates more to preferences over relative status.  
+- (b) Loss aversion refers to losses hurting more than equivalent gains feel good.  
+- (d) Misunderstanding operating costs is about bounded rationality, not willpower.
+:::
 
 <br>
 
 ## Question 2
-A $250 benefit arrives 20 years in the future. All else equal, which change will increase its present value?
+A \$250 benefit arrives 20 years in the future. All else equal, which change will increase its present value?
 
-a. Increasing the discount rate from 3% to 5%
-b. Shortening the time horizon from 20 years to 10 years
-c. Moving from real to nominal dollars
-d. Converting the benefit into a cost
+a. Increasing the discount rate from 3% to 5%  
+b. Shortening the time horizon from 20 years to 10 years  
+c. Moving from real to nominal dollars  
+d. Converting the benefit into a cost  
+
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+**Correct answer:** **b**
+
+**Explanation:**  
+Present value is given by  
+$$
+PV = \frac{FV}{(1 + r)^t}
+$$  
+So PV **increases** when either the **discount rate $r$** falls, the **time horizon $t$** becomes shorter, or the **future value** increases.
+
+- (b) Shortening the time from 20 to 10 years **reduces** the amount of discounting and therefore **raises the present value**.  
+- (a) Increasing the discount rate makes the denominator larger → **PV falls**, not rises.  
+- (c) Switching between real and nominal dollars just changes the units and the matching discount rate; “all else equal” this does **not** systematically raise PV.  
+- (d) Turning a benefit into a cost makes the present value **negative**, which clearly doesn’t increase PV.
+:::
 
 <br>
 
 ## Question 3
 Which statement is most accurate?
 
-a. A policy with positive $PV_{NB}$ must be both efficient and equitable
-b. A policy with negative $PV_{NB}$ can still be equitable
-c. Efficiency always implies equity
-d. Equity is automatically satisfied when the B/C ratio exceeds 1
+a. A policy with positive $PV_{NB}$ must be both efficient and equitable  
+b. A policy with negative $PV_{NB}$ can still be equitable  
+c. Efficiency always implies equity  
+d. Equity is automatically satisfied when the B/C ratio exceeds 1  
 
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+**Correct answer:** **b**
+
+**Explanation:**  
+
+- A **negative** net present value of net benefits ($PV_{NB} < 0$) means the policy is **inefficient** in the sense that total (discounted) costs exceed total (discounted) benefits. However, it might still **redistribute resources toward disadvantaged groups**, so it can be **equitable but inefficient** → (b) is correct.  
+
+The others incorrectly conflate efficiency and equity:
+
+- (a) Positive $PV_{NB}$ says the policy is **Kaldor–Hicks efficient** (benefits exceed costs in total), but it might still be **distributionally unfair**.  
+- (c) Efficiency and equity are fundamentally different criteria; an efficient policy can be inequitable.  
+- (d) A benefit–cost ratio above 1 is just another way of saying benefits exceed costs, not a guarantee of fairness.
+:::
 
 <br>
 
 ## Question 4
 In a cost-effective pollution reduction policy with multiple firms:
 
-a. All firms must abate the same quantity.
-b. Each firm must face the same average abatement cost.
-c. Total abatement is zero.
-d. The marginal abatement costs are equalized across firms.
+a. All firms must abate the same quantity.  
+b. Each firm must face the same average abatement cost.  
+c. Total abatement is zero.  
+d. The marginal abatement costs are equalized across firms.  
 
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+**Correct answer:** **d**
+
+**Explanation:**  
+A policy is **cost-effective** when it achieves a given total abatement target at the **lowest possible total cost**. The key condition for this is:
+
+> **Marginal abatement costs (MACs) are equalized across firms.**
+
+If one firm has a lower MAC than another, we can lower total cost by having the low-cost firm abate more and the high-cost firm abate less until their MACs are equal.
+
+- (a) Equal **quantities** of abatement across firms are *not* required; firms can abate different amounts depending on their cost structures.  
+- (b) Equal **average** costs are also not necessary—what matters is equality of **marginal** costs.  
+- (c) Zero total abatement is just “no policy,” not cost-effectiveness.
+:::
 
 <br>
 
 ## Question 5
 Which of the following most directly describes carbon leakage?
 
-a. Emissions reductions that occur due to innovation spillovers.
-b. Emissions being shifted abroad when production relocates to countries with weaker climate policy.
-c. Emissions reductions concentrated in non-traded sectors.
-d. The leakage of methane from oil and gas wells.
+a. Emissions reductions that occur due to innovation spillovers.  
+b. Emissions being shifted abroad when production relocates to countries with weaker climate policy.  
+c. Emissions reductions concentrated in non-traded sectors.  
+d. The leakage of methane from oil and gas wells.  
 
 
+::: {.callout-tip collapse="true"}
+### Show answer
+
+**Correct answer:** **b**
+
+**Explanation:**  
+**Carbon leakage** occurs when stringent climate policy in one country or region raises production costs, causing firms to **relocate emissions-intensive production to countries with weaker regulations**. The result is that domestic emissions fall, but **global emissions fall less or may even rise** because production (and pollution) shifts abroad.
+
+- (a) Innovation spillovers are a *positive* external effect, not leakage.  
+- (c) Emissions reductions in non-traded sectors say *where* reductions happen, not that emissions are shifting overseas.  
+- (d) Methane leakage from wells is an important issue, but it’s not what “carbon leakage” refers to in the policy context.
+:::
 <br>
 
 
@@ -91,17 +172,65 @@ d. The leakage of methane from oil and gas wells.
 Effective policy design requires integrating four components: Incentives, ________, Institutions, and ________.
 
 
+::: {.callout-tip collapse="true"}
+### Show answer
+
+**Correct answer:** **Information; Social Norms**
+
+**Explanation:**  
+A helpful way to think about policy design is that it must align:
+
+- **Incentives** – prices, regulations, and other material rewards or penalties  
+- **Information** – what people know about costs, benefits, risks, and alternatives  
+- **Institutions** – formal rules, laws, and organizations that structure behavior  
+- **Social norms** – informal rules about what is considered acceptable, fair, or desirable  
+
+Even if incentives and information are well designed, policies can fail if **institutions are weak** or if **social norms** push people in the opposite direction (e.g., norms that glorify high consumption or stigmatize “green” behavior).
+:::
+
 <br>
 
 
 ## Question 7
 The IPCC combines Climate Models (physical simulations) with Socioeconomic Scenarios to form ________________________, which represent different "what if" futures ranging from sustainability to fossil-fueled development.
 
+::: {.callout-tip collapse="true"}
+### Show answer
+
+**Correct answer:** **Shared Socioeconomic Pathways (SSPs)**
+
+**Explanation:**  
+The IPCC uses **Shared Socioeconomic Pathways (SSPs)** as standardized scenario storylines. They describe different **possible futures for population, technology, policy, and economic development**, ranging from:
+
+- **SSP1:** Sustainability  
+- **SSP2:** Middle of the Road  
+- **SSP3:** Regional Rivalry  
+- **SSP4:** Inequality  
+- **SSP5:** Fossil-fueled Development  
+
+These SSPs, when combined with climate models and emissions trajectories, generate a set of “what if” scenarios used for climate impact and policy analysis.
+:::
+
+
 <br>
 
 
 ## Question 8
 The Paris Agreement includes a mechanism called the ________________________, occurring every 5 years, which evaluates collective progress to inform the next round of Nationally Determined Contributions (NDCs).
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+**Correct answer:** **Global Stocktake**
+
+**Explanation:**  
+The **Global Stocktake** is a periodic (every 5 years) assessment under the Paris Agreement that:
+
+- Evaluates **collective progress** toward long-term goals (e.g., keeping warming well below 2°C)  
+- Uses this information to **inform and strengthen the next round of NDCs**  
+
+It is essentially a **feedback and ratcheting mechanism**—countries see how the world is doing, then are expected to increase their ambition over time.
+:::
 
 <br>
 
@@ -132,10 +261,81 @@ $$
 Find the **market equilibrium** quantity $Q_M$ and price $P_M$.  
 Show all steps.
 
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+In an unregulated competitive market, firms and consumers ignore the external benefit and equate **private** marginal benefit and marginal cost:
+
+$$
+PMB(Q) = MC(Q)
+$$
+
+So:
+
+$$
+110 - 2Q = 20 + Q
+$$
+
+Rearrange:
+
+$$
+\begin{aligned}
+110 - 20 &= 3Q \\
+90 &= 3Q \\
+Q_M &= 30
+\end{aligned}
+$$
+
+Find the corresponding equilibrium price:
+
+- Using $MC(Q)$:  
+  $P_M = MC(30) = 20 + 30 = 50$
+
+- Check with $PMB(Q)$:  
+  $PMB(30) = 110 - 2(30) = 110 - 60 = 50$
+
+So the **market equilibrium** is:
+
+- $Q_M = 30$  
+- $P_M = 50$
+:::
+
+
 <br>
 
 ### Part B
 Compute the **social marginal benefit (SMB)** function.
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+Social marginal benefit adds the **external marginal benefit** to the **private marginal benefit**:
+
+$$
+SMB(Q) = PMB(Q) + EMB(Q)
+$$
+
+Given:
+
+- $PMB(Q) = 110 - 2Q$
+- $EMB(Q) = 60$
+
+Then:
+
+$$
+\begin{aligned}
+SMB(Q) &= (110 - 2Q) + 60 \\
+&= 170 - 2Q
+\end{aligned}
+$$
+
+So the **social marginal benefit** function is:
+
+$$
+SMB(Q) = 170 - 2Q
+$$
+:::
+
 
 <br>
 
@@ -143,7 +343,61 @@ Compute the **social marginal benefit (SMB)** function.
 ### Part C
 Find the **socially optimal output** $Q^*$ and price $P^*$.
 
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+The **social planner** chooses $Q^*$ where:
+
+$$
+SMB(Q) = MC(Q)
+$$
+
+Substitute the functions:
+
+$$
+170 - 2Q = 20 + Q
+$$
+
+Rearrange:
+
+$$
+\begin{aligned}
+170 - 20 &= 3Q \\
+150 &= 3Q \\
+Q^* &= 50
+\end{aligned}
+$$
+
+At $Q^*$, the efficient price (the value of one more unit in terms of cost and social benefit) is:
+
+$$
+\begin{aligned}
+P^* &= MC(Q^*) \\
+&= 20 + 50 \\
+&= 70
+\end{aligned}
+$$
+
+And you can check:
+
+$$
+\begin{aligned}
+SMB(50) &= 170 - 2(50) \\
+&= 170 - 100 \\
+&= 70
+\end{aligned}
+$$
+
+So at the optimum:
+
+- $Q^* = 50$  
+- $P^* = 70$  
+- And $SMB(Q^*) = MC(Q^*) = 70$
+:::
+
+
 <br>
+
 
 
 ### Part D
@@ -210,12 +464,211 @@ ggplot(data = data.frame(x =x,
 ```
 
 
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+
+```{r}
+#| fig-width: 8
+#| fig-height: 6
+#| fig-align: center
+#| echo: false
+
+library(ggplot2)
+
+# panel grid setup
+x <- seq(0, 90, 10)
+y <- seq(0, 180, 20)
+
+# curve data
+q_vals <- seq(0, 90, by = 1)
+df_curves <- data.frame(
+  Q   = q_vals,
+  PMB = 110 - 2 * q_vals,
+  SMB = 170 - 2 * q_vals,
+  MC  = 20 + q_vals
+)
+
+# key quantities
+Q_M    <- 30
+P_M    <- 50
+Q_star <- 50
+P_star <- 70
+
+# DWL triangle between Q_M and Q_star, bounded by SMB and MC
+dwl_df <- data.frame(
+  Q = c(Q_M, Q_M, Q_star),
+  P = c(20 + Q_M, 170 - 2 * Q_M, 20 + Q_star)
+)
+
+ggplot(data = data.frame(x = x, y = x)) +
+  # invisible points (to anchor axes)
+  geom_point(aes(x = x, y = y), size = 0, color = "white") +
+  # vertical grid lines
+  geom_vline(xintercept = 5,  color = "grey80") +
+  geom_vline(xintercept = 10, color = "grey80") +
+  geom_vline(xintercept = 15, color = "grey80") +
+  geom_vline(xintercept = 20, color = "grey80") +
+  geom_vline(xintercept = 25, color = "grey80") +
+  geom_vline(xintercept = 30, color = "grey80") +
+  geom_vline(xintercept = 35, color = "grey80") +
+  geom_vline(xintercept = 40, color = "grey80") +
+  geom_vline(xintercept = 45, color = "grey80") +
+  geom_vline(xintercept = 50, color = "grey80") +
+  geom_vline(xintercept = 55, color = "grey80") +
+  geom_vline(xintercept = 60, color = "grey80") +
+  geom_vline(xintercept = 65, color = "grey80") +
+  geom_vline(xintercept = 70, color = "grey80") +
+  geom_vline(xintercept = 75, color = "grey80") +
+  geom_vline(xintercept = 80, color = "grey80") +
+  geom_vline(xintercept = 85, color = "grey80") +
+  geom_vline(xintercept = 90, color = "grey80") +
+  # horizontal grid lines
+  geom_hline(yintercept = 10,  color = "grey80") +
+  geom_hline(yintercept = 20,  color = "grey80") +
+  geom_hline(yintercept = 30,  color = "grey80") +
+  geom_hline(yintercept = 40,  color = "grey80") +
+  geom_hline(yintercept = 50,  color = "grey80") +
+  geom_hline(yintercept = 60,  color = "grey80") +
+  geom_hline(yintercept = 70,  color = "grey80") +
+  geom_hline(yintercept = 80,  color = "grey80") +
+  geom_hline(yintercept = 90,  color = "grey80") +
+  geom_hline(yintercept = 100, color = "grey80") +
+  geom_hline(yintercept = 110, color = "grey80") +
+  geom_hline(yintercept = 120, color = "grey80") +
+  geom_hline(yintercept = 130, color = "grey80") +
+  geom_hline(yintercept = 140, color = "grey80") +
+  geom_hline(yintercept = 150, color = "grey80") +
+  geom_hline(yintercept = 160, color = "grey80") +
+  geom_hline(yintercept = 170, color = "grey80") +
+  geom_hline(yintercept = 180, color = "grey80") +
+  geom_hline(yintercept = 0) +
+  geom_vline(xintercept = 0) +
+  # DWL shading
+  geom_polygon(
+    data = dwl_df,
+    aes(x = Q, y = P),
+    inherit.aes = FALSE,
+    alpha = 0.3
+  ) +
+  # curves
+  geom_line(
+    data = df_curves,
+    aes(x = Q, y = PMB, color = "PMB", linetype = "PMB"),
+    inherit.aes = FALSE,
+    linewidth = 1.5
+  ) +
+  geom_line(
+    data = df_curves,
+    aes(x = Q, y = SMB, color = "SMB", linetype = "SMB"),
+    inherit.aes = FALSE,
+    linewidth = 1.5
+  ) +
+  geom_line(
+    data = df_curves,
+    aes(x = Q, y = MC, color = "MC", linetype = "MC"),
+    inherit.aes = FALSE,
+    linewidth = 1.5
+  ) +
+  # equilibrium points
+  geom_point(
+    data = data.frame(Q = Q_M, P = P_M),
+    aes(x = Q, y = P),
+    inherit.aes = FALSE,
+    size = 2
+  ) +
+  geom_point(
+    data = data.frame(Q = Q_star, P = P_star),
+    aes(x = Q, y = P),
+    inherit.aes = FALSE,
+    size = 2
+  ) +
+  # labels for equilibria (no parse to avoid error)
+  annotate("text", x = Q_M,    y = P_M - 8,  label = "(Q_M, P_M)") +
+  annotate("text", x = Q_star, y = P_star + 8, label = "(Q*, P*)") +
+  # label for DWL
+  annotate("text", x = 37.5, y = 75, label = "DWL", fontface = "bold") +
+  # axes and legend
+  scale_x_continuous(breaks = x, labels = x) +
+  scale_y_continuous(breaks = y, labels = y,
+                     limits = c(0,190)) +
+  scale_color_manual(
+  values = c(
+    "PMB" = "#0072B2",  # blue (colorblind-friendly)
+    "SMB" = "#009E73",  # green (colorblind-friendly)
+    "MC"  = "#D55E00"   # orange (colorblind-friendly)
+  ),
+  name = "") +
+  scale_linetype_manual(
+    values = c(
+      "PMB" = "dotted",   # MB curves: dotted
+      "SMB" = "dotdash",
+      "MC"  = "solid"     # MC curve: solid
+    ),
+    name = ""
+  ) +
+  labs(x = "Q", y = "P") 
+```
+
+**Key economic features of the graph:**
+
+- The $PMB$ curve is downward sloping: $PMB(Q) = 110 - 2Q$.
+- The $SMB$ curve lies above the $PMB$ curve by a vertical distance of $EMB = 60$:  
+  $SMB(Q) = 170 - 2Q$.
+- The $MC$ curve is upward sloping: $MC(Q) = 20 + Q$.
+
+**Equilibria:**
+
+- *Market equilibrium* (ignoring external benefit):  
+  $Q_M = 30$, $P_M = 50$ (intersection of $PMB$ and $MC$).
+- *Social optimum*:  
+  $Q^* = 50$, $P^* = 70$ (intersection of $SMB$ and $MC$).
+
+
+**Positive Externalities:**
+
+- The **positive externality** at $(Q_M, P_M)$ corresponds to the area **between the $PMB$ and $SMB$ curves from $0$ to $Q_M$**—a rectangle in this case because the vertical gap $EMB = 60$ is constant.
+
+**Deadweight loss (DWL):**
+
+- Because the market under-provides solar ($Q_M < Q^*$), the DWL is the **triangle between $SMB$ and $MC$ from $Q_M$ to $Q^*$**.
+- The shaded triangle in the plot shows the lost net benefits from failing to expand production from $Q_M$ to $Q^*$.
+
+
+
+:::
+
+
 
 <br>
 
 ### Part E
 
 Calculate the **optimal per-unit subsidy** that would achieve the socially efficient outcome.
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+The idea of a **Pigouvian subsidy** for a positive externality is to raise the **private marginal benefit** up to the **social marginal benefit**.
+
+We want:
+
+$$
+PMB(Q) + s = SMB(Q)
+$$
+
+Since $SMB(Q) = PMB(Q) + EMB(Q)$, the required subsidy is simply:
+
+$$
+s^* = EMB(Q^*) = 60
+$$
+
+So the **optimal per-unit subsidy** is:
+
+- $s^* = 60$ per unit of solar energy.
+
+:::
+
 
 <br>
 
@@ -224,6 +677,213 @@ Calculate the **optimal per-unit subsidy** that would achieve the socially effic
 ### Part F
 
 Compute the **market price with the subsidy**, i.e., the prices received by producers and paid by consumers.
+
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+Let:
+
+- $P_c$ = price paid by consumers  
+- $P_p$ = price received by producers  
+- $s$   = per-unit subsidy to producers  
+
+With a subsidy:
+
+$$
+P_p = P_c + s
+$$
+
+At the efficient quantity $Q^* = 50$:
+
+- Producers must receive $P_p = MC(Q^*) = 20 + 50 = 70$.  
+- The optimal subsidy is $s^* = 60$.  
+
+So:
+
+$$
+\begin{aligned}
+P_c &= P_p - s^* \\
+&= 70 - 60\\
+&= 10
+\end{aligned}
+$$
+
+Check consistency with $PMB$:
+
+$$
+\begin{aligned}
+PMB(50) &= 110 - 2(50) \\
+&= 110 - 100 \\
+&= 10 \\
+&= P_c
+\end{aligned}
+$$
+
+So with the subsidy:
+
+- Consumers pay: $P_c = 10$  
+- Producers receive: $P_p = 70$
+
+
+
+```{r}
+#| fig-width: 7
+#| fig-height: 6
+#| fig-align: center
+#| echo: false
+
+library(ggplot2)
+
+# panel grid setup
+x <- seq(0, 90, 10)
+y <- seq(0, 180, 20)
+
+# curve data
+q_vals <- seq(0, 90, by = 1)
+s_star <- 60  # optimal subsidy
+
+df_curves <- data.frame(
+  Q       = q_vals,
+  PMB     = 110 - 2 * q_vals,          # demand
+  MC      = 20 + q_vals,               # original supply
+  MC_sub  = (20 + q_vals) - s_star     # supply with subsidy (price paid by consumers)
+)
+
+# key quantities
+Q_M    <- 30
+P_M    <- 50
+
+Q_star <- 50
+P_c    <- 10  # consumer price with subsidy
+P_p    <- 70  # producer price with subsidy
+
+ggplot(data = data.frame(x = x, y = x)) +
+  # invisible points (to anchor axes)
+  geom_point(aes(x = x, y = y), size = 0, color = "white") +
+  # vertical grid lines
+  geom_vline(xintercept = 5,  color = "grey80") +
+  geom_vline(xintercept = 10, color = "grey80") +
+  geom_vline(xintercept = 15, color = "grey80") +
+  geom_vline(xintercept = 20, color = "grey80") +
+  geom_vline(xintercept = 25, color = "grey80") +
+  geom_vline(xintercept = 30, color = "grey80") +
+  geom_vline(xintercept = 35, color = "grey80") +
+  geom_vline(xintercept = 40, color = "grey80") +
+  geom_vline(xintercept = 45, color = "grey80") +
+  geom_vline(xintercept = 50, color = "grey80") +
+  geom_vline(xintercept = 55, color = "grey80") +
+  geom_vline(xintercept = 60, color = "grey80") +
+  geom_vline(xintercept = 65, color = "grey80") +
+  geom_vline(xintercept = 70, color = "grey80") +
+  geom_vline(xintercept = 75, color = "grey80") +
+  geom_vline(xintercept = 80, color = "grey80") +
+  geom_vline(xintercept = 85, color = "grey80") +
+  geom_vline(xintercept = 90, color = "grey80") +
+  # horizontal grid lines
+  geom_hline(yintercept = 10,  color = "grey80") +
+  geom_hline(yintercept = 20,  color = "grey80") +
+  geom_hline(yintercept = 30,  color = "grey80") +
+  geom_hline(yintercept = 40,  color = "grey80") +
+  geom_hline(yintercept = 50,  color = "grey80") +
+  geom_hline(yintercept = 60,  color = "grey80") +
+  geom_hline(yintercept = 70,  color = "grey80") +
+  geom_hline(yintercept = 80,  color = "grey80") +
+  geom_hline(yintercept = 90,  color = "grey80") +
+  geom_hline(yintercept = 100, color = "grey80") +
+  geom_hline(yintercept = 110, color = "grey80") +
+  geom_hline(yintercept = 120, color = "grey80") +
+  geom_hline(yintercept = 130, color = "grey80") +
+  geom_hline(yintercept = 140, color = "grey80") +
+  geom_hline(yintercept = 150, color = "grey80") +
+  geom_hline(yintercept = 160, color = "grey80") +
+  geom_hline(yintercept = 170, color = "grey80") +
+  geom_hline(yintercept = 180, color = "grey80") +
+  geom_hline(yintercept = 0) +
+  geom_vline(xintercept = 0) +
+  # curves: demand (PMB), original supply (MC), supply with subsidy (MC_sub)
+  geom_line(
+    data = df_curves,
+    aes(x = Q, y = PMB, color = "PMB", linetype = "PMB"),
+    inherit.aes = FALSE,
+    linewidth = 1.5
+  ) +
+  geom_line(
+    data = df_curves,
+    aes(x = Q, y = MC, color = "MC", linetype = "MC"),
+    inherit.aes = FALSE,
+    linewidth = 1.5
+  ) +
+  geom_line(
+    data = df_curves,
+    aes(x = Q, y = MC_sub, color = "MC_sub", linetype = "MC_sub"),
+    inherit.aes = FALSE,
+    linewidth = 1.5
+  ) +
+  # original market equilibrium (no subsidy)
+  geom_point(
+    data = data.frame(Q = Q_M, P = P_M),
+    aes(x = Q, y = P),
+    inherit.aes = FALSE,
+    size = 2
+  ) +
+  annotate("text", x = Q_M, y = P_M + 8, label = "(Q_M, P_M)") +
+  # new equilibrium with subsidy: consumer and producer prices
+  geom_point(
+    data = data.frame(Q = Q_star, P = P_c),
+    aes(x = Q, y = P),
+    inherit.aes = FALSE,
+    size = 2
+  ) +
+  geom_point(
+    data = data.frame(Q = Q_star, P = P_p),
+    aes(x = Q, y = P),
+    inherit.aes = FALSE,
+    size = 2
+  ) +
+  # vertical segment showing subsidy at Q*
+  geom_segment(
+    aes(x = Q_star, xend = Q_star, y = P_c, yend = P_p),
+    inherit.aes = FALSE,
+    linetype = "dashed"
+  ) +
+  annotate("text", x = Q_star + 3, y = (P_c + P_p) / 2,
+           label = "s", fontface = "bold") +
+  annotate("text", x = Q_star, y = P_c - 8, label = "P[c]", parse = TRUE) +
+  annotate("text", x = Q_star, y = P_p + 8, label = "P[p]", parse = TRUE) +
+  # axes and legend
+  scale_x_continuous(breaks = x, labels = x) +
+  scale_y_continuous(breaks = y, labels = y, limits = c(0, 190)) +
+  scale_color_manual(
+    values = c(
+      "PMB"    = "#0072B2",  # blue (colorblind-friendly)
+      "MC"     = "#D55E00",  # orange (colorblind-friendly)
+      "MC_sub" = "#CC79A7"   # purple (colorblind-friendly)
+    ),
+    labels = c(
+      "PMB"    = "Demand (PMB)",
+      "MC"     = "Supply (no subsidy)",
+      "MC_sub" = "Supply (with subsidy)"
+    ),
+    name = ""
+  ) +
+  scale_linetype_manual(
+    values = c(
+      "PMB"    = "dotted",
+      "MC"     = "solid",
+      "MC_sub" = "solid"
+    ),
+    labels = c(
+      "PMB"    = "Demand (PMB)",
+      "MC"     = "Supply (no subsidy)",
+      "MC_sub" = "Supply (with subsidy)"
+    ),
+    name = ""
+  ) +
+  labs(x = "Q", y = "P")
+```
+
+:::
 
 
 
@@ -235,6 +895,56 @@ Compute the **market price with the subsidy**, i.e., the prices received by prod
 Compute the **subsidy expenditure** and the **change in total welfare** from implementing the policy.
 
 - Subsidy expenditure represents the **total fiscal cost** to the government of providing the per-unit subsidy.  
+
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+1. **Subsidy expenditure**
+
+The government pays the subsidy $s^*$ on each unit produced at the efficient quantity $Q^*$:
+
+$$
+\text{Subsidy Expenditure} = s^* \times Q^* = 60 \times 50 = 3000
+$$
+
+So the total fiscal cost is:
+
+- Subsidy expenditure = $3{,}000$
+
+<br>
+
+2. **Change in total welfare**
+
+Total welfare (including external benefits) is maximized at $Q^* = 50$.  
+In an unregulated market setting, the market stops at $Q_M = 30$, so there is a deadweight loss.
+
+The DWL is the triangle between $SMB$ and $MC$ from $Q_M$ to $Q^*$.
+
+- Base (quantity difference):  
+  $Q^* - Q_M = 50 - 30 = 20$
+
+- Height (difference between $SMB$ and $MC$ at $Q_M$):  
+  $SMB(30) = 170 - 2(30) = 170 - 60 = 110$  
+  $MC(30) = 20 + 30 = 50$  
+  Difference: $110 - 50 = 60$
+
+So:
+
+$$
+DWL = \frac{1}{2} \times 20 \times 60 = 600
+$$
+
+This is the net gain in total welfare from moving from $Q_M$ to $Q^*$.
+
+- Change in total welfare = $+600$
+
+**Summary:**
+
+- Subsidy expenditure (government's fiscal cost): $3{,}000$  
+  - Subsidy expenditure is transferred to the producers in a lump-sum fashion.
+- Net gain in total welfare (recovered DWL): $600$
+
+:::
 
 
 

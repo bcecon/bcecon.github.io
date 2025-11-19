@@ -69,11 +69,103 @@ Consider two major economies, Country A and Country B, deciding whether to imple
 # Question 1
 What is the Nash equilibrium (or equilibria) in this game? Show your work.
 
+::: {.callout-tip collapse="true"}
+## Show answer
+We look for each country’s **best response** to the other country’s action.
+
+---
+
+### **Step 1: Best responses for Country A**
+
+- **If Country B chooses “Reduce”:**
+  - A’s payoff from **Reduce** = $5$  
+  - A’s payoff from **BAU** = $8$  
+  - Since $8 > 5$, A prefers **BAU**.
+
+- **If Country B chooses “BAU”:**
+  - A’s payoff from **Reduce** = $-2$  
+  - A’s payoff from **BAU** = $1$  
+  - Since $1 > -2$, A again prefers **BAU**.
+
+**Conclusion for A:**  
+No matter what B does, A’s best response is **BAU**.  
+👉 **BAU is a dominant strategy for Country A.**
+
+---
+
+### **Step 2: Best responses for Country B**
+
+- **If Country A chooses “Reduce”:**
+  - B’s payoff from **Reduce** = $5$  
+  - B’s payoff from **BAU** = $8$  
+  - Since $8 > 5$, B prefers **BAU**.
+
+- **If Country A chooses “BAU”:**
+  - B’s payoff from **Reduce** = $-2$  
+  - B’s payoff from **BAU** = $1$  
+  - Since $1 > -2$, B again prefers **BAU**.
+
+**Conclusion for B:**  
+No matter what A does, B’s best response is **BAU**.  
+👉 **BAU is a dominant strategy for Country B.**
+
+---
+
+### **Step 3: Nash equilibrium**
+
+A Nash equilibrium occurs where **each country is playing a best response** to the other.
+
+- A’s dominant strategy → **BAU**  
+- B’s dominant strategy → **BAU**
+
+So the strategy profile **(BAU, BAU)** is a Nash equilibrium, with payoffs:
+
+$$
+(\pi_A, \pi_B) = (1, 1)
+$$
+
+There is **no other** Nash equilibrium because any outcome with at least one country choosing “Reduce” gives that country an incentive to deviate to **BAU** and increase its payoff.
+
+---
+
+
+Therefore, the **unique Nash equilibrium** is **(BAU, BAU)** with payoff **$(1, 1)$**.
+
+:::
+
 
 <br>
 
 # Question 2
 Explain why this game represents a Prisoner's Dilemma in the context of climate change policy.
+
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+This game has the **three key features** of a classic Prisoner’s Dilemma:
+
+1. **Individual dominant strategies lead to mutual defection**
+   - For each country individually, choosing **BAU** yields a higher payoff regardless of what the other country does:
+     - If the other reduces, you get $8$ (instead of $5$) by doing **BAU**.
+     - If the other does **BAU**, you get $1$ (instead of $-2$) by doing **BAU**.
+   - So **BAU is a dominant strategy** for both A and B.
+
+2. **Mutual defection is worse than mutual cooperation**
+   - If both cooperate $(\text{Reduce}, \text{Reduce}) \Rightarrow$ payoffs $= (5, 5)$
+   - If both defect $(\text{BAU}, \text{BAU}) \Rightarrow$ payoffs $= (1, 1)$
+   - Each country would be **better off** in the cooperative outcome (since $5 > 1$), but they still end up in $(\text{BAU}, \text{BAU})$ when they act in their own narrow self-interest.
+
+3. **Conflict between individual rationality and collective welfare**
+   - From a **global perspective**, $(\text{Reduce}, \text{Reduce})$ is clearly better: higher total payoff and lower climate damages.
+   - From the perspective of each **individual country**, there is a strong incentive to **free-ride**:
+     - Enjoy the global climate benefits created by the other country’s mitigation while avoiding domestic mitigation costs.
+
+**In the climate policy context:**  
+This captures the real-world problem that even though **global cooperation on climate** (strong mitigation by all) is collectively optimal, each country has a **temptation to under-mitigate and free-ride** on others’ efforts. Hence, the game is a **Prisoner’s Dilemma applied to climate change**.
+
+:::
+
 
 
 <br>
@@ -85,8 +177,58 @@ If the payoffs represent only economic benefits and ignore environmental costs:
 What would be the socially optimal outcome?
 <br>
 
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+To find the **socially optimal outcome**, we maximize the **sum of payoffs** to both countries:
+
+- $(\text{Reduce}, \text{Reduce})$: total $= 5 + 5 = 10$  
+- $(\text{Reduce}, \text{BAU})$: total $= -2 + 8 = 6$  
+- $(\text{BAU}, \text{Reduce})$: total $= 8 + (-2) = 6$  
+- $(\text{BAU}, \text{BAU})$: total $= 1 + 1 = 2$
+
+The **largest total payoff is $10$**, which occurs under **$(\text{Reduce}, \text{Reduce})$**.
+
+So, even *ignoring* environmental damages, the outcome where both countries **reduce emissions** already maximizes joint economic benefits in this stylized model.
+
+If we then **add environmental benefits** (avoided climate damages, improved health, reduced disaster risk), $(\text{Reduce}, \text{Reduce})$ becomes even more strongly socially optimal.
+
+Therefore, the socially optimal outcome is **$(\text{Reduce}, \text{Reduce})$**.
+
+:::
+
+
+
 ## Part B
 Why do countries tend to deviate from this outcome?
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+Even though $(\text{Reduce}, \text{Reduce})$ is socially optimal, countries may deviate because of several incentives and constraints:
+
+- **Free-rider problem**
+  - Climate mitigation is a **global public good**: one country’s emission cuts benefit everyone.
+  - Each country is tempted to **enjoy the benefits of others’ reductions** while avoiding its own costs.
+  - This creates a strong incentive to choose **BAU** while hoping others will reduce.
+
+- **Short-term vs. long-term trade-offs**
+  - Mitigation often involves **upfront costs** (e.g., clean energy investment, phasing out coal).
+  - Political leaders may prioritize **short-term GDP growth, jobs, and re-election** over long-term climate benefits.
+  - This short-run bias makes **BAU politically attractive**, even if worse in the long run.
+
+- **Lack of enforcement mechanisms**
+  - There is **no global government** to impose binding penalties for non-compliance.
+  - International climate agreements rely on **voluntary pledges** and **peer pressure**, which may be insufficient to sustain cooperation.
+
+- **Distributional and fairness concerns**
+  - Countries may feel climate responsibilities are **unequally shared** (e.g., historical emitters vs. developing nations).
+  - Perceived unfairness weakens willingness to cooperate, making **unilateral BAU** more politically acceptable.
+
+Because of these forces, countries often behave according to **individual rationality** (choosing BAU) rather than **collective rationality** (mutual reduction).
+
+:::
+
 
 <br>
 
@@ -96,10 +238,190 @@ Consider implementing a policy mechanism to modify the payoff structure of this 
 ## Part A
 Suggest and explain a specific policy mechanism (e.g., carbon border adjustments, trade sanctions, or technology subsidies) that could alter the payoffs.
 
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+##### CBAM
+
+One concrete mechanism is a **Carbon Border Adjustment Mechanism (CBAM)** combined with **climate penalties** for persistent BAU:
+
+- **Basic idea:**
+  - Countries that **Reduce** emissions can impose a **carbon tariff** on imports from countries that remain in **BAU**.
+  - Revenue from this tariff can be partly used to **compensate reducing countries** for their mitigation costs.
+  - If *both* stay in BAU, they face **higher climate-related damages** (e.g., storms, heat waves, sea-level rise) and possibly **coordinated sanctions** from a “climate club.”
+
+- **Effects on payoffs:**
+  - A country that chooses **BAU** while its partner reduces:
+    - Loses market access and faces **border tariffs**, lowering its net economic gains.
+    - Faces **reputational and diplomatic costs** (reduced cooperation in other policy areas).
+  - A country that chooses **Reduce** while its partner stays in BAU:
+    - Receives **tariff revenue transfers**, helping to offset mitigation costs.
+    - Suffers less from **carbon leakage**, because high-emission imports are taxed.
+  - If **both stay in BAU**:
+    - There are **no tariff revenues**, but both suffer **larger climate damages** and may face **joint sanctions** from a climate club.
+
+By designing the CBAM and penalty structure appropriately, we can **raise the cost of BAU** and **reduce the cost of reducing**, so that $(\text{Reduce}, \text{Reduce})$ becomes **individually rational** as well as **socially optimal**.
+
+
+##### Climate Club
+
+Another powerful mechanism is forming an **International Climate Club** that uses coordinated incentives and penalties to shift countries toward cooperation:
+
+- **Basic idea of a Climate Club:**
+  - A group of countries commits to **strong emission reductions** and agrees on a **minimum carbon price** (e.g., \$75/ton).
+  - Club members grant **mutual benefits** to each other—such as free trade in low-carbon products, technology sharing, or clean-energy investment financing.
+  - Non-members face **common external tariffs** on carbon-intensive goods when exporting to club members.
+
+- **Effects on incentives:**
+  - Joining the club becomes **beneficial** because members enjoy:
+    - Preferential market access  
+    - Lower trade barriers  
+    - Access to shared clean-tech innovation  
+    - Financial and technical support for decarbonization  
+  - Staying outside the club becomes **costly** because:
+    - Non-members face **uniform tariffs** on exports to all club members.
+    - They risk losing competitiveness in global markets.
+    - They receive no access to green financing or technology pools.
+    - They suffer larger climate damages as decarbonization is delayed.
+
+- **Why it changes payoffs:**
+  - A country choosing **BAU** while others reduce:
+    - Pays **external club tariffs**, making BAU significantly less profitable.
+    - Loses access to club benefits, technology, and markets.
+  - A country choosing **Reduce**:
+    - Gains entry into the club and enjoys **higher net economic returns** through trade advantages and coordinated investments.
+  - If both countries stay in **BAU**:
+    - Both remain outside the club and face **greater climate damages** and loss of competitiveness.
+
+By establishing a Climate Club with shared standards and unified penalties, the international community can **reshape incentives** so that global cooperation—$(\text{Reduce}, \text{Reduce})$—becomes attractive and **individually rational**, rather than relying on voluntary goodwill alone.
+
+:::
+
+
 <br>
 
 ## Part B
 Provide a new payoff matrix that incorporates your suggested policy mechanism. Show all calculations for the modified payoffs.
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+##### New Payoff Matrix with Policy
+
+```{=html}
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-9wq8{border-color:inherit;text-align:center;vertical-align:middle}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-c3ow" colspan="2" rowspan="2"></th>
+    <th class="tg-c3ow" colspan="2">Country B</th>
+  </tr>
+  <tr>
+    <th class="tg-c3ow">Reduce</th>
+    <th class="tg-c3ow">BAU</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">Country A</td>
+    <td class="tg-c3ow">Reduce</td>
+    <td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none">(5,5)</span></td>
+    <td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none">(0,4)</span></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">BAU</td>
+    <td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none">(4,0)</span></td>
+    <td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none">(-3,-3)</span></td>
+  </tr>
+</tbody>
+</table>
+```
+
+
+We start from the **original payoffs** and then adjust them to reflect:
+
+- Tariffs and penalties on **BAU** when the other country reduces.  
+- Additional **climate damages / sanctions** when both stay in BAU.  
+- **Compensation** to reducers via tariff revenues.  
+
+---
+
+##### **Step 1: Original payoff matrix (for reference)**
+
+- $(\text{Reduce}, \text{Reduce}): (5, 5)$  
+- $(\text{Reduce}, \text{BAU}): (-2, 8)$  
+- $(\text{BAU}, \text{Reduce}): (8, -2)$  
+- $(\text{BAU}, \text{BAU}): (1, 1)$  
+
+---
+
+##### **Step 2: Introduce CBAM and penalties**
+
+###### **1. Case $(\text{Reduce}, \text{Reduce})$**
+
+- Both countries reduce, so no CBAM applies.
+- Cooperative outcome remains unchanged:
+
+$$
+(5, 5) \quad \text{(no change)}
+$$
+
+---
+
+######  **2. Case $(\text{Reduce}, \text{BAU})$ — A reduces, B remains BAU**
+
+- Country B faces a **carbon border tariff + penalties** equivalent to $4$ units:
+  - B’s payoff: $8 - 4 = 4$
+- Part of tariff revenue ($2$ units) is transferred to A to help offset mitigation costs:
+  - A’s payoff: $-2 + 2 = 0$
+- Remaining $2$ units may go to administrative or global climate funds.
+
+**New payoffs:**
+
+$$
+(\text{Reduce}, \text{BAU}) : (0, 4)
+$$
+
+---
+
+######  **3. Case $(\text{BAU}, \text{Reduce})$ — A is BAU, B reduces**
+
+By symmetry:
+
+- A (BAU) pays $4$ in penalties: $8 - 4 = 4$  
+- B (Reduce) receives $2$ in compensation: $-2 + 2 = 0$
+
+**New payoffs:**
+
+$$
+(\text{BAU}, \text{Reduce}) : (4, 0)
+$$
+
+---
+
+######  **4. Case $(\text{BAU}, \text{BAU})$ — both stay in BAU**
+
+- No tariff revenue.  
+- Both face **higher climate damages** and potential **climate-club sanctions**.
+- Total costs reduce each payoff by $4$:
+
+- A: $1 - 4 = -3$  
+- B: $1 - 4 = -3$  
+
+**New payoffs:**
+
+$$
+(\text{BAU}, \text{BAU}) : (-3, -3)
+$$
+
+:::
+
 
 <br>
 
@@ -108,10 +430,101 @@ Prove that under your proposed policy:
 
 - The socially optimal outcome (Reduce, Reduce) becomes a Nash equilibrium
 
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+**Show answer**
+
+We now analyze best responses using the **modified payoff matrix**.
+
+---
+
+##### **Step 1: Best responses for Country A**
+
+- **If B chooses “Reduce”:**
+  - A’s payoff from **Reduce** = $5$  
+  - A’s payoff from **BAU** = $4$  
+  - Since $5 > 4$, A’s best response is **Reduce**.
+
+- **If B chooses “BAU”:**
+  - A’s payoff from **Reduce** = $0$  
+  - A’s payoff from **BAU** = $-3$  
+  - Since $0 > -3$, A’s best response is again **Reduce**.
+
+👉 **Reduce is now a dominant strategy for Country A.**
+
+---
+
+##### **Step 2: Best responses for Country B**
+
+By symmetry:
+
+- **If A chooses “Reduce”:**
+  - B’s payoff from **Reduce** = $5$  
+  - B’s payoff from **BAU** = $4$  
+  - Best response: **Reduce**.
+
+- **If A chooses “BAU”:**
+  - B’s payoff from **Reduce** = $0$  
+  - B’s payoff from **BAU** = $-3$  
+  - Best response: **Reduce**.
+
+👉 **Reduce is also a dominant strategy for Country B.**
+
+---
+
+##### **Step 3: Nash equilibrium and social optimality**
+
+- Both countries’ dominant strategy is now **Reduce**.  
+- The unique Nash equilibrium is:
+
+$$
+(\text{Reduce}, \text{Reduce}) \quad \text{with payoff} \quad (5, 5)
+$$
+
+- This is also the **socially optimal outcome**: it maximizes total payoff and minimizes climate damages.
+
+---
+
+##### **Conclusion**
+
+The policy (CBAM + penalties) changes the incentive structure so that the socially optimal cooperative outcome $(\text{Reduce}, \text{Reduce})$ is also a **Nash equilibrium**.  
+**Individual rationality and collective welfare are now aligned.**
+
+
+:::
+
+
 <br>
 
 ## Part D
 Discuss one potential challenge in implementing your proposed policy mechanism in the real world.
+
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+
+A major challenge is designing and enforcing the **climate club and its penalty system** in a politically and legally feasible way:
+
+- **Political resistance and trade tensions**
+  - Countries targeted by club tariffs or exclusion measures may view them as **disguised protectionism** rather than legitimate climate policy.
+  - This can trigger **retaliatory tariffs**, trade disputes, and undermine international cooperation.
+  - Governments face strong **domestic lobbying** from carbon-intensive industries that fear losing competitiveness.
+
+- **Measurement and verification problems**
+  - Fair implementation requires **reliable, comparable data** on the carbon content of goods and production processes.
+  - Many countries lack robust **MRV (Measurement, Reporting, and Verification)** systems.
+  - Disagreements about data, methodologies, and baselines can **erode trust** and delay enforcement.
+
+- **Legal constraints (e.g., WTO rules)**
+  - Climate clubs often rely on **common external tariffs** or preferential treatment for members—actions that may conflict with **WTO non-discrimination principles** (Most-Favored Nation and National Treatment).
+  - Unless carefully designed, a climate club could be viewed as violating WTO rules, especially if penalties discriminate between members and non-members.
+  - If challenged successfully at the WTO, the mechanism might be weakened, forced to change, or suspended.
+
+Even though the **theoretical incentive structure** of a climate club can make **Reduce** a dominant strategy, these **practical political and legal barriers** can limit the club’s effectiveness or prevent full implementation in real-world climate governance.
+
+:::
 
 
 <br>

@@ -72,10 +72,45 @@ A proposed **climate adaptation policy**—such as expanding cooling centers and
 ## Part A
 How many **statistical lives per year** would this policy save?  
 
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+Change in individual annual risk:
+
+$\Delta \text{risk} = \dfrac{6}{100000} - \dfrac{2}{100000} = \dfrac{4}{100000} = 4 \times 10^{-5}$
+
+Population size: $4{,}000{,}000$
+
+Expected number of statistical lives saved per year:
+
+$\text{Lives saved} = 4{,}000{,}000 \times 4 \times 10^{-5} = 160$
+
+**Answer:** The policy saves **160 statistical lives per year**.
+
+:::
+
 <br>
 
 ## Part B
 Using a **Value of a Statistical Life (VSL)** of **$7 million**, what is the **maximum annual cost** society should be willing to pay for this policy based on mortality-risk reduction alone?
+
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+VSL: $\$7{,}000{,}000$ per statistical life
+
+Annual benefit from reduced mortality:
+
+$\text{Annual benefit} = 160 \times 7{,}000{,}000 = 1{,}120{,}000{,}000$
+
+So the benefit is $\$1.12$ billion per year.
+
+**Answer:** The maximum annual cost that can be justified based on mortality-risk reduction alone is **$\$1.12$ billion per year**.
+
+:::
+
 
 
 
@@ -107,6 +142,54 @@ The two countries are considering whether to **link their carbon markets** to im
 Before linking the two carbon markets, what would be the **permit prices** in each country, and how much **CO₂ abatement** would each country undertake domestically?
 
 
+::: {.callout-tip collapse="true"}
+### Show answer
+
+**Country A**
+
+Required abatement:
+
+$q_A = \text{uncontrolled emissions} - \text{cap} = 60 - 20 = 40 \text{ tons}$
+
+Marginal abatement cost is constant: $MC_A = 10$.
+
+In a competitive permit market, the permit price equals marginal abatement cost at the chosen abatement level:
+
+$p_A = 10$
+
+So:
+
+- Country A abatement: $q_A = 40$ tons  
+- Country A permit price: $p_A = \$10$ per ton  
+
+---
+
+**Country B**
+
+Required abatement:
+
+$q_B = 80 - 40 = 40 \text{ tons}$
+
+Marginal abatement cost: $MC_B(q_B) = q_B$.
+
+At the required abatement:
+
+$p_B = MC_B(40) = 40$
+
+So:
+
+- Country B abatement: $q_B = 40$ tons  
+- Country B permit price: $p_B = \$40$ per ton  
+
+**Answer:**
+
+- Country A: $q_A = 40$ tons, $p_A = \$10$ per ton  
+- Country B: $q_B = 40$ tons, $p_B = \$40$ per ton
+
+:::
+
+
+
 <br>
 
 ## Part B
@@ -132,6 +215,118 @@ With linkage, both countries face a **single, common permit price**. Each countr
 
 ::: callout-tip
 Let $p$ be the common permit price. If $p$ > 10, it is profitable for Country A to reduce emissions as much as possible (up to 60 tons) and sell extra allowances to Country B.
+
+:::
+
+
+
+::: {.callout-tip collapse="true"}
+### Show answer
+
+**Step 1: Total required abatement**
+
+Total uncontrolled emissions:
+
+$E_{\text{uncontrolled}} = 60 + 80 = 140 \text{ tons}$
+
+Total cap (total allowances):
+
+$E_{\text{cap}} = 20 + 40 = 60 \text{ tons}$
+
+Total abatement required:
+
+$q_{\text{total}} = 140 - 60 = 80 \text{ tons}$
+
+---
+
+**Step 2: Abatement behavior in the linked market**
+
+Let $p$ be the common permit price.
+
+- **Country A:**  
+  $MC_A = 10$ (constant).  
+  If $p > 10$, it is profitable for A to abate as much as possible (up to 60 tons) and sell extra allowances.  
+
+- **Country B:**  
+  $MC_B(q_B) = q_B$.  
+  B chooses abatement $q_B$ such that $MC_B = p$, so:
+  $q_B = p$.
+
+---
+
+**Step 3: Allowance trading and market equilibrium (supply = demand)**
+
+Initial allowances:
+
+- Country A: 20 allowances  
+- Country B: 40 allowances  
+
+Assume $p > 10$ so that A fully abates:
+
+Country A:
+
+- Abatement: $q_A = 60$  
+- Emissions: $E_A = 60 - 60 = 0$  
+  - Allowances used: 0  
+  - Allowances available to sell: $20$  (Supply of allowances)
+
+Country B:
+
+- Abatement: $q_B = p$  
+- Emissions: $E_B = 80 - q_B = 80 - p$  
+  - Allowances needed: $80 - p$
+
+Country B starts with 40 allowances, so its **net demand** for allowances is:
+
+$$
+\begin{aligned}
+\text{Net demand}_B &= (80 - p) - 40 \\
+&= 40 - p
+\end{aligned}
+$$
+
+
+At the market equilibrium, quantity supplied is equal to quantity demanded:
+$$
+\begin{aligned}
+\text{Allowances supplied by A} &= \text{Net demand by B} \\
+20 &= 40 - p
+\end{aligned}
+$$
+Solve for $p$:
+
+$$
+p = 20
+$$
+
+Then:
+
+$$
+\begin{aligned}
+q_B &= p \\
+&= 20 \text{ (tons of abatement)}
+\end{aligned}
+$$
+
+Check totals:
+
+- Total abatement: $q_A + q_B = 60 + 20 = 80$ (matches required total abatement)  
+- Total emissions: $E_A + E_B = 0 + (80 - 20) = 60$ (matches total cap)
+
+---
+
+**Summary**
+
+- **Common permit price:**  
+  $p = \$20$ per ton  
+
+- **Abatement:**  
+  - Country A: $q_A = 60$ tons (emits 0).  
+  - Country B: $q_B = 20$ tons (emits 60 tons).  
+
+- **Allowance trading:**  
+  - Country A uses 0 allowances and **sells 20** allowances   
+  - Country B **buys 20** allowances to reach its needed 60 allowances  
 
 :::
 

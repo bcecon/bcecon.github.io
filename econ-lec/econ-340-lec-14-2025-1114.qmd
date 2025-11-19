@@ -628,8 +628,8 @@ Overall
 ## 🔮 **Broader Implications for Trade & Climate**
 
 - About **25% of global CO₂ emissions** are embodied in traded goods, meaning trade policy directly shapes global mitigation.
-- Current trade rules often **favor high-carbon production**, because:
-  - Carbon tariffs are difficult under WTO rules.  
+- WTO rules often **favor high-carbon production**, because:
+  - Carbon tariffs are difficult under WTO rules because they can appear discriminatory or protectionist.
   - Fossil-fuel subsidies remain largely unconstrained.  
 - Better-coordinated border measures could:
   - Reduce **implicit fossil-fuel subsidies** embedded in international trade.
@@ -812,7 +812,7 @@ Their interaction on **carbon pricing**, **subsidy policy**, **border adjustment
     - The tariff removes the **competitiveness advantage** of weak policy.
 
 <div style="display:block; margin:-50px;"></div>
-<span class="fragment">👉 CBAMs **internalize the competitiveness problem**, eliminating the gain from under-pricing and making **Cooperate → the dominant strategy**.</span>
+<span class="fragment">👉 CBAMs **internalize the competitiveness problem**, eliminating the gain from under-pricing and making **Cooperate → a dominant strategy**.</span>
 
 
 
