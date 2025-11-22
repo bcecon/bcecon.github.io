@@ -59,14 +59,26 @@ Your team’s proposal should demonstrate critical engagement with a climate cha
 3. **Presenting** relevant evidence that highlights the competing interests involved.  
 4. **Formulating** policy recommendations that logically follow from your analysis.  
 
-## Evaluation Criteria
-Projects will be assessed based on:  
+## Rubric for Team Project
 
-1. **Clarity and originality** of the research question  
-2. **Effectiveness** of the oral presentation  
-3. **Depth** of the economic analysis  
-4. **Quality** of the modeling or empirical analysis  
-5. **Contribution** to peer evaluation of classmates’ presentations  
+| **Attribute** | **Very Deficient (1)** | **Somewhat Deficient (2)** | **Acceptable (3)** | **Very Good (4)** | **Outstanding (5)** |
+|--------------|-------------------------|-----------------------------|---------------------|--------------------|----------------------|
+| **1. Potential for success** | - Little or no potential for success | - Tenuous potential for success | - Adequate potential for success | - High potential for success | - Excellent potential for success |
+| **2. Quality of research question** | - Unclear or unstated<br>- Entirely derivative<br>- No meaningful contribution expected | - Somewhat unclear<br>- Slight originality<br>- Minor contribution expected | - Clearly stated<br>- Moderately original<br>- Limited but plausible contribution expected | - Very clear<br>- Original and creative<br>- At least one meaningful contribution expected | - Exceptionally clear<br>- Highly original<br>- Multiple important contributions expected |
+| **3. Quality of economic analysis (theoretical, empirical, and policy)** | - Very weak or incorrect reasoning<br>- Little/no understanding of theory or empirical methods<br>- No usable data or evidence<br>- Policy recommendations absent or irrelevant | - Rudimentary reasoning<br>- Shaky understanding of theory or empirical tools<br>- Weak or incomplete evidence<br>- Policy suggestions underdeveloped | - Adequate reasoning<br>- Solid grasp of theory<br>- Provides some empirical evidence (e.g., basic data or simple visualization)<br>- Policy recommendations generally appropriate | - Strong reasoning<br>- Clear mastery of theory and empirical methods<br>- Uses compelling empirical evidence, including clear and relevant data visualizations and references<br>- Policy recommendations well aligned with analysis | - Sophisticated reasoning<br>- Superior theoretical and empirical integration<br>- Provides rigorous, well-supported empirical evidence with high-quality visualizations and credible references<br>- Policy recommendations are innovative, feasible, and strongly justified |
+| **4. Quality of oral presentation** | - Very poorly organized<br>- Weak slides or visuals<br>- Unable to answer key questions | - Somewhat disorganized<br>- Several unclear slides<br>- Difficulty answering questions | - Mostly well organized<br>- Generally clear slides<br>- Adequate responses to most questions | - Well organized<br>- Strong visuals<br>- Professional and confident responses | - Exceptionally organized<br>- Outstanding visuals<br>- Excellent, well-supported responses to all questions |
+| **5. Quality of writing** | - Very poorly structured<br>- Hard to understand<br>- Many spelling/grammar errors | - Somewhat disorganized<br>- Some confusing sections<br>- Numerous errors | - Mostly organized<br>- Mostly clear<br>- Some errors present | - Well organized<br>- Clear and coherent<br>- Very few errors | - Extremely well organized<br>- Very clear and polished<br>- No errors |
+| **6. Other — explain** |  |  |  |  |  |
+
+<!-- Projects will be assessed based on:   -->
+
+<!-- 1. **Clarity and originality** of the research question   -->
+<!-- 2. **Effectiveness** of the oral presentation   -->
+<!-- 3. **Depth** of the economic analysis   -->
+<!-- 4. **Quality** of the modeling or empirical analysis   -->
+<!-- 5. **Contribution** to peer evaluation of classmates’ presentations   -->
+
+
 
 > **Note:** Any changes to team membership or research topic require prior approval from **Byeong-Hak Choe**.  
 
