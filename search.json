@@ -2391,7 +2391,7 @@
     "href": "index.html#lecture",
     "title": "ECON 340: Environmental Economics, Fall 2025",
     "section": "🚀 Lecture",
-    "text": "🚀 Lecture\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 1\n\n\nSyllabus and Course Outline\n\n\nAugust 25, 2025\n\n\n\n\nLecture 2\n\n\nClass Survey Results vs. Professional Consensus\n\n\nAugust 27, 2025\n\n\n\n\nLecture 3\n\n\nMicroeconomics Review\n\n\nAugust 29, 2025\n\n\n\n\nLecture 4\n\n\nExternalities\n\n\nSeptember 5, 2025\n\n\n\n\nLecture 5\n\n\nProperty Rights, the Coase Theorem, and the Environment\n\n\nSeptember 15, 2025\n\n\n\n\nLecture 6\n\n\nCommon Property, Open Access, and Property Rights\n\n\nSeptember 26, 2025\n\n\n\n\nLecture 7\n\n\nPublic Goods\n\n\nOctober 3, 2025\n\n\n\n\nLecture 8\n\n\nInformation, Incentives, and Behavioral Anomalies\n\n\nOctober 17, 2025\n\n\n\n\nLecture 9\n\n\nBalancing the Present and Future: The Discount Rate\n\n\nOctober 24, 2025\n\n\n\n\nLecture 10\n\n\nCost–Benefit Analysis\n\n\nOctober 29, 2025\n\n\n\n\nLecture 11\n\n\nUnderstanding Climate Impacts and the Social Cost of Carbon\n\n\nOctober 31, 2025\n\n\n\n\nLecture 12\n\n\nValue of Statistical Life\n\n\nNovember 5, 2025\n\n\n\n\nLecture 13\n\n\nMarket for Pollution: Price vs. Quantity Approaches\n\n\nNovember 7, 2025\n\n\n\n\nLecture 14\n\n\nInternational Climate Agreements: Institutions, Incentives, and Strategic Cooperation\n\n\nNovember 14, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "🚀 Lecture\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 1\n\n\nSyllabus and Course Outline\n\n\nAugust 25, 2025\n\n\n\n\nLecture 2\n\n\nClass Survey Results vs. Professional Consensus\n\n\nAugust 27, 2025\n\n\n\n\nLecture 3\n\n\nMicroeconomics Review\n\n\nAugust 29, 2025\n\n\n\n\nLecture 4\n\n\nExternalities\n\n\nSeptember 5, 2025\n\n\n\n\nLecture 5\n\n\nProperty Rights, the Coase Theorem, and the Environment\n\n\nSeptember 15, 2025\n\n\n\n\nLecture 6\n\n\nCommon Property, Open Access, and Property Rights\n\n\nSeptember 26, 2025\n\n\n\n\nLecture 7\n\n\nPublic Goods\n\n\nOctober 3, 2025\n\n\n\n\nLecture 8\n\n\nInformation, Incentives, and Behavioral Anomalies\n\n\nOctober 17, 2025\n\n\n\n\nLecture 9\n\n\nBalancing the Present and Future: The Discount Rate\n\n\nOctober 24, 2025\n\n\n\n\nLecture 10\n\n\nCost–Benefit Analysis\n\n\nOctober 29, 2025\n\n\n\n\nLecture 11\n\n\nUnderstanding Climate Impacts and the Social Cost of Carbon\n\n\nOctober 31, 2025\n\n\n\n\nLecture 12\n\n\nValue of Statistical Life\n\n\nNovember 5, 2025\n\n\n\n\nLecture 13\n\n\nMarket for Pollution: Price vs. Quantity Approaches\n\n\nNovember 7, 2025\n\n\n\n\nLecture 14\n\n\nInternational Climate Agreements: Institutions, Incentives, and Strategic Cooperation\n\n\nNovember 14, 2025\n\n\n\n\nLecture 15\n\n\nClimate Change and the Individual: Research Kick-off Summary\n\n\nNovember 24, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#classwork",
@@ -4499,5 +4499,1139 @@
     "title": "Homework 4",
     "section": "Part B",
     "text": "Part B\nIf the two countries link their cap-and-trade systems, carbon allowances can trade freely across borders. In the linked system:\n\nTotal Uncontrolled CO₂ Emissions:\n\\(140\\) tons = \\(60 + 80\\)\nTotal Emissions Cap:\n\\(60\\) tons = \\(20 + 40\\)\nInitial Allowance Allocation:\n\nCountry A: 20 allowances\n\nCountry B: 40 allowances\n\n\nWith linkage, both countries face a single, common permit price. Each country buys or sells allowances to the other depending on whether they emit more or less than their initial allocation.\n\nWhat is the common permit price in the integrated carbon market?\n\nHow much CO₂ does each country abate under the linked system?\n\nDoes allowance trading occur between countries?\n\nIf so, describe which country buys or sells allowances and the number of allowances traded.\n\n\n\n\n\n\n\n\nTip\n\n\n\nLet \\(p\\) be the common permit price. If \\(p\\) &gt; 10, it is profitable for Country A to reduce emissions as much as possible (up to 60 tons) and sell extra allowances to Country B."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#motivation",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#motivation",
+    "title": "Lecture 15",
+    "section": "Motivation",
+    "text": "Motivation\n\nRapid expansion of AI tools and data centers.\nRaises key question: Does AI bring more harm than benefit to society?\nAI growth → Rising energy demand, water usage, and emissions.\nNeed to evaluate environmental impacts and policy options."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#what-is-vertical-farming",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#what-is-vertical-farming",
+    "title": "Lecture 15",
+    "section": "What is Vertical Farming?",
+    "text": "What is Vertical Farming?\n\nIndoor, vertically-stacked crop production.\nUses:\n\nHydroponics / aeroponics\nLED lighting\nClimate-controlled systems\n\n\nKey benefits:\n\nYear-round yields\n\nUp to 98% less water\n\nReduced pesticides and land conversion\n\nLower food miles, better nutrient retention"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#positive-externalities",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#positive-externalities",
+    "title": "Lecture 15",
+    "section": "Positive Externalities",
+    "text": "Positive Externalities\nVertical farming generates spillovers that markets fail to price:\n\nLower CO₂ emissions\n\nReduced deforestation & habitat loss\n\nWater efficiency\n\nBetter community health and food access\n\nLocal job creation\n\nLess food waste and transportation pollution\n\nPrivate MB &lt; Social MB → Underinvestment."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#market-failure-economic-theory",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#market-failure-economic-theory",
+    "title": "Lecture 15",
+    "section": "Market Failure & Economic Theory",
+    "text": "Market Failure & Economic Theory\n\nPositive externalities shift SMB &gt; PMB.\n\nPrivate investors do not capture spillover benefits → market quantity &lt; social optimum.\nTools to internalize spillovers:\n\nSubsidies\n\nTax credits\n\nVouchers for consumers\n\nProperty rights for vertical farmers\n\nEco-labeling to shift demand"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#case-study-evidence",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#case-study-evidence",
+    "title": "Lecture 15",
+    "section": "Case Study Evidence",
+    "text": "Case Study Evidence\n2023 St. Louis Vertical Farm Model (Li et al.)\n\n14 candidate sites, 32 grocery locations, 10 vertical-farm crops.\nBaseline:\n\nRevenue: $384k\n\nCosts: $391k\n\nProfit ≈ –$7.6k (break-even)\n\nSensitivity:\n\nCutting fixed + variable costs by 50% → $110k profit\n\nIndicates importance of:\n\nCost reductions\n\nScale efficiency\n\nPolicy incentives"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#policy-implications",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#policy-implications",
+    "title": "Lecture 15",
+    "section": "Policy Implications",
+    "text": "Policy Implications\nPotential interventions: - Size or distance requirements for data centers. - Renewable energy or water-efficiency mandates. - Limits on computational intensity of AI models. - Pigouvian pricing for energy-intensive AI training. - Public information campaigns on environmental impacts."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#feedback-next-steps",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#feedback-next-steps",
+    "title": "Lecture 15",
+    "section": "Feedback & Next Steps",
+    "text": "Feedback & Next Steps\nStrengths\n\nStrong conceptual framing\n\nClear link to environmental economics\n\nRelevant, policy-oriented topic\n\nImprovements\n\nRefine causal pathway: income → barriers → adoption\n\nSpecify measurable outcomes and data\n\nClarify theoretical model structure\n\nIdentify policy design distinctions (rebates vs. tax credits)"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#path-forward",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#path-forward",
+    "title": "Lecture 15",
+    "section": "Path Forward",
+    "text": "Path Forward\n\nFinalize core hypotheses.\n\nCollect state-level and household-level data.\n\nBuild simple economic model demonstrating:\n\nDiscounting differences\n\nInformation constraints\n\nPolicy effects\n\n\nConnect empirical patterns with equity implications."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#project-overview",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#project-overview",
+    "title": "Lecture 15",
+    "section": "Project Overview",
+    "text": "Project Overview\n\nResearch Question:\nHow can New York design wind energy policy that balances efficiency (clean energy expansion) and equity (localized costs on rural communities)?\nWind energy generates:\n\nPositive externalities: emissions reduction, cleaner air, energy security\n\nNegative externalities: noise, property value impacts, landscape disruption, wildlife effects"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#conceptual-frameworks",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#conceptual-frameworks",
+    "title": "Lecture 15",
+    "section": "Conceptual Frameworks",
+    "text": "Conceptual Frameworks\nExternalities & Market Failure\n\nBenefits and costs are unevenly distributed across regions.\nUrban consumers gain most of the benefits.\nRural communities bear localized costs → inequitable burden.\n\nPrincipal–Agent Issue\n\nPolicymakers and urban voters push for expansion.\nRural residents may oppose projects without compensation.\n\nEconomic Tools\n\nPigouvian taxes/subsidies\n\nCoasean bargaining\n\nIncentives & compensation mechanisms\n\nDynamic efficiency for long-term energy planning"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology",
+    "title": "Lecture 15",
+    "section": "Data & Methodology",
+    "text": "Data & Methodology\n\nSecondary data:\n\nScientific studies, industry reports, and news articles on:\n\nPower demand of large models and data centers.\nCO₂ and other GHG emissions.\nWater usage for cooling.\n\n\nMetrics for harms:\n\nkWh per training/inference.\nCO₂e per data center or per model.\nGallons of water per unit of compute.\n\nMetrics for benefits:\n\nAI-enabled efficiency gains in energy systems and production.\nImprovements in forecasting and diagnostics accuracy."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#anticipated-findings",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#anticipated-findings",
+    "title": "Lecture 15",
+    "section": "Anticipated Findings",
+    "text": "Anticipated Findings\n\nBoth onshore and offshore wind have trade-offs.\nOnshore:\n\nHigher noise and visual costs → major equity concerns\n\n\nOffshore:\n\nBenefits dispersed more widely\n\nSome wildlife and fishing impacts\n\n\nLikely conclusion:\nOffshore wind may offer a more balanced efficiency–equity outcome with proper safeguards."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#feedback-recommendations",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#feedback-recommendations",
+    "title": "Lecture 15",
+    "section": "Feedback & Recommendations",
+    "text": "Feedback & Recommendations\nStrengths\n\nClear framing of externalities.\nBalanced consideration of harms and benefits.\nStrong relevance to climate policy.\n\nSuggestions\n\nClarify scope (harms vs. net effect).\nAdd quantitative measures of externalities.\nExpand positive externalities section.\nDevelop more precise policy tools.\nUse economic diagrams (SMC vs. PMC)."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps",
+    "title": "Lecture 15",
+    "section": "Next Steps",
+    "text": "Next Steps\n\nDefine measurable indicators of harms and benefits.\n\nCollect emissions and water-use data for major data centers.\n\nEstimate net social impact where possible.\n\nEvaluate effectiveness of policy tools (taxes, regulations, mandates).\n\nIncorporate dynamic-efficiency and risk frameworks."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#overview-of-the-project",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#overview-of-the-project",
+    "title": "Lecture 15",
+    "section": "Overview of the Project",
+    "text": "Overview of the Project\n\nFocus: How income and information shape household decisions to adopt clean energy (EVs, solar panels).\nKey question:\nHow do income levels and access to information affect the economic reasoning behind clean energy adoption?\nRelevance:\n\nNegative externalities from fossil fuels\n\nGrowing incentives (tax credits, rebates, DSM programs)\n\nEquity concerns in the clean energy transition"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#conceptual-frameworks-1",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#conceptual-frameworks-1",
+    "title": "Lecture 15",
+    "section": "Conceptual Frameworks",
+    "text": "Conceptual Frameworks\n1. Market Failure\n\nFossil fuel consumption imposes negative externalities.\n\nHouseholds do not face the full social cost → under-adoption of clean energy.\n\n2. Behavioral Economics\n\nHigh upfront costs trigger high implicit discount rates.\nInformation gaps reduce perceived long-term benefits.\nCreates an energy efficiency gap (Allcott & Greenstone).\n\n3. Equity Concerns\n\nLow-income households:\n\nFace financial constraints\n\nLack access to information and capital\n\n\nHigh-income households disproportionately benefit from current incentives."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-1",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-1",
+    "title": "Lecture 15",
+    "section": "Data & Methodology",
+    "text": "Data & Methodology\n\nAnalytical tools:\n\nRisk analysis of environmental harms.\nComparison of harms vs. documented benefits across key application domains.\nConceptual cost–benefit framing for AI policy design."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#policy-background",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#policy-background",
+    "title": "Lecture 15",
+    "section": "Policy Background",
+    "text": "Policy Background\n\nDSM programs reduce electricity consumption (EIA).\n\nIncentives include:\n\nTax credits\n\nRebates\n\nUpfront subsidies\n\n\nAdoption remains uneven due to:\n\nIncome barriers\n\nInformational asymmetries"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#expected-insights",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#expected-insights",
+    "title": "Lecture 15",
+    "section": "Expected Insights",
+    "text": "Expected Insights\n\nBetter understanding of emissions through personal feedback tools.\nStronger engagement via:\n\nCarbon calculators\nPeer comparisons\nSocial norms\n\nPotential implications:\n\nEnhanced carbon literacy\nSupport for demand-side climate programs\nInform app design and sustainability dashboards"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#feedback-next-steps-1",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#feedback-next-steps-1",
+    "title": "Lecture 15",
+    "section": "Feedback & Next Steps",
+    "text": "Feedback & Next Steps\nStrengths\n\nStrong conceptual foundation\nExcellent integration of theory + case study\nClear policy motivation\n\nSuggestions\n\nNarrow research scope\n\nClarify empirical strategy\n\nQuantify key externalities\n\nAddress equity and energy-use trade-offs"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#path-forward-1",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#path-forward-1",
+    "title": "Lecture 15",
+    "section": "Path Forward",
+    "text": "Path Forward\n\nDefine measurable outcome variables (water saved, CO₂ reduced, adoption rates).\n\nExtend cost-benefit analysis using case-study parameters.\n\nBuild supply–demand diagrams illustrating SMB &gt; PMB gap.\n\nEvaluate specific subsidy or voucher levels needed to reach the social optimum."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#motivation-1",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#motivation-1",
+    "title": "Lecture 15",
+    "section": "Motivation",
+    "text": "Motivation\n\nClimate mitigation is a long-term public good.\nGenerations differ in:\n\nConcern for climate change\n\nTrust in science\n\nSupport for climate policy\n\nWillingness to take action\n\nRaises central question:\nHow do generational differences in climate views shape climate action?"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#key-economic-mechanism",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#key-economic-mechanism",
+    "title": "Lecture 15",
+    "section": "Key Economic Mechanism",
+    "text": "Key Economic Mechanism\nNegative Externalities\n\nThird-party costs not borne by AI firms or users:\n\nHigh electricity consumption → GHG emissions\nWater usage for cooling → exacerbates drought risk\nNoise pollution\nEcosystem disruption\n\n\nMarket failure occurs when firms ignore external costs."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#additional-mechanisms",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#additional-mechanisms",
+    "title": "Lecture 15",
+    "section": "Additional Mechanisms",
+    "text": "Additional Mechanisms\nBehavioral Economics\n\nMisuse and overuse of AI tools.\nLimited user awareness of environmental impacts.\n\nStrategic Interaction\n\n“AI arms race” among tech firms.\nCompetitive pressure to innovate faster than regulators.\n\nDynamic Efficiency\n\nLong-run trade-off:\n\nInnovation vs. environmental degradation."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#positive-externalities-of-ai",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#positive-externalities-of-ai",
+    "title": "Lecture 15",
+    "section": "Positive Externalities of AI",
+    "text": "Positive Externalities of AI\n\nImproved energy efficiency (smart grids, manufacturing).\nEnhanced medical diagnostics.\nExtreme-weather and storm forecasting.\nScientific advances via pattern recognition.\nProductivity improvements.\n\nBut these benefits may be overshadowed by environmental harms if unmanaged."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-2",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-2",
+    "title": "Lecture 15",
+    "section": "Data & Methodology",
+    "text": "Data & Methodology\n\nSecondary data:\n\nStatista and similar platforms for:\n\nTransportation emissions.\nHousehold emissions.\nAdoption of carbon-budgeting tools.\n\nGovernment and NGO reports on:\n\nCarbon budgets in the UK, France, and other jurisdictions.\n\n\nKey variables:\n\nHigh-impact vs. low-impact activity categories (flying vs. local transit, meat vs. plant-based).\nIndividual carbon-footprint estimates under different behavioral scenarios."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#expected-findings",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#expected-findings",
+    "title": "Lecture 15",
+    "section": "Expected Findings",
+    "text": "Expected Findings\n\nEnvironmental harms likely substantial and increasing:\n\nRising demand for electricity and water.\nPressure on nonrenewables.\nLocalized noise and ecosystem impacts.\n\nBenefits exist but may not outweigh environmental costs without policy intervention."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#policy-implications-1",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#policy-implications-1",
+    "title": "Lecture 15",
+    "section": "Policy Implications",
+    "text": "Policy Implications\n\nFor producers:\n\nCapital subsidies, tax credits, grants\n\nLower upfront investment barriers\n\nProperty rights enabling Coase-like bargaining\n\nFor consumers:\n\nVouchers for vertically-farmed produce\n\nEco-labels and education\n\nIncreased visibility in urban retail markets\n\nResult:\n\nAlignment of private incentives with social benefits\n\nAcceleration of sustainable agriculture adoption"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#feedback-recommendations-1",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#feedback-recommendations-1",
+    "title": "Lecture 15",
+    "section": "Feedback & Recommendations",
+    "text": "Feedback & Recommendations\nStrengths\n\nClear economic framing (discounting, externalities)\nStrong behavioral-economics integration\nSolid mixed-methods plan\nGood incorporation of existing data\n\nSuggestions\n\nQuantify discount-rate differences\n\nControl for confounders\n\nLink attitudes to actual behavior\n\nExpand policy implications\n\nClarify survey design and analysis strategy"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps-1",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps-1",
+    "title": "Lecture 15",
+    "section": "Next Steps",
+    "text": "Next Steps\n\nSharpen key hypotheses.\n\nIdentify specific behavioral outcomes to measure.\n\nExpand data sources (surveys, experiments, dashboards).\n\nStrengthen narrative linking individual decisions to policy relevance."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#overview-of-the-topic",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#overview-of-the-topic",
+    "title": "Lecture 15",
+    "section": "Overview of the Topic",
+    "text": "Overview of the Topic\n\nIndividuals contribute significantly to greenhouse gas emissions.\nThe project examines personal carbon budgeting as a behavioral tool.\nCore theme: Climate Change and the Individual.\nFocus: How budgeting frameworks may shift daily decision-making."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#research-question",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#research-question",
+    "title": "Lecture 15",
+    "section": "Research Question",
+    "text": "Research Question\nHow does viewing carbon emissions as a personal budget influence behavior in high-impact and low-impact activities?\n\nConnects to environmental externalities.\nRelevant for demand-side climate policy.\nHighlights behavioral mechanisms such as:\n\nLimited attention\n\nCognitive constraints\n\nMotivation via framing"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#conceptual-framework",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#conceptual-framework",
+    "title": "Lecture 15",
+    "section": "Conceptual Framework",
+    "text": "Conceptual Framework\n\nBehavioral Economics (Thaler: Mental Accounting)\n\nIndividuals use mental budgets to organize decisions.\n\nEmissions framed as a “budget category” may reduce overspending.\n\nExternalities & Awareness\n\nPersonal tracking increases risk perception.\nEncourages positive externalities via improved choices."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-3",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-3",
+    "title": "Lecture 15",
+    "section": "Data & Methodology",
+    "text": "Data & Methodology\n\nAnalytical strategies:\n\nDescriptive comparisons of emissions under “with-budget” vs. “no-budget” behavioral assumptions.\nConceptual behavioral models of mental accounting and framing.\nDiscussion of how budgeting tools might change marginal decisions (short trips, diet, etc.)."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#expected-insights-1",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#expected-insights-1",
+    "title": "Lecture 15",
+    "section": "Expected Insights",
+    "text": "Expected Insights\n\nREDD+ underperforms due to:\n\nMarket failures\n\nLeakage\n\nGovernance gaps\n\nWeak land rights\n\n\nEffective reforms:\n\nSecure land titles\n\nTimely & transparent payments\n\nZero-deforestation supply chains\n\nStronger monitoring and enforcement"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#feedback-suggestions",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#feedback-suggestions",
+    "title": "Lecture 15",
+    "section": "Feedback & Suggestions",
+    "text": "Feedback & Suggestions\nStrengths\n\nClear and relevant question\n\nStrong theoretical grounding\n\nGood use of international cases\n\nImprovements\n\nClarify causal mechanisms\n\nDefine measurable behavioral outcomes\n\nConsider feasibility and equity concerns\n\nAddress data limitations of secondary sources"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps-2",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps-2",
+    "title": "Lecture 15",
+    "section": "Next Steps",
+    "text": "Next Steps\n\nFinalize survey instrument and sampling strategy.\n\nIdentify key variables for quantitative comparison.\n\nCollect and analyze Pew + survey data.\n\nExamine implications for intergenerational climate policy.\n\nConnect findings to welfare economics and long-term planning."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#project-overview-1",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#project-overview-1",
+    "title": "Lecture 15",
+    "section": "Project Overview",
+    "text": "Project Overview\n\nFocus: Underperformance of REDD+ initiatives in Brazil\nKey theme: Climate Change and the Individual\nMillions of individual land-use decisions aggregate into deforestation.\nREDD+ aims to reduce emissions by conserving forests—but outcomes remain poor."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#research-question-motivation",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#research-question-motivation",
+    "title": "Lecture 15",
+    "section": "Research Question & Motivation",
+    "text": "Research Question & Motivation\nWhy has REDD+ failed to effectively reduce deforestation in Brazil?\nMotivation: - Amazon = global carbon sink\n- Deforestation → CO₂ emissions, loss of biodiversity, rainfall disruption\n- Brazil’s forest governance challenges undermine climate goals"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#core-economic-mechanisms",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#core-economic-mechanisms",
+    "title": "Lecture 15",
+    "section": "Core Economic Mechanisms",
+    "text": "Core Economic Mechanisms\nNegative Externalities\n\nPrivate actors capture profits from land clearing.\nSociety bears climate costs → market failure.\n\nPublic Goods Problem\n\nForests provide global benefits (carbon storage, biodiversity).\nNo individual has sufficient incentive to protect them → free-riding.\n\nProperty Rights Failures\n\nWeak or unclear land tenure encourages illegal clearing.\nShort-term profit maximization over long-term sustainability."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#redd-program-challenges",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#redd-program-challenges",
+    "title": "Lecture 15",
+    "section": "REDD+ Program Challenges",
+    "text": "REDD+ Program Challenges\n\nLeakage: deforestation shifts to neighboring regions.\nCorruption & weak enforcement: payments delayed, monitoring unreliable.\nPhantom credits: carbon credits issued without real reductions.\nLocal resistance: incentives insufficient; distrust of institutions."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-4",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-4",
+    "title": "Lecture 15",
+    "section": "Data & Methodology",
+    "text": "Data & Methodology\n\nSurveys across generational groups:\n\nPerceived seriousness of climate change.\nTrust in science and scientific institutions.\nSupport for specific policy instruments (carbon taxes, regulations, subsidies).\nFrequency of pro-environmental behaviors (voting, activism, consumption choices).\n\nSecondary data:\n\nPew Research Center surveys on climate attitudes by generation.\nNational and international datasets on environmental opinions and participation."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#expected-insights-2",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#expected-insights-2",
+    "title": "Lecture 15",
+    "section": "Expected Insights",
+    "text": "Expected Insights\n\nHigher-income households adopt at higher rates due to:\n\nGreater access to capital\n\nBetter information\n\nLower effective discount rates\n\n\nImproved policy design:\n\nSimplified incentives\n\nEarlier and accessible rebates\n\nTargeted programs for low-income households"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#feedback-recommendations-2",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#feedback-recommendations-2",
+    "title": "Lecture 15",
+    "section": "Feedback & Recommendations",
+    "text": "Feedback & Recommendations\nStrengths\n\nStrong conceptual foundation\n\nClear link to NY-specific environmental issues\n\nBalanced evaluation of onshore vs. offshore impacts\n\nSuggestions\n\nDefine equity metrics more clearly\n\nStrengthen dynamic efficiency discussion\n\nExpand Coase and compensation mechanisms\n\nDevelop a more explicit methodological plan"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps-3",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps-3",
+    "title": "Lecture 15",
+    "section": "Next Steps",
+    "text": "Next Steps\n\nFinalize metrics for equity and externality valuation.\n\nCollect noise, wildlife, and energy-generation datasets.\n\nConduct comparative CBA for onshore vs. offshore.\n\nPropose policy mechanisms:\n\nCommunity benefit agreements\n\nRevenue-sharing\n\nProperty value guarantees\n\n\nPrepare visuals (maps, impact diagrams) for final presentation."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#motivation-2",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#motivation-2",
+    "title": "Lecture 15",
+    "section": "Motivation",
+    "text": "Motivation\n\nDaily dietary choices contribute directly to global GHG emissions.\nMeat production is emissions-intensive (methane, CO₂, land use).\nResearch question:\nHow do reductions in meat consumption combine to produce measurable global emissions impacts?"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#key-economic-mechanism-1",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#key-economic-mechanism-1",
+    "title": "Lecture 15",
+    "section": "Key Economic Mechanism",
+    "text": "Key Economic Mechanism\nIntertemporal Discounting\n\nPeople value future benefits less than present costs.\nYounger generations expected to have lower discount rates.\nOlder generations may discount the future more heavily → less support for long-term climate investments.\n\nIntergenerational Externalities\n\nToday’s decisions affect future generations who cannot participate.\nLeads to underinvestment in mitigation and adaptation."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#behavioral-economics-factors",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#behavioral-economics-factors",
+    "title": "Lecture 15",
+    "section": "Behavioral Economics Factors",
+    "text": "Behavioral Economics Factors\n\nPresent bias\nHyperbolic discounting\nRisk misperception\nLimited attention to long-run impacts\n\nThese biases contribute to insufficient climate action across generations."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#market-failure-1",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#market-failure-1",
+    "title": "Lecture 15",
+    "section": "Market Failure",
+    "text": "Market Failure\n\nClimate change is a global public good.\nDecisions today impose external costs on younger and future generations.\nStandard models treat society as having one discount rate—this may be unrealistic."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-5",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-5",
+    "title": "Lecture 15",
+    "section": "Data & Methodology",
+    "text": "Data & Methodology\n\nAnalytical approach:\n\nStatistical analysis linking generation to climate concern and behavior.\nControls for income, education, ideology, and geography.\nConceptual discussion of how discounting and identity shape policy preferences."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#expected-findings-1",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#expected-findings-1",
+    "title": "Lecture 15",
+    "section": "Expected Findings",
+    "text": "Expected Findings\n\nGen Z & Millennials:\n\nHigher concern\n\nGreater trust in science\n\nStronger support for climate action and system-level policy\n\nHigher activism and engagement\n\nGen X & Baby Boomers:\n\nMore skepticism or prioritization of economic stability\n\nPreference for gradual or market-based approaches\n\n\nGenerational views influence personal choices and collective political outcomes."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#feedback-recommendations-3",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#feedback-recommendations-3",
+    "title": "Lecture 15",
+    "section": "Feedback & Recommendations",
+    "text": "Feedback & Recommendations\nStrengths\n\nStrong economic framing\n\nClear explanation of market failures\n\nGood integration of institutional challenges\n\nStrong links to global climate implications\n\nSuggestions\n\nClarify causal pathways\n\nAdd specific performance indicators\n\nInclude political economy dynamics\n\nExpand empirical strategy\n\nPropose concrete policy reforms"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps-4",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps-4",
+    "title": "Lecture 15",
+    "section": "Next Steps",
+    "text": "Next Steps\n\nIdentify measurable REDD+ performance metrics.\n\nCompile deforestation + land tenure + enforcement data.\n\nAnalyze stakeholder incentives (farmers, firms, government).\n\nEvaluate alternative policy mechanisms.\n\nDevelop clear recommendations for improving REDD+."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#motivation-3",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#motivation-3",
+    "title": "Lecture 15",
+    "section": "Motivation",
+    "text": "Motivation\n\nGlobal population → 9.7 billion by 2050; 70% urban.\n\nTraditional agriculture faces:\n\nLand scarcity\n\nFreshwater depletion (70% of global freshwater use)\n\nClimate vulnerability\n\n\nNeed for innovative, resource-efficient food systems."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms",
+    "text": "Economic Mechanisms\nIntertemporal Discounting & Bounded Rationality\n\nClimate damages are distant and uncertain.\nIndividuals heavily discount the future.\nInsurance premiums make climate risks financially immediate, reducing discounting.\n\nIntergenerational Externalities\n\nCurrent decisions impose costs on future generations.\nUnderinvestment in mitigation due to free-riding.\n\nInsurance Structure\n\nLow-risk consumers subsidize high-risk ones.\nPremium hikes increase salience of climate risk for all households."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#behavioral-economics-2",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#behavioral-economics-2",
+    "title": "Lecture 15",
+    "section": "Behavioral Economics",
+    "text": "Behavioral Economics\n\nRisk salience after disasters (wildfires).\n\nAvailability heuristic: recent events increase perceived likelihood.\n\nLimited attention → premiums serve as a “wake-up call.”\n\nInsurance can act as a behavioral signal of climate danger."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-6",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-6",
+    "title": "Lecture 15",
+    "section": "Data & Methodology",
+    "text": "Data & Methodology\n\nData sources\n\nNYSERDA and state reports on:\n\nWind turbine noise (decibel levels at various distances).\nSiting and permitting of onshore and offshore wind.\n\nEnvironmental impact data:\n\nWildlife (birds, bats, fisheries).\nCoastal and marine ecosystems.\n\nEnergy production data:\n\nCapacity factors and output for onshore vs. offshore projects."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#expected-findings-2",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#expected-findings-2",
+    "title": "Lecture 15",
+    "section": "Expected Findings",
+    "text": "Expected Findings\n\nPlant-based diets → lower GHG emissions.\nWealthy countries → more food waste → higher climate impact.\nBarriers:\n\nHabits, culture, norms\n\nMisperceptions about nutrition\n\nAffordability concerns\n\n\nPolicies can guide consumers toward low-carbon diets."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#feedback-recommendations-4",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#feedback-recommendations-4",
+    "title": "Lecture 15",
+    "section": "Feedback & Recommendations",
+    "text": "Feedback & Recommendations\nStrengths\n\nClear question\n\nStrong economic foundation\n\nGood integration of behavioral and environmental economics\n\nPolicy relevance\n\nSuggestions\n\nClarify causal pathway from diet → production → emissions\n\nSpecify outcome metrics (kg CO₂e, methane reductions, etc.)\n\nStrengthen behavioral and equity analysis\n\nExpand policy tools with concrete examples\n\nOutline data sources & scenario modeling explicitly"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps-5",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps-5",
+    "title": "Lecture 15",
+    "section": "Next Steps",
+    "text": "Next Steps\n\nDefine measurable emissions outcomes.\n\nCollect dietary + GHG footprint data.\n\nModel emissions reductions under various diet-shift scenarios.\n\nEvaluate policy tools using elasticity and externality frameworks.\n\nIncorporate equity and behavioral considerations."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#motivation-4",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#motivation-4",
+    "title": "Lecture 15",
+    "section": "Motivation",
+    "text": "Motivation\n\nClimate change increasingly affects insurance markets.\n2025 Southern California wildfires caused major premium hikes and insurer withdrawal.\nKey question:\nDo rising insurance premiums increase individuals’ perceptions of climate risk?"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#core-economic-mechanisms-1",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#core-economic-mechanisms-1",
+    "title": "Lecture 15",
+    "section": "Core Economic Mechanisms",
+    "text": "Core Economic Mechanisms\nNegative Externalities\n\nClimate costs of meat production not reflected in prices.\nLeads to overconsumption relative to the social optimum.\n\nMarket Failure\n\nPrivate marginal cost &lt; social marginal cost.\nRequires policy to realign incentives.\n\nBehavioral Economics\n\nBounded rationality\n\nHabits & social norms\n\nImperfect information\n→ Makes sustainable choices harder even when benefits are known."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#analytical-tools",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#analytical-tools",
+    "title": "Lecture 15",
+    "section": "Analytical Tools",
+    "text": "Analytical Tools\n\nExternality & social cost analysis\n\nElasticity of demand for meat and substitutes\n\nIncentive design:\n\nCarbon pricing on high-emission foods\n\nSubsidies for plant-based alternatives\n\nInformation nudges & carbon labels"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-7",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-7",
+    "title": "Lecture 15",
+    "section": "Data & Methodology",
+    "text": "Data & Methodology\n\nAnalytical approach\n\nCost–Benefit Analysis (CBA):\n\nQuantify social benefits (GHG reductions, air quality improvements).\nQuantify local costs where possible (noise, visual, property impacts).\nCompare net benefits per location and technology (onshore vs. offshore).\n\nDistributional analysis:\n\nHow benefits and costs fall across urban vs. rural communities.\nDiscussion of equity-focused policy design."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#expected-findings-3",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#expected-findings-3",
+    "title": "Lecture 15",
+    "section": "Expected Findings",
+    "text": "Expected Findings\n\nHigher premiums → higher perceived climate risk.\nDirectly affected counties show strongest increases in:\n\nClimate concern\n\nPolitical engagement\n\nPolicy support for mitigation and adaptation\n\nAdjacent counties may experience spillover concern."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#feedback-recommendations-5",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#feedback-recommendations-5",
+    "title": "Lecture 15",
+    "section": "Feedback & Recommendations",
+    "text": "Feedback & Recommendations\nStrengths\n\nStrong economic framing\n\nClear behavioral mechanisms\n\nTimely and policy-relevant question\n\nFeasible mixed-methods research design\n\nSuggestions\n\nClarify causal pathway\n\nDistinguish premium types\n\nExpand behavioral explanations\n\nStrengthen empirical strategy\n\nAddress income/race equity concerns"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps-6",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps-6",
+    "title": "Lecture 15",
+    "section": "Next Steps",
+    "text": "Next Steps\n\nFinalize dataset of county-level premiums.\n\nMerge surveys with hazard + premium data.\n\nTest hypotheses on risk perception and political attitudes.\n\nExplore policy implications: insurance reform, zoning, adaptation.\n\nConnect findings to discounting and climate-economics theory."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#market-failure",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#market-failure",
+    "title": "Lecture 15",
+    "section": "Market Failure",
+    "text": "Market Failure\n\nClimate change is a global public good.\nDecisions today impose external costs on younger and future generations.\nStandard models treat society as having one discount rate—this may be unrealistic."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#behavioral-economics-3",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#behavioral-economics-3",
+    "title": "Lecture 15",
+    "section": "Behavioral Economics",
+    "text": "Behavioral Economics\n\nRisk salience after disasters (wildfires).\n\nAvailability heuristic: recent events increase perceived likelihood.\n\nLimited attention → premiums serve as a “wake-up call.”\n\nInsurance can act as a behavioral signal of climate danger."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#motivation-overview-research-question",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#motivation-overview-research-question",
+    "title": "Lecture 15",
+    "section": "Motivation, Overview & Research Question",
+    "text": "Motivation, Overview & Research Question\n\nRapid expansion of AI tools and data centers.\nAI growth → rising energy demand, water usage, and GHG emissions.\nWidespread everyday use (search, coding, admin tasks) raises concerns about environmental sustainability.\nResearch Question: Does AI bring more harm than benefit to society, once environmental impacts are accounted for?\nNeed to evaluate both the harms (externalities) and benefits (efficiency, innovation) in a structured way and consider policy responses."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nNegative externalities\n\nHigh electricity consumption → increased GHG emissions.\nLarge water withdrawals for cooling → worsens water stress.\nNoise, land-use impacts, and ecosystem disruption around data centers.\nClassic market failure when AI firms and users ignore external costs.\n\nBehavioral economics\n\nMisuse and overuse of AI tools due to low marginal private cost.\nLimited user awareness of environmental impacts."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#motivation-overview-research-question-1",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#motivation-overview-research-question-1",
+    "title": "Lecture 15",
+    "section": "Motivation, Overview & Research Question",
+    "text": "Motivation, Overview & Research Question\n\nIndividuals contribute significantly to greenhouse gas emissions through daily activities:\n\nDriving, heating, food consumption, and consumption of goods.\n\nThe project examines personal carbon budgeting as a behavioral tool for climate mitigation.\nResearch Question:\nHow does viewing carbon emissions as a personal budget influence behavior in high-impact and low-impact activities?\nPolicy relevance:\n\nDemand-side climate strategies.\nPotential to support carbon-literacy initiatives and climate apps."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-1",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-1",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nStrategic interaction & dynamic efficiency\n\n“AI arms race” among tech firms to release bigger models faster.\nIncentives to race ahead of regulators.\nLong-run trade-off: innovation vs. environmental degradation.\n\nPositive externalities of AI\n\nImproved energy efficiency (smart grids, optimized manufacturing).\nEnhanced medical diagnostics and scientific discovery.\nBetter extreme-weather and storm forecasting.\nProductivity gains in many sectors."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#motivation-overview-research-question-2",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#motivation-overview-research-question-2",
+    "title": "Lecture 15",
+    "section": "Motivation, Overview & Research Question",
+    "text": "Motivation, Overview & Research Question\n\n\nDifferent generations (Boomers, Gen X, Millennials, Gen Z) differ in:\n\nConcern for climate change.\nTrust in scientific consensus.\nSupport for climate policy.\nWillingness to engage in climate action.\n\nResearch Question:\nHow do generational differences in climate views shape climate action and policy support?\nRelevance:\n\nHelps explain underinvestment in long-term climate mitigation.\nHighlights intergenerational tensions in climate politics and policy design."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-2",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-2",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nBehavioral economics (Thaler: Mental Accounting)\n\nIndividuals use mental budgets to organize decisions (e.g., food, entertainment).\nTreating emissions as a “budget category” can:\n\nIncrease salience of climate impacts.\nReduce “overspending” on carbon-intensive actions.\nEncourage substitution toward low-carbon activities."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#motivation-overview-research-question-3",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#motivation-overview-research-question-3",
+    "title": "Lecture 15",
+    "section": "Motivation, Overview & Research Question",
+    "text": "Motivation, Overview & Research Question\n\nNew York aims to expand wind energy to meet clean-energy and climate targets.\nWind energy generates:\n\nPositive externalities: emissions reduction, cleaner air, energy security.\nNegative externalities: noise, visual impacts, property value concerns, wildlife effects.\n\nGeographic distribution of costs and benefits:\n\nUrban consumers benefit from clean electricity.\nRural communities shoulder many local costs.\n\nResearch Question:\nHow can New York design wind energy policy that balances efficiency (clean energy expansion) and equity (localized burdens)?"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-3",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-3",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nExternalities & awareness\n\nUnpriced carbon emissions → negative externalities.\nPersonal tracking and feedback can:\n\nRaise risk perception.\nGenerate positive externalities via reduced emissions.\nReinforce social norms around low-carbon lifestyles (peer comparisons, dashboards).\n\n\nPolicy and implementation angle\n\nLinks to carbon calculators, personal dashboards, and potential policy nudges.\nFits within broader efforts to internalize externalities via information and framing, not only prices."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#motivation-overview-research-question-4",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#motivation-overview-research-question-4",
+    "title": "Lecture 15",
+    "section": "Motivation, Overview & Research Question",
+    "text": "Motivation, Overview & Research Question\n\nREDD+ (Reducing Emissions from Deforestation and Forest Degradation) aims to:\n\nConserve forests.\nReduce emissions from land-use change.\nSupport sustainable development.\n\nBrazil’s Amazon rainforest is a critical global carbon sink.\nDespite REDD+, deforestation continues at high levels.\nResearch Question:\nWhy has REDD+ failed to effectively reduce deforestation in Brazil?"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-4",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-4",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nIntertemporal discounting\n\nPeople discount future benefits relative to current costs.\nYounger generations likely apply lower discount rates to long-term climate outcomes.\nOlder generations may discount more heavily → less support for costly, long-term policies.\n\nIntergenerational externalities\n\nToday’s emissions affect future generations, who cannot vote or participate in today’s decisions.\nUnderinvestment in mitigation and adaptation from a social-welfare perspective."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#motivation-overview-research-question-5",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#motivation-overview-research-question-5",
+    "title": "Lecture 15",
+    "section": "Motivation, Overview & Research Question",
+    "text": "Motivation, Overview & Research Question\n\nHouseholds face decisions about adopting clean energy technologies:\n\nElectric vehicles (EVs), rooftop solar, energy-efficient appliances.\n\nAdoption is uneven, often skewed toward higher-income households.\nResearch Question:\nHow do income levels and access to information affect the economic reasoning behind clean energy adoption?\nRelevance:\n\nFossil fuels produce negative externalities.\nExisting policies (tax credits, rebates, DSM programs) may not be equitable or effective across income groups."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-5",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-5",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nBehavioral economics factors\n\nPresent bias and hyperbolic discounting.\nMisperception of long-run climate risk and tail events.\nLimited attention and cognitive constraints.\n\nMarket failure\n\nClimate is a global public good; benefits are diffuse and long-term.\nStandard models with a single social discount rate may miss heterogeneous preferences across generations."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#motivation-overview-research-question-6",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#motivation-overview-research-question-6",
+    "title": "Lecture 15",
+    "section": "Motivation, Overview & Research Question",
+    "text": "Motivation, Overview & Research Question\n\nDaily dietary choices (especially meat vs. plant-based) have major impacts on global GHG emissions.\nThe food system is a substantial share of global emissions, particularly from livestock.\nIndividuals have relatively high flexibility in adjusting diets compared to other behaviors.\nResearch Question: How do individual dietary choices—especially reductions in meat consumption—combine to produce measurable global emissions impacts through changes in agricultural production?\nPolicy interest:\n\nCarbon pricing on high-emission foods.\nInformation campaigns and dietary guidelines.\nLow-carbon diet promotion."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-6",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-6",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nExternalities & market failure\n\nBenefits and costs are unevenly distributed across regions.\nWithout policy, wind expansion may be efficient in aggregate but inequitable locally.\n\nPrincipal–agent issues\n\nPolicymakers and urban voters may push for rapid expansion.\nRural communities may resist if they perceive unfair distribution of benefits vs. costs."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#motivation-overview-research-question-7",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#motivation-overview-research-question-7",
+    "title": "Lecture 15",
+    "section": "Motivation, Overview & Research Question",
+    "text": "Motivation, Overview & Research Question\n\nGlobal population projected to reach 9.7 billion by 2050, with ~70% living in cities.\nTraditional agriculture faces:\n\nLand scarcity near urban centers.\nFreshwater depletion (agriculture uses ~70% of global freshwater).\nClimate vulnerability and environmental degradation.\n\nVertical farming:\n\nIndoor, vertically stacked production using hydroponics/aeroponics and LED lighting.\n\nResearch Question: How has the adoption of vertical farming generated positive externalities for individuals and communities, and what policy mechanisms can internalize these benefits to promote sustainable agriculture?"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-7",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-7",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nEconomic tools and frameworks\n\nPigouvian taxes/subsidies to internalize externalities.\nCoasean bargaining and community benefit agreements.\nCompensation mechanisms:\n\nRevenue sharing.\nLocal infrastructure investments.\nProperty value guarantees.\n\nDynamic efficiency:\n\nLong-term planning of onshore vs. offshore capacity.\nBalancing near-term costs with long-term climate benefits."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#motivation-overview-research-question-8",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#motivation-overview-research-question-8",
+    "title": "Lecture 15",
+    "section": "Motivation, Overview & Research Question",
+    "text": "Motivation, Overview & Research Question\n\nClimate change is increasingly visible in insurance markets:\n\nRising premiums and reduced coverage in high-risk areas.\n\n2025 Southern California wildfires:\n\nMajor damages.\nSignificant increases in property insurance premiums and insurer withdrawal.\n\nResearch Question: Do rising insurance premiums increase individuals’ perceptions of climate risk and climate-policy support?\nImportance:\n\nInsurance may be one of the clearest financial signals of climate risk for households.\nCould help reduce excessive discounting of future climate damages."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-8",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-8",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nNegative externalities\n\nPrivate actors profit from land clearing (ranching, soy), while:\n\nSociety bears climate and ecosystem costs (CO₂ emissions, biodiversity loss, rainfall disruption).\n\n\nPublic goods and free-riding\n\nAmazon forests provide global benefits (carbon storage, climate regulation, biodiversity).\nNo single actor internalizes full benefits → under-protection.\n\nProperty-rights failures\n\nWeak or unclear land tenure:\n\nEncourages illegal clearing and land grabs.\nPromotes short-term profit maximization."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-8",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-8",
+    "title": "Lecture 15",
+    "section": "Data & Methodology",
+    "text": "Data & Methodology\n\nSecondary data\n\nAcademic literature on REDD+ in Brazil and other countries.\nReports from:\n\nUN, CIFOR, NGOs (e.g., Global Forest Coalition).\nBrazilian government and international agencies.\n\nDeforestation statistics and satellite-based land-use data.\n\nSurvey and qualitative evidence\n\nStudies of:\n\nLocal perceptions of REDD+ incentives.\nAttitudes toward land rights, enforcement, and payments."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-continued",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-continued",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework (continued)",
+    "text": "Economic Mechanisms & Conceptual Framework (continued)\n\nStrategic interaction & dynamic efficiency\n\n“AI arms race” among tech firms to release bigger models faster.\nIncentives to race ahead of regulators.\nLong-run trade-off: innovation vs. environmental degradation.\n\nPositive externalities of AI\n\nImproved energy efficiency (smart grids, optimized manufacturing).\nEnhanced medical diagnostics and scientific discovery.\nBetter extreme-weather and storm forecasting.\nProductivity gains in many sectors."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-9",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-9",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nProgram-specific problems in REDD+\n\nLeakage: deforestation shifts to neighboring areas not under strict protection.\nCorruption and weak enforcement: delayed or misdirected payments; poor monitoring.\nPhantom credits: carbon credits without real emission reductions.\nMismatch between high-level design and on-the-ground incentives for farmers and communities."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-10",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-10",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nMarket failure\n\nFossil fuel use imposes environmental externalities not fully priced.\nUnder-adoption of clean energy relative to the social optimum.\n\nBehavioral economics\n\nHigh upfront costs and implicit discount rates cause households to undervalue future savings.\nInformation gaps:\n\nLimited understanding of long-run savings.\nUncertainty about technology reliability.\n\nEnergy efficiency gap: households forgo cost-effective energy-saving investments."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-9",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-9",
+    "title": "Lecture 15",
+    "section": "Data & Methodology",
+    "text": "Data & Methodology\n\nAnalytical approach\n\nEconomic reasoning using externalities, public goods, and property-rights theory.\nComparison of REDD+ design vs. observed implementation.\nConceptual mapping of how governance failures and incentives lead to program underperformance."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-10",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-10",
+    "title": "Lecture 15",
+    "section": "Data & Methodology",
+    "text": "Data & Methodology\n\nSecondary data sources\n\nEIA and RECS (Residential Energy Consumption Survey).\nNYSERDA and other state-level clean energy program reports.\nStudies on EV and solar adoption by income, region, and demographics.\n\nEmpirical focus\n\nCompare clean energy adoption rates across:\n\nIncome groups.\nStates with different incentive structures.\n\nExamine:\n\nTypes of incentives (rebates vs. tax credits, upfront vs. delayed)."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-11",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-11",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nEquity concerns\n\nLow-income households:\n\nFace credit constraints.\nHave less access to high-quality information and time to research.\n\nHigh-income households disproportionately capture tax credits and subsidies.\nRaises questions about distributional fairness of climate policies."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-11",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-11",
+    "title": "Lecture 15",
+    "section": "Data & Methodology",
+    "text": "Data & Methodology\n\nConceptual and modeling approach\n\nSimple household decision model with:\n\nHeterogeneous income and credit constraints.\nDifferent discount rates and information levels.\n\nUse this framework to interpret observed patterns in adoption and evaluate policy design options."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-12",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-12",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nNegative externalities & market failure\n\nMeat production generates emissions that are not priced into food costs.\nPrivate marginal cost &lt; social marginal cost → overconsumption of high-emission foods.\n\nBehavioral economics\n\nFood choices shaped by:\n\nHabits and cultural norms.\nBounded rationality and limited attention to climate impacts.\nImperfect information about environmental consequences and nutrition.\n\nThese factors make sustainable dietary shifts difficult."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-12",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-12",
+    "title": "Lecture 15",
+    "section": "Data & Methodology",
+    "text": "Data & Methodology\n\nQuantitative data\n\nGHG footprint databases:\n\nEPA, FAO, UNEP, and LCA (life-cycle analysis) studies.\n\nEmissions per kg of different food types (beef, pork, poultry, legumes, etc.).\n\nSurvey and behavioral data\n\nSurveys on dietary habits and willingness to reduce meat consumption.\nData on income, culture, and regional consumption patterns."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-13",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-13",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nPolicy and incentive design\n\nUse of:\n\nCarbon taxes or fees on high-emission foods.\nSubsidies or vouchers for plant-based options.\nInformation nudges, eco-labels, and updated dietary guidelines."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-13",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-13",
+    "title": "Lecture 15",
+    "section": "Data & Methodology",
+    "text": "Data & Methodology\n\nAnalytical tools\n\nExternality and social-cost analysis for different diets.\nDemand elasticity estimates for meat and substitutes.\nScenario modeling:\n\nBaseline vs. partial and substantial meat-reduction scenarios.\nEstimated emissions reductions by region and income group."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-14",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-14",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nPositive externalities\n\nLower CO₂ emissions via reduced deforestation and shorter supply chains.\nGreater water efficiency (up to ~98% reduction in water use).\nReduced pesticide and fertilizer use.\nImproved community health and food access.\nLocal job creation and green employment.\n\nMarket failure and underinvestment\n\nPrivate marginal benefit (PMB) &lt; social marginal benefit (SMB).\nHigh fixed and variable costs (energy, labor, infrastructure) limit private profitability.\nResults in underinvestment in vertical farming relative to social optimum."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-14",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-14",
+    "title": "Lecture 15",
+    "section": "Data & Methodology",
+    "text": "Data & Methodology\n\nCase study: St. Louis vertical farm model (Li et al.)\n\n14 candidate sites, 32 grocery stores, 10 vertical-farm crops.\nBaseline result: near break-even (small negative profit) due to high costs.\nSensitivity analysis:\n\nReducing fixed and variable costs by 50% → substantial positive profit."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-15",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-15",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nPolicy tools to internalize spillovers\n\nCapital subsidies, tax credits, and grants for vertical farms.\nConsumer vouchers and eco-labeling for vertically farmed products.\nProperty rights and potential Coasean bargaining with cities and utilities."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-15",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-15",
+    "title": "Lecture 15",
+    "section": "Data & Methodology",
+    "text": "Data & Methodology\n\nAnalytical approach\n\nCost–benefit analysis of vertical farming:\n\nCompare private profits to estimated social benefits (CO₂, water, health, jobs).\n\nUse case-study parameters to illustrate:\n\nHow subsidies and cost reductions could shift profitability.\nThe gap between PMB and SMB.\n\nConceptual supply–demand and externality diagrams:\n\nSMB vs. PMB.\nEffects of lump-sum or per-unit subsidies."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-16",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-16",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nIntertemporal discounting & bounded rationality\n\nClimate damages are often distant and uncertain → heavy discounting.\nInsurance premiums make risk immediate and salient by increasing current costs.\n\nIntergenerational externalities\n\nCurrent climate decisions affect future generations who cannot directly influence policy.\nUnderinvestment in mitigation from a social perspective."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-16",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-16",
+    "title": "Lecture 15",
+    "section": "Data & Methodology",
+    "text": "Data & Methodology\n\nSurvey data\n\nClimate attitudes and perceived risk among Californians.\nPolitical preferences, policy priorities, and trust in government.\nChanges in views pre- and post-wildfires where possible.\n\nSecondary data\n\nFire hazard maps and severity measures by county.\nInsurance premium data and availability over time.\nSocioeconomic and demographic characteristics."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-17",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#economic-mechanisms-conceptual-framework-17",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nInsurance market structure\n\nRisk pooling means low-risk consumers subsidize high-risk areas to a degree.\nPremium hikes, coverage limits, or insurer exits can:\n\nReveal underlying risk changes.\nRaise awareness of climate-related hazards.\n\n\nBehavioral dimensions\n\nRisk salience after disasters (wildfires, floods).\nAvailability heuristic: recent events increase perceived probability.\nLimited attention: premiums serve as a “wake-up call” about climate risk."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-17",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#data-methodology-17",
+    "title": "Lecture 15",
+    "section": "Data & Methodology",
+    "text": "Data & Methodology\n\nAnalytical approach\n\nCompare counties with:\n\nHigh vs. low wildfire damage.\nLarge vs. small premium increases.\n\nExamine correlations between:\n\nPremium changes and climate-risk perception.\nPremium changes and climate-policy support.\n\nControl for confounders such as income, political ideology, and prior exposure to climate events."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps-for-this-project",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps-for-this-project",
+    "title": "Lecture 15",
+    "section": "Next Steps for This Project",
+    "text": "Next Steps for This Project\n\nRefine the research question to state clearly whether you are evaluating the net balance of harms and benefits, or focusing primarily on environmental harms of AI.\nSelect a small set of concrete indicators (e.g., energy use, emissions, water use, and one or two categories of benefits) and locate quantitative estimates from secondary sources.\nMake the economic mechanism explicit by linking externalities and dynamic efficiency to your chosen indicators.\nOrganize the harmful and beneficial impacts into a simple economic framework (such as a cost–benefit or marginal analysis narrative)."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps-for-this-project-1",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps-for-this-project-1",
+    "title": "Lecture 15",
+    "section": "Next Steps for This Project",
+    "text": "Next Steps for This Project\n\nClarify the main outcome of interest: whether you focus on changes in specific behaviors (e.g., transport, energy use, diet) or on overall carbon literacy and awareness.\nIdentify one or two real-world examples of personal carbon budgeting or calculators and summarize what they measure and how they report information.\nDevelop a simple behavioral framework based on mental accounting to explain how a carbon “budget” could alter marginal decisions for high- and low-impact activities.\nCollect a small set of secondary data or parameter values (e.g., typical household emissions by activity) to illustrate potential changes under a budgeting scenario."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps-for-this-project-2",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps-for-this-project-2",
+    "title": "Lecture 15",
+    "section": "Next Steps for This Project",
+    "text": "Next Steps for This Project\n\nNarrow the research question to focus on one or two key dimensions: for example, perceived seriousness of climate change or support for mitigation policies across generations.\nExtract a small number of clear statistics or tables from existing surveys (such as Pew) that show generational differences in attitudes and behaviors.\nTranslate these differences into a discounting-based interpretation, explaining how they might reflect different effective discount rates or attitudes toward long-term risks.\nIntegrate behavioral economics concepts (such as present bias and hyperbolic discounting) into a concise conceptual framework that links age, experience, and climate views."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps-for-this-project-3",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps-for-this-project-3",
+    "title": "Lecture 15",
+    "section": "Next Steps for This Project",
+    "text": "Next Steps for This Project\n\nFocus the research question on a clearly defined efficiency–equity trade-off, such as comparing onshore versus offshore siting from both perspectives.\nGather a small set of quantitative indicators (e.g., approximate generation potential, basic cost differences, and proxy measures for local impacts such as distance to residences).\nBuild a conceptual framework that distinguishes total net benefits from their distribution across different groups (urban consumers vs. rural communities).\nUse your framework to explain how externalities and distributional effects interact, and under what conditions a particular expansion path might be judged equitable."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps-for-this-project-4",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps-for-this-project-4",
+    "title": "Lecture 15",
+    "section": "Next Steps for This Project",
+    "text": "Next Steps for This Project\n\nIdentify two or three main channels of underperformance (e.g., leakage, weak land tenure, governance problems) and state them precisely in your framing.\nFor each channel, find at least one concrete piece of evidence or example from secondary sources (reports, case studies, or empirical papers).\nSystematically connect these channels to core economic concepts: externalities, public goods, property rights, and incentive compatibility.\nOrganize the discussion around how individual and firm-level decisions respond to current REDD+ incentives and why these responses lead to unintended outcomes."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps-for-this-project-5",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps-for-this-project-5",
+    "title": "Lecture 15",
+    "section": "Next Steps for This Project",
+    "text": "Next Steps for This Project\n\nClarify whether the project’s main emphasis is on income constraints, information gaps, or their interaction in shaping adoption decisions.\nChoose one focal technology (e.g., EVs, rooftop solar, or home efficiency upgrades) to keep the analysis manageable.\nCompile a small set of summary statistics from secondary sources that show how adoption rates and incentive use vary by income group.\nDevelop a simple household decision framework (e.g., net present value under different incomes and discount rates) to interpret these patterns."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps-for-this-project-6",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps-for-this-project-6",
+    "title": "Lecture 15",
+    "section": "Next Steps for This Project",
+    "text": "Next Steps for This Project\n\nRestrict the scope to a small set of foods (for example, one or two high-emission items and one lower-emission alternative) to allow clearer comparisons.\nCollect emissions factors from one or two reliable life-cycle analysis sources for those foods and summarize them in a concise table.\nSpecify one or two diet-shift scenarios (e.g., modest reductions in a high-emission food) and calculate approximate emissions changes using your chosen factors.\nRelate these scenarios explicitly to externality theory, explaining how unpriced emissions lead to overconsumption and how your scenarios illustrate this."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps-for-this-project-7",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps-for-this-project-7",
+    "title": "Lecture 15",
+    "section": "Next Steps for This Project",
+    "text": "Next Steps for This Project\n\nDecide whether your central focus is on quantifying positive externalities (emissions, water savings, health) or on understanding why private adoption is limited.\nUse the St. Louis case study (or similar) to extract key figures on costs, revenues, and profitability, and present them in a concise summary.\nCombine this with qualitative or quantitative evidence on environmental and social benefits to articulate the gap between private and social returns.\nFormulate a conceptual explanation of how high fixed costs, operating costs, and external benefits produce underinvestment from a market perspective."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps-for-this-project-8",
+    "href": "econ-lec/econ-340-lec-14-2025-1114.html#next-steps-for-this-project-8",
+    "title": "Lecture 15",
+    "section": "Next Steps for This Project",
+    "text": "Next Steps for This Project\n\nSpecify clearly the causal narrative you want to study, such as: climate-related disasters leading to higher premiums, which in turn may alter perceived climate risk.\nIdentify at least two types of data you will rely on (e.g., regional premium changes, wildfire risk classifications, or opinion surveys) and confirm their availability.\nDevelop a simple comparative framework (e.g., regions with larger premium increases vs. smaller increases) to structure your analysis of attitudes and perceptions.\nLink this framework to economic and behavioral concepts: discounting, salience of current costs, and the role of risk information in household decision-making."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#motivation-overview-research-question",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#motivation-overview-research-question",
+    "title": "Lecture 15",
+    "section": "Motivation, Overview & Research Question",
+    "text": "Motivation, Overview & Research Question\n\nRapid expansion of AI tools and data centers.\nAI growth → rising energy demand, water usage, and GHG emissions.\nWidespread everyday use (search, coding, admin tasks) raises concerns about environmental sustainability.\nResearch Question: Does AI bring more harm than benefit to society, once environmental impacts are accounted for?\nNeed to evaluate both the harms (externalities) and benefits (efficiency, innovation) in a structured way and consider policy responses."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nNegative externalities\n\nHigh electricity consumption → increased GHG emissions.\nLarge water withdrawals for cooling → worsens water stress.\nNoise, land-use impacts, and ecosystem disruption around data centers.\nClassic market failure when AI firms ignore external costs.\n\nBehavioral economics\n\nMisuse and overuse of AI tools due to low marginal private cost.\nLimited user awareness of environmental impacts.\n\nRisk analysis\n\nQuantifies the magnitude and likelihood of environmental harms.\nHelps prioritize which risks should be addressed first."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-1",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-1",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nStrategic interaction & dynamic efficiency\n\n“AI arms race” among tech firms to release bigger models faster.\nIncentives to race ahead of regulators.\nLong-run trade-off: innovation vs. environmental degradation.\n\nPositive externalities of AI\n\nImproved energy efficiency (smart grids, optimized manufacturing).\nEnhanced medical diagnostics and scientific discovery.\nBetter extreme-weather and storm forecasting.\nProductivity gains in many sectors."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#motivation-overview-research-question-1",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#motivation-overview-research-question-1",
+    "title": "Lecture 15",
+    "section": "Motivation, Overview & Research Question",
+    "text": "Motivation, Overview & Research Question\n\nIndividuals contribute significantly to greenhouse gas emissions through daily activities:\n\nDriving, heating, food consumption, and consumption of goods.\n\nThe project examines personal carbon budgeting as a behavioral tool for climate mitigation.\nResearch Question:\nHow does viewing carbon emissions as a personal budget influence behavior in high-impact and low-impact activities?\nPolicy relevance:\n\nDemand-side climate strategies.\nPotential to support carbon-literacy initiatives and climate apps."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-2",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-2",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nBehavioral economics (Thaler: Mental Accounting)\n\nIndividuals use mental budgets to organize decisions (e.g., food, entertainment).\nTreating emissions as a “budget category” can:\n\nIncrease salience of climate impacts.\nReduce “overspending” on carbon-intensive actions.\nEncourage substitution toward low-carbon activities."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-3",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-3",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nExternalities & awareness\n\nUnpriced carbon emissions → negative externalities.\nPersonal tracking and feedback can:\n\nRaise risk perception.\nGenerate positive externalities via reduced emissions.\nReinforce social norms around low-carbon lifestyles (peer comparisons, dashboards).\n\n\nPolicy and implementation angle\n\nLinks to carbon calculators, personal dashboards, and potential policy nudges.\nFits within broader efforts to internalize externalities via information and framing, not only prices."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#motivation-overview-research-question-2",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#motivation-overview-research-question-2",
+    "title": "Lecture 15",
+    "section": "Motivation, Overview & Research Question",
+    "text": "Motivation, Overview & Research Question\n\n\nDifferent generations (Boomers, Gen X, Millennials, Gen Z) differ in:\n\nConcern for climate change.\nTrust in scientific consensus.\nSupport for climate policy.\nWillingness to engage in climate action.\n\nResearch Question:\nHow do generational differences in climate views shape climate action and policy support?\nRelevance:\n\nHelps explain underinvestment in long-term climate mitigation.\nHighlights intergenerational tensions in climate politics and policy design."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-4",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-4",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nIntertemporal discounting\n\nPeople discount future benefits relative to current costs.\nYounger generations likely apply lower discount rates to long-term climate outcomes.\nOlder generations may discount more heavily → less support for costly, long-term policies.\n\nIntergenerational externalities\n\nToday’s emissions affect future generations, who cannot vote or participate in today’s decisions.\nUnderinvestment in mitigation and adaptation from a social-welfare perspective."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-5",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-5",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nBehavioral economics factors\n\nPresent bias and hyperbolic discounting.\nMisperception of long-run climate risk and tail events.\nLimited attention and cognitive constraints.\n\nMarket failure\n\nClimate is a global public good; benefits are diffuse and long-term.\nStandard models with a single social discount rate may miss heterogeneous preferences across generations."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#motivation-overview-research-question-3",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#motivation-overview-research-question-3",
+    "title": "Lecture 15",
+    "section": "Motivation, Overview & Research Question",
+    "text": "Motivation, Overview & Research Question\n\nNew York aims to expand wind energy to meet clean-energy and climate targets.\nWind energy generates:\n\nPositive externalities: emissions reduction, cleaner air, energy security.\nNegative externalities: noise, visual impacts, property value concerns, wildlife effects.\n\nGeographic distribution of costs and benefits:\n\nUrban consumers benefit from clean electricity.\nRural communities shoulder many local costs.\n\nResearch Question:\nHow can New York design wind energy policy that balances efficiency (clean energy expansion) and equity (localized burdens)?"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-6",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-6",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nExternalities & market failure\n\nBenefits and costs are unevenly distributed across regions.\nWithout policy, wind expansion may be efficient in aggregate but inequitable locally.\n\nPrincipal–agent issues\n\nPolicymakers and urban voters may push for rapid expansion.\nRural communities may resist if they perceive unfair distribution of benefits vs. costs."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-7",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-7",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nEconomic tools and frameworks\n\nPigouvian taxes/subsidies to internalize externalities.\nCoasean bargaining and community benefit agreements.\nCompensation mechanisms:\n\nRevenue sharing.\nLocal infrastructure investments.\nProperty value guarantees.\n\nDynamic efficiency:\n\nLong-term planning of onshore vs. offshore capacity.\nBalancing near-term costs with long-term climate benefits."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#motivation-overview-research-question-4",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#motivation-overview-research-question-4",
+    "title": "Lecture 15",
+    "section": "Motivation, Overview & Research Question",
+    "text": "Motivation, Overview & Research Question\n\nREDD+ (Reducing Emissions from Deforestation and Forest Degradation) aims to:\n\nConserve forests.\nReduce emissions from land-use change.\nSupport sustainable development.\n\nBrazil’s Amazon rainforest is a critical global carbon sink.\nDespite REDD+, deforestation continues at high levels.\nResearch Question:\nWhy has REDD+ failed to effectively reduce deforestation in Brazil?"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-8",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-8",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nNegative externalities\n\nPrivate actors profit from land clearing (ranching, soy), while:\n\nSociety bears climate and ecosystem costs (CO₂ emissions, biodiversity loss, rainfall disruption).\n\n\nPublic goods and free-riding\n\nAmazon forests provide global benefits (carbon storage, climate regulation, biodiversity).\nNo single actor internalizes full benefits → under-protection.\n\nProperty-rights failures\n\nWeak or unclear land tenure:\n\nEncourages illegal clearing and land grabs.\nPromotes short-term profit maximization."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-9",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-9",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nProgram-specific problems in REDD+\n\nLeakage: deforestation shifts to neighboring areas not under strict protection.\nCorruption and weak enforcement: delayed or misdirected payments; poor monitoring.\nPhantom credits: carbon credits without real emission reductions.\nMismatch between high-level design and on-the-ground incentives for farmers and communities."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#next-steps-for-this-project",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#next-steps-for-this-project",
+    "title": "Lecture 15",
+    "section": "Next Steps for This Project",
+    "text": "Next Steps for This Project\n\nIdentify two or three main channels of underperformance (e.g., leakage, weak land tenure, governance problems) and state them precisely in your framing.\nFor each channel, find at least one concrete piece of evidence or example from secondary sources (reports, case studies, or empirical papers).\nSystematically connect these channels to core economic concepts: externalities, public goods, property rights, and incentive compatibility.\nOrganize the discussion around how individual and firm-level decisions respond to current REDD+ incentives and why these responses lead to unintended outcomes."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#motivation-overview-research-question-5",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#motivation-overview-research-question-5",
+    "title": "Lecture 15",
+    "section": "Motivation, Overview & Research Question",
+    "text": "Motivation, Overview & Research Question\n\nHouseholds face decisions about adopting clean energy technologies:\n\nElectric vehicles (EVs), rooftop solar, energy-efficient appliances.\n\nAdoption is uneven, often skewed toward higher-income households.\nResearch Question:\nHow do income levels and access to information affect the economic reasoning behind clean energy adoption?\nRelevance:\n\nFossil fuels produce negative externalities.\nExisting policies (tax credits, rebates, DSM programs) may not be equitable or effective across income groups."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-10",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-10",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nMarket failure\n\nFossil fuel use imposes environmental externalities not fully priced.\nUnder-adoption of clean energy relative to the social optimum.\n\nBehavioral economics\n\nHigh upfront costs and implicit discount rates cause households to undervalue future savings.\nInformation gaps:\n\nLimited understanding of long-run savings.\nUncertainty about technology reliability.\n\nEnergy efficiency gap: households forgo cost-effective energy-saving investments."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-11",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-11",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nEquity concerns\n\nLow-income households:\n\nFace credit constraints.\nHave less access to high-quality information and time to research.\n\nHigh-income households disproportionately capture tax credits and subsidies.\nRaises questions about distributional fairness of climate policies."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#motivation-overview-research-question-6",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#motivation-overview-research-question-6",
+    "title": "Lecture 15",
+    "section": "Motivation, Overview & Research Question",
+    "text": "Motivation, Overview & Research Question\n\nDaily dietary choices (especially meat vs. plant-based) have major impacts on global GHG emissions.\nThe food system is a substantial share of global emissions, particularly from livestock.\nIndividuals have relatively high flexibility in adjusting diets compared to other behaviors.\nResearch Question: How do individual dietary choices—especially reductions in meat consumption—combine to produce measurable global emissions impacts through changes in agricultural production?\nPolicy interest:\n\nCarbon pricing on high-emission foods.\nInformation campaigns and dietary guidelines.\nLow-carbon diet promotion."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-12",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-12",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nNegative externalities & market failure\n\nMeat production generates emissions that are not priced into food costs.\nPrivate marginal cost &lt; social marginal cost → overconsumption of high-emission foods.\n\nBehavioral economics\n\nFood choices shaped by:\n\nHabits and cultural norms.\nBounded rationality and limited attention to climate impacts.\nImperfect information about environmental consequences and nutrition.\n\nThese factors make sustainable dietary shifts difficult."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-13",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-13",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nPolicy and incentive design\n\nUse of:\n\nCarbon taxes or fees on high-emission foods.\nSubsidies or vouchers for plant-based options.\nInformation nudges, eco-labels, and updated dietary guidelines."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#motivation-overview-research-question-7",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#motivation-overview-research-question-7",
+    "title": "Lecture 15",
+    "section": "Motivation, Overview & Research Question",
+    "text": "Motivation, Overview & Research Question\n\nGlobal population projected to reach 9.7 billion by 2050, with ~70% living in cities.\nTraditional agriculture faces:\n\nLand scarcity near urban centers.\nFreshwater depletion (agriculture uses ~70% of global freshwater).\nClimate vulnerability and environmental degradation.\n\nVertical farming:\n\nIndoor, vertically stacked production using hydroponics/aeroponics and LED lighting.\n\nResearch Question: How has the adoption of vertical farming generated positive externalities for individuals and communities, and what policy mechanisms can internalize these benefits to promote sustainable agriculture?"
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-14",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-14",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nPositive externalities\n\nLower CO₂ emissions via reduced deforestation and shorter supply chains.\nGreater water efficiency (up to ~98% reduction in water use).\nReduced pesticide and fertilizer use.\nImproved community health and food access.\nLocal job creation and green employment.\n\nMarket failure and underinvestment\n\nPrivate marginal benefit (PMB) &lt; social marginal benefit (SMB).\nHigh fixed and variable costs (energy, labor, infrastructure) limit private profitability.\nResults in underinvestment in vertical farming relative to social optimum."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-15",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-15",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nPolicy tools to internalize spillovers\n\nCapital subsidies, tax credits, and grants for vertical farms.\nConsumer vouchers and eco-labeling for vertically farmed products.\nProperty rights and potential Coasean bargaining with cities and utilities."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#motivation-overview-research-question-8",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#motivation-overview-research-question-8",
+    "title": "Lecture 15",
+    "section": "Motivation, Overview & Research Question",
+    "text": "Motivation, Overview & Research Question\n\nClimate change is increasingly visible in insurance markets:\n\nRising premiums and reduced coverage in high-risk areas.\n\n2025 Southern California wildfires:\n\nMajor damages.\nSignificant increases in property insurance premiums and insurer withdrawal.\n\nResearch Question: Do rising insurance premiums increase individuals’ perceptions of climate risk and climate-policy support?\nImportance:\n\nInsurance may be one of the clearest financial signals of climate risk for households.\nCould help reduce excessive discounting of future climate damages."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-16",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-16",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nIntertemporal discounting & bounded rationality\n\nClimate damages are often distant and uncertain → heavy discounting.\nInsurance premiums make risk immediate and salient by increasing current costs.\n\nIntergenerational externalities\n\nCurrent climate decisions affect future generations who cannot directly influence policy.\nUnderinvestment in mitigation from a social perspective."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-17",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#economic-mechanisms-conceptual-framework-17",
+    "title": "Lecture 15",
+    "section": "Economic Mechanisms & Conceptual Framework",
+    "text": "Economic Mechanisms & Conceptual Framework\n\nInsurance market structure\n\nRisk pooling means low-risk consumers subsidize high-risk areas to a degree.\nPremium hikes, coverage limits, or insurer exits can:\n\nReveal underlying risk changes.\nRaise awareness of climate-related hazards.\n\n\nBehavioral dimensions\n\nRisk salience after disasters (wildfires, floods).\nAvailability heuristic: recent events increase perceived probability.\nLimited attention: premiums serve as a “wake-up call” about climate risk."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#the-power-of-the-individual",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#the-power-of-the-individual",
+    "title": "Lecture 15",
+    "section": "🌱 The Power of the Individual",
+    "text": "🌱 The Power of the Individual\n\nWe are not just consumers — we are co-creators of systems.\n\nOur influence multiplies when we:\n\n🗳 Organize our voices as citizens\n\n💼 Leverage our expertise as professionals\n\n🛒 Model our values as consumers\n\n🏙 Strengthen our communities\n\n\n\n→ Systemic change begins where individual effort meets collective vision."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#what-its-not",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#what-its-not",
+    "title": "Lecture 15",
+    "section": "🚫 What It’s Not",
+    "text": "🚫 What It’s Not\n\n\n\n\nClimate change ≠ moral perfection test\n\nTurning off lights or skipping flights helps—but can’t fix systemic drivers\n\nEnergy grids, supply chains, and trade patterns shape most emissions\n\nJust 100 companies produce over 70% of global CO₂\n\nThe “carbon footprint” idea began as British Petroleum’s PR.\n\nCarbon footprint: the total amount of GHGs, usually expressed in CO₂-equivalent, emitted by an individual entity.\n\nIndividual guilt may distract from collective and policy responsibility\n\nLifestyle fixes alone overlook justice, access, and equity\n\nIt’s not about a few doing everything perfectly—\nit’s about many doing enough together\n\n\n\n\n\n\n→ Personal virtue ≠ structural solution — but it still matters when linked to civic action."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#what-it-is",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#what-it-is",
+    "title": "Lecture 15",
+    "section": "🌍 What It Is",
+    "text": "🌍 What It Is\n\n\n\nFour powerful roles for climate-aware individuals:\n\n\n\n\n\n\n\nRole\nDescription\n\n\n\n\n🗳 Citizen\nVote and advocate for climate-sensible policies.\n\n\n🛒 Consumer\nShift market demand toward low-carbon, energy-efficient goods.\n\n\n💼 Professional\nIntegrate climate and energy metrics into your work.\n\n\n🏙 Community Member\nSupport local resilience and clean-energy projects.\n\n\n\n\n\n\n\n\nEach role magnifies the others — together, they shape the systems we live within.→ Systemic change begins where individual effort meets collective vision."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#our-influence-multiplies-when-we",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#our-influence-multiplies-when-we",
+    "title": "Lecture 15",
+    "section": "💪 Our Influence Multiplies When We…",
+    "text": "💪 Our Influence Multiplies When We…\n\n🗳 Organize our voices as citizens\n\n💼 Leverage our expertise as professionals\n\n🛒 Model our values as consumers\n\n🏙 Strengthen our communities\n\n\n\nEach role magnifies the others — together, they shape the systems we live within.\n\n\n\n\n→ Systemic change begins where individual effort meets collective vision."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#why-systemic-change-is-essential",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#why-systemic-change-is-essential",
+    "title": "Lecture 15",
+    "section": "🌐 Why Systemic Change Is Essential",
+    "text": "🌐 Why Systemic Change Is Essential\n\n\n\n\n\nClimate change is driven by systems, not just individual choices: energy grids, transport, buildings, food, trade.\nThese systems are shaped by laws, markets, institutions, and infrastructure.\nIndividuals face lock-in: limited options, high switching costs, default high-carbon choices.\nSystemic change means changing:\n\nRules & incentives (policy, pricing, standards)\n\nTechnologies & infrastructure (grids, transit, housing)\n\nNorms (what is seen as “normal” or acceptable)\n\nIndividual action matters most when it pushes on these systems — through voting, work, and communities.\n\n\n\n\n\n\n\n→ The goal is not just “better personal choices,” but better systems that make low-carbon choices the easy default."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#why-systemic-change-is-essential-1",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#why-systemic-change-is-essential-1",
+    "title": "Lecture 15",
+    "section": "🌐 Why Systemic Change Is Essential",
+    "text": "🌐 Why Systemic Change Is Essential\n\nClimate change is driven by structures, not just choices:\nenergy systems, transport networks, buildings, food systems, and trade rules.\nThese systems are shaped by laws, markets, institutions, and infrastructure, not just “good intentions”.\nIndividuals face lock-in: limited options, high switching costs, and default high-carbon choices.\nSystemic change means:\n\nChanging rules and incentives (policy, pricing, standards)\n\nChanging technologies and infrastructure (grids, transit, housing)\n\nChanging norms and expectations (what’s seen as “normal” or “acceptable”)\n\nIndividual action matters most when it pushes on these systems — through voting, professions, communities, and collective movements.\n\n\n\n→ The goal is not just “better personal choices,” but better systems that make low-carbon choices the easy default."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#data-methodology",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#data-methodology",
+    "title": "Lecture 15",
+    "section": "Data & Methodology",
+    "text": "Data & Methodology\n\nSecondary data:\n\nScientific studies, industry reports, and news articles on:\n\nPower demand of large models and data centers.\nCO₂ and other GHG emissions.\nWater usage for cooling.\n\n\nMetrics for harms:\n\nkWh per training/inference.\nCO₂e per data center or per model.\nGallons of water per unit of compute.\n\nMetrics for benefits:\n\nAI-enabled efficiency gains in energy systems and production.\nImprovements in forecasting and diagnostics accuracy."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#data-methodology-1",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#data-methodology-1",
+    "title": "Lecture 15",
+    "section": "Data & Methodology",
+    "text": "Data & Methodology\n\nAnalytical tools:\n\nRisk analysis of environmental harms.\nComparison of harms vs. documented benefits across key application domains.\nConceptual cost–benefit framing for AI policy design."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#data-methodology-2",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#data-methodology-2",
+    "title": "Lecture 15",
+    "section": "Data & Methodology",
+    "text": "Data & Methodology\n\nSecondary data:\n\nStatista and similar platforms for:\n\nTransportation emissions.\nHousehold emissions.\nAdoption of carbon-budgeting tools.\n\nGovernment and NGO reports on:\n\nCarbon budgets in the UK, France, and other jurisdictions.\n\n\nKey variables:\n\nHigh-impact vs. low-impact activity categories (flying vs. local transit, meat vs. plant-based).\nIndividual carbon-footprint estimates under different behavioral scenarios."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#data-methodology-3",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#data-methodology-3",
+    "title": "Lecture 15",
+    "section": "Data & Methodology",
+    "text": "Data & Methodology\n\nAnalytical strategies:\n\nDescriptive comparisons of emissions under “with-budget” vs. “no-budget” behavioral assumptions.\nConceptual behavioral models of mental accounting and framing.\nDiscussion of how budgeting tools might change marginal decisions (short trips, diet, etc.)."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#data-methodology-4",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#data-methodology-4",
+    "title": "Lecture 15",
+    "section": "Data & Methodology",
+    "text": "Data & Methodology\n\nSurveys across generational groups:\n\nPerceived seriousness of climate change.\nTrust in science and scientific institutions.\nSupport for specific policy instruments (carbon taxes, regulations, subsidies).\nFrequency of pro-environmental behaviors (voting, activism, consumption choices).\n\nSecondary data:\n\nPew Research Center surveys on climate attitudes by generation.\nNational and international datasets on environmental opinions and participation."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#data-methodology-5",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#data-methodology-5",
+    "title": "Lecture 15",
+    "section": "Data & Methodology",
+    "text": "Data & Methodology\n\nAnalytical approach:\n\nStatistical analysis linking generation to climate concern and behavior.\nControls for income, education, ideology, and geography.\nConceptual discussion of how discounting and identity shape policy preferences."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#data-methodology-6",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#data-methodology-6",
+    "title": "Lecture 15",
+    "section": "Data & Methodology",
+    "text": "Data & Methodology\n\nSecondary data\n\nEIA and RECS (Residential Energy Consumption Survey).\nState-level clean energy program reports.\nStudies on EV and solar adoption by income, region, and demographics.\n\nEmpirical focus\n\nCompare clean energy adoption rates across:\n\nIncome groups.\nStates with different incentive structures.\n\nExamine:\n\nTypes of incentives (rebates vs. tax credits, upfront vs. delayed)."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#data-methodology-7",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#data-methodology-7",
+    "title": "Lecture 15",
+    "section": "Data & Methodology",
+    "text": "Data & Methodology\n\nConceptual and modeling approach\n\nSimple household decision model with:\n\nHeterogeneous income and credit constraints.\nDifferent discount rates and information levels.\n\nUse this framework to interpret observed patterns in adoption and evaluate policy design options."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#data-methodology-8",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#data-methodology-8",
+    "title": "Lecture 15",
+    "section": "Data & Methodology",
+    "text": "Data & Methodology\n\nCase study: St. Louis vertical farm model (Li et al.)\n\n14 candidate sites, 32 grocery stores, 10 vertical-farm crops.\nBaseline result: near break-even (small negative profit) due to high costs.\nSensitivity analysis:\n\nReducing fixed and variable costs by 50% → substantial positive profit."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#data-methodology-9",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#data-methodology-9",
+    "title": "Lecture 15",
+    "section": "Data & Methodology",
+    "text": "Data & Methodology\n\nAnalytical approach\n\nCost–benefit analysis of vertical farming:\n\nCompare private profits to estimated social benefits (CO₂, water, health, jobs).\n\nUse case-study parameters to illustrate:\n\nHow subsidies and cost reductions could shift profitability.\nThe gap between PMB and SMB.\n\nConceptual supply–demand and externality diagrams:\n\nSMB vs. PMB.\nEffects of lump-sum or per-unit subsidies."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#data-methodology-10",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#data-methodology-10",
+    "title": "Lecture 15",
+    "section": "Data & Methodology",
+    "text": "Data & Methodology\n\nSurvey data\n\nClimate attitudes and perceived risk among Californians.\nPolitical preferences, policy priorities, and trust in government.\nChanges in views pre- and post-wildfires where possible.\n\nSecondary data\n\nFire hazard maps and severity measures by county.\nInsurance premium data and availability over time.\nSocioeconomic and demographic characteristics."
+  },
+  {
+    "objectID": "econ-lec/econ-340-lec-15-2025-1124.html#data-methodology-11",
+    "href": "econ-lec/econ-340-lec-15-2025-1124.html#data-methodology-11",
+    "title": "Lecture 15",
+    "section": "Data & Methodology",
+    "text": "Data & Methodology\n\nAnalytical approach\n\nCompare counties with:\n\nHigh vs. low wildfire damage.\nLarge vs. small premium increases.\n\nExamine correlations between:\n\nPremium changes and climate-risk perception.\nPremium changes and climate-policy support.\n\nControl for confounders such as income, political ideology, and prior exposure to climate events."
   }
 ]

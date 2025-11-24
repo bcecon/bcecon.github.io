@@ -1,0 +1,701 @@
+---
+title: Lecture 15
+subtitle: "Climate Change and the Individual: Research Kick-off Summary"
+
+format:
+  clean-revealjs:
+    self-contained: false
+    chalkboard: true
+    incremental: true
+    code-annotations: hover
+    scrollable: false
+
+    # logo: logo-title-slide.png
+author:
+  - name: Byeong-Hak Choe
+    email: bchoe@geneseo.edu
+    affiliations: SUNY Geneseo
+date: 2025-11-24
+execute: 
+  eval: true
+  echo: false
+callout-icon: false
+
+from: markdown+emoji
+include-after-body: target-hover.html # effect.html
+
+# bibliography: refs.bib
+---
+
+```{r setup}
+#| include: false
+
+library(tidyverse)
+library(lubridate)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+library(viridis)
+library(rmarkdown)
+library(gapminder)
+library(ggrepel)
+library(formattable)
+
+theme_set(theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(10,0,0,0)),
+                axis.title.y = 
+                  element_text(angle = 0,
+                               size = rel(1.75),
+                               margin = margin(0,10,0,0)),
+                axis.text.x = element_text(size = rel(1.75)),
+                axis.text.y = element_text(size = rel(1.75)),
+                strip.text = element_text(size = rel(1.5)),
+                legend.position = "top",
+                legend.text = element_text(size = rel(1.5)),
+                legend.title = element_text(size = rel(1.5))
+                )
+          )
+
+# Set global options for color-blind-friendly scales
+# scale_colour_discrete <- function(...) scale_colour_viridis_d(...)
+
+scale_colour_discrete <- function(...) scale_color_colorblind(...)
+scale_fill_discrete <- function(...) scale_fill_colorblind(...)
+
+
+```
+
+
+# 🌱 **The Role of the Individual** {background-color="#1c4982"}
+
+> <span style="color:#b7e4c7; font-style:italic;">"We are not powerless. But we are not alone, either."</span><br> <span class="fragment" style="color:#b7e4c7; font-style:italic;">We are <strong>not just consumers</strong> — we are <strong>co-creators of systems</strong>.</span>
+
+## 🌐 Why Systemic Change Is Essential {background-color="#f4f6f6"}
+
+<div style="display:block; margin:-10px;"></div>
+
+<div style="font-size:1.85rem;">
+
+- Climate change is driven by **systems**, not just individual choices:
+  **energy grids**, **transport**, **buildings**, **food**, **trade**.
+- These systems are shaped by **laws, markets, institutions, and infrastructure**.
+- Individuals face **lock-in**: limited options, high switching costs, default high-carbon choices.
+- **Systemic change** means changing:
+  - **Rules & incentives** (policy, pricing, standards)  
+  - **Technologies & infrastructure** (grids, transit, housing)  
+  - **Norms** (what is seen as “normal” or acceptable)
+- Individual action matters most when it **pushes on these systems** — through voting, work, and communities.
+
+</div>
+
+<div style="display:block; margin:-40px;"></div>
+
+:::{.fragment}
+<div style="color:#1b7a7a; font-style:italic; margin-top:0.8rem; font-size:1.85rem;">
+→ The goal is not just “better personal choices,” but **better systems** that make low-carbon choices the **easy default**.
+</div>
+:::
+
+
+## 🚫 What It’s *Not* {background-color="#f4f6f6"}
+
+<div style="display:block; margin:-10px;"></div>
+
+- Climate change ≠ **moral perfection** test  
+- Turning off lights or skipping flights helps—but can’t fix **systemic drivers**  
+- **Energy grids**, **supply chains**, and **trade patterns** shape most emissions  
+- Just **100 companies** produce over **70%** of global CO₂  
+- The “carbon footprint” idea began as **British Petroleum's PR**.
+  - **Carbon footprint**: the total amount of GHGs, usually expressed in **CO₂-equivalent**, emitted by an individual entity.
+
+- Individual guilt may distract from **collective and policy responsibility**  
+- Lifestyle fixes alone overlook **justice, access, and equity**  
+- It’s not about a few doing everything perfectly—  
+  it’s about **many doing enough together**
+
+<div style="display:block; margin:-50px;"></div>
+
+:::{.fragment}
+
+<div style="color:#555; font-style:italic; margin-top:0.8rem;">
+→ Personal virtue ≠ structural solution — but it *still matters* when linked to civic action.
+</div>
+
+:::
+
+
+## 🌍 What It *Is*
+
+<div style="display:block; margin:-5px;"></div>
+
+**Four powerful roles for climate-aware individuals:**
+
+| Role | Description |
+|:--|:--|
+| <span class="fragment">🗳 **Citizen**</span> | <span class="fragment">Vote and advocate for climate-sensible policies.</span> |
+| <span class="fragment">🛒 **Consumer**</span> | <span class="fragment">Shift market demand toward low-carbon, energy-efficient goods.</span> |
+| <span class="fragment">💼 **Professional**</span> | <span class="fragment">Integrate climate and energy metrics into your work.</span> |
+| <span class="fragment">🏙 **Community Member**</span> | <span class="fragment">Support local resilience and clean-energy projects.</span> |
+
+<div style="display:block; margin:-10px;"></div>
+
+:::{.fragment}
+
+<div style="color:#1c4982; font-style:italic; margin-top:1rem;">
+Each role magnifies the others — together, they shape the systems we live within.<span class="fragment">→ Systemic change begins where individual effort meets collective vision.</span>
+</div>
+
+
+:::
+
+
+
+# 🤖🧠 <span style="color:#b7e4c7; font-style:italic;">**"Chat, Write Me a Proposal on the Benefits and Harms of AI"**</span> {background-color="#1c4982"}
+
+## Motivation, Overview & Research Question
+
+- Rapid expansion of AI tools and data centers.
+- AI growth → rising **energy demand**, **water usage**, and **GHG emissions**.
+- Widespread everyday use (search, coding, admin tasks) raises concerns about environmental sustainability.
+- <u>Research Question</u>: **Does AI bring more harm than benefit to society, once environmental impacts are accounted for?**
+- Need to evaluate both the **harms (externalities)** and **benefits (efficiency, innovation)** in a structured way and consider policy responses.
+
+## Economic Mechanisms & Conceptual Framework
+
+- **Negative externalities**
+  - High electricity consumption → increased GHG emissions.
+  - Large water withdrawals for cooling → worsens water stress.
+  - Noise, land-use impacts, and ecosystem disruption around data centers.
+  - Classic **market failure** when AI firms ignore external costs.
+
+- **Behavioral economics**
+  - Misuse and overuse of AI tools due to low marginal private cost.
+  - Limited user awareness of environmental impacts.
+
+- **Risk analysis**
+  - Quantifies the magnitude and likelihood of environmental harms.
+  - Helps prioritize which risks should be addressed first.
+
+
+## Economic Mechanisms & Conceptual Framework
+
+- **Strategic interaction & dynamic efficiency**
+  - “AI arms race” among tech firms to release bigger models faster.
+  - Incentives to race ahead of regulators.
+  - Long-run trade-off: **innovation vs. environmental degradation**.
+
+- **Positive externalities of AI**
+  - Improved energy efficiency (smart grids, optimized manufacturing).
+  - Enhanced medical diagnostics and scientific discovery.
+  - Better extreme-weather and storm forecasting.
+  - Productivity gains in many sectors.
+
+<!-- ## Data & Methodology -->
+
+<!-- - **Secondary data**: -->
+<!--   - Scientific studies, industry reports, and news articles on: -->
+<!--     - Power demand of large models and data centers. -->
+<!--     - CO₂ and other GHG emissions. -->
+<!--     - Water usage for cooling. -->
+<!-- - **Metrics for harms**: -->
+<!--   - kWh per training/inference. -->
+<!--   - CO₂e per data center or per model. -->
+<!--   - Gallons of water per unit of compute. -->
+<!-- - **Metrics for benefits**: -->
+<!--   - AI-enabled efficiency gains in energy systems and production. -->
+<!--   - Improvements in forecasting and diagnostics accuracy. -->
+
+<!-- ## Data & Methodology -->
+
+<!-- - **Analytical tools**: -->
+<!--   - **Risk analysis** of environmental harms. -->
+<!--   - Comparison of harms vs. documented benefits across key application domains. -->
+<!--   - Conceptual cost–benefit framing for AI policy design. -->
+
+
+
+
+
+# 📊🌍 <span style="color:#b7e4c7; font-style:italic;">**"Personal Budgeting of Carbon Emissions and Its Impact"**</span> {background-color="#1c4982"}
+
+## Motivation, Overview & Research Question
+
+- Individuals contribute significantly to greenhouse gas emissions through daily activities:
+  - Driving, heating, food consumption, and consumption of goods.
+- The project examines **personal carbon budgeting** as a behavioral tool for climate mitigation.
+- <u>Research Question</u>:  
+  **How does viewing carbon emissions as a personal budget influence behavior in high-impact and low-impact activities?**
+- <u>Policy relevance</u>:
+  - Demand-side climate strategies.
+  - Potential to support carbon-literacy initiatives and climate apps.
+
+## Economic Mechanisms & Conceptual Framework
+
+- **Behavioral economics (Thaler: Mental Accounting)**
+  - Individuals use mental budgets to organize decisions (e.g., food, entertainment).
+  - Treating emissions as a “budget category” can:
+    - Increase salience of climate impacts.
+    - Reduce “overspending” on carbon-intensive actions.
+    - Encourage substitution toward low-carbon activities.
+
+## Economic Mechanisms & Conceptual Framework
+
+- **Externalities & awareness**
+  - Unpriced carbon emissions → negative externalities.
+  - Personal tracking and feedback can:
+    - Raise risk perception.
+    - Generate **positive externalities** via reduced emissions.
+    - Reinforce **social norms** around low-carbon lifestyles (peer comparisons, dashboards).
+
+- **Policy and implementation angle**
+  - Links to carbon calculators, personal dashboards, and potential policy nudges.
+  - Fits within broader efforts to internalize externalities via **information and framing**, not only prices.
+
+<!-- ## Data & Methodology -->
+
+<!-- - **Secondary data**: -->
+<!--   - Statista and similar platforms for: -->
+<!--     - Transportation emissions. -->
+<!--     - Household emissions. -->
+<!--     - Adoption of carbon-budgeting tools. -->
+<!--   - Government and NGO reports on: -->
+<!--     - Carbon budgets in the UK, France, and other jurisdictions. -->
+
+<!-- - **Key variables**: -->
+<!--   - High-impact vs. low-impact activity categories (flying vs. local transit, meat vs. plant-based). -->
+<!--   - Individual carbon-footprint estimates under different behavioral scenarios. -->
+
+<!-- ## Data & Methodology -->
+
+<!-- - **Analytical strategies**: -->
+<!--   - Descriptive comparisons of emissions under “with-budget” vs. “no-budget” behavioral assumptions. -->
+<!--   - Conceptual behavioral models of mental accounting and framing. -->
+<!--   - Discussion of how budgeting tools might change marginal decisions (short trips, diet, etc.). -->
+
+
+
+
+
+
+# 👥🌎 <span style="color:#b7e4c7; font-style:italic;">**"Generational Views on Climate Change and How They Affect Action to Combat It"**</span> {background-color="#1c4982"}
+
+## Motivation, Overview & Research Question
+
+<!-- - Climate mitigation is a **long-term public good** whose benefits accrue far in the future. -->
+- Different generations (Boomers, Gen X, Millennials, Gen Z) differ in:
+  - Concern for climate change.
+  - Trust in scientific consensus.
+  - Support for climate policy.
+  - Willingness to engage in climate action.
+- <u>Research Question</u>:  
+  **How do generational differences in climate views shape climate action and policy support?**
+- <u>Relevance</u>:
+  - Helps explain underinvestment in long-term climate mitigation.
+  - Highlights intergenerational tensions in climate politics and policy design.
+
+## Economic Mechanisms & Conceptual Framework
+
+- **Intertemporal discounting**
+  - People discount future benefits relative to current costs.
+  - Younger generations likely apply **lower discount rates** to long-term climate outcomes.
+  - Older generations may discount more heavily → less support for costly, long-term policies.
+
+- **Intergenerational externalities**
+  - Today’s emissions affect future generations, who cannot vote or participate in today’s decisions.
+  - Underinvestment in mitigation and adaptation from a social-welfare perspective.
+
+## Economic Mechanisms & Conceptual Framework
+
+- **Behavioral economics factors**
+  - Present bias and hyperbolic discounting.
+  - Misperception of long-run climate risk and tail events.
+  - Limited attention and cognitive constraints.
+
+- **Market failure**
+  - Climate is a **global public good**; benefits are diffuse and long-term.
+  - Standard models with a single social discount rate may miss heterogeneous preferences across generations.
+
+<!-- ## Data & Methodology -->
+
+<!-- - **Surveys across generational groups**: -->
+<!--   - Perceived seriousness of climate change. -->
+<!--   - Trust in science and scientific institutions. -->
+<!--   - Support for specific policy instruments (carbon taxes, regulations, subsidies). -->
+<!--   - Frequency of pro-environmental behaviors (voting, activism, consumption choices). -->
+
+<!-- - **Secondary data**: -->
+<!--   - Pew Research Center surveys on climate attitudes by generation. -->
+<!--   - National and international datasets on environmental opinions and participation. -->
+
+<!-- ## Data & Methodology -->
+
+<!-- - **Analytical approach**: -->
+<!--   - Statistical analysis linking generation to climate concern and behavior. -->
+<!--   - Controls for income, education, ideology, and geography. -->
+<!--   - Conceptual discussion of how discounting and identity shape policy preferences. -->
+
+
+
+
+# ⚖️🌬️ <span style="color:#b7e4c7; font-style:italic;">**"Balancing Efficiency and Equity In New York Wind Energy Expansion"**</span> {background-color="#1c4982"}
+
+## Motivation, Overview & Research Question
+
+- New York aims to expand **wind energy** to meet clean-energy and climate targets.
+- Wind energy generates:
+  - **Positive externalities**: emissions reduction, cleaner air, energy security.
+  - **Negative externalities**: noise, visual impacts, property value concerns, wildlife effects.
+- Geographic distribution of costs and benefits:
+  - Urban consumers benefit from clean electricity.
+  - Rural communities shoulder many local costs.
+- <u>Research Question</u>:  
+  **How can New York design wind energy policy that balances efficiency (clean energy expansion) and equity (localized burdens)?**
+
+## Economic Mechanisms & Conceptual Framework
+
+- **Externalities & market failure**
+  - Benefits and costs are unevenly distributed across regions.
+  - Without policy, wind expansion may be efficient in aggregate but inequitable locally.
+
+- **Principal–agent issues**
+  - Policymakers and urban voters may push for rapid expansion.
+  - Rural communities may resist if they perceive unfair distribution of benefits vs. costs.
+
+## Economic Mechanisms & Conceptual Framework
+
+- **Economic tools and frameworks**
+  - **Pigouvian taxes/subsidies** to internalize externalities.
+  - **Coasean bargaining** and community benefit agreements.
+  - Compensation mechanisms:
+    - Revenue sharing.
+    - Local infrastructure investments.
+    - Property value guarantees.
+  - **Dynamic efficiency**:
+    - Long-term planning of onshore vs. offshore capacity.
+    - Balancing near-term costs with long-term climate benefits.
+
+<!-- ## Data & Methodology -->
+
+<!-- - **Data sources** -->
+<!--   - NYSERDA and state reports on: -->
+<!--     - Wind turbine noise (decibel levels at various distances). -->
+<!--     - Siting and permitting of onshore and offshore wind. -->
+<!--   - Environmental impact data: -->
+<!--     - Wildlife (birds, bats, fisheries). -->
+<!--     - Coastal and marine ecosystems. -->
+<!--   - Energy production data: -->
+<!--     - Capacity factors and output for onshore vs. offshore projects. -->
+
+<!-- ## Data & Methodology -->
+
+<!-- - **Analytical approach** -->
+<!--   - **Cost–Benefit Analysis (CBA)**: -->
+<!--     - Quantify social benefits (GHG reductions, air quality improvements). -->
+<!--     - Quantify local costs where possible (noise, visual, property impacts). -->
+<!--     - Compare net benefits per location and technology (onshore vs. offshore). -->
+<!--   - Distributional analysis: -->
+<!--     - How benefits and costs fall across urban vs. rural communities. -->
+<!--     - Discussion of equity-focused policy design. -->
+
+
+
+
+# 🌳🪵 <span style="color:#b7e4c7; font-style:italic;">**"Evaluating the Underperformance of UN-Backed REDD+ Initiatives in Combating Deforestation in Brazil"**</span> {background-color="#1c4982"}
+
+## Motivation, Overview & Research Question
+
+- **REDD+ (Reducing Emissions from Deforestation and Forest Degradation)** aims to:
+  - Conserve forests.
+  - Reduce emissions from land-use change.
+  - Support sustainable development.
+- Brazil’s Amazon rainforest is a critical **global carbon sink**.
+- Despite REDD+, deforestation continues at high levels.
+- <u>Research Question</u>:  
+  **Why has REDD+ failed to effectively reduce deforestation in Brazil?**
+  
+<!-- - Fits “Climate Change and the Individual” by tracing how: -->
+<!--   - Choices of farmers, ranchers, loggers, and officials aggregate into large-scale deforestation outcomes. -->
+
+## Economic Mechanisms & Conceptual Framework
+
+- **Negative externalities**
+  - Private actors profit from land clearing (ranching, soy), while:
+    - Society bears climate and ecosystem costs (CO₂ emissions, biodiversity loss, rainfall disruption).
+
+- **Public goods and free-riding**
+  - Amazon forests provide global benefits (carbon storage, climate regulation, biodiversity).
+  - No single actor internalizes full benefits → under-protection.
+
+- **Property-rights failures**
+  - Weak or unclear land tenure:
+    - Encourages illegal clearing and land grabs.
+    - Promotes short-term profit maximization.
+
+## Economic Mechanisms & Conceptual Framework
+
+- **Program-specific problems in REDD+**
+  - **Leakage**: deforestation shifts to neighboring areas not under strict protection.
+  - **Corruption and weak enforcement**: delayed or misdirected payments; poor monitoring.
+  - **Phantom credits**: carbon credits without real emission reductions.
+  - Mismatch between high-level design and on-the-ground incentives for farmers and communities.
+
+<!-- ## Data & Methodology -->
+
+<!-- - **Secondary data** -->
+<!--   - Academic literature on REDD+ in Brazil and other countries. -->
+<!--   - Reports from: -->
+<!--     - UN, CIFOR, NGOs (e.g., Global Forest Coalition). -->
+<!--     - Brazilian government and international agencies. -->
+<!--   - Deforestation statistics and satellite-based land-use data. -->
+
+<!-- - **Survey and qualitative evidence** -->
+<!--   - Studies of: -->
+<!--     - Local perceptions of REDD+ incentives. -->
+<!--     - Attitudes toward land rights, enforcement, and payments. -->
+
+<!-- ## Data & Methodology -->
+
+<!-- - **Analytical approach** -->
+<!--   - Economic reasoning using externalities, public goods, and property-rights theory. -->
+<!--   - Comparison of REDD+ design vs. observed implementation. -->
+<!--   - Conceptual mapping of how governance failures and incentives lead to program underperformance. -->
+
+
+
+
+# 💡🏠 <span style="color:#b7e4c7; font-style:italic;">**"Economic Reasoning Behind Households Income Level in Transitioning to Clean Energy"**</span> {background-color="#1c4982"}
+
+## Motivation, Overview & Research Question
+
+- Households face decisions about adopting **clean energy technologies**:
+  - Electric vehicles (EVs), rooftop solar, energy-efficient appliances.
+- Adoption is uneven, often skewed toward higher-income households.
+- <u>Research Question</u>:  
+  **How do income levels and access to information affect the economic reasoning behind clean energy adoption?**
+- <u>Relevance</u>:
+  - Fossil fuels produce negative externalities.
+  - Existing policies (tax credits, rebates, DSM programs) may not be equitable or effective across income groups.
+
+## Economic Mechanisms & Conceptual Framework
+
+- **Market failure**
+  - Fossil fuel use imposes environmental externalities not fully priced.
+  - Under-adoption of clean energy relative to the social optimum.
+
+- **Behavioral economics**
+  - High **upfront costs** and implicit discount rates cause households to undervalue future savings.
+  - **Information gaps**:
+    - Limited understanding of long-run savings.
+    - Uncertainty about technology reliability.
+  - **Energy efficiency gap**: households forgo cost-effective energy-saving investments.
+
+## Economic Mechanisms & Conceptual Framework
+
+- **Equity concerns**
+  - Low-income households:
+    - Face credit constraints.
+    - Have less access to high-quality information and time to research.
+  - High-income households disproportionately capture tax credits and subsidies.
+  - Raises questions about **distributional fairness** of climate policies.
+
+<!-- ## Data & Methodology -->
+
+<!-- - **Secondary data** -->
+<!--   - EIA and RECS (Residential Energy Consumption Survey). -->
+<!--   - State-level clean energy program reports. -->
+<!--   - Studies on EV and solar adoption by income, region, and demographics. -->
+
+<!-- - **Empirical focus** -->
+<!--   - Compare clean energy adoption rates across: -->
+<!--     - Income groups. -->
+<!--     - States with different incentive structures. -->
+<!--   - Examine: -->
+<!--     - Types of incentives (rebates vs. tax credits, upfront vs. delayed). -->
+
+<!-- ## Data & Methodology -->
+
+<!-- - **Conceptual and modeling approach** -->
+<!--   - Simple household decision model with: -->
+<!--     - Heterogeneous income and credit constraints. -->
+<!--     - Different discount rates and information levels. -->
+<!--   - Use this framework to interpret observed patterns in adoption and evaluate policy design options. -->
+
+
+
+# 🍽️🌱 <span style="color:#b7e4c7; font-style:italic;">**"Dietary Decisions and Global Emissions: How Everyday Food Choices Shape Climate Outcomes"**</span> {background-color="#1c4982"}
+
+## Motivation, Overview & Research Question
+
+- Daily dietary choices (especially meat vs. plant-based) have major impacts on **global GHG emissions**.
+- The food system is a substantial share of global emissions, particularly from livestock.
+- Individuals have relatively high flexibility in adjusting diets compared to other behaviors.
+- <u>Research Question</u>: **How do individual dietary choices—especially reductions in meat consumption—combine to produce measurable global emissions impacts through changes in agricultural production?**
+- <u>Policy interest</u>:
+  - Carbon pricing on high-emission foods.
+  - Information campaigns and dietary guidelines.
+  - Low-carbon diet promotion.
+
+## Economic Mechanisms & Conceptual Framework
+
+- **Negative externalities & market failure**
+  - Meat production generates emissions that are not priced into food costs.
+  - Private marginal cost < social marginal cost → **overconsumption** of high-emission foods.
+
+- **Behavioral economics**
+  - Food choices shaped by:
+    - Habits and cultural norms.
+    - Bounded rationality and limited attention to climate impacts.
+    - Imperfect information about environmental consequences and nutrition.
+  - These factors make sustainable dietary shifts difficult.
+
+## Economic Mechanisms & Conceptual Framework
+
+- **Policy and incentive design**
+  - Use of:
+    - Carbon taxes or fees on high-emission foods.
+    - Subsidies or vouchers for plant-based options.
+    - Information nudges, eco-labels, and updated dietary guidelines.
+
+<!-- ## Data & Methodology -->
+
+<!-- - **Quantitative data** -->
+<!--   - GHG footprint databases: -->
+<!--     - EPA, FAO, UNEP, and LCA (life-cycle analysis) studies. -->
+<!--   - Emissions per kg of different food types (beef, pork, poultry, legumes, etc.). -->
+
+<!-- - **Survey and behavioral data** -->
+<!--   - Surveys on dietary habits and willingness to reduce meat consumption. -->
+<!--   - Data on income, culture, and regional consumption patterns. -->
+
+<!-- ## Data & Methodology -->
+
+<!-- - **Analytical tools** -->
+<!--   - Externality and social-cost analysis for different diets. -->
+<!--   - Demand elasticity estimates for meat and substitutes. -->
+<!--   - Scenario modeling: -->
+<!--     - Baseline vs. partial and substantial meat-reduction scenarios. -->
+<!--     - Estimated emissions reductions by region and income group. -->
+
+
+
+# 🥬🧪️ <span style="color:#b7e4c7; font-style:italic;">**"Reaching New Heights: Vertical Farming as a Microeconomic Response to Climate Change"**</span> {background-color="#1c4982"}
+
+## Motivation, Overview & Research Question
+
+- Global population projected to reach **9.7 billion by 2050**, with ~70% living in cities.
+- **Traditional agriculture** faces:
+  - Land scarcity near urban centers.
+  - Freshwater depletion (agriculture uses ~70% of global freshwater).
+  - Climate vulnerability and environmental degradation.
+- **Vertical farming**:
+  - Indoor, vertically stacked production using hydroponics/aeroponics and LED lighting.
+- <u>Research Question</u>: **How has the adoption of vertical farming generated positive externalities for individuals and communities, and what policy mechanisms can internalize these benefits to promote sustainable agriculture?**
+
+## Economic Mechanisms & Conceptual Framework
+
+- **Positive externalities**
+  - Lower CO₂ emissions via reduced deforestation and shorter supply chains.
+  - Greater water efficiency (up to ~98% reduction in water use).
+  - Reduced pesticide and fertilizer use.
+  - Improved community health and food access.
+  - Local job creation and green employment.
+
+- **Market failure and underinvestment**
+  - Private marginal benefit (PMB) < social marginal benefit (SMB).
+  - High fixed and variable costs (energy, labor, infrastructure) limit private profitability.
+  - Results in **underinvestment** in vertical farming relative to social optimum.
+
+## Economic Mechanisms & Conceptual Framework
+
+- **Policy tools to internalize spillovers**
+  - Capital subsidies, tax credits, and grants for vertical farms.
+  - Consumer vouchers and eco-labeling for vertically farmed products.
+  - Property rights and potential Coasean bargaining with cities and utilities.
+
+<!-- ## Data & Methodology -->
+
+<!-- - **Case study: St. Louis vertical farm model (Li et al.)** -->
+<!--   - 14 candidate sites, 32 grocery stores, 10 vertical-farm crops. -->
+<!--   - Baseline result: near break-even (small negative profit) due to high costs. -->
+<!--   - Sensitivity analysis: -->
+<!--     - Reducing fixed and variable costs by 50% → substantial positive profit. -->
+
+<!-- ## Data & Methodology -->
+
+<!-- - **Analytical approach** -->
+<!--   - Cost–benefit analysis of vertical farming: -->
+<!--     - Compare private profits to estimated social benefits (CO₂, water, health, jobs). -->
+<!--   - Use case-study parameters to illustrate: -->
+<!--     - How subsidies and cost reductions could shift profitability. -->
+<!--     - The gap between PMB and SMB. -->
+<!--   - Conceptual supply–demand and externality diagrams: -->
+<!--     - SMB vs. PMB. -->
+<!--     - Effects of lump-sum or per-unit subsidies. -->
+
+
+
+
+# 🏦🔥 <span style="color:#b7e4c7; font-style:italic;">**"The Effect of Insurance Premiums on Climate Risk Perceptions"**</span> {background-color="#1c4982"}
+
+## Motivation, Overview & Research Question
+
+- Climate change is increasingly visible in **insurance markets**:
+  - Rising premiums and reduced coverage in high-risk areas.
+- 2025 Southern California wildfires:
+  - Major damages.
+  - Significant increases in property insurance premiums and insurer withdrawal.
+- <u>Research Question</u>: **Do rising insurance premiums increase individuals’ perceptions of climate risk and climate-policy support?**
+- <u>Importance</u>:
+  - Insurance may be one of the clearest financial signals of climate risk for households.
+  - Could help reduce excessive discounting of future climate damages.
+
+## Economic Mechanisms & Conceptual Framework
+
+- **Intertemporal discounting & bounded rationality**
+  - Climate damages are often distant and uncertain → heavy discounting.
+  - Insurance premiums make risk **immediate and salient** by increasing current costs.
+
+- **Intergenerational externalities**
+  - Current climate decisions affect future generations who cannot directly influence policy.
+  - Underinvestment in mitigation from a social perspective.
+
+## Economic Mechanisms & Conceptual Framework
+
+- **Insurance market structure**
+  - Risk pooling means low-risk consumers subsidize high-risk areas to a degree.
+  - Premium hikes, coverage limits, or insurer exits can:
+    - Reveal underlying risk changes.
+    - Raise awareness of climate-related hazards.
+
+- **Behavioral dimensions**
+  - Risk salience after disasters (wildfires, floods).
+  - Availability heuristic: recent events increase perceived probability.
+  - Limited attention: premiums serve as a “wake-up call” about climate risk.
+
+<!-- ## Data & Methodology -->
+
+<!-- - **Survey data** -->
+<!--   - Climate attitudes and perceived risk among Californians. -->
+<!--   - Political preferences, policy priorities, and trust in government. -->
+<!--   - Changes in views pre- and post-wildfires where possible. -->
+
+<!-- - **Secondary data** -->
+<!--   - Fire hazard maps and severity measures by county. -->
+<!--   - Insurance premium data and availability over time. -->
+<!--   - Socioeconomic and demographic characteristics. -->
+
+<!-- ## Data & Methodology -->
+
+<!-- - **Analytical approach** -->
+<!--   - Compare counties with: -->
+<!--     - High vs. low wildfire damage. -->
+<!--     - Large vs. small premium increases. -->
+<!--   - Examine correlations between: -->
+<!--     - Premium changes and climate-risk perception. -->
+<!--     - Premium changes and climate-policy support. -->
+<!--   - Control for confounders such as income, political ideology, and prior exposure to climate events. -->
+  
+
