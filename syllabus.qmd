@@ -63,7 +63,7 @@ Students will demonstrate
 
 # Course Requirements
 - **Homework**: 5 assignments
-- **Quizzes**: 2 in-class quizzes
+- **Quizzes**: 1 in-class quizzes
 - **Participation**: In-person and online participation
 - **Team Project**: *Climate Change and the Individual project* with team presentation and proposal
 - **Exams**: 2 midterms and 1 final
@@ -156,27 +156,31 @@ All required books are open access with free PDF files:
   - ISBN-10: 1610916077  
   - ISBN-13: 978-1610916073  
 
+- **Public Finance and Public Policy**, by Jonathan Gruber (5th Edition)  
+  - ISBN-10: 1464143331  
+  - ISBN-13: 978-1464143335  
+
 
 # Course Schedule
 
 | Week | Dates       | Topic                                          | Materials |
 |:---:|:-------------:|:----------------------------------------------|:------|
 | 1   | Aug 25–29    | Introduction; Microeconomics Review  | FS Ch.1; RLC Ch.1-2; HRC |
-| 2   | Sep 2–5      | Market Failures and Behavioral Anomalies | FS Ch.2; RLC Ch2-3 |
-| 3   | Sep 8–12     | Market Failures and Behavioral Anomalies | FS Ch.2; RLC Ch.3 |
-| 4   | Sep 15–19    | Market Failures and Behavioral Anomalies | FS Ch.2; RLC Ch.3 |
-| 5   | Sep 22–26    | Market Failures and Behavioral Anomalies | FS Ch.2; RLC Ch.3 |
-| 6   | Sep 29–Oct 3 | Public Goods and Common Pool Resources   | FS Ch.2; RLC Ch.3 |
+| 2   | Sep 2–5      | Microeconomics Review; Externalities | FS Ch.2; RLC Ch2-3 |
+| 3   | Sep 8–12     | Externalities| FS Ch.2; RLC Ch.3 |
+| 4   | Sep 15–19    | Externalities; Property Rights, the Coase Theorem, and the Environment | FS Ch.2; RLC Ch.3 |
+| 5   | Sep 22–26    | Property Rights, the Coase Theorem, and the Environment | FS Ch.2; RLC Ch.3 |
+| 6   | Sep 29–Oct 3 | Common Property, Open Access, and Property Rights	   | FS Ch.2; RLC Ch.3 |
 | 7   | Oct 6–10     | Public Goods and Common Pool Resources   | FS Ch.2; RLC Ch.3 |
-| 8   | Oct 15–17    | Economics of Global Climate Change    | HRC |
-| 9   | Oct 20–24    | Energy Policy  | FS Ch.7-8; RH; THR |
-| 10  | Oct 27–31    | Energy Policy  | FS Ch.7-8; RH; THR |
-| 11  | Nov 3–7      | Energy Policy  | FS Ch.7-8; RH; THR |
-| 12  | Nov 10–14    | Climate Change Adaptation: Floods and Wildfire   | TL Ch.14 |
-| 13  | Nov 17–21    | Measuring the Benefits of Environmental Protection |  RLC Ch.4; GWP Ch.5; HSW Ch.5  |
-| 14  | Nov 24–25    | Measuring the Benefits of Environmental Protection |  RLC Ch.4; GWP Ch.5; HSW Ch.5  |
-| 15  | Dec 1–5      | Team Presentations   |    |
-| 16  | Dec 8-12     | Summary              |    |
+| 8   | Oct 15–17    | Information, Incentives, and Behavioral Anomalies    | FS Ch.2 |
+| 9   | Oct 20–24    | Information, Incentives, and Behavioral Anomalies; The Discount Rate  | FS Ch.2; RLC Ch.4 |
+| 10  | Oct 27–31    | The Discount Rate; Cost–Benefit Analysis	  | RLC Ch.4; HRC |
+| 11  | Nov 3–7      | Understanding Climate Impacts and the Social Cost of Carbon; Value of Statistical Life | RLC Ch.4 and Ch.6; HRC |
+| 12  | Nov 10–14    |  Market for Pollution: Price vs. Quantity Approaches  | Gruber Ch.5.4 |
+| 13  | Nov 17–21    | International Climate Agreements | RLC Ch.6; HRC  |
+| 14  | Nov 24–25    | Climate Change and the Individual |  HRC  |
+| 15  | Dec 1–5      | Climate Change Adaptation: Floods and Wildfire; Team Presentations   | TL Ch. 14   |
+| 16  | Dec 8-12     | Team Presentations; Summary              |    |
 
 
 ### No Classes
@@ -189,7 +193,7 @@ All required books are open access with free PDF files:
 - Week 7 (Oct 6–10): **Homework 2, Quiz 1 & Midterm Exam 1**
 - Week 10 (October 31, Friday, 11:59 P.M.): **Project Kickoff Report**
 - Week 11 (Nov 3–7): **Homework 3**
-- Week 13 (Nov 17–21): **Homework 4, Quiz 2, & Midterm Exam 2**
+- Week 13 (Nov 17–21): **Homework 4 & Midterm Exam 2**
 - Week 15 (Dec 1–5): **Team Presentations**
 - Week 16 (Dec 8-12): **Homework 5**
 - Week 16 (December 10, Wednesday, 8:30 A.M.-10:30 A.M.) : **Final Exam**
