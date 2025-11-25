@@ -1,9 +1,9 @@
 ---
 title: "Feedback & Next Steps"
 subtitle: "Balancing Efficiency and Equity in New York Wind Energy Expansion"
-author: "Byeong-Hak Choe"
-institute: "SUNY Geneseo"
-date: "2025-11-24"
+author: Byeong-Hak Choe
+institute: SUNY Geneseo
+date: 2025-11-25
 
 code-fold: false
 

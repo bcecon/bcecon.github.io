@@ -1,6 +1,6 @@
 ---
 title: "Feedback & Next Steps"
-subtitle: ""
+subtitle: "Dietary Decisions and Global Emissions: How Everyday Food Choices Shape Climate Outcomes"
 author: Byeong-Hak Choe
 institute: SUNY Geneseo
 date: 2025-11-25
@@ -16,128 +16,77 @@ execute:
   fig-height: 6
 ---
 
-Dear Henry, Saya, and Eva
+Dear Nevan, William, and Andre,
 
-Thank you for your rich and ambitious Research Kick-off Report on insurance premiums and climate risk perception. You’ve identified an important channel through which households *experience* climate risk in financial terms, and you’ve connected this well to **discounting, salience, and market structure**. The project has high potential, especially if you sharpen the **causal narrative** and keep the scope manageable.
+Thank you for your **Research Kick-off Report** on dietary choices and global emissions. You did a nice job highlighting the role of high-emission foods (especially meat) and linking them to externalities. The project has strong potential, especially if you **narrow the scope to a small set of foods** and connect your narrative more tightly to **externality theory** and **clear, literature-based emission estimates**.
 
----
-
-### Clarifying the Scope: Final Proposal
-
-You are working toward the **final proposal**. Your main task is to:
-
-- Build a **clear environmental economics narrative** around insurance, climate risk, and household behavior.
-- Use **existing literature, descriptive facts, and published figures** to motivate your research question and policy discussion.
-- Propose **conceptual frameworks and possible policy options**, not full econometric results.
-
-If you choose to include data or figures, these can come from **existing reports, academic papers, and reputable institutions**.
+Remember that you are working toward a **final proposal**. Focus on **environmental economics reasoning**, using **existing studies, emission factors, and descriptive evidence** to build your argument and inform policy recommendations.
 
 ---
 
-### Next Steps for Your Final Proposal
+### Next Steps
 
-Over the next few weeks, I recommend focusing on:
+Over the next few weeks, aim to:
 
-1. **Clarify your core research question and mechanism**
-   - For example:  
-   
-     > “How do increases in climate-related insurance premiums affect households’ perceived climate risk and attitudes toward adaptation and climate policy?”
-     
-   - Be explicit about the **direction of causality** you want to emphasize:
-     - Climate risk → higher expected losses → higher premiums → changes in perception/behavior.
-     - Or, insurance market structure and policy → distorted pricing → misaligned perceptions and adaptation.
+- **Narrow the scope of foods**  
+  Choose a **small set of foods** (e.g., one or two high-emission items and one lower-emission alternative) so that your comparisons and scenarios are clear and concrete.
 
-2. **Develop a simple conceptual framework (no heavy math required)**
-   - Sketch a **household decision problem**:  
-     - Trade-offs between current housing consumption, moving/adaptation costs, and perceived future climate damages.
-     - Where do **insurance premiums** enter the budget constraint and perceived risk?
-   - Use concepts like **risk pricing, externalities, moral hazard, adverse selection, and intertemporal choice** to structure the story.
+- **Use existing emission estimates (no original data work needed)**  
+  Draw on **published life-cycle analysis estimates** of emissions for your chosen foods and summarize them in a **simple table or figure**. You can treat any numerical examples as **illustrative** rather than as a full data-analysis project.
 
-3. **Frame insurance as both a price signal and a constraint**
-   - Distinguish between:
-     - Insurance as a **signal of risk** that might update beliefs.
-     - Insurance as a **financial burden** that can trap or “lock in” households in risky areas or push them out.
-   - Ask: under what conditions do households *respond* to the signal versus *ignore* or *resist* it?
+- **Develop one or two diet-shift scenarios**  
+  Specify a small number of **diet-shift scenarios** (e.g., modest reductions in a high-emission food or partial substitution toward a lower-emission option) and **approximate** the associated emissions changes using the literature-based factors you find.
 
-4. **Highlight key policy trade-offs**
-   - Should policymakers:
-     - Allow **full risk-based pricing**, even if it raises affordability concerns?
-     - **Subsidize premiums** for equity reasons?
-     - **Invest in adaptation** to reduce risk (and thus premiums)?
-     - Or **discourage rebuilding** in high-risk areas altogether?
-   - Frame these through **efficiency vs. equity**, and **short-run vs. long-run climate resilience**.
+- **Tie everything to externality theory**  
+  Relate your scenarios explicitly to **externality theory**:  
+  - How do **unpriced emissions** from food production lead to **overconsumption** of certain foods?  
+  - How would your proposed policy tools (taxes, subsidies, information campaigns, standards, etc.) help move behavior closer to the **social optimum**?
 
-5. **Use existing empirical evidence for motivation (optional but helpful)**
-   - Instead of running your own regressions, you can:
-     - Show **one or two published figures or tables** that illustrate patterns in climate risk, premiums, or mortgage outcomes.
-     - Summarize **qualitative findings** (e.g., how households report interpreting premium changes, willingness to pay for risk reduction, etc.).
-   - Treat these as **motivation** and **illustrations**, not as your own empirical contribution.
+- **Clarify your policy implications**  
+  Draft a short **policy implications** section that explains how your economic framework and illustrative calculations could inform efforts to align **dietary choices** with **climate objectives**, while also considering **equity** (who is most affected by price and policy changes).
 
 ---
 
-### Suggested References & How to Use Them
+### Suggested References to Cite (and Use for Simple Visuals)
 
-You do **not** need to cite everything, but drawing on a few of these will strengthen the **motivation**, **context**, and **policy discussion** in your proposal:
+You do **not** need to read everything in full detail, but it will be helpful to **cite and draw simple descriptive figures or tables** from some of these:
 
-- [*“How is climate change impacting home insurance markets?”*](https://www.brookings.edu/articles/how-is-climate-change-impacting-home-insurance-markets/) Brookings Institution (2025)  
-  - Use this for **policy context** and recent examples of how climate risk is reshaping insurance markets and affordability.
+- [*“Food systems are responsible for a third of global anthropogenic GHG emissions”*](https://bcecon.github.io/docs/crippa-etal-nature-food-2021-food-system-emissions.pdf) (Nature Food, 2021)
+- [*“Global food system emissions could preclude achieving the 1.5° and 2°C climate change targets”*](https://www.science.org/doi/full/10.1126/science.aba7357) (Science, 2020)
+- [*“Livestock-related greenhouse gas emissions: impacts and options for policy makers”*](https://bcecon.github.io/docs/garnett-environmental-science-policy-2009-livestock-emissions.pdf) (Environmental Science & Policy, 2009)  
 
-- [*“Climate Risk, Insurance Premiums, and the Effects on Mortgage and Credit Outcomes”*](https://www.dallasfed.org/research/papers/2025/wp2505) Dallas Fed Working Paper (2025)
-  - Helpful for illustrating how **premium changes ripple into mortgage performance and credit markets**
+Whenever possible, I **strongly recommend** adding at least **one clear visualization and/or descriptive statistic** from these references (or similar work) to your **presentation slides**. For example:
 
-- [*“Housing, Climate Risk, and Insurance”*](https://bcecon.github.io/docs/keys-nber-2025-housing-climate-risk-insurance.pdf) – NBER (2025)  
-  - Use this to frame broader **housing-market responses**, risk pricing, and geographical patterns of exposure.
+- A **visualization** showing the share of global emissions from food systems or livestock.
+- A **table** comparing emissions per kilogram (or per serving) of a few key foods.
+- A **graph** illustrating how food-system emissions interact with 1.5°C or 2°C climate pathways.
 
-- [*"Property Insurance and Disaster Risk: New Evidence from Mortgage Escrow Data"*](https://bcecon.github.io/docs/keys-mulder-nber-2024-insurance-climate-risk.pdf) – NBER (2024)  
-  - This paper uses over **74 million premiums (2014–2024)** inferred from mortgage escrow data to document **rapidly rising premiums** and a **doubling of the pass-through from disaster risk into premiums**.
-  - It also shows that premium increases are **capitalized into home values**, reducing home price growth by over **\$40,000 in the most exposed ZIP codes**, with larger effects where climate risk is rising. You can use this to motivate how **capital markets’ repricing of catastrophic risk** affects both premiums and housing wealth.
-
-- [*“Willingness of homeowners to mitigate climate risk through insurance”*](https://bcecon.github.io/docs/botzen-etal-ecological-economics-2009-insurance-climate-risk.pdf) Ecological Economics (2009)
-  - Especially relevant for understanding **behavioral responses**: how willing are homeowners to pay for risk reduction through insurance, and what shapes this willingness?
-
-In your **presentation slides**, consider adding **one or two visual elements** drawn from these sources, such as:
-
-- A chart showing **trends in premiums** in high-risk vs. low-risk regions.
-- A map or figure showing **geographic variation in climate risk** and insurance costs.
-- A simple bar chart or table summarizing **willingness-to-pay for risk mitigation** from the Ecological Economics paper.
-
-These visuals should be clearly labeled and cited, and used to **motivate** your research question rather than to present new empirical work.
+These visuals will help **motivate your research question** and make the **economic stakes** more tangible for your audience.
 
 ---
 
 ### Questions to Think About as You Refine Your Final Proposal
 
-You do **not** need to answer all of these, but they may help you sharpen your narrative and policy recommendations.
+You do **not** need to answer all of these, but they may help you refine your **narrative**, **economic reasoning**, and **policy recommendations**:
 
-#### a. 💸 Insurance Premiums and Climate Risk Perception – Consumer & Citizen Angle
-- When your insurance premium rises due to wildfire or flood risk, do you interpret it as “the market knows something I need to know”? Why or why not?
-- From a citizen perspective, should policymakers allow insurance prices to fully reflect climate risks, or should they cap or subsidize premiums to protect affordability?  
-  - How might each choice affect **individual risk perception**, **location choices**, and **political support** for climate policy?
+#### a. Behavioral & Information Barriers
 
-#### b. 🏠 Housing Choice, Lock-In, and System Constraints
-- Rising premiums may signal growing climate risk, but many households can’t move because of mortgages, jobs, or family ties.  
-  - Is climate risk perception meaningful if individuals have **no viable alternatives**?
-- How do **lock-in effects** (being “stuck” in place) change the welfare analysis of risk-based pricing?
-- If several neighbors relocate or invest in adaptation after premium hikes, how might that shape your own perception of risk? Are **social spillovers** sometimes stronger than price signals?
+- What are the main **behavioral and information barriers** to shifting diets toward lower-carbon options (e.g., misperceptions about nutrition or climate impact, habits, social norms, identity, taste preferences)?
+- How might these barriers differ across **income groups or cultures**, and how could that shape which **policy tools** (taxes, subsidies, information campaigns, labeling, defaults) are most appropriate?
 
-#### c. 🧠 Behavioral Economics & Misperception of Climate Risk
-- Why might some households **ignore or downplay** rising premiums? Consider:
-  - **Present bias** (focusing on current costs and ignoring long-run risk),
-  - **Availability heuristic** (“nothing bad has happened recently”),
-  - **Limited attention** (complex contracts, automatic renewals).
-- How could insurers or governments **communicate climate risk** in ways that counter these biases without causing panic or resignation?
+#### b. Consumer vs. System Perspective
 
-#### d. ⚠️ Systemic Risks and Insurance Market Failure
-- What happens when insurers **underprice climate risk** (e.g., due to regulation or political pressure)?  
-  - How does that affect rebuilding in high-risk areas and the timing of adaptation?
-- What happens when insurers **overprice risk** or withdraw coverage entirely?  
-  - Think about **affordability crises, local economic decline, and climate-driven migration**.
-- In cases of severe market failure, who should step in when private insurance markets collapse—state governments, the federal government, or some form of **public insurer of last resort**?  
-  - How might each option affect **risk perception, incentives to adapt, and equity**?
+- How much can **individual dietary changes** achieve in isolation, assuming the broader food system (prices, availability, menus, marketing) does **not** change much in the short run?  
+- In contrast, where do **system-level changes** (e.g., institutional procurement, school and workplace menus, labeling standards, public procurement) become necessary for **large emission reductions**, and how would you describe the **interaction** between individual choices and system-level constraints in economic terms?
+
+#### c. Norms & Social Spillovers
+
+- Can diet-related climate action spread through **social norms and peer effects** (for example, when seeing more plant-based options around you changes what feels “normal” to eat)?  
+- How might you model these **social spillovers** using economic concepts—for instance, as a kind of **externality**, as a shift in **preferences over time**, or as something that gradually **shifts demand curves** for different foods?
 
 ---
 
-If you refine your proposal around a **clear mechanism**, a **simple conceptual framework**, and a set of **policy trade-offs**, you’ll have a strong environmental economics project—even without doing your own data analytics.
+Please feel free to reach out if you’d like to discuss possible food choices, scenarios, or policy angles. I’m happy to help you narrow and sharpen the proposal.
 
 Best,  
-Byeong-Hak Choe
+Byeong-Hak

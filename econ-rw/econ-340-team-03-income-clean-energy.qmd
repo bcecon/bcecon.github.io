@@ -1,9 +1,9 @@
 ---
 title: "Feedback & Next Steps"
 subtitle: "Economic Reasoning Behind Households’ Income Level in Transitioning to Clean Energy"
-author: "Byeong-Hak Choe"
-institute: "SUNY Geneseo"
-date: "2025-11-24"
+author: Byeong-Hak Choe
+institute: SUNY Geneseo
+date: 2025-11-25
 
 code-fold: false
 
@@ -38,12 +38,10 @@ You are working toward the **final proposal** (not a full empirical paper), and 
 
 - **Recommend key empirical references**
   - Add at least one section that summarizes what we already know from empirical work:
-    - *“Determinants of household adoption of clean energy with its rural–urban disparities in Bangladesh”* – shows how **wealth, location (urban vs rural), education, and access to information** shape clean fuel adoption and highlight inequality in who adopts clean energy.  
-      <https://www.nature.com/articles/s41598-024-52798-7>
-    - *“Does renewable energy reduce energy intensity? A matter of income inequality”* – shows that **income inequality weakens the contribution of renewable energy to reducing energy intensity**, reinforcing your theme that distributional issues and inequality matter for how effective clean-energy transitions are.  
-      <https://www.nature.com/articles/s41599-025-04439-1>
-    - *“Determinants of households’ investment in energy efficiency and renewables: evidence from the OECD survey on household environmental behaviour and attitudes”* – documents how **homeownership, income, and environmental attitudes** increase the likelihood of investing in energy-efficiency and renewable technologies.  
-      <https://doi.org/10.1088/1748-9326/10/4/044015>
+    - [*“Determinants of household adoption of clean energy with its rural–urban disparities in Bangladesh”*](https://www.nature.com/articles/s41598-024-52798-7) (Scientific Reports, 2024)
+    - [*“Does renewable energy reduce energy intensity? A matter of income inequality”*](https://www.nature.com/articles/s41599-025-04439-1)    
+    - [*“Determinants of households’ investment in energy efficiency and renewables: evidence from the OECD survey on household environmental behaviour and attitudes”*](https://doi.org/10.1088/1748-9326/10/4/044015)
+      
   - Briefly connect these results to your own question about **income and clean-energy adoption** and to the idea that **inequality can blunt the benefits of clean energy**.
 
 - **Use simple visual and descriptive evidence in your slides**
