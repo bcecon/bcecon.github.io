@@ -71,6 +71,7 @@ Just to emphasize: for this course you are writing a **final proposal, not a ful
       - [*“A.I. Is on the Rise, and So Is the Environmental Impact of the Data Centers That Drive It”*](https://www.smithsonianmag.com/science-nature/with-ai-on-the-rise-what-will-be-the-environmental-impacts-of-data-centers-180987379/) (Smithsonian Magazine)
       - [*“Responding to the climate impact of generative AI”*](https://news.mit.edu/2025/responding-to-generative-ai-climate-impact-0930) (MIT News)  
       - [*“AI has an environmental problem. Here’s what the world can do about that.”*](https://www.unep.org/news-and-stories/story/ai-has-environmental-problem-heres-what-world-can-do-about) (UNEP)  
+      - [*"AI, data centers, and water"*](https://www.brookings.edu/articles/ai-data-centers-and-water/) (Brookings Institution)
   - Use these to support both your **quantitative indicators** and your **policy discussion**.
 
 ---

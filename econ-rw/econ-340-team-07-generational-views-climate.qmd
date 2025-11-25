@@ -1,0 +1,94 @@
+---
+title: "Feedback & Next Steps"
+subtitle: "Generational Views on Climate Change and How They Affect Action to Combat It"
+author: Byeong-Hak Choe
+institute: SUNY Geneseo
+date: 2025-11-25
+
+code-fold: false
+
+execute:
+  echo: true
+  eval: true
+  message: false
+  warning: false
+  fig-width: 9
+  fig-height: 6
+---
+
+Dear Henry and Adam,
+
+Thank you for your thoughtful work on **generational differences in climate attitudes and actions**. You’ve connected the topic well to **intertemporal discounting, intergenerational externalities, and behavioral economics**. The project has strong potential, especially if you narrow your focus to a few key dimensions and link observed differences more explicitly to **economic concepts like discounting, present bias, and perceptions of long-term risk**.
+
+Your task is to develop a clear **environmental economics narrative** using existing literature and descriptive patterns from prior studies.
+
+---
+
+### Next Steps
+
+- **Sharpen your central research question**  
+  Focus on **one or two key dimensions**, such as:
+  - Perceived seriousness of climate change by generation
+  - Support for specific mitigation policies across age groups
+  - Willingness to accept near-term costs for long-term climate benefits
+
+- **Rely on existing survey and panel evidence (no new data analysis required)**  
+  Use **existing empirical work** and survey summaries (e.g., Pew, other reputable surveys) to illustrate generational differences. You can **borrow simple tables or figures** and briefly explain what they show in your **slides** to motivate your research question.
+
+- **Consider citing key research on generational gaps in climate beliefs**
+  - *“Generational differences in climate-related beliefs, risk perceptions and emotions in the UK”* (Communications Earth & Environment, 2023; https://doi.org/10.1038/s43247-023-00870-x)  
+  - *“Ten-year panel data confirm generation gap but climate beliefs increase at similar rates across ages”* (Nature Communications, 2021; https://doi.org/10.1038/s41467-021-24245-y)  
+  - [*“OK Boomer: A decade of generational differences in feelings about climate change”*](https://bcecon.github.io/docs/swim-etal-global-environmental-change-2021-generational-views-climate.pdf) (Global Environmental Change, 2022)  
+
+  From these papers (and related reports), you may **include one or two visualizations and/or descriptive statistics** in your slides (e.g., graphs of concern by age cohort) to **motivate your environmental economics framing**.
+
+- **Translate generational differences into an economics framework**  
+  - Interpret differences in concern or policy support as reflecting **different effective discount rates**, **present bias**, or **perceptions of long-run risk**.
+  - Connect these to **intergenerational externalities** and **justice**: who bears climate damages vs. who decides current policies?
+
+- **Write a short “Policy Implications” section**  
+  Summarize how generational differences in preferences and discounting might:
+  - Influence **which policies are politically feasible**  
+  - Shape **communication strategies** (e.g., emphasizing co-benefits for older voters vs. long-run risk for younger voters)  
+  - Affect **coalition-building** across age groups
+
+---
+
+### Questions to Think About as You Refine Your Final Proposal
+
+You do **not** need to answer all of these, but they may help you clarify your narrative and policy recommendations.
+
+#### 1️⃣ Perceptions vs. Actions
+
+- Do younger generations actually **behave differently** (consumption, travel, voting, activism) than older generations, or are the differences mainly in **attitudes and rhetoric**?
+- What kinds of **evidence** would you need (from existing studies) to convincingly separate “talk” from “action”? For example, differences in **voting records**, **protest participation**, or **consumption patterns** by age group.
+
+#### 2️⃣ Intergenerational Coalitions and Political Power
+
+- What kinds of **intergenerational coalitions** would be needed to move from awareness to **meaningful climate policy** (e.g., youth movements plus older voters with high turnout)?
+- What might each age group contribute?
+  - Younger cohorts: **mobilization, innovation, long time horizon**
+  - Older cohorts: **political power, financial resources, institutional knowledge**
+- How might environmental economics help you reason about **who pays** and **who benefits** across generations?
+
+#### 3️⃣ Framing and Narrative
+
+- Does framing climate change primarily as a **“youth issue”** help mobilize action, or does it risk letting older decision-makers **off the hook**?
+- How might different framings affect political support for long-term climate policies?
+  - **Youth rights / intergenerational justice**
+  - **Shared stewardship and common responsibility**
+  - **Co-benefits** (health, jobs, energy security) that matter to *all* age groups
+
+#### 4️⃣ Policy Design and Discounting
+
+- If younger cohorts show **lower implicit discount rates** (more weight on the future) than older cohorts, how should that influence:
+  - The **design of climate policies** (carbon pricing, green investment, adaptation)?
+  - The **timing** of costs and benefits emphasized in communication?
+- Are there policies that can **align incentives across generations**, such as:
+  - Using current revenues (e.g., from carbon pricing) to fund **visible near-term co-benefits**
+  - **Intergenerational transfers** or climate funds that formally recognize future generations’ interests?
+
+---
+
+Best,  
+Byeong-Hak

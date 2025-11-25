@@ -53,7 +53,6 @@ You **do not need to do original data analytics**. Instead, your main task is to
 - **Incorporate simple numbers or visuals (no original data analysis needed).**  
   - Draw on **secondary data or parameter values** from your references (e.g., typical household emissions by category).  
   - Add at least **one visualization and/or descriptive/statistical result** (e.g., a pie chart of household emissions sources, or a table comparing typical budgets vs. current average emissions) to your **presentation slides** to motivate your research.  
-  - These can be adapted from existing papers or tools; you **do not** need to conduct new data analysis in R or Excel.
 
 - **Discuss policy implications.**  
   Add a short section explaining how **personal budgeting tools** might:
