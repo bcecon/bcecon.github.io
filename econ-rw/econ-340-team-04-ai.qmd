@@ -1,0 +1,120 @@
+---
+title: "Feedback & Next Steps"
+subtitle: "Chat, Write Me a Proposal on the Benefits and Harms of AI"
+author: Byeong-Hak Choe
+institute: SUNY Geneseo
+date: 2025-11-24
+
+code-fold: false
+
+execute:
+  echo: true
+  eval: true
+  message: false
+  warning: false
+  fig-width: 9
+  fig-height: 6
+---
+
+Dear Maggie, Ethan, and Bella
+
+Thank you for your kick-off report on the benefits and harms of AI. You’ve chosen a very timely and ambitious topic and correctly centered environmental externalities (energy, water, and emissions) alongside potential benefits (efficiency, forecasting, innovation). The project’s potential for a strong **final proposal** is high if you (i) narrow the scope of your main question and (ii) anchor your analysis in a clear environmental economics framework.
+
+Just to emphasize: for this course you are writing a **final proposal, not a full empirical paper**, and you **do not need to do original data analytics**. Your goal is to build a well-reasoned, conceptually clear argument grounded in environmental economics.
+
+---
+
+### Next Steps
+
+- **Clarify your main question**
+  - Decide whether you are:
+    - (a) Evaluating the **net balance** of harms and benefits of AI, or  
+    - (b) Focusing primarily on the **environmental harms** and how policy should respond.
+  - Rewrite your main research question in 1–2 precise sentences.
+
+- **Choose a small set of indicators from existing sources**
+  - Select **2–4 concrete indicators** such as:
+    - Data center **electricity use**
+    - **GHG emissions** from data centers
+    - **Water use** for cooling
+    - One or two **benefit channels** (e.g., AI-enabled energy efficiency or better forecasts).
+  - Use **secondary sources only** (reports, articles, etc.) to obtain these numbers.
+
+- **Anchor the project in environmental economics concepts**
+  - Make the economic mechanisms explicit:
+    - **Negative externalities** (energy, water, emissions, local impacts)
+    - **Dynamic efficiency** (short-run innovation vs. long-run climate damages)
+    - Possible **rebound effects** (e.g., more consumption because AI makes tasks easier/cheaper).
+  - Organize harms and benefits within a simple **cost–benefit narrative** or **marginal analysis over time**.
+
+- **Use visual evidence from existing sources**
+  - Consider including **one or two simple visualizations** in your slides (not in the proposal text) such as:
+    - A visual or table comparing **data center electricity use or emissions** over time or across regions.
+    - A simple figure showing projected **growth in AI-related electricity demand**.
+  - These visuals should be based on **published tables/figures** (you can recreate a simplified version) and clearly cited.  
+  - This is **not original data analytics**; it’s using existing descriptive/statistical information to **motivate your question**.
+
+- **Draft policy implications grounded in economic reasoning**
+  - From your analysis of externalities and trade-offs, sketch **2–3 policy levers**, for example:
+    - Carbon pricing or tighter **emissions standards** for electricity generation used by data centers
+    - **Efficiency and water-use standards** for data centers
+    - Requirements or incentives for **renewable procurement** and **locational choices**
+    - **Disclosure requirements** on AI-related energy and water use.
+  - Make sure each recommendation logically follows from your analytical narrative.
+
+- **Build on key references**
+  - I **strongly recommend** citing:
+    - [*“Energy and AI”*](https://www.iea.org/reports/energy-and-ai), the IEA special report.
+    - [*“We did the math on AI’s energy footprint. Here’s the story you haven’t heard.”*](https://www.technologyreview.com/2025/05/20/1116327/ai-energy-usage-climate-footprint-big-tech/) (MIT Technology Review)
+    - [*"Environmental impact and net-zero pathways for sustainable artificial intelligence servers in the USA"*](https://www.nature.com/articles/s41893-025-01681-y) (Nature, 2025)
+    - News-style articles to illustrate current debates and policy concerns:
+      - [*“A.I. Is on the Rise, and So Is the Environmental Impact of the Data Centers That Drive It”*](https://www.smithsonianmag.com/science-nature/with-ai-on-the-rise-what-will-be-the-environmental-impacts-of-data-centers-180987379/) (Smithsonian Magazine)
+      - [*“Responding to the climate impact of generative AI”*](https://news.mit.edu/2025/responding-to-generative-ai-climate-impact-0930) (MIT News)  
+      - [*“AI has an environmental problem. Here’s what the world can do about that.”*](https://www.unep.org/news-and-stories/story/ai-has-environmental-problem-heres-what-world-can-do-about) (UNEP)  
+  - Use these to support both your **quantitative indicators** and your **policy discussion**.
+
+---
+
+### Questions to Think About as You Refine Your Final Proposal
+
+You do **not** need to answer all of these, but they may help you sharpen your narrative and recommendations:
+
+**1. Scope & Economic Mechanism**
+
+- Are you asking, “Does AI bring more harm than benefit overall?” or “Given that AI is growing, **how should we manage its environmental harms** while capturing key benefits?”
+- What are the **main externalities** you want to highlight (electricity demand, emissions, water use, local noise/land impacts)?  
+- How does **dynamic efficiency** enter your story? For example:
+  - Short-run: rapid AI expansion, high energy use.  
+  - Long-run: AI may help optimize energy systems, forecast storms, or improve climate research.
+
+**2. Indicators & Evidence**
+
+- Which **2–3 metrics** from your sources will form the backbone of your environmental argument (e.g., projected data center electricity demand, estimated emissions, water withdrawals)?
+- Can you summarize these in a **single table or figure** for your presentation slides that clearly shows:
+  - “AI-related activity is growing fast,” and  
+  - “This growth has non-trivial environmental consequences”?
+- How will you explain the **uncertainty** in these numbers (e.g., different scenarios in the IEA report)?
+
+**3. Governance, Policy, and Norms**
+
+- What mix of **policy instruments** seems most appropriate from an environmental economics perspective?
+  - Price-based tools (carbon pricing, water pricing, energy taxes)?
+  - Quantity/standard-based tools (efficiency standards, cooling-water rules, siting restrictions)?
+  - Information-based tools (disclosure, labeling of AI services’ energy use)?
+- How should we think about **rebound effects** (e.g., AI makes some processes cheaper → more usage → higher total energy demand)?
+- Under what conditions might AI innovation cross the line from **socially beneficial** to **socially harmful** in environmental terms?
+
+**4. Distribution, Location, and Equity**
+
+- Where are data centers located, and **who bears the external costs** (e.g., local communities facing water stress, noise, land-use changes)?
+- How might your recommended policies address **equity concerns**—for example, between:
+  - Tech firms and host communities, or  
+  - Regions that benefit from AI vs. regions that host the environmental burdens?
+
+
+---
+
+Please feel free to reach out if you’d like to discuss your revised research question, choice of indicators, or policy framing.
+
+Best,  
+Byeong-Hak

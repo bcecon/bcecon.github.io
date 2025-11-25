@@ -1,0 +1,78 @@
+---
+title: "Feedback & Next Steps"
+subtitle: "Balancing Efficiency and Equity in New York Wind Energy Expansion"
+author: "Byeong-Hak Choe"
+institute: "SUNY Geneseo"
+date: "2025-11-24"
+
+code-fold: false
+
+execute:
+  echo: true
+  eval: true
+  message: false
+  warning: false
+  fig-width: 9
+  fig-height: 6
+---
+
+Dear Luke, Brody, and Jake,
+
+Thank you again for your thoughtful **Research Kick-off Report** on New York wind energy expansion. You’ve framed the project well around the tension between **efficiency** (emissions reductions, energy security) and **equity** (who bears local costs). The core **environmental economics** ideas—externalities, distributional impacts, and fairness in policy design—are clear. The potential for a strong **final proposal** is high if you sharpen the efficiency–equity trade-off and connect your conceptual framework to a few concrete examples from the literature.
+
+---
+
+### Next Steps for Your Final Proposal
+
+- **Emphasize environmental economics mechanisms**  
+  In the proposal, make sure you clearly explain:
+  - How **negative local externalities** (noise, visual impacts, possible property value effects) interact with **positive global externalities** (emissions reductions).  
+  - How **total net benefits** can be positive while the **distribution of costs and benefits** may still be controversial.
+
+- **Use evidence from the literature (no new data analysis needed)**  
+  You do **not** need to do original data analytics. Instead, draw on existing environmental and energy economics research. In particular, consider citing:
+  - **“Community Engagement and Equity in Renewable Energy Projects: A Literature Review”** (NREL)  
+    <https://doi.org/10.2172/1996557>  
+    – for concepts such as **procedural**, **distributional**, and **recognition** justice, and best practices in **community engagement** for renewable projects.  
+  - **“The visual effect of wind turbines on property values is small and diminishing in space and time”** (PNAS)  
+    <https://www.pnas.org/doi/10.1073/pnas.2309372121>  
+    – as an example of how economists measure local costs using **property value** impacts, and what the evidence suggests about the magnitude of these costs.
+
+- **Add simple visual and descriptive elements from references**  
+  To motivate your research in the **presentation slides**:
+  - Include **one or two visualizations** taken or adapted from your references (e.g., a figure showing estimated property value effects over distance or time, or a map/chart of New York wind capacity).  
+  - Highlight a few **key descriptive or statistical results** in bullet form (e.g., “Estimated impact on nearby property values is X% and fades beyond Y km,” “Wind currently provides Z% of New York’s electricity”).  
+  The goal is to *illustrate* and *support* your environmental economics story, not to run your own econometrics.
+
+- **Connect to policy design and equity**  
+  In your final proposal, reserve space to discuss:
+  - What kinds of **compensation mechanisms** or **community benefit schemes** might make efficient projects more acceptable and equitable.  
+  - How policy can be designed so that communities that bear more of the local costs also share more of the benefits (e.g., community ownership shares, local tax relief, or rate discounts).
+
+---
+
+### Questions for Your Team to Think About
+
+You do **not** need to answer all of these, but they may help you refine your narrative and policy recommendations.
+
+**a. Efficiency–Equity Trade-offs**  
+
+- When wind projects lower emissions and energy costs overall but impose local visual and noise costs, how should policymakers balance **efficiency** (total net benefits) and **equity** (who bears the costs)?  
+- Is there a point where total net benefits are clearly positive, but the distribution of burdens is so unequal that the project should be reconsidered or redesigned?
+
+**b. Citizens, Information, and Legitimacy**  
+
+- Imagine you live in a community where a wind project is proposed nearby. What information would you want (health, noise, property values, climate benefits) before you feel the process is **legitimate**?  
+- How can results from studies like the PNAS article on property values help reduce misinformation or fear about local impacts?
+
+**c. Compensation and Institutional Design**  
+
+- Should local communities receive **direct benefits** from nearby wind projects (e.g., community funds, reduced local electricity rates, local tax relief, or partial ownership)?  
+- How would you justify your preferred approach from:
+  - An **efficiency** perspective (encouraging socially optimal wind siting and investment), and  
+  - An **equity** perspective (who should be compensated, and for what type of harm)?
+
+---
+
+Best,  
+Byeong-Hak

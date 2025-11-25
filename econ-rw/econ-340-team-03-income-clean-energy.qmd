@@ -1,0 +1,103 @@
+---
+title: "Feedback & Next Steps"
+subtitle: "Economic Reasoning Behind Households’ Income Level in Transitioning to Clean Energy"
+author: "Byeong-Hak Choe"
+institute: "SUNY Geneseo"
+date: "2025-11-24"
+
+code-fold: false
+
+execute:
+  echo: true
+  eval: true
+  message: false
+  warning: false
+  fig-width: 9
+  fig-height: 6
+---
+
+Dear Colin, Molly, and Alec,
+
+Thank you for your report on household income and the clean energy transition. You did a good job motivating the topic via externalities, adoption gaps, and equity concerns. The potential for success is strong, especially if you **narrow the scope to one technology** and clarify whether your main lens is **income constraints, information gaps, or their interaction**. Tying your analysis more tightly to a simple **household decision model** will strengthen both the economic reasoning and policy relevance.
+
+---
+
+### Next Steps
+
+You are working toward the **final proposal** (not a full empirical paper), and you **do not need to do original data analytics**. Instead, focus on economic reasoning using existing literature and descriptive evidence.
+
+- **Clarify your main angle**
+  - Decide whether your core focus is:
+    - (i) income and credit constraints,  
+    - (ii) information and behavioral barriers, or  
+    - (iii) the interaction between the two.
+
+- **Choose one focal technology**
+  - For example: **EVs**, **rooftop solar**, **heat pumps**, or **home energy-efficiency upgrades**.  
+  - Use this technology as your running example throughout the proposal.
+
+- **Recommend key empirical references**
+  - Add at least one section that summarizes what we already know from empirical work:
+    - *“Determinants of household adoption of clean energy with its rural–urban disparities in Bangladesh”* – shows how **wealth, location (urban vs rural), education, and access to information** shape clean fuel adoption and highlight inequality in who adopts clean energy.  
+      <https://www.nature.com/articles/s41598-024-52798-7>
+    - *“Does renewable energy reduce energy intensity? A matter of income inequality”* – shows that **income inequality weakens the contribution of renewable energy to reducing energy intensity**, reinforcing your theme that distributional issues and inequality matter for how effective clean-energy transitions are.  
+      <https://www.nature.com/articles/s41599-025-04439-1>
+    - *“Determinants of households’ investment in energy efficiency and renewables: evidence from the OECD survey on household environmental behaviour and attitudes”* – documents how **homeownership, income, and environmental attitudes** increase the likelihood of investing in energy-efficiency and renewable technologies.  
+      <https://doi.org/10.1088/1748-9326/10/4/044015>
+  - Briefly connect these results to your own question about **income and clean-energy adoption** and to the idea that **inequality can blunt the benefits of clean energy**.
+
+- **Use simple visual and descriptive evidence in your slides**
+  - For your **final presentation slides**, I encourage you to show **one or two figures or tables** from these studies (or recreate a simplified version), such as:
+    - A figure or table of **adoption rates by income or wealth group**.  
+    - A figure illustrating how the **impact of renewable energy on energy intensity changes at different levels of income inequality**.  
+  - Your task is not to run new regressions, but to **interpret what these patterns mean** for equity and policy design.
+
+- **Develop a simple household decision framework**
+  - Sketch a small **household decision model** (e.g., a net present value comparison of “stay with fossil” vs “adopt clean tech”) under different:
+    - income levels,
+    - discount rates,
+    - policy incentives (rebates, tax credits, low-interest loans).
+  - Use this framework to interpret why adoption differs across income groups.
+
+- **Add a short policy implications section**
+  - Explain how your economic reasoning could inform the design of **clean-energy support schemes across income groups** (e.g., upfront rebates vs tax credits, on-bill financing, targeted programs for renters or low-income households).
+
+---
+
+### Questions to Think About as You Refine Your Final Proposal
+
+You **do not** need to answer all of these, but they may help you sharpen your story and policy recommendations.
+
+#### 1. Income Constraints & Economic Reasoning
+
+- When a household considers your chosen technology (e.g., EV, rooftop solar, heat pump, or major efficiency upgrade), **which part of the decision is hardest** for low- and moderate-income households?
+  - High **upfront cost**?
+  - Limited **access to affordable credit**?
+  - Perceived **risk/uncertainty** about future energy savings or technology performance?
+- How does **income level** affect the household’s **discount rate** or patience?  
+  - For example, why might low-income households place more weight on short-run cash flow than on long-run energy savings?
+- How do the Bangladesh and OECD studies reinforce the idea that **income and wealth strongly predict adoption**, even when technologies are socially beneficial? Which mechanisms from those papers seem most relevant for your chosen technology?
+- How does the “renewable energy–energy intensity–income inequality” paper support the claim that **inequality can reduce the effectiveness** of clean energy in improving outcomes, and how might that translate into the household-level story you are telling?
+
+#### 2. Policy Design & Equity
+
+- Suppose you design one flagship policy to help **low- and middle-income households** adopt your chosen technology **without** making the policy regressive.  
+  - What features would it need in terms of:
+    - **Timing of support** (upfront rebate vs tax credit vs loan)?  
+    - **Targeting** (income-tested, place-based, renters vs owners)?  
+    - **Complexity** (paperwork, information requirements)?
+- Looking at the evidence that higher-income and urban households adopt clean energy at much higher rates, how would you judge whether your policy actually **narrows adoption gaps** rather than just subsidizing households who would have adopted anyway?
+- Are there **complementary policies** (e.g., building codes, landlord incentives, consumer protection in financing) that could help overcome structural barriers faced by lower-income households?
+
+#### 3. Behavioral & Information Barriers
+
+- Where do **bounded rationality** and **bounded willpower** show up in these decisions?
+  - Examples: procrastinating on home upgrades, ignoring complex program details, distrust or confusion about new technologies, focusing only on upfront price and not lifetime cost.
+- How might these behavioral factors **interact with income constraints** to reinforce existing inequalities?  
+  - For example, are low-income households more exposed to misleading offers or more likely to drop out of complex application processes?
+- Based on the empirical studies and your own reasoning, what kinds of **behaviorally informed policy tweaks** (simplified forms, default enrollment, trusted messengers, clear comparison tools) might make a meaningful difference for lower-income households?
+
+---
+
+Best,  
+Byeong-Hak Choe

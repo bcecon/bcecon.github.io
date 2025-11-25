@@ -1,0 +1,93 @@
+---
+title: "Feedback & Next Steps"
+subtitle: "Vertical Farming: A Microeconomic Response to Climate Change"
+author: Byeong-Hak Choe
+institute: SUNY Geneseo
+date: 2025-11-25
+
+code-fold: false
+
+execute:
+  echo: true
+  eval: true
+  message: false
+  warning: false
+  fig-width: 9
+  fig-height: 6
+---
+
+Dear Emily and James,
+
+Thank you again for your thoughtful Research Kick-off Report. You did a strong job motivating vertical farming within climate and food-systems challenges, which reminds me of the Malthusian trap. You clearly articulated why positive externalities (water savings, lower emissions, reduced land use, health co-benefits) matter. Your use of the St. Louis case study is especially helpful for grounding the discussion in real numbers.
+
+Overall, the potential for this project is high, especially if you sharpen the economic mechanism, make the private–social gap very concrete, and connect your evidence to clear policy implications for your **Final Proposal**.
+
+---
+
+### Next Steps
+
+- **Clarify your core focus.**  
+  Decide whether your Final Proposal will emphasize  
+  1) *quantifying* and explaining the types of positive externalities associated with vertical farming, or  
+  2) *analyzing* why private adoption remains limited despite these external benefits.  
+  You may incorporate both, but choosing a primary angle strengthens the proposal.
+
+- **Use the St. Louis case study to illustrate key economic points.**  
+  Pull out a few clear numbers (costs, revenues, profitability) that help demonstrate:  
+  - Why private profitability is uncertain or low  
+  - Why social benefits may justify policy support  
+  This does **not** require data analysis—simply summarizing the most relevant evidence from your sources is enough.
+
+- **Include simple visuals or descriptive information only if useful.**  
+  For the Final Proposal, optional visuals could include:  
+  - A comparison of **traditional vs vertical farming** on water use or emissions  
+  - A brief summary table of St. Louis cost–revenue figures  
+  These are not required, but can help motivate the economic story for your audience.
+
+- **Discuss vertical farming within the broader “smart farming” movement.**  
+  Vertical farming is increasingly integrated with **smart farming technologies**—AI-driven controls, IoT sensors, automation, etc. It has attracted interest from major IT firms and philanthropists (e.g., Jeff Bezos; the Bill & Melinda Gates Foundation). If relevant, reflect on whether this innovation ecosystem changes:  
+  
+  - Who pays  
+  - How costs evolve  
+  - How public vs private incentives align
+
+- **Sharpen the underinvestment story.**  
+  Clearly explain why vertical farming is privately underprovided even when socially beneficial:  
+  - High fixed and operating costs  
+  - Private marginal benefit < social marginal benefit  
+  - Learning spillovers and technology diffusion  
+  Then identify **one or two policy tools** that economically justify addressing this underinvestment (subsidies, R&D support, pilots, zoning reform, etc.).
+
+---
+
+### Questions to Think About as You Refine Your Final Proposal
+
+You do **not** need to answer all of these, but they may help you refine your narrative and policy recommendations.
+
+**1. Citizen / Community & Equity Angle**  
+
+- If vertical farming is socially beneficial, what policies or institutions would help it scale beyond niche projects?  
+- Does it risk becoming a **premium urban product**?  
+- What changes would help extend its benefits to underserved communities?
+
+**2. Who Should Pay?**  
+
+- For expensive, early-stage vertical farming projects, who should primarily bear the cost: consumers, taxpayers, private investors, or a mix?  
+- Which **economic arguments** (externalities, equity, dynamic efficiency) support your allocation?
+
+**3. Consumer Behavior & Demand**  
+
+- Under what conditions might consumers pay more for vertically farmed produce?  
+- How do willingness-to-pay differences across income groups influence your proposed policies?
+
+**4. Smart Farming & Innovation Pathways**  
+
+- What are the **benefits and risks** of vertical farming being integrated into smart farming ecosystems dominated by large tech firms and philanthropies?  
+- How can policy ensure that innovation remains **socially aligned** rather than skewed toward private interests?
+
+---
+
+Please let me know if you’d like to discuss the economic mechanism or policy design—happy to help you refine both the logic and clarity of your Final Proposal.
+
+Best,  
+Byeong-Hak
