@@ -31,12 +31,9 @@ Thank you again for your thoughtful **Research Kick-off Report** on New York win
 
 - **Use evidence from the literature (no new data analysis needed)**  
   You do **not** need to do original data analytics. Instead, draw on existing environmental and energy economics research. In particular, consider citing:
-  - **“Community Engagement and Equity in Renewable Energy Projects: A Literature Review”** (NREL)  
-    <https://doi.org/10.2172/1996557>  
-    – for concepts such as **procedural**, **distributional**, and **recognition** justice, and best practices in **community engagement** for renewable projects.  
-  - **“The visual effect of wind turbines on property values is small and diminishing in space and time”** (PNAS)  
-    <https://www.pnas.org/doi/10.1073/pnas.2309372121>  
-    – as an example of how economists measure local costs using **property value** impacts, and what the evidence suggests about the magnitude of these costs.
+  - [*“Community Engagement and Equity in Renewable Energy Projects: A Literature Review”*](https://doi.org/10.2172/1996557) (National Renewable Energy Laboratory, 2023)  
+  - [*“The visual effect of wind turbines on property values is small and diminishing in space and time”*](https://www.pnas.org/doi/10.1073/pnas.2309372121) (PNAS, 2024)  
+  - [*“The evolution of equity in offshore renewable energy: A systematic literature review”*](https://bcecon.github.io/docs/tighsazzadeh-etal-ocean-coastal-management-2025-equity-offshore-energy.pdf) (Ocean and Coastal Management, 2025)
 
 - **Add simple visual and descriptive elements from references**  
   To motivate your research in the **presentation slides**:

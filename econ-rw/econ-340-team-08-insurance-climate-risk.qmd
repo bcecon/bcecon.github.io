@@ -24,7 +24,7 @@ Thank you for your rich and ambitious Research Kick-off Report on insurance prem
 
 ### Clarifying the Scope: Final Proposal
 
-You are working toward the **final proposal**. Your main task is to:
+You are working toward the **presentation** and the **final proposal**. Your main task is to:
 
 - Build a **clear environmental economics narrative** around insurance, climate risk, and household behavior.
 - Use **existing literature, descriptive facts, and published figures** to motivate your research question and policy discussion.
@@ -109,25 +109,25 @@ These visuals should be clearly labeled and cited, and used to **motivate** your
 
 You do **not** need to answer all of these, but they may help you sharpen your narrative and policy recommendations.
 
-#### a. 💸 Insurance Premiums and Climate Risk Perception – Consumer & Citizen Angle
+#### a. Insurance Premiums and Climate Risk Perception – Consumer & Citizen Angle
 - When your insurance premium rises due to wildfire or flood risk, do you interpret it as “the market knows something I need to know”? Why or why not?
 - From a citizen perspective, should policymakers allow insurance prices to fully reflect climate risks, or should they cap or subsidize premiums to protect affordability?  
   - How might each choice affect **individual risk perception**, **location choices**, and **political support** for climate policy?
 
-#### b. 🏠 Housing Choice, Lock-In, and System Constraints
+#### b. Housing Choice, Lock-In, and System Constraints
 - Rising premiums may signal growing climate risk, but many households can’t move because of mortgages, jobs, or family ties.  
   - Is climate risk perception meaningful if individuals have **no viable alternatives**?
 - How do **lock-in effects** (being “stuck” in place) change the welfare analysis of risk-based pricing?
 - If several neighbors relocate or invest in adaptation after premium hikes, how might that shape your own perception of risk? Are **social spillovers** sometimes stronger than price signals?
 
-#### c. 🧠 Behavioral Economics & Misperception of Climate Risk
+#### c. Behavioral Economics & Misperception of Climate Risk
 - Why might some households **ignore or downplay** rising premiums? Consider:
   - **Present bias** (focusing on current costs and ignoring long-run risk),
   - **Availability heuristic** (“nothing bad has happened recently”),
   - **Limited attention** (complex contracts, automatic renewals).
 - How could insurers or governments **communicate climate risk** in ways that counter these biases without causing panic or resignation?
 
-#### d. ⚠️ Systemic Risks and Insurance Market Failure
+#### d. Systemic Risks and Insurance Market Failure
 - What happens when insurers **underprice climate risk** (e.g., due to regulation or political pressure)?  
   - How does that affect rebuilding in high-risk areas and the timing of adaptation?
 - What happens when insurers **overprice risk** or withdraw coverage entirely?  
@@ -137,7 +137,5 @@ You do **not** need to answer all of these, but they may help you sharpen your n
 
 ---
 
-If you refine your proposal around a **clear mechanism**, a **simple conceptual framework**, and a set of **policy trade-offs**, you’ll have a strong environmental economics project—even without doing your own data analytics.
-
 Best,  
-Byeong-Hak Choe
+Byeong-Hak
