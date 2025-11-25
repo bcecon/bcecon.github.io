@@ -71,8 +71,8 @@ Now, we extend these ideas to **the economics of climate change**, where individ
 
 ### 🧠 Key analytical tools we will further discuss include:
 - **Dynamic efficiency and discounting** — balancing present and future well-being  
-- **Risk and uncertainty** — understanding behavior and policy decisions when information is imperfect or incomplete  
 - **Strategic interaction and game theory** — analyzing incentives, cooperation, and negotiation in international environmental agreements (IEAs)  
+- **Risk and uncertainty** — understanding behavior and policy decisions when information is imperfect or incomplete
 
 ---
 
