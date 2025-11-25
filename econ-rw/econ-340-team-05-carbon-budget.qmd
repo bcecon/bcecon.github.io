@@ -16,105 +16,80 @@ execute:
   fig-height: 6
 ---
 
-Dear Maggie, Ethan, and Bella
+Dear Caroline, Megan, and Malene,
 
-Thank you for your kick-off report on the benefits and harms of AI. You’ve chosen a very timely and ambitious topic and correctly centered environmental externalities (energy, water, and emissions) alongside potential benefits (efficiency, forecasting, innovation). The project’s potential for a strong **final proposal** is high if you (i) narrow the scope of your main question and (ii) anchor your analysis in a clear environmental economics framework.
+Thank you for your work on personal carbon budgets and behavior. You’ve correctly focused on **mental accounting, salience, and externalities**. The potential for success is high if you clarify your main outcome of interest and link your conceptual story to a few **concrete examples and numbers**.
 
-Just to emphasize: for this course you are writing a **final proposal, not a full empirical paper**, and you **do not need to do original data analytics**. Your goal is to build a well-reasoned, conceptually clear argument grounded in environmental economics.
-
----
-
-### Next Steps
-
-- **Clarify your main question**
-  - Decide whether you are:
-    - (a) Evaluating the **net balance** of harms and benefits of AI, or  
-    - (b) Focusing primarily on the **environmental harms** and how policy should respond.
-  - Rewrite your main research question in 1–2 precise sentences.
-
-- **Choose a small set of indicators from existing sources**
-  - Select **2–4 concrete indicators** such as:
-    - Data center **electricity use**
-    - **GHG emissions** from data centers
-    - **Water use** for cooling
-    - One or two **benefit channels** (e.g., AI-enabled energy efficiency or better forecasts).
-  - Use **secondary sources only** (reports, articles, etc.) to obtain these numbers.
-
-- **Anchor the project in environmental economics concepts**
-  - Make the economic mechanisms explicit:
-    - **Negative externalities** (energy, water, emissions, local impacts)
-    - **Dynamic efficiency** (short-run innovation vs. long-run climate damages)
-    - Possible **rebound effects** (e.g., more consumption because AI makes tasks easier/cheaper).
-  - Organize harms and benefits within a simple **cost–benefit narrative** or **marginal analysis over time**.
-
-- **Use visual evidence from existing sources**
-  - Consider including **one or two simple visualizations** in your slides (not in the proposal text) such as:
-    - A visual or table comparing **data center electricity use or emissions** over time or across regions.
-    - A simple figure showing projected **growth in AI-related electricity demand**.
-  - These visuals should be based on **published tables/figures** (you can recreate a simplified version) and clearly cited.  
-  - This is **not original data analytics**; it’s using existing descriptive/statistical information to **motivate your question**.
-
-- **Draft policy implications grounded in economic reasoning**
-  - From your analysis of externalities and trade-offs, sketch **2–3 policy levers**, for example:
-    - Carbon pricing or tighter **emissions standards** for electricity generation used by data centers
-    - **Efficiency and water-use standards** for data centers
-    - Requirements or incentives for **renewable procurement** and **locational choices**
-    - **Disclosure requirements** on AI-related energy and water use.
-  - Make sure each recommendation logically follows from your analytical narrative.
-
-- **Build on key references**
-  - I **strongly recommend** citing:
-    - [*“Energy and AI”*](https://www.iea.org/reports/energy-and-ai), the IEA special report.
-    - [*“We did the math on AI’s energy footprint. Here’s the story you haven’t heard.”*](https://www.technologyreview.com/2025/05/20/1116327/ai-energy-usage-climate-footprint-big-tech/) (MIT Technology Review)
-    - [*"Environmental impact and net-zero pathways for sustainable artificial intelligence servers in the USA"*](https://www.nature.com/articles/s41893-025-01681-y) (Nature, 2025)
-    - News-style articles to illustrate current debates and policy concerns:
-      - [*“A.I. Is on the Rise, and So Is the Environmental Impact of the Data Centers That Drive It”*](https://www.smithsonianmag.com/science-nature/with-ai-on-the-rise-what-will-be-the-environmental-impacts-of-data-centers-180987379/) (Smithsonian Magazine)
-      - [*“Responding to the climate impact of generative AI”*](https://news.mit.edu/2025/responding-to-generative-ai-climate-impact-0930) (MIT News)  
-      - [*“AI has an environmental problem. Here’s what the world can do about that.”*](https://www.unep.org/news-and-stories/story/ai-has-environmental-problem-heres-what-world-can-do-about) (UNEP)  
-  - Use these to support both your **quantitative indicators** and your **policy discussion**.
+You **do not need to do original data analytics**. Instead, your main task is to develop a **clear conceptual and policy framework**, supported by **selective numbers or visuals from existing sources**.
 
 ---
 
-### Questions to Think About as You Refine Your Final Proposal
+### ✅ Next Steps 
 
-You do **not** need to answer all of these, but they may help you sharpen your narrative and recommendations:
+- **Clarify your main outcome of interest.**  
+  Decide whether you are primarily focusing on:
+  - changes in specific behaviors (e.g., transport, energy use, diet), or  
+  - overall **carbon literacy, awareness, and perceived responsibility**.
 
-**1. Scope & Economic Mechanism**
+- **Engage with key literature on personal carbon budgets.**  
+  In your proposal and presentation, I recommend citing:
+  - [*“Personal carbon allowances revisited”*](https://bcecon.github.io/docs/nerini-etal-nature-sustainability-2021-personal-carbon-allowances-revisited.pdf) (Nature Sustainability, 2021)  
+  - [*“Personal Carbon Budgets: A PESTLE Review”*](https://doi.org/10.3390/su14159238) (Sustainability, 2022)  
+  - [*“Encouraging people to set lower personal carbon budgets: anchoring is more effective than social reference groups”*]( https://doi.org/10.3389/fpsyg.2025.1648500) (Frontiers in Psychology, 2025)
+  - [*US EPA’s “Carbon Footprint Calculator”*](https://www.epa.gov/ghgemissions/carbon-footprint-calculator) as an example of a practical tool
 
-- Are you asking, “Does AI bring more harm than benefit overall?” or “Given that AI is growing, **how should we manage its environmental harms** while capturing key benefits?”
-- What are the **main externalities** you want to highlight (electricity demand, emissions, water use, local noise/land impacts)?  
-- How does **dynamic efficiency** enter your story? For example:
-  - Short-run: rapid AI expansion, high energy use.  
-  - Long-run: AI may help optimize energy systems, forecast storms, or improve climate research.
+  Use these to motivate **why** personal carbon budgeting might work, what challenges arise, and how it fits within broader climate policy.
 
-**2. Indicators & Evidence**
+- **Use real-world tools and examples.**  
+  Identify one or two **real-world personal carbon budgeting tools or calculators** (e.g., the EPA calculator) and briefly summarize:
+  - what they measure, and  
+  - how they present information and feedback to users.
 
-- Which **2–3 metrics** from your sources will form the backbone of your environmental argument (e.g., projected data center electricity demand, estimated emissions, water withdrawals)?
-- Can you summarize these in a **single table or figure** for your presentation slides that clearly shows:
-  - “AI-related activity is growing fast,” and  
-  - “This growth has non-trivial environmental consequences”?
-- How will you explain the **uncertainty** in these numbers (e.g., different scenarios in the IEA report)?
+- **Develop a simple behavioral framework.**  
+  Build a **mental accounting–based story** of how a personal carbon “budget” could:
+  - change **marginal decisions** for high-impact vs. low-impact activities, and  
+  - complement (or conflict with) **price-based incentives** like energy or fuel taxes.
 
-**3. Governance, Policy, and Norms**
+- **Incorporate simple numbers or visuals (no original data analysis needed).**  
+  - Draw on **secondary data or parameter values** from your references (e.g., typical household emissions by category).  
+  - Add at least **one visualization and/or descriptive/statistical result** (e.g., a pie chart of household emissions sources, or a table comparing typical budgets vs. current average emissions) to your **presentation slides** to motivate your research.  
+  - These can be adapted from existing papers or tools; you **do not** need to conduct new data analysis in R or Excel.
 
-- What mix of **policy instruments** seems most appropriate from an environmental economics perspective?
-  - Price-based tools (carbon pricing, water pricing, energy taxes)?
-  - Quantity/standard-based tools (efficiency standards, cooling-water rules, siting restrictions)?
-  - Information-based tools (disclosure, labeling of AI services’ energy use)?
-- How should we think about **rebound effects** (e.g., AI makes some processes cheaper → more usage → higher total energy demand)?
-- Under what conditions might AI innovation cross the line from **socially beneficial** to **socially harmful** in environmental terms?
-
-**4. Distribution, Location, and Equity**
-
-- Where are data centers located, and **who bears the external costs** (e.g., local communities facing water stress, noise, land-use changes)?
-- How might your recommended policies address **equity concerns**—for example, between:
-  - Tech firms and host communities, or  
-  - Regions that benefit from AI vs. regions that host the environmental burdens?
-
+- **Discuss policy implications.**  
+  Add a short section explaining how **personal budgeting tools** might:
+  - complement existing climate strategies (carbon taxes, regulations, subsidies), and  
+  - raise issues of **fairness, feasibility, and political acceptability**.
 
 ---
 
-Please feel free to reach out if you’d like to discuss your revised research question, choice of indicators, or policy framing.
+### ❓Questions to Think About as You Refine Your Proposal
+
+You do **not** need to answer all of these directly in the proposal, but they can help you sharpen your narrative, economic reasoning, and policy recommendations.
+
+**1️⃣ Behavioral Mechanisms**
+
+- Do you think personal carbon budgets would change behavior more effectively than **price signals alone** (e.g., energy or fuel taxes)? Why or why not?
+- How does **mental accounting** differ from standard price-based incentives in the way it shapes decisions and attention?
+- Would **framing** (e.g., annual vs. monthly carbon budgets) or **anchoring** (e.g., suggested “low” target) matter for how people respond?
+
+**2️⃣ Equity & Fairness**
+
+- Would a **uniform per-capita carbon budget** be fair, given differences in income, climate, infrastructure (car dependence, public transit availability), and historical responsibility?
+- How might you think about fairness if two households have similar budgets but very different **constraints** (e.g., rural vs. urban, renters vs. homeowners)?
+- Should personal carbon budgets be adjusted for **ability to pay** or **basic needs**, or would that undermine the idea of equal responsibility?
+
+**3️⃣ Systems & Policy Connection**
+
+- Under what conditions could personal carbon budgeting **actually influence policy or markets**, rather than just making individuals feel guilty or virtuous?
+- What kinds of **aggregate data or feedback loops** (e.g., public reporting, neighborhood or national averages, voluntary commitments) would be needed for personal budgets to matter at a system level?
+- Could governments or firms realistically **integrate personal carbon budgets** into existing policies (e.g., loyalty programs, utility bills, transport passes)?
+
+**4️⃣ Design of Personal Carbon Budgeting Schemes**
+
+- Should personal budgets focus on **all emissions** or just a subset (e.g., travel, energy use), and why?
+- What kinds of **information displays** (traffic-light labels, progress bars, comparisons to peers) are most likely to support **sustained behavior change**?
+
+---
 
 Best,  
-Byeong-Hak
+Byeong-Hak Choe
