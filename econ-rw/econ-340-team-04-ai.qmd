@@ -20,7 +20,7 @@ Dear Maggie, Ethan, and Bella
 
 Thank you for your kick-off report on the benefits and harms of AI. You’ve chosen a very timely and ambitious topic and correctly centered environmental externalities (energy, water, and emissions) alongside potential benefits (efficiency, forecasting, innovation). The project’s potential for a strong **final proposal** is high if you (i) narrow the scope of your main question and (ii) anchor your analysis in a clear environmental economics framework.
 
-Just to emphasize: for this course you are writing a **final proposal, not a full empirical paper**, and you **do not need to do original data analytics**. Your goal is to build a well-reasoned, conceptually clear argument grounded in environmental economics.
+You are working toward both the **presentation** and the **final proposal**. Focus on **economic reasoning** supported by **existing literature** and **descriptive evidence**.
 
 ---
 
@@ -52,7 +52,7 @@ Just to emphasize: for this course you are writing a **final proposal, not a ful
     - A visual or table comparing **data center electricity use or emissions** over time or across regions.
     - A simple figure showing projected **growth in AI-related electricity demand**.
   - These visuals should be based on **published tables/figures** (you can recreate a simplified version) and clearly cited.  
-  - This is **not original data analytics**; it’s using existing descriptive/statistical information to **motivate your question**.
+  - This is about using existing descriptive/statistical information to **motivate your question**.
 
 - **Draft policy implications grounded in economic reasoning**
   - From your analysis of externalities and trade-offs, sketch **2–3 policy levers**, for example:

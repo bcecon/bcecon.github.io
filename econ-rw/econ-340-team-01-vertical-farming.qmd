@@ -26,6 +26,8 @@ Overall, the potential for this project is high, especially if you sharpen the e
 
 ### Next Steps
 
+You are working toward both the **presentation** and the **final proposal**. Focus on **economic reasoning** supported by **existing literature** and **descriptive evidence**.
+
 - **Clarify your core focus.**  
   Decide whether your Final Proposal will emphasize  
   1) *identifying and explaining* the types of positive externalities associated with vertical farming, or  
@@ -36,7 +38,7 @@ Overall, the potential for this project is high, especially if you sharpen the e
   Pull out a few clear numbers (costs, revenues, profitability) that help demonstrate:  
   - Why private profitability is uncertain or low  
   - Why social benefits may justify policy support  
-  This does **not** require formal data analytics—simply summarizing the most relevant evidence from your sources is enough.
+  This is about summarizing the most relevant evidence from your sources.
 
 - **Draw on key background readings (recommended).**  
   For your Final Proposal and presentation, you may find it helpful to consult—and, where appropriate, cite—the following background sources on vertical and smart farming:

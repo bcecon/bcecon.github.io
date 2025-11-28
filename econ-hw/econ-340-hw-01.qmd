@@ -26,6 +26,7 @@ library(tidyverse)
 library(skimr)
 library(DT)
 library(hrbrthemes)
+library(ggthemes)
 
 theme_set(theme_ipsum() +
           theme(strip.background =element_rect(fill="lightgray"),
@@ -90,7 +91,7 @@ ggplot() +
                                 "MC" = "red")) +
   scale_linetype_manual(values = c("MB today" = "solid",
                                    "MC" = "solid")) + 
-  xlim(c(0,3))
+  xlim(c(0,4))
 
 ```
 
@@ -158,7 +159,7 @@ ggplot() +
                                 "MC" = "red")) +
   scale_linetype_manual(values = c("MB today" = "solid",
                                    "MC" = "solid")) + 
-  xlim(c(0,3))
+  xlim(c(0,4))
 
 ```
 
@@ -480,7 +481,8 @@ ggplot() +
                                 "MC" = "red")) +
   scale_linetype_manual(values = c("MB tomorrow" = "solid",
                                    "MC" = "solid")) +
-  ylim(c(0,10)) + xlim(c(0,4))
+  xlim(c(0,4)) +
+  scale_y_continuous(breaks = seq(0,10,2), limits = c(0,10))
 
 ```
 
@@ -525,7 +527,8 @@ ggplot() +
                                 "MC" = "red")) +
   scale_linetype_manual(values = c("MB tomorrow" = "solid",
                                    "MC" = "solid")) +
-  ylim(c(0,10)) + xlim(c(0,4))
+  xlim(c(0,4)) +
+  scale_y_continuous(breaks = seq(0,10,2), limits = c(0,10))
 
 ```
 
@@ -575,7 +578,8 @@ ggplot() +
                                 "MC" = "red")) +
   scale_linetype_manual(values = c("MB tomorrow" = "solid",
                                    "MC" = "solid")) +
-  ylim(c(0,10)) + xlim(c(0,4))
+  xlim(c(0,4)) +
+  scale_y_continuous(breaks = seq(0,10,2), limits = c(0,10))
 
 ```
 
@@ -769,7 +773,9 @@ ggplot(df_b, aes(x = x)) +
   labs(title = "(b) Efficient Reduction With Filter",
        x = "Units of Emission Reduced (x)",
        y = "Dollars",
-       color = "Curves")
+       color = "Curves") +
+  scale_x_continuous(breaks = seq(0,14,2)) +
+  scale_y_continuous(breaks = seq(0,14,2)) 
 ```
 
 

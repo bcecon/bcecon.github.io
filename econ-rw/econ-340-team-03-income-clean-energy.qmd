@@ -24,7 +24,7 @@ Thank you for your report on household income and the clean energy transition. Y
 
 ### Next Steps
 
-You are working toward the **final proposal** (not a full empirical paper), and you **do not need to do original data analytics**. Instead, focus on economic reasoning using existing literature and descriptive evidence.
+You are working toward both the **presentation** and the **final proposal**. Focus on **economic reasoning** supported by **existing literature** and **descriptive evidence**.
 
 - **Clarify your main angle**
   - Decide whether your core focus is:
@@ -39,8 +39,8 @@ You are working toward the **final proposal** (not a full empirical paper), and 
 - **Recommend key empirical references**
   - Add at least one section that summarizes what we already know from empirical work:
     - [*“Determinants of household adoption of clean energy with its rural–urban disparities in Bangladesh”*](https://www.nature.com/articles/s41598-024-52798-7) (Scientific Reports, 2024)
-    - [*“Does renewable energy reduce energy intensity? A matter of income inequality”*](https://www.nature.com/articles/s41599-025-04439-1)    
-    - [*“Determinants of households’ investment in energy efficiency and renewables: evidence from the OECD survey on household environmental behaviour and attitudes”*](https://doi.org/10.1088/1748-9326/10/4/044015)
+    - [*“Does renewable energy reduce energy intensity? A matter of income inequality”*](https://www.nature.com/articles/s41599-025-04439-1) (Humanities and Social Sciences Communications, 2025)
+    - [*“Determinants of households’ investment in energy efficiency and renewables: evidence from the OECD survey on household environmental behaviour and attitudes”*](https://doi.org/10.1088/1748-9326/10/4/044015) (Environmental Research Letters, 2015)
       
   - Briefly connect these results to your own question about **income and clean-energy adoption** and to the idea that **inequality can blunt the benefits of clean energy**.
 
@@ -48,7 +48,7 @@ You are working toward the **final proposal** (not a full empirical paper), and 
   - For your **final presentation slides**, I encourage you to show **one or two figures or tables** from these studies (or recreate a simplified version), such as:
     - A figure or table of **adoption rates by income or wealth group**.  
     - A figure illustrating how the **impact of renewable energy on energy intensity changes at different levels of income inequality**.  
-  - Your task is not to run new regressions, but to **interpret what these patterns mean** for equity and policy design.
+  - Your task is to **interpret what these patterns mean** for equity and policy design.
 
 - **Develop a simple household decision framework**
   - Sketch a small **household decision model** (e.g., a net present value comparison of “stay with fossil” vs “adopt clean tech”) under different:

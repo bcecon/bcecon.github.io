@@ -24,15 +24,17 @@ Thank you again for your thoughtful **Research Kick-off Report** on New York win
 
 ### Next Steps for Your Final Proposal
 
+You are working toward both the **presentation** and the **final proposal**. Focus on **economic reasoning** supported by **existing literature** and **descriptive evidence**.
+
 - **Emphasize environmental economics mechanisms**  
   In the proposal, make sure you clearly explain:
   - How **negative local externalities** (noise, visual impacts, possible property value effects) interact with **positive global externalities** (emissions reductions).  
   - How **total net benefits** can be positive while the **distribution of costs and benefits** may still be controversial.
 
-- **Use evidence from the literature (no new data analysis needed)**  
-  You do **not** need to do original data analytics. Instead, draw on existing environmental and energy economics research. In particular, consider citing:
+- **Use evidence from the literature**  
+  Draw on existing research related to environmental and energy economics. In particular, consider citing:
   - [*“Community Engagement and Equity in Renewable Energy Projects: A Literature Review”*](https://doi.org/10.2172/1996557) (National Renewable Energy Laboratory, 2023)  
-  - [*“The visual effect of wind turbines on property values is small and diminishing in space and time”*](https://www.pnas.org/doi/10.1073/pnas.2309372121) (PNAS, 2024)  
+  - [*“The visual effect of wind turbines on property values is small and diminishing in space and time”*](https://www.pnas.org/doi/10.1073/pnas.2309372121) (Proceedings of the National Academy of Sciences, 2024)  
   - [*“The evolution of equity in offshore renewable energy: A systematic literature review”*](https://bcecon.github.io/docs/tighsazzadeh-etal-ocean-coastal-management-2025-equity-offshore-energy.pdf) (Ocean and Coastal Management, 2025)
 
 - **Add simple visual and descriptive elements from references**  

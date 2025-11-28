@@ -228,6 +228,7 @@ Briefly discuss the following implementation issues:
 ### Show answer
 
 REDD+ faces several implementation challenges that affect its credibility and long-term impact.  
+
 - **Additionality:** REDD+ credits must reflect *real* emission reductions beyond what would have occurred without the program. Establishing a credible baseline ($L^{BAU}$) is difficult because future deforestation trends depend on market, policy, and social factors.  
 - **Leakage:** Deforestation or logging reduced in one project area may simply shift to another unprotected area, offsetting the climate benefits. This risk is lower in jurisdictional or national-scale programs that track land-use changes more comprehensively.  
 - **Permanence:** Even if forests are protected today, stored carbon can be released later through fires, illegal logging, or policy changes. Ensuring permanence requires long-term monitoring, insurance buffers, and legal safeguards to maintain carbon storage over time.  
@@ -330,6 +331,7 @@ Because reliability is non-excludable, if a single household were the **sole** d
 Either household acting alone would choose $G=10$, which is **below** the efficient $G^*=15$, because each ignores the other’s marginal benefit. In voluntary settings with cost sharing, this logic produces **underprovision**: no one internalizes the full social gain from an extra unit of reliability.
 
 *Key contrast:*  
+
 - Socially efficient: uses **$MB_A + MB_B$** vs. $MC$ $\Rightarrow G^*=15$.  
 - Private acting alone: uses **$MB_i$** vs. $MC$ $\Rightarrow G=10$.
 :::
@@ -440,6 +442,7 @@ Why might local governments still provide subsidies to large technology companie
 Please write one sentence for each time you participated in class (any public speaking during class time) between **September 24, 2025 and October 6, 2025**.  
 
 **Examples:**  
+
 - “I asked a question to clarify the common-pool resource”  
 - “I asked how market instruments affect consumer behavior.”  
 - “I gave plastic pollution as an example of a negative externality.”  

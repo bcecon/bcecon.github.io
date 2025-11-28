@@ -20,7 +20,7 @@ Dear Nevan, William, and Andre,
 
 Thank you for your **Research Kick-off Report** on dietary choices and global emissions. You did a nice job highlighting the role of high-emission foods (especially meat) and linking them to externalities. The project has strong potential, especially if you **narrow the scope to a small set of foods** and connect your narrative more tightly to **externality theory** and **clear, literature-based emission estimates**.
 
-Remember that you are working toward a **final proposal**. Focus on **environmental economics reasoning**, using **existing studies, emission factors, and descriptive evidence** to build your argument and inform policy recommendations.
+Remember that you are working toward a **presentation** and a **final proposal**. Focus on **environmental economics reasoning**, using **existing studies, emission factors, and descriptive evidence** to build your argument and inform policy recommendations.
 
 ---
 
@@ -47,7 +47,7 @@ Over the next few weeks, aim to:
 
 ---
 
-### Suggested References to Cite (and Use for Simple Visuals)
+### Suggested References
 
 You do **not** need to read everything in full detail, but it will be helpful to **cite and draw simple descriptive figures or tables** from some of these:
 
@@ -55,7 +55,7 @@ You do **not** need to read everything in full detail, but it will be helpful to
 - [*“Global food system emissions could preclude achieving the 1.5° and 2°C climate change targets”*](https://www.science.org/doi/full/10.1126/science.aba7357) (Science, 2020)
 - [*“Livestock-related greenhouse gas emissions: impacts and options for policy makers”*](https://bcecon.github.io/docs/garnett-environmental-science-policy-2009-livestock-emissions.pdf) (Environmental Science & Policy, 2009)  
 
-Whenever possible, I **strongly recommend** adding at least **one clear visualization and/or descriptive statistic** from these references (or similar work) to your **presentation slides**. For example:
+Whenever possible, I **strongly recommend** adding at least **one clear visualization and/or descriptive statistic** from these references (or similar work) to your **presentation slides** and **final proposal**. For example:
 
 - A **visualization** showing the share of global emissions from food systems or livestock.
 - A **table** comparing emissions per kilogram (or per serving) of a few key foods.

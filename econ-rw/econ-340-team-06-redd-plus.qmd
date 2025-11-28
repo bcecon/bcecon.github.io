@@ -20,13 +20,11 @@ Dear Bryan and Logan,
 
 Thank you for your careful Research Kick-Off Report on REDD+ in Brazil. You have a strong motivation and a solid grasp of key environmental economics issues: externalities, public goods, property rights, and governance. The potential for success is excellent if you clearly organize the different channels of underperformance and tie each channel to both evidence and economic concepts.
 
-Remember that you are working toward a **final proposal**, not a full empirical paper. Your main task is to develop a clear and well-argued **environmental economics analysis** using existing literature and evidence.
+You are working toward both the **presentation** and the **final proposal**. Focus on **economic reasoning** supported by **existing literature** and **descriptive evidence**.
 
 ---
 
-### Next Steps for Your Final Proposal
-
-Over the next few weeks, I recommend that you:
+### Next Steps
 
 - **Clarify your main channels of underperformance**  
   Identify **two or three core channels** (e.g., leakage, weak land tenure and insecure property rights, governance and corruption, weak monitoring and enforcement, issues with additionality or permanence). State them **precisely** in your framing.
@@ -49,7 +47,7 @@ Over the next few weeks, I recommend that you:
   - How can we better align incentives across international funders, Brazil’s federal and state governments, and local communities?
 
 - **Incorporate simple descriptive evidence or visualizations (optional but encouraged)**  
-  Although you do **not** need to run your own statistical analysis, it would be helpful to include **one or two simple tables or figures** in your **presentation slides** drawn from existing sources (e.g., time trends in deforestation, payment flows, or REDD+ project performance). This can help **motivate your research question** and show the scale of the problem.
+  It would be helpful to include **one or two simple tables or figures** in your **presentation slides** drawn from existing sources (e.g., time trends in deforestation, payment flows, or REDD+ project performance). This can help **motivate your research question** and show the scale of the problem.
 
 ---
 

@@ -30,7 +30,6 @@ You are working toward the **presentation** and the **final proposal**. Your mai
 - Use **existing literature, descriptive facts, and published figures** to motivate your research question and policy discussion.
 - Propose **conceptual frameworks and possible policy options**, not full econometric results.
 
-If you choose to include data or figures, these can come from **existing reports, academic papers, and reputable institutions**.
 
 ---
 
@@ -75,33 +74,24 @@ Over the next few weeks, I recommend focusing on:
 
 ---
 
-### Suggested References & How to Use Them
+### Suggested References
 
-You do **not** need to cite everything, but drawing on a few of these will strengthen the **motivation**, **context**, and **policy discussion** in your proposal:
+You do **not** need to cite everything, but drawing on a few of these will strengthen the **motivation**, **context**, and **policy discussion** in your proposal.
+
 
 - [*“How is climate change impacting home insurance markets?”*](https://www.brookings.edu/articles/how-is-climate-change-impacting-home-insurance-markets/) Brookings Institution (2025)  
-  - Use this for **policy context** and recent examples of how climate risk is reshaping insurance markets and affordability.
-
 - [*“Climate Risk, Insurance Premiums, and the Effects on Mortgage and Credit Outcomes”*](https://www.dallasfed.org/research/papers/2025/wp2505) Dallas Fed Working Paper (2025)
-  - Helpful for illustrating how **premium changes ripple into mortgage performance and credit markets**
-
 - [*“Housing, Climate Risk, and Insurance”*](https://bcecon.github.io/docs/keys-nber-2025-housing-climate-risk-insurance.pdf) – NBER (2025)  
-  - Use this to frame broader **housing-market responses**, risk pricing, and geographical patterns of exposure.
-
 - [*"Property Insurance and Disaster Risk: New Evidence from Mortgage Escrow Data"*](https://bcecon.github.io/docs/keys-mulder-nber-2024-insurance-climate-risk.pdf) – NBER (2024)  
-  - This paper uses over **74 million premiums (2014–2024)** inferred from mortgage escrow data to document **rapidly rising premiums** and a **doubling of the pass-through from disaster risk into premiums**.
-  - It also shows that premium increases are **capitalized into home values**, reducing home price growth by over **\$40,000 in the most exposed ZIP codes**, with larger effects where climate risk is rising. You can use this to motivate how **capital markets’ repricing of catastrophic risk** affects both premiums and housing wealth.
+- [*“Willingness of homeowners to mitigate climate risk through insurance”*](https://bcecon.github.io/docs/botzen-etal-ecological-economics-2009-insurance-climate-risk.pdf) (Ecological Economics, 2009)
 
-- [*“Willingness of homeowners to mitigate climate risk through insurance”*](https://bcecon.github.io/docs/botzen-etal-ecological-economics-2009-insurance-climate-risk.pdf) Ecological Economics (2009)
-  - Especially relevant for understanding **behavioral responses**: how willing are homeowners to pay for risk reduction through insurance, and what shapes this willingness?
-
-In your **presentation slides**, consider adding **one or two visual elements** drawn from these sources, such as:
+In your **presentation slides** and the **final proposal**, consider adding **one or two visual elements** drawn from these sources, such as:
 
 - A chart showing **trends in premiums** in high-risk vs. low-risk regions.
 - A map or figure showing **geographic variation in climate risk** and insurance costs.
-- A simple bar chart or table summarizing **willingness-to-pay for risk mitigation** from the Ecological Economics paper.
+- A visualization or table summarizing **willingness-to-pay for risk mitigation** from the Ecological Economics paper.
 
-These visuals should be clearly labeled and cited, and used to **motivate** your research question rather than to present new empirical work.
+These visuals should be clearly labeled and cited, and used to **motivate** your research question.
 
 ---
 

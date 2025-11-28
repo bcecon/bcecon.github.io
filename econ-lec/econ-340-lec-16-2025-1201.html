@@ -1,0 +1,1574 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Byeong-Hak Choe">
+<meta name="dcterms.date" content="2025-12-01">
+
+<title>Lecture 16</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../assets/css/font.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../img/geneseo-logo-squared.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html" rel="" target="">
+ <span class="menu-text">💡 What I Do</span></a>
+  </li>  
+  <li class="dropdown-header">
+ <span class="menu-text"> </span></li>
+</ul>
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Lecture 16</li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">🏠 Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../syllabus.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">📓 Syllabus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://mylearning.suny.edu/d2l/home/2152120" class="sidebar-item-text sidebar-link" target="&quot;_blank&quot;">
+ <span class="menu-text">🅱 Brightspace</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../listing-econ-340-lec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">🚀 Lecture</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../listing-econ-340-cw.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">📝 Classwork</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../listing-econ-340-hw.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">📚 Homework</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">✍️️ Project</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../econ-rw/econ-340-team-project.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">📄 Guideline</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../econ-rw/econ-340-project-kickoff.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">🧾 Research Kick-off</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">🗓️ Weeks</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../econ-wk/wk-01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Week 01</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../econ-wk/wk-02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Week 02</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../econ-wk/wk-03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Week 03</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../econ-wk/wk-04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Week 04</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../econ-wk/wk-05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Week 05</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../econ-wk/wk-06.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Week 06</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../econ-wk/wk-07.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Week 07</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../econ-wk/wk-08.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Week 08</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../econ-wk/wk-09.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Week 09</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../econ-wk/wk-10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Week 10</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../econ-wk/wk-11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Week 11</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../econ-wk/wk-12.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Week 12</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../econ-wk/wk-13.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Week 13</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../econ-wk/wk-14.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Week 14</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="econ-340-lec-16-2025-1201.html"><i class="bi bi-file-slides"></i>RevealJS (clean)</a></li></ul></div></div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Lecture 16</h1>
+<p class="subtitle lead">Climate Change Adaptation</p>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Byeong-Hak Choe </p>
+  </div>
+    <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            SUNY Geneseo
+          </p>
+      </div>
+    </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 1, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="climate-change-adaptation" class="level1" data-background-color="#1c4982">
+<h1 data-background-color="#1c4982">Climate Change Adaptation</h1>
+<!-- ## Mitigation Policies: Necessary but Not Sufficient -->
+<!-- - **Mitigation**: Reducing greenhouse gas emissions. -->
+<!--   - Important tools for reducing emissions. -->
+<!--   - **Absolutely necessary** to combat climate change. -->
+<!-- - **Limitations of Mitigation**: -->
+<!--   - Cannot prevent all climate change impacts. -->
+<!--   - **Tipping points** have been reached; some impacts are unavoidable. -->
+<!-- ## Necessity of Adaptation -->
+<!-- :::: {.columns} -->
+<!-- ::: {.column width="60%"} -->
+<!-- <div style="text-align: center; width: 100%; margin: auto;"> -->
+<!--   <img src="https://bcdanl.github.io/lec_figs/tl-fig14-1.png" style="width: 80%; margin-bottom: -20px;"> -->
+<!--   <p style="font-weight: bold;">Perspectives on Climate Vulnerability and Risk</p> -->
+<!-- </div> -->
+<!-- ::: -->
+<!-- ::: {.column width="40%"} -->
+<!-- - **Adaptation**: Adjusting to actual or expected climate and its effects. -->
+<!--   - Manages risks from unavoidable climate modifications. -->
+<!--   - Complements mitigation efforts. -->
+<!-- ::: -->
+<!-- :::: -->
+<section id="definition-of-adaptation-ipcc-2018" class="level2">
+<h2 class="anchored" data-anchor-id="definition-of-adaptation-ipcc-2018">Definition of Adaptation (IPCC, 2018)</h2>
+<div class="nonincremental">
+<ul>
+<li>In Human Systems</li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>The process of adjustment to actual or expected climate and its effects, in order to moderate harm or exploit beneficial opportunities.</strong></p>
+</blockquote>
+<ul>
+<li>In Natural Systems</li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>The process of adjustment to actual climate and its effects; human intervention may facilitate adjustment to expected climate and its effects.</strong></p>
+</blockquote>
+</div>
+<!-- ## Types of Adaptation Policies -->
+<!-- - **Proactive Policies** -->
+<!--   - **Definition**: Actions taken **in anticipation** of climate change impacts. -->
+<!--   - **Examples**: -->
+<!--     - Building sea walls before sea levels rise. -->
+<!--     - Implementing drought-resistant agricultural practices. -->
+<!-- - **Reactive Policies** -->
+<!--   - **Definition**: Actions taken **in response** to climate change impacts that have already occurred. -->
+<!--   - **Examples**: -->
+<!--     - Rebuilding after a flood. -->
+<!--     - Providing relief aid after wildfires. -->
+<!-- ## Types of Adaptation Policies: **The Challenge** -->
+<!--   - Reactive policies have been the most common but are becoming **very expensive**. -->
+<!--   - Need to **prioritize proactive policies** to manage increasing risks. -->
+<!-- ## Vulnerability Assessment -->
+<!-- - **Purpose**: Determine **who and what is at risk**, and to what extent. -->
+<!-- - **Components**: -->
+<!--   - **Hazards**: Driven by climate changes (e.g., sea level rise, storms). -->
+<!--   - **Exposure**: The degree to which a system is exposed to hazards. -->
+<!--   - **Vulnerability**: Socio-economic conditions influencing the ability to cope. -->
+<!-- ## Prioritizing Proactive Adaptation Policies -->
+<!-- > "**Climate change, through hazards, exposure, and vulnerability generates impacts and risks that can surpass limits to adaptation and result in losses and damages.**" IPCC (2022) Statement -->
+<!-- - Context-Specific Adaptation -->
+<!--   - Adaptation policies must be tailored to specific **locations and contexts**. -->
+<!--   - **Capacity to Adapt** varies: -->
+<!--     - **High Capacity**: The Netherlands with resources and experience. -->
+<!--     - **Low Capacity**: Poor island nations with fewer resources. -->
+<!-- ## Adaptation and Mitigation: Complements or Substitutes? -->
+<!-- - Complementary Strategies -->
+<!--   - **Optimal Policy Response** includes both adaptation and mitigation. -->
+<!--   - **Upward-Sloping Marginal Cost Functions**: -->
+<!--     - Employing both strategies minimizes total costs. -->
+<!--     - Deviating increases costs unnecessarily. -->
+<!-- - Substitutability -->
+<!--   - **More of One Means Less of the Other**: -->
+<!--     - Higher investment in mitigation can reduce the need for adaptation, and vice versa. -->
+<!--   - **Economic Analysis**: -->
+<!--     - Optimal investment where **MC = MB**. -->
+<!-- ## Adaptation and Mitigation: Complements or Substitutes? -->
+<!-- - **False Choice**: It's not about choosing either mitigation or adaptation. -->
+<!-- - **Not Perfect Substitutes**: -->
+<!--   - Adaptation is **location-specific**. -->
+<!--   - Mitigation has **global effects**. -->
+<!-- ## Timing Differences Between Strategies -->
+<!-- > "There is a need for an integrated portfolio of actions ranging from avoiding emissions (mitigation) to coping with impacts (adaptation) and to consciously accepting residual damages.", _World Bank_ -->
+<!-- - Mitigation Timing -->
+<!--   - **Needs Early Implementation**: -->
+<!--     - Prevents emissions from accumulating. -->
+<!--     - Avoids reaching irreversible thresholds. -->
+<!-- - Adaptation Timing -->
+<!--   - **Can Vary**: -->
+<!--     - Some actions need early implementation. -->
+<!--     - Others can wait until more information is available. -->
+<!-- ## Economic Tools for Adaptation Decision-Making -->
+<!-- - **Benefit-Cost Analysis (BCA)** -->
+<!--   - Evaluate the economic efficiency of adaptation strategies. -->
+<!--   - **Process**: -->
+<!--     - Quantify costs of actions. -->
+<!--     - Quantify benefits in terms of damage reductions. -->
+<!--     - Compare to determine net benefits. -->
+<!-- - **Cost-Effectiveness Analysis** -->
+<!--   - Identify the least-cost method to achieve a specific objective. -->
+<!--   - **Useful When**: -->
+<!--     - Benefits are hard to quantify monetarily. -->
+<!--     - Comparing different strategies to achieve the same goal. -->
+<!-- - **Efficient Adaptation**: Minimize Climate Damage & Costs of Adaptation -->
+</section>
+<section id="forms-of-adaptation-strategies" class="level2">
+<h2 class="anchored" data-anchor-id="forms-of-adaptation-strategies">Forms of Adaptation Strategies</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<section id="public-strategies" class="level4">
+<h4 class="anchored" data-anchor-id="public-strategies"><strong>Public Strategies</strong></h4>
+<ul>
+<li><strong>Infrastructure Changes</strong>:
+<ul>
+<li>Building sea walls.</li>
+<li>Enhancing flood defenses.</li>
+</ul></li>
+<li><strong>Policy Measures</strong>:
+<ul>
+<li>Zoning laws.</li>
+<li>Building codes.</li>
+</ul></li>
+</ul>
+</section>
+</div><div class="column" style="width:50%;">
+<section id="private-strategies" class="level4">
+<h4 class="anchored" data-anchor-id="private-strategies"><strong>Private Strategies</strong></h4>
+<ul>
+<li><strong>Behavioral Shifts</strong>:
+<ul>
+<li>Reducing water waste.</li>
+<li>Planting drought-resistant crops.</li>
+</ul></li>
+<li><strong>Relocation</strong>:
+<ul>
+<li>Moving to less vulnerable areas.</li>
+</ul></li>
+</ul>
+</section>
+</div>
+</div>
+</section>
+<section id="increasing-costs-of-climate-disasters" class="level2">
+<h2 class="anchored" data-anchor-id="increasing-costs-of-climate-disasters">Increasing Costs of Climate Disasters</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<section id="trends-in-climate-disasters" class="level4">
+<h4 class="anchored" data-anchor-id="trends-in-climate-disasters"><strong>Trends in Climate Disasters</strong></h4>
+<ul>
+<li><strong>Frequency and Intensity Increasing</strong>:
+<ul>
+<li>More people affected.</li>
+<li>Higher economic damages.</li>
+</ul></li>
+</ul>
+</section>
+</div><div class="column" style="width:50%;">
+<section id="factors-exacerbating-damages" class="level4">
+<h4 class="anchored" data-anchor-id="factors-exacerbating-damages"><strong>Factors Exacerbating Damages</strong></h4>
+<ul>
+<li><strong>Increased Exposure</strong>:
+<ul>
+<li>More people living in vulnerable areas (e.g., floodplains).</li>
+</ul></li>
+<li><strong>Higher Vulnerability</strong>:
+<ul>
+<li>Socio-economic conditions limiting adaptation capacity.</li>
+</ul></li>
+</ul>
+</section>
+</div>
+</div>
+</section>
+<section id="the-imperative-of-adaptation" class="level2">
+<h2 class="anchored" data-anchor-id="the-imperative-of-adaptation">The Imperative of Adaptation</h2>
+<ul>
+<li><strong>Climate Change Impacts are Unavoidable</strong>:
+<ul>
+<li>Adaptation is essential to manage risks.</li>
+</ul></li>
+<li><strong>Complementary Approaches</strong>:
+<ul>
+<li>Combining mitigation and adaptation is the most effective strategy.</li>
+</ul></li>
+<li><strong>Economic Analysis is Vital</strong>:
+<ul>
+<li>Helps prioritize and implement efficient adaptation measures.</li>
+</ul></li>
+</ul>
+</section>
+<section id="the-role-of-adaptation-policy-moving-forward" class="level2">
+<h2 class="anchored" data-anchor-id="the-role-of-adaptation-policy-moving-forward">The Role of Adaptation Policy: Moving Forward</h2>
+<ul>
+<li><strong>Proactive Policies</strong>:
+<ul>
+<li>Invest in anticipatory actions to reduce future damages.</li>
+</ul></li>
+<li><strong>Context-Specific Solutions</strong>:
+<ul>
+<li>Tailor adaptation strategies to local needs and capacities.</li>
+</ul></li>
+<li><strong>Global Collaboration</strong>:
+<ul>
+<li>Share knowledge and resources to enhance adaptation efforts worldwide.</li>
+</ul></li>
+</ul>
+</section>
+<section id="cost-savings-through-mitigation-and-adaptation" class="level2">
+<h2 class="anchored" data-anchor-id="cost-savings-through-mitigation-and-adaptation">Cost Savings Through Mitigation and Adaptation</h2>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Adaptation Strategy</th>
+<th>Benefit-Cost Ratio</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Federal Grants</td>
+<td>6:1</td>
+</tr>
+<tr class="even">
+<td>Meeting Current Building Codes</td>
+<td>11:1</td>
+</tr>
+<tr class="odd">
+<td>Exceeding Building Codes</td>
+<td>4:1</td>
+</tr>
+<tr class="even">
+<td>Upgrading Utilities &amp; Infrastructure</td>
+<td>4:1</td>
+</tr>
+</tbody>
+</table>
+<div style="display:block; margin:20px;">
+
+</div>
+<ul>
+<li><strong>National Institute of Building Sciences Reports</strong>:
+<ul>
+<li><strong>Every $1 spent</strong> on mitigation saves:
+<ul>
+<li><strong>$6</strong> in future disaster costs (federal grants).</li>
+<li><strong>$11</strong> when meeting current building codes.</li>
+<li><strong>$4</strong> when exceeding current building codes.</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="number-and-cost-of-billion-dollar-disasters" class="level2">
+<h2 class="anchored" data-anchor-id="number-and-cost-of-billion-dollar-disasters">Number and Cost of Billion-Dollar Disasters</h2>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Period</th>
+<th>Annual Average Cost</th>
+<th>Average Events per Year</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1980-2020</td>
+<td>$45.7 billion</td>
+<td>7.0</td>
+</tr>
+<tr class="even">
+<td>2011-2020</td>
+<td>$89.0 billion</td>
+<td>13.5</td>
+</tr>
+<tr class="odd">
+<td>2016-2020</td>
+<td>$121.3 billion</td>
+<td>16.2</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p>2020 was the 4th-highest annual costs ($95.0 billion)</p></li>
+<li><p><strong>Flooding</strong> causes more damage and impacts more people worldwide than any other natural disaster.</p>
+<ul>
+<li>Hurricane Ida in 2021 caused $75 billion</li>
+<li>Hurricane Ian in 2022 caused $113 billion</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="climate-adaptation-flood-risks" class="level1" data-background-color="#1c4982">
+<h1 data-background-color="#1c4982">Climate Adaptation: Flood Risks</h1>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<ul>
+<li><strong>Natural Disasters Intensified by Climate Change</strong>:
+<ul>
+<li>Hurricanes</li>
+<li>Floods</li>
+<li>Wildfires</li>
+</ul></li>
+<li><strong>Record-Breaking Disasters</strong>:
+<ul>
+<li>Year 2021: 47 weather disasters costing over <strong>$1 billion</strong> each.</li>
+<li>Top three flooding events in the U.S., Central Europe, and China totaled over <strong>$150 billion</strong> in damages.</li>
+</ul></li>
+</ul>
+</section>
+<section id="economic-impact-of-flooding" class="level2">
+<h2 class="anchored" data-anchor-id="economic-impact-of-flooding">Economic Impact of Flooding</h2>
+<ul>
+<li><strong>2021 Weather-Related Disasters</strong>:
+<ul>
+<li>Third costliest on record: <strong>$329 billion</strong> in damages.</li>
+</ul></li>
+<li><strong>Costliest Year</strong>: 2017 with <strong>$519 billion</strong> in damages.</li>
+<li><strong>Global Flood Damages</strong>:
+<ul>
+<li>Germany: <strong>$20 billion</strong> (2021)</li>
+<li>Belgium: <strong>$1.7 billion</strong></li>
+<li>China: <strong>$30 billion</strong></li>
+</ul></li>
+</ul>
+<!-- ## The Need for Resilience -->
+<!-- > **"Capacity of social, economic, and environmental systems to cope with a hazardous event or trend or disturbance..."** IPCC -->
+<!-- > **"Resilience is the ability to prepare and plan for, absorb, recover from, and more successfully adapt to adverse events."** National Research Council (2012) -->
+<!-- - **Definition of Resilience**: -->
+<!--   - **Ecological Perspective**: Ability of an ecosystem to recover from shocks. -->
+</section>
+<section id="benefits-of-building-resilience" class="level2">
+<h2 class="anchored" data-anchor-id="benefits-of-building-resilience">Benefits of Building Resilience</h2>
+<blockquote class="blockquote">
+<p>“Resilience is the ability to prepare and plan for, absorb, recover from, and more successfully adapt to adverse events.” National Research Council (2012)</p>
+</blockquote>
+<ul>
+<li><strong>Economic Savings</strong>:
+<ul>
+<li>For every <strong>$1</strong> spent on pre-disaster <strong>resilience</strong>, about <strong>$4</strong> saved in post-disaster damages (Multihazard Mitigation Council).</li>
+</ul></li>
+<li><strong>Strategies to Promote Resilience</strong>:
+<ul>
+<li>Providing better information on risks and mitigation.</li>
+<li>Implementing policies that incentivize private risk reduction.</li>
+</ul></li>
+</ul>
+</section>
+<section id="importance-of-flood-insurance-in-the-u.s." class="level2">
+<h2 class="anchored" data-anchor-id="importance-of-flood-insurance-in-the-u.s.">Importance of Flood Insurance in the U.S.</h2>
+<ul>
+<li><strong>Floods</strong>:
+<ul>
+<li>Among the most prevalent and costly natural disasters.</li>
+</ul></li>
+<li><strong>National Flood Insurance Program (NFIP)</strong>:
+<ul>
+<li>Established in 1968 by the National Flood Insurance Act.</li>
+<li>Managed by the Federal Emergency Management Agency (FEMA).</li>
+</ul></li>
+</ul>
+</section>
+<section id="major-disaster-declarations-1980-to-2017-in-the-u.s." class="level2">
+<h2 class="anchored" data-anchor-id="major-disaster-declarations-1980-to-2017-in-the-u.s.">Major Disaster Declarations 1980 to 2017 in the U.S.</h2>
+<div style="text-align: center; width: 100%; margin: auto;">
+<img src="https://bcdanl.github.io/lec_figs/kousky-2020-flood-risk-housing-1.png" style="width: 100%; margin-bottom: -20px;">
+<p style="font-weight: bold;">
+</p>
+</div>
+</section>
+<section id="goals-of-nfip" class="level2">
+<h2 class="anchored" data-anchor-id="goals-of-nfip">Goals of NFIP</h2>
+<ol type="1">
+<li><strong>Provide Flood Insurance</strong>:
+<ul>
+<li>Address lack of private insurance due to perceived uninsurable risks.</li>
+</ul></li>
+<li><strong>Improve Floodplain Management</strong>:
+<ul>
+<li>Encourage better land use and building practices.</li>
+</ul></li>
+<li><strong>Develop Floodplain Maps</strong>:
+<ul>
+<li>Identify flood-prone areas and assess risk levels.</li>
+</ul></li>
+</ol>
+</section>
+<section id="challenges-facing-nfip" class="level2">
+<h2 class="anchored" data-anchor-id="challenges-facing-nfip">Challenges Facing NFIP</h2>
+<ul>
+<li><strong>Financial Viability</strong>:
+<ul>
+<li>Increased storm frequency and intensity strain the program.</li>
+<li>Hurricane Katrina (2005) and subsequent storms created significant debt.</li>
+</ul></li>
+<li><strong>Debt Accumulation</strong>:
+<ul>
+<li>NFIP borrows from the U.S. Treasury to cover shortfalls.</li>
+<li>Program has been in financial distress since 2005.</li>
+</ul></li>
+</ul>
+</section>
+<section id="nfip-debt" class="level2">
+<h2 class="anchored" data-anchor-id="nfip-debt">NFIP Debt</h2>
+<div style="text-align: center; width: 100%; margin: auto;">
+<img src="https://bcdanl.github.io/lec_figs/tl-fig14-3.png" style="width: 80%; margin-bottom: -20px;">
+<p style="font-weight: bold;">
+</p>
+</div>
+</section>
+<section id="total-nfip-claims-paid-by-year-2018-values" class="level2">
+<h2 class="anchored" data-anchor-id="total-nfip-claims-paid-by-year-2018-values">Total NFIP Claims Paid by Year (2018 values)</h2>
+<div style="text-align: center; width: 100%; margin: auto;">
+<img src="https://bcdanl.github.io/lec_figs/kousky-2020-flood-risk-housing-2.png" style="width: 80%; margin-bottom: -20px;">
+<p style="font-weight: bold;">
+</p>
+</div>
+</section>
+<section id="nfip-policies-in-force-over-time" class="level2">
+<h2 class="anchored" data-anchor-id="nfip-policies-in-force-over-time">NFIP Policies-In-Force Over Time</h2>
+<div style="text-align: center; width: 100%; margin: auto;">
+<img src="https://bcdanl.github.io/lec_figs/kousky-2020-flood-risk-housing-4.png" style="width: 80%; margin-bottom: -20px;">
+<p style="font-weight: bold;">
+</p>
+</div>
+</section>
+<section id="total-property-value" class="level2">
+<h2 class="anchored" data-anchor-id="total-property-value">Total Property Value</h2>
+<div style="text-align: center; width: 100%; margin: auto;">
+<img src="https://bcdanl.github.io/lec_figs/kousky-2020-flood-risk-housing-3.png" style="width: 70%; margin-bottom: -20px;">
+<p style="font-weight: bold;">
+</p>
+</div>
+</section>
+<section id="top-30-counties-in-the-u.s.-by-the-number-of-nfip-policies" class="level2">
+<h2 class="anchored" data-anchor-id="top-30-counties-in-the-u.s.-by-the-number-of-nfip-policies">Top 30 Counties in the U.S. by the Number of NFIP Policies</h2>
+<div style="text-align: center; width: 100%; margin: auto;">
+<img src="https://bcdanl.github.io/lec_figs/kousky-2020-flood-risk-housing-5.png" style="width: 80%; margin-bottom: -20px;">
+<p style="font-weight: bold;">
+</p>
+</div>
+</section>
+<section id="average-annual-loss-in-2020-in-million" class="level2">
+<h2 class="anchored" data-anchor-id="average-annual-loss-in-2020-in-million">Average Annual Loss in 2020 (in $ million)</h2>
+<div style="text-align: center; width: 100%; margin: auto;">
+<img src="https://bcdanl.github.io/lec_figs/nature-2022-flood-risk-1.png" style="width: 80%; margin-bottom: -20px;">
+<p style="font-weight: bold;">
+</p>
+</div>
+</section>
+<section id="average-annual-loss-aal-in-2020-in" class="level2">
+<h2 class="anchored" data-anchor-id="average-annual-loss-aal-in-2020-in">Average Annual Loss (AAL) in 2020 (in %)</h2>
+<div style="text-align: center; width: 100%; margin: auto;">
+<img src="https://bcdanl.github.io/lec_figs/nature-2022-flood-risk-2.png" style="width: 80%; margin-bottom: -20px;">
+<p style="font-weight: bold;">
+</p>
+</div>
+</section>
+<section id="average-annual-loss-aal-in-2020-in-1" class="level2">
+<h2 class="anchored" data-anchor-id="average-annual-loss-aal-in-2020-in-1">Average Annual Loss (AAL) in 2020 (in %)</h2>
+<div style="text-align: center; width: 100%; margin: auto;">
+<img src="https://bcdanl.github.io/lec_figs/nature-2022-flood-risk-3.png" style="width: 80%; margin-bottom: -20px;">
+<p style="font-weight: bold;">
+</p>
+</div>
+</section>
+<section id="aal-increase-by-2050-in-1000" class="level2">
+<h2 class="anchored" data-anchor-id="aal-increase-by-2050-in-1000">AAL Increase by 2050 (in $1,000)</h2>
+<div style="text-align: center; width: 100%; margin: auto;">
+<img src="https://bcdanl.github.io/lec_figs/nature-2022-flood-risk-4.png" style="width: 80%; margin-bottom: -20px;">
+<p style="font-weight: bold;">
+</p>
+</div>
+</section>
+<section id="increase-in-average-annaul-exposure-to-flooding-due-to-climate-change-in" class="level2">
+<h2 class="anchored" data-anchor-id="increase-in-average-annaul-exposure-to-flooding-due-to-climate-change-in">Increase in Average Annaul Exposure to Flooding Due to Climate Change (in %)</h2>
+<div style="text-align: center; width: 100%; margin: auto;">
+<img src="https://bcdanl.github.io/lec_figs/nature-2022-flood-risk-5.png" style="width: 70%; margin-bottom: -20px;">
+<p style="font-weight: bold;">
+</p>
+</div>
+</section>
+<section id="efficiency-criteria-for-flood-insurance" class="level2">
+<h2 class="anchored" data-anchor-id="efficiency-criteria-for-flood-insurance">Efficiency Criteria for Flood Insurance</h2>
+<ol type="1">
+<li><strong>Premium Levels</strong>:
+<ul>
+<li>Must be high enough to cover claims.</li>
+</ul></li>
+<li><strong>Risk-Reflective Premium Structure</strong>:
+<ul>
+<li>Premiums should reflect the actual severity of individual risks.</li>
+</ul></li>
+</ol>
+</section>
+<section id="issues-with-nfip-implementation" class="level2">
+<h2 class="anchored" data-anchor-id="issues-with-nfip-implementation">Issues with NFIP Implementation</h2>
+<ul>
+<li><strong>Underpriced Premiums</strong>:
+<ul>
+<li>Historically too low to cover claims.</li>
+<li>2018 NFIP debt: <strong>$20.5 billion</strong>.</li>
+</ul></li>
+<li><strong>Outdated Risk Maps</strong>:
+<ul>
+<li>Fail to account for intensified flood risks due to climate change.</li>
+</ul></li>
+<li><strong>Ineffective Incentives</strong>:
+<ul>
+<li>Limited discounts for risk-reducing measures.</li>
+<li>Encourages rebuilding in high-risk areas without mitigation.</li>
+</ul></li>
+</ul>
+</section>
+<section id="enhancing-resilience-with-flood-insurance" class="level2">
+<h2 class="anchored" data-anchor-id="enhancing-resilience-with-flood-insurance">Enhancing Resilience with Flood Insurance</h2>
+<ul>
+<li><strong>Consequences of Inefficient Design</strong>
+<ul>
+<li><strong>Repeated Losses</strong>:
+<ul>
+<li>Properties flooding multiple times with NFIP paying for each rebuild.</li>
+<li>Example: A home flooded <strong>40 times</strong>, receiving <strong>$428,379</strong> in payments.</li>
+</ul></li>
+<li><strong>Grandfathering Policies</strong>:
+<ul>
+<li>Prevent premiums from increasing to reflect changing risks.</li>
+<li>Leads to financial shortfalls and misaligned risk signals.</li>
+</ul></li>
+</ul></li>
+<li><strong>Existence of NFIP is Not Enough</strong>:
+<ul>
+<li>Effective design and implementation are crucial for resilience.</li>
+<li>Current structure may increase damages rather than mitigate them.</li>
+</ul></li>
+</ul>
+<!-- ## Reactive Strategies -->
+<!-- - **Characteristics**: -->
+<!--   - Actions taken after a disaster occurs. -->
+<!--   - Example: Rebuilding homes after a flood. -->
+<!-- - **Issues**: -->
+<!--   - Subsidized insurance creates **moral hazard**. -->
+<!--     - Lack of incentive to reduce risk. -->
+<!--   - Taxpayers bear the cost of repeated damages. -->
+</section>
+</section>
+<section id="risk-uncertainty-and-moral-hazard" class="level1" data-background-color="#1c4982">
+<h1 data-background-color="#1c4982">Risk, Uncertainty, and Moral Hazard</h1>
+<section id="perceived-risk" class="level2">
+<h2 class="anchored" data-anchor-id="perceived-risk">Perceived Risk</h2>
+<ul>
+<li><p>Individuals may perceive risk differently than the actual risk for a few reasons:</p>
+<ul>
+<li><p>Voluntary vs.&nbsp;involuntary risk</p></li>
+<li><p>Lack of knowledge</p></li>
+<li><p>Distrust of Experts</p></li>
+<li><p>People are <em>risk averse</em></p></li>
+</ul></li>
+</ul>
+</section>
+<section id="uncertainty-and-risk-aversion" class="level2">
+<h2 class="anchored" data-anchor-id="uncertainty-and-risk-aversion">Uncertainty and Risk Aversion</h2>
+<ul>
+<li>A <strong>lottery</strong> is a probability distribution over the set of events.
+<ul>
+<li><u><em>Decision Making under Uncertainty</em></u>: We have preferences over lotteries.</li>
+</ul></li>
+<li>Imagine you are given two lotteries:
+<ol type="1">
+<li>Receive $50 for sure.</li>
+<li>Toss a coin: if it’s heads, you get $100, and if it’s tails, you get $0.</li>
+</ol></li>
+<li>An expected value of each lottery is <span class="math inline">\(50\)</span>.
+<ul>
+<li>A <strong>risk-averse</strong> individual chooses the first lottery because it guarantees a certain outcome.</li>
+<li>A <strong>risk-loving</strong> individual chooses the second lottery, hoping to get the $100.</li>
+<li>A <strong>risk-neutral</strong> individual is indifferent between the two lotteries.</li>
+</ul></li>
+</ul>
+</section>
+<section id="expected-cost-and-risk-perception" class="level2">
+<h2 class="anchored" data-anchor-id="expected-cost-and-risk-perception">Expected Cost and Risk Perception</h2>
+<ul>
+<li>The expected cost of a lottery with two events is the average cost one would expect to incur from that lottery.</li>
+</ul>
+<p><span class="math display">\[
+\begin{align}
+\text{Expected NB} \;=\;&amp; \text{Probability_of_Event}_{1} \times \text{NB}_{1}\\
+&amp;\; + (1 - \text{Probability_of_Event}_{1}) \times \text{NB}_{2}
+\end{align}
+\]</span> - Let’s consider two lotteries: 1. Catastrophic lottery (Low Probability): A devastating event with a 1% chance of occurring, but if it does, it results in a loss of $1,000,000. 2. Unpleasant lottery (High Probability): A minor inconvenience with a 50% chance of occurring, but if it does, it results in a loss of $20,000.</p>
+<ul>
+<li>There is no loss for the other event in each lottery.</li>
+<li>Which lottery do risk-averse people dislike more?</li>
+<li>How about risk-neutral and risk-loving people?</li>
+</ul>
+</section>
+<section id="moral-hazard-and-the-nfip" class="level2">
+<h2 class="anchored" data-anchor-id="moral-hazard-and-the-nfip">Moral Hazard and the NFIP</h2>
+<ul>
+<li><p><strong>Definition</strong>: Moral hazard occurs when one party engages in riskier behavior because they do not bear the full consequences of that behavior.</p></li>
+<li><p><strong>Example in Insurance</strong>: Policyholders may take fewer precautions or engage in risky behaviors because they know their losses will be covered by insurance.</p></li>
+<li><p>The NFIP provides flood insurance to properties in flood-prone areas, often at subsidized or below-market rates.</p></li>
+<li><p><strong>Moral Hazard Issue</strong>: With flood insurance available, property owners may feel secure rebuilding or staying in high-risk areas, even after repeated flooding.</p></li>
+<li><p>This can lead to <strong>increased flood damages and repeated claims</strong>, driving up the program’s costs.</p></li>
+</ul>
+</section>
+<section id="addressing-moral-hazard-in-the-nfip" class="level2">
+<h2 class="anchored" data-anchor-id="addressing-moral-hazard-in-the-nfip">Addressing Moral Hazard in the NFIP</h2>
+<div style="display:block; margin:-15px;">
+
+</div>
+<ol type="1">
+<li><strong>Premium Adjustments</strong>:
+<ul>
+<li>Adjusting premiums to reflect actual flood risk encourages safer property choices.</li>
+</ul></li>
+<li><strong>Incentives for Mitigation</strong>:
+<ul>
+<li>Offering premium discounts for floodproofing, elevating buildings, or other mitigation measures.</li>
+</ul></li>
+<li><strong>Restrictions on Rebuilding</strong>:
+<ul>
+<li>Limiting NFIP coverage for properties with repeated flood claims or requiring mitigation efforts for future coverage.</li>
+</ul></li>
+<li><strong>Community-Based Mitigation</strong>:
+<ul>
+<li>The NFIP’s Community Rating System (CRS) incentivizes communities to implement flood management practices, potentially reducing moral hazard.</li>
+</ul></li>
+</ol>
+</section>
+<section id="proactive-strategies" class="level2">
+<h2 class="anchored" data-anchor-id="proactive-strategies">Proactive Strategies</h2>
+<ul>
+<li><strong>Characteristics</strong>:
+<ul>
+<li>Actions taken in anticipation of future risks.</li>
+<li>Focus on reducing vulnerability before disasters.</li>
+</ul></li>
+<li><strong>Examples</strong>:
+<ul>
+<li>Raising insurance premiums to reflect true risk.</li>
+<li>Investing in adaptation infrastructure.</li>
+<li>Implementing stricter building codes and zoning laws.</li>
+</ul></li>
+</ul>
+</section>
+<section id="recent-reforms-in-nfip" class="level2">
+<h2 class="anchored" data-anchor-id="recent-reforms-in-nfip">Recent Reforms in NFIP</h2>
+<ol type="1">
+<li><strong>Biggert–Waters Flood Insurance Reform Act (2012)</strong>:
+<ul>
+<li>Aimed to make NFIP financially sound.</li>
+<li>Raised insurance rates and reduced subsidies.</li>
+</ul></li>
+<li><strong>Homeowner Flood Insurance Affordability Act (2014)</strong>:
+<ul>
+<li>Capped rate increases at 18% annually.</li>
+<li>Repealed certain rate increases for affordability.</li>
+</ul></li>
+<li><strong>Community Rating System (CRS)</strong>:
+<ul>
+<li>Offers premium discounts for community-wide mitigation efforts.</li>
+<li>Scores communities from 1 to 10, with discounts up to 45%.</li>
+</ul></li>
+</ol>
+</section>
+<section id="disaster-recovery-reform-act-drra-of-2018" class="level2">
+<h2 class="anchored" data-anchor-id="disaster-recovery-reform-act-drra-of-2018">Disaster Recovery Reform Act (DRRA) of 2018</h2>
+<ul>
+<li><strong>Purpose</strong>:
+<ul>
+<li>Modify Hazard Mitigation Grants Program.</li>
+<li>Increase mitigation and improve resilience.</li>
+</ul></li>
+<li><strong>Key Features</strong>:
+<ul>
+<li>Funds public infrastructure projects <strong>before</strong> disasters.</li>
+<li>Allows for alternative resilience options besides rebuilding.</li>
+<li>Allocates 6% of FEMA’s post-disaster assistance to pre-disaster mitigation.</li>
+</ul></li>
+</ul>
+</section>
+<section id="risk-rating-2.0-2021" class="level2">
+<h2 class="anchored" data-anchor-id="risk-rating-2.0-2021">Risk Rating 2.0 (2021)</h2>
+<ul>
+<li><strong>Update to NFIP’s Pricing Methodology</strong>:
+<ul>
+<li>Reflects individual property’s unique flood risk.</li>
+<li>Aims to create more equitable pricing.</li>
+<li>Addresses previous inequities where high-valued homes paid too little.</li>
+</ul></li>
+</ul>
+</section>
+<section id="flood-risk-perceptions-and-low-take-up-rates" class="level2">
+<h2 class="anchored" data-anchor-id="flood-risk-perceptions-and-low-take-up-rates">Flood Risk Perceptions and Low Take-Up Rates</h2>
+<div style="display:block; margin:-10px;">
+
+</div>
+<ul>
+<li><strong>Statistics</strong>:
+<ul>
+<li>Only about <strong>49%</strong> of residents in flood zones purchase insurance.</li>
+</ul></li>
+<li><strong>Reasons for Underinsurance</strong> (from Behavioral Economics Insights):</li>
+</ul>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ol type="1">
+<li><strong>Myopia</strong>:
+<ul>
+<li>Focus on immediate costs over long-term benefits.</li>
+</ul></li>
+<li><strong>Amnesia</strong>:
+<ul>
+<li>Forgetting past disasters and their lessons.</li>
+</ul></li>
+<li><strong>Optimism</strong>:
+<ul>
+<li>Underestimating the likelihood of future losses.</li>
+</ul></li>
+</ol>
+</div><div class="column" style="width:50%;">
+<ol start="4" type="1">
+<li><strong>Inertia</strong>:
+<ul>
+<li>Preference for the status quo due to uncertainty.</li>
+</ul></li>
+<li><strong>Simplification</strong>:
+<ul>
+<li>Ignoring complex risk information.</li>
+</ul></li>
+<li><strong>Herding</strong>:
+<ul>
+<li>Basing decisions on others’ actions.</li>
+</ul></li>
+</ol>
+</div>
+</div>
+</section>
+<section id="behavioral-biases-impacting-risk-preparedness" class="level2">
+<h2 class="anchored" data-anchor-id="behavioral-biases-impacting-risk-preparedness">Behavioral Biases Impacting Risk Preparedness</h2>
+<ul>
+<li><strong>Myopia</strong>: High initial costs overshadow potential future savings.</li>
+<li><strong>Amnesia</strong>: Lack of recent disasters reduces perceived need for insurance.</li>
+<li><strong>Optimism</strong>: Underestimation of risk (“It won’t happen to me”).</li>
+<li><strong>Inertia</strong>: Procrastination deters insurance purchases.</li>
+<li><strong>Simplification</strong>: Complex risks are underestimated.</li>
+<li><strong>Herding</strong>: Decisions influenced more by neighbors than personal risk.</li>
+</ul>
+</section>
+<section id="policy-implications" class="level2">
+<h2 class="anchored" data-anchor-id="policy-implications">Policy Implications</h2>
+<ul>
+<li><strong>Need for Improved Risk Communication</strong>:
+<ul>
+<li>Make probabilities and risks more understandable.</li>
+</ul></li>
+<li><strong>Policy Interventions</strong>:
+<ul>
+<li>Encourage or mandate insurance purchases.</li>
+<li>Provide incentives for risk-reducing measures.</li>
+</ul></li>
+</ul>
+<!-- ## Benefits of Proactive Adaptation Strategies -->
+<!-- - **Reduced Casualties**: -->
+<!--   - Preventing deaths and nonfatal injuries. -->
+<!-- - **Economic Benefits**: -->
+<!--   - Reduced repair and replacement costs. -->
+<!--   - Avoided business interruptions. -->
+<!-- - **Social Benefits**: -->
+<!--   - Reduced displacement and sheltering costs. -->
+<!--   - Prevention of PTSD cases. -->
+<!-- - **Job Creation**: -->
+<!--   - Designing buildings to exceed codes can create **87,000** new long-term jobs. -->
+<!-- ## Benefits of Proactive Adaptation Strategies -->
+<!-- - **Proactive Adaptation Increases Efficiency**: -->
+<!--   - Reduces long-term costs. -->
+<!--   - Enhances community resilience. -->
+<!--   - Shifts focus from reactive rebuilding to proactive planning. -->
+<!-- ## Associations of Hurricane Exposure and Forecasting with Impaired Birth Outcomes -->
+<!-- - **Objective** -->
+<!--   - Examine the impact of hurricane exposure on birth outcomes. -->
+<!-- - **Methodology** -->
+<!--   - Analyzed over 700,000 births surrounding Hurricane Irene (August 2011). -->
+<!--   - Compared babies born in a five-year window before the hurricane (control group) to those exposed in utero during the hurricane (treatment group). -->
+<!--   - Used data from the North Carolina Department of Health and Human Services and NOAA's National Hurricane Center. -->
+<!-- ## What to Expect When You're Expecting a Hurricane -->
+<!-- ### Effect of Time in the Cone of Uncertainty -->
+<!-- :::: {.columns} -->
+<!-- ::: {.column width="50%"} -->
+<!-- <div style="text-align: center; width: 100%; margin: auto;"> -->
+<!--   <img src="https://bcdanl.github.io/lec_figs/nature-2022-hurricane-birth-cone-1.jpg" style="width: 100%; margin-bottom: -20px;"> -->
+<!--   <p style="font-weight: bold;"></p> -->
+<!-- </div> -->
+<!-- ::: -->
+<!-- ::: {.column width="50%"} -->
+<!-- <div style="text-align: center; width: 100%; margin: auto;"> -->
+<!--   <img src="https://bcdanl.github.io/lec_figs/nature-2022-hurricane-birth-cone-2.jpg" style="width: 100%; margin-bottom: -20px;"> -->
+<!--   <p style="font-weight: bold;"></p> -->
+<!-- </div> -->
+<!-- - Even areas not physically impacted experienced negative birth outcomes. -->
+<!-- - For every additional 6 hours spent in the cone, birth weights dropped by 4 grams. -->
+<!-- ::: -->
+<!-- :::: -->
+<!-- ## What to Expect When You're Expecting a Hurricane -->
+<!-- ### Findings -->
+<!-- - **Implications of Low Birth Weight** -->
+<!--   - Linked to increased susceptibility to diseases. -->
+<!--   - Associated with lower aptitude, IQ, productivity, and wages later in life. -->
+<!-- - **Psychological vs. Physical Exposure** -->
+<!--   - Stress from anticipated threat (psychological) can be as impactful as physical exposure. -->
+<!-- - **Costs of Type I Errors** -->
+<!--   - False alarms lead to stress without actual physical threat. -->
+<!--   - This stress has measurable health impacts. -->
+
+
+</section>
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const btn = document.querySelector('.quarto-btn-toggle');
+  if (!btn || !window.bootstrap) return;
+
+  btn.addEventListener('click', function (e) {
+    ['#quarto-sidebar', '#quarto-sidebar-glass'].forEach(sel => {
+      const el = document.querySelector(sel);
+      if (el) bootstrap.Collapse.getOrCreateInstance(el).toggle();
+    });
+  }, { capture: true });
+});
+</script>
+<script>
+document.addEventListener('wheel', function(event) {
+    if (event.deltaY > 0) {
+        Reveal.next(); // Scroll down to go to the next slide
+    } else {
+        Reveal.prev(); // Scroll up to go to the previous slide
+    }
+}, false);
+
+window.onload = function() {
+    document.querySelectorAll('a').forEach(function(link) {
+        link.setAttribute('target', '_blank');
+    });
+};
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Query all anchor tags within code blocks (adjust the selector as needed)
+  document.querySelectorAll('pre code a').forEach(function(element) {
+    element.addEventListener('click', function(e) {
+      e.preventDefault(); // Prevent the default anchor action
+      e.stopPropagation(); // Stop the event from bubbling up
+    });
+  });
+});
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Target all span elements within code blocks that have IDs starting with 'cb'
+    document.querySelectorAll('pre code span[id^="cb"]').forEach(function(element) {
+        element.addEventListener('mouseenter', function() {
+            // Apply yellow background color to the hovered span element
+            this.style.backgroundColor = '#FFFF99';
+        });
+        element.addEventListener('mouseleave', function() {
+            // Revert the background color when the mouse leaves the span element
+            this.style.backgroundColor = '';
+        });
+    });
+});
+
+
+
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">powered with github, quarto, and rstudio<br>byeong-hak choe, 2025</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>
