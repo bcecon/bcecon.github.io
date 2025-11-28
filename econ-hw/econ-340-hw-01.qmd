@@ -737,7 +737,9 @@ ggplot(df_a, aes(x = x)) +
   labs(title = "(a) Efficient Reduction Without Filter",
        x = "Units of Emission Reduced (x)",
        y = "Dollars",
-       color = "Curves")
+       color = "Curves") +
+  scale_x_continuous(breaks = seq(0,12,2)) +
+  scale_y_continuous(breaks = seq(0,12,2)) 
 ```
 
 :::
