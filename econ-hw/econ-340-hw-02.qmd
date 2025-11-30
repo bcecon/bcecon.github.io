@@ -141,8 +141,9 @@ AC <- ifelse(L==0, NA_real_, TC/L)      # 0.2 + 0.3L
 df_top <- tibble(L, TB, TC, TD, TSC) |>
   pivot_longer(-L, names_to = "curve", values_to = "value")
 
-df_bot <- tibble(L, MB, MC, MD, AB, AC) |>
-  pivot_longer(-L, names_to = "curve", values_to = "value")
+df_bot <- tibble(L, MB, MC, MD, AB) |>
+  pivot_longer(-L, names_to = "curve", values_to = "value") |> 
+  mutate(curve = ifelse(curve == "MC", "MC and AC", curve))
 ```
 
 ```{r}
@@ -155,8 +156,8 @@ ggplot(df_top, aes(L, value, color = curve)) +
   geom_vline(xintercept = L_star, linewidth = 0.6, alpha = 0.6, linetype = 2) +
   geom_vline(xintercept = L_OA,   linewidth = 0.6, alpha = 0.6, linetype = 2) +
   annotate("text", x = L_star, y = max(df_top$value)*0.95, label = "L*", vjust = -0.3) +
-  annotate("text", x = L_priv, y = max(df_top$value)*0.9, label = "L_priv", vjust = -0.3) +
-  annotate("text", x = L_OA,   y = max(df_top$value)*0.85, label = "L_OA", vjust = -0.3) +
+  annotate("text", x = L_priv, y = max(df_top$value)*0.95, label = "L_priv", vjust = -0.3) +
+  annotate("text", x = L_OA,   y = max(df_top$value)*0.95, label = "L_OA", vjust = -0.3) +
   labs(title = "Totals: TB, TC, TD, and TSC vs Effort",
        x = "Logging Effort (L)", y = "Dollars", linetype = "Curve") +
   coord_cartesian(xlim = c(0, L_max)) +
@@ -174,11 +175,12 @@ ggplot(df_bot, aes(L, value, color = curve)) +
   geom_vline(xintercept = L_star, linewidth = 0.6, alpha = 0.6, linetype = 2) +
   geom_vline(xintercept = L_OA,   linewidth = 0.6, alpha = 0.6, linetype = 2) +
   annotate("text", x = L_star, y = max(df_bot$value, na.rm = TRUE)*0.95, label = "L*", vjust = -0.3) +
-  annotate("text", x = L_priv, y = max(df_bot$value, na.rm = TRUE)*0.90, label = "L_priv", vjust = -0.3) +
-  annotate("text", x = L_OA,   y = max(df_bot$value, na.rm = TRUE)*0.85, label = "L_OA", vjust = -0.3) +
+  annotate("text", x = L_priv, y = max(df_bot$value, na.rm = TRUE)*0.95, label = "L_priv", vjust = -0.3) +
+  annotate("text", x = L_OA,   y = max(df_bot$value, na.rm = TRUE)*0.95, label = "L_OA", vjust = -0.3) +
   labs(title = "Marginals & Averages: MB, MC, MD, AB, AC",
        x = "Logging Effort (L)", y = "Dollars per unit of L", linetype = "Curve") +
-  coord_cartesian(xlim = c(0, L_max)) +
+  coord_cartesian(xlim = c(0, L_max),
+                  ylim = c(0, 2)) +
   scale_x_continuous(breaks = seq(0,1.25,.25)) + 
   scale_color_tableau() +
   theme_minimal(base_size = 12)

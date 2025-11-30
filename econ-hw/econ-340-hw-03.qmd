@@ -182,17 +182,53 @@ The company estimates the following **annual net benefits** (in **millions of do
 ::: {.callout-tip collapse="true"}
 ### Show answer
 
-$$
-\text{PV}_B(4\%) = \frac{70}{1+0.04} + \frac{95}{(1+0.04)^2} + \frac{95}{(1+0.04)^3} + \frac{95}{(1+0.04)^4} + \frac{90}{(1+0.04)^5}
-$$
+From the table, the **private net benefits (excluding 45Q and SCC)** in millions of dollars are:
+
+$(-15,\; 10,\; 10,\; 10,\; 5)$ for Years 1–5.
+
+Compute the **PV of benefits at 4%**:
 
 $$
-\text{PV}_B(4\%) \approx 394.78 \quad \Rightarrow \quad \text{Private PV}_{NB} = -500 + 394.78 = \mathbf{-105.22\text{ million}}
+\text{PV}_B(4\%)
+= \frac{-15}{1.04}
++ \frac{10}{1.04^2}
++ \frac{10}{1.04^3}
++ \frac{10}{1.04^4}
++ \frac{5}{1.04^5}.
 $$
+
+Numerically (in millions):
+
+- Year 1: $-15/1.04 \approx -14.42$  
+- Year 2: $10/1.04^2 \approx 9.25$  
+- Year 3: $10/1.04^3 \approx 8.89$  
+- Year 4: $10/1.04^4 \approx 8.55$  
+- Year 5: $5/1.04^5 \approx 4.11$
+
+So
+
+$$
+\text{PV}_B(4\%)
+\approx -14.42 + 9.25 + 8.89 + 8.55 + 4.11
+\approx 16.37\ \text{million}.
+$$
+
+Now subtract the Year-0 investment of \$500 million:
+
+$$
+\text{Private PV}_{NB}(4\%)
+= -500 + 16.37
+\approx -483.63\ \text{million}.
+$$
+
+
+
+| **PV of Total Benefits (Million \$)** | **PV of Costs (Million \$)** | **Private $\text{PV}_{NB}$ (Million \$)** |
+|--------------------------------------:|-----------------------------:|------------------------------------------:|
+| 16.37                                 | 500                          | -483.63                                   |
 
 **Interpretation:**  
-At a 4% discount rate, the private $\text{PV}_{NB}$ is **negative**, meaning the company would **not invest** in CCUS without additional incentives.
-
+At a 4% discount rate, the private $\text{PV}_{NB}$ is **strongly negative** (about **-\$484 million**), so the project is **not financially attractive** for the company based only on private costs and benefits (ignoring SCC and 45Q).
 
 :::
 

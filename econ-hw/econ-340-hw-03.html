@@ -346,7 +346,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">November 15, 2025</p>
+      <p class="date-modified">November 29, 2025</p>
     </div>
   </div>
     
@@ -616,14 +616,64 @@ Show answer
 </div>
 <div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
+<p>From the table, the <strong>private net benefits (excluding 45Q and SCC)</strong> in millions of dollars are:</p>
+<p><span class="math inline">\((-15,\; 10,\; 10,\; 10,\; 5)\)</span> for Years 1–5.</p>
+<p>Compute the <strong>PV of benefits at 4%</strong>:</p>
 <p><span class="math display">\[
-\text{PV}_B(4\%) = \frac{70}{1+0.04} + \frac{95}{(1+0.04)^2} + \frac{95}{(1+0.04)^3} + \frac{95}{(1+0.04)^4} + \frac{90}{(1+0.04)^5}
+\text{PV}_B(4\%)
+= \frac{-15}{1.04}
++ \frac{10}{1.04^2}
++ \frac{10}{1.04^3}
++ \frac{10}{1.04^4}
++ \frac{5}{1.04^5}.
 \]</span></p>
+<p>Numerically (in millions):</p>
+<ul>
+<li>Year 1: <span class="math inline">\(-15/1.04 \approx -14.42\)</span><br>
+</li>
+<li>Year 2: <span class="math inline">\(10/1.04^2 \approx 9.25\)</span><br>
+</li>
+<li>Year 3: <span class="math inline">\(10/1.04^3 \approx 8.89\)</span><br>
+</li>
+<li>Year 4: <span class="math inline">\(10/1.04^4 \approx 8.55\)</span><br>
+</li>
+<li>Year 5: <span class="math inline">\(5/1.04^5 \approx 4.11\)</span></li>
+</ul>
+<p>So</p>
 <p><span class="math display">\[
-\text{PV}_B(4\%) \approx 394.78 \quad \Rightarrow \quad \text{Private PV}_{NB} = -500 + 394.78 = \mathbf{-105.22\text{ million}}
+\text{PV}_B(4\%)
+\approx -14.42 + 9.25 + 8.89 + 8.55 + 4.11
+\approx 16.37\ \text{million}.
 \]</span></p>
+<p>Now subtract the Year-0 investment of $500 million:</p>
+<p><span class="math display">\[
+\text{Private PV}_{NB}(4\%)
+= -500 + 16.37
+\approx -483.63\ \text{million}.
+\]</span></p>
+<table class="table">
+<colgroup>
+<col style="width: 34%">
+<col style="width: 26%">
+<col style="width: 38%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;"><strong>PV of Total Benefits (Million $)</strong></th>
+<th style="text-align: right;"><strong>PV of Costs (Million $)</strong></th>
+<th style="text-align: right;"><strong>Private <span class="math inline">\(\text{PV}_{NB}\)</span> (Million $)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">16.37</td>
+<td style="text-align: right;">500</td>
+<td style="text-align: right;">-483.63</td>
+</tr>
+</tbody>
+</table>
 <p><strong>Interpretation:</strong><br>
-At a 4% discount rate, the private <span class="math inline">\(\text{PV}_{NB}\)</span> is <strong>negative</strong>, meaning the company would <strong>not invest</strong> in CCUS without additional incentives.</p>
+At a 4% discount rate, the private <span class="math inline">\(\text{PV}_{NB}\)</span> is <strong>strongly negative</strong> (about <strong>-$484 million</strong>), so the project is <strong>not financially attractive</strong> for the company based only on private costs and benefits (ignoring SCC and 45Q).</p>
 </div>
 </div>
 </div>
