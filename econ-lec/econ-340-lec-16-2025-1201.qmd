@@ -589,7 +589,7 @@ When potential impacts are **large, irreversible, and deeply uncertain**, econom
 
 - **Underpriced premiums**
   - Historically **too low** relative to expected payouts.
-  - NFIP debt reached about **$20.5 billion** (2018).
+  - NFIP debt reached about **$22.5 billion** (2025).
 - **Outdated flood maps**
   - Many maps do not fully reflect **current or future** climate risk.
   - Some properties face **much higher** true risk than their maps suggest.
@@ -691,17 +691,6 @@ When potential impacts are **large, irreversible, and deeply uncertain**, econom
      - Improve zoning and building codes.
      - Invest in drainage, levees, and other protective measures.
 
-
-
-## Proactive Strategies vs. Reactive Bailouts
-
-- **Proactive strategies**
-  - Set **accurate, risk-based premiums**.
-  - Invest in **adaptation infrastructure**.
-  - Implement **stricter building codes and zoning** in floodplains.
-- **Reactive approach**
-  - Underpriced insurance + post-disaster aid.
-  - Can reinforce **moral hazard** by repeatedly bailing out risky choices.
 
 
 
