@@ -1,0 +1,214 @@
+---
+title: Classwork 14
+subtitle: Extreme Climate Risk, Uncertainty, and Policy
+date: 2025-12-01
+code-fold: true
+execute:
+  echo: false
+  eval: true
+  warning: false
+  message: false
+  
+toc-depth: 5
+
+from: markdown+emoji
+---
+
+
+## 0. Background: Extreme Climate Risk
+
+In “normal” risk situations:
+
+- We can list possible outcomes.
+- We have **probabilities** that we (more or less) trust.
+- We can compute an **expected value** and compare projects using CBA.
+
+For **extreme climate risks**, things are harder:
+
+- There may be **tipping points** or **irreversible damages**, such as:
+  - Large-scale **species loss**,
+  - Collapse of a major **ice sheet**,
+  - Major shifts in ocean circulation (e.g., Atlantic Meridional Overturning Circulation / Gulf Stream),
+  - Large **methane releases** from thawing permafrost.
+- Probabilities of these events are:
+  - **Highly uncertain**,
+  - Difficult to estimate from historical data,
+  - Possibly **changing over time**.
+
+> In short: we face **very large potential losses** with **poorly known probabilities**.
+
+
+
+---
+
+## 1. Scenario: A Simple Climate Policy Choice
+
+You are advising a government about a **climate adaptation + mitigation package**.  
+They are comparing two stylized policy options over the next 50 years.
+
+### Policy X: Moderate Protection
+
+- Reduces annual climate damages in “normal” years, but **does not fully address** extreme tipping risks.
+- **Implementation cost** (present value) of the policy: **\$10 billion**.
+- Based on current models, you estimate **residual climate damages** (not counting the policy cost) as:
+  - With probability $0.98$, damages are **\$100 billion**.  
+  - With probability $0.02$, a **tipping point** is crossed, leading to **irreversible damages** of **\$3,000$ billion**.
+
+### Policy Y: Strong Protection / Precaution
+
+- Includes **aggressive mitigation** and **robust adaptation**:
+  - Higher upfront costs,
+  - But stronger effort to avoid tipping.
+- **Implementation cost** (present value) of the policy: **\$40 billion**.
+- Rough expert judgment suggests **residual climate damages**:
+  - With probability $0.99$, damages are **\$200 billion**.  
+  - With probability $0.01$, a tipping point is still crossed, but damages are **\$1,500$ billion**.
+
+> In what follows, **damages** refer to climate-related losses only; the **policy cost** will be added on top when we compute total expected cost.
+
+---
+
+## 2. Calculations: Expected Damages and Total Expected Cost
+
+### 2.1 Expected damages under Policy X
+
+
+Here we compute the expected **climate damages** under Policy X:
+
+$$
+\begin{aligned}
+E[\text{Damages}_X] &= P(\text{no tipping}) \times \text{Damages (no tipping)} \\
+                    &\quad + P(\text{tipping}) \times \text{Damages (tipping)} \\
+                    &= 0.98 \times \$100\text{ billion} \;+\; 0.02 \times \$3{,}000\text{ billion}
+\end{aligned}
+$$
+
+
+So expected damages:
+
+$$
+E[\text{Damages}_X] = \$98\text{ billion} + \$60\text{ billion} = \$158\text{ billion}.
+$$
+
+Add the policy cost of **\$10 billion**:
+
+$$
+E[\text{Total Cost}_X] = \$10\text{ billion} + \$158\text{ billion} = \$168\text{ billion}.
+$$
+
+---
+
+### 2.2 Expected damages under Policy Y
+
+Here we compute the expected **climate damages** under Policy Y:
+
+$$
+\begin{aligned}
+E[\text{Damages}_Y] &= P(\text{no tipping}) \times \text{Damages (no tipping)} \\
+                    &\quad + P(\text{tipping}) \times \text{Damages (tipping)} \\
+                    &= 0.99 \times \$200\text{ billion} \;+\; 0.01 \times \$1{,}500\text{ billion}
+\end{aligned}
+$$
+
+
+So expected damages:
+
+$$
+E[\text{Damages}_Y] = \$198\text{ billion} + \$15\text{ billion} = \$213\text{ billion}.
+$$
+
+Add the policy cost of **\$40 billion**:
+
+$$
+E[\text{Total Cost}_Y] = \$40\text{ billion} + \$213\text{ billion} = \$253\text{ billion}.
+$$
+
+
+---
+
+## 3. Interpretation Questions
+
+### 3.1 Comparing policies by expected total cost
+
+**Question 1**
+
+Based **only** on expected total cost (policy cost + expected damages), which policy looks better?  
+Explain briefly using your calculations from Questions 1 and 2.
+
+> **Answer (1–3 sentences):**  
+> \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
+> \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+### 3.2 Role of the rare catastrophic outcome
+
+**Question 2**
+
+Does the **rare but catastrophic** outcome play a big role in your expected value calculations?  
+Why or why not? Use the numbers from Policy X as an example.
+
+> **Answer (2–4 sentences):**  
+> \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
+> \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+### 3.3 Risk aversion and expected total cost
+
+**Question 3**
+
+Imagine you are a **risk-averse** policymaker who is very worried about irreversible, catastrophic damages. Would you be comfortable relying **only** on expected total cost to choose between Policy X and Policy Y? Why or why not?
+
+> **Answer (2–4 sentences):**  
+> \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
+> \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+<!-- ## 5. Extreme Climate Risk as *Uncertainty*, Not Just Risk -->
+
+<!-- ### 5.1 Why are probabilities hard to know? -->
+
+<!-- **Question 6** -->
+
+<!-- In our simple numbers above, we pretended we **know** the probabilities (e.g., 2% vs. 1%).   -->
+<!-- In reality, for extreme climate tipping points, why might we **not** be able to estimate those probabilities very well? -->
+
+<!-- > **Answer (2–4 sentences):**   -->
+<!-- > \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_   -->
+<!-- > \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ -->
+
+<!-- --- -->
+
+<!-- ### 5.2 Risk vs. uncertainty -->
+
+<!-- **Question 7** -->
+
+<!-- Give **one reason** why extreme climate risks are closer to **uncertainty** (in the economist’s sense) than to well-defined risk. -->
+
+<!-- > **Answer (1–3 sentences):**   -->
+<!-- > \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_   -->
+<!-- > \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ -->
+
+<!-- --- -->
+
+## 4. Link to the Precautionary Principle
+
+<!-- Recall (from lecture): -->
+
+<!-- - **Precautionary principle** → policies should account for uncertainty by taking steps to **avoid low-probability but catastrophic events**, rather than waiting for full certainty. -->
+<!-- - **Safe minimum standard** → set environmental policies to **avoid possible catastrophic consequences**, even when risks are hard to quantify. -->
+
+<!-- ### Short Reflection -->
+
+**Question 4**
+
+In **2–4 sentences**, explain how **extreme climate risks** (tipping points, irreversible damages, uncertain probabilities, very large losses) can justify:
+
+- Following a **precautionary principle**, and/or  
+- Adopting a **safe minimum standard** for climate policy.
+
+> **Answer (2–4 sentences):**  
+> \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
+> \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_

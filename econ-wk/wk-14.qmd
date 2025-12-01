@@ -1,6 +1,6 @@
 ---
 title: Week 14
-subtitle: "Climate Change and the Individual;"
+subtitle: "Climate Change and the Individual"
 date: 2025-11-24
 from: markdown+emoji
 ---
