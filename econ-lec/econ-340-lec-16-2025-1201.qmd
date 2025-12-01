@@ -208,9 +208,9 @@ $$
 <!-- ::: -->
 
 
-# Cost Benefit Analysis under Risk {background-color="#1c4982"}
+# Cost Benefit Analysis under Risk and Uncertainty {background-color="#1c4982"}
 
-## 🌧️⚡ Cost–Benefit Analysis under Risk 
+## 🌧️⚡ Cost–Benefit Analysis under Risk and Uncertainty 
 
 :::callout-note
 ## What is Risk in Economics?

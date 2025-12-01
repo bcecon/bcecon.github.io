@@ -17,6 +17,64 @@ On December 3, 5, and 8, we will have project presentations.
 
 - [U.S. billion-dollar weather and climate disasters](https://www.ncei.noaa.gov/access/billions/), NOAA (2024) 
 
+<br>
+
+# 🎲 Cost–Benefit Analysis under Risk and Uncertainty
+
+Many cost–benefit analyses (CBAs) must evaluate projects whose future consequences are not known with certainty. For instance, operating a nuclear power plant always involves some possibility of a serious accident and a large radiation release. Any CBA of such a plant must somehow incorporate that possibility into the evaluation.
+
+Economists distinguish carefully between **risk** and **uncertainty**. Under *risk*, all relevant outcomes are known (or at least can be described), and the probabilities of these outcomes can be estimated with reasonable accuracy. Statistical studies of smoking are a classic example: no one can say whether a particular smoker will die early or live a long life, but for a large population the increased probability of early disease and death can be measured. In a CBA with risk, we can list all possible outcomes and attach approximate probabilities to each, even though we do not know which one will actually occur.
+
+In this sense, the risks of a catastrophic nuclear accident or a major offshore oil spill can be treated as quantifiable. Analysts might, for example, estimate a one-in-1,000 chance of a severe nuclear accident over a plant’s lifetime, or a one-in-5,000 chance of a large oil spill from a given offshore well. These probabilities may be rough, but they are treated as usable inputs into a risk-based CBA.
+
+*Uncertainty*, by contrast, refers to situations where important outcomes are unknown or where meaningful probabilities cannot be assigned. Global climate change provides a key example. Climate models suggest a likely range of global temperature increase (for instance, 1–6°C over the next century), but the climate system is so complex that more extreme and highly nonlinear events are possible. Positive feedback loops—such as the release of methane from thawing Arctic permafrost—or disruptions to major ocean currents like the Gulf Stream could greatly alter regional climates. Despite improved climate modeling, no one can reliably quantify the probabilities of these extreme possibilities.
+
+When we face risk (but not deep uncertainty), we can incorporate it quantitatively in a CBA using **expected value**. For a single possible outcome $x_i$, with probability $P(x_i)$ and net benefit $NB(x_i)$, the expected value of that outcome is
+
+$$
+EV(x_i) = P(x_i)\times NB(x_i).
+$$
+
+If there are several mutually exclusive outcomes, the overall expected value is the probability-weighted sum:
+
+$$
+EV(X) = \sum_i \left[ P(x_i)\times NB(x_i) \right],
+$$
+
+where $P(x_i)$ is the probability of outcome $i$, and $NB(x_i)$ is the associated net benefit (or net cost, if negative). Expected value is therefore the probability-weighted average of all possible net outcomes.
+
+To illustrate, consider a proposal to build a dam for flood control with a cost of \$7 million. The dam’s net benefits depend on how much precipitation occurs in the future. Suppose four precipitation scenarios are identified: low, average, high, and extremely high. In the first three scenarios, the dam successfully prevents damaging floods and yields positive net benefits; under extremely high precipitation, however, the dam fails, causing large net damages.
+
+Assume we have estimated the following hypothetical net benefits and probabilities:
+
+- Low precipitation: net benefit of about \$5 million, probability 0.27  
+- Average precipitation: net benefit of about \$10 million, probability 0.49  
+- High precipitation: net benefit of about \$20 million, probability 0.23  
+- Extremely high precipitation (dam failure): net *loss* of about \$100 million, probability 0.01  
+
+Multiplying each net outcome by its probability and adding them up yields an expected value of approximately \$9.85 million. If we interpret these net benefits as already incorporating all costs and benefits (including the dam’s construction cost), the analysis would suggest building the dam, so long as no alternative project yields a higher expected net benefit.
+
+However, the expected-value calculation does not reflect **risk aversion**, the common tendency for people to prefer a certain outcome over a risky one with the same expected value—especially when large losses are possible. Suppose you must choose between receiving \$100 for sure and a 50–50 gamble that either pays \$300 or loses \$100. The expected value of the gamble is
+
+$$
+EV = (0.5 \times \$300) + (0.5 \times -\$100) = \$150 - \$50 = \$100,
+$$
+
+so both options have the same expected value. Yet many people would prefer the certain \$100 because they dislike the downside risk.
+
+Applied to the dam example, risk aversion implies that the small probability of an extremely costly dam failure might be given more weight than the expected-value calculation suggests. Even though the 1% chance of failure barely changes the overall expected net benefit, people living downstream may find that small chance morally or politically unacceptable. Analysts could respond by explicitly placing extra weight on low-probability but severe negative outcomes or by adopting decision rules that go beyond simple expected value—especially given that climate change could increase the frequency of extreme precipitation events beyond the assumed 1%.
+
+This brings us to the **precautionary principle**, which argues that policy should account for uncertainty by taking steps to avoid low-probability but potentially catastrophic outcomes. The principle is particularly compelling when environmental impacts are **irreversible**. Some forms of environmental damage can be reversed over time or mitigated by changing behavior or technologies. In those cases, a conventional cost–benefit balancing may be more defensible. But when essential natural systems could suffer irreversible harm—such as species extinction or fundamental damage to the climate or ozone layer—a “wait-and-see” approach may be too risky.
+
+In such cases, a **safe minimum standard** is often recommended: environmental policy should be set so as to prevent catastrophic outcomes, even if this means forgoing some economic benefits. The global response to ozone depletion is an example. Given that serious thinning of the ozone layer could greatly increase harmful ultraviolet radiation and threaten life on Earth, international agreements have imposed near-total bans on many ozone-depleting substances, despite their previous economic usefulness. This reflects a deliberate choice in favor of safety and long-term planetary protection over short-term gains when facing deep uncertainty and potentially irreversible damage.
+
+## Reference
+
+- Chapter 7 of **Environmental and Natural Resource Economics: A Contemporary Approach**, by Jonathan Harris and Brian Roach 
+  - ISBN-10: 0367531380  
+  - ISBN-13: 978-0367531386 
+
+<br>
 
 # 🛡️🌱 Climate Adaptation
 
