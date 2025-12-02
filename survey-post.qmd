@@ -9,7 +9,7 @@ To help improve our course and gather feedback on perspectives about climate and
 - Your responses are anonymous and will only be used for teaching purposes.  
 - Please answer thoughtfully and honestly; there are no right or wrong answers.  
 
-**Deadline:** Please submit your responses by December 9, 2025, 5:00 P.M.
+**Deadline:** Please submit your responses by December 6, 2025, 11:59 P.M.
 
 <iframe id="contentFrame" width="100%" height="4000px" frameborder="0" scrolling="no" src="econ340-env-survey-post.html" style="overflow-y: hidden;">
 </iframe>
