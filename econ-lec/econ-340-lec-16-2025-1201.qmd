@@ -461,47 +461,10 @@ When potential impacts are **large, irreversible, and deeply uncertain**, econom
   - A **1% chance** of catastrophic failure barely changes $E[NB]$,
   - but for people downstream, even a **small chance of huge damages** may be unacceptable.
 
-<!-- - For **extreme climate risks**: -->
-<!--   - Possible **tipping points** or **irreversible damages** (species loss, major climate shifts), -->
-<!--   - With **uncertain probabilities** and **very large potential losses**. -->
-  
-  
-
-<!-- ## Perceived Risk -->
-
-<!-- - Individuals may perceive risk differently than the actual risk for a few reasons: -->
-
-<!--   - Voluntary vs. involuntary risk -->
-
-<!--   - Lack of knowledge -->
-
-<!--   - Distrust of Experts -->
-
-<!--   - People are *risk averse* -->
 
 
 
-<!-- ## CBA: Expected Net Benefit and Risk Perception -->
-
-<!-- - The expected cost of a lottery with two events is the average cost one would expect to incur from that lottery.  -->
-
-<!-- $$ -->
-<!-- \begin{align} -->
-<!-- \text{Expected NB} \;=\;& \text{Probability_of_Event}_{1} \times \text{NB}_{1}\\ -->
-<!-- &\; + (1 - \text{Probability_of_Event}_{1}) \times \text{NB}_{2} -->
-<!-- \end{align} -->
-<!-- $$ -->
-
-<!-- - Let's consider two lotteries: -->
-<!--   1. Catastrophic lottery (Low Probability): A devastating event with a 1% chance of occurring, but if it does, it results in a loss of $1,000,000. -->
-<!--   2. Unpleasant lottery (High Probability): A minor inconvenience with a 50% chance of occurring, but if it does, it results in a loss of $20,000. -->
-
-<!-- - There is no loss for the other event in each lottery.  -->
-<!--   - Which lottery do risk-averse people dislike more?  -->
-<!--   - How about risk-neutral and risk-loving people? -->
-
-
-# Flood Insurance, NFIP, and Moral Hazard {background-color="#1c4982"}
+# Flood Insurance, NFIP, Moral Hazard, and Underinsurance {background-color="#1c4982"}
 
 ## Why Flood Insurance Matters in the U.S.
 
@@ -524,14 +487,14 @@ When potential impacts are **large, irreversible, and deeply uncertain**, econom
 
 
 
-## NFIP: Main Goals
+<!-- ## NFIP: Main Goals -->
 
-1. **Provide Flood Insurance**
-   - Fill the gap when private insurers consider floods “uninsurable.”
-2. **Improve Floodplain Management**
-   - Encourage better land-use and building standards.
-3. **Develop Floodplain Maps**
-   - Identify flood-prone areas and measure risk.
+<!-- 1. **Provide Flood Insurance** -->
+<!--    - Fill the gap when private insurers consider floods “uninsurable.” -->
+<!-- 2. **Improve Floodplain Management** -->
+<!--    - Encourage better land-use and building standards. -->
+<!-- 3. **Develop Floodplain Maps** -->
+<!--    - Identify flood-prone areas and measure risk. -->
 
 
 
@@ -574,14 +537,14 @@ When potential impacts are **large, irreversible, and deeply uncertain**, econom
 
 
 
-## What Would an “Efficient” Flood Insurance System Look Like?
+<!-- ## What Would an “Efficient” Flood Insurance System Look Like? -->
 
-1. **Premium Levels**
-   - On average, premiums should be **high enough to cover expected claims** and administrative costs.
-2. **Risk-Reflective Pricing**
-   - Each property’s premium should reflect its **individual risk** (location, elevation, building type, etc.).
-3. **Risk-Reducing Incentives**
-   - Insurance design should **reward mitigation** (elevating homes, floodproofing, better zoning).
+<!-- 1. **Premium Levels** -->
+<!--    - On average, premiums should be **high enough to cover expected claims** and administrative costs. -->
+<!-- 2. **Risk-Reflective Pricing** -->
+<!--    - Each property’s premium should reflect its **individual risk** (location, elevation, building type, etc.). -->
+<!-- 3. **Risk-Reducing Incentives** -->
+<!--    - Insurance design should **reward mitigation** (elevating homes, floodproofing, better zoning). -->
 
 
 
@@ -613,7 +576,12 @@ When potential impacts are **large, irreversible, and deeply uncertain**, econom
 
 **Key question:**  
 
-> When we insure people against flood losses, do we unintentionally encourage them to **take more risk**?
+<div style="font-size:1.75rem; text-align:center; margin-top:1.5rem;">
+  <blockquote>
+    When we insure people against flood losses, do we unintentionally encourage them to **take more risk**?
+  </blockquote>
+</div>
+
 
 - Cheap or subsidized insurance can:
   - Make it more attractive to **stay in high-risk areas**.
@@ -626,7 +594,7 @@ When potential impacts are **large, irreversible, and deeply uncertain**, econom
 
 - **Definition:**  
   Moral hazard occurs when having insurance causes people to **change their behavior**, taking **more risk** because they do **not bear the full cost** of bad outcomes.
-- **Simple example (car insurance):**
+- **Example: Car insurance**
   - With full coverage, a driver might:
     - Drive a bit faster.
     - Be less careful about where they park.
@@ -692,18 +660,30 @@ When potential impacts are **large, irreversible, and deeply uncertain**, econom
      - Invest in drainage, levees, and other protective measures.
 
 
+## Policy Implications
+
+- **Design challenge:**
+  - Provide **financial protection** and support rebuilding.
+  - Avoid encouraging **risky behavior** (moral hazard).
+  - Overcome **behavioral biases** that lead to underinsurance.
+- **Policy tools:**
+  - Risk-based premiums with targeted subsidies for low-income households.
+  - Stronger **building codes**, zoning, and buyout programs in severe-risk areas.
+  - Better **risk communication** and **default options** (e.g., automatic coverage with opt-out).
 
 
-## Recent NFIP Reforms
 
-- **Biggert–Waters Act (2012)**
-  - Attempted to move NFIP toward **financial soundness** and risk-based premiums.
-- **Homeowner Flood Insurance Affordability Act (2014)**
-  - Slowed some premium increases for **affordability** reasons.
-- **Risk Rating 2.0 (2021)**
-  - New pricing system that aims to reflect **each property’s unique risk** more accurately.
-- **Disaster Recovery Reform Act (2018)**
-  - Increased funding for **pre-disaster mitigation**.
+
+<!-- ## Recent NFIP Reforms -->
+
+<!-- - **Biggert–Waters Act (2012)** -->
+<!--   - Attempted to move NFIP toward **financial soundness** and risk-based premiums. -->
+<!-- - **Homeowner Flood Insurance Affordability Act (2014)** -->
+<!--   - Slowed some premium increases for **affordability** reasons. -->
+<!-- - **Risk Rating 2.0 (2021)** -->
+<!--   - New pricing system that aims to reflect **each property’s unique risk** more accurately. -->
+<!-- - **Disaster Recovery Reform Act (2018)** -->
+<!--   - Increased funding for **pre-disaster mitigation**. -->
 
 
 
@@ -720,7 +700,7 @@ When potential impacts are **large, irreversible, and deeply uncertain**, econom
 
 
 
-## Behavioral Biases and Flood Preparedness
+## Underinsurance: Behavioral Biases and Flood Preparedness
 
 - **Myopia:** up-front premium feels large; future loss feels distant.
 - **Amnesia:** if a big flood hasn’t happened recently, risk feels low.
@@ -731,15 +711,15 @@ When potential impacts are **large, irreversible, and deeply uncertain**, econom
 
 
 
-## Policy Implications
+<!-- ## Policy Implications -->
 
-- **Design challenge:**
-  - Provide **financial protection** and support rebuilding.
-  - Avoid encouraging **risky behavior** (moral hazard).
-  - Overcome **behavioral biases** that lead to underinsurance.
-- **Policy tools:**
-  - Risk-based premiums with targeted subsidies for low-income households.
-  - Stronger **building codes**, zoning, and buyout programs in severe-risk areas.
-  - Better **risk communication** and default options (e.g., automatic coverage with opt-out).
+<!-- - **Design challenge:** -->
+<!--   - Provide **financial protection** and support rebuilding. -->
+<!--   - Avoid encouraging **risky behavior** (moral hazard). -->
+<!--   - Overcome **behavioral biases** that lead to underinsurance. -->
+<!-- - **Policy tools:** -->
+<!--   - Risk-based premiums with targeted subsidies for low-income households. -->
+<!--   - Stronger **building codes**, zoning, and buyout programs in severe-risk areas. -->
+<!--   - Better **risk communication** and **default options** (e.g., automatic coverage with opt-out). -->
 
 

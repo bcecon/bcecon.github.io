@@ -1,6 +1,6 @@
 ---
-title: Classwork 15
-subtitle: Moral Hazard and the NFIP
+title: Classwork 14
+subtitle: Flood Insurance Choices
 date: 2025-12-08
 code-fold: true
 execute:
@@ -14,81 +14,62 @@ toc-depth: 5
 from: markdown+emoji
 ---
 
-## Instructions
+## Scenario 🌧️
 
-- Answer parts (a)–(d) using **average (expected) annual cost** as your decision rule.  
-- Show your calculations and briefly explain your reasoning in words.
+Imagine you own a **house next to a river**.
 
+- Each year, there is a **10% chance** of a major flood.
+- If a flood hits, your house suffers **\$100,000** in damage.
 
+You are considering three options:
 
-## Scenario
-
-A homeowner is choosing between two locations:
-
-- **Location S (Safe):**  
-  - Annual housing cost (rent/mortgage, etc.): $20{,}000$  
-  - No flood risk.
-
-- **Location F (Flood-prone):**  
-  - Annual housing cost: $18{,}000$  
-  - Each year, there is a $10\%$ chance of a flood causing $100{,}000$ in damage to the house.
-
-Assume the homeowner cares only about **minimizing their average annual monetary cost**.  
-You can think of:
-
-> **Average annual cost** $=$ housing cost  
-> $\quad\quad\quad\quad\quad\quad\quad\quad\quad +$ average (expected) flood damage cost  
-> $\quad\quad\quad\quad\quad\quad\quad\quad\quad +$ any insurance premiums paid.
+1. **No insurance**
+2. **Partial, subsidized insurance**
+3. **Full, risk-based insurance**
 
 ---
 
-## (a) No insurance
+## The Options 🧮
 
-There is **no flood insurance** available.
+**Flood probability:** $10\%$ per year  
+**Damage if flood:** \$100,000  
 
-1. Compute the homeowner’s **average annual cost** in **Location S**.  
-2. Compute the homeowner’s **average annual cost** in **Location F** (hint: use the probability of a flood and the size of the damage).  
-3. Which location is cheaper on average?  
-4. If the homeowner wants to **minimize average annual cost**, which location will they choose?
+$$
+(\text{Expected annual loss if uninsured}) = 0.10 \times 100,000 = \$10,000.
+$$
+
+Here are your choices:
+
+| Option | Annual Premium | You Pay If Flood | Description                                  |
+|--------|----------------|------------------|----------------------------------------------|
+| A      | \$0            | \$100,000        | No Insurance         |
+| B      | \$500          | \$30,000         | Partial Insurance (substantial loss remains)    |
+| C      | \$2,000        | \$1,000          | Full Insurance (tiny deductible)       |
+
+---
+
+## Your Decision ✋
+
+**Question:** Which option would *you* choose?
+
+- Raise your hand for:
+  - **Option A** – No insurance  
+  - **Option B** – Partial insurance (subsidized NFIP-style insurance)
+  - **Option C** – Full insurance
+
+---
+
+## Quick Reflection 💭
 
 
-<br>
+- If you chose **Option A (No insurance)**:
+  - Why did you feel comfortable taking that risk?
+  - Did the **10% probability** feel “small enough” to ignore?
 
+- If you chose **Option B (Partial insurance)**:
+  - Why did this balance of premium + loss feel best to you?
+  - How does the **subsidy** (cheap premium) affect your choice?
 
-## (b) NFIP with subsidized premium
-
-Now suppose the government offers NFIP flood insurance in Location F:
-
-- The NFIP policy **fully covers any flood damage** in Location F.  
-- The annual insurance premium is **$2{,}000$** (this is a **subsidized, below-market** premium).  
-- If the homeowner lives in Location F, assume they **buy** this insurance.
-
-1. Compute the homeowner’s **average annual cost** in Location S (with NFIP available but not needed).  
-2. Compute the homeowner’s **average annual cost** in Location F **with subsidized NFIP insurance**.  
-3. Which location is now cheaper on average?  
-4. How might this change the homeowner’s location choice compared to part (a)?
-
-<br>
-
-## (c) NFIP with risk-based (actuarially fair) premium
-
-Now suppose instead that the NFIP charges a **risk-based premium** in Location F.  
-A **risk-based (actuarially fair)** premium is set equal to the **average annual flood damage**.
-
-1. Calculate the **risk-based premium** for Location F.  
-2. With this risk-based premium, compute the **average annual cost** of living in:
-   - Location S  
-   - Location F (assuming the homeowner buys insurance in Location F)
-3. Which location is cheaper on average with a risk-based premium?  
-4. How does this compare to your answer in part (b)?
-
-<br>
-
-## (d) Moral hazard and NFIP policy
-
-Answer in words (no new calculations needed):
-
-1. Using your results from parts (a)–(c), explain how **subsidized NFIP premiums** can create **moral hazard** in location choices (deciding where to live).  
-2. Explain how **risk-based premiums** (and measures like **premium discounts for elevating buildings or floodproofing**) could help **reduce moral hazard** in the NFIP.  
-3. Give one concrete policy idea for the NFIP (for example, a rule about rebuilding or premium discounts) that could **discourage risky behavior** while still helping people manage flood risk.
-
+- If you chose **Option C (Full insurance)**:
+  - Why are you willing to pay more each year?
+  - How much do you value **peace of mind**?
