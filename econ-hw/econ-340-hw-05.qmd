@@ -59,10 +59,25 @@ df <- data.frame(
 
 - **No Generative AI**: You are **not** allowed to use generative AI tools for Homework Assignment 5.
 
-- **Deadlines**: **Tuesday, December 9, 2025 at noon**  
-  - Upload a screenshot (e.g., .png), PDF, or Word document to Brightspace.
-
+- **Deadline**: 
+  - Question 0: **Saturday, December 6, 2025, 11:59 PM**
+    - Copy the survey completion code and paste it to Brightspace.
+  - Questions 1-2: **Tuesday, December 9, 2025 at 5:00 PM**  
+    - Upload a screenshot (e.g., `.png`), PDF, or Word document to Brightspace.
+  
 <br>
+
+
+# Question 0. Survey on Environmental Economics
+
+- Please complete the **anonymous** [Survey on Environmental Economics](../survey-post.html){target="_blank"}.
+
+- After you submit the survey, a **completion code** will appear for 12 seconds on the screen.
+
+- Copy that code and paste it as a **comment** on your Homework 5 - Question 1 submission in Brightspace to receive participation credit.
+
+<br><br>
+
 
 # Question 1. Extreme Climate Risk, Uncertainty, and Policy
 
@@ -243,7 +258,7 @@ In **2–4 sentences**, explain how **extreme climate risks** (tipping points, i
 
 ## Instructions
 
-- Answer parts (a)–(d) using **average (expected) annual cost** as your decision rule.  
+- Answer Parts A–D using **average (expected) annual cost** as your decision rule.  
 - Show your calculations and briefly explain your reasoning in words.
 
 
@@ -269,12 +284,12 @@ You can think of:
 
 ---
 
-## (a) No insurance
+## Part A. No insurance
 
 There is **no flood insurance** available.
 
 1. Compute the homeowner’s **average annual cost** in **Location S**.  
-2. Compute the homeowner’s **average annual cost** in **Location F** (hint: use the probability of a flood and the size of the damage).  
+2. Compute the homeowner’s **average annual cost** in **Location F**.
 3. Which location is cheaper on average?  
 4. If the homeowner wants to **minimize average annual cost**, which location will they choose?
 
@@ -282,7 +297,7 @@ There is **no flood insurance** available.
 <br>
 
 
-## (b) NFIP with subsidized premium
+## Part B. NFIP with subsidized premium
 
 Now suppose the government offers NFIP flood insurance in Location F:
 
@@ -293,11 +308,11 @@ Now suppose the government offers NFIP flood insurance in Location F:
 1. Compute the homeowner’s **average annual cost** in Location S (with NFIP available but not needed).  
 2. Compute the homeowner’s **average annual cost** in Location F **with subsidized NFIP insurance**.  
 3. Which location is now cheaper on average?  
-4. How might this change the homeowner’s location choice compared to part (a)?
+4. How might this change the homeowner’s location choice compared to Part A?
 
 <br>
 
-## (c) NFIP with risk-based (actuarially fair) premium
+## Part C. NFIP with risk-based (actuarially fair) premium
 
 Now suppose instead that the NFIP charges a **risk-based premium** in Location F.  
 A **risk-based (actuarially fair)** premium is set equal to the **average annual flood damage**.
@@ -307,15 +322,18 @@ A **risk-based (actuarially fair)** premium is set equal to the **average annual
    - Location S  
    - Location F (assuming the homeowner buys insurance in Location F)
 3. Which location is cheaper on average with a risk-based premium?  
-4. How does this compare to your answer in part (b)?
+4. How does this compare to your answer in Part B?
 
 <br>
 
-## (d) Moral hazard and NFIP policy
+## Part D. Moral hazard and NFIP policy
 
 Answer in words (no new calculations needed):
 
-1. Using your results from parts (a)–(c), explain how **subsidized NFIP premiums** can create **moral hazard** in location choices (deciding where to live).  
+1. Using your results from Parts A–C, explain how **subsidized NFIP premiums** can create **moral hazard** in location choices (deciding where to live).  
 2. Explain how **risk-based premiums** (and measures like **premium discounts for elevating buildings or floodproofing**) could help **reduce moral hazard** in the NFIP.  
 3. Give one concrete policy idea for the NFIP (for example, a rule about rebuilding or premium discounts) that could **discourage risky behavior** while still helping people manage flood risk.
+
+
+
 
