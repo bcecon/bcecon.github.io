@@ -274,12 +274,15 @@ A homeowner is choosing between two locations:
 - **Location F (Flood-prone):**  
   - Annual housing cost: $18{,}000$  
   - Each year, there is a $10\%$ chance of a flood causing $100{,}000$ in damage to the house.
-
+  
 Assume the homeowner cares only about **minimizing their average annual monetary cost**.  
 You can think of:
 
-> **Average annual cost** $=$ housing cost  
+> **Average annual cost without insurance** $=$ housing cost  
 > $\quad\quad\quad\quad\quad\quad\quad\quad\quad +$ average (expected) flood damage cost  
+
+
+> **Average annual cost with insurance** $=$ housing cost  
 > $\quad\quad\quad\quad\quad\quad\quad\quad\quad +$ any insurance premiums paid.
 
 ---
