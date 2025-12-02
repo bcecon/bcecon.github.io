@@ -279,11 +279,11 @@ Assume the homeowner cares only about **minimizing their average annual monetary
 You can think of:
 
 > **Average annual cost without insurance** $=$ housing cost  
-> $\quad\quad\quad\quad\quad\quad\quad\quad\quad +$ average (expected) flood damage cost  
+> $\;\quad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad +$ average (expected) flood damage cost  
 
 
 > **Average annual cost with insurance** $=$ housing cost  
-> $\quad\quad\quad\quad\quad\quad\quad\quad\quad +$ any insurance premiums paid.
+> $\quad\quad\qquad\qquad\qquad\qquad\qquad\qquad\qquad +$ any insurance premiums paid.
 
 ---
 
