@@ -5954,7 +5954,7 @@
     "href": "econ-hw/econ-340-hw-05.html#scenario",
     "title": "Homework 5",
     "section": "Scenario",
-    "text": "Scenario\nA homeowner is choosing between two locations:\n\nLocation S (Safe):\n\nAnnual housing cost (rent/mortgage, etc.): \\(20{,}000\\)\n\nNo flood risk.\n\nLocation F (Flood-prone):\n\nAnnual housing cost: \\(18{,}000\\)\n\nEach year, there is a \\(10\\%\\) chance of a flood causing \\(100{,}000\\) in damage to the house.\n\n\nAssume the homeowner cares only about minimizing their average annual monetary cost.\nYou can think of:\n\nAverage annual cost without insurance \\(=\\) housing cost\n\\(\\;\\quad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad +\\) average (expected) flood damage cost\n\n\nAverage annual cost with insurance \\(=\\) housing cost\n\\(\\quad\\quad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad +\\) any insurance premiums paid."
+    "text": "Scenario\nA homeowner is choosing between two locations:\n\nLocation S (Safe):\n\nAnnual housing cost (rent/mortgage, etc.): \\(20{,}000\\)\n\nNo flood risk.\n\nLocation F (Flood-prone):\n\nAnnual housing cost: \\(18{,}000\\)\n\nEach year, there is a \\(10\\%\\) chance of a flood causing \\(100{,}000\\) in damage to the house.\n\n\nAssume the homeowner cares only about minimizing their average annual cost.\nYou can think of:\n\nAverage annual cost without insurance \\(=\\) housing cost\n\\(\\;\\quad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad +\\) average (expected) flood damage cost\n\n\nAverage annual cost with insurance \\(=\\) housing cost\n\\(\\quad\\quad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad +\\) any insurance premiums paid."
   },
   {
     "objectID": "econ-hw/econ-340-hw-05.html#homework-questions-1",

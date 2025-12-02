@@ -275,7 +275,7 @@ A homeowner is choosing between two locations:
   - Annual housing cost: $18{,}000$  
   - Each year, there is a $10\%$ chance of a flood causing $100{,}000$ in damage to the house.
   
-Assume the homeowner cares only about **minimizing their average annual monetary cost**.  
+Assume the homeowner cares only about **minimizing their average annual cost**.  
 You can think of:
 
 > **Average annual cost without insurance** $=$ housing cost  
