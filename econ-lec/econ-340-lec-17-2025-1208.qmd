@@ -282,6 +282,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 
 
+
 # ✅ **Course Summary** {background-color="#1c4982"}
 
 
@@ -289,11 +290,12 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 ## 📘 What We Learned This Semester
 <div style="display:block; margin:-10px;"></div>
 
-
+:::: nonincremental
 :::: {.columns}
 
 ::: {.column width="50%"}
 
+::: fragment
 - **Market Failures**
   - **Externalities**
   - **Open Access**
@@ -302,28 +304,65 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
   - **Incentive Problems**
   - **Behavioral Anomalies**
 
+:::
+
+<div style="display:block; margin:-18px;"></div>
+::: fragment
 - **The Coase Theorem**
 
-- **Policy Design:** <span class="fragment">**Incentives**,**Information**, **Institutions**, & **Social Norms**</span>
+- **Policy Design:** **Incentives**,**Information**, **Institutions**, & **Social Norms**
 
+:::
+
+<div style="display:block; margin:-18px;"></div>
+::: fragment
 - **Career in Sustainability & Environmental Economics**
 :::
 
+:::
+
 ::: {.column width="50%"}
+
+::: fragment
+
 - **Cost–Benefit Analysis**
   - **Discount Rate**
   - **Social Cost of Carbon**
   - **Value of Statistical Life**
 
+:::
+
+
+<div style="display:block; margin:-18px;"></div>
+::: fragment
+
 - **Market for Pollution: Price vs. Quantity Approaches**
+
+:::
+
+<div style="display:block; margin:-18px;"></div>
+::: fragment
 
 - **Climate Agreements**
   - **Institutions & Incentives**
   - **Game Theory**
 
+:::
+
+<div style="display:block; margin:-18px;"></div>
+::: fragment
+
 - **Climate Risk and Adaptation**
 
-- 🌍 **<u>Course Project</u>: Climate Change and the Individual**
+:::
+
+<div style="display:block; margin:-18px;"></div>
+::: fragment
+
+- 🌍👤 **<u>Course Project</u>: Climate Change and the Individual**
+
+:::
+
 <!-- <div style="display:block; margin:-45px;"></div> -->
 
 <!-- <div style="text-align: center;"> -->
@@ -333,7 +372,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 :::
 ::::
-
+::::
 
 
 
@@ -370,7 +409,6 @@ On your laptop, follow these steps to access the SCE for **ECON 340**:
 <span class="fragment">Thank you for your time and thoughtful feedback.</span>
 
 :::
-
 
 
 # Post-Course Survey Results {background-color="#1c4982"}
