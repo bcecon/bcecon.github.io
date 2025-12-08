@@ -728,7 +728,7 @@ $$
 </div>
 
 
-- Cheap or subsidized insurance can:
+- Cheap or heavily subsidized insurance can:
   - Make it more attractive to **stay in high-risk areas**.
   - Make **rebuilding in the same risky spot** more likely.
 - This brings us to the central concept: **moral hazard**.
