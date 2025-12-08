@@ -771,16 +771,16 @@ $$
 ::: {.column width="50%"}
 - **Repeated-loss controls**
   - Coverage limits and mitigation requirements after multiple claims.
-- **Community Rating System (CRS)**
-  - Better floodplain management 
-    (zoning, building codes, drainage, 
+- **Community Rating System**
+  - **Better floodplain management** 
+    (e.g., zoning, building codes, drainage, 
     <span class="levee-tooltip">
       _levees_
       <span class="levee-popup">
         <img src="https://bcdanl.github.io/lec_figs/flood-levee.jpg" alt="Levee example" style="max-width:180px;">
       </span>
     </span>, and other protective measures)
-    ⇒ lower premiums for all residents.
+    <span class="fragment">⇒ **lower premiums for all residents**.</span>
   - Over 1,500 participating communities.
 
 <!-- *These tools are designed to strengthen the link between **risk, price, and behavior**.* -->
