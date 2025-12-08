@@ -43,7 +43,7 @@ Here are your choices:
 | Option | Annual Premium | You Pay If Flood | Description                                  |
 |--------|----------------|------------------|----------------------------------------------|
 | A      | \$0            | \$200,000        | No Insurance         |
-| B      | \$500          | \$40,000         | Partial Insurance (substantial loss remains)    |
+| B      | \$500          | \$50,000         | Partial Insurance (substantial loss remains)    |
 | C      | \$2,000        | \$1,000          | Full Insurance (tiny deductible)       |
 
 ---

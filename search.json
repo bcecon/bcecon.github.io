@@ -6143,7 +6143,7 @@
     "href": "econ-cw/econ-340-cw-14.html#the-options",
     "title": "Classwork 14",
     "section": "The Options 🧮",
-    "text": "The Options 🧮\nFlood probability: \\(5\\%\\) per year\nDamage if flood: $200,000\n\\[\n(\\text{Expected annual loss if uninsured}) = 0.05 \\times 200,000 = \\$10,000.\n\\]\nHere are your choices:\n\n\n\n\n\n\n\n\n\nOption\nAnnual Premium\nYou Pay If Flood\nDescription\n\n\n\n\nA\n$0\n$200,000\nNo Insurance\n\n\nB\n$500\n$30,000\nPartial Insurance (substantial loss remains)\n\n\nC\n$2,000\n$1,000\nFull Insurance (tiny deductible)"
+    "text": "The Options 🧮\nFlood probability: \\(5\\%\\) per year\nDamage if flood: $200,000\n\\[\n(\\text{Expected annual loss if uninsured}) = 0.05 \\times 200,000 = \\$10,000.\n\\]\nHere are your choices:\n\n\n\n\n\n\n\n\n\nOption\nAnnual Premium\nYou Pay If Flood\nDescription\n\n\n\n\nA\n$0\n$200,000\nNo Insurance\n\n\nB\n$500\n$50,000\nPartial Insurance (substantial loss remains)\n\n\nC\n$2,000\n$1,000\nFull Insurance (tiny deductible)"
   },
   {
     "objectID": "econ-cw/econ-340-cw-14.html#your-decision",
