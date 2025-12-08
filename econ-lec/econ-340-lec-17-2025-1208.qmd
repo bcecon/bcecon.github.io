@@ -281,8 +281,6 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 ::::
 
 
-
-
 # ✅ **Course Summary** {background-color="#1c4982"}
 
 
