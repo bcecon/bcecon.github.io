@@ -464,7 +464,48 @@ When potential impacts are **large, irreversible, and deeply uncertain**, econom
 
 
 
-# Flood Insurance, Moral Hazard, and Underinsurance {background-color="#1c4982"}
+# 🌧️🏠💰 Flood Insurance, Moral Hazard, and Underinsurance {background-color="#1c4982"}
+
+
+## 🌧 Flood Insurance Choices – Scenario️
+
+Imagine you own a **house next to a river**.
+
+- Each year, there is a **10% chance** of a major flood.
+- If a flood hits, your house suffers **\$100,000** in damage.
+
+<span class="fragment">You are considering three options:</span>
+
+1. **No insurance**
+2. **Partial, subsidized insurance**
+3. **Full, risk-based insurance**
+
+
+## 🧮 Flood Insurance Choices – The Options
+
+**Flood probability:** $10\%$ per year  
+**Damage if flood:** \$100,000  
+
+$$
+(\text{Expected annual loss if uninsured}) = 0.10 \times 100,000 = \$10,000.
+$$
+
+::: fragment
+Here are your choices:
+
+| Option | Annual Premium | You Pay If Flood | Description                                  |
+|--------|----------------|------------------|----------------------------------------------|
+| A      | \$0            | \$100,000        | No Insurance         |
+| B      | \$500          | \$30,000         | Partial Insurance (substantial loss remains)    |
+| C      | \$2,000        | \$1,000          | Full Insurance (tiny deductible)       |
+
+:::
+
+<div style="display:block; margin:-10px;"></div>
+
+<span class="fragment">**Question:** Which option would *you* choose?</span>
+
+
 
 ## Why Flood Insurance Matters in the U.S.
 
@@ -510,18 +551,23 @@ When potential impacts are **large, irreversible, and deeply uncertain**, econom
 
 ::: {.column width="25%"}
 
+::: nonincremental
 - <u>Created:</u> 1968 (National Flood Insurance Act)  
 - <u>Managed by:</u> **Federal Emergency Management Agency (FEMA)**
 
 :::
+:::
 ::::
 
+<div style="display:block; margin:-65px;"></div>
+::: fragment
+<u>Basic idea:</u>  
 
-- <u>Basic idea:</u>
-  1. Provide **flood insurance** where **private market** is thin.
-  2. Lower the need for **emergency federal disaster assistance**.
-  3. Encourage **safer building & land use** in risky areas.
+1. Provide **flood insurance** where **private market** is thin.
+2. Lower the need for **emergency federal disaster assistance**.
+3. Encourage **safer building & land use** in risky areas.
 
+:::
 
 <!-- ## NFIP: Main Goals -->
 
@@ -604,9 +650,9 @@ When potential impacts are **large, irreversible, and deeply uncertain**, econom
 
 
 
-## Why Are NFIP Losses Rising?
+## 📈🌧️ Why Are NFIP Costs & Debt Rising?
 
-<div style="display:block; margin:-10px;"></div>
+<div style="display:block; margin:-20px;"></div>
 
 
 :::: {.columns}
@@ -614,23 +660,27 @@ When potential impacts are **large, irreversible, and deeply uncertain**, econom
 ::: {.column width="5%"}
 :::
 
-::: {.column width="22.5%"}
+::: {.column width="25%"}
+<div style="display:block; margin:-20px;"></div>
 
 <div style="text-align: center; width: 100%; margin: auto;">
   <img src="https://bcdanl.github.io/lec_figs/ipcc-risk-propeller-minimal.jpg"
        style="width: 100%; margin-bottom: -20px;">
-  <p style="font-weight: bold; font-size:1.25rem;">Source: IPCC (2022)</p>
 </div>
 
 
 :::
 
-::: {.column width="67.5%"}
+::: {.column width="65%"}
 
 
 <div style="text-align:center;">
-Losses grow when any of these increase:
+  **Flood *losses* rise**  
+  **when any of these increase:**
 </div>
+
+<div style="display:block; margin:-22.5px;"></div>
+
 $$
 \boxed{
 \begin{aligned}
@@ -654,10 +704,10 @@ $$
 
 
 - **Climate Hazard:** stronger storms, heavier rainfall, sea-level rise
-- **Exposure:** more development and repeated rebuilding in flood-prone areas
-- **Vulnerability:** weak mitigation against floods, rising construction and repair costs, legacy underpricing
+- **Exposure:** more development & repeated rebuilding in flood-prone areas
+- **Vulnerability:** limited investment in infrastructure, rising construction and repair costs, **legacy underpricing of premiums**
 
-<div style="display:block; margin:-35px;"></div>
+<div style="display:block; margin:-30px;"></div>
 
 
 <div class="fragment" style="font-size:2rem; text-align:center; margin-top:1.5rem;">
@@ -667,91 +717,11 @@ $$
 </div>
 
 
-
-<!-- ## Key Design Problems in the NFIP -->
-
-<!-- - **Underpriced premiums** -->
-<!--   - Many properties still pay **below true risk**. -->
-<!-- - **Outdated or lagging flood maps** -->
-<!--   - Risk often understated. -->
-<!-- - **Repeated-loss properties** -->
-<!--   - Same homes flood again and again. -->
-
-<!-- - **Grandfathering** -->
-<!--   - Weakens price signals as risk rises. -->
-
-<!-- These problems distort **behavioral incentives**. -->
-
-
-
-
-<!-- ## Why Have NFIP Claims Payments Risen So Rapidly? -->
-
-<!-- It is **not just because storms are stronger**. Multiple forces are working together: -->
-
-<!-- ### 1. Stronger and Wetter Storms (Climate Change) -->
-<!-- - Warmer oceans ⇒ more intense hurricanes. -->
-<!-- - Heavier rainfall ⇒ more inland flooding. -->
-<!-- - Sea level rise ⇒ higher baseline flood risk. -->
-<!-- - This raises **damage per event**. -->
-
-<!-- ### 2. More Development in High-Risk Areas -->
-<!-- - Rapid growth along: -->
-<!--   - Coasts   -->
-<!--   - Rivers   -->
-<!--   - Low-lying urban areas -->
-<!-- - More homes and infrastructure in flood zones ⇒ -->
-<!--   - **More insured assets exposed to damage.** -->
-
-<!-- ### 3. Rising Construction and Repair Costs -->
-<!-- - Labor shortages -->
-<!-- - Higher material prices -->
-<!-- - Stricter building codes -->
-<!-- - Each flood now causes **more expensive claims per home**. -->
-
-<!-- ### 4. Rebuilding in the Same Locations -->
-<!-- - Many homes are rebuilt **where they flooded before**. -->
-<!-- - Buyouts and relocation remain limited. -->
-<!-- - This leads to **repeated-loss properties dominating total payouts**. -->
-
-<!-- ### 5. Legacy Underpricing and Grandfathering -->
-<!-- - Many long-standing policies still pay: -->
-<!--   - **Below true actuarial risk** -->
-<!-- - This: -->
-<!--   - Encouraged development in risky zones, -->
-<!--   - Reduced incentives to relocate, -->
-<!--   - And weakened NFIP’s financial balance for decades. -->
-
-
-<!-- ## NFIP Design Problems (1): Pricing and Mapping -->
-
-<!-- - **Underpriced premiums** -->
-<!--   - Historically **too low** relative to expected payouts. -->
-<!--   - NFIP debt reached about **$22.5 billion** (2025). -->
-<!-- - **Outdated flood maps** -->
-<!--   - Many maps do not fully reflect **current or future** climate risk. -->
-<!--   - Some properties face **much higher** true risk than their maps suggest. -->
-
-
-
-<!-- ## NFIP Design Problems (2): Incentives -->
-
-<!-- - **Limited rewards for mitigation** -->
-<!--   - Discounts exist but are often small or not well understood. -->
-<!-- - **Repeated losses** -->
-<!--   - Some properties flood again and again, with NFIP paying each time. -->
-<!--   - Example: One home flooded **40 times**, receiving **$428,379** in payments. -->
-<!-- - **Grandfathering** -->
-<!--   - Older policies may keep **lower rates** even as risk rises. -->
-<!--   - Weakens the “price signal” that should encourage safer locations and designs. -->
-
-
-
 ## From NFIP Problems to Economic Incentives
 
 <!-- **Key question:**   -->
 
-<div style="font-size:1.75rem; text-align:center; margin-top:1.5rem;">
+<div style="font-size:2rem; text-align:center; margin-top:1.5rem;">
   <blockquote>
     When we insure people against flood losses, do we unintentionally encourage them to **take more risk**?
   </blockquote>
@@ -860,10 +830,10 @@ $$
 <!--      - Improve zoning and building codes. -->
 <!--      - Invest in drainage, levees, and other protective measures. -->
 
-## A Puzzle: Moral Hazard vs. Underinsurance
+## Underinsurance Despite High Flood Risk
 
 - Moral hazard predicts **too much risk-taking** when people are insured.
-- But in reality:
+- **Yet in practice**, the dominant problem in flood insurance markets is the opposite: **underinsurance.**
   - Only about **49%** of residents in high-risk flood zones purchase flood insurance.
 
 - This low take-up is explained by several factors:
@@ -875,83 +845,161 @@ $$
 - In addition, **systematic behavioral biases** strongly shape how homeowners perceive and respond to flood risk.
 
 
-## Underinsurance: Flood Risk Perceptions (Behavioral Biases)
+
+
+## 1. Myopia (Present Bias) in Flood Risk Perception
+
+<div style="display:block; margin:15px;"></div>
+
+:::: {.columns}
+
+::: {.column width="50%"}
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/flood-myopia.jpg" style="width: 100%; margin-bottom: -30px; margin-top: -30px;">
+</div>
+
+:::
+
+::: {.column width="50%"}
+
+::: nonincremental
 
 - **Myopia (Present Bias):**  
   Tendency to focus on immediate costs and heavily discount future benefits.  
   - Up-front premium feels large; future flood loss feels distant.
-  
+:::
+:::
+::::
+
+
+## 2. Optimism in Flood Risk Perception
+
+<div style="display:block; margin:15px;"></div>
+
+:::: {.columns}
+
+::: {.column width="50%"}
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/flood-optimism.jpg" style="width: 100%; margin-bottom: -30px; margin-top: -30px;">
+</div>
+
+:::
+
+::: {.column width="50%"}
+
+::: nonincremental
 - **Optimism:**  
   Tendency to underestimate the likelihood of future losses.  
   - Homeowners believe flooding is unlikely to happen to them.
 
+:::
+:::
+::::
+
+
+## 3. Inertia in Flood Risk Perception
+
+<div style="display:block; margin:15px;"></div>
+
+:::: {.columns}
+
+::: {.column width="50%"}
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/flood-inertia.jpg" style="width: 100%; margin-bottom: -30px; margin-top: -30px;">
+</div>
+
+:::
+
+::: {.column width="50%"}
+
+::: nonincremental
 - **Inertia:**  
   Tendency to stick with the status quo under uncertainty.  
   - Delay buying or renewing flood insurance.
 
+:::
+:::
+::::
 
-## Underinsurance: Flood Risk Perceptions (Behavioral Biases)
 
+## 4. Amnesia in Flood Risk Perception
+
+<div style="display:block; margin:15px;"></div>
+
+:::: {.columns}
+
+::: {.column width="50%"}
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/flood-amnesia.jpg" style="width: 100%; margin-bottom: -30px; margin-top: -30px;">
+</div>
+
+:::
+
+::: {.column width="50%"}
+
+::: nonincremental
 - **Amnesia:**  
   Tendency to quickly forget past disasters.  
   - If no recent flood has occurred, perceived risk declines.
 
+:::
+:::
+::::
+
+
+## 5. Simplification in Flood Risk Perception
+
+<div style="display:block; margin:15px;"></div>
+
+:::: {.columns}
+
+::: {.column width="50%"}
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/flood-simplification.jpg" style="width: 100%; margin-bottom: -30px; margin-top: -30px;">
+</div>
+
+:::
+
+::: {.column width="50%"}
+
+::: nonincremental
 - **Simplification:**  
   Tendency to ignore complex or detailed risk information.  
   - Overlook flood maps, probabilities, and damage estimates.
 
+:::
+:::
+::::
+
+
+## 6. Social Herding in Flood Risk Perception
+
+<div style="display:block; margin:15px;"></div>
+
+:::: {.columns}
+
+::: {.column width="50%"}
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/flood-herding.jpg" style="width: 100%; margin-bottom: -30px; margin-top: -30px;">
+</div>
+
+:::
+
+::: {.column width="50%"}
+
+::: nonincremental
 - **Herding:**  
   Tendency to base decisions on others’ behavior.  
   - “None of my neighbors have insurance, so I don’t need it.”
 
+:::
+:::
+::::
 
-<!-- ## Addressing Underinsurance in NFIP using Choice Architecture -->
-
-<!-- - Insurance policies can be designed to **work with human biases** using **choice architecture**: -->
-<!--   - **Default enrollment or automatic renewal** -->
-<!--     - Households are covered unless they actively opt out. -->
-<!--   - **Salient framing of risk** -->
-<!--     - Present losses in **dollar terms** (e.g., “expected annual flood loss”) instead of abstract probabilities. -->
-<!--   - **Simplified risk communication** -->
-<!--     - Use clear maps, labels, and categories rather than complex technical flood zones. -->
-<!--   - **Timely prompts** -->
-<!--     - Reminders at moments when people are most attentive (home purchase, mortgage renewal, post-disaster rebuilding). -->
-
+  
   
 
 
-<!-- ## Is Rising NFIP Loss Mainly a “Storm Problem”? -->
-
-<!-- **Short answer:** No — it is a **combined climate–economic–policy problem.** -->
-
-<!-- - Stronger storms ⇒ higher **per-event damage** -->
-<!-- - More development ⇒ higher **exposure** -->
-<!-- - Underpricing + rebuilding ⇒ higher **long-run vulnerability** -->
-<!-- - Behavioral biases + affordability limits ⇒ **persistent underinsurance** -->
-
-<!-- So rising NFIP losses reflect: -->
-
-<!-- > **More intense hazards × more exposed assets × distorted incentives × slow adaptation** -->
-
-
-<!-- ## Revisiting the Puzzle: Moral Hazard vs. Underinsurance -->
-
-<!-- - **Among the insured:** -->
-<!--   - Subsidized coverage can contribute to: -->
-<!--     - Rebuilding in risky areas -->
-<!--     - Underinvestment in mitigation -->
-<!--   - → **Moral hazard** -->
-<!-- - **Among the uninsured:** -->
-<!--   - Many high-risk households still remain uninsured due to: -->
-<!--     - Myopia -->
-<!--     - Optimism -->
-<!--     - Inertia -->
-<!--     - Affordability constraints -->
-<!--   - → **Underinsurance** -->
-
-<!-- **Both coexist at the same time**: -->
-<!-- - Risk-taking behavior by some, -->
-<!-- - Risk avoidance through non-purchase by others. -->
 
 ## How FEMA Is Addressing Underinsurance in NFIP?
 <div style="display:block; margin:-18px;"></div>
@@ -1003,48 +1051,321 @@ $$
 
 <div class="fragment" style="font-size:1.75rem; text-align:center; margin-top:1.5rem;">
   <blockquote>
-    FEMA relies mainly on **voluntary purchase** and **information disclosure**, which are often insufficient when **myopia, optimism, and inertia** exist.
+    FEMA relies mainly on **voluntary purchase** and **information disclosure**, which are often insufficient when **myopia, optimism, and inertia** are present.
+  </blockquote>
+</div>
+
+## 📈🌧️ Why Are NFIP Costs & Debt Rising? — Revisited
+<div style="display:block; margin:-15px;"></div>
+
+Beyond climate hazard, exposure, and vulnerability, **insurance behavior and policy further amplify NFIP losses**:
+
+- **Moral hazard**, concentrated in a **small subset of repetitive-loss properties**, keeps the riskiest structures in place.
+- **Underinsurance shrinks the risk pool**, so premium revenue is **too low to absorb catastrophic losses**.
+- Reliance on **post-disaster aid rather than insurance** weakens incentives to relocate, mitigate, or reform land-use policy—keeping **exposure and vulnerability high over time**.
+
+<div style="display:block; margin:-15px;"></div>
+
+<div class="fragment" style="font-size:1.9rem; text-align:center; margin-top:1.5rem;">
+  <blockquote>
+    Rising NFIP losses reflect a **system-wide interaction of climate change, development patterns, and insurance design** — not just by the choices of individual homeowners.
   </blockquote>
 </div>
 
 
-<!-- - FEMA primarily depends on **voluntary purchase** and **information disclosure**, but behavioral biases such as **myopia, optimism, and inertia** often limit their effectiveness. -->
-
-<!-- - FEMA mostly relies on **voluntary purchase** and **information disclosure**, but these tools alone are often not enough when people exhibit **myopia, optimism, and inertia**. -->
+# 📊 Class Survey Results: Pre- and Post-Course Comparison {background-color="#1c4982"}
 
 
-<!-- **Result:**   -->
-<!-- Underinsurance **persists even in clearly mapped high-risk zones**. -->
+## 💵 Carbon Markets and Carbon Offsets
 
-<!-- ## Why Does Underinsurance Persist in the NFIP? -->
+:::: {.columns}
 
-<!-- - **No universal automatic enrollment** -->
-<!--   - Households outside mortgage requirements must still **actively opt in**. -->
-<!-- - **Weak default framing** -->
-<!--   - Insurance is still presented as an **optional add-on**, not a standard protection. -->
-<!-- - **Limited behavioral nudges** -->
-<!--   - Few standardized: -->
-<!--     - Personalized loss projections   -->
-<!--     - Dollar-based risk dashboards   -->
-<!--     - Behavioral reminders tied to life events -->
-<!-- - **Complex information environment** -->
-<!--   - Flood maps and rules remain **technically accurate but cognitively demanding**. -->
+::: {.column width="75%"}
+<div style="display:block; margin:-80px;"></div>![](https://bcdanl.github.io/lec_figs/agree_06_cluster.png "Carbon markets/offsets are efficient for firms")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *56.84%* agree
+:::
+
+::::
+
+<div style="display:block; margin:-60px;"></div>
 
 
-<!-- ## Why This Matters for Underinsurance -->
+:::: {.columns}
+::: {.column width="50%"}
 
-<!-- - FEMA relies heavily on: -->
-<!--   - **Information disclosure** -->
-<!--   - **Voluntary purchase** -->
-<!-- - But behavioral economics shows that: -->
-<!--   - Information alone is often **not sufficient** when: -->
-<!--     - Myopia   -->
-<!--     - Optimism   -->
-<!--     - Inertia   -->
-<!--     are strong. -->
+- **Class Support:**  
+  - **Pre-Course:** 31%  
+  - **Post-Course:** 81%  
 
-<!-- As a result: -->
-<!-- - Underinsurance **persists**, even in clearly mapped high-risk zones. -->
+:::
+::: {.column width="50%"}
+
+- **Change:** **+50% points** → strong convergence toward market-based GHG regulation
+
+:::
+::::
+
+## ♻️ Recycling Carbon Revenues
+
+
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="display:block; margin:-80px;"></div>![](https://bcdanl.github.io/lec_figs/agree_07_cluster.png "Return carbon revenues via dividends / lower income taxes")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *55.5%* agree
+:::
+
+::::
+
+
+<div style="display:block; margin:-60px;"></div>
+
+
+:::: {.columns}
+::: {.column width="50%"}
+
+- **Class Support:**  
+  - **Pre-Course:** 24%  
+  - **Post-Course:** 71%  
+
+:::
+::: {.column width="50%"}
+- **Change:** **+47% points** → major shift toward revenue-recycling policy
+
+:::
+::::
+
+
+## 🌍 Carbon Border Adjustment Mechanism (CBAM)
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="display:block; margin:-80px;"></div>![](https://bcdanl.github.io/lec_figs/favor_04_cluster.png "Tax imports based on embedded GHGs (border adjustment)")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *67.72%* favor
+:::
+
+::::
+
+<div style="display:block; margin:-60px;"></div>
+
+
+:::: {.columns}
+::: {.column width="50%"}
+
+- **Class Support:**  
+  - **Pre-Course:** 44%  
+  - **Post-Course:** 76%  
+
+:::
+
+::: {.column width="50%"}
+- **Change:** **+32% points** → increased awareness of carbon leakage and trade policy
+
+:::
+::::
+
+
+## 📈 Limits to Economic Growth
+
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="display:block; margin:-80px;"></div>![](https://bcdanl.github.io/lec_figs/agree_10_cluster.png "There exists a maximum sustainable level of economic growth")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *44.21%* agree
+:::
+
+::::
+
+
+<div style="display:block; margin:-60px;"></div>
+
+:::: {.columns}
+::: {.column width="50%"}
+- **Class Support:**  
+  - **Pre-Course:** 56%  
+  - **Post-Course:** 81%  
+
+:::
+
+::: {.column width="50%"}
+- **Change:** **+25% points** → increased awareness of long-run growth limits under climate change
+
+:::
+::::
+
+## 🏠⚡ Home Clean-Energy Tax Credits
+
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="display:block; margin:-80px;"></div>![](https://bcdanl.github.io/lec_figs/favor_07_cluster.png "Home clean‑energy tax credits")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *61.26%* favor
+:::
+
+::::
+
+<div style="display:block; margin:-60px;"></div>
+
+:::: {.columns}
+::: {.column width="50%"}
+
+- **Class Support:**  
+  - **Pre-Course:** 81%  
+  - **Post-Course:** 100%  
+
+:::
+
+
+::: {.column width="50%"}
+- **Change:** **+19% points** → unanimous post-course support
+
+:::
+::::
+
+
+## 🏛️ EPA Regulatory Authority
+
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="display:block; margin:-80px;"></div>![](https://bcdanl.github.io/lec_figs/agree_02_cluster.png "Reducing EPA regulatory power improves efficiency")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *80.63%* disagree
+:::
+
+::::
+
+<div style="display:block; margin:-60px;"></div>
+
+
+:::: {.columns}
+::: {.column width="50%"}
+
+- **Class Disagreement:**  
+  - **Pre-Course:** 38%  
+  - **Post-Course:** 57%  
+
+:::
+
+::: {.column width="50%"}
+- **Change:** **+19% points** → Growing recognition that **EPA regulation improves economic efficiency**
+
+
+:::
+::::
+
+
+# ✅ **Course Summary** {background-color="#1c4982"}
+
+
+
+## 📘 What We Learned This Semester
+<div style="display:block; margin:-10px;"></div>
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+- **Market Failures**
+  - **Externalities**
+  - **Open Access**
+  - **Public Goods**
+  - **Information Problems**
+  - **Incentive Problems**
+  - **Behavioral Anomalies**
+
+- **The Coase Theorem**
+
+- **Policy Design:** <span class="fragment">**Incentives**,**Information**, **Institutions**, & **Social Norms**</span>
+
+- **Career in Sustainability & Environmental Economics**
+:::
+
+::: {.column width="50%"}
+- **Cost–Benefit Analysis**
+  - **Discount Rate**
+  - **Social Cost of Carbon**
+  - **Value of Statistical Life**
+
+- **Market for Pollution: Price vs. Quantity Approaches**
+
+- **Climate Agreements**
+  - **Institutions & Incentives**
+  - **Game Theory**
+
+- **Climate Risk and Adaptation**
+
+- 🌍 **<u>Course Project</u>: Climate Change and the Individual**
+<!-- <div style="display:block; margin:-45px;"></div> -->
+
+<!-- <div style="text-align: center;"> -->
+<!-- <span class="fragment"><u></u></span> -->
+
+<!-- </div> -->
+
+:::
+::::
+
+
+
+
+  
+## 📝 Student Course Evaluation (SCE)
+<div style="display:block; margin:-10px;"></div>
+
+:::{.nonincremental}
+I have made every effort to enhance your learning experience in this course.  
+
+<div style="display:block; margin:-10px;"></div>
+
+Your feedback is extremely valuable and helps improve future classes.  
+
+<div style="display:block; margin:-10px;"></div>
+
+I sincerely encourage your participation in the **Student Course Evaluation (SCE)**.
+:::
+
+<div style="display:block; margin:40px;"></div>
+
+::: fragment
+### ✅ Please Take 10 Minutes Now to Complete the SCE
+
+<div style="display:block; margin:-10px;"></div>
+
+On your laptop, follow these steps to access the SCE for **ECON 340**:
+
+1. Log in to the [**SCE Survey Portal**](https://go.geneseo.edu/scesurveys)
+2. Click on **“Surveys”**
+3. Select **ECON 340** and complete the evaluation
+
+<div style="display:block; margin:-30px;"></div>
+<span class="fragment">Thank you for your time and thoughtful feedback.</span>
+
+:::
 
 
 <script>
