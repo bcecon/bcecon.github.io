@@ -471,8 +471,8 @@ When potential impacts are **large, irreversible, and deeply uncertain**, econom
 
 Imagine you own a **house next to a river**.
 
-- Each year, there is a **10% chance** of a major flood.
-- If a flood hits, your house suffers **\$100,000** in damage.
+- Each year, there is a **5% chance** of a major flood.
+- If a flood hits, your house suffers **\$200,000** in damage.
 
 <span class="fragment">You are considering three options:</span>
 
@@ -483,11 +483,11 @@ Imagine you own a **house next to a river**.
 
 ## 🧮 Flood Insurance Choices – The Options
 
-**Flood probability:** $10\%$ per year  
-**Damage if flood:** \$100,000  
+**Flood probability:** $5\%$ per year  
+**Damage if flood:** \$200,000  
 
 $$
-(\text{Expected annual loss if uninsured}) = 0.10 \times 100,000 = \$10,000.
+(\text{Expected annual loss if uninsured}) = 0.05 \times 200,000 = \$10,000.
 $$
 
 ::: fragment
@@ -495,8 +495,8 @@ Here are your choices:
 
 | Option | Annual Premium | You Pay If Flood | Description                                  |
 |--------|----------------|------------------|----------------------------------------------|
-| A      | \$0            | \$100,000        | No Insurance         |
-| B      | \$500          | \$30,000         | Partial Insurance (substantial loss remains)    |
+| A      | \$0            | \$200,000        | No Insurance         |
+| B      | \$500          | \$50,000         | Partial Insurance (substantial loss remains)    |
 | C      | \$2,000        | \$1,000          | Full Insurance (tiny deductible)       |
 
 :::

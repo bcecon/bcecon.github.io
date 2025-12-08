@@ -5548,7 +5548,7 @@
     "href": "econ-cw/econ-340-cw-14.html",
     "title": "Classwork 14",
     "section": "",
-    "text": "Imagine you own a house next to a river.\n\nEach year, there is a 10% chance of a major flood.\nIf a flood hits, your house suffers $100,000 in damage.\n\nYou are considering three options:\n\nNo insurance\nPartial, subsidized insurance\nFull, risk-based insurance"
+    "text": "Imagine you own a house next to a river.\n\nEach year, there is a 5% chance of a major flood.\nIf a flood hits, your house suffers $200,000 in damage.\n\nYou are considering three options:\n\nNo insurance\nPartial, subsidized insurance\nFull, risk-based insurance"
   },
   {
     "objectID": "econ-cw/econ-340-cw-14.html#background-extreme-climate-risk",
@@ -5849,7 +5849,7 @@
     "href": "econ-cw/econ-340-cw-14.html#scenario",
     "title": "Classwork 14",
     "section": "",
-    "text": "Imagine you own a house next to a river.\n\nEach year, there is a 10% chance of a major flood.\nIf a flood hits, your house suffers $100,000 in damage.\n\nYou are considering three options:\n\nNo insurance\nPartial, subsidized insurance\nFull, risk-based insurance"
+    "text": "Imagine you own a house next to a river.\n\nEach year, there is a 5% chance of a major flood.\nIf a flood hits, your house suffers $200,000 in damage.\n\nYou are considering three options:\n\nNo insurance\nPartial, subsidized insurance\nFull, risk-based insurance"
   },
   {
     "objectID": "econ-cw/econ-340-cw-14.html#a-no-insurance",
@@ -6143,7 +6143,7 @@
     "href": "econ-cw/econ-340-cw-14.html#the-options",
     "title": "Classwork 14",
     "section": "The Options 🧮",
-    "text": "The Options 🧮\nFlood probability: \\(10\\%\\) per year\nDamage if flood: $100,000\n\\[\n(\\text{Expected annual loss if uninsured}) = 0.10 \\times 100,000 = \\$10,000.\n\\]\nHere are your choices:\n\n\n\n\n\n\n\n\n\nOption\nAnnual Premium\nYou Pay If Flood\nDescription\n\n\n\n\nA\n$0\n$100,000\nNo Insurance\n\n\nB\n$500\n$30,000\nPartial Insurance (substantial loss remains)\n\n\nC\n$2,000\n$1,000\nFull Insurance (tiny deductible)"
+    "text": "The Options 🧮\nFlood probability: \\(5\\%\\) per year\nDamage if flood: $200,000\n\\[\n(\\text{Expected annual loss if uninsured}) = 0.05 \\times 200,000 = \\$10,000.\n\\]\nHere are your choices:\n\n\n\n\n\n\n\n\n\nOption\nAnnual Premium\nYou Pay If Flood\nDescription\n\n\n\n\nA\n$0\n$200,000\nNo Insurance\n\n\nB\n$500\n$30,000\nPartial Insurance (substantial loss remains)\n\n\nC\n$2,000\n$1,000\nFull Insurance (tiny deductible)"
   },
   {
     "objectID": "econ-cw/econ-340-cw-14.html#your-decision",
@@ -6157,7 +6157,7 @@
     "href": "econ-cw/econ-340-cw-14.html#quick-reflection",
     "title": "Classwork 14",
     "section": "Quick Reflection 💭",
-    "text": "Quick Reflection 💭\n\nIf you chose Option A (No insurance):\n\nWhy did you feel comfortable taking that risk?\nDid the 10% probability feel “small enough” to ignore?\n\nIf you chose Option B (Partial insurance):\n\nWhy did this balance of premium + loss feel best to you?\nHow does the subsidy (cheap premium) affect your choice?\n\nIf you chose Option C (Full insurance):\n\nWhy are you willing to pay more each year?\nHow much do you value peace of mind?"
+    "text": "Quick Reflection 💭\n\nIf you chose Option A (No insurance):\n\nWhy did you feel comfortable taking that risk?\nDid the 5% probability feel “small enough” to ignore?\n\nIf you chose Option B (Partial insurance):\n\nWhy did this balance of premium + loss feel best to you?\nHow does the subsidy (cheap premium) affect your choice?\n\nIf you chose Option C (Full insurance):\n\nWhy are you willing to pay more each year?\nHow much do you value peace of mind?"
   },
   {
     "objectID": "econ-cw/econ-340-cw-14.html#connecting-to-concepts",
@@ -7158,14 +7158,14 @@
     "href": "econ-lec/econ-340-lec-16-2025-1201.html#flood-insurance-choices-scenario",
     "title": "Lecture 16",
     "section": "🌧 Flood Insurance Choices – Scenario️",
-    "text": "🌧 Flood Insurance Choices – Scenario️\nImagine you own a house next to a river.\n\nEach year, there is a 10% chance of a major flood.\nIf a flood hits, your house suffers $100,000 in damage.\n\nYou are considering three options:\n\nNo insurance\nPartial, subsidized insurance\nFull, risk-based insurance"
+    "text": "🌧 Flood Insurance Choices – Scenario️\nImagine you own a house next to a river.\n\nEach year, there is a 5% chance of a major flood.\nIf a flood hits, your house suffers $200,000 in damage.\n\nYou are considering three options:\n\nNo insurance\nPartial, subsidized insurance\nFull, risk-based insurance"
   },
   {
     "objectID": "econ-lec/econ-340-lec-16-2025-1201.html#flood-insurance-choices-the-options",
     "href": "econ-lec/econ-340-lec-16-2025-1201.html#flood-insurance-choices-the-options",
     "title": "Lecture 16",
     "section": "🧮 Flood Insurance Choices – The Options",
-    "text": "🧮 Flood Insurance Choices – The Options\nFlood probability: \\(10\\%\\) per year\nDamage if flood: $100,000\n\\[\n(\\text{Expected annual loss if uninsured}) = 0.10 \\times 100,000 = \\$10,000.\n\\]\n\nHere are your choices:\n\n\n\n\n\n\n\n\n\nOption\nAnnual Premium\nYou Pay If Flood\nDescription\n\n\n\n\nA\n$0\n$100,000\nNo Insurance\n\n\nB\n$500\n$30,000\nPartial Insurance (substantial loss remains)\n\n\nC\n$2,000\n$1,000\nFull Insurance (tiny deductible)\n\n\n\n\n\n\n\nQuestion: Which option would you choose?"
+    "text": "🧮 Flood Insurance Choices – The Options\nFlood probability: \\(5\\%\\) per year\nDamage if flood: $200,000\n\\[\n(\\text{Expected annual loss if uninsured}) = 0.05 \\times 200,000 = \\$10,000.\n\\]\n\nHere are your choices:\n\n\n\n\n\n\n\n\n\nOption\nAnnual Premium\nYou Pay If Flood\nDescription\n\n\n\n\nA\n$0\n$200,000\nNo Insurance\n\n\nB\n$500\n$50,000\nPartial Insurance (substantial loss remains)\n\n\nC\n$2,000\n$1,000\nFull Insurance (tiny deductible)\n\n\n\n\n\n\n\nQuestion: Which option would you choose?"
   },
   {
     "objectID": "econ-lec/econ-340-lec-16-2025-1201.html#myopia-present-bias-in-flood-risk-perception",
