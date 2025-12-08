@@ -1002,28 +1002,27 @@ $$
 
 
 ## How FEMA Is Addressing Underinsurance in NFIP?
-<div style="display:block; margin:-18px;"></div>
+<div style="display:block; margin:-22.5px;"></div>
 
 **FEMA has implemented several key *choice-architecture tools* and behavioral policy features:**
 
-<div style="display:block; margin:-8px;"></div>
+<div style="display:block; margin:-5px;"></div>
 
 :::: {.columns}
-::: {.column width="50%"}
+::: {.column width="52.5%"}
 
 ::: fragment
 
-<div style="display:block; margin:-25px;"></div>
+<!-- <div style="display:block; margin:-25px;"></div> -->
 
-**Automatic insurance through mortgages**  
-
-- Flood insurance is **mandatory by default** for many federally backed mortgages in high-risk zones.
-- This already functions as a **default enrollment mechanism** for some households.
+- **Automatic insurance through mortgages**  
+  - Flood insurance is **mandatory by default** for many federally backed mortgages in high-risk zones.
+  - This already functions as a **default enrollment mechanism** for some households.
 
 :::
 :::
 
-::: {.column width="50%"}
+::: {.column width="47.5%"}
 - **Risk communication improvements** – FEMA provides:
   - [Flood maps](https://msc.fema.gov/nfhl)  
   - Property-level flood risk estimates
@@ -1319,7 +1318,7 @@ Beyond climate hazard, exposure, and vulnerability, **insurance behavior and pol
 
 - **Climate Risk and Adaptation**
 
-- 🌍 **<u>Course Project</u>: Climate Change and the Individual**
+- 🌍👤 **<u>Course Project</u>: Climate Change and the Individual**
 <!-- <div style="display:block; margin:-45px;"></div> -->
 
 <!-- <div style="text-align: center;"> -->
