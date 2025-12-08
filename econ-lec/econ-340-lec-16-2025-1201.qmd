@@ -686,7 +686,7 @@ $$
 \begin{aligned}
 \color{purple}{\textbf{(Losses)}}
 &\;\propto\;
-\;\;\color{#1f77b4}{\textbf{(Climate Hazard)}} \\
+\;\color{#1f77b4}{\textbf{(Climate Hazard)}} \\
 &\qquad\times\;
 \color{#17becf}{\textbf{(Exposure)}} \\
 &\qquad\times\;
