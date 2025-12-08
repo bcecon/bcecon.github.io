@@ -1050,7 +1050,7 @@ $$
 
 <div class="fragment" style="font-size:1.75rem; text-align:center; margin-top:1.5rem;">
   <blockquote>
-    FEMA relies mainly on **voluntary purchase** and **information disclosure**, which are often insufficient when **myopia, optimism, and inertia** are present.
+    FEMA relies mainly on **voluntary purchase** and **information disclosure**, which are often insufficient when **myopia, optimism, and inertia** are dominantly present.
   </blockquote>
 </div>
 
@@ -1077,6 +1077,7 @@ Beyond climate hazard, exposure, and vulnerability, **insurance behavior and pol
 
 ## 💵 Carbon Markets and Carbon Offsets
 
+:::: nonincremental
 :::: {.columns}
 
 ::: {.column width="75%"}
@@ -1085,7 +1086,7 @@ Beyond climate hazard, exposure, and vulnerability, **insurance behavior and pol
 
 ::: {.column width="25%"}
 <br>
-**Economists**: *56.84%* agree
+**Professional Economists (2023)**: *56.84%* agree
 :::
 
 ::::
@@ -1107,10 +1108,12 @@ Beyond climate hazard, exposure, and vulnerability, **insurance behavior and pol
 
 :::
 ::::
+::::
+
 
 ## ♻️ Recycling Carbon Revenues
 
-
+:::: nonincremental
 :::: {.columns}
 
 ::: {.column width="75%"}
@@ -1119,7 +1122,7 @@ Beyond climate hazard, exposure, and vulnerability, **insurance behavior and pol
 
 ::: {.column width="25%"}
 <br>
-**Economists**: *55.5%* agree
+**Professional Economists (2023)**: *55.5%* agree
 :::
 
 ::::
@@ -1141,9 +1144,11 @@ Beyond climate hazard, exposure, and vulnerability, **insurance behavior and pol
 
 :::
 ::::
+::::
 
 
 ## 🌍 Carbon Border Adjustment Mechanism (CBAM)
+:::: nonincremental
 :::: {.columns}
 
 ::: {.column width="75%"}
@@ -1152,7 +1157,7 @@ Beyond climate hazard, exposure, and vulnerability, **insurance behavior and pol
 
 ::: {.column width="25%"}
 <br>
-**Economists**: *67.72%* favor
+**Professional Economists (2023)**: *67.72%* favor
 :::
 
 ::::
@@ -1174,10 +1179,12 @@ Beyond climate hazard, exposure, and vulnerability, **insurance behavior and pol
 
 :::
 ::::
+::::
 
 
 ## 📈 Limits to Economic Growth
 
+:::: nonincremental
 :::: {.columns}
 
 ::: {.column width="75%"}
@@ -1186,7 +1193,7 @@ Beyond climate hazard, exposure, and vulnerability, **insurance behavior and pol
 
 ::: {.column width="25%"}
 <br>
-**Economists**: *44.21%* agree
+**Professional Economists (2023)**: *44.21%* agree
 :::
 
 ::::
@@ -1207,9 +1214,11 @@ Beyond climate hazard, exposure, and vulnerability, **insurance behavior and pol
 
 :::
 ::::
+::::
 
 ## 🏠⚡ Home Clean-Energy Tax Credits
 
+:::: nonincremental
 :::: {.columns}
 
 ::: {.column width="75%"}
@@ -1218,7 +1227,7 @@ Beyond climate hazard, exposure, and vulnerability, **insurance behavior and pol
 
 ::: {.column width="25%"}
 <br>
-**Economists**: *61.26%* favor
+**Professional Economists (2023)**: *61.26%* favor
 :::
 
 ::::
@@ -1240,10 +1249,12 @@ Beyond climate hazard, exposure, and vulnerability, **insurance behavior and pol
 
 :::
 ::::
+::::
 
 
 ## 🏛️ EPA Regulatory Authority
 
+:::: nonincremental
 :::: {.columns}
 
 ::: {.column width="75%"}
@@ -1252,7 +1263,7 @@ Beyond climate hazard, exposure, and vulnerability, **insurance behavior and pol
 
 ::: {.column width="25%"}
 <br>
-**Economists**: *80.63%* disagree
+**Professional Economists (2023)**: *80.63%* disagree
 :::
 
 ::::
@@ -1274,6 +1285,7 @@ Beyond climate hazard, exposure, and vulnerability, **insurance behavior and pol
 
 
 :::
+::::
 ::::
 
 

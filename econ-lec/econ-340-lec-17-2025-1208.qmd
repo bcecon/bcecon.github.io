@@ -64,11 +64,12 @@ scale_colour_discrete <- function(...) scale_color_colorblind(...)
 scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 ```
 
-# Class Survey Results: Pre- and Post-Course Comparison {background-color="#1c4982"}
+# 📊 Class Survey Results: Pre- and Post-Course Comparison {background-color="#1c4982"}
 
 
-## Q1. Carbon Markets and Carbon Offsets
+## 💵 Carbon Markets and Carbon Offsets
 
+:::: nonincremental
 :::: {.columns}
 
 ::: {.column width="75%"}
@@ -77,7 +78,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 ::: {.column width="25%"}
 <br>
-**Economists**: *56.84%* agree
+**Professional Economists (2023)**: *56.84%* agree
 :::
 
 ::::
@@ -99,10 +100,12 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 :::
 ::::
+::::
 
-## Q2. Recycling Carbon Revenues
 
+## ♻️ Recycling Carbon Revenues
 
+:::: nonincremental
 :::: {.columns}
 
 ::: {.column width="75%"}
@@ -111,7 +114,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 ::: {.column width="25%"}
 <br>
-**Economists**: *55.5%* agree
+**Professional Economists (2023)**: *55.5%* agree
 :::
 
 ::::
@@ -133,9 +136,11 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 :::
 ::::
+::::
 
 
-## Q3. Border Carbon Adjustment (BCA)
+## 🌍 Carbon Border Adjustment Mechanism (CBAM)
+:::: nonincremental
 :::: {.columns}
 
 ::: {.column width="75%"}
@@ -144,7 +149,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 ::: {.column width="25%"}
 <br>
-**Economists**: *67.72%* favor
+**Professional Economists (2023)**: *67.72%* favor
 :::
 
 ::::
@@ -166,10 +171,12 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 :::
 ::::
+::::
 
 
-## Q4. Limits to Economic Growth
+## 📈 Limits to Economic Growth
 
+:::: nonincremental
 :::: {.columns}
 
 ::: {.column width="75%"}
@@ -178,7 +185,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 ::: {.column width="25%"}
 <br>
-**Economists**: *44.21%* agree
+**Professional Economists (2023)**: *44.21%* agree
 :::
 
 ::::
@@ -199,9 +206,11 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 :::
 ::::
+::::
 
-## Q5. Home Clean-Energy Tax Credits
+## 🏠⚡ Home Clean-Energy Tax Credits
 
+:::: nonincremental
 :::: {.columns}
 
 ::: {.column width="75%"}
@@ -210,7 +219,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 ::: {.column width="25%"}
 <br>
-**Economists**: *61.26%* favor
+**Professional Economists (2023)**: *61.26%* favor
 :::
 
 ::::
@@ -232,10 +241,12 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 :::
 ::::
+::::
 
 
-## Q6. EPA Regulatory Authority
+## 🏛️ EPA Regulatory Authority
 
+:::: nonincremental
 :::: {.columns}
 
 ::: {.column width="75%"}
@@ -244,7 +255,7 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 ::: {.column width="25%"}
 <br>
-**Economists**: *80.63%* disagree
+**Professional Economists (2023)**: *80.63%* disagree
 :::
 
 ::::
@@ -267,6 +278,8 @@ scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 
 :::
 ::::
+::::
+
 
 
 # ✅ **Course Summary** {background-color="#1c4982"}
