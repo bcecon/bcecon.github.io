@@ -131,7 +131,7 @@ In shorthand we can think of:
 <div style="display:block; margin:-35px;"></div>
 
 $$ 
-\boxed{\color{purple}{(\text{Climate Risk})} \;\propto\; \color{#1f77b4}{(\text{Climate Hazard})} \times \color{#17becf}{(\text{Exposure})} \times \color{#E69F00}{(\text{Vulnerability})}}
+\boxed{\color{purple}{(\textbf{Climate Risk})} \;\propto\; \color{#1f77b4}{(\textbf{Climate Hazard})} \times \color{#17becf}{(\textbf{Exposure})} \times \color{#E69F00}{(\textbf{Vulnerability})}}
 $$
 :::
 
@@ -464,27 +464,63 @@ When potential impacts are **large, irreversible, and deeply uncertain**, econom
 
 
 
-# Flood Insurance, NFIP, Moral Hazard, and Underinsurance {background-color="#1c4982"}
+# Flood Insurance, Moral Hazard, and Underinsurance {background-color="#1c4982"}
 
 ## Why Flood Insurance Matters in the U.S.
 
-- **Floods and storms**  
-  - Among the most frequent and costly natural disasters in the U.S.
-- **Households and communities**  
-  - Face large, sudden losses.
-  - Private insurance markets historically reluctant to offer affordable coverage.
+
+:::: {.columns}
+
+::: {.column width="70%"}
+<div style="text-align: center; width: 100%; margin: auto;">
+<p style="font-weight: bold; font-size:1.7rem; text-align: center;">[Billion-Dollar Weather and Climate Disasters](https://www.ncei.noaa.gov/access/billions/), NOAA (2024)</p>
+  <img src="https://bcdanl.github.io/lec_figs/noaa-disaster-no-trend.jpg" style="width: 100%; margin-bottom: -30px; margin-top: -30px;">
+</div>
+
+:::
+
+::: {.column width="30%"}
+
+<div style="display:block; margin:60px;"></div>
+
+- **Floods and storms**: the most frequent and costly natural disasters in the U.S.
+  <!-- - Losses are **large, sudden, and highly uneven across locations**. -->
+- **Private insurance markets**: historically reluctant to offer affordable coverage.
+
+:::
+::::
+
+<!-- - **Households and communities**   -->
+  <!-- - Face large, sudden losses. -->
 
 
 
 ## The National Flood Insurance Program (NFIP)
 
-- **Created:** 1968 (National Flood Insurance Act)  
-- **Managed by:** Federal Emergency Management Agency (FEMA)
-- Basic idea:
-  1. Provide flood insurance where private market is thin.
-  2. Reduce disaster costs to taxpayers.
-  3. Encourage safer building and land use in risky areas.
+<div style="display:block; margin:15px;"></div>
 
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/fema-nfip-flood.png" style="width: 100%; margin-bottom: -30px; margin-top: -30px;">
+</div>
+
+:::
+
+::: {.column width="25%"}
+
+- <u>Created:</u> 1968 (National Flood Insurance Act)  
+- <u>Managed by:</u> **Federal Emergency Management Agency (FEMA)**
+
+:::
+::::
+
+
+- <u>Basic idea:</u>
+  1. Provide **flood insurance** where **private market** is thin.
+  2. Lower the need for **emergency federal disaster assistance**.
+  3. Encourage **safer building & land use** in risky areas.
 
 
 <!-- ## NFIP: Main Goals -->
@@ -498,42 +534,62 @@ When potential impacts are **large, irreversible, and deeply uncertain**, econom
 
 
 
-## NFIP in Practice: Growing Losses
+## NFIP in Practice: Growing Claims Payments
 <div style="display:block; margin:-35px;"></div>
 
-<div style="text-align: center; width: 85%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/nfip-loss.png" style="width: 80%; margin-bottom: -20px;">
+<div style="text-align:center; width: 70%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/nfip-loss.png" alt="NFIP Loss" style="max-width: 1000px; width: 100%; border-radius: 10px; box-shadow: 0 0 12px rgba(0,0,0,.15); margin-bottom: -20px;">
 </div>
+
+
+- A small number of major hurricanes drive a **large share of total claims**.
+- NFIP has repeatedly required **Treasury borrowing**.
+- Outstanding debt reached roughly **$22.5 billion (U.S. Government Accountability Office, 2025)**.
 
 <!-- - Cumulative NFIP claims have **risen sharply** over time. -->
-- Major hurricanes (Katrina, Sandy, Harvey, Ian, Helene…) account for a large share of losses.
-- NFIP has repeatedly borrowed from the U.S. Treasury and carried **large debt**.
+<!-- - Major hurricanes (Katrina, Sandy, Harvey, Ian, Helene…) account for a large share of losses. -->
+<!-- - NFIP has repeatedly borrowed from the U.S. Treasury and carried **large debt**. -->
 
 
 
-## Where Are the Policies?
+<!-- ## Where NFIP Policies and Flood Risk Are Concentrated -->
 
-### Top 30 Counties by Number of NFIP Policies
+<!-- :::: {.columns} -->
 
-<div style="text-align: center; width: 80%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/kousky-2020-flood-risk-housing-5.png" style="width: 80%; margin-bottom: -20px;">
-</div>
+<!-- ::: {.column width="50%"} -->
 
-- NFIP coverage is **highly concentrated** in certain coastal and riverine counties.
-- Many of these areas are also where **climate-driven flood risk is rising**.
+<!-- <div style="text-align: center; width: 100%; margin: auto;"> -->
+<!--   <p style="font-weight: bold;">Top 30 Counties by Number of NFIP Policies</p> -->
+<!--   <img src="https://bcdanl.github.io/lec_figs/kousky-2020-flood-risk-housing-5.jpeg" style="width: 80%; margin-bottom: -20px;"> -->
+<!-- </div> -->
+
+<!-- ::: -->
+
+
+<!-- ::: {.column width="50%"} -->
+<!-- <div style="text-align: center; width: 100%; margin: auto;"> -->
+<!--   <p style="font-weight: bold;">Increase in Flooding due to Climate Change from 2020 to 2050 (in %)</p> -->
+<!--   <img src="https://bcdanl.github.io/lec_figs/nature-2022-flood-risk-5.jpg" style="width: 80%; margin-bottom: -20px;"> -->
+<!-- </div> -->
+<!-- ::: -->
+
+<!-- :::: -->
+
+<!-- - NFIP coverage is **highly concentrated** in certain coastal and riverine counties. -->
+<!-- - Many of these areas are also where **climate-driven flood risk is rising**. -->
 
 
 
-## Climate Change and Flood Risk
+<!-- ## Climate Change and Flood Risk -->
 
-### Increase in Average Annual Exposure to Flooding (in %)
+<!-- ### Increase in Average Annual Exposure to Flooding from 2020 to 2050 (in %) -->
 
-<div style="text-align: center; width: 80%; margin: auto;">
-  <img src="https://bcdanl.github.io/lec_figs/nature-2022-flood-risk-5.jpeg" style="width: 70%; margin-bottom: -20px;">
-</div>
+<!-- <div style="text-align: center; width: 80%; margin: auto;"> -->
+<!--   <img src="https://bcdanl.github.io/lec_figs/nature-2022-flood-risk-5.jpeg" style="width: 70%; margin-bottom: -20px;"> -->
+<!-- </div> -->
 
 <!-- - In many states, exposure to flooding is projected to **increase** due to climate change. -->
-- NFIP must operate in a world where **today’s risk is not tomorrow’s risk**.
+<!-- - NFIP must operate in a world where **today’s risk is not tomorrow’s risk**. -->
 
 
 
@@ -548,33 +604,152 @@ When potential impacts are **large, irreversible, and deeply uncertain**, econom
 
 
 
-## NFIP Design Problems (1): Pricing and Mapping
+## Why Are NFIP Losses Rising?
 
-- **Underpriced premiums**
-  - Historically **too low** relative to expected payouts.
-  - NFIP debt reached about **$22.5 billion** (2025).
-- **Outdated flood maps**
-  - Many maps do not fully reflect **current or future** climate risk.
-  - Some properties face **much higher** true risk than their maps suggest.
+<div style="display:block; margin:-10px;"></div>
 
 
+:::: {.columns}
 
-## NFIP Design Problems (2): Incentives
+::: {.column width="5%"}
+:::
 
-- **Limited rewards for mitigation**
-  - Discounts exist but are often small or not well understood.
-- **Repeated losses**
-  - Some properties flood again and again, with NFIP paying each time.
-  - Example: One home flooded **40 times**, receiving **$428,379** in payments.
-- **Grandfathering**
-  - Older policies may keep **lower rates** even as risk rises.
-  - Weakens the “price signal” that should encourage safer locations and designs.
+::: {.column width="22.5%"}
+
+<div style="text-align: center; width: 100%; margin: auto;">
+  <img src="https://bcdanl.github.io/lec_figs/ipcc-risk-propeller-minimal.jpg"
+       style="width: 100%; margin-bottom: -20px;">
+  <p style="font-weight: bold; font-size:1.25rem;">Source: IPCC (2022)</p>
+</div>
+
+
+:::
+
+::: {.column width="67.5%"}
+
+
+<div style="text-align:center;">
+Losses grow when any of these increase:
+</div>
+$$
+\boxed{
+\begin{aligned}
+\color{purple}{\textbf{(Losses)}}
+&\;\propto\;
+\;\;\color{#1f77b4}{\textbf{(Climate Hazard)}} \\
+&\qquad\times\;
+\color{#17becf}{\textbf{(Exposure)}} \\
+&\qquad\times\;
+\color{#E69F00}{\textbf{(Vulnerability)}}
+\end{aligned}
+}
+$$
+:::
+
+
+::: {.column width="5%"}
+:::
+
+::::
+
+
+- **Climate Hazard:** stronger storms, heavier rainfall, sea-level rise
+- **Exposure:** more development and repeated rebuilding in flood-prone areas
+- **Vulnerability:** weak mitigation against floods, rising construction and repair costs, legacy underpricing
+
+<div style="display:block; margin:-35px;"></div>
+
+
+<div class="fragment" style="font-size:2rem; text-align:center; margin-top:1.5rem;">
+  <blockquote>
+    It is a **joint climate–economic–policy problem**, not just a storm problem.
+  </blockquote>
+</div>
+
+
+
+<!-- ## Key Design Problems in the NFIP -->
+
+<!-- - **Underpriced premiums** -->
+<!--   - Many properties still pay **below true risk**. -->
+<!-- - **Outdated or lagging flood maps** -->
+<!--   - Risk often understated. -->
+<!-- - **Repeated-loss properties** -->
+<!--   - Same homes flood again and again. -->
+
+<!-- - **Grandfathering** -->
+<!--   - Weakens price signals as risk rises. -->
+
+<!-- These problems distort **behavioral incentives**. -->
+
+
+
+
+<!-- ## Why Have NFIP Claims Payments Risen So Rapidly? -->
+
+<!-- It is **not just because storms are stronger**. Multiple forces are working together: -->
+
+<!-- ### 1. Stronger and Wetter Storms (Climate Change) -->
+<!-- - Warmer oceans ⇒ more intense hurricanes. -->
+<!-- - Heavier rainfall ⇒ more inland flooding. -->
+<!-- - Sea level rise ⇒ higher baseline flood risk. -->
+<!-- - This raises **damage per event**. -->
+
+<!-- ### 2. More Development in High-Risk Areas -->
+<!-- - Rapid growth along: -->
+<!--   - Coasts   -->
+<!--   - Rivers   -->
+<!--   - Low-lying urban areas -->
+<!-- - More homes and infrastructure in flood zones ⇒ -->
+<!--   - **More insured assets exposed to damage.** -->
+
+<!-- ### 3. Rising Construction and Repair Costs -->
+<!-- - Labor shortages -->
+<!-- - Higher material prices -->
+<!-- - Stricter building codes -->
+<!-- - Each flood now causes **more expensive claims per home**. -->
+
+<!-- ### 4. Rebuilding in the Same Locations -->
+<!-- - Many homes are rebuilt **where they flooded before**. -->
+<!-- - Buyouts and relocation remain limited. -->
+<!-- - This leads to **repeated-loss properties dominating total payouts**. -->
+
+<!-- ### 5. Legacy Underpricing and Grandfathering -->
+<!-- - Many long-standing policies still pay: -->
+<!--   - **Below true actuarial risk** -->
+<!-- - This: -->
+<!--   - Encouraged development in risky zones, -->
+<!--   - Reduced incentives to relocate, -->
+<!--   - And weakened NFIP’s financial balance for decades. -->
+
+
+<!-- ## NFIP Design Problems (1): Pricing and Mapping -->
+
+<!-- - **Underpriced premiums** -->
+<!--   - Historically **too low** relative to expected payouts. -->
+<!--   - NFIP debt reached about **$22.5 billion** (2025). -->
+<!-- - **Outdated flood maps** -->
+<!--   - Many maps do not fully reflect **current or future** climate risk. -->
+<!--   - Some properties face **much higher** true risk than their maps suggest. -->
+
+
+
+<!-- ## NFIP Design Problems (2): Incentives -->
+
+<!-- - **Limited rewards for mitigation** -->
+<!--   - Discounts exist but are often small or not well understood. -->
+<!-- - **Repeated losses** -->
+<!--   - Some properties flood again and again, with NFIP paying each time. -->
+<!--   - Example: One home flooded **40 times**, receiving **$428,379** in payments. -->
+<!-- - **Grandfathering** -->
+<!--   - Older policies may keep **lower rates** even as risk rises. -->
+<!--   - Weakens the “price signal” that should encourage safer locations and designs. -->
 
 
 
 ## From NFIP Problems to Economic Incentives
 
-**Key question:**  
+<!-- **Key question:**   -->
 
 <div style="font-size:1.75rem; text-align:center; margin-top:1.5rem;">
   <blockquote>
@@ -588,138 +763,319 @@ When potential impacts are **large, irreversible, and deeply uncertain**, econom
   - Make **rebuilding in the same risky spot** more likely.
 - This brings us to the central concept: **moral hazard**.
 
+:::: {.fragment}
+::: {.callout-note style="font-size: 2rem;"}
+### Moral Hazard
 
+<div style="font-size: 1.75rem;">
+**Moral hazard** occurs when having insurance causes people to **change their behavior**, taking **more risk** because they do **not bear the full cost** of bad outcomes.
+</div>
+:::
+::::
 
-## Moral Hazard: Basic Idea
-
-- **Definition:**  
-  Moral hazard occurs when having insurance causes people to **change their behavior**, taking **more risk** because they do **not bear the full cost** of bad outcomes.
-- **Example: Car insurance**
-  - With full coverage, a driver might:
-    - Drive a bit faster.
-    - Be less careful about where they park.
-  - They still suffer some hassle—but **most of the financial loss** is covered.
-
-
-
-## Moral Hazard in the NFIP
-
-- NFIP offers flood insurance, often at **subsidized or below-market rates**.
-- For some owners, this can change behavior:
-  - More likely to **rebuild in the same flood-prone area**.
-  - Less incentive to invest in **elevation, floodproofing, or relocation**.
-- Result:
-  - **Higher exposure** of people and property to future floods.
-  - **Repeated claims** and rising costs for NFIP and taxpayers.
+- Example: One home flooded **40 times**, receiving **$428,379** in payments.
 
 
 
-## How Underpriced Insurance Changes Incentives
+## How FEMA Is Addressing Moral Hazard in NFIP
+<div style="display:block; margin:-15px;"></div>
 
-::: fragment
-**Without insurance:**
+**FEMA has already implemented several key reforms:**
 
-- Risky location ⇒ **High expected damage cost** borne by homeowner.
-- Strong incentive to **avoid** or **mitigate** risk.
+<div style="display:block; margin:-10px;"></div>
 
-
+:::: {.columns}
+::: {.column width="50%"}
+- **Risk-based pricing ([Risk Rating 2.0](https://www.fema.gov/sites/default/files/documents/fema_rr-2.0_04-2025.pdf))** – Premiums now reflect:
+  - Distance to water  
+  - Flood frequency  
+  - Elevation  
+- **Mitigation incentives** – Premium discounts for:
+  - Elevation  
+  - Floodproofing  
+  - Compliance with updated building standards  
+    
 :::
 
-::: fragment
 
-**With underpriced insurance:**
+::: {.column width="50%"}
+- **Repeated-loss controls**
+  - Coverage limits and mitigation requirements after multiple claims.
+- **Community Rating System (CRS)**
+  - Better floodplain management 
+    (zoning, building codes, drainage, 
+    <span class="levee-tooltip">
+      _levees_
+      <span class="levee-popup">
+        <img src="https://bcdanl.github.io/lec_figs/flood-levee.jpg" alt="Levee example" style="max-width:180px;">
+      </span>
+    </span>, and other protective measures)
+    ⇒ lower premiums for all residents.
+  - Over 1,500 participating communities.
 
-- Risky location ⇒ Many costs shifted to **NFIP/taxpayers**.
-- Homeowner’s out-of-pocket cost is **smaller**, so:
-  - Risky locations may look “cheap” to them.
-  - Safer locations or mitigation efforts may look **less attractive**.
+<!-- *These tools are designed to strengthen the link between **risk, price, and behavior**.* -->
 
 :::
+::::
 
-## Addressing Moral Hazard in NFIP (Property Level)
+## Why Incentives Are Still Weakened
+<div style="display:block; margin:-15px;"></div>
 
-1. **Premium Adjustments**
-   - Move toward **risk-based premiums** so that riskier properties pay more.
-2. **Mitigation Incentives**
-   - Offer **premium discounts** for:
-     - Elevating buildings  
-     - Floodproofing  
-     - Moving mechanical systems above flood level
-3. **Restrictions on Rebuilding**
-   - Limit coverage or require mitigation for properties with **repeated claims**.
+**Despite reforms, pricing still does not fully reflect true flood risk due to:**
 
+- **Political pressures**
+  - Resistance to sharp premium increases in high-risk districts.
+  - Rate caps and delayed adjustments weaken price signals.
+- **Affordability concerns**
+  - Fully risk-based premiums can be difficult for low- and middle-income households.
+  - Subsidies and caps soften the link between risk and price.
+- **Legacy underpricing & grandfathering**
+  - Many older properties still pay premiums based on outdated, lower-risk conditions.
+  - Similar-risk homes can face very different insurance prices.
 
-
-## Addressing Moral Hazard in NFIP (Community Level)
-
-4. **Community Rating System (CRS)**
-   - NFIP scores communities based on their **flood risk management** efforts.
-   - Better scores ⇒ **premium discounts** for all policyholders in that community.
-   - Gives local governments incentives to:
-     - Improve zoning and building codes.
-     - Invest in drainage, levees, and other protective measures.
+<!-- **Bottom line:** -->
+<!-- FEMA’s reforms move incentives in the right direction, but **pricing still does not fully reflect true flood risk for all properties**, limiting the program’s ability to fully control moral hazard. -->
 
 
-## Policy Implications
+<!-- ## Addressing Moral Hazard in NFIP (Property Level) -->
 
-- **Design challenge:**
-  - Provide **financial protection** and support rebuilding.
-  - Avoid encouraging **risky behavior** (moral hazard).
-  - Overcome **behavioral biases** that lead to underinsurance.
-- **Policy tools:**
-  - Risk-based premiums with targeted subsidies for low-income households.
-  - Stronger **building codes**, zoning, and buyout programs in severe-risk areas.
-  - Better **risk communication** and **default options** (e.g., automatic coverage with opt-out).
+<!-- 1. **Premium Adjustments** -->
+<!--    - Move toward **risk-based premiums** so that riskier properties pay more. -->
+<!-- 2. **Mitigation Incentives** -->
+<!--    - Offer **premium discounts** for: -->
+<!--      - Elevating buildings   -->
+<!--      - Floodproofing   -->
+<!--      - Moving mechanical systems above flood level -->
+<!-- 3. **Restrictions on Rebuilding** -->
+<!--    - Limit coverage or require mitigation for properties with **repeated claims**. -->
 
 
 
+<!-- ## Addressing Moral Hazard in NFIP (Community Level) -->
 
-<!-- ## Recent NFIP Reforms -->
-
-<!-- - **Biggert–Waters Act (2012)** -->
-<!--   - Attempted to move NFIP toward **financial soundness** and risk-based premiums. -->
-<!-- - **Homeowner Flood Insurance Affordability Act (2014)** -->
-<!--   - Slowed some premium increases for **affordability** reasons. -->
-<!-- - **Risk Rating 2.0 (2021)** -->
-<!--   - New pricing system that aims to reflect **each property’s unique risk** more accurately. -->
-<!-- - **Disaster Recovery Reform Act (2018)** -->
-<!--   - Increased funding for **pre-disaster mitigation**. -->
-
-
+<!-- 4. **Community Rating System (CRS)** -->
+<!--    - NFIP scores communities based on their **flood risk management** efforts. -->
+<!--    - Better scores ⇒ **premium discounts** for all policyholders in that community. -->
+<!--    - Gives local governments incentives to: -->
+<!--      - Improve zoning and building codes. -->
+<!--      - Invest in drainage, levees, and other protective measures. -->
 
 ## A Puzzle: Moral Hazard vs. Underinsurance
 
-- Moral hazard suggests **too much risk-taking** because people are insured.
+- Moral hazard predicts **too much risk-taking** when people are insured.
 - But in reality:
-  - Only about **49%** of residents in high-risk flood zones purchase insurance.
-- Behavioral biases help explain **underinsurance**:
-  - **Myopia:** focus on the premium today, not potential loss.
-  - **Amnesia:** forget past disasters.
-  - **Optimism:** “It won’t happen to me.”
-  - **Inertia, simplification, herding**.
+  - Only about **49%** of residents in high-risk flood zones purchase flood insurance.
+
+- This low take-up is explained by several factors:
+  - **Affordability** of coverage
+  - **Limited understanding** of insurance
+  - **Misperceptions of federal disaster aid**
+  - **Incomplete or unclear risk information**
+
+- In addition, **systematic behavioral biases** strongly shape how homeowners perceive and respond to flood risk.
 
 
+## Underinsurance: Flood Risk Perceptions (Behavioral Biases)
 
-## Underinsurance: Behavioral Biases and Flood Preparedness
+- **Myopia (Present Bias):**  
+  Tendency to focus on immediate costs and heavily discount future benefits.  
+  - Up-front premium feels large; future flood loss feels distant.
+  
+- **Optimism:**  
+  Tendency to underestimate the likelihood of future losses.  
+  - Homeowners believe flooding is unlikely to happen to them.
 
-- **Myopia:** up-front premium feels large; future loss feels distant.
-- **Amnesia:** if a big flood hasn’t happened recently, risk feels low.
-- **Optimism:** underestimate probability and damage.
-- **Inertia:** delay buying or renewing insurance.
-- **Simplification:** ignore complex flood maps and probabilities.
-- **Herding:** “None of my neighbors have insurance, so I don’t need it.”
-
-
-
-<!-- ## Policy Implications -->
-
-<!-- - **Design challenge:** -->
-<!--   - Provide **financial protection** and support rebuilding. -->
-<!--   - Avoid encouraging **risky behavior** (moral hazard). -->
-<!--   - Overcome **behavioral biases** that lead to underinsurance. -->
-<!-- - **Policy tools:** -->
-<!--   - Risk-based premiums with targeted subsidies for low-income households. -->
-<!--   - Stronger **building codes**, zoning, and buyout programs in severe-risk areas. -->
-<!--   - Better **risk communication** and **default options** (e.g., automatic coverage with opt-out). -->
+- **Inertia:**  
+  Tendency to stick with the status quo under uncertainty.  
+  - Delay buying or renewing flood insurance.
 
 
+## Underinsurance: Flood Risk Perceptions (Behavioral Biases)
+
+- **Amnesia:**  
+  Tendency to quickly forget past disasters.  
+  - If no recent flood has occurred, perceived risk declines.
+
+- **Simplification:**  
+  Tendency to ignore complex or detailed risk information.  
+  - Overlook flood maps, probabilities, and damage estimates.
+
+- **Herding:**  
+  Tendency to base decisions on others’ behavior.  
+  - “None of my neighbors have insurance, so I don’t need it.”
+
+
+<!-- ## Addressing Underinsurance in NFIP using Choice Architecture -->
+
+<!-- - Insurance policies can be designed to **work with human biases** using **choice architecture**: -->
+<!--   - **Default enrollment or automatic renewal** -->
+<!--     - Households are covered unless they actively opt out. -->
+<!--   - **Salient framing of risk** -->
+<!--     - Present losses in **dollar terms** (e.g., “expected annual flood loss”) instead of abstract probabilities. -->
+<!--   - **Simplified risk communication** -->
+<!--     - Use clear maps, labels, and categories rather than complex technical flood zones. -->
+<!--   - **Timely prompts** -->
+<!--     - Reminders at moments when people are most attentive (home purchase, mortgage renewal, post-disaster rebuilding). -->
+
+  
+
+
+<!-- ## Is Rising NFIP Loss Mainly a “Storm Problem”? -->
+
+<!-- **Short answer:** No — it is a **combined climate–economic–policy problem.** -->
+
+<!-- - Stronger storms ⇒ higher **per-event damage** -->
+<!-- - More development ⇒ higher **exposure** -->
+<!-- - Underpricing + rebuilding ⇒ higher **long-run vulnerability** -->
+<!-- - Behavioral biases + affordability limits ⇒ **persistent underinsurance** -->
+
+<!-- So rising NFIP losses reflect: -->
+
+<!-- > **More intense hazards × more exposed assets × distorted incentives × slow adaptation** -->
+
+
+<!-- ## Revisiting the Puzzle: Moral Hazard vs. Underinsurance -->
+
+<!-- - **Among the insured:** -->
+<!--   - Subsidized coverage can contribute to: -->
+<!--     - Rebuilding in risky areas -->
+<!--     - Underinvestment in mitigation -->
+<!--   - → **Moral hazard** -->
+<!-- - **Among the uninsured:** -->
+<!--   - Many high-risk households still remain uninsured due to: -->
+<!--     - Myopia -->
+<!--     - Optimism -->
+<!--     - Inertia -->
+<!--     - Affordability constraints -->
+<!--   - → **Underinsurance** -->
+
+<!-- **Both coexist at the same time**: -->
+<!-- - Risk-taking behavior by some, -->
+<!-- - Risk avoidance through non-purchase by others. -->
+
+## How FEMA Is Addressing Underinsurance in NFIP?
+<div style="display:block; margin:-18px;"></div>
+
+**FEMA has implemented several key *choice-architecture tools* and behavioral policy features:**
+
+<div style="display:block; margin:-8px;"></div>
+
+:::: {.columns}
+::: {.column width="50%"}
+
+::: fragment
+
+<div style="display:block; margin:-25px;"></div>
+
+**Automatic insurance through mortgages**  
+
+- Flood insurance is **mandatory by default** for many federally backed mortgages in high-risk zones.
+- This already functions as a **default enrollment mechanism** for some households.
+
+:::
+:::
+
+::: {.column width="50%"}
+- **Risk communication improvements** – FEMA provides:
+  - [Flood maps](https://msc.fema.gov/nfhl)  
+  - Property-level flood risk estimates
+- **Premium _signaling_ under Risk Rating 2.0** strengthens the **salience of risk through price**.
+- **Post-disaster outreach:** Increased insurance marketing and rebuilding guidance after major floods.
+
+:::
+::::
+
+## Why Does Underinsurance Persist in the NFIP?
+<div style="display:block; margin:-10px;"></div>
+
+- **No universal default enrollment**
+  - Households outside mortgage requirements are not **actively opt in**.
+- **Weak default framing**
+  - Flood insurance is treated as an **optional add-on**, not a standard form of protection.
+
+- **Limited behavioral nudges**
+  - **Lack of simple tools** that express risk in dollar terms or provide reminders at key disaster-related housing decisions
+
+- **Complex information environment**
+  - Flood maps and insurance rules are **technically accurate but cognitively demanding**.
+
+<div style="display:block; margin:-30px;"></div>
+
+<div class="fragment" style="font-size:1.75rem; text-align:center; margin-top:1.5rem;">
+  <blockquote>
+    FEMA relies mainly on **voluntary purchase** and **information disclosure**, which are often insufficient when **myopia, optimism, and inertia** exist.
+  </blockquote>
+</div>
+
+
+<!-- - FEMA primarily depends on **voluntary purchase** and **information disclosure**, but behavioral biases such as **myopia, optimism, and inertia** often limit their effectiveness. -->
+
+<!-- - FEMA mostly relies on **voluntary purchase** and **information disclosure**, but these tools alone are often not enough when people exhibit **myopia, optimism, and inertia**. -->
+
+
+<!-- **Result:**   -->
+<!-- Underinsurance **persists even in clearly mapped high-risk zones**. -->
+
+<!-- ## Why Does Underinsurance Persist in the NFIP? -->
+
+<!-- - **No universal automatic enrollment** -->
+<!--   - Households outside mortgage requirements must still **actively opt in**. -->
+<!-- - **Weak default framing** -->
+<!--   - Insurance is still presented as an **optional add-on**, not a standard protection. -->
+<!-- - **Limited behavioral nudges** -->
+<!--   - Few standardized: -->
+<!--     - Personalized loss projections   -->
+<!--     - Dollar-based risk dashboards   -->
+<!--     - Behavioral reminders tied to life events -->
+<!-- - **Complex information environment** -->
+<!--   - Flood maps and rules remain **technically accurate but cognitively demanding**. -->
+
+
+<!-- ## Why This Matters for Underinsurance -->
+
+<!-- - FEMA relies heavily on: -->
+<!--   - **Information disclosure** -->
+<!--   - **Voluntary purchase** -->
+<!-- - But behavioral economics shows that: -->
+<!--   - Information alone is often **not sufficient** when: -->
+<!--     - Myopia   -->
+<!--     - Optimism   -->
+<!--     - Inertia   -->
+<!--     are strong. -->
+
+<!-- As a result: -->
+<!-- - Underinsurance **persists**, even in clearly mapped high-risk zones. -->
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const style = document.createElement("style");
+  style.textContent = `
+.levee-tooltip {
+  position: relative;
+  cursor: help;
+  text-decoration: underline dotted;
+  display: inline-block;
+}
+
+/* Popup appears to the RIGHT of "levees" instead of below */
+.levee-tooltip .levee-popup {
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  top: -0.5em;           /* roughly aligned with the word vertically */
+  left: 110%;            /* just to the right of the word */
+  background: #ffffff;
+  border: 1px solid #ccc;
+  padding: 4px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.levee-tooltip:hover .levee-popup {
+  display: block;
+}
+  `;
+  document.head.appendChild(style);
+});
+</script>

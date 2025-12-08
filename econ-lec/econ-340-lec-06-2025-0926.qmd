@@ -1,6 +1,6 @@
 ---
 title: Lecture 6
-subtitle: Common Property, Open Access, and Property Rights
+subtitle: Common Property and Open Access Regimes
 format:
   clean-revealjs:
     self-contained: false

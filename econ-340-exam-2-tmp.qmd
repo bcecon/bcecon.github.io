@@ -1,0 +1,934 @@
+---
+title: "ECON 340 - Midterm Exam II"
+subtitle: "SUNY Geneseo, Fall 2025"
+date: 2025-11-21
+execute:
+  echo: false
+  eval: true
+  message: false
+  warning: false
+  fig-width: 8
+  fig-height: 8
+
+toc: true
+toc-depth: 6
+---
+```{r}
+#| include: false
+
+library(tidyverse)
+library(skimr)
+library(lubridate)
+library(stargazer)
+library(broom)
+library(hrbrthemes)
+library(ggthemes)
+library(grid)
+# theme_set(theme_ipsum())
+
+# knitr::opts_chunk$set(fig.width=6, fig.height=6)  
+
+theme_set(theme_minimal(base_family = "Helvetica") +
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x = element_text(size = rel(1.25), hjust = 1 ),
+                axis.title.y = element_text(size = rel(1.25), 
+                                            angle = 0,
+                                            margin = margin(0,10,0,0)))
+          )
+
+
+x <- seq(0, 40, 10)
+y <- seq(0, 100, 10)
+
+make_df <- function(theta = 0){
+  Q <- seq(0, 35, 5)
+  MB  <- 70 - 2*Q
+  MC  <- 10 + Q
+  EMC <- (1 - theta)*(20 + Q)
+  SMC <- MC + EMC
+  data.frame(Q, MB, MC, EMC, SMC, theta = theta)
+}
+
+df0 <- make_df(theta = 0.0)  # no export
+df5 <- make_df(theta = 1)  # 10% export (illustrative)
+
+
+p <- ggplot(data = data.frame(x = x,
+                         y = x)) +
+  geom_point(aes(x=x,y=y), size = 0, color = 'white') +
+  geom_vline(xintercept = 10, color = 'grey80') +
+  geom_vline(xintercept = 20, color = 'grey80') +
+  geom_vline(xintercept = 30, color = 'grey80') +
+  geom_vline(xintercept = 40, color = 'grey80') +
+  geom_hline(yintercept = 20, color = 'grey80') +
+  geom_hline(yintercept = 10, color = 'grey80') +
+  geom_hline(yintercept = 20, color = 'grey80') +
+  geom_hline(yintercept = 30, color = 'grey80') +
+  geom_hline(yintercept = 40, color = 'grey80') +
+  geom_hline(yintercept = 50, color = 'grey80') +
+  geom_hline(yintercept = 60, color = 'grey80') +
+  geom_hline(yintercept = 70, color = 'grey80') +
+  geom_hline(yintercept = 80, color = 'grey80') +
+  geom_hline(yintercept = 90, color = 'grey80') +
+  geom_hline(yintercept = 100, color = 'grey80') +
+  geom_hline(yintercept = 0) +
+  geom_vline(xintercept = 0) +
+  geom_line(data = df0, aes(Q, MB), linetype = "solid") +
+  geom_line(data = df0, aes(Q, MC), linetype = "solid") +
+  geom_line(data = df0, aes(Q, EMC), linetype = "solid") +
+  geom_line(data = df0, aes(Q, SMC), linetype = "solid") +
+  geom_rect(aes(xmin = 10-2.5, xmax = 15-2.5, ymin = 60, ymax = 65),
+          color = "grey20", fill = "white", linetype = "dashed", alpha = 0) +
+  annotate("segment",
+         x = 10, y = 60,        # arrow starts here
+         xend = 10, yend = 50.5, # arrow points here
+         color = "black",
+         arrow = arrow(length = unit(0.25, "cm"), type = "closed"),
+         size = 0.8) +
+  
+  geom_rect(aes(xmin = 20 - 2.5, xmax = 20 + 2.5, ymin = 17.5, ymax = 22.5),
+          color = "grey20", fill = "white", linetype = "dashed", alpha = 0) +
+  annotate("segment",
+         x = 20, y = 22.5,        # arrow starts here
+         xend = 20, yend = 29.5, # arrow points here
+         color = "black",
+         arrow = arrow(length = unit(0.25, "cm"), type = "closed"),
+         size = 0.8) +
+  
+  geom_rect(aes(xmin = 50/3 -2.5, xmax = 50/3 + 2.5, ymin = 45, ymax = 50),
+          color = "grey20", fill = "white", linetype = "dashed", alpha = 0) +
+  annotate("segment",
+         x = 50/3, y = 45,        # arrow starts here
+         xend = 50/3, yend = 20 + 50/3 + 0.5, # arrow points here
+         color = "black",
+         arrow = arrow(length = unit(0.25, "cm"), type = "closed"),
+         size = 0.8) +
+  scale_x_continuous(breaks = x,
+                     labels = x) +
+  scale_y_continuous(breaks = y,
+                     labels = y) +
+  labs(x = 'Q', y= 'P')
+
+
+# Coordinates from algebra
+Q_M  <- 20  # Market equilibrium quantity
+P_M  <- 30  # Market equilibrium price
+Q_S  <- 10  # Social optimum quantity
+P_S  <- 50  # Social optimum price
+
+# Add to existing ggplot object p
+p_equil <- p +
+  # Market equilibrium point EM
+  geom_point(aes(x = Q_M, y = P_M), color = "black", size = .75) +
+  annotate("text", x = Q_M - .5, y = P_M - 10, 
+           label = expression(E[M]), hjust = 0, size = 5) +
+  
+  # Social optimum point E*
+  geom_point(aes(x = Q_S, y = P_S), color = "black", size = .75) +
+  annotate("text", x = Q_S - .5, y = P_S + 12.5,
+           label = expression(E^"*"), hjust = 0, size = 5) +
+  scale_x_continuous(breaks = x,
+                     labels = c(expression(0), expression(Q^"*" == 10), expression(Q[M] == 20), expression(30), expression(40))
+                     ) +
+  scale_y_continuous(breaks = y,
+                     labels = c(expression(0), expression(10), expression(20), expression(P[M] == 30), expression(40), expression(P^"*" == 50), expression(60), expression(70), expression(80), expression(90), expression(100))
+) 
+
+```
+
+
+
+# Section 1. Multiple Choice
+
+
+
+## Question 1
+According to the "Bounded Rationality" framework, why might a consumer stick with an inefficient heating system despite the availability of a cost-saving upgrade? 
+
+a. They are influenced by "Green Leases" which prohibit upgrades.
+b. They possess perfect information but are acting out of altruism. 
+c. They are exhibiting status quo bias and loss aversion, weighing the upfront loss of money more heavily than future gains. 
+d. They are strictly rational agents who have calculated that the upgrade has a negative Net Present Value.
+
+
+::: {.callout-tip collapse="true"}
+### Show answer
+**Answer:** c
+
+A consumer with bounded rationality may overweight the **immediate cost** of the upgrade (loss aversion) and prefer to **stick with the current system** (status quo bias), even if the upgrade would save money over time. They are not acting like perfectly rational NPV maximizers.
+
+:::
+
+<br>
+
+## Question 2
+In the "Now vs. Soon" experiment, an individual chooses $5 today over $8 in one month, but chooses $8 in 13 months over $5 in 12 months. This reversal in preference demonstrates: 
+
+a. Time Inconsistency (Present Bias) 
+b. Bounded Rationality
+c. Asymmetric Information
+d. The Endowment Effect
+
+::: {.callout-tip collapse="true"}
+### Show answer
+**Answer:** a
+
+This pattern shows **present bias**: when “today” is involved, the person strongly prefers immediate rewards, but when both options are in the future, they are more patient. That means preferences **change over time**, which is called **time inconsistency**.
+
+:::
+
+<br>
+
+## Question 3
+Consider two policies with the same undiscounted net benefits:
+
+-	Policy A: large benefits in the near term, small benefits later
+-	Policy B: small benefits in the near term, large benefits far in the future
+
+If the discount rate is increased, which statement is most accurate?
+
+a. Policy A becomes relatively more attractive than Policy B
+b. Policy B becomes relatively more attractive than Policy A
+c. Both policies are unaffected by the discount rate
+d. Both policies become equally unattractive
+
+::: {.callout-tip collapse="true"}
+### Show answer
+**Answer:** a
+
+A higher discount rate **shrinks the present value of distant future benefits** more than near-term benefits. Since Policy B’s gains are farther in the future, it is penalized more by a higher discount rate, so **Policy A becomes relatively more attractive**.
+
+:::
+
+
+<br>
+
+## Question 4
+When marginal abatement costs of pollution emissions are uncertain and the marginal damage from emissions changes little with small changes in emissions, _________________________ are generally preferred as the primary policy tool for pollution regulation.
+
+a. Price instruments (e.g., an emissions tax)
+b. Quantity instruments (e.g., an emissions cap)
+c. Either price or quantity instruments, since they perform identically
+d. No regulation is necessary in this case
+
+::: {.callout-tip collapse="true"}
+### Show answer
+**Answer:** a
+
+If marginal damages are relatively **flat** (don’t change much with emissions) but **abatement costs are uncertain**, setting a **price** (a tax) is typically more efficient. The tax lets emissions adjust to unexpected costs without creating big welfare losses.
+
+:::
+
+<br>
+
+
+## Question 5
+Which of the following best describes the political economy advantage of Cap-and-Trade over Carbon Taxes? 
+
+a. Cap-and-Trade systems are administratively simpler to implement. 
+b. Cap-and-Trade guarantees a stable price for firms, aiding investment planning. 
+c. Cap-and-Trade automatically adjusts to technological changes by increasing reduction levels.
+d. Cap-and-Trade avoids the label "tax" and allows for free permit allocation to secure industry buy-in. 
+
+
+::: {.callout-tip collapse="true"}
+### Show answer
+**Answer:** d
+
+Cap-and-Trade can be framed as a **“market for permits”** rather than a “tax,” which can be politically easier to pass. In addition, permits can be **freely allocated** (grandfathered) to firms to build political support, even though the system still puts a price on emissions.
+
+:::
+
+
+<br><br>
+
+
+# Section 2. Filling-in-the-Blanks
+
+
+
+## Question 6
+Two key mechanisms under bounded rationality that lead to underinvestment in efficiency are _________________________ (overweighting losses relative to gains) and _________________________ (preference for the current situation).
+
+
+
+::: {.callout-tip collapse="true"}
+### Show answer
+**Answer:** loss aversion; status quo bias  
+
+People tend to **overweight upfront losses** (loss aversion) and prefer to **stick with what they already have** (status quo bias), even when an efficiency upgrade would pay off over time.
+
+:::
+
+
+<br>
+
+## Question 7
+_________________________ is achieved when the allocation of resources over time maximizes the present value of net benefits to society. This concept helps decide how much to consume today versus how much to invest for the future.
+
+
+::: {.callout-tip collapse="true"}
+### Show answer
+**Answer:** Dynamic efficiency  
+
+Dynamic efficiency means choosing a time path of consumption and investment that **maximizes the present value of net benefits**, balancing the welfare of current and future generations.
+
+:::
+
+
+
+<br>
+
+## Question 8
+In a Cap-and-Trade system, firms will trade permits until the Marginal Abatement Cost (MC) of every firm is equal to the _________________________ If a firm's MC is lower than this price, it will choose to _________________________ pollution and _________________________ permits.
+
+
+::: {.callout-tip collapse="true"}
+### Show answer
+**Answer:** permit price; abate more; sell  
+
+Firms trade until each firm’s **marginal abatement cost equals the permit price**. If a firm can reduce emissions cheaply (MC < permit price), it will **abate more** pollution and **sell** its excess permits.
+
+:::
+
+
+
+<br>
+
+
+## Question 9
+The _________________________ provides the overall framework for global climate action, and the annual _________________________ meetings — such as the ongoing one being held in Belém, Brazil — serve as the main forum where international climate decisions are negotiated and reviewed.
+
+
+
+::: {.callout-tip collapse="true"}
+### Show answer
+**Answer:** United Nations Framework Convention on Climate Change (UNFCCC); Conference of the Parties (COP)  
+
+The **UNFCCC** sets the overarching legal framework for international climate policy, and the annual **COP** meetings are where countries negotiate, review, and update climate commitments.
+
+:::
+
+
+<br>
+
+
+
+## Question 10
+Two fundamental tensions in global climate policy arising from cross-country differences in climate ambition and policy design are _________________________ concerns and _________________________ concerns.
+
+
+
+::: {.callout-tip collapse="true"}
+### Show answer
+**Answer:** competitiveness; carbon leakage  
+
+Countries worry that stricter climate policies may hurt **international competitiveness**, and that emissions-intensive production may shift to countries with weaker policies, creating **carbon leakage**.
+
+:::
+
+
+
+<br><br>
+
+# Section 3. Short Answers
+
+## Question 11 — Bounded Willpower, Split Incentives, and Energy Efficiency
+
+### Part A  
+Explain the concept of **bounded willpower** using the idea of **discount rates**. In your answer, contrast **present-biased (time-inconsistent) discounting** with the standard model of **time-consistent rational discounting**.
+
+*Write approximately 3–5 sentences.*  
+
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+Under the standard model of **time-consistent rational discounting**, individuals apply a constant discount rate over time, so their preferences between today and the future remain stable. **Bounded willpower**, however, is captured by **present-biased (time-inconsistent) discounting**, where people apply a much higher discount rate to the immediate future than to later periods. As a result, today’s self strongly favors immediate gratification, even when future benefits are large. This leads to preference reversals over time and self-control problems.
+
+:::
+
+
+<br>
+
+### Part B  
+Explain why **bounded willpower** can lead to **underinvestment in energy-efficient technologies**, even when these investments have positive net present value under standard discounting.
+
+*Write approximately 3–5 sentences.*  
+
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+With bounded willpower, consumers **overweight upfront costs** and heavily discount future energy savings. Even if an energy-efficient appliance has a **positive net present value** under rational discounting, the immediate purchase price feels too costly relative to delayed benefits. Present bias causes people to procrastinate or avoid the investment altogether. As a result, privately optimal decisions deviate from what would be chosen under fully rational, time-consistent preferences.
+
+:::
+
+
+<br>
+
+### Part C  
+Explain why the **principal–agent problem (split incentives)** can lead to **underinvestment in energy-efficient technologies**.
+
+*Write approximately 3–5 sentences.*  
+
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+Split incentives arise when the party that pays for an energy-efficient investment is **not the same party that receives the energy savings**. For example, landlords may pay for building upgrades, while tenants receive the lower utility bills. Because the landlord cannot fully capture the benefits of the investment, they have little incentive to invest in energy efficiency. This misalignment of costs and benefits leads to **systematic underinvestment**, even when efficiency improvements are socially and privately cost-effective overall.
+
+:::
+
+
+
+
+<br>
+
+
+## Question 12 — Social Cost of Carbon and Discounting
+
+### Part A
+Provide a precise **economic definition** of the social cost of carbon (SCC).  
+
+*Write approximately 1–2 sentences.*  
+
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+The **Social Cost of Carbon (SCC)** is the present value of the **marginal global damage** caused by emitting **one additional ton of CO₂** in a given year. It measures the monetized climate-related damages to agriculture, health, property, ecosystems, and overall economic welfare.
+
+:::
+
+
+
+<br>
+
+### Part B
+- Write down a standard **Ramsey-style formula** for the **social discount rate (SDR)** used in climate economics.
+- Clearly explain what each component of the formula represents.
+
+*Write approximately 3–5 sentences.*  
+
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+A standard Ramsey formula for the social discount rate is  
+
+$ r = \rho + \eta g $
+
+where $r$ is the **social discount rate**, $\rho$ is the **pure rate of time preference**, $\eta$ is the **elasticity of marginal utility of consumption**, and $g$ is the **growth rate of per-capita consumption**. The first term reflects impatience or society’s preference for present consumption over future consumption. The second term captures how rising future income reduces the marginal value of additional consumption. Together, these components determine how future climate damages are discounted today.
+
+:::
+
+
+<br>
+
+
+### Part C
+- Briefly explain why the choice of **SDR** is both an **economic** and an **ethical** decision in **SCC** calculations.  
+  - In your answer, discuss how expectations about **economic growth** and **market returns** matter, and how concerns about **intergenerational equity** and the **welfare of future generations** enter the decision.
+
+*Write approximately 5–7 sentences.*  
+
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+The choice of the social discount rate is an **economic decision** because it depends on expected **future economic growth**, the productivity of capital, and observed **market returns** on investment. Higher expected growth and higher returns imply a higher SDR and thus a lower present value of future climate damages. At the same time, the SDR is also an **ethical decision** because it reflects how much society values the welfare of **future generations** relative to the present. A high pure rate of time preference places less weight on people in the future simply because they are born later. A low SDR gives greater weight to long-run climate damages and emphasizes **intergenerational equity**. As a result, different ethical views about fairness across generations can lead to very different SCC estimates.
+
+:::
+
+
+<br><br>
+
+
+# Section 5. Analytical Modeling
+
+## Question 13. Optimal Harvesting in a Fishery
+Consider a fishery where the total benefit (**TB**), total cost (**TC**), marginal benefit (**MB**), marginal cost (**MC**), average benefit (**AB**), and average cost (**AC**) of fishing effort $E$ are:
+
+| Total Benefit & Cost              | Marginal Benefit & Cost      | Average Benefit & Cost      |
+|-----------------------------------|------------------------------|-----------------------------|
+| $TB(E) = 1.5E - E^{2}$            | $MB(E) = 1.5 - 2E$           | $AB(E) = 1.5 - E$           |
+| $TC(E) = 0.5E$                    | $MC(E) = 0.5$                | $AC(E) = 0.5$               |
+
+
+where $E$ is the level of fishing effort (e.g., number of boat-days).
+
+```{r}
+#| eval: true
+#| echo: false
+#| fig-align: center
+#| fig-width: 7
+#| fig-height: 5.75
+
+library(tidyverse)
+
+# --- Parameters ---
+E_max <- 1.5
+E <- seq(0, E_max, length.out = 501)
+
+# --- Define functions ---
+TB <- 1.5 * E - E^2
+TC <- 0.5 * E
+MB <- 1.5 - 2 * E
+MC_AC <- rep(0.5, length(E))
+AB <- 1.5 - E
+
+# --- Compute key benchmarks ---
+E_star <- 0.5     # Efficient effort (MB = MC)
+E_OA   <- 1.0     # Open-access effort (AB = AC)
+
+# --- Data frames ---
+df_level <- tibble(E, TB, TC) |>
+  pivot_longer(cols = c(TB, TC), names_to = "curve", values_to = "value")
+
+df_level_TB <- df_level |> 
+  filter(curve == "TB")
+
+df_marg <- tibble(E, AB, MB, MC_AC) |>
+  pivot_longer(cols = c(AB, MB, MC_AC),
+               names_to = "curve", values_to = "value") |>
+  mutate(curve = recode(curve, "MC_AC" = "AC & MC"))
+
+# --- Plot A: Total Benefit and Total Cost ---
+p1 <- ggplot(df_level_TB, aes(x = E, y = value)) +
+    geom_vline(xintercept = .25, color = 'grey80') +
+    geom_vline(xintercept = .5, color = 'grey80') +
+    geom_vline(xintercept = .75, color = 'grey80') +
+    geom_vline(xintercept = 1, color = 'grey80') +
+    geom_vline(xintercept = 1.25, color = 'grey80') +
+    geom_vline(xintercept = 1.5, color = 'grey80') +
+    geom_hline(yintercept = .1, color = 'grey80') +
+    geom_hline(yintercept = .2, color = 'grey80') +
+    geom_hline(yintercept = .3, color = 'grey80') +
+    geom_hline(yintercept = .4, color = 'grey80') +
+    geom_hline(yintercept = .5, color = 'grey80') +
+    geom_hline(yintercept = .6, color = 'grey80') +
+    geom_hline(yintercept = .7, color = 'grey80') +
+  geom_line(size = 1) +
+  labs(title = "Total Benefit and Total Cost",
+       x = "Effort (E)", y = "Total\n Value\n ($)", linetype = "Curve", color = "Curve")
+
+# --- Plot B: Average/Marginal Curves ---
+p2 <- ggplot(df_marg, aes(x = E, y = value, linetype = curve, color = curve)) +
+    geom_vline(xintercept = .25, color = 'grey80') +
+    geom_vline(xintercept = .5, color = 'grey80') +
+    geom_vline(xintercept = .75, color = 'grey80') +
+    geom_vline(xintercept = 1, color = 'grey80') +
+    geom_vline(xintercept = 1.25, color = 'grey80') +
+    geom_vline(xintercept = 1.5, color = 'grey80') +
+    geom_hline(yintercept = .25, color = 'grey80') +
+    geom_hline(yintercept = .5, color = 'grey80') +
+    geom_hline(yintercept = .75, color = 'grey80') +
+    geom_hline(yintercept = 1, color = 'grey80') +
+    geom_hline(yintercept = 1.25, color = 'grey80') +
+    geom_hline(yintercept = 1.5, color = 'grey80') +
+  
+  # geom_line(size = 1) +
+  
+  labs(title = "Average/Marginal Benefit and Cost",
+       x = "Effort (E)", y = "Dollars\n per unit of\n effort", linetype = "Curve", color = "Curve") +
+  scale_color_tableau() +
+  scale_x_continuous(limits = c(0, 1.5)) +
+  scale_y_continuous(limits = c(0, 1.5))
+
+# --- Display side by side ---
+library(patchwork)
+p1 / p2
+```
+
+### Part A — Graphs
+- In the **top panel**, sketch the **Total Cost (TC)** curve as a function of fishing effort $E$.
+
+- In the **bottom panel**, sketch the **Marginal Benefit (MB)**, **Marginal Cost (MC)**, **Average Benefit (AB)**, and **Average Cost (AC)** curves as functions of fishing effort $E$.
+  - Clearly label each curve as **MB**, **MC**, **AB**, or **AC**.
+
+
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+```{r}
+#| eval: true
+#| echo: false
+#| fig-align: center
+#| fig-width: 7
+#| fig-height: 5.75
+
+library(tidyverse)
+
+# --- Parameters ---
+E_max <- 1.5
+E <- seq(0, E_max, length.out = 501)
+
+# --- Define functions ---
+TB <- 1.5 * E - E^2
+TC <- 0.5 * E
+MB <- 1.5 - 2 * E
+MC_AC <- rep(0.5, length(E))
+AB <- 1.5 - E
+
+# --- Compute key benchmarks ---
+E_star <- 0.5     # Efficient effort (MB = MC)
+E_OA   <- 1.0     # Open-access effort (AB = AC)
+
+# --- Data frames ---
+df_level <- tibble(E, TB, TC) |>
+  pivot_longer(cols = c(TB, TC), names_to = "curve", values_to = "value")
+
+df_marg <- tibble(E, AB, MB, MC_AC) |>
+  pivot_longer(cols = c(AB, MB, MC_AC),
+               names_to = "curve", values_to = "value") |>
+  mutate(curve = recode(curve, "MC_AC" = "AC & MC"))
+
+# --- Plot A: Total Benefit and Total Cost ---
+p1 <- ggplot(df_level, aes(x = E, y = value, linetype = curve, color = curve)) +
+    geom_vline(xintercept = .25, color = 'grey80') +
+    geom_vline(xintercept = .5,  color = 'grey80') +
+    geom_vline(xintercept = .75, color = 'grey80') +
+    geom_vline(xintercept = 1,   color = 'grey80') +
+    geom_vline(xintercept = 1.25,color = 'grey80') +
+    geom_vline(xintercept = 1.5, color = 'grey80') +
+    geom_hline(yintercept = .1,  color = 'grey80') +
+    geom_hline(yintercept = .2,  color = 'grey80') +
+    geom_hline(yintercept = .3,  color = 'grey80') +
+    geom_hline(yintercept = .4,  color = 'grey80') +
+    geom_hline(yintercept = .5,  color = 'grey80') +
+    geom_hline(yintercept = .6,  color = 'grey80') +
+    geom_hline(yintercept = .7,  color = 'grey80') +
+    geom_line(size = 1) +
+    scale_color_colorblind() +
+    labs(title = "Total Benefit and Total Cost",
+         x = "Effort (E)",
+         y = "Total\n Value\n ($)",
+         linetype = "Curve",
+         color = "Curve")
+
+# --- Plot B: Average/Marginal Curves ---
+p2 <- ggplot(df_marg, aes(x = E, y = value, linetype = curve, color = curve)) +
+    geom_vline(xintercept = .25, color = 'grey80') +
+    geom_vline(xintercept = .5,  color = 'grey80') +
+    geom_vline(xintercept = .75, color = 'grey80') +
+    geom_vline(xintercept = 1,   color = 'grey80') +
+    geom_vline(xintercept = 1.25,color = 'grey80') +
+    geom_vline(xintercept = 1.5, color = 'grey80') +
+    geom_hline(yintercept = .25, color = 'grey80') +
+    geom_hline(yintercept = .5,  color = 'grey80') +
+    geom_hline(yintercept = .75, color = 'grey80') +
+    geom_hline(yintercept = 1,   color = 'grey80') +
+    geom_hline(yintercept = 1.25,color = 'grey80') +
+    geom_hline(yintercept = 1.5, color = 'grey80') +
+    geom_line(size = 1) +
+    labs(title = "Average/Marginal Benefit and Cost",
+         x = "Effort (E)",
+         y = "Dollars\n per unit of\n effort",
+         linetype = "Curve",
+         color = "Curve") +
+    scale_color_tableau() +
+    scale_x_continuous(limits = c(0, 1.5)) +
+    scale_y_continuous(limits = c(0, 1.5))
+
+# --- Display side by side ---
+library(patchwork)
+p1 / p2
+```
+
+:::
+
+
+<br>
+
+### Part B — Efficient Effort Level
+
+- Find the **efficient effort level** $E^*$.  
+- State the condition that characterizes the **efficient effort** $E^*$.
+
+
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+Efficiency requires that **marginal benefit equals marginal cost**:
+
+$MB(E) = MC(E)$  
+$1.5 - 2E = 0.5$
+
+Solving,  
+$2E = 1.0 \Rightarrow E^* = 0.5$.
+
+Thus, the efficient effort level is $E^* = 0.5$, and it is characterized by the condition  
+$MB(E^*) = MC(E^*)$.
+
+:::
+
+
+<br>
+
+
+### Part C — Open-Access Effort Level
+
+- Find the **open-access effort level** $E_{OA}$.  
+- State the condition that characterizes the **open-access effort** $E_{OA}$ in an open-access fishery.
+
+
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+In an open-access fishery, effort expands until **profit is driven to zero**, which occurs when **average benefit equals average cost**:
+
+$AB(E) = AC(E)$  
+$1.5 - E = 0.5$
+
+Solving,  
+$E_{OA} = 1.0$.
+
+Thus, the open-access effort level is $E_{OA} = 1.0$, and it is characterized by the condition  
+$AB(E_{OA}) = AC(E_{OA})$.
+:::
+
+
+
+<br>
+
+
+### Part D — Multiple Choice Questions
+
+The Environmental Defense Fund (EDF) partnered with fishermen to replace the old open-access “race-to-fish” system with a **catch-share system**, where fishermen each receive a guaranteed, tradable share of the total permitted catch (a form of *harvest right*). This reform changed the economic environment of the fishery without altering biological costs or technological constraints. 
+
+#### (a) Policy Design
+A **catch-share system**—which assigns secure, tradable harvest rights to fishermen—primarily represents which type of economic solution?
+
+a. An **incentive-based** policy that changes the strategic behavior of fishermen  
+b. An **information intervention** that provides better data to fishermen  
+c. An **institutional reform** that changes property rights and governance rules  
+d. A **social norm campaign** that encourages fishermen to voluntarily reduce effort  
+
+
+::: {.callout-tip collapse="true"}
+##### Show answer
+**Answer:** c  
+
+Catch shares create **secure, tradable property rights** over the fish stock, changing the institutional structure and governance of the fishery. This is primarily an **institutional reform in property rights**, although it also has strong incentive effects.
+
+:::
+
+
+
+#### (b) How Catch Shares Move the Fishery from $E_{OA}$ to $E^*$
+
+Which of the following best explains **how EDF’s catch-share system removes the race-to-fish and shifts effort from the open-access level $E_{OA}$ toward the efficient level $E^*$?**
+
+a. Catch shares increase the marginal cost (MC) of effort, causing the open-access equilibrium to fall until it equals the efficient level $E^*$.  
+b. Catch shares mandate equal fishing days for all vessels, which prevents overfishing by restricting the timing and intensity of harvest effort.  
+c. Catch shares require fishermen to share information and coordinate harvest schedules, which reduces asymmetric information and leads effort to converge to $E^*$.  
+d. Catch shares provide each fisher with secure harvest rights, so their catch no longer depends on how hard they race against others, eliminating the open-access condition and reducing effort toward $E^*$.  
+e. Catch shares impose a fixed per-unit fee on harvest effort, discouraging excessive fishing and lowering effort until it reaches the efficient level $E^*$.
+
+
+
+::: {.callout-tip collapse="true"}
+##### Show answer
+**Answer:** d  
+
+Under catch shares, each fisher holds a **secure quota share** of the total allowable catch, so their payoff does not depend on beating others in a race-to-fish. This breaks the open-access condition where $AB = AC$ and profit is driven to zero, and instead allows total effort to fall toward the **efficient level** where $MB = MC$.
+
+:::
+
+
+
+
+
+
+<br><br>
+
+## Question 14 — EU–India Climate Policy Game and CBAM
+
+India exports significant amounts of steel to the EU, which is India’s largest steel export market. Climate policy choices in the EU and India therefore interact not only through global emissions and climate damages, but also through trade in carbon-intensive sectors such as steel.
+
+We model this as a **climate policy game**:
+
+- **Row player**: EU  
+- **Column player**: India  
+- Each chooses:
+  - **Cooperate**: strong climate policy (e.g., high carbon price, tight regulations) 
+  - **Defect**: weak climate policy (low or no carbon price, lax standards)  
+- Payoffs are **net national welfare**, measured in **stylized payoff points** (higher is better).
+
+
+
+### Part A — Baseline Game
+
+The **baseline** payoff matrix is:
+
+|               |               | **India**          |               |
+|---------------|---------------|--------------------|---------------|
+|               |               | **Cooperate**      | **Defect**.   |
+| **EU**        | **Cooperate** |     (5, 4)         |    (3, 5)     |
+|               | **Defect**    |     (6, 1)         |    (2, 2)     |
+
+
+#### A-1. EU’s Best Responses
+- When India chooses **Cooperate**, the EU’s best response is _________________________.  
+- When India chooses **Defect**, the EU’s best response is _________________________.
+
+
+
+::: {.callout-tip collapse="true"}
+##### Show answer
+- When India chooses **Cooperate**, the EU’s best response is **Defect** (since $6 > 5$).  
+- When India chooses **Defect**, the EU’s best response is **Cooperate** (since $3 > 2$).  
+
+So the EU’s best-response strategy is: **Defect if India Cooperates; Cooperate if India Defects**.
+
+:::
+
+
+<br>
+
+#### A-2. India’s Best Responses
+- When the EU chooses **Cooperate**, India’s best response is _________________________.  
+- When the EU chooses **Defect**, India’s best response is _________________________.
+
+
+::: {.callout-tip collapse="true"}
+##### Show answer
+- When the EU chooses **Cooperate**, India’s best response is **Defect** (since $5 > 4$).  
+- When the EU chooses **Defect**, India’s best response is **Defect** (since $2 > 1$).  
+
+So India’s best-response strategy is to **always Defect**, regardless of what the EU does.
+
+:::
+
+<br>
+
+#### A-3. Nash Equilibrium (NE)
+Find a **Nash equilibrium** of the baseline game.  
+
+
+::: {.callout-tip collapse="true"}
+##### Show answer
+A Nash equilibrium is a strategy pair where **each player is playing a best response** to the other.  
+
+- From A-1 and A-2:  
+  - If India **Defects**, the EU’s best response is **Cooperate**.  
+  - If the EU **Cooperates**, India’s best response is **Defect**.  
+
+So the strategy profile **(EU: Cooperate, India: Defect)** is a Nash equilibrium, with payoffs $(3, 5)$.
+
+:::
+
+<br>
+
+#### A-4. Economic Interpretation of the Baseline NE
+- Intuitively explain why **India** might choose its strategy in the baseline NE.
+
+*Write approximately 2–3 sentences.*  
+
+
+::: {.callout-tip collapse="true"}
+##### Show answer
+In the baseline game, India gains more in the short run by **Defecting**, regardless of what the EU does. Defection lets India enjoy **weaker climate constraints**, which can lower production costs and support export competitiveness, while still partly benefiting from the EU’s stronger climate action. This is a classic **free-riding incentive** in international climate policy.
+
+:::
+
+
+
+
+<br><br>
+
+### Part B — Introducing a CBAM
+
+Now suppose the **EU introduces a Carbon Border Adjustment Mechanism (CBAM)** that imposes tariffs on **carbon-intensive imports** from countries that **Defect** on climate policy.
+
+- If **India Defects** while the EU Cooperates, Indian exporters face a **carbon tariff** at the EU border.
+
+
+The **new payoff matrix with CBAM** is:
+
+|               |               | **India**          |               |
+|---------------|---------------|--------------------|---------------|
+|               |               | **Cooperate**      | **Defect**.   |
+| **EU**        | **Cooperate** |     (5, 5)         |    (2, 1)     |
+|               | **Defect**    |     (2, 3)         |    (1, 1)     |
+
+
+   
+#### B-1. EU’s Best Responses under CBAM
+- When India chooses **Cooperate** under the new payoffs, the EU’s best response is _________________________.  
+- When India chooses **Defect** under the new payoffs, the EU’s best response is _________________________.
+
+
+::: {.callout-tip collapse="true"}
+##### Show answer
+- When India chooses **Cooperate**, the EU gets $5$ from **Cooperate** and $2$ from **Defect**, so the best response is **Cooperate**.  
+- When India chooses **Defect**, the EU gets $2$ from **Cooperate** and $1$ from **Defect**, so the best response is again **Cooperate**.  
+
+Thus, under CBAM, the EU’s best-response strategy is to **always Cooperate**.
+
+:::
+
+<br>
+
+#### B-2. India’s Best Responses under CBAM
+- When the EU chooses **Cooperate** under the new payoffs, India’s best response is _________________________.  
+- When the EU chooses **Defect** under the new payoffs, India’s best response is _________________________.
+
+
+::: {.callout-tip collapse="true"}
+##### Show answer
+- When the EU chooses **Cooperate**, India gets $5$ from **Cooperate** and $1$ from **Defect**, so the best response is **Cooperate**.  
+- When the EU chooses **Defect**, India gets $3$ from **Cooperate** and $1$ from **Defect**, so the best response is again **Cooperate**.  
+
+Thus, under CBAM, India’s best-response strategy is to **always Cooperate**.
+
+:::
+
+<br>
+
+#### B-3. Nash Equilibrium (NE) under CBAM
+Find a **Nash equilibrium** of the game with CBAM.  
+
+
+::: {.callout-tip collapse="true"}
+##### Show answer
+A Nash equilibrium requires that each player is playing a best response to the other. From B-1 and B-2, both the EU and India **best respond by Cooperating** regardless of the other’s action.  
+
+Therefore, the strategy profile **(EU: Cooperate, India: Cooperate)** is a Nash equilibrium under CBAM, with payoffs $(5, 5)$.
+
+:::
+
+
+<br>
+
+
+#### B-4. Economic interpretation of the baseline NE
+- Intuitively explain why **India** might choose its strategy in the NE under CBAM.
+
+*Write approximately 1–2 sentences.*  
+
+
+::: {.callout-tip collapse="true"}
+##### Show answer
+With CBAM, if India **Defects** while the EU Cooperates, it faces **carbon tariffs** that sharply reduce its payoff from exports to the EU. By **Cooperating**, India both avoids these tariffs and gains a higher net payoff, so it is now in India’s self-interest to adopt stronger climate policies.
+
+:::
+
+
+<br>
+
+
+#### B-5. Policy Trade-Offs
+- Discuss **one potential benefit** and **one potential risk or downside** of using CBAM to induce cooperation in a climate policy game like EU–India.  
+
+*Write approximately 5–7 sentences.*  
+
+
+::: {.callout-tip collapse="true"}
+##### Show answer
+A key **benefit** of CBAM is that it helps **align trade incentives with climate goals**: countries that maintain weak climate policies face tariffs, which reduces their competitive advantage from lax regulation and encourages them to **raise their climate ambition**. This can also reduce **carbon leakage**, since production is less likely to shift to countries with weaker policies. However, a major **downside** is the risk of **trade tensions and political backlash**. Countries like India may view CBAM as a form of **green protectionism**, potentially leading to disputes in the WTO or retaliatory tariffs. CBAM may also impose disproportionate costs on **developing countries** with limited fiscal space and technological capacity to decarbonize quickly. If not carefully designed with climate finance, exemptions, or support mechanisms, CBAM could worsen perceptions of unfairness in the global climate regime, even as it strengthens economic incentives to cooperate.
+
+:::
+
+
+   

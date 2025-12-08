@@ -3,6 +3,7 @@ title: Weeks 15-16
 subtitle: "Climate Change Adaptation"
 date: 2025-12-01
 from: markdown+emoji
+toc-depth: 8
 ---
 
 On December 3 and 8, we will introduce the role of **adaptation** in responding to **climate change**. We will also discuss **decision-making under uncertainty**, focusing on examples such as insurance markets for climate-related risks, including floods.
@@ -132,6 +133,44 @@ Countries such as the United States, Germany, Austria, and South Africa have lar
 
 Even when flood insurance is available, take-up can remain low. In the United States, only about half of properties in mapped high-risk flood zones carry NFIP policies, despite purchase requirements tied to mortgages. Behavioral research suggests that households often underprepare for low-probability, high-consequence events due to a combination of myopia, forgetting past disasters after a few quiet years, optimistic beliefs that “it will not happen to me,” inertia and procrastination in the face of complex decisions, simplification when confronted with difficult risk information, and social herding in which people copy neighbors’ behavior rather than respond to objective risk measures.
 
+---
+
+##### Myopia (Present Bias)
+
+People often focus too much on immediate costs and too little on long-term benefits when making decisions about protection against risk. Even when a preventive investment would reduce future losses and insurance premiums over many years, the upfront expense can feel too large to justify. As a result, people may reject investments that would be financially worthwhile if evaluated over a longer time horizon.
+
+---
+
+##### Amnesia
+
+Concern about disaster risk tends to rise sharply right after a flood or storm but fades quickly as time passes without another event. Many people buy insurance only after experiencing damage and later cancel it if nothing happens for a few years. Over time, the memory of risk weakens, and insurance comes to be seen as unnecessary rather than as ongoing protection. This pattern leads to short insurance coverage periods despite long-term exposure to risk.
+
+---
+
+##### Optimism
+
+People commonly believe that disasters are more likely to happen to others than to themselves. If they have never experienced a flood, they often assume it will not affect them in the future. Instead of imagining serious damage, they focus on hopeful scenarios in which nothing bad occurs. This tendency causes individuals to underestimate both the likelihood and the consequences of extreme events.
+
+---
+
+##### Inertia
+
+Many people stick with their current situation simply because change requires effort. Evaluating new options, gathering information, and making decisions can feel costly in terms of time and attention. As a result, people delay or avoid taking protective actions, even when doing so would reduce future losses. Staying with the status quo often feels safer than taking uncertain action.
+
+---
+
+### Simplification
+
+When deciding whether to buy insurance, individuals often focus only on how unlikely a disaster seems and ignore how costly it would be if it did occur. If the chance of a flood feels very small, people may treat the risk as unimportant and give little weight to potential losses. This oversimplified reasoning leads many to undervalue insurance even when the financial consequences of disaster would be severe.
+
+---
+
+##### Herding
+
+People frequently look to others for guidance when making decisions under uncertainty. If friends and neighbors choose not to buy insurance, individuals are much less likely to purchase it themselves. In this way, social norms and group behavior can strongly influence insurance decisions, sometimes more than objective assessments of risk.
+
+
+
 Some NFIP rules unintentionally reinforce these behavioral tendencies. Requirements that payouts be used to rebuild at the same site discourage relocation, while subsidized premiums and outdated maps understate risk. As a result, the program may encourage continued occupation of highly exposed areas rather than facilitating safer settlement patterns. An alternative approach would place greater emphasis on non-structural, preventive measures such as land-use zoning that limits development in floodplains, stronger building codes that reduce vulnerability, and infrastructure standards that incorporate future climate risk. Studies by institutions such as the National Institute of Building Sciences find that investments in hazard mitigation, whether through stricter codes, federal grants, or infrastructure upgrades, yield high benefit–cost ratios by reducing deaths, injuries, property damage, business interruption, service outages, and mental health harms. These findings support a shift from reactive rebuilding and subsidized insurance toward more proactive risk reduction.
 
 #### Sea Level Rise and the Role for Adaptation
@@ -200,6 +239,512 @@ These codes also reduce uninsured losses, which are significant because many hou
 - Chapter 14 of **Environmental and Natural Resource Economics**, by Tom Tietenberg and Lynne Lewis
   - ISBN-10: 1032101180  
   - ISBN-13: 978-1032101187  
+
+- Kousky et. al., [**Flood Risk and the U.S. Housing Market**](https://www.tandfonline.com/doi/full/10.1080/10527001.2020.1836915#abstract), Journal of Housing Research (2020)
+
+<br>
+
+# Class Survey Results
+
+## Concern: Air quality
+
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="display:block; margin:-40px;"></div>![](https://bcdanl.github.io/lec_figs/concern_01_cluster.png "How concerned are you about air quality?")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: 57.14% concerned
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+- **Before**: Our class is 31% more concerned than professional economists.
+- **After**: Our class is 46% more concerned than professional economists.
+
+## Concern: Environmental justice
+
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="display:block; margin:-40px;"></div>![](https://bcdanl.github.io/lec_figs/concern_02_cluster.png "How concerned are you about environmental justice?")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *53.97%* concerned
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+- **Before**: Our class is 21% more concerned than professional economists.
+- **After**: Our class is 27% more concerned than professional economists.
+
+
+## Concern: Renewable energy
+
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="display:block; margin:-40px;"></div>![](https://bcdanl.github.io/lec_figs/concern_03_cluster.png "How concerned are you about renewable energy?")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *45.21%* concerned
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+- **Before**: Our class is 35% more concerned than professional economists.
+- **After**: Our class is 46% more concerned than professional economists.
+
+
+## Concern: Mining impacts
+
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="display:block; margin:-40px;"></div>![](https://bcdanl.github.io/lec_figs/concern_04_cluster.png "How concerned are you about mining impacts?")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *40.64%* concerned
+:::
+
+::::
+<div style="display:block; margin:-75px;"></div>
+- **Before**: Our class is 16% more concerned than professional economists.
+- **After**: Our class is 17% more concerned than professional economists.
+
+## Concern: Solid waste
+
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="display:block; margin:-40px;"></div>![](https://bcdanl.github.io/lec_figs/concern_05_cluster.png "How concerned are you about solid waste?")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *39.46%* unconcerned
+:::
+
+::::
+<div style="display:block; margin:-75px;"></div>
+- **Before**: Our class is 37% more concerned than professional economists.
+- **After**: Our class is 23% more concerned than professional economists.
+
+
+## Concern: Hazardous waste
+
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="display:block; margin:-40px;"></div>![](https://bcdanl.github.io/lec_figs/concern_06_cluster.png "How concerned are you about hazardous waste?")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *38.38%* neutral
+:::
+
+::::
+<div style="display:block; margin:-75px;"></div>
+- **Before**: Our class is 50% more concerned than professional economists.
+- **After**: Our class is 48% more concerned than professional economists.
+
+## Policy Support: Methane limits (natural gas production)
+
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="display:block; margin:-40px;"></div>![](https://bcdanl.github.io/lec_figs/favor_01_cluster.png "Establish strict methane limits in natural gas production")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *75.39%* favor
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+- **Before**: Our class is 7% more supportive than professional economists.
+- **After**: Our class is as supportive as professional economists.
+
+## Policy Support: International agreements
+
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="display:block; margin:-40px;"></div>![](https://bcdanl.github.io/lec_figs/favor_02_cluster.png "International environmental agreements")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *74.35%* favor
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+- **Before**: Our class is 26% more supportive than professional economists.
+- **After**: Our class is 12% more supportive than professional economists.
+
+
+## Policy Support: EV charging stations (federal funding)
+
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="display:block; margin:-40px;"></div>![](https://bcdanl.github.io/lec_figs/favor_03_cluster.png "EV charging stations (federal funding)")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *68.95%* favor
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+- **Before**: Our class is 31% less supportive than professional economists.
+- **After**: Our class is 31% less supportive than professional economists.
+
+
+## Policy Support: Border carbon adjustment (tax imports by GHG)
+
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="display:block; margin:-40px;"></div>![](https://bcdanl.github.io/lec_figs/favor_04_cluster.png "Tax imports based on embedded GHGs (border adjustment)")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *67.72%* favor
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+- **Before**: Our class is 24% less supportive than professional economists.
+- **After**: Our class is 9% more supportive than professional economists.
+
+
+## Policy Support: Higher fuel-efficiency standards
+
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="display:block; margin:-40px;"></div>![](https://bcdanl.github.io/lec_figs/favor_05_cluster.png "Higher fuel-efficiency standards")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *66.84%* favor
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+- **Before**: Our class is 15% more supportive than professional economists.
+- **After**: Our class is 20% more supportive than professional economists.
+
+
+## Policy Support: Business incentives for clean energy
+
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="display:block; margin:-40px;"></div>![](https://bcdanl.github.io/lec_figs/favor_06_cluster.png "Business tax incentives for clean energy")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *63.35%* favor
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+- **Before**: Our class is 18% more supportive than professional economists.
+- **After**: Our class is 18% more supportive than professional economists.
+
+
+## Policy Support: Home clean‑energy tax credits
+
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="display:block; margin:-40px;"></div>![](https://bcdanl.github.io/lec_figs/favor_07_cluster.png "Home clean‑energy tax credits")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *61.26%* favor
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+- **Before**: Our class is 20% more supportive than professional economists.
+- **After**: Our class is 39% more supportive than professional economists.
+
+
+## Policy Support: EV purchase tax credits
+
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="display:block; margin:-40px;"></div>![](https://bcdanl.github.io/lec_figs/favor_08_cluster.png "EV purchase tax credits")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *51.85%* favor
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+- **Before**: Our class is as supportive as professional economists.  
+- **After**: Our class is as supportive as professional economists.
+
+
+## Agree: EJ regulation should be implemented
+
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="display:block; margin:-40px;"></div>![](https://bcdanl.github.io/lec_figs/agree_01_cluster.png "Regulation should address environmental justice")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *81.15%* agree
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+- **Before**: Our class is 6% more supportive than professional economists.
+- **After**: Our class is 9% more supportive than professional economists.
+
+
+
+## Agree: Reduce EPA regulatory power improves efficiency
+
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="display:block; margin:-40px;"></div>![](https://bcdanl.github.io/lec_figs/agree_02_cluster.png "Reducing EPA regulatory power improves efficiency")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *80.63%* disagree
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+- **Before**: Our class is 42% less disagreement than professional economists.
+- **After**: Our class is 24% less disagreement than professional economists.
+
+
+
+## Agree: Communities near hazardous waste sites are aware/accepting
+
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="display:block; margin:-40px;"></div>![](https://bcdanl.github.io/lec_figs/agree_03_cluster.png "Communities near hazardous waste sites are aware/accepting")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *75.39%* disagree
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+- **Before**: Our class is 12% more supportive than professional economists.
+- **After**: Our class is as supportive as professional economists.
+
+
+## Agree: Free market / property rights / tort law are best tools
+
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="display:block; margin:-40px;"></div>![](https://bcdanl.github.io/lec_figs/agree_04_cluster.png "Free market/property rights/tort law are best tools")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *73.44%* disagree
+:::
+
+::::
+
+
+<div style="display:block; margin:-75px;"></div>
+- **Before**: Our class is 49% less disagreement than professional economists.
+- **After**: Our class is 25% less disagreement than professional economists.
+
+
+## Agree: Economic growth always harms the environment
+
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="display:block; margin:-40px;"></div>![](https://bcdanl.github.io/lec_figs/agree_05_cluster.png "Economic growth always harms the environment")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *70.16%* disagree
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+- **Before**: Our class is 5% more disagreement than professional economists.
+- **After**: Our class is 18% more disagreement than professional economists.
+
+
+## Agree: Carbon markets and offsets are efficient for firms
+
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="display:block; margin:-40px;"></div>![](https://bcdanl.github.io/lec_figs/agree_06_cluster.png "Carbon markets/offsets are efficient for firms")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *56.84%* agree
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+- **Before**: Our class is 26% less supportive than professional economists.
+- **After**: Our class is 24% more supportive than professional economists.
+
+
+## Agree: Return carbon revenues via dividends / lower taxes
+
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="display:block; margin:-40px;"></div>![](https://bcdanl.github.io/lec_figs/agree_07_cluster.png "Return carbon revenues via dividends / lower income taxes")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *55.5%* agree
+:::
+
+::::
+
+
+<div style="display:block; margin:-75px;"></div>
+- **Before**: Our class is 32% less supportive than professional economists.
+- **After**: Our class is 15% more supportive than professional economists.
+
+
+## Agree: Use carbon revenues to reduce national debt
+
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="display:block; margin:-40px;"></div>![](https://bcdanl.github.io/lec_figs/agree_08_cluster.png "Use carbon revenues to reduce national debt")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *42.63%* neutral
+:::
+
+::::
+
+
+<div style="display:block; margin:-75px;"></div>
+- **Before**: Our class is 5% less neutral than professional economists.  
+- **After**: Our class is 17% less neutral than professional economists.
+
+## Agree: Emission standards are rigid / insensitive to differences
+
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="display:block; margin:-40px;"></div>![](https://bcdanl.github.io/lec_figs/agree_09_cluster.png "Emissions standards are rigid / insensitive to differences")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *49.74%* agree
+:::
+
+::::
+
+<div style="display:block; margin:-75px;"></div>
+- **Before**: Our class is 13% more supportive than professional economists.
+- **After**: Our class is as supportive as professional economists.
+
+
+## Agree: Max sustainable level of economic growth exists
+
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="display:block; margin:-40px;"></div>![](https://bcdanl.github.io/lec_figs/agree_10_cluster.png "There exists a maximum sustainable level of economic growth")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *44.21%* agree
+:::
+
+::::
+
+
+<div style="display:block; margin:-75px;"></div>
+- **Before**: Our class is 12% more supportive than professional economists.
+- **After**: Our class is 37% more supportive than professional economists.
+
+
+## Agree: Population growth degrades the environment
+
+:::: {.columns}
+
+::: {.column width="75%"}
+<div style="display:block; margin:-40px;"></div>![](https://bcdanl.github.io/lec_figs/agree_11_cluster.png "Population growth inevitably degrades the environment")
+:::
+
+::: {.column width="25%"}
+<br>
+**Economists**: *41.58%* disagree
+:::
+
+::::
+
+
+<div style="display:block; margin:-75px;"></div>
+- **Before**: Our class is 24% less disagreement than professional economists.
+- **After**: Our class is 28% less disagreement than professional economists.
+
+
 
 
 # 💬 Discussion
