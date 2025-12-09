@@ -4,7 +4,7 @@ title-block-banner: false
 open-graph:
   image: /assets/img/posts.png
 date-format: long
-# date-modified: last-modified
+date-modified: last-modified
 # code-tools:
 #   source: repo
 #   caption: none

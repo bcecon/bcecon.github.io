@@ -41,17 +41,19 @@ scale_colour_discrete <- function(...) scale_color_colorblind(...)
 scale_fill_discrete <- function(...) scale_fill_colorblind(...)
 ```
 
+<br>
+
 Climate change is a defining global challenge with direct impacts on individuals, communities, and societies. This project invites you to explore the theme *“Climate Change and the Individual”* through research, analysis, and critical reflection.
 
 Project topics should focus on individual and societal responses such as **climate actions, advocacy, awareness, and outreach**. For further inspiration, consider the [*problems and possibilities*](https://www.getitright.earth/problems-possibilities) identified in the 2025–26 Common Read.
 
-# Team Formation and Scope
-- Each project team will consist of **three students**.  
-- Teams must formulate a clear and compelling **research question**.  
-- Projects may be **theoretical, empirical, or a blend of both**.  
-- For empirical work, proposed datasets must receive prior approval from **Byeong-Hak Choe**.  
+<!-- # Team Formation and Scope -->
+<!-- - Each project team will consist of **three students**.   -->
+<!-- - Teams must formulate a clear and compelling **research question**.   -->
+<!-- - Projects may be **theoretical, empirical, or a blend of both**.   -->
+<!-- - For empirical work, proposed datasets must receive prior approval from **Byeong-Hak Choe**.   -->
 
-> **Note:** Any changes to team membership or research topic require prior approval from **Byeong-Hak Choe**.  
+<!-- > **Note:** Any changes to team membership or research topic require prior approval from **Byeong-Hak Choe**.   -->
 
 
 # Proposal Expectations
@@ -62,24 +64,6 @@ Your team’s proposal should demonstrate critical engagement with a climate cha
 3. **Presenting** relevant evidence that highlights the competing interests involved.  
 4. **Formulating** policy recommendations that logically follow from your analysis.  
 
-# Rubric for Team Project
-
-| **Attribute** | **Very Deficient (1)** | **Somewhat Deficient (2)** | **Acceptable (3)** | **Very Good (4)** | **Outstanding (5)** |
-|--------------|-------------------------|-----------------------------|---------------------|--------------------|----------------------|
-| **1. Potential for success** | - Little or no potential for success | - Tenuous potential for success | - Adequate potential for success | - High potential for success | - Excellent potential for success |
-| **2. Quality of research question** | - Unclear or unstated<br>- Entirely derivative<br>- No meaningful contribution expected | - Somewhat unclear<br>- Slight originality<br>- Minor contribution expected | - Clearly stated<br>- Moderately original<br>- Limited but plausible contribution expected | - Very clear<br>- Original and creative<br>- At least one meaningful contribution expected | - Exceptionally clear<br>- Highly original<br>- Multiple important contributions expected |
-| **3. Quality of economic analysis (theoretical and empirical)** | - Very weak or incorrect economic reasoning<br>- Little or no understanding of relevant theory or empirical context<br>- No empirical evidence provided | - Rudimentary reasoning<br>- Shaky understanding of concepts<br>- Empirical evidence is minimal, unclear, or poorly justified | - Adequate reasoning<br>- Solid understanding of core concepts<br>- Provides some empirical evidence that supports the main story | - Strong reasoning<br>- Clear grasp of theory and empirical methods<br>- Provides credible and well-integrated empirical evidence supporting the analysis | - Sophisticated reasoning<br>- Superior mastery of theory and empirical methods<br>- Provides compelling, persuasive empirical evidence that strengthens and validates the analysis |
-| **4. Quality of policy recommendation** | - No policy recommendation<br>- Recommendation unrelated to analysis or unsupported | - Recommendation stated but weakly justified<br>- Limited connection to economic analysis | - Policy recommendation generally appropriate<br>- Connects to analysis with basic justification | - Strong and well-supported recommendation<br>- Clearly grounded in economic analysis and evidence | - Excellent, insightful recommendation<br>- Highly coherent with theoretical and empirical analysis<br>- Demonstrates strong economic intuition and feasibility awareness |
-| **5. Quality of oral presentation** | - Very poorly organized<br>- Weak slides or visuals<br>- Unable to answer key questions | - Somewhat disorganized<br>- Several unclear slides<br>- Difficulty answering questions | - Mostly well organized<br>- Generally clear slides<br>- Adequate responses to most questions | - Well organized<br>- Strong visuals<br>- Professional and confident responses | - Exceptionally organized<br>- Outstanding visuals<br>- Excellent, well-supported responses to all questions |
-| **6. Quality of writing** | - Very poorly structured<br>- Hard to understand<br>- Many spelling/grammar errors | - Somewhat disorganized<br>- Some confusing sections<br>- Numerous errors | - Mostly organized<br>- Mostly clear<br>- Some errors present | - Well organized<br>- Clear and coherent<br>- Very few errors | - Extremely well organized<br>- Very clear and polished<br>- No errors |
-| **7. Other — explain** | | | | | |
-<!-- Projects will be assessed based on:   -->
-
-<!-- 1. **Clarity and originality** of the research question   -->
-<!-- 2. **Effectiveness** of the oral presentation   -->
-<!-- 3. **Depth** of the economic analysis   -->
-<!-- 4. **Quality** of the modeling or empirical analysis   -->
-<!-- 5. **Contribution** to peer evaluation of classmates’ presentations   -->
 
 
 # 📘 Final Research Proposal — Structure & Formatting Guidelines  
@@ -291,3 +275,23 @@ Well-integrated **figures from your presentation are encouraged when they streng
 Teams are strongly encouraged to submit their work to the campus-wide [*Ideas that Matter Student Challenge*](https://www.geneseo.edu/cil/ideas-matter-student-challenge) in Spring 2026. This competition shares the same theme, *Climate Change and the Individual*, providing an opportunity to showcase your research to a broader audience. 
 
 
+# Rubric for Team Project
+
+| **Attribute** | **Very Deficient (1)** | **Somewhat Deficient (2)** | **Acceptable (3)** | **Very Good (4)** | **Outstanding (5)** |
+|--------------|-------------------------|-----------------------------|---------------------|--------------------|----------------------|
+| **1. Potential for success** | - Little or no potential for success | - Tenuous potential for success | - Adequate potential for success | - High potential for success | - Excellent potential for success |
+| **2. Quality of research question** | - Unclear or unstated<br>- Entirely derivative<br>- No meaningful contribution expected | - Somewhat unclear<br>- Slight originality<br>- Minor contribution expected | - Clearly stated<br>- Moderately original<br>- Limited but plausible contribution expected | - Very clear<br>- Original and creative<br>- At least one meaningful contribution expected | - Exceptionally clear<br>- Highly original<br>- Multiple important contributions expected |
+| **3. Quality of economic analysis (theoretical and empirical)** | - Very weak or incorrect economic reasoning<br>- Little or no understanding of relevant theory or empirical context<br>- No empirical evidence provided | - Rudimentary reasoning<br>- Shaky understanding of concepts<br>- Empirical evidence is minimal, unclear, or poorly justified | - Adequate reasoning<br>- Solid understanding of core concepts<br>- Provides some empirical evidence that supports the main story | - Strong reasoning<br>- Clear grasp of theory and empirical methods<br>- Provides credible and well-integrated empirical evidence supporting the analysis | - Sophisticated reasoning<br>- Superior mastery of theory and empirical methods<br>- Provides compelling, persuasive empirical evidence that strengthens and validates the analysis |
+| **4. Quality of policy recommendation** | - No policy recommendation<br>- Recommendation unrelated to analysis or unsupported | - Recommendation stated but weakly justified<br>- Limited connection to economic analysis | - Policy recommendation generally appropriate<br>- Connects to analysis with basic justification | - Strong and well-supported recommendation<br>- Clearly grounded in economic analysis and evidence | - Excellent, insightful recommendation<br>- Highly coherent with theoretical and empirical analysis<br>- Demonstrates strong economic intuition and feasibility awareness |
+| **5. Quality of presentation** | - Very poorly organized<br>- Weak slides or visuals<br>- Unable to answer key questions | - Somewhat disorganized<br>- Several unclear slides<br>- Difficulty answering questions | - Mostly well organized<br>- Generally clear slides<br>- Adequate responses to most questions | - Well organized<br>- Strong visuals<br>- Professional and confident responses | - Exceptionally organized<br>- Outstanding visuals<br>- Excellent, well-supported responses to all questions |
+| **6. Quality of writing** | - Very poorly structured<br>- Hard to understand<br>- Many spelling/grammar errors | - Somewhat disorganized<br>- Some confusing sections<br>- Numerous errors | - Mostly organized<br>- Mostly clear<br>- Some errors present | - Well organized<br>- Clear and coherent<br>- Very few errors | - Extremely well organized<br>- Very clear and polished<br>- No errors |
+| **7. Other — explain** | | | | | |
+<!-- Projects will be assessed based on:   -->
+
+<!-- 1. **Clarity and originality** of the research question   -->
+<!-- 2. **Effectiveness** of the oral presentation   -->
+<!-- 3. **Depth** of the economic analysis   -->
+<!-- 4. **Quality** of the modeling or empirical analysis   -->
+<!-- 5. **Contribution** to peer evaluation of classmates’ presentations   -->
+
+<br>
