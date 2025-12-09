@@ -830,10 +830,10 @@ So the strategy profile **(EU: Cooperate, India: Defect)** is a Nash equilibrium
 
 ::: {.callout-tip collapse="true"}
 ##### Show answer
-In the baseline game, India gains more in the short run by **Defecting**, regardless of what the EU does. Defection lets India enjoy **weaker climate constraints**, which can lower production costs and support export competitiveness, while still partly benefiting from the EU’s stronger climate action. This is a classic **free-riding incentive** in international climate policy.
+In the baseline game, India gains more in the short run by **Defecting**, regardless of what the EU does. By choosing weak climate policy, India avoids the immediate costs of carbon pricing, regulation, and adopting cleaner technologies, which keeps production costs low and supports export competitiveness in energy-intensive sectors such as steel. At the same time, if the EU chooses to Cooperate, India still enjoys part of the **global climate benefits** from the EU’s emissions reductions without bearing the full cost itself. If the EU also Defects, India avoids being placed at a competitive disadvantage relative to its trading partner. Because Defection yields a higher payoff for India under both EU strategies, this creates a **free-riding incentive** and explains why Defection is India’s optimal strategy in the baseline Nash equilibrium.
+
 
 :::
-
 
 
 
