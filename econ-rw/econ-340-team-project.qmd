@@ -45,7 +45,7 @@ Climate change is a defining global challenge with direct impacts on individuals
 
 Project topics should focus on individual and societal responses such as **climate actions, advocacy, awareness, and outreach**. For further inspiration, consider the [*problems and possibilities*](https://www.getitright.earth/problems-possibilities) identified in the 2025–26 Common Read.
 
-## Team Formation and Scope
+# Team Formation and Scope
 - Each project team will consist of **three students**.  
 - Teams must formulate a clear and compelling **research question**.  
 - Projects may be **theoretical, empirical, or a blend of both**.  
@@ -54,7 +54,7 @@ Project topics should focus on individual and societal responses such as **clima
 > **Note:** Any changes to team membership or research topic require prior approval from **Byeong-Hak Choe**.  
 
 
-## Proposal Expectations
+# Proposal Expectations
 Your team’s proposal should demonstrate critical engagement with a climate change issue by:  
 
 1. **Explaining** the central dilemma or challenge facing society.  
@@ -62,7 +62,7 @@ Your team’s proposal should demonstrate critical engagement with a climate cha
 3. **Presenting** relevant evidence that highlights the competing interests involved.  
 4. **Formulating** policy recommendations that logically follow from your analysis.  
 
-## Rubric for Team Project
+# Rubric for Team Project
 
 | **Attribute** | **Very Deficient (1)** | **Somewhat Deficient (2)** | **Acceptable (3)** | **Very Good (4)** | **Outstanding (5)** |
 |--------------|-------------------------|-----------------------------|---------------------|--------------------|----------------------|
@@ -82,8 +82,212 @@ Your team’s proposal should demonstrate critical engagement with a climate cha
 <!-- 5. **Contribution** to peer evaluation of classmates’ presentations   -->
 
 
+# 📘 Final Research Proposal — Structure & Formatting Guidelines  
+*(Total Length: 6–8 pages, excluding References)*
+
+Your **Final Research Proposal** builds directly on your **Research Kick-off Report** and serves as a *complete, well-developed plan* for your research project. This is **not yet the full term paper**, but it must clearly demonstrate:
+
+- A well-defined **economic question**
+- A solid **theoretical foundation**
+- A feasible **methodological plan**
+- Clear **policy or behavioral relevance**
+
+Students are **strongly encouraged to incorporate figures, tables, or diagrams used in their class presentation** when they help clarify concepts, mechanisms, data patterns, or policy implications.
+
+---
+
+## 1. Introduction (1–1.5 pages)
+
+- **Background & Context**
+  - Introduce the real-world issue you are studying.
+  - Explain why it matters in the context of **climate change and the individual**.
+
+- **Statement of the Problem**
+  - Clearly define the economic or behavioral problem.
+  - Identify the key inefficiency, risk, incentive problem, or behavioral bias.
+
+- **Research Question & Objectives**
+  - State your **primary research question** precisely.
+  - List 2–3 specific objectives or testable sub-questions.
+
+*Optional figure suggestion:*  
+A conceptual diagram, infographic, or motivating data figure from your presentation may be placed here to illustrate the real-world problem.
+
+---
+
+## 2. Literature Review (1–1.5 pages)
+
+- Summarize and synthesize:
+  - Core academic studies related to your topic
+  - Relevant policy reports or institutional sources (e.g., IPCC, EPA, FEMA, IEA)
+- Explain:
+  - What is already known
+  - What remains unresolved or under-explored
+- Clearly position **your proposed research contribution** within this literature.
+
+*Optional figure suggestion:*  
+You may include a summary table or conceptual comparison figure used in your presentation to organize prior findings.
+
+---
+
+## 3. Conceptual Framework / Economic Model (1.5–2 pages)
+
+- Present the **economic logic** behind your research question.
+- Identify:
+  - Key **agents** (households, firms, governments, etc.)
+  - Key **variables** (prices, emissions, risk, probability, costs, incentives)
+- Specify the central **economic mechanism**:
+  - Externalities  
+  - Behavioral biases  
+  - Market failures  
+  - Strategic interaction  
+- (Optional) If applicable:
+  - Provide basic **equations**, payoff structures, or diagrams.
+  - Clearly describe **assumptions** and expected theoretical outcomes.
+
+---
+
+## 4. Proposed Data, Methodology, or Empirical Strategy (1–1.5 pages)
+
+- Describe **how you would study** your research question:
+  - Conceptual analysis
+  - Experimental/Survey design
+  - Secondary data analysis
+- Specify:
+  - Unit of analysis
+  - Type of data required
+  - Key variables of interest
+- Explain:
+  - Empirical strategy
+  - How your approach will test or illustrate the model’s predictions.
+
+✅ **Figure expectation:**  
+You may include:
+- Data workflow diagrams  
+- Survey instruments or experimental designs  
+- Sample data visualizations from your presentation
+
+---
+
+## 5. Expected Results & Policy Relevance (1–1.5 pages)
+
+- Describe the **expected economic insights**:
+  - Behavioral responses
+  - Welfare implications
+  - Efficiency consequences
+- Discuss:
+  - Implications for **individual behavior**
+  - Implications for **firms**
+  - Implications for **public policy**
+- Clearly connect your findings to:
+  - Climate adaptation
+  - Risk management
+  - Market design
+  - Regulation or subsidy design
+
+*Optional figure suggestion:*  
+Policy comparison charts, risk maps, or scenario outcome visuals from your presentation may be included here.
+
+---
+
+## 6. Conclusion & Research Roadmap (0.5–1 page)
+
+- Summarize:
+  - Central research question
+  - Theoretical contribution
+  - Empirical or conceptual strategy
+- Provide a brief **roadmap toward the final term paper**:
+  - What remains to be developed?
+  - What data or analysis would come next?
+
+---
+
+## 7. References (No page limit)
+
+- Use a **consistent citation format**.
+- For all **online sources**, include:
+  - Full URL  
+  - **Date and time of access**
+- All sources cited in the text must appear here.
 
 
+---
 
-## Additional Opportunity
-Teams are strongly encouraged to submit their work to the campus-wide [*Ideas that Matter Student Challenge*](https://www.geneseo.edu/cil/ideas-matter-student-challenge) in Spring 2026. This competition shares the same theme, *Climate Change and the Individual*, providing an opportunity to showcase your research to a broader audience.  
+## 📊 Where to Place Figures in the Final Research Proposal
+
+Figures should be placed **only where they directly support the narrative**. In most cases, figures belong in the following sections:
+
+### ✅ Primary Locations (Recommended)
+
+1. **Section 1 — Introduction**
+   - Use figures to **motivate the research question**.
+   - Appropriate examples:
+     - Trend plots showing growth or decline
+     - Maps illustrating exposure or risk
+     - Before–after comparisons
+   - Purpose: Show **why the problem matters**.
+
+2. **Section 4 — Proposed Data & Methodology**
+   - Use figures to **illustrate how the study would be conducted**.
+   - Appropriate examples:
+     - Data workflow diagrams
+     - Survey or experimental design schematics
+     - Sample variable visualizations
+   - Purpose: Show **how the research would be executed**.
+
+---
+
+### ⚠️ Limited or Optional Use
+
+3. **Section 2 — Literature Review**
+   - Only if a figure helps **summarize prior findings** (e.g., a comparison table).
+   - Use sparingly.
+
+4. **Section 3 — Conceptual Framework / Model**
+   - Only if a **simple conceptual diagram** helps explain intuition.
+   - Formal model figures are **not required**.
+
+5. **Section 5 — Expected Results & Policy Relevance**
+   - Only if a **policy comparison chart or scenario visualization** helps interpretation.
+
+---
+
+### ✅ Formatting Rules for All Figures
+
+- Every figure must:
+  - Be **numbered and titled**
+  - Have a **caption**
+  - Be **explicitly discussed in the text**
+- Figures must **support the argument**, not decorate the paper.
+
+---
+
+## ✅ General Formatting Requirements
+
+- **Total length:** 6–8 pages (excluding references)
+- **Font:** 12-point Calibri, Cambria, Georgia, Garamond, or Lucida Sans
+- **Spacing:** Double-spaced
+- **Margins:** 1 inch on all sides
+- **File format:** Word document (.docx) or PDF (.pdf)
+- Use:
+  - Clear section headings
+  - Formal academic tone
+  - Proper citations throughout
+  - **Properly labeled figures and tables with captions**
+  - **All figures must be discussed in the text (no standalone images)**
+
+---
+
+::: callout-note
+💡 This **Final Research Proposal** should read like a *serious academic project in preparation*.  
+You are not required to produce full results yet, but your **question, model, and research plan must be fully developed and economically rigorous**.  
+Well-integrated **figures from your presentation are encouraged when they strengthen clarity and economic intuition**.
+:::
+
+
+<br>
+
+# Additional Opportunity
+Teams are strongly encouraged to submit their work to the campus-wide [*Ideas that Matter Student Challenge*](https://www.geneseo.edu/cil/ideas-matter-student-challenge) in Spring 2026. This competition shares the same theme, *Climate Change and the Individual*, providing an opportunity to showcase your research to a broader audience. 
+
+
