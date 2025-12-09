@@ -92,7 +92,7 @@ Your **Final Research Proposal** builds directly on your **Research Kick-off Rep
 - A feasible **methodological plan**
 - Clear **policy or behavioral relevance**
 
-Students are **strongly encouraged to incorporate figures, tables, or diagrams used in their class presentation** when they help clarify concepts, mechanisms, data patterns, or policy implications.
+You are **strongly encouraged to incorporate figures, tables, or diagrams used in your presentation** when they help clarify concepts, mechanisms, data patterns, or policy implications.
 
 ---
 
@@ -161,8 +161,8 @@ You may include a summary table or conceptual comparison figure used in your pre
   - Empirical strategy
   - How your approach will test or illustrate the model’s predictions.
 
-✅ **Figure expectation:**  
-You may include:
+✅ **Figure expectation:** You may include:
+
 - Data workflow diagrams  
 - Survey instruments or experimental designs  
 - Sample data visualizations from your presentation
@@ -186,7 +186,7 @@ You may include:
   - Regulation or subsidy design
 
 *Optional figure suggestion:*  
-Policy comparison charts, risk maps, or scenario outcome visuals from your presentation may be included here.
+Policy comparison charts, or scenario outcome visuals from your presentation may be included here.
 
 ---
 
