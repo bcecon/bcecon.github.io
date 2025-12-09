@@ -933,7 +933,7 @@ With CBAM, India’s incentives change because climate policy is now directly ti
 ##### Show answer
 A key **benefit** of CBAM is that it helps **align trade incentives with climate goals**: countries that maintain weak climate policies face tariffs, which reduces their competitive advantage from lax regulation and encourages them to **raise their climate ambition**. This can also reduce **carbon leakage**, since production is less likely to shift to countries with weaker policies. 
 
-However, a major **downside** is the risk of **trade tensions and political backlash**. Countries like India may view CBAM as a form of **green protectionism**, potentially leading to disputes in the WTO or retaliatory tariffs. CBAM may also impose disproportionate costs on **developing countries** with limited fiscal space and technological capacity to decarbonize quickly. If not carefully designed with climate finance, exemptions, or support mechanisms, CBAM could worsen perceptions of unfairness in the global climate regime, even as it strengthens economic incentives to cooperate.
+However, a major **downside** is the risk of **trade tensions and political backlash**. Countries like India may view CBAM as a form of **green protectionism**, potentially leading to disputes in the WTO or retaliatory tariffs. CBAM may also impose **disproportionate costs on developing countries** with limited fiscal space and technological capacity to decarbonize quickly. If not carefully designed with climate finance, exemptions, or support mechanisms, CBAM could worsen perceptions of unfairness in the global climate regime, even as it strengthens economic incentives to cooperate.
 
 :::
 
