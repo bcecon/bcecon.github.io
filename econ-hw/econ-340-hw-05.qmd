@@ -55,30 +55,6 @@ df <- data.frame(
 
 
 
-## Homework Instructions
-
-- **No Generative AI**: You are **not** allowed to use generative AI tools for Homework Assignment 5.
-
-- **Deadline**: 
-  - Question 0: **Saturday, December 6, 2025, 11:59 PM**
-    - Copy the survey completion code and paste it to Brightspace.
-  - Questions 1-2: **Tuesday, December 9, 2025 at 5:00 PM**  
-    - Upload a screenshot (e.g., `.png`), PDF, or Word document to Brightspace.
-  
-<br>
-
-
-# Question 0. Survey on Environmental Economics
-
-- Please complete the **anonymous** [Survey on Environmental Economics](../survey-post.html){target="_blank"}.
-
-- After you submit the survey, a **completion code** will appear for 12 seconds on the screen.
-
-- Copy that code and paste it as a **comment** on your Homework 5 - Question 1 submission in Brightspace to receive participation credit.
-
-<br><br>
-
-
 # Question 1. Extreme Climate Risk, Uncertainty, and Policy
 
 ## Background: Extreme Climate Risk
@@ -203,6 +179,21 @@ Explain briefly using the calculations from the Section of **Calculations: Expec
 > \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
 > \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
+
+
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+- Policy X: $E[\text{Total Cost}_X] = \$168$ billion  
+- Policy Y: $E[\text{Total Cost}_Y] = \$253$ billion  
+
+Because **total expected cost is lower under Policy X**, a standard CBA that uses only expected total cost would say **Policy X looks better** (it has the smaller expected overall loss).
+
+:::
+
+<br>
+
 ---
 
 
@@ -215,6 +206,19 @@ Why or why not? Use the numbers from Policy X as an example.
 > \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
 > \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+Yes, it matters a lot.  
+
+For Policy X, the catastrophic outcome contributes \$60 billion of the \$158 billion in expected damages (about 38%). Even though the probability is only 2%, the **loss is so large** that it significantly affects the expected value. This shows how **low-probability, high-loss events** can still be important in EV calculations, even before adding policy costs.
+
+:::
+
+<br>
+
+
 ---
 
 ### Part C. Risk aversion and expected total cost
@@ -224,6 +228,19 @@ Imagine you are a **risk-averse** policymaker who is very worried about irrevers
 > **Answer (2–4 sentences):**  
 > \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
 > \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+Probably not.  
+
+A risk-averse policymaker cares especially about **worst-case scenarios**, not just the average total cost. Even though Policy X has a lower expected total cost, its higher probability and severity of the worst-case outcome might be seen as unacceptable. A risk-averse decision-maker might still favor **Policy Y**, because it **reduces the worst-case damages**, even though its expected total cost is higher.
+
+:::
+
+<br>
+
 
 ---
 
@@ -235,6 +252,18 @@ Give **one reason** why extreme climate risks are closer to **uncertainty** (in 
 > **Answer (1–3 sentences):**
 > \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 <!-- > \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ -->
+
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+In economics, **risk** means we know (or can estimate) the probabilities of different outcomes, while **uncertainty** means we do not. Extreme climate events—like sudden ice-sheet collapse or large methane releases—often have **poorly known or widely debated probabilities**, so they fit better under **uncertainty** than under well-defined risk.
+
+
+:::
+
+<br>
+
 
 ---
 
@@ -251,8 +280,17 @@ In **2–4 sentences**, explain how **extreme climate risks** (tipping points, i
 
 
 
+::: {.callout-tip collapse="true"}
+#### Show answer
 
-<br><br>
+Extreme climate risks involve **irreversible damages** and **very large potential losses** (e.g., major sea-level rise or ecosystem collapse), but we **do not know their probabilities with confidence**. Because the consequences might be catastrophic and cannot easily be reversed, relying only on expected total cost is risky. This justifies using the **precautionary principle** and setting **safe minimum standards** (for emissions, conservation, etc.) to avoid worst-case outcomes, even if we lack precise probability estimates.
+
+:::
+
+<br>
+
+
+
 
 # Question 2. Moral Hazard and the National Flood Insurance Program (NFIP)
 
@@ -297,7 +335,44 @@ There is **no flood insurance** available.
 4. If the homeowner wants to **minimize average annual cost**, which location will they choose?
 
 
+
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+- **Location S (Safe):**
+
+  - No flood risk.  
+  - Average annual cost:
+    $$
+    \text{Cost}_S = 20{,}000
+    $$
+
+- **Location F (Flood-prone):**
+
+  - Housing cost: $18{,}000$  
+  - Each year there is a $10\%$ chance of $100{,}000$ in damage.  
+  - Average (expected) flood damage:
+    $$
+    0.10 \times 100{,}000 = 10{,}000
+    $$
+  - Average annual cost:
+    $$
+    \text{Cost}_F = 18{,}000 + 10{,}000 = 28{,}000
+    $$
+
+**Comparison:**
+
+- Location S: $20{,}000$  
+- Location F: $28{,}000$  
+
+👉 **Cheaper location:** Location S.  
+A cost-minimizing homeowner chooses **Location S (Safe)**.
+
+:::
+
 <br>
+
 
 
 ## Part B. NFIP with subsidized premium
@@ -313,7 +388,45 @@ Now suppose the government offers NFIP flood insurance in Location F:
 3. Which location is now cheaper on average?  
 4. How might this change the homeowner’s location choice compared to Part A?
 
+
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+NFIP offers full flood coverage in Location F for a **subsidized premium** of $2{,}000$ per year.
+
+- **Location S (Safe):**
+
+  - No flood insurance needed.  
+  - Average annual cost:
+    $$
+    \text{Cost}_S = 20{,}000
+    $$
+
+- **Location F (Flood-prone, subsidized insurance):**
+
+  - Housing cost: $18{,}000$  
+  - Flood damage is fully covered by insurance.  
+  - Insurance premium: $2{,}000$  
+  - Average annual cost:
+    $$
+    \text{Cost}_F = 18{,}000 + 2{,}000 = 20{,}000
+    $$
+
+**Comparison with subsidized NFIP:**
+
+- Location S: $20{,}000$  
+- Location F: $20{,}000$  
+
+👉 The homeowner is **indifferent on cost** between S and F. Any small extra benefit of F (e.g., better view, closer to work) might make them choose the **flood-prone** area.
+
+This shows the beginning of **moral hazard**: insurance (especially subsidized) removes the financial penalty of choosing a risky location.
+
+:::
+
 <br>
+
+
 
 ## Part C. NFIP with risk-based (actuarially fair) premium
 
@@ -327,7 +440,57 @@ A **risk-based (actuarially fair)** premium is set equal to the **average annual
 3. Which location is cheaper on average with a risk-based premium?  
 4. How does this compare to your answer in Part B?
 
+
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+1. **Risk-based premium**
+
+Average annual flood damage in Location F:
+$$
+0.10 \times 100{,}000 = 10{,}000
+$$
+
+So the **risk-based (actuarially fair) premium** is:
+$$
+\text{Premium} = 10{,}000
+$$
+
+2. **Average annual costs**
+
+- **Location S (Safe):**
+
+  $$
+  \text{Cost}_S = 20{,}000
+  $$
+
+- **Location F (Flood-prone, risk-based insurance):**
+
+  - Housing cost: $18{,}000$  
+  - Insurance premium: $10{,}000$  
+  $$
+  \text{Cost}_F = 18{,}000 + 10{,}000 = 28{,}000
+  $$
+
+3. **Cheaper location:**
+
+- Location S: $20{,}000$  
+- Location F: $28{,}000$  
+
+👉 With **risk-based premiums**, the safe location is clearly cheaper again.  
+A cost-minimizing homeowner would prefer **Location S**.
+
+4. **Comparison to part (b):**
+
+- With **subsidized premiums** (part b), F and S tie at $20{,}000$.  
+- With **risk-based premiums** (part c), F is much more expensive ($28{,}000$), so the homeowner is pushed toward S.
+
+:::
+
 <br>
+
+
 
 ## Part D. Moral hazard and NFIP policy
 
@@ -337,6 +500,39 @@ Answer in words (no new calculations needed):
 2. Explain how **risk-based premiums** (and measures like **premium discounts for elevating buildings or floodproofing**) could help **reduce moral hazard** in the NFIP.  
 3. Give one concrete policy idea for the NFIP (for example, a rule about rebuilding or premium discounts) that could **discourage risky behavior** while still helping people manage flood risk.
 
+
+
+
+::: {.callout-tip collapse="true"}
+#### Show answer
+
+1. **Subsidized NFIP premiums and moral hazard**
+
+- **Moral hazard**: When people take more risk because they do **not bear the full cost** of that risk.
+- With **subsidized NFIP premiums**, homeowners in flood-prone locations:
+  - Pay only $2{,}000$ instead of the true average damage of $10{,}000$.  
+  - Do not feel the full cost of living in a risky place.
+- As a result:
+  - More people may **choose to live in floodplains**.  
+  - People may **rebuild in the same risky place** after floods because insurance keeps paying.
+
+So subsidized NFIP can **encourage riskier location choices**, increasing total flood damages and program costs.
+
+---
+
+2. **Risk-based premiums and mitigation incentives**
+
+- **Risk-based premiums** make the homeowner pay a premium equal to the **true average flood risk**.  
+  - This makes high-risk locations **financially less attractive**.
+- **Mitigation incentives** (e.g., premium discounts for elevating houses, installing flood barriers, or for communities that improve drainage) can:
+  - **Reward risk reduction**  
+  - Encourage **safer building practices** and **better local flood management**.
+
+Together, these tools **reduce moral hazard** by making risky choices more expensive and safe choices cheaper.
+
+:::
+
+<br>
 
 
 
