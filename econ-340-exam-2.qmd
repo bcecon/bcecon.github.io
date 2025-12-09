@@ -912,9 +912,12 @@ Therefore, the strategy profile **(EU: Cooperate, India: Cooperate)** is a Nash 
 
 ::: {.callout-tip collapse="true"}
 ##### Show answer
-With CBAM, if India **Defects** while the EU Cooperates, it faces **carbon tariffs** that sharply reduce its payoff from exports to the EU. By **Cooperating**, India both avoids these tariffs and gains a higher net payoff, so it is now in India’s self-interest to adopt stronger climate policies.
+With CBAM, India’s incentives change because climate policy is now directly tied to **trade access and export profitability**. If India **Defects** while the EU **Cooperates**, Indian exporters face **carbon tariffs at the EU border**, which effectively raise the cost of India’s carbon-intensive goods such as steel in the EU market. These tariffs reduce export competitiveness, lower trade volumes, and shrink firm profits and national welfare. By instead choosing to **Cooperate**, India avoids these trade penalties, preserves access to the EU market, and signals regulatory alignment with EU climate standards. As a result, cooperation becomes India’s **self-interested best response under CBAM**, shifting its strategy from free-riding to active participation in global emissions reduction.
 
 :::
+
+
+
 
 
 <br>
@@ -928,7 +931,9 @@ With CBAM, if India **Defects** while the EU Cooperates, it faces **carbon tarif
 
 ::: {.callout-tip collapse="true"}
 ##### Show answer
-A key **benefit** of CBAM is that it helps **align trade incentives with climate goals**: countries that maintain weak climate policies face tariffs, which reduces their competitive advantage from lax regulation and encourages them to **raise their climate ambition**. This can also reduce **carbon leakage**, since production is less likely to shift to countries with weaker policies. However, a major **downside** is the risk of **trade tensions and political backlash**. Countries like India may view CBAM as a form of **green protectionism**, potentially leading to disputes in the WTO or retaliatory tariffs. CBAM may also impose disproportionate costs on **developing countries** with limited fiscal space and technological capacity to decarbonize quickly. If not carefully designed with climate finance, exemptions, or support mechanisms, CBAM could worsen perceptions of unfairness in the global climate regime, even as it strengthens economic incentives to cooperate.
+A key **benefit** of CBAM is that it helps **align trade incentives with climate goals**: countries that maintain weak climate policies face tariffs, which reduces their competitive advantage from lax regulation and encourages them to **raise their climate ambition**. This can also reduce **carbon leakage**, since production is less likely to shift to countries with weaker policies. 
+
+However, a major **downside** is the risk of **trade tensions and political backlash**. Countries like India may view CBAM as a form of **green protectionism**, potentially leading to disputes in the WTO or retaliatory tariffs. CBAM may also impose disproportionate costs on **developing countries** with limited fiscal space and technological capacity to decarbonize quickly. If not carefully designed with climate finance, exemptions, or support mechanisms, CBAM could worsen perceptions of unfairness in the global climate regime, even as it strengthens economic incentives to cooperate.
 
 :::
 
