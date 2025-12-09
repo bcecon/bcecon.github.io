@@ -344,9 +344,11 @@ Explain the concept of **bounded willpower** using the idea of **discount rates*
 ::: {.callout-tip collapse="true"}
 #### Show answer
 
-Under the standard model of **time-consistent rational discounting**, individuals use a constant discount rate over time, so their preferences between today and the future remain stable. **Bounded willpower**, however, is captured by **present-biased (time-inconsistent) discounting**, under which people apply a much higher discount rate to the **immediate** future than to later periods. This means they care far less today about payoffs that occur in the near future than about payoffs that occur further away in time. As a result, rewards available now feel much more attractive than future rewards, even when the future rewards are objectively larger and more important. This generates a strong tendency toward immediate gratification, leading to preference reversals and self-control problems over time.
+Under the standard model of **time-consistent rational discounting**, individuals use a constant discount rate over time, so their preferences between today and the future remain stable. **Bounded willpower**, however, is captured by **present-biased (time-inconsistent) discounting**, under which people apply a much higher discount rate to the **immediate** future than to later periods. This means people are much more impatient when comparing **now versus a short delay** (for example, **today versus next month**) than when comparing **two future dates** such as **one year versus thirteen months from now**. From today’s perspective, **immediate benefits** therefore feel much more valuable than any **delayed benefits**, even when the delayed benefits are objectively larger and more important. As a result, today’s self strongly favors immediate gratification, leading to preference reversals and self-control problems over time.
+
 
 :::
+
 
 
 <br>
