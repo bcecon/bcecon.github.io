@@ -437,7 +437,9 @@ where $r$ is the **social discount rate**, $\rho$ is the **pure rate of time pre
 
 ::: {.callout-tip collapse="true"}
 #### Show answer
-The choice of the social discount rate is an **economic decision** because it depends on expected **future economic growth**, the productivity of capital, and observed **market returns** on investment. Higher expected growth and higher returns imply a higher SDR and thus a lower present value of future climate damages. At the same time, the SDR is also an **ethical decision** because it reflects how much society values the welfare of **future generations** relative to the present. A high pure rate of time preference places less weight on people in the future simply because they are born later. A low SDR gives greater weight to long-run climate damages and emphasizes **intergenerational equity**. As a result, different ethical views about fairness across generations can lead to very different SCC estimates.
+The choice of the social discount rate is an **economic decision** because it depends on expected **future economic growth**, the productivity of capital, and observed **market returns** on investment. Higher expected growth and higher returns imply a higher SDR and thus a lower present value of future climate damages. 
+
+At the same time, the SDR is also an **ethical decision** because it reflects how much society values the welfare of **future generations** relative to the present. A high *pure rate of time preference* places less weight on people in the future simply because they are born later. A low SDR gives greater weight to long-run climate damages and emphasizes **intergenerational equity**. As a result, different ethical views about fairness across generations can lead to very different SCC estimates.
 
 :::
 

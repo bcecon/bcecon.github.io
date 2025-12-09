@@ -1,7 +1,7 @@
 ---
 title: Homework 5
 subtitle: Climate Adaptation
-date: 2025-12-09
+date: 2025-12-02
 from: markdown+emoji
 comments: false
 echo: false
@@ -54,6 +54,29 @@ df <- data.frame(
 ```
 
 
+
+## Homework Instructions
+
+- **No Generative AI**: You are **not** allowed to use generative AI tools for Homework Assignment 5.
+
+- **Deadline**: 
+  - Question 0: **Saturday, December 6, 2025, 11:59 PM**
+    - Copy the survey completion code and paste it to Brightspace.
+  - Questions 1-2: **Tuesday, December 9, 2025 at 5:00 PM**  
+    - Upload a screenshot (e.g., `.png`), PDF, or Word document to Brightspace.
+  
+<br>
+
+
+# Question 0. Survey on Environmental Economics
+
+- Please complete the **anonymous** [Survey on Environmental Economics](../survey-post.html){target="_blank"}.
+
+- After you submit the survey, a **completion code** will appear for 12 seconds on the screen.
+
+- Copy that code and paste it as a **comment** on your Homework 5 - Question 1 submission in Brightspace to receive participation credit.
+
+<br><br>
 
 
 # Question 1. Extreme Climate Risk, Uncertainty, and Policy
