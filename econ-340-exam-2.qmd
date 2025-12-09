@@ -416,7 +416,7 @@ The **Social Cost of Carbon (SCC)** is the present value of the **marginal globa
 #### Show answer
 A standard Ramsey formula for the social discount rate is  
 
-$ r = \rho + \eta g $
+$r = \rho + \eta g$
 
 where $r$ is the **social discount rate**, $\rho$ is the **pure rate of time preference**, $\eta$ is the **elasticity of marginal utility of consumption**, and $g$ is the **growth rate of per-capita consumption**. The first term reflects impatience or society’s preference for present consumption over future consumption. The second term captures how rising future income reduces the marginal value of additional consumption. Together, these components determine how future climate damages are discounted today.
 
